@@ -1,0 +1,829 @@
+{
+  "chapter_name": "Relations and Functions",
+  "board": "CBSE",
+  "class": "12",
+  "exam_year": "2026",
+  "formulas": [
+    {
+      "formula_number": 1,
+      "formula_title": "Reflexive Relation",
+      "section_A": {
+        "latex_formula": "$$ (a, a) \\in R \\text{ for every } a \\in A $$",
+        "derived_forms": [
+          "$$ aRa \\text{ for all } a \\in A $$"
+        ],
+        "special_cases": [
+          "$$ I_A \\subseteq R \\text{ (Identity relation is a subset)} $$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "To check if every individual element in a given set is related to itself.",
+        "trigger_keywords": [
+          "reflexive",
+          "related to itself",
+          "equivalence"
+        ],
+        "question_types": [
+          "MCQ",
+          "1_mark",
+          "2_mark"
+        ],
+        "common_mistakes": [
+          "Checking only for some elements of set A instead of ALL elements.",
+          "Confusing the identity relation (ONLY (a,a) allowed) with a reflexive relation ((a,a) required, others allowed)."
+        ],
+        "board_traps": [
+          "Providing a set A = {1, 2, 3} and relation R = {(1,1), (2,2), (1,3)} and asking if it is reflexive. It is NOT, because (3,3) is missing."
+        ],
+        "examiner_twist_pattern": "Defining a relation mathematically (e.g., |x-y| is even) and asking students to prove reflexivity by substituting y with x."
+      },
+      "section_C": {
+        "why_students_fail": "Failing to check the condition against the universal quantifier (for ALL elements 'a' belonging to set A).",
+        "how_to_think": "Every element needs a mirror image. If the set is {1,2,3}, I absolutely need (1,1), (2,2), and (3,3) in the relation. If even one is missing, reflexivity breaks.",
+        "thirty_second_strategy": "Identify the base set A. Scan the relation R to ensure every element 'x' from A has an (x,x) pair in R.",
+        "mental_shortcut": "Reflexive = Mirrors for everyone in the set.",
+        "micro_example": "Set A={1,2}. R={(1,1),(2,2),(1,2)} is reflexive. R={(1,1),(1,2)} is not."
+      }
+    },
+    {
+      "formula_number": 2,
+      "formula_title": "Symmetric Relation",
+      "section_A": {
+        "latex_formula": "$$ (a, b) \\in R \\implies (b, a) \\in R \\text{ for all } a, b \\in A $$",
+        "derived_forms": [
+          "$$ aRb \\implies bRa $$"
+        ],
+        "special_cases": [
+          "$$ R = R^{-1} $$",
+          "$$ \\text{Empty relation on a non-empty set is symmetric (vacuously).} $$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "To prove or disprove that a relation works in both directions.",
+        "trigger_keywords": [
+          "symmetric",
+          "commutative-like",
+          "vice versa"
+        ],
+        "question_types": [
+          "MCQ",
+          "2_mark",
+          "3_mark"
+        ],
+        "common_mistakes": [
+          "Assuming that if an element 'a' exists in set A but (a,b) is not in R, symmetry fails. Symmetry only checks pairs ALREADY existing in R."
+        ],
+        "board_traps": [
+          "Giving relations like 'x is a brother of y'. If x is y's brother, y could be a sister, making it not symmetric."
+        ],
+        "examiner_twist_pattern": "Using inequality relations (like a <= b) where symmetry mathematically fails to test counter-example generation.",
+        "why_students_fail": "Trying to prove symmetry for elements not present in the relation. It is an 'if-then' implication.",
+        "how_to_think": "For every ordered pair I see in R, does its exact reverse also exist in R? If I see (1,2), I must find (2,1).",
+        "thirty_second_strategy": "Scan the given relation pairs one by one. Swap the elements of each pair. If the swapped pair is also in the list, it is symmetric.",
+        "mental_shortcut": "Symmetric = Two-way street.",
+        "micro_example": "If R contains (1,2), it MUST contain (2,1). If R contains no distinct pairs, it's still symmetric."
+      }
+    },
+    {
+      "formula_number": 3,
+      "formula_title": "Transitive Relation",
+      "section_A": {
+        "latex_formula": "$$ (a, b) \\in R \\text{ and } (b, c) \\in R \\implies (a, c) \\in R \\text{ for all } a, b, c \\in A $$",
+        "derived_forms": [
+          "$$ aRb \\text{ and } bRc \\implies aRc $$"
+        ],
+        "special_cases": [
+          "$$ \\text{If } (a,b) \\in R \\text{ but no } (b,c) \\in R \\text{ exists, } R \\text{ is vacuously transitive.} $$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "Testing if a relational property transfers through an intermediary element.",
+        "trigger_keywords": [
+          "transitive",
+          "chain",
+          "equivalence"
+        ],
+        "question_types": [
+          "2_mark",
+          "3_mark",
+          "5_mark"
+        ],
+        "common_mistakes": [
+          "Declaring a relation non-transitive when the 'if' condition (a,b) and (b,c) isn't even met. It is vacuously transitive in that case."
+        ],
+        "board_traps": [
+          "Giving R={(1,2)}. Students say not transitive, but it IS transitive vacuously because there is no (2,c) to trigger the rule."
+        ],
+        "examiner_twist_pattern": "Testing geometric relations like 'L1 is perpendicular to L2' (not transitive) vs 'L1 is parallel to L2' (transitive).",
+        "why_students_fail": "Misunderstanding vacuous truth. The rule is only broken if you have the first two links of the chain but missing the final shortcut.",
+        "how_to_think": "Look for a domino effect. If element A connects to B, and B connects to C, does A connect directly to C?",
+        "thirty_second_strategy": "Find all pairs (a,b) and (b,c). If you find a chain, look for (a,c). If (a,c) is missing, NOT transitive. If no chains exist at all, it IS transitive.",
+        "mental_shortcut": "Transitive = Direct flight available.",
+        "micro_example": "R={(1,2), (2,3), (1,3)} is transitive. R={(1,2), (2,3)} is not, because (1,3) is missing."
+      }
+    },
+    {
+      "formula_number": 4,
+      "formula_title": "Equivalence Relation & Equivalence Class",
+      "section_A": {
+        "latex_formula": "$$ R \\text{ is an equivalence relation } \\iff R \\text{ is Reflexive, Symmetric, and Transitive} $$",
+        "derived_forms": [
+          "$$ [a] = \\{x \\in A : (x, a) \\in R\\} \\text{ (Equivalence Class)} $$"
+        ],
+        "special_cases": [
+          "$$ \\text{The Universal relation on a set is an equivalence relation.} $$",
+          "$$ \\text{The Identity relation on a set is an equivalence relation.} $$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "When asked to prove equivalence or partition a set into equivalence classes.",
+        "trigger_keywords": [
+          "equivalence relation",
+          "equivalence class",
+          "partition",
+          "related to"
+        ],
+        "question_types": [
+          "3_mark",
+          "5_mark",
+          "case_based"
+        ],
+        "common_mistakes": [
+          "Proving only two of the three properties and concluding it is an equivalence relation.",
+          "Writing the equivalence class as a single element instead of a set."
+        ],
+        "board_traps": [
+          "Asking for the equivalence class of an element, but students waste time proving equivalence instead of directly finding the class."
+        ],
+        "examiner_twist_pattern": "Connecting equivalence classes to set partitions (mutually disjoint subsets whose union is the original set).",
+        "why_students_fail": "Weakness in algebraic manipulation when proving transitivity for relations like 'a-b is a multiple of n'.",
+        "how_to_think": "Equivalence relations group similar items together into distinct, non-overlapping bins. An equivalence class is just the roster of one of those bins.",
+        "thirty_second_strategy": "Check R, S, and T systematically. If one fails, stop immediately. For class [a], find all 'x' that satisfy the relation with 'a'.",
+        "mental_shortcut": "Equivalence = RST (Reflexive + Symmetric + Transitive).",
+        "micro_example": "For relation a=b, [1] = {1}. For a-b is even, [1] = {1, 3, 5...} (all odd numbers)."
+      }
+    },
+    {
+      "formula_number": 5,
+      "formula_title": "One-One Function (Injective)",
+      "section_A": {
+        "latex_formula": "$$ f(x_1) = f(x_2) \\implies x_1 = x_2 \\text{ for all } x_1, x_2 \\in \\text{Domain} $$",
+        "derived_forms": [
+          "$$ x_1 \\neq x_2 \\implies f(x_1) \\neq f(x_2) $$"
+        ],
+        "special_cases": [
+          "$$ f'(x) > 0 \\text{ or } f'(x) < 0 \\text{ strictly on the domain implies one-one.} $$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "To mathematically prove that a function maps distinct inputs to distinct outputs.",
+        "trigger_keywords": [
+          "one-one",
+          "injective",
+          "distinct elements",
+          "unique images"
+        ],
+        "question_types": [
+          "MCQ",
+          "2_mark",
+          "3_mark"
+        ],
+        "common_mistakes": [
+          "Ignoring the domain. E.g., f(x)=x^2 is one-one on Natural numbers, but NOT on Integers."
+        ],
+        "board_traps": [
+          "Giving a trigonometric function or quadratic and testing if the student notices the restricted domain that makes it one-one."
+        ],
+        "examiner_twist_pattern": "Using modulus functions |x| or greatest integer functions [x] to test mapping visualization.",
+        "why_students_fail": "Testing specific numbers like f(1) and f(-1) without verifying if -1 is actually part of the given domain.",
+        "how_to_think": "Every element in the domain must have its own private output. No two inputs can share an output. If they share, it's many-one.",
+        "thirty_second_strategy": "Set f(x1) = f(x2). Algebraically solve for x1. If the ONLY valid solution within the domain is x1 = x2, it is one-one.",
+        "mental_shortcut": "Horizontal Line Test: If any horizontal line intersects the graph more than once, it is NOT one-one.",
+        "micro_example": "f(x) = 2x+3. 2x1+3 = 2x2+3 => 2x1 = 2x2 => x1=x2. Therefore, it is one-one."
+      }
+    },
+    {
+      "formula_number": 6,
+      "formula_title": "Onto Function (Surjective)",
+      "section_A": {
+        "latex_formula": "$$\\forall y \\in \\text{Codomain}, \\exists x \\in \\text{Domain} \\text{ such that } f(x) = y$$",
+        "derived_forms": [
+          "$$\\text{Range of } f = \\text{Codomain of } f$$"
+        ],
+        "special_cases": [
+          "$$\\text{If Domain and Codomain are finite and } n(Domain) < n(Codomain)\\text{, it can NEVER be onto.}$$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "To prove that every element in the target set (Codomain) is hit by at least one input.",
+        "trigger_keywords": [
+          "onto",
+          "surjective",
+          "pre-image",
+          "onto mapping"
+        ],
+        "question_types": [
+          "MCQ",
+          "2_mark",
+          "3_mark"
+        ],
+        "common_mistakes": [
+          "Finding the range but forgetting to explicitly state that Range = Codomain.",
+          "Assuming a function is onto just because the algebraic expression for 'x' in terms of 'y' can be found, without checking if 'x' actually belongs to the Domain."
+        ],
+        "board_traps": [
+          "Giving $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ defined by $f(x) = x^2$. Students solve $x = \\pm\\sqrt{y}$ and claim it's onto, ignoring that negative $y$ values have no real pre-image."
+        ],
+        "examiner_twist_pattern": "Restricting the codomain to deliberately make a non-onto function into an onto function (e.g., changing $\\mathbb{R} \\rightarrow \\mathbb{R}$ to $\\mathbb{R} \\rightarrow [0, \\infty)$)."
+      },
+      "section_C": {
+        "why_students_fail": "Failure to check the boundaries of the Domain and Codomain given in the question header.",
+        "how_to_think": "Think of the Codomain as a group of people and the Domain as a bunch of letters. For the function to be onto, every single person MUST receive at least one letter.",
+        "thirty_second_strategy": "1. Let $f(x) = y$. 2. Solve for $x$ in terms of $y$. 3. Ask yourself: 'For EVERY valid $y$ in the Codomain, does this formula give me an $x$ that legally lives in the Domain?'",
+        "mental_shortcut": "Onto = No empty seats in the Codomain.",
+        "micro_example": "$f: \\mathbb{N} \\rightarrow \\mathbb{N}$ where $f(x) = 2x$. Codomain is all natural numbers, but Range is only even numbers. Range $\\neq$ Codomain. Not onto."
+      }
+    },
+    {
+      "formula_number": 7,
+      "formula_title": "Bijective Function",
+      "section_A": {
+        "latex_formula": "$$f \\text{ is bijective} \\iff f \\text{ is injective (one-one) and surjective (onto)}$$",
+        "derived_forms": [
+          "$$n(A) = n(B) \\text{ is a necessary condition for finite sets to have a bijection.}$$"
+        ],
+        "special_cases": [
+          "$$\\text{All linear functions } f(x) = ax + b \\text{ (where } a \\neq 0\\text{) from } \\mathbb{R} \\rightarrow \\mathbb{R} \\text{ are bijective.}$$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "When asked to show a function establishes a perfect pairing between two sets.",
+        "trigger_keywords": [
+          "bijective",
+          "bijection",
+          "one-to-one correspondence",
+          "invertible (historical context)"
+        ],
+        "question_types": [
+          "3_mark",
+          "5_mark",
+          "case_based"
+        ],
+        "common_mistakes": [
+          "Proving one-one perfectly but writing 'similarly it is onto' without providing mathematical justification."
+        ],
+        "board_traps": [
+          "Giving rational functions like $f(x) = \\frac{x-2}{x-3}$. The trap is forgetting to account for the excluded points in the domain and codomain during the onto proof."
+        ],
+        "examiner_twist_pattern": "Asking to check bijectivity for piecewise functions or functions like $f(n) = n/2$ (if n is even) and $(n+1)/2$ (if n is odd).",
+        "why_students_fail": "Lack of structured presentation. Board examiners look for two distinct headings: 'For One-One' and 'For Onto'.",
+        "how_to_think": "It's a perfect dance. Every person in Room A has exactly one unique partner in Room B, and nobody in Room B is left sitting alone.",
+        "thirty_second_strategy": "Split the page. Left side: Prove $f(x_1) = f(x_2) \\implies x_1 = x_2$. Right side: Express $x$ as $g(y)$ and show $g(y) \\in$ Domain for all $y \\in$ Codomain.",
+        "mental_shortcut": "Bijective = Unique outputs AND full coverage.",
+        "micro_example": "$f: \\mathbb{R} \\rightarrow \\mathbb{R}$, $f(x) = 2x+1$. One-one because $2x_1+1=2x_2+1 \\implies x_1=x_2$. Onto because $x = \\frac{y-1}{2}$, which is always real."
+      }
+    },
+    {
+      "formula_number": 8,
+      "formula_title": "Total Number of Relations",
+      "section_A": {
+        "latex_formula": "$$\\text{Total Relations} = 2^{m \\times n}$$",
+        "derived_forms": [
+          "$$\\text{Where } n(A) = m \\text{ and } n(B) = n$$",
+          "$$\\text{Total Relations on set A (from A to A)} = 2^{n^2}$$"
+        ],
+        "special_cases": [
+          "$$\\text{Number of Non-Empty Relations} = 2^{mn} - 1$$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "MCQ questions asking for the count of possible relations between two finite sets.",
+        "trigger_keywords": [
+          "number of relations",
+          "possible relations",
+          "total subsets of A x B"
+        ],
+        "question_types": [
+          "MCQ",
+          "1_mark"
+        ],
+        "common_mistakes": [
+          "Calculating $m \\times n$ and stopping, forgetting to raise $2$ to that power.",
+          "Confusing 'Number of Relations' ($2^{mn}$) with 'Number of Functions' ($n^m$)."
+        ],
+        "board_traps": [
+          "Asking for 'number of non-empty relations' and students forgetting to subtract 1 for the null relation $\\phi$."
+        ],
+        "examiner_twist_pattern": "Giving elements indirectly, e.g., 'Set A is the roots of $x^2-5x+6=0$' to force students to find $m$ first.",
+        "why_students_fail": "Forgetting that a relation is fundamentally defined as a subset of the Cartesian product $A \\times B$.",
+        "how_to_think": "First, find how many pairs can be formed ($m \\times n$). Every pair acts like a light switch (inclusion/exclusion in a subset). So, 2 choices for each pair.",
+        "thirty_second_strategy": "Count elements in set A ($m$). Count elements in set B ($n$). Multiply them ($mn$). The answer is $2^{mn}$.",
+        "mental_shortcut": "Relations = $2^{\\text{Total Pairs}}$.",
+        "micro_example": "If $n(A) = 3$ and $n(B) = 2$, total pairs = 6. Total relations = $2^6 = 64$."
+      }
+    },
+    {
+      "formula_number": 9,
+      "formula_title": "Total Number of Functions",
+      "section_A": {
+        "latex_formula": "$$\\text{Total Functions} = n^m$$",
+        "derived_forms": [
+          "$$\\text{Where } n(A) = m \\text{ (Domain) and } n(B) = n \\text{ (Codomain)}$$"
+        ],
+        "special_cases": [
+          "$$\\text{Total functions from A to A} = n^n$$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "When asked how many distinct mappings are possible from set A to set B.",
+        "trigger_keywords": [
+          "number of functions",
+          "total mappings",
+          "possible functions"
+        ],
+        "question_types": [
+          "MCQ",
+          "1_mark"
+        ],
+        "common_mistakes": [
+          "Flipping the base and exponent (calculating $m^n$ instead of $n^m$). Domain size is the exponent."
+        ],
+        "board_traps": [
+          "Giving $n(A) = 0$ (empty set). Number of functions is $n^0 = 1$ (the empty function), which confuses students."
+        ],
+        "examiner_twist_pattern": "Combining with permutations, or asking for the probability that a randomly formed relation is a function.",
+        "why_students_fail": "Memorizing the formula blindly without understanding the fundamental principle of counting.",
+        "how_to_think": "Every single element in the Domain ($m$ elements) gets to choose EXACTLY one target from the Codomain ($n$ elements). Element 1 has $n$ choices, AND Element 2 has $n$ choices...",
+        "thirty_second_strategy": "Identify Domain size ($m$). Identify Codomain size ($n$). Formula is $(\\text{Codomain Size})^{(\\text{Domain Size})}$.",
+        "mental_shortcut": "Functions = $\\text{Target}^{\\text{Source}}$.",
+        "micro_example": "$A = \\{1, 2, 3\\}$, $B = \\{a, b\\}$. Target size=2, Source size=3. Total functions = $2^3 = 8$."
+      }
+    },
+    {
+      "formula_number": 10,
+      "formula_title": "Total Number of One-One and Bijective Functions",
+      "section_A": {
+        "latex_formula": "$$\\text{One-One Functions} = \\begin{cases} ^nP_m & \\text{if } n \\geq m \\\\ 0 & \\text{if } m > n \\end{cases}$$",
+        "derived_forms": [
+          "$$\\text{Bijective Functions} = \\begin{cases} n! & \\text{if } m = n \\\\ 0 & \\text{if } m \\neq n \\end{cases}$$"
+        ],
+        "special_cases": [
+          "$$^nP_m = \\frac{n!}{(n-m)!}$$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "To find the count of injective mappings or bijections between finite sets.",
+        "trigger_keywords": [
+          "number of one-one functions",
+          "number of bijections",
+          "injective mappings count"
+        ],
+        "question_types": [
+          "MCQ",
+          "1_mark"
+        ],
+        "common_mistakes": [
+          "Applying $^nP_m$ even when $m > n$ (which mathematically yields 0, but students try to force a calculation)."
+        ],
+        "board_traps": [
+          "Asking for number of bijections when $n(A) \\neq n(B)$. The answer is instantly 0, but students waste time calculating."
+        ],
+        "examiner_twist_pattern": "Testing number of onto functions (surjections), which requires the more complex Principle of Inclusion-Exclusion formula.",
+        "why_students_fail": "Weak foundation in Permutations from Class 11.",
+        "how_to_think": "For one-one: Element 1 has $n$ choices. Element 2 cannot pick what Element 1 picked, so it has $(n-1)$ choices. This is the definition of permutations.",
+        "thirty_second_strategy": "Check sizes. If Domain is bigger than Codomain, one-one functions = 0. If equal, bijections = $n!$. If Codomain is bigger, use $^nP_m$.",
+        "mental_shortcut": "One-One = Arrangement without repetition ($P$).",
+        "micro_example": "From $A=\\{1,2\\}$ to $B=\\{a,b,c\\}$. $m=2, n=3$. One-one functions = $^3P_2 = 6$. Bijections = 0."
+      }
+    },
+    {
+      "formula_number": 11,
+      "formula_title": "Composition of Functions",
+      "section_A": {
+        "latex_formula": "$$(g \\circ f)(x) = g(f(x))$$",
+        "derived_forms": [
+          "$$f \\circ g(x) = f(g(x))$$"
+        ],
+        "special_cases": [
+          "$$f \\circ I_X = f \\text{ and } I_Y \\circ f = f$$",
+          "$$(h \\circ g) \\circ f = h \\circ (g \\circ f) \\text{ (Associativity)}$$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "When passing the output of one function directly as the input into another function.",
+        "trigger_keywords": [
+          "gof",
+          "fog",
+          "composition",
+          "composite function"
+        ],
+        "question_types": [
+          "2_mark",
+          "3_mark"
+        ],
+        "common_mistakes": [
+          "Calculating $f(g(x))$ when asked for $gof(x)$. $gof(x)$ means $g(f(x))$.",
+          "Assuming $g \\circ f = f \\circ g$. Composition is generally NOT commutative."
+        ],
+        "board_traps": [
+          "Asking for the domain of $gof$. Students only check the domain of $g$, forgetting that $x$ must first be valid for $f$, and $f(x)$ must be valid for $g$."
+        ],
+        "examiner_twist_pattern": "Giving $f(x)$ and asking to find $f(f(x))$ recursively until a pattern emerges (like $f(f(f(x))) = x$)."
+      },
+      "section_C": {
+        "why_students_fail": "Losing track of the inner vs. outer function during algebraic substitution.",
+        "how_to_think": "Think of it as a factory assembly line. Raw material $x$ goes into Machine F. The partially finished product $f(x)$ then goes into Machine G to get the final product $g(f(x))$.",
+        "thirty_second_strategy": "Write the outer function with large empty parentheses wherever 'x' used to be. Then, copy and paste the entire inner function's expression into those empty parentheses.",
+        "mental_shortcut": "$gof$ = Plug $f$ inside $g$.",
+        "micro_example": "If $f(x) = 2x$ and $g(x) = x+3$, then $gof(x) = g(2x) = (2x)+3$."
+      }
+    },
+    {
+      "formula_number": 12,
+      "formula_title": "Invertible Function & Inverse",
+      "section_A": {
+        "latex_formula": "$$f \\text{ is invertible} \\iff f \\text{ is bijective (One-One and Onto)}$$",
+        "derived_forms": [
+          "$$f \\circ f^{-1} = I_Y \\text{ and } f^{-1} \\circ f = I_X$$",
+          "$$y = f(x) \\iff x = f^{-1}(y)$$"
+        ],
+        "special_cases": [
+          "$$(f^{-1})^{-1} = f$$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "When asked to prove a function is invertible or to find its inverse.",
+        "trigger_keywords": [
+          "invertible",
+          "find the inverse",
+          "f inverse"
+        ],
+        "question_types": [
+          "3_mark",
+          "5_mark"
+        ],
+        "common_mistakes": [
+          "Finding the inverse algebraically without first proving the function is bijective (loses 2 marks).",
+          "Leaving the final inverse function in terms of $y$ instead of swapping back to $x$ at the end."
+        ],
+        "board_traps": [
+          "Giving quadratic functions restricted to a specific domain (like $[0, \\infty)$). Students forget to reject the negative root when solving for $x$ in terms of $y$."
+        ],
+        "examiner_twist_pattern": "Asking to find the inverse of a rational function like $f(x) = \\frac{4x+3}{6x-4}$ and showing that $f = f^{-1}$."
+      },
+      "section_C": {
+        "why_students_fail": "Struggling with the algebraic manipulation required to isolate $x$ when $y = f(x)$ is a complex fraction or quadratic.",
+        "how_to_think": "An inverse function is just hitting the 'undo' button. If $f$ turns 2 into 10, $f^{-1}$ must turn 10 back into 2. To have a perfect undo button, the original mapping must be one-to-one and onto.",
+        "thirty_second_strategy": "1. Prove one-one. 2. Prove onto. 3. Set $f(x) = y$. 4. Solve purely for $x$. 5. Replace $x$ with $f^{-1}(x)$ and $y$ with $x$.",
+        "mental_shortcut": "Inverse = Swap $x$ and $y$, then solve for $y$.",
+        "micro_example": "$y = 3x-4 \\implies 3x = y+4 \\implies x = \\frac{y+4}{3}$. So, $f^{-1}(x) = \\frac{x+4}{3}$."
+      }
+    },
+    {
+      "formula_number": 13,
+      "formula_title": "Reversal Law of Inverses",
+      "section_A": {
+        "latex_formula": "$$(g \\circ f)^{-1} = f^{-1} \\circ g^{-1}$$",
+        "derived_forms": [
+          "$$(f \\circ g)^{-1} = g^{-1} \\circ f^{-1}$$"
+        ],
+        "special_cases": [
+          "$$\\text{If } f \\text{ and } g \\text{ are invertible, then } g \\circ f \\text{ is also invertible.}$$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "When proving properties of composite inverses or simplifying expressions involving the inverse of a composite function.",
+        "trigger_keywords": [
+          "inverse of gof",
+          "prove that (gof)^-1",
+          "reversal law"
+        ],
+        "question_types": [
+          "2_mark",
+          "3_mark"
+        ],
+        "common_mistakes": [
+          "Distributing the inverse sign without swapping the order: incorrectly writing $(gof)^{-1} = g^{-1} o f^{-1}$."
+        ],
+        "board_traps": [
+          "Asking to verify the theorem for two given functions. Students calculate the LHS correctly but mess up the composition of the inverses on the RHS."
+        ],
+        "examiner_twist_pattern": "Giving $f$ and $g$ via sets of ordered pairs instead of algebraic formulas, forcing students to manually trace the reverse mappings."
+      },
+      "section_C": {
+        "why_students_fail": "Forgetting the order swap, similar to the transpose property of matrices $(AB)^T = B^T A^T$.",
+        "how_to_think": "If you put on your socks (f) and then your shoes (g), to reverse the process, you must FIRST take off your shoes ($g^{-1}$) and THEN take off your socks ($f^{-1}$).",
+        "thirty_second_strategy": "To find the inverse of a chain of functions, invert each individual function and completely reverse their sequence.",
+        "mental_shortcut": "Socks and Shoes rule: Reverse the order when inverting.",
+        "micro_example": "If $f(x)=x+1$ and $g(x)=2x$. $(gof)(x) = 2(x+1)$. Its inverse is $\\frac{x}{2}-1$. $f^{-1}(x)=x-1$, $g^{-1}(x)=\\frac{x}{2}$. $f^{-1}(g^{-1}(x)) = \\frac{x}{2}-1$. They match."
+      }
+    },
+  
+
+    
+    {
+      "trend_analysis": {
+        "dominant_concepts_from_pyqs": [
+          "Proving Equivalence Relations",
+          "Finding Equivalence Classes",
+          "Checking Injectivity (One-One) and Surjectivity (Onto)",
+          "Bijective Functions involving rational expressions",
+          "Counter-examples for Transitivity and Symmetry",
+          "Injectivity and Surjectivity of Piecewise Functions",
+          "Standard Non-Bijective Functions (Modulus, GIF)"
+        ],
+        "question_patterns_seen": [
+          "Long answer questions proving a relation is an equivalence relation and finding elements related to a specific element.",
+          "2-mark or 3-mark questions checking if a function is bijective.",
+          "MCQs based on identifying the type of relation from a roster form set.",
+          "Counter-example based proofs for relations that are not reflexive, symmetric, or transitive.",
+          "2-mark questions involving Greatest Integer Function or Modulus function.",
+          "3-mark questions asking to check the bijectivity of conditional/piecewise functions defined on Natural numbers.",
+          "3-mark counter-example proofs for relations involving powers (e.g., cubes or squares)."
+        ]
+      },
+      "high_leverage_ncert_questions": [
+        {
+          "question_id": 1,
+          "ncert_reference": {
+            "exercise": "1.1",
+            "question_number": "8"
+          },
+          "question_text": "Show that the relation $$ R $$ in the set $$ A = \\{1, 2, 3, 4, 5\\} $$ given by $$ R = \\{(a, b) : |a - b| \\text{ is even}\\} $$ is an equivalence relation. Show that all the elements of $$ \\{1, 3, 5\\} $$ are related to each other and all the elements of $$ \\{2, 4\\} $$ are related to each other. But no element of $$ \\{1, 3, 5\\} $$ is related to any element of $$ \\{2, 4\\} $$.",
+          "concepts_tested": [
+            "Equivalence Relation",
+            "Equivalence Classes"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Moderate",
+          "topper_solution": {
+            "step_1": "Reflexive: Let $$ a \\in A $$. $$ |a - a| = 0 $$, which is even. So, $$ (a, a) \\in R $$. Therefore, $$ R $$ is reflexive.",
+            "step_2": "Symmetric: Let $$ (a, b) \\in R \\implies |a - b| \\text{ is even} \\implies |-(b - a)| \\text{ is even} \\implies |b - a| \\text{ is even} \\implies (b, a) \\in R $$. Therefore, $$ R $$ is symmetric.",
+            "step_3": "Transitive: Let $$ (a, b) \\in R $$ and $$ (b, c) \\in R $$. This means $$ a - b $$ is even and $$ b - c $$ is even. Summing them: $$ (a - b) + (b - c) = a - c $$ is even. Thus, $$ |a - c| $$ is even $$ \\implies (a, c) \\in R $$. Since $$ R $$ is reflexive, symmetric, and transitive, it is an equivalence relation.",
+            "step_4": "For subsets: The difference between any two odd numbers is even, so all elements of $$ \\{1, 3, 5\\} $$ are related. Similarly, the difference between any two even numbers is even, so $$ \\{2, 4\\} $$ are related. An odd minus an even is odd, hence elements of $$ \\{1, 3, 5\\} $$ are not related to $$ \\{2, 4\\} $$."
+          },
+          "board_writing_tip": "Always declare the arbitrary elements you are using, e.g., 'Let $$ a, b, c \\in A $$'. Break down the transitivity step by removing the absolute value to show the sum is even.",
+          "common_student_mistakes": [
+            "Failing to properly justify the transition from $$ |a-b| $$ and $$ |b-c| $$ to $$ |a-c| $$ being even.",
+            "Skipping the second part of the question regarding equivalence classes."
+          ],
+          "estimated_time_seconds": "480"
+        },
+        {
+          "question_id": 2,
+          "ncert_reference": {
+            "exercise": "1.1",
+            "question_number": "9(i)"
+          },
+          "question_text": "Show that each of the relation $$ R $$ in the set $$ A = \\{x \\in \\mathbb{Z} : 0 \\leq x \\leq 12\\} $$, given by $$ R = \\{(a, b) : |a - b| \\text{ is a multiple of } 4\\} $$ is an equivalence relation. Find the set of all elements related to 1.",
+          "concepts_tested": [
+            "Equivalence Relation",
+            "Equivalence Classes"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Moderate",
+          "topper_solution": {
+            "step_1": "Reflexive: For any $$ a \\in A $$, $$ |a - a| = 0 $$, which is a multiple of 4 ($$ 0 = 4 \\times 0 $$). Hence, $$ (a, a) \\in R $$.",
+            "step_2": "Symmetric: Let $$ (a, b) \\in R $$. Then $$ |a - b| = 4k $$ for some integer $$ k $$. This implies $$ |b - a| = 4k $$, so $$ (b, a) \\in R $$.",
+            "step_3": "Transitive: Let $$ (a, b) \\in R $$ and $$ (b, c) \\in R $$. Then $$ a - b = \\pm 4k_1 $$ and $$ b - c = \\pm 4k_2 $$. Adding them gives $$ a - c = \\pm 4(k_1 \\pm k_2) $$, which is a multiple of 4. So $$ (a, c) \\in R $$. Thus, $$ R $$ is an equivalence relation.",
+            "step_4": "Elements related to 1 are those $$ x \\in A $$ such that $$ |x - 1| $$ is a multiple of 4. These are $$ x = 1, 5, 9 $$. So the required set is $$ \\{1, 5, 9\\} $$."
+          },
+          "board_writing_tip": "Explicitly state the integer multiplier $$ k $$ when writing 'multiple of 4' to make the proof mathematically rigorous.",
+          "common_student_mistakes": [
+            "Assuming that $$ 0 $$ is not a multiple of 4, thus failing to prove reflexivity.",
+            "Forgetting that the set $$ A $$ restricts the equivalence class to elements within $$ 0 \\leq x \\leq 12 $$."
+          ],
+          "estimated_time_seconds": "420"
+        },
+        {
+          "question_id": 3,
+          "ncert_reference": {
+            "exercise": "1.1",
+            "question_number": "2"
+          },
+          "question_text": "Show that the relation $$ R $$ in the set $$ \\mathbb{R} $$ of real numbers, defined as $$ R = \\{(a, b) : a \\leq b^2\\} $$ is neither reflexive nor symmetric nor transitive.",
+          "concepts_tested": [
+            "Reflexivity, Symmetry, Transitivity",
+            "Counter-examples in Real Numbers"
+          ],
+          "repeat_probability_2026": "Medium",
+          "difficulty_level": "Board-Tricky",
+          "topper_solution": {
+            "step_1": "Not Reflexive: Consider $$ a = \\frac{1}{2} $$. Since $$ \\frac{1}{2} \\not\\leq \\left(\\frac{1}{2}\\right)^2 = \\frac{1}{4} $$, $$ \\left(\\frac{1}{2}, \\frac{1}{2}\\right) \\notin R $$.",
+            "step_2": "Not Symmetric: Consider $$ a = 1, b = 4 $$. Here $$ 1 \\leq 4^2 $$ (16), so $$ (1, 4) \\in R $$. But $$ 4 \\not\\leq 1^2 $$ (1), so $$ (4, 1) \\notin R $$.",
+            "step_3": "Not Transitive: Consider $$ a = 3, b = 2, c = 1.5 $$. Here $$ 3 \\leq 2^2 $$ (4) and $$ 2 \\leq 1.5^2 $$ (2.25), so $$ (3, 2) \\in R $$ and $$ (2, 1.5) \\in R $$. However, $$ 3 \\not\\leq 1.5^2 $$ (2.25), so $$ (3, 1.5) \\notin R $$."
+          },
+          "board_writing_tip": "When proving a relation is 'neither', always use specific numerical counter-examples. Do not attempt to prove it algebraically with variables.",
+          "common_student_mistakes": [
+            "Trying to prove the negative using general variables $$ a, b, c $$ instead of providing a counter-example.",
+            "Using integers instead of fractions to check reflexivity, incorrectly concluding it is reflexive because $$ 2 \\leq 2^2 $$."
+          ],
+          "estimated_time_seconds": "300"
+        },
+        {
+          "question_id": 4,
+          "ncert_reference": {
+            "exercise": "1.2",
+            "question_number": "10"
+          },
+          "question_text": "Let $$ A = \\mathbb{R} - \\{3\\} $$ and $$ B = \\mathbb{R} - \\{1\\} $$. Consider the function $$ f : A \\rightarrow B $$ defined by $$ f(x) = \\frac{x - 2}{x - 3} $$. Is $$ f $$ one-one and onto? Justify your answer.",
+          "concepts_tested": [
+            "Injective Function (One-One)",
+            "Surjective Function (Onto)"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Moderate",
+          "topper_solution": {
+            "step_1": "One-one check: Let $$ f(x_1) = f(x_2) $$. Then $$ \\frac{x_1 - 2}{x_1 - 3} = \\frac{x_2 - 2}{x_2 - 3} $$. Cross multiplying: $$ (x_1 - 2)(x_2 - 3) = (x_2 - 2)(x_1 - 3) $$.",
+            "step_2": "$$ x_1 x_2 - 3x_1 - 2x_2 + 6 = x_1 x_2 - 3x_2 - 2x_1 + 6 $$. Simplifying gives $$ -x_1 = -x_2 \\implies x_1 = x_2 $$. Hence, $$ f $$ is one-one.",
+            "step_3": "Onto check: Let $$ y \\in B $$, so $$ y \\neq 1 $$. Let $$ y = \\frac{x - 2}{x - 3} $$. Expressing $$ x $$ in terms of $$ y $$: $$ y(x - 3) = x - 2 \\implies xy - 3y = x - 2 \\implies x(y - 1) = 3y - 2 \\implies x = \\frac{3y - 2}{y - 1} $$.",
+            "step_4": "Since $$ y \\neq 1 $$, $$ x $$ is a well-defined real number. Also, to check if $$ x \\in A $$, if $$ x = 3 \\implies \\frac{3y - 2}{y - 1} = 3 \\implies 3y - 2 = 3y - 3 \\implies -2 = -3 $$, which is impossible. Thus $$ x \\in A $$. Since for every $$ y \\in B $$, there exists $$ x \\in A $$ such that $$ f(x) = y $$, $$ f $$ is onto."
+          },
+          "board_writing_tip": "For onto proofs involving rational functions, explicitly show that the calculated $$ x $$ belongs to the domain by proving the denominator does not make it undefined and $$ x $$ does not equal the excluded value of the domain.",
+          "common_student_mistakes": [
+            "Forgetting to verify that $$ x $$ calculated for onto proof actually belongs to the domain $$ A $$.",
+            "Making algebraic sign errors during cross-multiplication for injectivity."
+          ],
+          "estimated_time_seconds": "480"
+        },
+        {
+          "question_id": 5,
+          "ncert_reference": {
+            "exercise": "1.2",
+            "question_number": "7"
+          },
+          "question_text": "In each of the following cases, state whether the function is one-one, onto or bijective. Justify your answer. (i) $$ f : \\mathbb{R} \\rightarrow \\mathbb{R} $$ defined by $$ f(x) = 3 - 4x $$ (ii) $$ f : \\mathbb{R} \\rightarrow \\mathbb{R} $$ defined by $$ f(x) = 1 + x^2 $$",
+          "concepts_tested": [
+            "Bijective Functions",
+            "Counter-examples for onto/one-one"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Easy",
+          "topper_solution": {
+            "step_1": "(i) For one-one: Let $$ f(x_1) = f(x_2) $$. Then $$ 3 - 4x_1 = 3 - 4x_2 \\implies -4x_1 = -4x_2 \\implies x_1 = x_2 $$. Thus, one-one. For onto: Let $$ y \\in \\mathbb{R} $$. Let $$ y = 3 - 4x \\implies 4x = 3 - y \\implies x = \\frac{3 - y}{4} $$. Since $$ \\frac{3 - y}{4} \\in \\mathbb{R} $$ for all $$ y \\in \\mathbb{R} $$, it is onto. So, bijective.",
+            "step_2": "(ii) For one-one: $$ f(1) = 1 + 1^2 = 2 $$ and $$ f(-1) = 1 + (-1)^2 = 2 $$. Since $$ f(1) = f(-1) $$ but $$ 1 \\neq -1 $$, it is not one-one.",
+            "step_3": "(ii) For onto: The range of $$ 1 + x^2 $$ is $$ [1, \\infty) $$. Let $$ y = -2 \\in \\mathbb{R} $$ (codomain). There is no real $$ x $$ such that $$ 1 + x^2 = -2 \\implies x^2 = -3 $$. Thus, not onto. Hence, neither one-one nor onto."
+          },
+          "board_writing_tip": "If a function is not one-one or not onto, providing a single clear counter-example is sufficient and preferred over general proofs.",
+          "common_student_mistakes": [
+            "Trying to prove $$ f(x) = 1 + x^2 $$ is not one-one algebraically by writing $$ x_1^2 = x_2^2 \\implies x_1 = \\pm x_2 $$ without concluding properly.",
+            "Confusing the domain and codomain sets (e.g., if it were $$ \\mathbb{N} \\to \\mathbb{N} $$, part (i) would not be onto)."
+          ],
+          "estimated_time_seconds": "360"
+        },
+        {
+          "question_id": 6,
+          "ncert_reference": {
+            "exercise": "1.1",
+            "question_number": "15"
+          },
+          "question_text": "Let $$ R $$ be the relation in the set $$ \\{1, 2, 3, 4\\} $$ given by $$ R = \\{(1, 2), (2, 2), (1, 1), (4, 4), (1, 3), (3, 3), (3, 2)\\} $$. Choose the correct answer regarding its reflexivity, symmetry, and transitivity.",
+          "concepts_tested": [
+            "Identifying Reflexive, Symmetric, Transitive Relations from Roster Form"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Easy",
+          "topper_solution": {
+            "step_1": "Check reflexivity: The set is $$ \\{1, 2, 3, 4\\} $$. $$ (1, 1), (2, 2), (3, 3), (4, 4) $$ are all present in $$ R $$. So, $$ R $$ is reflexive.",
+            "step_2": "Check symmetry: $$ (1, 2) \\in R $$, but $$ (2, 1) \\notin R $$. So, $$ R $$ is not symmetric.",
+            "step_3": "Check transitivity: We check pairs. $$ (1, 3) \\in R $$ and $$ (3, 2) \\in R $$. For transitivity, $$ (1, 2) $$ must be in $$ R $$, which is true. Checking all such valid pairs confirms $$ R $$ is transitive.",
+            "step_4": "Conclusion: $$ R $$ is reflexive and transitive but not symmetric."
+          },
+          "board_writing_tip": "For MCQs, mentally verify each condition or scribble short counter-examples in rough work. Don't waste time writing full theoretical proofs.",
+          "common_student_mistakes": [
+            "Incorrectly identifying transitivity because a pair like $$ (3, 2) $$ does not have a subsequent pair starting with 2 (except $$ (2, 2) $$) to violate the condition, forgetting that if $$ (a, b) \\in R $$ and no $$ (b, c) \\in R $$ exists, transitivity is not violated for that element."
+          ],
+          "estimated_time_seconds": "120"
+        },
+        {
+          "question_id": 7,
+          "ncert_reference": {
+            "exercise": "1.1",
+            "question_number": "5"
+          },
+          "question_text": "Check whether the relation $$ R $$ in $$ \\mathbb{R} $$ defined by $$ R = \\{(a, b) : a \\leq b^3\\} $$ is reflexive, symmetric or transitive.",
+          "concepts_tested": [
+            "Reflexivity, Symmetry, Transitivity",
+            "Counter-examples using fractions and negative numbers"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Board-Tricky",
+          "topper_solution": {
+            "step_1": "Reflexivity: Let $$ a = \\frac{1}{2} $$. We know that $$ \\frac{1}{2} \\not\\leq \\left(\\frac{1}{2}\\right)^3 = \\frac{1}{8} $$. Therefore, $$ \\left(\\frac{1}{2}, \\frac{1}{2}\\right) \\notin R $$. So, $$ R $$ is not reflexive.",
+            "step_2": "Symmetry: Let $$ a = 1, b = 2 $$. We have $$ 1 \\leq 2^3 $$ (i.e., $$ 1 \\leq 8 $$), so $$ (1, 2) \\in R $$. But $$ 2 \\not\\leq 1^3 $$ (i.e., $$ 2 \\not\\leq 1 $$), so $$ (2, 1) \\notin R $$. So, $$ R $$ is not symmetric.",
+            "step_3": "Transitivity: Let $$ a = 3, b = \\frac{3}{2}, c = \\frac{6}{5} $$. Here $$ 3 \\leq \\left(\\frac{3}{2}\\right)^3 $$ (i.e., $$ 3 \\leq 3.375 $$) implies $$ \\left(3, \\frac{3}{2}\\right) \\in R $$. Also, $$ \\frac{3}{2} \\leq \\left(\\frac{6}{5}\\right)^3 $$ (i.e., $$ 1.5 \\leq 1.728 $$) implies $$ \\left(\\frac{3}{2}, \\frac{6}{5}\\right) \\in R $$. However, $$ 3 \\not\\leq \\left(\\frac{6}{5}\\right)^3 $$ (i.e., $$ 3 \\not\\leq 1.728 $$), so $$ \\left(3, \\frac{6}{5}\\right) \\notin R $$. So, $$ R $$ is not transitive."
+          },
+          "board_writing_tip": "The transitivity counter-example for this specific question is famously difficult to invent on the spot during the exam. Memorize a simple counter-example set like $$ (3, 1.5, 1.2) $$ or $$ (10, 3, 2) $$.",
+          "common_student_mistakes": [
+            "Incorrectly assuming it is transitive because they only test integer values where it often holds true.",
+            "Failing to explicitly state the calculated cube values to prove the inequality fails."
+          ],
+          "estimated_time_seconds": "300"
+        },
+        {
+          "question_id": 8,
+          "ncert_reference": {
+            "exercise": "1.2",
+            "question_number": "9"
+          },
+          "question_text": "Let $$ f: \\mathbb{N} \\rightarrow \\mathbb{N} $$ be defined by $$ f(n) = \\frac{n+1}{2} $$ if $$ n $$ is odd, and $$ f(n) = \\frac{n}{2} $$ if $$ n $$ is even for all $$ n \\in \\mathbb{N} $$. State whether the function $$ f $$ is bijective. Justify your answer.",
+          "concepts_tested": [
+            "Piecewise Functions",
+            "Injectivity (One-One) via counter-example",
+            "Surjectivity (Onto) via case analysis"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Moderate",
+          "topper_solution": {
+            "step_1": "One-one check: Let $$ n_1 = 1 $$ (odd) and $$ n_2 = 2 $$ (even). Then $$ f(1) = \\frac{1+1}{2} = 1 $$ and $$ f(2) = \\frac{2}{2} = 1 $$. Since $$ f(1) = f(2) $$ but $$ 1 \\neq 2 $$, the function $$ f $$ is many-one, not one-one.",
+            "step_2": "Onto check: Let $$ y \\in \\mathbb{N} $$ (codomain). We need to find if there exists an $$ n \\in \\mathbb{N} $$ (domain) such that $$ f(n) = y $$.",
+            "step_3": "If we take $$ n = 2y $$, which is always an even natural number since $$ y \\in \\mathbb{N} $$. Then according to the definition, $$ f(n) = f(2y) = \\frac{2y}{2} = y $$.",
+            "step_4": "Since for every $$ y \\in \\mathbb{N} $$, there exists a pre-image $$ 2y \\in \\mathbb{N} $$, the function is onto. Conclusion: Since it is not one-one, $$ f $$ is not bijective."
+          },
+          "board_writing_tip": "Always check injectivity with small numbers first. If you find a single collision (like 1 and 2), you can immediately declare it not one-one and save time on algebra.",
+          "common_student_mistakes": [
+            "Attempting to prove one-one using general variables $$ n_1, n_2 $$ and getting confused by the odd/even cases.",
+            "Declaring it is not onto just because it's not one-one."
+          ],
+          "estimated_time_seconds": "360"
+        },
+        {
+          "question_id": 9,
+          "ncert_reference": {
+            "exercise": "1.2",
+            "question_number": "3"
+          },
+          "question_text": "Prove that the Greatest Integer Function $$ f: \\mathbb{R} \\rightarrow \\mathbb{R} $$, given by $$ f(x) = [x] $$, is neither one-one nor onto, where $$ [x] $$ denotes the greatest integer less than or equal to $$ x $$.",
+          "concepts_tested": [
+            "Greatest Integer Function",
+            "Properties of Non-Bijective Functions"
+          ],
+          "repeat_probability_2026": "Medium",
+          "difficulty_level": "Easy",
+          "topper_solution": {
+            "step_1": "Not One-One: Let $$ x_1 = 1.2 $$ and $$ x_2 = 1.8 $$. Both belong to the domain $$ \\mathbb{R} $$.",
+            "step_2": "$$ f(1.2) = [1.2] = 1 $$ and $$ f(1.8) = [1.8] = 1 $$. Since $$ f(1.2) = f(1.8) $$ but $$ 1.2 \\neq 1.8 $$, $$ f $$ is not one-one.",
+            "step_3": "Not Onto: Let $$ y = 0.5 $$. Here, $$ y \\in \\mathbb{R} $$ (the codomain).",
+            "step_4": "By definition, $$ [x] $$ always outputs an integer. There is no real value of $$ x $$ such that $$ [x] = 0.5 $$. Therefore, 0.5 has no pre-image in the domain $$ \\mathbb{R} $$. Thus, $$ f $$ is not onto."
+          },
+          "board_writing_tip": "Keep the counter-examples simple. Standard non-integer decimal values perfectly demonstrate the many-one and into nature of the GIF.",
+          "common_student_mistakes": [
+            "Overcomplicating the proof by using theoretical definitions of the Greatest Integer Function instead of clear numeric examples."
+          ],
+          "estimated_time_seconds": "240"
+        },
+        {
+          "question_id": 10,
+          "ncert_reference": {
+            "exercise": "1.1",
+            "question_number": "7"
+          },
+          "question_text": "Show that the relation $$ R $$ in the set $$ A $$ of all the books in a library of a college, given by $$ R = \\{(x, y) : x \\text{ and } y \\text{ have same number of pages}\\} $$ is an equivalence relation.",
+          "concepts_tested": [
+            "Equivalence Relation",
+            "Theoretical/Word-based Relations"
+          ],
+          "repeat_probability_2026": "Medium",
+          "difficulty_level": "Easy",
+          "topper_solution": {
+            "step_1": "Reflexive: Let $$ x \\in A $$. Since a book $$ x $$ has the same number of pages as itself, $$ (x, x) \\in R $$. So, $$ R $$ is reflexive.",
+            "step_2": "Symmetric: Let $$ (x, y) \\in R $$. This means book $$ x $$ and book $$ y $$ have the same number of pages. This implies book $$ y $$ and book $$ x $$ have the same number of pages, so $$ (y, x) \\in R $$. Thus, $$ R $$ is symmetric.",
+            "step_3": "Transitive: Let $$ (x, y) \\in R $$ and $$ (y, z) \\in R $$. This means $$ x $$ and $$ y $$ have the same number of pages, and $$ y $$ and $$ z $$ have the same number of pages. Consequently, $$ x $$ and $$ z $$ must have the same number of pages. So, $$ (x, z) \\in R $$. Thus, $$ R $$ is transitive.",
+            "step_4": "Since $$ R $$ is reflexive, symmetric, and transitive, it is an equivalence relation."
+          },
+          "board_writing_tip": "Write the logical statements clearly in words as the relation is defined in words. Do not introduce unnecessary mathematical variables representing the number of pages.",
+          "common_student_mistakes": [
+            "Writing ambiguous statements without defining that x, y, z are 'books in the library A'."
+          ],
+          "estimated_time_seconds": "240"
+        },
+        {
+          "question_id": 11,
+          "ncert_reference": {
+            "exercise": "1.2",
+            "question_number": "4"
+          },
+          "question_text": "Show that the Modulus Function $$ f: \\mathbb{R} \\rightarrow \\mathbb{R} $$, given by $$ f(x) = |x| $$, is neither one-one nor onto, where $$ |x| $$ is $$ x $$, if $$ x $$ is positive or 0 and $$ |x| $$ is $$ -x $$, if $$ x $$ is negative.",
+          "concepts_tested": [
+            "Modulus Function",
+            "Properties of Non-Bijective Functions"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Easy",
+          "topper_solution": {
+            "step_1": "Not One-One: Let $$ x_1 = 1 $$ and $$ x_2 = -1 $$. Both are in the domain $$ \\mathbb{R} $$.",
+            "step_2": "$$ f(1) = |1| = 1 $$ and $$ f(-1) = |-1| = 1 $$. Because $$ f(1) = f(-1) $$ but $$ 1 \\neq -1 $$, the function is not one-one.",
+            "step_3": "Not Onto: Let $$ y = -2 $$. Here $$ y \\in \\mathbb{R} $$ (the codomain).",
+            "step_4": "By definition of the modulus function, $$ f(x) = |x| \\geq 0 $$ for all $$ x \\in \\mathbb{R} $$. There is no real value of $$ x $$ such that $$ |x| = -2 $$. Thus, -2 has no pre-image. Therefore, $$ f $$ is not onto."
+          },
+          "board_writing_tip": "Directly state a negative number from the codomain as your counter-example for showing it is not onto. It is the fastest and most mathematically rigorous method.",
+          "common_student_mistakes": [
+            "Only defining the modulus function mathematically without actually solving the question.",
+            "Stating 'Range is [0, infinity)' without explicitly showing a negative number failing to have a pre-image."
+          ],
+          "estimated_time_seconds": "240"
+        }
+      ]
+    }
+  ]
+}

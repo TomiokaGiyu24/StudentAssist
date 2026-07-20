@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "board": "CBSE",
+    "exam": "Class 12 Board Examination"
+  },
+  "questions": [
+    {
+      "id": "55-4-3-Q12",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "The nuclear force is:",
+      "options": {
+        "A": "short range, charge dependent and spin independent.",
+        "B": "short range, charge independent and spin dependent.",
+        "C": "long range, charge dependent and spin independent.",
+        "D": "long range, charge independent and spin dependent."
+      },
+      "answer": {
+        "explanation": "Nuclear forces are strong attractive forces that hold nucleons together. They are:\n1. **Short range:** Operative only over distances of the order of femtometers ($10^{-15}$ m).\n2. **Charge independent:** The force between n-n, p-p, and n-p is approximately the same.\n3. **Spin dependent:** The force is stronger if the spins of the nucleons are parallel.",
+        "key_formulae": [],
+        "diagrams": []
+      },
+      "correct_option": "B",
+      "diagram_required": false,
+      "source": "55/4/3"
+    },
+    {
+      "id": "55-5-3-Q9",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "Which of the following statements is true for nuclear forces?",
+      "options": {
+        "A": "They obey inverse square law of distance.",
+        "B": "They obey inverse third power law of distance.",
+        "C": "They are short range forces.",
+        "D": "They are equal in strength to electromagnetic forces."
+      },
+      "answer": {
+        "explanation": "Nuclear forces do not follow a simple inverse square law (like gravity or electrostatics). They are extremely short-range forces, dropping to zero rapidly beyond a few femtometers. They are much stronger than electromagnetic forces within this range.",
+        "key_formulae": [],
+        "diagrams": []
+      },
+      "correct_option": "C",
+      "diagram_required": false,
+      "source": "55/5/3"
+    },
+    {
+      "id": "55-6-1-Q13",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "The mass of a ${}^{7}_{3}\\text{Li}$ nucleus is 0.042 u less than the sum of the masses of all its nucleons. The binding energy per nucleon of ${}^{7}_{3}\\text{Li}$ nucleus is nearly:",
+      "options": {
+        "A": "46 MeV",
+        "B": "5.6 MeV",
+        "C": "3.9 MeV",
+        "D": "23 MeV"
+      },
+      "answer": {
+        "explanation": "GIVEN:\\nMass defect $\\Delta m = 0.042$ u.\\nNumber of nucleons $A = 7$.\n\\nSTEPS:\n1. Total Binding Energy $BE = \\Delta m \\times 931.5$ MeV.\n   $BE = 0.042 \\times 931.5 \\approx 39.1$ MeV.\n2. Binding Energy per nucleon $BE/A = 39.1 / 7 \\approx 5.58$ MeV.\n\\nRESULT:\\nClosest option is 5.6 MeV.",
+        "key_formulae": [
+          "BE = \\Delta m \\times 931.5~MeV",
+          "BE_n = BE/A"
+        ],
+        "diagrams": []
+      },
+      "correct_option": "B",
+      "diagram_required": false,
+      "source": "55/6/1"
+    },
+    {
+      "id": "55-4-1-Q20",
+      "year": 2023,
+      "marks": 2,
+      "type": "theory",
+      "question": "Explain briefly how the observation of the alpha particle scattering experiment led Rutherford to conclude that (i) most of the space in the atom is empty, and (ii) the entire mass and positive charge is concentrated in a tiny central core.",
+      "options": {},
+      "answer": {
+        "explanation": "(i) **Empty Space:** Most alpha particles passed straight through the gold foil without any deflection. This observation indicated that they did not encounter any obstruction, implying that most of the space inside an atom is empty.\n(ii) **Central Core (Nucleus):** A very small fraction of alpha particles (about 1 in 8000) were deflected by large angles ($>90^\\circ$), and a few even rebounded ($180^\\circ$). This large repulsion could only happen if the heavy alpha particle struck a very massive, positively charged center. Since this happened very rarely, this positive center (nucleus) must occupy a very small volume.",
+        "key_formulae": [],
+        "diagrams": [
+          "[Image of Rutherford alpha scattering experiment diagram]"
+        ]
+      },
+      "diagram_required": true,
+      "source": "55/4/1",
+      "diagram_url": "/images/Physics/PYQs/chapter13/55-4-1-Q20.png",
+      "image": "/images/Physics/Derivations/alpha particle scattering experiment.png"
+    },
+    {
+      "id": "55-4-3-Q22",
+      "year": 2023,
+      "marks": 2,
+      "type": "numerical",
+      "question": "Calculate the energy released in the fusion reaction:\n${}^{2}_{1}\\text{H} + {}^{2}_{1}\\text{H} \\rightarrow {}^{3}_{2}\\text{He} + n$\\nGiven: Mass of ${}^{2}_{1}\\text{H} = 2.014102$ u, Mass of ${}^{3}_{2}\\text{He} = 3.016049$ u, Mass of $n = 1.008665$ u.",
+      "options": {},
+      "answer": {
+        "explanation": "GIVEN:\\nReactants: $2 \\times {}^{2}_{1}\\text{H}$. Mass $= 2 \\times 2.014102 = 4.028204$ u.\\nProducts: ${}^{3}_{2}\\text{He} + n$. Mass $= 3.016049 + 1.008665 = 4.024714$ u.\n\\nSTEPS:\n1. Mass Defect $\\Delta m = \\text{Mass(Reactants)} - \\text{Mass(Products)}$.\n   $\\Delta m = 4.028204 - 4.024714 = 0.003490$ u.\n2. Energy Released $Q = \\Delta m \\times 931.5$ MeV.\n   $Q = 0.003490 \\times 931.5 \\approx 3.25$ MeV.\n\\nFINAL RESULT:\\nEnergy released = 3.25 MeV.",
+        "key_formulae": [
+          "Q = \\Delta m \\times 931.5~MeV"
+        ],
+        "diagrams": []
+      },
+      "diagram_required": false,
+      "source": "55/4/3"
+    },
+    {
+      "id": "55-5-3-Q21",
+      "year": 2023,
+      "marks": 2,
+      "type": "numerical",
+      "question": "The binding energy per nucleon of deuteron (${}^{2}_{1}\\text{H}$) and helium (${}^{4}_{2}\\text{He}$) nuclei are 1.1 MeV and 7.0 MeV respectively. Determine the energy released when two deuterons fuse to form a helium nucleus.\n${}^{2}_{1}\\text{H} + {}^{2}_{1}\\text{H} \\rightarrow {}^{4}_{2}\\text{He} + Q$",
+      "options": {},
+      "answer": {
+        "explanation": "GIVEN:\\nBE per nucleon (${}^{2}_{1}\\text{H}$) = 1.1 MeV. Total BE $= 2 \\times 1.1 = 2.2$ MeV.\\nBE per nucleon (${}^{4}_{2}\\text{He}$) = 7.0 MeV. Total BE $= 4 \\times 7.0 = 28.0$ MeV.\\nReaction: 2 Deuterons $\\rightarrow$ 1 Helium.\n\\nSTEPS:\n1. Total initial binding energy $= 2 \\times (\\text{BE of } {}^{2}_{1}\\text{H}) = 2 \\times 2.2 = 4.4$ MeV.\n2. Total final binding energy $= \\text{BE of } {}^{4}_{2}\\text{He} = 28.0$ MeV.\n3. Energy Released $Q = BE_{final} - BE_{initial}$.\n   (Note: Energy is released when moving to a more stable state/higher binding energy).\n   $Q = 28.0 - 4.4 = 23.6$ MeV.\n\\nFINAL RESULT:\\nEnergy released = 23.6 MeV.",
+        "key_formulae": [
+          "Q = BE_{products} - BE_{reactants}"
+        ],
+        "diagrams": []
+      },
+      "diagram_required": false,
+      "source": "55/5/3"
+    },
+    {
+      "id": "55-6-1-Q21",
+      "year": 2023,
+      "marks": 2,
+      "type": "theory",
+      "question": "Draw a graph showing the variation of potential energy of a pair of nucleons as a function of their separation 'r'. Indicate the regions in which the nuclear force is (a) attractive and (b) repulsive.",
+      "options": {},
+      "answer": {
+        "explanation": "GRAPH DETAILS:\n- Y-axis: Potential Energy (MeV), X-axis: Separation r (fm).\n- The curve starts from a high positive value (repulsion) at very small r.\n- It drops to a minimum negative value (approx -100 MeV) at a distance $r_0 \\approx 0.8$ fm.\n- As r increases beyond $r_0$, the curve rises towards zero (attraction).\n\\nREGIONS:\n(a) **Attractive:** For $r > r_0$ (Separation greater than 0.8 fm). The potential energy is negative and slope is positive.\n(b) **Repulsive:** For $r < r_0$ (Separation less than 0.8 fm). The potential energy rises sharply to positive values.",
+        "key_formulae": [],
+        "diagrams": [
+          ""
+        ]
+      },
+      "diagram_required": true,
+      "source": "55/6/1",
+      "diagram_url": "/images/Physics/PYQs/chapter13/55-6-1-Q21.png",
+      "image": "/images/Physics/Derivations/Potential Energy of a nucleon pair.png"
+    },
+    {
+      "id": "55-5-2-Q21",
+      "year": 2023,
+      "marks": 2,
+      "type": "theory",
+      "question": "Define the term 'mass defect' of a nucleus. How is it related to the binding energy of the nucleus?",
+      "options": {},
+      "answer": {
+        "explanation": "DEFINITION:\\nMass defect ($\\Delta m$) is the difference between the sum of the masses of individual nucleons (protons and neutrons) constituting a nucleus and the actual mass of the nucleus.\n$\\Delta m = [Z m_{p} + (A-Z) m_{n}] - M_{nucleus}$.\n\\nRELATION TO BINDING ENERGY:\\nAccording to Einstein's mass-energy equivalence, this missing mass is converted into energy that binds the nucleons together.\n$BE = \\Delta m \\times c^{2}$.\\nIf $\\Delta m$ is in amu, $BE = \\Delta m \\times 931.5$ MeV.",
+        "key_formulae": [
+          "BE = \\Delta m c^2"
+        ],
+        "diagrams": []
+      },
+      "diagram_required": false,
+      "source": "55/5/2"
+    }
+  ],
+  "diagram_required": true
+}

@@ -1,0 +1,135 @@
+{
+"passage_metadata": {
+"theme": "The Algorithmic Muse: Navigating the Intersection of Artificial Intelligence and Creative Autonomy",
+"difficulty_level": "High_Inference",
+"passage_type": "Analytical/Discursive",
+"board_relevance_reason": "Mirroring the 2026 CBSE focus on contemporary ethical dilemmas and analytical data interpretation, this passage tests critical thinking, vocabulary in context, and the ability to synthesize complex technological trends with humanistic values."
+},
+"unseen_passage": "(1) For centuries, the creative arts were considered the final bastion of human exceptionalism. While machines could outperform us in calculation and physical labor, the 'divine spark' of imagination was deemed uniquely ours. However, the emergence of Generative Artificial Intelligence (GAI) has shattered this paradigm. Today, algorithms can compose symphonies, draft legal briefs, and create hyper-realistic visual art with a prompt. This shift from 'AI as a tool' to 'AI as a creator' has ignited a fierce debate regarding the sanctity of originality and the future of human labor in the creative economy.\n\n(2) The ontological crisis presented by GAI lies in its methodology. Unlike a human artist who draws from lived experience, emotional depth, and cultural context, an algorithm operates on pattern recognition and statistical probability. It synthesizes trillions of data points to 'predict' the next pixel or note. Critics argue that this process is nothing more than sophisticated plagiarism—a 'stochastic parrot' that mimics form without understanding substance. Yet, proponents suggest that human creativity itself is a form of synthesis, where we remix our influences into something seemingly new. Is there a fundamental difference between a human being inspired by Van Gogh and an AI trained on his entire catalog?\n\n(3) To understand the socio-economic trajectory of this shift, consider the following data from the 'Global Creative Industry Survey (2020–2024)':\n\n[Table: Impact of AI Integration in Creative Sectors]\nIndicator | 2020 | 2022 | 2024 | Trend Analysis\nAI-assisted Content Production (%) | 12% | 34% | 68% | Exponential Growth\nHuman-only Project Funding (%) | 85% | 60% | 42% | Significant Decline\nAverage Income for Entry-level Illustrators | $45k | $38k | $26k | Severe Depreciation\nCopyright Infringement Litigation Index | 1.0 | 4.5 | 12.2 | High Legal Friction\nPublic Perception: AI Art as 'Soulless' | 72% | 55% | 38% | Growing Acceptance\n\n(4) The data paints a stark picture of the 'commodification' of creativity. The rapid decline in funding for human-only projects suggests that efficiency and cost-reduction are beginning to outweigh the value of 'human touch' in commercial sectors. While the public's initial resistance to AI art is softening—as evidenced by the drop in 'soulless' perception from 72% to 38%—the economic reality for entry-level professionals is grim. The severe depreciation in income for illustrators indicates that the democratization of creative tools may lead to the deprofessionalization of the craft.\n\n(5) Beyond economics, the legal landscape is a minefield. Current intellectual property laws are predicated on the concept of 'human authorship'. If an AI generates a masterpiece, who owns the copyright? The software developer? The user who provided the prompt? Or the millions of artists whose work was scraped to train the model? This ambiguity has led to a 12-fold increase in litigation index since 2020. Without a robust regulatory framework, we risk entering a 'Creative Dark Age' where the incentive for humans to produce original work is stifled by the ubiquity of cheap, algorithmic imitations.\n\n(6) The path forward requires a 'Symbiotic Framework'. We must move beyond the binary of viewing AI as either a replacement or a mere gimmick. Instead, we should foster 'Augmented Creativity', where AI handles the iterative, mundane aspects of production, allowing humans to focus on high-level conceptualization and emotional resonance. The challenge for the next generation is not to compete with the algorithm's speed, but to cultivate the one thing a machine cannot simulate: the authenticity of a shared human experience.",
+"questions": {
+"mcqs": [
+{
+"question": "Which of the following best summarizes the 'ontological crisis' mentioned in Paragraph 2?",
+"options": [
+"The high cost of maintaining sophisticated AI servers for art production.",
+"The debate over whether AI-generated work possesses genuine understanding or is merely statistical mimicry.",
+"The lack of interest among the general public in purchasing traditional oil paintings.",
+"The failure of AI to accurately predict the next note in a musical composition."
+],
+"correct_answer": "The debate over whether AI-generated work possesses genuine understanding or is merely statistical mimicry."
+},
+{
+"question": "According to the data in Paragraph 3, what is the most significant correlation observed between 2020 and 2024?",
+"options": [
+"As AI-assisted production increased, public perception of AI art as 'soulless' also increased.",
+"The decline in human-only project funding is inversely proportional to the rise in legal disputes.",
+"The exponential growth of AI-assisted content coincides with a sharp decline in the average income of entry-level illustrators.",
+"The copyright infringement litigation index has remained stable despite technological changes."
+],
+"correct_answer": "The exponential growth of AI-assisted content coincides with a sharp decline in the average income of entry-level illustrators."
+},
+{
+"question": "What does the author imply by the phrase 'deprofessionalization of the craft' in Paragraph 4?",
+"options": [
+"Artists are choosing to retire early due to the complexity of new software.",
+"The widespread availability of AI tools makes the skill of human illustrators seem less specialized and less economically viable.",
+"Professional illustrators are now being asked to teach AI algorithms how to paint.",
+"Universities are removing art history from their professional curriculum."
+],
+"correct_answer": "The widespread availability of AI tools makes the skill of human illustrators seem less specialized and less economically viable."
+},
+{
+"question": "Which of the following statements would the author most likely agree with based on the concluding paragraph?",
+"options": [
+"AI should be banned from all creative industries to protect human dignity.",
+"The speed of AI production is the most important metric for future human progress.",
+"Humans should use AI to handle routine tasks while retaining control over the emotional and conceptual core of the work.",
+"Authentic human experience is a myth that can eventually be simulated by better data."
+],
+"correct_answer": "Humans should use AI to handle routine tasks while retaining control over the emotional and conceptual core of the work."
+}
+],
+"short_answer_questions": [
+{
+"question": "Explain the concept of a 'stochastic parrot' and why critics apply this term to Generative AI.",
+"word_limit": "40-50 words",
+"marks": 2
+},
+{
+"question": "Based on the passage, what are the three primary stakeholders involved in the current copyright ambiguity of AI-generated art?",
+"word_limit": "40-50 words",
+"marks": 2
+},
+{
+"question": "How does the author characterize the shift in public perception toward AI-generated art between 2020 and 2024?",
+"word_limit": "40-50 words",
+"marks": 2
+}
+],
+"vocabulary_questions": [
+{
+"question": "Identify a word from Paragraph 1 that means 'a fundamental change in approach or underlying assumptions'.",
+"marks": 1
+},
+{
+"question": "In Paragraph 5, what does the word 'stifled' most nearly mean in the context of human original work?",
+"marks": 1
+}
+]
+},
+"model_answers": {
+"mcq_answers": [
+"The debate over whether AI-generated work possesses genuine understanding or is merely statistical mimicry.",
+"The exponential growth of AI-assisted content coincides with a sharp decline in the average income of entry-level illustrators.",
+"The widespread availability of AI tools makes the skill of human illustrators seem less specialized and less economically viable.",
+"Humans should use AI to handle routine tasks while retaining control over the emotional and conceptual core of the work."
+],
+"short_answer_responses": [
+{
+"question_reference": "Explain the concept of a 'stochastic parrot' and why critics apply this term to Generative AI.",
+"answer": "A 'stochastic parrot' refers to an entity that mimics language or art through statistical probability without understanding the underlying meaning. Critics use this term for AI because it synthesizes data patterns to predict outputs rather than drawing from lived emotions or cultural context.",
+"word_count": 46,
+"why_this_scores_full_marks": "Clearly defines the term and applies the 'mimicry vs. understanding' logic found in paragraph 2.",
+"common_wrong_pattern": "Focusing only on the word 'parrot' (repetition) without mentioning the 'stochastic' (statistical/probabilistic) nature of the AI."
+},
+{
+"question_reference": "Based on the passage, what are the three primary stakeholders involved in the current copyright ambiguity of AI-generated art?",
+"answer": "According to the passage, the three primary stakeholders are the software developers who create the AI, the users who provide the prompts to generate content, and the original artists whose work was used to train the model without explicit consent or compensation.",
+"word_count": 45,
+"why_this_scores_full_marks": "Identifies all three groups mentioned in Paragraph 5: developers, users, and the 'scraped' artists.",
+"common_wrong_pattern": "Mentioning only 'the AI and the human' instead of the three distinct groups listed in the text."
+},
+{
+"question_reference": "How does the author characterize the shift in public perception toward AI-generated art between 2020 and 2024?",
+"answer": "The author notes a 'softening' of public resistance. Data shows that the perception of AI art as 'soulless' dropped significantly from 72% in 2020 to 38% in 2024, indicating a growing acceptance of AI's presence in the creative domain despite initial skepticism.",
+"word_count": 48,
+"why_this_scores_full_marks": "Uses the specific term 'softening' and backs it up with the numerical trend from the provided table.",
+"common_wrong_pattern": "Stating that people now 'love' AI art, which is an overstatement; the text says the 'soulless' perception decreased, implying moderate acceptance."
+}
+],
+"vocabulary_answers": [
+"Paradigm",
+"Suppressed / Prevented / Smothered (Inhibited growth)"
+]
+},
+"examiner_insight_section": {
+"likely_traps": [
+"The 'Ontological' Trap: Students might confuse 'ontological' with 'technological'. The former deals with the 'nature of being/existence' of art, which is the core of Para 2.",
+"Income vs. Funding: In the table, 'Human-only Funding' and 'Illustrator Income' both decline, but for different reasons. Don't use them interchangeably."
+],
+"where_students_lose_marks": [
+"Failing to use the technical vocabulary from the text (e.g., 'stochastic parrot' or 'augmented creativity') in short answers.",
+"Inaccurate data interpretation: Students often miss the 'Litigation Index' increase (12-fold) and just say it 'increased slightly'."
+],
+"accuracy_checklist": [
+"Did I mention 'statistical probability' for the AI's process?",
+"Did I use the specific percentage drop (72% to 38%) for the perception question?",
+"Is the word 'Paradigm' spelled correctly for the vocab question?"
+]
+},
+"timed_attempt_guidance": {
+"recommended_time_minutes": 18,
+"time_split_strategy": "4 mins: Analytical reading of the text and the table. 8 mins: Answering MCQs and Vocabulary. 6 mins: Drafting SAQs with focus on keywords.",
+"final_verification_strategy": "Ensure that the short answers do not exceed 50 words and that the MCQ selections are based strictly on the text, not personal opinions about AI."
+}
+}

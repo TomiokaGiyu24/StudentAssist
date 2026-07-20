@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "subject": "Physics",
+    "class": 12,
+    "board": "CBSE",
+    "chapter": "Electromagnetic Waves"
+  },
+  "derivations": [
+    {
+      "id": "ch8-01",
+      "title": "Displacement Current and Maxwell-Ampere Law (Inconsistency of Ampere's Law)",
+      "priority": "P1",
+      "priority_reason": "The core concept of the chapter. Explains the origin of electromagnetic waves.",
+      "marks": 3,
+      "diagram_required": true,
+      "diagram_description": "Parallel plate capacitor being charged by current I. Two loops are shown: Loop C1 outside the plates enclosing the wire. Loop C2 inside the plates (between them) enclosing no conduction current. Magnetic field B is present at both locations.",
+      "derivation": {
+        "given_assumptions": [
+          "Parallel plate capacitor being charged by time-varying current $i(t)$.",
+          "Ampere's Circuital Law in original form: $\\oint \\vec{B} \\cdot d\\vec{l} = \\mu_0 i_{enclosed}$."
+        ],
+        "required": "Expression for Displacement Current $I_d$.",
+        "steps": [
+          {
+            "text": "Apply Ampere's Law to Loop 1 (outside plates): Enclosed current is $i$.",
+            "latex": "\\oint_{C1} \\vec{B} \\cdot d\\vec{l} = \\mu_0 i"
+          },
+          {
+            "text": "Apply Ampere's Law to Loop 2 (between plates): Enclosed conduction current is zero.",
+            "latex": "\\oint_{C2} \\vec{B} \\cdot d\\vec{l} = 0"
+          },
+          {
+            "text": "This contradicts the fact that magnetic field is continuous. Something is missing inside the plates. The electric flux $\\phi_E = EA = \\frac{q}{\\epsilon_0 A} A = \\frac{q}{\\epsilon_0}$ is changing.",
+            "latex": "\\frac{d\\phi_E}{dt} = \\frac{1}{\\epsilon_0} \\frac{dq}{dt} = \\frac{i}{\\epsilon_0}"
+          },
+          {
+            "text": "Thus, the current $i$ can be written in terms of changing flux:",
+            "latex": "i = \\epsilon_0 \\frac{d\\phi_E}{dt}"
+          },
+          {
+            "text": "Maxwell identified this term as Displacement Current $I_d$. The total current is $I_c + I_d$.",
+            "latex": "I_d = \\epsilon_0 \\frac{d\\phi_E}{dt}"
+          }
+        ],
+        "final_result": {
+          "text": "Generalized Maxwell-Ampere Law:",
+          "latex": "\\oint \\vec{B} \\cdot d\\vec{l} = \\mu_0 (I_c + \\epsilon_0 \\frac{d\\phi_E}{dt})"
+        },
+        "examiner_notes": [
+          "Must clearly state the 'Contradiction' or 'Inconsistency'.",
+          "Identify that conduction current Ic = 0 inside the capacitor.",
+          "Final equation must sum Ic and Id."
+        ],
+        "question_forms": [
+          "Explain how Ampere's circuital law was modified by Maxwell.",
+          "Derive the expression for displacement current."
+        ]
+      }
+    },
+    {
+      "id": "ch8-02",
+      "title": "Average Energy Density of Electromagnetic Waves",
+      "priority": "P2",
+      "priority_reason": "Connects EM waves to energy concepts from Ch 2 and 4. Standard proof.",
+      "marks": 3,
+      "diagram_required": false,
+      "diagram_description": "None required.",
+      "derivation": {
+        "given_assumptions": [
+          "EM wave in vacuum with electric field $E$ and magnetic field $B$.",
+          "Speed of light $c = \\frac{1}{\\sqrt{\\mu_0 \\epsilon_0}}$ and $E = cB$."
+        ],
+        "required": "Show that average energy density is $\\epsilon_0 E_{rms}^2$.",
+        "steps": [
+          {
+            "text": "Energy density of electric field:",
+            "latex": "u_E = \\frac{1}{2} \\epsilon_0 E^2"
+          },
+          {
+            "text": "Energy density of magnetic field:",
+            "latex": "u_B = \\frac{1}{2\\mu_0} B^2"
+          },
+          {
+            "text": "Substitute $B = E/c$ and $c = 1/\\sqrt{\\mu_0 \\epsilon_0}$ into $u_B$:",
+            "latex": "u_B = \\frac{1}{2\\mu_0} \\left( \\frac{E}{c} \\right)^2 = \\frac{1}{2\\mu_0} E^2 (\\mu_0 \\epsilon_0) = \\frac{1}{2} \\epsilon_0 E^2"
+          },
+          {
+            "text": "Thus, $u_E = u_B$. Total instantaneous energy density $u = u_E + u_B = \\epsilon_0 E^2$. Average over a cycle (average of $E^2$ is $E_{rms}^2$):",
+            "latex": "u_{avg} = \\epsilon_0 (E^2)_{avg} = \\epsilon_0 E_{rms}^2"
+          }
+        ],
+        "final_result": {
+          "text": "Total average energy density:",
+          "latex": "u_{avg} = \\epsilon_0 E_{rms}^2 = \\frac{B_{rms}^2}{\\mu_0}"
+        },
+        "examiner_notes": [
+          "Crucial to show u_E = u_B (energy is shared equally).",
+          "Don't confuse instantaneous values (E) with RMS values."
+        ],
+        "question_forms": [
+          "Show that the average energy density of the electric field equals that of the magnetic field in an electromagnetic wave.",
+          "Derive the expression for total energy density of an EM wave."
+        ]
+      }
+    }
+  ]
+}

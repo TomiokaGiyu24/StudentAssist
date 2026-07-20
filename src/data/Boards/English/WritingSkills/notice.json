@@ -1,0 +1,95 @@
+{
+"question_metadata": {
+"format_type": "Notice",
+"difficulty_level": "Exam_Level",
+"theme": "School Event (Academic/Co-curricular)",
+"board_relevance_reason": "High-frequency topic. Analysis of 2024-25 PYQs shows a dominance of 'Event Organisation' notices (Debates, Treks, Camps) in Set 1, 2, and 3."
+},
+"board_style_question": "You are Rakesh/Riya, Secretary of the Literary Society, St. Karen’s High School, Patna. Your school is organising an Inter-School Debate Competition for students of classes XI and XII. Draft a notice in about 50 words to be put up on the school notice board, inviting entries from interested students. Include all necessary details like date, time, venue, and topic.",
+"format_blueprint": {
+"mandatory_components": [
+"Name of Issuing Organization (Center Aligned)",
+"The word 'NOTICE' (Center Aligned, Capitalized)",
+"Date of Issue (Left Aligned)",
+"Descriptive Heading (Center Aligned)",
+"Body (Content)",
+"Name and Designation of Issuer (Left Aligned)",
+"Box (Mandatory)"
+],
+"sequence_order": [
+"Organization Name",
+"NOTICE",
+"Date",
+"Heading",
+"Body",
+"Signature/Name",
+"Designation"
+],
+"format_visual_layout": "[Box enclosing the entire text]"
+},
+"planning_framework": {
+"brainstorm_points": [
+"Event: Inter-School Debate",
+"Target Audience: Classes XI & XII",
+"Date/Time: Need a future date (e.g., 2 weeks from now)",
+"Venue: School Auditorium",
+"Topic: Artificial Intelligence (Relevant)",
+"Call to Action: Register with undersigned by [Deadline]"
+],
+"logical_flow_model": "Target Group -> Event Name -> Date/Time/Venue -> Topic -> Deadline for names",
+"time_allocation_minutes": "Planning: 2 min | Writing: 3 min | Review: 2 min"
+},
+"model_answer_with_word_count": {
+"answer_text": "ST. KAREN’S HIGH SCHOOL, PATNA\nNOTICE\n\n12th February, 2026\n\nINTER-SCHOOL DEBATE COMPETITION\n\nThe Literary Society is organising an Inter-School Debate on 25th February, 2026 at 10:00 AM in the School Auditorium. The topic is \"Artificial Intelligence: Boon or Bane\". Students of classes XI-XII interested in participating must submit their names to the undersigned by 18th February for the selection round.\n\nRakesh\nSecretary, Literary Society",
+"word_count": 48
+},
+"why_this_scores_full_marks": {
+"format_compliance_reason": "Strict adherence to the box format and correct sequence (Org Name -> Notice -> Date -> Heading -> Body -> Sign). Date is in expanded format.",
+"content_strength_reason": "Answers all 5 Ws (Who, What, Where, When, Whom to contact) without exceeding the word limit.",
+"expression_quality_reason": "Uses formal, objective tone ('This is to inform' / 'The Literary Society is organising'). No personal pronouns like 'I' or 'We' used unnecessarily."
+},
+"vocabulary_upgrade_section": {
+"basic_to_board_level_examples": [
+{
+"basic": "We are holding a debate...",
+"improved": "The Literary Society is organising...",
+"board_level": "The Literary Society is organizing an..."
+},
+{
+"basic": "Give your names to me...",
+"improved": "Submit names to the undersigned...",
+"board_level": "Submit their names to the undersigned..."
+},
+{
+"basic": "come to the auditorium",
+"improved": "venue is the School Auditorium",
+"board_level": "in the School Auditorium"
+}
+],
+"sentence_transformation_examples": [
+"Weak: You can participate if you want. -> Strong: Interested students may register...",
+"Weak: The debate is on 25th Feb. -> Strong: ...is scheduled for 25th February, 2026."
+]
+},
+"common_mark_losing_mistakes": [
+"Forgetting to draw the BOX (Instant 0.5 - 1 mark deduction).",
+"Writing the date as '12/02/2026' instead of '12th February, 2026'.",
+"Using first-person pronouns like 'I am writing this notice'. Notices are third-person.",
+"Exceeding 50 words significantly (Examiners stop reading).",
+"Missing the designation/authority at the bottom."
+],
+"examiner_psychology_insights": [
+"Examiners check the BOX first. No box = immediate negative impression.",
+"They count the 'Value Points': Date, Time, Venue, Deadline. If one is missing, marks are cut.",
+"They prefer the body to start directly (e.g., 'This is to inform...' or 'The Literary Society is organising...').",
+"Neatness matters. Overwriting or scratching out text looks unprofessional."
+],
+"self_evaluation_checklist": [
+"Did I draw a box?",
+"Is the word 'NOTICE' in the center and capitalized?",
+"Is the date on the left?",
+"Did I include Date, Time, Venue, and Whom to contact?",
+"Is my word count under 50?",
+"Is the designation written below the name?"
+]
+}

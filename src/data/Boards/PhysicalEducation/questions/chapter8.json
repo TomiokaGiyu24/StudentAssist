@@ -1,0 +1,502 @@
+{
+  "meta": {
+    "subject": "Physical Education",
+    "class": 12,
+    "board": "CBSE",
+    "chapter": "Biomechanics & Sports",
+    "total_questions": 22
+  },
+  "questions": [
+    {
+      "id": "Q1",
+      "type": "mcq",
+      "marks": 1,
+      "priority": "P1",
+      "priority_reason": "Newton's First Law is the most frequently tested concept in MCQs for this chapter.",
+      "question": "Newton's First Law of Motion is also known as:",
+      "options": {
+        "A": "Law of Momentum",
+        "B": "Law of Inertia",
+        "C": "Law of Reaction",
+        "D": "Law of Acceleration"
+      },
+      "correct_option": "B",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "Newton's First Law states that an object remains at rest or in uniform motion unless acted upon by an external force. This resistance to change is called Inertia.",
+        "key_points": [],
+        "final_answer": "Option B"
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "Q2",
+      "type": "mcq",
+      "marks": 1,
+      "priority": "P1",
+      "priority_reason": "Identification of movements (Abduction/Adduction) is a core competency.",
+      "question": "Which of the following movements refers to moving a body part away from the midline of the body?",
+      "options": {
+        "A": "Adduction",
+        "B": "Flexion",
+        "C": "Abduction",
+        "D": "Extension"
+      },
+      "correct_option": "C",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "Abduction means 'taking away' (like abducting). It is the movement of a limb away from the midline of the body.",
+        "key_points": [],
+        "final_answer": "Option C"
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "Q3",
+      "type": "mcq",
+      "marks": 1,
+      "priority": "P2",
+      "priority_reason": "Tests understanding of friction types.",
+      "question": "Which type of friction comes into play when an object is sliding over another surface?",
+      "options": {
+        "A": "Static Friction",
+        "B": "Rolling Friction",
+        "C": "Kinetic Friction",
+        "D": "Fluid Friction"
+      },
+      "correct_option": "C",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "Kinetic (or sliding) friction occurs when two surfaces are moving relative to each other.",
+        "key_points": [],
+        "final_answer": "Option C"
+      },
+      "source_basis": "ALLEN"
+    },
+    {
+      "id": "Q4",
+      "type": "assertion_reason",
+      "marks": 1,
+      "priority": "P1",
+      "priority_reason": "Clarifies the relationship between force, mass, and acceleration (Newton's 2nd Law).",
+      "question": "Assertion (A): A cricket player lowers his hands while catching a ball to avoid injury.\nReason (R): Lowering the hands increases the time to stop the ball, thereby reducing the impact force as per Newton's Second Law.",
+      "options": {
+        "A": "Both A and R are true and R is the correct explanation of A.",
+        "B": "Both A and R are true but R is NOT the correct explanation of A.",
+        "C": "A is true but R is false.",
+        "D": "A is false but R is true."
+      },
+      "correct_option": "A",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "According to $F = \\frac{\\Delta p}{\\Delta t}$, increasing the time ($\\Delta t$) reduces the Force ($F$).",
+        "key_points": [],
+        "final_answer": "Option A"
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "Q5",
+      "type": "assertion_reason",
+      "marks": 1,
+      "priority": "P2",
+      "priority_reason": "Concept of friction as a necessary force in sports.",
+      "question": "Assertion (A): Friction is considered a necessary evil in sports.\nReason (R): Friction causes wear and tear of sports equipment and reduces speed.",
+      "options": {
+        "A": "Both A and R are true and R is the correct explanation of A.",
+        "B": "Both A and R are true but R is NOT the correct explanation of A.",
+        "C": "A is true but R is false.",
+        "D": "A is false but R is true."
+      },
+      "correct_option": "B",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "Both statements are true. Friction is 'evil' because it causes wear/tear (Reason), but it is 'necessary' because without it, athletes cannot grip or run. R explains the 'evil' part but not the 'necessary' part fully, or one could argue it explains why it is an 'evil'. In CBSE context, B is often the safe choice unless the Reason explicitly links necessity and disadvantage together.",
+        "key_points": [],
+        "final_answer": "Option B"
+      },
+      "source_basis": "ALLEN"
+    },
+    {
+      "id": "Q6",
+      "type": "very_short",
+      "marks": 2,
+      "priority": "P1",
+      "priority_reason": "Standard definition question asked repeatedly.",
+      "question": "Define Biomechanics.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Study of forces and their effects on living systems.",
+          "Application of mechanical principles to human movement."
+        ],
+        "final_answer": "Biomechanics is the study of the structure and function of biological systems (living organisms) by means of the methods of mechanics. In sports, it refers to the study of forces and their effects on the human body during exercise and sport."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "Q7",
+      "type": "very_short",
+      "marks": 2,
+      "priority": "P1",
+      "priority_reason": "Direct application of Newton's laws.",
+      "question": "State Newton's Third Law of Motion and give one example from sports.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Law: To every action, there is always an equal and opposite reaction.",
+          "Example: Swimming (pushing water back moves body forward)."
+        ],
+        "final_answer": "**Newton's Third Law (Law of Reaction):** For every action, there is always an equal and opposite reaction.\n**Example:** In swimming, the swimmer pushes the water backward (Action), and the water pushes the swimmer forward with equal force (Reaction)."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "Q8",
+      "type": "very_short",
+      "marks": 2,
+      "priority": "P2",
+      "priority_reason": "Differentiating flexion is a key movement concept.",
+      "question": "What is Flexion? Give one example.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Decreasing the angle between two body parts.",
+          "Bending a joint."
+        ],
+        "final_answer": "**Flexion** is a movement that decreases the angle between two body parts.\n**Example:** Bending the arm at the elbow while performing a bicep curl."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "Q9",
+      "type": "short",
+      "marks": 3,
+      "priority": "P1",
+      "priority_reason": "Application of laws in specific sports is a high-value question.",
+      "question": "Explain the application of Newton's Law of Inertia in sports with suitable examples.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Definition: Object stays at rest/motion unless acted on by force.",
+          "Ex 1: Soccer ball at rest needs a kick to move.",
+          "Ex 2: Moving ball stops due to friction/goalie."
+        ],
+        "final_answer": "**Newton's First Law (Law of Inertia)** states that an object at rest will remain at rest, and an object in motion will remain in motion, unless acted upon by an external force.\n\n**Application in Sports:**\n1.  **Starting:** A sprinter in the blocks will not move until their muscles exert force against the blocks to overcome static inertia.\n2.  **Equipment:** A football placed at the penalty spot will remain there until the player kicks it (applying external force)."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "Q10",
+      "type": "short",
+      "marks": 3,
+      "priority": "P1",
+      "priority_reason": "Understanding the benefits of the subject itself is crucial.",
+      "question": "Elaborate on the importance of Biomechanics in sports.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Improvement of technique.",
+          "Injury prevention.",
+          "Improvement of equipment.",
+          "Performance enhancement."
+        ],
+        "final_answer": "The importance of Biomechanics in sports includes:\n1.  **Technique Improvement:** It helps coaches and athletes analyse movements to correct errors and execute skills more efficiently (e.g., correcting a swim stroke).\n2.  **Injury Prevention:** By understanding forces, athletes can modify movements to reduce stress on joints and avoid injuries (e.g., proper landing technique in gymnastics).\n3.  **Equipment Design:** It aids in designing better sports equipment like aerodynamic helmets, lighter shoes, or swimsuits that reduce drag."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "Q11",
+      "type": "short",
+      "marks": 3,
+      "priority": "P2",
+      "priority_reason": "Specific types of friction are often asked to be differentiated.",
+      "question": "Differentiate between Static Friction and Kinetic Friction.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Static: Force before movement starts (max opposition).",
+          "Kinetic: Force during movement (less than static).",
+          "Examples."
+        ],
+        "final_answer": "**Difference between Static and Kinetic Friction:**\n\n| Basis | Static Friction | Kinetic (Sliding) Friction |\n| :--- | :--- | :--- |\n| **Definition** | The opposing force that comes into play when one body tends to move over the surface of another, but the actual motion has not yet started. | The opposing force that acts between two surfaces when one is actually sliding over the other. |\n| **Magnitude** | It is generally greater (Limiting friction is the maximum value of static friction). | It is always less than limiting static friction. |\n| **Example** | Pushing a heavy scrums machine in rugby before it moves. | Sledding down a hill or a hockey puck sliding on ice. |"
+      },
+      "source_basis": "ALLEN"
+    },
+    {
+      "id": "Q12",
+      "type": "short",
+      "marks": 3,
+      "priority": "P2",
+      "priority_reason": "Movement terminology is a syllabus staple.",
+      "question": "Differentiate between Abduction and Adduction with the help of examples.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Abduction: Moving away from midline.",
+          "Adduction: Moving towards midline.",
+          "Mnemonics: 'Add'uction adds to the body."
+        ],
+        "final_answer": "**Difference between Abduction and Adduction:**\n\n1.  **Abduction:**\n    * **Definition:** Movement of a limb **away** from the midline of the body.\n    * **Example:** Raising the arms sideways to shoulder level (Star jump outward phase).\n\n2.  **Adduction:**\n    * **Definition:** Movement of a limb **towards** the midline of the body.\n    * **Example:** Bringing the arms back down to the sides from a raised position (Star jump return phase)."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "Q13",
+      "type": "long",
+      "marks": 5,
+      "priority": "P1",
+      "priority_reason": "Comprehensive question covering all Newton's laws is a guaranteed 5-marker candidate.",
+      "question": "Explain Newton's Laws of Motion and their application in sports with suitable examples.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Law 1 (Inertia) + Example.",
+          "Law 2 (Acceleration/F=ma) + Example.",
+          "Law 3 (Reaction) + Example."
+        ],
+        "final_answer": "**1. Newton's First Law (Law of Inertia):**\n* **Statement:** An object at rest remains at rest, and an object in motion remains in motion at a constant velocity unless acted upon by an external force.\n* **Sports Application:** In **Soccer**, a ball placed for a free kick will not move until the player applies force (kick) to overcome its inertia of rest.\n\n**2. Newton's Second Law (Law of Acceleration):**\n* **Statement:** The rate of change of momentum of a body is directly proportional to the applied force and takes place in the direction of the force. Formula: $F = ma$.\n* **Sports Application:** In **Cricket**, a fielder pulls his hands back while catching a fast ball. This increases the time to stop the ball, thereby reducing the rate of change of momentum and the force of impact on the hands.\n\n**3. Newton's Third Law (Law of Reaction):**\n* **Statement:** To every action, there is always an equal and opposite reaction.\n* **Sports Application:** In **Sprint Starts**, the athlete pushes the starting blocks backward with great force (Action). In return, the blocks push the athlete forward with equal force (Reaction), propelling them out of the blocks."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "Q14",
+      "type": "long",
+      "marks": 5,
+      "priority": "P1",
+      "priority_reason": "Friction is the second most critical topic after Newton's laws.",
+      "question": "What is Friction? Explain the different types of friction. Is friction advantageous or disadvantageous in sports? Justify.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Definition: Resistance to motion.",
+          "Types: Static, Kinetic, Rolling, Fluid.",
+          "Advantage: Grip, running.",
+          "Disadvantage: Wear and tear, slows down objects."
+        ],
+        "final_answer": "**Friction** is the force that resists the relative motion of solid surfaces, fluid layers, and material elements sliding against each other.\n\n**Types of Friction:**\n1.  **Static Friction:** Opposing force when an object is just tending to move but hasn't started moving.\n2.  **Kinetic (Sliding) Friction:** Opposing force when one body slides over another.\n3.  **Rolling Friction:** Opposing force when an object rolls over a surface (e.g., a ball rolling on grass).\n4.  **Fluid Friction:** Resistance offered by air or water (e.g., drag in swimming).\n\n**Is Friction Advantageous or Disadvantageous?**\nIt is **both**.\n* **Advantages:**\n    * **Grip:** Friction between shoes and the ground allows athletes to run and stop without slipping (e.g., spikes in track events).\n    * **Equipment Control:** Friction helps in holding equipment like a tennis racquet or basketball.\n* **Disadvantages:**\n    * **Reduces Speed:** Friction (drag) slows down cyclists and swimmers.\n    * **Wear and Tear:** High friction damages shoes, surfaces, and tires in motorsports."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "Q15",
+      "type": "long",
+      "marks": 5,
+      "priority": "P2",
+      "priority_reason": "Diagram-based questions on movements are visually identifiable and common in boards.",
+      "question": "With the help of illustrations, explain the terms Flexion, Extension, Abduction, and Adduction.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": true,
+      "diagram_description": "Four stick-figure sketches. 1. Flexion: Arm bending at elbow (angle reducing). 2. Extension: Arm straightening at elbow (angle increasing). 3. Abduction: Arm moving sideways up away from body. 4. Adduction: Arm moving sideways down towards body.",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Flexion: Bending parts, angle decreases.",
+          "Extension: Straightening parts, angle increases.",
+          "Abduction: Away from midline.",
+          "Adduction: Towards midline."
+        ],
+        "final_answer": "**1. Flexion:** Movement that decreases the angle between two body parts. \n\n**2. Extension:** Movement that increases the angle between two body parts. \n\n**3. Abduction:** Movement of a limb away from the midline of the body. \n\n**4. Adduction:** Movement of a limb towards the midline of the body. \n\n*(Note: In the exam, draw simple stick figures with arrows indicating the direction of movement to secure full marks.)*"
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "Q16",
+      "type": "short",
+      "marks": 3,
+      "priority": "P2",
+      "priority_reason": "Practical application question on friction management.",
+      "question": "Suggest three methods to reduce friction in sports.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Smooth surfaces.",
+          "Lubrication.",
+          "Streamlined design."
+        ],
+        "final_answer": "Methods to reduce friction in sports include:\n1.  **Polishing Surfaces:** Making surfaces smoother reduces friction (e.g., polishing the bottom of skis).\n2.  **Lubrication:** Using oil or grease on mechanical parts (e.g., bicycle chains) to minimize wear and resistance.\n3.  **Streamlining:** Using aerodynamic designs and clothing (e.g., tight-fitting swimsuits, streamlined helmets in cycling) to reduce fluid friction (air/water resistance)."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "Q17",
+      "type": "very_short",
+      "marks": 2,
+      "priority": "P3",
+      "priority_reason": "Definition of Force is a basic physics concept relevant to biomechanics.",
+      "question": "What is Force? Name its unit.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Push or pull.",
+          "Changes state of motion.",
+          "Unit: Newton."
+        ],
+        "final_answer": "Force is a push or pull acting upon an object as a result of its interaction with another object. It can change the state of motion or shape of an object.\n**Unit:** Newton (N)."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "Q18",
+      "type": "mcq",
+      "marks": 1,
+      "priority": "P3",
+      "priority_reason": "Knowledge of Rolling Friction's relative magnitude.",
+      "question": "Which of the following has the least magnitude?",
+      "options": {
+        "A": "Static Friction",
+        "B": "Limiting Friction",
+        "C": "Rolling Friction",
+        "D": "Kinetic Friction"
+      },
+      "correct_option": "C",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "Rolling friction is significantly weaker than static or sliding (kinetic) friction.",
+        "key_points": [],
+        "final_answer": "Option C"
+      },
+      "source_basis": "ALLEN"
+    },
+    {
+      "id": "Q19",
+      "type": "short",
+      "marks": 3,
+      "priority": "P2",
+      "priority_reason": "Newton's Second Law math application.",
+      "question": "How is Newton's Second Law expressed mathematically? What does it imply for a lighter vs heavier object?",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "F=ma.",
+          "For constant Force, mass is inversely proportional to acceleration."
+        ],
+        "final_answer": "Mathematically, Newton's Second Law is expressed as:\n$$F = m \\times a$$\nWhere $F$ = Force, $m$ = Mass, $a$ = Acceleration.\n\n**Implication:** It implies that for the same amount of applied force, a lighter object (less mass) will accelerate more than a heavier object (more mass). Mass and acceleration are inversely proportional when force is constant."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "Q20",
+      "type": "assertion_reason",
+      "marks": 1,
+      "priority": "P3",
+      "priority_reason": "Application of biomechanics in performance.",
+      "question": "Assertion (A): Biomechanics helps in improving sports performance.\nReason (R): It helps in finding the most effective technique to execute a skill.",
+      "options": {
+        "A": "Both A and R are true and R is the correct explanation of A.",
+        "B": "Both A and R are true but R is NOT the correct explanation of A.",
+        "C": "A is true but R is false.",
+        "D": "A is false but R is true."
+      },
+      "correct_option": "A",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "Improving performance is the goal (Assertion), and optimizing technique through biomechanical analysis (Reason) is the primary way this goal is achieved.",
+        "key_points": [],
+        "final_answer": "Option A"
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "Q21",
+      "type": "short",
+      "marks": 3,
+      "priority": "P1",
+      "priority_reason": "High frequency conceptual question.",
+      "question": "Explain the Law of Action and Reaction with the example of walking.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Newton's 3rd Law.",
+          "Foot pushes ground back (Action).",
+          "Ground pushes foot forward (Reaction)."
+        ],
+        "final_answer": "**Newton's Third Law (Action and Reaction)** states that forces always occur in pairs. \n\n**Example (Walking):**\n* **Action:** When we walk, we push the ground backward with our feet at an angle.\n* **Reaction:** The ground pushes us forward with an equal and opposite force, enabling us to move forward. Without this reaction force (e.g., on slippery ice), walking would be difficult."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "Q22",
+      "type": "long",
+      "marks": 5,
+      "priority": "P2",
+      "priority_reason": "Understanding friction in different sports contexts.",
+      "question": "Why do athletes use spikes in running shoes and why do gymnasts use lime powder on their hands? Explain in terms of friction.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Spikes increase friction/grip.",
+          "Prevent slipping.",
+          "Lime powder absorbs sweat/moisture.",
+          "Increases friction for better grip."
+        ],
+        "final_answer": "Both cases involve manipulating **Friction** to enhance performance:\n\n1.  **Spikes in Running Shoes:**\n    * Athletes use spikes to **increase friction** between their feet and the track surface.\n    * This provides a better grip, prevents slipping, and allows them to push off the ground with maximum force (Newton's 3rd Law) without losing balance.\n\n2.  **Lime Powder in Gymnastics:**\n    * Gymnasts use lime/magnesium powder to **increase friction** on their hands.\n    * Sweat can reduce friction and cause slipping. The powder absorbs moisture, ensuring a firm grip on apparatus like the horizontal bar or rings, preventing falls and injuries."
+      },
+      "source_basis": "NCERT"
+    }
+  ]
+}

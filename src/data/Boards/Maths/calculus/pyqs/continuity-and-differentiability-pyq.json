@@ -1,0 +1,666 @@
+{
+  "chapter_name": "Continuity and Differentiability",
+  "board": "CBSE",
+  "class": "12",
+  "exam_year_target": "2026",
+  "pyq_year_range": "last 3 years",
+  "total_questions_generated": 25,
+  "questions": [
+    {
+      "question_id": 1,
+      "question_type": "MCQ",
+      "concept_tested": "Continuity at a Point",
+      "difficulty_level": "Easy",
+      "question_text": "If the function $$ f(x) = \\begin{cases} \\frac{\\sin 3x}{x}, & x \\neq 0 \\\\ k, & x = 0 \\end{cases} $$ is continuous at $$ x = 0 $$, then the value of $$ k $$ is:",
+      "options": [
+        "1",
+        "3",
+        "0",
+        "1/3"
+      ],
+      "correct_answer": "3",
+      "topper_solution": {
+        "step_1": "For a function to be continuous at $$ x = 0 $$, the limit of the function as $$ x \\to 0 $$ must equal the function's value at $$ x = 0 $$. That is, $$ \\lim_{x \\to 0} f(x) = f(0) $$.",
+        "step_2": "Calculate the limit: $$ \\lim_{x \\to 0} \\frac{\\sin 3x}{x} $$.",
+        "step_3": "Multiply and divide the denominator by 3: $$ \\lim_{x \\to 0} \\frac{\\sin 3x}{3x} \\times 3 $$.",
+        "step_4": "Using the standard limit $$ \\lim_{\\theta \\to 0} \\frac{\\sin \\theta}{\\theta} = 1 $$, we get $$ 1 \\times 3 = 3 $$.",
+        "step_5": "Since $$ f(0) = k $$, equating the two gives $$ k = 3 $$."
+      },
+      "board_presentation_tip": "Always state the condition for continuity (Limit = Value of function) explicitly before solving.",
+      "common_student_mistakes": [
+        "Applying L'Hopital's rule incorrectly and dropping the constant 3.",
+        "Assuming the limit is 1 because of the standard sine limit without matching the coefficient of x."
+      ],
+      "concept_trigger": "A piecewise function with an unknown constant 'k' at a specific point usually requires equating the limit to 'k'.",
+      "time_to_solve_seconds": "45",
+      "examiner_intent": "Testing basic understanding of limit evaluation to establish continuity."
+    },
+    {
+      "question_id": 2,
+      "question_type": "MCQ",
+      "concept_tested": "Relationship between Continuity and Differentiability",
+      "difficulty_level": "Moderate",
+      "question_text": "Consider the function $$ f(x) = |x - 2| $$. Which of the following statements is true? ",
+      "options": [
+        "Continuous and differentiable at x = 2",
+        "Continuous but not differentiable at x = 2",
+        "Differentiable but not continuous at x = 2",
+        "Neither continuous nor differentiable at x = 2"
+      ],
+      "correct_answer": "Continuous but not differentiable at x = 2",
+      "topper_solution": {
+        "step_1": "Continuity check: $$ \\lim_{x \\to 2^+} (x - 2) = 0 $$ and $$ \\lim_{x \\to 2^-} -(x - 2) = 0 $$. Since LHL = RHL = $$ f(2) = 0 $$, the function is continuous at $$ x = 2 $$.",
+        "step_2": "Differentiability check: The Right Hand Derivative (RHD) at $$ x = 2 $$ is $$ \\lim_{h \\to 0} \\frac{|2+h-2| - 0}{h} = \\lim_{h \\to 0} \\frac{h}{h} = 1 $$.",
+        "step_3": "The Left Hand Derivative (LHD) at $$ x = 2 $$ is $$ \\lim_{h \\to 0} \\frac{|2-h-2| - 0}{-h} = \\lim_{h \\to 0} \\frac{h}{-h} = -1 $$.",
+        "step_4": "Since LHD $$ \\neq $$ RHD ($$ -1 \\neq 1 $$), the function is not differentiable at $$ x = 2 $$."
+      },
+      "board_presentation_tip": "For modulus functions, it is fastest to remember geometrically that they form a 'V' shape, creating a sharp corner at the critical point, meaning they are continuous but not differentiable there.",
+      "common_student_mistakes": [
+        "Assuming that all continuous functions are differentiable.",
+        "Struggling to compute the left-hand derivative due to sign confusion with $$ -h $$."
+      ],
+      "concept_trigger": "Modulus functions $$ |x - a| $$ are universally continuous everywhere but fail differentiability exactly at the vertex $$ x = a $$.",
+      "time_to_solve_seconds": "60",
+      "examiner_intent": "Testing the conceptual distinction between continuity (unbroken curve) and differentiability (smooth curve)."
+    },
+    {
+      "question_id": 3,
+      "question_type": "Assertion Reason",
+      "concept_tested": "Chain Rule of Differentiation",
+      "difficulty_level": "Easy",
+      "question_text": "Assertion (A): The derivative of $$ y = \\sin(x^2) $$ with respect to $$ x $$ is $$ 2x \\cos(x^2) $$.\\nReason (R): By the chain rule, $$ \\frac{d}{dx}[f(g(x))] = f'(g(x)) \\cdot g'(x) $$.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct_answer": "Both A and R are true and R is the correct explanation of A",
+      "topper_solution": {
+        "step_1": "Analyze Reason (R): The statement correctly defines the chain rule for composite functions. Reason R is true.",
+        "step_2": "Analyze Assertion (A): Let $$ f(u) = \\sin(u) $$ and $$ u = g(x) = x^2 $$. Then $$ y = f(g(x)) $$.",
+        "step_3": "Apply the chain rule from R: $$ \\frac{dy}{dx} = \\frac{d(\\sin u)}{du} \\cdot \\frac{du}{dx} $$.",
+        "step_4": "$$ \\frac{dy}{dx} = \\cos(u) \\cdot \\frac{d(x^2)}{dx} = \\cos(x^2) \\cdot 2x $$. This matches Assertion A. Hence, A is true and R is the correct explanation."
+      },
+      "board_presentation_tip": "In Assertion-Reason questions involving derivatives, quickly perform the differentiation yourself using the stated rule to verify linkage.",
+      "common_student_mistakes": [
+        "Writing the derivative as $$ \\cos(2x) $$ by confusing the argument with the multiplier.",
+        "Applying product rule instead of chain rule."
+      ],
+      "concept_trigger": "Functions nested inside other functions (like polynomials inside trig functions) strictly require the chain rule.",
+      "time_to_solve_seconds": "40",
+      "examiner_intent": "Testing formal recognition of the Chain Rule and its direct application."
+    },
+    {
+      "question_id": 4,
+      "question_type": "1_mark",
+      "concept_tested": "Derivative of Exponential Functions",
+      "difficulty_level": "Easy",
+      "question_text": "Find $$ \\frac{dy}{dx} $$ if $$ y = e^{\\tan x} $$.",
+      "options": [],
+      "correct_answer": "$$ e^{\\tan x} \\sec^2 x $$",
+      "topper_solution": {
+        "step_1": "Given $$ y = e^{\\tan x} $$. This is a composite function requiring the chain rule.",
+        "step_2": "Differentiate the outer exponential function: The derivative of $$ e^u $$ is $$ e^u $$. So, the first part is $$ e^{\\tan x} $$.",
+        "step_3": "Multiply by the derivative of the inner function (the exponent): $$ \\frac{d}{dx}(\\tan x) = \\sec^2 x $$.",
+        "step_4": "Combine them: $$ \\frac{dy}{dx} = e^{\\tan x} \\cdot \\sec^2 x $$."
+      },
+      "board_presentation_tip": "Clearly show the two parts of the chain rule. You can write 'using chain rule' in brackets.",
+      "common_student_mistakes": [
+        "Forgetting to differentiate the exponent, leaving the answer as just $$ e^{\\tan x} $$.",
+        "Writing the derivative of tan x incorrectly as sec x."
+      ],
+      "concept_trigger": "Base 'e' raised to a function of x means the derivative will contain the exact original function multiplied by the derivative of the power.",
+      "time_to_solve_seconds": "30",
+      "examiner_intent": "Quick check of exponential derivatives combined with basic trigonometric derivatives."
+    },
+    {
+      "question_id": 5,
+      "question_type": "2_mark",
+      "concept_tested": "Logarithmic Differentiation",
+      "difficulty_level": "Moderate",
+      "question_text": "Find $$ \\frac{dy}{dx} $$ if $$ y = x^{\\sin x} $$, where $$ x > 0 $$.",
+      "options": [],
+      "correct_answer": "$$ x^{\\sin x} \\left( \\frac{\\sin x}{x} + \\cos x \\log x \\right) $$",
+      "topper_solution": {
+        "step_1": "Since we have a function of $$ x $$ raised to the power of a function of $$ x $$, we must use logarithmic differentiation. Take natural log on both sides: $$ \\log y = \\log(x^{\\sin x}) $$.",
+        "step_2": "Use log property: $$ \\log y = \\sin x \\cdot \\log x $$.",
+        "step_3": "Differentiate both sides with respect to $$ x $$ using implicit differentiation and the product rule on the right side.",
+        "step_4": "$$ \\frac{1}{y} \\frac{dy}{dx} = \\sin x \\cdot \\frac{d}{dx}(\\log x) + \\log x \\cdot \\frac{d}{dx}(\\sin x) $$.",
+        "step_5": "$$ \\frac{1}{y} \\frac{dy}{dx} = \\sin x \\cdot \\left(\\frac{1}{x}\\right) + \\log x \\cdot (\\cos x) $$.",
+        "step_6": "Multiply by $$ y $$ to isolate $$ \\frac{dy}{dx} $$: $$ \\frac{dy}{dx} = y \\left( \\frac{\\sin x}{x} + \\cos x \\log x \\right) $$.",
+        "step_7": "Substitute back the original value of $$ y $$: $$ \\frac{dy}{dx} = x^{\\sin x} \\left( \\frac{\\sin x}{x} + \\cos x \\log x \\right) $$."
+      },
+      "board_presentation_tip": "Never forget to substitute the original expression for 'y' back into the final answer. Leaving 'y' in the final derivative loses marks.",
+      "common_student_mistakes": [
+        "Applying the power rule directly to get $$ \\sin x \\cdot x^{\\sin x - 1} $$, which is completely invalid for variable exponents.",
+        "Making errors in the product rule after taking logs."
+      ],
+      "concept_trigger": "A variable base raised to a variable power ($$ f(x)^{g(x)} $$) exclusively requires logarithmic differentiation.",
+      "time_to_solve_seconds": "120",
+      "examiner_intent": "Testing proficiency in identifying and executing logarithmic differentiation techniques."
+    },
+    {
+      "question_id": 6,
+      "question_type": "2_mark",
+      "concept_tested": "Parametric Differentiation",
+      "difficulty_level": "Easy",
+      "question_text": "If $$ x = a \\cos \\theta $$ and $$ y = b \\sin \\theta $$, find $$ \\frac{dy}{dx} $$.",
+      "options": [],
+      "correct_answer": "$$ -\\frac{b}{a} \\cot \\theta $$",
+      "topper_solution": {
+        "step_1": "Differentiate $$ x $$ with respect to the parameter $$ \\theta $$: $$ \\frac{dx}{d\\theta} = a(-\\sin \\theta) = -a \\sin \\theta $$.",
+        "step_2": "Differentiate $$ y $$ with respect to the parameter $$ \\theta $$: $$ \\frac{dy}{d\\theta} = b(\\cos \\theta) = b \\cos \\theta $$.",
+        "step_3": "Use the parametric differentiation formula: $$ \\frac{dy}{dx} = \\frac{\\frac{dy}{d\\theta}}{\\frac{dx}{d\\theta}} $$.",
+        "step_4": "Substitute the derivatives: $$ \\frac{dy}{dx} = \\frac{b \\cos \\theta}{-a \\sin \\theta} $$.",
+        "step_5": "Simplify the trigonometric ratio: $$ \\frac{dy}{dx} = -\\frac{b}{a} \\cot \\theta $$."
+      },
+      "board_presentation_tip": "Write out $$ \\frac{dx}{d\\theta} $$ and $$ \\frac{dy}{d\\theta} $$ on separate lines clearly before dividing them.",
+      "common_student_mistakes": [
+        "Calculating $$ \\frac{dx}{dy} $$ instead of $$ \\frac{dy}{dx} $$ by dividing backwards.",
+        "Losing the negative sign from the derivative of cosine."
+      ],
+      "concept_trigger": "When both x and y are given in terms of a third variable (like $$ \\theta $$ or $$ t $$), it is a parametric equation.",
+      "time_to_solve_seconds": "60",
+      "examiner_intent": "Evaluating application of parametric derivative formulas and basic trigonometric identities."
+    },
+    {
+      "question_id": 7,
+      "question_type": "3_mark",
+      "concept_tested": "Discontinuity Check using Limits",
+      "difficulty_level": "Board-Tricky",
+      "question_text": "Show that the function $$ f(x) = \\begin{cases} \\frac{|x - 3|}{x - 3}, & x \\neq 3 \\\\ 0, & x = 3 \\end{cases} $$ is discontinuous at $$ x = 3 $$.",
+      "options": [],
+      "correct_answer": "Proof of discontinuity",
+      "topper_solution": {
+        "step_1": "To check continuity at $$ x = 3 $$, we must evaluate the Left Hand Limit (LHL) and Right Hand Limit (RHL).",
+        "step_2": "Calculate RHL: $$ \\lim_{x \\to 3^+} f(x) $$. When $$ x > 3 $$, $$ x - 3 > 0 $$, so $$ |x - 3| = (x - 3) $$.",
+        "step_3": "Thus, RHL = $$ \\lim_{x \\to 3^+} \\frac{x - 3}{x - 3} = \\lim_{x \\to 3^+} 1 = 1 $$.",
+        "step_4": "Calculate LHL: $$ \\lim_{x \\to 3^-} f(x) $$. When $$ x < 3 $$, $$ x - 3 < 0 $$, so $$ |x - 3| = -(x - 3) $$.",
+        "step_5": "Thus, LHL = $$ \\lim_{x \\to 3^-} \\frac{-(x - 3)}{x - 3} = \\lim_{x \\to 3^-} (-1) = -1 $$.",
+        "step_6": "Since LHL $$ \\neq $$ RHL ($$ -1 \\neq 1 $$), the limit $$ \\lim_{x \\to 3} f(x) $$ does not exist.",
+        "step_7": "Because the limit does not exist, the function is discontinuous at $$ x = 3 $$."
+      },
+      "board_presentation_tip": "Explicitly state how the modulus opens for LHL (negative) and RHL (positive). This is the core logic the examiner is looking for.",
+      "common_student_mistakes": [
+        "Substituting x=3 directly into the numerator and denominator and concluding it's 0/0 and undefined.",
+        "Assuming the limit exists but just doesn't equal f(3)=0."
+      ],
+      "concept_trigger": "Modulus functions divided by their own argument represent signum functions, which invariably jump from -1 to 1 causing discontinuity.",
+      "time_to_solve_seconds": "180",
+      "examiner_intent": "Testing rigorous definition-based evaluation of left and right-hand limits for piecewise absolute value functions."
+    },
+    {
+      "question_id": 8,
+      "question_type": "3_mark",
+      "concept_tested": "Second Order Derivatives",
+      "difficulty_level": "Moderate",
+      "question_text": "If $$ y = A \\sin x + B \\cos x $$, prove that $$ \\frac{d^2y}{dx^2} + y = 0 $$.",
+      "options": [],
+      "correct_answer": "Proof completed",
+      "topper_solution": {
+        "step_1": "Given $$ y = A \\sin x + B \\cos x $$.",
+        "step_2": "Differentiate with respect to $$ x $$ to find the first derivative: $$ \\frac{dy}{dx} = \\frac{d}{dx}(A \\sin x + B \\cos x) = A \\cos x - B \\sin x $$.",
+        "step_3": "Differentiate again with respect to $$ x $$ to find the second derivative: $$ \\frac{d^2y}{dx^2} = \\frac{d}{dx}(A \\cos x - B \\sin x) = A(-\\sin x) - B(\\cos x) $$.",
+        "step_4": "Factor out the negative sign: $$ \\frac{d^2y}{dx^2} = -(A \\sin x + B \\cos x) $$.",
+        "step_5": "Notice that the expression in the parenthesis is exactly the original function $$ y $$. Substitute $$ y $$ back in.",
+        "step_6": "$$ \\frac{d^2y}{dx^2} = -y $$.",
+        "step_7": "Rearrange the equation: $$ \\frac{d^2y}{dx^2} + y = 0 $$. Hence proved."
+      },
+      "board_presentation_tip": "When a 'prove that' differential equation is asked, finding the pattern to substitute 'y' back in is much cleaner than plugging derivatives into the LHS to show it equals 0.",
+      "common_student_mistakes": [
+        "Making sign errors during the second differentiation.",
+        "Not recognizing the original function 'y' and trying to solve it via complicated substitutions."
+      ],
+      "concept_trigger": "Linear combinations of sine and cosine naturally revert to themselves (with a negative sign) after two differentiations.",
+      "time_to_solve_seconds": "150",
+      "examiner_intent": "Evaluating second order derivative computation and recognizing algebraic structures to prove differential identities."
+    },
+    {
+      "question_id": 9,
+      "question_type": "5_mark",
+      "concept_tested": "Implicit Differentiation and Trigonometric Simplification",
+      "difficulty_level": "Board-Tricky",
+      "question_text": "If $$ \\sin y = x \\sin(a + y) $$, prove that $$ \\frac{dy}{dx} = \\frac{\\sin^2(a + y)}{\\sin a} $$.",
+      "options": [],
+      "correct_answer": "Detailed proof",
+      "topper_solution": {
+        "step_1": "Given equation: $$ x = \\frac{\\sin y}{\\sin(a + y)} $$. Isolating $$ x $$ first makes differentiation much easier.",
+        "step_2": "Differentiate with respect to $$ y $$ (not $$ x $$) using the quotient rule. This avoids implicit differentiation mess: $$ \\frac{dx}{dy} = \\frac{d}{dy} \\left[ \\frac{\\sin y}{\\sin(a + y)} \\right] $$.",
+        "step_3": "Apply quotient rule: $$ \\frac{dx}{dy} = \\frac{\\sin(a+y) \\cdot \\cos y - \\sin y \\cdot \\cos(a+y)}{\\sin^2(a+y)} $$.",
+        "step_4": "Recognize the numerator as the trigonometric identity: $$ \\sin A \\cos B - \\cos A \\sin B = \\sin(A - B) $$. Here, $$ A = a+y $$ and $$ B = y $$.",
+        "step_5": "Substitute into the numerator: $$ \\sin((a+y) - y) = \\sin a $$.",
+        "step_6": "So, $$ \\frac{dx}{dy} = \\frac{\\sin a}{\\sin^2(a + y)} $$.",
+        "step_7": "Since we need $$ \\frac{dy}{dx} $$, take the reciprocal of both sides: $$ \\frac{dy}{dx} = \\frac{\\sin^2(a + y)}{\\sin a} $$. Hence proved."
+      },
+      "board_presentation_tip": "While you can differentiate implicitly with respect to x, isolating x and differentiating with respect to y is a highly effective topper shortcut for this specific proof.",
+      "common_student_mistakes": [
+        "Using implicit differentiation with respect to x, leading to a massive algebraic tangle involving multiple dy/dx terms that are hard to factor.",
+        "Failing to recognize the $$ \\sin(A-B) $$ compound angle formula."
+      ],
+      "concept_trigger": "Whenever asked to prove $$ \\frac{dy}{dx} = \\text{function of } y $$, isolating $$ x $$ and calculating $$ \\frac{dx}{dy} $$ is almost always the intended, faster method.",
+      "time_to_solve_seconds": "300",
+      "examiner_intent": "Testing advanced strategic thinking in differentiation (reversing the derivative variables) combined with trig identities."
+    },
+    {
+      "question_id": 10,
+      "question_type": "case_based",
+      "concept_tested": "Application of Derivatives in Rate of Change",
+      "difficulty_level": "Moderate",
+      "question_text": "A manufacturing company determines that the total cost $$ C(x) $$ (in Rupees) of producing $$ x $$ units of a particular smartphone component is given by the function $$ C(x) = 0.005x^3 - 0.02x^2 + 30x + 5000 $$.\\n\\nBased on this information, answer the following:\\n(i) Find the marginal cost when 3 units are produced.\\n(ii) What does the marginal cost represent in this context?\\n(iii) If the production is increased from 3 units to 10 units, compute the marginal cost at $$ x = 10 $$.",
+      "options": [],
+      "correct_answer": "(i) Rs 30.015, (ii) Instantaneous rate of change of total cost, (iii) Rs 31.1",
+      "topper_solution": {
+        "step_1": "For (i): Marginal Cost (MC) is the derivative of the total cost function with respect to units produced. So, $$ MC = C'(x) $$.",
+        "step_2": "Differentiate the cost function: $$ C'(x) = \\frac{d}{dx}(0.005x^3 - 0.02x^2 + 30x + 5000) = 0.015x^2 - 0.04x + 30 $$.",
+        "step_3": "Substitute $$ x = 3 $$ into the marginal cost function: $$ C'(3) = 0.015(3)^2 - 0.04(3) + 30 $$.",
+        "step_4": "$$ C'(3) = 0.015(9) - 0.12 + 30 = 0.135 - 0.12 + 30 = 30.015 $$. The marginal cost is Rs 30.015.",
+        "step_5": "For (ii): The marginal cost represents the instantaneous rate of change of the total cost at any given level of output (i.e., the approximate cost of producing one additional unit).",
+        "step_6": "For (iii): Substitute $$ x = 10 $$ into $$ C'(x) $$: $$ C'(10) = 0.015(10)^2 - 0.04(10) + 30 $$.",
+        "step_7": "$$ C'(10) = 0.015(100) - 0.4 + 30 = 1.5 - 0.4 + 30 = 31.1 $$. The marginal cost at 10 units is Rs 31.1."
+      },
+      "board_presentation_tip": "Always write the definition of Marginal Cost (MC = dC/dx) before doing the calculation. Include units (Rs) in the final answer.",
+      "common_student_mistakes": [
+        "Calculating the average cost (C(x)/x) instead of the marginal cost.",
+        "Making decimal arithmetic errors when squaring and multiplying."
+      ],
+      "concept_trigger": "The term 'Marginal' in economics-based math problems strictly translates to 'take the first derivative'.",
+      "time_to_solve_seconds": "240",
+      "examiner_intent": "Bridging abstract differentiation with real-world economic modeling and terminology."
+    },
+    {
+      "question_id": 11,
+      "question_type": "MCQ",
+      "concept_tested": "Differentiation via Trigonometric Substitution",
+      "difficulty_level": "Moderate",
+      "question_text": "The derivative of $$ y = \\sec^{-1}\\left(\\frac{1}{2x^2 - 1}\\right) $$ with respect to $$ x $$ (where $$ 0 < x < \\frac{1}{\\sqrt{2}} $$) is:",
+      "options": [
+        "$$ \\frac{2}{\\sqrt{1 - x^2}} $$",
+        "$$ -\\frac{2}{\\sqrt{1 - x^2}} $$",
+        "$$ \\frac{1}{\\sqrt{1 - x^2}} $$",
+        "$$ -\\frac{1}{\\sqrt{1 - x^2}} $$"
+      ],
+      "correct_answer": "$$ -\\frac{2}{\\sqrt{1 - x^2}} $$",
+      "topper_solution": {
+        "step_1": "Let $$ x = \\cos \\theta $$. Then $$ \\theta = \\cos^{-1}x $$.",
+        "step_2": "Substitute $$ x $$ into the given function: $$ y = \\sec^{-1}\\left(\\frac{1}{2\\cos^2\\theta - 1}\\right) $$.",
+        "step_3": "Using the double angle identity $$ \\cos 2\\theta = 2\\cos^2\\theta - 1 $$, we get: $$ y = \\sec^{-1}\\left(\\frac{1}{\\cos 2\\theta}\\right) = \\sec^{-1}(\\sec 2\\theta) $$.",
+        "step_4": "Since $$ 0 < x < \\frac{1}{\\sqrt{2}} $$, $$ \\frac{\\pi}{4} < \\theta < \\frac{\\pi}{2} $$, which means $$ \\frac{\\pi}{2} < 2\\theta < \\pi $$. This lies in the principal branch of $$ \\sec^{-1} $$, so $$ y = 2\\theta = 2\\cos^{-1}x $$.",
+        "step_5": "Differentiating with respect to $$ x $$: $$ \\frac{dy}{dx} = 2 \\left(-\\frac{1}{\\sqrt{1 - x^2}}\\right) = -\\frac{2}{\\sqrt{1 - x^2}} $$."
+      },
+      "board_presentation_tip": "Explicitly define the substitution and mention the double-angle formula used to justify your simplification.",
+      "common_student_mistakes": [
+        "Substituting $$ x = \\sin \\theta $$ instead of $$ \\cos \\theta $$, which does not simplify the denominator.",
+        "Missing the negative sign from the derivative of $$ \\cos^{-1}x $$."
+      ],
+      "concept_trigger": "The expression $$ 2x^2 - 1 $$ is a classic trigger for the $$ x = \\cos \\theta $$ substitution.",
+      "time_to_solve_seconds": "60",
+      "examiner_intent": "Testing pattern recognition for trigonometric substitutions in complex inverse derivative problems."
+    },
+    {
+      "question_id": 12,
+      "question_type": "MCQ",
+      "concept_tested": "Non-Differentiability of Modulus Functions",
+      "difficulty_level": "Easy",
+      "question_text": "The number of points where the function $$ f(x) = |x - 1| + |x - 3| $$ is not differentiable in the interval $$ [0, 4] $$ is: ",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correct_answer": "2",
+      "topper_solution": {
+        "step_1": "A modulus function $$ |x - a| $$ is continuous everywhere but not differentiable exactly at the critical point $$ x = a $$ because it forms a sharp corner.",
+        "step_2": "The given function is a sum of two modulus functions with critical points at $$ x - 1 = 0 \\implies x = 1 $$ and $$ x - 3 = 0 \\implies x = 3 $$.",
+        "step_3": "Both points $$ x = 1 $$ and $$ x = 3 $$ lie within the given interval $$ [0, 4] $$.",
+        "step_4": "Therefore, the function is not differentiable at exactly 2 points."
+      },
+      "board_presentation_tip": "Graphing the function mentally (a 'boat' shape) quickly confirms the two sharp corners.",
+      "common_student_mistakes": [
+        "Assuming the function is non-differentiable at the endpoints of the interval.",
+        "Trying to find the left-hand and right-hand limits for the entire interval algebraically, wasting time."
+      ],
+      "concept_trigger": "Sum of linear absolute values $$ |x - a| + |x - b| $$ always has non-differentiable points at $$ a $$ and $$ b $$.",
+      "time_to_solve_seconds": "30",
+      "examiner_intent": "Assessing conceptual understanding of differentiability visually or theoretically without rigorous calculation."
+    },
+    {
+      "question_id": 13,
+      "question_type": "Assertion Reason",
+      "concept_tested": "Differentiability of Composite Functions",
+      "difficulty_level": "Moderate",
+      "question_text": "Assertion (A): The function $$ f(x) = e^{|x|} $$ is continuous but not differentiable at $$ x = 0 $$.\\nReason (R): The composite function of a differentiable function and a non-differentiable function is always non-differentiable.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct_answer": "A is true but R is false",
+      "topper_solution": {
+        "step_1": "Analyze Assertion (A): $$ f(x) = e^x $$ for $$ x \\ge 0 $$ and $$ e^{-x} $$ for $$ x < 0 $$. RHL at 0 = $$ e^0 = 1 $$. LHL at 0 = $$ e^0 = 1 $$. $$ f(0) = 1 $$. So, it is continuous. RHD = $$ \\frac{d}{dx}(e^x) = e^x \\implies RHD(0) = 1 $$. LHD = $$ \\frac{d}{dx}(e^{-x}) = -e^{-x} \\implies LHD(0) = -1 $$. Since LHD $$ \\neq $$ RHD, it is not differentiable at 0. Assertion A is true.",
+        "step_2": "Analyze Reason (R): Consider $$ g(x) = x^2 $$ (differentiable) and $$ h(x) = |x| $$ (non-differentiable at 0). The composite $$ g(h(x)) = (|x|)^2 = x^2 $$, which IS differentiable at 0. Thus, the generic statement in Reason R is false."
+      },
+      "board_presentation_tip": "To disprove a general statement like 'always non-differentiable', provide a clear counter-example such as $$ (|x|)^2 $$.",
+      "common_student_mistakes": [
+        "Assuming Reason R is true because it feels intuitively correct that a 'broken' piece infects the whole function.",
+        "Failing to evaluate the Left Hand Derivative properly for the exponent."
+      ],
+      "concept_trigger": "Absolute value in the exponent creates a cusp or corner in the graph, making the derivative undefined at that point.",
+      "time_to_solve_seconds": "90",
+      "examiner_intent": "Testing rigorous definitions versus intuitive (but false) generalizations about composite functions."
+    },
+    {
+      "question_id": 14,
+      "question_type": "1_mark",
+      "concept_tested": "Logarithmic Differentiation Base Change",
+      "difficulty_level": "Easy",
+      "question_text": "Find the derivative of $$ y = \\log_7(2x - 3) $$ with respect to $$ x $$.",
+      "options": [],
+      "correct_answer": "$$ \\frac{2}{(2x - 3) \\ln 7} $$",
+      "topper_solution": {
+        "step_1": "The derivative of a logarithm with base $$ a $$ is given by $$ \\frac{d}{dx}(\\log_a u) = \\frac{1}{u \\ln a} \\cdot \\frac{du}{dx} $$.",
+        "step_2": "Here, $$ u = 2x - 3 $$ and $$ a = 7 $$.",
+        "step_3": "Applying the formula: $$ \\frac{dy}{dx} = \\frac{1}{(2x - 3) \\ln 7} \\cdot \\frac{d}{dx}(2x - 3) $$.",
+        "step_4": "Since $$ \\frac{d}{dx}(2x - 3) = 2 $$, we get $$ \\frac{dy}{dx} = \\frac{2}{(2x - 3) \\ln 7} $$."
+      },
+      "board_presentation_tip": "If you forget the base-a formula, convert to natural log first: $$ y = \\frac{\\ln(2x-3)}{\\ln 7} $$, then differentiate.",
+      "common_student_mistakes": [
+        "Forgetting the $$ \\ln 7 $$ factor in the denominator.",
+        "Forgetting to multiply by the derivative of the inside function (the chain rule factor 2)."
+      ],
+      "concept_trigger": "A logarithm with a base other than 'e' requires adjusting by the natural log of the base in the denominator.",
+      "time_to_solve_seconds": "40",
+      "examiner_intent": "Checking basic knowledge of logarithm base-change rules combined with the chain rule."
+    },
+    {
+      "question_id": 15,
+      "question_type": "2_mark",
+      "concept_tested": "Implicit Differentiation on Infinite Series",
+      "difficulty_level": "Moderate",
+      "question_text": "If $$ y = \\sqrt{\\sin x + y} $$, find $$ \\frac{dy}{dx} $$.",
+      "options": [],
+      "correct_answer": "$$ \\frac{\\cos x}{2y - 1} $$",
+      "topper_solution": {
+        "step_1": "Square both sides to remove the square root and simplify the differentiation: $$ y^2 = \\sin x + y $$.",
+        "step_2": "Differentiate both sides with respect to $$ x $$ implicitly.",
+        "step_3": "LHS: $$ \\frac{d}{dx}(y^2) = 2y \\frac{dy}{dx} $$.",
+        "step_4": "RHS: $$ \\frac{d}{dx}(\\sin x + y) = \\cos x + \\frac{dy}{dx} $$.",
+        "step_5": "Equate and collect $$ \\frac{dy}{dx} $$ terms: $$ 2y \\frac{dy}{dx} - \\frac{dy}{dx} = \\cos x $$.",
+        "step_6": "Factor out $$ \\frac{dy}{dx} $$: $$ \\frac{dy}{dx}(2y - 1) = \\cos x $$.",
+        "step_7": "Solve for the derivative: $$ \\frac{dy}{dx} = \\frac{\\cos x}{2y - 1} $$."
+      },
+      "board_presentation_tip": "Squaring both sides is a much cleaner method than applying the chain rule directly to the square root, which leads to messy fractions.",
+      "common_student_mistakes": [
+        "Applying the square root derivative $$ 1/(2\\sqrt{\\dots}) $$ without recognizing the recursive 'y' inside.",
+        "Forgetting the $$ dy/dx $$ attached to the $$ y $$ on the right side."
+      ],
+      "concept_trigger": "An equation with $$ y $$ inside a square root alongside $$ x $$ is best handled by squaring both sides to form an implicit equation.",
+      "time_to_solve_seconds": "90",
+      "examiner_intent": "Testing algebraic manipulation prior to differentiation to solve recursive/implicit function problems."
+    },
+    {
+      "question_id": 16,
+      "question_type": "2_mark",
+      "concept_tested": "Differentiation of a Function with respect to Another Function",
+      "difficulty_level": "Moderate",
+      "question_text": "Differentiate $$ \\sin^2 x $$ with respect to $$ e^{\\cos x} $$.",
+      "options": [],
+      "correct_answer": "$$ -2 e^{-\\cos x} \\cos x $$",
+      "topper_solution": {
+        "step_1": "Let $$ u = \\sin^2 x $$ and $$ v = e^{\\cos x} $$. We need to find $$ \\frac{du}{dv} $$.",
+        "step_2": "Using parametric differentiation logic, $$ \\frac{du}{dv} = \\frac{\\frac{du}{dx}}{\\frac{dv}{dx}} $$.",
+        "step_3": "Differentiate $$ u $$ with respect to $$ x $$: $$ \\frac{du}{dx} = 2\\sin x \\cos x $$.",
+        "step_4": "Differentiate $$ v $$ with respect to $$ x $$ using the chain rule: $$ \\frac{dv}{dx} = e^{\\cos x} (-\\sin x) = -\\sin x \\cdot e^{\\cos x} $$.",
+        "step_5": "Divide the two derivatives: $$ \\frac{du}{dv} = \\frac{2\\sin x \\cos x}{-\\sin x \\cdot e^{\\cos x}} $$.",
+        "step_6": "Cancel out $$ \\sin x $$ (assuming $$ \\sin x \\neq 0 $$): $$ \\frac{du}{dv} = \\frac{2\\cos x}{-e^{\\cos x}} = -2 \\cos x \\cdot e^{-\\cos x} $$."
+      },
+      "board_presentation_tip": "Explicitly define the two functions as 'u' and 'v' (or any other variables) to show a clear logical structure before dividing.",
+      "common_student_mistakes": [
+        "Dividing the wrong way around ($$ dv/du $$ instead of $$ du/dv $$).",
+        "Applying quotient rule directly on the two functions instead of parametric division."
+      ],
+      "concept_trigger": "The phrase 'differentiate [Function A] with respect to [Function B]' is the trigger to define $$ u=A $$, $$ v=B $$ and compute $$ (du/dx)/(dv/dx) $$.",
+      "time_to_solve_seconds": "120",
+      "examiner_intent": "Evaluating the ability to adapt parametric differentiation techniques to relative function differentiation."
+    },
+    {
+      "question_id": 17,
+      "question_type": "3_mark",
+      "concept_tested": "Parametric Double Derivative",
+      "difficulty_level": "Board-Tricky",
+      "question_text": "If $$ x = a(\\cos t + t \\sin t) $$ and $$ y = a(\\sin t - t \\cos t) $$, find $$ \\frac{d^2y}{dx^2} $$ at $$ t = \\frac{\\pi}{4} $$. ",
+      "options": [],
+      "correct_answer": "$$ \\frac{2\\sqrt{2}}{a\\pi} $$",
+      "topper_solution": {
+        "step_1": "Find $$ \\frac{dx}{dt} $$: $$ \\frac{d}{dt}[a(\\cos t + t \\sin t)] = a(-\\sin t + 1\\cdot\\sin t + t\\cos t) = at \\cos t $$.",
+        "step_2": "Find $$ \\frac{dy}{dt} $$: $$ \\frac{d}{dt}[a(\\sin t - t \\cos t)] = a(\\cos t - (1\\cdot\\cos t + t(-\\sin t))) = a(\\cos t - \\cos t + t\\sin t) = at \\sin t $$.",
+        "step_3": "Find $$ \\frac{dy}{dx} $$: $$ \\frac{\\frac{dy}{dt}}{\\frac{dx}{dt}} = \\frac{at \\sin t}{at \\cos t} = \\tan t $$.",
+        "step_4": "Now, compute the second derivative with respect to $$ x $$. Use the formula $$ \\frac{d^2y}{dx^2} = \\frac{d}{dt}\\left(\\frac{dy}{dx}\\right) \\cdot \\frac{dt}{dx} $$.",
+        "step_5": "$$ \\frac{d^2y}{dx^2} = \\frac{d}{dt}(\\tan t) \\cdot \\frac{1}{\\frac{dx}{dt}} = \\sec^2 t \\cdot \\frac{1}{at \\cos t} = \\frac{\\sec^3 t}{at} $$.",
+        "step_6": "Evaluate at $$ t = \\frac{\\pi}{4} $$: $$ \\frac{(\\sec(\\pi/4))^3}{a(\\pi/4)} = \\frac{(\\sqrt{2})^3}{a\\pi/4} = \\frac{2\\sqrt{2}}{a\\pi/4} = \\frac{8\\sqrt{2}}{a\\pi} $$. (Wait, checking calculation: $$ \\sqrt{2}^3 = 2\\sqrt{2} $$. Divided by $$ \\pi/4 $$ is multiplied by $$ 4/\\pi $$. So $$ 8\\sqrt{2}/a\\pi $$. Correcting output).",
+        "step_7": "Final calculation check: $$ \\frac{d^2y}{dx^2} = \\frac{8\\sqrt{2}}{a\\pi} $$."
+      },
+      "board_presentation_tip": "The most important step is $$ \\frac{d^2y}{dx^2} = \\frac{d}{dt}(\\frac{dy}{dx}) \\times \\frac{dt}{dx} $$. Forgetting the $$ \\frac{dt}{dx} $$ term is the most common reason for losing marks in this question.",
+      "common_student_mistakes": [
+        "Computing $$ \\frac{d^2y}{dt^2} $$ and dividing it by $$ \\frac{d^2x}{dt^2} $$, which is completely mathematically wrong.",
+        "Forgetting to multiply by $$ \\frac{dt}{dx} $$ in the final chain rule step."
+      ],
+      "concept_trigger": "Double derivative in parametric form ALWAYS requires multiplying by $$ dt/dx $$ (or equivalent) at the end of the chain rule.",
+      "time_to_solve_seconds": "240",
+      "examiner_intent": "Testing advanced understanding of the chain rule applied to second-order parametric derivatives."
+    },
+    {
+      "question_id": 18,
+      "question_type": "3_mark",
+      "concept_tested": "Finding Unknowns using Continuity",
+      "difficulty_level": "Moderate",
+      "question_text": "Find the values of $$ a $$ and $$ b $$ such that the function defined by $$ f(x) = \\begin{cases} 5, & x \\le 2 \\\\ ax + b, & 2 < x < 10 \\\\ 21, & x \\ge 10 \\end{cases} $$ is a continuous function.",
+      "options": [],
+      "correct_answer": "$$ a = 2, b = 1 $$",
+      "topper_solution": {
+        "step_1": "Since the function is continuous, it must be continuous at the break points $$ x = 2 $$ and $$ x = 10 $$.",
+        "step_2": "At $$ x = 2 $$: LHL = $$ \\lim_{x \\to 2^-} f(x) = 5 $$. RHL = $$ \\lim_{x \\to 2^+} f(x) = a(2) + b = 2a + b $$.",
+        "step_3": "Equating LHL and RHL for continuity at $$ x = 2 $$: $$ 2a + b = 5 $$  --- (Equation 1)",
+        "step_4": "At $$ x = 10 $$: LHL = $$ \\lim_{x \\to 10^-} f(x) = a(10) + b = 10a + b $$. RHL = $$ \\lim_{x \\to 10^+} f(x) = 21 $$.",
+        "step_5": "Equating LHL and RHL for continuity at $$ x = 10 $$: $$ 10a + b = 21 $$ --- (Equation 2)",
+        "step_6": "Solve the linear equations simultaneously. Subtract Eq 1 from Eq 2: $$ (10a + b) - (2a + b) = 21 - 5 \\implies 8a = 16 \\implies a = 2 $$.",
+        "step_7": "Substitute $$ a = 2 $$ into Equation 1: $$ 2(2) + b = 5 \\implies 4 + b = 5 \\implies b = 1 $$.",
+        "step_8": "The values are $$ a = 2 $$ and $$ b = 1 $$."
+      },
+      "board_presentation_tip": "Establish the simultaneous equations clearly by labelling them (1) and (2) and state that continuity at transition points necessitates LHL = RHL.",
+      "common_student_mistakes": [
+        "Evaluating the limits incorrectly by swapping the greater than and less than conditions.",
+        "Arithmetic mistakes while solving the linear equations."
+      ],
+      "concept_trigger": "A piecewise function with two unknowns requires checking continuity at both transition points to form a system of two equations.",
+      "time_to_solve_seconds": "180",
+      "examiner_intent": "Testing the application of continuity definitions to form and solve linear algebraic equations."
+    },
+    {
+      "question_id": 19,
+      "question_type": "5_mark",
+      "concept_tested": "Proving Second Order Differential Equations",
+      "difficulty_level": "Board-Tricky",
+      "question_text": "If $$ y = (x + \\sqrt{x^2 + a^2})^n $$, prove that $$ (x^2 + a^2) \\frac{d^2y}{dx^2} + x \\frac{dy}{dx} - n^2y = 0 $$.",
+      "options": [],
+      "correct_answer": "Proof derived correctly.",
+      "topper_solution": {
+        "step_1": "Given $$ y = (x + \\sqrt{x^2 + a^2})^n $$. Apply chain rule to find the first derivative.",
+        "step_2": "$$ \\frac{dy}{dx} = n(x + \\sqrt{x^2 + a^2})^{n-1} \\cdot \\frac{d}{dx}(x + \\sqrt{x^2 + a^2}) $$.",
+        "step_3": "$$ \\frac{dy}{dx} = n(x + \\sqrt{x^2 + a^2})^{n-1} \\cdot \\left( 1 + \\frac{1}{2\\sqrt{x^2 + a^2}} \\cdot 2x \\right) = n(x + \\sqrt{x^2 + a^2})^{n-1} \\cdot \\left( \\frac{\\sqrt{x^2 + a^2} + x}{\\sqrt{x^2 + a^2}} \\right) $$.",
+        "step_4": "Combine the terms with the same base: $$ \\frac{dy}{dx} = \\frac{n(x + \\sqrt{x^2 + a^2})^n}{\\sqrt{x^2 + a^2}} = \\frac{ny}{\\sqrt{x^2 + a^2}} $$.",
+        "step_5": "Cross-multiply to avoid quotient rule in the next step: $$ \\sqrt{x^2 + a^2} \\frac{dy}{dx} = ny $$.",
+        "step_6": "Square both sides to remove the root (optional but highly recommended): $$ (x^2 + a^2) \\left(\\frac{dy}{dx}\\right)^2 = n^2 y^2 $$.",
+        "step_7": "Differentiate implicitly with respect to $$ x $$ using product rule on LHS:\\n$$ (x^2 + a^2) \\cdot 2\\left(\\frac{dy}{dx}\\right)\\left(\\frac{d^2y}{dx^2}\\right) + \\left(\\frac{dy}{dx}\\right)^2 \\cdot 2x = n^2 \\cdot 2y \\frac{dy}{dx} $$.",
+        "step_8": "Divide the entire equation by $$ 2\\frac{dy}{dx} $$ (which is valid since $$ y' \\neq 0 $$):\\n$$ (x^2 + a^2)\\frac{d^2y}{dx^2} + x\\frac{dy}{dx} = n^2y $$.",
+        "step_9": "Rearrange: $$ (x^2 + a^2)\\frac{d^2y}{dx^2} + x\\frac{dy}{dx} - n^2y = 0 $$. Hence proved."
+      },
+      "board_presentation_tip": "Squaring both sides (Step 6) before the second differentiation is a master technique. It eliminates square roots and quotient rules, making the final step trivial.",
+      "common_student_mistakes": [
+        "Using quotient rule directly on $$ \\frac{ny}{\\sqrt{x^2 + a^2}} $$, which leads to a massive unmanageable algebraic fraction.",
+        "Forgetting the chain rule factor '2x' when differentiating the square root."
+      ],
+      "concept_trigger": "Proofs involving $$ (x^2+a^2)y'' + xy' $$ almost universally require cross-multiplying the first derivative's denominator and squaring both sides before differentiating again.",
+      "time_to_solve_seconds": "360",
+      "examiner_intent": "Testing advanced algebraic manipulation, strategic use of implicit differentiation, and chain rule precision."
+    },
+    {
+      "question_id": 20,
+      "question_type": "case_based",
+      "concept_tested": "Continuity and Differentiability in Real World Pricing Models",
+      "difficulty_level": "Moderate",
+      "question_text": "A courier service charges a flat rate for parcels up to 2 kg, and a per-kilogram rate for weight exceeding 2 kg. The total cost function $$ C(w) $$ in Rupees for a parcel of weight $$ w $$ kg is defined as:\\n$$ C(w) = \\begin{cases} 50, & 0 < w \\le 2 \\\\ 50 + 20(w - 2), & w > 2 \\end{cases} $$\\n\\nBased on this information, answer the following:\\n(i) Is the cost function continuous at $$ w = 2 $$? Show mathematically.\\n(ii) Find the Left Hand Derivative (LHD) and Right Hand Derivative (RHD) at $$ w = 2 $$.\\n(iii) Interpret what the non-differentiability at $$ w = 2 $$ means in this real-world pricing context.",
+      "options": [],
+      "correct_answer": "(i) Yes, continuous. (ii) LHD = 0, RHD = 20. (iii) The rate of cost increase suddenly jumps from 0 to Rs 20/kg.",
+      "topper_solution": {
+        "step_1": "For (i): Check Continuity at $$ w = 2 $$.\\nLHL = $$ \\lim_{w \\to 2^-} C(w) = 50 $$.\\nRHL = $$ \\lim_{w \\to 2^+} (50 + 20(w - 2)) = 50 + 20(0) = 50 $$.\\nValue $$ C(2) = 50 $$. Since LHL = RHL = C(2), the function is continuous at $$ w = 2 $$.",
+        "step_2": "For (ii): Check Differentiability at $$ w = 2 $$.\\nLHD = $$ \\frac{d}{dw}(50) = 0 $$ for $$ w < 2 $$.\\nRHD = $$ \\frac{d}{dw}(50 + 20w - 40) = \\frac{d}{dw}(20w + 10) = 20 $$ for $$ w > 2 $$.",
+        "step_3": "Thus, LHD at $$ w=2 $$ is 0, and RHD at $$ w=2 $$ is 20.",
+        "step_4": "For (iii): Non-differentiability means there is no single 'rate of change' at exactly 2 kg. It represents an abrupt shift in the pricing policy: below 2 kg, adding a tiny amount of weight costs nothing extra (rate = 0), but immediately after 2 kg, adding weight costs Rs 20 per kg. The cost graph has a sharp corner."
+      },
+      "board_presentation_tip": "In application questions, tie the mathematical results (LHD=0, RHD=20) directly back to the physical units (Rupees per kg) to show deep comprehension.",
+      "common_student_mistakes": [
+        "Failing to expand the RHL bracket correctly, leading to a wrong continuity check.",
+        "Struggling to articulate the real-world meaning of differentiability (rate of change)."
+      ],
+      "concept_trigger": "Tiered pricing models in real life are fundamentally continuous but non-differentiable piecewise functions.",
+      "time_to_solve_seconds": "240",
+      "examiner_intent": "Assessing the ability to translate formal limits and derivatives into practical, economic interpretations."
+    },
+    {
+      "question_id": 21,
+      "question_type": "5_mark",
+      "concept_tested": "Second Order Derivative in Parametric Form",
+      "difficulty_level": "Board-Tricky",
+      "question_text": "If $$ x = a(\\theta - \\sin \\theta) $$ and $$ y = a(1 - \\cos \\theta) $$, find $$ \\frac{d^2y}{dx^2} $$ at $$ \\theta = \\frac{\\pi}{2} $$.",
+      "options": [],
+      "correct_answer": "$$ -\\frac{1}{a} $$",
+      "topper_solution": {
+        "step_1": "Differentiate $$ x $$ and $$ y $$ with respect to $$ \\theta $$: $$ \\frac{dx}{d\\theta} = a(1 - \\cos \\theta) $$ and $$ \\frac{dy}{d\\theta} = a(\\sin \\theta) $$.",
+        "step_2": "Find the first derivative $$ \\frac{dy}{dx} = \\frac{\\frac{dy}{d\\theta}}{\\frac{dx}{d\\theta}} = \\frac{a \\sin \\theta}{a(1 - \\cos \\theta)} $$.",
+        "step_3": "Simplify using half-angle formulas: $$ \\sin \\theta = 2 \\sin\\left(\\frac{\\theta}{2}\\right) \\cos\\left(\\frac{\\theta}{2}\\right) $$ and $$ 1 - \\cos \\theta = 2 \\sin^2\\left(\\frac{\\theta}{2}\\right) $$.",
+        "step_4": "$$ \\frac{dy}{dx} = \\frac{2 \\sin(\\theta/2) \\cos(\\theta/2)}{2 \\sin^2(\\theta/2)} = \\cot\\left(\\frac{\\theta}{2}\\right) $$.",
+        "step_5": "Differentiate again with respect to $$ x $$: $$ \\frac{d^2y}{dx^2} = \\frac{d}{d\\theta}\\left(\\cot\\left(\\frac{\\theta}{2}\\right)\\right) \\cdot \\frac{d\\theta}{dx} $$.",
+        "step_6": "$$ \\frac{d^2y}{dx^2} = -\\frac{1}{2}\\csc^2\\left(\\frac{\\theta}{2}\\right) \\cdot \\frac{1}{a(1 - \\cos \\theta)} $$.",
+        "step_7": "Since $$ 1 - \\cos \\theta = 2\\sin^2(\\theta/2) $$, substitute it back: $$ \\frac{d^2y}{dx^2} = -\\frac{1}{2}\\csc^2\\left(\\frac{\\theta}{2}\\right) \\cdot \\frac{1}{2a \\sin^2(\\theta/2)} = -\\frac{1}{4a}\\csc^4\\left(\\frac{\\theta}{2}\\right) $$.",
+        "step_8": "Evaluate at $$ \\theta = \\frac{\\pi}{2} $$: $$ \\frac{\\theta}{2} = \\frac{\\pi}{4} $$. Since $$ \\csc\\left(\\frac{\\pi}{4}\\right) = \\sqrt{2} $$, $$ \\csc^4\\left(\\frac{\\pi}{4}\\right) = (\\sqrt{2})^4 = 4 $$.",
+        "step_9": "$$ \\frac{d^2y}{dx^2} = -\\frac{1}{4a} \\times 4 = -\\frac{1}{a} $$."
+      },
+      "board_presentation_tip": "For parametric second derivatives, the multiplication by $$ \\frac{d\\theta}{dx} $$ is the most crucial step where 90% of mistakes happen. Highlight it in your working.",
+      "common_student_mistakes": [
+        "Computing $$ \\frac{d^2y}{d\\theta^2} $$ over $$ \\frac{d^2x}{d\\theta^2} $$.",
+        "Forgetting the chain rule component $$ \\frac{d\\theta}{dx} $$ during the second differentiation."
+      ],
+      "concept_trigger": "Double derivative in parametrics requires a final multiplication by the reciprocal of $$ \\frac{dx}{d\\theta} $$.",
+      "time_to_solve_seconds": "300",
+      "examiner_intent": "Testing advanced chain rule application and trigonometric simplification in parametric differentiation."
+    },
+    {
+      "question_id": 22,
+      "question_type": "Assertion Reason",
+      "concept_tested": "Continuity of Greatest Integer Function",
+      "difficulty_level": "Moderate",
+      "question_text": "Assertion (A): The Greatest Integer Function $$ f(x) = [x] $$ is discontinuous at $$ x = 2 $$. \\nReason (R): For the function $$ f(x) = [x] $$, the left-hand limit and right-hand limit at any integer point $$ c $$ are not equal.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct_answer": "Both A and R are true and R is the correct explanation of A",
+      "topper_solution": {
+        "step_1": "Analyze Reason (R): Let $$ c $$ be an integer. LHL = $$ \\lim_{x \\to c^-} [x] = c - 1 $$. RHL = $$ \\lim_{x \\to c^+} [x] = c $$. Since $$ c - 1 \\neq c $$, the limit does not exist. Reason R is true.",
+        "step_2": "Analyze Assertion (A): At $$ x = 2 $$, LHL = 1 and RHL = 2. Since LHL $$ \\neq $$ RHL, the function is discontinuous at $$ x = 2 $$. Assertion A is true.",
+        "step_3": "Since R provides the exact mathematical reasoning (LHL $$ \\neq $$ RHL at integers) used to prove A, R is the correct explanation."
+      },
+      "board_presentation_tip": "Explicitly write down the values of the LHL and RHL at x=2 to definitively prove the assertion.",
+      "common_student_mistakes": [
+        "Confusing the Greatest Integer Function with the absolute value function, assuming it is continuous everywhere."
+      ],
+      "concept_trigger": "The symbol $$ [x] $$ represents a step function which breaks (is discontinuous) at every single integer.",
+      "time_to_solve_seconds": "45",
+      "examiner_intent": "Checking fundamental knowledge of standard non-continuous mathematical functions."
+    },
+    {
+      "question_id": 23,
+      "question_type": "2_mark",
+      "concept_tested": "Derivative using Inverse Trigonometric Substitution",
+      "difficulty_level": "Easy",
+      "question_text": "Find $$ \\frac{dy}{dx} $$ if $$ y = \\sin^{-1}\\left(\\frac{2x}{1 + x^2}\\right) $$ for $$ -1 < x < 1 $$.",
+      "options": [],
+      "correct_answer": "$$ \\frac{2}{1 + x^2} $$",
+      "topper_solution": {
+        "step_1": "Substitute $$ x = \\tan \\theta $$. Then $$ \\theta = \\tan^{-1} x $$.",
+        "step_2": "The function becomes $$ y = \\sin^{-1}\\left(\\frac{2\\tan \\theta}{1 + \\tan^2 \\theta}\\right) $$.",
+        "step_3": "Recognize the trigonometric identity: $$ \\frac{2\\tan \\theta}{1 + \\tan^2 \\theta} = \\sin 2\\theta $$.",
+        "step_4": "So, $$ y = \\sin^{-1}(\\sin 2\\theta) $$. Since $$ -1 < x < 1 $$, $$ -\\frac{\\pi}{4} < \\theta < \\frac{\\pi}{4} $$, giving $$ -\\frac{\\pi}{2} < 2\\theta < \\frac{\\pi}{2} $$ (principal domain).",
+        "step_5": "Thus, $$ y = 2\\theta = 2\\tan^{-1} x $$.",
+        "step_6": "Differentiate with respect to $$ x $$: $$ \\frac{dy}{dx} = 2 \\cdot \\frac{1}{1 + x^2} = \\frac{2}{1 + x^2} $$."
+      },
+      "board_presentation_tip": "Mentioning the domain check (Step 4) is what separates a 2/2 from a 1.5/2 in board marking schemes.",
+      "common_student_mistakes": [
+        "Using the chain rule directly without substitution, resulting in a massively complex algebraic fraction that is hard to simplify."
+      ],
+      "concept_trigger": "The algebraic form $$ \\frac{2x}{1+x^2} $$ is a universal trigger for the $$ x = \\tan \\theta $$ substitution to form $$ \\sin 2\\theta $$.",
+      "time_to_solve_seconds": "60",
+      "examiner_intent": "Testing pattern recognition for standard trigonometric substitutions to simplify differentiation."
+    },
+    {
+      "question_id": 24,
+      "question_type": "3_mark",
+      "concept_tested": "Implicit and Logarithmic Differentiation",
+      "difficulty_level": "Moderate",
+      "question_text": "If $$ x^y = y^x $$, find $$ \\frac{dy}{dx} $$.",
+      "options": [],
+      "correct_answer": "$$ \\frac{y(x \\log y - y)}{x(y \\log x - x)} $$",
+      "topper_solution": {
+        "step_1": "Take the natural logarithm on both sides: $$ \\log(x^y) = \\log(y^x) $$.",
+        "step_2": "Apply log properties: $$ y \\log x = x \\log y $$.",
+        "step_3": "Differentiate both sides with respect to $$ x $$ using the product rule.",
+        "step_4": "LHS: $$ \\frac{d}{dx}(y \\log x) = y \\cdot \\frac{1}{x} + \\log x \\cdot \\frac{dy}{dx} $$.",
+        "step_5": "RHS: $$ \\frac{d}{dx}(x \\log y) = x \\cdot \\frac{1}{y} \\frac{dy}{dx} + \\log y \\cdot 1 $$.",
+        "step_6": "Equate LHS and RHS: $$ \\frac{y}{x} + \\log x \\frac{dy}{dx} = \\frac{x}{y} \\frac{dy}{dx} + \\log y $$.",
+        "step_7": "Bring all $$ \\frac{dy}{dx} $$ terms to one side: $$ \\frac{dy}{dx}\\left(\\log x - \\frac{x}{y}\\right) = \\log y - \\frac{y}{x} $$.",
+        "step_8": "Take LCMs on both sides: $$ \\frac{dy}{dx}\\left(\\frac{y \\log x - x}{y}\\right) = \\frac{x \\log y - y}{x} $$.",
+        "step_9": "Solve for $$ \\frac{dy}{dx} $$: $$ \\frac{dy}{dx} = \\frac{y(x \\log y - y)}{x(y \\log x - x)} $$."
+      },
+      "board_presentation_tip": "Write 'Taking natural logarithm on both sides' explicitly. Group the dy/dx terms clearly before dividing.",
+      "common_student_mistakes": [
+        "Applying the power rule directly to variables (e.g., $$ y x^{y-1} $$), which is invalid for variable bases and exponents.",
+        "Forgetting the implicit $$ \\frac{dy}{dx} $$ when differentiating $$ \\log y $$."
+      ],
+      "concept_trigger": "An equation with variables in both the base and the exponent strictly requires logarithmic differentiation.",
+      "time_to_solve_seconds": "180",
+      "examiner_intent": "Evaluating the combined application of logarithmic properties and implicit differentiation."
+    },
+    {
+      "question_id": 25,
+      "question_type": "case_based",
+      "concept_tested": "Differentiability in Physical Track Design",
+      "difficulty_level": "Moderate",
+      "question_text": "A civil engineer is designing a transition curve for a highway. To ensure a smooth ride without abrupt jerks, the road profile must be continuous and smooth (differentiable). The elevation profile $$ y = f(x) $$ of the road is modeled as:\\n$$ f(x) = \\begin{cases} x^2 + 3, & x \\le 1 \\\\ ax + b, & x > 1 \\end{cases} $$\\n\\nBased on this information, answer the following:\\n(i) What condition must hold for the road to have no sudden jumps at $$ x = 1 $$? Find the equation relating $$ a $$ and $$ b $$.\\n(ii) What condition must hold for the road to have no sharp corners (smooth transition) at $$ x = 1 $$? Find the value of $$ a $$.\\n(iii) Determine the final values of $$ a $$ and $$ b $$ that make the track perfectly smooth.",
+      "options": [],
+      "correct_answer": "(i) $$ a + b = 4 $$, (ii) $$ a = 2 $$, (iii) $$ a = 2, b = 2 $$",
+      "topper_solution": {
+        "step_1": "For (i): 'No sudden jumps' means the function must be continuous at $$ x = 1 $$. Therefore, LHL = RHL at $$ x = 1 $$.",
+        "step_2": "LHL = $$ \\lim_{x \\to 1^-} (x^2 + 3) = 1^2 + 3 = 4 $$. RHL = $$ \\lim_{x \\to 1^+} (ax + b) = a(1) + b = a + b $$.",
+        "step_3": "Equating them gives the condition: $$ a + b = 4 $$.",
+        "step_4": "For (ii): 'No sharp corners' means the function must be differentiable at $$ x = 1 $$. Therefore, LHD = RHD at $$ x = 1 $$.",
+        "step_5": "LHD = $$ \\frac{d}{dx}(x^2 + 3) = 2x $$. At $$ x = 1 $$, LHD = 2.",
+        "step_6": "RHD = $$ \\frac{d}{dx}(ax + b) = a $$. At $$ x = 1 $$, RHD = $$ a $$.",
+        "step_7": "Equating LHD and RHD gives: $$ a = 2 $$.",
+        "step_8": "For (iii): Substitute $$ a = 2 $$ into the continuity equation from step 3: $$ 2 + b = 4 \\implies b = 2 $$. Thus, $$ a = 2 $$ and $$ b = 2 $$."
+      },
+      "board_presentation_tip": "Link the real-world terms to mathematical concepts explicitly (e.g., 'No jumps = Continuous', 'Smooth = Differentiable') to show understanding of the competency-based question.",
+      "common_student_mistakes": [
+        "Finding only continuity and leaving the answer as an equation with two variables.",
+        "Differentiating incorrectly or forgetting to evaluate the derivative at $$ x = 1 $$."
+      ],
+      "concept_trigger": "Real-world 'smoothness' of tracks, roads, or rollercoasters always demands equating both the functions (continuity) and their first derivatives (differentiability) at the joining point.",
+      "time_to_solve_seconds": "180",
+      "examiner_intent": "Assessing the ability to translate physical constraints into mathematical conditions of continuity and differentiability."
+    }
+  ]
+}

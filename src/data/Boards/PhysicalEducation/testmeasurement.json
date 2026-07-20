@@ -1,0 +1,161 @@
+{
+    "chapter_name": "Test & Measurement in Sports",
+    "weightage_insight": {
+        "estimated_marks_range": "8–12 Marks",
+        "pyq_frequency_summary": "This is the 'Mathematical' chapter of PE. Examiners obsess over the **Harvard Step Test** (Procedure & Calculation) and **Rikli & Jones Senior Citizen Test** (Purpose of each test). Expect a guaranteed 3 or 5-mark numerical question asking to calculate 'Fitness Index' or 'BMI'. 1-mark MCQs usually ask 'What does Test X measure?' (e.g., Sit & Reach measures Flexibility)."
+    },
+    "ultimate_short_notes": [
+        {
+            "heading": "SAI Khelo India Fitness Test (Age 5–8 yrs)",
+            "content": [
+                "**Body Mass Index (BMI)**: Measures body composition (Weight/Height).",
+                "**Flamingo Balance Test**: Measures **static balance**. (Stand on one leg on a beam).",
+                "**Plate Tapping Test**: Measures **limb movement speed/coordination**. (Tapping two plates with one hand alternately)."
+            ]
+        },
+        {
+            "heading": "SAI Khelo India Fitness Test (Age 9–18 yrs)",
+            "content": [
+                "**50m Dash**: Measures **Speed**.",
+                "**600m Run/Walk**: Measures **Cardiovascular Endurance**.",
+                "**Sit & Reach**: Measures **Flexibility** (Lower back & Hamstrings).",
+                "**Partial Curl Up**: Measures **Abdominal Strength/Endurance**.",
+                "**Push Ups (Boys) / Modified Push Ups (Girls)**: Measures **Upper Body Strength**."
+            ]
+        },
+        {
+            "heading": "Harvard Step Test (Cardiovascular Fitness)",
+            "content": [
+                "**Purpose**: To measure aerobic fitness/recovery rate.",
+                "**Equipment**: Bench (20 inches for Men, 16 inches for Women), Stopwatch.",
+                "**Procedure**: Stepping up and down at 30 steps/minute for 5 minutes (or until exhaustion). Pulse is counted during recovery at 1-1.5 min, 2-2.5 min, and 3-3.5 min.",
+                "**Exam Relevance**: The **Fitness Index Formula** is the most commonly asked numerical in Board exams."
+            ]
+        },
+        {
+            "heading": "Rikli & Jones Senior Citizen Fitness Test",
+            "content": [
+                "Designed to assess functional fitness in older adults (60+).",
+                "**Chair Stand Test**: Lower body strength.",
+                "**Arm Curl Test**: Upper body strength.",
+                "**Chair Sit & Reach**: Lower body flexibility.",
+                "**Back Scratch Test**: Upper body flexibility.",
+                "**8-Foot Up & Go**: Agility and dynamic balance.",
+                "**6-Minute Walk**: Aerobic endurance."
+            ]
+        }
+    ],
+    "exam_playbook": [
+        {
+            "strategy_name": "The Numerical Lock",
+            "pyq_pattern": "Calculate the Physical Fitness Index (PFI) for a student who stepped for 5 mins and had pulse counts of 80, 70, and 60.",
+            "how_students_lose_marks": "Using the wrong formula (Short vs Long) or making calculation errors. Forgetting to multiply by 100.",
+            "winning_approach": "Always state the **Formula** first in LaTeX. Substitute values clearly. If the question gives 3 pulse counts, use **Long Formula**. If only one pulse count is given, use **Short Formula**.",
+            "marks_secured": "3 to 5 Marks (Full Calculation)"
+        },
+        {
+            "strategy_name": "Purpose Pairing",
+            "pyq_pattern": "Match the following tests with what they measure (e.g., Chair Stand -> Lower Body Strength).",
+            "how_students_lose_marks": "Confusing 'Agility' (8-foot up & go) with 'Endurance' (6 min walk).",
+            "winning_approach": "Keywords: 'Walk' = Endurance. 'Up & Go' = Moving fast (Agility). 'Reach' = Stretching (Flexibility). 'Stand/Curl' = Muscle (Strength).",
+            "marks_secured": "1 to 3 Marks"
+        }
+    ],
+    "formula_bank": [
+        {
+            "concept": "Body Mass Index (BMI)",
+            "formula": "$$\\text{BMI} = \\frac{\\text{Weight (kg)}}{\\text{Height (m)}^2}$$",
+            "used_in_questions": "Categorizing obesity. (Underweight < 18.5, Normal 18.5-24.9, Overweight 25-29.9, Obese > 30)."
+        },
+        {
+            "concept": "Harvard Step Test (Long Form)",
+            "formula": "$$\\text{PFI} = \\frac{\\text{Duration of Exercise (sec)} \\times 100}{2 \\times (P_1 + P_2 + P_3)}$$",
+            "used_in_questions": "When 3 pulse counts (P1, P2, P3) are given."
+        },
+        {
+            "concept": "Harvard Step Test (Short Form)",
+            "formula": "$$\\text{PFI} = \\frac{\\text{Duration of Exercise (sec)} \\times 100}{5.5 \\times \\text{Pulse Count}}$$",
+            "used_in_questions": "When only one pulse count (1-1.5 min) is given."
+        }
+    ],
+    "sure_shot_questions": [
+        {
+            "question": "Explain the procedure of the Harvard Step Test and the method to calculate the Fitness Index.",
+            "marks": 5,
+            "mandatory_keywords": [
+                "Aerobic Fitness",
+                "Brouha (Developer)",
+                "30 steps/min",
+                "Recovery Pulse",
+                "P1, P2, P3",
+                "Formula"
+            ],
+            "answer_structure": "1. **Purpose**: Aerobic fitness. 2. **Equipment**: Bench & Stopwatch. 3. **Procedure**: Step up/down for 5 mins. 4. **Measurement**: Count pulse at 1-1.5, 2-2.5, 3-3.5 mins after stopping. 5. **Calculation**: Write the Formula.",
+            "model_answer_outline": []
+        },
+        {
+            "question": "List the tests included in the Rikli & Jones Senior Citizen Fitness Test and explain the purpose of any three.",
+            "marks": 3,
+            "mandatory_keywords": [
+                "Functional Fitness",
+                "Elderly",
+                "Chair Stand",
+                "Arm Curl",
+                "Back Scratch"
+            ],
+            "answer_structure": "List all 6 tests -> Select 3 -> Format: Test Name - Purpose.",
+            "model_answer_outline": [
+                "**1. Chair Stand Test**: Measures lower body strength (leg power). essential for climbing stairs.",
+                "**2. Back Scratch Test**: Measures upper body flexibility (shoulder range). Essential for combing hair/zipping dress.",
+                "**3. 8-Foot Up & Go**: Measures agility and dynamic balance. Essential for moving around safely."
+            ]
+        },
+        {
+            "question": "Calculate the BMI of a person weighing 70kg with a height of 1.70m. Also, categorize his weight status.",
+            "marks": 3,
+            "mandatory_keywords": [
+                "Formula",
+                "Calculation",
+                "Category table"
+            ],
+            "answer_structure": "Step 1: Formula. Step 2: Substitution. Step 3: Final Value. Step 4: Category.",
+            "model_answer_outline": [
+                "**Formula**: $BMI = \\frac{W}{H^2}$",
+                "**Calculation**: $\\frac{70}{1.70 \\times 1.70} = \\frac{70}{2.89} \\approx 24.22~kg/m^2$.",
+                "**Category**: Since 24.22 falls between 18.5 and 24.9, the person is **Normal Weight**."
+            ]
+        }
+    ],
+    "diagram_descriptors": [
+        {
+            "diagram_name": "Sit and Reach Test",
+            "used_for": "Flexibility Test explanation",
+            "image_path": "/images/PhysicalEducation/sit and reach test.png",
+            "detailed_description": "A student sitting on the floor with legs stretched out straight. Feet are placed flat against a testing box. The student reaches forward with both hands to touch the box/scale. Measures flexibility of hamstrings and lower back."
+        },
+        {
+            "diagram_name": "Flamingo Balance Test",
+            "used_for": "Static Balance explanation",
+            "image_path": "/images/PhysicalEducation/flamingo balance test.png",
+            "detailed_description": "A student standing on one leg on a narrow beam. The other leg is bent at the knee and held by the hand. The free hand tries to maintain balance. The examiner times how long balance is held."
+        },
+        {
+            "diagram_name": "Chair Stand Test",
+            "used_for": "Senior Citizen Test",
+            "image_path": "/images/PhysicalEducation/chair stand test.png",
+            "detailed_description": "An elderly person sitting on a chair with arms crossed against the chest. The diagram shows two phases: Sitting and Standing up fully, then returning to sit. Repeated for 30 seconds."
+        }
+    ],
+    "examiner_traps": [
+        {
+            "common_mistake": "Confusing '50m Dash' (Speed) with '600m Run' (Endurance).",
+            "why_marks_are_cut": "Writing 'Endurance' for 50m Dash is a factual error. 50m is anaerobic (Speed); 600m is aerobic (Endurance).",
+            "correct_examiner_expectation": "Short distance = Speed. Long distance = Endurance."
+        },
+        {
+            "common_mistake": "Forgetting to convert 'Minutes' to 'Seconds' in Harvard Step Test Formula.",
+            "why_marks_are_cut": "The formula requires duration in **seconds**. If a student writes '5' instead of '300' (5 mins x 60), the answer will be wrong.",
+            "correct_examiner_expectation": "5 minutes = 300 seconds. Use 300 in the numerator."
+        }
+    ]
+}

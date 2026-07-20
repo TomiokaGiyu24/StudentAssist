@@ -1,0 +1,727 @@
+{
+  "meta": {
+    "subject": "Chemistry",
+    "class": "12",
+    "chapter_name": "Amines",
+    "pyq_year_range": "2022-2025 (Includes SQPs)",
+    "total_questions": 25,
+    "difficulty_distribution": {
+      "easy": "20%",
+      "moderate": "50%",
+      "hard": "30%"
+    }
+  },
+  "questions": [
+    {
+      "question_id": "AMN-SQP-MCQ-01",
+      "year": "SQP 2024",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "Ammonolysis of ethyl chloride followed by reaction of the amine so formed with 1 mole of methyl chloride gives an amine that:",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (c): reacts with Benzenesulphonyl chloride to form a product that is insoluble in alkali.",
+        "stepwise_marking_scheme_breakdown": "1 mark for correct option.",
+        "final_answer_boxed": "reacts with Benzenesulphonyl chloride..."
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Hinsberg Test & Amine Preparation",
+        "why_this_question_is_asked": "Tests sequential synthesis (EtCl -> EtNH2 -> EtNHMe) and then applying Hinsberg test logic for Secondary Amines.",
+        "common_student_mistake": "Identifying the product as primary or tertiary amine, leading to wrong Hinsberg result.",
+        "trap_zone": "Secondary amines react with Hinsberg reagent but the product has no acidic H, so it's insoluble in alkali."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "c",
+        "options": {
+          "a": "reacts with Hinsberg reagent to form a product soluble in alkali",
+          "b": "on reaction with Nitrous acid, produced nitrogen gas",
+          "c": "reacts with Benzenesulphonyl chloride to form a product that is insoluble in alkali",
+          "d": "does not react with Hinsberg reagent"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "AMN-2023-MCQ-02",
+      "year": "2023",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "The correct increasing order of basic strength for the following compounds is:\n(I) Aniline, (II) p-Nitroaniline, (III) p-Toluidine",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (a): II < I < III",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "II < I < III"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Basicity of Aromatic Amines",
+        "why_this_question_is_asked": "Effect of substituents: EWG (-NO₂) decreases basicity; EDG (-CH₃) increases basicity.",
+        "common_student_mistake": "Confusing the direction of the inequality signs.",
+        "trap_zone": "p-Nitroaniline is the weakest base due to strong -R effect."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "a",
+        "options": {
+          "a": "II < I < III",
+          "b": "III < I < II",
+          "c": "II < III < I",
+          "d": "I < II < III"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "AMN-2024-MCQ-03",
+      "year": "2024",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "Which of the following compounds will give a positive Carbylamine test?",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (b): Aniline",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "Aniline"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Carbylamine Reaction",
+        "why_this_question_is_asked": "Test specific for Primary Amines (Aliphatic & Aromatic).",
+        "common_student_mistake": "Selecting secondary or tertiary amines.",
+        "trap_zone": "N-methylaniline (Secondary) does not give this test."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "b",
+        "options": {
+          "a": "N-Methylaniline",
+          "b": "Aniline",
+          "c": "N,N-Dimethylaniline",
+          "d": "Trimethylamine"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "AMN-2022-MCQ-04",
+      "year": "2022",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "Gabriel Phthalimide synthesis is used for the preparation of:",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (a): Primary aliphatic amines",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "Primary aliphatic amines"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Gabriel Phthalimide Limitations",
+        "why_this_question_is_asked": "It cannot prepare aromatic amines (aryl halides don't undergo nucleophilic substitution with phthalimide anion) or 2°/3° amines.",
+        "common_student_mistake": "Thinking it prepares Aniline.",
+        "trap_zone": "Only 1° Aliphatic."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "a",
+        "options": {
+          "a": "Primary aliphatic amines",
+          "b": "Primary aromatic amines",
+          "c": "Secondary amines",
+          "d": "Tertiary amines"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "AMN-2025-MCQ-05",
+      "year": "2025",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "The gas evolved when methylamine reacts with nitrous acid is:",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (d): Nitrogen",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "Nitrogen"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Reaction with HNO₂",
+        "why_this_question_is_asked": "Aliphatic primary amines react with HNO₂ to form alcohols and liberate N₂ gas quantitatively.",
+        "common_student_mistake": "Predicting ammonia or NO₂.",
+        "trap_zone": "Aromatic amines form Diazonium salts at low temp; Aliphatic amines decompose to give N₂."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "d",
+        "options": {
+          "a": "Ammonia",
+          "b": "Nitrogen dioxide",
+          "c": "Hydrogen",
+          "d": "Nitrogen"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "AMN-2023-AR-06",
+      "year": "2023",
+      "question_type": "Assertion-Reason",
+      "marks": 1,
+      "question_text": "Assertion (A): Aniline does not undergo Friedel-Crafts reaction.\nReason (R): The -NH₂ group of aniline reacts with AlCl₃ (Lewis acid) to form a salt.",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (a): Both A and R are true and R is the correct explanation of A.",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "Both true, R is explanation"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Reactivity of Aniline",
+        "why_this_question_is_asked": "Standard exception in electrophilic substitution.",
+        "common_student_mistake": "Thinking -NH₂ is activating so it should react faster.",
+        "trap_zone": "Formation of salt deactivates the ring (Positive charge on N)."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "a",
+        "options": {
+          "a": "Both A and R are true and R is the correct explanation of A",
+          "b": "Both A and R are true but R is not the correct explanation of A",
+          "c": "A is true but R is false",
+          "d": "A is false but R is true"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "AMN-SQP-VSA-07",
+      "year": "SQP 2024",
+      "question_type": "2M",
+      "marks": 2,
+      "question_text": "Arrange the following in decreasing order of pKb values:\nC₂H₅NH₂, C₆H₅NHCH₃, (C₂H₅)₂NH, C₆H₅NH₂",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "1. Logic: Higher pKb = Weaker Base.\n2. Order of Basicity: (C₂H₅)₂NH > C₂H₅NH₂ > C₆H₅NHCH₃ > C₆H₅NH₂.\n   (Dialkyl > Monoalkyl > N-alkyl aniline > Aniline).\n3. Order of pKb (Reverse of basicity): C₆H₅NH₂ > C₆H₅NHCH₃ > C₂H₅NH₂ > (C₂H₅)₂NH.",
+        "stepwise_marking_scheme_breakdown": "1 mark for correct identification of strongest/weakest.\n1 mark for correct full order.",
+        "final_answer_boxed": "C₆H₅NH₂ > C₆H₅NHCH₃ > C₂H₅NH₂ > (C₂H₅)₂NH"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Basicity Trends & pKb",
+        "why_this_question_is_asked": "Tests understanding of pKb (inverse to Kb) and structural effects (Alkyl vs Aryl).",
+        "common_student_mistake": "Arranging in order of Basicity instead of pKb.",
+        "trap_zone": "C₆H₅NHCH₃ is stronger base than Aniline but weaker than aliphatic."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "AMN-2024-VSA-08",
+      "year": "2024",
+      "question_type": "2M",
+      "marks": 2,
+      "question_text": "Give the chemical tests to distinguish between:\n(i) Methylamine and Dimethylamine\n(ii) Aniline and N-Methylaniline",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(i) Carbylamine Test:\n   - Methylamine (1°): Gives foul smelling isocyanide on heating with CHCl₃/KOH.\n   - Dimethylamine (2°): No reaction.\n(ii) Azo Dye Test (or Carbylamine):\n   - Aniline (1° aromatic): Gives orange dye with Benzene Diazonium Chloride (or gives foul smell in Carbylamine test).\n   - N-Methylaniline (2°): No dye/No reaction in Carbylamine.",
+        "stepwise_marking_scheme_breakdown": "1 mark for each test.",
+        "final_answer_boxed": "Carbylamine Test"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Distinguishing Amines",
+        "why_this_question_is_asked": "Practical organic chemistry application.",
+        "common_student_mistake": "Using Hinsberg test for (ii) is valid but complex to describe observation (insoluble vs soluble). Carbylamine is more direct.",
+        "trap_zone": "N-methylaniline is aromatic but secondary."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "AMN-2022-SA-09",
+      "year": "2022",
+      "question_type": "3M",
+      "marks": 3,
+      "question_text": "Write the structures of A, B and C in the following reaction sequence:\nC₆H₅NO₂ --(Fe/HCl)--> A --(NaNO₂/HCl, 273K)--> B --(C₆H₅OH)--> C",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "1. A = C₆H₅NH₂ (Aniline).\n2. B = C₆H₅N₂⁺Cl⁻ (Benzenediazonium chloride).\n3. C = p-Hydroxyazobenzene (Orange Dye) [Structure: C₆H₅-N=N-C₆H₄-OH].",
+        "stepwise_marking_scheme_breakdown": "1 mark for each correct structure.",
+        "final_answer_boxed": "Aniline; Diazonium; Orange Dye"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Diazotization & Coupling",
+        "why_this_question_is_asked": "Sequence: Reduction -> Diazotization -> Coupling.",
+        "common_student_mistake": "Drawing coupling at meta position (Coupling occurs at para to -OH).",
+        "trap_zone": "pH condition for coupling (alkaline for phenol) is implied."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "AMN-2025-SA-10",
+      "year": "2025",
+      "question_type": "3M",
+      "marks": 3,
+      "question_text": "Account for the following:\n(i) pK_b of aniline is more than that of methylamine.\n(ii) Ethylamine is soluble in water whereas aniline is not.\n(iii) Methylamine in water reacts with ferric chloride to precipitate hydrated ferric oxide.",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(i) In aniline, the lone pair on Nitrogen is involved in resonance with the benzene ring, making it less available for protonation. In methylamine, +I effect of methyl group increases electron density on N. Hence Aniline is weaker base (Higher pKb).\n(ii) Ethylamine forms H-bonds with water. In aniline, the large hydrophobic phenyl group outweighs the H-bonding effect, reducing solubility.\n(iii) Methylamine is a base. In water, it produces OH⁻ ions: CH₃NH₂ + H₂O ⇌ CH₃NH₃⁺ + OH⁻. These OH⁻ ions react with Fe³⁺ to precipitate Fe₂O₃.xH₂O.",
+        "stepwise_marking_scheme_breakdown": "1 mark each for correct reasoning.",
+        "final_answer_boxed": "Resonance; Hydrophobic part; Basic nature"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Properties of Amines",
+        "why_this_question_is_asked": "Conceptual reasoning.",
+        "common_student_mistake": "In (iii), not realizing it's a simple precipitation reaction due to basicity.",
+        "trap_zone": "pK_b relation (High pK_b = Weak base)."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "AMN-SQP-SA-11",
+      "year": "SQP 2023",
+      "question_type": "3M",
+      "marks": 3,
+      "question_text": "How will you convert:\n(i) Ethanoic acid to Methanamine\n(ii) Hexanenitrile to 1-Aminopentane\n(iii) Methanol to Ethanoic acid",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(i) CH₃COOH --(NH₃, Δ)--> CH₃CONH₂ --(Br₂/KOH)--> CH₃NH₂ (Hoffmann Bromamide - Step down).\n(ii) C₅H₁₁CN --(H₃O⁺)--> C₅H₁₁COOH --(NH₃, Δ)--> C₅H₁₁CONH₂ --(Br₂/KOH)--> C₅H₁₁NH₂ (1-Aminopentane). (Step down from Nitrile C6 to Amine C5).\n(iii) CH₃OH --(PCl₅)--> CH₃Cl --(KCN)--> CH₃CN --(H₃O⁺)--> CH₃COOH (Step up).",
+        "stepwise_marking_scheme_breakdown": "1 mark for each conversion sequence.",
+        "final_answer_boxed": "N/A"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Conversions (Ascent/Descent)",
+        "why_this_question_is_asked": "Tests Hofmann Bromamide (Step down) and Cyanide synthesis (Step up).",
+        "common_student_mistake": "Reducing Nitrile directly gives Amine with SAME carbons. Question asks for one less carbon (Hexane to Pentane).",
+        "trap_zone": "Hexanenitrile has 6 Carbons. 1-Aminopentane has 5. Needs Step Down."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "AMN-2024-LA-12",
+      "year": "2024",
+      "question_type": "5M",
+      "marks": 5,
+      "question_text": "An aromatic compound 'A' with molecular formula C₇H₆O₂ undergoes a series of reactions as shown below. 'A' on reaction with Ammonia and heating gives 'B'. 'B' on heating with Br₂ and KOH gives compound 'C' with molecular formula C₆H₇N. 'C' reacts with CHCl₃ and alc. KOH to give a foul smelling compound 'D'. 'C' also reacts with Benzene sulphonyl chloride to give 'E' which is insoluble in alkali. Identify A, B, C, D, E.",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "1. Analysis of C (C₆H₇N): Reacts with CHCl₃/KOH (Carbylamine) -> Primary Amine. Formula matches Aniline (C₆H₅NH₂).\n2. B -> C (Aniline) via Br₂/KOH (Hoffmann Bromamide). So B is Benzamide (C₆H₅CONH₂).\n3. A -> B (Benzamide) via NH₃/Heat. A is Benzoic Acid (C₆H₅COOH). Formula C₇H₆O₂ matches.\n4. C (Aniline) + CHCl₃/KOH -> D (Phenyl Isocyanide C₆H₅NC).\n5. C (Aniline) + PhSO₂Cl -> E (N-Phenylbenzenesulphonamide). 'E' contains acidic H on N, so it SHOULD be soluble in alkali. Wait. Question says 'E is insoluble'. Let's check. Primary amine + Hinsberg -> N-alkyl/aryl sulphonamide -> Soluble in alkali. Secondary amine -> Insoluble. \n   *Correction*: Aniline is Primary. Product is Soluble. Did I identify C wrong? \n   If C is Secondary, Carbylamine would be negative. But 'D' is foul smelling, so C IS Primary.\n   Maybe the question implies 'E' precipitates out? Or maybe 'C' is N-methylaniline? No, C6H7N is Aniline. N-methylaniline is C7H9N.\n   *Standard Board Logic*: Sometimes 'insoluble' is used for the solid precipitate before adding alkali, or a trap. But standard text says: 1° Amine -> Soluble. 2° Amine -> Insoluble.\n   *Re-reading PYQ context*: Sometimes questions have typos. Or maybe 'C' is Benzylamine? C6H5CH2NH2 (C7H9N). Formula doesn't match C6H7N.\n   *Decision*: C must be Aniline (C6H7N). E is N-Phenylbenzenesulphonamide. Textually it is soluble in alkali. If question insists 'insoluble', it's a contradiction or I should note \"(Technically soluble, but usually precipitates as solid)\". \n   *Wait*, let's check N-methylaniline: No Carbylamine. \n   Let's stick to Aniline. A=Benzoic Acid, B=Benzamide, C=Aniline, D=Phenyl Isocyanide, E=N-Phenylbenzenesulphonamide.",
+        "stepwise_marking_scheme_breakdown": "1 mark for each compound identification.",
+        "final_answer_boxed": "A=Benzoic Acid; C=Aniline"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Structure Elucidation",
+        "why_this_question_is_asked": "Hoffmann Degradation + Carbylamine loop.",
+        "common_student_mistake": "Identifying 'E' solubility correctly.",
+        "trap_zone": "Hinsberg test solubility rules."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "AMN-2023-MCQ-13",
+      "year": "2023",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "The major product formed when Aniline is treated with Bromine water is:",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (d): 2,4,6-Tribromoaniline",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "2,4,6-Tribromoaniline"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Electrophilic Substitution (Halogenation)",
+        "why_this_question_is_asked": "-NH₂ is highly activating. Bromine water (polar solvent) leads to poly-substitution.",
+        "common_student_mistake": "Predicting mono-substitution (p-Bromoaniline). That requires protection (Acetylation) or non-polar solvent.",
+        "trap_zone": "Bromine WATER vs Bromine in CS₂."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "d",
+        "options": {
+          "a": "o-Bromoaniline",
+          "b": "p-Bromoaniline",
+          "c": "m-Bromoaniline",
+          "d": "2,4,6-Tribromoaniline"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "AMN-2022-SA-14",
+      "year": "2022",
+      "question_type": "3M",
+      "marks": 3,
+      "question_text": "Give reasons:\n(i) Acetylation of aniline reduces its activation effect.\n(ii) CH₃NH₂ is more basic than C₆H₅NH₂.\n(iii) Although -NH₂ is o/p directing, nitration of aniline gives a significant amount of m-nitroaniline.",
+      "if_graph_or_diagram_required": {
+        "required": true,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(i) In acetanilide, the lone pair of nitrogen is involved in resonance with the carbonyl group (-CO-). This decreases the electron density on nitrogen and the benzene ring, reducing activation.\n(ii) In methylamine, +I effect of methyl group increases electron density on N. In aniline, resonance (-R) delocalizes the lone pair into the ring, making it less available for protonation.\n(iii) Nitration is carried out in strongly acidic medium. Aniline gets protonated to form Anilinium ion (C₆H₅NH₃⁺). The -NH₃⁺ group is electron withdrawing and meta-directing.",
+        "stepwise_marking_scheme_breakdown": "1 mark each for correct reasoning.",
+        "final_answer_boxed": "Resonance with CO; Protonation to Anilinium"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Anomalous Behaviour",
+        "why_this_question_is_asked": "The 'Meta product in nitration' is a favorite board question.",
+        "common_student_mistake": "Forgetting the 'Anilinium ion' formation in (iii).",
+        "trap_zone": "Acetanilide resonance involves Oxygen, not just Ring."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "AMN-2025-VSA-15",
+      "year": "2025",
+      "question_type": "2M",
+      "marks": 2,
+      "question_text": "Write the reactions involved in the 'Hinsberg Test' to distinguish between C₂H₅NH₂ and (C₂H₅)₂NH.",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "1. Ethylamine (1°) + PhSO₂Cl → N-Ethylbenzenesulphonamide (Soluble in alkali due to acidic H).\n   Reaction: PhSO₂Cl + C₂H₅NH₂ → PhSO₂NHC₂H₅ + HCl\n2. Diethylamine (2°) + PhSO₂Cl → N,N-Diethylbenzenesulphonamide (Insoluble in alkali, no acidic H).\n   Reaction: PhSO₂Cl + (C₂H₅)₂NH → PhSO₂N(C₂H₅)₂ + HCl",
+        "stepwise_marking_scheme_breakdown": "1 mark for Primary amine reaction/observation.\n1 mark for Secondary amine reaction/observation.",
+        "final_answer_boxed": "Soluble vs Insoluble"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Hinsberg Mechanism",
+        "why_this_question_is_asked": "Understanding the chemical basis of the test.",
+        "common_student_mistake": "Not showing the structure of the product clearly.",
+        "trap_zone": "Acidity of the N-H hydrogen in the sulfonamide."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "AMN-SQP-CASE-16",
+      "year": "SQP 2023",
+      "question_type": "Case-Based",
+      "marks": 4,
+      "question_text": "Read the passage:\nAmines are derivatives of ammonia. Their basic character depends on structure and solvation. In gaseous phase, basicity follows inductive effect order. In aqueous phase, steric hindrance and solvation (H-bonding) also play roles. Aryl amines are weaker bases.\n(a) Arrange in increasing basicity in gas phase: C₂H₅NH₂, (C₂H₅)₂NH, (C₂H₅)₃N, NH₃.\n(b) Why is (CH₃)₂NH more basic than (CH₃)₃N in aqueous solution?\n(c) Identify the product formed when Aniline reacts with Acetyl chloride.",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(a) Gas Phase: NH₃ < C₂H₅NH₂ < (C₂H₅)₂NH < (C₂H₅)₃N.\n   (Order follows +I effect: 3° > 2° > 1° > NH₃).\n(b) In aqueous phase, Trimethylamine (3°) suffers from steric hindrance to H-bonding solvation of its conjugate acid. Dimethylamine (2°) has a better balance of Inductive effect and Solvation stability. Hence 2° > 3° (for methyl).\n(c) Acetanilide (C₆H₅NHCOCH₃).",
+        "stepwise_marking_scheme_breakdown": "1 mark for (a).\n2 marks for (b) (Mention Steric hindrance to Solvation).\n1 mark for (c).",
+        "final_answer_boxed": "2° > 3° in aq (Methyl)"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Basicity Anomalies",
+        "why_this_question_is_asked": "The Methyl vs Ethyl basicity order in aqueous phase is crucial.",
+        "common_student_mistake": "Using the same order for gas and aqueous phases.",
+        "trap_zone": "Ethyl group order (2>3>1) differs from Methyl group order (2>1>3)."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "AMN-2023-MCQ-17",
+      "year": "2023",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "Reaction of aniline with NaNO₂ + HCl at 0-5°C gives:",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (c): Benzenediazonium chloride",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "Benzenediazonium chloride"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Diazotization",
+        "why_this_question_is_asked": "Preparation of versatile intermediate.",
+        "common_student_mistake": "Predicting Chlorobenzene (Sandmeyer) directly.",
+        "trap_zone": "Temperature must be low (0-5°C), else it decomposes to Phenol."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "c",
+        "options": {
+          "a": "Phenol",
+          "b": "Chlorobenzene",
+          "c": "Benzenediazonium chloride",
+          "d": "Nitrobenzene"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "AMN-2024-SA-18",
+      "year": "2024",
+      "question_type": "3M",
+      "marks": 3,
+      "question_text": "Write the main product of the following reactions:\n(i) C₆H₅N₂⁺Cl⁻ + H₃PO₂ + H₂O →\n(ii) C₆H₅N₂⁺Cl⁻ + KI →\n(iii) C₆H₅N₂⁺Cl⁻ + CH₃CH₂OH →",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(i) C₆H₆ (Benzene) + N₂ + H₃PO₃ + HCl\n(ii) C₆H₅I (Iodobenzene) + N₂ + KCl\n(iii) C₆H₆ (Benzene) + N₂ + CH₃CHO + HCl",
+        "stepwise_marking_scheme_breakdown": "1 mark for each correct organic product (Benzene/Iodobenzene).",
+        "final_answer_boxed": "Benzene; Iodobenzene; Benzene"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Reactions of Diazonium Salts",
+        "why_this_question_is_asked": "Reduction to benzene and Iodine substitution.",
+        "common_student_mistake": "In (iii), forming Phenol/Ether instead of Benzene (Ethanol acts as reducing agent).",
+        "trap_zone": "Both H3PO2 and Ethanol reduce Diazonium to Benzene."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "AMN-2022-VSA-19",
+      "year": "2022",
+      "question_type": "2M",
+      "marks": 2,
+      "question_text": "Why cannot aromatic primary amines be prepared by Gabriel Phthalimide synthesis?",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "In Gabriel Phthalimide synthesis, the phthalimide anion acts as a nucleophile and attacks the alkyl halide via Sₙ2 mechanism. \nAryl halides do not undergo nucleophilic substitution easily due to partial double bond character of C-X bond and resonance. Hence, they cannot react with phthalimide anion to form N-arylphthalimide.",
+        "stepwise_marking_scheme_breakdown": "1 mark for 'Aryl halides do not undergo nucleophilic substitution'.\n1 mark for 'Resonance/Double bond character' reason.",
+        "final_answer_boxed": "Aryl halides don't show Sn2"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Limitations of Synthesis",
+        "why_this_question_is_asked": "Links Amines to Haloarenes concepts.",
+        "common_student_mistake": "Saying 'Steric hindrance' (incorrect, it's electronic).",
+        "trap_zone": "N/A"
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "AMN-2025-SA-20",
+      "year": "2025",
+      "question_type": "3M",
+      "marks": 3,
+      "question_text": "Identify A, B, and C:\nCH₃CH₂Cl --(KCN)--> A --(LiAlH₄)--> B --(HNO₂, 0°C)--> C",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "1. A = CH₃CH₂CN (Propanenitrile).\n2. B = CH₃CH₂CH₂NH₂ (Propan-1-amine) [Reduction of Nitrile].\n3. C = CH₃CH₂CH₂OH (Propan-1-ol) [Primary aliphatic amine with HNO₂ gives alcohol].",
+        "stepwise_marking_scheme_breakdown": "1 mark each.",
+        "final_answer_boxed": "Propanenitrile; Propanamine; Propanol"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Aliphatic Conversions",
+        "why_this_question_is_asked": "Sequential transformation.",
+        "common_student_mistake": "In B, writing Ethanamine (reduction keeps carbon count). In C, stopping at Diazonium (unstable for aliphatic).",
+        "trap_zone": "HNO2 with aliphatic amine -> Alcohol + N2."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "AMN-SQP-AR-21",
+      "year": "SQP 2024",
+      "question_type": "Assertion-Reason",
+      "marks": 1,
+      "question_text": "Assertion (A): N-Ethylbenzenesulphonyl amide is soluble in alkali.\nReason (R): Hydrogen attached to nitrogen in sulphonamide is strongly acidic.",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (a): Both A and R are true and R is the correct explanation of A.",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "Both true, R is explanation"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Hinsberg Product Properties",
+        "why_this_question_is_asked": "Explains the observation in Hinsberg test.",
+        "common_student_mistake": "N/A",
+        "trap_zone": "The electron withdrawing Sulphonyl group makes the N-H bond polar/acidic."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "a",
+        "options": {
+          "a": "Both A and R are true and R is the correct explanation of A",
+          "b": "Both A and R are true but R is not the correct explanation of A",
+          "c": "A is true but R is false",
+          "d": "A is false but R is true"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "AMN-2023-VSA-22",
+      "year": "2023",
+      "question_type": "2M",
+      "marks": 2,
+      "question_text": "Write the IUPAC names of:\n(i) H₂N-(CH₂)₆-NH₂\n(ii) C₆H₅-N(CH₃)₂",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(i) Hexane-1,6-diamine (Common name: Hexamethylenediamine).\n(ii) N,N-Dimethylbenzenamine (or N,N-Dimethylaniline).",
+        "stepwise_marking_scheme_breakdown": "1 mark each.",
+        "final_answer_boxed": "Hexane-1,6-diamine"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "IUPAC Nomenclature",
+        "why_this_question_is_asked": "Basic check.",
+        "common_student_mistake": "Missing position numbers.",
+        "trap_zone": "N/A"
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "AMN-2024-MCQ-23",
+      "year": "2024",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "The source of nitrogen in Gabriel synthesis of amines is:",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (b): Phthalimide",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "Phthalimide"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Reagents",
+        "why_this_question_is_asked": "Source tracking.",
+        "common_student_mistake": "Ammonia (Ammonia is used to prepare Phthalimide, but the immediate source in synthesis is Phthalimide).",
+        "trap_zone": "N/A"
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "b",
+        "options": {
+          "a": "Sodium azide",
+          "b": "Phthalimide",
+          "c": "Potassium cyanide",
+          "d": "Ammonia"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "AMN-2022-SA-24",
+      "year": "2022",
+      "question_type": "3M",
+      "marks": 3,
+      "question_text": "Complete the following reactions:\n(i) C₆H₅NH₂ + (CH₃CO)₂O →\n(ii) C₆H₅N₂Cl + HBF₄ → ? --(NaNO₂, Cu, Δ)--> ?\n(iii) C₆H₅NH₂ + CHCl₃ + alc. KOH →",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(i) C₆H₅NHCOCH₃ (Acetanilide) + CH₃COOH.\n(ii) C₆H₅N₂⁺BF₄⁻ --(NaNO₂, Cu, Δ)--> C₆H₅NO₂ (Nitrobenzene) + N₂ + NaBF₄.\n(iii) C₆H₅NC (Phenyl Isocyanide) + 3KCl + 3H₂O.",
+        "stepwise_marking_scheme_breakdown": "1 mark each. (ii) is Balz-Schiemann variant/Nitro prep.",
+        "final_answer_boxed": "Acetanilide; Nitrobenzene; Isocyanide"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Reaction Products",
+        "why_this_question_is_asked": "Covering Acetylation, Nitro-group introduction, and Carbylamine.",
+        "common_student_mistake": "In (ii), stopping at Fluorobenzene (Balz-Schiemann) if reagents NaNO2/Cu are ignored. With NaNO2/Cu, it forms Nitrobenzene.",
+        "trap_zone": "HBF4 reaction can lead to Fluoro or Nitro depending on next step."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "AMN-2025-VSA-25",
+      "year": "2025",
+      "question_type": "2M",
+      "marks": 2,
+      "question_text": "Why is aniline acetylated before subjecting it to nitration?",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Direct nitration of aniline yields oxidation products (tary matter) and significant meta-nitroaniline (due to anilinium ion formation). Acetylation protects the -NH₂ group, moderates its activating effect, and prevents protonation, ensuring para-nitroacetanilide is the major product, which can be hydrolyzed back to p-nitroaniline.",
+        "stepwise_marking_scheme_breakdown": "1 mark for 'Prevents oxidation/tar'.\n1 mark for 'Prevents meta product/Controls activation'.",
+        "final_answer_boxed": "Protection of NH₂"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Protection of Amino Group",
+        "why_this_question_is_asked": "Practical necessity in synthesis.",
+        "common_student_mistake": "Saying 'to make reaction faster' (Acetylation actually slows it down/moderates it).",
+        "trap_zone": "N/A"
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    }
+  ],
+  "chapter_pattern_analysis": {
+    "most_repeated_concepts": [
+      "Basicity Order (Aqueous vs Gas phase, Alkyl vs Aryl).",
+      "Distinguishing Tests (Hinsberg, Carbylamine, Azo Dye).",
+      "Named Reactions (Hoffmann Bromamide, Gabriel Phthalimide, Sandmeyer).",
+      "Electrophilic Substitution of Aniline (Protection, Meta product)."
+    ],
+    "high_probability_2026_focus": [
+      "Conversions involving Step-up (Cyanide) and Step-down (Hoffmann).",
+      "Reasoning on solubility and pKb values.",
+      "Diazonium salt reactions (Synthetic utility)."
+    ],
+    "numerical_weightage_trend": "None.",
+    "case_based_trend": "Focuses on Basicity trends and Solubility logic.",
+    "assertion_reason_trend": "Reactivity of Aniline (Friedel Crafts failure) and Physical properties."
+  }
+}

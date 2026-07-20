@@ -1,0 +1,602 @@
+{
+    "meta": {
+        "subject": "Physical Education",
+        "class": 12,
+        "board": "CBSE",
+        "mock_number": 2,
+        "total_marks": 70
+    },
+    "sections": {
+        "A": [
+            {
+                "id": 1,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P1",
+                "priority_reason": "Specific committee roles (Reception/Transport) are frequent distractors or questions.",
+                "question": "Which committee is responsible for the welcoming and receiving of sports teams and guests at the railway station or airport?",
+                "options": [
+                    "Transport Committee",
+                    "Reception Committee",
+                    "Boarding and Lodging Committee",
+                    "Announcement Committee"
+                ],
+                "correct_option": "Reception Committee",
+                "answer": {
+                    "final_answer": "Reception Committee"
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 2,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P1",
+                "priority_reason": "Vitamin chemical names and solubility are standard MCQs.",
+                "question": "Which of the following is a Fat-Soluble Vitamin?",
+                "options": [
+                    "Vitamin B",
+                    "Vitamin C",
+                    "Vitamin H",
+                    "Vitamin K"
+                ],
+                "correct_option": "Vitamin K",
+                "answer": {
+                    "final_answer": "Vitamin K"
+                },
+                "source_basis": "NCERT-derived"
+            },
+            {
+                "id": 3,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P2",
+                "priority_reason": "Yoga for lifestyle diseases (Diabetes) is a P1 topic.",
+                "question": "Which Asana is primarily recommended for the management of Diabetes?",
+                "options": [
+                    "Shavasana",
+                    "Pavanmuktasana",
+                    "Garudasana",
+                    "Tadasana"
+                ],
+                "correct_option": "Pavanmuktasana",
+                "answer": {
+                    "final_answer": "Pavanmuktasana"
+                },
+                "source_basis": "PYQ-derived"
+            },
+            {
+                "id": 4,
+                "diagram_url": "/images/PhysicalEducation/lordosis.png",
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P1",
+                "priority_reason": "Visual identification of spinal deformities.",
+                "question": "Identify the spinal deformity characterized by an inward curvature of the lumbar spine (swayback).",
+                "options": [
+                    "Kyphosis",
+                    "Scoliosis",
+                    "Lordosis",
+                    "Round Shoulders"
+                ],
+                "diagram_required": true,
+                "diagram_description": "",
+                "correct_option": "Lordosis",
+                "answer": {
+                    "final_answer": "Lordosis"
+                },
+                "source_basis": "NCERT-derived"
+            },
+            {
+                "id": 5,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P1",
+                "priority_reason": "Sports Medicine: R.I.C.E principle details.",
+                "question": "In the standard first-aid treatment 'R.I.C.E.', the letter 'E' stands for:",
+                "options": [
+                    "Exercise",
+                    "Elevation",
+                    "Extension",
+                    "Energy"
+                ],
+                "correct_option": "Elevation",
+                "answer": {
+                    "final_answer": "Elevation"
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 6,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P2",
+                "priority_reason": "Rikli & Jones test items and their purpose.",
+                "question": "The '8 Foot Up and Go Test' is designed to measure:",
+                "options": [
+                    "Upper body flexibility",
+                    "Aerobic endurance",
+                    "Agility and dynamic balance",
+                    "Lower body strength"
+                ],
+                "correct_option": "Agility and dynamic balance",
+                "answer": {
+                    "final_answer": "Agility and dynamic balance"
+                },
+                "source_basis": "SQP-derived"
+            },
+            {
+                "id": 7,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P3",
+                "priority_reason": "Biomechanics: Lever classes.",
+                "question": "In a Second Class Lever, the arrangement of components is:",
+                "options": [
+                    "Fulcrum between Load and Effort",
+                    "Load between Fulcrum and Effort",
+                    "Effort between Fulcrum and Load",
+                    "None of the above"
+                ],
+                "correct_option": "Load between Fulcrum and Effort",
+                "answer": {
+                    "final_answer": "Load between Fulcrum and Effort"
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 8,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P1",
+                "priority_reason": "Physiology: Oxygen intake definition.",
+                "question": "The amount of oxygen aimed to be taken in, transported, and utilized by the body during maximal exercise is known as:",
+                "options": [
+                    "Oxygen Debt",
+                    "Vital Capacity",
+                    "VO2 Max",
+                    "Tidal Volume"
+                ],
+                "correct_option": "VO2 Max",
+                "answer": {
+                    "final_answer": "VO2 Max"
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 9,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P2",
+                "priority_reason": "Match the following: Deformities vs Corrective Asanas.",
+                "question": "Match the following Postural Deformities with corrective Asanas:\n(i) Kyphosis     (a) Vrikshasana\n(ii) Lordosis    (b) Chakrasana\n(iii) Knock Knees (c) Padmasana\n(iv) Flat Foot   (d) Halasana",
+                "options": [
+                    "(i)-b, (ii)-d, (iii)-c, (iv)-a",
+                    "(i)-d, (ii)-b, (iii)-c, (iv)-a",
+                    "(i)-b, (ii)-d, (iii)-a, (iv)-c",
+                    "(i)-a, (ii)-b, (iii)-d, (iv)-c"
+                ],
+                "correct_option": "(i)-b, (ii)-d, (iii)-c, (iv)-a",
+                "answer": {
+                    "final_answer": "(i)-b, (ii)-d, (iii)-c, (iv)-a"
+                },
+                "source_basis": "NCERT-derived"
+            },
+            {
+                "id": 10,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P1",
+                "priority_reason": "Assertion-Reason on Training Methods (Interval/Fartlek).",
+                "question": "Given below are two statements, labelled Assertion (A) and Reason (R).\nAssertion (A): Fartlek training is also known as 'Speed Play'.\nReason (R): In Fartlek training, the heart rate is kept constant throughout the duration of the run.",
+                "options": [
+                    "Both (A) and (R) are true and (R) is the correct explanation of (A).",
+                    "Both (A) and (R) are true but (R) is not the correct explanation of (A).",
+                    "(A) is true but (R) is false.",
+                    "(A) is false but (R) is true."
+                ],
+                "correct_option": "(A) is true but (R) is false.",
+                "answer": {
+                    "final_answer": "(A) is true but (R) is false."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 11,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P2",
+                "priority_reason": "Motivation techniques.",
+                "question": "Which of the following is considered an 'Extrinsic' method of motivation?",
+                "options": [
+                    "Self-Esteem",
+                    "Cash Prize",
+                    "Curiosity",
+                    "Satisfaction"
+                ],
+                "correct_option": "Cash Prize",
+                "answer": {
+                    "final_answer": "Cash Prize"
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 12,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P2",
+                "priority_reason": "Disorder definitions (SPD/ADHD).",
+                "question": "A disorder where the brain has trouble receiving and responding to information that comes in through the senses is:",
+                "options": [
+                    "ASD (Autism Spectrum Disorder)",
+                    "SPD (Sensory Processing Disorder)",
+                    "ODD (Oppositional Defiant Disorder)",
+                    "ADHD (Attention Deficit Hyperactivity Disorder)"
+                ],
+                "correct_option": "SPD (Sensory Processing Disorder)",
+                "answer": {
+                    "final_answer": "SPD (Sensory Processing Disorder)"
+                },
+                "source_basis": "NCERT-derived"
+            },
+            {
+                "id": 13,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P3",
+                "priority_reason": "Seeding method in fixtures.",
+                "question": "The primary purpose of 'Seeding' in a knockout tournament is to:",
+                "options": [
+                    "Reduce the number of matches",
+                    "Prevent strong teams from meeting in early rounds",
+                    "Give rest to weak teams",
+                    "Make the fixture easier to draw"
+                ],
+                "correct_option": "Prevent strong teams from meeting in early rounds",
+                "answer": {
+                    "final_answer": "Prevent strong teams from meeting in early rounds"
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 14,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P1",
+                "priority_reason": "Psychology: Big Five traits details.",
+                "question": "People who are organized, dependable, and disciplined score high on which Big Five personality trait?",
+                "options": [
+                    "Neuroticism",
+                    "Agreeableness",
+                    "Conscientiousness",
+                    "Openness"
+                ],
+                "correct_option": "Conscientiousness",
+                "answer": {
+                    "final_answer": "Conscientiousness"
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 15,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P2",
+                "priority_reason": "Biomechanics: Center of Gravity.",
+                "question": "To maintain stability, the Center of Gravity of an athlete should be:",
+                "options": [
+                    "As high as possible",
+                    "As low as possible",
+                    "Outside the body",
+                    "Near the head"
+                ],
+                "correct_option": "As low as possible",
+                "answer": {
+                    "final_answer": "As low as possible"
+                },
+                "source_basis": "NCERT-derived"
+            },
+            {
+                "id": 16,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P3",
+                "priority_reason": "Types of Strength (Static).",
+                "question": "Power Lifting is an example of:",
+                "options": [
+                    "Static Strength",
+                    "Explosive Strength",
+                    "Strength Endurance",
+                    "Maximal Strength"
+                ],
+                "correct_option": "Maximal Strength",
+                "answer": {
+                    "final_answer": "Maximal Strength"
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 17,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P2",
+                "priority_reason": "Injuries: Soft tissue classification.",
+                "question": "A soft tissue injury characterized by a cut over the skin caused by a sharp object is:",
+                "options": [
+                    "Contusion",
+                    "Laceration",
+                    "Abrasion",
+                    "Incision"
+                ],
+                "correct_option": "Incision",
+                "answer": {
+                    "final_answer": "Laceration"
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 18,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P1",
+                "priority_reason": "Women in Sports: Triad components.",
+                "question": "Which of the following is NOT a component of the Female Athlete Triad?",
+                "options": [
+                    "Osteoporosis",
+                    "Amenorrhea",
+                    "Anemia",
+                    "Eating Disorders"
+                ],
+                "correct_option": "Anemia",
+                "answer": {
+                    "final_answer": "Anemia"
+                },
+                "source_basis": "PYQ-derived"
+            }
+        ],
+        "B": [
+            {
+                "id": 19,
+                "type": "VSLA",
+                "marks": 2,
+                "priority": "P1",
+                "priority_reason": "Intramural/Extramural distinction is a basic P1 definition.",
+                "question": "Distinguish between 'Intramural' and 'Extramural' tournaments.",
+                "answer": {
+                    "final_answer": "* **Intramural:** Tournaments conducted within the walls of an institution, where only students of that specific school/college participate (e.g., Inter-house sports).\n* **Extramural:** Tournaments where students from two or more different institutions compete against each other (e.g., Inter-school zonals)."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 20,
+                "type": "VSLA",
+                "marks": 2,
+                "priority": "P2",
+                "priority_reason": "Water soluble vitamins and their sources.",
+                "question": "Name any two water-soluble vitamins and their primary sources.",
+                "answer": {
+                    "final_answer": "1.  **Vitamin B Complex:** Found in whole grains, milk, eggs, and green leafy vegetables.\n2.  **Vitamin C (Ascorbic Acid):** Found in citrus fruits like oranges, lemons, amla, and guava."
+                },
+                "source_basis": "NCERT-derived"
+            },
+            {
+                "id": 21,
+                "type": "VSLA",
+                "marks": 2,
+                "priority": "P1",
+                "priority_reason": "Newton's Second Law details.",
+                "question": "Define Newton's Second Law of Motion with its formula.",
+                "answer": {
+                    "final_answer": "**Newton's Second Law (Law of Acceleration):** The rate of change of momentum of a body is directly proportional to the impressed force and takes place in the direction of the force.\n\n**Formula:** $F = m \\times a$ (Force = Mass × Acceleration)"
+                },
+                "source_basis": "NCERT-derived"
+            },
+            {
+                "id": 22,
+                "type": "VSLA",
+                "marks": 2,
+                "priority": "P2",
+                "priority_reason": "Deformity correction (Bow Legs).",
+                "question": "Suggest any two corrective exercises for 'Bow Legs' (Genu Varum).",
+                "answer": {
+                    "final_answer": "1.  **Pilates:** Exercises focusing on strengthening the inner thigh muscles.\n2.  **Using Braces:** Walking with specialized medical braces or shoes.\n3.  **Garudasana:** Performing the Eagle Pose helps in aligning the legs."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 23,
+                "type": "VSLA",
+                "marks": 2,
+                "priority": "P2",
+                "priority_reason": "Psychology: Aggression types.",
+                "question": "What is 'Hostile Aggression' in sports?",
+                "answer": {
+                    "final_answer": "**Hostile Aggression:** It is a type of aggression where the primary intent is to inflict physical or psychological harm or injury on the opponent, driven by anger or frustration, rather than to achieve a competitive goal."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 24,
+                "type": "VSLA",
+                "marks": 2,
+                "priority": "P3",
+                "priority_reason": "Components of Fitness (Coordinative abilities).",
+                "question": "Define 'Coordinative Abilities'. Give one example.",
+                "answer": {
+                    "final_answer": "**Coordinative Abilities:** These are the abilities of an individual to perform a sequence of movements smoothly and accurately. They depend on the central nervous system.\n**Example:** Balance ability or Reaction ability."
+                },
+                "source_basis": "Reference Notes"
+            }
+        ],
+        "C": [
+            {
+                "id": 25,
+                "type": "SLA",
+                "marks": 3,
+                "priority": "P1",
+                "priority_reason": "Diabetes management via Yoga is a guaranteed topic.",
+                "question": "Explain the procedure and benefits of 'Bhujangasana' for preventing Diabetes.",
+                "answer": {
+                    "final_answer": "**Procedure:** Lie flat on the stomach, legs together. Place palms beside shoulders. Inhale and lift the upper body (head, chest) up like a cobra, keeping the navel on the floor. Hold and breathe normally.\n\n**Benefits:**\n1.  Stimulates the abdominal organs, especially the pancreas (improving insulin production).\n2.  Relieves stress and fatigue.\n3.  Strengthens the spine and back muscles."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 26,
+                "type": "SLA",
+                "marks": 3,
+                "priority": "P2",
+                "priority_reason": "Dieting pitfalls (Food Myths) are common.",
+                "question": "Clarify any three common 'Food Myths' prevailing in society.",
+                "answer": {
+                    "final_answer": "1.  **\"Potatoes make you fat\":** Potatoes are rich in carbohydrates but not inherently fattening unless fried or consumed in excess butter/oil.\n2.  **\"Drinking water during meals affects digestion\":** There is no scientific evidence; in fact, water helps in breaking down food.\n3.  **\"Fat-free products are always healthy\":** Fat-free products often contain high sugar or additives to maintain flavor, which can be equally harmful."
+                },
+                "source_basis": "NCERT-derived"
+            },
+            {
+                "id": 27,
+                "type": "SLA",
+                "marks": 3,
+                "priority": "P1",
+                "priority_reason": "Training Method: Interval Training logic.",
+                "question": "Discuss the 'Interval Training Method' for endurance development.",
+                "answer": {
+                    "final_answer": "**Interval Training:** It is a training method based on the principle of 'effort and recovery'. The athlete performs high-intensity work followed by a period of incomplete recovery.\n* **Mechanism:** The heart rate goes up (e.g., 180 bpm) during the run and comes down (e.g., 120-130 bpm) during the break.\n* **Benefit:** It improves both aerobic and anaerobic endurance and increases the heart's stroke volume."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 28,
+                "type": "SLA",
+                "marks": 3,
+                "priority": "P2",
+                "priority_reason": "Talent Identification parameters.",
+                "question": "Explain the role of 'Physiological' and 'Psychological' factors in talent identification.",
+                "answer": {
+                    "final_answer": "* **Physiological Factors:** These include height, weight, muscle fiber composition (fast twitch vs slow twitch), and aerobic capacity. For example, a tall child is identified for Basketball.\n* **Psychological Factors:** These include mental toughness, motivation, concentration, and emotional stability. A child with high focus and low anxiety is better suited for Archery or Shooting."
+                },
+                "source_basis": "ALLEN-derived"
+            },
+            {
+                "id": 29,
+                "type": "SLA",
+                "marks": 3,
+                "priority": "P1",
+                "priority_reason": "Classification of injuries (Joint injuries).",
+                "question": "Classify joint injuries. Explain 'Dislocation' of the shoulder.",
+                "answer": {
+                    "final_answer": "**Classification:** Joint injuries are primarily 'Dislocations'.\n\n**Dislocation of Shoulder:**\n* It is a hard tissue injury where the head of the humerus bone is forced out of the glenoid cavity of the scapula.\n* **Symptoms:** Intense pain, inability to move the arm, and visible deformation of the shoulder shape.\n* **Cause:** Sudden impact or fall on an outstretched arm."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 30,
+                "type": "SLA",
+                "marks": 3,
+                "priority": "P1",
+                "priority_reason": "Friction in sports (Advantage/Disadvantage).",
+                "question": "Is friction advantageous or disadvantageous in sports? Justify with examples.",
+                "answer": {
+                    "final_answer": "Friction is a necessary evil in sports; it is both advantageous and disadvantageous.\n\n**Advantages:**\n* **Grip:** Friction helps athletes grip the ball (Basketball) or the ground (Spikes in running).\n* **Control:** Friction allows players to stop or change direction quickly.\n\n**Disadvantages:**\n* **Speed Reduction:** In cycling or skiing, air resistance and surface friction reduce speed.\n* **Wear and Tear:** It causes damage to sports equipment (shoes, tires) and can cause abrasions to skin."
+                },
+                "source_basis": "NCERT-derived"
+            }
+        ],
+        "D": [
+            {
+                "id": 31,
+                "diagram_url": "/images/PhysicalEducation/rikli and jones senior citizen test.png",
+                "type": "Case Study",
+                "marks": 4,
+                "priority": "P1",
+                "priority_reason": "Test administration (Rikli & Jones) Case Study.",
+                "question": "Mr. Sharma, aged 65, is having trouble performing daily activities. A trainer conducts the Rikli and Jones fitness test on him.\n\n(i) Which test item would be used to measure his lower body strength?\n(ii) To measure his upper body flexibility, which test is performed?\n(iii) The '8 Foot Up and Go' test measures which component?\n(iv) What is the weight of the dumbbell used for men in the Arm Curl test?",
+                "diagram_required": true,
+                "diagram_description": "",
+                "answer": {
+                    "final_answer": "(i) Chair Stand Test.\n(ii) Back Scratch Test.\n(iii) Agility and Dynamic Balance.\n(iv) 8 lbs (pounds)."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 32,
+                "diagram_url": "/images/PhysicalEducation/bicep curl.png",
+                "type": "Case Study",
+                "marks": 4,
+                "priority": "P1",
+                "priority_reason": "Biomechanics (Lever application).",
+                "question": "Observe the image of a human arm lifting a dumbbell (Bicep Curl).\n\n(i) Identify the class of lever shown in the movement.\n(ii) What acts as the 'Fulcrum' in this movement?\n(iii) Where is the 'Effort' applied?\n(iv) Give another example of this class of lever from daily life.",
+                "diagram_required": true,
+                "diagram_description": "",
+                "answer": {
+                    "final_answer": "(i) Third Class Lever.\n(ii) Elbow Joint.\n(iii) At the insertion of the Bicep muscle (between Fulcrum and Load).\n(iv) Using a shovel or broom / Tongs."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 33,
+                "type": "Case Study",
+                "marks": 4,
+                "priority": "P2",
+                "priority_reason": "Tournament table analysis (League).",
+                "question": "A league tournament was conducted for 5 teams (A, B, C, D, E). The points table shows: A won 4, B won 3, C won 2, D won 1, E won 0. (Win = 2 pts, Loss = 0 pts).\n\n(i) How many total matches were played in this tournament?\n(ii) Calculate the total points of Team A.\n(iii) Which team is the winner?\n(iv) What method is used to resolve a tie in a league tournament if points are equal?",
+                "diagram_required": false,
+                "diagram_description": null,
+                "answer": {
+                    "final_answer": "(i) Formula $\\frac{N(N-1)}{2} = \\frac{5(4)}{2} = 10$ matches.\n(ii) $4 \\text{ wins} \\times 2 = 8$ points.\n(iii) Team A.\n(iv) Goal difference or Goal Average (Goals For / Goals Against)."
+                },
+                "source_basis": "Reference Notes"
+            }
+        ],
+        "E": [
+            {
+                "id": 34,
+                "type": "Long Answer",
+                "marks": 5,
+                "priority": "P1",
+                "priority_reason": "Cyclic Method Fixture is the standard alternative to Knockout.",
+                "question": "Draw a fixture for 6 teams using the 'Cyclic Method' (League Tournament). Explain the method of deciding the winner.",
+                "answer": {
+                    "final_answer": "**Fixture (Cyclic Method N=6):**\n* **Total Rounds:** $N-1 = 5$ Rounds.\n* **Total Matches:** $\\frac{6 \\times 5}{2} = 15$.\n* **Procedure:** Team 1 is fixed at the top right. Other teams rotate clockwise.\n\n* **Round 1:** 6-1, 5-2, 4-3\n* **Round 2:** 5-1, 4-6, 3-2\n* **Round 3:** 4-1, 3-5, 2-6\n* **Round 4:** 3-1, 2-4, 6-5\n* **Round 5:** 2-1, 6-3, 5-4\n\n**Deciding Winner:** The team with the maximum number of points (2 for win, 1 for draw, 0 for loss) is declared the winner."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 35,
+                "type": "Long Answer",
+                "marks": 5,
+                "priority": "P1",
+                "priority_reason": "Effects of exercise on Cardio-Respiratory system is a huge topic.",
+                "question": "Analyze the long-term effects of regular exercise on the Cardiorespiratory System.",
+                "answer": {
+                    "final_answer": "1.  **Cardiac Hypertrophy:** Enlargement of the heart muscle, specifically the left ventricle, allowing it to pump more blood per beat.\n2.  **Increased Stroke Volume:** The amount of blood ejected per beat increases significantly at rest and during exercise.\n3.  **Decreased Resting Heart Rate (Bradycardia):** A trained athlete's heart works more efficiently, beating fewer times per minute at rest (e.g., 40-50 bpm).\n4.  **Increased Tidal Volume:** The lungs can take in more air per breath, improving oxygen delivery.\n5.  **Faster Recovery Rate:** The heart rate and respiration rate return to normal much faster after exercise."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 36,
+                "type": "Long Answer",
+                "marks": 5,
+                "priority": "P2",
+                "priority_reason": "Newton's Laws application in specific sports.",
+                "question": "Elucidate Newton's Laws of Motion with suitable examples from sports.",
+                "answer": {
+                    "final_answer": "**1. First Law (Law of Inertia):** A body remains at rest or motion unless acted upon by force.\n* *Example:* A football will remain on the penalty spot until the player kicks it.\n\n**2. Second Law (Law of Acceleration):** Acceleration is proportional to force and inversely proportional to mass ($F=ma$).\n* *Example:* A shot-putter applies maximum force to the shot (mass) to achieve maximum acceleration and distance.\n\n**3. Third Law (Law of Reaction):** For every action, there is an equal and opposite reaction.\n* *Example:* A swimmer pushes water backward (action) and the water pushes the swimmer forward (reaction)."
+                },
+                "source_basis": "NCERT-derived"
+            },
+            {
+                "id": 37,
+                "type": "Long Answer",
+                "marks": 5,
+                "priority": "P1",
+                "priority_reason": "Methods to develop Flexibility (Ballistic/Static/PNF) are technical 5-markers.",
+                "question": "Define Flexibility. Detail the methods to improve flexibility.",
+                "answer": {
+                    "final_answer": "**Flexibility:** The range of motion around a joint.\n\n**Methods:**\n1.  **Ballistic Method:** Involves swinging movements with rhythm. The joint is stretched with momentum (e.g., swinging arms). *Risk:* High risk of injury, obsolete for beginners.\n2.  **Static Stretching Method:** Moving the joint to the limit and holding the position for 10-30 seconds. Safe and effective.\n3.  **Dynamic Stretching Method:** Controlled movements through the full range of motion (e.g., walking lunges). best for warm-ups.\n4.  **PNF (Proprioceptive Neuromuscular Facilitation):** Involves contracting and relaxing the muscle with a partner's help. Considered the fastest way to gain flexibility."
+                },
+                "source_basis": "Reference Notes"
+            }
+        ]
+    }
+}

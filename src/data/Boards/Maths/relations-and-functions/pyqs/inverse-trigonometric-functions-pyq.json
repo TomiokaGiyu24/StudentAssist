@@ -1,0 +1,624 @@
+{
+    "chapter_name": "Inverse Trigonometric Functions",
+    "board": "CBSE",
+    "class": "12",
+    "exam_year_target": "2026",
+    "pyq_year_range": "last 3 years",
+    "total_questions_generated": 25,
+    "questions": [
+        {
+            "question_id": 1,
+            "question_type": "MCQ",
+            "concept_tested": "Principal Value Branch",
+            "difficulty_level": "Easy",
+            "question_text": "The principal value of $$ \\sin^{-1}\\left(-\\frac{1}{2}\\right) $$ is:",
+            "options": [
+                "$$ \\frac{\\pi}{6} $$",
+                "$$ -\\frac{\\pi}{6} $$",
+                "$$ \\frac{5\\pi}{6} $$",
+                "$$ -\\frac{5\\pi}{6} $$"
+            ],
+            "correct_answer": "$$ -\\frac{\\pi}{6} $$",
+            "topper_solution": {
+                "step_1": "We know that the principal value branch of $$ \\sin^{-1}x $$ is $$ \\left[-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right] $$.",
+                "step_2": "Let $$ y = \\sin^{-1}\\left(-\\frac{1}{2}\\right) $$. Then $$ \\sin y = -\\frac{1}{2} $$.",
+                "step_3": "Since $$ \\sin\\left(\\frac{\\pi}{6}\\right) = \\frac{1}{2} $$, we have $$ \\sin y = -\\sin\\left(\\frac{\\pi}{6}\\right) = \\sin\\left(-\\frac{\\pi}{6}\\right) $$. Therefore, the principal value is $$ -\\frac{\\pi}{6} $$."
+            },
+            "board_presentation_tip": "Always explicitly state the principal value branch range before calculating the final answer.",
+            "common_student_mistakes": [
+                "Writing the answer as $$ \\frac{11\\pi}{6} $$ which lies outside the principal branch.",
+                "Ignoring the negative sign."
+            ],
+            "concept_trigger": "Negative argument inside inverse sine triggers the identity $$ \\sin^{-1}(-x) = -\\sin^{-1}(x) $$.",
+            "time_to_solve_seconds": "30",
+            "examiner_intent": "Testing basic knowledge of principal value branches for inverse trigonometric functions."
+        },
+        {
+            "question_id": 2,
+            "question_type": "MCQ",
+            "concept_tested": "Principal Value of Inverse Cosine",
+            "difficulty_level": "Moderate",
+            "question_text": "The principal value of $$ \\cos^{-1}\\left(-\\frac{1}{2}\\right) $$ is:",
+            "options": [
+                "$$ -\\frac{\\pi}{3} $$",
+                "$$ \\frac{\\pi}{3} $$",
+                "$$ \\frac{2\\pi}{3} $$",
+                "$$ \\frac{5\\pi}{3} $$"
+            ],
+            "correct_answer": "$$ \\frac{2\\pi}{3} $$",
+            "topper_solution": {
+                "step_1": "The principal value branch of $$ \\cos^{-1}x $$ is $$ [0, \\pi] $$.",
+                "step_2": "Using the property $$ \\cos^{-1}(-x) = \\pi - \\cos^{-1}(x) $$, we get $$ \\cos^{-1}\\left(-\\frac{1}{2}\\right) = \\pi - \\cos^{-1}\\left(\\frac{1}{2}\\right) $$.",
+                "step_3": "Since $$ \\cos^{-1}\\left(\\frac{1}{2}\\right) = \\frac{\\pi}{3} $$, the value is $$ \\pi - \\frac{\\pi}{3} = \\frac{2\\pi}{3} $$, which lies in $$ [0, \\pi] $$."
+            },
+            "board_presentation_tip": "For inverse cosine, secant, and cotangent, a negative argument always requires subtraction from $$ \\pi $$. State this property.",
+            "common_student_mistakes": [
+                "Treating $$ \\cos^{-1}(-x) $$ like $$ \\sin^{-1}(-x) $$ and answering $$ -\\frac{\\pi}{3} $$.",
+                "Not verifying if the final answer lies in the $$ [0, \\pi] $$ range."
+            ],
+            "concept_trigger": "Inverse cosine of a negative number indicates an angle in the second quadrant.",
+            "time_to_solve_seconds": "45",
+            "examiner_intent": "Evaluating understanding of the restricted domain and range for the inverse cosine function."
+        },
+        {
+            "question_id": 3,
+            "question_type": "Assertion Reason",
+            "concept_tested": "Domain and Range of Inverse Trigonometric Functions",
+            "difficulty_level": "Moderate",
+            "question_text": "Assertion (A): The domain of the function $$ y = \\sec^{-1}x $$ is $$ \\mathbb{R} - (-1, 1) $$.\\nReason (R): The principal value branch of $$ \\sec^{-1}x $$ is $$ [0, \\pi] - \\left\\{\\frac{\\pi}{2}\\right\\} $$.",
+            "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is not the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+            ],
+            "correct_answer": "Both A and R are true but R is not the correct explanation of A",
+            "topper_solution": {
+                "step_1": "Analyze Assertion (A): The domain of $$ \\sec^{-1}x $$ is indeed all real numbers except the open interval $$ (-1, 1) $$. So, A is true.",
+                "step_2": "Analyze Reason (R): The principal value branch (range) of $$ \\sec^{-1}x $$ is $$ [0, \\pi] - \\left\\{\\frac{\\pi}{2}\\right\\} $$. So, R is true.",
+                "step_3": "Check linkage: The domain of a function refers to the valid input values, which is independent of the chosen principal range branch. Thus, R does not explain A."
+            },
+            "board_presentation_tip": "In Assertion-Reason questions on domain/range, carefully check if the reason mathematically proves the assertion or is just a parallel true statement.",
+            "common_student_mistakes": [
+                "Thinking that the range definition is the reason for the domain.",
+                "Confusing the domain of inverse secant with inverse sine."
+            ],
+            "concept_trigger": "Domain vs Range definitions for inverse trigonometric functions.",
+            "time_to_solve_seconds": "60",
+            "examiner_intent": "Testing conceptual clarity between domain (input) and principal value branch (output) definitions."
+        },
+        {
+            "question_id": 4,
+            "question_type": "2_mark",
+            "concept_tested": "Evaluating Expressions",
+            "difficulty_level": "Moderate",
+            "question_text": "Find the value of: $$ \\tan^{-1}(1) + \\cos^{-1}\\left(-\\frac{1}{2}\\right) + \\sin^{-1}\\left(-\\frac{1}{2}\\right) $$.",
+            "options": [],
+            "correct_answer": "$$ \\frac{3\\pi}{4} $$",
+            "topper_solution": {
+                "step_1": "Method 1: Using property $$ \\sin^{-1}x + \\cos^{-1}x = \\frac{\\pi}{2} $$. So, $$ \\cos^{-1}\\left(-\\frac{1}{2}\\right) + \\sin^{-1}\\left(-\\frac{1}{2}\\right) = \\frac{\\pi}{2} $$.",
+                "step_2": "We know $$ \\tan^{-1}(1) = \\frac{\\pi}{4} $$.",
+                "step_3": "Adding them: $$ \\frac{\\pi}{4} + \\frac{\\pi}{2} = \\frac{3\\pi}{4} $$. (Alternatively, evaluate each individually: $$ \\frac{\\pi}{4} + \\frac{2\\pi}{3} - \\frac{\\pi}{6} = \\frac{3\\pi}{4} $$)."
+            },
+            "board_presentation_tip": "Using the identity $$ \\sin^{-1}x + \\cos^{-1}x = \\frac{\\pi}{2} $$ is faster and less prone to calculation errors.",
+            "common_student_mistakes": [
+                "Calculating each term separately and making LCM/fraction addition errors.",
+                "Getting the principal value of $$ \\cos^{-1}\\left(-\\frac{1}{2}\\right) $$ wrong."
+            ],
+            "concept_trigger": "Presence of $$ \\sin^{-1}x $$ and $$ \\cos^{-1}x $$ with the exact same argument strongly suggests using the identity.",
+            "time_to_solve_seconds": "90",
+            "examiner_intent": "Testing both individual principal value evaluations and the application of inverse trigonometric identities."
+        },
+        {
+            "question_id": 5,
+            "question_type": "2_mark",
+            "concept_tested": "Composition of Trig and Inverse Trig",
+            "difficulty_level": "Easy",
+            "question_text": "Find the value of $$ \\sin\\left( \\frac{\\pi}{3} - \\sin^{-1}\\left(-\\frac{1}{2}\\right) \\right) $$.",
+            "options": [],
+            "correct_answer": "1",
+            "topper_solution": {
+                "step_1": "First evaluate the inner inverse trigonometric function: Let $$ x = \\sin^{-1}\\left(-\\frac{1}{2}\\right) $$. The principal value is $$ -\\frac{\\pi}{6} $$.",
+                "step_2": "Substitute this back into the expression: $$ \\sin\\left( \\frac{\\pi}{3} - \\left(-\\frac{\\pi}{6}\\right) \\right) $$.",
+                "step_3": "Simplify the angle: $$ \\sin\\left( \\frac{\\pi}{3} + \\frac{\\pi}{6} \\right) = \\sin\\left(\\frac{2\\pi}{6} + \\frac{\\pi}{6}\\right) = \\sin\\left(\\frac{3\\pi}{6}\\right) = \\sin\\left(\\frac{\\pi}{2}\\right) = 1 $$."
+            },
+            "board_presentation_tip": "Show the substitution of the negative angle clearly in brackets to avoid sign errors.",
+            "common_student_mistakes": [
+                "Ignoring the double negative: writing $$ \\frac{\\pi}{3} - \\frac{\\pi}{6} = \\frac{\\pi}{6} $$ instead of addition.",
+                "Forgetting the principal value range and using an incorrect quadrant angle."
+            ],
+            "concept_trigger": "Nested trigonometric functions require solving from the inside out.",
+            "time_to_solve_seconds": "60",
+            "examiner_intent": "Checking sequential evaluation skills and careful handling of negative signs."
+        },
+        {
+            "question_id": 6,
+            "question_type": "3_mark",
+            "concept_tested": "Simplification of Inverse Trig Functions",
+            "difficulty_level": "Board-Tricky",
+            "question_text": "Write $$ \\tan^{-1}\\left(\\frac{\\cos x - \\sin x}{\\cos x + \\sin x}\\right) $$, where $$ 0 < x < \\pi $$, in the simplest form.",
+            "options": [],
+            "correct_answer": "$$ \\frac{\\pi}{4} - x $$",
+            "topper_solution": {
+                "step_1": "Divide the numerator and denominator inside the bracket by $$ \\cos x $$ (since $$ \\cos x \\neq 0 $$ for the valid domain transformation).",
+                "step_2": "We get $$ \\tan^{-1}\\left( \\frac{1 - \\frac{\\sin x}{\\cos x}}{1 + \\frac{\\sin x}{\\cos x}} \\right) = \\tan^{-1}\\left( \\frac{1 - \\tan x}{1 + \\tan x} \\right) $$.",
+                "step_3": "Using the identity $$ \\tan\\left(\\frac{\\pi}{4} - A\\right) = \\frac{1 - \\tan A}{1 + \\tan A} $$, the expression becomes $$ \\tan^{-1}\\left( \\tan\\left(\\frac{\\pi}{4} - x\\right) \\right) $$.",
+                "step_4": "This simplifies to $$ \\frac{\\pi}{4} - x $$, given the domain constraints."
+            },
+            "board_presentation_tip": "Explicitly state the step 'Divide numerator and denominator by cos x' and cite the tangent addition formula.",
+            "common_student_mistakes": [
+                "Trying to convert into sine/cosine inverse formulas unnecessarily.",
+                "Not recognizing the standard form of the $$ \\tan(\\frac{\\pi}{4} - x) $$ identity."
+            ],
+            "concept_trigger": "The expression $$ \\frac{\\cos x - \\sin x}{\\cos x + \\sin x} $$ is a classic trigger to divide by $$ \\cos x $$ to create a tangent identity.",
+            "time_to_solve_seconds": "180",
+            "examiner_intent": "Testing algebraic manipulation to reveal standard trigonometric identities inside inverse functions."
+        },
+        {
+            "question_id": 7,
+            "question_type": "3_mark",
+            "concept_tested": "Simplification by Substitution",
+            "difficulty_level": "Moderate",
+            "question_text": "Write $$ \\cot^{-1}\\left(\\frac{1}{\\sqrt{x^2 - 1}}\\right) $$, for $$ x > 1 $$, in the simplest form.",
+            "options": [],
+            "correct_answer": "$$ \\sec^{-1}x $$ or $$ \\cos^{-1}\\left(\\frac{1}{x}\\right) $$",
+            "topper_solution": {
+                "step_1": "Let $$ x = \\sec \\theta $$, where $$ \\theta \\in \\left(0, \\frac{\\pi}{2}\\right) $$ since $$ x > 1 $$. Then $$ \\theta = \\sec^{-1}x $$.",
+                "step_2": "Substitute into the expression: $$ \\cot^{-1}\\left(\\frac{1}{\\sqrt{\\sec^2 \\theta - 1}}\\right) $$.",
+                "step_3": "Using the identity $$ \\sec^2 \\theta - 1 = \\tan^2 \\theta $$, we get $$ \\cot^{-1}\\left(\\frac{1}{\\tan \\theta}\\right) $$.",
+                "step_4": "This simplifies to $$ \\cot^{-1}(\\cot \\theta) = \\theta $$. Since $$ \\theta = \\sec^{-1}x $$, the simplest form is $$ \\sec^{-1}x $$. (Can also be written as $$ \\cos^{-1}\\left(\\frac{1}{x}\\right) $$)."
+            },
+            "board_presentation_tip": "Clearly define the substitution variable and its corresponding inverse relation immediately.",
+            "common_student_mistakes": [
+                "Substituting $$ x = \\sin \\theta $$ or $$ x = \\tan \\theta $$, which leads to complicated dead ends.",
+                "Forgetting to substitute back the original variable $$ x $$ at the end."
+            ],
+            "concept_trigger": "Expressions involving $$ \\sqrt{x^2 - a^2} $$ usually require $$ x = a\\sec\\theta $$ or $$ x = a\\text{cosec}\\theta $$ substitutions.",
+            "time_to_solve_seconds": "150",
+            "examiner_intent": "Evaluating the ability to choose the correct trigonometric substitution to simplify algebraic expressions."
+        },
+        {
+            "question_id": 8,
+            "question_type": "3_mark",
+            "concept_tested": "Solving Inverse Trigonometric Equations",
+            "difficulty_level": "Board-Tricky",
+            "question_text": "If $$ \\sin^{-1}(1 - x) - 2\\sin^{-1}x = \\frac{\\pi}{2} $$, then find the value of $$ x $$.",
+            "options": [],
+            "correct_answer": "0",
+            "topper_solution": {
+                "step_1": "Given $$ \\sin^{-1}(1 - x) - 2\\sin^{-1}x = \\frac{\\pi}{2} $$. Rewrite as $$ \\sin^{-1}(1 - x) = \\frac{\\pi}{2} + 2\\sin^{-1}x $$.",
+                "step_2": "Take sine on both sides: $$ 1 - x = \\sin\\left(\\frac{\\pi}{2} + 2\\sin^{-1}x\\right) $$.",
+                "step_3": "Using $$ \\sin(\\frac{\\pi}{2} + \\theta) = \\cos\\theta $$, we get $$ 1 - x = \\cos(2\\sin^{-1}x) $$.",
+                "step_4": "Let $$ \\sin^{-1}x = y \\implies \\sin y = x $$. Then the equation is $$ 1 - x = \\cos(2y) $$.",
+                "step_5": "Use the identity $$ \\cos 2y = 1 - 2\\sin^2y $$. Thus $$ 1 - x = 1 - 2x^2 $$. Simplify to get $$ 2x^2 - x = 0 \\implies x(2x - 1) = 0 $$. Thus $$ x = 0 $$ or $$ x = \\frac{1}{2} $$.",
+                "step_6": "Verification: If $$ x = \\frac{1}{2} $$, LHS is $$ \\sin^{-1}\\left(\\frac{1}{2}\\right) - 2\\sin^{-1}\\left(\\frac{1}{2}\\right) = \\frac{\\pi}{6} - 2\\left(\\frac{\\pi}{6}\\right) = -\\frac{\\pi}{6} \\neq \\frac{\\pi}{2} $$. If $$ x = 0 $$, LHS is $$ \\sin^{-1}(1) - 0 = \\frac{\\pi}{2} $$. Hence, $$ x = 0 $$ is the only valid solution."
+            },
+            "board_presentation_tip": "When solving inverse trigonometric equations, checking extraneous roots is MANDATORY. Failure to reject x=1/2 loses marks.",
+            "common_student_mistakes": [
+                "Not verifying the solutions in the original equation and leaving the answer as x = 0, 1/2.",
+                "Struggling to apply the $$ \\cos(2y) $$ identity correctly."
+            ],
+            "concept_trigger": "Moving terms to isolate one inverse function and taking the trigonometric function on both sides simplifies the equation.",
+            "time_to_solve_seconds": "240",
+            "examiner_intent": "Testing equation solving skills, appropriate identity usage, and the critical step of root verification."
+        },
+        {
+            "question_id": 9,
+            "question_type": "5_mark",
+            "concept_tested": "Advanced Simplification with Half-Angle Formulas",
+            "difficulty_level": "Board-Tricky",
+            "question_text": "Prove that: $$ \\tan^{-1} \\left[ \\frac{\\sqrt{1+x} - \\sqrt{1-x}}{\\sqrt{1+x} + \\sqrt{1-x}} \\right] = \\frac{\\pi}{4} - \\frac{1}{2}\\cos^{-1}x $$, for $$ -\\frac{1}{\\sqrt{2}} \\le x \\le 1 $$.",
+            "options": [],
+            "correct_answer": "Proof",
+            "topper_solution": {
+                "step_1": "Let $$ x = \\cos 2\\theta $$. Since $$ -\\frac{1}{\\sqrt{2}} \\le x \\le 1 $$, this implies $$ \\theta \\in \\left[0, \\frac{3\\pi}{8}\\right] $$.",
+                "step_2": "Substitute $$ x $$ into the expression: $$ \\sqrt{1+x} = \\sqrt{1+\\cos 2\\theta} = \\sqrt{2\\cos^2\\theta} = \\sqrt{2}\\cos\\theta $$. Also, $$ \\sqrt{1-x} = \\sqrt{1-\\cos 2\\theta} = \\sqrt{2\\sin^2\\theta} = \\sqrt{2}\\sin\\theta $$.",
+                "step_3": "The expression inside the inverse tangent becomes: $$ \\frac{\\sqrt{2}\\cos\\theta - \\sqrt{2}\\sin\\theta}{\\sqrt{2}\\cos\\theta + \\sqrt{2}\\sin\\theta} = \\frac{\\cos\\theta - \\sin\\theta}{\\cos\\theta + \\sin\\theta} $$.",
+                "step_4": "Divide by $$ \\cos\\theta $$: $$ \\frac{1 - \\tan\\theta}{1 + \\tan\\theta} = \\tan\\left(\\frac{\\pi}{4} - \\theta\\right) $$.",
+                "step_5": "Thus, the expression is $$ \\tan^{-1}\\left(\\tan\\left(\\frac{\\pi}{4} - \\theta\\right)\\right) $$. Because of the domain of $$ \\theta $$, this simplifies directly to $$ \\frac{\\pi}{4} - \\theta $$.",
+                "step_6": "Since $$ x = \\cos 2\\theta $$, we have $$ 2\\theta = \\cos^{-1}x \\implies \\theta = \\frac{1}{2}\\cos^{-1}x $$. Substituting this back gives $$ \\frac{\\pi}{4} - \\frac{1}{2}\\cos^{-1}x $$. Hence proved."
+            },
+            "board_presentation_tip": "Write the half-angle formulas explicitly: $$ 1 + \\cos 2\\theta = 2\\cos^2\\theta $$ and $$ 1 - \\cos 2\\theta = 2\\sin^2\\theta $$.",
+            "common_student_mistakes": [
+                "Substituting $$ x = \\sin\\theta $$ instead of $$ \\cos 2\\theta $$, which makes the square roots much harder to resolve.",
+                "Missing the factor of $$ \\frac{1}{2} $$ at the end when substituting back for $$ \\theta $$."
+            ],
+            "concept_trigger": "The pattern $$ \\sqrt{1+x} $$ and $$ \\sqrt{1-x} $$ is a strong trigger for the $$ x = \\cos 2\\theta $$ substitution.",
+            "time_to_solve_seconds": "300",
+            "examiner_intent": "Assessing advanced substitution techniques and multi-step algebraic simplification."
+        },
+        {
+            "question_id": 10,
+            "question_type": "case_based",
+            "concept_tested": "Real-world Application of Inverse Trigonometry",
+            "difficulty_level": "Moderate",
+            "question_text": "An architect is designing a wheelchair ramp. The ramp must rise 1 meter vertically for every 12 meters of horizontal run to meet safety regulations. Let $$ \\theta $$ be the angle of elevation of the ramp.\\nBased on this, answer:\\n(i) Express the angle $$ \\theta $$ as an inverse trigonometric function.\\n(ii) If a steeper ramp is required temporarily, rising 1 meter for every 5 meters horizontally, what is the new angle of elevation $$ \\alpha $$? Express the difference $$ \\alpha - \\theta $$ mathematically.",
+            "options": [],
+            "correct_answer": "(i) $$ \\theta = \\tan^{-1}\\left(\\frac{1}{12}\\right) $$, (ii) $$ \\alpha = \\tan^{-1}\\left(\\frac{1}{5}\\right) $$, difference is $$ \\tan^{-1}\\left(\\frac{1}{5}\\right) - \\tan^{-1}\\left(\\frac{1}{12}\\right) $$",
+            "topper_solution": {
+                "step_1": "For (i): The ramp forms a right-angled triangle where the opposite side (vertical rise) is 1 m and the adjacent side (horizontal run) is 12 m.",
+                "step_2": "Using trigonometry, $$ \\tan \\theta = \\frac{\\text{Opposite}}{\\text{Adjacent}} = \\frac{1}{12} $$. Therefore, the angle of elevation is $$ \\theta = \\tan^{-1}\\left(\\frac{1}{12}\\right) $$.",
+                "step_3": "For (ii): Similarly, the new angle of elevation is $$ \\alpha = \\tan^{-1}\\left(\\frac{1}{5}\\right) $$. The difference in angles is $$ \\alpha - \\theta = \\tan^{-1}\\left(\\frac{1}{5}\\right) - \\tan^{-1}\\left(\\frac{1}{12}\\right) $$.",
+                "step_4": "Optional simplification: Using the formula $$ \\tan^{-1}x - \\tan^{-1}y = \\tan^{-1}\\left(\\frac{x-y}{1+xy}\\right) $$, we get $$ \\tan^{-1}\\left(\\frac{\\frac{1}{5} - \\frac{1}{12}}{1 + \\frac{1}{60}}\\right) = \\tan^{-1}\\left(\\frac{7/60}{61/60}\\right) = \\tan^{-1}\\left(\\frac{7}{61}\\right) $$."
+            },
+            "board_presentation_tip": "Define the sides of the right-angled triangle clearly before writing the tangent ratio to ensure full marks in case-based reasoning.",
+            "common_student_mistakes": [
+                "Using sine instead of tangent, confusing the horizontal run with the hypotenuse (the actual ramp length).",
+                "Leaving the answer as a ratio rather than an angle using the inverse notation."
+            ],
+            "concept_trigger": "Horizontal run and vertical rise correspond exactly to the adjacent and opposite sides for tangent.",
+            "time_to_solve_seconds": "150",
+            "examiner_intent": "Connecting abstract inverse trigonometric functions to real-world slope and angle calculations."
+        },
+        {
+            "question_id": 11,
+            "question_type": "MCQ",
+            "concept_tested": "Domain of Composite Inverse Functions",
+            "difficulty_level": "Moderate",
+            "question_text": "The domain of the function $$ f(x) = \\sin^{-1}(2x) $$ is:",
+            "options": [
+                "$$ [-1, 1] $$",
+                "$$ \\left[-\\frac{1}{2}, \\frac{1}{2}\\right] $$",
+                "$$ [-2, 2] $$",
+                "$$ \\left(-\\frac{1}{2}, \\frac{1}{2}\\right) $$"
+            ],
+            "correct_answer": "$$ \\left[-\\frac{1}{2}, \\frac{1}{2}\\right] $$",
+            "topper_solution": {
+                "step_1": "We know that the domain of $$ \\sin^{-1}y $$ is $$ -1 \\le y \\le 1 $$.",
+                "step_2": "For the given function, let $$ y = 2x $$. So, $$ -1 \\le 2x \\le 1 $$.",
+                "step_3": "Dividing the entire inequality by 2, we get $$ -\\frac{1}{2} \\le x \\le \\frac{1}{2} $$. Hence, the domain is $$ \\left[-\\frac{1}{2}, \\frac{1}{2}\\right] $$."
+            },
+            "board_presentation_tip": "Clearly write the standard domain inequality first before substituting the specific argument.",
+            "common_student_mistakes": [
+                "Writing the domain as [-2, 2] by multiplying instead of dividing.",
+                "Confusing the domain (input x) with the principal value branch (output)."
+            ],
+            "concept_trigger": "Linear transformations inside the inverse trig function affect its domain algebraically.",
+            "time_to_solve_seconds": "40",
+            "examiner_intent": "Testing algebraic manipulation of inequalities related to fundamental function domains."
+        },
+        {
+            "question_id": 12,
+            "question_type": "MCQ",
+            "concept_tested": "Interconversion of Inverse Trigonometric Functions",
+            "difficulty_level": "Moderate",
+            "question_text": "The value of $$ \\sin\\left(\\cos^{-1}\\left(\\frac{3}{5}\\right)\\right) $$ is: [Image of right angled triangle for trigonometric ratios]",
+            "options": [
+                "$$ \\frac{3}{5} $$",
+                "$$ \\frac{4}{5} $$",
+                "$$ \\frac{3}{4} $$",
+                "$$ \\frac{5}{3} $$"
+            ],
+            "correct_answer": "$$ \\frac{4}{5} $$",
+            "topper_solution": {
+                "step_1": "Let $$ \\theta = \\cos^{-1}\\left(\\frac{3}{5}\\right) $$. Then $$ \\cos \\theta = \\frac{3}{5} $$.",
+                "step_2": "In a right-angled triangle, if adjacent = 3 and hypotenuse = 5, the opposite side is $$ \\sqrt{5^2 - 3^2} = \\sqrt{16} = 4 $$.",
+                "step_3": "We need to find $$ \\sin \\theta $$. From the triangle, $$ \\sin \\theta = \\frac{\\text{Opposite}}{\\text{Hypotenuse}} = \\frac{4}{5} $$."
+            },
+            "board_presentation_tip": "Drawing a small right-angled triangle makes the conversion visual and prevents careless reciprocal errors.",
+            "common_student_mistakes": [
+                "Writing 3/5 directly by ignoring the mismatch between sin and cos inverse.",
+                "Using the tangent ratio 4/3 instead of sine."
+            ],
+            "concept_trigger": "Outer trig function with an inner mismatching inverse trig function always requires a right-triangle conversion.",
+            "time_to_solve_seconds": "45",
+            "examiner_intent": "Evaluating the ability to geometrically convert one inverse trigonometric ratio to another."
+        },
+        {
+            "question_id": 13,
+            "question_type": "Assertion Reason",
+            "concept_tested": "Principal Value of Inverse Tangent",
+            "difficulty_level": "Easy",
+            "question_text": "Assertion (A): The principal value of $$ \\tan^{-1}(-\\sqrt{3}) $$ is $$ -\\frac{\\pi}{3} $$.\\nReason (R): $$ \\tan^{-1}(-x) = -\\tan^{-1}(x) $$ for all $$ x \\in \\mathbb{R} $$.",
+            "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is not the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+            ],
+            "correct_answer": "Both A and R are true and R is the correct explanation of A",
+            "topper_solution": {
+                "step_1": "Analyze Assertion (A): Let $$ y = \\tan^{-1}(-\\sqrt{3}) $$. The principal value branch is $$ \\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right) $$. Since $$ \\tan\\left(-\\frac{\\pi}{3}\\right) = -\\sqrt{3} $$, the principal value is $$ -\\frac{\\pi}{3} $$. A is true.",
+                "step_2": "Analyze Reason (R): The property $$ \\tan^{-1}(-x) = -\\tan^{-1}(x) $$ is a standard identity. R is true.",
+                "step_3": "Using R, we get $$ \\tan^{-1}(-\\sqrt{3}) = -\\tan^{-1}(\\sqrt{3}) = -\\frac{\\pi}{3} $$, which matches A. Therefore, R is the correct explanation."
+            },
+            "board_presentation_tip": "State the principal value branch interval for tan inverse explicitly when evaluating.",
+            "common_student_mistakes": [
+                "Confusing inverse tangent with inverse cosine and subtracting from pi."
+            ],
+            "concept_trigger": "Negative arguments in tan, sin, and cosec inverses just pull the negative sign outside.",
+            "time_to_solve_seconds": "45",
+            "examiner_intent": "Testing basic negative argument properties of the inverse tangent function."
+        },
+        {
+            "question_id": 14,
+            "question_type": "1_mark",
+            "concept_tested": "Range of Inverse Cosecant",
+            "difficulty_level": "Easy",
+            "question_text": "Write the principal value branch (range) of $$ f(x) = \\text{cosec}^{-1} x $$.",
+            "options": [],
+            "correct_answer": "$$ \\left[-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right] - \\{0\\} $$",
+            "topper_solution": {
+                "step_1": "The function $$ \\text{cosec}^{-1} x $$ is the inverse of the restricted cosecant function.",
+                "step_2": "Its principal value branch is the interval $$ \\left[-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right] $$ excluding the point where cosecant is not defined (which is at angle 0).",
+                "step_3": "Hence, the range is $$ \\left[-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right] - \\{0\\} $$."
+            },
+            "board_presentation_tip": "Do not forget to write the excluded set {-0-} using curly braces for single elements.",
+            "common_student_mistakes": [
+                "Writing only the closed interval and forgetting to exclude 0.",
+                "Using open brackets instead of closed brackets for pi/2."
+            ],
+            "concept_trigger": "Inverse functions inherited from sine-like functions center around 0, but asymptotes must be excluded.",
+            "time_to_solve_seconds": "30",
+            "examiner_intent": "Memory check on standard definitions of inverse trigonometric functions."
+        },
+        {
+            "question_id": 15,
+            "question_type": "2_mark",
+            "concept_tested": "Properties of Inverse Trigonometric Functions",
+            "difficulty_level": "Moderate",
+            "question_text": "Evaluate: $$ \\sin\\left( \\frac{\\pi}{2} - \\sin^{-1}\\left(\\frac{\\sqrt{3}}{2}\\right) \\right) $$.",
+            "options": [],
+            "correct_answer": "$$ \\frac{1}{2} $$",
+            "topper_solution": {
+                "step_1": "Method 1: Using the identity $$ \\sin^{-1}x + \\cos^{-1}x = \\frac{\\pi}{2} $$. So, $$ \\frac{\\pi}{2} - \\sin^{-1}\\left(\\frac{\\sqrt{3}}{2}\\right) = \\cos^{-1}\\left(\\frac{\\sqrt{3}}{2}\\right) $$.",
+                "step_2": "Substitute this back into the expression: $$ \\sin\\left(\\cos^{-1}\\left(\\frac{\\sqrt{3}}{2}\\right)\\right) $$.",
+                "step_3": "We know $$ \\cos^{-1}\\left(\\frac{\\sqrt{3}}{2}\\right) = \\frac{\\pi}{6} $$.",
+                "step_4": "Now evaluate $$ \\sin\\left(\\frac{\\pi}{6}\\right) = \\frac{1}{2} $$. (Alternatively, directly evaluate $$ \\sin^{-1}(\\frac{\\sqrt{3}}{2}) = \\frac{\\pi}{3} $$, then $$ \\sin(\\frac{\\pi}{2} - \\frac{\\pi}{3}) = \\sin(\\frac{\\pi}{6}) = \\frac{1}{2} $$)."
+            },
+            "board_presentation_tip": "While direct angle evaluation works, mentioning the identity $$ \\sin^{-1}x + \\cos^{-1}x = \\frac{\\pi}{2} $$ shows a deeper conceptual grasp.",
+            "common_student_mistakes": [
+                "Evaluating $$ \\sin^{-1}(\\sqrt{3}/2) $$ as $$ \\pi/6 $$ instead of $$ \\pi/3 $$.",
+                "Forgetting the outer sine function."
+            ],
+            "concept_trigger": "The structure $$ \\pi/2 - \\text{inverse trig} $$ strongly hints at complementary identities.",
+            "time_to_solve_seconds": "60",
+            "examiner_intent": "Testing application of complementary angles or direct principal value evaluation inside composite functions."
+        },
+        {
+            "question_id": 16,
+            "question_type": "2_mark",
+            "concept_tested": "Simplification of Inverse Tangent",
+            "difficulty_level": "Moderate",
+            "question_text": "Express $$ \\tan^{-1}\\left( \\frac{\\cos x}{1 - \\sin x} \\right) $$, where $$ -\\frac{\\pi}{2} < x < \\frac{\\pi}{2} $$, in simplest form.",
+            "options": [],
+            "correct_answer": "$$ \\frac{\\pi}{4} + \\frac{x}{2} $$",
+            "topper_solution": {
+                "step_1": "Use half-angle formulas: $$ \\cos x = \\cos^2\\left(\\frac{x}{2}\\right) - \\sin^2\\left(\\frac{x}{2}\\right) $$.",
+                "step_2": "Write $$ 1 = \\cos^2\\left(\\frac{x}{2}\\right) + \\sin^2\\left(\\frac{x}{2}\\right) $$ and $$ \\sin x = 2\\sin\\left(\\frac{x}{2}\\right)\\cos\\left(\\frac{x}{2}\\right) $$. Then the denominator becomes $$ \\left(\\cos\\frac{x}{2} - \\sin\\frac{x}{2}\\right)^2 $$.",
+                "step_3": "The fraction is $$ \\frac{(\\cos(x/2) - \\sin(x/2))(\\cos(x/2) + \\sin(x/2))}{(\\cos(x/2) - \\sin(x/2))^2} = \\frac{\\cos(x/2) + \\sin(x/2)}{\\cos(x/2) - \\sin(x/2)} $$.",
+                "step_4": "Divide by $$ \\cos(x/2) $$ to get $$ \\frac{1 + \\tan(x/2)}{1 - \\tan(x/2)} = \\tan\\left(\\frac{\\pi}{4} + \\frac{x}{2}\\right) $$.",
+                "step_5": "Thus, $$ \\tan^{-1}\\left(\\tan\\left(\\frac{\\pi}{4} + \\frac{x}{2}\\right)\\right) = \\frac{\\pi}{4} + \\frac{x}{2} $$."
+            },
+            "board_presentation_tip": "Showing the expansion of the denominator into a perfect square is a critical step that carries marks.",
+            "common_student_mistakes": [
+                "Multiplying by the conjugate instead, which complicates the algebra.",
+                "Getting the final sign wrong (writing $$ \\frac{\\pi}{4} - \\frac{x}{2} $$)."
+            ],
+            "concept_trigger": "The combination of $$ \\cos x $$ and $$ 1 \\pm \\sin x $$ always resolves via half-angle formulas converting to perfect squares.",
+            "time_to_solve_seconds": "120",
+            "examiner_intent": "Evaluating algebraic manipulation skills with trigonometric half-angle identities inside inverse functions."
+        },
+        {
+            "question_id": 17,
+            "question_type": "3_mark",
+            "concept_tested": "Algebraic Simplification of Inverse Tangent",
+            "difficulty_level": "Board-Tricky",
+            "question_text": "Write $$ \\tan^{-1}\\left( \\frac{a \\cos x - b \\sin x}{b \\cos x + a \\sin x} \\right) $$, if $$ \\frac{a}{b}\\tan x > -1 $$, in simplest form.",
+            "options": [],
+            "correct_answer": "$$ \\tan^{-1}\\left(\\frac{a}{b}\\right) - x $$",
+            "topper_solution": {
+                "step_1": "To convert the expression into a standard tangent formula, divide the numerator and the denominator by $$ b \\cos x $$.",
+                "step_2": "This gives: $$ \\tan^{-1}\\left( \\frac{\\frac{a\\cos x}{b\\cos x} - \\frac{b\\sin x}{b\\cos x}}{\\frac{b\\cos x}{b\\cos x} + \\frac{a\\sin x}{b\\cos x}} \\right) $$.",
+                "step_3": "Simplifying, we get: $$ \\tan^{-1}\\left( \\frac{\\frac{a}{b} - \\tan x}{1 + \\frac{a}{b}\\tan x} \\right) $$.",
+                "step_4": "This matches the formula $$ \\tan^{-1}\\left(\\frac{X - Y}{1 + XY}\\right) = \\tan^{-1}X - \\tan^{-1}Y $$, where $$ X = \\frac{a}{b} $$ and $$ Y = \\tan x $$.",
+                "step_5": "Therefore, the expression becomes $$ \\tan^{-1}\\left(\\frac{a}{b}\\right) - \\tan^{-1}(\\tan x) = \\tan^{-1}\\left(\\frac{a}{b}\\right) - x $$."
+            },
+            "board_presentation_tip": "Explicitly state the formula $$ \\tan^{-1}X - \\tan^{-1}Y $$ to justify the split.",
+            "common_student_mistakes": [
+                "Dividing by $$ a \\cos x $$ instead of $$ b \\cos x $$, leading to a form that doesn't match the standard identity.",
+                "Forgetting to simplify $$ \\tan^{-1}(\\tan x) $$ to $$ x $$."
+            ],
+            "concept_trigger": "Expressions of the form $$ A \\cos x \\pm B \\sin x $$ inside inverse tan usually require dividing by one of the terms to create $$ 1 \\pm X\\tan x $$ in the denominator.",
+            "time_to_solve_seconds": "180",
+            "examiner_intent": "Testing pattern recognition for the inverse tangent addition/subtraction formula with constants."
+        },
+        {
+            "question_id": 18,
+            "question_type": "3_mark",
+            "concept_tested": "Inverse Tangent Addition Formula",
+            "difficulty_level": "Moderate",
+            "question_text": "Prove that: $$ 2\\tan^{-1}\\left(\\frac{1}{2}\\right) + \\tan^{-1}\\left(\\frac{1}{7}\\right) = \\tan^{-1}\\left(\\frac{31}{17}\\right) $$.",
+            "options": [],
+            "correct_answer": "Proof",
+            "topper_solution": {
+                "step_1": "First, evaluate $$ 2\\tan^{-1}\\left(\\frac{1}{2}\\right) $$ using the formula $$ 2\\tan^{-1}x = \\tan^{-1}\\left(\\frac{2x}{1 - x^2}\\right) $$ for $$ -1 < x < 1 $$.",
+                "step_2": "Substituting $$ x = \\frac{1}{2} $$: $$ 2\\tan^{-1}\\left(\\frac{1}{2}\\right) = \\tan^{-1}\\left(\\frac{2(1/2)}{1 - (1/2)^2}\\right) = \\tan^{-1}\\left(\\frac{1}{1 - 1/4}\\right) = \\tan^{-1}\\left(\\frac{1}{3/4}\\right) = \\tan^{-1}\\left(\\frac{4}{3}\\right) $$.",
+                "step_3": "Now the LHS becomes: $$ \\tan^{-1}\\left(\\frac{4}{3}\\right) + \\tan^{-1}\\left(\\frac{1}{7}\\right) $$.",
+                "step_4": "Apply the formula $$ \\tan^{-1}X + \\tan^{-1}Y = \\tan^{-1}\\left(\\frac{X + Y}{1 - XY}\\right) $$ since $$ X \\cdot Y = \\frac{4}{3} \\cdot \\frac{1}{7} = \\frac{4}{21} < 1 $$.",
+                "step_5": "LHS = $$ \\tan^{-1}\\left( \\frac{\\frac{4}{3} + \\frac{1}{7}}{1 - \\frac{4}{3} \\cdot \\frac{1}{7}} \\right) = \\tan^{-1}\\left( \\frac{\\frac{28 + 3}{21}}{1 - \\frac{4}{21}} \\right) = \\tan^{-1}\\left( \\frac{\\frac{31}{21}}{\\frac{17}{21}} \\right) = \\tan^{-1}\\left(\\frac{31}{17}\\right) $$. This equals RHS."
+            },
+            "board_presentation_tip": "Always mention the condition $$ XY < 1 $$ when applying the $$ \\tan^{-1}X + \\tan^{-1}Y $$ formula.",
+            "common_student_mistakes": [
+                "Applying the addition formula directly to $$ \\frac{1}{2} $$ and $$ \\frac{1}{7} $$ without resolving the multiplier 2 first.",
+                "Calculation errors in fractions."
+            ],
+            "concept_trigger": "Coefficients in front of inverse functions must be absorbed using double-angle formulas before addition.",
+            "time_to_solve_seconds": "210",
+            "examiner_intent": "Assessing multi-step application of fundamental inverse tangent identities."
+        },
+        {
+            "question_id": 19,
+            "question_type": "5_mark",
+            "concept_tested": "Solving Equations with Inverse Trigonometry",
+            "difficulty_level": "Board-Tricky",
+            "question_text": "Solve for $$ x $$: $$ \\tan^{-1}\\left(\\frac{x-1}{x-2}\\right) + \\tan^{-1}\\left(\\frac{x+1}{x+2}\\right) = \\frac{\\pi}{4} $$.",
+            "options": [],
+            "correct_answer": "$$ x = \\pm \\frac{1}{\\sqrt{2}} $$",
+            "topper_solution": {
+                "step_1": "Apply the formula $$ \\tan^{-1}A + \\tan^{-1}B = \\tan^{-1}\\left(\\frac{A + B}{1 - AB}\\right) $$.",
+                "step_2": "$$ \\tan^{-1} \\left[ \\frac{\\frac{x-1}{x-2} + \\frac{x+1}{x+2}}{1 - \\left(\\frac{x-1}{x-2}\\right)\\left(\\frac{x+1}{x+2}\\right)} \\right] = \\frac{\\pi}{4} $$.",
+                "step_3": "Take tangent on both sides: $$ \\frac{(x-1)(x+2) + (x+1)(x-2)}{(x-2)(x+2) - (x-1)(x+1)} = \\tan\\left(\\frac{\\pi}{4}\\right) = 1 $$.",
+                "step_4": "Expand the numerator: $$ (x^2 + x - 2) + (x^2 - x - 2) = 2x^2 - 4 $$.",
+                "step_5": "Expand the denominator: $$ (x^2 - 4) - (x^2 - 1) = -3 $$.",
+                "step_6": "Equate and solve: $$ \\frac{2x^2 - 4}{-3} = 1 \\implies 2x^2 - 4 = -3 \\implies 2x^2 = 1 \\implies x^2 = \\frac{1}{2} $$. Thus, $$ x = \\pm \\frac{1}{\\sqrt{2}} $$."
+            },
+            "board_presentation_tip": "Keep the numerator and denominator expansions clean and in brackets to avoid sign errors during subtraction.",
+            "common_student_mistakes": [
+                "Canceling out terms incorrectly in the denominator, especially dropping the negative sign in $$ - (x^2 - 1) $$.",
+                "Forgetting the $$ \\pm $$ sign when taking the square root at the end."
+            ],
+            "concept_trigger": "Equations equating sum of inverse tangents to a constant usually resolve into a solvable quadratic equation after taking tangent on both sides.",
+            "time_to_solve_seconds": "300",
+            "examiner_intent": "Evaluating heavy algebraic manipulation combined with inverse trigonometric properties."
+        },
+        {
+            "question_id": 20,
+            "question_type": "case_based",
+            "concept_tested": "Application of Inverse Tangent",
+            "difficulty_level": "Moderate",
+            "question_text": "An air traffic controller is tracking an airplane flying at a constant altitude of 3000 meters. The distance from the controller's station to the point directly below the airplane changes as it approaches. \\n\\n(i) Express the angle of elevation $$ \\theta $$ of the airplane from the controller's station as a function of the horizontal ground distance $$ x $$.\\n(ii) If the horizontal distance is 3000 meters, what is the angle of elevation?\\n(iii) Calculate the rate of change of the angle of elevation with respect to the horizontal distance when $$ x = 3000 $$ meters.",
+            "options": [],
+            "correct_answer": "(i) $$ \\theta = \\tan^{-1}\\left(\\frac{3000}{x}\\right) $$, (ii) $$ \\frac{\\pi}{4} $$, (iii) $$ -\\frac{1}{6000} \\text{ rad/m} $$",
+            "topper_solution": {
+                "step_1": "For (i): The altitude (opposite) is 3000 and horizontal distance (adjacent) is $$ x $$. So $$ \\tan \\theta = \\frac{3000}{x} $$. Therefore, $$ \\theta = \\tan^{-1}\\left(\\frac{3000}{x}\\right) $$.",
+                "step_2": "For (ii): Substitute $$ x = 3000 $$. $$ \\theta = \\tan^{-1}\\left(\\frac{3000}{3000}\\right) = \\tan^{-1}(1) = \\frac{\\pi}{4} $$ radians.",
+                "step_3": "For (iii): Differentiate $$ \\theta $$ with respect to $$ x $$: $$ \\frac{d\\theta}{dx} = \\frac{d}{dx}\\left(\\tan^{-1}\\left(\\frac{3000}{x}\\right)\\right) $$.",
+                "step_4": "Using chain rule: $$ \\frac{d\\theta}{dx} = \\frac{1}{1 + (3000/x)^2} \\cdot \\left(-\\frac{3000}{x^2}\\right) = \\frac{x^2}{x^2 + 3000^2} \\cdot \\left(-\\frac{3000}{x^2}\\right) = -\\frac{3000}{x^2 + 3000^2} $$.",
+                "step_5": "At $$ x = 3000 $$: $$ \\frac{d\\theta}{dx} = -\\frac{3000}{3000^2 + 3000^2} = -\\frac{3000}{2(3000^2)} = -\\frac{1}{6000} $$ radians/meter."
+            },
+            "board_presentation_tip": "In application-based derivatives, always specify the unit for the rate of change (e.g., radians/meter).",
+            "common_student_mistakes": [
+                "Using sine or cosine instead of tangent to formulate the angle.",
+                "Messing up the chain rule differentiation of $$ 3000/x $$."
+            ],
+            "concept_trigger": "Problems involving constant height and varying ground distance model perfectly with inverse tangent.",
+            "time_to_solve_seconds": "240",
+            "examiner_intent": "Testing cross-topic competency: forming inverse trigonometric functions and differentiating them in a real-world context."
+        },
+        {
+            "question_id": 21,
+            "question_type": "5_mark",
+            "concept_tested": "Conversion and Addition of Inverse Trigonometric Functions",
+            "difficulty_level": "Board-Tricky",
+            "question_text": "Prove that: $$ \\sin^{-1}\\left(\\frac{12}{13}\\right) + \\cos^{-1}\\left(\\frac{4}{5}\\right) + \\tan^{-1}\\left(\\frac{63}{16}\\right) = \\pi $$.",
+            "options": [],
+            "correct_answer": "Proof",
+            "topper_solution": {
+                "step_1": "Convert $$ \\sin^{-1} $$ and $$ \\cos^{-1} $$ to $$ \\tan^{-1} $$. Let $$ \\sin^{-1}\\left(\\frac{12}{13}\\right) = x \\implies \\sin x = \\frac{12}{13} $$. Using a right triangle, $$ \\tan x = \\frac{12}{5} $$, so $$ x = \\tan^{-1}\\left(\\frac{12}{5}\\right) $$.",
+                "step_2": "Let $$ \\cos^{-1}\\left(\\frac{4}{5}\\right) = y \\implies \\cos y = \\frac{4}{5} $$. Using a right triangle, $$ \\tan y = \\frac{3}{4} $$, so $$ y = \\tan^{-1}\\left(\\frac{3}{4}\\right) $$.",
+                "step_3": "Now add the first two terms: $$ \\tan^{-1}\\left(\\frac{12}{5}\\right) + \\tan^{-1}\\left(\\frac{3}{4}\\right) $$. Notice that $$ \\frac{12}{5} \\times \\frac{3}{4} = \\frac{36}{20} = 1.8 > 1 $$.",
+                "step_4": "Since $$ xy > 1 $$, use the formula $$ \\tan^{-1}x + \\tan^{-1}y = \\pi + \\tan^{-1}\\left(\\frac{x+y}{1-xy}\\right) $$. This gives $$ \\pi + \\tan^{-1}\\left( \\frac{\\frac{12}{5} + \\frac{3}{4}}{1 - \\left(\\frac{12}{5}\\right)\\left(\\frac{3}{4}\\right)} \\right) $$.",
+                "step_5": "Simplify the fraction: $$ \\frac{\\frac{48+15}{20}}{1 - \\frac{36}{20}} = \\frac{\\frac{63}{20}}{-\\frac{16}{20}} = -\\frac{63}{16} $$. So the sum is $$ \\pi + \\tan^{-1}\\left(-\\frac{63}{16}\\right) $$.",
+                "step_6": "Using $$ \\tan^{-1}(-\\theta) = -\\tan^{-1}(\\theta) $$, the sum is $$ \\pi - \\tan^{-1}\\left(\\frac{63}{16}\\right) $$. Adding the third term from the question gives $$ \\pi - \\tan^{-1}\\left(\\frac{63}{16}\\right) + \\tan^{-1}\\left(\\frac{63}{16}\\right) = \\pi $$. Hence proved."
+            },
+            "board_presentation_tip": "Explicitly showing the condition $$ xy > 1 $$ and adding $$ \\pi $$ to the formula is where 90% of students lose marks. Highlight this step.",
+            "common_student_mistakes": [
+                "Applying the standard $$ \\tan^{-1} $$ addition formula without checking if the product of arguments is greater than 1.",
+                "Making arithmetic errors when converting sine and cosine to tangent."
+            ],
+            "concept_trigger": "Sum of multiple different inverse trigonometric functions usually requires converting all to inverse tangent first.",
+            "time_to_solve_seconds": "360",
+            "examiner_intent": "Testing mastery of domain constraints in inverse trigonometric addition formulas and interconversion."
+        },
+        {
+            "question_id": 22,
+            "question_type": "Assertion Reason",
+            "concept_tested": "Principal Value Branches of Composite Functions",
+            "difficulty_level": "Moderate",
+            "question_text": "Assertion (A): The value of $$ \\sin^{-1}\\left(\\sin\\left(\\frac{3\\pi}{5}\\right)\\right) $$ is $$ \\frac{2\\pi}{5} $$. \\nReason (R): For any $$ x \\in \\mathbb{R} $$, $$ \\sin^{-1}(\\sin x) = x $$.",
+            "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is not the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+            ],
+            "correct_answer": "A is true but R is false",
+            "topper_solution": {
+                "step_1": "Analyze Reason (R): The property $$ \\sin^{-1}(\\sin x) = x $$ is ONLY true if $$ x \\in \\left[-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right] $$, which is the principal value branch. It is not true for all real numbers. Thus, R is false.",
+                "step_2": "Analyze Assertion (A): The angle $$ \\frac{3\\pi}{5} $$ is outside the principal branch $$ \\left[-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right] $$. We must rewrite it.",
+                "step_3": "$$ \\sin\\left(\\frac{3\\pi}{5}\\right) = \\sin\\left(\\pi - \\frac{2\\pi}{5}\\right) = \\sin\\left(\\frac{2\\pi}{5}\\right) $$.",
+                "step_4": "Now evaluate $$ \\sin^{-1}\\left(\\sin\\left(\\frac{2\\pi}{5}\\right)\\right) $$. Since $$ \\frac{2\\pi}{5} \\in \\left[-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right] $$, the value is $$ \\frac{2\\pi}{5} $$. Assertion A is true."
+            },
+            "board_presentation_tip": "Whenever evaluating inverse trigonometric functions of trigonometric functions, state the principal value branch interval immediately.",
+            "common_student_mistakes": [
+                "Assuming Reason is true without checking the domain condition.",
+                "Writing the answer to Assertion A directly as $$ \\frac{3\\pi}{5} $$ blindly canceling the functions."
+            ],
+            "concept_trigger": "If the angle in the inner trigonometric function is obtuse (outside quadrants 1 or 4 for sine), it must be reduced using ASTC rules.",
+            "time_to_solve_seconds": "60",
+            "examiner_intent": "Verifying deep understanding that inverse functions are not true algebraic inverses over the entire real line."
+        },
+        {
+            "question_id": 23,
+            "question_type": "2_mark",
+            "concept_tested": "Domain of Inverse Trigonometric Functions",
+            "difficulty_level": "Board-Tricky",
+            "question_text": "Find the domain of the function $$ f(x) = \\cos^{-1}(x^2 - 4) $$.",
+            "options": [],
+            "correct_answer": "$$ [-\\sqrt{5}, -\\sqrt{3}] \\cup [\\sqrt{3}, \\sqrt{5}] $$",
+            "topper_solution": {
+                "step_1": "The function $$ \\cos^{-1}y $$ is defined only when its argument lies between -1 and 1. So, we set up the inequality: $$ -1 \\le x^2 - 4 \\le 1 $$.",
+                "step_2": "Add 4 to all parts of the inequality: $$ -1 + 4 \\le x^2 \\le 1 + 4 $$, which simplifies to $$ 3 \\le x^2 \\le 5 $$.",
+                "step_3": "Taking the square root gives two valid intervals due to positive and negative roots: $$ \\sqrt{3} \\le |x| \\le \\sqrt{5} $$.",
+                "step_4": "This breaks down into $$ x \\in [-\\sqrt{5}, -\\sqrt{3}] $$ or $$ x \\in [\\sqrt{3}, \\sqrt{5}] $$. So the combined domain is $$ [-\\sqrt{5}, -\\sqrt{3}] \\cup [\\sqrt{3}, \\sqrt{5}] $$."
+            },
+            "board_presentation_tip": "When moving from $$ x^2 $$ to bounds on $$ x $$, remember to include the negative interval. Using the modulus notation $$ |x| $$ helps avoid missing it.",
+            "common_student_mistakes": [
+                "Only writing the positive interval $$ [\\sqrt{3}, \\sqrt{5}] $$ and completely forgetting that negative numbers squared also yield positive results.",
+                "Solving the inequality incorrectly (e.g., getting $$ 1 \\le x \\le 3 $$)."
+            ],
+            "concept_trigger": "A squared variable inside a restricted domain inequality inevitably splits into a union of negative and positive intervals.",
+            "time_to_solve_seconds": "120",
+            "examiner_intent": "Testing combination of inverse trigonometric domain knowledge with solving quadratic inequalities."
+        },
+        {
+            "question_id": 24,
+            "question_type": "3_mark",
+            "concept_tested": "Algebraic Simplification via Substitution",
+            "difficulty_level": "Moderate",
+            "question_text": "Express the function $$ \\tan^{-1}\\left(\\frac{\\sqrt{1+x^2} - 1}{x}\\right) $$, where $$ x \\neq 0 $$, in the simplest form.",
+            "options": [],
+            "correct_answer": "$$ \\frac{1}{2}\\tan^{-1}x $$",
+            "topper_solution": {
+                "step_1": "Let $$ x = \\tan \\theta $$. Then $$ \\theta = \\tan^{-1}x $$ and the domain implies $$ \\theta \\in \\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right) $$.",
+                "step_2": "Substitute $$ x $$ into the expression: $$ \\tan^{-1}\\left(\\frac{\\sqrt{1+\\tan^2\\theta} - 1}{\\tan\\theta}\\right) $$.",
+                "step_3": "Using the identity $$ 1+\\tan^2\\theta = \\sec^2\\theta $$, the expression becomes $$ \\tan^{-1}\\left(\\frac{\\sec\\theta - 1}{\\tan\\theta}\\right) $$.",
+                "step_4": "Convert to sine and cosine: $$ \\frac{\\frac{1}{\\cos\\theta} - 1}{\\frac{\\sin\\theta}{\\cos\\theta}} = \\frac{1 - \\cos\\theta}{\\sin\\theta} $$.",
+                "step_5": "Apply half-angle formulas: $$ 1 - \\cos\\theta = 2\\sin^2\\left(\\frac{\\theta}{2}\\right) $$ and $$ \\sin\\theta = 2\\sin\\left(\\frac{\\theta}{2}\\right)\\cos\\left(\\frac{\\theta}{2}\\right) $$.",
+                "step_6": "The expression simplifies to $$ \\frac{2\\sin^2(\\theta/2)}{2\\sin(\\theta/2)\\cos(\\theta/2)} = \\tan\\left(\\frac{\\theta}{2}\\right) $$.",
+                "step_7": "Finally, $$ \\tan^{-1}\\left(\\tan\\left(\\frac{\\theta}{2}\\right)\\right) = \\frac{\\theta}{2} $$. Substituting back $$ \\theta = \\tan^{-1}x $$, the simplest form is $$ \\frac{1}{2}\\tan^{-1}x $$."
+            },
+            "board_presentation_tip": "Showing the half-angle formula conversions clearly is crucial for the 3 marks. Do not skip the step showing how sec/tan converts to sine/cosine.",
+            "common_student_mistakes": [
+                "Substituting $$ x = \\sin\\theta $$, which makes the square root part irreducible.",
+                "Getting stuck at $$ \\frac{1 - \\cos\\theta}{\\sin\\theta} $$ without realizing half-angle formulas are needed."
+            ],
+            "concept_trigger": "The expression $$ \\sqrt{1+x^2} $$ almost universally requires the $$ x = \\tan\\theta $$ or $$ x = \\cot\\theta $$ substitution.",
+            "time_to_solve_seconds": "180",
+            "examiner_intent": "Evaluating multi-step trigonometric simplification starting from an algebraic substitution."
+        },
+        {
+            "question_id": 25,
+            "question_type": "case_based",
+            "concept_tested": "Application of Inverse Trigonometry in Kinematics",
+            "difficulty_level": "Easy",
+            "question_text": "A ground-based tracking camera is placed 4000 m away from the launch pad of a space rocket. The camera automatically tilts upward to keep the rising rocket in the center of its frame. Let the vertical height of the rocket be $$ h $$ meters. \\n\\nBased on this scenario, answer the following:\\n(i) Formulate an expression for the angle of elevation $$ \\theta $$ of the camera in terms of the rocket's height $$ h $$.\\n(ii) What is the angle of elevation of the camera when the rocket reaches a height of $$ 4000\\sqrt{3} $$ meters?\\n(iii) What is the practical domain and range of the function $$ \\theta(h) $$ in this real-world context?",
+            "options": [],
+            "correct_answer": "(i) $$ \\theta = \\tan^{-1}\\left(\\frac{h}{4000}\\right) $$, (ii) $$ \\frac{\\pi}{3} $$ or 60 degrees, (iii) Domain: $$ [0, \\infty) $$, Range: $$ \\left[0, \\frac{\\pi}{2}\\right) $$",
+            "topper_solution": {
+                "step_1": "For (i): The tracking camera, the launch pad, and the rocket form a right-angled triangle. The height $$ h $$ is the opposite side, and the distance 4000 m is the adjacent side. Using tangent ratio, $$ \\tan\\theta = \\frac{h}{4000} $$. Thus, $$ \\theta = \\tan^{-1}\\left(\\frac{h}{4000}\\right) $$.",
+                "step_2": "For (ii): Substitute $$ h = 4000\\sqrt{3} $$ into the function: $$ \\theta = \\tan^{-1}\\left(\\frac{4000\\sqrt{3}}{4000}\\right) = \\tan^{-1}(\\sqrt{3}) $$. The principal value is $$ \\frac{\\pi}{3} $$ radians.",
+                "step_3": "For (iii): The rocket height $$ h $$ starts at 0 and goes upwards theoretically to infinity. So, Domain is $$ [0, \\infty) $$. The angle of elevation starts at 0 (when on ground) and approaches 90 degrees ($$ \\frac{\\pi}{2} $$) as the rocket goes infinitely high, but never actually reaches it. So, Range is $$ \\left[0, \\frac{\\pi}{2}\\right) $$."
+            },
+            "board_presentation_tip": "In part (iii), distinguish carefully between open and closed intervals. The height can be 0, so closed bracket [0, but angle never reaches exactly 90 degrees practically, so open bracket for $$ \\pi/2 $$.",
+            "common_student_mistakes": [
+                "Writing the general mathematical range of inverse tangent $$ (-\\pi/2, \\pi/2) $$ instead of applying the real-world constraints.",
+                "Forgetting to simplify $$ \\tan^{-1}(\\sqrt{3}) $$ to the actual angle."
+            ],
+            "concept_trigger": "Geometric setups involving a base distance and varying vertical height map cleanly to the inverse tangent function.",
+            "time_to_solve_seconds": "180",
+            "examiner_intent": "Bridging abstract inverse functions to applied mathematical modeling, specifically requiring contextual interpretation of domain and range."
+        }
+    ]
+}

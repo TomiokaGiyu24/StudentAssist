@@ -1,0 +1,2422 @@
+[
+  {
+    "chapter_derivations": [
+      {
+        "derivation_id": "CH1-D1",
+        "meta": {
+          "chapter_number": 1,
+          "chapter_name": "Electric Charges and Fields",
+          "derivation_title": "Electric Field due to an Electric Dipole on the Axial Line",
+          "cbse_frequency": "HIGH",
+          "historical_occurrence_years": [
+            "All India 2024",
+            "Delhi 2022",
+            "Foreign 2019",
+            "Foreign 2017",
+            "CBSE SQP 2026"
+          ],
+          "total_marks": 3
+        },
+        "examiner_overview": {
+          "asked_as_stems": [
+            "Derive an expression for the electric field \\vec{E} due to a dipole of length 2a at a point distant r from the centre of the dipole on the axial line.",
+            "An electric dipole of length 2\\text{ cm} has charges \\pm q. Find the electric field on the axial line at a point which is at distance x from the mid-point (assume x \\gg dipole length)."
+          ],
+          "marking_distribution": {
+            "statement_and_diagram": 1.0,
+            "mathematical_integration": 1.5,
+            "final_expression_and_direction": 0.5
+          }
+        },
+        "derivation_timeline": [
+          {
+            "step_number": 1,
+            "phase": "SETUP_AND_DIAGRAM",
+            "paper_script": "Let us consider an electric dipole consisting of two equal and opposite point charges, -q and +q, separated by a distance 2a in vacuum. Let the center of this dipole be at origin O. Let P be a point along the collinear axial axis at a distance r from the center O.",
+            "mathematical_line": "",
+            "trigger_keywords": [
+              "Electric Dipole",
+              "Axial Line"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": true,
+              "diagram_id": "DIAG_CH01_AXIAL",
+              "diagram_placement_note": "Render immediately after the initial setup text to fulfill the board requirement for a labeled schematic layout.",
+              "generation_prompt": "A pristine technical vector diagram on a pitch-black background (#0a0a0f). Draw a solid white horizontal axis line representing the x-axis. Place a blue node labeled -q at position A and a red node labeled +q at position B, separated by a distance vector labeled 2a. Mark the center point as O, indicating symmetric segments of length a on either side. Extend the axis to the right to an observation point labeled P at a continuous radial distance r measured from the center O. Add a distinct green vector arrow above the charges labeled p pointing from -q to +q to denote the dipole moment. At point P, draw two co-linear horizontal field vectors: a long bright blue arrow pointing away from the dipole labeled E_{+} and a shorter orange arrow pointing toward the dipole labeled E_{-}, visibly demonstrating that the magnitude of E_{+} is greater than E_{-}."
+            }
+          },
+          {
+            "step_number": 2,
+            "phase": "SETUP_AND_DIAGRAM",
+            "paper_script": "The electric dipole moment vector \\vec{p} is defined as the product of the charge magnitude q and the vector separation 2a, directed from the negative charge to the positive charge along the dipole axis:",
+            "mathematical_line": "\\vec{p} = q(2a)\\hat{p}",
+            "trigger_keywords": [
+              "Dipole Moment Vector"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 3,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "paper_script": "The electric field vector \\vec{E}*{+} at the observation point P due to the positive charge +q is directed radially outwards, along the positive x-direction in the direction of the unit vector \\hat{p}:",
+            "mathematical_line": "\\vec{E}*{+} = \\frac{1;}{4\\pi\\epsilon_{0}} \\frac{q}{(r-a)^{2}} \\hat{p}",
+            "trigger_keywords": [
+              "Radially outwards",
+              "Distance (r-a)"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 4,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "paper_script": "The electric field vector \\vec{E}*{-} at the observation point P due to the negative charge -q is directed radially inwards, along the negative x-direction opposite to the unit vector \\hat{p}:",
+            "mathematical_line": "\\vec{E}*{-} = -\\frac{1;}{4\\pi\\epsilon_{0}} \\frac{q}{(r+a)^{2}} \\hat{p}",
+            "trigger_keywords": [
+              "Radially inwards",
+              "Distance (r+a)"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 5,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "paper_script": "According to the principle of superposition, the net electric field vector \\vec{E}*{\\text{axial}} at point P is the vector sum of the individual electric fields:",
+            "mathematical_line": "\\vec{E}*{\\text{axial}} = \\vec{E}*{+} + \\vec{E}*{-}",
+            "trigger_keywords": [
+              "Principle of Superposition"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 6,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "paper_script": "Substitute the individual field formulations into the vector superposition equation:",
+            "mathematical_line": "\\vec{E}*{\\text{axial}} = \\frac{1;}{4\\pi\\epsilon*{0}} \\frac{q}{(r-a)^{2}} \\hat{p} - \\frac{1;}{4\\pi\\epsilon_{0}} \\frac{q}{(r+a)^{2}} \\hat{p}",
+            "trigger_keywords": [
+              "Vector addition"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 7,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "paper_script": "Factor out the common scalar charge value, the electrostatic constants, and the horizontal unit vector:",
+            "mathematical_line": "\\vec{E}*{\\text{axial}} = \\frac{q;}{4\\pi\\epsilon*{0}} \\left[ \\frac{1}{(r-a)^{2}} - \\frac{1}{(r+a)^{2}} \\right] \\hat{p}",
+            "trigger_keywords": [
+              "Algebraic simplification"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 8,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "paper_script": "Combine the algebraic fractions inside the brackets by finding a common denominator:",
+            "mathematical_line": "\\vec{E}*{\\text{axial}} = \\frac{q;}{4\\pi\\epsilon*{0}} \\left[ \\frac{(r+a)^{2} - (r-a)^{2}}{((r-a)(r+a))^{2}} \\right] \\hat{p}",
+            "trigger_keywords": [
+              "Common denominator"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 9,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "paper_script": "Expand the perfect squares in the numerator and simplify the denominator using the difference of squares identity:",
+            "mathematical_line": "\\vec{E}*{\\text{axial}} = \\frac{q;}{4\\pi\\epsilon*{0}} \\left[ \\frac{(r^{2} + a^{2} + 2ra) - (r^{2} + a^{2} - 2ra)}{(r^{2} - a^{2})^{2}} \\right] \\hat{p}",
+            "trigger_keywords": [
+              "Algebraic squares expansion"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 10,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "paper_script": "Subtract the polynomial expressions in the numerator to reduce the expression down to a single product term of 4ra:",
+            "mathematical_line": "\\vec{E}*{\\text{axial}} = \\frac{q;}{4\\pi\\epsilon*{0}} \\frac{4ra}{(r^{2} - a^{2})^{2}} \\hat{p}",
+            "trigger_keywords": [
+              "Numerator simplification"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 11,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "paper_script": "Rearrange the scalar elements in the numerator to isolate the product grouping that defines the dipole moment vector:",
+            "mathematical_line": "\\vec{E}*{\\text{axial}} = \\frac{1;}{4\\pi\\epsilon*{0}} \\frac{2 \\cdot [q(2a)] \\cdot r}{(r^{2} - a^{2})^{2}} \\hat{p}",
+            "trigger_keywords": [
+              "Rearrange numerator"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 12,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "paper_script": "Substitute the scalar magnitude of the dipole moment p = q(2a) directly into the functional numerator expression:",
+            "mathematical_line": "\\vec{E}*{\\text{axial}} = \\frac{1;}{4\\pi\\epsilon*{0}} \\frac{2pr}{(r^{2} - a^{2})^{2}} \\hat{p}",
+            "trigger_keywords": [
+              "Dipole moment substitution"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 13,
+            "phase": "FINAL_EVALUATION",
+            "paper_script": "For a short dipole, we apply the approximation where the observation distance is much greater than the internal half-length of the dipole, r \\gg a. Under this condition, the term a^{2} can be neglected inside the denominator expression:",
+            "mathematical_line": "(r^{2} - a^{2})^{2} \\approx (r^{2})^{2} = r^{4}",
+            "trigger_keywords": [
+              "Short Dipole Approximation (r \\gg a)"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 14,
+            "phase": "FINAL_EVALUATION",
+            "paper_script": "Substitute the approximated polynomial value back into the denominator and cancel out the common factor of r in the fraction to yield the final vector expression for the axial field:",
+            "mathematical_line": "\\vec{E}*{\\text{axial}} = \\frac{1;}{4\\pi\\epsilon*{0}} \\frac{2\\vec{p}}{r^{3}}",
+            "trigger_keywords": [
+              "Inverse-cube relationship",
+              "Vector notation"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          }
+        ],
+        "topper_scoring_notes": [
+          "CRITICAL CALCULATION TRAP: When encountering a numerical sub-part with a dipole of finite length (e.g., total length 2a = 4 cm) evaluated at a close position (e.g., r = 10 cm), you are strictly forbidden from using the short-dipole inverse-cube formula. You must calculate the value using the exact unapproximated formula: \\vec{E} = \\frac{2kpr}{(r^2-a^2)^2}\\hat{p} to prevent losing 1.0 mark.",
+          "MANDATORY CONCLUSION LINE: If you use the scalar algebraic method during simplification steps, the board requires you to append a concluding justification line verbatim to secure full marks: 'Since E_{+} > E_{-}, the net electric field magnitude is directed along the direction of the electric dipole moment vector \\vec{p}.'",
+          "CONVERSION ERROR BOUNDARY: Always double-check if the numerical prompt specifies the dipole length as 'a' or '2a'. Candidates frequently square the total length instead of dividing it by two for the half-length term, which breaks algebraic consistency."
+        ]
+      }
+    ]
+  },
+  {
+    "chapter_derivations": [
+      {
+        "derivation_id": "CH1-D2",
+        "meta": {
+          "chapter_number": 1,
+          "chapter_name": "Electric Charges and Fields",
+          "derivation_title": "Electric Field due to an Electric Dipole on the Equatorial Line",
+          "cbse_frequency": "HIGH",
+          "historical_occurrence_years": [
+            "Delhi 2019",
+            "Delhi 2017",
+            "CBSE 2023",
+            "SQP 2021"
+          ],
+          "total_marks": 3
+        },
+        "examiner_overview": {
+          "asked_as_stems": [
+            "Derive an expression for the electric field due to a dipole of dipole moment \\vec{p} at a point on its perpendicular bisector.",
+            "Derive the expression for the electric field at a point on the equatorial line of an electric dipole."
+          ],
+          "marking_distribution": {
+            "statement_and_diagram": 1.0,
+            "mathematical_integration": 1.5,
+            "final_expression_and_direction": 0.5
+          }
+        },
+        "derivation_timeline": [
+          {
+            "step_number": 1,
+            "phase": "SETUP_AND_DIAGRAM",
+            "paper_script": "Consider an electric dipole consisting of two point charges -q and +q separated by a distance 2a in vacuum. Let O be the center of the dipole and P be an observation point lying on the equatorial line (perpendicular bisector) at a distance r from O.",
+            "mathematical_line": "",
+            "trigger_keywords": [
+              "Equatorial line",
+              "Perpendicular bisector"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": true,
+              "diagram_id": "DIAG_CH01_EQUATORIAL",
+              "diagram_placement_note": "Place immediately following the initial physical layout setup script to fulfill board requirements for vector component representation.",
+              "generation_prompt": "A precise technical engineering diagram on a dark-mode background (#0a0a0f). Draw an isosceles triangle configuration representing the equatorial plane of an electric dipole. At the bottom left vertex A, place a blue node labeled -q, and at the bottom right vertex B, place a red node labeled +q, separated by a horizontal distance vector labeled 2a with a central midpoint O. Draw a vertical line from O extending upwards by a distance r to the observation point P. Label the hypotenuse lines AP and BP as \\sqrt{r^{2}+a^{2}}. Mark both base angles at vertices A and B with the symbol \\theta. At the top vertex P, project two distinct, outward vector arrows: arrow E_{+} extending linearly outward along the direction from BP away from +q, and arrow E_{-} pointing diagonally downward along the line towards -q. Show the rectangular vector component resolutions at point P with vertical arrows labeled E_{+}\\sin\\theta and E_{-}\\sin\\theta pointing in opposite directions along the y-axis, and two overlapping horizontal vector arrows labeled E_{+}\\cos\\theta and E_{-}\\cos\\theta pointing parallel to the dipole axis to the left, demonstrating they act in the direction opposite to the green dipole moment vector p."
+            }
+          },
+          {
+            "step_number": 2,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "paper_script": "From the right-angled geometry of triangle AOP, the identical distance from each point charge to the observation point P is calculated using the Pythagorean theorem:",
+            "mathematical_line": "AP = BP = \\sqrt{r^{2} + a^{2}}",
+            "trigger_keywords": [
+              "Isosceles triangle layout",
+              "Geometric distance"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 3,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "paper_script": "Formulate the mathematical expression for the magnitude of the individual electric field strength E_{+} at point P produced by the positive charge +q:",
+            "mathematical_line": "E_{+} = \\frac{1;}{4\\pi\\epsilon_{0}} \\frac{q}{r^{2} + a^{2}}",
+            "trigger_keywords": [
+              "Field due to positive charge"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 4,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "paper_script": "Formulate the mathematical expression for the magnitude of the individual electric field strength E_{-} at point P produced by the negative charge -q:",
+            "mathematical_line": "E_{-} = \\frac{1;}{4\\pi\\epsilon_{0}} \\frac{q}{r^{2} + a^{2}}",
+            "trigger_keywords": [
+              "Field due to negative charge"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 5,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "paper_script": "By comparing the two individual localized field scalar expressions, state their absolute physical equality explicitly:",
+            "mathematical_line": "E_{+} = E_{-}",
+            "trigger_keywords": [
+              "Equality of magnitudes"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 6,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "paper_script": "Resolve the electric field vectors into orthogonal components parallel and perpendicular to the horizontal dipole axis. The vertical components act in directly opposite directions and have equal magnitudes:",
+            "mathematical_line": "E_{+} \\sin\\theta - E_{-} \\sin\\theta = 0",
+            "trigger_keywords": [
+              "Perpendicular components cancel",
+              "Symmetry"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 7,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "paper_script": "The horizontal components act along the same line of action in a direction opposite to the unit dipole moment vector \\hat{p}, meaning they add up to constitute the total field:",
+            "mathematical_line": "\\vec{E}*{\\text{equatorial}} = -(E*{+} \\cos\\theta + E_{-} \\cos\\theta) \\hat{p}",
+            "trigger_keywords": [
+              "Parallel components add",
+              "Opposite direction to dipole moment"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 8,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "paper_script": "Simplify the total vector equation by utilizing the established identity of equal magnitudes to create a single combined term:",
+            "mathematical_line": "\\vec{E}*{\\text{equatorial}} = -2 E*{+} \\cos\\theta \\hat{p}",
+            "trigger_keywords": [
+              "Component accumulation"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 9,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "paper_script": "Extract the precise geometric definition of the trigonometric ratio from the right-angled triangle AOP layout:",
+            "mathematical_line": "\\cos\\theta = \\frac{a}{\\sqrt{r^{2} + a^{2}}}",
+            "trigger_keywords": [
+              "Trigonometric ratio substitution"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 10,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "paper_script": "Substitute the full expression for E_{+} and the value of the cosine component back into the net horizontal vector relation:",
+            "mathematical_line": "\\vec{E}*{\\text{equatorial}} = -2 \\left[ \\frac{1;}{4\\pi\\epsilon*{0}} \\frac{q}{r^{2} + a^{2}} \\right] \\left[ \\frac{a}{(r^{2} + a^{2})^{1/2}} \\right] \\hat{p}",
+            "trigger_keywords": [
+              "Algebraic back-substitution"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 11,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "paper_script": "Group the scalar numerator variables and add the rational fractional power parameters within the denominator base term:",
+            "mathematical_line": "\\vec{E}*{\\text{equatorial}} = -\\frac{1;}{4\\pi\\epsilon*{0}} \\frac{q(2a)}{(r^{2} + a^{2})^{3/2}} \\hat{p}",
+            "trigger_keywords": [
+              "Exponent grouping"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 12,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "paper_script": "Substitute the physical definition of the scalar dipole moment p = q(2a) directly into the numerator field position:",
+            "mathematical_line": "\\vec{E}*{\\text{equatorial}} = -\\frac{1;}{4\\pi\\epsilon*{0}} \\frac{p}{(r^{2} + a^{2})^{3/2}} \\hat{p}",
+            "trigger_keywords": [
+              "Dipole moment magnitude"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 13,
+            "phase": "FINAL_EVALUATION",
+            "paper_script": "Apply the mandatory short-dipole spatial approximation where the distance r is much greater than the internal half-length a, meaning r \\gg a. Neglect the square of the half-length relative to the square of the distance:",
+            "mathematical_line": "(r^{2} + a^{2})^{3/2} \\approx (r^{2})^{3/2} = r^{3}",
+            "trigger_keywords": [
+              "Short-dipole approximation"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 14,
+            "phase": "FINAL_EVALUATION",
+            "paper_script": "Combine the structural definition of the dipole moment vector with the approximated denominator value to produce the final vector expression:",
+            "mathematical_line": "\\vec{E}*{\\text{equatorial}} = -\\frac{\\vec{p};}{4\\pi\\epsilon*{0} r^{3}}",
+            "trigger_keywords": [
+              "Inverse-cube relationship",
+              "Final vector notation"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          }
+        ],
+        "topper_scoring_notes": [
+          "RATIO RELATIONSHIP VERIFICATION: The board frequently attaches a common theory sub-part asking to show that the field on the axial line is twice that of the equatorial line at an equal far distance. Ensure you write out the explicit verification ratio: \\frac{E_{\\text{axial}}}{E_{\\text{equatorial}}} = 2.",
+          "COMPLEX SYMMETRY TRAPS: Watch out for numerical trap questions where two identical dipoles are oriented along the diagonals of a geometric square of side L. You must find the vector fields of each separately using the equatorial field mapping rule and execute vector addition.",
+          "COORDINATE VECTOR ACCEPTANCE: If you choose to follow the accepted alternate Cartesian vector derivation method, set the dipole along the positive x-axis so that the field components resolve cleanly to directly produce -2E_{+}\\cos\\theta\\hat{i}."
+        ]
+      }
+    ]
+  },
+  {
+    "chapter_derivations": [
+      {
+        "derivation_id": "CH1-D3",
+        "meta": {
+          "chapter_number": 1,
+          "chapter_name": "Electric Charges and Fields",
+          "derivation_title": "Torque on an Electric Dipole in a Uniform Electric Field",
+          "cbse_frequency": "HIGH",
+          "historical_occurrence_years": [
+            "CBSE 2025",
+            "CBSE 2023",
+            "CBSE 2020",
+            "CBSE 2019",
+            "Foreign 2016"
+          ],
+          "total_marks": 3
+        },
+        "examiner_overview": {
+          "asked_as_stems": [
+            "Derive the expression for the torque acting on an electric dipole, when it is held in a uniform electric field.",
+            "Derive an expression for the torque acting on an electric dipole of dipole moment \\vec{p} placed in a uniform electric field \\vec{E}. Write the direction along which the torque acts."
+          ],
+          "marking_distribution": {
+            "statement_and_diagram": 1.0,
+            "mathematical_integration": 1.5,
+            "final_expression_and_direction": 0.5
+          }
+        },
+        "derivation_timeline": [
+          {
+            "step_number": 1,
+            "phase": "SETUP_AND_DIAGRAM",
+            "paper_script": "Let us consider an electric dipole consisting of two point charges -q and +q separated by a distance 2a. Let the dipole be placed in a uniform external electric field of strength \\vec{E}\\, such that the dipole axis makes an angle \\theta with the direction of the electric field \\vec{E}.",
+            "mathematical_line": "",
+            "trigger_keywords": [
+              "Uniform electric field",
+              "Dipole orientation angle \\theta"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": true,
+              "diagram_id": "DIAG_CH01_TORQUE",
+              "diagram_placement_note": "Render immediately following the initial frame setup script to fulfill the mandatory examiner graphical criteria.",
+              "generation_prompt": "An advanced technical physics schematic rendered on a pitch-black background (#0a0a0f). Draw a series of horizontal, equidistant, bright cyan parallel lines with arrowheads pointing to the right, explicitly labeled with the vector symbol \\vec{E} to represent a uniform electric field. Position an electric dipole of total length 2a at an acute angle \\theta relative to these horizontal field lines. Label the upper right end point as node A carrying a positive charge +q, with a bold red force vector arrow labeled \\vec{F}*{+} = +q\\vec{E} pointing along the field lines to the right. Label the lower left end point as node B carrying a negative charge -q, with a bold blue force vector arrow labeled \\vec{F}*{-} = -q\\vec{E} pointing in the opposite direction to the left. Complete the right-angled force triangle by dropping a vertical dashed white line from node A to meet a horizontal dashed white line extended from node B, clearly labeling the vertical altitude path as the perpendicular separation distance equal to 2a\\sin\\theta."
+            }
+          },
+          {
+            "step_number": 2,
+            "phase": "SETUP_AND_DIAGRAM",
+            "paper_script": "The electric dipole moment vector \\vec{p} is structurally defined as having a magnitude equal to the product of the charge q and length 2a, aligned along the unit vector \\hat{p} pointing from the negative charge to the positive charge:",
+            "mathematical_line": "\\vec{p} = q(2a)\\hat{p}",
+            "trigger_keywords": [
+              "Dipole moment vector"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 3,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "paper_script": "Formulate the individual electrostatic force vectors acting on the respective point charges inside the uniform system, where the force on the positive charge acts parallel to the field and the force on the negative charge acts antiparallel:",
+            "mathematical_line": "\\vec{F}*{+} = +q\\vec{E}\\quad\\text{and}\\quad\\vec{F}*{-} = -q\\vec{E}",
+            "trigger_keywords": [
+              "Electrostatic force vectors",
+              "Antiparallel forces"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 4,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "paper_script": "Calculate the net translational force \\vec{F}*{\\text{net}} acting on the dipole system by performing vector addition of the individual localized forces:",
+            "mathematical_line": "\\vec{F}*{\\text{net}} = \\vec{F}*{+} + \\vec{F}*{-} = (+q\\vec{E}) + (-q\\vec{E}) = 0",
+            "trigger_keywords": [
+              "Net translational force is zero",
+              "Translational equilibrium"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 5,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "paper_script": "State the physical consequence of the net translational force being zero, noting that because the forces act along different non-collinear lines of action, they generate a couple:",
+            "mathematical_line": "\\text{Net Force} = 0 \\implies \\text{No translational motion. Forces constitute a couple.}",
+            "trigger_keywords": [
+              "Lines of action",
+              "Couple"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 6,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "paper_script": "The scalar magnitude of the rotating torque \\tau exerted by this couple is defined as the magnitude of one of the forces multiplied by the perpendicular separation distance between their lines of action:",
+            "mathematical_line": "\\tau = |\\vec{F}*{+}| \\cdot (\\text{Perpendicular Distance})",
+            "trigger_keywords": [
+              "Torque magnitude definition",
+              "Arm of the couple"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 7,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "paper_script": "From the geometric layout of the right-angled force triangle, resolve the trigonometric relation to isolate the exact value of the perpendicular distance vector:",
+            "mathematical_line": "\\text{Perpendicular Distance} = 2a\\sin\\theta",
+            "trigger_keywords": [
+              "Force triangle geometry",
+              "Perpendicular separation distance"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 8,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "paper_script": "Substitute the absolute force magnitude value and the resolved perpendicular geometric distance back into the core torque scalar formulation:",
+            "mathematical_line": "\\tau = (qE) \\cdot (2a\\sin\\theta)",
+            "trigger_keywords": [
+              "Algebraic substitution"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 9,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "paper_script": "Rearrange the sequence of scalar variables to group the operational parameters of the charge and separation length together:",
+            "mathematical_line": "\\tau = [q(2a)] \\cdot E\\sin\\theta",
+            "trigger_keywords": [
+              "Rearrange scalar terms"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 10,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "paper_script": "Substitute the direct scalar magnitude of the dipole moment p = q(2a) to establish the standard scalar function for torque magnitude:",
+            "mathematical_line": "\\tau = pE\\sin\\theta",
+            "trigger_keywords": [
+              "Torque scalar magnitude expression"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 11,
+            "phase": "FINAL_EVALUATION",
+            "paper_script": "Convert the scalar trigonometric relationship into its equivalent cross-product vector representation to determine the complete mathematical structure of the torque vector:",
+            "mathematical_line": "\\vec{\\tau} = \\vec{p} \\times \\vec{E}",
+            "trigger_keywords": [
+              "Vector product notation",
+              "Cross product representation"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 12,
+            "phase": "FINAL_EVALUATION",
+            "paper_script": "State the definitive vector orientation constraint governed by the cross-product relation, identifying its alignment perpendicular to the plane containing both operational parameters:",
+            "mathematical_line": "\\text{Direction of } \\vec{\\tau} \\text{ is perpendicular to the plane of } \\vec{p} \\text{ and } \\vec{E}\\text{, via the Right-Hand Screw Rule.}",
+            "trigger_keywords": [
+              "Right-hand screw rule",
+              "Perpendicular to plane containing vectors"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          }
+        ],
+        "topper_scoring_notes": [
+          "EQUILIBRIUM CONFIGURATION TAG-ONS: Board evaluations regularly feature an attached sub-part requesting stable and unstable orientation layouts. To protect this mark, explicitly specify: (i) Stable Equilibrium occurs at \\theta = 0^{\\circ} where torque is zero and potential energy is minimized at U = -pE; (ii) Unstable Equilibrium occurs at \\theta = 180^{\\circ} where torque is zero and potential energy is maximized at U = +pE.",
+          "LENGTH SCALE CONVERSION ERROR: Numerical tasks attached to this derivation frequently assign the dipole length in centimeters (e.g., total length 2a = 2 cm). Failing to execute a proactive conversion to meters (\\text{m}) before solving will trigger a calculation cascade failure, leading to a loss of 1.0 mark.",
+          "VALID ALTERNATE ROUTE: The marking scheme fully registers and accepts an alternate route that computes torque by evaluating the individual rotational moments of the forces around the origin midpoint O: \\vec{\\tau} = \\vec{r}*{+} \\times \\vec{F}*{+} + \\vec{r}*{-} \\times \\vec{F}_{-}. Both approaches score maximum marks."
+        ]
+      }
+    ]
+  },
+  {
+    "chapter_derivations": [
+      {
+        "derivation_id": "CH1-D4",
+        "meta": {
+          "chapter_number": 1,
+          "chapter_name": "Electric Charges and Fields",
+          "derivation_title": "Electric Field due to an Infinitely Long Straight Uniformly Charged Wire",
+          "cbse_frequency": "HIGH",
+          "historical_occurrence_years": [
+            "All India 2025",
+            "All India 2023",
+            "CBSE 2020",
+            "CBSE 2015"
+          ],
+          "total_marks": 3
+        },
+        "examiner_overview": {
+          "asked_as_stems": [
+            "State Gauss's theorem in electrostatics. Using this theorem, derive an expression for the electric field due to an infinite line charge of linear charge density \\lambda.",
+            "Using Gauss's law, derive the expression for the electric field due to an infinitely long straight uniformly charged wire. Also draw a graph between E vs r."
+          ],
+          "marking_distribution": {
+            "statement_and_diagram": 1.0,
+            "mathematical_integration": 1.5,
+            "final_expression_and_direction": 0.5
+          }
+        },
+        "derivation_timeline": [
+          {
+            "step_number": 1,
+            "phase": "SETUP_AND_DIAGRAM",
+            "paper_script": "Let us consider an infinitely long, thin straight wire having a uniform linear charge density \\lambda (defined as charge per unit length). To determine the electric field intensity \\vec{E} at a perpendicular radial distance r from the wire, we construct a closed cylindrical Gaussian surface of radius r and finite length L, situated coaxially with the wire.",
+            "mathematical_line": "",
+            "trigger_keywords": [
+              "Linear charge density \\lambda",
+              "Cylindrical Gaussian surface",
+              "Coaxial layout"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": true,
+              "diagram_id": "DIAG_CH01_LINE_CHARGE",
+              "diagram_placement_note": "Render immediately after the initial geometric setup script to provide a clear reference for the three surface flux evaluations.",
+              "generation_prompt": "A highly precise technical engineering diagram on a pitch-black background (#0a0a0f). Draw a central vertical line representing an infinite straight wire, decorated with evenly spaced red '+' symbols and labeled with the linear charge density parameter \\lambda. Enclosing this line, render a concentric, translucent cylinder representing a Gaussian surface of radius r and length L with sharp white vector paths. Label the top flat end-cap surface as S_{2}, showing a vertical normal area vector arrow d\\vec{S}*{2} pointing upward at a ninety-degree angle to a horizontal radial electric field vector arrow \\vec{E}. Label the bottom flat end-cap surface as S*{3}, showing a vertical normal area vector arrow d\\vec{S}*{3} pointing downward, also perpendicular to a horizontal radial field vector arrow \\vec{E}. On the central curved lateral surface labeled S*{1}, draw a horizontal normal area vector arrow d\\vec{S}*{1} and an overlapping horizontal radial electric field vector arrow \\vec{E} pointing in the exact same direction to visually demonstrate their parallel orientation."
+            }
+          },
+          {
+            "step_number": 2,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "paper_script": "State Gauss's law in its generalized integral form, which posits that the total closed surface integral of the electric flux equals the net enclosed charge divided by the permittivity of free space \\epsilon*{0}:",
+            "mathematical_line": "\\oint \\vec{E} \\cdot d\\vec{S} = \\frac{Q_{\\text{enclosed}}}{\\\\epsilon_{0}}",
+            "trigger_keywords": [
+              "Gauss's law formulation",
+              "Closed surface integral"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 3,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "paper_script": "Deconstruct the total closed surface integral into a scalar summation of three separate open surface integrals corresponding to the curved surface S_{1}, the top flat end-cap S_{2}, and the bottom flat end-cap S_{3}:",
+            "mathematical_line": "\\oint \\vec{E} \\cdot d\\vec{S} = \\int_{S_{1}} \\vec{E} \\cdot d\\vec{S}*{1} + \\int*{S_{2}} \\vec{E} \\cdot d\\vec{S}*{2} + \\int*{S_{3}} \\vec{E} \\cdot d\\vec{S}*{3}",
+            "trigger_keywords": [
+              "Surface deconstruction",
+              "Flux splitting"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 4,
+            "phase": "INTEGRATION_AND_SUBSTITUTION",
+            "paper_script": "For the top flat circular end-cap surface S*{2}, the radial electric field lines run parallel to the surface plane, meaning the normal area element vector d\\vec{S}*{2} is perpendicular to the electric field vector \\vec{E} with an orientation angle \\theta = 90^{\\circ}:",
+            "mathematical_line": "\\int*{S_{2}} \\vec{E} \\cdot d\\vec{S}*{2} = \\int*{S_{2}} E \\, dS_{2} \\cos(90^{\\circ}) = 0",
+            "trigger_keywords": [
+              "Top end-cap",
+              "Perpendicular vectors",
+              "Zero flux contribution"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 5,
+            "phase": "INTEGRATION_AND_SUBSTITUTION",
+            "paper_script": "For the bottom flat circular end-cap surface S_{3}, the geometric configuration is identical to the top cap, where the normal area element vector d\\vec{S}*{3} remains perfectly perpendicular to the radial electric field vector \\vec{E} at an angle \\theta = 90^{\\circ}:",
+            "mathematical_line": "\\int*{S_{3}} \\vec{E} \\cdot d\\vec{S}*{3} = \\int*{S_{3}} E \\, dS_{3} \\cos(90^{\\circ}) = 0",
+            "trigger_keywords": [
+              "Bottom end-cap",
+              "Angle \\theta = 90^{\\circ}",
+              "Zero flux contribution"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 6,
+            "phase": "INTEGRATION_AND_SUBSTITUTION",
+            "paper_script": "For the curved lateral surface S_{1}, the electric field lines radiate symmetrically outwards along the normal directions, meaning the area element vector d\\vec{S}*{1} is parallel to the electric field vector \\vec{E} at an alignment angle \\theta = 0^{\\circ}:",
+            "mathematical_line": "\\int*{S_{1}} \\vec{E} \\cdot d\\vec{S}*{1} = \\int*{S_{1}} E \\, dS_{1} \\cos(0^{\\circ}) = \\int_{S_{1}} E \\, dS_{1}",
+            "trigger_keywords": [
+              "Curved lateral surface",
+              "Parallel vectors",
+              "Angle \\theta = 0^{\\circ}"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 7,
+            "phase": "INTEGRATION_AND_SUBSTITUTION",
+            "paper_script": "By invoking the principles of cylindrical symmetry, the magnitude of the electric field E depends solely on the radial distance r and must be uniform across all coordinates of the curved surface, allowing it to be factored outside the integral operation:",
+            "mathematical_line": "\\int_{S_{1}} E \\, dS_{1} = E \\int_{S_{1}} dS_{1}",
+            "trigger_keywords": [
+              "Cylindrical symmetry",
+              "Constant field magnitude E"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 8,
+            "phase": "INTEGRATION_AND_SUBSTITUTION",
+            "paper_script": "Evaluate the open surface integral of the area element dS_{1} over the curved body, which equals the total surface area of a cylinder of radius r and length L:",
+            "mathematical_line": "\\int_{S_{1}} dS_{1} = 2\\pi r L",
+            "trigger_keywords": [
+              "Cylindrical surface area",
+              "Curved integral evaluation"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 9,
+            "phase": "INTEGRATION_AND_SUBSTITUTION",
+            "paper_script": "Combine the calculated flux terms from the three surfaces to formulate the expression for the total electric flux \\Phi passing through the entire closed cylinder:",
+            "mathematical_line": "\\oint \\vec{E} \\cdot d\\vec{S} = E(2\\pi r L) + 0 + 0 = E(2\\pi r L)",
+            "trigger_keywords": [
+              "Total electric flux \\Phi"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 10,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "paper_script": "Determine the total charge Q_{\\text{enclosed}} captured inside the boundary of the cylindrical Gaussian surface by multiplying the linear charge density \\lambda by the bounded segment length L:",
+            "mathematical_line": "Q_{\\text{enclosed}} = \\lambda L",
+            "trigger_keywords": [
+              "Enclosed charge quantification",
+              "Linear charge density substitution"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 11,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "paper_script": "Substitute the evaluated total electric flux equation and the enclosed charge expression back into the structural core of Gauss's law:",
+            "mathematical_line": "E(2\\pi r L) = \\frac{\\lambda L}{\\epsilon_{0}}",
+            "trigger_keywords": [
+              "Gauss's law substitution"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 12,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "paper_script": "Divide both sides of the equation by the common longitudinal parameter L to eliminate the arbitrary cylinder length from the physics equation:",
+            "mathematical_line": "E(2\\pi r) = \\frac{\\lambda}{\\epsilon_{0}}",
+            "trigger_keywords": [
+              "Length cancellation"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 13,
+            "phase": "FINAL_EVALUATION",
+            "paper_script": "Isolate the field parameter to establish the definitive textbook scalar equation for the electric field magnitude at distance r from an infinite line charge:",
+            "mathematical_line": "E = \\frac{\\lambda}{2\\pi \\epsilon_{0} r}",
+            "trigger_keywords": [
+              "Scalar field magnitude",
+              "Inverse-distance relationship"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 14,
+            "phase": "FINAL_EVALUATION",
+            "paper_script": "Convert the scalar formula into standard vector notation by introducing the radial normal unit vector \\hat{n} pointing perpendicularly away from the wire axis:",
+            "mathematical_line": "\\vec{E} = \\frac{\\lambda}{2\\pi \\epsilon_{0} r} \\hat{n}",
+            "trigger_keywords": [
+              "Vector notation",
+              "Radial unit vector \\hat{n}"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          }
+        ],
+        "topper_scoring_notes": [
+          "GRAPHICAL REPRESENTATION REQUIREMENTS: The board frequently appends a sub-part requesting a graphical plot of the field variation. You must construct a clean, smooth hyperbolic curve showing that the electric field magnitude E is inversely proportional to distance r (E \\propto \\frac{1}{r}). Always explicitly label the axes to prevent an automatic 0.5 mark deduction.",
+          "WORK DONE INTEGRATION TRAP: If a follow-up numerical asks for the work done W in moving a test charge q from an initial distance r_{1} to a final distance r_{2} near the wire, do not treat the field as constant. You must integrate the non-uniform field: W = -\\int_{r_1}^{r_2} q E \\, dr = -\\frac{q \\lambda}{2\\pi\\epsilon_0} \\ln\\left(\\frac{r_2}{r_1}\\right). Attempting to use a simple linear force product will result in a 1.0 mark penalty.",
+          "MANDATORY MENTION OF CAPS: To score full marks for mathematical integration, your narrative script must explicitly articulate that the flux through the flat end-caps is zero because \\vec{E} \\perp d\\vec{S}. Neglecting to state this physical justification causes an immediate reduction of 0.5 marks under examiner rubrics."
+        ]
+      }
+    ]
+  },
+  {
+    "chapter_derivations": [
+      {
+        "derivation_id": "CH1-D5",
+        "meta": {
+          "chapter_number": 1,
+          "chapter_name": "Electric Charges and Fields",
+          "derivation_title": "Electric Field due to a Uniformly Charged Infinite Plane Sheet",
+          "cbse_frequency": "HIGH",
+          "historical_occurrence_years": [
+            "CBSE 2024",
+            "CBSE 2022",
+            "Delhi 2019",
+            "Delhi 2012"
+          ],
+          "total_marks": 3
+        },
+        "examiner_overview": {
+          "asked_as_stems": [
+            "Apply Gauss's law to obtain the electric field near a uniformly charged infinite plane sheet having surface charge density \\sigma.",
+            "Using Gauss's law, prove that the electric field at a point due to a uniformly charged infinite plane sheet is independent of distance from it."
+          ],
+          "marking_distribution": {
+            "statement_and_diagram": 1.0,
+            "mathematical_integration": 1.5,
+            "final_expression_and_direction": 0.5
+          }
+        },
+        "derivation_timeline": [
+          {
+            "step_number": 1,
+            "phase": "SETUP_AND_DIAGRAM",
+            "paper_script": "Consider an infinite, thin non-conducting plane sheet having a uniform surface charge density \\sigma. By symmetry, the electric field vector \\vec{E} must be everywhere perpendicular to the sheet, directed straight outwards on both sides of the plane.",
+            "mathematical_line": "",
+            "trigger_keywords": [
+              "Planar symmetry",
+              "Surface charge density \\sigma"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": true,
+              "diagram_id": "DIAG_CH01_PLANE_SHEET",
+              "diagram_placement_note": "Render immediately following the initial planar symmetry text to satisfy the physical arrangement marking requirement.",
+              "generation_prompt": "An advanced technical engineering layout on a pitch-black background (#0a0a0f). Draw a large, flat, vertically oriented rectangular plane sheet in perspective using solid white vector paths, populated evenly with red plus symbols to denote a uniform positive surface charge density labeled \\sigma. Draw a horizontal coaxial Gaussian cylinder (pillbox) of cross-sectional area A penetrating perfectly and symmetrically through the center of the sheet, extending an equal distance r on both the left and right sides. On the left flat circular end-cap face, draw a leftward-pointing normal area vector arrow d\\vec{S} and a leftward-pointing electric field vector arrow \\vec{E} to show they are parallel. On the right flat circular end-cap face, draw a rightward-pointing normal area vector arrow d\\vec{S} and a rightward-pointing electric field vector arrow \\vec{E}, showing they are also parallel. On the curved cylindrical body of the pillbox, draw an upward-pointing normal area vector arrow d\\vec{S} that is exactly perpendicular to the horizontal electric field vector lines, demonstrating a ninety-degree spatial relationship."
+            }
+          },
+          {
+            "step_number": 2,
+            "phase": "SETUP_AND_DIAGRAM",
+            "paper_script": "Let us choose a closed cylindrical Gaussian surface (pillbox) of cross-sectional area A and total length 2r, aligned perpendicular to the sheet and extending symmetrically a distance r on either side to act as our closed boundary system.",
+            "mathematical_line": "",
+            "trigger_keywords": [
+              "Cylindrical Gaussian surface",
+              "Pillbox surface"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 3,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "paper_script": "State Gauss's law, which states that the total closed surface integral of the electric flux through any closed boundary is equal to the net enclosed charge divided by the permittivity of free space \\epsilon_{0}:",
+            "mathematical_line": "\\oint \\vec{E} \\cdot d\\vec{S} = \\frac{Q_{\\text{enclosed}}}{\\\\epsilon_{0}}",
+            "trigger_keywords": [
+              "Gauss's Law"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 4,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "paper_script": "Deconstruct the total closed surface integral into a scalar summation of three distinct open surface integrals corresponding to the left flat end-cap, the right flat end-cap, and the curved lateral surface:",
+            "mathematical_line": "\\oint \\vec{E} \\cdot d\\vec{S} = \\int_{\\text{left}} \\vec{E} \\cdot d\\vec{S} + \\int_{\\text{right}} \\vec{E} \\cdot d\\vec{S} + \\int_{\\text{curved}} \\vec{E} \\cdot d\\vec{S}",
+            "trigger_keywords": [
+              "Surface deconstruction",
+              "Flux splitting"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 5,
+            "phase": "INTEGRATION_AND_SUBSTITUTION",
+            "paper_script": "For the curved lateral surface, the horizontal electric field vector lines run perfectly parallel to the lateral face, meaning the normal area element vector d\\vec{S} is perpendicular to \\vec{E} at an orientation angle \\theta = 90^{\\circ}:",
+            "mathematical_line": "\\int_{\\text{curved}} \\vec{E} \\cdot d\\vec{S} = \\int_{\\text{curved}} E \\, dS \\cos(90^{\\circ}) = 0",
+            "trigger_keywords": [
+              "Curved lateral surface contributes zero flux"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 6,
+            "phase": "INTEGRATION_AND_SUBSTITUTION",
+            "paper_script": "For the left flat circular end-cap face, the electric field vector \\vec{E} points outwards to the left and is parallel to the outward normal area element vector d\\vec{S} at an orientation angle \\theta = 0^{\\circ}:",
+            "mathematical_line": "\\int_{\\text{left}} \\vec{E} \\cdot d\\vec{S} = \\int_{\\text{left}} E \\, dS \\cos(0^{\\circ}) = \\int_{\\text{left}} E \\, dS",
+            "trigger_keywords": [
+              "Left flat end-cap",
+              "Angle \\theta = 0^{\\circ}"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 7,
+            "phase": "INTEGRATION_AND_SUBSTITUTION",
+            "paper_script": "Because all points on the flat end face are at an identical perpendicular distance r from the sheet, the field magnitude E is uniform across the surface and can be factored outside the integration operation:",
+            "mathematical_line": "\\int_{\\text{left}} E \\, dS = E \\int_{\\text{left}} dS",
+            "trigger_keywords": [
+              "Uniform magnitude E"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 8,
+            "phase": "INTEGRATION_AND_SUBSTITUTION",
+            "paper_script": "Evaluate the remaining integral of the surface elements dS over the left face, which directly yields the cross-sectional area A of the pillbox cylinder:",
+            "mathematical_line": "E \\int_{\\text{left}} dS = EA",
+            "trigger_keywords": [
+              "Cross-sectional area A"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 9,
+            "phase": "INTEGRATION_AND_SUBSTITUTION",
+            "paper_script": "For the right flat circular end-cap face, the field vector \\vec{E} points outwards to the right and is similarly parallel to the outward normal area element vector d\\vec{S} at an orientation angle \\theta = 0^{\\circ}:",
+            "mathematical_line": "\\int_{\\text{right}} \\vec{E} \\cdot d\\vec{S} = \\int_{\\text{right}} E \\, dS \\cos(0^{\\circ}) = E \\int_{\\text{right}} dS = EA",
+            "trigger_keywords": [
+              "Right flat end-cap",
+              "End-caps contribute"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 10,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "paper_script": "Sum up the individual flux evaluations from the three distinct boundary regions to calculate the expression for the total closed electric flux:",
+            "mathematical_line": "\\oint \\vec{E} \\cdot d\\vec{S} = EA + EA + 0 = 2EA",
+            "trigger_keywords": [
+              "Total flux calculation"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 11,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "paper_script": "Quantify the total net charge Q_{\\text{enclosed}} trapped inside the pillbox cylinder by relating the surface charge density \\sigma to the intercepted sectional area A:",
+            "mathematical_line": "Q_{\\text{enclosed}} = \\sigma A",
+            "trigger_keywords": [
+              "Enclosed charge",
+              "Surface charge density relation"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 12,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "paper_script": "Substitute the total electric flux expression and the enclosed charge value directly back into the core formula of Gauss's law:",
+            "mathematical_line": "2EA = \\frac{\\sigma A}{\\\\epsilon_{0}}",
+            "trigger_keywords": [
+              "Substitution into Gauss's law"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 13,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "paper_script": "Divide both sides of the equation by the cross-sectional area parameter A to eliminate it from our physical expression:",
+            "mathematical_line": "2E = \\frac{\\sigma}{\\\\epsilon_{0}}",
+            "trigger_keywords": [
+              "Cancel area A"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 14,
+            "phase": "FINAL_EVALUATION",
+            "paper_script": "Isolate the field variable E to find the definitive scalar magnitude formula for the electric field intensity near the sheet surface:",
+            "mathematical_line": "E = \\frac{\\sigma}{2\\epsilon_{0}}",
+            "trigger_keywords": [
+              "Independent of distance",
+              "Scalar field magnitude"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 15,
+            "phase": "FINAL_EVALUATION",
+            "paper_script": "Represent the final localized field relation in standard vector notation by introducing the unit normal vector \\hat{n} pointing perpendicularly away from the sheet face:",
+            "mathematical_line": "\\vec{E} = \\frac{\\sigma}{2\\epsilon_{0}} \\hat{n}",
+            "trigger_keywords": [
+              "Vector form",
+              "Normal unit vector \\hat{n}"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          }
+        ],
+        "topper_scoring_notes": [
+          "INDEPENDENCE OF DISTANCE CLAUSE: The board grading matrix explicitly mandates that you append a qualitative concluding text sentence explaining that the final expression contains no distance variable r, proving that the electric field due to an infinite plane sheet is uniform and completely independent of the distance from the sheet.",
+          "PLATE COMBINATION DISASTER: A common follow-up sub-part features two parallel conducting plates carrying surface charge densities +\\sigma and -\\sigma. Remember that inside the region between the plates, their individual field vectors point in the same direction and combine via superposition to yield E = \\frac{\\sigma}{\\\\epsilon_{0}}, whereas in the outer regions, their opposing vectors completely cancel out to yield E = 0. Skipping individual vector diagrams for this configuration will cause a 1.0 mark deduction.",
+          "SIGN-DEPENDENT POLARITY ARROWS: If asked to sketch electric field configurations, remember that for a positive sheet (\\sigma > 0), arrows must point perpendicularly outwards, and for a negative sheet (\\sigma < 0), arrows must point perpendicularly inwards toward the sheet face."
+        ]
+      }
+    ]
+  },
+  {
+    "chapter_derivations": [
+      {
+        "derivation_id": "CH1-D6",
+        "meta": {
+          "chapter_number": 1,
+          "chapter_name": "Electric Charges and Fields",
+          "derivation_title": "Electric Field due to a Uniformly Charged Thin Spherical Shell",
+          "cbse_frequency": "HIGH",
+          "historical_occurrence_years": [
+            "CBSE 2022",
+            "Delhi 2019",
+            "Delhi 2020",
+            "SQP 2018-19"
+          ],
+          "total_marks": 5
+        },
+        "examiner_overview": {
+          "asked_as_stems": [
+            "State Gauss's theorem and derive an expression for the electric field due to a uniformly charged spherical shell at: (i) a point outside the shell, (ii) a point inside the shell. Draw the graph of E versus r.",
+            "Using Gauss's law, show that no electric field exists inside a uniformly charged hollow spherical conductor."
+          ],
+          "marking_distribution": {
+            "statement_and_diagram": 2.0,
+            "mathematical_integration": 2.0,
+            "final_expression_and_direction": 1.0
+          }
+        },
+        "derivation_timeline": [
+          {
+            "step_number": 1,
+            "phase": "SETUP_AND_DIAGRAM",
+            "paper_script": "Consider a thin spherical shell of radius R carrying a total charge Q uniformly distributed over its outer surface. Let the surface charge density be denoted by \\sigma. To find the electric field at an external or internal observation point, we employ concentric spherical configurations.",
+            "mathematical_line": "\\sigma = \\frac{Q}{4\\pi R^{2}}",
+            "trigger_keywords": [
+              "Thin spherical shell",
+              "Surface charge density"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": true,
+              "diagram_id": "DIAG_CH01_SHELL_GEO",
+              "diagram_placement_note": "Render immediately below the initial configuration setup script to establish the spatial layout of the concentric boundaries.",
+              "generation_prompt": "An advanced multi-layer technical engineering blueprint on a pitch-black background (#0a0a0f). Draw a central solid sphere of radius R using a clear white vector boundary line, uniformly covered with bright red '+' signs representing the distributed charge Q. Construct two distinct, concentric dashed white circles to represent the Gaussian surfaces: an inner sphere of radius r' (where r' < R) and an outer sphere of radius r (where r > R). From the common origin center O, draw thin white dimension lines showing the radii labels R, r', and r extending outwards. On the outer Gaussian surface, place an observation point P and extend a bold horizontal green radial vector arrow pointing outwards labeled \\vec{E} parallel to a shorter white vector arrow labeled d\\vec{S}. For Case 2 inside the shell, show an observation point P' on the inner dashed circle, with an explicit text callout reading 'Q_{enclosed} = 0' pointing to the hollow cavity interior."
+            }
+          },
+          {
+            "step_number": 2,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "paper_script": "State Gauss's Law, which dictates that the net total electric flux through any closed Gaussian boundary surface is equivalent to the total enclosed net electric charge divided by the permittivity of free space \\epsilon_{0}:",
+            "mathematical_line": "\\oint \\vec{E} \\cdot d\\vec{S} = \\frac{Q_{\\text{enclosed}}}{\\\\epsilon_{0}}",
+            "trigger_keywords": [
+              "Gauss's Law statement"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 3,
+            "phase": "INTEGRATION_AND_SUBSTITUTION",
+            "paper_script": "Case I: For a point situated outside the spherical shell where the radial distance satisfies r > R, choose a concentric spherical Gaussian surface of radius r passing through the observation point P.",
+            "mathematical_line": "r > R",
+            "trigger_keywords": [
+              "Outside the shell",
+              "Concentric Gaussian sphere"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 4,
+            "phase": "INTEGRATION_AND_SUBSTITUTION",
+            "paper_script": "Identify the total quantity of electric charge enclosed by this external Gaussian boundary, which encompasses the entire physical charge of the shell system:",
+            "mathematical_line": "Q_{\\text{enclosed}} = Q",
+            "trigger_keywords": [
+              "Enclosed charge logic"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 5,
+            "phase": "INTEGRATION_AND_SUBSTITUTION",
+            "paper_script": "By invoking principles of complete spherical symmetry, the electric field vector \\vec{E} must be oriented radially outwards and is everywhere parallel to the differential normal surface area vector d\\vec{S} at an orientation angle \\theta = 0^{\\circ}:",
+            "mathematical_line": "\\oint \\vec{E} \\cdot d\\vec{S} = \\oint E \\, dS \\cos(0^{\\circ}) = \\oint E \\, dS",
+            "trigger_keywords": [
+              "Spherical symmetry",
+              "Radially outward",
+              "Angle \\theta = 0^{\\circ}"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 6,
+            "phase": "INTEGRATION_AND_SUBSTITUTION",
+            "paper_script": "Because the radial distance r is perfectly uniform across every coordinate point on the Gaussian sphere, the field magnitude E is constant and can be cleanly factored outside the closed surface integral operator:",
+            "mathematical_line": "\\oint E \\, dS = E \\oint dS",
+            "trigger_keywords": [
+              "Constant field magnitude E"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 7,
+            "phase": "INTEGRATION_AND_SUBSTITUTION",
+            "paper_script": "Integrate the individual differential area elements dS over the entire closed surface area of a sphere of radius r to evaluate the boundary flux:",
+            "mathematical_line": "\\oint dS = 4\\pi r^{2}",
+            "trigger_keywords": [
+              "Surface area of sphere"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 8,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "paper_script": "Substitute the evaluated total flux value and the enclosed charge parameter back into the mathematical framework of Gauss's Law:",
+            "mathematical_line": "E(4\\pi r^{2}) = \\frac{Q}{\\\\epsilon_{0}}",
+            "trigger_keywords": [
+              "Flux evaluation substitution"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 9,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "paper_script": "Isolate the variable E to arrive at the definitive scalar expression for the electric field intensity at an external point, demonstrating an inverse-square distance relationship:",
+            "mathematical_line": "E = \\frac{1;}{4\\pi\\epsilon_{0}} \\frac{Q}{r^{2}}",
+            "trigger_keywords": [
+              "Inverse-square law",
+              "Concentrated at the center"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 10,
+            "phase": "FINAL_EVALUATION",
+            "paper_script": "Convert the scalar relation into standard vector notation by introducing the radial normal unit vector \\hat{r} pointing outwards from the central origin O:",
+            "mathematical_line": "\\vec{E} = \\frac{1;}{4\\pi\\epsilon_{0}} \\frac{Q}{r^{2}} \\hat{r}",
+            "trigger_keywords": [
+              "Vector notation",
+              "Radial unit vector"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 11,
+            "phase": "INTEGRATION_AND_SUBSTITUTION",
+            "paper_script": "Case II: For an observation point situated inside the thin shell where the radial position satisfies r < R, construct a concentric spherical Gaussian surface of radius r' inside the cavity boundary.",
+            "mathematical_line": "r' < R",
+            "trigger_keywords": [
+              "Inside the shell"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 12,
+            "phase": "INTEGRATION_AND_SUBSTITUTION",
+            "paper_script": "Apply Gauss's Law formulation to the internal concentric surface boundary to relate internal flux to internal charge:",
+            "mathematical_line": "\\oint_{r'} \\vec{E} \\cdot d\\vec{S} = \\frac{Q_{\\text{enclosed}}}{\\\\epsilon_{0}}",
+            "trigger_keywords": [
+              "Internal flux integration"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 13,
+            "phase": "INTEGRATION_AND_SUBSTITUTION",
+            "paper_script": "Because all excess net electric charge resides strictly on the outer surface of a conducting shell in electrostatic equilibrium, the quantity of charge captured inside the inner Gaussian surface is exactly zero:",
+            "mathematical_line": "Q_{\\text{enclosed}} = 0",
+            "trigger_keywords": [
+              "Zero enclosed charge inside"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 14,
+            "phase": "FINAL_EVALUATION",
+            "paper_script": "Substitute the zero enclosed charge value back into the integration equation, proving that the electrostatic field inside a hollow spherical system is completely non-existent:",
+            "mathematical_line": "E \\cdot (4\\pi r'^{2}) = 0 \\implies E = 0",
+            "trigger_keywords": [
+              "Zero field inside"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 15,
+            "phase": "FINAL_EVALUATION",
+            "paper_script": "The complete graphical variation of the electric field strength E plotted against the continuous radial distance coordinate r exhibits a piecewise behavior with a sharp threshold discontinuity at the shell boundary r = R:",
+            "mathematical_line": "E_{\\text{max}} = \\frac{Q;}{4\\pi\\epsilon_{0} R^{2}}",
+            "trigger_keywords": [
+              "Discontinuity at r = R",
+              "Decaying parabolic curve"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": true,
+              "diagram_id": "DIAG_CH01_SHELL_GRAPH",
+              "diagram_placement_note": "Render at the conclusion of the derivation steps to fulfill the strict qualitative plotting criteria specified by the board guidelines.",
+              "generation_prompt": "A clean, high-contrast mathematical graph on a pitch-black background (#0a0a0f). Draw a horizontal axis labeled radial distance r and a vertical axis labeled electric field magnitude E using solid white lines. Mark a critical vertical reference line at coordinate r = R on the x-axis. Draw a bold solid cyan line directly on top of the x-axis from the origin (0,0) up to r = R to indicate that E = 0 in the interior region. At r = R, place a clear open circle leading to a sharp discontinuous peak labeled E_{max} = \\frac{Q}{4\\pi\\epsilon_{0}R^{2}}. From this peak onward to the right where r > R, draw a smooth, decaying parabolic curve in bright yellow, explicitly labeled with the proportionality relation E \\propto \\frac{1}{r^{2}}."
+            }
+          }
+        ],
+        "topper_scoring_notes": [
+          "ELECTROSTATIC SHIELDING COGNIZANCE: Be prepared for conceptual follow-ups regarding automotive safety during lightning strikes. To secure full credit, explicitly use the term 'electrostatic shielding' and explain that a passenger inside a car remains safe because the metallic body acts as a hollow conductor, ensuring the internal electric field is exactly zero.",
+          "CONCENTRIC SHELL MATRIX TRAPS: When solving advanced 5-mark numerical problems involving concentric shells of radii R_1 and R_2 carrying charges Q_1 and Q_2, remember to compute the field in each zone using the enclosed charge method. For the intermediate zone (R_1 < r < R_2), only charge Q_1 is enclosed, meaning E = \\frac{Q_1}{4\\pi\\epsilon_0 r^2}. Applying the sum of both charges here will break the physics model and cause an automatic 1.5 mark deduction.",
+          "DISCONTINUITY PLOTTING PRECISION: When sketching the E vs r graph, never connect the zero line inside the shell directly to the peak value with a slanted line. The field drops instantly to zero at the inner edge, representing a true mathematical discontinuity. Ensure you leave a clear open circle or vertical dashed line at r = R to denote this threshold to secure full presentation marks."
+        ]
+      }
+    ]
+  },
+  {
+    "chapter_derivations": [
+      {
+        "derivation_id": "CH1-D7",
+        "meta": {
+          "chapter_number": 1,
+          "chapter_name": "Electric Charges and Fields",
+          "derivation_title": "Coulomb's Law in Vector Form",
+          "cbse_frequency": "MEDIUM",
+          "historical_occurrence_years": [
+            "CBSE 2024",
+            "Delhi 2018",
+            "Delhi 2016"
+          ],
+          "total_marks": 2
+        },
+        "examiner_overview": {
+          "asked_as_stems": [
+            "State Coulomb's law of electrostatics and write it in vector form.",
+            "Deduce the vector form of Coulomb's law between two point charges and show that it is consistent with Newton's third law of motion."
+          ],
+          "marking_distribution": {
+            "statement_and_diagram": 0.5,
+            "mathematical_integration": 1.0,
+            "final_expression_and_direction": 0.5
+          }
+        },
+        "derivation_timeline": [
+          {
+            "step_number": 1,
+            "phase": "SETUP_AND_DIAGRAM",
+            "paper_script": "Consider two similar point charges \\mathit{q}*{1} and \\mathit{q}*{2} placed in vacuum at positions defined by position vectors \\vec{r}*{1} and \\vec{r}*{2} with respect to a fixed coordinate origin \\text{O}.",
+            "mathematical_line": "",
+            "trigger_keywords": [
+              "Position vectors",
+              "Coordinate origin"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": true,
+              "diagram_id": "DIAG_CH01_COULOMB_VECTOR",
+              "diagram_placement_note": "Render immediately below the initial coordinate configuration setup script to establish the positional framework.",
+              "generation_prompt": "A highly structured technical engineering layout on a pitch-black background (#0a0a0f). Draw three orthogonal coordinate axes labeled X, Y, and Z intersecting perfectly at an origin point O using thin white vector paths. Position two positive point-like nodes labeled q_{1} and q_{2} at arbitrary spatial locations A and B. Render a thin white arrow showing position vector \\vec{r}*{1} extending from origin O to node A, and another thin white arrow showing position vector \\vec{r}*{2} extending from O to node B. Connect locations A and B with a straight line, placing a directional displacement vector arrow labeled \\vec{r}*{21} pointing from A to B. Along this exact collinear line of action, project two bold outward vector arrows representing mutual repulsive forces: arrow \\vec{F}*{21} acting on q_{2} pointing away from q_{1}, and arrow \\vec{F}*{12} acting on q*{1} pointing away from q_{2}, ensuring they are shown with identical physical lengths."
+            }
+          },
+          {
+            "step_number": 2,
+            "phase": "SETUP_AND_DIAGRAM",
+            "paper_script": "Let the spatial vector pointing directed from charge \\mathit{q}*{1} straight toward charge \\mathit{q}*{2} be represented as the displacement vector \\vec{r}*{21}:",
+            "mathematical_line": "\\vec{r}*{21} = \\vec{r}*{2} - \\vec{r}*{1}",
+            "trigger_keywords": [
+              "Displacement vector"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 3,
+            "phase": "SETUP_AND_DIAGRAM",
+            "paper_script": "The scalar magnitude of this displacement vector is written as \\mathit{r}*{21} = |\\vec{r}*{21}|. The corresponding unit vector pointing along this path direction from \\mathit{q}*{1} to \\mathit{q}*{2} is defined mathematically as:",
+            "mathematical_line": "\\hat{r}*{21} = \\frac{\\vec{r}*{21}}{r_{21}}",
+            "trigger_keywords": [
+              "Displacement unit vector"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 4,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "paper_script": "According to Coulomb's Law, the mutual electrostatic force vector \\vec{F}*{21} exerted on charge \\mathit{q}*{2} by charge \\mathit{q}*{1} is formulated directly using the directional unit vector:",
+            "mathematical_line": "\\vec{F}*{21} = \\frac{1;}{4\\pi\\epsilon_{0}} \\frac{q_{1} q_{2}}{r_{21}^{2}} \\hat{r}*{21}",
+            "trigger_keywords": [
+              "Coulomb's Law",
+              "Electrostatic force vector"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 5,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "paper_script": "Substitute the full definition of the unit vector into the force equation to express the relationship entirely in terms of the position displacement vector, which increases the denominator power parameter to a cubic value:",
+            "mathematical_line": "\\vec{F}*{21} = \\frac{1;}{4\\pi\\epsilon_{0}} \\frac{q_{1} q_{2}}{r_{21}^{3}} \\vec{r}*{21}",
+            "trigger_keywords": [
+              "Cubic distance denominator"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 6,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "paper_script": "In an identical manner, the mutual electrostatic force vector \\vec{F}*{12} exerted back on charge \\mathit{q}*{1} by charge \\mathit{q}*{2} is formulated using its corresponding displacement vector parameters:",
+            "mathematical_line": "\\vec{F}*{12} = \\frac{1;}{4\\pi\\epsilon*{0}} \\frac{q_{1} q_{2}}{r_{12}^{2}} \\hat{r}*{12}",
+            "trigger_keywords": [
+              "Force on charge q*{1}"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 7,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "paper_script": "Express this mutual force vector \\vec{F}*{12} using the full structural displacement vector template to isolate the cubic denominator form:",
+            "mathematical_line": "\\vec{F}*{12} = \\frac{1;}{4\\pi\\epsilon_{0}} \\frac{q_{1} q_{2}}{r_{12}^{3}} \\vec{r}*{12}",
+            "trigger_keywords": [
+              "Vector format consolidation"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 8,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "paper_script": "Since the scalar straight-line distance between the two coordinates is symmetric, the scalar magnitude \\mathit{r}*{12} is physically equal to \\mathit{r}*{21}. However, the directional unit vectors are oriented in completely opposite directions:",
+            "mathematical_line": "\\vec{r}*{12} = -\\vec{r}*{21}",
+            "trigger_keywords": [
+              "Anti-parallel displacement vectors"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 9,
+            "phase": "FINAL_EVALUATION",
+            "paper_script": "Substitute the established anti-parallel displacement vector identity directly into the mathematical formulation for \\vec{F}*{12}:",
+            "mathematical_line": "\\vec{F}*{12} = \\frac{1;}{4\\pi\\epsilon*{0}} \\frac{q_{1} q_{2}}{r_{21}^{3}} (-\\vec{r}*{21})",
+            "trigger_keywords": [
+              "Vector replacement"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 10,
+            "phase": "FINAL_EVALUATION",
+            "paper_script": "Factor out the negative sign to demonstrate the direct mathematical equivalence to the negative of the force vector \\vec{F}*{21}:",
+            "mathematical_line": "\\vec{F}*{12} = -\\vec{F}*{21}",
+            "trigger_keywords": [
+              "Equal and opposite forces"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 11,
+            "phase": "FINAL_EVALUATION",
+            "paper_script": "This negative vector equality explicitly proves that the electrostatic forces acting between two localized point charges are equal in magnitude and exactly opposite in direction, confirming complete consistency with Newton's third law of motion:",
+            "mathematical_line": "\\vec{F}*{12} = -\\vec{F}*{21} \\implies \\text{Consistent with Newton's Third Law}",
+            "trigger_keywords": [
+              "Newton's third law",
+              "Action-reaction pair"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          }
+        ],
+        "topper_scoring_notes": [
+          "LIMITATIONS TAG-ON SAFEGUARD: The board frequently appends a 1-mark theoretical question asking for the limitations of Coulomb's Law. To protect this mark, explicitly specify that Coulomb's Law is strictly valid only for: (i) static charges, as moving charges generate complex electrodynamic fields, and (ii) point-like charges, failing completely for extended geometric bodies or separation distances less than nuclear scale configurations (\\mathit{r} < 10^{-15}\\text{ m}).",
+          "VECTOR SIGN TRAP: When performing calculations under vector notation for opposite charges (e.g., a positive and a negative charge), do not manually insert a negative sign into the scalar charge magnitude inputs if you have already defined the unit vector directional framework. Doing so double-negates the vector direction, leading to an automatic 0.5 mark deduction.",
+          "MANDATORY ACTION-REACTION SENTENCE: Always include the formal concluding text sentence: 'Hence, electrostatic forces form an action-reaction pair.' Neglecting to explicitly connect the final vector equality \\vec{F}*{12} = -\\vec{F}*{21} to this phrase will cause an automatic reduction under examiner key check sheets."
+        ]
+      }
+    ]
+  },
+  {
+    "chapter_derivations": [
+      {
+        "derivation_id": "CH1-D8",
+        "meta": {
+          "chapter_number": 1,
+          "chapter_name": "Electric Charges and Fields",
+          "derivation_title": "Work Done and Potential Energy of an Electric Dipole in a Uniform Electric Field",
+          "cbse_frequency": "MEDIUM",
+          "historical_occurrence_years": [
+            "Pre-Boards 2025-26",
+            "Pre-Boards 2024-25",
+            "CBSE 2023",
+            "CBSE 2020"
+          ],
+          "total_marks": 3
+        },
+        "examiner_overview": {
+          "asked_as_stems": [
+            "An electric dipole of dipole moment \\vec{p} is placed in a uniform electric field \\vec{E}. Derive the expression for the work done in rotating the dipole from orientation \\theta_{0} to \\theta_{1}.",
+            "Define the potential energy of an electric dipole in a uniform electric field and derive its mathematical expression."
+          ],
+          "marking_distribution": {
+            "statement_and_diagram": 1.0,
+            "mathematical_integration": 1.5,
+            "final_expression_and_direction": 0.5
+          }
+        },
+        "derivation_timeline": [
+          {
+            "step_number": 1,
+            "phase": "SETUP_AND_DIAGRAM",
+            "paper_script": "Let us consider an electric dipole of dipole moment \\vec{p} placed in a uniform external electric field of strength \\vec{E}\\, such that the dipole axis initially makes an angle \\theta with the direction of the uniform electric field lines.",
+            "mathematical_line": "",
+            "trigger_keywords": [
+              "Uniform electric field",
+              "Dipole moment"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": true,
+              "diagram_id": "DIAG_CH01_ROTATIONAL_WORK",
+              "diagram_placement_note": "Render immediately following the initial configuration script to define the angular sweep boundaries.",
+              "generation_prompt": "A highly precise technical vector diagram on a pitch-black background (#0a0a0f). Draw a series of horizontal, equidistant parallel arrows in bright cyan representing a uniform electric field labeled \\vec{E}. Position an electric dipole of length 2a carrying charges -q and +q. Show two distinct angular orientations of the dipole axis: an initial orientation making an angle \\theta_{0} with the field lines, and a final orientation making a larger angle \\theta_{1}. Draw a thin curved white arrow between the two consecutive positions labeled d\\theta to indicate the direction of infinitesimal angular rotation. At the positive charge +q, draw a bold red force arrow labeled \\vec{F}*{+} = +q\\vec{E} pointing horizontally right, and at the negative charge -q, draw a bold blue force arrow labeled \\vec{F}*{-} = -q\\vec{E} pointing horizontally left."
+            }
+          },
+          {
+            "step_number": 2,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "paper_script": "The uniform external electric field exerts a couple on the dipole, generating an internal restoring torque \\tau that attempts to align the dipole moment vector parallel to the direction of the field:",
+            "mathematical_line": "\\tau = pE \\sin\\theta",
+            "trigger_keywords": [
+              "Restoring torque",
+              "Align the dipole"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 3,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "paper_script": "To rotate the dipole against this restoring torque by an infinitesimally small angular displacement d\\theta without producing any angular acceleration, an equal and opposite external torque must be applied. The small amount of differential work done dW by this external torque is defined as:",
+            "mathematical_line": "dW = \\tau \\, d\\theta",
+            "trigger_keywords": [
+              "Rotational work",
+              "Infinitesimal angle d\\theta"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 4,
+            "phase": "INTEGRATION_AND_SUBSTITUTION",
+            "paper_script": "Substitute the scalar magnitude expression for the torque into the differential work relation:",
+            "mathematical_line": "dW = pE \\sin\\theta \\, d\\theta",
+            "trigger_keywords": [
+              "Rotational work relation"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 5,
+            "phase": "INTEGRATION_AND_SUBSTITUTION",
+            "paper_script": "The total work done W in rotating the dipole from its initial orientation angle \\theta_{0} to its final orientation angle \\theta_{1} is obtained by integrating the differential work expression between these definite limits:",
+            "mathematical_line": "W = \\int_{\\theta_{0}}^{\\theta_{1}} pE \\sin\\theta \\, d\\theta",
+            "trigger_keywords": [
+              "Integrating within limits"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 6,
+            "phase": "INTEGRATION_AND_SUBSTITUTION",
+            "paper_script": "Since the dipole moment magnitude p and the electric field strength E are uniform constants throughout the angular rotation, factor them outside the integration operator:",
+            "mathematical_line": "W = pE \\int_{\\theta_{0}}^{\\theta_{1}} \\sin\\theta \\, d\\theta",
+            "trigger_keywords": [
+              "Factor out constants"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 7,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "paper_script": "Apply the standard calculus trigonometric integration identity where the definite integral of the sine function yields a negative cosine function:",
+            "mathematical_line": "\\int \\sin\\theta \\, d\\theta = -\\cos\\theta",
+            "trigger_keywords": [
+              "Trigonometric integration rule"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 8,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "paper_script": "Evaluate the intermediate integrated calculus expression across the upper and lower boundary limits:",
+            "mathematical_line": "W = pE \\left[ -\\cos\\theta \\right]*{\\theta*{0}}^{\\theta_{1}}",
+            "trigger_keywords": [
+              "Intermediate calculus steps"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 9,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "paper_script": "Expand the limits by subtracting the lower boundary evaluation from the upper boundary evaluation:",
+            "mathematical_line": "W = pE (-\\cos\\theta_{1} - (-\\cos\\theta_{0}))",
+            "trigger_keywords": [
+              "Limits expansion"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 10,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "paper_script": "Rearrange the sequence of terms inside the bracket to isolate a positive leading coefficient, establishing the general formula for rotational work done:",
+            "mathematical_line": "W = pE (\\cos\\theta_{0} - \\cos\\theta_{1})",
+            "trigger_keywords": [
+              "Rotational work done expression"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 11,
+            "phase": "INTEGRATION_AND_SUBSTITUTION",
+            "paper_script": "This rotational work done is stored entirely as electrostatic potential energy U within the dipole-field system. By physical convention, the potential energy is defined to be exactly zero when the dipole is perpendicular to the electric field lines:",
+            "mathematical_line": "\\theta_{0} = 90^{\\circ} \\implies U(90^{\\circ}) = 0",
+            "trigger_keywords": [
+              "Zero-energy reference orientation",
+              "Perpendicular convention"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 12,
+            "phase": "INTEGRATION_AND_SUBSTITUTION",
+            "paper_script": "Assign the initial reference orientation to ninety degrees and the final orientation to an arbitrary angle \\theta inside the general work expression to configure the potential energy function:",
+            "mathematical_line": "U(\\theta) = pE (\\cos(90^{\\circ}) - \\cos\\theta)",
+            "trigger_keywords": [
+              "Potential energy expression"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 13,
+            "phase": "FINAL_EVALUATION",
+            "paper_script": "Since the cosine of ninety degrees is exactly zero, eliminate the leading reference term to reduce the function down to a single product:",
+            "mathematical_line": "U(\\theta) = -pE \\cos\\theta",
+            "trigger_keywords": [
+              "Scalar potential energy function"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 14,
+            "phase": "FINAL_EVALUATION",
+            "paper_script": "Convert the scalar trigonometric relationship into its equivalent vector representation by utilizing the mathematical definition of a vector dot product:",
+            "mathematical_line": "U = -\\vec{p} \\cdot \\vec{E}",
+            "trigger_keywords": [
+              "Vector dot-product form"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          }
+        ],
+        "topper_scoring_notes": [
+          "STABLE TO UNSTABLE CONFLICT: In questions evaluating the work required to rotate a dipole from its stable equilibrium position to its unstable equilibrium position, assign \\theta_{0} = 0^{\\circ} and \\theta_{1} = 180^{\\circ}. The calculation results in W = pE(\\cos 0^{\\circ} - \\cos 180^{\\circ}) = pE(1 - (-1)) = 2pE. Substituting zero for this sweep is a critical conceptual trap that results in a loss of 1.0 mark.",
+          "REFERENCE CONDITIONS MUST BE WRITTEN: If you employ the alternate calculus route of setting up the potential energy integral directly with a pre-assigned boundary limit, you must explicitly state the reference plane condition 'Potential energy is zero at ninety degrees' in written text. Failing to provide this text note will trigger a 0.5 mark deduction.",
+          "EQUILIBRIUM CRITERIA: Always clarify the energetic configurations of the dipole system: Minimum potential energy occurs at stable equilibrium (\\theta = 0^{\\circ}) where U = -pE, and maximum potential energy occurs at unstable equilibrium (\\theta = 180^{\\circ}) where U = +pE."
+        ]
+      }
+    ]
+  },
+  {
+    "chapter_derivations": [
+      {
+        "derivation_id": "CH1-D9",
+        "meta": {
+          "chapter_number": 1,
+          "chapter_name": "Electric Charges and Fields",
+          "derivation_title": "Electric Field due to a Point Charge",
+          "cbse_frequency": "LOW",
+          "historical_occurrence_years": [
+            "Delhi 2017",
+            "All India 2016"
+          ],
+          "total_marks": 2
+        },
+        "examiner_overview": {
+          "asked_as_stems": [
+            "Define electric field intensity at a point. Derive an expression for the electric field due to a point charge.",
+            "Using Coulomb's law, obtain the mathematical formula for the electric field at distance r from an isolated point charge."
+          ],
+          "marking_distribution": {
+            "statement_and_diagram": 1.0,
+            "mathematical_integration": 1.0,
+            "final_expression_and_direction": 0.0
+          }
+        },
+        "derivation_timeline": [
+          {
+            "step_number": 1,
+            "phase": "SETUP_AND_DIAGRAM",
+            "paper_script": "Let us consider an isolated positive point source charge +\\mathit{Q} placed at the coordinate origin \\text{O}. Let \\text{P} be an observation point situated at a radial distance \\mathit{r} from the origin, where the electric field intensity is to be evaluated.",
+            "mathematical_line": "",
+            "trigger_keywords": [
+              "Source charge",
+              "Observation point"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": true,
+              "diagram_id": "DIAG_CH01_POINT_CHARGE",
+              "diagram_placement_note": "Render immediately after the initial physical layout description to satisfy the board schematic requirement.",
+              "generation_prompt": "A clear technical vector layout on a pitch-black background (#0a0a0f). Draw a horizontal axis line using solid white vector paths. Place a prominent node at the origin labeled O carrying a positive source charge +Q. Place an observation point P at a continuous distance r to the right of the origin. At point P, draw a small node carrying a positive test charge +q_{0}. Extend a bold vector arrow from point P pointing horizontally to the right, away from the source charge, and label it as the repulsive electrostatic force vector \\vec{F}. Add a small parallel unit vector arrow along the line of action labeled \\hat{r} pointing from O toward P."
+            }
+          },
+          {
+            "step_number": 2,
+            "phase": "SETUP_AND_DIAGRAM",
+            "paper_script": "Place a vanishingly small positive test charge +\\mathit{q}*{0} at the observation point \\text{P} to measure the localized electrostatic force without altering the source configuration.",
+            "mathematical_line": "",
+            "trigger_keywords": [
+              "Test charge"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 3,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "paper_script": "By definition, the electric field intensity vector \\vec{E} at any point is defined as the electrostatic force experienced per unit test charge, evaluated in the limit where the test charge approaches zero:",
+            "mathematical_line": "\\vec{E} = \\lim*{\\mathit{q}*{0} \\to 0} \\frac{\\vec{F}}{\\mathit{q}*{0}}",
+            "trigger_keywords": [
+              "Force per unit charge",
+              "Vanishingly small limit"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 4,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "paper_script": "According to Coulomb's Law, the mutual electrostatic force vector \\vec{F} exerted on the test charge \\mathit{q}*{0} by the source charge \\mathit{Q} is written as:",
+            "mathematical_line": "\\vec{F} = \\frac{1;}{4\\pi\\epsilon*{0}} \\frac{\\mathit{Q} \\mathit{q}*{0}}{\\mathit{r}^{2}} \\hat{r}",
+            "trigger_keywords": [
+              "Coulomb's Law",
+              "Inverse-square law"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 5,
+            "phase": "INTEGRATION_AND_SUBSTITUTION",
+            "paper_script": "Substitute the vector expression for the electrostatic force from Coulomb's Law directly into the functional definition of the electric field intensity vector:",
+            "mathematical_line": "\\vec{E} = \\frac{1}{\\mathit{q}*{0}} \\left[ \\frac{1;}{4\\pi\\epsilon_{0}} \\frac{\\mathit{Q} \\mathit{q}*{0}}{\\mathit{r}^{2}} \\hat{r} \\right]",
+            "trigger_keywords": [
+              "Vector substitution"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 6,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "paper_script": "Cancel out the common test charge variable \\mathit{q}*{0} from both the numerator and denominator expressions to show that the field is independent of the test parameter:",
+            "mathematical_line": "\\vec{E} = \\frac{1;}{4\\pi\\epsilon_{0}} \\frac{\\mathit{Q}}{\\mathit{r}^{2}} \\hat{r}",
+            "trigger_keywords": [
+              "Test charge cancellation"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 7,
+            "phase": "FINAL_EVALUATION",
+            "paper_script": "Extract the scalar magnitude of the electric field vector to obtain the final relation governing the field strength at distance \\mathit{r} from an isolated point charge:",
+            "mathematical_line": "\\mathit{E} = \\frac{1;}{4\\pi\\epsilon_{0}} \\frac{\\mathit{Q}}{\\mathit{r}^{2}}",
+            "trigger_keywords": [
+              "Scalar field magnitude"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          }
+        ],
+        "topper_scoring_notes": [
+          "DIELECTRIC MEDIUM ATTACHMENT: If the point charge is immersed inside a dielectric medium of relative permittivity (dielectric constant) \\mathit{K}, the electrostatic field strength reduces. You must divide the vacuum field value by \\mathit{K} to determine the correct net medium field: \\mathit{E}*{\\text{medium}} = \\frac{\\mathit{E}*{\\text{vacuum}}}{\\mathit{K}}. Forgetting to substitute this factor in medium sub-parts causes a 1.0 mark penalty.",
+          "VANISHINGLY SMALL LIMIT CRITERIA: Examiners look specifically for the technical phrase or mathematical limit \\lim_{\\mathit{q}*{0} \\to 0}. You must explicitly justify that the test charge must be vanishingly small so that its own electric field does not modify the original charge distribution of the source charge +\\mathit{Q}.",
+          "GAUSSIAN REPLACEMENT ROUTE: The board fully accepts an alternate derivation path utilizing Gauss's Law. By selecting a concentric spherical Gaussian surface of radius \\mathit{r} centered on +\\mathit{Q}, the flux integral simplifies to \\oint \\vec{E} \\cdot d\\vec{S} = \\mathit{E}(4\\pi \\mathit{r}^{2}) = \\frac{\\mathit{Q}}{\\\\epsilon*{0}}, which cleanly isolates \\mathit{E}."
+        ]
+      }
+    ]
+  },
+  {
+    "chapter_derivations": [
+      {
+        "derivation_id": "CH1-D10",
+        "meta": {
+          "chapter_number": 1,
+          "chapter_name": "Electric Charges and Fields",
+          "derivation_title": "Electric Field on the Axis of a Uniformly Charged Ring",
+          "cbse_frequency": "LOW",
+          "historical_occurrence_years": [
+            "NCERT Exemplar 1.19",
+            "CBSE Conceptual 2021",
+            "CBSE Pre-Boards 2024"
+          ],
+          "total_marks": 3
+        },
+        "examiner_overview": {
+          "asked_as_stems": [
+            "Derive an expression for the electric field intensity at a point on the axis of a uniformly charged circular ring of radius R carrying a total charge Q.",
+            "A ring of radius R is uniformly charged with total charge Q. Find the electric field at an axial point distant x from the center, and show its limiting behavior for large distances."
+          ],
+          "marking_distribution": {
+            "statement_and_diagram": 1.0,
+            "mathematical_integration": 1.0,
+            "final_expression_and_direction": 1.0
+          }
+        },
+        "derivation_timeline": [
+          {
+            "step_number": 1,
+            "phase": "SETUP_AND_DIAGRAM",
+            "paper_script": "Consider a thin circular ring of radius R carrying a total charge Q distributed uniformly over its circumference. Let O be the center of the ring. Let P be an observation point lying on the axis of the ring at a distance x from the center O.",
+            "mathematical_line": "",
+            "trigger_keywords": [
+              "Circular ring",
+              "Axial point"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": true,
+              "diagram_id": "DIAG_CH01_CHARGED_RING",
+              "diagram_placement_note": "Render immediately after the initial geometric configuration script to fulfill the board requirement for component resolution.",
+              "generation_prompt": "A high-fidelity technical physics diagram on a pitch-black background (#0a0a0f). Draw a circular ring of radius R centered at origin O, viewed in three-dimensional perspective as tilted in the y-z plane using solid white paths. Populated with evenly spaced red '+' symbols to denote a uniform positive charge distribution. Draw a solid horizontal line from center O extending to the right along the x-axis to an observation point labeled P at distance x. At the top-most vertex of the ring, isolate a small section labeled as the charge element dq. Draw a straight dashed slant line connecting dq to point P, labeling its length as r = \\sqrt{x^{2} + R^{2}}. Mark the acute angle formed between this slant line and the horizontal axis as \\theta. At point P, project an outward diagonal vector arrow representing the differential field d\\vec{E} pointing away from dq. Resolve this vector into rectangular components at point P: a horizontal arrow pointing along the axis labeled dE \\cos(\\theta) and a vertical arrow pointing downward perpendicular to the axis labeled dE \\sin(\\theta)."
+            }
+          },
+          {
+            "step_number": 2,
+            "phase": "SETUP_AND_DIAGRAM",
+            "paper_script": "Let the uniform linear charge density of the circular ring be defined as the total charge Q divided by its entire geometric circumference length:",
+            "mathematical_line": "\\lambda = \\frac{Q}{2\\pi R}",
+            "trigger_keywords": [
+              "Linear charge density \\lambda"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 3,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "paper_script": "Consider an infinitesimal charge element dq residing on a segment length dl along the circumference, defined as the product of the linear charge density and the differential length element:",
+            "mathematical_line": "dq = \\lambda \\, dl",
+            "trigger_keywords": [
+              "Charge element dq",
+              "Differential length element dl"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 4,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "paper_script": "From the right-angled geometric triangle formed by the radius, axis, and slant path, express the absolute distance r from the charge element dq to the axial observation point P using the Pythagorean theorem:",
+            "mathematical_line": "r = \\sqrt{x^{2} + R^{2}}",
+            "trigger_keywords": [
+              "Pythagorean distance mapping"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 5,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "paper_script": "Formulate the mathematical expression for the scalar magnitude of the differential electric field intensity dE produced at point P by this single isolated charge element dq according to Coulomb's law:",
+            "mathematical_line": "dE = \\frac{1;}{4\\pi\\epsilon_{0}} \\frac{dq}{r^{2}}",
+            "trigger_keywords": [
+              "Coulomb's law for differential element"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 6,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "paper_script": "Substitute the Pythagorean distance identity into the denominator of the differential field strength formula to express it in terms of the axial coordinate variables:",
+            "mathematical_line": "dE = \\frac{1;}{4\\pi\\epsilon_{0}} \\frac{dq}{x^{2} + R^{2}}",
+            "trigger_keywords": [
+              "Denominator variable expansion"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 7,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "paper_script": "Resolve the differential electric field vector d\\vec{E} into its orthogonal rectangular components: the axial component dE\\cos\\theta acting parallel to the loop axis, and the perpendicular component dE\\sin\\theta acting radially away from the axis line.",
+            "mathematical_line": "",
+            "trigger_keywords": [
+              "Rectangular component resolution"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 8,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "paper_script": "By invoking geometric symmetry, for every charge element dq located on the ring circumference, there exists an identical diametrically opposite element which produces an equal perpendicular field component directed in opposition:",
+            "mathematical_line": "\\int dE \\sin\\theta = 0",
+            "trigger_keywords": [
+              "Perpendicular components cancel",
+              "Diametrically opposite element",
+              "Symmetry of charge distribution"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 9,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "paper_script": "State the physical consequence of this symmetric cancellation, which means that the net total electric field E at the axial point P is strictly composed of the scalar accumulation of all parallel axial components:",
+            "mathematical_line": "E = \\oint dE \\cos\\theta",
+            "trigger_keywords": [
+              "Axial components add",
+              "Total field accumulation"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 10,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "paper_script": "Substitute the full expression for the differential field magnitude dE into the net total axial field summation equation:",
+            "mathematical_line": "E = \\oint \\frac{1;}{4\\pi\\epsilon_{0}} \\frac{dq}{x^{2} + R^{2}} \\cos\\theta",
+            "trigger_keywords": [
+              "Integral substitution"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 11,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "paper_script": "Extract the precise geometric definition of the trigonometric cosine ratio from the right-angled coordinate triangle topology:",
+            "mathematical_line": "\\cos\\theta = \\frac{x}{r} = \\frac{x}{(x^{2} + R^{2})^{1/2}}",
+            "trigger_keywords": [
+              "Trigonometric ratio substitution"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 12,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "paper_script": "Substitute this resolved cosine ratio back into the total field integral formulation:",
+            "mathematical_line": "E = \\oint \\frac{1;}{4\\pi\\epsilon_{0}} \\frac{dq}{x^{2} + R^{2}} \\cdot \\frac{x}{(x^{2} + R^{2})^{1/2}}",
+            "trigger_keywords": [
+              "Trigonometric back-substitution"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 13,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "paper_script": "Group the common polynomial base terms within the denominator by adding their fractional exponential powers, and rearrange the numerator product variables:",
+            "mathematical_line": "E = \\oint \\frac{1;}{4\\pi\\epsilon_{0}} \\frac{x \\, dq}{(x^{2} + R^{2})^{3/2}}",
+            "trigger_keywords": [
+              "Denominator exponent grouping"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 14,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "paper_script": "Because the electrostatic constants, the ring radius R, and the specific observation distance coordinate x remain perfectly uniform across all elements along the loop path, factor them completely outside the integration operator:",
+            "mathematical_line": "E = \\frac{1;}{4\\pi\\epsilon_{0}} \\frac{x}{(x^{2} + R^{2})^{3/2}} \\oint dq",
+            "trigger_keywords": [
+              "Factor out uniform parameters"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 15,
+            "phase": "FINAL_EVALUATION",
+            "paper_script": "Evaluate the remaining closed line integral of the charge elements over the continuous loop perimeter, which simply sums up to the total net charge Q distributed across the entire ring circumference:",
+            "mathematical_line": "\\oint dq = Q",
+            "trigger_keywords": [
+              "Total loop charge integration"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 16,
+            "phase": "FINAL_EVALUATION",
+            "paper_script": "Substitute the integrated total charge value back to obtain the final scalar formula for the electric field intensity on the axis of a uniformly charged circular ring:",
+            "mathematical_line": "E = \\frac{1;}{4\\pi\\epsilon_{0}} \\frac{Q x}{(x^{2} + R^{2})^{3/2}}",
+            "trigger_keywords": [
+              "Final axial expression"
+            ],
+            "embedded_diagram": {
+              "requires_diagram": false,
+              "diagram_id": "",
+              "diagram_placement_note": "",
+              "generation_prompt": ""
+            }
+          }
+        ],
+        "topper_scoring_notes": [
+          "FAR-FIELD POINT CHARGE PROOF: The board frequently attaches a sub-part asking to show the limiting behavior of the ring for large distances (x \\gg R). Under this condition, neglect R^{2} in comparison to x^{2} inside the denominator to obtain E \\approx \\frac{Q x}{4\\pi\\epsilon_{0}(x^{2})^{3/2}} = \\frac{1}{4\\pi\\epsilon_{0}}\\frac{Q}{x^{2}}, and explicitly write the required conclusion sentence: 'Hence, at large axial distances, a uniformly charged ring behaves as an isolated point charge' to secure full credit.",
+          "MAXIMUM FIELD CONDITION TRAP: If a conceptual follow-up asks for the point along the axis where the field magnitude is maximized, do not guess. You must perform differentiation of the expression with respect to x and set it to zero (\\frac{dE}{dx} = 0), which resolves to x = \\pm \\frac{R}{\\sqrt{2}}. Substituting this value yields E_{\\text{max}} = \\frac{2Q}{12\\sqrt{3}\\pi\\epsilon_{0}R^{2}}.",
+          "CENTER OF THE RING ZERO LOGIC: If a sub-part asks for the field strength directly at the geometric center of the loop, solve it by setting the axial coordinate x = 0 inside the derived expression, which automatically reduces the field to zero (E = 0). Always provide a physical justification text statement based on symmetric vector cancellation to reinforce your answer."
+        ]
+      }
+    ]
+  }
+]

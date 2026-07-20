@@ -1,0 +1,146 @@
+{
+    "chapter_name": "Children and Women in Sports",
+    "weightage_insight": {
+        "estimated_marks_range": "7–10 Marks",
+        "pyq_frequency_summary": "This chapter is a goldmine for visual and list-based questions. 1-mark MCQs frequently ask for the medical name of a deformity (e.g., Genu Valgum for Knock Knees) or matching the deformity with its corrective asana. The 'Female Athlete Triad' is a favourite for 3 or 5-mark subjective questions. Recent patterns include questions on WHO Exercise Guidelines for different age groups."
+    },
+    "ultimate_short_notes": [
+        {
+            "heading": "Common Postural Deformities (Legs)",
+            "content": [
+                "**Knock Knees (Genu Valgum)**: Knees knock against each other while standing, but ankles have a gap. **Cause**: Rickets (Vit D deficiency), Obesity. **Correction**: Horse riding, Padmasana, keeping a pillow between knees.",
+                "**Bow Legs (Genu Varum)**: Knees remain wide apart when ankles touch. **Cause**: Calcium/Phosphorus deficiency. **Correction**: Walking on inner edge of feet, Garudasana.",
+                "**Flat Foot (Pes Planus)**: Absence of the arch in the foot sole. **Cause**: Weak muscles, obesity. **Correction**: Jumping on toes, skipping rope, picking marbles with toes."
+            ]
+        },
+        {
+            "heading": "Common Postural Deformities (Spine)",
+            "content": [
+                "**Kyphosis (Hunchback)**: Exaggerated **backward** curve of the **thoracic** (upper) spine. **Correction**: Bhujangasana, Dhanurasana.",
+                "**Lordosis (Swayback)**: Exaggerated **forward** curve of the **lumbar** (lower) spine. **Correction**: Halasana, Paschimottanasana.",
+                "**Scoliosis**: Lateral (sideways) curvature of the spine (S or C shape). **Correction**: Trikonasana, hanging on horizontal bar."
+            ]
+        },
+        {
+            "heading": "Female Athlete Triad",
+            "content": [
+                "A syndrome of three interrelated conditions in female athletes:",
+                "1. **Osteoporosis**: Low bone mineral density leading to weak bones.",
+                "2. **Amenorrhea**: Absence of menstrual periods for more than 3 months.",
+                "3. **Eating Disorders**: **Anorexia Nervosa** (obsessive fear of gaining weight/starvation) and **Bulimia Nervosa** (binge eating followed by purging/vomiting)."
+            ]
+        },
+        {
+            "heading": "Menarche & Menstrual Dysfunction",
+            "content": [
+                "**Menarche**: The onset of the first menstrual period in a female (mark of sexual maturity).",
+                "**Menstrual Dysfunction**: Irregularities in the menstrual cycle (e.g., irregular bleeding, heavy flow, or absence of periods) often caused by intense training or hormonal changes."
+            ]
+        }
+    ],
+    "exam_playbook": [
+        {
+            "strategy_name": "The Deformity Match-Maker",
+            "pyq_pattern": "Match List I (Deformity) with List II (Corrective Asana) or Medical Name.",
+            "how_students_lose_marks": "Confusing Kyphosis (Upper Back) with Lordosis (Lower Back). Forgetting medical names like Genu Valgum.",
+            "winning_approach": "Memorize mappings: Lordosis = 'L' for Lumbar/Lower. Kyphosis = 'Hump'. Scoliosis = 'S' shape. Use the medical names in brackets in your answers to impress the examiner.",
+            "marks_secured": "1 Mark (MCQ) / 3 Marks (Short Note)"
+        },
+        {
+            "strategy_name": "Triad Triangle",
+            "pyq_pattern": "Explain the Female Athlete Triad.",
+            "how_students_lose_marks": "Listing the three components but failing to explain the *relationship* (e.g., how eating disorders lead to nutrient deficiency, causing osteoporosis).",
+            "winning_approach": "Draw a triangle diagram labelling the three points. Explain each point with a 1-line definition and its cause/effect on the athlete.",
+            "marks_secured": "3 to 5 Marks"
+        }
+    ],
+    "formula_bank": [
+        {
+            "concept": "Female Athlete Triad",
+            "formula": "$$\\text{Eating Disorder} \\rightarrow \\text{Amenorrhea} \\rightarrow \\text{Osteoporosis}$$",
+            "used_in_questions": "Explaining the inter-relationship of the syndrome."
+        },
+        {
+            "concept": "BMI (Obesity Indicator)",
+            "formula": "$$\\text{BMI} = \\frac{\\text{Weight (kg)}}{\\text{Height (m)}^2}$$",
+            "used_in_questions": "Checking obesity as a cause for flat foot/knock knees."
+        },
+        {
+            "concept": "WHO Activity Guidelines (5-17 Years)",
+            "formula": "$$60~\\text{mins/day}~(\\text{Moderate to Vigorous})$$",
+            "used_in_questions": "Writing exercise guidelines for children."
+        }
+    ],
+    "sure_shot_questions": [
+        {
+            "question": "Explain any three spinal postural deformities and suggest one corrective yoga asana for each.",
+            "marks": 5,
+            "mandatory_keywords": [
+                "Kyphosis (Thoracic)",
+                "Lordosis (Lumbar)",
+                "Scoliosis (Lateral)",
+                "Bhujangasana",
+                "Halasana",
+                "Trikonasana"
+            ],
+            "answer_structure": "Name of Deformity -> Definition (Direction of curve) -> Corrective Asana.",
+            "model_answer_outline": [
+                "**Kyphosis**: Increase in backward curvature of thoracic spine (Round back). **Corrective Measure**: Bhujangasana (Cobra Pose).",
+                "**Lordosis**: Exaggerated forward curvature of lumbar spine. **Corrective Measure**: Halasana (Plough Pose).",
+                "**Scoliosis**: Sideways curvature of the spine looking like 'S' or 'C'. **Corrective Measure**: Trikonasana (Triangle Pose)."
+            ]
+        },
+        {
+            "question": "What is the Female Athlete Triad? Explain its components.",
+            "marks": 3,
+            "mandatory_keywords": [
+                "Syndrome",
+                "Osteoporosis (Bone density)",
+                "Amenorrhea (Menstruation)",
+                "Eating Disorders (Anorexia/Bulimia)"
+            ],
+            "answer_structure": "Definition of Triad -> Bullet points for 3 components with brief explanation.",
+            "model_answer_outline": [
+                "**Definition**: A syndrome often seen in females participating in sports emphasizing leanness.",
+                "**1. Osteoporosis**: Weakening of bones due to loss of calcium/estrogen.",
+                "**2. Amenorrhea**: Cessation of menstrual cycle for >3 months.",
+                "**3. Eating Disorders**: Abnormal eating habits like Anorexia (starving) or Bulimia (purging)."
+            ]
+        },
+        {
+            "question": "Differentiate between Intramural and Extramural competitions.",
+            "marks": 3,
+            "mandatory_keywords": [
+                "Within walls",
+                "Outside walls",
+                "Mass participation",
+                "High performance"
+            ],
+            "answer_structure": "Table format with 3 points: Meaning, Objective, Example.",
+            "model_answer_outline": [
+                "**Intramural**: Played within the school (e.g., Inter-house). Focus on mass participation and fun.",
+                "**Extramural**: Played between different schools (e.g., Zonal/National). Focus on talent identification and high performance."
+            ]
+        }
+    ],
+    "diagram_descriptors": [
+        {
+            "diagram_name": "Footprint Comparison",
+            "used_for": "Flat Foot explanation",
+            "image_path": "/images/PhysicalEducation/footprint comparision.png",
+            "detailed_description": "Two footprint outlines. Normal Foot: Has a curve/gap on the inner side. Flat Foot: The entire sole imprint is visible with no curve/gap."
+        }
+    ],
+    "examiner_traps": [
+        {
+            "common_mistake": "Confusing 'Anorexia' and 'Bulimia'.",
+            "why_marks_are_cut": "Anorexia is 'loss of appetite/starvation'. Bulimia is 'eating and vomiting'. Swapping definitions leads to 0 marks for that point.",
+            "correct_examiner_expectation": "Anorexia = Starvation/Refusal to eat. Bulimia = Binge eating + Purging."
+        },
+        {
+            "common_mistake": "Writing general exercises instead of specific Asanas.",
+            "why_marks_are_cut": "Examiners look for specific syllabus-prescribed Asanas (e.g., 'Trikonasana' for Scoliosis) rather than generic 'stretching'.",
+            "correct_examiner_expectation": "Mention at least one specific Yoga Asana for every deformity."
+        }
+    ]
+}

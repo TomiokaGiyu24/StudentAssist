@@ -1,0 +1,574 @@
+{
+  "chapter_name": "Application of Integrals (Area Under Curves)",
+  "board": "CBSE",
+  "class": "12",
+  "exam_year": "2026",
+  "formulas": [
+    {
+      "formula_number": 1,
+      "formula_title": "Area Bounded by a Curve and the X-axis (Vertical Strips)",
+      "section_A": {
+        "latex_formula": "$$ \\text{Area} = \\int_{a}^{b} y \\, dx = \\int_{a}^{b} f(x) \\, dx $$",
+        "derived_forms": [
+          "$$ \\text{If the curve is below the x-axis: Area} = \\left| \\int_{a}^{b} f(x) \\, dx \\right| $$"
+        ],
+        "special_cases": [
+          "$$ \\text{Area of a region bounded by a line } y = mx+c, \\text{ x-axis and ordinates } x=a, x=b. $$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "Used when the region is bounded by a curve $y=f(x)$, the x-axis, and the vertical lines (ordinates) $x=a$ and $x=b$.",
+        "trigger_keywords": [
+          "Bounded by the x-axis",
+          "Ordinates x=a and x=b",
+          "Area under the curve"
+        ],
+        "question_types": [
+          "2_mark",
+          "3_mark",
+          "5_mark"
+        ],
+        "common_mistakes": [
+          "Integrating with respect to $y$ when the limits are given for $x$.",
+          "Forgetting to check if the curve crosses the x-axis between $a$ and $b$, which requires splitting the integral."
+        ],
+        "board_traps": [
+          "Giving the equation in the form $x^2 = 4ay$ and asking for area bounded by the x-axis; students sometimes use horizontal strip formulas by mistake."
+        ],
+        "examiner_twist_pattern": "CBSE often asks for the area in the first quadrant only, but provides a curve that exists in multiple quadrants."
+      },
+      "section_C": {
+        "why_students_fail": "Failure to visualize the region of integration, leading to incorrect limits or the wrong axis of reference.",
+        "how_to_think": "Think 'Vertical Rectangles'. Imagine filling the area with infinitely thin vertical rectangles of height $y$ and width $dx$. Summing these from $x=a$ to $x=b$ gives the total area.",
+        "thirty_second_strategy": "1. Sketch the curve. 2. Shade the region. 3. Identify $x$-limits. 4. Express $y$ in terms of $x$. 5. Integrate.",
+        "mental_shortcut": "If the boundary is $x=a$ and $x=b$, you MUST integrate $y \\, dx$.",
+        "micro_example": "Area of $y=x^2$ from $x=0$ to $x=2$ is $\\int_0^2 x^2 \\, dx = [x^3/3]_0^2 = 8/3$."
+      },
+      "diagram": ""
+    },
+    {
+      "formula_number": 2,
+      "formula_title": "Area Bounded by a Curve and the Y-axis (Horizontal Strips)",
+      "section_A": {
+        "latex_formula": "$$ \\text{Area} = \\int_{c}^{d} x \\, dy = \\int_{c}^{d} g(y) \\, dy $$",
+        "derived_forms": [
+          "$$ \\text{If the curve is to the left of the y-axis: Area} = \\left| \\int_{c}^{d} g(y) \\, dy \\right| $$"
+        ],
+        "special_cases": [
+          "$$ \\text{Area bounded by } x^2=4ay, \\text{ y-axis and abscissae } y=c, y=d. $$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "When the boundary lines are horizontal ($y=c, y=d$) and the curve is defined as $x$ in terms of $y$.",
+        "trigger_keywords": [
+          "Bounded by the y-axis",
+          "Lines y=c and y=d",
+          "Horizontal boundaries"
+        ],
+        "question_types": [
+          "2_mark",
+          "3_mark"
+        ],
+        "common_mistakes": [
+          "Using $y$ as the integrand instead of $x$.",
+          "Incorrectly identifying $x$ from the equation (e.g., taking $x=y^2$ instead of $x=\\sqrt{y}$)."
+        ],
+        "board_traps": [
+          "Providing a parabola $y^2=4ax$ but asking for area bounded by the y-axis and lines $y=1, y=2$. Students often default to x-axis integration out of habit."
+        ],
+        "examiner_twist_pattern": "Asking for area in a specific quadrant where $x$ might be negative, testing the student's use of absolute value for area."
+      },
+      "section_C": {
+        "why_students_fail": "Difficulty in switching the mental frame from vertical to horizontal strips and incorrectly solving the curve equation for $x$.",
+        "how_to_think": "Think 'Horizontal Rectangles'. Imagine stacking thin horizontal slices of length $x$ and thickness $dy$. Summing these from bottom ($y=c$) to top ($y=d$) covers the area.",
+        "thirty_second_strategy": "1. Identify $y$-limits. 2. Express $x$ as a function of $y$. 3. Integrate $x \\, dy$ from $y=c$ to $y=d$.",
+        "mental_shortcut": "Limits are $y$-values $\\to$ Integrate $x \\, dy$.",
+        "micro_example": "Area of $x=y^2$ from $y=0$ to $y=1$ bounded by y-axis is $\\int_0^1 y^2 \\, dy = 1/3$."
+      },
+      "diagram": ""
+    },
+    {
+      "formula_number": 3,
+      "formula_title": "Area Between Two Curves",
+      "section_A": {
+        "latex_formula": "$$ \\text{Area} = \\int_{a}^{b} [f(x) - g(x)] \\, dx $$",
+        "derived_forms": [
+          "$$ \\text{Area} = \\int_{a}^{b} (y_{\\text{upper}} - y_{\\text{lower}}) \\, dx $$",
+          "$$ \\text{If the curves intersect, Area} = \\int_{a}^{c} (f-g) dx + \\int_{c}^{b} (g-f) dx $$"
+        ],
+        "special_cases": [
+          "$$ \\text{Area between a parabola and a line.} $$",
+          "$$ \\text{Area between two parabolas } y^2=4ax \\text{ and } x^2=4ay. $$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "When the region is enclosed between two intersecting curves $y=f(x)$ and $y=g(x)$.",
+        "trigger_keywords": [
+          "Enclosed between",
+          "Area common to",
+          "Area of the region bounded by both"
+        ],
+        "question_types": [
+          "3_mark",
+          "5_mark"
+        ],
+        "common_mistakes": [
+          "Not finding the points of intersection to determine the limits $a$ and $b$.",
+          "Subtracting the wrong function (Lower - Upper), resulting in a negative area."
+        ],
+        "board_traps": [
+          "The curves may intersect at multiple points. If the 'upper' curve changes, the integral must be split.",
+          "Using symmetry without checking if the entire region is perfectly symmetrical."
+        ],
+        "examiner_twist_pattern": "One curve is a parabola and the other is a line; the line might pass through the origin or be a tangent/normal, requiring extra steps to find the equation of the line first."
+      },
+      "section_C": {
+        "why_students_fail": "Poor algebraic skills in solving for intersection points and failing to identify which curve is 'on top' in the shaded region.",
+        "how_to_think": "Think 'Subtraction of Areas'. Calculate the area under the top curve and subtract the 'empty' area under the bottom curve to leave only the middle slice.",
+        "thirty_second_strategy": "1. Solve $f(x) = g(x)$ for $x$. 2. Sketch both. 3. Identify 'Upper' and 'Lower' curves. 4. Integrate (Upper - Lower) between intersection points.",
+        "mental_shortcut": "Area = Integral of (Top Curve - Bottom Curve).",
+        "micro_example": "Area between $y=x$ and $y=x^2$. Intersect at $0, 1$. In $(0,1)$, $x > x^2$. Area $= \\int_0^1 (x - x^2) \\, dx = [x^2/2 - x^3/3]_0^1 = 1/6$."
+      },
+      "diagram": ""
+    },
+    {
+      "formula_number": 4,
+      "formula_title": "Area of an Ellipse (Symmetry Rule)",
+      "section_A": {
+        "latex_formula": "$$ \\text{Area} = 4 \\int_{0}^{a} \\frac{b}{a} \\sqrt{a^2 - x^2} \\, dx $$",
+        "derived_forms": [
+          "$$ \\text{Total Area} = \\pi ab $$",
+          "$$ y = \\frac{b}{a} \\sqrt{a^2 - x^2} \\quad \\text{(Equation of ellipse in 1st quadrant)} $$"
+        ],
+        "special_cases": [
+          "$$ \\text{If } a=b, \\text{ Area} = \\pi a^2 \\quad \\text{(Circle)} $$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "Specifically for finding the area enclosed by the standard ellipse $x^2/a^2 + y^2/b^2 = 1$.",
+        "trigger_keywords": [
+          "Area of the ellipse",
+          "Enclosed by the curve x^2/a^2 + y^2/b^2 = 1"
+        ],
+        "question_types": [
+          "3_mark",
+          "5_mark"
+        ],
+        "common_mistakes": [
+          "Only calculating the integral for the first quadrant and forgetting to multiply by 4.",
+          "Incorrectly applying the formula $\\int \\sqrt{a^2-x^2} \\, dx$ (it is a long formula!)."
+        ],
+        "board_traps": [
+          "Asking for the area of only a portion of the ellipse (e.g., between $x=0$ and $x=ae$).",
+          "Giving the equation in a non-standard form like $9x^2 + 16y^2 = 144$."
+        ],
+        "examiner_twist_pattern": "CBSE often asks students to find the area of the smaller region bounded by the ellipse and a line (like $x/a + y/b = 1$)."
+      },
+      "section_C": {
+        "why_students_fail": "The integration of $\\sqrt{a^2-x^2}$ is a frequent source of errors. Students also struggle to manipulate the standard form to find $a$ and $b$.",
+        "how_to_think": "Think 'Four identical quarters'. Use the symmetry of the ellipse about both axes to simplify the problem to one-fourth of the area, then multiply by four.",
+        "thirty_second_strategy": "1. Standardize equation. 2. Find $a, b$. 3. Set up $4 \\times \\text{Integral from } 0 \\text{ to } a$. 4. Apply the $\\int \\sqrt{a^2-x^2}$ formula.",
+        "mental_shortcut": "Total area is always $\\pi ab$. Use this to verify your final integration answer.",
+        "micro_example": "For $x^2/16 + y^2/9 = 1$, $a=4, b=3$. Total area $= \\pi(4)(3) = 12\\pi$. Calculation: $4 \\int_0^4 \\frac{3}{4}\\sqrt{16-x^2} \\, dx$."
+      },
+      "diagram": ""
+    },
+    {
+      "formula_number": 5,
+      "formula_title": "Area of Region Bounded by a Curve Crossing the X-axis",
+      "section_A": {
+        "latex_formula": "$$ \\text{Area} = \\left| \\int_{a}^{c} f(x) \\, dx \\right| + \\left| \\int_{c}^{b} f(x) \\, dx \\right| $$",
+        "derived_forms": [
+          "$$ \\text{Area} = \\int_{a}^{c} f(x) \\, dx - \\int_{c}^{b} f(x) \\, dx \\quad \\text{(if } f(x) < 0 \\text{ on } [c,b]) $$"
+        ],
+        "special_cases": [
+          "$$ \\text{Area of } y = \\sin x \\text{ from } 0 \\text{ to } 2\\pi. $$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "When the curve lies both above and below the x-axis within the given limits $[a, b]$.",
+        "trigger_keywords": [
+          "Total area",
+          "Bounded by x-axis from x=a to x=b",
+          "Curve crosses the axis"
+        ],
+        "question_types": [
+          "3_mark",
+          "5_mark"
+        ],
+        "common_mistakes": [
+          "Integrating directly from $a$ to $b$ without splitting. This results in the 'Net Area' (where negative cancels positive) instead of the 'Total Physical Area'.",
+          "Forgetting to take the absolute value of the negative integral part."
+        ],
+        "board_traps": [
+          "The Sine or Cosine curve is a classic trap. Finding the area of $y = \\sin x$ from $0$ to $2\\pi$ directly gives $0$, which is wrong; the physical area is $4$."
+        ],
+        "examiner_twist_pattern": "Giving a cubic polynomial that crosses the x-axis at an unknown point, forcing the student to solve $f(x)=0$ first to find the splitting point $c$."
+      },
+      "section_C": {
+        "why_students_fail": "Confusion between the definite integral (which can be negative) and area (which must be positive).",
+        "how_to_think": "Think 'Physical Space'. If you paint a room, you need paint for the ceiling and the floor. You don't subtract floor paint from ceiling paint. Both parts require positive 'paint' (area).",
+        "thirty_second_strategy": "1. Solve $f(x)=0$ to find if any roots lie between $a$ and $b$. 2. Split the integral at those roots. 3. Evaluate each part. 4. Add the absolute values of the results.",
+        "mental_shortcut": "Always check for roots in the interval. If roots exist, split the integral.",
+        "micro_example": "Area of $y=x$ from $-1$ to $1$. Split at $0$: $| \\int_{-1}^0 x \\, dx | + | \\int_0^1 x \\, dx | = |-1/2| + |1/2| = 1$."
+      },
+      "diagram": ""
+    },
+
+  {
+    "formula_number": 6,
+    "formula_title": "Area of a Triangle (Method of Vertices)",
+    "section_A": {
+      "latex_formula": "$$ \\text{Area}(\\Delta ABC) = \\left| \\int_{x_1}^{x_2} [y_{AB} - y_{AC}] \\, dx + \\int_{x_2}^{x_3} [y_{BC} - y_{AC}] \\, dx \\right| $$",
+      "section_A": {
+        "latex_formula": "$$ \\text{Area} = \\left| \\int_{x_A}^{x_B} y_{AB} \\, dx + \\int_{x_B}^{x_C} y_{BC} \\, dx - \\int_{x_A}^{x_C} y_{AC} \\, dx \\right| $$",
+        "derived_forms": [
+          "$$ y - y_1 = \\frac{y_2 - y_1}{x_2 - x_1}(x - x_1) \\quad \\text{(Equation of side using two-point form)} $$"
+        ],
+        "special_cases": [
+          "$$ \\text{If the triangle is above/below a specific line, simply subtract lower boundary from upper boundary.} $$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "When the coordinates of the three vertices of a triangle are given, and you are asked to find the area using integration (not the Class 10/11 determinant formula).",
+        "trigger_keywords": [
+          "Vertices are (x1, y1), (x2, y2), (x3, y3)",
+          "Find the area of the triangle using integration"
+        ],
+        "question_types": [
+          "5_mark"
+        ],
+        "common_mistakes": [
+          "Using the determinant formula from Class 11. CBSE specifically awards zero marks for this if 'using integration' is mentioned.",
+          "Forgetting to find the equations of the three sides (AB, BC, CA) before starting the integration.",
+          "Incorrectly ordering the limits on the x-axis."
+        ],
+        "board_traps": [
+          "Vertices are given such that the triangle crosses an axis, requiring careful sign handling.",
+          "Providing vertices with large or fractional coordinates to increase the risk of calculation errors in side equations."
+        ],
+        "examiner_twist_pattern": "Asking to find the area of the region bounded by lines $y=2x+1, y=3x+1, x=4$. This is a 'disguised' triangle problem where the intersection points must be found first."
+      },
+      "section_C": {
+        "why_students_fail": "Failure to organize the work into three distinct steps: 1. Finding equations of sides, 2. Sketching, 3. Integration. Most errors happen in the 'side equation' step.",
+        "how_to_think": "Think 'Trapezoids and Subtraction'. The area under line AB is a trapezoid. Add the area under BC, then subtract the 'empty' area under AC to leave the triangle in the middle.",
+        "thirty_second_strategy": "1. Plot vertices and sketch the triangle. 2. Find equations of sides AB, BC, and CA. 3. Identify the 'Top' paths and 'Bottom' paths. 4. Integrate Top segments and subtract the Bottom segment.",
+        "mental_shortcut": "Order vertices by x-coordinate: $x_1 < x_2 < x_3$. Integral 1: $x_1$ to $x_2$. Integral 2: $x_2$ to $x_3$. Total: $(y_{Top1} + y_{Top2}) - y_{Bottom}$.",
+        "micro_example": "Vertices (0,0), (2,2), (4,0). Side AB: $y=x$, BC: $y=4-x$, AC: $y=0$. Area $= \\int_0^2 x \\, dx + \\int_2^4 (4-x) \\, dx$."
+      }
+     
+    }
+  },
+
+
+
+  {
+  "trend_analysis": {
+    "dominant_concepts_from_pyqs": [
+      "Properties of Definite Integrals (especially $$ \\int_0^a f(x) dx = \\int_0^a f(a-x) dx $$)",
+      "Integration by Partial Fractions (irreducible quadratic and repeated linear factors)",
+      "Integration by Parts combined with the special form $$ \\int e^x [f(x) + f'(x)] dx $$",
+      "Evaluation of integrals using completing the square method",
+      "Definite integrals involving absolute value (modulus) functions"
+    ],
+    "question_patterns_seen": [
+      "Long answer (4-5 marks) questions strictly testing properties of definite integrals",
+      "3-mark questions on partial fractions involving a substitution step first",
+      "2-mark questions evaluating modulus functions at critical points",
+      "Integration by parts questions requiring trigonometric simplification before applying the formula"
+    ]
+  },
+  "high_leverage_ncert_questions": [
+    {
+      "question_id": 7,
+      "ncert_reference": {
+        "exercise": "Exercise 7.11",
+        "question_number": "8"
+      },
+      "question_text": "Evaluate: $$ \\int_{0}^{\\pi/4} \\log(1 + \\tan x) dx $$",
+      "concepts_tested": [
+        "Properties of Definite Integrals",
+        "King's Rule $$ \\int_0^a f(x) dx = \\int_0^a f(a-x) dx $$",
+        "Trigonometric expansions"
+      ],
+      "repeat_probability_2026": "High",
+      "difficulty_level": "Moderate",
+      "topper_solution": {
+        "step_1": "Let $$ I = \\int_{0}^{\\pi/4} \\log(1 + \\tan x) dx $$. Apply property $$ \\int_0^a f(x) dx = \\int_0^a f(a-x) dx $$. $$ I = \\int_{0}^{\\pi/4} \\log\\left(1 + \\tan\\left(\\frac{\\pi}{4} - x\\right)\\right) dx $$.",
+        "step_2": "Expand $$ \\tan\\left(\\frac{\\pi}{4} - x\\right) = \\frac{1 - \\tan x}{1 + \\tan x} $$. So, $$ 1 + \\tan\\left(\\frac{\\pi}{4} - x\\right) = 1 + \\frac{1 - \\tan x}{1 + \\tan x} = \\frac{2}{1 + \\tan x} $$.",
+        "step_3": "Substitute back: $$ I = \\int_{0}^{\\pi/4} \\log\\left(\\frac{2}{1 + \\tan x}\\right) dx = \\int_{0}^{\\pi/4} (\\log 2 - \\log(1 + \\tan x)) dx $$. Adding this to the original $$ I $$ gives $$ 2I = \\int_{0}^{\\pi/4} \\log 2 \\, dx = \\frac{\\pi}{4} \\log 2 $$. Final answer: $$ I = \\frac{\\pi}{8} \\log 2 $$"
+      },
+      "board_writing_tip": "Mention the definite integral property explicitly. Show the expansion of $$ \\tan(\\frac{\\pi}{4} - x) $$ clearly, as this carries a step mark.",
+      "common_student_mistakes": [
+        "Incorrectly applying the formula for $$ \\tan(A - B) $$",
+        "Forgetting to divide by 2 at the final step, writing $$ \\frac{\\pi}{4} \\log 2 $$ instead of $$ \\frac{\\pi}{8} \\log 2 $$"
+      ],
+      "estimated_time_seconds": "300"
+    },
+    {
+      "question_id": 8,
+      "ncert_reference": {
+        "exercise": "Exercise 7.5",
+        "question_number": "7"
+      },
+      "question_text": "Integrate the rational function: $$ \\int \\frac{x}{(x^2+1)(x-1)} dx $$",
+      "concepts_tested": [
+        "Integration by Partial Fractions",
+        "Handling irreducible quadratic factors"
+      ],
+      "repeat_probability_2026": "High",
+      "difficulty_level": "Moderate",
+      "topper_solution": {
+        "step_1": "Let $$ \\frac{x}{(x^2+1)(x-1)} = \\frac{Ax+B}{x^2+1} + \\frac{C}{x-1} $$. Multiply by the denominator: $$ x = (Ax+B)(x-1) + C(x^2+1) $$.",
+        "step_2": "Substitute $$ x=1 $$ to get $$ C = \\frac{1}{2} $$. Compare coefficients of $$ x^2 $$ ($$ A+C=0 \\implies A = -\\frac{1}{2} $$) and constants ($$ -B+C=0 \\implies B = \\frac{1}{2} $$).",
+        "step_3": "The integral becomes $$ \\int \\left( \\frac{-\\frac{1}{2}x + \\frac{1}{2}}{x^2+1} + \\frac{\\frac{1}{2}}{x-1} \\right) dx $$. Split the first part: $$ -\\frac{1}{4} \\int \\frac{2x}{x^2+1} dx + \\frac{1}{2} \\int \\frac{1}{x^2+1} dx $$. Final answer: $$ -\\frac{1}{4} \\log(x^2+1) + \\frac{1}{2} \\tan^{-1}x + \\frac{1}{2} \\log|x-1| + C $$"
+      },
+      "board_writing_tip": "Be extremely careful comparing coefficients. Break down the irreducible quadratic integration into a derivative-substitution part and a $$ \\tan^{-1} $$ part.",
+      "common_student_mistakes": [
+        "Writing the partial fraction incorrectly as $$ \\frac{A}{x^2+1} $$ instead of $$ \\frac{Ax+B}{x^2+1} $$",
+        "Missing the factor of 1/2 when integrating $$ \\frac{x}{x^2+1} $$"
+      ],
+      "estimated_time_seconds": "360"
+    },
+    {
+      "question_id": 9,
+      "ncert_reference": {
+        "exercise": "Exercise 7.6",
+        "question_number": "7"
+      },
+      "question_text": "Integrate the function: $$ \\int x \\sin^{-1} x dx $$",
+      "concepts_tested": [
+        "Integration by Parts",
+        "ILATE rule",
+        "Algebraic substitution"
+      ],
+      "repeat_probability_2026": "Medium",
+      "difficulty_level": "Board-Tricky",
+      "topper_solution": {
+        "step_1": "Use ILATE to choose $$ \\sin^{-1} x $$ as the first function and $$ x $$ as the second. Apply Integration by Parts: $$ \\sin^{-1} x \\int x dx - \\int \\left( \\frac{d}{dx}(\\sin^{-1} x) \\int x dx \\right) dx $$.",
+        "step_2": "This gives $$ \\frac{x^2}{2} \\sin^{-1} x - \\int \\frac{1}{\\sqrt{1-x^2}} \\cdot \\frac{x^2}{2} dx $$. Rewrite the integral as $$ -\\frac{1}{2} \\int \\frac{x^2 - 1 + 1}{\\sqrt{1-x^2}} dx $$.",
+        "step_3": "Split the integral: $$ \\frac{1}{2} \\int \\sqrt{1-x^2} dx - \\frac{1}{2} \\int \\frac{1}{\\sqrt{1-x^2}} dx $$. Use standard formula for $$ \\int \\sqrt{a^2-x^2} dx $$. Final answer: $$ \\frac{x^2}{2} \\sin^{-1} x + \\frac{x}{4} \\sqrt{1-x^2} - \\frac{1}{4} \\sin^{-1} x + C $$"
+      },
+      "board_writing_tip": "The manipulation $$ x^2 = -(1-x^2) + 1 $$ is a classic board technique to avoid lengthy trigonometric substitutions. Show this step clearly.",
+      "common_student_mistakes": [
+        "Choosing $$ x $$ as the first function, complicating the integral",
+        "Failing to integrate $$ \\frac{x^2}{\\sqrt{1-x^2}} $$ due to algebraic manipulation errors"
+      ],
+      "estimated_time_seconds": "420"
+    },
+    {
+      "question_id": 10,
+      "ncert_reference": {
+        "exercise": "Exercise 7.11",
+        "question_number": "13"
+      },
+      "question_text": "Evaluate the definite integral: $$ \\int_{-\\pi/2}^{\\pi/2} \\sin^7 x dx $$",
+      "concepts_tested": [
+        "Properties of Definite Integrals",
+        "Odd and Even Functions"
+      ],
+      "repeat_probability_2026": "High",
+      "difficulty_level": "Easy",
+      "topper_solution": {
+        "step_1": "Recognize the symmetric limits $$ [-a, a] $$. Let $$ f(x) = \\sin^7 x $$.",
+        "step_2": "Check if the function is odd or even. Evaluate $$ f(-x) = \\sin^7(-x) = (-\\sin x)^7 = -\\sin^7 x = -f(x) $$.",
+        "step_3": "Since $$ f(x) $$ is an odd function, by the property $$ \\int_{-a}^{a} f(x) dx = 0 $$ for odd functions, the integral evaluates to 0. Final answer: $$ 0 $$"
+      },
+      "board_writing_tip": "Do not just write 0. You must prove the function is odd by showing $$ f(-x) = -f(x) $$ and quote the property $$ \\int_{-a}^a f(x) dx = 0 $$ if $$ f(-x) = -f(x) $$.",
+      "common_student_mistakes": [
+        "Trying to integrate $$ \\sin^7 x $$ using reduction formulas or substitutions, wasting time",
+        "Misinterpreting the power 7 and incorrectly concluding it's an even function"
+      ],
+      "estimated_time_seconds": "120"
+    },
+    {
+      "question_id": 11,
+      "ncert_reference": {
+        "exercise": "Exercise 7.4",
+        "question_number": "14"
+      },
+      "question_text": "Integrate the function: $$ \\int \\frac{1}{\\sqrt{8 + 3x - x^2}} dx $$",
+      "concepts_tested": [
+        "Completing the square",
+        "Integration of form $$ \\frac{1}{\\sqrt{a^2 - x^2}} $$"
+      ],
+      "repeat_probability_2026": "High",
+      "difficulty_level": "Moderate",
+      "topper_solution": {
+        "step_1": "Rewrite the quadratic expression by factoring out the negative sign from the $$ x $$ terms: $$ 8 - (x^2 - 3x) $$.",
+        "step_2": "Complete the square inside the bracket: $$ 8 - \\left(x^2 - 3x + \\frac{9}{4} - \\frac{9}{4}\\right) = 8 + \\frac{9}{4} - \\left(x - \\frac{3}{2}\\right)^2 = \\frac{41}{4} - \\left(x - \\frac{3}{2}\\right)^2 $$.",
+        "step_3": "The integral becomes $$ \\int \\frac{1}{\\sqrt{\\left(\\frac{\\sqrt{41}}{2}\\right)^2 - \\left(x - \\frac{3}{2}\\right)^2}} dx $$. Apply the formula $$ \\int \\frac{1}{\\sqrt{a^2-x^2}} dx = \\sin^{-1}\\left(\\frac{x}{a}\\right) $$. Final answer: $$ \\sin^{-1}\\left(\\frac{2x - 3}{\\sqrt{41}}\\right) + C $$"
+      },
+      "board_writing_tip": "Keep the negative sign outside the completing-square bracket until the very end to avoid sign errors.",
+      "common_student_mistakes": [
+        "Mishandling the negative coefficient of $$ x^2 $$ when completing the square",
+        "Forgetting the '+ C' in the indefinite integral"
+      ],
+      "estimated_time_seconds": "240"
+    },
+    {
+      "question_id": 12,
+      "ncert_reference": {
+        "exercise": "Exercise 7.7",
+        "question_number": "3"
+      },
+      "question_text": "Integrate the function: $$ \\int \\sqrt{x^2 + 4x + 6} dx $$",
+      "concepts_tested": [
+        "Completing the square",
+        "Integration of form $$ \\sqrt{x^2 + a^2} $$"
+      ],
+      "repeat_probability_2026": "Medium",
+      "difficulty_level": "Moderate",
+      "topper_solution": {
+        "step_1": "Complete the square for the expression inside the root: $$ x^2 + 4x + 6 = x^2 + 4x + 4 + 2 = (x+2)^2 + (\\sqrt{2})^2 $$.",
+        "step_2": "The integral transforms to $$ \\int \\sqrt{(x+2)^2 + (\\sqrt{2})^2} dx $$.",
+        "step_3": "Apply the standard formula: $$ \\int \\sqrt{X^2+a^2} dX = \\frac{X}{2}\\sqrt{X^2+a^2} + \\frac{a^2}{2}\\log|X + \\sqrt{X^2+a^2}| $$.  $$ \\frac{x+2}{2}\\sqrt{x^2+4x+6} + \\log|x+2 + \\sqrt{x^2+4x+6}| + C $$"
+      },
+      "board_writing_tip": "Memorize the three special formulas for integrals involving square roots in the numerator. State the formula being used to ensure you get the method mark even if calculation fails.",
+      "common_student_mistakes": [
+        "Confusing the formula with $$ \\sqrt{x^2-a^2} $$ or $$ \\sqrt{a^2-x^2} $$",
+        "Forgetting to divide the second term by 2 (the $$ \\frac{a^2}{2} $$ component)"
+      ],
+      "estimated_time_seconds": "210"
+    },
+    {
+      "question_id": 7,
+      "ncert_reference": {
+        "exercise": "Miscellaneous Exercise",
+        "question_number": "6"
+      },
+      "question_text": "Find the area enclosed between the parabola $$ y^2 = 4ax $$ and the line $$ y = mx $$.",
+      "concepts_tested": [
+        "Area between a curve and a line",
+        "Intersection of standard curves",
+        "Algebraic manipulation of limits"
+      ],
+      "repeat_probability_2026": "High",
+      "difficulty_level": "Moderate",
+      "topper_solution": {
+        "step_1": "Find the points of intersection by substituting $$ y = mx $$ into $$ y^2 = 4ax $$. $$ (mx)^2 = 4ax \\implies m^2x^2 - 4ax = 0 $$. Thus, $$ x(m^2x - 4a) = 0 $$. The intersection points are $$ x = 0 $$ and $$ x = \\frac{4a}{m^2} $$.",
+        "step_2": "Identify the upper and lower boundaries. In the first quadrant, the parabola $$ y = 2\\sqrt{ax} $$ lies above the line $$ y = mx $$ for the interval $$ \\left[0, \\frac{4a}{m^2}\\right] $$.",
+        "step_3": "Area = $$ \\int_{0}^{4a/m^2} (y_{parabola} - y_{line}) dx = \\int_{0}^{4a/m^2} (2\\sqrt{a}\\sqrt{x} - mx) dx $$. Integrating: $$ \\left[ 2\\sqrt{a} \\frac{2}{3}x^{3/2} - m\\frac{x^2}{2} \\right]_0^{4a/m^2} $$. Substituting limits gives $$ \\frac{4}{3}\\sqrt{a} \\left(\\frac{4a}{m^2}\\right)^{3/2} - \\frac{m}{2} \\left(\\frac{4a}{m^2}\\right)^2 = \\frac{32a^2}{3m^3} - \\frac{8a^2}{m^3} = \\frac{8a^2}{3m^3} $$ sq. units."
+      },
+      "board_writing_tip": "Clearly show the algebraic steps for finding the limits of integration. Drawing a general sketch of a rightward opening parabola and a line passing through the origin is essential.",
+      "common_student_mistakes": [
+        "Failing to cube the $$ m^2 $$ term correctly in the substitution step, leading to power errors",
+        "Subtracting the parabola from the line instead of line from the parabola"
+      ],
+      "estimated_time_seconds": "360"
+    },
+    {
+      "question_id": 8,
+      "ncert_reference": {
+        "exercise": "Exercise 8.1",
+        "question_number": "10"
+      },
+      "question_text": "Find the area bounded by the curve $$ x^2 = 4y $$, the line $$ x = 2 $$ and the x-axis.",
+      "concepts_tested": [
+        "Area bounded by a curve and axes",
+        "Integration with respect to y versus x"
+      ],
+      "repeat_probability_2026": "Medium",
+      "difficulty_level": "Easy",
+      "topper_solution": {
+        "step_1": "The region is bounded by $$ y = \\frac{x^2}{4} $$, $$ x = 2 $$, and the x-axis ($$ y=0 $$). The limits for x are from 0 to 2.",
+        "step_2": "Set up the integral with respect to x: Area = $$ \\int_{0}^{2} y dx = \\int_{0}^{2} \\frac{x^2}{4} dx $$.",
+        "step_3": "Integrate: $$ \\frac{1}{4} \\left[ \\frac{x^3}{3} \\right]_0^2 = \\frac{1}{12} [8 - 0] = \\frac{8}{12} = \\frac{2}{3} $$ sq. units."
+      },
+      "board_writing_tip": "Even for a simple 2-mark question, sketching the upward parabola and shading the required region bounded by $$ x=2 $$ guarantees full method marks.",
+      "common_student_mistakes": [
+        "Setting up the integral along the y-axis instead of x-axis without changing the limits properly",
+        "Forgetting to include the factor of 1/4 inside or outside the integral"
+      ],
+      "estimated_time_seconds": "180"
+    },
+    {
+      "question_id": 9,
+      "ncert_reference": {
+        "exercise": "Miscellaneous Exercise",
+        "question_number": "11"
+      },
+      "question_text": "Using the method of integration find the area bounded by the curve $$ |x| + |y| = 1 $$.",
+      "concepts_tested": [
+        "Modulus functions in two variables",
+        "Symmetry across all four quadrants",
+        "Area of straight line bounded regions"
+      ],
+      "repeat_probability_2026": "High",
+      "difficulty_level": "Board-Tricky",
+      "topper_solution": {
+        "step_1": "The given equation $$ |x| + |y| = 1 $$ represents four lines: $$ x+y=1 $$, $$ -x+y=1 $$, $$ -x-y=1 $$, and $$ x-y=1 $$. This forms a square symmetrical in all four quadrants.",
+        "step_2": "Total Area = 4 $$ \\times $$ (Area in 1st quadrant). In the 1st quadrant, the line is $$ x+y=1 $$, so $$ y = 1-x $$. The x-intercept is 1, so limits are from 0 to 1.",
+        "step_3": "Area = $$ 4 \\int_{0}^{1} (1-x) dx = 4 \\left[ x - \\frac{x^2}{2} \\right]_0^1 = 4 \\left( 1 - \\frac{1}{2} \\right) = 4 \\times \\frac{1}{2} = 2 $$ sq. units."
+      },
+      "board_writing_tip": "Explicitly state the equations of the four lines that form the boundary. Mention 'Due to symmetry in all four quadrants' before multiplying the integral by 4.",
+      "common_student_mistakes": [
+        "Attempting to integrate the modulus function without breaking it into its constituent lines",
+        "Calculating the area for only one quadrant and forgetting to multiply by 4"
+      ],
+      "estimated_time_seconds": "240"
+    },
+    {
+      "question_id": 10,
+      "ncert_reference": {
+        "exercise": "Miscellaneous Exercise",
+        "question_number": "13"
+      },
+      "question_text": "Using integration, find the area of the region bounded by the triangle whose vertices are $$ (2, 0) $$, $$ (4, 5) $$ and $$ (6, 3) $$.",
+      "concepts_tested": [
+        "Equation of a line through two points",
+        "Area bounded by straight lines",
+        "Splitting integrals based on vertex x-coordinates"
+      ],
+      "repeat_probability_2026": "High",
+      "difficulty_level": "Moderate",
+      "topper_solution": {
+        "step_1": "Let A(2, 0), B(4, 5), and C(6, 3) be the vertices. Find equations of lines AB, BC, and CA. Equation of AB: $$ y - 0 = \\frac{5-0}{4-2}(x - 2) \\implies y = \\frac{5}{2}(x - 2) $$. Equation of BC: $$ y - 5 = \\frac{3-5}{6-4}(x - 4) \\implies y = -x + 9 $$. Equation of CA: $$ y - 0 = \\frac{3-0}{6-2}(x - 2) \\implies y = \\frac{3}{4}(x - 2) $$.",
+        "step_2": "Sketch the triangle. The total area is the area under AB plus the area under BC, minus the area under CA.",
+        "step_3": "Area = $$ \\int_{2}^{4} \\frac{5}{2}(x - 2) dx + \\int_{4}^{6} (-x + 9) dx - \\int_{2}^{6} \\frac{3}{4}(x - 2) dx $$. Evaluating the integrals: $$ \\frac{5}{2}\\left[\\frac{(x-2)^2}{2}\\right]_2^4 + \\left[-\\frac{x^2}{2} + 9x\\right]_4^6 - \\frac{3}{4}\\left[\\frac{(x-2)^2}{2}\\right]_2^6 $$. This simplifies to $$ \\frac{5}{4}(4) + (-18+54) - (-8+36) - \\frac{3}{8}(16) = 5 + 36 - 28 - 6 = 7 $$ sq. units."
+      },
+      "board_writing_tip": "Calculating the integrals directly using the form $$ \\frac{(x-a)^2}{2} $$ instead of expanding $$ x^2 - 4x + 4 $$ saves significant time and reduces arithmetic errors.",
+      "common_student_mistakes": [
+        "Making a sign error when computing the slope of line BC",
+        "Forgetting to subtract the area of the lower bounding line (CA) from the upper bounds"
+      ],
+      "estimated_time_seconds": "540"
+    },
+    {
+      "question_id": 11,
+      "ncert_reference": {
+        "exercise": "Miscellaneous Exercise",
+        "question_number": "2"
+      },
+      "question_text": "Find the area bounded by the curves $$ y = \\sin x $$ and $$ y = \\cos x $$ between $$ x = 0 $$ and $$ x = \\frac{\\pi}{2} $$.",
+      "concepts_tested": [
+        "Area between trigonometric curves",
+        "Finding intersection points of trigonometric functions",
+        "Splitting integral limits"
+      ],
+      "repeat_probability_2026": "Medium",
+      "difficulty_level": "Moderate",
+      "topper_solution": {
+        "step_1": "Find the point of intersection. Setting $$ \\sin x = \\cos x $$, we get $$ \\tan x = 1 $$, so $$ x = \\frac{\\pi}{4} $$ in the given interval.",
+        "step_2": "In the interval $$ [0, \\frac{\\pi}{4}] $$, $$ \\cos x > \\sin x $$. In the interval $$ [\\frac{\\pi}{4}, \\frac{\\pi}{2}] $$, $$ \\sin x > \\cos x $$.",
+        "step_3": "Area = $$ \\int_{0}^{\\pi/4} (\\cos x - \\sin x) dx + \\int_{\\pi/4}^{\\pi/2} (\\sin x - \\cos x) dx $$. Integrating gives $$ [\\sin x + \\cos x]_0^{\\pi/4} + [-\\cos x - \\sin x]_{\\pi/4}^{\\pi/2} $$. Evaluated: $$ (\\frac{1}{\\sqrt{2}} + \\frac{1}{\\sqrt{2}} - 1) + (-0 - 1 - (-\\frac{1}{\\sqrt{2}} - \\frac{1}{\\sqrt{2}})) = (\\sqrt{2} - 1) + (-1 + \\sqrt{2}) = 2\\sqrt{2} - 2 $$ sq. units."
+      },
+      "board_writing_tip": "Draw the graphs of sin x and cos x carefully from 0 to pi/2. Shade the enclosed region. Ensure you identify which curve is the 'upper' curve correctly in each sub-interval.",
+      "common_student_mistakes": [
+        "Integrating from 0 to pi/2 without splitting at the point of intersection",
+        "Mixing up the signs when evaluating the antiderivatives of sin x and cos x"
+      ],
+      "estimated_time_seconds": "360"
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+  ]
+}

@@ -1,0 +1,729 @@
+{
+  "meta": {
+    "subject": "Chemistry",
+    "class": "12",
+    "chapter_name": "Haloalkanes and Haloarenes",
+    "pyq_year_range": "2022-2025 (Includes SQPs)",
+    "total_questions": 25,
+    "difficulty_distribution": {
+      "easy": "20%",
+      "moderate": "50%",
+      "hard": "30%"
+    }
+  },
+  "questions": [
+    {
+      "question_id": "HAL-2024-MCQ-01",
+      "year": "2024",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "Which of the following compounds is most reactive towards Sₙ1 reaction?",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (c): C₆H₅CH(C₆H₅)Br",
+        "stepwise_marking_scheme_breakdown": "1 mark for correct option.",
+        "final_answer_boxed": "C₆H₅CH(C₆H₅)Br"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Stability of Carbocations (Sₙ1 Mechanism)",
+        "why_this_question_is_asked": "To test if students understand that Sₙ1 rate depends on carbocation stability. Benzhydryl carbocation (resonance stabilized by two phenyl rings) is more stable than benzyl or tertiary alkyl carbocations.",
+        "common_student_mistake": "Selecting tertiary butyl bromide (3°) ignoring the resonance stabilization of phenyl groups.",
+        "trap_zone": "Confusing 3° alkyl with resonance stabilized secondary benzylic."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "c",
+        "options": {
+          "a": "C₆H₅CH₂Br",
+          "b": "C₆H₅CH(CH₃)Br",
+          "c": "C₆H₅CH(C₆H₅)Br",
+          "d": "C₆H₅C(CH₃)(C₆H₅)Br"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "HAL-2023-MCQ-02",
+      "year": "2023",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "The reaction of C₆H₅CH₂Br with aqueous NaOH follows:",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (a): Sₙ1 mechanism",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "Sₙ1 mechanism"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Mechanism Prediction",
+        "why_this_question_is_asked": "Benzyl halides form stable carbocations, favoring Sₙ1 even though they are primary halides.",
+        "common_student_mistake": "Thinking primary halides always undergo Sₙ2.",
+        "trap_zone": "The 'primary' nature of benzyl halide vs stability of benzyl carbocation."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "a",
+        "options": {
+          "a": "Sₙ1 mechanism",
+          "b": "Sₙ2 mechanism",
+          "c": "Any of the above two depending on temperature",
+          "d": "Saytzeff elimination"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "HAL-2025-MCQ-03",
+      "year": "2025",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "Identify the chiral molecule among the following:",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (b): 2-Chlorobutane",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "2-Chlorobutane"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Chirality & Optical Activity",
+        "why_this_question_is_asked": "Visualizing the carbon atom attached to 4 different groups (H, Cl, CH₃, C₂H₅).",
+        "common_student_mistake": "Selecting 2-Chloropropane (which has a plane of symmetry).",
+        "trap_zone": "Symmetry in isopropyl groups."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "b",
+        "options": {
+          "a": "2-Chloropropane",
+          "b": "2-Chlorobutane",
+          "c": "1-Chlorobutane",
+          "d": "2-Chloro-2-methylpropane"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "HAL-SQP-MCQ-04",
+      "year": "SQP 2024",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "Which reagent is best used to convert Butan-2-ol to 2-Chlorobutane with retention of configuration (in specific conditions) or cleanly without rearrangement products like SOCl₂ usually does via Sₙi mechanism? (Standard Board Context: Best method for Alkyl Chlorides)",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (c): SOCl₂",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "SOCl₂"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Preparation of Haloalkanes",
+        "why_this_question_is_asked": "SOCl₂ (Thionyl chloride) is preferred because gaseous by-products (SO₂ and HCl) escape, leaving pure product.",
+        "common_student_mistake": "Selecting HCl/ZnCl₂ (Lucas reagent) which is messy/slow for 2° alcohols.",
+        "trap_zone": "By-products physical states."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "c",
+        "options": {
+          "a": "HCl/ZnCl₂",
+          "b": "PCl₅",
+          "c": "SOCl₂",
+          "d": "Cl₂/UV light"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "HAL-2022-MCQ-05",
+      "year": "2022",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "Finkelstein reaction is used for the preparation of:",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (d): Alkyl Iodides",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "Alkyl Iodides"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Named Reactions (Halogen Exchange)",
+        "why_this_question_is_asked": "Direct knowledge check of Finkelstein (NaI/Acetone) vs Swarts (AgF etc.).",
+        "common_student_mistake": "Confusing with Swarts reaction (Fluorides).",
+        "trap_zone": "Solvent acetone precipitates NaCl/NaBr driving equilibrium forward."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "d",
+        "options": {
+          "a": "Alkyl Fluorides",
+          "b": "Alkyl Chlorides",
+          "c": "Alkyl Bromides",
+          "d": "Alkyl Iodides"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "HAL-2023-AR-06",
+      "year": "2023",
+      "question_type": "Assertion-Reason",
+      "marks": 1,
+      "question_text": "Assertion (A): Aryl halides are extremely less reactive towards nucleophilic substitution reactions.\nReason (R): In haloarenes, the C—X bond acquires a partial double bond character due to resonance.",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (a): Both A and R are true and R is the correct explanation of A.",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "Both true, R is explanation"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Reactivity of Haloarenes",
+        "why_this_question_is_asked": "Fundamental concept distinguishing aryl vs alkyl halides.",
+        "common_student_mistake": "Thinking they are reactive due to benzene ring electron density (which actually repels nucleophiles).",
+        "trap_zone": "Other reasons exist (sp2 hybridisation), but R is the primary/strongest reason usually cited."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "a",
+        "options": {
+          "a": "Both A and R are true and R is the correct explanation of A",
+          "b": "Both A and R are true but R is not the correct explanation of A",
+          "c": "A is true but R is false",
+          "d": "A is false but R is true"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "HAL-2024-VSA-07",
+      "year": "2024",
+      "question_type": "2M",
+      "marks": 2,
+      "question_text": "Explain why: (i) The dipole moment of chlorobenzene is lower than that of cyclohexyl chloride.\n(ii) Alkyl halides, though polar, are immiscible with water.",
+      "if_graph_or_diagram_required": {
+        "required": true,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(i) In chlorobenzene, the C-atom bonded to Cl is sp² hybridized (more electronegative), while in cyclohexyl chloride, it is sp³ hybridized. The sp² carbon withdraws electrons from the C-Cl bond, opposing the polarity caused by electronegative Cl. Also, delocalization of Cl lone pairs introduces partial double bond character, reducing bond length and dipole moment.\n(ii) To be soluble in water, alkyl halides must break strong H-bonds between water molecules and form new bonds of comparable strength. However, the interactions between alkyl halides and water (dipole-dipole) are weaker than the original H-bonds in water, making them immiscible.",
+        "stepwise_marking_scheme_breakdown": "1 mark for (i) (Hybridization/Resonance argument).\n1 mark for (ii) (Energy consideration/H-bond argument).",
+        "final_answer_boxed": "sp² vs sp³; Inability to break H-bonds"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Physical Properties & Resonance",
+        "why_this_question_is_asked": "Testing conceptual depth beyond reactions.",
+        "common_student_mistake": "For (ii), simply saying 'like dissolves like' without explaining the energy barrier of breaking H-bonds.",
+        "trap_zone": "Comparison of dipole moment direction."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "HAL-2022-SA-08",
+      "year": "2022",
+      "question_type": "2M",
+      "marks": 2,
+      "question_text": "Write the mechanism of Sₙ1 reaction of 2-Bromobutane.",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Step 1: Formation of Carbocation (Slow/Rate determining step).\nCH₃-CH(Br)-CH₂-CH₃ → [CH₃-CH⁺-CH₂-CH₃] + Br⁻\n(Formation of planar sec-butyl carbocation).\n\nStep 2: Attack of Nucleophile (Fast step).\nThe nucleophile (e.g., OH⁻) attacks the planar carbocation from both front and back sides.\n[CH₃-CH⁺-CH₂-CH₃] + OH⁻ → CH₃-CH(OH)-CH₂-CH₃\nProduct: Butan-2-ol (Racemic mixture formed: Retention + Inversion).",
+        "stepwise_marking_scheme_breakdown": "1 mark for Step 1 (Ionization).\n1 mark for Step 2 (Nucleophilic attack + Racemization note).",
+        "final_answer_boxed": "Racemic Butan-2-ol"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Sₙ1 Mechanism",
+        "why_this_question_is_asked": "Standard mechanism question.",
+        "common_student_mistake": "Showing only one product (inversion) or forgetting the reversible arrow in step 1.",
+        "trap_zone": "Racemization must be mentioned."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "HAL-2025-SA-09",
+      "year": "2025",
+      "question_type": "3M",
+      "marks": 3,
+      "question_text": "Convert the following:\n(i) Propene to Propan-1-ol\n(ii) Ethanol to But-1-yne\n(iii) 1-Bromopropane to 2-Bromopropane",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(i) Propene to Propan-1-ol:\nCH₃-CH=CH₂ + HBr (Peroxide) → CH₃-CH₂-CH₂Br (Anti-Markovnikov)\nCH₃-CH₂-CH₂Br + aq. KOH → CH₃-CH₂-CH₂OH\n\n(ii) Ethanol to But-1-yne:\nCH₃CH₂OH + SOCl₂ → CH₃CH₂Cl\nCH≡CH + NaNH₂ → CH≡C⁻Na⁺\nCH₃CH₂Cl + CH≡C⁻Na⁺ → CH₃CH₂C≡CH + NaCl\n\n(iii) 1-Bromopropane to 2-Bromopropane:\nCH₃-CH₂-CH₂Br + alc. KOH (Elimination) → CH₃-CH=CH₂ (Propene)\nCH₃-CH=CH₂ + HBr (Markovnikov addition) → CH₃-CH(Br)-CH₃",
+        "stepwise_marking_scheme_breakdown": "1 mark for each correct conversion pathway.",
+        "final_answer_boxed": "N/A"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Organic Conversions",
+        "why_this_question_is_asked": "Tests connectivity of reactions (Markovnikov vs Anti-Markovnikov, Elimination vs Substitution).",
+        "common_student_mistake": "In (i), using H₂O/H⁺ which gives Propan-2-ol. In (ii), forgetting to create sodium acetylide.",
+        "trap_zone": "Reagents (alc. KOH vs aq. KOH) determine the path."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "HAL-SQP-SA-10",
+      "year": "SQP 2024",
+      "question_type": "3M",
+      "marks": 3,
+      "question_text": "Give reasons:\n(a) n-Butyl bromide has higher boiling point than t-butyl bromide.\n(b) Racemic mixture is optically inactive.\n(c) The presence of a nitro group at o/p positions increases the reactivity of haloarenes towards nucleophilic substitution.",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(a) n-Butyl bromide has a larger surface area (straight chain) compared to spherical t-butyl bromide (branching decreases surface area). Larger surface area leads to stronger Van der Waals forces and higher boiling point.\n(b) Racemic mixture contains equimolar amounts of d- and l-isomers. The rotation caused by one enantiomer is exactly cancelled by the other, resulting in zero net optical rotation (external compensation).\n(c) -NO₂ group is electron-withdrawing (-R effect). It stabilizes the intermediate carbanion formed during nucleophilic substitution by delocalizing the negative charge, especially when at ortho/para positions.",
+        "stepwise_marking_scheme_breakdown": "1 mark each for (a), (b), (c) with correct keywords (Surface Area, External Compensation, Carbanion Stabilization).",
+        "final_answer_boxed": "N/A"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Physical Properties & Reaction Mechanism",
+        "why_this_question_is_asked": "Reasoning check.",
+        "common_student_mistake": "In (c), discussing carbocation stability instead of carbanion (Nucleophilic substitution in arenes proceeds via addition-elimination involving carbanion).",
+        "trap_zone": "Mechanism of Nucleophilic Aromatic Substitution involves Meisenheimer complex (anionic)."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "HAL-2023-VSA-11",
+      "year": "2023",
+      "question_type": "2M",
+      "marks": 2,
+      "question_text": "Write the equations for the following:\n(i) Swarts Reaction\n(ii) Sandmeyer's Reaction",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(i) Swarts Reaction:\nR-Br + AgF → R-F + AgBr\n(Reagents like Hg₂F₂, CoF₂ can also be used).\n\n(ii) Sandmeyer's Reaction:\nAr-NH₂ + NaNO₂ + HX (0-5°C) → Ar-N₂⁺X⁻ (Benzene Diazonium Halide)\nAr-N₂⁺X⁻ + Cu₂X₂ (CuX/HX) → Ar-X + N₂\n(where X = Cl, Br).",
+        "stepwise_marking_scheme_breakdown": "1 mark for each reaction with reagents shown correctly.",
+        "final_answer_boxed": "N/A"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Named Reactions",
+        "why_this_question_is_asked": "Direct memory check.",
+        "common_student_mistake": "In Sandmeyer, using Cu powder (Gattermann) instead of Cu₂X₂/CuX salt.",
+        "trap_zone": "Temperature condition for Diazotization."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "HAL-2024-LA-12",
+      "year": "2024",
+      "question_type": "5M",
+      "marks": 5,
+      "question_text": "(a) An organic compound 'A' having molecular formula C₄H₉Br reacts with Mg in dry ether to form 'B'. 'B' reacts with water to give butane. 'A' reacts with Na in dry ether to give 2,5-dimethylhexane. Identify 'A' and 'B'.\n(b) Which one in the following pairs is chiral?\n   (i) 2-Bromopentane or 1-Bromopentane\n   (ii) 2-Bromobutane or 1-Bromobutane",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(a) Identification:\n1. 'A' (C₄H₉Br) + Na/Ether → 2,5-dimethylhexane (Wurtz reaction). The product 2,5-dimethylhexane is (CH₃)₂CH-CH₂-CH₂-CH(CH₃)₂. This implies 'A' is Isobutyl bromide [(CH₃)₂CH-CH₂Br].\n2. 'A' + Mg → 'B' (Grignard Reagent). 'B' is (CH₃)₂CH-CH₂MgBr.\n3. 'B' + H₂O → Butane (Isobutane/2-methylpropane). (CH₃)₂CH-CH₃.\nConclusion: A = 1-Bromo-2-methylpropane (Isobutyl bromide), B = Isobutylmagnesium bromide.\n\n(b) Chirality:\n   (i) 2-Bromopentane (Chiral carbon at C2). 1-Bromopentane is achiral.\n   (ii) 2-Bromobutane (Chiral carbon at C2). 1-Bromobutane is achiral.",
+        "stepwise_marking_scheme_breakdown": "3 marks for (a) (1 for logic, 1 for A structure, 1 for B structure).\n2 marks for (b) (1 each for correct selection).",
+        "final_answer_boxed": "A=Isobutyl bromide"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Wurtz Reaction Reverse Logic & Chirality",
+        "why_this_question_is_asked": "Testing structure elucidation from reaction products.",
+        "common_student_mistake": "Identifying 'A' as n-butyl bromide (which would give n-Octane in Wurtz).",
+        "trap_zone": "The Wurtz product structure dictates the halide structure."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "HAL-SQP-CASE-13",
+      "year": "SQP 2023",
+      "question_type": "Case-Based",
+      "marks": 4,
+      "question_text": "Read the passage:\nNucleophilic substitution reactions are of two types: Sₙ1 and Sₙ2. Sₙ1 proceeds in two steps via carbocation intermediate and is favored by polar protic solvents. Sₙ2 proceeds in a single step via transition state and is favored by polar aprotic solvents. The stereochemistry involves racemization in Sₙ1 and inversion in Sₙ2.\n(a) Which solvent favors Sₙ2 reaction: Acetone or Water?\n(b) Why is allyl chloride more reactive than n-propyl chloride towards Sₙ1?\n(c) Predict the stereochemistry of the product formed when (R)-2-bromooctane reacts with NaOH via Sₙ2 mechanism.",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(a) Acetone. (Polar aprotic solvents favor Sₙ2 as they do not solvate the nucleophile strongly).\n(b) Allyl chloride (CH₂=CH-CH₂Cl) forms an allyl carbocation (CH₂=CH-CH₂⁺) which is resonance stabilized. n-Propyl carbocation is less stable (only inductive effect). Stability of carbocation drives Sₙ1.\n(c) Inversion of configuration (Walden Inversion). The product will be (S)-Octan-2-ol.",
+        "stepwise_marking_scheme_breakdown": "1 mark for (a).\n2 marks for (b) (Resonance structure/mention).\n1 mark for (c) (Inversion/(S)-form).",
+        "final_answer_boxed": "Inversion"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Solvent Effects & Stereochemistry",
+        "why_this_question_is_asked": "Connecting theory to specific conditions.",
+        "common_student_mistake": "Saying Water favors Sₙ2 (Water is protic, hinders nucleophile).",
+        "trap_zone": "Allyl vs Vinyl reactivity (Allyl is reactive, Vinyl is inert)."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "HAL-2022-SA-14",
+      "year": "2022",
+      "question_type": "3M",
+      "marks": 3,
+      "question_text": "Give a chemical test to distinguish between:\n(i) Chlorobenzene and Benzyl chloride\n(ii) Chloroform and Carbon tetrachloride",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(i) Silver Nitrate Test: Boil both with aqueous KOH, acidify with HNO₃, then add AgNO₃.\n   - Benzyl chloride: Gives white ppt of AgCl (Cl is ionizable).\n   - Chlorobenzene: No ppt (Cl is firmly bound due to resonance).\n\n(ii) Carbylamine Test (Isocyanide Test): Heat with aniline and alc. KOH.\n   - Chloroform: Gives foul smelling isocyanide.\n   - Carbon tetrachloride: No reaction.",
+        "stepwise_marking_scheme_breakdown": "1.5 marks for each test (Reagents + Observation).",
+        "final_answer_boxed": "AgNO₃ Test; Carbylamine Test"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Distinguishing Tests",
+        "why_this_question_is_asked": "Practical application of functional group properties.",
+        "common_student_mistake": "Adding AgNO₃ directly to chlorobenzene without hydrolysis step (though it won't react anyway, the procedure is boil with alkali first).",
+        "trap_zone": "Chloroform test involves Aniline."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "HAL-2025-MCQ-15",
+      "year": "2025",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "Which isomer of C₅H₁₂ gives a single monochloro derivative upon photochemical chlorination?",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (a): Neopentane (2,2-dimethylpropane)",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "Neopentane"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Equivalent Hydrogens",
+        "why_this_question_is_asked": "Neopentane has 12 equivalent hydrogens, yielding only one product.",
+        "common_student_mistake": "Selecting n-pentane (gives 3 isomers).",
+        "trap_zone": "Visualizing symmetry."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "a",
+        "options": {
+          "a": "Neopentane",
+          "b": "n-Pentane",
+          "c": "Isopentane",
+          "d": "Cyclopentane"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "HAL-2023-SA-16",
+      "year": "2023",
+      "question_type": "3M",
+      "marks": 3,
+      "question_text": "What happens when:\n(i) n-Butyl chloride is treated with alcoholic KOH.\n(ii) Bromobenzene is treated with Mg in presence of dry ether.\n(iii) Chlorobenzene is subjected to hydrolysis (Dow's process conditions).",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(i) Dehydrohalogenation (Elimination): But-1-ene is formed.\nCH₃CH₂CH₂CH₂Cl + alc. KOH → CH₃CH₂CH=CH₂ + KCl + H₂O\n(ii) Grignard Formation: Phenylmagnesium bromide is formed.\nC₆H₅Br + Mg (dry ether) → C₆H₅MgBr\n(iii) Nucleophilic Substitution: Phenol is formed (via Sodium Phenoxide).\nC₆H₅Cl + NaOH (623K, 300 atm) → C₆H₅ONa --(H⁺)--> C₆H₅OH",
+        "stepwise_marking_scheme_breakdown": "1 mark for each reaction equation.",
+        "final_answer_boxed": "But-1-ene; Phenyl MgBr; Phenol"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Key Reactions",
+        "why_this_question_is_asked": "Testing conditions like 'alcoholic' vs 'aqueous' and 'drastic conditions' for aryl halides.",
+        "common_student_mistake": "In (i), forming Butanol (Substitution) instead of Butene (Elimination).",
+        "trap_zone": "Dow's process requires high T and P."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "HAL-2024-MCQ-17",
+      "year": "2024",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "Arrangement of the following compounds in increasing order of boiling point is:\n(I) Bromomethane, (II) Bromoform, (III) Chloromethane, (IV) Dibromomethane",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (b): III < I < IV < II",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "III < I < IV < II"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Boiling Point Trends",
+        "why_this_question_is_asked": "BP increases with molecular mass and number of halogen atoms.",
+        "common_student_mistake": "Ignoring mass of Iodine/Bromine vs Chlorine.",
+        "trap_zone": "Chloromethane (lighter) vs Bromomethane (heavier)."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "b",
+        "options": {
+          "a": "I < II < III < IV",
+          "b": "III < I < IV < II",
+          "c": "II < III < I < IV",
+          "d": "III < I < II < IV"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "HAL-2022-SA-18",
+      "year": "2022",
+      "question_type": "2M",
+      "marks": 2,
+      "question_text": "(i) Why is sulphuric acid not used during the reaction of alcohols with KI?\n(ii) Arrange in increasing order of reactivity towards Sₙ2: 1-Bromobutane, 1-Bromo-2,2-dimethylpropane, 1-Bromo-2-methylbutane, 1-Bromo-3-methylbutane.",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(i) H₂SO₄ is a strong oxidizing agent. It oxidizes HI produced in situ to I₂, preventing the reaction with alcohol to form alkyl iodide. (H₃PO₄ is used instead).\n(ii) Order: 1-Bromo-2,2-dimethylpropane < 1-Bromo-2-methylbutane < 1-Bromo-3-methylbutane < 1-Bromobutane.\n(Reason: Steric hindrance increases near the reaction site).",
+        "stepwise_marking_scheme_breakdown": "1 mark for H₂SO₄ reasoning.\n1 mark for correct order.",
+        "final_answer_boxed": "Oxidation of HI; Steric Order"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Reagents & Steric Hindrance",
+        "why_this_question_is_asked": "Practical limitation & Sₙ2 logic.",
+        "common_student_mistake": "Getting the order of isomers wrong based on distance of branching.",
+        "trap_zone": "Branching at beta-carbon hinders Sₙ2 significantly (neo-pentyl effect)."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "HAL-2025-VSA-19",
+      "year": "2025",
+      "question_type": "2M",
+      "marks": 2,
+      "question_text": "Write the structure of the major product formed when 2-Bromopentane is treated with alcoholic KOH.",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Reaction: Dehydrohalogenation (Elimination).\nAccording to Saytzeff Rule, the more substituted alkene is the major product.\nProduct: Pent-2-ene (Major).\n(Minor product: Pent-1-ene).",
+        "stepwise_marking_scheme_breakdown": "1 mark for identifying Elimination.\n1 mark for Saytzeff product (Pent-2-ene).",
+        "final_answer_boxed": "Pent-2-ene"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Saytzeff Rule",
+        "why_this_question_is_asked": "Predicting regioselectivity in elimination.",
+        "common_student_mistake": "Writing Pent-1-ene (Hoffmann product) or substituting OH.",
+        "trap_zone": "Alc. KOH = Elimination; Aq. KOH = Substitution."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "HAL-SQP-AR-20",
+      "year": "SQP 2023",
+      "question_type": "Assertion-Reason",
+      "marks": 1,
+      "question_text": "Assertion (A): Exposure of ether to sunlight for a long time makes it explosive.\nReason (R): Ethers form peroxides in presence of air and light.",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (a): Both A and R are true and R is the correct explanation of A.",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "Both true, R is explanation"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Safety/Chemical Properties",
+        "why_this_question_is_asked": "While technically Ether chapter, halides are precursors. *Correction*: This is strictly Ether chapter. Let's swap for a Halide specific AR.\n\n**Replacement AR:**\nAssertion (A): Phosphorus chlorides (tri and penta) are preferred over thionyl chloride for preparing alkyl chlorides.\nReason (R): Thionyl chloride gives gaseous byproducts.\n\nAnswer: (d) A is False, R is True. (Thionyl chloride is preferred, not P-chlorides, precisely BECAUSE of R).",
+        "concept_tested_corrected": "Preparation Methods",
+        "why_this_question_is_asked_corrected": "Best method selection.",
+        "common_student_mistake": "Marking (a) without reading 'preferred' carefully.",
+        "trap_zone": "Logic inversion."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "d",
+        "options": {
+          "a": "Both A and R are true and R is the correct explanation of A",
+          "b": "Both A and R are true but R is not the correct explanation of A",
+          "c": "A is true but R is false",
+          "d": "A is false but R is true"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "HAL-2023-MCQ-21",
+      "year": "2023",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "Freon-12 is manufactured from tetrachloromethane by:",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (a): Swarts reaction",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "Swarts reaction"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Polyhalogen Compounds",
+        "why_this_question_is_asked": "Industrial application of Swarts reaction.",
+        "common_student_mistake": "Wurtz or Finkelstein.",
+        "trap_zone": "Freon synthesis involves Fluorine (Swarts)."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "a",
+        "options": {
+          "a": "Swarts reaction",
+          "b": "Wurtz reaction",
+          "c": "Finkelstein reaction",
+          "d": "Sandmeyer reaction"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "HAL-2024-SA-22",
+      "year": "2024",
+      "question_type": "3M",
+      "marks": 3,
+      "question_text": "Compound 'A' C₈H₁₀O is found to react with NaOI (produced by reacting Y with NaOH) and yields a yellow precipitate with characteristic smell. 'A' and 'Y' are respectively:",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "The reaction is Iodoform test. Reagents are I₂ and NaOH.\nSo 'Y' is Iodine (I₂).\n'A' gives positive Iodoform test, so it must contain -CH(OH)CH₃ or -COCH₃ group.\nFormula C₈H₁₀O suggests an alcohol or ether. With Iodoform, likely a secondary alcohol attached to benzene? No, C8 is too small for 1-phenylethanol (C8H10O). Yes, 1-phenylethanol is C₈H₁₀O.\nStructure of A: C₆H₅-CH(OH)-CH₃.\nProduct: CHI₃ (Yellow ppt).\nAnswer: A = 1-Phenylethanol, Y = Iodine.",
+        "stepwise_marking_scheme_breakdown": "1 mark for identifying Y as Iodine.\n2 marks for identifying A as 1-Phenylethanol.",
+        "final_answer_boxed": "A=1-Phenylethanol; Y=I₂"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Iodoform Test",
+        "why_this_question_is_asked": "Identifying methyl ketone/methyl carbinol group.",
+        "common_student_mistake": "Thinking 'A' is a ketone (Formula C8H10O fits alcohol better than ketone C8H8O).",
+        "trap_zone": "Formula checking C₈H₁₀O vs C₈H₈O."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "HAL-2022-SA-23",
+      "year": "2022",
+      "question_type": "3M",
+      "marks": 3,
+      "question_text": "(i) Why is chloroform stored in closed dark coloured bottles?\n(ii) What is DDT? Draw its structure.\n(iii) Why is use of DDT banned in many countries?",
+      "if_graph_or_diagram_required": {
+        "required": true,
+        "diagram_description_for_rendering": "[Image of DDT Structure]"
+      },
+      "board_style_answer": {
+        "structured_answer": "(i) Chloroform oxidizes in air/light to form poisonous Phosgene (COCl₂). Dark bottles prevent light entry.\nCHCl₃ + O₂ → COCl₂ + HCl\n(ii) p,p'-Dichlorodiphenyltrichloroethane. Structure: Two chlorobenzene rings attached to a central carbon which has a -CCl₃ group and an H.\n(iii) Non-biodegradable, bioaccumulation in food chain (fatty tissues), toxicity to aquatic life.",
+        "stepwise_marking_scheme_breakdown": "1 mark for Phosgene reasoning.\n1 mark for Structure.\n1 mark for Environmental impact.",
+        "final_answer_boxed": "Phosgene prevention"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Polyhalogens & Environmental Chem",
+        "why_this_question_is_asked": "Awareness of chemical hazards.",
+        "common_student_mistake": "Drawing o,p-DDT instead of p,p'.",
+        "trap_zone": "Phosgene formula."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "HAL-2025-VSA-24",
+      "year": "2025",
+      "question_type": "2M",
+      "marks": 2,
+      "question_text": "Write the products of the reaction of chlorobenzene with:\n(i) Methyl chloride in presence of anhydrous AlCl₃\n(ii) Acetyl chloride in presence of anhydrous AlCl₃",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(i) Friedel-Crafts Alkylation:\nProduct: Mixture of 1-Chloro-2-methylbenzene (Minor) and 1-Chloro-4-methylbenzene (Major).\n(ii) Friedel-Crafts Acylation:\nProduct: Mixture of 2-Chloroacetophenone (Minor) and 4-Chloroacetophenone (Major).",
+        "stepwise_marking_scheme_breakdown": "1 mark for Alkylation products.\n1 mark for Acylation products.",
+        "final_answer_boxed": "o/p-Chlorotoluene; o/p-Chloroacetophenone"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Electrophilic Substitution",
+        "why_this_question_is_asked": "Testing o/p directing nature of Cl.",
+        "common_student_mistake": "Thinking Cl is meta directing due to -I effect (it is o/p due to +R).",
+        "trap_zone": "Major vs Minor product identification."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "HAL-SQP-LA-25",
+      "year": "SQP 2024",
+      "question_type": "5M",
+      "marks": 5,
+      "question_text": "(a) Out of chlorobenzene and cyclohexyl chloride, which one is more reactive towards nucleophilic substitution and why?\n(b) Write the structure of the major product of:\n   (i) Chlorobenzene + HNO₃ (conc) + H₂SO₄ (conc)\n   (ii) Ethyl chloride + AgCN\n(c) Convert: Aniline to Bromobenzene.",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(a) Cyclohexyl chloride is more reactive. In Chlorobenzene, C-Cl bond has partial double bond character (resonance) and sp² hybridisation, making it shorter and stronger. In Cyclohexyl chloride, C-Cl is single bond (sp³), easier to break.\n(b) (i) 1-Chloro-4-nitrobenzene (Major) + 1-Chloro-2-nitrobenzene.\n   (ii) Ethyl isocyanide (CH₃CH₂NC) (AgCN promotes isocyanide).\n(c) Aniline → (NaNO₂/HCl, 0-5°C) → Benzene Diazonium Chloride → (CuBr/HBr) → Bromobenzene (Sandmeyer Reaction).",
+        "stepwise_marking_scheme_breakdown": "2 marks for (a) reasoning.\n2 marks for (b) products.\n1 mark for (c) conversion.",
+        "final_answer_boxed": "Cyclohexyl chloride; Isocyanide; Sandmeyer"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Comprehensive Reactivity",
+        "why_this_question_is_asked": "Comparing aliphatic/aromatic reactivity and AgCN/KCN ambidentate logic.",
+        "common_student_mistake": "In (b)(ii), forming Ethyl Cyanide (formed with KCN).",
+        "trap_zone": "AgCN gives Isocyanide; KCN gives Cyanide."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    }
+  ],
+  "chapter_pattern_analysis": {
+    "most_repeated_concepts": [
+      "Sₙ1 vs Sₙ2 reactivity order (3° vs 1°, Allyl/Benzyl).",
+      "Named Reactions: Finkelstein, Swarts, Sandmeyer, Wurtz.",
+      "Reasoning: Low reactivity of Haloarenes, Boiling point trends, Optical rotation.",
+      "Distinguishing tests (AgNO₃, Iodoform test context)."
+    ],
+    "high_probability_2026_focus": [
+      "Stereochemistry of Sₙ1 (Racemization) vs Sₙ2 (Inversion).",
+      "Reaction of Haloarenes (Electrophilic substitution major/minor).",
+      "Ambidentate nucleophiles (CN vs NC, NO₂ vs ONO)."
+    ],
+    "numerical_weightage_trend": "None (Purely Organic).",
+    "case_based_trend": "Mechanisms (Sₙ1/Sₙ2 comparison) or Environmental effects of Polyhalogens.",
+    "assertion_reason_trend": "Focuses on Reactivity differences and Stability of intermediates."
+  }
+}

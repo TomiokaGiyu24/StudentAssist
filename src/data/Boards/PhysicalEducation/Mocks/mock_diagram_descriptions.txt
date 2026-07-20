@@ -1,0 +1,91 @@
+=============================================
+PHYSICAL EDUCATION - MOCK TEST DIAGRAMS
+=============================================
+
+=== MOCK 1 ===
+
+Diagram name - Genu Valgum (Knock Knees)
+Used for - Question 5 (MCQ)
+Description - Illustration of legs where the knees touch each other while the ankles are separated by a gap. Used to identify "Knock Knees".
+
+---
+
+Diagram name - Staircase Method Fixture (7 Teams)
+Used for - Question 31 (Case Study)
+Description - A visual representation of a league tournament fixture using the Staircase method for 7 teams. Arrange matches in steps: 1-2, 1-3, ... 1-7 in the first column, then 2-3...2-7 in the second, forming a staircase pattern.
+
+---
+
+Diagram name - Javelin Throw Trajectory
+Used for - Question 32 (Case Study)
+Description - Diagram showing a javelin being released at a 45-degree angle. Show the parabolic path (trajectory). Label vectors/arrows for "Gravity" (downwards) and "Air Resistance" (opposing motion).
+
+---
+
+Diagram name - Special Olympics Logo
+Used for - Question 33 (Case Study)
+Description - The logo of the Special Olympics movement. Five human-like figures arranged in a circle, holding hands, symbolizing global acceptance and inclusion.
+
+=== MOCK 2 ===
+
+Diagram name - Lordosis (Swayback)
+Used for - Question 4 (MCQ)
+Description - Side profile of a human spine showing an exaggerated inward curve of the lower back (lumbar region), causing the abdomen to protrude.
+
+---
+
+Diagram name - Rikli & Jones Senior Citizen Tests
+Used for - Question 31 (Case Study)
+Description - A collage or representative image showing seniors performing fitness tests: Chair Stand (standing up from a chair), Arm Curl (lifting dumbbell), Chair Sit & Reach, and 8-Foot Up and Go.
+
+---
+
+Diagram name - Bicep Curl Lever (Class III)
+Used for - Question 32 (Case Study)
+Description - Diagram of an arm holding a dumbbell (Load) in the hand. The Elbow joint acts as the Fulcrum. The Bicep muscle attachment on the forearm acts as the Effort. Label: Fulcrum, Effort, Load. Shows Class III lever.
+
+=== MOCK 3 ===
+
+Diagram name - Scoliosis (Spinal Curvature)
+Used for - Question 4 (MCQ)
+Description - Back view of a human spine showing a sideways curvature, forming an 'S' or 'C' shape, deviating from the straight vertical line.
+
+---
+
+Diagram name - Senior Citizen Fitness Test Set
+Used for - Question 32 (Case Study)
+Description - Images depicting the specific tests mentioned: Chair Stand Test, Arm Curl Test, Chair Sit and Reach Test, and 6 Minute Walk Test. Shows elderly individuals performing these actions.
+
+=== MOCK 4 ===
+
+Diagram name - Round Shoulders
+Used for - Question 4 (MCQ)
+Description - Side profile of a person showing the shoulders slumped forward and the head leaning forward (Text Neck/Forward Head posture).
+
+---
+
+Diagram name - Harvard Step Test
+Used for - Question 31 (Case Study)
+Description - A person stepping up and down on a gym bench (approx 20 inches high). Shows the action of stepping up with one foot, then the other.
+
+---
+
+Diagram name - Knockout Fixture (11 Teams)
+Used for - Question 32 (Case Study)
+Description - A bracket diagram for a Knockout tournament with 11 teams. Shows 6 matches in Round 1 (11 teams - 5 Byes = 6 teams playing, 5 teams get Byes). Byes placed at: B1(Team 11), B2(Team 1), B3(Team 6), etc.
+
+=== MOCK 5 ===
+
+Diagram name - Kyphosis (Hunchback)
+Used for - Question 4 (MCQ)
+Description - Side profile of the upper body showing an excessive outward curvature of the upper back (thoracic spine), resulting in a hunchback appearance.
+
+---
+
+Diagram name - Knock Knees (Case Study)
+Used for - Question 32 (Case Study)
+Description - Illustration of a student (Rahul) standing with knees knocking against each other, highlighting the Genu Valgum deformity.
+
+=============================================
+END OF MOCK DIAGRAMS
+=============================================

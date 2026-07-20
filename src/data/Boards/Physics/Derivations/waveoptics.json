@@ -1,0 +1,302 @@
+{
+  "meta": {
+    "subject": "Physics",
+    "class": 12,
+    "board": "CBSE",
+    "chapter": "Wave Optics"
+  },
+  "derivations": [
+    {
+      "id": "ch10-01",
+      "title": "Refraction of a Plane Wave using Huygens' Principle (Snell's Law)",
+      "priority": "P1",
+      "priority_reason": "Top priority. One of the most frequently asked 3-mark questions in the board exam history.",
+      "marks": 3,
+      "diagram_required": true,
+      "diagram_description": "Plane wavefront AB incident on interface PP' separating medium 1 (v1) and medium 2 (v2). Ray 1 hits A at t=0. Ray 2 hits C at t=tau. Secondary wavelet from A travels distance v2*tau to E in medium 2. Tangent CE represents refracted wavefront. Normals drawn to show angle i and r.",
+      "derivation": {
+        "given_assumptions": [
+          "Plane wavefront AB incident at angle $i$ on interface.",
+          "Speed of light in medium 1 is $v_1$, in medium 2 is $v_2$.",
+          "Time taken for wavefront to travel from B to C is $\\tau$."
+        ],
+        "required": "Proof of Snell's Law: $n_1 \\sin i = n_2 \\sin r$.",
+        "steps": [
+          {
+            "text": "Distance $BC = v_1 \\tau$. During this time, secondary wavelet from A travels distance $AE = v_2 \\tau$ in medium 2.",
+            "latex": "BC = v_1 \\tau, \\quad AE = v_2 \\tau"
+          },
+          {
+            "text": "Consider right-angled triangle $\\Delta ABC$. Angle $\\angle BAC = i$.",
+            "latex": "\\sin i = \\frac{BC}{AC} = \\frac{v_1 \\tau}{AC}"
+          },
+          {
+            "text": "Consider right-angled triangle $\\Delta AEC$. Angle $\\angle ACE = r$.",
+            "latex": "\\sin r = \\frac{AE}{AC} = \\frac{v_2 \\tau}{AC}"
+          },
+          {
+            "text": "Divide $\\sin i$ by $\\sin r$:",
+            "latex": "\\frac{\\sin i}{\\sin r} = \\frac{v_1 \\tau / AC}{v_2 \\tau / AC} = \\frac{v_1}{v_2}"
+          },
+          {
+            "text": "By definition of refractive index $n = c/v$, so $v_1/v_2 = n_2/n_1$.",
+            "latex": "\\frac{\\sin i}{\\sin r} = \\frac{n_2}{n_1} \\implies n_1 \\sin i = n_2 \\sin r"
+          }
+        ],
+        "final_result": {
+          "text": "Snell's Law is verified.",
+          "latex": "\\frac{\\sin i}{\\sin r} = \\mu_{21}"
+        },
+        "examiner_notes": [
+          "Diagram must show the common hypotenuse AC.",
+          "Must explicitly label incident wavefront (AB) and refracted wavefront (CE).",
+          "Confusion between v1 and v2 leads to inverted Snell's law."
+        ],
+        "question_forms": [
+          "Verify Snell's law of refraction using Huygens' principle.",
+          "Use Huygens' principle to show how a plane wavefront propagates from a rarer to a denser medium."
+        ]
+      }
+    },
+    {
+      "id": "ch10-02",
+      "title": "Reflection of a Plane Wave using Huygens' Principle",
+      "priority": "P1",
+      "priority_reason": "High probability alternative to the Refraction derivation. 3 Marks.",
+      "marks": 3,
+      "diagram_required": true,
+      "diagram_description": "Plane wavefront AB incident on reflecting surface MN. Ray 1 touches A at t=0. Ray 2 touches C at t=tau. Secondary wavelet from A expands in same medium with speed v. Reflected wavefront CD is tangent to wavelet from A. Triangles ABC and ADC shown.",
+      "derivation": {
+        "given_assumptions": [
+          "Plane wavefront incident at angle $i$.",
+          "Wave speed $v$ is same for incident and reflected waves."
+        ],
+        "required": "Proof that Angle of Incidence $i$ = Angle of Reflection $r$.",
+        "steps": [
+          {
+            "text": "In time $\\tau$, ray at B reaches C. Distance $BC = v\\tau$.",
+            "latex": "BC = v\\tau"
+          },
+          {
+            "text": "In the same time, secondary wavelet from A grows to radius $AD = v\\tau$.",
+            "latex": "AD = v\\tau"
+          },
+          {
+            "text": "Compare right-angled triangles $\\Delta ABC$ and $\\Delta ADC$. Side AC is common. Side $BC = AD = v\\tau$. Angles at B and D are $90^\\circ$.",
+            "latex": "\\Delta ABC \\cong \\Delta ADC \\quad (RHS \\ Congruence)"
+          },
+          {
+            "text": "Therefore, corresponding angles are equal: $\\angle BAC = \\angle DCA$.",
+            "latex": "i = r"
+          }
+        ],
+        "final_result": {
+          "text": "Law of Reflection is verified.",
+          "latex": "\\angle i = \\angle r"
+        },
+        "examiner_notes": [
+          "Students often fail to mark the 90 degree angles between ray and wavefront.",
+          "Congruence condition (RHS or SAS) should be mentally checked.",
+          "Diagram must clearly show i and r."
+        ],
+        "question_forms": [
+          "Verify the law of reflection using Huygens' principle.",
+          "Show that angle of incidence equals angle of reflection using wave theory."
+        ]
+      }
+    },
+    {
+      "id": "ch10-03",
+      "title": "Conditions for Constructive and Destructive Interference (Analytical Treatment)",
+      "priority": "P2",
+      "priority_reason": "Mathematical foundation for YDSE. Often asked as 'Derive the expression for intensity at a point...'.",
+      "marks": 3,
+      "diagram_required": false,
+      "diagram_description": "None required, but phasor diagram is helpful.",
+      "derivation": {
+        "given_assumptions": [
+          "Two sources $S_1, S_2$ with displacements $y_1 = a \\cos \\omega t$ and $y_2 = a \\cos(\\omega t + \\phi)$.",
+          "Phase difference $\\phi$ is constant."
+        ],
+        "required": "Resultant Intensity $I$ and conditions for Max/Min.",
+        "steps": [
+          {
+            "text": "By principle of superposition, $y = y_1 + y_2$.",
+            "latex": "y = a \\cos \\omega t + a \\cos(\\omega t + \\phi)"
+          },
+          {
+            "text": "Using trigonometric identity $\\cos A + \\cos B = 2 \\cos\\frac{A+B}{2} \\cos\\frac{A-B}{2}$:",
+            "latex": "y = 2a \\cos(\\phi/2) \\cos(\\omega t + \\phi/2)"
+          },
+          {
+            "text": "Resultant amplitude is $A = 2a \\cos(\\phi/2)$. Intensity $I \\propto A^2$.",
+            "latex": "I = 4I_0 \\cos^2(\\phi/2)"
+          },
+          {
+            "text": "Constructive Interference (Maxima): $\\cos^2(\\phi/2) = 1 \\implies \\phi = 2n\\pi$.",
+            "latex": "\\text{Path Diff } \\Delta x = n\\lambda"
+          },
+          {
+            "text": "Destructive Interference (Minima): $\\cos^2(\\phi/2) = 0 \\implies \\phi = (2n+1)\\pi$.",
+            "latex": "\\text{Path Diff } \\Delta x = (n + \\frac{1}{2})\\lambda"
+          }
+        ],
+        "final_result": {
+          "text": "Intensity formula:",
+          "latex": "I = I_1 + I_2 + 2\\sqrt{I_1 I_2} \\cos\\phi"
+        },
+        "examiner_notes": [
+          "Don't confuse Phase Difference (phi) with Path Difference (x). Relation: phi = (2pi/lambda) * x.",
+          "Must list the conditions for n (0, 1, 2...) clearly."
+        ],
+        "question_forms": [
+          "Derive the expression for the intensity at a point in the interference pattern.",
+          "Obtain the conditions for constructive and destructive interference."
+        ]
+      }
+    },
+    {
+      "id": "ch10-04",
+      "title": "Fringe Width in Young's Double Slit Experiment (YDSE)",
+      "priority": "P1",
+      "priority_reason": "The defining derivation of Wave Optics. 5 Marks.",
+      "marks": 5,
+      "diagram_required": true,
+      "diagram_description": "Two slits S1 and S2 separated by distance d. Screen at distance D. Central point O on screen. Point P at distance x from O. Light rays S1P and S2P meet at P. Perpendicular S1M dropped on S2P to show path difference S2M.",
+      "derivation": {
+        "given_assumptions": [
+          "Slit separation $d$, Screen distance $D$.",
+          "Point P at distance $x$ from center.",
+          "Assumption: $D \\gg d$."
+        ],
+        "required": "Expression for Fringe Width $\\beta$.",
+        "steps": [
+          {
+            "text": "Path difference $\\Delta x = S_2P - S_1P$. From geometry ($S_2P^2 - S_1P^2$):",
+            "latex": "S_2P^2 - S_1P^2 = (D^2 + (x + d/2)^2) - (D^2 + (x - d/2)^2) = 2xd"
+          },
+          {
+            "text": "So, $(S_2P - S_1P)(S_2P + S_1P) = 2xd$. Since $D \\gg d$, $S_2P \\approx S_1P \\approx D$.",
+            "latex": "\\Delta x (2D) = 2xd \\implies \\Delta x = \\frac{xd}{D}"
+          },
+          {
+            "text": "For Bright Fringes (Maxima): $\\Delta x = n\\lambda$. Position $x_n$:",
+            "latex": "\\frac{x_n d}{D} = n\\lambda \\implies x_n = \\frac{n\\lambda D}{d}"
+          },
+          {
+            "text": "For Dark Fringes (Minima): $\\Delta x = (n + \\frac{1}{2})\\lambda$. Position $x'_n$:",
+            "latex": "x'_n = (n + \\frac{1}{2}) \\frac{\\lambda D}{d}"
+          },
+          {
+            "text": "Fringe Width $\\beta$ is distance between consecutive bright (or dark) fringes:",
+            "latex": "\\beta = x_{n+1} - x_n = \\frac{(n+1)\\lambda D}{d} - \\frac{n\\lambda D}{d}"
+          }
+        ],
+        "final_result": {
+          "text": "Fringe width expression:",
+          "latex": "\\beta = \\frac{\\lambda D}{d}"
+        },
+        "examiner_notes": [
+          "Approximation S2P + S1P = 2D is the key step.",
+          "Geometry method (S2P^2 - S1P^2) is preferred over small angle theta approximation in CBSE.",
+          "Must state that width is independent of n (fringes are equally spaced)."
+        ],
+        "question_forms": [
+          "Derive the expression for the fringe width in Young's double slit experiment.",
+          "Show that the dark and bright fringes in YDSE are equally spaced."
+        ]
+      }
+    },
+    {
+      "id": "ch10-05",
+      "title": "Diffraction at a Single Slit (Conditions for Minima)",
+      "priority": "P1",
+      "priority_reason": "Standard 3-mark derivation. Often confused with YDSE.",
+      "marks": 3,
+      "diagram_required": true,
+      "diagram_description": "Single slit LN of width 'a'. Parallel beam incident. Rays diffracted at angle theta meet at P on screen. Path difference between top (L) and bottom (N) ray is NP = a sin(theta). Slit divided into zones.",
+      "derivation": {
+        "given_assumptions": [
+          "Slit width $a$. Light wavelength $\\lambda$.",
+          "Diffraction angle $\\theta$."
+        ],
+        "required": "Condition for $n^{th}$ secondary minimum.",
+        "steps": [
+          {
+            "text": "Total path difference between edges of slit is $\\Delta = a \\sin\\theta$.",
+            "latex": ""
+          },
+          {
+            "text": "For 1st Minimum: Let $a \\sin\\theta = \\lambda$. Divide slit into 2 halves. Path difference between corresponding points in upper and lower half is $\\lambda/2$. They cancel out.",
+            "latex": "a \\sin\\theta_1 = \\lambda"
+          },
+          {
+            "text": "For 2nd Minimum: Let $a \\sin\\theta = 2\\lambda$. Divide slit into 4 quarters. Path diff between quarters is $\\lambda/2$. They cancel in pairs.",
+            "latex": "a \\sin\\theta_2 = 2\\lambda"
+          },
+          {
+            "text": "Generalizing for $n^{th}$ minimum:",
+            "latex": "a \\sin\\theta_n = n\\lambda"
+          }
+        ],
+        "final_result": {
+          "text": "Condition for minima:",
+          "latex": "a \\sin\\theta = n\\lambda"
+        },
+        "examiner_notes": [
+          "Major Confusion: For Diffraction, minima is n*lambda. For Interference, maxima is n*lambda. Do not mix them.",
+          "Must explain the 'dividing slit into halves' logic to get marks.",
+          "Central maximum width is 2*lambda*D/a."
+        ],
+        "question_forms": [
+          "Derive the condition for secondary minima in single slit diffraction.",
+          "Show that the angular width of the central maximum is 2lambda/a."
+        ]
+      }
+    },
+    {
+      "id": "ch10-06",
+      "title": "Refraction at Brewster's Angle (Polarization)",
+      "priority": "P2",
+      "priority_reason": "Simple derivation, often asked if Polarization is in syllabus. Checks basic geometry.",
+      "marks": 2,
+      "diagram_required": true,
+      "diagram_description": "Incident ray at angle ip. Reflected ray and Refracted ray are perpendicular (90 degrees).",
+      "derivation": {
+        "given_assumptions": [
+          "Light incident at polarizing angle $i_p$.",
+          "Reflected light is totally polarized.",
+          "Reflected and refracted rays are perpendicular."
+        ],
+        "required": "Relation between $\\mu$ and $i_p$.",
+        "steps": [
+          {
+            "text": "From diagram, angle of reflection is $i_p$. Angle of refraction is $r$. Since rays are perpendicular:",
+            "latex": "i_p + 90^\\circ + r = 180^\\circ \\implies r = 90^\\circ - i_p"
+          },
+          {
+            "text": "From Snell's Law:",
+            "latex": "\\mu = \\frac{\\sin i_p}{\\sin r}"
+          },
+          {
+            "text": "Substitute $r$:",
+            "latex": "\\mu = \\frac{\\sin i_p}{\\sin(90^\\circ - i_p)} = \\frac{\\sin i_p}{\\cos i_p}"
+          }
+        ],
+        "final_result": {
+          "text": "Brewster's Law:",
+          "latex": "\\mu = \\tan i_p"
+        },
+        "examiner_notes": [
+          "State clearly: Reflected and refracted rays are perpendicular at polarizing angle.",
+          "Often followed by a numerical."
+        ],
+        "question_forms": [
+          "Derive Brewster's law.",
+          "Show that at polarizing angle, the reflected and refracted rays are perpendicular to each other."
+        ]
+      },
+      "image": "/images/placeholder.svg"
+    }
+  ]
+}

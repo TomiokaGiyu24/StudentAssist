@@ -1,0 +1,239 @@
+{
+  "meta": {
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "board": "CBSE",
+    "exam": "Class 12 Board Examination"
+  },
+  "questions": [
+    {
+      "id": "55-4-3-Q8",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "Name the electromagnetic waves also known as 'heat waves'.",
+      "options": {
+        "A": "Radio waves",
+        "B": "Microwaves",
+        "C": "X-rays",
+        "D": "Infrared waves"
+      },
+      "answer": {
+        "explanation": "Infrared waves are produced by hot bodies and molecules. They are readily absorbed by water molecules, carbon dioxide, etc., increasing their thermal motion and heating the surroundings. Hence, they are called heat waves.",
+        "key_formulae": [],
+        "diagrams": []
+      },
+      "correct_option": "D",
+      "diagram_required": false,
+      "source": "55/4/3"
+    },
+    {
+      "id": "2255-5-3-Q9",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "The electromagnetic waves used to purify water are:",
+      "options": {
+        "A": "Infrared rays",
+        "B": "Ultraviolet rays",
+        "C": "X-rays",
+        "D": "Gamma rays"
+      },
+      "answer": {
+        "explanation": "Ultraviolet (UV) rays are used in water purifiers to kill germs and bacteria (germicidal action).",
+        "key_formulae": [],
+        "diagrams": []
+      },
+      "correct_option": "B",
+      "diagram_required": false,
+      "source": "2255/5/3"
+    },
+    {
+      "id": "55-4-1-Q5",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "The electromagnetic waves used in radar systems are:",
+      "options": {
+        "A": "Infrared waves",
+        "B": "Ultraviolet rays",
+        "C": "Microwaves",
+        "D": "X-rays"
+      },
+      "answer": {
+        "explanation": "Microwaves are used in radar systems because they have short wavelengths (compared to radio waves) suitable for directional transmission and can penetrate through clouds, fog, and rain.",
+        "key_formulae": [],
+        "diagrams": []
+      },
+      "correct_option": "C",
+      "diagram_required": false,
+      "source": "55/4/1"
+    },
+    {
+      "id": "2155-4-3-Q3",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "The phase difference between electric field $\\vec{E}$ and magnetic field $\\vec{B}$ in an electromagnetic wave propagating along z-axis is:",
+      "options": {
+        "A": "zero",
+        "B": "$\\pi$",
+        "C": "$\\pi/2$",
+        "D": "$\\pi/4$"
+      },
+      "answer": {
+        "explanation": "In an electromagnetic wave, the electric field and magnetic field oscillate in the same phase.",
+        "key_formulae": [],
+        "diagrams": []
+      },
+      "correct_option": "A",
+      "diagram_required": false,
+      "source": "2155/4/3"
+    },
+    {
+      "id": "13-55-3-3-Q8",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "A plane electromagnetic wave is travelling in air in +x direction. At a particular moment, its electric field $\\vec{E}$ is along +y direction. At that moment, the magnetic field $\\vec{B}$ is along:",
+      "options": {
+        "A": "+z direction and in phase with $\\vec{E}$",
+        "B": "-z direction and in phase with $\\vec{E}$",
+        "C": "+z direction and out of phase with $\\vec{E}$",
+        "D": "-z direction and out of phase with $\\vec{E}$"
+      },
+      "answer": {
+        "explanation": "The direction of propagation is given by $\\vec{E} \\times \\vec{B}$. Here $\\hat{i} = \\hat{j} \\times \\hat{B}$. Since $\\hat{j} \\times \\hat{k} = \\hat{i}$, the magnetic field must be along the +z direction. Fields in EM waves are always in phase.",
+        "key_formulae": [
+          "\\text{Direction} = \\vec{E} \\times \\vec{B}"
+        ],
+        "diagrams": []
+      },
+      "correct_option": "A",
+      "diagram_required": false,
+      "source": "13-55/3/3"
+    },
+    {
+      "id": "55-4-1-Q7",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "The amplitude of electric field in an electromagnetic wave in free space is 1000 V/m. The amplitude of the magnetic field in this electromagnetic wave is:",
+      "options": {
+        "A": "$3.0 \\times 10^{-3} T$",
+        "B": "$3.33 \\times 10^{-8} T$",
+        "C": "$3.0 \\times 10^{11} T$",
+        "D": "$3.33 \\times 10^{-6} T$"
+      },
+      "answer": {
+        "explanation": "The relationship between electric and magnetic field amplitudes is $E_0 = c B_0$. \n$B_0 = \\frac{E_0}{c} = \\frac{1000}{3 \\times 10^8} = 3.33 \\times 10^{-6} T$.",
+        "key_formulae": [
+          "B_0 = \\frac{E_0}{c}"
+        ],
+        "diagrams": []
+      },
+      "correct_option": "D",
+      "diagram_required": false,
+      "source": "55/4/1"
+    },
+    {
+      "id": "55-4-3-Q25",
+      "year": 2023,
+      "marks": 2,
+      "type": "theory",
+      "question": "(a) What is a displacement current? How is it different from a conduction current?\\nOR\n(b) Write any two characteristics of an electromagnetic wave. Why are microwaves used in radar systems?",
+      "options": {},
+      "answer": {
+        "explanation": "(a) \n**Displacement Current:** It is the current which comes into existence in a region where the electric field (or electric flux) changes with time. It is given by $I_d = \\epsilon_0 \\frac{d\\phi_E}{dt}$.\n**Difference:** Conduction current ($I_c$) arises due to the flow of charges (electrons/ions) in a conductor, whereas displacement current ($I_d$) arises due to the time-varying electric field in a dielectric or free space (e.g., between capacitor plates). $I_c$ exists in wires; $I_d$ exists in the gap.\n\n(b)\n**Characteristics:**\n1. They are transverse in nature.\n2. They travel with the speed of light ($c = 3 \\times 10^8$ m/s) in vacuum.\n3. Electric and magnetic fields oscillate perpendicular to each other and to the direction of propagation.\n\n**Microwaves in Radar:**\\nMicrowaves have short wavelengths (millimeters to centimeters), allowing them to be transmitted as a focused beam. They also penetrate atmosphere, clouds, and rain effectively without significant scattering, making them ideal for radar detection.",
+        "key_formulae": [
+          "I_d = \\epsilon_0 \\frac{d\\phi_E}{dt}"
+        ],
+        "diagrams": []
+      },
+      "diagram_required": false,
+      "source": "55/4/3"
+    },
+    {
+      "id": "2255-5-3-Q24",
+      "year": 2023,
+      "marks": 2,
+      "type": "theory",
+      "question": "(a) Name the parts of the electromagnetic spectrum which are (i) also known as 'heat waves' and (ii) absorbed by ozone layer in the atmosphere.\n(b) Write briefly one method each, of the production and detection of these radiations.",
+      "options": {},
+      "answer": {
+        "explanation": "(a)\n(i) **Heat waves:** Infrared waves.\n(ii) **Absorbed by Ozone:** Ultraviolet (UV) rays.\n\n(b)\n**Infrared waves:**\n- *Production:* Hot bodies and molecules (vibrational transitions).\n- *Detection:* Thermopiles, bolometers, or infrared photographic film.\n\n**Ultraviolet rays:**\n- *Production:* Inner shell electron transitions in atoms, sun, very hot bodies, or arc lamps.\n- *Detection:* Photocells or photographic film.",
+        "key_formulae": [],
+        "diagrams": []
+      },
+      "diagram_required": false,
+      "source": "2255/5/3"
+    },
+    {
+      "id": "55-6-1-Q25",
+      "year": 2023,
+      "marks": 3,
+      "type": "theory",
+      "question": "Name the electromagnetic wave used (i) in radar, (ii) in eye surgery and (iii) as diagnostic tool in medicine. Write their wavelength range also.",
+      "options": {},
+      "answer": {
+        "explanation": "(i) **In Radar:** Microwaves.\n   - *Wavelength Range:* $10^{-3}$ m to $0.1$ m (approx 1 mm to 100 mm).\n\n(ii) **In Eye Surgery (LASIK):** Ultraviolet rays.\n   - *Wavelength Range:* $10^{-9}$ m to $4 \\times 10^{-7}$ m (approx 1 nm to 400 nm).\n\n(iii) **Diagnostic Tool (Bone fracture):** X-rays.\n   - *Wavelength Range:* $10^{-12}$ m to $10^{-9}$ m (approx 0.001 nm to 1 nm).",
+        "key_formulae": [],
+        "diagrams": []
+      },
+      "diagram_required": false,
+      "source": "55/6/1"
+    },
+    {
+      "id": "55-5-3-Q9",
+      "year": 2023,
+      "marks": 3,
+      "type": "theory",
+      "question": "(a) (i) Arrange the following electromagnetic radiation in the ascending order of their frequencies: X-rays, microwaves, gamma rays, radio waves.\n(ii) Write two uses of any two of these radiation.",
+      "options": {},
+      "answer": {
+        "explanation": "(i) **Ascending Order of Frequencies:**\\nRadio waves < Microwaves < X-rays < Gamma rays\n\n(ii) **Uses:**\n- **Radio waves:** Radio and TV communication, Cellular phones.\n- **Microwaves:** Radar systems, Microwave ovens.\n- **X-rays:** Medical diagnosis (detecting fractures), crystallography.\n- **Gamma rays:** Cancer treatment (radiotherapy), nuclear research.",
+        "key_formulae": [
+          "\\nu_{radio} < \\nu_{micro} < \\nu_{x-ray} < \\nu_{gamma}"
+        ],
+        "diagrams": []
+      },
+      "diagram_required": false,
+      "source": "55/5/3"
+    },
+    {
+      "id": "13-55-3-2-Q25",
+      "year": 2023,
+      "marks": 3,
+      "type": "numerical",
+      "question": "The electric field of an electromagnetic wave in vacuum is given by: $\\vec{E}=(6.3~N/C)[\\cos((1.5~rad/m)y+(4.5\\times10^{8}~rad/s)t)]\\hat{i}$.\n(a) Find the wavelength and frequency of the wave.\n(b) What is the amplitude of the magnetic field of the wave?\n(c) Write the expression for the magnetic field of this wave.",
+      "options": {},
+      "answer": {
+        "explanation": "GIVEN:\\nStandard form: $E = E_0 \\cos(ky + \\omega t) \\hat{i}$.\n$E_0 = 6.3$ N/C, $k = 1.5$ rad/m, $\\omega = 4.5 \\times 10^8$ rad/s.\\nDirection of propagation: $-y$ (due to $+ \\omega t$ term). Direction of E: $+x$ ($\\hat{i}$).\n\n(a) **Wavelength & Frequency:**\n   $\\lambda = \\frac{2\\pi}{k} = \\frac{2\\pi}{1.5} = \\frac{2\\pi}{3/2} = \\frac{4\\pi}{3} \\approx 4.19$ m.\n   $\\nu = \\frac{\\omega}{2\\pi} = \\frac{4.5 \\times 10^8}{2\\pi} \\approx 0.716 \\times 10^8 = 7.16 \\times 10^7$ Hz (or 71.6 MHz).\n\n(b) **Magnetic Field Amplitude ($B_0$):**\n   $B_0 = \\frac{E_0}{c} = \\frac{6.3}{3 \\times 10^8} = 2.1 \\times 10^{-8}$ T.\n\n(c) **Expression for $\\vec{B}$:**\n   - Magnitude: $B = B_0 \\cos(ky + \\omega t)$.\n   - Direction: $\\vec{E} \\times \\vec{B}$ must point in direction of propagation ($-y$ or $-\\hat{j}$).\n   - $\\hat{i} \\times \\hat{?} = -\\hat{j}$. Since $\\hat{i} \\times \\hat{k} = -\\hat{j}$, the B-field is along $+\\hat{k}$ (z-axis).\n   - $\\vec{B} = (2.1 \\times 10^{-8} T) \\cos((1.5)y + (4.5 \\times 10^8)t) \\hat{k}$.",
+        "key_formulae": [
+          "k = \\frac{2\\pi}{\\lambda}",
+          "\\omega = 2\\pi\\nu",
+          "B_0 = E_0/c",
+          "\\text{Prop} = \\vec{E} \\times \\vec{B}"
+        ],
+        "diagrams": []
+      },
+      "diagram_required": false,
+      "source": "13-55/3/2"
+    },
+    {
+      "id": "2255-5-2-Q25",
+      "year": 2023,
+      "marks": 2,
+      "type": "theory",
+      "question": "Name the part of the electromagnetic spectrum which are:\n(i) stopped by face mask worn by welders.\n(ii) used in detectors in Earth satellites.\n(iii) used in 'short-wave band' in communication.\\nAlso write the order of wavelengths, in each case.",
+      "options": {},
+      "answer": {
+        "explanation": "(i) **Welders' mask:** Ultraviolet (UV) rays. (Produced by welding arcs, harmful to eyes).\n(ii) **Earth Satellites:** Infrared (IR) waves. (Used for remote sensing and military purposes).\n(iii) **Short-wave band:** Radio waves (High Frequency/Short Wave).\n\n**Order of Wavelengths:**\n$\\lambda_{Radio} > \\lambda_{IR} > \\lambda_{UV}$.\n(Radio: $> 0.1$ m, IR: $1$ mm to $700$ nm, UV: $400$ nm to $1$ nm).",
+        "key_formulae": [],
+        "diagrams": []
+      },
+      "diagram_required": false,
+      "source": "2255/5/2"
+    }
+  ]
+}

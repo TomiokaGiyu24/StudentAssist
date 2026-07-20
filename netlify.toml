@@ -1,0 +1,14 @@
+[build]
+  command = "npm install --force && npm run build"
+  publish = "dist"
+
+[build.environment]
+  NPM_FLAGS = "--force"
+
+[dev]
+  command = "npm run dev"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

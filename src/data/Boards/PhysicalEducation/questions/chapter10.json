@@ -1,0 +1,504 @@
+{
+  "meta": {
+    "subject": "Physical Education",
+    "class": 12,
+    "board": "CBSE",
+    "chapter": "Training in Sports",
+    "total_questions": 22
+  },
+  "questions": [
+    {
+      "id": "Q1",
+      "type": "mcq",
+      "marks": 1,
+      "priority": "P1",
+      "priority_reason": "Repeatedly asked definition in board exams; foundational concept.",
+      "question": "The term 'Fartlek' is a Swedish word that means:",
+      "options": {
+        "A": "Strength endurance",
+        "B": "Speed play",
+        "C": "Rhythmic running",
+        "D": "Continuous motion"
+      },
+      "correct_option": "B",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "Fartlek is a Swedish term meaning 'Speed Play', combining continuous training with varying speed.",
+        "key_points": [],
+        "final_answer": "Option B"
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "Q2",
+      "type": "mcq",
+      "marks": 1,
+      "priority": "P1",
+      "priority_reason": "Differentiating between exercise types is a core objective of this chapter.",
+      "question": "In which type of exercise is the length of the muscle constant and no visible movement observed?",
+      "options": {
+        "A": "Isotonic",
+        "B": "Isokinetic",
+        "C": "Isometric",
+        "D": "Aerobic"
+      },
+      "correct_option": "C",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "Isometric (Iso = same, metric = length) exercises involve muscle contraction without changing length.",
+        "key_points": [],
+        "final_answer": "Option C"
+      },
+      "source_basis": "ALLEN"
+    },
+    {
+      "id": "Q3",
+      "type": "mcq",
+      "marks": 1,
+      "priority": "P2",
+      "priority_reason": "Tests understanding of specific training methods and their originators.",
+      "question": "Who developed the Isokinetic method of training in 1968?",
+      "options": {
+        "A": "Morgan and Adamson",
+        "B": "J.J. Perrine",
+        "C": "Gosta Holmer",
+        "D": "Van Aaken"
+      },
+      "correct_option": "B",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "J.J. Perrine introduced Isokinetic exercises in 1968.",
+        "key_points": [],
+        "final_answer": "Option B"
+      },
+      "source_basis": "Reference Notes"
+    },
+    {
+      "id": "Q4",
+      "type": "mcq",
+      "marks": 1,
+      "priority": "P2",
+      "priority_reason": "Tests application of strength types to specific sports skills.",
+      "question": "Which type of strength is most essential for a high jumper during take-off?",
+      "options": {
+        "A": "Maximum Strength",
+        "B": "Strength Endurance",
+        "C": "Explosive Strength",
+        "D": "Static Strength"
+      },
+      "correct_option": "C",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "Explosive strength is the ability to overcome resistance with high speed, crucial for jumps.",
+        "key_points": [],
+        "final_answer": "Option C"
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "Q5",
+      "type": "assertion_reason",
+      "marks": 1,
+      "priority": "P2",
+      "priority_reason": "Checks conceptual clarity on Interval Training physiological principles.",
+      "question": "Assertion (A): In Interval Training method, the recovery period is incomplete.\nReason (R): Incomplete recovery ensures that the heart rate remains elevated, improving aerobic capacity.",
+      "options": {
+        "A": "Both A and R are true and R is the correct explanation of A.",
+        "B": "Both A and R are true but R is not the correct explanation of A.",
+        "C": "A is true but R is false.",
+        "D": "A is false but R is true."
+      },
+      "correct_option": "A",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "Interval training relies on the principle of effort and incomplete recovery to stress the cardiovascular system.",
+        "key_points": [],
+        "final_answer": "Option A"
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "Q6",
+      "type": "assertion_reason",
+      "marks": 1,
+      "priority": "P2",
+      "priority_reason": "Tests knowledge of Coordinative Abilities.",
+      "question": "Assertion (A): Coupling ability is crucial in gymnastics and team games.\nReason (R): It is the ability to coordinate body part movements with one another and in relation to a goal-oriented movement.",
+      "options": {
+        "A": "Both A and R are true and R is the correct explanation of A.",
+        "B": "Both A and R are true but R is not the correct explanation of A.",
+        "C": "A is true but R is false.",
+        "D": "A is false but R is true."
+      },
+      "correct_option": "A",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "Coupling ability defines the synchronization of body parts, which is essential for complex movements in gymnastics.",
+        "key_points": [],
+        "final_answer": "Option A"
+      },
+      "source_basis": "Reference Notes"
+    },
+    {
+      "id": "Q7",
+      "type": "very_short",
+      "marks": 2,
+      "priority": "P1",
+      "priority_reason": "High frequency 2-mark question differentiating training runs.",
+      "question": "Differentiate between 'Acceleration Run' and 'Pace Run'.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "**Acceleration Run:** Focuses on achieving maximum speed from a stationary position in the shortest time (e.g., short sprints).",
+          "**Pace Run:** Focuses on running a specific distance at a constant, pre-determined speed (e.g., 800m or 1500m races)."
+        ],
+        "final_answer": "Acceleration Run develops speed by achieving top speed from a stationary start, whereas Pace Run involves maintaining a uniform speed over a set distance to improve speed endurance."
+      },
+      "source_basis": "ALLEN"
+    },
+    {
+      "id": "Q8",
+      "type": "very_short",
+      "marks": 2,
+      "priority": "P2",
+      "priority_reason": "Definitional question often asked in VSA section.",
+      "question": "Define 'Flexibility' and name its two main types.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "**Definition:** The range of motion available at a joint.",
+          "**Types:** Active Flexibility and Passive Flexibility."
+        ],
+        "final_answer": "Flexibility is the ability of joints to move through their full range of motion. Its two main types are Passive Flexibility (with external help) and Active Flexibility (without external help)."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "Q9",
+      "type": "very_short",
+      "marks": 2,
+      "priority": "P3",
+      "priority_reason": "Safety net question regarding older/specific training methods.",
+      "question": "What is the main advantage of Circuit Training?",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Ensures development of general fitness components (strength, endurance, speed) simultaneously.",
+          "Can accommodate a large number of trainees at the same time."
+        ],
+        "final_answer": "Circuit training allows for the simultaneous development of strength and endurance, and it enables a large number of students to train together in a limited space."
+      },
+      "source_basis": "Reference Notes"
+    },
+    {
+      "id": "Q10",
+      "type": "very_short",
+      "marks": 2,
+      "priority": "P2",
+      "priority_reason": "Direct definition from the syllabus.",
+      "question": "What is 'Reaction Ability' in the context of coordinative abilities?",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Ability to react quickly and effectively to a signal.",
+          "Can be simple or complex."
+        ],
+        "final_answer": "Reaction Ability is the ability to react quickly and effectively to a signal or stimulus. It is classified into Simple Reaction Ability and Complex Reaction Ability."
+      },
+      "source_basis": "Reference Notes"
+    },
+    {
+      "id": "Q11",
+      "type": "short",
+      "marks": 3,
+      "priority": "P1",
+      "priority_reason": "Core concept; frequently asked difference.",
+      "question": "Differentiate between Isometric and Isotonic exercises with suitable examples.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "**Movement:** Isometric has no visible movement; Isotonic involves visible joint movement.",
+          "**Muscle Length:** Isometric length remains constant; Isotonic length changes (shortens/lengthens).",
+          "**Work Done:** Physically work is zero in Isometric; work is done in Isotonic.",
+          "**Examples:** Isometric: Pushing a wall, Plank. Isotonic: Bicep curls, Running."
+        ],
+        "final_answer": "1. **Visibility:** In Isometric exercises, work done is not directly visible (e.g., Pushing a wall), whereas in Isotonic exercises, movements are directly visible (e.g., Running).\n2. **Muscle Length:** Isometric exercises maintain constant muscle length, while Isotonic exercises involve concentric and eccentric contractions where muscle length changes.\n3. **Application:** Isometric is useful for rehabilitation; Isotonic is best for sports strength development."
+      },
+      "source_basis": "PYQ"
+    },
+    {
+      "id": "Q12",
+      "type": "short",
+      "marks": 3,
+      "priority": "P1",
+      "priority_reason": "High probability question on endurance training.",
+      "question": "Explain the 'Fartlek' training method. What are its advantages?",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "**Concept:** 'Speed Play'. Blends continuous training with interval training.",
+          "**Method:** Athlete changes speed and terrain according to surroundings/mood.",
+          "**Advantages:** preventing boredom, versatile, develops both aerobic and anaerobic systems."
+        ],
+        "final_answer": "**Fartlek Training (Speed Play):**\nThis method combines continuous training with speed variations. The athlete runs over natural terrain and changes speed (sprinting, jogging, walking) based on terrain or mood, not a fixed schedule.\n\n**Advantages:**\n1. It prevents boredom as it is not rigid.\n2. It develops both aerobic and anaerobic endurance.\n3. It requires no specific equipment and can be done anywhere."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "Q13",
+      "type": "short",
+      "marks": 3,
+      "priority": "P2",
+      "priority_reason": "Standard syllabus topic, often appears as a 3-marker.",
+      "question": "Describe the physiological factors determining speed.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Muscle Composition (Fast Twitch Fibers).",
+          "Explosive Strength.",
+          "Flexibility.",
+          "Mobility of Nervous System."
+        ],
+        "final_answer": "The factors determining speed are:\n1. **Muscle Composition:** Higher percentage of Fast Twitch Fibers (White fibers) results in greater speed.\n2. **Explosive Strength:** The ability to overcome resistance quickly is essential for rapid movement.\n3. **Mobility of the Nervous System:** The speed of contraction and relaxation of muscles depends on the rapid excitation of the nervous system."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "Q14",
+      "type": "short",
+      "marks": 3,
+      "priority": "P2",
+      "priority_reason": "Important for understanding different strength applications.",
+      "question": "Briefly explain the three types of Strength.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Maximum Strength.",
+          "Explosive Strength.",
+          "Strength Endurance."
+        ],
+        "final_answer": "1. **Maximum Strength:** The ability to act against maximum resistance (e.g., Weightlifting, Roman Rings).\n2. **Explosive Strength:** The ability to overcome resistance with high speed (e.g., Shot-put, High Jump).\n3. **Strength Endurance:** The ability to overcome resistance under conditions of fatigue (e.g., Long-distance cycling, Swimming)."
+      },
+      "source_basis": "ALLEN"
+    },
+    {
+      "id": "Q15",
+      "type": "short",
+      "marks": 3,
+      "priority": "P3",
+      "priority_reason": "Specific topic from Reference Notes, ensures coverage of 'Coordinative Abilities'.",
+      "question": "Explain 'Orientation Ability' and 'Differentiation Ability' with examples.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Orientation: Position in space/time.",
+          "Differentiation: Fine tuning of movement."
+        ],
+        "final_answer": "1. **Orientation Ability:** The ability to determine and change the position of the body in space and time in relation to a field of action (e.g., a footballer positioning themselves to receive a pass).\n2. **Differentiation Ability:** The ability to achieve a high level of fine-tuning or accuracy of movement phases (e.g., a gymnast adjusting their body for a precise landing)."
+      },
+      "source_basis": "Reference Notes"
+    },
+    {
+      "id": "Q16",
+      "type": "long",
+      "marks": 5,
+      "priority": "P1",
+      "priority_reason": "Structural inevitability; Strength training methods are a major 5-mark topic.",
+      "question": "What is Strength? Explain the methods to improve strength in detail.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Definition of Strength.",
+          "Isometric Exercises (details).",
+          "Isotonic Exercises (details).",
+          "Isokinetic Exercises (details)."
+        ],
+        "final_answer": "**Definition:** Strength is the ability of the muscles to overcome or act against resistance.\n\n**Methods to Improve Strength:**\n\n1. **Isometric Exercises:**\n   * 'Iso' means same, 'metric' means length. Exercises where muscle length remains constant.\n   * Work done is scientifically zero but tension increases.\n   * **Example:** Pushing a wall, holding a plank.\n   * **Use:** Good for rehabilitation and static sports (Archery).\n\n2. **Isotonic Exercises:**\n   * 'Iso' means same, 'tonic' means tone. Exercises with movement where muscles shorten (concentric) or lengthen (eccentric).\n   * Work is done and visible.\n   * **Example:** Weight training, Calisthenics, Running.\n   * **Use:** Best for general sports performance.\n\n3. **Isokinetic Exercises:**\n   * 'Iso' means same, 'kinetic' means motion. Performed on special machines (developed by Perrine).\n   * Resistance adapts to the force applied; speed remains constant throughout the range of motion.\n   * **Example:** Cybex machines.\n   * **Use:** High-speed sports like swimming and rowing."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "Q17",
+      "type": "long",
+      "marks": 5,
+      "priority": "P1",
+      "priority_reason": "Endurance methods are a critical part of the syllabus, highly likely for Long Answer.",
+      "question": "Define Endurance. Describe the Continuous and Interval training methods for developing endurance.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": true,
+      "diagram_description": "A graph for Interval Training showing Heart Rate (y-axis) vs Time (x-axis). Peaks represent work phases (HR 170-180 bpm) and troughs represent recovery phases (HR 120-130 bpm), illustrating the 'Incomplete Recovery' principle.",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Endurance definition.",
+          "Continuous Training (Slow/Fast/Variable).",
+          "Interval Training (Principle of incomplete recovery)."
+        ],
+        "final_answer": "**Definition:** Endurance is the ability to sustain an activity for a prolonged period under conditions of fatigue.\n\n**1. Continuous Training Method:**\n* Involves performing an exercise for a long duration without any break.\n* Heart rate remains in the aerobic zone (140-160 bpm).\n* **Types:** Slow Continuous (for marathoners), Fast Continuous (for sprinters/games).\n* **Benefits:** Increases glycogen storage, improves cardiovascular efficiency.\n\n**2. Interval Training Method:**\n* Based on the principle of 'effort and incomplete recovery'.\n* The athlete performs a task with high intensity (HR up to 180 bpm) followed by a short rest interval (HR drops to 120-130 bpm) before starting again.\n* **Diagram Reference:** \n* **Benefits:** Improves both aerobic and anaerobic capacity; highly effective for track athletes."
+      },
+      "source_basis": "PYQ"
+    },
+    {
+      "id": "Q18",
+      "type": "long",
+      "marks": 5,
+      "priority": "P2",
+      "priority_reason": "Comprehensive question covering the 'Coordinative Abilities' topic which is often neglected by students but tested.",
+      "question": "What are Coordinative Abilities? Explain any four types of coordinative abilities in sports.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Definition: CNS dependent, accuracy/efficiency.",
+          "Orientation.",
+          "Coupling.",
+          "Reaction.",
+          "Balance/Rhythm."
+        ],
+        "final_answer": "**Definition:** Coordinative abilities are those abilities of an individual which enable them to perform various motor tasks smoothly and accurately. They depend on the Central Nervous System (CNS).\n\n**Types:**\n1.  **Orientation Ability:** The capacity to determine and change the position of the body in time and space relative to a defined field of action (e.g., a gymnast sensing their position in air).\n2.  **Coupling Ability:** The capacity to coordinate body part movements with one another and with the total body movement (e.g., coordinating hands and feet in boxing).\n3.  **Reaction Ability:** The capacity to react quickly and effectively to a signal. It can be Simple (known signal) or Complex (unexpected signal).\n4.  **Balance Ability:** The capacity to maintain equilibrium during static or dynamic movements (e.g., holding a handstand or regaining balance after a tackle)."
+      },
+      "source_basis": "Reference Notes"
+    },
+    {
+      "id": "Q19",
+      "type": "long",
+      "marks": 5,
+      "priority": "P2",
+      "priority_reason": "Flexibility methods are technical and lend themselves well to detailed explanation.",
+      "question": "Define Flexibility. Explain the methods to improve flexibility.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Definition: Range of motion.",
+          "Ballistic Method.",
+          "Static Stretching.",
+          "PNF (Proprioceptive Neuromuscular Facilitation)."
+        ],
+        "final_answer": "**Definition:** Flexibility is the range of movements of joints. It is the ability to execute movements with greater amplitude.\n\n**Methods to Improve Flexibility:**\n\n1. **Ballistic Method:**\n   * Involves movement with a swing or rhythm.\n   * Joints are stretched with a swinging action (e.g., swinging arms/legs).\n   * *Note:* Can cause injury if not done carefully.\n\n2. **Static Stretching Method:**\n   * The individual assumes a position and holds it for a specific time.\n   * The muscle is stretched to its limit and held.\n   * Safer than ballistic method.\n\n3. **Proprioceptive Neuromuscular Facilitation (PNF):**\n   * Considered the best method for developing flexibility.\n   * Involves a cycle of muscle contraction and relaxation, often with a partner's help.\n   * Uses the body's reflexes to deepen the stretch."
+      },
+      "source_basis": "ALLEN"
+    },
+    {
+      "id": "Q20",
+      "type": "short",
+      "marks": 3,
+      "priority": "P3",
+      "priority_reason": "Tests the concept of Circuit Training, which is a specific training methodology.",
+      "question": "What is Circuit Training? Draw a diagram of a 6-station circuit.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": true,
+      "diagram_description": "A circular arrangement of 6 stations labelled: 1. Jumping Jacks, 2. Push-ups, 3. Crunches, 4. Squats, 5. Skipping, 6. Shuttle Run. Arrows indicate the flow from one station to the next.",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Definition.",
+          "Structure (stations).",
+          "Diagram."
+        ],
+        "final_answer": "**Definition:** Circuit training is a method where exercises are performed at various 'stations' arranged in a circle or loop. The trainee moves from one station to another with minimal rest.\n\n**Key Features:**\n* Typically 6 to 10 stations.\n* Focuses on strength and endurance simultaneously.\n\n**Diagram Description:** \n(Station 1: Upper Body -> Station 2: Lower Body -> Station 3: Core, etc. to ensure alternate muscle group recovery)."
+      },
+      "source_basis": "Reference Notes"
+    },
+    {
+      "id": "Q21",
+      "type": "mcq",
+      "marks": 1,
+      "priority": "P3",
+      "priority_reason": "Safety net question on physiological definitions.",
+      "question": "The ability to overcome resistance under fatigue is known as:",
+      "options": {
+        "A": "Explosive Strength",
+        "B": "Strength Endurance",
+        "C": "Maximum Strength",
+        "D": "Static Strength"
+      },
+      "correct_option": "B",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "Strength Endurance combines strength and endurance to work against resistance while tired.",
+        "key_points": [],
+        "final_answer": "Option B"
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "Q22",
+      "type": "assertion_reason",
+      "marks": 1,
+      "priority": "P2",
+      "priority_reason": "Tests understanding of Flexibility types.",
+      "question": "Assertion (A): Passive flexibility is always greater than Active flexibility.\nReason (R): Passive flexibility allows for a greater range of motion due to external help.",
+      "options": {
+        "A": "Both A and R are true and R is the correct explanation of A.",
+        "B": "Both A and R are true but R is not the correct explanation of A.",
+        "C": "A is true but R is false.",
+        "D": "A is false but R is true."
+      },
+      "correct_option": "A",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "With external help (passive), joints can be pushed slightly further than muscles can pull them voluntarily (active).",
+        "key_points": [],
+        "final_answer": "Option A"
+      },
+      "source_basis": "ALLEN"
+    }
+  ]
+}

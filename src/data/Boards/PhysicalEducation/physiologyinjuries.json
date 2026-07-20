@@ -1,0 +1,167 @@
+{
+    "chapter_name": "Physiology & Injuries in Sports",
+    "weightage_insight": {
+        "estimated_marks_range": "8–12 Marks",
+        "pyq_frequency_summary": "A 'High-Yield' chapter. Examiners almost always ask a 5-mark question on 'Physiological factors determining Strength/Speed/Endurance'. The classification of Sports Injuries (Soft tissue vs Hard tissue) is a standard 3-mark question. 'Effect of exercise on Cardio-Respiratory system' is another favorite 5-marker."
+    },
+    "ultimate_short_notes": [
+        {
+            "heading": "Physiological Factors Determining Fitness",
+            "content": [
+                "**Strength**: Depends on **Muscle Cross-sectional Area** (Larger = Stronger) and **Muscle Fibre Type** (More White/Fast Twitch = Explosive Strength).",
+                "**Speed**: Depends on **CNS Mobility** (Nerve impulse speed) and **Explosive Strength**.",
+                "**Endurance**: Depends on **VO2 Max** (Max oxygen consumption) and **Lactate Threshold** (Ability to tolerate lactic acid).",
+                "**Flexibility**: Depends on **Connective Tissue Elasticity** and **Joint Structure**."
+            ]
+        },
+        {
+            "heading": "Effects of Exercise on Cardiorespiratory System",
+            "content": [
+                "**Hypertrophy of Heart**: Increase in the size/strength of heart muscle (Left Ventricle).",
+                "**Bradycardia**: Decrease in resting heart rate (Efficient heart pumps more blood in fewer beats).",
+                "**Increased Stroke Volume**: Amount of blood pumped per beat increases.",
+                "**Increased Tidal Volume**: Amount of air inhaled/exhaled per breath increases."
+            ]
+        },
+        {
+            "heading": "Sports Injuries: Soft Tissue",
+            "content": [
+                "**Contusion**: Muscle injury caused by direct hit (Bruise). Blood vessels break under skin.",
+                "**Strain**: Injury to **Muscle or Tendon** (Connects muscle to bone). Caused by overstretching.",
+                "**Sprain**: Injury to **Ligament** (Connects bone to bone). Caused by violent twisting of joint.",
+                "**Abrasion**: Friction burn where skin is scraped (e.g., falling on track).",
+                "**Laceration**: Irregular cut/tear in skin (e.g., by sharp object)."
+            ]
+        },
+        {
+            "heading": "Sports Injuries: Bone (Fractures) & Joint",
+            "content": [
+                "**Greenstick**: Bone bends but doesn't break completely (Common in children).",
+                "**Comminuted**: Bone breaks into 3 or more pieces.",
+                "**Transverse**: Break is at a right angle (90°) to the bone axis.",
+                "**Impacted**: Broken ends of the bone jam into each other.",
+                "**Dislocation**: Displacement of bone from its normal socket (Common: Shoulder, Lower Jaw)."
+            ]
+        }
+    ],
+    "exam_playbook": [
+        {
+            "strategy_name": "The 'Sprain vs Strain' Hack",
+            "pyq_pattern": "Differentiate between Sprain and Strain.",
+            "how_students_lose_marks": "Swapping the definitions. Writing 'Ligament' for Strain and 'Muscle' for Sprain.",
+            "winning_approach": "Use the Mnemonic: 'S**t**rain' has a '**t**', so it affects **T**endons. Sprain affects Ligaments. Always mention 'RICER' as treatment for both.",
+            "marks_secured": "2 Marks"
+        },
+        {
+            "strategy_name": "Physio-Factor 4x4",
+            "pyq_pattern": "Explain physiological factors determining [Component].",
+            "how_students_lose_marks": "Writing only 1 or 2 points. Writing general points like 'Good diet' instead of physiological terms like 'Muscle composition'.",
+            "winning_approach": "Always provide exactly 4 specific physiological headers (e.g., for Strength: 1. Muscle Size, 2. Body Weight, 3. Nerve Impulse, 4. Muscle Composition). Explain each in 1 line.",
+            "marks_secured": "5 Marks"
+        }
+    ],
+    "formula_bank": [
+        {
+            "concept": "Cardiac Output (Q)",
+            "formula": "$$Q = \\text{Stroke Volume (SV)} \\times \\text{Heart Rate (HR)}$$",
+            "used_in_questions": "Explaining how blood flow increases during exercise."
+        },
+        {
+            "concept": "Minute Ventilation (VE)",
+            "formula": "$$VE = \\text{Tidal Volume (TV)} \\times \\text{Respiratory Frequency (f)}$$",
+            "used_in_questions": "Explaining respiratory efficiency."
+        },
+        {
+            "concept": "Treatment Protocol",
+            "formula": "$$\\text{P.R.I.C.E.R} = \\text{Protection, Rest, Ice, Compression, Elevation, Rehab}$$",
+            "used_in_questions": "Standard first aid for soft tissue injuries."
+        }
+    ],
+    "sure_shot_questions": [
+        {
+            "question": "Explain any four physiological factors determining Strength.",
+            "marks": 5,
+            "mandatory_keywords": [
+                "Cross-sectional area",
+                "Fast Twitch Fibers (White)",
+                "Nerve Impulse",
+                "Body Weight"
+            ],
+            "answer_structure": "Headline -> Explanation (Why it affects strength).",
+            "model_answer_outline": [
+                "1. **Size of Muscle**: Larger cross-sectional area implies more contractile proteins (Actin/Myosin), thus more force.",
+                "2. **Muscle Composition**: Higher percentage of Fast Twitch (White) fibers generates more explosive strength.",
+                "3. **Nerve Impulse**: Stronger nerve impulses activate more motor units simultaneously.",
+                "4. **Body Weight**: Heavier individuals generally possess greater static strength."
+            ]
+        },
+        {
+            "question": "Classify Sports Injuries. Explain the types of fractures.",
+            "marks": 5,
+            "mandatory_keywords": [
+                "Soft Tissue",
+                "Hard Tissue (Bone/Joint)",
+                "Greenstick",
+                "Comminuted",
+                "Oblique"
+            ],
+            "answer_structure": "Classification Chart -> List of Fractures with 1-line definition.",
+            "model_answer_outline": [
+                "**Classification**: 1. Soft Tissue (Muscle/Ligament) 2. Hard Tissue (Bone/Joints).",
+                "**Fractures**:",
+                "1. **Greenstick**: Incomplete fracture (bending), common in kids.",
+                "2. **Comminuted**: Bone shatters into multiple fragments.",
+                "3. **Transverse**: Straight break across the bone.",
+                "4. **Oblique**: Diagonal break."
+            ]
+        },
+        {
+            "question": "What are the effects of long-term exercise on the Cardiorespiratory system?",
+            "marks": 3,
+            "mandatory_keywords": [
+                "Hypertrophy",
+                "Stroke Volume",
+                "Bradycardia",
+                "Tidal Volume"
+            ],
+            "answer_structure": "3 distinct points: 1. Heart Size 2. Heart Rate 3. Lung Efficiency.",
+            "model_answer_outline": [
+                "**1. Cardiac Hypertrophy**: Enlargement of heart muscle (Left Ventricle) leading to stronger pumping.",
+                "**2. Resting Bradycardia**: Resting heart rate decreases (often <60 bpm) due to increased efficiency.",
+                "**3. Increased Vital Capacity**: Lungs can hold and exchange more air."
+            ]
+        }
+    ],
+    "diagram_descriptors": [
+        {
+            "diagram_name": "Greenstick Fracture",
+            "used_for": "Types of Fractures",
+            "image_path": "/images/PhysicalEducation/greenstick fracture.png",
+            "detailed_description": "A long bone (like forearm) that is bent like a green twig. One side of the bone is broken/splintered, but the other side is intact (bent)."
+        },
+        {
+            "diagram_name": "Comminuted Fracture",
+            "used_for": "Types of Fractures",
+            "image_path": "/images/PhysicalEducation/Comminuted fracture.png",
+            "detailed_description": "A bone where the fracture site has shattered into 3 or more small bony fragments/pieces."
+        },
+        {
+            "diagram_name": "Sports Injury Classification",
+            "used_for": "Classification questions",
+            "image_path": "/images/PhysicalEducation/sports injury.png",
+            "detailed_description": "A flowchart. Top: 'Sports Injuries'. Branch 1: 'Soft Tissue' (Sprain, Strain, Contusion, Abrasion). Branch 2: 'Hard Tissue'. Sub-branch A: 'Joint Injuries' (Dislocation). Sub-branch B: 'Bone Injuries' (Fractures)."
+        }
+    ],
+    "examiner_traps": [
+        {
+            "common_mistake": "Describing 'Laceration' as a 'Cut'.",
+            "why_marks_are_cut": "Laceration is a 'jagged/irregular tear'. 'Incision' is a sharp cut. Precision matters.",
+            "correct_examiner_expectation": "Laceration = Irregular tear (e.g., barbed wire). Incision = Surgical/Sharp cut."
+        },
+        {
+            "common_mistake": "Writing 'Ice' reduces swelling but not explaining how.",
+            "why_marks_are_cut": "Scientific reason is needed for full marks.",
+            "correct_examiner_expectation": "Ice causes **Vasoconstriction** (narrowing of blood vessels), which reduces internal bleeding and swelling."
+        }
+    ]
+}

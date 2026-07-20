@@ -1,0 +1,41 @@
+Created At: 2026-06-03T08:12:17Z
+Completed At: 2026-06-03T08:12:17Z
+File Path: `file:///c:/StudentAssist-main/src/data/Boards/Physics/Questions/electricfieldandcharges.json`
+Total Lines: 1616
+Total Bytes: 166611
+Showing lines 1200 to 1616
+The following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.
+1200:             "evaluation_trigger": "Stating that the electric field is perpendicular to the area vector elements of the parallel boundary faces[cite: 1369].",
+1201:             "minimum_viable_text": "Since E_{y} = E_{z} = 0, the field vector \\\\vec{E} points purely along the x-direction[cite: 1369]. The outward area vectors of the top and bottom faces point along the y-axis (\\\\pm\\\\hat{j}), making them perpendicular to \\\\vec{E} (\\\\theta = 90^{\\\\circ}), hence flux is zero[cite: 1369, 1370].",
+1202:             "algebraic_progression": [
+1203:               "\\\\vec{E} = \\\\alpha x^{1/2}\\\\hat{i} \\\\quad \\\\text{and} \\\\quad \\\\Delta\\\\vec{S} = \\\\Delta S\\\\hat{j}",
+1204:               "\\\\phi = \\\\vec{E} \\\\cdot \\\\Delta\\\\vec{S} = E \\\\Delta S \\\\cos(90^{\\\\circ}) = 0"
+1205:             ]
+1206:           },
+1207:           {
+1208:             "allocated_marks": 2.0,
+1209:             "evaluation_trigger": "Setting up separate negative and positive flux contributions for the opposite faces and solving the algebraic assembly[cite: 1378, 1380, 1390].",
+1210:             "minimum_viable_text": "Left face flux \\\\phi_{L} = -E_{L}a^{2} = -\\\\alpha a^{5/2}$[cite: 1378, 1379]. Right face flux \\\\phi_{R} = E_{R}a^{2} = \\\\alpha(2a)^{1/2}a^{2} = \\\\sqrt{2}\\\\alpha a^{5/2}$[cite: 1375, 1380, 1381]. Net flux \\\\phi_{\\\\text{net}} = \\\\alpha a^{5/2}(\\\\sqrt{2} - 1) = 800 \\\\times (0.1)^{5/2} \\\\times 0.414 = 1.05 N\\\\cdot{}m^{2}/C$[cite: 1390, 1391, 1393].",
+1211:             "algebraic_progression
+<truncated 39923 bytes>
+"\\\\vec{E} = \\\\frac{1}{4\\\\pi\\\\epsilon_{0}} \\\\frac{2 \\\\cdot (q \\\\cdot 2a) \\\\cdot r}{(r^{2}-a^{2})^{2}} \\\\hat{p}",
+1598:               "\\\\vec{E} = \\\\frac{1}{4\\\\pi\\\\epsilon_{0}} \\\\frac{2pr}{(r^{2}-a^{2})^{2}} \\\\hat{p}"
+1599:             ]
+1600:           },
+1601:           {
+1602:             "allocated_marks": 1.0,
+1603:             "evaluation_trigger": "Stating the far-field approximation limit and contrasting the inverse scaling profiles.",
+1604:             "minimum_viable_text": "For r \\\\gg a, the equation simplifies to \\\\vec{E} = \\\\frac{2\\\\vec{p}}{4\\\\pi\\\\epsilon_{0}r^{3}}[cite: 1049, 1081]. This shows an inverse-cube distance dependence (1/r^{3}) [cite: 1665], contrasting with a single charge's inverse-square (1/r^{2}) dependence[cite: 1666].",
+1605:             "algebraic_progression": [
+1606:               "\\\\vec{E} \\\\approx \\\\frac{1}{4\\\\pi\\\\epsilon_{0}}\\\\frac{2pr}{(r^{2})^{2}}\\\\hat{p} = \\\\frac{2p}{4\\\\pi\\\\epsilon_{0}r^{3}}\\\\hat{p}",
+1607:               "\\\\vec{E}_{\\\\text{axial}} = \\\\frac{2\\\\vec{p}}{4\\\\pi\\\\epsilon_{0}r^{3}} \\\\quad \\\\left(\\\\text{Dipole: } E \\\\propto \\\\frac{1}{r^{3}} \\\\text{ vs Point Charge: } E \\\\propto \\\\frac{1}{r^{2}}\\\\right)"
+1608:             ]
+1609:           }
+1610:         ],
+1611:         "topper_execution_logic": "Make sure you don't mess up your common denominator subtraction algebra in step 3! Expanding those terms incorrectly will completely derail your derivation and cost you full points. Also, explicitly highlight the contrast in distance scaling—stating clearly that the dipole field drops off much faster as 1/r^{3} due to the partial cancellation of opposite charges at large distances will secure your final point[cite: 1012, 1013]."
+1612:       }
+1613:     ]
+1614:   }
+1615: }
+1616: ]
+The above content does NOT show the entire file contents. If you need to view any lines of the file which were not shown to complete your task, call this tool again to view those lines.

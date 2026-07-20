@@ -1,0 +1,51 @@
+Created At: 2026-06-03T08:19:19Z
+Completed At: 2026-06-03T08:19:19Z
+File Path: `file:///c:/StudentAssist-main/src/data/Boards/Physics/Questions/electricfieldandcharges.json`
+Total Lines: 1609
+Total Bytes: 166539
+Showing lines 950 to 990
+The following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.
+950:           "topper_execution_logic": "This question is a total gift, but it is an absolute magnet for sloppy unit penalties. The standard unit for torque is $\\\\text{N}\\\\cdot\\\\text{m} ($Newton$-$meter). If you leave it unitless or write something ridiculous like $\\\\text{N/C}$, the examiner is contractually obligated to dock you $-0.5$ marks. Double$-$check that you remember $\\\\sin 30^{\\\\circ} = 0.5$ correctly so an absolute brain$-$fade arithmetic mistake doesn't steal your second mark."
+951:         }
+952:       ]
+953:     }
+954:   },
+955:   {
+956:     "chapter_subjective_bank": {
+957:       "chapter_number": 1,
+958:       "chapter_name": "Electric Charges and Fields",
+959:       "questions": [
+960:         {
+961:           "question_id": "CH1-3M-01",
+962:           "marks_category": 3,
+963:           "typology_tag": "SA",
+964:           "stem_text": "$(a)$ Twelve negative charges of same magnitude $-q$ are equally spaced and fixed on the circumference of a circle of radius R. Relative to potential being zero at infinity, find the electric potential and electric field at the centre C of the circle. (b) If the same twelve negative charges are unequally spaced and fixed along an arc of $120^{\\\\circ}$ of radius R, find the new electric potential at the centre C.",
+965:           "marking_scheme_breakdown": [
+966:             {
+967:               "allocated_marks": 1,
+968:               "evaluation_trigger": "Determining the net electric field at the center of the symmetrical circle via vector symmetry arguments.",
+969:          
+<truncated 43 bytes>
+ic distribution of the 12 identical charges on the circumference, the vector sum of all electric fields at the center is zero: $\\\\vec{E} = 0\\\\text{ N/C}$.",
+970:               "algebraic_progression": [
+971:                 "$\\\\vec{E} = \\\\sum_{i=1}^{12} \\\\vec{E}_{i}$",
+972:                 "$\\\\vec{E} = 0\\\\text{ N/C}$"
+973:               ]
+974:             },
+975:             {
+976:               "allocated_marks": 1,
+977:               "evaluation_trigger": "Calculating the scalar sum of the electric potential at the center for the complete circle.",
+978:               "minimum_viable_text": "Potential is a scalar quantity. The total potential at the center is the algebraic sum of the potentials of the 12 negative charges: V $= 12 \\\\times \\\\left(-\\\\frac{q}{4\\\\pi\\\\epsilon_{0}R}\\\\right) = -\\\\frac{3q}{\\\\pi\\\\epsilon_{0}R}$.",
+979:               "algebraic_progression": [
+980:                 "V $= \\\\sum_{i=1}^{12} V_{i} = 12 \\\\times \\\\left(-\\\\frac{q}{4\\\\pi\\\\epsilon_{0}R}\\\\right)$",
+981:                 "V $= -\\\\frac{3q}{\\\\pi\\\\epsilon_{0}R}$"
+982:               ]
+983:             },
+984:             {
+985:               "allocated_marks": 1,
+986:               "evaluation_trigger": "Deducing the potential for the arc configuration based on scalar properties.",
+987:               "minimum_viable_text": "Since potential is a scalar quantity, it is independent of the angular spacing of the charges. Because all 12 negative charges remain at distance R from the center, the potential is unchanged: V $= -\\\\frac{3q}{\\\\pi\\\\epsilon_{0}R}$.",
+988:               "algebraic_progression": [
+989:                 "V$_{\\\\text{arc}} = \\\\sum_{i=1}^{12} \\\\left(-\\\\frac{q}{4\\\\pi\\\\epsilon_{0}R}\\\\right)$",
+990:                 "V$_{\\\\text{arc}} = -\\\\frac{3q}{\\\\pi\\\\epsilon_{0}R}$"
+The above content does NOT show the entire file contents. If you need to view any lines of the file which were not shown to complete your task, call this tool again to view those lines.

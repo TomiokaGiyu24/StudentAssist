@@ -1,0 +1,1609 @@
+[
+  {
+    "chapter_assessment_bank": {
+      "chapter_number": 1,
+      "chapter_name": "Electric Charges and Fields",
+      "questions": [
+        {
+          "question_id": "CH1-MCQ-01",
+          "format": "MCQ",
+          "typology_tag": "BOUNDARY_CONDITION",
+          "associated_trap_title": "The Boundary Scaling Limit Misdirection",
+          "stem_text": "An electric dipole consists of two point charges separated by a small internal distance $2a$. Under the macroscopic boundary limit where the observation distance $r$ from the centre of the dipole is significantly greater than the semi-axis length ($r \\\\gg a$), the electric field intensity magnitude along the axial line is measured as $E$. If the observation distance along the axis is cleanly tripled to $3r$, what is the new magnitude of the electric field intensity?",
+          "options": {
+            "a": "$\\\\frac{E}{3}$",
+            "b": "$\\\\frac{E}{9}$",
+            "c": "$\\\\frac{E}{27}$",
+            "d": "$\\\\frac{E}{81}$"
+          },
+          "correct_option": "c",
+          "topper_execution_logic": "Don't fall for the standard point-charge $r^{-2}$ rule here! The prompt explicitly triggers the macro-separation limit ($r \\\\gg a$), which drops out the higher-order binomial terms and locks you into the short-dipole attenuation relation where $E \\\\propto r^{-3}$. Tripling the distance means your field scales by a factor of $3^{-3} = \\\\frac{1}{27}$. Instant kill."
+        },
+        {
+          "question_id": "CH1-MCQ-02",
+          "format": "MCQ",
+          "typology_tag": "BOUNDARY_CONDITION",
+          "associated_trap_title": "The Inverse-Cubic Force Scaling Trap",
+          "stem_text": "A stationary point charge situated at a coordinate distance $r$ on the axial line of a short electric dipole experiences an electrostatic force of magnitude $F$. If this point charge is relocated closer to the dipole along the same axial trajectory such that its new separation distance is exactly $\\\\frac{r}{2}$, the magnitude of the force acting on the charge scales to:",
+          "options": {
+            "a": "$2F$",
+            "b": "$4F$",
+            "c": "$8F$",
+            "d": "$16F$"
+          },
+          "correct_option": "c",
+          "topper_execution_logic": "Since force $F = qE$ and we are dealing with a short dipole axis ($r \\\\gg a$), the underlying field equation is $E = \\\\frac{1}{4\\\\pi\\\\epsilon_{0}}\\\\frac{2p}{r^{3}}$. This means force follows an inverse-cubic relationship ($F \\\\propto r^{-3}$). Halving the distance flips the fraction: $\\\\left(\\\\frac{1}{2}\\\\right)^{-3} = 2^{3} = 8$. The force shoots up by $8$ times."
+        },
+        {
+          "question_id": "CH1-MCQ-03",
+          "format": "MCQ",
+          "typology_tag": "GRAPH_MAPPING",
+          "associated_trap_title": "The Slope Product Sign Interpretation",
+          "stem_text": "An experiment plots the electrostatic Coulomb force $F$ acting between different pairs of point charges against the inverse-square distance parameter $\\\\frac{1}{r^{2}}$. The linear plot tracking the interaction between charges $(q_{1}, q_{2})$ yields a positive geometric slope $m_{1}$, while the plot tracking $(q_{2}, q_{3})$ yields a negative geometric slope $m_{2}$. Given that $q_{2}$ is a positive test charge and $|m_{1}| > |m_{2}|$, which of the following statements matches the physical parameters of the system?",
+          "options": {
+            "a": "$q_{1}$ is positive, $q_{3}$ is negative, and $|q_{1}| > |q_{3}|$",
+            "b": "$q_{1}$ is negative, $q_{3}$ is positive, and $|q_{1}| > |q_{3}|$",
+            "c": "$q_{1}$ is positive, $q_{3}$ is negative, and $|q_{1}| < |q_{3}|$",
+            "d": "$q_{1}$ is negative, $q_{3}$ is negative, and $|q_{1}| < |q_{3}|$"
+          },
+          "correct_option": "a",
+          "topper_execution_logic": "Map the graph slope directly to Coulomb's Law: $F = \\\\left(\\\\frac{1}{4\\\\pi\\\\epsilon_{0}} q_{a} q_{b}\\\\right) \\\\cdot \\\\frac{1}{r^{2}}$, meaning slope $m = k q_{a} q_{b}$. A positive slope means repulsion ($q_{1}q_{2} > 0$), so $q_{1}$ is positive since $q_{2} > 0$. A negative slope means attraction ($q_{2}q_{3} < 0$), so $q_{3}$ is negative. Because $|m_{1}| > |m_{2}|$ with a fixed test charge $q_{2}$, the multiplier $|q_{1}|$ must be strictly greater than $|q_{3}|$. Eliminate the wrong options based on sign first, then verify magnitude."
+        },
+        {
+          "question_id": "CH1-MCQ-04",
+          "format": "MCQ",
+          "typology_tag": "EXPLANATION_TRAP",
+          "associated_trap_title": "The Diagonal Coordinate Distance Squaring Trap",
+          "stem_text": "Two isolated point charges $+q$ and $+q_{0}$ are placed in free space at the spatial coordinates $A(0,0)$ and $B(a,a)$ respectively. Utilizing Coulomb's vector law constant $k = \\\\frac{1}{4\\\\pi\\\\epsilon_{0}}$, what is the mathematically accurate scalar magnitude of the electrostatic force exerted on the charge located at coordinate point $B$?",
+          "options": {
+            "a": "$\\\\frac{1}{4\\\\pi\\\\epsilon_{0}}\\\\frac{q q_{0}}{2a^{2}}$",
+            "b": "$\\\\frac{1}{4\\\\pi\\\\epsilon_{0}}\\\\frac{q q_{0}}{a^{2}}$",
+            "c": "$\\\\frac{1}{4\\\\pi\\\\epsilon_{0}}\\\\frac{q q_{0}}{\\\\sqrt{2}a^{2}}$",
+            "d": "$\\\\frac{1}{4\\\\pi\\\\epsilon_{0}}\\\\frac{q q_{0}}{2a}$"
+          },
+          "correct_option": "a",
+          "topper_execution_logic": "This is the classic coordinate distance trap from the registry! Lazy students see coordinates $(a,a)$ and either write the distance as $a$ or write the squared term as $2a$. You must find the true separation vector modulus first: $r = \\\\sqrt{(a-0)^{2} + (a-0)^{2}} = \\\\sqrt{2}a$. When you substitute this into the Coulombic denominator, you must square the entire package: $r^{2} = (\\\\sqrt{2}a)^{2} = 2a^{2}$. This isolates choice (a) cleanly."
+        },
+        {
+          "question_id": "CH1-MCQ-05",
+          "format": "MCQ",
+          "typology_tag": "EXPLANATION_TRAP",
+          "associated_trap_title": "The Dipole Axis Shift Angle Misdirection",
+          "stem_text": "An electric dipole with a permanent dipole moment vector $\\\\vec{p}$ is embedded inside a uniform external electric field $\\\\vec{E}$. The system is mechanically rotated from a state of stable thermodynamic equilibrium to a state of highly unstable mechanical equilibrium. What is the net change in the electrostatic potential energy ($\\\\Delta U = U_{\\\\text{final}} - U_{\\\\text{initial}}$) of the dipole system during this exact displacement?",
+          "options": {
+            "a": "$-2pE$",
+            "b": "$+2pE$",
+            "c": "$-pE$",
+            "d": "Zero"
+          },
+          "correct_option": "b",
+          "topper_execution_logic": "Never guess or rely on generic visual memory for energy signs. Write the complete dot product explicitly: $U = -\\\\vec{p} \\\\cdot \\\\vec{E} = -pE\\\\cos\\\\theta$. Stable equilibrium occurs at $\\\\theta = 0^{\\\\circ} \\\\implies U_{\\\\text{initial}} = -pE\\\\cos(0^{\\\\circ}) = -pE$. Unstable equilibrium occurs when the dipole is inverted antiparallel at $\\\\theta = 180^{\\\\circ} \\\\implies U_{\\\\text{final}} = -pE\\\\cos(180^{\\\\circ}) = +pE$. Subtracting them gives $\\\\Delta U = (+pE) - (-pE) = +2pE$. Watch the double negatives like a hawk."
+        },
+        {
+          "question_id": "CH1-MCQ-06",
+          "format": "MCQ",
+          "typology_tag": "EXPLANATION_TRAP",
+          "associated_trap_title": "The Non-Uniform Gauss's Flux Boundary Face Exclusion",
+          "stem_text": "A rigid geometric cube of side length $a$ is positioned in space such that its faces align parallel to the coordinate planes, with its left face located at the spatial boundary plane $x = 0$ and its right face sitting at $x = a$. The region contains a non-uniform vector electric field defined strictly by the equation $\\\\vec{E} = (\\\\alpha x + \\\\beta)\\\\hat{i}$, where $\\\\alpha$ and $\\\\beta$ are non-zero scaling constants. The net outward electric flux $\\\\Phi_{\\\\text{net}}$ emerging from the entire closed cube is:",
+          "options": {
+            "a": "$\\\\alpha a^{3}$",
+            "b": "$(\\\\alpha a + \\\\beta)a^{2}$",
+            "c": "$\\\\alpha a^{2}$",
+            "d": "$2\\\\beta a^{2} + \\\\alpha a^{3}$"
+          },
+          "correct_option": "a",
+          "topper_execution_logic": "The field points exclusively along the x-axis ($\\\\vec{E} = E_{x}\\\\hat{i}$), so the scalar dot product $\\\\vec{E} \\\\cdot d\\\\vec{A}$ drops to zero for the top, bottom, front, and back faces because their area vectors are perpendicular ($\\\\theta = 90^{\\\\circ}$). You only calculate flux at the left and right boundaries. At the left boundary ($x = 0$), $E_{L} = \\\\beta$, and outward area vector points left, so $\\\\Phi_{L} = -\\\\beta a^{2}$. At the right boundary ($x = a$), $E_{R} = \\\\alpha a + \\\\beta$, and outward area vector points right, so $\\\\Phi_{R} = (\\\\alpha a + \\\\beta)a^{2}$. Sum them up: $\\\\Phi_{\\\\text{net}} = (\\\\alpha a + \\\\beta)a^{2} - \\\\beta a^{2} = \\\\alpha a^{3}$."
+        },
+        {
+          "question_id": "CH1-MCQ-07",
+          "format": "MCQ",
+          "typology_tag": "MULTI_STATEMENT",
+          "associated_trap_title": "The Non-Uniform Field Gradient Checklist",
+          "stem_text": "An electric dipole of charges $\\\\pm q$ and net dipole moment vector $\\\\vec{p}$ is completely submerged inside an external electric field $\\\\vec{E}$. If the dipole moment vector makes a non-zero orientation angle $\\\\theta$ ($0^{\\\\circ} < \\\\theta < 180^{\\\\circ}$) relative to the field lines, which combination of translational and rotational metrics is universally guaranteed if the field lines are strictly uniform?",
+          "options": {
+            "a": "$\\\\vec{F}_{\\\\text{net}} \\\\neq 0$ and $\\\\vec{\\\\tau} = 0$",
+            "b": "$\\\\vec{F}_{\\\\text{net}} = 0$ and $\\\\vec{\\\\tau} = \\\\vec{p} \\\\times \\\\vec{E}$",
+            "c": "$\\\\vec{F}_{\\\\text{net}} \\\\neq 0$ and $\\\\vec{\\\\tau} = \\\\vec{p} \\\\times \\\\vec{E}$",
+            "d": "$\\\\vec{F}_{\\\\text{net}} = 0$ and $\\\\vec{\\\\tau} = 0$"
+          },
+          "correct_option": "b",
+          "topper_execution_logic": "Run a dual $translational/rotational$ mechanics check. Because the external field is perfectly uniform, the forces on $+q$ and $-q$ are exactly equal and opposite ($+q\\\\vec{E}$ and $-q\\\\vec{E}$), summing to a clean translational zero ($\\\\vec{F}_{\\\\text{net}} = 0$). However, because these forces act at different spatial points and are non-collinear ($\\\\theta \\\\neq 0^{\\\\circ}, 180^{\\\\circ}$), they form a couple that creates a rotational torque evaluated via the vector cross product: $\\\\vec{\\\\tau} = \\\\vec{p} \\\\times \\\\vec{E}$."
+        },
+        {
+          "question_id": "CH1-MCQ-08",
+          "format": "MCQ",
+          "typology_tag": "BOUNDARY_CONDITION",
+          "associated_trap_title": "The Axial-Equatorial Macro Geometry Limit",
+          "stem_text": "Let $E_{\\\\text{axial}}$ represent the magnitude of the electric field intensity generated at a far-away axial point located at a distance $r$ from the centre of a short electric dipole. Let $E_{\\\\text{equatorial}}$ define the magnitude of the field intensity generated at an equatorial plane location matching the exact same radial separation distance $r$. Under the definitive point-dipole condition ($r \\\\gg a$), what is the exact value of the ratio $\\\\frac{E_{\\\\text{axial}}}{E_{\\\\text{equatorial}}}$?",
+          "options": {
+            "a": "$1$",
+            "b": "$2$",
+            "c": "$\\\\frac{1}{2}$",
+            "d": "$4$"
+          },
+          "correct_option": "b",
+          "topper_execution_logic": "Recall the exact macro-separation expressions derived in the textbook. For a short dipole axis, $E_{\\\\text{axial}} = \\\\frac{1}{4\\\\pi\\\\epsilon_{0}}\\\\frac{2p}{r^{3}}$. For the equatorial plane at that same distance, $E_{\\\\text{equatorial}} = \\\\frac{1}{4\\\\pi\\\\epsilon_{0}}\\\\frac{p}{r^{3}}$. Dividing the axial magnitude by the equatorial magnitude yields a clean, unitless factor of exactly $2$."
+        },
+        {
+          "question_id": "CH1-MCQ-09",
+          "format": "MCQ",
+          "typology_tag": "MULTI_STATEMENT",
+          "associated_trap_title": "The Charge Density Dimension Verification",
+          "stem_text": "To construct an exact mathematical model for continuous macro charge systems, a physicist maps the dimensional properties of structural arrays. According to standard textbook nomenclature, which of the following option combinations maps the correct SI units for linear charge density ($\\\\lambda$), surface charge density ($\\\\sigma$), and volume charge density ($\\\\rho$) sequentially?",
+          "options": {
+            "a": "$C \\\\cdot m$, $C \\\\cdot m^{-2}$, $C \\\\cdot m^{-3}$",
+            "b": "$C \\\\cdot m^{-1}$, $C \\\\cdot m^{-2}$, $C \\\\cdot m^{-3}$",
+            "c": "$C \\\\cdot m^{-1}$, $C \\\\cdot m^{-1}$, $C \\\\cdot m^{-1}$",
+            "d": "$C$, $C \\\\cdot m^{-1}$, $C \\\\cdot m^{-2}$"
+          },
+          "correct_option": "b",
+          "topper_execution_logic": "Don't overcomplicate this, it's straight definition checking. Linear density is charge per unit length ($\\\\lambda = \\\\frac{\\\\Delta Q}{\\\\Delta l} \\\\to C \\\\cdot m^{-1}$), surface density is charge per unit area ($\\\\sigma = \\\\frac{\\\\Delta Q}{\\\\Delta S} \\\\to C \\\\cdot m^{-2}$), and volume density is charge per unit volume ($\\\\rho = \\\\frac{\\\\Delta Q}{\\\\Delta V} \\\\to C \\\\cdot m^{-3}$). Ensure you check the minus signs on the exponents to avoid simple reading errors."
+        },
+        {
+          "question_id": "CH1-MCQ-10",
+          "format": "MCQ",
+          "typology_tag": "GRAPH_MAPPING",
+          "associated_trap_title": "The Internal Shell Flux Vacuum",
+          "stem_text": "A thin, hollow spherical conducting shell of radius $R$ is packed with a uniformly distributed positive surface charge density $\\\\sigma$. If you record the magnitude of the net electric field vector $E$ while transitioning continuously from the exact geometric center point ($r = 0$) outward to an infinite radial position ($r \\\\to \\\\infty$), which geometric field profile is observed?",
+          "options": {
+            "a": "$E = 0$ for the domain $r < R$, and drops off following $E \\\\propto r^{-2}$ for the domain $r \\\\ge R$",
+            "b": "$E$ increases linearly following $E \\\\propto r$ for $r < R$, and attenuates as $E \\\\propto r^{-2}$ for $r \\\\ge R$",
+            "c": "$E = 0$ for the domain $r \\\\le R$, and drops off following $E \\\\propto r^{-3}$ for the domain $r > R$",
+            "d": "$E$ remains constant and non-zero for $r < R$, then experiences a step-drop to zero at $r = R$"
+          },
+          "correct_option": "a",
+          "topper_execution_logic": "Apply Gauss's Law mentally. For any internal spherical Gaussian surface ($r < R$), the enclosed net charge $q_{\\\\text{enc}}$ is absolutely zero, which forces $E = 0$ everywhere inside the shell. The moment you step outside ($r \\\\ge R$), the shell behaves exactly like a single concentrated point charge at the center, meaning the external field drops off following the inverse-square law ($E \\\\propto r^{-2}$). This makes choice (a) the only correct profile."
+        }
+      ]
+    }
+  },
+  {
+    "chapter_assessment_bank": {
+      "chapter_number": 1,
+      "chapter_name": "Electric Charges and Fields",
+      "questions": [
+        {
+          "question_id": "CH1-AR-11",
+          "format": "ASSERTION_REASON",
+          "typology_tag": "CAUSAL_REASONING",
+          "associated_trap_title": "The Tangent Direction Uniqueness Breach",
+          "stem_text": "Determine the structural validity of the following statements based on electrostatics: \n\n**Assertion:** Electric field lines originating from a static distribution of electric charges can never intersect or cross one another in a free space domain.\n**Reason:** The net electric field intensity vector at any designated coordinate in space is defined uniquely by a singular vector sum according to the principle of superposition.",
+          "options": {
+            "a": "Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+            "b": "Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+            "c": "Assertion is true, but Reason is a false statement.",
+            "d": "Assertion is false, but Reason is a true statement."
+          },
+          "correct_option": "b",
+          "logical_connector_test": "Electric field lines originating from a static distribution of electric charges can never intersect or cross one another in a free space domain BECAUSE the net electric field intensity vector at any designated coordinate in space is defined uniquely by a singular vector sum according to the principle of superposition.",
+          "topper_execution_logic": "This is the precise forensic variant from the examiner's trap registry! Both statements are beautifully true when read separately out of context. However, the reason fails the 'BECAUSE' test because it strips away the geometric connection between line tangents and force directions. For a true causal match, the reason must state that an intersection point would yield two distinct tangents, implying two different directions for the net field vector at a single point, which breaches vector uniqueness. Since that geometric bridge is missing, it's Option B."
+        },
+        {
+          "question_id": "CH1-AR-12",
+          "format": "ASSERTION_REASON",
+          "typology_tag": "CAUSAL_REASONING",
+          "associated_trap_title": "The Conservative Closed Loop Contradiction",
+          "stem_text": "Determine the structural validity of the following statements based on electrostatics: \n\n**Assertion:** Electrostatic field lines originating from a static charge configuration can never form closed loops within a charge-free domain.\n**Reason:** The electrostatic field is conservative in nature, meaning the net work done by the field in moving an electric charge along any arbitrary closed trajectory is identically zero.",
+          "options": {
+            "a": "Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+            "b": "Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+            "c": "Assertion is true, but Reason is a false statement.",
+            "d": "Assertion is false, but Reason is a true statement."
+          },
+          "correct_option": "a",
+          "logical_connector_test": "Electrostatic field lines originating from a static charge configuration can never form closed loops within a charge-free domain BECAUSE the electrostatic field is conservative in nature, meaning the net work done by the field in moving an electric charge along any arbitrary closed trajectory is identically zero.",
+          "topper_execution_logic": "Think about it physically: if a field line managed to form a closed loop, a test charge could travel along that line continuously with the force always pointing along its displacement vector. This would yield a non-zero line integral ($\\\\oint \\\\vec{E} \\\\cdot d\\\\vec{l} \\\\neq 0$), directly contradicting the conservative nature of the field. The reason provides the absolute, unassailable causal proof. This is a clean Option A."
+        },
+        {
+          "question_id": "CH1-AR-13",
+          "format": "ASSERTION_REASON",
+          "typology_tag": "CAUSAL_REASONING",
+          "associated_trap_title": "The Translational vs Rotational Equilibrium Check",
+          "stem_text": "Determine the structural validity of the following statements based on electrostatics: \n\n**Assertion:** An electric dipole placed in a uniform external electric field making a non-zero angle $\\\\theta$ ($0^{\\\\circ} < \\\\theta < 180^{\\\\circ}$) with the field lines experiences a net translational force of zero.\n**Reason:** The two equal and opposite constituent charges of the dipole experience forces $+q\\\\vec{E}$ and $-q\\\\vec{E}$ which completely cancel each other out vectorially.",
+          "options": {
+            "a": "Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+            "b": "Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+            "c": "Assertion is true, but Reason is a false statement.",
+            "d": "Assertion is false, but Reason is a true statement."
+          },
+          "correct_option": "a",
+          "logical_connector_test": "An electric dipole placed in a uniform external electric field making a non-zero angle $\\\\theta$ with the field lines experiences a net translational force of zero BECAUSE the two equal and opposite constituent charges of the dipole experience forces $+q\\\\vec{E}$ and $-q\\\\vec{E}$ which completely cancel each other out vectorially.",
+          "topper_execution_logic": "Direct causal link. The definition of net translational force is the vector sum of all acting forces: $\\\\vec{F}_{\\\\text{net}} = (+q\\\\vec{E}) + (-q\\\\vec{E}) = 0$. Because the field $\\\\vec{E}$ is perfectly uniform, these forces have identical magnitudes and opposite directions, ensuring clean cancellation regardless of the tilt angle $\\\\theta$. The reason directly dictates the assertion's outcome, so lock in Option A."
+        },
+        {
+          "question_id": "CH1-AR-14",
+          "format": "ASSERTION_REASON",
+          "typology_tag": "CAUSAL_REASONING",
+          "associated_trap_title": "The Net Charge Dipole Torque Disconnect",
+          "stem_text": "Determine the structural validity of the following statements based on electrostatics: \n\n**Assertion:** An electric dipole placed in a uniform external electric field experiences a net rotational torque that acts to align its dipole moment vector parallel to the field lines.\n**Reason:** The total algebraic charge of an electric dipole configuration is identically zero when evaluated across its internal separation distance $2a$.",
+          "options": {
+            "a": "Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+            "b": "Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+            "c": "Assertion is true, but Reason is a false statement.",
+            "d": "Assertion is false, but Reason is a true statement."
+          },
+          "correct_option": "b",
+          "logical_connector_test": "An electric dipole placed in a uniform external electric field experiences a net rotational torque that acts to align its dipole moment vector parallel to the field lines BECAUSE the total algebraic charge of an electric dipole configuration is identically zero when evaluated across its internal separation distance $2a$.",
+          "topper_execution_logic": "Look out for this textbook disconnect trap! The assertion describes rotational torque ($\\\\vec{\\\\tau} = \\\\vec{p} \\\\times \\\\vec{E}$). The reason describes the net scalar charge being zero ($+q + (-q) = 0$). While both statements are $100%$ true individual facts from the NCERT text, the net charge being zero has absolutely no causal relationship with why the forces are non-collinear and create a torque couple. Parallel vectors that don't intersect logically mean Option B."
+        },
+        {
+          "question_id": "CH1-AR-15",
+          "format": "ASSERTION_REASON",
+          "typology_tag": "CAUSAL_REASONING",
+          "associated_trap_title": "The Macroscopic Continuous Smoothing Blur",
+          "stem_text": "Determine the structural validity of the following statements based on electrostatics: \n\n**Assertion:** At the macroscopic scale involving a few microcoulombs of electric charge, the discrete quantisation of charge loses practical consequence and can be completely ignored.\n**Reason:** The basic quantum unit of charge is exceptionally small ($e = 1.602 \\\\times 10^{-19}\\\\text{ C}$), meaning that everyday macroscopic charges involve an enormous number of discrete electronic charge carriers.",
+          "options": {
+            "a": "Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+            "b": "Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+            "c": "Assertion is true, but Reason is a false statement.",
+            "d": "Assertion is false, but Reason is a true statement."
+          },
+          "correct_option": "a",
+          "logical_connector_test": "At the macroscopic scale involving a few microcoulombs of electric charge, the discrete quantisation of charge loses practical consequence and can be completely ignored BECAUSE the basic quantum unit of charge is exceptionally small ($e = 1.602 \\\\times 10^{-19}\\\\text{ C}$), meaning that everyday macroscopic charges involve an enormous number of discrete electronic charge carriers.",
+          "topper_execution_logic": "The reason perfectly explains why the 'grainy' nature of charge disappears into a continuous blur at our scale, just like dots forming a solid line when viewed from a distance. A single microcoulomb contains roughly $10^{13}$ electronic charges, so incrementing or decrementing by $1e$ is completely invisible. The causal explanation is airtight—Option A."
+        },
+        {
+          "question_id": "CH1-AR-16",
+          "format": "ASSERTION_REASON",
+          "typology_tag": "CAUSAL_REASONING",
+          "associated_trap_title": "The Concentric Shell Internal Enclosure Flux",
+          "stem_text": "Determine the structural validity of the following statements based on electrostatics: \n\n**Assertion:** The electrostatic field intensity due to a uniformly charged thin spherical shell is completely zero at all points located strictly inside the shell boundary.\n**Reason:** According to Gauss's law, any closed spherical Gaussian surface constructed inside the shell with a radius $r < R$ encloses no net electric charge.",
+          "options": {
+            "a": "Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+            "b": "Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+            "c": "Assertion is true, but Reason is a false statement.",
+            "d": "Assertion is false, but Reason is a true statement."
+          },
+          "correct_option": "a",
+          "logical_connector_test": "The electrostatic field intensity due to a uniformly charged thin spherical shell is completely zero at all points located strictly inside the shell boundary BECAUSE according to Gauss's law, any closed spherical Gaussian surface constructed inside the shell with a radius $r < R$ encloses no net electric charge.",
+          "topper_execution_logic": "Apply Gauss's flux equation: $\\\\oint \\\\vec{E} \\\\cdot d\\\\vec{A} = E \\\\cdot 4\\\\pi r^{2} = \\\\frac{q_{\\\\text{enclosed}}}{\\\\epsilon_{0}}$. Because the surface charge density sits entirely on the outer shell of radius $R$, drawing an internal concentric test bubble ($r < R$) means your $q_{\\\\text{enclosed}}$ drops to a flat zero, forcing the electric field $E$ to evaluate to zero. The reasoning perfectly maps out the physics explanation, making it Option A."
+        },
+        {
+          "question_id": "CH1-AR-17",
+          "format": "ASSERTION_REASON",
+          "typology_tag": "CAUSAL_REASONING",
+          "associated_trap_title": "The Temporal Conservation vs Frame Invariance Trap",
+          "stem_text": "Determine the structural validity of the following statements based on electrostatics: \n\n**Assertion:** The total electric charge of an isolated physical system containing multiple interacting charged bodies is always rigorously conserved over time.\n**Reason:** Charge is an invariant scalar quantity, meaning it remains completely unchanged under spatial rotations and transitions between frames of reference in relative motion.",
+          "options": {
+            "a": "Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+            "b": "Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+            "c": "Assertion is true, but Reason is a false statement.",
+            "d": "Assertion is false, but Reason is a true statement."
+          },
+          "correct_option": "b",
+          "logical_connector_test": "The total electric charge of an isolated physical system containing multiple interacting charged bodies is always rigorously conserved over time BECAUSE charge is an invariant scalar quantity, meaning it remains completely unchanged under spatial rotations and transitions between frames of reference in relative motion.",
+          "topper_execution_logic": "This trap tests your deep conceptual grasp from the NCERT 'Points to Ponder'. Both statements are highly accurate physical truths. However, the reason describes relativistic *frame invariance* (charge doesn't alter with speed), whereas the assertion describes *temporal conservation* within a single frame of reference over time. As the textbook explicitly notes, conservation and frame invariance are independent properties (kinetic energy is invariant under rotation but not conserved in inelastic collisions). They do not have a causal bridge. Choose Option B."
+        },
+        {
+          "question_id": "CH1-AR-18",
+          "format": "ASSERTION_REASON",
+          "typology_tag": "CAUSAL_REASONING",
+          "associated_trap_title": "The Gravitational Domination Sign Mechanism",
+          "stem_text": "Determine the structural validity of the following statements based on electrostatics: \n\n**Assertion:** The electrostatic force between an electron and a proton separated at a subatomic distance is enormously stronger than the gravitational force acting between their respective masses.\n**Reason:** The Coulomb force can be both attractive and repulsive in nature depending on charge polarities, whereas the gravitational force between masses is strictly attractive.",
+          "options": {
+            "a": "Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+            "b": "Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+            "c": "Assertion is true, but Reason is a false statement.",
+            "d": "Assertion is false, but Reason is a true statement."
+          },
+          "correct_option": "b",
+          "logical_connector_test": "The electrostatic force between an electron and a proton separated at a subatomic distance is enormously stronger than the gravitational force acting between their respective masses BECAUSE the Coulomb force can be both attractive and repulsive in nature depending on charge polarities, whereas the gravitational force between masses is strictly attractive.",
+          "topper_execution_logic": "Watch out! The assertion describes the absolute magnitude ratio of the fundamental forces ($\\\\frac{F_{e}}{F_{G}} \\\\approx 2.4 \\\\times 10^{39}$), which is a consequence of the enormous value of the electrostatic constant $k$ relative to the gravitational constant $G$. The reason correctly describes the sign characteristics of the forces, which explains why gravity dominates on a *macroscopic/cosmic scale* (due to large-scale electrical cancellation), NOT why a single pair interaction is intrinsically stronger. Both are true, but there's no causal link. It's Option B."
+        },
+        {
+          "question_id": "CH1-AR-19",
+          "format": "ASSERTION_REASON",
+          "typology_tag": "CAUSAL_REASONING",
+          "associated_trap_title": "The Superposition Independence Component Disconnect",
+          "stem_text": "Determine the structural validity of the following statements based on electrostatics: \n\n**Assertion:** The individual electrostatic force exerted between two specific point charges remains entirely unaffected by the introduction of a third additional point charge in their immediate vicinity.\n**Reason:** According to the principle of superposition, the net force acting on any single charge within an array is computed as the vector sum of all individual forces taken one at a time.",
+          "options": {
+            "a": "Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+            "b": "Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+            "c": "Assertion is true, but Reason is a false statement.",
+            "d": "Assertion is false, but Reason is a true statement."
+          },
+          "correct_option": "b",
+          "logical_connector_test": "The individual electrostatic force exerted between two specific point charges remains entirely unaffected by the presence of a third additional point charge in their immediate vicinity BECAUSE according to the principle of superposition, the net force acting on any single charge within an array is computed as the vector sum of all individual forces taken one at a time.",
+          "topper_execution_logic": "Read closely! The principle of superposition states two independent facts simultaneously: (1) individual pairwise forces are unaffected by extra charges, and (2) the total force is the vector sum of these independent individual forces. The rule of vector addition stated in the reason does not *cause* or mathematically explain why the original pair's interaction remains independent—the independence is an independent experimental property of nature. They are parallel tenets of the same law, yielding Option B."
+        },
+        {
+          "question_id": "CH1-AR-20",
+          "format": "ASSERTION_REASON",
+          "typology_tag": "CAUSAL_REASONING",
+          "associated_trap_title": "The Identical Conducting Sphere Sharing Symmetry",
+          "stem_text": "Determine the structural validity of the following statements based on electrostatics: \n\n**Assertion:** When a charged metallic sphere $A$ carrying an initial net charge $q$ is brought into direct contact with an identical, completely uncharged metallic sphere $C$, the charge redistributes equally to leave exactly $\\\\frac{q}{2}$ on each sphere.\n**Reason:** By geometric symmetry, excess electric charges redistribute evenly over identical conducting surfaces to minimize mutual electrostatic repulsion until an electrical equilibrium state is established.",
+          "options": {
+            "a": "Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+            "b": "Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+            "c": "Assertion is true, but Reason is a false statement.",
+            "d": "Assertion is false, but Reason is a true statement."
+          },
+          "correct_option": "a",
+          "logical_connector_test": "When a charged metallic sphere $A$ carrying an initial net charge $q$ is brought into direct contact with an identical, completely uncharged metallic sphere $C$, the charge redistributes equally to leave exactly $\\\\frac{q}{2}$ on each sphere BECAUSE by geometric symmetry, excess electric charges redistribute evenly over identical conducting surfaces to minimize mutual electrostatic repulsion until an electrical equilibrium state is established.",
+          "topper_execution_logic": "Straight out of Coulomb's original experimental section in the NCERT text. The identical sizing and high conduction properties mean that charges are free to move under mutual repulsion to maximize separation. By perfect geometric symmetry, the final equilibrium charge configuration must be identical ($50/50$ split, yielding exactly $\\\\frac{q}{2}$ each). The causal connection is absolutely sound—Option A."
+        }
+      ]
+    }
+  },
+  {
+    "chapter_assessment_bank": {
+      "chapter_number": 1,
+      "chapter_name": "Electric Charges and Fields",
+      "questions": [
+        {
+          "question_id": "CH1-MCQ-21",
+          "format": "MCQ",
+          "typology_tag": "EXPLANATION_TRAP",
+          "associated_trap_title": "The Centroid Distance Superposition Trap",
+          "stem_text": "Three identical point charges, each carrying a positive magnitude $+q$, are rigidly fixed at the three vertices of an equilateral triangle of side length $l$ in free space. A test charge $+Q$ is placed precisely at the geometric centroid $O$ of the triangle configuration. Utilizing the constant $k = \\\\frac{1}{4\\\\pi\\\\epsilon_{0}}$, what is the vector sum of the net electrostatic force acting on this central test charge?",
+          "options": {
+            "a": "Zero",
+            "b": "$\\\\frac{3}{4\\\\pi\\\\epsilon_{0}}\\\\frac{Qq}{l^{2}}$",
+            "c": "$\\\\frac{3\\\\sqrt{3}}{4\\\\pi\\\\epsilon_{0}}\\\\frac{Qq}{l^{2}}$",
+            "d": "$\\\\frac{\\\\sqrt{3}}{4\\\\pi\\\\epsilon_{0}}\\\\frac{Qq}{l^{2}}$"
+          },
+          "correct_option": "a",
+          "topper_execution_logic": "Don't waste even three seconds calculating the vertex-to-centroid separation distance ($r = \\\\frac{l}{\\\\sqrt{3}}$) here! Look at the symmetry: you have three equal forces pushing outward from the center separated by perfectly symmetric angles of $120^{\\\\circ}$. Any three identical vectors with $120^{\\\\circ}$ co-planar separation always cancel each other out to a clean, flat zero. Save your energy and pick choice (a) instantly."
+        },
+        {
+          "question_id": "CH1-MCQ-22",
+          "format": "MCQ",
+          "typology_tag": "MULTI_STATEMENT",
+          "associated_trap_title": "The Charge Sign Vector Orientation Trap",
+          "stem_text": "Three point charges $q_{1} = +q$, $q_{2} = +q$, and $q_{3} = -q$ are anchored at the vertices $A$, $B$, and $C$ respectively of an equilateral triangle of side length $l$. What is the scalar magnitude of the net electrostatic force acting specifically on the negative charge $q_{3}$ situated at vertex $C$ due to the other two charges?",
+          "options": {
+            "a": "$\\\\frac{1}{4\\\\pi\\\\epsilon_{0}}\\\\frac{q^{2}}{l^{2}}$",
+            "b": "$\\\\frac{\\\\sqrt{2}}{4\\\\pi\\\\epsilon_{0}}\\\\frac{q^{2}}{l^{2}}$",
+            "c": "$\\\\frac{\\\\sqrt{3}}{4\\\\pi\\\\epsilon_{0}}\\\\frac{q^{2}}{l^{2}}$",
+            "d": "$\\\\frac{2}{4\\\\pi\\\\epsilon_{0}}\\\\frac{q^{2}}{l^{2}}$"
+          },
+          "correct_option": "c",
+          "topper_execution_logic": "Be careful with your signs! The charge at vertex $C$ is negative, so it experiences two *attractive* forces pulling it toward $A$ and $B$. Each force has an identical baseline magnitude of $F = k\\\\frac{q^{2}}{l^{2}}$. Because it is an equilateral triangle, the internal angle between these two attractive force vectors pointing along the sides is exactly $60^{\\\\circ}$. Use the vector resultant shortcut for equal components at $60^{\\\\circ}$: $R = \\\\sqrt{3}F$. That leads straight to option (c)."
+        },
+        {
+          "question_id": "CH1-MCQ-23",
+          "format": "MCQ",
+          "typology_tag": "EXPLANATION_TRAP",
+          "associated_trap_title": "The Non-Uniform Gauss's Flux Quadratic Coordinate Trap",
+          "stem_text": "A rigid closed cubic surface of edge length $a$ is positioned in a space region with its faces parallel to the coordinate planes. Its left face is bounded at the plane $x = a$ and its right face sits at the plane $x = 2a$. The region is filled with a spatially dependent non-uniform electric field given by the equation $\\\\vec{E} = \\\\alpha x^{2}\\\\hat{i}$. The net outward electric flux passing across this entire cube evaluates to:",
+          "options": {
+            "a": "$\\\\alpha a^{4}$",
+            "b": "$2\\\\alpha a^{4}$",
+            "c": "$3\\\\alpha a^{4}$",
+            "d": "$5\\\\alpha a^{4}$"
+          },
+          "correct_option": "c",
+          "topper_execution_logic": "Here's where examiners catch sloppy math. The field changes quadratically with $x$. Left face is at $x = a \\\\implies E_{L} = \\\\alpha a^{2}$, and since the outward area points left, $\\\\Phi_{L} = -\\\\alpha a^{4}$. Right face is at $x = 2a \\\\implies E_{R} = \\\\alpha (2a)^{2} = 4\\\\alpha a^{2}$. Outward area points right, so $\\\\Phi_{R} = +4\\\\alpha a^{4}$. Add them vectorially: $\\\\Phi_{\\\\text{net}} = 4\\\\alpha a^{4} - \\\\alpha a^{4} = 3\\\\alpha a^{4}$. A weak student squares $2a$ and incorrectly writes $2\\\\alpha a^{2}$, landing on option (a). Don't be that student."
+        },
+        {
+          "question_id": "CH1-MCQ-24",
+          "format": "MCQ",
+          "typology_tag": "MULTI_STATEMENT",
+          "associated_trap_title": "The Electroscope Operational Protocol",
+          "stem_text": "A standard textbook gold-leaf electroscope setup comprises a vertical conducting metal rod housed within an insulating enclosure, equipped with two thin gold leaves attached to its base. If an electrified object carrying an explicit net positive charge directly contacts the top metal knob of the uncharged apparatus, which mechanistic sequence occurs?",
+          "options": {
+            "a": "Conduction transfers identical positive charges down to both leaves, creating a mutual electrostatic repulsion where the final degree of divergence maps the amount of charge.",
+            "b": "Induction polarizes the gold leaves to carry equal and opposite charge states, forcing them to collapse tightly together via Coulomb attraction.",
+            "c": "Charges accumulate exclusively on the top knob, leaving the gold leaves completely uncharged and stationary under ideal dry weather conditions.",
+            "d": "The leaves diverge because the structural metal rod shields the interior from earth's gravitational field lines completely."
+          },
+          "correct_option": "a",
+          "topper_execution_logic": "This is a direct test of the core qualitative NCERT text from Section $1.2$. Direct contact means charging happens via *conduction*, not induction. Like charge flows down the rod onto both gold leaves simultaneously. Because like charges repel, the leaves diverge, and the amount of divergence scales with the total charge magnitude. Clean and purely concept-driven."
+        },
+        {
+          "question_id": "CH1-MCQ-25",
+          "format": "MCQ",
+          "typology_tag": "BOUNDARY_CONDITION",
+          "associated_trap_title": "The Material Medium Relative Permittivity Scaler",
+          "stem_text": "Two static point charges separated by a fixed radial distance $r$ inside a vacuum experience a mutual electrostatic force of magnitude $F$. If this entire configuration is submerged without changing the internal separation distance $r$ into an insulating fluid medium possessing a relative permittivity (dielectric constant) of $\\\\epsilon_{r} = 4$, what is the modified magnitude of the mutual force?",
+          "options": {
+            "a": "$4F$",
+            "b": "$2F$",
+            "c": "$\\\\frac{F}{2}$",
+            "d": "$\\\\frac{F}{4}$"
+          },
+          "correct_option": "d",
+          "topper_execution_logic": "Remember that the permittivity of a medium scales the denominator of Coulomb's Law: $F_{\\\\text{medium}} = \\\\frac{1}{4\\\\pi\\\\epsilon_{r}\\\\epsilon_{0}}\\\\frac{q_{1}q_{2}}{r^{2}} = \\\\frac{F_{\\\\text{vacuum}}}{\\\\epsilon_{r}}$. Since the prompt hands you $\\\\epsilon_{r} = 4$, the force drops down by a clean factor of $4$. No complicated math needed, just scale it down directly."
+        },
+        {
+          "question_id": "CH1-MCQ-26",
+          "format": "MCQ",
+          "typology_tag": "EXPLANATION_TRAP",
+          "associated_trap_title": "The Infinite Line Charge Boundary Condition Symmetry",
+          "stem_text": "An infinitely long thin straight wire carries a uniform linear charge density $\\\\lambda$. To determine the radial electric field intensity at a distance $r$ using Gauss's Law, a cylindrical Gaussian surface of length $l$ is constructed concentrically around the wire. Why is the explicit assumption of an *infinitely long* wire physically mandatory to validate this standard text derivation?",
+          "options": {
+            "a": "Without the infinite limit, the electric field vector develops longitudinal components and is no longer strictly normal to the curved cylindrical surface due to end effects.",
+            "b": "If the wire is finite, the net charge enclosed by the cylindrical Gaussian jacket drops mathematically to zero.",
+            "c": "A finite length wire forces the electric flux passing through the flat circular end caps to become infinitely large.",
+            "d": "The linear charge density $\\\\lambda$ fluctuates dynamically as an inverse-square function of length for bounded conductors."
+          },
+          "correct_option": "a",
+          "topper_code_logic": "Look straight at NCERT Section $1.14.1$. The text notes that the assumption of an infinite wire is crucial because it ensures perfect cylindrical symmetry, making the field purely radial. If the wire were short or finite, the electric field lines would bow outward at the ends (end effects), meaning $\\\\vec{E}$ would no longer be uniform or perpendicular along the curved surface, breaking the simple flux calculation."
+        },
+        {
+          "question_id": "CH1-MCQ-27",
+          "format": "MCQ",
+          "typology_tag": "GRAPH_MAPPING",
+          "associated_trap_title": "The Direct Distance Coulomb Profile Mapping",
+          "stem_text": "A standard laboratory graph plots the scalar magnitude of the electrostatic Coulomb force $F$ acting between two fixed point charges as a direct function of their raw radial separation distance $r$. What is the geometric profile displayed by this plot across the coordinate domain extending from $r \\\\to 0$ to $r \\\\to \\\\infty$?",
+          "options": {
+            "a": "A straight line passing directly through the origin with a positive constant slope.",
+            "b": "A parabolic curve that rises continuously to a peak value at a specific boundary coordinate.",
+            "c": "A rectangular hyperbola-type curve where the force asymptotically approaches infinity at the origin axis and approaches zero at the distance axis.",
+            "d": "A horizontal straight line demonstrating complete independence from spatial separation parameters."
+          },
+          "correct_option": "c",
+          "topper_execution_logic": "Pay close attention to what is being plotted on the horizontal axis! If the question plots $F$ vs $\\\\frac{1}{r^{2}}$, it's a straight line with a constant slope. But here, the horizontal axis is the raw distance $r$. Because $F \\\\propto \\\\frac{1}{r^{2}}$, the graph must be an inverse-square curve—meaning it starts near infinity when very close and asymptotically flattens out toward zero as the separation increases. This matches choice (c)."
+        },
+        {
+          "question_id": "CH1-MCQ-28",
+          "format": "MCQ",
+          "typology_tag": "BOUNDARY_CONDITION",
+          "associated_trap_title": "The Point Dipole Mathematical Enclosure Limit",
+          "stem_text": "In physical electrostatics modeling, a 'point dipole' is defined by taking a strict mathematical limit where the internal spatial separation distance $2a$ between the equal and opposite constituent charges approaches zero. To maintain a perfectly stable, non-zero permanent dipole moment vector $\\\\vec{p}$, how must the internal charge magnitude $q$ evolve during this boundary transition?",
+          "options": {
+            "a": "$q$ must simultaneously approach zero at an identical mathematical rate.",
+            "b": "$q$ must remain fixed at a static quantum value equal to the fundamental electronic charge $e$.",
+            "c": "$q$ must approach infinity such that the product product $q \\\\times 2a$ remains completely finite and constant.",
+            "d": "$q$ must oscillate continuously between positive and negative extreme limits."
+          },
+          "correct_option": "c",
+          "topper_execution_logic": "This is a direct transcript check from the 'Physical Significance of Dipoles' section in NCERT. To keep the dipole moment $p = q \\\\times 2a$ finite while the separation distance $2a$ shrinks to zero, the charge $q$ must scale up towards infinity. This theoretical model creates an ideal point dipole where the equations become mathematically exact for any distance $r$."
+        },
+        {
+          "question_id": "CH1-MCQ-29",
+          "format": "MCQ",
+          "typology_tag": "EXPLANATION_TRAP",
+          "associated_trap_title": "The Neutral Atom External Boundary Vacuum",
+          "stem_text": "An early classical model for an atom treats it as a positively charged point nucleus of charge $+Ze$ surrounded by a completely uniform spherical negative charge cloud extending up to a maximum radius $R$. The atom as a whole entity is completely neutral. What is the net electric field magnitude $E(r)$ recorded at a radial observation point situated strictly outside the atomic radius ($r > R$)?",
+          "options": {
+            "a": "$\\\\frac{1}{4\\\\pi\\\\epsilon_{0}}\\\\frac{Ze}{r^{2}}$",
+            "b": "$\\\\frac{1}{4\\\\pi\\\\epsilon_{0}}\\\\frac{Ze}{R^{2}}$",
+            "c": "Zero",
+            "d": "$\\\\frac{1}{4\\\\pi\\\\epsilon_{0}}\\\\frac{Ze}{r^{2}}\\\\left(1 - \\\\frac{r^{3}}{R^{3}}\\\\right$)"
+          },
+          "correct_option": "c",
+          "topper_execution_logic": "Don't get tricked into doing a massive, painful volume density integral for the outer region. Read the prompt's core condition: 'The atom as a whole entity is completely neutral.' When you draw a spherical Gaussian surface at an external radius $r > R$, the net enclosed charge is $+Ze + (-Ze) = 0$. Gauss's law instantly dictates that if $q_{\\\\text{enclosed}} = 0$, then the external electric field $E(r) = 0$. Spot the shortcut and lock in (c)."
+        },
+        {
+          "question_id": "CH1-MCQ-30",
+          "format": "MCQ",
+          "typology_tag": "MULTI_STATEMENT",
+          "associated_trap_title": "The Gaussian Enclosure Geometry Invariance",
+          "stem_text": "A solitary isolated positive point charge $+q$ is positioned at the exact center of a perfect spherical Gaussian surface of radius $R$, tracking a net outward electric flux valued at $\\\\Phi$. If this enclosing spherical boundary is physically stretched and distorted into an irregular, asymmetric oblong closed surface with twice the original volume while keeping the internal charge $+q$ enclosed, what is the new net outward electric flux passing through the surface?",
+          "options": {
+            "a": "$2\\\\Phi$",
+            "b": "$4\\\\Phi$",
+            "c": "$\\\\frac{\\\\Phi}{2}$",
+            "d": "$\\\\Phi$"
+          },
+          "correct_option": "d",
+          "topper_execution_logic": "This tests the most fundamental rule of Gauss's Law: total outward flux through any closed surface depends *only* on the net enclosed algebraic charge ($\\\\Phi = \\\\frac{q_{\\\\text{enc}}}{\\\\epsilon_{0}}$). It has absolutely zero dependence on the shape, surface area, asymmetry, or internal volume of that boundary. Since the charge $+q$ inside hasn't changed, the flux stays exactly $\\\\Phi$. Don't let the words 'twice the volume' trick you into scaling the answer."
+        }
+      ]
+    }
+  },
+  {
+    "chapter_assessment_bank": {
+      "chapter_number": 1,
+      "chapter_name": "Electric Charges and Fields",
+      "questions": [
+        {
+          "question_id": "CH1-AR-31",
+          "format": "ASSERTION_REASON",
+          "typology_tag": "CAUSAL_REASONING",
+          "associated_trap_title": "The Non-Uniform Gauss's Flux Boundary Face Exclusion",
+          "stem_text": "Determine the structural validity of the following statements based on electrostatics: \n\n**Assertion:** For a closed geometric cube placed inside a non-uniform spatial electric field defined strictly by $\\\\vec{E} = \\\\alpha x \\\\hat{i}$, the net outward electric flux is determined exclusively by evaluating the field integrals over the two localized boundary faces perpendicular to the x-axis.\n**Reason:** The scalar dot product $\\\\vec{E} \\\\cdot d\\\\vec{A}$ evaluates identically to zero for the top, bottom, front, and back faces because their respective area vectors are oriented perfectly perpendicular to the field lines ($\\\\theta = 90^{\\\\circ}$).",
+          "options": {
+            "a": "Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+            "b": "Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+            "c": "Assertion is true, but Reason is a false statement.",
+            "d": "Assertion is false, but Reason is a true statement."
+          },
+          "correct_option": "a",
+          "logical_connector_test": "For a closed geometric cube placed inside a non-uniform spatial electric field defined strictly by $\\\\vec{E} = \\\\alpha x \\\\hat{i}$, the net outward electric flux is determined exclusively by evaluating the field integrals over the two localized boundary faces perpendicular to the x-axis BECAUSE the scalar dot product $\\\\vec{E} \\\\cdot d\\\\vec{A}$ evaluates identically to zero for the top, bottom, front, and back faces because their respective area vectors are oriented perfectly perpendicular to the field lines ($\\\\theta = 90^{\\\\circ}$).",
+          "topper_execution_logic": "This is a clean, structural Option A setup straight out of textbook Example $1.10$. Since the vector field has only an x-component, the flux through any surface whose normal points along the $y$ or $z$ axes must vanish because $\\\\cos(90^{\\\\circ}) = 0$. The reason directly and completely accounts for why you are allowed to completely ignore those four faces and focus exclusively on the left and right boundaries. Lock it in."
+        },
+        {
+          "question_id": "CH1-AR-32",
+          "format": "ASSERTION_REASON",
+          "typology_tag": "CAUSAL_REASONING",
+          "associated_trap_title": "The Centroid Distance Superposition Trap",
+          "stem_text": "Determine the structural validity of the following statements based on electrostatics: \n\n**Assertion:** When four identical positive point charges of magnitude $+q$ are rigidly fixed at the four corners of a perfect square array, a stationary test charge $+Q$ placed precisely at the geometric centroid experiences a net electrostatic force of zero.\n**Reason:** According to the principle of superposition, individual electrostatic forces exerted on a central test charge by diagonally opposite corner pairs are perfectly equal in magnitude and point in directly antiparallel directions, resulting in clean vector cancellation.",
+          "options": {
+            "a": "Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+            "b": "Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+            "c": "Assertion is true, but Reason is a false statement.",
+            "d": "Assertion is false, but Reason is a true statement."
+          },
+          "correct_option": "a",
+          "logical_connector_test": "When four identical positive point charges of magnitude $+q$ are rigidly fixed at the four corners of a perfect square array, a stationary test charge $+Q$ placed precisely at the geometric centroid experiences a net electrostatic force of zero BECAUSE according to the principle of superposition, individual electrostatic forces exerted on a central test charge by diagonally opposite corner pairs are perfectly equal in magnitude and point in directly antiparallel directions, resulting in clean vector cancellation.",
+          "topper_execution_logic": "The logic flows beautifully here. The superposition principle lets you calculate the vector forces independently one pair at a time. Because the corners are symmetric, the diagonal distance to the center is identical for all charges, making the force magnitudes match perfectly. Since they push from diametrically opposite directions, they form pairs of cancel-out vectors ($+F$ and $-F$). This directly provides the physics mechanism for the net zero result, so it's a confident Option A."
+        },
+        {
+          "question_id": "CH1-AR-33",
+          "format": "ASSERTION_REASON",
+          "typology_tag": "CAUSAL_REASONING",
+          "associated_trap_title": "The Boundary Scaling Limit Misdirection",
+          "stem_text": "Determine the structural validity of the following statements based on electrostatics: \n\n**Assertion:** At macroscopic observation distances significantly greater than the internal dipole semi-axis length ($r \\\\gg a$), the electric field intensity of an electric dipole attenuates fast as an inverse-cubic function ($E \\\\propto r^{-3}$) rather than a standard point-charge inverse-square drop-off.\n**Reason:** At massive relative distances, the separate electric field vectors produced by the equal and opposite constituent charges $+q$ and $-q$ nearly cancel each other out completely when added vectorially.",
+          "options": {
+            "a": "Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+            "b": "Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+            "c": "Assertion is true, but Reason is a false statement.",
+            "d": "Assertion is false, but Reason is a true statement."
+          },
+          "correct_option": "a",
+          "logical_connector_test": "At macroscopic observation distances significantly greater than the internal dipole semi-axis length ($r \\\\gg a$), the electric field intensity of an electric dipole attenuates fast as an inverse-cubic function ($E \\\\propto r^{-3}$) rather than a standard point-charge inverse-square drop-off BECAUSE at massive relative distances, the separate electric field vectors produced by the equal and opposite constituent charges $+q$ and $-q$ nearly cancel each other out completely when added vectorially.",
+          "topper_execution_logic": "This hits the high-yield macro-separation limit theme from the report. Why does a dipole field drop off faster than a regular point charge? Because as you move far away, the small distance separation $2a$ between the positive and negative charges blurs together, causing their individual $1/r^{2}$ fields to almost completely cancel out. The remaining higher-order residual field drops off at the faster $1/r^{3}$ rate. The reason provides the core causal explanation for this physical phenomenon. Option A."
+        },
+        {
+          "question_id": "CH1-AR-34",
+          "format": "ASSERTION_REASON",
+          "typology_tag": "CAUSAL_REASONING",
+          "associated_trap_title": "The Macroscopic Continuous Smoothing Blur",
+          "stem_text": "Determine the structural validity of the following statements based on electrostatics: \n\n**Assertion:** The surface charge density parameter $\\\\sigma$ mapped across a charged macroscopic conductor can be safely modeled as a continuous mathematical function.\n**Reason:** The structural formulation of macroscopic charge density deliberately ignores the fundamental discrete quantisation of charge, serving as a smoothed-out average of microscopic point arrays over a localized area element $\\\\Delta S$.",
+          "options": {
+            "a": "Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+            "b": "Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+            "c": "Assertion is true, but Reason is a false statement.",
+            "d": "Assertion is false, but Reason is a true statement."
+          },
+          "correct_option": "a",
+          "logical_connector_test": "The surface charge density parameter $\\\\sigma$ mapped across a charged macroscopic conductor can be safely modeled as a continuous mathematical function BECAUSE the structural formulation of macroscopic charge density deliberately ignores the fundamental discrete quantisation of charge, serving as a smoothed-out average of microscopic point arrays over a localized area element $\\\\Delta S$.",
+          "topper_execution_logic": "Think of this like fluid mechanics: we treat water as a continuous fluid even though it's made of discrete molecules. At the macro scale, an area element $\\\\Delta S$ is microscopically huge, containing millions of electrons. This lets us use calculus and model charge density as a smooth, continuous field instead of treating it as discrete points. The reason directly validates why the assertion's mathematical continuity holds up, yielding a solid Option A."
+        },
+        {
+          "question_id": "CH1-AR-35",
+          "format": "ASSERTION_REASON",
+          "typology_tag": "CAUSAL_REASONING",
+          "associated_trap_title": "The Flux Ingestion Closed Boundary Limit",
+          "stem_text": "Determine the structural validity of the following statements based on electrostatics: \n\n**Assertion:** The total net outward electric flux evaluated over a completely closed Gaussian surface enclosing an isolated, permanent electric dipole is identically zero.\n**Reason:** According to the definitive integral formulation of Gauss's law, the net electric flux traversing any arbitrary closed boundary depends exclusively on the total net algebraic sum of charges enclosed within that boundary.",
+          "options": {
+            "a": "Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+            "b": "Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+            "c": "Assertion is true, but Reason is a false statement.",
+            "d": "Assertion is false, but Reason is a true statement."
+          },
+          "correct_option": "a",
+          "logical_connector_test": "The total net outward electric flux evaluated over a completely closed Gaussian surface enclosing an isolated, permanent electric dipole is identically zero BECAUSE according to the definitive integral formulation of Gauss's law, the net electric flux traversing any arbitrary closed boundary depends exclusively on the total net algebraic sum of charges enclosed within that boundary.",
+          "topper_execution_logic": "This is textbook logic at its finest. An electric dipole is defined as a pair of equal and opposite charges, meaning its net algebraic charge sum is strictly $+q + (-q) = 0$. Gauss's law states that $\\\\Phi = \\\\frac{q_{\\\\text{enclosed}}}{\\\\epsilon_{0}}$. Because the total internal charge is zero, the flux integral must equal zero. The reason provides the complete, direct causal link. Mark Option A."
+        },
+        {
+          "question_id": "CH1-AR-36",
+          "format": "ASSERTION_REASON",
+          "typology_tag": "CAUSAL_REASONING",
+          "associated_trap_title": "The Internal Shell Flux Vacuum",
+          "stem_text": "Determine the structural validity of the following statements based on electrostatics: \n\n**Assertion:** The electrostatic field intensity $\\\\vec{E}$ measured inside a uniformly charged thin spherical shell is completely zero at all internal coordinates.\n**Reason:** For any electrostatic system with spherical charge symmetry, the electric field intensity at an external point behaves as if the entire charge content of the shell is concentrated exclusively at its geometric center point.",
+          "options": {
+            "a": "Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+            "b": "Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+            "c": "Assertion is true, but Reason is a false statement.",
+            "d": "Assertion is false, but Reason is a true statement."
+          },
+          "correct_option": "b",
+          "logical_connector_test": "The electrostatic field intensity $\\\\vec{E}$ measured inside a uniformly charged thin spherical shell is completely zero at all internal coordinates BECAUSE for any electrostatic system with spherical charge symmetry, the electric field intensity at an external point behaves as if the entire charge content of the shell is concentrated exclusively at its geometric center point.",
+          "topper_execution_logic": "This is a classic examiner trap designed to catch students who don't read carefully. Look at the two statements. The assertion describes the *internal* field being zero ($r < R$), which is true because an internal Gaussian surface encloses zero charge. The reason describes the *external* field behavior ($r > R$) matching a centralized point charge, which is also completely true. However, what happens outside the shell has absolutely zero causal impact on why the internal field is zero. They are parallel truths that lack a logical bridge—Option B all day long."
+        },
+        {
+          "question_id": "CH1-AR-37",
+          "format": "ASSERTION_REASON",
+          "typology_tag": "CAUSAL_REASONING",
+          "associated_trap_title": "The Field Line Source Orientation Checklist",
+          "stem_text": "Determine the structural validity of the following statements based on electrostatics: \n\n**Assertion:** Electrostatic field lines are vector trajectories that universally originate from positive source charges and terminate at negative destination charges.\n**Reason:** By operational definition, the electric field vector at any specific coordinate in space maps the direction of the electrostatic force experienced by a unit positive test charge placed at that location.",
+          "options": {
+            "a": "Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+            "b": "Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+            "c": "Assertion is true, but Reason is a false statement.",
+            "d": "Assertion is false, but Reason is a true statement."
+          },
+          "correct_option": "a",
+          "logical_connector_test": "Electrostatic field lines are vector trajectories that universally originate from positive source charges and terminate at negative destination charges BECAUSE by operational definition, the electric field vector at any specific coordinate in space maps the direction of the electrostatic force experienced by a unit positive test charge placed at that location.",
+          "topper_execution_logic": "Connect the geometry to the physics definition. Since an electric field line tracks the path of a hypothetical positive test charge, it will naturally be repelled away from other positive charges (causing lines to originate there) and attracted toward negative charges (causing lines to terminate there). The definition of the field vector given in the reason directly explains the directional flow stated in the assertion. This is a clean Option A."
+        },
+        {
+          "question_id": "CH1-AR-38",
+          "format": "ASSERTION_REASON",
+          "typology_tag": "CAUSAL_REASONING",
+          "associated_trap_title": "The Identical Conducting Sphere Sharing Symmetry",
+          "stem_text": "Determine the structural validity of the following statements based on electrostatics: \n\n**Assertion:** Charles Augustin de Coulomb managed to successfully derive the inverse-square force relation before the explicit quantitative unit value of an electric charge was ever established in physics history.\n**Reason:** He utilized a torsion balance device coupled with identical conducting spheres to programmatically subdivide unknown charges into exact fractional ratios ($q/2$, $q/4$, etc.) using symmetric contact redistribution.",
+          "options": {
+            "a": "Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+            "b": "Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+            "c": "Assertion is true, but Reason is a false statement.",
+            "d": "Assertion is false, but Reason is a true statement."
+          },
+          "correct_option": "a",
+          "logical_connector_test": "Charles Augustin de Coulomb managed to successfully derive the inverse-square force relation before the explicit quantitative unit value of an electric charge was ever established in physics history BECAUSE he utilized a torsion balance device coupled with identical conducting spheres to programmatically subdivide unknown charges into exact fractional ratios ($q/2$, $q/4$, etc.) using symmetric contact redistribution.",
+          "topper_execution_logic": "This is a direct historical deep-dive from NCERT Section $1.5$. Coulomb didn't have an ammeter or a known value for the Coulomb unit. He bypassed this limitation using brilliant geometric scaling: by touching a charged sphere to an identical uncharged one, he knew the charge split exactly in half by symmetry. This let him vary the relative charge fraction systematically and observe the force changes on his torsion balance. The reason directly explains how he achieved the discovery, making it a perfect Option A."
+        },
+        {
+          "question_id": "CH1-AR-39",
+          "format": "ASSERTION_REASON",
+          "typology_tag": "CAUSAL_REASONING",
+          "associated_trap_title": "The Discrete Charge Boundless Limit",
+          "stem_text": "Determine the structural validity of the following statements based on electrostatics: \n\n**Assertion:** The electrostatic field intensity vector $\\\\vec{E}$ generated by an array of discrete point charges is mathematically undefined exactly at the absolute coordinate locations of those point charges.\n**Reason:** As the radial separation distance $r$ from an isolated discrete point charge approaches zero, the scalar field magnitude grows without any bound following the inverse-square relation.",
+          "options": {
+            "a": "Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+            "b": "Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+            "c": "Assertion is true, but Reason is a false statement.",
+            "d": "Assertion is false, but Reason is a true statement."
+          },
+          "correct_option": "a",
+          "logical_connector_test": "The electrostatic field intensity vector $\\\\vec{E}$ generated by an array of discrete point charges is mathematically undefined exactly at the absolute coordinate locations of those point charges BECAUSE as the radial separation distance $r$ from an isolated discrete point charge approaches zero, the scalar field magnitude grows without any bound following the inverse-square relation.",
+          "topper_execution_logic": "Look at the denominator of the point charge field equation: $E = \\\\frac{1}{4\\\\pi\\\\epsilon_{0}}\\\\frac{q}{r^{2}}$. If you evaluate the field precisely at the position of the point charge itself, the radial separation distance $r$ becomes exactly zero. Dividing by zero causes the function to blow up to infinity, meaning the mathematical limit is undefined. The reason provides the exact algebraic justification for the assertion's claim—Option A."
+        },
+        {
+          "question_id": "CH1-AR-40",
+          "format": "ASSERTION_REASON",
+          "typology_tag": "CAUSAL_REASONING",
+          "associated_trap_title": "The Temporal Conservation vs Frame Invariance Trap",
+          "stem_text": "Determine the structural validity of the following statements based on electrostatics: \n\n**Assertion:** The total algebraic net electric charge of an isolated system is an invariant scalar quantity that remains completely constant across all coordinate frame rotations.\n**Reason:** Unlike kinetic energy parameters, the measured electric charge of an isolated body is completely invariant under transformations between reference frames moving in relative motion.",
+          "options": {
+            "a": "Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+            "b": "Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+            "c": "Assertion is true, but Reason is a false statement.",
+            "d": "Assertion is false, but Reason is a true statement."
+          },
+          "correct_option": "b",
+          "logical_connector_test": "The total algebraic net electric charge of an isolated system is an invariant scalar quantity that remains completely constant across all coordinate frame rotations BECAUSE unlike kinetic energy parameters, the measured electric charge of an isolated body is completely invariant under transformations between reference frames moving in relative motion.",
+          "topper_execution_logic": "This is another subtle, high-level conceptual trap from the textbook's 'Points to Ponder'. Both statements are true, independent facts regarding the invariance properties of electric charge. However, the assertion focuses on invariance under *spatial rotation* (turning the coordinate axes), while the reason describes relativistic *Lorentz invariance* (moving at constant relative velocities). While both confirm that charge doesn't change under these transformations, the fact that charge is invariant under speed changes does not *cause* or explain why it is invariant under simple rotations. They are separate symmetry properties, making this Option B."
+        }
+      ]
+    }
+  },
+  {
+    "chapter_assessment_bank": {
+      "chapter_number": 1,
+      "chapter_name": "Electric Charges and Fields",
+      "questions": [
+        {
+          "question_id": "CH1-MCQ-41",
+          "format": "MCQ",
+          "typology_tag": "BOUNDARY_CONDITION",
+          "associated_trap_title": "The Boundary Scaling Limit Misdirection",
+          "stem_text": "A large, thin, infinite plane sheet of charge carries a uniform surface charge density of $+\\\\sigma$ in a vacuum environment. At a perpendicular observation distance $r$ measured from the sheet, the magnitude of the electrostatic field intensity is recorded as $E$. If the observation point is relocated to a new perpendicular distance of $3r$, what is the updated magnitude of the electric field intensity?",
+          "options": {
+            "a": "$E$",
+            "b": "$\\\\frac{E}{3}$",
+            "c": "$\\\\frac{E}{9}$",
+            "d": "$3E$"
+          },
+          "correct_option": "a",
+          "topper_execution_logic": "Don't blindly apply inverse-square $r^{-2}$ or inverse-cubic $r^{-3}$ formulas here! According to the core text derivations, the electric field generated by an infinite plane sheet of charge is strictly $E = \\\\frac{\\\\sigma}{2\\\\epsilon_{0}}$. Notice that the radial distance parameter $r$ is completely missing from this equation. This means the field lines are perfectly uniform and independent of distance within the boundary limits. Tripling the distance to $3r$ changes absolutely nothing—the field stays exactly $E$."
+        },
+        {
+          "question_id": "CH1-MCQ-42",
+          "format": "MCQ",
+          "typology_tag": "GRAPH_MAPPING",
+          "associated_trap_title": "The Slope Product Sign Interpretation",
+          "stem_text": "An investigator plots the logarithm of the electric field magnitude, $\\\\log_{10} E$, against the logarithm of the radial separation distance, $\\\\log_{10} r$, for two separate isolated electrostatic sources housed in a vacuum. The line tracking Source $1$ yields a continuous linear geometric slope of $-2$, while the line tracking Source $2$ yields a continuous linear geometric slope of $-3$. Which of the following option pairs accurately matches the physical identity of these sources?",
+          "options": {
+            "a": "Source $1$ is a short electric dipole; Source $2$ is an isolated point charge.",
+            "b": "Source $1$ is an isolated point charge; Source $2$ is a short electric dipole.",
+            "c": "Source $1$ is an infinite line charge; Source $2$ is an isolated point charge.",
+            "d": "Source $1$ is an isolated point charge; Source $2$ is an infinite plane sheet of charge."
+          },
+          "correct_option": "b",
+          "topper_execution_logic": "Turn this logarithmic graph question into a straightforward linear math model: since $E \\\\propto r^{n}$, taking logs gives $\\\\log_{10} E = n \\\\cdot \\\\log_{10} r + \\\\text{constant}$. This means the geometric slope is exactly equal to the power exponent $n$. For a simple point charge, $E \\\\propto r^{-2}$ so the $exponent/slope$ is $-2$. For a short dipole under the macro boundary limit ($r \\\\gg a$), $E \\\\propto r^{-3}$ so the $exponent/slope$ is $-3$. This immediately locks you into choice (b)."
+        },
+        {
+          "question_id": "CH1-MCQ-43",
+          "format": "MCQ",
+          "typology_tag": "EXPLANATION_TRAP",
+          "associated_trap_title": "The Diagonal Coordinate Distance Squaring Trap",
+          "stem_text": "Three identical positive point charges, each carrying a charge magnitude $+q$, are anchored securely in free space at the coordinate positions $A(0,0)$, $B(a,0)$, and $C(0,a)$. Utilizing Coulomb's electrostatic constant $k = \\\\frac{1}{4\\\\pi\\\\epsilon_{0}}$, what is the exact scalar magnitude of the net electrostatic force acting on the charge situated at the origin $A(0,0)$?",
+          "options": {
+            "a": "$\\\\frac{1}{4\\\\pi\\\\epsilon_{0}}\\\\frac{q^{2}}{a^{2}}$",
+            "b": "$\\\\frac{\\\\sqrt{2}}{4\\\\pi\\\\epsilon_{0}}\\\\frac{q^{2}}{a^{2}}$",
+            "c": "$\\\\frac{2}{4\\\\pi\\\\epsilon_{0}}\\\\frac{q^{2}}{a^{2}}$",
+            "d": "$\\\\frac{1}{4\\\\pi\\\\epsilon_{0}}\\\\frac{q^{2}}{2a^{2}}$"
+          },
+          "correct_option": "b",
+          "topper_execution_logic": "Don't mistake this for a diagonal coordinate trap where distance is $\\\\sqrt{2}a$. Here, look at the vectors relative to the origin charge at $A(0,0)$: charge $B(a,0)$ repels it along the negative x-axis with a force magnitude $F = \\\\frac{kq^{2}}{a^{2}}$, and charge $C(0,a)$ repels it along the negative y-axis with an identical force magnitude $F$. Because these two force vectors are perfectly perpendicular ($\\\\theta = 90^{\\\\circ}$), their vector sum is simply computed using the Pythagorean shortcut: $R = \\\\sqrt{F^{2} + F^{2}} = \\\\sqrt{2}F$. This makes choice (b) the only path."
+        },
+        {
+          "question_id": "CH1-MCQ-44",
+          "format": "MCQ",
+          "typology_tag": "MULTI_STATEMENT",
+          "associated_trap_title": "The Non-Uniform Field Gradient Checklist",
+          "stem_text": "An electric dipole possessing a permanent net dipole moment vector $\\\\vec{p}$ is placed inside a non-uniform external electric field $\\\\vec{E}$ whose scalar field magnitude increases strictly along the positive x-direction. If the dipole moment vector $\\\\vec{p}$ is oriented perfectly parallel to this positive x-axis, what combination of net translational force $\\\\vec{F}_{\\\\text{net}}$ and net torque $\\\\vec{\\\\tau}$ acts on the system?",
+          "options": {
+            "a": "$\\\\vec{F}_{\\\\text{net}}$ points along the positive x-direction, and $\\\\vec{\\\\tau} = 0$",
+            "b": "$\\\\vec{F}_{\\\\text{net}}$ points along the negative x-direction, and $\\\\vec{\\\\tau} = 0$",
+            "c": "$\\\\vec{F}_{\\\\text{net}} = 0$, and $\\\\vec{\\\\tau} = \\\\vec{p} \\\\times \\\\vec{E}$",
+            "d": "$\\\\vec{F}_{\\\\text{net}}$ points along the positive x-direction, and $\\\\vec{\\\\tau}$ is at its maximum scalar value"
+          },
+          "correct_option": "a",
+          "topper_execution_logic": "This is a direct test of the high-level non-uniform field section in NCERT Section $1.11.2$. First, evaluate torque: because $\\\\vec{p}$ and $\\\\vec{E}$ are perfectly parallel, the orientation angle $\\\\theta = 0^{\\\\circ}$, so the cross product $\\\\vec{\\\\tau} = \\\\vec{p} \\\\times \\\\vec{E}$ drops to an absolute zero. Second, evaluate force: the positive charge $+q$ sits in a slightly stronger field region further along the x-axis than the negative charge $-q$. Thus, the forward pull $+qE_{\\\\text{strong}}$ wins over the backward pull $-qE_{\\\\text{weak}}$, creating a net translational force pointing in the direction of the increasing field gradient (positive x-direction)."
+        },
+        {
+          "question_id": "CH1-MCQ-45",
+          "format": "MCQ",
+          "typology_tag": "BOUNDARY_CONDITION",
+          "associated_trap_title": "The Material Medium Relative Permittivity Scaler",
+          "stem_text": "An isolated positive point charge $+q$ is completely submerged within an infinite, isotropic dielectric liquid medium possessing a relative permittivity (dielectric constant) of $\\\\epsilon_{r} = 5$. According to the integral formulation of Gauss's Law, what is the net outward electric flux passing through a spherical Gaussian surface of radius $R$ constructed concentrically around this point charge?",
+          "options": {
+            "a": "$\\\\frac{q}{\\\\epsilon_{0}}$",
+            "b": "$\\\\frac{q}{5\\\\epsilon_{0}}$",
+            "c": "$\\\\frac{5q}{\\\\epsilon_{0}}$",
+            "d": "Zero"
+          },
+          "correct_option": "b",
+          "topper_execution_logic": "When a charge is embedded inside a dielectric medium, the absolute permittivity of the medium scales up to $\\\\epsilon = \\\\epsilon_{r}\\\\epsilon_{0}$. Consequently, Gauss's Law modifies its fundamental denominator from $\\\\epsilon_{0}$ to $\\\\epsilon_{r}\\\\epsilon_{0}$, which evaluates here to $5\\\\epsilon_{0}$. The net outward flux of the electric field lines drops by a factor of $5$ because the bound polarization charges in the surrounding medium partially screen the original point charge. Pick (b) instantly."
+        },
+        {
+          "question_id": "CH1-MCQ-46",
+          "format": "MCQ",
+          "typology_tag": "EXPLANATION_TRAP",
+          "associated_trap_title": "The Dipole Axis Shift Angle Misdirection",
+          "stem_text": "An electric dipole characterized by a permanent dipole moment magnitude $p$ is initially aligned parallel to a uniform external electric field of magnitude $E$. An external mechanical agent rotates this dipole slowly by an angle of exactly $90^{\\\\circ}$ to position it perpendicular to the external field lines. What is the total work done $W$ by the external agent during this specific rotational displacement?",
+          "options": {
+            "a": "$-pE$",
+            "b": "$+pE$",
+            "c": "$+2pE$",
+            "d": "Zero"
+          },
+          "correct_option": "b",
+          "topper_execution_logic": "Always compute potential energy changes strictly using the dot product formula: $U = -pE\\\\cos\\\\theta$. The initial stable state has $\\\\theta = 0^{\\\\circ} \\\\implies U_{\\\\text{initial}} = -pE\\\\cos(0^{\\\\circ}) = -pE$. The final perpendicular orientation has $\\\\theta = 90^{\\\\circ} \\\\implies U_{\\\\text{final}} = -pE\\\\cos(90^{\\\\circ}) = 0$. The work done by an external agent is $W = \\\\Delta U = U_{\\\\text{final}} - U_{\\\\text{initial}} = 0 - (-pE) = +pE$. Watch the signs like a hawk so you don't get trapped by choice (a)."
+        },
+        {
+          "question_id": "CH1-MCQ-47",
+          "format": "MCQ",
+          "typology_tag": "GRAPH_MAPPING",
+          "associated_trap_title": "The Internal Shell Flux Vacuum",
+          "stem_text": "A solid metallic conducting sphere of radius $R$ is electrified to carry a total net positive charge $Q$. Which of the following descriptions accurately matches the qualitative coordinate graph of the electric field magnitude $E$ plotted continuously as a function of the radial distance $r$ from the geometric center of the sphere?",
+          "options": {
+            "a": "$E = 0$ for the domain $r < R$, and drops off following $E \\\\propto r^{-2}$ for the domain $r \\\\ge R$.",
+            "b": "$E$ increases linearly following $E \\\\propto r$ for $r < R$, and drops off following $E \\\\propto r^{-2}$ for $r \\\\ge R$.",
+            "c": "$E$ remains constant and non-zero for $r < R$, and drops abruptly to zero at the boundary $r = R$.",
+            "d": "$E = 0$ for the domain $r \\\\le R$, and drops off following $E \\\\propto r^{-3}$ for the domain $r > R$."
+          },
+          "correct_option": "a",
+          "topper_execution_logic": "This tests the fundamental rule of conductors in electrostatic equilibrium. Because all excess charge resides exclusively on the outer surface, any internal Gaussian surface encloses zero net charge, forcing $E = 0$ for all internal points ($r < R$). The moment you step outside ($r \\\\ge R$), the entire sphere acts exactly like a point charge concentrated at the center, meaning it drops off as an inverse-square relation ($E \\\\propto r^{-2}$). This makes choice (a) the only correct profile."
+        },
+        {
+          "question_id": "CH1-MCQ-48",
+          "format": "MCQ",
+          "typology_tag": "EXPLANATION_TRAP",
+          "associated_trap_title": "The Non-Uniform Gauss's Flux Boundary Face Exclusion",
+          "stem_text": "A rigid closed cube of edge length $a$ is positioned in space with its faces aligned parallel to the coordinate planes. The left face sits at the plane $x = 0$ and the right face sits at the plane $x = a$. The space is filled with a non-uniform electric field vector defined strictly by the equation $\\\\vec{E} = \\\\gamma x \\\\hat{i}$, where $\\\\gamma$ is a positive constant. What is the net outward electric flux $\\\\Phi_{\\\\text{net}}$ passing through the entire cube?",
+          "options": {
+            "a": "Zero",
+            "b": "$\\\\gamma a^{3}$",
+            "c": "$\\\\gamma a^{2}$",
+            "d": "$2\\\\gamma a^{3}$"
+          },
+          "correct_option": "b",
+          "topper_execution_logic": "Because the field points exclusively along the x-axis, the area vectors for the top, bottom, front, and back faces are perpendicular to the field lines ($\\\\theta = 90^{\\\\circ}$), making their flux contributions zero. You only evaluate the left and right boundaries. At the left face ($x = 0$), the field magnitude is $E_{L} = \\\\gamma(0) = 0$, so flux is zero. At the right face ($x = a$), the field magnitude is $E_{R} = \\\\gamma a$, and the outward normal points right, yielding $\\\\Phi_{R} = (\\\\gamma a) \\\\cdot a^{2} = \\\\gamma a^{3}$. Adding them up gives exactly $\\\\gamma a^{3}$, matching choice (b)."
+        },
+        {
+          "question_id": "CH1-MCQ-49",
+          "format": "MCQ",
+          "typology_tag": "MULTI_STATEMENT",
+          "associated_trap_title": "The Charge Density Dimension Verification",
+          "stem_text": "Review the following statements regarding the physical characteristics of electrostatic field lines: \n\nStatement $1$: Electrostatic field lines can form continuous closed loops in a charge-free region. \nStatement $2$: The relative crowding density of field lines in a localized region indicates the relative strength of the electric field magnitude there. \nStatement $3$: Two field lines can cross each other if the source charges possess highly unequal magnitudes. \n\nWhich of these statements $is/are$ entirely true?",
+          "options": {
+            "a": "Statement $1$ and Statement $2$ only",
+            "b": "Statement $2$ only",
+            "c": "Statement $2$ and Statement $3$ only",
+            "d": "Statement $1$, Statement $2$, and Statement $3$"
+          },
+          "correct_option": "b",
+          "topper_execution_logic": "Run a quick elimination check. Statement $1$ is completely false because electrostatic field lines never form closed loops due to the conservative nature of the field. Statement $3$ is also completely false because field lines *never* cross under any circumstance; doing so would create two distinct tangents at the intersection point, ruining vector uniqueness. Only Statement $2$ is a verified textbook fact: crowded lines mean a strong field, sparse lines mean a weak field. Choice (b) is the clear winner."
+        },
+        {
+          "question_id": "CH1-MCQ-50",
+          "format": "MCQ",
+          "typology_tag": "BOUNDARY_CONDITION",
+          "associated_trap_title": "The Axial-Equatorial Macro Geometry Limit",
+          "stem_text": "A short electric dipole with a permanent dipole moment magnitude $p$ generates an electric field magnitude of $E_{1}$ at a far-away axial position located at a distance $r$ from its center. The same dipole creates an electric field magnitude of $E_{2}$ at a far-away equatorial plane coordinate located at a distance of $2r$ from its center. Under the definitive point-dipole condition ($r \\\\gg a$), what is the exact value of the numerical ratio $\\\\frac{E_{1}}{E_{2}}$?",
+          "options": {
+            "a": "$2$",
+            "b": "$4$",
+            "c": "$8$",
+            "d": "$16$"
+          },
+          "correct_option": "d",
+          "topper_execution_logic": "Don't fall for the simple ratio trap of $2$ by assuming same-distance points! Write out the short-dipole scaling equations carefully: $E_{1} = E_{\\\\text{axial}}(r) = \\\\frac{2kp}{r^{3}}$. For the equatorial point at twice the distance, $E_{2} = E_{\\\\text{equatorial}}(2r) = \\\\frac{kp}{(2r)^{3}} = \\\\frac{kp}{8r^{3}}$. Now divide them: $\\\\frac{E_{1}}{E_{2}} = \\\\frac{2kp/r^{3}}{kp/8r^{3}} = 2 \\\\times 8 = 16$. The inverse-cubic drop-off behavior turns the doubled distance into an extra factor of $8$, pushing the final ratio up to $16$."
+        }
+      ]
+    }
+  },
+  {
+    "chapter_subjective_bank": {
+      "chapter_number": 1,
+      "chapter_name": "Electric Charges and Fields",
+      "questions": [
+        {
+          "question_id": "CH1-2M-01",
+          "marks_category": 2,
+          "typology_tag": "VSA",
+          "stem_text": "An electric dipole consists of two point charges $+1 \\\\mu{\\\\text{C}}$ and $-1 \\\\mu{\\\\text{C}}$, held $10$ cm apart. It is subjected to a uniform electric field of $100 N/C$. Calculate the amount of work done in turning the dipole from its position of stable equilibrium to the position of unstable equilibrium, in the field.",
+          "marking_scheme_breakdown": [
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Identification of initial stable orientation angle $\\\\theta_{1} = 0^{\\\\circ}$ and final unstable orientation angle $\\\\theta_{2} = 180^{\\\\circ}$, combined with the general work equation.",
+              "minimum_viable_text": "Stable equilibrium is at $\\\\theta_{1} = 0^{\\\\circ}$ and unstable equilibrium is at $\\\\theta_{2} = 180^{\\\\circ}$. Work done is $W = pE(\\\\cos\\\\theta_{1} - \\\\cos\\\\theta_{2}) = 2pE$.",
+              "algebraic_progression": [
+                "$W = pE(\\\\cos(0^{\\\\circ}) - \\\\cos(180^{\\\\circ}))$",
+                "$W = pE(1 - (-1)) = 2pE$"
+              ]
+            },
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Accurate calculation of the dipole moment $p$ and final numeric work value with appropriate S.I. units.",
+              "minimum_viable_text": "Dipole moment $p = q(2a) = 10^{-6}\\\\text{ C} \\\\times 0.1\\\\text{ m} = 10^{-7}\\\\text{ C}\\\\cdot\\\\text{m}$. Net work $W = 2 \\\\times 10^{-7} \\\\times 100 = 2 \\\\times 10^{-5}\\\\text{ J}$.",
+              "algebraic_progression": [
+                "$p = (1 \\\\times 10^{-6}\\\\,\\\\text{C}) \\\\times (0.10\\\\,\\\\text{m}) = 10^{-7}\\\\,\\\\text{C}\\\\cdot\\\\text{m}$",
+                "$W = 2 \\\\times (10^{-7}\\\\,\\\\text{C}\\\\cdot\\\\text{m}) \\\\times (100\\\\,\\\\text{N/C}) = 2 \\\\times 10^{-5}\\\\,\\\\text{J}$"
+              ]
+            }
+          ],
+          "topper_execution_logic": "Watch out for the classic trap here! The $10$ cm separation given is the *entire* dipole length (2a), not just 'a'. If you mistake it for 'a' and double it, your dipole moment doubles, pushing your work value to $4 \\\\times 10^{-5}\\\\text{ J}$, which triggers an automatic $-0.5$ mark penalty. Also, never forget to append the unit symbol ('J' or $'N\\\\cdot\\\\text{m}$') at the end, or examiners will slice off another $0.5$ marks instantly."
+        },
+        {
+          "question_id": "CH1-2M-02",
+          "marks_category": 2,
+          "typology_tag": "VSA",
+          "stem_text": "Four point charges of $1 \\\\mu{\\\\text{C}}, -2 \\\\mu{\\\\text{C}}, 1 \\\\mu{\\\\text{C}}$ and $-2 \\\\mu{\\\\text{C}}$ are placed at the corners $A, B, C$ and D respectively, of a square of side $30$ cm. Find the net force acting on a charge of $4 \\\\mu{\\\\text{C}}$ placed at the centre of the square.",
+          "marking_scheme_breakdown": [
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Vector resolution and pair-wise cancellation along diagonal AC.",
+              "minimum_viable_text": "Forces exerted on the central $+4 \\\\mu{\\\\text{C}}$ charge by equal charges at opposite corners A and $C (1 \\\\mu{\\\\text{C}}$ each) are equal in magnitude but opposite in direction. They cancel vectorially: $\\\\vec{F}_{A} + \\\\vec{F}_{C} = 0\\\\text{ N}$.",
+              "algebraic_progression": [
+                "$\\\\vec{F}_{A} = -\\\\vec{F}_{C}$",
+                "$\\\\vec{F}_{A} + \\\\vec{F}_{C} = 0\\\\text{ N}$"
+              ]
+            },
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Vector cancellation along diagonal BD and stating the final net force.",
+              "minimum_viable_text": "Similarly, charges at corners B and $D (-2 \\\\mu{\\\\text{C}}$ each) exert equal and opposite attractive forces on the center charge, canceling vectorially: $\\\\vec{F}_{B} + \\\\vec{F}_{D} = 0\\\\text{ N}$. Hence, $\\\\vec{F}_{\\\\text{net}} = 0\\\\text{ N}$.",
+              "algebraic_progression": [
+                "$\\\\vec{F}_{B} = -\\\\vec{F}_{D}$",
+                "$\\\\vec{F}_{\\\\text{net}} = \\\\vec{F}_{A} + \\\\vec{F}_{C} + \\\\vec{F}_{B} + \\\\vec{F}_{D} = 0\\\\text{ N}$"
+              ]
+            }
+          ],
+          "topper_execution_logic": "Don't waste time running elaborate, tedious calculations for diagonal distances and individual field strengths. Examiners are strictly trained to look for direct, symmetry-based vector cancellations. Explicitly state that pairs of equal charges at opposite corners cancel out vectorially. If you write a long mathematical derivation and introduce a tiny arithmetic slip up that yields a non-zero net vector, you forfeit the entire second mark automatically."
+        },
+        {
+          "question_id": "CH1-2M-03",
+          "marks_category": 2,
+          "typology_tag": "VSA",
+          "stem_text": "Two point charges of $3 \\\\mu{\\\\text{C}}$ and $4 \\\\mu{\\\\text{C}}$ are kept in air at ($0.3 m, 0$) and ($0, 0.3 m$) in $x-y$ plane. Find the magnitude and direction of the net electric field produced at the origin ($0, 0$).",
+          "marking_scheme_breakdown": [
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Computing the component electric fields $E_{x}$ and $E_{y}$ at the origin using Coulomb's constant, including direction vectors.",
+              "minimum_viable_text": "Field due to $q_{1}$ is $E_{x} = \\\\frac{1}{4\\\\pi\\\\epsilon_{0}} \\\\frac{q_{1}}{x^{2}}$ along $-\\\\hat{i}$, and field due to $q_{2}$ is $E_{y} = \\\\frac{1}{4\\\\pi\\\\epsilon_{0}} \\\\frac{q_{2}}{y^{2}}$ along $-\\\\hat{j}$.",
+              "algebraic_progression": [
+                "$\\\\vec{E}_{x} = -\\\\left(9 \\\\times 10^{9}\\\\right) \\\\frac{3 \\\\times 10^{-6}}{(0.3)^{2}}\\\\hat{i} = -3 \\\\times 10^{5}\\\\,\\\\hat{i}\\\\,\\\\text{N/C}$",
+                "$\\\\vec{E}_{y} = -\\\\left(9 \\\\times 10^{9}\\\\right) \\\\frac{4 \\\\times 10^{-6}}{(0.3)^{2}}\\\\hat{j} = -4 \\\\times 10^{5}\\\\,\\\\hat{j}\\\\,\\\\text{N/C}$"
+              ]
+            },
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Vector addition of components to find net magnitude and coordinate direction.",
+              "minimum_viable_text": "$E_{\\\\text{net}} = \\\\sqrt{E_{x}^{2} + E_{y}^{2}} = 5 \\\\times 10^{5}\\\\text{ N/C}$. Direction is $\\\\theta = \\\\tan^{-1}(E_{y}/E_{x}) = \\\\tan^{-1}(4/3) = 53.1^{\\circ}$ relative to the negative x-axis into the third quadrant.",
+              "algebraic_progression": [
+                "$E_{\\\\text{net}} = \\\\sqrt{(-3 \\\\times 10^{5})^{2} + (-4 \\\\times 10^{5})^{2}} = 5 \\\\times 10^{5}\\\\,\\\\text{N/C}$",
+                "$\\\\theta = \\\\tan^{-1}\\\\left(\\\\frac{4 \\\\times 10^{5}}{3 \\\\times 10^{5}}\\\\right) = \\\\tan^{-1}\\\\left(\\\\frac{4}{3}\\\\right) \\\\approx 53.1^{\\\\circ}$"
+              ]
+            }
+          ],
+          "topper_execution_logic": "Finding the net magnitude is only half the battle. The major deduction trap here is failing to mathematically define the coordinate direction angle $\\\\theta$. Writing conversational directional phrases like 'direction is southwest' will immediately get you docked $-0.5$ marks. Always compute the exact angle via $\\\\tan\\\\theta = E_{y}/E_{x}$ and explicitly specify which axis it is measured from to lock down full points."
+        },
+        {
+          "question_id": "CH1-2M-04",
+          "marks_category": 2,
+          "typology_tag": "VSA",
+          "stem_text": "Two point charges $q_{A} = 3 \\\\mu{\\\\text{C}}$ and $q_{B} = -3 \\\\mu{\\\\text{C}}$ are located $20$ cm apart in vacuum. Find the magnitude and direction of the electric field at the midpoint O of the line AB joining the two charges.",
+          "marking_scheme_breakdown": [
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Stating that fields due to both positive and negative charges point in the same direction along line AB and identifying the correct midpoint distance $r$.",
+              "minimum_viable_text": "Midpoint distance $r = 10$ cm $= 0.1 m$. The electric field due to the positive charge points away from A (towards O), and the field due to the negative charge points towards B (towards O). Both vectors point in the same direction along OB.",
+              "algebraic_progression": [
+                "$r = \\\\frac{20\\\\text{ cm}}{2} = 10\\\\text{ cm} = 0.1\\\\text{ m}$",
+                "$\\\\vec{E}_{A} \\\\text{ and } \\\\vec{E}_{B} \\\\text{ are both directed towards the right along } \\\\vec{OB}$"
+              ]
+            },
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Calculating the individual field magnitudes and taking their algebraic sum with correct S.I. units and direction description.",
+              "minimum_viable_text": "$E_{\\\\text{net}} = E_{A} + E_{B} = 2 \\\\times \\\\frac{1}{4\\\\pi\\\\epsilon_{0}}\\\\frac{q}{r^{2}} = 5.4 \\\\times 10^{6}\\\\text{ N/C}$ directed along OB towards the negative charge.",
+              "algebraic_progression": [
+                "$E_{A} = E_{B} = \\\\frac{9 \\\\times 10^{9} \\\\times 3 \\\\times 10^{-6}}{(0.1)^{2}} = 2.7 \\\\times 10^{6}\\\\,\\\\text{N/C}$",
+                "$E_{\\\\text{net}} = E_{A} + E_{B} = 2.7 \\\\times 10^{6} + 2.7 \\\\times 10^{6} = 5.4 \\\\times 10^{6}\\\\,\\\\text{N/C}$"
+              ]
+            }
+          ],
+          "topper_execution_logic": "Do not instinctively write zero just because the charge magnitudes are equal! Because the charges have opposite signs, their field contributions at the midpoint cooperate and point in the exact same direction (towards the negative charge), rather than canceling out. Also, be careful to use the half-distance $r = 10$ cm $= 0.1 m$ instead of the total separation distance $20$ cm, or your entire numerical calculation collapses."
+        },
+        {
+          "question_id": "CH1-2M-05",
+          "marks_category": 2,
+          "typology_tag": "VSA",
+          "stem_text": "An electric dipole with a permanent dipole moment of $4 \\\\times 10^{-9} C\\\\cdot{}m$ is aligned at $30^{\\\\circ}$ with the direction of a uniform external electric field of magnitude $5 \\\\times 10^{4} N/C$. Calculate the magnitude of the torque acting on the dipole.",
+          "marking_scheme_breakdown": [
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Stating the correct vector formula for torque on an electric dipole in a uniform field and substituting the given parameters.",
+              "minimum_viable_text": "Torque experienced by a dipole is given by $\\\\tau = pE\\\\sin\\\\theta$. Substituting the values: $p = 4 \\\\times 10^{-9}\\\\text{ C}\\\\cdot\\\\text{m}, E = 5 \\\\times 10^{4}\\\\text{ N/C}$, and $\\\\theta = 30^{\\\\circ}$.",
+              "algebraic_progression": [
+                "$\\\\tau = p \\\\times E \\\\implies \\\\tau = pE\\\\sin\\\\theta$",
+                "$\\\\tau = (4 \\\\times 10^{-9}) \\\\times (5 \\\\times 10^{4}) \\\\times \\\\sin(30^{\\\\circ})$"
+              ]
+            },
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Evaluating the mathematical expression correctly to arrive at the final numeric value with proper S.I. units.",
+              "minimum_viable_text": "$\\\\tau = 20 \\\\times 10^{-5} \\\\times 0.5 = 10^{-4}\\\\text{ N}\\\\cdot\\\\text{m}$.",
+              "algebraic_progression": [
+                "$\\\\tau = 20 \\\\times 10^{-5} \\\\times \\\\frac{1}{2}$",
+                "$\\\\tau = 10^{-4}\\\\,\\\\text{N}\\\\cdot\\\\text{m}$"
+              ]
+            }
+          ],
+          "topper_execution_logic": "This question is a total gift, but it is an absolute magnet for sloppy unit penalties. The standard unit for torque is $\\\\text{N}\\\\cdot\\\\text{m}$ (Newton-meter). If you leave it unitless or write something ridiculous like $\\\\text{N/C}$, the examiner is contractually obligated to dock you $-0.5$ marks. Double-check that you remember $\\\\sin 30^{\\\\circ} = 0.5$ correctly so an absolute brain-fade arithmetic mistake doesn't steal your second mark."
+        }
+      ]
+    }
+  },
+  {
+    "chapter_subjective_bank": {
+      "chapter_number": 1,
+      "chapter_name": "Electric Charges and Fields",
+      "questions": [
+        {
+          "question_id": "CH1-3M-01",
+          "marks_category": 3,
+          "typology_tag": "SA",
+          "stem_text": "(a) Twelve negative charges of same magnitude $-q$ are equally spaced and fixed on the circumference of a circle of radius $R$. Relative to potential being zero at infinity, find the electric potential and electric field at the centre $C$ of the circle.\n\n(b) If the same twelve negative charges are unequally spaced and fixed along an arc of $120^{\\\\circ}$ of radius $R$, find the new electric potential at the centre $C$.",
+          "marking_scheme_breakdown": [
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Determining the net electric field at the center of the symmetrical circle via vector symmetry arguments.",
+              "minimum_viable_text": "Due to symmetric distribution of the $12$ identical charges on the circumference, the vector sum of all electric fields at the center is zero: $\\\\vec{E} = 0\\\\text{ N/C}$.",
+              "algebraic_progression": [
+                "$\\\\vec{E} = \\\\sum_{i=1}^{12} \\\\vec{E}_{i}$",
+                "$\\\\vec{E} = 0\\\\text{ N/C}$"
+              ]
+            },
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Calculating the scalar sum of the electric potential at the center for the complete circle.",
+              "minimum_viable_text": "Potential is a scalar quantity. The total potential at the center is the algebraic sum of the potentials of the $12$ negative charges: $V = 12 \\\\times \\\\left(-\\\\frac{q}{4\\\\pi\\\\epsilon_{0}R}\\\\right) = -\\\\frac{3q}{\\\\pi\\\\epsilon_{0}R}$.",
+              "algebraic_progression": [
+                "$V = \\\\sum_{i=1}^{12} V_{i} = 12 \\\\times \\\\left(-\\\\frac{q}{4\\\\pi\\\\epsilon_{0}R}\\\\right)$",
+                "$V = -\\\\frac{3q}{\\\\pi\\\\epsilon_{0}R}$"
+              ]
+            },
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Deducing the potential for the arc configuration based on scalar properties.",
+              "minimum_viable_text": "Since potential is a scalar quantity, it is independent of the angular spacing of the charges. Because all $12$ negative charges remain at distance $R$ from the center, the potential is unchanged: $V = -\\\\frac{3q}{\\\\pi\\\\epsilon_{0}R}$.",
+              "algebraic_progression": [
+                "$V_{\\\\text{arc}} = \\\\sum_{i=1}^{12} \\\\left(-\\\\frac{q}{4\\\\pi\\\\epsilon_{0}R}\\\\right)$",
+                "$V_{\\\\text{arc}} = -\\\\frac{3q}{\\\\pi\\\\epsilon_{0}R}$"
+              ]
+            }
+          ],
+          "topper_execution_logic": "Examiners absolutely love to trick you here into vectorially resolving the potential for part (b). Don't fall for it! Potential is a scalar, so it doesn't give a damn about angular spacing—only distance matters. The single biggest trap is forgetting the negative sign for the negative charges; writing a positive potential will vaporize $1.0$ full mark instantly."
+        },
+        {
+          "question_id": "CH1-3M-02",
+          "marks_category": 3,
+          "typology_tag": "SA",
+          "stem_text": "Two small solid metal balls A and B of radii $R$ and $2R$ having initial surface charge densities $2\\\\sigma$ and $3\\\\sigma$ respectively are kept far apart. Find the final surface charge densities on A and B after they are connected by a conducting wire.",
+          "marking_scheme_breakdown": [
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Formulating initial individual charges and calculating the total system charge $Q$.",
+              "minimum_viable_text": "Initial charges are $q_{A} = 2\\\\sigma(4\\\\pi R^{2}) = 8\\\\pi R^{2}\\\\sigma$ and $q_{B} = 3\\\\sigma(4\\\\pi(2R)^{2}) = 48\\\\pi R^{2}\\\\sigma$. Total charge $Q = q_{A} + q_{B} = 56\\\\pi R^{2}\\\\sigma$.",
+              "algebraic_progression": [
+                "$q_{A} = 2\\\\sigma(4\\\\pi R^{2}), \\\\quad q_{B} = 3\\\\sigma(4\\\\pi \\\\times 4R^{2})$",
+                "$Q = 8\\\\pi R^{2}\\\\sigma + 48\\\\pi R^{2}\\\\sigma = 56\\\\pi R^{2}\\\\sigma$"
+              ]
+            },
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Formulating the potential equality condition at equilibrium to establish the final charge ratio.",
+              "minimum_viable_text": "When connected, charge flows until potentials equalize: $V_{A} = V_{B} \\\\implies \\\\frac{q'_{A}}{4\\\\pi\\\\epsilon_{0}R} = \\\\frac{q'_{B}}{4\\\\pi\\\\epsilon_{0}(2R)} \\\\implies q'_{B} = 2q'_{A}$.",
+              "algebraic_progression": [
+                "$\\\\frac{q'_{A}}{4\\\\pi\\\\epsilon_{0}R} = \\\\frac{q'_{B}}{4\\\\pi\\\\epsilon_{0}(2R)}$",
+                "$q'_{B} = 2q'_{A}$"
+              ]
+            },
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Solving the system of linear equations to compute the final surface charge densities.",
+              "minimum_viable_text": "Since $q'_{A} + q'_{B} = Q \\\\implies 3q'_{A} = 56\\\\pi R^{2}\\\\sigma \\\\implies q'_{A} = \\\\frac{56}{3}\\\\pi R^{2}\\\\sigma$. New charge densities are $\\\\sigma'_{A} = \\\\frac{q'_{A}}{4\\\\pi R^{2}} = \\\\frac{14}{3}\\\\sigma$ and $\\\\sigma'_{B} = \\\\frac{q'_{B}}{4\\\\pi(2R)^{2}} = \\\\frac{7}{3}\\\\sigma$.",
+              "algebraic_progression": [
+                "$3q'_{A} = 56\\\\pi R^{2}\\\\sigma \\\\implies q'_{A} = \\\\frac{56}{3}\\\\pi R^{2}\\\\sigma \\\\text{ and } q'_{B} = \\\\frac{112}{3}\\\\pi R^{2}\\\\sigma$",
+                "$\\\\sigma'_{A} = \\\\frac{14}{3}\\\\sigma, \\\\quad \\\\sigma'_{B} = \\\\frac{7}{3}\\\\sigma$"
+              ]
+            }
+          ],
+          "topper_execution_logic": "The absolute execution trap here is assuming that charges divide equally ($q'_{A} = q'_{B}$) when the spheres are connected. They don't! It's the *potentials* that become equal ($V_{A} = V_{B}$). If you mix this up, your steps $2$ and $3$ drop to zero instantly, capping your score at a measly $1$ out of $3$. Keep your variables crystal clear."
+        },
+        {
+          "question_id": "CH1-3M-03",
+          "marks_category": 3,
+          "typology_tag": "SA",
+          "stem_text": "Three point charges, $1 \\\\mu{\\\\text{C}}$ each, are kept at the vertices of an equilateral triangle of side $10$ cm. Find the net electric field at the centroid of the triangle.",
+          "marking_scheme_breakdown": [
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Calculating the correct geometric distance $r$ from the vertices to the triangle's centroid.",
+              "minimum_viable_text": "Altitude AD $= 10 \\\\cos(30^{\\\\circ}) = 5\\\\sqrt{3}\\\\text{$ cm}. Distance from vertex to centroid is $r = \\\\frac{2}{3}AD = \\\\frac{10}{\\\\sqrt{3}}\\\\text{$ cm} $= \\\\frac{0.1}{\\\\sqrt{3}}\\\\text{ m}$.",
+              "algebraic_progression": [
+                "$AD = 10 \\\\times \\\\frac{\\\\sqrt{3}}{2} = 5\\\\sqrt{3}\\\\text{ cm}$",
+                "$r = \\\\frac{2}{3} \\\\times 5\\\\sqrt{3}\\\\text{ cm} = \\\\frac{10}{\\\\sqrt{3}}\\\\text{ cm} = \\\\frac{0.1}{\\\\sqrt{3}}\\\\text{ m}$"
+              ]
+            },
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Computing individual field magnitudes at the centroid using Coulomb's constant.",
+              "minimum_viable_text": "Individual field magnitudes are equal: $E_{A} = E_{B} = E_{C} = \\\\frac{1}{4\\\\pi\\\\epsilon_{0}}\\\\frac{q}{r^{2}} = 9 \\\\times 10^{9} \\\\times \\\\frac{10^{-6}}{(0.1/\\\\sqrt{3})^{2}} = 2.7 \\\\times 10^{6}\\\\text{ N/C}$.",
+              "algebraic_progression": [
+                "$E = \\\\frac{(9 \\\\times 10^{9}) \\\\times (1 \\\\times 10^{-6})}{\\\\left(\\\\frac{0.1}{\\\\sqrt{3}}\\\\right)^{2}}$",
+                "$E = 2.7 \\\\times 10^{6}\\\\text{ N/C}$"
+              ]
+            },
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Resolving vector components at the centroid to show perfect symmetric cancellation.",
+              "minimum_viable_text": "The resultant of $\\\\vec{E}_{B}$ and $\\\\vec{E}_{C}$, oriented at $120^{\\\\circ}$ relative to each other, has a magnitude of $2.7 \\\\times 10^{6}\\\\text{ N/C}$ along the angle bisector, which is equal and opposite to $\\\\vec{E}_{A}$. Thus, $\\\\vec{E}_{\\\\text{net}} = 0\\\\text{ N/C}$.",
+              "algebraic_progression": [
+                "$E_{BC} = 2E\\\\cos(60^{\\\\circ}) = E = 2.7 \\\\times 10^{6}\\\\text{ N/C}$",
+                "$\\\\vec{E}_{\\\\text{net}} = \\\\vec{E}_{A} + \\\\vec{E}_{BC} = 0\\\\text{ N/C}$"
+              ]
+            }
+          ],
+          "topper_execution_logic": "Calculating the centroid distance wrong (like using $r = a$ or $r = a/2$) is the most frequent blunder here. Also, even if your final answer is $0$, examiners will slash $-0.5$ marks if you don't back it up with a clear sentence explaining how the 120-degree vector pairs cancel out along the angle bisector. A quick vector sketch on the margin is your best defense."
+        },
+        {
+          "question_id": "CH1-3M-04",
+          "marks_category": 3,
+          "typology_tag": "SA",
+          "stem_text": "A uniform electric field is given by $\\\\vec{E} = 200\\\\hat{i}\\\\text{ N/C}$ for $x > 0$ and $\\\\vec{E} = -200\\\\hat{i}\\\\text{ N/C}$ for $x < 0. A$ right circular cylinder of length $20$ cm and radius $5$ cm has its center at the origin and its axis along the x-axis. Calculate:\n\n(a) the net outward flux through each flat face, and\n\n(b) the flux through the curved side of the cylinder.",
+          "marking_scheme_breakdown": [
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Computing the outward electric flux through the left flat face with correct area alignment.",
+              "minimum_viable_text": "On the left face ($x = -10$ cm), $\\\\vec{E}$ and outward normal $\\\\hat{n}_{L}$ are both along $-\\\\hat{i}$ (parallel). Flux $\\\\phi_{L} = E\\\\Delta S = 200 \\\\times \\\\pi(0.05)^{2} = +1.57\\\\text{ N}\\\\cdot{}m^{2}/C$.",
+              "algebraic_progression": [
+                "$\\\\phi_{L} = (-200\\\\hat{i}) \\\\cdot (-\\\\pi(0.05)^{2}\\\\hat{i})$",
+                "$\\\\phi_{L} = 200 \\\\times \\\\pi \\\\times 0.0025 \\\\approx 1.57\\\\text{ N}\\\\cdot{}m^{2}/C$"
+              ]
+            },
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Computing the outward electric flux through the right flat face with correct area alignment.",
+              "minimum_viable_text": "On the right face ($x = +10$ cm), $\\\\vec{E}$ and outward normal $\\\\hat{n}_{R}$ are both along $+\\\\hat{i}$ (parallel). Flux $\\\\phi_{R} = E\\\\Delta S = 200 \\\\times \\\\pi(0.05)^{2} = +1.57\\\\text{ N}\\\\cdot{}m^{2}/C$.",
+              "algebraic_progression": [
+                "$\\\\phi_{R} = (200\\\\hat{i}) \\\\cdot (\\\\pi(0.05)^{2}\\\\hat{i})$",
+                "$\\\\phi_{R} = 200 \\\\times \\\\pi \\\\times 0.0025 \\\\approx 1.57\\\\text{ N}\\\\cdot{}m^{2}/C$"
+              ]
+            },
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Evaluating the flux through the curved side of the cylinder by citing perpendicular vector orientations.",
+              "minimum_viable_text": "For any point on the curved side of the cylinder, $\\\\vec{E}$ is perpendicular to the area elements $d\\\\vec{A}$, so $\\\\vec{E} \\\\cdot d\\\\vec{A} = 0$. Therefore, the flux through the curved part is $\\\\phi_{C} = 0\\\\text{ N}\\\\cdot{}m^{2}/C$.",
+              "algebraic_progression": [
+                "$\\\\vec{E} \\\\cdot \\\\hat{n}_{C} = E \\\\cos(90^{\\\\circ}) = 0$",
+                "$\\\\phi_{C} = 0\\\\text{ N}\\\\cdot{}m^{2}/C$"
+              ]
+            }
+          ],
+          "topper_execution_logic": "This question targets the Boundary Face Exclusion Trap. Many students blindly add the coordinates or think the fields cancel because one is positive and one is negative. Remember, outward normal vectors *always* point away from the interior of a closed volume. Thus, on the left face, the area vector points left ($-\\\\hat{i}$), making the dot product positive! Don't let opposite field signs fool you into a zero-flux error."
+        },
+        {
+          "question_id": "CH1-3M-05",
+          "marks_category": 3,
+          "typology_tag": "SA",
+          "stem_text": "An electric dipole of permanent dipole moment $\\\\vec{p}$ is placed in a non-uniform electric field $\\\\vec{E}$ such that $\\\\vec{p}$ is aligned parallel to the direction of the field gradient.\n\n(a) What is the net torque acting on the dipole?\n\n(b) Describe the magnitude and direction of the net translational force experienced by this dipole.\n\n(c) What changes if $\\\\vec{p}$ is oriented anti-parallel to the field gradient?",
+          "marking_scheme_breakdown": [
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Evaluating the net torque acting on the dipole under parallel alignment conditions.",
+              "minimum_viable_text": "Since $\\\\vec{p}$ is parallel to $\\\\vec{E}$, the angle $\\\\theta = 0^{\\\\circ}$. The torque is $\\\\vec{\\\\tau} = \\\\vec{p} \\\\times \\\\vec{E} \\\\implies \\\\tau = pE\\\\sin(0^{\\\\circ}) = 0\\\\text{ N}\\\\cdot{}m$.",
+              "algebraic_progression": [
+                "$\\\\vec{\\\\tau} = \\\\vec{p} \\\\times \\\\vec{E}$",
+                "$\\\\tau = pE\\\\sin(0^{\\\\circ}) = 0$"
+              ]
+            },
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Deducing the translational force direction for the parallel configuration.",
+              "minimum_viable_text": "In a non-uniform field, the forces on $+q$ and $-q$ do not cancel. When parallel, the positive charge experiences a stronger field than the negative charge, creating a net translational force in the direction of the increasing electric field.",
+              "algebraic_progression": [
+                "$F_{\\\\text{net}} = F_{+q} - F_{-q} = qE(x + \\\\Delta x) - qE(x)$",
+                "$F_{\\\\text{net}} > 0 \\\\text{ (directed along the field gradient)}$"
+              ]
+            },
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Deducing the translational force shift under anti-parallel alignment conditions.",
+              "minimum_viable_text": "When anti-parallel ($\\\\theta = 180^{\\\\circ}$), torque remains zero as $\\\\sin(180^{\\\\circ}) = 0$. However, the negative charge $-q$ is now positioned in the stronger region of the field, so the net translational force points in the direction of the decreasing field.",
+              "algebraic_progression": [
+                "$\\\\tau = pE\\\\sin(180^{\\\\circ}) = 0$",
+                "$\\\\vec{F}_{\\\\text{net}} \\\\text{ acts anti-parallel to the field gradient (decreasing field)}$"
+              ]
+            }
+          ],
+          "topper_execution_logic": "Students memorize that 'net force on a dipole is zero' from uniform fields and blindly dump that fact here. Read carefully: this is a *non-uniform* field! The net torque is zero because of the parallel/anti-parallel alignment, but the translational force is absolutely non-zero. Explicitly specify the words 'direction of increasing field' and 'direction of decreasing field' to win full marks from the marking rubric."
+        }
+      ]
+    }
+  },
+  {
+    "chapter_subjective_bank": {
+      "chapter_number": 1,
+      "chapter_name": "Electric Charges and Fields",
+      "questions": [
+        {
+          "question_id": "CH1-4M-01",
+          "marks_category": 4,
+          "typology_tag": "CASE_EXTRACT",
+          "stem_text": "Read the following passage and answer the questions that follow:\n\nThe behavior of electric dipoles in external electric fields is fundamental to understanding dielectric materials and electrostatic shielding. A molecule is a polar molecule if its center of positive charges does not coincide with the center of negative charges, creating a permanent dipole moment $\\\\vec{p}$. When placed in a uniform electric field $\\\\vec{E}, a$ dipole experiences a net torque $\\\\vec{\\\\tau} = \\\\vec{p} \\\\times \\\\vec{E}$ but no translational force. However, in a non-uniform field, it experiences both torque and a net translational force due to the field gradient.\n\n(a) A polar molecule with an intrinsic dipole moment of $3.0 \\\\times 10^{-30} C\\\\cdot{}m$ is placed in a uniform electric field of $2.0 \\\\times 10^{4} N/C$. Calculate the maximum torque experienced by the molecule. ($1$ Mark)\n\n(b) If the same molecule is oriented parallel to the uniform electric field, what is the net force and net torque acting on it? ($1$ Mark)\n\n(c) Two identical small electric dipoles, each of dipole moment magnitude $p$, are arranged perpendicular to each other such that their negative charges coincide at the origin. Find the magnitude and direction of the net dipole moment of this arrangement. ($2$ Marks)",
+          "marking_scheme_breakdown": [
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Stating the maximum torque condition ($\\\\sin\\\\theta = 1$) and substituting parameters accurately.",
+              "minimum_viable_text": "Torque is maximum when $\\\\theta = 90^{\\\\circ} \\\\implies \\\\tau_{\\\\text{max}} =$ pE. Substituting values gives $\\\\tau_{\\\\text{max}} = (3.0 \\\\times 10^{-30}) \\\\times (2.0 \\\\times 10^{4}) = 6.0 \\\\times 10^{-26} N\\\\cdot{}m$.",
+              "algebraic_progression": [
+                "$\\\\tau_{\\\\text{max}} = pE \\\\sin(90^{\\\\circ}) = pE$",
+                "$\\\\tau_{\\\\text{max}} = (3.0 \\\\times 10^{-30}\\\\,\\\\text{C}\\\\cdot\\\\text{m}) \\\\times (2.0 \\\\times 10^{4}\\\\,\\\\text{N/C}) = 6.0 \\\\times 10^{-26}\\\\,\\\\text{N}\\\\cdot\\\\text{m}$"
+              ]
+            },
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Evaluating both force and torque for parallel orientation in a uniform field.",
+              "minimum_viable_text": "When parallel ($\\\\theta = 0^{\\\\circ}$) in a uniform field, net torque $\\\\tau = pE\\\\sin(0^{\\\\circ}) = 0 N\\\\cdot{}m$, and net translational force $F_{\\\\text{net}} = 0 N$ because forces on equal opposite charges cancel.",
+              "algebraic_progression": [
+                "$\\\\tau = pE \\\\sin(0^{\\\\circ}) = 0$",
+                "$\\\\vec{F}_{\\\\text{net}} = \\\\vec{F}_{1} + \\\\vec{F}_{2} = q\\\\vec{E} + (-q\\\\vec{E}) = 0$"
+              ]
+            },
+            {
+              "allocated_marks": 2.0,
+              "evaluation_trigger": "Applying vector addition for perpendicular dipoles and computing final magnitude and angular direction.",
+              "minimum_viable_text": "Since the dipoles are mutually perpendicular, their moments add vectorially: $p_{\\\\text{net}} = \\\\sqrt{p^{2} + p^{2}} = \\\\sqrt{2}p$. The direction forms an angle $\\\\theta = \\\\tan^{-1}(p/p) = 45^{\\\\circ}$ bisecting the two dipole axes.",
+              "algebraic_progression": [
+                "$p_{\\\\text{net}} = \\\\sqrt{p_{1}^{2} + p_{2}^{2}} = \\\\sqrt{p^{2} + p^{2}} = \\\\sqrt{2}p$",
+                "$\\\\theta = \\\\tan^{-1}\\\\left(\\\\frac{p}{p}\\\\right) = 45^{\\\\circ}$"
+              ]
+            }
+          ],
+          "topper_execution_logic": "In part (b), a classic mistake is forgetting to write down BOTH values; if you miss stating that the net force is zero alongside the torque, you'll get hit with a $-0.5$ mark deduction. For part (c), calculating just the magnitude ($\\\\sqrt{2}p$) only gets you $1$ mark. You must explicitly calculate and state the angle ($45^{\\\\circ}$) relative to one of the component vectors to lock down the final mark."
+        },
+        {
+          "question_id": "CH1-4M-02",
+          "marks_category": 4,
+          "typology_tag": "CASE_EXTRACT",
+          "stem_text": "Read the following passage and answer the questions that follow:\n\nGauss's law provides a highly efficient tool to calculate fields under strict symmetric layouts. It states that the net outward electric flux through any closed boundary surface equals the total enclosed net charge divided by the permittivity of free space $\\\\epsilon_{0}$. However, when evaluating spaces containing fields with strong spatial gradients, the flux must be evaluated face-by-face over separate cross-sectional planes, tracking how area normals align with field lines.\n\n(a) Consider electric field components inside a spatial grid given by $E_{x} = \\\\alpha{}x^{1/2}$ and $E_{y} = E_{z} = 0$, where $\\\\alpha = 800 N/(C\\\\cdot{}m^{1/2}$). Why is the electric flux through the top and bottom faces of a cube aligned parallel to the coordinate planes equal to zero? ($1$ Mark)\n\n(b) Calculate the net outward flux through a cube of edge length a $= 0.1 m$ if its left boundary sits at $x = a$ and its right boundary sits at $x = 2a. (2$ Marks)\n\n(c) Using Gauss's law, determine the total net charge contained within this cubic enclosure. ($1$ Mark)",
+          "marking_scheme_breakdown": [
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Stating that the electric field is perpendicular to the area vector elements of the parallel boundary faces.",
+              "minimum_viable_text": "Since $E_{y} = E_{z} = 0$, the field vector $\\\\vec{E}$ points purely along the x-direction. The outward area vectors of the top and bottom faces point along the y-axis ($\\\\pm\\\\hat{j}$), making them perpendicular to $\\\\vec{E} (\\\\theta = 90^{\\\\circ}$), hence flux is zero.",
+              "algebraic_progression": [
+                "$\\\\vec{E} = \\\\alpha x^{1/2}\\\\hat{i} \\\\quad \\\\text{and} \\\\quad \\\\Delta\\\\vec{S} = \\\\Delta S\\\\hat{j}$",
+                "$\\\\phi = \\\\vec{E} \\\\cdot \\\\Delta\\\\vec{S} = E \\\\Delta S \\\\cos(90^{\\\\circ}) = 0$"
+              ]
+            },
+            {
+              "allocated_marks": 2.0,
+              "evaluation_trigger": "Setting up separate negative and positive flux contributions for the opposite faces and solving the algebraic assembly.",
+              "minimum_viable_text": "Left face flux $\\\\phi_{L} = -E_{L}a^{2} = -\\\\alpha a^{5/2}$. Right face flux $\\\\phi_{R} = E_{R}a^{2} = \\\\alpha(2a)^{1/2}a^{2} = \\\\sqrt{2}\\\\alpha a^{5/2}$. Net flux $\\\\phi_{\\\\text{net}} = \\\\alpha a^{5/2}(\\\\sqrt{2} - 1) = 800 \\\\times (0.1)^{5/2} \\\\times 0.414 = 1.05\\\\text{ N}\\\\cdot\\\\text{m}^{2}/\\\\text{C}$.",
+              "algebraic_progression": [
+                "$\\\\phi_{\\\\text{net}} = \\\\phi_{R} + \\\\phi_{L} = \\\\alpha(2a)^{1/2}a^{2} - \\\\alpha(a)^{1/2}a^{2} = \\\\alpha a^{5/2}(\\\\sqrt{2} - 1)$",
+                "$\\\\phi_{\\\\text{net}} = 800 \\\\times (0.1)^{2.5} \\\\times (1.414 - 1) \\\\approx 1.05\\\\,\\\\text{N}\\\\cdot\\\\text{m}^{2}/C$"
+              ]
+            },
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Applying the isolated charge-flux equation from Gauss's law with correct values.",
+              "minimum_viable_text": "By Gauss's law, $q = \\\\phi_{\\\\text{net}}\\\\epsilon_{0}$. Substituting the computed flux gives $q = 1.05 \\\\times 8.854 \\\\times 10^{-12} = 9.27 \\\\times 10^{-12}\\\\text{ C}$.",
+              "algebraic_progression": [
+                "$q = \\\\epsilon_{0}\\\\phi_{\\\\text{net}}$",
+                "$q = (8.854 \\\\times 10^{-12}\\\\,\\\\text{C}^{2}\\\\text{N}^{-1}\\\\text{m}^{-2}) \\\\times 105\\\\,\\\\text{N}\\\\cdot\\\\text{m}^{2}/C = 9.27 \\\\times 10^{-12}\\\\,\\\\text{C}$"
+              ]
+            }
+          ],
+          "topper_execution_logic": "This question tests the Boundary Face Exclusion Trap. The biggest blunder here is getting the sign wrong on the left face flux. Because the field points right ($+\\\\hat{i}$) and the outward normal of the left face points left ($-\\\\hat{i}$), the dot product forces a negative sign. If you blindly add both face fluxes without noting that $\\\\phi_{L}$ is negative, your total math will tank, and you'll drop down to zero for parts (b) and (c)."
+        },
+        {
+          "question_id": "CH1-4M-03",
+          "marks_category": 4,
+          "typology_tag": "CASE_EXTRACT",
+          "stem_text": "Read the following passage and answer the questions that follow:\n\nThe calculation of electric field profiles for infinite continuous charge lines relies on isolating symmetrical surfaces. For an infinitely long straight wire with uniform linear charge density $\\\\lambda$, the electric field exhibits a purely radial distribution perpendicular to the wire axis. To isolate this mathematically, a coaxial cylinder of length $l$ and radius $r$ is mapped around the wire line as a closed imaginary Gaussian boundary.\n\n(a) Write the expression for the total electric flux passing through the two flat end caps of this cylindrical Gaussian surface, providing a strict physical reason. ($1$ Mark)\n\n(b) Derive the explicit algebraic formula for the electric field intensity $E$ at a radial distance $r$ from this infinitely long straight uniformly charged wire using Gauss's law. ($2$ Marks)\n\n(c) If the radial distance $r$ from the line charge is exactly doubled, by what factor does the electric field magnitude change? ($1$ Mark)",
+          "marking_scheme_breakdown": [
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Stating that flux through flat boundaries is zero because field vectors run parallel to those faces.",
+              "minimum_viable_text": "The flux is $0$. Since the field $\\\\vec{E}$ is directed radially outwards, it is perpendicular to the area vectors $d\\\\vec{A}$ of the flat caps ($\\\\theta = 90^{\\\\circ}$), causing the dot product to vanish.",
+              "algebraic_progression": [
+                "$\\\\vec{E} \\\\cdot d\\\\vec{A} = E \\\\, dA \\\\cos(90^{\\\\circ}) = 0$",
+                "$\\\\phi_{\\\\text{caps}} = 0$"
+              ]
+            },
+            {
+              "allocated_marks": 2.0,
+              "evaluation_trigger": "Equating the calculated curved surface flux integral to the enclosed linear charge expression via Gauss's law.",
+              "minimum_viable_text": "Curved surface flux is $\\\\phi = E(2\\\\pi r l$). Enclosed charge is $q = \\\\lambda l$. By Gauss's law, $E(2\\\\pi r l) = \\\\frac{\\\\lambda l}{\\\\epsilon_{0}} \\\\implies E = \\\\frac{\\\\lambda}{2\\\\pi\\\\epsilon_{0}r}$.",
+              "algebraic_progression": [
+                "$\\\\oint \\\\vec{E} \\\\cdot d\\\\vec{A} = E \\\\int dA = E(2\\\\pi r l)$",
+                "$E(2\\\\pi r l) = \\\\frac{\\\\lambda l}{\\\\epsilon_{0}} \\\\implies E = \\\\frac{\\\\lambda}{2\\\\pi\\\\epsilon_{0}r}$"
+              ]
+            },
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Identifying the linear inverse scaling relationship between the field and the radius parameter.",
+              "minimum_viable_text": "Since $E$ is inversely proportional to $r (E \\\\propto 1/r$), doubling the distance halves the field strength: $E' = E/2$.",
+              "algebraic_progression": [
+                "$E \\\\propto \\\\frac{1}{r}$",
+                "$r' = 2r \\\\implies E' = \\\\frac{\\\\lambda}{2\\\\pi\\\\epsilon_{0}(2r)} = \\\\frac{1}{2}E$"
+              ]
+            }
+          ],
+          "topper_execution_logic": "Be extremely careful in part (c). Students get so conditioned to Coulomb's inverse-square law ($1/r^{2}$) that they instinctively write 'decreases by $4$ times' without thinking. A line charge has an electric field that drops off linearly ($1/r$). Make sure you highlight that specific scaling rule, or you'll hand over an easy point to the examiner."
+        },
+        {
+          "question_id": "CH1-4M-04",
+          "marks_category": 4,
+          "typology_tag": "CASE_EXTRACT",
+          "stem_text": "Read the following passage and answer the questions that follow:\n\nElectrostatic layouts involving combinations of point charges require vector component tracking to resolve the net electric fields. When multiple point charges of identical magnitude and sign are distributed symmetrically across the vertices of a regular geometric array, the vector field contributions at the exact geometric center often cancel out cleanly due to angular symmetries. However, replacing even a single charge within the array disrupts this equilibrium, turning the center into a highly active field coordinate.\n\n(a) Three identical point charges of $+q$ are fixed at the three vertices of an equilateral triangle of side length $l$. State the net electric field vector at the centroid O of this symmetric system and justify your answer using symmetry concepts. ($1$ Mark)\n\n(b) If a negative point charge $-Q$ is placed precisely at the centroid location O, calculate the magnitude of the net electrostatic force acting on it. ($1$ Mark)\n\n(c) If one of the point charges at a vertex is completely replaced by a negative charge of equal magnitude $-q$, calculate the revised magnitude of the net electric field at the centroid O in terms of $q$ and $l. (2$ Marks)",
+          "marking_scheme_breakdown": [
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Stating that symmetric vector arrays at equal distances sum up to zero at the geometric center.",
+              "minimum_viable_text": "The net electric field vector is zero ($\\\\vec{E}_{\\\\text{net}} = 0$). Due to the completely symmetric placement of equal charges at identical distances from the centroid, their individual field vectors cancel out vectorially.",
+              "algebraic_progression": [
+                "$\\\\vec{E}_{\\\\text{net}} = \\\\vec{E}_{A} + \\\\vec{E}_{B} + \\\\vec{E}_{C}$",
+                "$\\\\vec{E}_{\\\\text{net}} = 0$"
+              ]
+            },
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Applying the core relationship between field vector values and localized force calculations.",
+              "minimum_viable_text": "The net force is zero ($F = 0$). Since the net electric field intensity at the centroid location is exactly zero, the force experienced by any charge at that position is $F = qE_{\\\\text{net}} = 0 N$.",
+              "algebraic_progression": [
+                "$\\\\vec{F} = (-Q)\\\\vec{E}_{\\\\text{net}}$",
+                "$\\\\vec{F} = (-Q) \\\\times 0 = 0\\\\,\\\\text{N}$"
+              ]
+            },
+            {
+              "allocated_marks": 2.0,
+              "evaluation_trigger": "Calculating vertex-centroid distances and processing the component addition after changing vector signs.",
+              "minimum_viable_text": "Distance to centroid is $r = l/\\\\sqrt{3}$. Resultant of the remaining two positive vertex fields has magnitude $E = \\\\frac{q}{4\\\\pi\\\\epsilon_{0}r^{2}}$ directed toward the replaced vertex. The replaced negative charge also produces a field of magnitude $E$ in that same direction. They add directly: $E_{\\\\text{net}} = 2E = 2\\\\left(\\\\frac{3q}{4\\\\pi\\\\epsilon_{0}l^{2}}\\\\right) = \\\\frac{6q}{4\\\\pi\\\\epsilon_{0}l^{2}}$.",
+              "algebraic_progression": [
+                "$r = \\\\frac{l}{\\\\sqrt{3}} \\\\implies E_{\\\\text{individual}} = \\\\frac{1}{4\\\\pi\\\\epsilon_{0}}\\\\frac{q}{(l/\\\\sqrt{3})^{2}} = \\\\frac{3q}{4\\\\pi\\\\epsilon_{0}l^{2}}$",
+                "$E_{\\\\text{net}} = E_{\\\\text{pos\\\\_resultant}} + E_{\\\\text{neg\\\\_charge}} = E_{\\\\text{individual}} + E_{\\\\text{individual}} = 2 \\\\left(\\\\frac{3q}{4\\\\pi\\\\epsilon_{0}l^{2}}\\\\right) = \\\\frac{6q}{4\\\\pi\\\\epsilon_{0}l^{2}}$"
+              ]
+            }
+          ],
+          "topper_execution_logic": "This question showcases the Vector Geometry Mutation trick. In part (c), flipping a charge's sign transforms a safe cancellation problem into an additive combination. The fields no longer cancel out; instead, the vectors reinforce each other along the single line of symmetry. Make sure you state clearly that both field components align in the *same direction* to claim full step marks for the derivation."
+        },
+        {
+          "question_id": "CH1-4M-05",
+          "marks_category": 4,
+          "typology_tag": "CASE_EXTRACT",
+          "stem_text": "Read the following passage and answer the questions that follow:\n\nA uniformly charged thin spherical shell exhibits field profiles that transition sharply between its interior and exterior boundaries. According to Gauss's law, for any point located outside the shell structure, the field acts as if the entire charge on the boundary surface were concentrated completely at its geometric center. Conversely, tracking points inside the shell cavity reveals a field-free zone due to the total absence of enclosed charge profiles within the internal boundary.\n\n(a) State the electric field intensity value at any point inside a uniformly charged thin spherical shell of radius $R$ at a distance $r < R$ from the center, citing the underlying physical reason. ($1$ Mark)\n\n(b) Using a spherical Gaussian surface of radius $r > R$, derive the expression for the electric field at an external point outside the shell boundary. ($2$ Marks)\n\n(c) Describe what happens to the electric field intensity value at the exact boundary transition where $r = R. (1$ Mark)",
+          "marking_scheme_breakdown": [
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Declaring a zero field state internally due to the lack of enclosed charge inside the surface.",
+              "minimum_viable_text": "$E = 0$. Because a Gaussian surface drawn inside the shell cavity ($r < R$) encloses zero net charge ($q = 0$), Gauss's law forces the field magnitude to drop to zero.",
+              "algebraic_progression": [
+                "$\\\\oint \\\\vec{E} \\\\cdot d\\\\vec{A} = E(4\\\\pi r^{2}) = \\\\frac{q_{\\\\text{enclosed}}}{\\\\epsilon_{0}}$",
+                "$q_{\\\\text{enclosed}} = 0 \\\\implies E = 0$"
+              ]
+            },
+            {
+              "allocated_marks": 2.0,
+              "evaluation_trigger": "Integrating the full outer surface boundary area and linking it directly to the total surface charge.",
+              "minimum_viable_text": "For a Gaussian sphere of radius $r > R$, the field $\\\\vec{E}$ is uniform and parallel to area vectors. Total flux $\\\\phi = E(4\\\\pi r^{2}$). Enclosed charge is $q$. Gauss's law gives $E(4\\\\pi r^{2}) = \\\\frac{q}{\\\\epsilon_{0}} \\\\implies E = \\\\frac{q}{4\\\\pi\\\\epsilon_{0}r^{2}}$.",
+              "algebraic_progression": [
+                "$\\\\oint \\\\vec{E} \\\\cdot d\\\\vec{A} = E \\\\oint dA = E(4\\\\pi r^{2})$",
+                "$E(4\\\\pi r^{2}) = \\\\frac{q}{\\\\epsilon_{0}} \\\\implies E = \\\\frac{q}{4\\\\pi\\\\epsilon_{0}r^{2}}$"
+              ]
+            },
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Describing the sharp discontinuous jump behavior of the field function at the shell surface.",
+              "minimum_viable_text": "At $r = R$, the electric field experiences a discontinuous jump from zero inside to its maximum value, $E_{\\\\text{max}} = \\\\frac{q}{4\\\\pi\\\\epsilon_{0}R^{2}}$, right on the outer skin of the shell.",
+              "algebraic_progression": [
+                "$E_{\\\\text{inside}} \\\\rightarrow 0 \\\\quad \\\\text{as } r \\\\rightarrow R^{-}$",
+                "$E_{\\\\text{surface}} = \\\\frac{q}{4\\\\pi\\\\epsilon_{0}R^{2}} \\\\quad \\\\text{as } r \\\\rightarrow R^{+}$"
+              ]
+            }
+          ],
+          "topper_execution_logic": "This question maps right to the Core Counterpart Extraction protocol. The classic trap here is glossing over the boundary description at $r = R$ in part (c). Do not just say 'it is equal to the formula'. Examiners award points specifically for highlighting the discontinuous jump behavior. Explicitly stating that the field jumps from zero inside to a maximum value right on the skin will net you full marks."
+        }
+      ]
+    }
+  },
+  {
+    "chapter_subjective_bank": {
+      "chapter_number": 1,
+      "chapter_name": "Electric Charges and Fields",
+      "questions": [
+        {
+          "question_id": "CH1-5M-01",
+          "marks_category": 5,
+          "typology_tag": "LONG_ANSWER",
+          "stem_text": "(a) (i) State Coulomb's law in electrostatics and write it in vector form for two charges.\n\n(ii) 'Gauss's law is based on the inverse-square dependence on distance contained in Coulomb's law.' Explain this statement.\n\n(b) Two charges A (charge $q$) and B (charge $2q$) are located at points ($0, 0$) and ($a, a$) respectively in the $x-y$ plane. Let $\\\\hat{i}$ and $\\\\hat{j}$ be the unit vectors along the x-axis and y-axis respectively. Find the net electrostatic force exerted by A on B in terms of $\\\\hat{i}$ and $\\\\hat{j}$.",
+          "marking_scheme_breakdown": [
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Accurate scalar definition statement of Coulomb's law accompanied by a fully correct vector notation expression.",
+              "minimum_viable_text": "The electrostatic force between two point charges is proportional to the product of charges and inversely proportional to the square of their distance. In vector notation: $\\\\vec{F}_{12} = \\\\frac{1}{4\\\\pi\\\\epsilon_{0}} \\\\frac{q_{1}q_{2}}{r_{12}^{2}} \\\\hat{r}_{12}$.",
+              "algebraic_progression": [
+                "$F = \\\\frac{1}{4\\\\pi\\\\epsilon_{0}}\\\\frac{q_{1}q_{2}}{r^{2}}$",
+                "$\\\\vec{F}_{21} = \\\\frac{1}{4\\\\pi\\\\epsilon_{0}}\\\\frac{q_{1}q_{2}}{r_{21}^{2}}\\\\hat{r}_{21}$"
+              ]
+            },
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Linking the geometric surface area of a Gaussian sphere to the inverse-square field drop-off to prove flux independence.",
+              "minimum_viable_text": "The field of a point charge is $E = \\\\frac{q}{4\\\\pi\\\\epsilon_{0}r^{2}}$. Flux through a concentric sphere is $\\\\Phi = E \\\\cdot (4\\\\pi r^{2}) = \\\\frac{q}{\\\\epsilon_{0}}$. The $r^{2}$ terms cancel out perfectly, proving flux is independent of the radius.",
+              "algebraic_progression": [
+                "$\\\\Phi = \\\\oint \\\\vec{E} \\\\cdot d\\\\vec{A} = \\\\left(\\\\frac{q}{4\\\\pi\\\\epsilon_{0}r^{2}}\\\\right) \\\\cdot (4\\\\pi r^{2})$",
+                "$\\\\Phi = \\\\frac{q}{\\\\epsilon_{0}}$"
+              ]
+            },
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Extracting the correct position vector and calculating its exact distance magnitude.",
+              "minimum_viable_text": "The relative position vector running from A to B is $\\\\vec{r}_{AB} = a\\\\hat{i} + a\\\\hat{j}$. The linear separation distance magnitude is $r = \\\\sqrt{a^{2} + a^{2}} = a\\\\sqrt{2}$.",
+              "algebraic_progression": [
+                "$\\\\vec{r}_{AB} = (a - 0)\\\\hat{i} + (a - 0)\\\\hat{j} = a\\\\hat{i} + a\\\\hat{j}$",
+                "$r = |\\\\vec{r}_{AB}| = \\\\sqrt{a^{2} + a^{2}} = a\\\\sqrt{2}$"
+              ]
+            },
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Substituting charge identities and position parameters accurately into Coulomb's vector equation.",
+              "minimum_viable_text": "Substituting $q_{1} = q, q_{2} = 2q$, and unit direction vector $\\\\hat{r}$ into Coulomb's law equation: $\\\\vec{F}_{AB} = \\\\frac{1}{4\\\\pi\\\\epsilon_{0}} \\\\frac{q(2q)}{(a\\\\sqrt{2})^{2}} \\\\left(\\\\frac{a\\\\hat{i} + a\\\\hat{j}}{a\\\\sqrt{2}}\\\\right$).",
+              "algebraic_progression": [
+                "$\\\\vec{F}_{AB} = \\\\frac{1}{4\\\\pi\\\\epsilon_{0}} \\\\frac{2q^{2}}{(2a^{2})} \\\\hat{r}_{AB}$",
+                "$\\\\vec{F}_{AB} = \\\\frac{1}{4\\\\pi\\\\epsilon_{0}} \\\\frac{2q^{2}}{2a^{2}} \\\\left(\\\\frac{a\\\\hat{i} + a\\\\hat{j}}{a\\\\sqrt{2}}\\\\right)$"
+              ]
+            },
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Simplifying the expressions into a finalized vector format with correct S.I. units.",
+              "minimum_viable_text": "Simplifying variables yields the final force expression: $\\\\vec{F}_{AB} = \\\\frac{1}{4\\\\pi\\\\epsilon_{0}} \\\\frac{q^{2}}{\\\\sqrt{2}a^{2}} (\\\\hat{i} + \\\\hat{j})\\\\text{ N}$.",
+              "algebraic_progression": [
+                "$\\\\vec{F}_{AB} = \\\\frac{1}{4\\\\pi\\\\epsilon_{0}} \\\\frac{q^{2}}{a^{2}} \\\\left(\\\\frac{\\\\hat{i} + \\\\hat{j}}{\\\\sqrt{2}}\\\\right)$",
+                "$\\\\vec{F}_{AB} = \\\\frac{1}{4\\\\pi\\\\epsilon_{0}} \\\\frac{q^{2}}{\\\\sqrt{2}a^{2}} (\\\\hat{i} + \\\\hat{j})\\\\text{ N}$"
+              ]
+            }
+          ],
+          "topper_execution_logic": "Watch out for the massive vector notation trap that examiners actively weaponize! If you write a displacement vector $\\\\vec{r}$ in the numerator, your denominator *must* be $r^{3}$ to keep the dimensions valid. Writing $r^{2}$ with a full vector in the numerator is a catastrophic dimensional error that triggers an automatic $-1.0$ mark penalty. Also, ensure you compute the position separation as $a\\\\sqrt{2}$ instead of $2a^{2}$ to prevent messy coordinate shifts."
+        },
+        {
+          "question_id": "CH1-5M-02",
+          "marks_category": 5,
+          "typology_tag": "LONG_ANSWER",
+          "stem_text": "(a) Derive an expression for the electric field at a point on the equatorial plane of an electric dipole consisting of charges $q$ and $-q$ separated by a distance $2a$.\n\n(b) Two point charges $+q$ and $-q$ are held at ($a, 0$) and ($-a, 0$) in the $x-y$ plane. Obtain an expression for the net electric field due to these charges at a point ($0, y$). Hence, find the expression for the electric field in the far-field limit where $y \\\\gg a$.",
+          "marking_scheme_breakdown": [
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Resolving electric field vectors into spatial components and demonstrating vertical cancellation.",
+              "minimum_viable_text": "Vertical components $E_{+} \\\\sin\\\\theta$ and $E_{-} \\\\sin\\\\theta$ are equal and opposite, so they cancel out completely. Horizontal components $E_{+} \\\\cos\\\\theta$ and $E_{-} \\\\cos\\\\theta$ align in the same direction and add up.",
+              "algebraic_progression": [
+                "$E_{\\\\text{net}} = E_{+} \\\\cos\\\\theta + E_{-} \\\\cos\\\\theta$",
+                "$E_{\\\\text{net}} = 2E_{+} \\\\cos\\\\theta$"
+              ]
+            },
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Assembling the full algebraic expression by substituting the correct distance and cosine formulas.",
+              "minimum_viable_text": "Substitute $E_{+} = \\\\frac{q}{4\\\\pi\\\\epsilon_{0}(y^{2}+a^{2})}$ and $\\\\cos\\\\theta = \\\\frac{a}{(y^{2}+a^{2})^{1/2}}$. This yields $E_{\\\\text{net}} = \\\\frac{2qa}{4\\\\pi\\\\epsilon_{0}(y^{2}+a^{2})^{3/2}} = \\\\frac{p}{4\\\\pi\\\\epsilon_{0}(y^{2}+a^{2})^{3/2}}$.",
+              "algebraic_progression": [
+                "$E_{\\\\text{net}} = 2 \\\\left(\\\\frac{q}{4\\\\pi\\\\epsilon_{0}(y^{2}+a^{2})}\\\\right) \\\\left(\\\\frac{a}{\\\\sqrt{y^{2}+a^{2}}}\\\\right)$",
+                "$E_{\\\\text{net}} = \\\\frac{p}{4\\\\pi\\\\epsilon_{0}(y^{2}+a^{2})^{3/2}}$"
+              ]
+            },
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Applying the far-field approximation criteria and expressing the field as a functional vector.",
+              "minimum_viable_text": "For $y \\\\gg a, a^{2}$ can be neglected entirely. The vector expression is $\\\\vec{E}_{\\\\text{eq}} = -\\\\frac{\\\\vec{p}}{4\\\\pi\\\\epsilon_{0}y^{3}}$, showing it points opposite to the dipole moment vector.",
+              "algebraic_progression": [
+                "$E_{\\\\text{net}} \\\\approx \\\\frac{p}{4\\\\pi\\\\epsilon_{0}(y^{2})^{3/2}} = \\\\frac{p}{4\\\\pi\\\\epsilon_{0}y^{3}}$",
+                "$\\\\vec{E}_{\\\\text{eq}} = -\\\\frac{\\\\vec{p}}{4\\\\pi\\\\epsilon_{0}y^{3}}$"
+              ]
+            },
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Deducing field scaling behavior when distance coordinates are halved using inverse-cube properties.",
+              "minimum_viable_text": "Since $E \\\\propto 1/y^{3}$, halving the distance parameter $y$ increases the field strength by a factor of $2^{3} = 8$ times, giving $E' = 8E$.",
+              "algebraic_progression": [
+                "$E' \\\\propto \\\\frac{1}{(y/2)^{3}} = \\\\frac{8}{y^{3}}$",
+                "$E' = 8E$"
+              ]
+            },
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Proving the relative directional orientation between the field and dipole moment vectors.",
+              "minimum_viable_text": "The dipole moment points from $-q$ to $+q$ (along $+\\\\hat{i}$), whereas the net field at the equatorial coordinate points along $-\\\\hat{i}$. Thus, the field is strictly anti-parallel to the dipole moment vector.",
+              "algebraic_progression": [
+                "$\\\\hat{p} = +\\\\hat{i} \\\\quad \\\\text{and} \\\\quad \\\\vec{E}_{\\\\text{net}} \\\\propto -\\\\hat{i}$",
+                "$\\\\vec{E}_{\\\\text{net}} \\\\cdot \\\\hat{p} < 0 \\\\implies \\\\text{Anti-parallel orientation}$"
+              ]
+            }
+          ],
+          "topper_execution_logic": "Dropping the negative sign in your final vector equation for $\\\\vec{E}_{\\\\text{eq}}$ is an automatic $-0.5$ mark deduction trap. Human examiners check specifically for that minus sign because it proves you understand that the equatorial field points anti-parallel to the dipole moment vector $\\\\vec{p}$. Also, make sure your derivation script details *why* the sine components cancel out, or you risk dropping a half-mark right at the opening step."
+        },
+        {
+          "question_id": "CH1-5M-03",
+          "marks_category": 5,
+          "typology_tag": "LONG_ANSWER",
+          "stem_text": "(a) Use Gauss's law to derive an expression for the electric field due to an infinitely long straight thin wire of uniform linear charge density $\\\\lambda$.\n\n(b) An infinite line charge produces an electric field of magnitude $9 \\\\times 10^{4} N/C$ at a distance of $2$ cm in air. Calculate the numerical value of its linear charge density $\\\\lambda$.",
+          "marking_scheme_breakdown": [
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Defining a suitable cylindrical Gaussian surface and proving that flux through its flat end caps is zero.",
+              "minimum_viable_text": "Imagine a coaxial cylindrical Gaussian surface of length $l$ and radius $r$. Since $\\\\vec{E}$ is radial, it runs parallel to the flat end caps ($\\\\theta = 90^{\\\\circ}$), making the flux through both flat ends zero.",
+              "algebraic_progression": [
+                "$\\\\Phi_{\\\\text{ends}} = \\\\int_{\\\\text{ends}} \\\\vec{E} \\\\cdot d\\\\vec{A} = \\\\int E \\\\, dA \\\\cos(90^{\\\\circ})$",
+                "$\\\\Phi_{\\\\text{ends}} = 0$"
+              ]
+            },
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Evaluating the electric flux integral across the curved surface boundary of the cylinder.",
+              "minimum_viable_text": "On the curved surface area, $\\\\vec{E}$ is perpendicular to the boundary skin everywhere, meaning $\\\\vec{E}$ and $d\\\\vec{A}$ are parallel ($\\\\theta = 0^{\\\\circ}$). Flux is $\\\\Phi = E \\\\cdot (2\\\\pi r l$).",
+              "algebraic_progression": [
+                "$\\\\Phi_{\\\\text{curved}} = \\\\oint_{\\\\text{curved}} \\\\vec{E} \\\\cdot d\\\\vec{A} = E \\\\oint dA$",
+                "$\\\\Phi = E \\\\times 2\\\\pi r l$"
+              ]
+            },
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Expressing the total enclosed charge and setting up the complete Gauss's law equation link.",
+              "minimum_viable_text": "The total net charge enclosed within this cylinder is $q = \\\\lambda l$. Applying Gauss's law: $E \\\\cdot (2\\\\pi r l) = \\\\frac{\\\\lambda l}{\\\\epsilon_{0}}$.",
+              "algebraic_progression": [
+                "$q_{\\\\text{enclosed}} = \\\\lambda l$",
+                "$E \\\\times 2\\\\pi r l = \\\\frac{\\\\lambda l}{\\\\epsilon_{0}}$"
+              ]
+            },
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Isolating the electric field variable and stating the final algebraic vector expression.",
+              "minimum_viable_text": "Canceling length $l$ from both sides yields $E = \\\\frac{\\\\lambda}{2\\\\pi\\\\epsilon_{0}r}$. Vector form is $\\\\vec{E} = \\\\frac{\\\\lambda}{2\\\\pi\\\\epsilon_{0}r}\\\\hat{n}$, where $\\\\hat{n}$ is the radial unit vector.",
+              "algebraic_progression": [
+                "$E = \\\\frac{\\\\lambda l}{2\\\\pi r l \\\\epsilon_{0}} = \\\\frac{\\\\lambda}{2\\\\pi\\\\epsilon_{0}r}$",
+                "$\\\\vec{E} = \\\\frac{\\\\lambda}{2\\\\pi\\\\epsilon_{0}r}\\\\hat{n}$"
+              ]
+            },
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Solving the numerical calculation for the charge density variable with proper S.I. units.",
+              "minimum_viable_text": "Rearranging fields gives $\\\\lambda = 2\\\\pi\\\\epsilon_{0}rE = \\\\frac{rE}{2k}$. Substituting parameters: $\\\\lambda = \\\\frac{0.02 \\\\times 9 \\\\times 10^{4}}{2 \\\\times 9 \\\\times 10^{9}} = 10^{-7}\\\\text{ C/m} = 0.1 \\\\mu{\\\\text{C/m}}$.",
+              "algebraic_progression": [
+                "$\\\\lambda = rE \\\\cdot \\\\left(\\\\frac{1}{2 \\\\cdot 9 \\\\times 10^{9}}\\\\right) = 0.02 \\\\times 9 \\\\times 10^{4} \\\\times \\\\frac{1}{18 \\\\times 10^{9}}$",
+                "$\\\\lambda = 10^{-7}\\\\,\\\\text{C/m} = 0.1\\\\,\\\\mu\\\\text{C/m}$"
+              ]
+            }
+          ],
+          "topper_execution_logic": "When sketching this diagram on your response sheet, never draw the imaginary Gaussian cylinder with solid lines! Solid lines imply a physical boundary rather than an imaginary surface, which triggers a $-0.5$ mark deduction. Always render your Gaussian surface using clear, dashed lines. Also, remember to convert your distance parameter from centimeters to meters ($2$ cm $= 0.02 m$) or your whole numerical step collapses."
+        },
+        {
+          "question_id": "CH1-5M-04",
+          "marks_category": 5,
+          "typology_tag": "LONG_ANSWER",
+          "stem_text": "(a) State Gauss's law in electrostatics. Using this law, derive an expression for the electric field intensity due to an infinite thin plane sheet of uniform surface charge density $\\\\sigma$.\n\n(b) Two large, thin metal plates are parallel and close to each other. On their inner faces, the plates have surface charge densities of opposite signs and of magnitude $17.0 \\\\times 10^{-22} C/m^{2}$. Calculate the net electric field $E$ between these plates.",
+          "marking_scheme_breakdown": [
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Stating Gauss's law completely and detailing a correct closed box Gaussian surface setup across the sheet plane.",
+              "minimum_viable_text": "Gauss's law states that total electric flux through a closed surface is $1/\\\\epsilon_{0}$ times the enclosed charge. Choose a rectangular parallelepiped or cylinder of cross-sectional area A cutting normally through the sheet.",
+              "algebraic_progression": [
+                "$\\\\Phi = \\\\oint \\\\vec{E} \\\\cdot d\\\\vec{A} = \\\\frac{q_{\\\\text{enclosed}}}{\\\\epsilon_{0}}$",
+                "$\\\\text{Gaussian Surface chosen: Rectangular parallelepiped of area A}$"
+              ]
+            },
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Evaluating the boundary face integrals to show total flux accumulation over opposite planes.",
+              "minimum_viable_text": "Electric field lines run parallel to the side faces, contributing zero flux. Only the two parallel end faces ($1$ and $2$) contribute to flux, adding up vectorially to yield a net flux of $2EA$.",
+              "algebraic_progression": [
+                "$\\\\Phi = \\\\int_{1} \\\\vec{E} \\\\cdot d\\\\vec{A} + \\\\int_{2} \\\\vec{E} \\\\cdot d\\\\vec{A} + \\\\int_{\\\\text{sides}} \\\\vec{E} \\\\cdot d\\\\vec{A}$",
+                "$\\\\Phi = EA + EA + 0 = 2EA$"
+              ]
+            },
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Formulating the enclosed surface charge and isolating the electric field equation.",
+              "minimum_viable_text": "The total net charge enclosed within the box boundary is $q = \\\\sigma A$. Equating by Gauss's law gives $2EA = \\\\frac{\\\\sigma A}{\\\\epsilon_{0}} \\\\implies E = \\\\frac{\\\\sigma}{2\\\\epsilon_{0}}$.",
+              "algebraic_progression": [
+                "$2EA = \\\\frac{\\\\sigma A}{\\\\epsilon_{0}}$",
+                "$E = \\\\frac{\\\\sigma}{2\\\\epsilon_{0}}$"
+              ]
+            },
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Providing the formalized vector representation and explicitly noting coordinate independence.",
+              "minimum_viable_text": "Vector form is $\\\\vec{E} = \\\\frac{\\\\sigma}{2\\\\epsilon_{0}}\\\\hat{n}$. This derivation proves an additional physical fact: the field intensity $E$ is entirely independent of distance $x$ from the plane sheet.",
+              "algebraic_progression": [
+                "$\\\\vec{E} = \\\\frac{\\\\sigma}{2\\\\epsilon_{0}}\\\\hat{n}$",
+                "$\\\\frac{\\\\partial E}{\\\\partial x} = 0 \\\\implies \\\\text{Independent of x coordinate}$"
+              ]
+            },
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Evaluating the parallel-plate field problem to find the total internal field strength.",
+              "minimum_viable_text": "Between opposite plates, fields from both sheets point in the same direction and reinforce each other: $E = \\\\frac{\\\\sigma}{2\\\\epsilon_{0}} + \\\\frac{\\\\sigma}{2\\\\epsilon_{0}} = \\\\frac{\\\\sigma}{\\\\epsilon_{0}}$. Substituting values: $E = \\\\frac{17.0 \\\\times 10^{-22}}{8.854 \\\\times 10^{-12}} \\\\approx 1.92 \\\\times 10^{-10}\\\\text{ N/C}$.",
+              "algebraic_progression": [
+                "$E_{\\\\text{between}} = E_{1} + E_{2} = \\\\frac{\\\\sigma}{2\\\\epsilon_{0}} + \\\\frac{\\\\sigma}{2\\\\epsilon_{0}} = \\\\frac{\\\\sigma}{\\\\epsilon_{0}}$",
+                "$E = \\\\frac{17.0 \\\\times 10^{-22}\\\\,\\\\text{C/m}^{2}}{8.854 \\\\times 10^{-12}\\\\,\\\\text{C}^{2}\\\\text{N}^{-1}\\\\text{m}^{-2}} \\\\approx 1.92 \\\\times 10^{-10}\\\\,\\\\text{N/C}$"
+              ]
+            }
+          ],
+          "topper_execution_logic": "Be super careful when working through the parallel plate numerical calculation in part (b). Because the plates carry *opposite* signs, their individual fields reinforce each other in the interior region, adding up to $E = \\\\frac{\\\\sigma}{\\\\epsilon_{0}}$. If you get confused by the opposite signs and subtract them to get zero, you will instantly lose the final mark. Explicitly state that both field vectors run in the same direction between the plates."
+        },
+        {
+          "question_id": "CH1-5M-05",
+          "marks_category": 5,
+          "typology_tag": "LONG_ANSWER",
+          "stem_text": "(a) Define an electric dipole and its dipole moment vector $\\\\vec{p}$, explicitly stating its conventional directional orientation in space.\n\n(b) Derive an expression for the electric field intensity vector of an electric dipole at any point on its axial line at a distance $r$ from its center.\n\n(c) Write the simplified vector formula for the field in its far-field limit ($r \\\\gg a$) and contrast this spatial dependence with that of a single isolated point charge.",
+          "marking_scheme_breakdown": [
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Defining the electric dipole and stating the precise formula and direction of its moment vector.",
+              "minimum_viable_text": "An electric dipole is a pair of equal and opposite point charges separated by $2a$. Its dipole moment vector is $\\\\vec{p} = q \\\\times 2a \\\\hat{p}$, pointing conventionally from the negative charge to the positive charge.",
+              "algebraic_progression": [
+                "$p = q \\\\times 2a$",
+                "$\\\\vec{p} = q(2a)\\\\hat{p} \\\\quad (\\\\text{directed from } -q \\\\text{ to } +q)$"
+              ]
+            },
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Setting up the individual field component equations for the positive and negative charges along the axis layout.",
+              "minimum_viable_text": "At an axial point P at distance $r$ from the center on the side of $+q: E_{-q} = -\\\\frac{q}{4\\\\pi\\\\epsilon_{0}(r+a)^{2}}\\\\hat{p}$ and $E_{+q} = \\\\frac{q}{4\\\\pi\\\\epsilon_{0}(r-a)^{2}}\\\\hat{p}$.",
+              "algebraic_progression": [
+                "$\\\\vec{E}_{-q} = -\\\\frac{1}{4\\\\pi\\\\epsilon_{0}}\\\\frac{q}{(r+a)^{2}}\\\\hat{p}$",
+                "$\\\\vec{E}_{+q} = +\\\\frac{1}{4\\\\pi\\\\epsilon_{0}}\\\\frac{q}{(r-a)^{2}}\\\\hat{p}$"
+              ]
+            },
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Executing vector superposition and combining the terms over a common algebraic denominator.",
+              "minimum_viable_text": "Total field is the vector sum: $\\\\vec{E} = \\\\vec{E}_{+q} + \\\\vec{E}_{-q} = \\\\frac{q}{4\\\\pi\\\\epsilon_{0}} \\\\left[ \\\\frac{1}{(r-a)^{2}} - \\\\frac{1}{(r+a)^{2}} \\\\right] \\\\hat{p}$.",
+              "algebraic_progression": [
+                "$\\\\vec{E} = \\\\frac{q}{4\\\\pi\\\\epsilon_{0}}\\\\left[\\\\frac{(r+a)^{2} - (r-a)^{2}}{(r-a)^{2}(r+a)^{2}}\\\\right]\\\\hat{p}$",
+                "$\\\\vec{E} = \\\\frac{q}{4\\\\pi\\\\epsilon_{0}}\\\\left[\\\\frac{4ar}{(r^{2}-a^{2})^{2}}\\\\right]\\\\hat{p}$"
+              ]
+            },
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Simplifying the combined terms into the standard full algebraic equation for the axial field.",
+              "minimum_viable_text": "Simplifying the numerator terms yields the exact expression for the axial field profile: $\\\\vec{E} = \\\\frac{1}{4\\\\pi\\\\epsilon_{0}} \\\\frac{4qar}{(r^{2}-a^{2})^{2}} \\\\hat{p} = \\\\frac{1}{4\\\\pi\\\\epsilon_{0}} \\\\frac{2pr}{(r^{2}-a^{2})^{2}} \\\\hat{p}$.",
+              "algebraic_progression": [
+                "$\\\\vec{E} = \\\\frac{1}{4\\\\pi\\\\epsilon_{0}} \\\\frac{2 \\\\cdot (q \\\\cdot 2a) \\\\cdot r}{(r^{2}-a^{2})^{2}} \\\\hat{p}$",
+                "$\\\\vec{E} = \\\\frac{1}{4\\\\pi\\\\epsilon_{0}} \\\\frac{2pr}{(r^{2}-a^{2})^{2}} \\\\hat{p}$"
+              ]
+            },
+            {
+              "allocated_marks": 1.0,
+              "evaluation_trigger": "Stating the far-field approximation limit and contrasting the inverse scaling profiles.",
+              "minimum_viable_text": "For $r \\\\gg a$, the equation simplifies to $\\\\vec{E} = \\\\frac{2\\\\vec{p}}{4\\\\pi\\\\epsilon_{0}r^{3}}$. This shows an inverse-cube distance dependence ($1/r^{3}$), contrasting with a single charge's inverse-square ($1/r^{2}$) dependence.",
+              "algebraic_progression": [
+                "$\\\\vec{E} \\\\approx \\\\frac{1}{4\\\\pi\\\\epsilon_{0}}\\\\frac{2pr}{(r^{2})^{2}}\\\\hat{p} = \\\\frac{2p}{4\\\\pi\\\\epsilon_{0}r^{3}}\\\\hat{p}$",
+                "$\\\\vec{E}_{\\\\text{axial}} = \\\\frac{2\\\\vec{p}}{4\\\\pi\\\\epsilon_{0}r^{3}} \\\\quad \\\\left(\\\\text{Dipole: } E \\\\propto \\\\frac{1}{r^{3}} \\\\text{ vs Point Charge: } E \\\\propto \\\\frac{1}{r^{2}}\\\\right)$"
+              ]
+            }
+          ],
+          "topper_execution_logic": "Make sure you don't mess up your common denominator subtraction algebra in step $3$! Expanding those terms incorrectly will completely derail your derivation and cost you full points. Also, explicitly highlight the contrast in distance scaling—stating clearly that the dipole field drops off much faster as $1/r^{3}$ due to the partial cancellation of opposite charges at large distances will secure your final point."
+        }
+      ]
+    }
+  }
+]

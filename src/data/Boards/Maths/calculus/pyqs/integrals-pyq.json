@@ -1,0 +1,653 @@
+{
+  "chapter_name": "Integrals",
+  "board": "CBSE",
+  "class": "12",
+  "exam_year_target": "2026",
+  "pyq_year_range": "last 3 years",
+  "total_questions_generated": 25,
+  "questions": [
+    {
+      "question_id": 1,
+      "question_type": "MCQ",
+      "concept_tested": "Integration by Substitution",
+      "difficulty_level": "Easy",
+      "question_text": "Evaluate: $$ \\int \\frac{e^x(1+x)}{\\cos^2(x e^x)} dx $$",
+      "options": [
+        "$$ \\tan(x e^x) + C $$",
+        "$$ \\cot(x e^x) + C $$",
+        "$$ -\\tan(x e^x) + C $$",
+        "$$ \\sec(x e^x) + C $$"
+      ],
+      "correct_answer": "$$ \\tan(x e^x) + C $$",
+      "topper_solution": {
+        "step_1": "Let $$ t = x e^x $$. Differentiate both sides with respect to $$ x $$ using the product rule.",
+        "step_2": "$$ \\frac{dt}{dx} = 1 \\cdot e^x + x \\cdot e^x = e^x(1 + x) $$. Therefore, $$ dt = e^x(1 + x) dx $$.",
+        "step_3": "Substitute this into the integral: $$ \\int \\frac{1}{\\cos^2 t} dt = \\int \\sec^2 t dt = \\tan t + C $$. Substituting back $$ t = x e^x $$, we get $$ \\tan(x e^x) + C $$."
+      },
+      "board_presentation_tip": "Always declare your substitution variable clearly and show the differential step $$ dt = ... dx $$ before substituting it into the main integral.",
+      "common_student_mistakes": [
+        "Applying the quotient rule of differentiation instead of integrating.",
+        "Forgetting the constant of integration $$ + C $$."
+      ],
+      "concept_trigger": "The presence of a function $$ (x e^x) $$ inside a trigonometric function and its exact derivative in the numerator is the classic trigger for substitution.",
+      "time_to_solve_seconds": "60",
+      "examiner_intent": "Testing basic recognition of derivatives for the substitution method."
+    },
+    {
+      "question_id": 2,
+      "question_type": "MCQ",
+      "concept_tested": "Integration using Completing the Square",
+      "difficulty_level": "Moderate",
+      "question_text": "Evaluate: $$ \\int \\frac{dx}{x^2 + 4x + 13} $$",
+      "options": [
+        "$$ \\frac{1}{3} \\tan^{-1}\\left(\\frac{x+2}{3}\\right) + C $$",
+        "$$ \\frac{1}{2} \\tan^{-1}\\left(\\frac{x+2}{2}\\right) + C $$",
+        "$$ \\tan^{-1}\\left(\\frac{x+2}{3}\\right) + C $$",
+        "$$ \\frac{1}{3} \\log|(x+2)^2 + 9| + C $$"
+      ],
+      "correct_answer": "$$ \\frac{1}{3} \\tan^{-1}\\left(\\frac{x+2}{3}\\right) + C $$",
+      "topper_solution": {
+        "step_1": "Complete the square for the quadratic denominator: $$ x^2 + 4x + 13 = (x^2 + 4x + 4) + 9 = (x+2)^2 + 3^2 $$.",
+        "step_2": "Rewrite the integral: $$ \\int \\frac{dx}{(x+2)^2 + 3^2} $$.",
+        "step_3": "Apply the standard formula $$ \\int \\frac{dx}{x^2 + a^2} = \\frac{1}{a} \\tan^{-1}\\left(\\frac{x}{a}\\right) + C $$. Here $$ x $$ is replaced by $$ (x+2) $$ and $$ a = 3 $$, giving $$ \\frac{1}{3} \\tan^{-1}\\left(\\frac{x+2}{3}\\right) + C $$."
+      },
+      "board_presentation_tip": "Show the completing the square process clearly. Explicitly write the standard formula you are using before applying it.",
+      "common_student_mistakes": [
+        "Forgetting the $$ \\frac{1}{a} $$ multiplier in front of the $$ \\tan^{-1} $$ function.",
+        "Making algebraic errors while completing the square (e.g., subtracting 4 instead of adding 9)."
+      ],
+      "concept_trigger": "A constant numerator over a quadratic denominator without real roots always requires completing the square and the $$ \\tan^{-1} $$ formula.",
+      "time_to_solve_seconds": "90",
+      "examiner_intent": "Assessing the ability to manipulate algebraic expressions into standard integrable forms."
+    },
+    {
+      "question_id": 3,
+      "question_type": "Assertion Reason",
+      "concept_tested": "Properties of Definite Integrals (Even/Odd Functions)",
+      "difficulty_level": "Moderate",
+      "question_text": "Assertion (A): $$ \\int_{-\\pi/2}^{\\pi/2} x^3 \\cos x dx = 0 $$. \nReason (R): For any odd continuous function $$ f(x) $$, $$ \\int_{-a}^a f(x) dx = 0 $$.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct_answer": "Both A and R are true and R is the correct explanation of A",
+      "topper_solution": {
+        "step_1": "Analyze Reason (R): The property $$ \\int_{-a}^a f(x) dx = 0 $$ if $$ f(-x) = -f(x) $$ (odd function) is a standard theorem of definite integrals. Reason R is true.",
+        "step_2": "Analyze Assertion (A): Let $$ f(x) = x^3 \\cos x $$. Calculate $$ f(-x) = (-x)^3 \\cos(-x) = -x^3 \\cos x = -f(x) $$.",
+        "step_3": "Since $$ f(x) $$ is an odd function, by the property stated in R, the integral from $$ -\\pi/2 $$ to $$ \\pi/2 $$ is 0. Thus, A is true and R is the correct explanation."
+      },
+      "board_presentation_tip": "Always explicitly prove that the function is odd by showing $$ f(-x) = -f(x) $$ before concluding the integral is 0.",
+      "common_student_mistakes": [
+        "Attempting to integrate $$ x^3 \\cos x $$ using integration by parts, wasting an immense amount of time.",
+        "Thinking that because $$ \\cos x $$ is an even function, the whole product is even."
+      ],
+      "concept_trigger": "Symmetric limits of integration $$ [-a, a] $$ are an immediate trigger to check if the integrand is an even or odd function.",
+      "time_to_solve_seconds": "45",
+      "examiner_intent": "Testing recognition of definite integral properties to bypass lengthy integration procedures."
+    },
+    {
+      "question_id": 4,
+      "question_type": "1_mark",
+      "concept_tested": "Standard Integral Formula",
+      "difficulty_level": "Easy",
+      "question_text": "Evaluate: $$ \\int \\frac{1}{\\sqrt{a^2 - x^2}} dx $$",
+      "options": [],
+      "correct_answer": "$$ \\sin^{-1}\\left(\\frac{x}{a}\\right) + C $$",
+      "topper_solution": {
+        "step_1": "Recognize the integral as a direct standard formula derived from inverse trigonometric derivatives.",
+        "step_2": "The derivative of $$ \\sin^{-1}\\left(\\frac{x}{a}\\right) $$ is $$ \\frac{1}{\\sqrt{1 - (x/a)^2}} \\cdot \\frac{1}{a} = \\frac{1}{\\sqrt{a^2 - x^2}} $$.",
+        "step_3": "Therefore, the anti-derivative is $$ \\sin^{-1}\\left(\\frac{x}{a}\\right) + C $$."
+      },
+      "board_presentation_tip": "Write the constant of integration '+ C'. In 1-mark questions, missing it often leads to a half-mark deduction.",
+      "common_student_mistakes": [
+        "Writing $$ \\frac{1}{a} \\sin^{-1}\\left(\\frac{x}{a}\\right) $$, falsely assuming it has the $$ 1/a $$ multiplier like the $$ \\tan^{-1} $$ formula.",
+        "Forgetting the '+ C'."
+      ],
+      "concept_trigger": "Denominator with a square root of a constant squared minus a variable squared maps directly to inverse sine.",
+      "time_to_solve_seconds": "30",
+      "examiner_intent": "Assessing rote memory and accuracy of fundamental integration formulas."
+    },
+    {
+      "question_id": 5,
+      "question_type": "2_mark",
+      "concept_tested": "Integration of exponential function with function and its derivative",
+      "difficulty_level": "Moderate",
+      "question_text": "Evaluate: $$ \\int e^x \\left( \\frac{1}{x} - \\frac{1}{x^2} \\right) dx $$",
+      "options": [],
+      "correct_answer": "$$ \\frac{e^x}{x} + C $$",
+      "topper_solution": {
+        "step_1": "Recognize the form of the integral: $$ \\int e^x [f(x) + f'(x)] dx $$.",
+        "step_2": "Let $$ f(x) = \\frac{1}{x} $$. Then its derivative is $$ f'(x) = \\frac{d}{dx}(x^{-1}) = -x^{-2} = -\\frac{1}{x^2} $$.",
+        "step_3": "The integral matches the standard form exactly. Using the theorem $$ \\int e^x [f(x) + f'(x)] dx = e^x f(x) + C $$, the answer is $$ e^x \\left(\\frac{1}{x}\\right) + C = \\frac{e^x}{x} + C $$."
+      },
+      "board_presentation_tip": "Explicitly state the formula $$ \\int e^x [f(x) + f'(x)] dx = e^x f(x) + C $$ and clearly define what your $$ f(x) $$ and $$ f'(x) $$ are to secure full marks.",
+      "common_student_mistakes": [
+        "Trying to integrate by parts manually for both terms, which leads to sign errors and takes too much time.",
+        "Missing the negative sign and incorrectly identifying $$ f'(x) $$."
+      ],
+      "concept_trigger": "An integral featuring $$ e^x $$ multiplied by a bracket containing two terms is a massive hint for the $$ e^x(f(x) + f'(x)) $$ rule.",
+      "time_to_solve_seconds": "60",
+      "examiner_intent": "Testing the identification and application of a specific, powerful integration shortcut theorem."
+    },
+    {
+      "question_id": 6,
+      "question_type": "2_mark",
+      "concept_tested": "Basic Definite Integration",
+      "difficulty_level": "Easy",
+      "question_text": "Evaluate the definite integral: $$ \\int_0^1 \\frac{dx}{1+x^2} $$",
+      "options": [],
+      "correct_answer": "$$ \\frac{\\pi}{4} $$",
+      "topper_solution": {
+        "step_1": "Identify the standard integral: $$ \\int \\frac{dx}{1+x^2} = \\tan^{-1}x $$.",
+        "step_2": "Apply the limits of integration from 0 to 1: $$ [\\tan^{-1}x]_0^1 $$.",
+        "step_3": "Evaluate: $$ \\tan^{-1}(1) - \\tan^{-1}(0) = \\frac{\\pi}{4} - 0 = \\frac{\\pi}{4} $$."
+      },
+      "board_presentation_tip": "Show the substitution of the upper and lower limits explicitly using square brackets.",
+      "common_student_mistakes": [
+        "Evaluating $$ \\tan^{-1}(1) $$ as 45 instead of radians ($$ \\pi/4 $$). In calculus, all angles must be in radians.",
+        "Adding a constant '+ C' to a definite integral."
+      ],
+      "concept_trigger": "Definite integrals require finding the anti-derivative first, then plugging in Upper Limit - Lower Limit.",
+      "time_to_solve_seconds": "45",
+      "examiner_intent": "Evaluating basic definite integral computation and knowledge of inverse trigonometric values."
+    },
+    {
+      "question_id": 7,
+      "question_type": "3_mark",
+      "concept_tested": "Integration by Parts",
+      "difficulty_level": "Moderate",
+      "question_text": "Evaluate: $$ \\int x \\log x dx $$",
+      "options": [],
+      "correct_answer": "$$ \\frac{x^2}{2} \\log x - \\frac{x^2}{4} + C $$",
+      "topper_solution": {
+        "step_1": "Use Integration by Parts. Apply the ILATE rule to choose the first function $$ u $$ and second function $$ v $$. Here, Logarithmic comes before Algebraic, so $$ u = \\log x $$ and $$ v = x $$.",
+        "step_2": "Apply the formula: $$ \\int u \\cdot v dx = u \\int v dx - \\int \\left( \\frac{du}{dx} \\int v dx \\right) dx $$.",
+        "step_3": "$$ \\int x \\log x dx = (\\log x)\\left(\\frac{x^2}{2}\\right) - \\int \\left( \\frac{1}{x} \\cdot \\frac{x^2}{2} \\right) dx $$."
+      },
+      "board_presentation_tip": "Mention 'Using ILATE rule' to justify your choice of first and second functions. This makes the logic clear to the examiner.",
+      "common_student_mistakes": [
+        "Choosing $$ x $$ as the first function and $$ \\log x $$ as the second, leading to a dead end because the integral of $$ \\log x $$ is not a basic formula.",
+        "Forgetting to integrate the second term completely in the final step."
+      ],
+      "concept_trigger": "Product of two dissimilar functions (e.g., algebraic and logarithmic) strictly requires Integration by Parts.",
+      "time_to_solve_seconds": "180",
+      "examiner_intent": "Testing application of the integration by parts formula and the ILATE selection rule."
+    },
+    {
+      "question_id": 8,
+      "question_type": "3_mark",
+      "concept_tested": "Integration using Partial Fractions",
+      "difficulty_level": "Moderate",
+      "question_text": "Evaluate: $$ \\int \\frac{x}{(x-1)(x-2)} dx $$",
+      "options": [],
+      "correct_answer": "$$ -\\log|x-1| + 2\\log|x-2| + C $$",
+      "topper_solution": {
+        "step_1": "Resolve the integrand into partial fractions: Let $$ \\frac{x}{(x-1)(x-2)} = \\frac{A}{x-1} + \\frac{B}{x-2} $$.",
+        "step_2": "Multiply by $$ (x-1)(x-2) $$ to get: $$ x = A(x-2) + B(x-1) $$. Put $$ x = 1 $$ to get $$ 1 = A(-1) \\implies A = -1 $$. Put $$ x = 2 $$ to get $$ 2 = B(1) \\implies B = 2 $$.",
+        "step_3": "Rewrite the integral: $$ \\int \\left( \\frac{-1}{x-1} + \\frac{2}{x-2} \\right) dx $$. Integrate to get $$ -\\log|x-1| + 2\\log|x-2| + C $$."
+      },
+      "board_presentation_tip": "Show the substitution method (putting x=1, x=2) to find A and B clearly. Always use modulus signs `| |` for logarithmic integrals.",
+      "common_student_mistakes": [
+        "Solving for A and B incorrectly due to basic sign errors in the linear equations.",
+        "Forgetting the modulus signs in the final logarithmic answer."
+      ],
+      "concept_trigger": "A rational function with a fully factorized denominator is the standard trigger for the Partial Fractions method.",
+      "time_to_solve_seconds": "180",
+      "examiner_intent": "Evaluating the ability to decompose rational functions and integrate the resulting logarithmic terms."
+    },
+    {
+      "question_id": 9,
+      "question_type": "5_mark",
+      "concept_tested": "Definite Integral Properties (King's Rule)",
+      "difficulty_level": "Board-Tricky",
+      "question_text": "Evaluate: $$ \\int_0^{\\pi/4} \\log(1 + \\tan x) dx $$",
+      "options": [],
+      "correct_answer": "$$ \\frac{\\pi}{8} \\log 2 $$",
+      "topper_solution": {
+        "step_1": "Let $$ I = \\int_0^{\\pi/4} \\log(1 + \\tan x) dx $$. Apply the property $$ \\int_0^a f(x) dx = \\int_0^a f(a - x) dx $$.",
+        "step_2": "$$ I = \\int_0^{\\pi/4} \\log\\left(1 + \\tan\\left(\\frac{\\pi}{4} - x\\right)\\right) dx $$. Expand the tangent: $$ I = \\int_0^{\\pi/4} \\log\\left(1 + \\frac{1 - \\tan x}{1 + \\tan x}\\right) dx $$.",
+        "step_3": "Simplify the inside of the log: $$ I = \\int_0^{\\pi/4} \\log\\left(\\frac{1 + \\tan x + 1 - \\tan x}{1 + \\tan x}\\right) dx = \\int_0^{\\pi/4} \\log\\left(\\frac{2}{1 + \\tan x}\\right) dx $$. Using log properties, this splits into $$ \\int_0^{\\pi/4} (\\log 2 - \\log(1 + \\tan x)) dx $$. Add this back to the original $$ I $$ to get $$ 2I = \\int_0^{\\pi/4} \\log 2 dx $$, yielding $$ I = \\frac{\\pi}{8} \\log 2 $$."
+      },
+      "board_presentation_tip": "State the definite integral property used explicitly. Adding the two equations (I + I = 2I) is the critical step that solves the problem.",
+      "common_student_mistakes": [
+        "Expanding $$ \\tan(\\pi/4 - x) $$ incorrectly.",
+        "Forgetting to divide by 2 at the very end after calculating 2I."
+      ],
+      "concept_trigger": "Integrals with limits $$ 0 $$ to $$ \\pi/4 $$ involving $$ \\tan $$ or $$ 0 $$ to $$ \\pi/2 $$ involving $$ \\sin/\\cos $$ are solved almost exclusively using the property $$ f(a-x) $$.",
+      "time_to_solve_seconds": "360",
+      "examiner_intent": "Testing application of King's Rule in definite integrals and logarithmic simplification."
+    },
+    {
+      "question_id": 10,
+      "question_type": "case_based",
+      "concept_tested": "Integration in Economics (Marginal Cost to Total Cost)",
+      "difficulty_level": "Moderate",
+      "question_text": "A factory produces a certain commodity. The Marginal Cost (MC) of producing $$ x $$ units is given by $$ MC = 3x^2 - 10x + 3 $$ (in thousands of Rupees). The fixed cost of setting up the production line, even if 0 units are produced, is Rs 50,000. \n\nBased on this information, answer the following:\n(i) Formulate the Total Cost function $$ C(x) $$ using integration.\n(ii) Find the total cost of producing 5 units.",
+      "options": [],
+      "correct_answer": "(i) $$ C(x) = x^3 - 5x^2 + 3x + 50 $$, (ii) Rs 65,000",
+      "topper_solution": {
+        "step_1": "For (i): The Total Cost function $$ C(x) $$ is the integral of the Marginal Cost. $$ C(x) = \\int MC dx = \\int (3x^2 - 10x + 3) dx $$.",
+        "step_2": "Integrating gives $$ C(x) = x^3 - 5x^2 + 3x + K $$, where $$ K $$ is the constant of integration.",
+        "step_3": "We are given the fixed cost is Rs 50,000. In thousands, this is 50. Fixed cost occurs when $$ x = 0 $$. So, $$ C(0) = 50 \\implies K = 50 $$. The Total Cost function is $$ C(x) = x^3 - 5x^2 + 3x + 50 $$. (Note: All values in thousands of Rs).",
+        "step_4": "For (ii): Substitute $$ x = 5 $$ into the Total Cost function. $$ C(5) = (5)^3 - 5(5)^2 + 3(5) + 50 $$.",
+        "step_5": "$$ C(5) = 125 - 125 + 15 + 50 = 65 $$.",
+        "step_6": "Since the function is in thousands of Rupees, the total cost of producing 5 units is Rs 65,000."
+      },
+      "board_presentation_tip": "Pay close attention to the units mentioned in the problem (e.g., 'in thousands of Rupees'). Adjust the constant of integration accordingly to prevent magnitude errors.",
+      "common_student_mistakes": [
+        "Setting the constant of integration $$ K $$ to 50,000 instead of 50, resulting in a massively skewed cost function.",
+        "Forgetting to add the fixed cost (constant of integration) entirely."
+      ],
+      "concept_trigger": "Whenever Marginal Cost (rate of change) is given, Total Cost is found by integrating, and Fixed Cost serves to find the constant '+ C'.",
+      "time_to_solve_seconds": "240",
+      "examiner_intent": "Assessing application of indefinite integrals to recover a total quantity function from a marginal rate function in economics."
+    },
+    {
+      "question_id": 11,
+      "question_type": "MCQ",
+      "concept_tested": "Integration by Trigonometric Substitution",
+      "difficulty_level": "Moderate",
+      "question_text": "Evaluate: $$ \\int \\frac{\\sin x}{\\sin(x - a)} dx $$",
+      "options": [
+        "$$ x \\cos a + \\sin a \\log |\\sin(x - a)| + C $$",
+        "$$ x \\sin a + \\cos a \\log |\\sin(x - a)| + C $$",
+        "$$ x \\cos a - \\sin a \\log |\\sin(x - a)| + C $$",
+        "$$ x \\sin a - \\cos a \\log |\\sin(x - a)| + C $$"
+      ],
+      "correct_answer": "$$ x \\cos a + \\sin a \\log |\\sin(x - a)| + C $$",
+      "topper_solution": {
+        "step_1": "Let $$ t = x - a $$, which implies $$ x = t + a $$. Differentiating gives $$ dx = dt $$.",
+        "step_2": "Substitute this into the integral: $$ \\int \\frac{\\sin(t + a)}{\\sin t} dt $$.",
+        "step_3": "Expand the numerator using the identity $$ \\sin(A+B) = \\sin A \\cos B + \\cos A \\sin B $$: $$ \\int \\frac{\\sin t \\cos a + \\cos t \\sin a}{\\sin t} dt $$.",
+        "step_4": "Separate the fractions: $$ \\int (\\cos a + \\sin a \\cot t) dt $$.",
+        "step_5": "Integrate with respect to $$ t $$ (remembering $$ a $$ is a constant): $$ t \\cos a + \\sin a \\log |\\sin t| + C $$.",
+        "step_6": "Substitute $$ t = x - a $$ back: $$ (x - a)\\cos a + \\sin a \\log |\\sin(x - a)| + C $$. Since $$ -a \\cos a $$ is a constant, it can be absorbed into $$ C $$, giving the final answer as $$ x \\cos a + \\sin a \\log |\\sin(x - a)| + C $$."
+      },
+      "board_presentation_tip": "Clearly show the expansion of $$ \\sin(t+a) $$. Stating that the constant $$ -a \\cos a $$ is absorbed into the integration constant $$ C $$ secures full marks.",
+      "common_student_mistakes": [
+        "Treating $$ \\cos a $$ and $$ \\sin a $$ as variables and attempting to integrate them to $$ \\sin a $$ and $$ -\\cos a $$.",
+        "Forgetting to substitute $$ t $$ back to $$ (x-a) $$ at the end."
+      ],
+      "concept_trigger": "A trigonometric rational function where the denominator has an angle offset ($$ x-a $$) immediately requires substituting the denominator's angle to $$ t $$.",
+      "time_to_solve_seconds": "90",
+      "examiner_intent": "Testing algebraic manipulation of trigonometric identities combined with integration by substitution."
+    },
+    {
+      "question_id": 12,
+      "question_type": "MCQ",
+      "concept_tested": "Definite Integral Properties (King's Rule)",
+      "difficulty_level": "Easy",
+      "question_text": "The value of $$ \\int_0^{\\pi/2} \\frac{\\sqrt{\\sin x}}{\\sqrt{\\sin x} + \\sqrt{\\cos x}} dx $$ is:",
+      "options": [
+        "$$ \\pi $$",
+        "$$ \\frac{\\pi}{2} $$",
+        "$$ \\frac{\\pi}{4} $$",
+        "$$ 0 $$"
+      ],
+      "correct_answer": "$$ \\frac{\\pi}{4} $$",
+      "topper_solution": {
+        "step_1": "Let $$ I = \\int_0^{\\pi/2} \\frac{\\sqrt{\\sin x}}{\\sqrt{\\sin x} + \\sqrt{\\cos x}} dx $$  --- (Equation 1)",
+        "step_2": "Use the property $$ \\int_0^a f(x) dx = \\int_0^a f(a - x) dx $$.",
+        "step_3": "$$ I = \\int_0^{\\pi/2} \\frac{\\sqrt{\\sin(\\pi/2 - x)}}{\\sqrt{\\sin(\\pi/2 - x)} + \\sqrt{\\cos(\\pi/2 - x)}} dx $$.",
+        "step_4": "Since $$ \\sin(\\pi/2 - x) = \\cos x $$ and $$ \\cos(\\pi/2 - x) = \\sin x $$, we get: $$ I = \\int_0^{\\pi/2} \\frac{\\sqrt{\\cos x}}{\\sqrt{\\cos x} + \\sqrt{\\sin x}} dx $$ --- (Equation 2)",
+        "step_5": "Add Equation 1 and Equation 2: $$ 2I = \\int_0^{\\pi/2} \\frac{\\sqrt{\\sin x} + \\sqrt{\\cos x}}{\\sqrt{\\sin x} + \\sqrt{\\cos x}} dx $$.",
+        "step_6": "$$ 2I = \\int_0^{\\pi/2} 1 dx = [x]_0^{\\pi/2} = \\frac{\\pi}{2} $$.",
+        "step_7": "Therefore, $$ I = \\frac{\\pi}{4} $$."
+      },
+      "board_presentation_tip": "This is a very common board question. Always label the initial integral as 'I' and the modified integral as 'Equation 2' before adding them.",
+      "common_student_mistakes": [
+        "Trying to integrate by rationalizing the denominator, which makes it extremely complicated.",
+        "Forgetting to divide by 2 in the final step, leaving the answer as $$ \\pi/2 $$."
+      ],
+      "concept_trigger": "A definite integral from 0 to $$ \\pi/2 $$ with symmetric sine/cosine or tangent/cotangent ratios is the classic setup for $$ f(a-x) $$ and adding.",
+      "time_to_solve_seconds": "45",
+      "examiner_intent": "Assessing knowledge of essential definite integral properties that bypass complex anti-derivatives."
+    },
+    {
+      "question_id": 13,
+      "question_type": "Assertion Reason",
+      "concept_tested": "Definite Integral of Modulus Function",
+      "difficulty_level": "Moderate",
+      "question_text": "Assertion (A): $$ \\int_{-1}^1 |x| dx = 1 $$. \nReason (R): The modulus function $$ f(x) = |x| $$ is an even function, and for any even function, $$ \\int_{-a}^a f(x) dx = 2 \\int_0^a f(x) dx $$.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct_answer": "Both A and R are true and R is the correct explanation of A",
+      "topper_solution": {
+        "step_1": "Analyze Reason (R): Since $$ |-x| = |x| $$, $$ f(x) = |x| $$ is an even function. The property $$ \\int_{-a}^a f(x) dx = 2 \\int_0^a f(x) dx $$ is a standard theorem for even functions. Reason R is true.",
+        "step_2": "Analyze Assertion (A): Apply the property from R: $$ \\int_{-1}^1 |x| dx = 2 \\int_0^1 |x| dx $$.",
+        "step_3": "In the interval $$ [0, 1] $$, $$ |x| = x $$. So, $$ 2 \\int_0^1 x dx = 2 \\left[ \\frac{x^2}{2} \\right]_0^1 $$.",
+        "step_4": "Evaluate: $$ 2 \\left( \\frac{1}{2} - 0 \\right) = 1 $$. Assertion A is true.",
+        "step_5": "Conclusion: R directly provides the method used to evaluate A effectively. Thus, R is the correct explanation."
+      },
+      "board_presentation_tip": "You can also solve A by splitting the limits at 0: $$ \\int_{-1}^0 -x dx + \\int_0^1 x dx $$, but referencing the even function property shows a stronger grasp of concepts.",
+      "common_student_mistakes": [
+        "Integrating $$ |x| $$ directly as $$ \\frac{|x|^2}{2} $$ without dropping the absolute value based on the intervals.",
+        "Assuming $$ \\int_{-1}^1 |x| dx = 0 $$ by confusing it with an odd function."
+      ],
+      "concept_trigger": "Symmetric limits $$ [-a, a] $$ combined with an absolute value strongly suggest checking for an even function to halve the integral.",
+      "time_to_solve_seconds": "60",
+      "examiner_intent": "Testing understanding of even function properties and piecewise integration of absolute values."
+    },
+    {
+      "question_id": 14,
+      "question_type": "1_mark",
+      "concept_tested": "Integration using Trigonometric Identities",
+      "difficulty_level": "Easy",
+      "question_text": "Evaluate: $$ \\int \\sin^2 x dx $$",
+      "options": [],
+      "correct_answer": "$$ \\frac{x}{2} - \\frac{\\sin 2x}{4} + C $$",
+      "topper_solution": {
+        "step_1": "We cannot integrate $$ \\sin^2 x $$ directly. Use the half-angle trigonometric identity: $$ \\sin^2 x = \\frac{1 - \\cos 2x}{2} $$.",
+        "step_2": "Substitute this into the integral: $$ \\int \\left( \\frac{1 - \\cos 2x}{2} \\right) dx = \\frac{1}{2} \\int (1 - \\cos 2x) dx $$.",
+        "step_3": "Integrate term by term: $$ \\frac{1}{2} \\left( x - \\frac{\\sin 2x}{2} \\right) + C $$.",
+        "step_4": "Distribute the $$ \\frac{1}{2} $$: $$ \\frac{x}{2} - \\frac{\\sin 2x}{4} + C $$."
+      },
+      "board_presentation_tip": "Always write down the identity $$ \\sin^2 x = \\frac{1 - \\cos 2x}{2} $$ before substituting. Do not forget to divide by 2 when integrating $$ \\cos 2x $$.",
+      "common_student_mistakes": [
+        "Applying the power rule to trigonometric functions: writing $$ \\frac{\\sin^3 x}{3} $$.",
+        "Integrating $$ \\cos 2x $$ to $$ \\sin 2x $$ without dividing by the inner derivative (2)."
+      ],
+      "concept_trigger": "Even powers of sine and cosine ($$ \\sin^2 x $$, $$ \\cos^2 x $$) must be converted into double angles before integrating.",
+      "time_to_solve_seconds": "45",
+      "examiner_intent": "Testing the foundational rule of linearizing trigonometric powers before integration."
+    },
+    {
+      "question_id": 15,
+      "question_type": "2_mark",
+      "concept_tested": "Partial Fractions / Special Integrals",
+      "difficulty_level": "Easy",
+      "question_text": "Evaluate: $$ \\int \\frac{dx}{x^2 - 9} $$",
+      "options": [],
+      "correct_answer": "$$ \\frac{1}{6} \\log \\left| \\frac{x - 3}{x + 3} \\right| + C $$",
+      "topper_solution": {
+        "step_1": "The integral matches the standard formula: $$ \\int \\frac{dx}{x^2 - a^2} = \\frac{1}{2a} \\log \\left| \\frac{x - a}{x + a} \\right| + C $$.",
+        "step_2": "Here, $$ a^2 = 9 $$, which implies $$ a = 3 $$.",
+        "step_3": "Substitute $$ a = 3 $$ into the formula: $$ \\frac{1}{2(3)} \\log \\left| \\frac{x - 3}{x + 3} \\right| + C $$.",
+        "step_4": "Simplify: $$ \\frac{1}{6} \\log \\left| \\frac{x - 3}{x + 3} \\right| + C $$."
+      },
+      "board_presentation_tip": "While you can solve this using partial fractions $$ \\frac{1}{(x-3)(x+3)} $$, directly writing the standard formula is completely acceptable and saves significant time.",
+      "common_student_mistakes": [
+        "Using the $$ \\tan^{-1} $$ formula by mistake (which applies to $$ x^2 + a^2 $$).",
+        "Writing the logarithm as $$ \\log|x+3| / \\log|x-3| $$, getting the numerator and denominator backwards."
+      ],
+      "concept_trigger": "The form $$ x^2 - a^2 $$ in the denominator links directly to the special integration logarithm formulas.",
+      "time_to_solve_seconds": "45",
+      "examiner_intent": "Assessing memory and application of the 6 special integrals."
+    },
+    {
+      "question_id": 16,
+      "question_type": "2_mark",
+      "concept_tested": "Definite Integration by Substitution",
+      "difficulty_level": "Moderate",
+      "question_text": "Evaluate: $$ \\int_0^1 x e^{x^2} dx $$",
+      "options": [],
+      "correct_answer": "$$ \\frac{e - 1}{2} $$",
+      "topper_solution": {
+        "step_1": "Let $$ t = x^2 $$. Differentiate to get $$ dt = 2x dx $$, which implies $$ x dx = \\frac{dt}{2} $$.",
+        "step_2": "Change the limits of integration. When $$ x = 0 $$, $$ t = 0^2 = 0 $$. When $$ x = 1 $$, $$ t = 1^2 = 1 $$.",
+        "step_3": "Substitute into the integral: $$ \\int_0^1 e^t \\left(\\frac{dt}{2}\\right) = \\frac{1}{2} \\int_0^1 e^t dt $$.",
+        "step_4": "Integrate: $$ \\frac{1}{2} [e^t]_0^1 $$.",
+        "step_5": "Apply limits: $$ \\frac{1}{2} (e^1 - e^0) = \\frac{1}{2} (e - 1) = \\frac{e - 1}{2} $$."
+      },
+      "board_presentation_tip": "Whenever you use substitution in a definite integral, changing the limits immediately is much safer than reverting back to 'x' before applying limits.",
+      "common_student_mistakes": [
+        "Forgetting to divide by 2 after substitution.",
+        "Evaluating $$ e^0 $$ as 0 instead of 1, leading to the incorrect answer $$ e/2 $$."
+      ],
+      "concept_trigger": "A function multiplied by its inner argument's derivative ($$ x $$ and $$ x^2 $$) necessitates the substitution method.",
+      "time_to_solve_seconds": "90",
+      "examiner_intent": "Evaluating the combination of substitution with definite integrals, emphasizing the necessity of changing integral bounds."
+    },
+    {
+      "question_id": 17,
+      "question_type": "3_mark",
+      "concept_tested": "Cyclic Integration by Parts",
+      "difficulty_level": "Moderate",
+      "question_text": "Evaluate: $$ \\int e^x \\sin x dx $$",
+      "options": [],
+      "correct_answer": "$$ \\frac{e^x}{2} (\\sin x - \\cos x) + C $$",
+      "topper_solution": {
+        "step_1": "Let $$ I = \\int e^x \\sin x dx $$. Use integration by parts. According to ILATE, let $$ u = \\sin x $$ (Trigonometric) and $$ v = e^x $$ (Exponential).",
+        "step_2": "Apply the formula: $$ I = \\sin x \\int e^x dx - \\int \\left( \\frac{d}{dx}(\\sin x) \\int e^x dx \\right) dx $$.",
+        "step_3": "$$ I = e^x \\sin x - \\int e^x \\cos x dx $$.",
+        "step_4": "Apply integration by parts again to $$ \\int e^x \\cos x dx $$. Let $$ u = \\cos x $$ and $$ v = e^x $$.",
+        "step_5": "$$ \\int e^x \\cos x dx = \\cos x \\int e^x dx - \\int \\left( \\frac{d}{dx}(\\cos x) \\int e^x dx \\right) dx = e^x \\cos x - \\int (-\\sin x) e^x dx $$.",
+        "step_6": "$$ \\int e^x \\cos x dx = e^x \\cos x + \\int e^x \\sin x dx $$. Notice that the integral on the RHS is our original integral $$ I $$.",
+        "step_7": "Substitute back into Step 3: $$ I = e^x \\sin x - (e^x \\cos x + I) $$.",
+        "step_8": "$$ I = e^x \\sin x - e^x \\cos x - I $$. Move $$ I $$ to the LHS: $$ 2I = e^x(\\sin x - \\cos x) $$.",
+        "step_9": "Divide by 2 and add constant: $$ I = \\frac{e^x}{2}(\\sin x - \\cos x) + C $$."
+      },
+      "board_presentation_tip": "Define the integral as 'I' from the very first step. Without this, looping back to the original integral causes immense confusion in notation.",
+      "common_student_mistakes": [
+        "Getting stuck in an infinite loop of integration by parts because they do not recognize the original integral $$ I $$ reappearing.",
+        "Sign errors during the second application of integration by parts."
+      ],
+      "concept_trigger": "The product of an exponential and a sine/cosine function always creates a repeating cyclic integral.",
+      "time_to_solve_seconds": "240",
+      "examiner_intent": "Testing advanced integration by parts involving cyclic functions where algebraic isolation of 'I' is required."
+    },
+    {
+      "question_id": 18,
+      "question_type": "3_mark",
+      "concept_tested": "Algebraic Twins / Special Substitution",
+      "difficulty_level": "Board-Tricky",
+      "question_text": "Evaluate: $$ \\int \\frac{x^2 + 1}{x^4 + 1} dx $$",
+      "options": [],
+      "correct_answer": "$$ \\frac{1}{\\sqrt{2}} \\tan^{-1}\\left( \\frac{x^2 - 1}{\\sqrt{2}x} \\right) + C $$",
+      "topper_solution": {
+        "step_1": "Divide the numerator and the denominator by $$ x^2 $$: $$ \\int \\frac{1 + 1/x^2}{x^2 + 1/x^2} dx $$.",
+        "step_2": "We want to substitute the denominator in a way that its derivative matches the numerator. Note that $$ \\frac{d}{dx}(x - 1/x) = 1 + 1/x^2 $$.",
+        "step_3": "Rewrite the denominator by completing the square to match our intended substitution: $$ x^2 + \\frac{1}{x^2} = \\left(x - \\frac{1}{x}\\right)^2 + 2 $$.",
+        "step_4": "Substitute this back into the integral: $$ \\int \\frac{1 + 1/x^2}{(x - 1/x)^2 + (\\sqrt{2})^2} dx $$.",
+        "step_5": "Let $$ t = x - \\frac{1}{x} $$. Then $$ dt = \\left(1 + \\frac{1}{x^2}\\right) dx $$.",
+        "step_6": "The integral becomes $$ \\int \\frac{dt}{t^2 + (\\sqrt{2})^2} $$.",
+        "step_7": "Apply the standard formula: $$ \\frac{1}{\\sqrt{2}} \\tan^{-1}\\left(\\frac{t}{\\sqrt{2}}\\right) + C $$.",
+        "step_8": "Substitute back $$ t = x - \\frac{1}{x} = \\frac{x^2 - 1}{x} $$: $$ \\frac{1}{\\sqrt{2}} \\tan^{-1}\\left( \\frac{x^2 - 1}{\\sqrt{2}x} \\right) + C $$."
+      },
+      "board_presentation_tip": "Write out the identity $$ x^2 + 1/x^2 = (x - 1/x)^2 + 2 $$ clearly before doing the substitution. This is a very standard 'trick' question.",
+      "common_student_mistakes": [
+        "Trying to factor $$ x^4 + 1 $$ into linear or quadratic real factors, which is highly complex.",
+        "Choosing the wrong square completion in the denominator ($$ (x + 1/x)^2 - 2 $$), which leads to the wrong substitution."
+      ],
+      "concept_trigger": "Rational functions containing $$ x^4 + 1 $$ and $$ x^2 \\pm 1 $$ are solved by dividing numerator and denominator by $$ x^2 $$ and forming $$ x \\pm 1/x $$.",
+      "time_to_solve_seconds": "300",
+      "examiner_intent": "Testing non-standard algebraic manipulation prior to using standard integration formulas."
+    },
+    {
+      "question_id": 19,
+      "question_type": "5_mark",
+      "concept_tested": "Definite Integral Property - Removing 'x'",
+      "difficulty_level": "Board-Tricky",
+      "question_text": "Evaluate: $$ \\int_0^{\\pi} \\frac{x \\sin x}{1 + \\cos^2 x} dx $$",
+      "options": [],
+      "correct_answer": "$$ \\frac{\\pi^2}{4} $$",
+      "topper_solution": {
+        "step_1": "Let $$ I = \\int_0^{\\pi} \\frac{x \\sin x}{1 + \\cos^2 x} dx $$  --- (Equation 1)",
+        "step_2": "Apply the property $$ \\int_0^a f(x) dx = \\int_0^a f(a - x) dx $$.",
+        "step_3": "$$ I = \\int_0^{\\pi} \\frac{(\\pi - x) \\sin(\\pi - x)}{1 + \\cos^2(\\pi - x)} dx $$.",
+        "step_4": "Since $$ \\sin(\\pi - x) = \\sin x $$ and $$ \\cos(\\pi - x) = -\\cos x $$ (but squares to $$ \\cos^2 x $$):\\n$$ I = \\int_0^{\\pi} \\frac{(\\pi - x) \\sin x}{1 + \\cos^2 x} dx = \\int_0^{\\pi} \\frac{\\pi \\sin x}{1 + \\cos^2 x} dx - \\int_0^{\\pi} \\frac{x \\sin x}{1 + \\cos^2 x} dx $$ --- (Equation 2).",
+        "step_5": "Notice the second term is $$ I $$. Add $$ I $$ to both sides: $$ 2I = \\pi \\int_0^{\\pi} \\frac{\\sin x}{1 + \\cos^2 x} dx $$.",
+        "step_6": "Now substitute $$ t = \\cos x $$. Then $$ dt = -\\sin x dx \\implies -dt = \\sin x dx $$.",
+        "step_7": "Change limits: When $$ x = 0 $$, $$ t = 1 $$. When $$ x = \\pi $$, $$ t = -1 $$.",
+        "step_8": "$$ 2I = \\pi \\int_1^{-1} \\frac{-dt}{1 + t^2} = \\pi \\int_{-1}^1 \\frac{dt}{1 + t^2} $$ (using limits reversal property).",
+        "step_9": "$$ 2I = \\pi [\\tan^{-1} t]_{-1}^1 = \\pi (\\tan^{-1}(1) - \\tan^{-1}(-1)) = \\pi \\left( \\frac{\\pi}{4} - \\left(-\\frac{\\pi}{4}\\right) \\right) = \\pi \\left( \\frac{\\pi}{2} \\right) = \\frac{\\pi^2}{2} $$.",
+        "step_10": "Therefore, $$ I = \\frac{\\pi^2}{4} $$."
+      },
+      "board_presentation_tip": "The step where 'x' is removed by adding I and I is a hallmark 5-mark technique. Emphasize it. Also, show the limit change for 't' explicitly.",
+      "common_student_mistakes": [
+        "Failing to remove the 'x' in the numerator, which makes the integral impossible to solve via standard substitution.",
+        "Incorrectly changing the limits of integration or ignoring the negative sign from $$ -\\sin x dx $$."
+      ],
+      "concept_trigger": "The presence of a standalone 'x' multiplied by trigonometric functions in a definite integral from $$ 0 $$ to $$ \\pi $$ absolutely demands the $$ f(\\pi-x) $$ property to 'delete' the x.",
+      "time_to_solve_seconds": "420",
+      "examiner_intent": "Testing multi-layered integration: using King's rule to eliminate a variable, followed by u-substitution and evaluating inverse trig limits."
+    },
+    {
+      "question_id": 20,
+      "question_type": "case_based",
+      "concept_tested": "Kinematics using Integration",
+      "difficulty_level": "Moderate",
+      "question_text": "A self-driving car undergoes a braking test. The car is moving in a straight line, and when the brakes are applied at time $$ t = 0 $$, its deceleration is modeled by $$ a(t) = -6t \\text{ m/s}^2 $$. At the exact moment the brakes are applied, the car's velocity is $$ 30 \\text{ m/s} $$, and its position is at origin ($$ s = 0 $$). \n\nBased on this information, answer the following:\n(i) Express the velocity of the car, $$ v(t) $$, as a function of time using integration.\n(ii) Express the displacement of the car, $$ s(t) $$, as a function of time.\n(iii) Calculate the total distance the car travels before coming to a complete stop.",
+      "options": [],
+      "correct_answer": "(i) $$ v(t) = -3t^2 + 30 $$, (ii) $$ s(t) = -t^3 + 30t $$, (iii) $$ 20\\sqrt{10} $$ meters.",
+      "topper_solution": {
+        "step_1": "For (i): Acceleration is the derivative of velocity, so $$ v(t) = \\int a(t) dt $$.",
+        "step_2": "$$ v(t) = \\int -6t dt = -3t^2 + C_1 $$.",
+        "step_3": "Use initial condition: At $$ t = 0 $$, $$ v(0) = 30 $$. So, $$ -3(0)^2 + C_1 = 30 \\implies C_1 = 30 $$. Thus, $$ v(t) = -3t^2 + 30 $$.",
+        "step_4": "For (ii): Velocity is the derivative of displacement, so $$ s(t) = \\int v(t) dt $$.",
+        "step_5": "$$ s(t) = \\int (-3t^2 + 30) dt = -t^3 + 30t + C_2 $$.",
+        "step_6": "Use initial condition: At $$ t = 0 $$, $$ s(0) = 0 $$. So, $$ C_2 = 0 $$. Thus, $$ s(t) = -t^3 + 30t $$.",
+        "step_7": "For (iii): The car comes to a stop when its velocity is 0. Set $$ v(t) = 0 $$.",
+        "step_8": "$$ -3t^2 + 30 = 0 \\implies 3t^2 = 30 \\implies t^2 = 10 \\implies t = \\sqrt{10} $$ seconds.",
+        "step_9": "Find the distance traveled at $$ t = \\sqrt{10} $$ by substituting into the displacement equation.",
+        "step_10": "$$ s(\\sqrt{10}) = -(\\sqrt{10})^3 + 30(\\sqrt{10}) = -10\\sqrt{10} + 30\\sqrt{10} = 20\\sqrt{10} $$ meters."
+      },
+      "board_presentation_tip": "Clearly define the constants of integration (like C1 and C2) and show the boundary condition substitution explicitly.",
+      "common_student_mistakes": [
+        "Forgetting to find the constants of integration, leaving the equations as indefinite integrals.",
+        "Solving for the stopping distance using basic kinematic equations ($$ v^2 = u^2 + 2as $$), which are invalid here because acceleration is not constant."
+      ],
+      "concept_trigger": "Given acceleration $$ a(t) $$, integrate once to find velocity $$ v(t) $$, and integrate again to find position $$ s(t) $$, applying initial conditions to solve for constants.",
+      "time_to_solve_seconds": "300",
+      "examiner_intent": "Assessing application of indefinite integrals to physical mechanics (kinematics) where boundary conditions solve for constants."
+    },
+    {
+      "question_id": 21,
+      "question_type": "5_mark",
+      "concept_tested": "Definite Integral Properties (Logarithmic Trigonometric)",
+      "difficulty_level": "Board-Tricky",
+      "question_text": "Evaluate: $$ \\int_0^{\\pi/2} \\log(\\sin x) dx $$",
+      "options": [],
+      "correct_answer": "$$ -\\frac{\\pi}{2} \\log 2 $$",
+      "topper_solution": {
+        "step_1": "Let $$ I = \\int_0^{\\pi/2} \\log(\\sin x) dx $$. Apply the property $$ \\int_0^a f(x) dx = \\int_0^a f(a - x) dx $$.",
+        "step_2": "$$ I = \\int_0^{\\pi/2} \\log(\\sin(\\pi/2 - x)) dx = \\int_0^{\\pi/2} \\log(\\cos x) dx $$.",
+        "step_3": "Add the two integrals: $$ 2I = \\int_0^{\\pi/2} [\\log(\\sin x) + \\log(\\cos x)] dx = \\int_0^{\\pi/2} \\log(\\sin x \\cos x) dx $$.",
+        "step_4": "Multiply and divide the argument by 2: $$ 2I = \\int_0^{\\pi/2} \\log\\left(\\frac{2\\sin x \\cos x}{2}\\right) dx = \\int_0^{\\pi/2} \\log(\\sin 2x) dx - \\int_0^{\\pi/2} \\log 2 dx $$.",
+        "step_5": "For the first integral, let $$ 2x = t \\implies 2dx = dt $$. Limits change: 0 to $$ \\pi $$. $$ \\int_0^{\\pi/2} \\log(\\sin 2x) dx = \\frac{1}{2} \\int_0^{\\pi} \\log(\\sin t) dt $$.",
+        "step_6": "Using property $$ \\int_0^{2a} f(x) dx = 2\\int_0^a f(x) dx $$ (since $$ \\sin(\\pi - t) = \\sin t $$), this becomes $$ \\frac{1}{2} \\times 2 \\int_0^{\\pi/2} \\log(\\sin t) dt = I $$.",
+        "step_7": "Substitute back into Step 4: $$ 2I = I - \\log 2 [x]_0^{\\pi/2} $$.",
+        "step_8": "$$ 2I - I = -\\frac{\\pi}{2} \\log 2 \\implies I = -\\frac{\\pi}{2} \\log 2 $$."
+      },
+      "board_presentation_tip": "This is a classic 'Topper's Integral'. Clearly defining the transition from $$ \\int_0^{\\pi} \\log(\\sin t) dt $$ back to $$ 2I $$ using the symmetric property is where most students lose marks.",
+      "common_student_mistakes": [
+        "Failing to recognize that $$ \\int_0^{\\pi} \\log(\\sin t) dt $$ evaluates to $$ 2I $$, resulting in an endless loop.",
+        "Forgetting the denominator 2 inside the logarithm after applying the double angle formula."
+      ],
+      "concept_trigger": "Evaluating the log of sine or cosine from 0 to $$ \\pi/2 $$ always requires adding the sine and cosine integrals to form $$ \\sin 2x $$.",
+      "time_to_solve_seconds": "360",
+      "examiner_intent": "Testing mastery of multiple definite integral properties applied sequentially in a single complex problem."
+    },
+    {
+      "question_id": 22,
+      "question_type": "Assertion Reason",
+      "concept_tested": "Integration by Parts",
+      "difficulty_level": "Easy",
+      "question_text": "Assertion (A): $$ \\int_0^1 x e^x dx = 1 $$.\\nReason (R): For any two integrable functions $$ u $$ and $$ v $$, $$ \\int u v dx = u \\int v dx - \\int \\left( \\frac{du}{dx} \\int v dx \\right) dx $$.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct_answer": "Both A and R are true and R is the correct explanation of A",
+      "topper_solution": {
+        "step_1": "Analyze Reason (R): The formula provided is the standard Integration by Parts formula. R is true.",
+        "step_2": "Analyze Assertion (A): Apply Integration by Parts to $$ \\int x e^x dx $$. Let $$ u = x $$ and $$ v = e^x $$.",
+        "step_3": "$$ \\int x e^x dx = x e^x - \\int (1 \\cdot e^x) dx = x e^x - e^x $$.",
+        "step_4": "Apply definite limits from 0 to 1: $$ [x e^x - e^x]_0^1 = (1 \\cdot e^1 - e^1) - (0 \\cdot e^0 - e^0) $$.",
+        "step_5": "$$ = (e - e) - (0 - 1) = 0 - (-1) = 1 $$. Assertion A is true.",
+        "step_6": "Since R provides the exact theorem used to evaluate A, it is the correct explanation."
+      },
+      "board_presentation_tip": "Show the indefinite integral resolution first before applying the square brackets for limits to keep calculations clean.",
+      "common_student_mistakes": [
+        "Evaluating the lower limit at 0 incorrectly as 0 instead of -1 (since $$ e^0 = 1 $$)."
+      ],
+      "concept_trigger": "Product of algebraic and exponential functions implies Integration by Parts (ILATE).",
+      "time_to_solve_seconds": "60",
+      "examiner_intent": "Checking algorithmic execution of Integration by Parts and careful definite limit evaluation."
+    },
+    {
+      "question_id": 23,
+      "question_type": "2_mark",
+      "concept_tested": "Trigonometric Identity Simplification",
+      "difficulty_level": "Moderate",
+      "question_text": "Evaluate: $$ \\int \\frac{1}{\\sin^2 x \\cos^2 x} dx $$",
+      "options": [],
+      "correct_answer": "$$ \\tan x - \\cot x + C $$",
+      "topper_solution": {
+        "step_1": "Write the numerator 1 as the fundamental trigonometric identity: $$ 1 = \\sin^2 x + \\cos^2 x $$.",
+        "step_2": "The integral becomes $$ \\int \\frac{\\sin^2 x + \\cos^2 x}{\\sin^2 x \\cos^2 x} dx $$.",
+        "step_3": "Separate the fraction into two parts: $$ \\int \\left( \\frac{\\sin^2 x}{\\sin^2 x \\cos^2 x} + \\frac{\\cos^2 x}{\\sin^2 x \\cos^2 x} \\right) dx $$.",
+        "step_4": "Simplify the fractions: $$ \\int \\left( \\frac{1}{\\cos^2 x} + \\frac{1}{\\sin^2 x} \\right) dx = \\int (\\sec^2 x + \\csc^2 x) dx $$.",
+        "step_5": "Integrate using standard formulas: $$ \\tan x - \\cot x + C $$."
+      },
+      "board_presentation_tip": "Replacing '1' with 'sin²x + cos²x' in the numerator is a standard trick for rational trigonometric integrals. Highlight this step.",
+      "common_student_mistakes": [
+        "Trying to bring $$ \\sin^2 x \\cos^2 x $$ to the numerator using negative exponents and failing to integrate.",
+        "Substituting $$ \\sin 2x $$ in the denominator, which makes the integral much longer to solve via $$ \\csc^2 2x $$."
+      ],
+      "concept_trigger": "A pure product of $$ \\sin^2 x \\cos^2 x $$ in the denominator with a constant numerator is cracked by writing 1 as $$ \\sin^2 x + \\cos^2 x $$.",
+      "time_to_solve_seconds": "60",
+      "examiner_intent": "Evaluating lateral thinking in using fundamental identities backward to simplify integrals."
+    },
+    {
+      "question_id": 24,
+      "question_type": "3_mark",
+      "concept_tested": "Definite Integral of Piecewise/Modulus Functions",
+      "difficulty_level": "Board-Tricky",
+      "question_text": "Evaluate: $$ \\int_{-1}^2 |x^3 - x| dx $$ ",
+      "options": [],
+      "correct_answer": "$$ \\frac{11}{4} $$",
+      "topper_solution": {
+        "step_1": "Find the critical points where the expression inside the modulus is zero: $$ x^3 - x = 0 \\implies x(x^2 - 1) = 0 \\implies x = 0, x = 1, x = -1 $$.",
+        "step_2": "These points divide the integration interval $$ [-1, 2] $$ into three sub-intervals: $$ [-1, 0] $$, $$ [0, 1] $$, and $$ [1, 2] $$.",
+        "step_3": "Determine the sign of $$ x^3 - x $$ in each interval:\\nIn $$ [-1, 0] $$ (e.g., $$ x = -0.5 $$), $$ (-0.5)^3 - (-0.5) = -0.125 + 0.5 > 0 $$ (Positive).\\nIn $$ [0, 1] $$ (e.g., $$ x = 0.5 $$), $$ (0.5)^3 - 0.5 = 0.125 - 0.5 < 0 $$ (Negative).\\nIn $$ [1, 2] $$ (e.g., $$ x = 1.5 $$), $$ (1.5)^3 - 1.5 = 3.375 - 1.5 > 0 $$ (Positive).",
+        "step_4": "Split the integral and remove modulus signs based on intervals:\\n$$ I = \\int_{-1}^0 (x^3 - x) dx + \\int_0^1 -(x^3 - x) dx + \\int_1^2 (x^3 - x) dx $$.",
+        "step_5": "Integrate: $$ \\int (x^3 - x) dx = \\left[\\frac{x^4}{4} - \\frac{x^2}{2}\\right] $$.",
+        "step_6": "Evaluate limits:\\nPart 1: $$ [0] - [\\frac{1}{4} - \\frac{1}{2}] = -[-\\frac{1}{4}] = \\frac{1}{4} $$.\\nPart 2: $$ -[ (\\frac{1}{4} - \\frac{1}{2}) - 0 ] = -[-\\frac{1}{4}] = \\frac{1}{4} $$.\\nPart 3: $$ [\\frac{16}{4} - \\frac{4}{2}] - [\\frac{1}{4} - \\frac{1}{2}] = [4 - 2] - [-\\frac{1}{4}] = 2 + \\frac{1}{4} = \\frac{9}{4} $$.",
+        "step_7": "Add the areas: $$ I = \\frac{1}{4} + \\frac{1}{4} + \\frac{9}{4} = \\frac{11}{4} $$."
+      },
+      "board_presentation_tip": "Clearly show the sign analysis using test points for each interval. Treat each bounded integral as a separate Area block (A1, A2, A3) to minimize sequential sign errors.",
+      "common_student_mistakes": [
+        "Failing to factorize $$ x^3 - x $$ completely and missing the critical point at $$ x = 0 $$.",
+        "Making sign errors when subtracting the lower limits inside the heavily bracketed evaluations."
+      ],
+      "concept_trigger": "Integrating an absolute value requires finding the roots of the inner expression and breaking the definite integral at those exact roots.",
+      "time_to_solve_seconds": "240",
+      "examiner_intent": "Assessing rigorous piecewise integration, absolute value properties, and polynomial root-finding."
+    },
+    {
+      "question_id": 25,
+      "question_type": "case_based",
+      "concept_tested": "Real-World Application of Integration (Accumulation)",
+      "difficulty_level": "Moderate",
+      "question_text": "A cylindrical water tank is leaking. The rate at which water is leaking from the tank is modeled by the function $$ R(t) = 200 - 4t $$ liters per hour, where $$ t $$ is the time in hours since the leak was discovered. \\n\\nBased on this information, answer the following:\\n(i) Express the total volume of water leaked, $$ V(t) $$, as a function of time $$ t $$ (assuming $$ V(0) = 0 $$).\\n(ii) After how many hours does the tank completely stop leaking?\\n(iii) What is the total volume of water lost from the tank by the time it stops leaking?",
+      "options": [],
+      "correct_answer": "(i) $$ V(t) = 200t - 2t^2 $$, (ii) 50 hours, (iii) 5000 liters",
+      "topper_solution": {
+        "step_1": "For (i): The total volume leaked is the integral of the leakage rate. $$ V(t) = \\int R(t) dt = \\int (200 - 4t) dt $$.",
+        "step_2": "Integrate to get: $$ V(t) = 200t - \\frac{4t^2}{2} + C = 200t - 2t^2 + C $$.",
+        "step_3": "Since at $$ t = 0 $$, no water has leaked since discovery, $$ V(0) = 0 \\implies C = 0 $$. Thus, $$ V(t) = 200t - 2t^2 $$.",
+        "step_4": "For (ii): The tank stops leaking when the rate of leakage drops to zero. Set $$ R(t) = 0 $$.",
+        "step_5": "$$ 200 - 4t = 0 \\implies 4t = 200 \\implies t = 50 $$ hours. It stops leaking after 50 hours.",
+        "step_6": "For (iii): Find the total water leaked by substituting the stopping time ($$ t = 50 $$) into the volume function.",
+        "step_7": "$$ V(50) = 200(50) - 2(50)^2 = 10000 - 2(2500) = 10000 - 5000 = 5000 $$ liters."
+      },
+      "board_presentation_tip": "Ensure you correctly state why C=0 using the initial condition. For part (ii), explain that 'stops leaking' implies Rate=0, not Volume=0.",
+      "common_student_mistakes": [
+        "Setting the Volume function $$ V(t) = 0 $$ instead of the Rate function $$ R(t) = 0 $$ to find the stopping time.",
+        "Arithmetic errors when squaring 50."
+      ],
+      "concept_trigger": "If a rate (liters/hour) is given, accumulating the total amount (liters) mandates taking the definite/indefinite integral of the rate function.",
+      "time_to_solve_seconds": "210",
+      "examiner_intent": "Testing interpretation of integral calculus as an accumulator of changing rates in practical fluid dynamics contexts."
+    }
+  ]
+}

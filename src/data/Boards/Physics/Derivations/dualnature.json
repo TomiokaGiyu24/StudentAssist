@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "subject": "Physics",
+    "class": 12,
+    "board": "CBSE",
+    "chapter": "Dual Nature of Radiation and Matter"
+  },
+  "derivations": [
+    {
+      "id": "ch11-01",
+      "title": "de Broglie Wavelength of an Accelerated Electron",
+      "priority": "P1",
+      "priority_reason": "The only rigorous mathematical derivation in this chapter. Appears frequently in 3-mark questions or numericals.",
+      "marks": 3,
+      "diagram_required": false,
+      "diagram_description": "None required. A simple block diagram of an electron gun accelerating an electron can be drawn but is not standard.",
+      "derivation": {
+        "given_assumptions": [
+          "Electron of mass $m$ and charge $e$.",
+          "Accelerated from rest through a potential difference $V$."
+        ],
+        "required": "Expression for de Broglie wavelength $\\lambda$.",
+        "steps": [
+          {
+            "text": "Work done by electric field on the electron equals gain in kinetic energy $K$.",
+            "latex": "K = Work = eV"
+          },
+          {
+            "text": "Relation between Kinetic Energy $K$ and Momentum $p$ ($K = p^2/2m$):",
+            "latex": "p = \\sqrt{2mK} = \\sqrt{2meV}"
+          },
+          {
+            "text": "According to de Broglie hypothesis, wavelength $\\lambda = h/p$.",
+            "latex": "\\lambda = \\frac{h}{\\sqrt{2meV}}"
+          },
+          {
+            "text": "Substituting standard constants ($h, m_e, e$):",
+            "latex": "\\lambda \\approx \\frac{1.227}{\\sqrt{V}} \\text{ nm}"
+          }
+        ],
+        "final_result": {
+          "text": "The wavelength of an electron accelerated by V volts is:",
+          "latex": "\\lambda = \\frac{12.27}{\\sqrt{V}} \\mathring{A}"
+        },
+        "examiner_notes": [
+          "Students must know the value 12.27 Angstrom / sqrt(V).",
+          "Don't forget the root over V.",
+          "Distinguish between 'v' (velocity) and 'V' (potential) in handwriting."
+        ],
+        "question_forms": [
+          "Derive an expression for the de Broglie wavelength associated with an electron accelerated through a potential V.",
+          "Show that the wavelength of electrons accelerated through V volts is given by 1.227/sqrt(V) nm."
+        ]
+      }
+    },
+    {
+      "id": "ch11-02",
+      "title": "Einstein's Photoelectric Equation ",
+      "priority": "P1",
+      "priority_reason": "The foundational equation of the chapter. Often asked to 'establish' or 'state and explain'.",
+      "marks": 2,
+      "diagram_required": true,
+      "diagram_description": "Metal surface showing free electrons. Incident photon of energy h-nu striking an electron. Electron emerging with Max Kinetic Energy. Energy level diagram showing Work Function (Phi-0) depth.",
+      "derivation": {
+        "given_assumptions": [
+          "Radiation of frequency $\\nu$ incident on metal.",
+          "Work function of metal is $\\Phi_0$.",
+          "Energy conservation applies to photon-electron collision."
+        ],
+        "required": "Relation between $K_{max}, \\nu, \\Phi_0$.",
+        "steps": [
+          {
+            "text": "Energy of incident photon is $E = h\\nu$.",
+            "latex": ""
+          },
+          {
+            "text": "This energy is used in two parts: 1. Overcoming the work function $\\Phi_0$ to escape. 2. Imparting kinetic energy to the electron.",
+            "latex": "h\\nu = \\Phi_0 + K_{max}"
+          },
+          {
+            "text": "Rearranging for maximum kinetic energy:",
+            "latex": "K_{max} = h\\nu - \\Phi_0"
+          },
+          {
+            "text": "In terms of Stopping Potential $V_0$ ($K_{max} = eV_0$):",
+            "latex": "eV_0 = h\\nu - \\Phi_0"
+          }
+        ],
+        "final_result": {
+          "text": "Einstein's Photoelectric Equation:",
+          "latex": "K_{max} = h\\nu - \\Phi_0 = h(\\nu - \\nu_0)"
+        },
+        "examiner_notes": [
+          "Must define terms: Work Function, Threshold Frequency.",
+          "Crucial to mention this applies to the *maximum* kinetic energy, not all electrons.",
+          "Graph of Kmax vs Frequency is a straight line with slope h."
+        ],
+        "question_forms": [
+          "Establish Einstein's photoelectric equation.",
+          "Using conservation of energy, derive the relation between stopping potential and frequency of incident radiation."
+        ]
+      }
+    }
+  ]
+}
+

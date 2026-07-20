@@ -1,0 +1,304 @@
+{
+  "meta": {
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "class": 12,
+    "board": "CBSE"
+  },
+  "notes": [
+    {
+      "type": "concept",
+      "title": "Atomic Mass and Composition",
+      "points": [
+        "Nucleus consists of protons (positive charge) and neutrons (neutral).",
+        "Atomic Mass Unit (u): Defined as 1/12th of the mass of a Carbon-12 atom.",
+        "1 u = 1.660539 x 10^-27 kg = 931.5 MeV/c^2.",
+        "Isotopes: Same Z, different A (e.g., H-1, H-2, H-3).",
+        "Isobars: Same A, different Z (e.g., H-3 and He-3).",
+        "Isotones: Same number of neutrons (A-Z)."
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Size of the Nucleus",
+      "points": [
+        "Volume of nucleus is directly proportional to the mass number A.",
+        "Nuclear density is constant and independent of A (approx 2.3 x 10^17 kg/m^3)."
+      ]
+    },
+    {
+      "type": "formula",
+      "latex": "R = R_0 A^{1/3}",
+      "label": "Nuclear Radius",
+      "conditions": [
+        "R0 is a constant, approximately 1.2 fm (1.2 x 10^-15 m).",
+        "A is the Mass Number."
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Mass-Energy and Nuclear Binding Energy",
+      "points": [
+        "Mass Defect (Delta M): The difference between the sum of masses of constituents and the actual mass of the nucleus.",
+        "Binding Energy (Eb): The energy required to separate the nucleus into its constituent nucleons.",
+        "Eb = (Delta M)c^2."
+      ]
+    },
+    {
+      "type": "formula",
+      "latex": "\\Delta M = [Z m_p + (A-Z) m_n] - M",
+      "label": "Mass Defect",
+      "conditions": [
+        "M is the mass of the nucleus.",
+        "mp and mn are masses of proton and neutron."
+      ]
+    },
+    {
+      "type": "diagram",
+      "title": "Binding Energy per Nucleon Curve",
+      "image": "/images/Physics/Derivations/binding Energy.png",
+      "caption": "Ebn is practically constant (8 MeV) for 30 < A < 170. Maximum (8.75 MeV) for Fe-56."
+    },
+    {
+      "type": "concept",
+      "title": "Conclusions from Binding Energy Curve",
+      "points": [
+        "Constancy of Ebn in the range 30 < A < 170 indicates that nuclear force is short-ranged and saturates.",
+        "Lower Ebn for light nuclei (A<30) indicates fusion is energetically favourable.",
+        "Lower Ebn for heavy nuclei (A>170) indicates fission is energetically favourable."
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Nuclear Force",
+      "points": [
+        "The strong attractive force that holds nucleons together.",
+        "Short Range: Operates only up to ~3 fm.",
+        "Charge Independent: Force between p-p, n-n, and p-n is approximately the same.",
+        "Non-central and spin-dependent.",
+        "Does not depend on electric charge."
+      ]
+    },
+    {
+      "type": "diagram",
+      "title": "Potential Energy of Nucleon Pair",
+      "image": "/images/Physics/Derivations/Potential Energy of a nucleon pair.png",
+      "caption": "Minimum PE at r0 ~ 0.8 fm. Attractive for r > r0, Repulsive for r < r0."
+    },
+    {
+      "type": "concept",
+      "title": "Radioactivity",
+      "points": [
+        "Spontaneous emission of radiation (alpha, beta, gamma) by unstable nuclei.",
+        "It is a random, statistical process."
+      ]
+    },
+    {
+      "type": "formula",
+      "latex": "\\frac{dN}{dt} = -\\lambda N \\implies N(t) = N_0 e^{-\\lambda t}",
+      "label": "Law of Radioactive Decay",
+      "conditions": [
+        "N is number of undecayed nuclei at time t.",
+        "Lambda is decay constant."
+      ]
+    },
+    {
+      "type": "diagram",
+      "title": "Exponential Decay Curve",
+      "image": "/images/Physics/Derivations/radioactivity decay curve.png",
+      "caption": "Number of active nuclei N decreases exponentially with time."
+    },
+    {
+      "type": "formula",
+      "latex": "R = -\\frac{dN}{dt} = \\lambda N = \\lambda N_0 e^{-\\lambda t}",
+      "label": "Activity (Decay Rate)",
+      "conditions": [
+        "SI Unit: Becquerel (Bq) = 1 decay/s.",
+        "Common Unit: Curie (Ci) = 3.7 x 10^10 Bq."
+      ]
+    },
+    {
+      "type": "formula",
+      "latex": "T_{1/2} = \\frac{\\ln 2}{\\lambda} = \\frac{0.693}{\\lambda}",
+      "label": "Half Life",
+      "conditions": [
+        "Time taken for number of nuclei to reduce to half."
+      ]
+    },
+    {
+      "type": "formula",
+      "latex": "\\tau = \\frac{1}{\\lambda} = 1.44 T_{1/2}",
+      "label": "Mean Life",
+      "conditions": [
+        "Average time a nucleus exists before decaying."
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Alpha Decay",
+      "points": [
+        "Emission of Helium nucleus (2 protons, 2 neutrons).",
+        "Mass number decreases by 4, Atomic number decreases by 2.",
+        "Q value = (Mass of parent - Mass of products)c^2."
+      ]
+    },
+    {
+      "type": "formula",
+      "latex": "_{Z}^{A}X \\to _{Z-2}^{A-4}Y + _{2}^{4}He + Q",
+      "label": "Alpha Decay Equation",
+      "conditions": [
+        "Process occurs spontaneously only if Q > 0."
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Beta Decay",
+      "points": [
+        "Beta Minus (B-): Neutron converts to proton, electron, and antineutrino.",
+        "Beta Plus (B+): Proton converts to neutron, positron, and neutrino.",
+        "Neutrino/Antineutrino accounts for conservation of energy and momentum."
+      ]
+    },
+    {
+      "type": "formula",
+      "latex": "n \\to p + e^- + \\bar{\\nu} \\quad (\\beta^-) \\quad ; \\quad p \\to n + e^+ + \\nu \\quad (\\beta^+)",
+      "label": "Beta Decay Equations",
+      "conditions": [
+        "In B-, Z increases by 1. In B+, Z decreases by 1. A remains constant."
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Gamma Decay",
+      "points": [
+        "Emission of high energy photons when nucleus transitions from excited state to ground state.",
+        "Often follows alpha or beta decay.",
+        "No change in Z or A."
+      ]
+    },
+    {
+      "type": "diagram",
+      "title": "Energy Levels (Gamma Decay)",
+      "image": "/images/Physics/Derivations/Energy Levels (Gamma decay).png",
+      "caption": "Example: Co-60 beta decays to excited Ni-60, which emits gamma rays to reach ground state."
+    },
+    {
+      "type": "concept",
+      "title": "Nuclear Fission",
+      "points": [
+        "Splitting of a heavy nucleus (e.g., U-235) into two lighter nuclei of comparable masses.",
+        "Releases huge energy (approx 200 MeV per fission) and neutrons.",
+        "Neutrons released can trigger further fission (Chain Reaction)."
+      ]
+    },
+    {
+      "type": "application",
+      "title": "Nuclear Reactor",
+      "assumptions": [
+        "Controlled Chain Reaction (k = 1)."
+      ],
+      "result": {
+        "latex": "\\text{Power Generation}",
+        "direction": "Moderator (Heavy water/Graphite) slows neutrons; Control rods (Cd/Boron) absorb neutrons; Coolant transfers heat."
+      }
+    },
+    {
+      "type": "diagram",
+      "title": "Nuclear Reactor Schematic",
+      "image": "/images/Physics/Derivations/Nuclear reactor.png",
+      "caption": "Core containing fuel rods, moderator, and control rods."
+    },
+    {
+      "type": "concept",
+      "title": "Nuclear Fusion",
+      "points": [
+        "Fusion of two light nuclei to form a heavier nucleus.",
+        "Releases energy per unit mass greater than fission.",
+        "Requires extremely high temperature (Thermonuclear fusion) to overcome Coulomb repulsion."
+      ]
+    },
+    {
+      "type": "application",
+      "title": "Energy Generation in Sun (Proton-Proton Cycle)",
+      "assumptions": [
+        "High Temperature (~1.5 x 10^7 K) in core."
+      ],
+      "result": {
+        "latex": "4 ^1_1H + 2 e^- \\to ^4_2He + 2\\nu + 26.7 \\text{ MeV}",
+        "direction": "Net result: 4 Hydrogen nuclei fuse to form Helium."
+      }
+    }
+  ],
+  "formula_sheet": [
+    {
+      "latex": "R = R_0 A^{1/3}",
+      "description": "Radius of Nucleus",
+      "use_case": "Direct Use"
+    },
+    {
+      "latex": "E_b = \\Delta M c^2",
+      "description": "Binding Energy",
+      "use_case": "Direct Use"
+    },
+    {
+      "latex": "N = N_0 e^{-\\lambda t}",
+      "description": "Radioactive Decay Law",
+      "use_case": "Direct Use"
+    },
+    {
+      "latex": "T_{1/2} = 0.693 / \\lambda",
+      "description": "Half Life",
+      "use_case": "Direct Use"
+    },
+    {
+      "latex": "\\tau = 1/\\lambda",
+      "description": "Mean Life",
+      "use_case": "Direct Use"
+    },
+    {
+      "latex": "1 \\text{ u} = 931.5 \\text{ MeV}",
+      "description": "Mass-Energy Conversion",
+      "use_case": "Direct Use"
+    }
+  ],
+  "ncert_golden_lines": [
+    "The density of nuclear matter is approximately 2.3 x 10^17 kg m^-3. This density is very large compared to ordinary matter.",
+    "The nuclear force between two nucleons does not depend on the electric charge.",
+    "The binding energy per nucleon is practically constant, independent of the atomic number for nuclei of middle mass number.",
+    "Radioactivity is an indication of the instability of nuclei.",
+    "The half-life T1/2 is the time at which both N and R have been reduced to one-half their initial values.",
+    "Fusion of hydrogen nuclei into helium nuclei is the source of energy of all stars including our sun."
+  ],
+  "diagram_descriptors": [
+    {
+      "diagram_name": "Binding Energy per Nucleon Curve",
+      "used_for": "Binding Energy per Nucleon Curve",
+      "image_path": "/images/Physics/Derivations/binding Energy.png",
+      "detailed_description": "Ebn is practically constant (8 MeV) for 30 < A < 170. Maximum (8.75 MeV) for Fe-56."
+    },
+    {
+      "diagram_name": "Potential Energy of Nucleon Pair",
+      "used_for": "Potential Energy of Nucleon Pair",
+      "image_path": "/images/Physics/Derivations/Potential Energy of a nucleon pair.png",
+      "detailed_description": "Minimum PE at r0 ~ 0.8 fm. Attractive for r > r0, Repulsive for r < r0."
+    },
+    {
+      "diagram_name": "Exponential Decay Curve",
+      "used_for": "Exponential Decay Curve",
+      "image_path": "/images/Physics/Derivations/radioactivity decay curve.png",
+      "detailed_description": "Number of active nuclei N decreases exponentially with time."
+    },
+    {
+      "diagram_name": "Energy Levels (Gamma Decay)",
+      "used_for": "Energy Levels (Gamma Decay)",
+      "image_path": "/images/Physics/Derivations/Energy Levels (Gamma decay).png",
+      "detailed_description": "Example: Co-60 beta decays to excited Ni-60, which emits gamma rays to reach ground state."
+    },
+    {
+      "diagram_name": "Nuclear Reactor Schematic",
+      "used_for": "Nuclear Reactor Schematic",
+      "image_path": "/images/Physics/Derivations/Nuclear reactor.png",
+      "detailed_description": "Core containing fuel rods, moderator, and control rods."
+    }
+  ]
+}

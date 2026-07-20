@@ -1,0 +1,1703 @@
+[
+    {
+        "topic_name": "Types of Solutions and Solubility of Solids in Liquids",
+        "metadata": {
+            "priority_tier": "LOW",
+            "pyq_frequency": "1 out of last 10 years",
+            "weightage_pattern": "1-Mark MCQ/1-Mark VSA"
+        },
+        "core_concept": {
+            "ncert_definition": "A solution is a homogeneous mixture of two or more substances. Solubility of a substance is its maximum amount that can be dissolved in a specified amount of solvent at a specified temperature.",
+            "key_mechanism_or_principle": "The dissolution of a solid in a liquid is governed by the thermodynamic principle of 'like dissolves like'. Polar solutes dissolve in polar solvents due to strong solute-solvent dipole-dipole or ion-dipole interactions, while non-polar solutes dissolve in non-polar solvents due to dispersion forces. As a general temperature trend, solid solubility increases with temperature if the dissolution process is endothermic (( \\Delta_{\\text{sol}} H>0 )), but immediately decreases if the dissolution process is exothermic (( \\Delta_{\\text{sol}} H<0 )), in accordance with Le Chatelier's principle."
+        },
+        "examiner_keywords": [
+            "Homogeneous: Uniform composition and properties throughout the mixture.",
+            "Like dissolves like: Matching polarities of solute and solvent dictate solubility thermodynamics.",
+            "Endothermic: Dissolution absorbs heat; solubility rises as temperature increases.",
+            "Exothermic: Dissolution releases heat; solubility falls as temperature increases.",
+            "Solid solution: A solution existing in the solid phase, such as brass or bronze."
+        ],
+        "question_blueprints": [
+            {
+                "type": "MCQ / Assertion-Reason",
+                "pattern": "The examiner tests the classification of solid solutions and physical phase designations.",
+                "perfect_response": "Which of the following is a solid solution? (a) Brass (b) Soda water (c) Air (d) Sugar solution. The correct answer is **(a) Brass**. Brass is a **solid solution** consisting of zinc dissolved in copper, representing a homogeneous solution of **solid in solid**."
+            },
+            {
+                "type": "Short Answer",
+                "pattern": "Explaining the temperature dependence of solid solubility in liquids based on thermodynamic enthalpy.",
+                "perfect_response": "State the effect of temperature on the solubility of a solid in a liquid. If the dissolution process is endothermic (( \\Delta_{\\text{sol}} H > 0 )), solubility **increases** with temperature. Conversely, if the dissolution process is exothermic (( \\Delta_{\\text{sol}} H < 0 )), the solubility **decreases** with temperature in accordance with **Le Chatelier's principle**."
+            },
+            {
+                "type": "Case-Based",
+                "pattern": "Applying solid solubility concepts to alloy formation and selective crystallization.",
+                "perfect_response": "Alloys are **solid solutions** formed by mixing metals in their molten states. The components form a **homogeneous mixture** because their atomic radii are very similar, allowing atoms of one metal to easily substitute for another in the crystal lattice. On cooling, they solidify into a solid solution with uniform physical and chemical properties."
+            }
+        ],
+        "numerical_tactical_pack": {
+            "main_formula": "\\text{Mass } \\% = \\frac{\\text{Mass of component}}{\\text{Total mass of solution}} \\times 100",
+            "variables_si_units": [
+                "Mass of component : Mass of solute or solvent (\\text{g} or \\text{kg})",
+                "Total mass of solution : Sum of solute and solvent masses (\\text{g} or \\text{kg})"
+            ],
+            "unit_traps": "Substituting the mass of the solvent directly in the denominator instead of using the total mass of the solution (solute + solvent).",
+            "step_marking_layout": {
+                "step_1": "Identify given masses of solute (( w_2 )) and solvent (( w_1 )). Compute total mass of solution (( w_1 + w_2 )).",
+                "step_2": "Define formula: ( \\text{Mass } \\% = \\frac{w_2}{w_1+w_2} \\times 100 ).",
+                "step_3": "Substitute the calculated masses explicitly into the equation.",
+                "step_4": "Report the final mass percentage value with the correct '\\%' unit."
+            },
+            "math_shortcut": "In dilute solutions where the solute mass is less than 1% of the solvent mass, the total mass of the solution can be approximated as the mass of the solvent for rapid checking, though the formal sum must be shown on paper.",
+            "red_flags": "Never report mass percentage without specifying whether it is weight-by-weight (w/w) or weight-by-volume (w/v), as this changes the physical meaning."
+        }
+    },
+    {
+        "topic_name": "Vapour Pressure of Liquid Solutions and Raoult's Law",
+        "metadata": {
+            "priority_tier": "HIGH",
+            "pyq_frequency": "8 out of last 10 years [cite: 54]",
+            "weightage_pattern": "3-Mark Derivation or Numerical / 1-Mark MCQ [cite: 54]"
+        },
+        "core_concept": {
+            "ncert_definition": "Raoult's law states that for a solution of volatile liquids, the partial vapour pressure of each component of the solution is directly proportional to its mole fraction present in solution. [cite: 54]",
+            "key_mechanism_or_principle": "In a solution of volatile liquids, both solute and solvent molecules occupy the liquid surface. [cite: 54] Adding a non-volatile solute reduces the number of solvent molecules at the surface, which lowers the rate of evaporation and results in a decreased vapour pressure. [cite: 55]"
+        },
+        "examiner_keywords": [
+            "Volatile: Components that evaporate readily and exert vapor pressure at a given temperature. [cite: 55]",
+            "Relative lowering: \\frac{p_1^0-p_1}{p_1^0} which represents the normalized decrease in vapour pressure. [cite: 55]",
+            "Non-volatile: A solute that does not vaporize and does not contribute to the total vapor pressure. [cite: 55]",
+            "Daltons Law: The total pressure is the sum of the partial pressures of the individual components. [cite: 55]"
+        ],
+        "question_blueprints": [
+            {
+                "type": "MCQ / Assertion-Reason",
+                "pattern": "Testing the conceptual relationship between Raoult's Law and Henry's Law. [cite: 55, 56]",
+                "perfect_response": "Under what conditions does Raoult's Law become a special case of Henry's Law? [cite: 55, 56] According to Raoult's law: ( p_A = p_A^0 \\cdot x_A ). [cite: 56] According to Henry's law: ( p_A = K_H \\cdot x_A ). [cite: 57] Both laws state that the partial pressure of a volatile component is proportional to its mole fraction. [cite: 57] They differ only in their proportionality constants (( p_A^0 ) vs ( K_H )). [cite: 58, 59] Thus, Raoult's law becomes a special case of Henry's law when **( K_H ) becomes equal to ( p_A^0 )**. [cite: 59]"
+            },
+            {
+                "type": "Short Answer",
+                "pattern": "Deriving the expression for relative lowering of vapour pressure for a non-volatile solute. [cite: 59]",
+                "perfect_response": "For a solution containing a non-volatile solute, the total vapor pressure is due only to the solvent: ( p_1 = p_1^0 \\cdot x_1 ). [cite: 60] Since ( x_1 + x_2 = 1 ) (where ( x_2 ) is the mole fraction of the solute): ( p_1 = p_1^0 \\cdot (1 - x_2) = p_1^0 - p_1^0 \\cdot x_2 ). [cite: 60] Rearranging this equation gives: **( \\frac{p_1^0-p_1}{p_1^0}=x_2 )**. [cite: 60] This shows that the **relative lowering of vapour pressure is equal to the mole fraction of the non-volatile solute**. [cite: 60]"
+            },
+            {
+                "type": "Case-Based",
+                "pattern": "Calculating the vapor phase composition of volatile binary mixtures. [cite: 61]",
+                "perfect_response": "For a liquid mixture of volatile components A and B:\n1. First, calculate the partial vapor pressures of each component using Raoult's law: **( p_A = p_A^0 \\cdot x_A )** and **( p_B = p_B^0 \\cdot x_B )**. [cite: 62]\n2. Determine the total vapor pressure: **( P_{\\text{total}} = p_A + p_B )**. [cite: 62]\n3. According to Dalton's law, the mole fraction in the vapor phase (( y_A )) is given by: **( y_A = \\frac{p_A}{P_{\\text{total}}} )**. [cite: 62]\n4. The vapor phase is always **enriched with the more volatile component** (the one with the higher pure vapor pressure, ( p_A^0 )). [cite: 62]"
+            }
+        ],
+        "numerical_tactical_pack": {
+            "main_formula": "\\frac{p^0-p_s}{p^0}=\\frac{w_2 \\cdot M_1}{w_2 \\cdot M_1 + w_1 \\cdot M_2}",
+            "variables_si_units": [
+                "p^0: Vapour pressure of pure solvent (\\text{mm Hg} or \\text{kPa}) [cite: 63]",
+                "p_s: Vapour pressure of the solution (\\text{mm Hg} or \\text{kPa}) [cite: 63]",
+                "w_2: Mass of non-volatile solute (\\text{g}) [cite: 63]",
+                "w_1: Mass of volatile solvent (\\text{g}) [cite: 63]",
+                "M_2: Molar mass of solute (\\text{g mol}^{-1}) [cite: 63]",
+                "M_1: Molar mass of solvent (\\text{g mol}^{-1}) [cite: 63]"
+            ],
+            "unit_traps": "Forgetting that relative lowering of vapour pressure is dimensionless. Ensure the vapor pressures ( p^0 ) and ( p_s ) are in the same units (e.g., both in kPa or both in mm Hg) so they cancel out. [cite: 63]",
+            "step_marking_layout": {
+                "step_1": "Write down Given values: ( p^0 ), ( p_s ), solute mass (( w_2 )), and solvent mass (( w_1 )). [cite: 64]",
+                "step_2": "State formula: ( \\frac{p^0-p_s}{p^0}=\\frac{n_2}{n_1+n_2} ). [cite: 65]",
+                "step_3": "Substitute the calculated moles of solute and solvent into the equation. [cite: 65]",
+                "step_4": "Solve for the molar mass of the solute (( M_2 )) and report with correct units (\\text{g mol}^{-1}). [cite: 66]"
+            },
+            "math_shortcut": "For non-ideal or concentrated solutions, use the alternative exact relation: ( \\frac{p^0-p_s}{p_s}=\\frac{w_2 \\cdot M_1}{M_2 \\cdot w_1} ). This avoids having the unknown ( M_2 ) in both the numerator and denominator, making the algebra much simpler. [cite: 67]",
+            "red_flags": "Confusing simple vapor pressure lowering (( p^0-p_s )) with relative vapor pressure lowering (( \\frac{p^0-p_s}{p^0} )); only the relative term is a colligative property. [cite: 68]"
+        }
+    },
+    {
+        "topic_name": "Ideal and Non-Ideal Solutions",
+        "metadata": {
+            "priority_tier": "HIGH",
+            "pyq_frequency": "8 out of last 10 years [cite: 69]",
+            "weightage_pattern": "3-Mark Difference Table / 2-Mark Intermolecular Interaction Reasoning [cite: 69]"
+        },
+        "core_concept": {
+            "ncert_definition": "The solutions which obey Raoult's law over the entire range of concentration are known as ideal solutions[cite: 69]. Azeotropes are binary mixtures having the same composition in liquid and vapour phase and boil at a constant temperature[cite: 70].",
+            "key_mechanism_or_principle": "If the intermolecular attractive forces between solute and solvent molecules (A-B) are equal to those in the pure components (A-A and B-B), the solution behaves ideally (\\Delta_{\\text{mix}} H=0, \\Delta_{\\text{mix}} V=0)[cite: 71]. If A-B interactions are weaker, the escaping tendency of the molecules increases, causing a positive deviation[cite: 71]. If A-B interactions are stronger than A-A and B-B interactions, the escaping tendency decreases, leading to a negative deviation[cite: 71]."
+        },
+        "examiner_keywords": [
+            "Ideal solution: Obeys Raoult's law with no change in enthalpy or volume upon mixing[cite: 72].",
+            "Positive deviation: Vapour pressure is higher than predicted; cohesive forces are stronger than adhesive forces[cite: 73].",
+            "Negative deviation: Vapour pressure is lower than predicted; adhesive forces are stronger than cohesive forces[cite: 74].",
+            "Minimum boiling azeotrope: Formed by solutions showing large positive deviations (e.g., ethanol + water)[cite: 75].",
+            "Maximum boiling azeotrope: Formed by solutions showing large negative deviations (e.g., nitric acid + water)[cite: 76]."
+        ],
+        "question_blueprints": [
+            {
+                "type": "MCQ / Assertion-Reason",
+                "pattern": "The examiner tests the molecular basis of negative deviation using specific examples like chloroform and acetone[cite: 77].",
+                "perfect_response": "Why does a mixture of chloroform and acetone show a negative deviation from Raoult's law? Chloroform and acetone molecules form a strong intermolecular hydrogen bond[cite: 78]. The resulting A-B interactions are stronger than the original A-A and B-B interactions[cite: 78]. This decrease in escaping tendency reduces the total vapor pressure below that predicted by Raoult's law, resulting in a negative deviation[cite: 78]."
+            },
+            {
+                "type": "Short Answer",
+                "pattern": "Comparing the properties of ideal solutions vs non-ideal solutions with positive deviation[cite: 79].",
+                "perfect_response": "| Property | Ideal Solution | Positive Deviation |\n|---|---|---|\n| Raoult's Law | Obeys over entire concentration range [cite: 80] | Vapour pressure is higher than predicted [cite: 80] |\n| Interactions | **A-B = A-A / B-B** forces [cite: 80] | **A-B < A-A/B-B** forces [cite: 80] |\n| Thermodynamics | **\\Delta H_{\\text{mixing}} = 0**, **\\Delta V_{\\text{mixing}} = 0** [cite: 80] | **\\Delta H_{\\text{mixing}} > 0**, **\\Delta V_{\\text{mixing}} > 0** [cite: 80] |\n| Azeotrope | Does not form azeotropes [cite: 80] | Forms minimum boiling azeotrope [cite: 80] |"
+            },
+            {
+                "type": "Case-Based",
+                "pattern": "Evaluating constant-boiling mixtures and the limits of fractional distillation[cite: 81].",
+                "perfect_response": "A mixture of 95% ethanol and 5% water (v/v) forms a constant-boiling mixture at 351.15 K[cite: 82].\n\n1. Because this mixture shows a large positive deviation, it forms a minimum boiling azeotrope[cite: 82].\n2. At this specific composition, the liquid and vapor phases have identical compositions[cite: 82].\n3. Consequently, the components cannot be separated further by fractional distillation[cite: 82]."
+            }
+        ],
+        "numerical_tactical_pack": {
+            "main_formula": "P_{\\text{total}} = p_A^0 \\cdot x_A + p_B^0 \\cdot x_B [cite: 83]",
+            "variables_si_units": [
+                "P_{\\text{total}}: Total vapour pressure of liquid mixture (\\text{mm Hg} or \\text{kPa}) [cite: 83]",
+                "p_A^0, p_B^0: Vapour pressures of pure components A and B (\\text{mm Hg} or \\text{kPa}) [cite: 83]",
+                "x_A, x_B: Mole fractions of components in the liquid phase (dimensionless) [cite: 83]"
+            ],
+            "unit_traps": "For non-ideal solutions, P_{\\text{total}} \\neq p_A^0 \\cdot x_A + p_B^0 \\cdot x_B[cite: 83]. Do not apply this ideal equation to calculate the vapour pressure of non-ideal mixtures unless asked to calculate the 'ideal' reference value[cite: 83].",
+            "step_marking_layout": {
+                "step_1": "Calculate liquid mole fractions x_A and x_B from masses[cite: 84].",
+                "step_2": "State Raoult's law for individual components: p_A = p_A^0 \\cdot x_A and p_B = p_B^0 \\cdot x_B[cite: 85].",
+                "step_3": "Combine to calculate total ideal pressure: P_{\\text{total}} = p_A + p_B[cite: 86].",
+                "step_4": "Compare this calculated total pressure to the experimental value to determine the direction of deviation[cite: 87]."
+            },
+            "math_shortcut": "Determine the direction of deviation quickly from molecular formulas: mixtures of structurally similar non-polar compounds are ideal (e.g., n-hexane + n-heptane), polar mixtures that form new hydrogen bonds show negative deviation (e.g., chloroform + acetone), and polar mixtures where hydrogen bonds are broken show positive deviation (e.g., ethanol + acetone)[cite: 88].",
+            "red_flags": "Never state that \\Delta H_{\\text{mixing}} = 0 or \\Delta V_{\\text{mixing}} = 0 for non-ideal solutions; these values are only zero for ideal solutions[cite: 89]."
+        }
+    },
+    {
+        "topic_name": "Colligative Properties and Determination of Molar Mass",
+        "metadata": {
+            "priority_tier": "HIGH [cite: 90]",
+            "pyq_frequency": "10 out of last 10 years [cite: 90]",
+            "weightage_pattern": "3-Mark or 5-Mark Numerical / 1-Mark Assertion-Reason [cite: 90]"
+        },
+        "core_concept": {
+            "ncert_definition": "Elevation of boiling point (\\Delta T_b) is the increase in boiling point of a solvent upon the addition of a non-volatile solute[cite: 90]. Depression of freezing point (\\Delta T_f) is the decrease in freezing point of a solvent upon the addition of a non-volatile solute[cite: 91].",
+            "key_mechanism_or_principle": "Adding a non-volatile solute lowers the vapor pressure of the solvent[cite: 92]. As a result, the solution must be heated to a higher temperature for its vapor pressure to equal atmospheric pressure, raising the boiling point[cite: 92]. Similarly, the vapor pressure of the solution meets that of the solid solvent at a lower temperature, depressing the freezing point[cite: 92]."
+        },
+        "examiner_keywords": [
+            "K_b: Molal boiling point elevation constant (ebullioscopic constant); specific to the solvent[cite: 93].",
+            "K_f: Molal freezing point depression constant (cryoscopic constant); specific to the solvent[cite: 93, 94].",
+            "Vapor pressure lowering: The physical cause of both boiling point elevation and freezing point depression[cite: 94].",
+            "Non-volatile solute: A solute that does not vaporize, lowering the vapor pressure of the solution[cite: 95]."
+        ],
+        "question_blueprints": [
+            {
+                "type": "MCQ / Assertion-Reason [cite: 96]",
+                "pattern": "The examiner tests the causal relationship between vapor pressure lowering and boiling/freezing point changes[cite: 96].",
+                "perfect_response": "Assertion: When NaCl is added to water, a depression in freezing point is observed[cite: 97]. Reason: Lowering of vapor pressure of a solution causes a depression in its freezing point[cite: 97]. **Both Assertion and Reason are true, and the Reason is the correct explanation [cite: 97].** Adding non-volatile NaCl lowers the vapor pressure of water, shifting the intersection of liquid and solid vapor pressure curves to a lower temperature[cite: 97]."
+            },
+            {
+                "type": "Short Answer [cite: 98]",
+                "pattern": "Standard 3-mark numerical solving for the molecular mass of an unknown non-electrolyte solute[cite: 98].",
+                "perfect_response": "A solution of 1.0 g of a non-electrolyte solute dissolved in 50 g of benzene lowers the freezing point of benzene by 0.40 K[cite: 99]. Calculate the molar mass of the solute (( K_f ) of benzene ( = 5.12\\text{ K kg mol}^{-1} ))[cite: 99].\n1. Write the freezing point depression formula: **( \\Delta T_f = K_f \\cdot m )**[cite: 99].\n2. Express molality: **( m = \\frac{w_2 \\cdot 1000}{M_2 \\cdot w_1} )**[cite: 99].\n3. Combine and rearrange to solve for ( M_2 ): **( M_2 = \\frac{1000 \\cdot K_f \\cdot w_2}{\\Delta T_f \\cdot w_1} )**[cite: 99].\n4. Substitute: ( M_2 = \\frac{1000 \\cdot 5.12 \\cdot 1.0}{0.40 \\cdot 50} = \\mathbf{256\\text{ g mol}^{-1}} )[cite: 99, 100]."
+            },
+            {
+                "type": "Case-Based [cite: 100]",
+                "pattern": "Applying freezing point depression to real-world scenarios, such as de-icing roads or engine coolants[cite: 100].",
+                "perfect_response": "Ethylene glycol is added to car radiators to act as an antifreeze in cold climates[cite: 100].\n1. Adding ethylene glycol **lowers the freezing point** of water, preventing the coolant from freezing in sub-zero temperatures[cite: 101].\n2. Simultaneously, it **elevates the boiling point** of water, preventing the coolant from boiling over at high engine operating temperatures[cite: 102].\n3. These changes are **colligative properties**, which depend only on the **number of solute particles** in solution rather than their chemical identity[cite: 103]."
+            }
+        ],
+        "numerical_tactical_pack": {
+            "main_formula": "\\Delta T_b = i \\cdot K_b \\cdot m \\text{ and } \\Delta T_f = i \\cdot K_f \\cdot m [cite: 103]",
+            "variables_si_units": [
+                "\\Delta T_b: Elevation of boiling point (\\text{K} or ^\\circ\\text{C}) [cite: 103]",
+                "\\Delta T_f: Depression of freezing point (\\text{K} or ^\\circ\\text{C}) [cite: 103]",
+                "K_b: Ebullioscopic constant (\\text{K kg mol}^{-1}) [cite: 103]",
+                "K_f: Cryoscopic constant (\\text{K kg mol}^{-1}) [cite: 103]",
+                "m: Molality of solution (\\text{mol kg}^{-1}) [cite: 103]",
+                "i: van't Hoff factor (dimensionless) [cite: 103]"
+            ],
+            "unit_traps": "Confusing the temperature change (( \\Delta T )) with the final boiling or freezing point[cite: 103]. For freezing point, subtract ( \\Delta T_f ) from the pure solvent's freezing point (( T_f = T_f^0 - \\Delta T_f ))[cite: 104]. For boiling point, add ( \\Delta T_b ) to the pure solvent's boiling point (( T_b = T_b^0 + \\Delta T_b ))[cite: 105].",
+            "step_marking_layout": {
+                "step_1": "Identify Given values: solute mass (( w_2 )), solvent mass (( w_1 )), constant (( K_b ) or ( K_f )), and change in temperature (( \\Delta T ))[cite: 105].",
+                "step_2": "State formula: ( \\Delta T_f = i \\cdot K_f \\cdot \\frac{w_2 \\cdot 1000}{M_2 \\cdot w_1} )[cite: 105].",
+                "step_3": "Substitute the values explicitly[cite: 105].",
+                "step_4": "Solve for the unknown value and report with correct units (\\text{g mol}^{-1} or \\text{K})[cite: 105]."
+            },
+            "math_shortcut": "In water systems, since ( K_b = 0.52\\text{ K kg mol}^{-1} ) and ( K_f = 1.86\\text{ K kg mol}^{-1} ), the ratio of freezing point depression to boiling point elevation for the same aqueous solution is always: \\frac{\\Delta T_f}{\\Delta T_b} \\approx 3.58[cite: 105, 106]. This allows you to quickly check your calculations[cite: 106].",
+            "red_flags": "Do not use molarity (M) in boiling point elevation or freezing point depression calculations; these colligative properties depend strictly on molality (m)[cite: 106, 107]."
+        }
+    },
+    {
+        "topic_name": "Osmotic Pressure",
+        "metadata": {
+            "priority_tier": "HIGH [cite: 107]",
+            "pyq_frequency": "9 out of last 10 years [cite: 107]",
+            "weightage_pattern": "3-Mark Numerical / 5-Mark Case-Based [cite: 107]"
+        },
+        "core_concept": {
+            "ncert_definition": "The excess pressure which must be applied to the solution side to prevent the flow of solvent is called osmotic pressure. [cite: 107]",
+            "key_mechanism_or_principle": "Osmosis occurs when solvent molecules spontaneously flow through a semi-permeable membrane from a region of higher solvent chemical potential (pure solvent or dilute solution) to lower chemical potential (concentrated solution). [cite: 107] Applying an external pressure on the solution side increases the chemical potential of the solvent in solution, halting net transport. [cite: 108]"
+        },
+        "examiner_keywords": [
+            "Semi-permeable membrane: A membrane that allows only solvent molecules to pass through. [cite: 108]",
+            "Isotonic: Solutions having the same osmotic pressure at a given temperature. [cite: 108]",
+            "Reverse osmosis: Reversing the flow of solvent by applying a pressure higher than the osmotic pressure. [cite: 108]",
+            "Desalination: Removing salts from seawater using reverse osmosis. [cite: 108]"
+        ],
+        "question_blueprints": [
+            {
+                "type": "MCQ / Assertion-Reason",
+                "pattern": "Testing why osmotic pressure is the preferred method for determining the molar mass of biomolecules and polymers. [cite: 108]",
+                "perfect_response": "Why is osmotic pressure preferred over other colligative properties to determine the molar mass of proteins? [cite: 109]\n1. Osmotic pressure measurements are carried out at **room temperature**, preventing the denaturation of heat-sensitive biomolecules like proteins. [cite: 110]\n2. For high molar mass polymers, changes in boiling or freezing points are too small to measure accurately, whereas the **magnitude of osmotic pressure is significantly larger** and easily measured. [cite: 111]\n3. It is directly related to **molarity** rather than molality, which is more convenient to use with large molecules in solution. [cite: 112]"
+            },
+            {
+                "type": "Short Answer",
+                "pattern": "Biological effect of non-isotonic concentrations on cells, such as blood cells or bacteria. [cite: 112]",
+                "perfect_response": "What happens when a red blood cell is placed in a concentrated saline (hypertonic) solution? [cite: 112]\\nA concentrated saline solution has a higher osmotic pressure than the fluid inside red blood cells (**hypertonic solution**). [cite: 113] Water spontaneously flows out of the cell into the more concentrated solution via osmosis. [cite: 114] This causes the blood cell to **shrivel and shrink**. [cite: 115]"
+            },
+            {
+                "type": "Case-Based",
+                "pattern": "Explaining desalination of seawater and reverse osmosis systems. [cite: 115]",
+                "perfect_response": "**Reverse osmosis** is used to desalinate seawater. [cite: 115]\n1. If a pressure **higher than the osmotic pressure** is applied to the seawater side, the direction of osmosis is reversed. [cite: 116]\n2. Pure solvent (water) now flows from the seawater side to the pure water side through a semi-permeable membrane. [cite: 117]\n3. This membrane is typically made of **cellulose acetate**, which is permeable to water molecules but impermeable to dissolved ions and impurities. [cite: 118]"
+            }
+        ],
+        "numerical_tactical_pack": {
+            "main_formula": "\\pi = i \\cdot C \\cdot R \\cdot T = i \\cdot \\frac{w_2}{M_2 \\cdot V} \\cdot R \\cdot T [cite: 118]",
+            "variables_si_units": [
+                "\\pi: Osmotic pressure (\\text{atm} or \\text{bar}) [cite: 118]",
+                "C: Molar concentration (\\text{mol L}^{-1}) [cite: 118]",
+                "R: Universal gas constant (0.0821\\text{ L atm K}^{-1}\\text{ mol}^{-1} or 0.083\\text{ L bar K}^{-1}\\text{ mol}^{-1}) [cite: 118]",
+                "T: Absolute temperature (\\text{K}) [cite: 118]",
+                "V: Volume of solution (\\text{L}) [cite: 118]",
+                "w_2: Mass of solute (\\text{g}) [cite: 118]",
+                "M_2: Molar mass of solute (\\text{g mol}^{-1}) [cite: 118]"
+            ],
+            "unit_traps": "Using Volume in mL instead of L, or substituting temperature in Celsius instead of Kelvin (( T = \\text{ }^{\\circ}\\text{C} + 273.15 )). [cite: 118] Also, using the wrong gas constant R (use 0.0821 for atm and 0.083 for bar). [cite: 119]",
+            "step_marking_layout": {
+                "step_1": "Write down Given values: mass (( w_2 )), volume (( V ) in liters), temperature (( T ) in Kelvin), and pressure (( \\pi )). [cite: 119]",
+                "step_2": "State formula: ( \\pi = i \\cdot \\frac{w_2 \\cdot R \\cdot T}{M_2 \\cdot V} ). [cite: 119]",
+                "step_3": "Substitute the values explicitly into the equation. [cite: 119]",
+                "step_4": "Solve for the unknown molar mass (( M_2 )) and report with correct units (\\text{g mol}^{-1}). [cite: 119]"
+            },
+            "math_shortcut": "At 300 K (a common exam temperature), pre-multiply the constant terms: ( R \\cdot T \\approx 24.63\\text{ L atm mol}^{-1} ) (using 0.0821) or ( 24.9\\text{ L bar mol}^{-1} ) (using 0.083). [cite: 119] This speeds up calculations. [cite: 120]",
+            "red_flags": "Never use molality (m) in the osmotic pressure equation. [cite: 120] It is the only colligative property calculated using volumetric molarity (C). [cite: 121]"
+        }
+    },
+    {
+        "topic_name": "Abnormal Molar Masses and van't Hoff Factor",
+        "metadata": {
+            "priority_tier": "HIGH",
+            "pyq_frequency": "8 out of last 10 years [cite: 122]",
+            "weightage_pattern": "3-Mark Weak Electrolyte Numerical / 2-Mark Reasoning [cite: 122]"
+        },
+        "core_concept": {
+            "ncert_definition": "The van't Hoff factor (i) is defined as: i = Normal molar mass / Abnormal molar mass. [cite: 122]",
+            "key_mechanism_or_principle": "Electrolytes undergo dissociation or association in solution, altering the total number of particles relative to the formula unit[cite: 123]. Because colligative properties depend only on the number of particles, dissociation increases the observed colligative property (( i>1 )), while association decreases it (( i<1 ))[cite: 123]."
+        },
+        "examiner_keywords": [
+            "Abnormal molar mass: An experimentally determined molar mass that deviates from the expected formula mass due to solute association or dissociation. [cite: 123]",
+            "van't Hoff factor: Ratio of observed colligative property to calculated colligative property. [cite: 124]",
+            "Degree of dissociation: The fraction of solute molecules that split into ions in solution. [cite: 125]",
+            "Dimerisation: The association of two solute molecules into a single dimer via hydrogen bonding. [cite: 126]"
+        ],
+        "question_blueprints": [
+            {
+                "type": "MCQ / Assertion-Reason",
+                "pattern": "The examiner tests the calculation of the van't Hoff factor for complete dissociation of ionic salts. [cite: 127]",
+                "perfect_response": "What is the maximum van't Hoff factor (i) for a completely dissociated aqueous solution of ( K_2SO_4 )? The maximum value of i is **3**[cite: 128]. Complete dissociation of one formula unit of ( K_2SO_4 ) produces **two ( K^+ ) ions and one ( SO_4^{2-} ) ion**, yielding a total of 3 active particles in solution[cite: 128]."
+            },
+            {
+                "type": "Short Answer",
+                "pattern": "Explaining why some organic molecules, like benzoic acid in benzene, exhibit a van't Hoff factor less than 1. [cite: 129]",
+                "perfect_response": "Why does benzoic acid dissolved in benzene exhibit a van't Hoff factor less than 1 and an abnormal molar mass double its normal value? [cite: 130] In non-polar solvents like benzene, benzoic acid molecules undergo **dimerisation through intermolecular hydrogen bonding**[cite: 130]. This association **halves the number of active particles** in solution, resulting in ( i \\approx 0.5 )[cite: 130]. Since colligative properties are inversely proportional to molar mass, this association results in an abnormal molar mass that is **twice the normal molar mass**[cite: 130]."
+            },
+            {
+                "type": "Case-Based",
+                "pattern": "Solving freezing point depression in ionic systems where dissociation is incomplete. [cite: 131]",
+                "perfect_response": "When 19.5 g of fluoroacetic acid (( F\\text{-}CH_2\\text{-}COOH ), molar mass = ( 78\\text{ g mol}^{-1} )) is dissolved in 500 g of water, the freezing point depression is observed to be ( 1.0^{\\circ}\\text{C} ) (( K_f = 1.86\\text{ K kg mol}^{-1} ))[cite: 132].\n1. Calculate calculated molality: ( m = \\frac{19.5\\text{ g}/78\\text{ g mol}^{-1}}{0.500\\text{ kg}} = \\mathbf{0.50\\text{ m}} )[cite: 132].\n2. Calculate expected freezing point depression assuming no dissociation: ( \\Delta T_{f,\\text{calc}} = K_f \\cdot m = 1.86 \\cdot 0.50 = \\mathbf{0.93\\text{ K}} )[cite: 132].\n3. Determine ( i ): ( i = \\frac{\\Delta T_{f,\\text{obs}}}{\\Delta T_{f,\\text{calc}}} = \\frac{1.0\\text{ K}}{0.93\\text{ K}} = \\mathbf{1.075} )[cite: 132].\n4. Solve for degree of dissociation (( \\alpha )): ( i = 1 + \\alpha \\rightarrow \\alpha = i - 1 = \\mathbf{0.075\\text{ (or }7.5\\%\\mathbf{)}} )[cite: 132]."
+            }
+        ],
+        "numerical_tactical_pack": {
+            "main_formula": "i = 1 + (n - 1) \\cdot \\alpha \\text{ (Dissociation) and } i = 1 - (1 - \\frac{1}{n}) \\cdot \\beta \\text{ (Association)} [cite: 133]",
+            "variables_si_units": [
+                "i: van't Hoff factor (dimensionless) [cite: 133]",
+                "\\alpha: Degree of dissociation (dimensionless, value between 0 and 1) [cite: 133]",
+                "\\beta: Degree of association (dimensionless, value between 0 and 1) [cite: 133]",
+                "n: Number of ions or molecules participating in the dissociation/association step [cite: 133]"
+            ],
+            "unit_traps": "Using the raw stoichiometric ion count (n) as the van't Hoff factor i for weak electrolytes. If dissociation is incomplete (( \\alpha < 1 )), you must calculate i using ( i = 1 + (n-1)\\alpha ) instead of assuming complete dissociation[cite: 133, 134].",
+            "step_marking_layout": {
+                "step_1": "Write the chemical equation for dissociation or association and identify the value of n[cite: 134].",
+                "step_2": "Use the measured colligative property to calculate the observed/experimental molality, then isolate i[cite: 134].",
+                "step_3": "Set up the tactical equation: ( i = 1 + (n - 1)\\alpha )[cite: 134].",
+                "step_4": "Substitute the experimental value of i and solve for ( \\alpha ), reporting the final value as a decimal or percentage[cite: 134]."
+            },
+            "math_shortcut": "For any salt that dissociates into two ions (e.g., NaCl, ( MgSO_4 )), ( n=2 ), which simplifies the dissociation formula to: ( \\alpha = i - 1 ). This allows for quick calculation of the degree of dissociation[cite: 134].",
+            "red_flags": "Never use ( i > 1 ) for solutes that undergo association (e.g., dimerisation of acetic acid in benzene)[cite: 135]. Association reduces the number of particles, so i must always be less than 1[cite: 136]."
+        }
+    },
+    {
+        "formula_id": "FORMULA_01",
+        "formula_name": "Mass Percentage (w/w)",
+        "priority_tier": "MEDIUM",
+        "base_equation": "\\text{Mass \\% of a component} = \\frac{\\text{Mass of the component in the solution}}{\\text{Total mass of the solution}} \\times 100",
+        "algebraic_variations": [
+            {
+                "target_variable": "w_{\\text{component}}",
+                "mutated_equation": "w_{\\text{component}} = \\frac{\\text{Mass \\% of component} \\times w_{\\text{solution}}}{100}",
+                "specific_use_case": "Used to find the direct mass of a solute or solvent component when the overall solution mass and its mass percentage concentration are specified."
+            }
+        ],
+        "variable_registry": [
+            {
+                "symbol": "\\text{Mass \\% of a component}",
+                "parameter_name": "Mass percentage of a solute or solvent in the solution",
+                "mandatory_si_unit": "\\%",
+                "hidden_nuances": "A dimensionless concentration unit expressing mass of component per 100 g of solution. It remains constant regardless of temperature changes."
+            },
+            {
+                "symbol": "w_{\\text{component}}",
+                "parameter_name": "Mass of the individual component",
+                "mandatory_si_unit": "g",
+                "hidden_nuances": "Must be measured in identical mass units as the total solution mass to keep the ratio consistent."
+            },
+            {
+                "symbol": "w_{\\text{solution}}",
+                "parameter_name": "Total mass of the solution",
+                "mandatory_si_unit": "g",
+                "hidden_nuances": "Calculated explicitly as the sum of all components: mass of solute + mass of solvent. Often requires application of solution density ($d = \\frac{m}{V}$) if only volume is provided."
+            }
+        ],
+        "tactical_tricks": {
+            "unit_traps": "Examiners rarely provide the total mass of the solution directly. Instead, they give the volume of the solution in mL and its density in g/mL. Students frequently plug the volume directly into the denominator without scaling it by density.",
+            "approximation_hacks": "In extremely dilute solutions where solute mass is practically negligible, the mass of the solvent can be substituted as an approximation for the total mass of the solution during rapid multi-step calculations, though not for exact mass percentage reporting.",
+            "red_flags": "Never assume volumes are additive to calculate solution mass. You cannot add volume of solute and volume of solvent to find final mass unless you apply individual densities to each before adding them."
+        },
+        "board_exam_exemplar": {
+            "question_text": "Calculate the mass percentage of benzene ($C_6H_6$) and carbon tetrachloride ($CCl_4$) if 22 g of benzene is dissolved in 122 g of carbon tetrachloride.",
+            "marking_scheme_solution": {
+                "step_1_given": "Mass of benzene ($w_1$) = 22 g, Mass of carbon tetrachloride ($w_2$) = 122 g. Total mass of solution = 22 g + 122 g = 144 g.",
+                "step_2_formula_state": "\\text{Mass \\% of benzene} = \\frac{\\text{Mass of benzene}}{\\text{Total mass of the solution}} \\times 100",
+                "step_3_substitution": "\\text{Mass \\% of benzene} = \\frac{22}{144} \\times 100",
+                "step_4_final_answer": "Mass \\% of benzene = <b>15.28\\%</b>; Mass \\% of $CCl_4$ = 100 - 15.28 = <b>84.72\\%</b>"
+            }
+        }
+    },
+    {
+        "formula_id": "FORMULA_02",
+        "formula_name": "Volume Percentage (V/V)",
+        "priority_tier": "LOW",
+        "base_equation": "\\text{Volume \\% of a component} = \\frac{\\text{Volume of the component}}{\\text{Total volume of solution}} \\times 100",
+        "algebraic_variations": [
+            {
+                "target_variable": "V_{\\text{component}}",
+                "mutated_equation": "V_{\\text{component}} = \\frac{\\text{Volume \\% of component} \\times V_{\\text{solution}}}{100}",
+                "specific_use_case": "Employed to calculate the standalone volume of a liquid solute needed to synthesize a target final volume of solution at a desired volume percent strength."
+            }
+        ],
+        "variable_registry": [
+            {
+                "symbol": "\\text{Volume \\% of a component}",
+                "parameter_name": "Volume percentage of a solute or solvent component",
+                "mandatory_si_unit": "\\%",
+                "hidden_nuances": "Widely used for liquid-in-liquid mixtures (like industrial antifreeze or alcoholic mixtures). It is temperature-dependent because liquid volume scales with temperature expansion."
+            },
+            {
+                "symbol": "V_{\\text{component}}",
+                "parameter_name": "Volume of the chosen component",
+                "mandatory_si_unit": "mL",
+                "hidden_nuances": "Must be converted into matching volume constraints with the total solution volume denominator."
+            },
+            {
+                "symbol": "V_{\\text{solution}}",
+                "parameter_name": "Total final volume of the solution",
+                "mandatory_si_unit": "mL",
+                "hidden_nuances": "For non-ideal solutions, total volume is not strictly additive due to intermolecular contractions or expansions ($\\Delta_{mix}V \\neq 0$). Use total documented solution volume."
+            }
+        ],
+        "tactical_tricks": {
+            "unit_traps": "Watch out for mixtures where one liquid is measured in liters and the other in milliliters. Always equalize units into milliliters before running the formula.",
+            "approximation_hacks": "Unless explicitly given solution density data or non-ideal properties, assume volume additivity ($V_{\\text{solute}} + V_{\\text{solvent}} = V_{\\text{solution}}$) as a standard operational workflow in numeric questions.",
+            "red_flags": "Do not confuse Volume Percentage ($v/v$) with Mass by Volume Percentage ($w/v$). The latter computes mass of solute in grams per 100 mL of solution, which is heavily distinct."
+        },
+        "board_exam_exemplar": {
+            "question_text": "A 35% (v/v) solution of ethylene glycol is used as an antifreeze in cars. Calculate the volume of ethylene glycol that must be mixed with water to prepare exactly 4.0 L of this antifreeze solution.",
+            "marking_scheme_solution": {
+                "step_1_given": "Volume percentage concentration = 35\\% (v/v), Total volume of solution ($V_{\\text{solution}}$) = 4.0 L = 4000 mL.",
+                "step_2_formula_state": "V_{\\text{solute}} = \\frac{\\text{Volume \\% of component} \\times V_{\\text{solution}}}{100}",
+                "step_3_substitution": "V_{\\text{ethylene glycol}} = \\frac{35 \\times 4000}{100}",
+                "step_4_final_answer": "Volume of ethylene glycol required = <b>1400 mL</b> (or <b>1.4 L</b>)"
+            }
+        }
+    },
+    {
+        "formula_id": "FORMULA_03",
+        "formula_name": "Parts Per Million (ppm)",
+        "priority_tier": "MEDIUM",
+        "base_equation": "\\text{Parts per million (ppm)} = \\frac{\\text{Number of parts of the component}}{\\text{Total number of parts of all components of the solution}} \\times 10^{6}",
+        "algebraic_variations": [
+            {
+                "target_variable": "w_{\\text{solute}}",
+                "mutated_equation": "w_{\\text{solute}} = \\frac{\\text{ppm} \\times w_{\\text{solution}}}{10^6}",
+                "specific_use_case": "Isolates the actual physical mass of a trace component or environmental pollutant present in a highly massive solvent backdrop."
+            }
+        ],
+        "variable_registry": [
+            {
+                "symbol": "\\text{ppm}",
+                "parameter_name": "Parts per million concentration metric",
+                "mandatory_si_unit": "ppm",
+                "hidden_nuances": "Reserved specifically for trace solutes (e.g., hardness of water, dissolved atmospheric oxygen, contaminant levels)."
+            },
+            {
+                "symbol": "w_{\\text{solute}}",
+                "parameter_name": "Mass or part quantity of the trace solute",
+                "mandatory_si_unit": "g",
+                "hidden_nuances": "Can also be evaluated via volume ratios depending on whether the ppm is tracking mass-to-mass or volume-to-volume parameters."
+            },
+            {
+                "symbol": "w_{\\text{solution}}",
+                "parameter_name": "Total mass of the solution profile",
+                "mandatory_si_unit": "g",
+                "hidden_nuances": "Because trace conditions mean the solute mass is vanishingly small, the total mass of the solution can safely be equated to the mass of the solvent background ($w_{\\text{solution}} \\approx w_{\\text{solvent}}$)."
+            }
+        ],
+        "tactical_tricks": {
+            "unit_traps": "For aqueous media with an assumed density of $1.0 \\text{ g/mL}$, a concentration of $1 \\text{ ppm}$ is identical to $1 \\text{ mg/L}$ or $1 \\mu\\text{g/mL}$. Realizing this unit shortcut bypasses rigorous denominator setup errors.",
+            "approximation_hacks": "To express ppm as a mass percentage instantly, simply shift the decimal point four places to the left (i.e., divide by $10,000$). For example, $15 \\text{ ppm} = 0.0015\\%$.",
+            "red_flags": "Ensure you explicitly multiply by $10^6$. Relying on standard percentage habits ($10^2$) mistakenly yields answers that are skewed off by four orders of magnitude."
+        },
+        "board_exam_exemplar": {
+            "question_text": "A sample of drinking water was found to be severely contaminated with chloroform ($CHCl_3$). The level of contamination was 15 ppm (by mass). Express this concentration value in percent by mass.",
+            "marking_scheme_solution": {
+                "step_1_given": "Contamination level = 15 ppm. This explicitly means 15 g of chloroform solute is present in $10^6$ g of total solution mass.",
+                "step_2_formula_state": "Mass \\% = \\frac{\\text{Mass of solute}}{\\text{Total mass of solution}} \\times 100",
+                "step_3_substitution": "Mass \\% = \\frac{15}{10^6} \\times 100",
+                "step_4_final_answer": "Mass percentage of chloroform = <b>1.5 \\times 10^{-3}\\%</b> (or <b>0.0015\\%</b>)"
+            }
+        }
+    },
+    {
+        "formula_id": "FORMULA_04",
+        "formula_name": "Mole Fraction (x)",
+        "priority_tier": "HIGH",
+        "base_equation": "x_{A} = \\frac{n_{A}}{n_{A} + n_{B}}",
+        "algebraic_variations": [
+            {
+                "target_variable": "x_{B}",
+                "mutated_equation": "x_{B} = 1 - x_{A}",
+                "specific_use_case": "Used to immediately discover the mole fraction of the second component in a binary solution mix without executing another round of slow fraction arithmetic."
+            }
+        ],
+        "variable_registry": [
+            {
+                "symbol": "x_{A}",
+                "parameter_name": "Mole fraction of component A",
+                "mandatory_si_unit": "Dimensionless",
+                "hidden_nuances": "The ultimate combined summation of all mole fractions inside any given solution system must identically equal unity ($\\sum x_i = 1$)."
+            },
+            {
+                "symbol": "n_{A}",
+                "parameter_name": "Molar amount of component A",
+                "mandatory_si_unit": "mol",
+                "hidden_nuances": "Evaluated using mass weights over molar weights: $n_A = \\frac{w_A}{M_A}$."
+            },
+            {
+                "symbol": "n_{B}",
+                "parameter_name": "Molar amount of component B",
+                "mandatory_si_unit": "mol",
+                "hidden_nuances": "In binary terminology, if $A$ represents the solute, then $B$ tracks the absolute molar background of the solvent."
+            }
+        ],
+        "tactical_tricks": {
+            "unit_traps": "Problems routinely state concentrations via mass percent (e.g., '20% aqueous solution'). Students must map this to a base mass scale of 100 g, translating it to 20 g solute and 80 g water before computing molar amounts.",
+            "approximation_hacks": "When checking your calculations, ensure that the ratio of the mole fractions equals the ratio of their respective molar values: $\\frac{x_A}{x_B} = \\frac{n_A}{n_B}$.",
+            "red_flags": "Mole fraction is strictly bounded: $0 < x_i < 1$. If your calculation outputs an answer outside this window, you have either miscalculated individual molar weights or inverted the numerator component."
+        },
+        "board_exam_exemplar": {
+            "question_text": "Calculate the mole fraction of ethylene glycol ($C_2H_6O_2$) in a solution containing 20% of $C_2H_6O_2$ by mass.",
+            "marking_scheme_solution": {
+                "step_1_given": "In 100 g of solution: Mass of glycol = 20 g, Mass of water = 80 g. Molar mass of $C_2H_6O_2$ = 62 g/mol, Molar mass of $H_2O$ = 18 g/mol. Moles of glycol ($n_A$) = 20 / 62 = 0.322 mol. Moles of water ($n_B$) = 80 / 18 = 4.444 mol.",
+                "step_2_formula_state": "x_{\\text{glycol}} = \\frac{n_{\\text{glycol}}}{n_{\\text{glycol}} + n_{\\text{water}}}",
+                "step_3_substitution": "x_{\\text{glycol}} = \\frac{0.322}{0.322 + 4.444}",
+                "step_4_final_answer": "Mole fraction of ethylene glycol = <b>0.068</b> (Mole fraction of water = 1 - 0.068 = <b>0.932</b>)"
+            }
+        }
+    },
+    {
+        "formula_id": "FORMULA_05",
+        "formula_name": "Molarity (M)",
+        "priority_tier": "HIGH",
+        "base_equation": "M = \\frac{n_{\\text{solute}}}{V_{\\text{solution in litres}}}",
+        "algebraic_variations": [
+            {
+                "target_variable": "M",
+                "mutated_equation": "M = \\frac{w_{\\text{solute}} \\times 1000}{M_{\\text{solute}} \\times V_{\\text{mL}}}",
+                "specific_use_case": "The primary operational equation applied when analyzing bench experiments where solute quantities are weighed in grams out of a volumetric flask measured in milliliters."
+            }
+        ],
+        "variable_registry": [
+            {
+                "symbol": "M",
+                "parameter_name": "Molarity concentration value",
+                "mandatory_si_unit": "mol L^{-1}",
+                "hidden_nuances": "Highly dependent on temperature. Heating or cooling causes expansion or contraction of liquid volume, altering molarity despite fixed solute amounts."
+            },
+            {
+                "symbol": "w_{\\text{solute}}",
+                "parameter_name": "Mass weight of active solute substance",
+                "mandatory_si_unit": "g",
+                "hidden_nuances": "Ensure this mass value matches pure chemical constraints (disregard hydration or solvent weights)."
+            },
+            {
+                "symbol": "M_{\\text{solute}}",
+                "parameter_name": "Molar mass parameter of the solute compound",
+                "mandatory_si_unit": "g mol^{-1}",
+                "hidden_nuances": "Determined by summing standard periodic table weights for all elements within the exact molecular formula."
+            },
+            {
+                "symbol": "V_{\\text{mL}}",
+                "parameter_name": "Volume capacity of solution",
+                "mandatory_si_unit": "mL",
+                "hidden_nuances": "Represents the total volume of the entire solution, not the volume of the isolated solvent. If mass is known, convert via density: $V = \\frac{\\text{Mass}}{\\text{Density}}$."
+            }
+        ],
+        "tactical_tricks": {
+            "unit_traps": "When mass percent ($x$) and density ($d$ in g/mL) are given, use the shortcut formula to save time: $M = \\frac{10 \\times x \\times d}{M_{\\text{solute}}}$. This avoids multi-step conversion mistakes.",
+            "approximation_hacks": "To ensure your calculations are reasonable, notice that for highly concentrated acids, molarity values generally span between $10\\text{ M}$ and $18\\text{ M}$, whereas common lab reagents frequently fall below $1\\text{ M}$.",
+            "red_flags": "Do not treat volume of solution as identical to the volume of solvent added. Solute solids alter final volume spacing. Always calculate using the combined final volume of the solution."
+        },
+        "board_exam_exemplar": {
+            "question_text": "Calculate the molarity of a solution containing 5 g of NaOH dissolved in exactly 450 mL of solution.",
+            "marking_scheme_solution": {
+                "step_1_given": "Mass of NaOH ($w$) = 5 g. Volume of solution ($V_{\\text{mL}}$) = 450 mL. Molar mass of NaOH ($M$) = 23 + 16 + 1 = 40 g/mol.",
+                "step_2_formula_state": "M = \\frac{w \\times 1000}{M \\times V_{\\text{mL}}}",
+                "step_3_substitution": "M = \\frac{5 \\times 1000}{40 \\times 450}",
+                "step_4_final_answer": "Molarity of solution = <b>0.278 mol L^{-1}</b> (or <b>0.278 M</b>)"
+            }
+        }
+    },
+    {
+        "formula_id": "FORMULA_06",
+        "formula_name": "Molality (m)",
+        "priority_tier": "HIGH",
+        "base_equation": "m = \\frac{n_{\\text{solute}}}{w_{\\text{solvent in kg}}}",
+        "algebraic_variations": [
+            {
+                "target_variable": "m",
+                "mutated_equation": "m = \\frac{w_{\\text{solute}} \\times 1000}{M_{\\text{solute}} \\times w_{\\text{solvent in g}}}",
+                "specific_use_case": "Applied when the mass of the solute is measured in grams and the mass of the solvent is also provided directly in grams."
+            }
+        ],
+        "variable_registry": [
+            {
+                "symbol": "m",
+                "parameter_name": "Molality of the solution",
+                "mandatory_si_unit": "mol kg^{-1}",
+                "hidden_nuances": "Unlike molarity, molality is completely independent of temperature because it is defined via masses rather than volumes."
+            },
+            {
+                "symbol": "w_{\\text{solute}}",
+                "parameter_name": "Mass of the solute",
+                "mandatory_si_unit": "g",
+                "hidden_nuances": "Represents the mass of the pure active chemical compound being dissolved."
+            },
+            {
+                "symbol": "M_{\\text{solute}}",
+                "parameter_name": "Molar mass of the solute",
+                "mandatory_si_unit": "g mol^{-1}",
+                "hidden_nuances": "Determined accurately by adding up the atomic weights of all constituent atoms in the chemical formula."
+            },
+            {
+                "symbol": "w_{\\text{solvent in g}}",
+                "parameter_name": "Mass of the solvent in grams",
+                "mandatory_si_unit": "g",
+                "hidden_nuances": "Crucially, this is the mass of the solvent *alone*, not the combined mass of the final solution."
+            }
+        ],
+        "tactical_tricks": {
+            "unit_traps": "Examiners routinely provide the total volume and overall density of the solution instead of the mass of the solvent. Students must remember to find the total solution mass first ($m = d \\times V$) and then subtract the mass of the solute to isolate the mass of the solvent.",
+            "approximation_hacks": "For highly dilute aqueous solutions, since the density of pure water is very close to $1.0 \\text{ g/mL}$, the numerical values of molality ($m$) and molarity ($M$) become nearly identical ($m \\approx M$).",
+            "red_flags": "Plugging the entire mass of the solution into the denominator instead of the isolated mass of the solvent is a fatal error that will compromise the score of numerical problems."
+        },
+        "board_exam_exemplar": {
+            "question_text": "Calculate the molality of 2.5 g of ethanoic acid ($CH_3COOH$) in 75 g of benzene.",
+            "marking_scheme_solution": {
+                "step_1_given": "Mass of solute ($w_{\\text{solute}}$) = 2.5 g, Mass of solvent ($w_{\\text{solvent}}$) = 75 g. Molar mass of ethanoic acid ($M_{\\text{solute}}$) = 60 g/mol.",
+                "step_2_formula_state": "m = \\frac{w_{\\text{solute}} \\times 1000}{M_{\\text{solute}} \\times w_{\\text{solvent}}}",
+                "step_3_substitution": "m = \\frac{2.5 \\times 1000}{60 \\times 75}",
+                "step_4_final_answer": "Molality of the ethanoic acid solution = <b>0.556 mol kg^{-1}</b> (or <b>0.556 m</b>)"
+            }
+        }
+    },
+    {
+        "formula_id": "FORMULA_07",
+        "formula_name": "Henry's Law",
+        "priority_tier": "HIGH",
+        "base_equation": "p = K_{H} x",
+        "algebraic_variations": [
+            {
+                "target_variable": "x",
+                "mutated_equation": "x = \\frac{p}{K_{H}}",
+                "specific_use_case": "Used to explicitly isolate the gas solubility expressed as a mole fraction in a liquid solvent under a specific gas overpressure."
+            }
+        ],
+        "variable_registry": [
+            {
+                "symbol": "p",
+                "parameter_name": "Partial pressure of the gas in the vapour phase",
+                "mandatory_si_unit": "bar",
+                "hidden_nuances": "Represents the specific pressure exerted by the gas molecules residing above the liquid surface at equilibrium."
+            },
+            {
+                "symbol": "K_{H}",
+                "parameter_name": "Henry's law constant",
+                "mandatory_si_unit": "kbar",
+                "hidden_nuances": "A highly specific constant that depends uniquely on the identity of the gas, the liquid solvent, and the temperature. A larger $K_H$ indicates lower gas solubility."
+            },
+            {
+                "symbol": "x",
+                "parameter_name": "Mole fraction of the gas in solution",
+                "mandatory_si_unit": "Dimensionless",
+                "hidden_nuances": "Serves as the quantitative indicator of the maximum equilibrium gas solubility within the liquid phase."
+            }
+        ],
+        "tactical_tricks": {
+            "unit_traps": "The units of $K_H$ must strictly correspond to the units of partial pressure $p$. If $K_H$ is given in kbar and $p$ is in bar, you must convert $K_H$ by multiplying it by $1000$ to bring both variables to a unified bar scale.",
+            "approximation_hacks": "Since the number of moles of dissolved gas is tiny, you can simplify the denominator of the mole fraction equation: $x = \\frac{n_{\\text{gas}}}{n_{\\text{gas}} + n_{\\text{solvent}}} \\approx \\frac{n_{\\text{gas}}}{n_{\\text{solvent}}}$. For 1 L of water, $n_{\\text{solvent}} = 55.5 \\text{ mol}$.",
+            "red_flags": "Remember that $K_H$ values increase as temperature goes up. This mathematically implies that the solubility of gases drops when a solution is heated. This is why aquatic life thrives better in colder waters."
+        },
+        "board_exam_exemplar": {
+            "question_text": "If $N_2$ gas is bubbled through water at 293 K, how many millimoles of $N_2$ gas would dissolve in 1 litre of water? Assume that $N_2$ exerts a partial pressure of 0.987 bar. Given that Henry's law constant for $N_2$ at 293 K is 76.48 kbar.",
+            "marking_scheme_solution": {
+                "step_1_given": "Partial pressure ($p$) = 0.987 bar. Henry's Law constant ($K_H$) = 76.48 kbar = 76,480 bar. Moles of water in 1 L ($n_{\\text{water}}$) = 55.5 mol.",
+                "step_2_formula_state": "x = \\frac{p}{K_H}",
+                "step_3_substitution": "x = \\frac{0.987}{76480} = 1.29 \\times 10^{-5} \\implies \\frac{n}{n + 55.5} \\approx \\frac{n}{55.5} = 1.29 \\times 10^{-5}",
+                "step_4_final_answer": "Moles ($n$) = $7.16 \\times 10^{-4} \\text{ mol}$. In millimoles, the amount dissolved = <b>0.716 mmol</b>"
+            }
+        }
+    },
+    {
+        "formula_id": "FORMULA_08",
+        "formula_name": "Raoult's Law (Total Vapour Pressure of Binary Volatile Liquid Mixture)",
+        "priority_tier": "HIGH",
+        "base_equation": "p_{\\text{total}} = p_1^0 + (p_2^0 - p_1^0) x_2",
+        "algebraic_variations": [
+            {
+                "target_variable": "x_2",
+                "mutated_equation": "x_2 = \\frac{p_{\\text{total}} - p_1^0}{p_2^0 - p_1^0}",
+                "specific_use_case": "Employed to instantly determine the composition of a binary liquid mixture when the total vapour pressure and individual pure state pressures are known."
+            }
+        ],
+        "variable_registry": [
+            {
+                "symbol": "p_{\\text{total}}",
+                "parameter_name": "Total vapour pressure of the solution mixture",
+                "mandatory_si_unit": "mm Hg",
+                "hidden_nuances": "The combined equilibrium vapor pressure exerted by both volatile components above the liquid surface."
+            },
+            {
+                "symbol": "p_1^0",
+                "parameter_name": "Vapour pressure of pure component 1",
+                "mandatory_si_unit": "mm Hg",
+                "hidden_nuances": "The constant baseline vapor pressure of the less volatile component at a fixed temperature."
+            },
+            {
+                "symbol": "p_2^0",
+                "parameter_name": "Vapour pressure of pure component 2",
+                "mandatory_si_unit": "mm Hg",
+                "hidden_nuances": "The constant baseline vapor pressure of the more volatile component at a fixed temperature."
+            },
+            {
+                "symbol": "x_2",
+                "parameter_name": "Mole fraction of component 2 in the liquid phase",
+                "mandatory_si_unit": "Dimensionless",
+                "hidden_nuances": "The fraction of the second component present specifically in the liquid state."
+            }
+        ],
+        "tactical_tricks": {
+            "unit_traps": "Ensure that $p_1^0$, $p_2^0$, and $p_{\\text{total}}$ are all expressed in the same unit. Problems will often mix kilopascals (kPa), torr, and mm Hg to trap students.",
+            "approximation_hacks": "Because $x_1 + x_2 = 1$, finding one mole fraction immediately yields the other through a simple subtraction, bypassing long algebraic steps.",
+            "red_flags": "This equation applies strictly to ideal solutions. Real mixtures showing positive deviations will measure a higher $p_{\\text{total}}$ than calculated, while those with negative deviations will track lower."
+        },
+        "board_exam_exemplar": {
+            "question_text": "Vapour pressures of pure liquids A and B are 450 and 700 mm Hg respectively, at 350 K. Find out the composition of the liquid mixture if total vapour pressure is 600 mm Hg.",
+            "marking_scheme_solution": {
+                "step_1_given": "Pure vapour pressure $p_A^0 = 450 \\text{ mm Hg}$, Pure vapour pressure $p_B^0 = 700 \\text{ mm Hg}$, Total pressure $p_{\\text{total}} = 600 \\text{ mm Hg}$.",
+                "step_2_formula_state": "p_{\\text{total}} = p_A^0 + (p_B^0 - p_A^0) x_B",
+                "step_3_substitution": "600 = 450 + (700 - 450) \\times x_B \\implies 150 = 250 \\times x_B",
+                "step_4_final_answer": "Mole fraction of liquid B ($x_B$) = <b>0.60</b>; Mole fraction of liquid A ($x_A$) = 1 - 0.60 = <b>0.40</b>"
+            }
+        }
+    },
+    {
+        "formula_id": "FORMULA_09",
+        "formula_name": "Vapour Phase Composition (Dalton's Law for Vapour Phase)",
+        "priority_tier": "HIGH",
+        "base_equation": "y_i = \\frac{p_i}{p_{\\text{total}}}",
+        "algebraic_variations": [
+            {
+                "target_variable": "y_1",
+                "mutated_equation": "y_1 = \\frac{x_1 p_1^0}{x_1 p_1^0 + x_2 p_2^0}",
+                "specific_use_case": "Combines Raoult's Law and Dalton's Law to calculate the composition of a specific component in the gas phase using only liquid phase data."
+            }
+        ],
+        "variable_registry": [
+            {
+                "symbol": "y_i",
+                "parameter_name": "Mole fraction of component i in the vapour phase",
+                "mandatory_si_unit": "Dimensionless",
+                "hidden_nuances": "Represents the exact structural breakdown of components inside the gas cloud floating above the liquid solution."
+            },
+            {
+                "symbol": "p_i",
+                "parameter_name": "Partial vapour pressure of component i",
+                "mandatory_si_unit": "mm Hg",
+                "hidden_nuances": "Determined through the liquid phase concentration using Raoult's baseline relation: $p_i = x_i p_i^0$."
+            },
+            {
+                "symbol": "p_{\\text{total}}",
+                "parameter_name": "Total vapour pressure over the solution",
+                "mandatory_si_unit": "mm Hg",
+                "hidden_nuances": "The absolute sum of all individual partial pressures generated by the volatile elements of the mixture."
+            }
+        ],
+        "tactical_tricks": {
+            "unit_traps": "Students frequently confuse the liquid phase mole fraction ($x_i$) with the vapour phase mole fraction ($y_i$). Keep in mind that the vapour phase will always be richer in the more volatile component.",
+            "approximation_hacks": "For a binary gas mixture, $y_1 + y_2 = 1$. Once you calculate $y_1$, find $y_2$ via simple subtraction ($1 - y_1$) to protect your exam time.",
+            "red_flags": "At an azeotropic point, $y_i = x_i$. This means the liquid and vapour compositions match perfectly, and separation by fractional distillation becomes impossible."
+        },
+        "board_exam_exemplar": {
+            "question_text": "Pure liquids A and B have vapour pressures of 450 and 700 mm Hg at 350 K. If a liquid solution has a composition of $x_A = 0.40$ and $x_B = 0.60$, determine the mole fraction of component A in the vapour phase.",
+            "marking_scheme_solution": {
+                "step_1_given": "Vapour pressures $p_A^0 = 450 \\text{ mm Hg}, p_B^0 = 700 \\text{ mm Hg}$. Liquid fractions $x_A = 0.40, x_B = 0.60$. Total pressure $p_{\\text{total}} = (0.40 \\times 450) + (0.60 \\times 700) = 180 + 420 = 600 \\text{ mm Hg}$.",
+                "step_2_formula_state": "y_A = \\frac{x_A p_A^0}{p_{\\text{total}}}",
+                "step_3_substitution": "y_A = \\frac{0.40 \\times 450}{600} = \\frac{180}{600}",
+                "step_4_final_answer": "Mole fraction of component A in the vapour phase ($y_A$) = <b>0.30</b> (Vapour fraction $y_B = 1 - 0.30 =$ <b>0.70</b>)"
+            }
+        }
+    },
+    {
+        "formula_id": "FORMULA_10",
+        "formula_name": "Relative Lowering of Vapour Pressure",
+        "priority_tier": "HIGH",
+        "base_equation": "\\frac{p_1^0 - p_1}{p_1^0} = x_2",
+        "algebraic_variations": [
+            {
+                "target_variable": "M_2",
+                "mutated_equation": "M_2 = \\frac{w_2 \\times M_1 \\times p_1^0}{w_1 \\times (p_1^0 - p_1)}",
+                "specific_use_case": "The working equation used to determine the unknown molar mass of a non-volatile solute using vapour pressure depression data."
+            }
+        ],
+        "variable_registry": [
+            {
+                "symbol": "p_1^0",
+                "parameter_name": "Vapour pressure of the pure volatile solvent",
+                "mandatory_si_unit": "bar",
+                "hidden_nuances": "The reference vapor pressure measured before adding any non-volatile solute."
+            },
+            {
+                "symbol": "p_1",
+                "parameter_name": "Vapour pressure of the solution mixture",
+                "mandatory_si_unit": "bar",
+                "hidden_nuances": "The measured vapor pressure of the solution, which is always lower than that of the pure solvent."
+            },
+            {
+                "symbol": "x_2",
+                "parameter_name": "Mole fraction of the non-volatile solute",
+                "mandatory_si_unit": "Dimensionless",
+                "hidden_nuances": "The relative fraction of solute particles distributed within the solution matrix."
+            },
+            {
+                "symbol": "M_2",
+                "parameter_name": "Molar mass of the non-volatile solute",
+                "mandatory_si_unit": "g mol^{-1}",
+                "hidden_nuances": "The target molecular weight of the added substance being evaluated."
+            }
+        ],
+        "tactical_tricks": {
+            "unit_traps": "The simplified variation relies on a dilute approximation where $n_2 \\ll n_1$, simplifying the denominator to $n_1$. For concentrated solutions, you must use the exact form: $\\frac{p_1^0 - p_1}{p_1} = \\frac{n_2}{n_1}$ to prevent significant calculation errors.",
+            "approximation_hacks": "Be precise when calculating the small difference ($p_1^0 - p_1$) in the denominator. Rounding this difference too early can cause large errors in the final molar mass value.",
+            "red_flags": "This property depends strictly on the *number* of particles. If the solute dissociates or associates, the van 't Hoff factor ($i$) must be included: $\\frac{p_1^0 - p_1}{p_1^0} = i \\times x_2$."
+        },
+        "board_exam_exemplar": {
+            "question_text": "The vapour pressure of pure benzene at a certain temperature is 0.850 bar. A non-volatile, non-electrolyte solid weighing 0.5 g is added to 39.0 g of benzene (molar mass 78 g/mol). The vapour pressure of the resulting solution is 0.845 bar. What is the molar mass of the solid substance?",
+            "marking_scheme_solution": {
+                "step_1_given": "Pure pressure $p_1^0 = 0.850 \\text{ bar}$, Solution pressure $p_1 = 0.845 \\text{ bar}$, Solute mass $w_2 = 0.5 \\text{ g}$, Solvent mass $w_1 = 39.0 \\text{ g}$, Solvent molar mass $M_1 = 78 \\text{ g/mol}$.",
+                "step_2_formula_state": "\\frac{p_1^0 - p_1}{p_1^0} = \\frac{w_2 \\times M_1}{M_2 \\times w_1}",
+                "step_3_substitution": "\\frac{0.850 - 0.845}{0.850} = \\frac{0.5 \\times 78}{M_2 \\times 39} \\implies \\frac{0.005}{0.850} = \\frac{1}{M_2}",
+                "step_4_final_answer": "Molar mass of the solid substance ($M_2$) = <b>170 g mol^{-1}</b>"
+            }
+        }
+    },
+    {
+        "formula_id": "FORMULA_11",
+        "formula_name": "Elevation of Boiling Point",
+        "priority_tier": "HIGH",
+        "base_equation": "\\Delta T_b = K_b m",
+        "algebraic_variations": [
+            {
+                "target_variable": "M_2",
+                "mutated_equation": "M_2 = \\frac{1000 \\times K_b \\times w_2}{w_1 \\times \\Delta T_b}",
+                "specific_use_case": "Directly isolates and calculates the unknown molecular weight of a non-volatile solute using the observed boiling point elevation data of the solution."
+            }
+        ],
+        "variable_registry": [
+            {
+                "symbol": "\\Delta T_b",
+                "parameter_name": "Elevation of boiling point temperature",
+                "mandatory_si_unit": "K",
+                "hidden_nuances": "Calculated as $\\Delta T_b = T_b - T_b^0$, where $T_b$ is the boiling point of the solution and $T_b^0$ is the boiling point of the pure solvent. Because it represents a differential change, a value in Celsius matches its Kelvin equivalent exactly without needing a $+273.15$ adjustment."
+            },
+            {
+                "symbol": "K_b",
+                "parameter_name": "Molal boiling point elevation constant (Ebullioscopic constant)",
+                "mandatory_si_unit": "K kg mol^{-1}",
+                "hidden_nuances": "An intrinsic thermodynamic property determined solely by the solvent's characteristics, completely independent of the solute identity."
+            },
+            {
+                "symbol": "m",
+                "parameter_name": "Molality of the solution",
+                "mandatory_si_unit": "mol kg^{-1}",
+                "hidden_nuances": "The total moles of solute per kilogram of solvent background."
+            },
+            {
+                "symbol": "w_2",
+                "parameter_name": "Mass of the solute",
+                "mandatory_si_unit": "g",
+                "hidden_nuances": "The structural weight of the non-volatile substance dissolved into the liquid."
+            },
+            {
+                "symbol": "w_1",
+                "parameter_name": "Mass of the solvent",
+                "mandatory_si_unit": "g",
+                "hidden_nuances": "The precise weight of the host solvent matrix alone."
+            }
+        ],
+        "tactical_tricks": {
+            "unit_traps": "Examiners often state the absolute boiling point of the solution ($T_b$) rather than the elevation change ($\\Delta T_b$). Students frequently plug $T_b$ straight into the formula, causing the entire calculation to fail.",
+            "approximation_hacks": "For aqueous solution problems, the constant $K_b$ is consistently $0.52 \\text{ K kg mol}^{-1}$. Memorizing this value lets you cross-verify provided data quickly during time-sensitive exams.",
+            "red_flags": "This base equation is valid only for non-electrolyte solutes. If the solute undergoes any form of ionic dissociation or molecular association, omitting the van 't Hoff factor ($i$) will invalidate the calculation."
+        },
+        "board_exam_exemplar": {
+            "question_text": "18 g of glucose, $C_6H_{12}O_6$, is dissolved in 1 kg of water in a saucepan. At what temperature will water boil under 1.013 bar pressure? ($K_b$ for water is $0.52 \\text{ K kg mol}^{-1}$, boiling point of pure water is $373.15 \\text{ K}$)",
+            "marking_scheme_solution": {
+                "step_1_given": "Mass of solute ($w_2$) = 18 g, Molar mass of glucose ($M_2$) = 180 g/mol, Mass of solvent ($w_1$) = 1 kg = 1000 g, Constant ($K_b$) = 0.52 K kg/mol, Pure boiling point ($T_b^0$) = 373.15 K.",
+                "step_2_formula_state": "\\Delta T_b = \\frac{1000 \\times K_b \\times w_2}{M_2 \\times w_1}",
+                "step_3_substitution": "\\Delta T_b = \\frac{1000 \\times 0.52 \\times 18}{180 \\times 1000} = 0.052 \\text{ K}",
+                "step_4_final_answer": "Boiling point of the solution ($T_b$) = $T_b^0 + \\Delta T_b = 373.15 + 0.052 =$ <b>373.202 K</b>"
+            }
+        }
+    },
+    {
+        "formula_id": "FORMULA_12",
+        "formula_name": "Depression of Freezing Point",
+        "priority_tier": "HIGH",
+        "base_equation": "\\Delta T_f = K_f m",
+        "algebraic_variations": [
+            {
+                "target_variable": "M_2",
+                "mutated_equation": "M_2 = \\frac{1000 \\times K_f \\times w_2}{w_1 \\times \\Delta T_f}",
+                "specific_use_case": "Isolates and computes the molar mass of an unknown non-volatile solute using freezing point depression metrics."
+            }
+        ],
+        "variable_registry": [
+            {
+                "symbol": "\\Delta T_f",
+                "parameter_name": "Depression of freezing point temperature",
+                "mandatory_si_unit": "K",
+                "hidden_nuances": "Calculated as $\\Delta T_f = T_f^0 - T_f$, where $T_f^0$ is the freezing point of the pure solvent and $T_f$ is the freezing point of the solution. Because pure solvent values sit higher than solution profiles, this subtraction yields a positive magnitude value."
+            },
+            {
+                "symbol": "K_f",
+                "parameter_name": "Molal freezing point depression constant (Cryoscopic constant)",
+                "mandatory_si_unit": "K kg mol^{-1}",
+                "hidden_nuances": "An intrinsic thermodynamic metric dependent solely on the structural definition of the chosen solvent system."
+            },
+            {
+                "symbol": "m",
+                "parameter_name": "Molality of the solution matrix",
+                "mandatory_si_unit": "mol kg^{-1}",
+                "hidden_nuances": "The molar concentration calculated per unit mass of solvent backdrop."
+            }
+        ],
+        "tactical_tricks": {
+            "unit_traps": "Students frequently switch the subtraction order, computing $\\Delta T_f = T_f - T_f^0$, which results in a negative value. Temperature depressions must be formatted as positive values before being paired with $K_f$.",
+            "approximation_hacks": "For aqueous problems, the cryoscopic constant $K_f$ is consistently $1.86 \\text{ K kg mol}^{-1}$. Knowing this helps you quickly spot arithmetic errors in multi-step problem paths.",
+            "red_flags": "Be careful with questions involving the phrase 'only pure solvent separates out as ice'. This serves as a conceptual warning that the solvent mass ($w_1$) decreases if ice crystals form, altering the active molality calculation."
+        },
+        "board_exam_exemplar": {
+            "question_text": "45 g of ethylene glycol ($C_2H_6O_2$) is mixed with 600 g of water. Calculate the freezing point depression of the solution. ($K_f$ for water is $1.86 \\text{ K kg mol}^{-1}$)",
+            "marking_scheme_solution": {
+                "step_1_given": "Mass of solute ($w_2$) = 45 g, Molar mass of glycol ($M_2$) = 62 g/mol, Mass of solvent ($w_1$) = 600 g, Cryoscopic constant ($K_f$) = 1.86 K kg/mol.",
+                "step_2_formula_state": "\\Delta T_f = \\frac{1000 \\times K_f \\times w_2}{M_2 \\times w_1}",
+                "step_3_substitution": "\\Delta T_f = \\frac{1000 \\times 1.86 \\times 45}{62 \\times 600}",
+                "step_4_final_answer": "Freezing point depression (\\Delta T_f) = <b>2.25 K</b>"
+            }
+        }
+    },
+    {
+        "formula_id": "FORMULA_13",
+        "formula_name": "Osmotic Pressure",
+        "priority_tier": "HIGH",
+        "base_equation": "\\Pi = C R T",
+        "algebraic_variations": [
+            {
+                "target_variable": "M_2",
+                "mutated_equation": "M_2 = \\frac{w_2 R T}{\\Pi V}",
+                "specific_use_case": "Widely used to calculate the molar masses of large macromolecules, polymers, and biomolecules (like proteins) due to the distinct, easily measurable pressure signals generated at room temperature."
+            }
+        ],
+        "variable_registry": [
+            {
+                "symbol": "\\Pi",
+                "parameter_name": "Osmotic pressure profile",
+                "mandatory_si_unit": "bar",
+                "hidden_nuances": "The excess pressure that must be applied to the solution side to completely stop the inward flow of solvent molecules across a semi-permeable membrane."
+            },
+            {
+                "symbol": "C",
+                "parameter_name": "Molar concentration (Molarity)",
+                "mandatory_si_unit": "mol L^{-1}",
+                "hidden_nuances": "Expressed explicitly as moles of solute per total volume of solution ($n_2 / V$)."
+            },
+            {
+                "symbol": "R",
+                "parameter_name": "Universal gas constant",
+                "mandatory_si_unit": "L bar K^{-1} mol^{-1}",
+                "hidden_nuances": "The value of $R$ must match the targeted pressure units: use $0.0831 \\text{ L bar K}^{-1}\\text{mol}^{-1}$ for bar, or $0.0821 \\text{ L atm K}^{-1}\\text{mol}^{-1}$ for atmospheres."
+            },
+            {
+                "symbol": "T",
+                "parameter_name": "Absolute temperature scale",
+                "mandatory_si_unit": "K",
+                "hidden_nuances": "Temperature values given in Celsius must be explicitly converted to Kelvin by adding $273.15$."
+            },
+            {
+                "symbol": "V",
+                "parameter_name": "Volume capacity of solution",
+                "mandatory_si_unit": "L",
+                "hidden_nuances": "Must be converted to liters to align with the unit definition of the universal gas constant $R$."
+            }
+        ],
+        "tactical_tricks": {
+            "unit_traps": "Solution volumes are routinely specified in milliliters ($\text{mL}$). Forgetting to divide this volume by $1000$ to convert it to liters is a common error that skews the final molar mass by three orders of magnitude.",
+            "approximation_hacks": "To simplify manual division during exams, treat the product of $R \\times T$ at standard room temperature ($298 \\text{ K}$) as approximately $24.77$ when working with bar pressure units.",
+            "red_flags": "Isotonic solutions share identical osmotic pressures ($\\Pi_1 = \\Pi_2$) at a given temperature, meaning their molar concentrations are equal ($C_1 = C_2$). If one solute dissociates, you must equate their effective concentrations instead ($i_1 C_1 = i_2 C_2$)."
+        },
+        "board_exam_exemplar": {
+            "question_text": "200 cm³ of an aqueous solution of a protein contains 1.26 g of the protein. The osmotic pressure of such a solution at 300 K is found to be $2.57 \\times 10^{-3}$ bar. Calculate the molar mass of the protein.",
+            "marking_scheme_solution": {
+                "step_1_given": "Mass of solute ($w_2$) = 1.26 g, Volume ($V$) = 200 cm³ = 0.200 L, Temperature ($T$) = 300 K, Pressure ($\\Pi$) = $2.57 \\times 10^{-3}$ bar, Gas Constant ($R$) = $0.0831 \\text{ L bar K}^{-1}\\text{mol}^{-1}$.",
+                "step_2_formula_state": "M_2 = \\frac{w_2 R T}{\\Pi V}",
+                "step_3_substitution": "M_2 = \\frac{1.26 \\times 0.0831 \\times 300}{(2.57 \\times 10^{-3}) \\times 0.200}",
+                "step_4_final_answer": "Molar mass of the protein component ($M_2$) = <b>61,022 g mol^{-1}</b>"
+            }
+        }
+    },
+    {
+        "formula_id": "FORMULA_14",
+        "formula_name": "van 't Hoff Factor (i)",
+        "priority_tier": "HIGH",
+        "base_equation": "i = \\frac{\\text{Total number of moles of particles after association or dissociation}}{\\text{Number of moles of particles before association or dissociation}}",
+        "algebraic_variations": [
+            {
+                "target_variable": "i",
+                "mutated_equation": "i = \\frac{\\text{Normal Molar Mass}}{\\text{Abnormal Molar Mass}} = \\frac{\\text{Observed Colligative Property}}{\\text{Calculated Colligative Property}}",
+                "specific_use_case": "Used to find structural adjustments when a chemical solute associates or dissociates in a solvent, correcting the theoretical predictions of colligative properties."
+            }
+        ],
+        "variable_registry": [
+            {
+                "symbol": "i",
+                "parameter_name": "van 't Hoff factor adjustment constant",
+                "mandatory_si_unit": "Dimensionless",
+                "hidden_nuances": "If $i = 1$, the solute behaves ideally without changing form. If $i > 1$, the solute undergoes dissociation (e.g., salts breaking into ions). If $i < 1$, the solute molecules undergo association (e.g., organic acids forming dimers)."
+            },
+            {
+                "symbol": "\\text{Normal Molar Mass}",
+                "parameter_name": "Theoretical structural molecular weight",
+                "mandatory_si_unit": "g mol^{-1}",
+                "hidden_nuances": "The baseline molecular weight calculated directly from standard atomic weights on the periodic table assuming no particle interactions."
+            },
+            {
+                "symbol": "\\text{Abnormal Molar Mass}",
+                "parameter_name": "Experimentally derived molecular weight value",
+                "mandatory_si_unit": "g mol^{-1}",
+                "hidden_nuances": "The actual molecular weight value obtained via raw experimental measurements of colligative properties."
+            }
+        ],
+        "tactical_tricks": {
+            "unit_traps": "Notice that the molar mass fraction is inverted compared to the colligative property fraction: $i = \\frac{\\text{Normal Mass}}{\\text{Abnormal Mass}}$, but $i = \\frac{\\text{Observed Property}}{\\text{Calculated Property}}$. This inversion occurs because colligative properties are inversely proportional to solute molar mass.",
+            "approximation_hacks": "For strong electrolytes undergoing complete, 100% dissociation, the value of $i$ simplifies directly to the total count of ions produced per formula unit (e.g., $i = 2$ for $NaCl$, $i = 3$ for $MgCl_2$).",
+            "red_flags": "When calculating colligative properties for ionic compounds, remember to multiply the base equation by $i$ (e.g., $\\Delta T_f = i K_f m$). Omitting this multiplier is a frequent source of error in board exam calculations."
+        },
+        "board_exam_exemplar": {
+            "question_text": "A solution containing 2 g of benzoic acid ($C_7H_6O_2$) dissolved in 25 g of benzene shows a depression in freezing point equal to 1.62 K. Molal depression constant ($K_f$) for benzene is 4.9 K kg/mol. What is the van 't Hoff factor (i) of the acid?",
+            "marking_scheme_solution": {
+                "step_1_given": "Mass of solute ($w_2$) = 2 g, Theoretical mass of benzoic acid ($M_2$) = 122 g/mol, Mass of benzene ($w_1$) = 25 g, Observed depression ($\\Delta T_f$) = 1.62 K, Constant ($K_f$) = 4.9 K kg/mol.",
+                "step_2_formula_state": "\\text{Calculated } \\Delta T_f = \\frac{1000 \\times K_f \\times w_2}{M_2 \\times w_1} \\text{ and } i = \\frac{\\text{Observed } \\Delta T_f}{\\text{Calculated } \\Delta T_f}",
+                "step_3_substitution": "\\text{Calculated } \\Delta T_f = \\frac{1000 \\times 4.9 \\times 2}{122 \\times 25} = 3.213 \\text{ K} \\implies i = \\frac{1.62}{3.213}",
+                "step_4_final_answer": "The van 't Hoff factor ($i$) of benzoic acid = <b>0.504</b> (Indicating dimerisation)"
+            }
+        }
+    },
+    {
+        "formula_id": "FORMULA_15",
+        "formula_name": "Degree of Dissociation and Association (\\alpha)",
+        "priority_tier": "HIGH",
+        "base_equation": "\\alpha = \\frac{i - 1}{n - 1}",
+        "algebraic_variations": [
+            {
+                "target_variable": "\\alpha_{\\text{association}}",
+                "mutated_equation": "\\alpha = \\frac{1 - i}{1 - \\frac{1}{n}}",
+                "specific_use_case": "Applied when solute molecules combine into larger clusters (such as dimers or trimers) in a given solvent system."
+            }
+        ],
+        "variable_registry": [
+            {
+                "symbol": "\\alpha",
+                "parameter_name": "Degree of dissociation or association fraction",
+                "mandatory_si_unit": "Dimensionless",
+                "hidden_nuances": "Represents the fraction of total solute molecules that successfully react or split. Multiplying this value by 100 converts it to a percentage format."
+            },
+            {
+                "symbol": "i",
+                "parameter_name": "van 't Hoff factor adjustment metric",
+                "mandatory_si_unit": "Dimensionless",
+                "hidden_nuances": "Obtained by analyzing experimental colligative behavior relative to ideal theoretical baselines."
+            },
+            {
+                "symbol": "n",
+                "parameter_name": "Number of constituent particles",
+                "hidden_nuances": "In dissociation, this is the number of individual ions formed per formula unit (e.g., $n=2$ for $NaCl$). In association, it represents the number of individual molecules that aggregate together (e.g., $n=2$ for dimerization).",
+                "mandatory_si_unit": "Dimensionless"
+            }
+        ],
+        "tactical_tricks": {
+            "unit_traps": "Be careful not to confuse the structural particle count ($n$) with the total number of moles of solute present in the problem.",
+            "approximation_hacks": "For dimerization problems where molecules pair up cleanly ($n=2$), the association equation simplifies directly to $\\alpha = 2(1 - i)$, saving calculation time.",
+            "red_flags": "The value of $\\alpha$ must fall within the range $0 \\le \\alpha \\le 1$. If your calculation yields a value outside this range, you may have used the dissociation formula for an associating system, or vice versa."
+        },
+        "board_exam_exemplar": {
+            "question_text": "The depression in freezing point of water observed for a $0.01 \\text{ m}$ aqueous acetic acid solution is $0.0205^{\\circ}\\text{C}$. Calculate the degree of dissociation of acetic acid if its theoretical $K_f$ is $1.86 \\text{ K kg mol}^{-1}$.",
+            "marking_scheme_solution": {
+                "step_1_given": "Molality ($m$) = 0.01 m, Observed depression ($\\Delta T_f$) = 0.0205 K, Constant ($K_f$) = 1.86 K kg/mol. Ions for acetic acid ($n$) = 2 ($CH_3COO^-$ and $H^+$).",
+                "step_2_formula_state": "\\text{Calculated } \\Delta T_f = K_f \\times m \\implies i = \\frac{\\text{Observed } \\Delta T_f}{\\text{Calculated } \\Delta T_f} \\text{ and } \\alpha = \\frac{i - 1}{n - 1}",
+                "step_3_substitution": "\\text{Calculated } \\Delta T_f = 1.86 \\times 0.01 = 0.0186 \\text{ K} \\implies i = \\frac{0.0205}{0.0186} = 1.102 \\implies \\alpha = \\frac{1.102 - 1}{2 - 1}",
+                "step_4_final_answer": "Degree of dissociation of the acid (\\alpha) = <b>0.102</b> (or <b>10.2\\%</b>)"
+            }
+        }
+    },
+    {
+        "formula_id": "FORMULA_16",
+        "formula_name": "Mass by Volume Percentage (w/V)",
+        "priority_tier": "MEDIUM",
+        "base_equation": "\\text{Mass by volume percentage} = \\frac{\\text{Mass of solute (g)}}{\\text{Total volume of solution (mL)}} \\times 100",
+        "algebraic_variations": [
+            {
+                "target_variable": "w_{\\text{solute}}",
+                "mutated_equation": "w_{\\text{solute}} = \\frac{\\text{Mass by volume \\%} \\times V_{\\text{mL}}}{100}",
+                "specific_use_case": "Used to determine the exact weight of solid solute in grams required to prepare a specific volume of solution of a known mass-by-volume percentage."
+            }
+        ],
+        "variable_registry": [
+            {
+                "symbol": "\\text{Mass by volume percentage}",
+                "parameter_name": "Mass by volume percentage concentration strength",
+                "mandatory_si_unit": "\\%",
+                "hidden_nuances": "Commonly used in medicine and pharmacy. It expresses the mass of solute dissolved in exactly 100 mL of final solution. Because it relies on volume, its value changes with temperature."
+            },
+            {
+                "symbol": "w_{\\text{solute}}",
+                "parameter_name": "Mass of the dissolved solute",
+                "mandatory_si_unit": "g",
+                "hidden_nuances": "Must represent the pure mass of the active chemical ingredient being dissolved."
+            },
+            {
+                "symbol": "V_{\\text{mL}}",
+                "parameter_name": "Total final volume of the solution",
+                "mandatory_si_unit": "mL",
+                "hidden_nuances": "Represents the absolute combined volume of the solution backdrop, not the volume of solvent alone."
+            }
+        ],
+        "tactical_tricks": {
+            "unit_traps": "Examiners trick students by providing the mass percentage (w/w) along with the solution density ($d$), forcing a conversion step. Students frequently mistake mass percentage for mass-by-volume percentage and skip multiplying by the solution density.",
+            "approximation_hacks": "To instantly convert Mass Percentage (w/w) to Mass by Volume Percentage (w/V), use the relationship: $\\text{w/V \\%} = \\text{w/w \\%} \\times \\text{density of solution (g/mL)}$.",
+            "red_flags": "Never use the volume of the solvent in the denominator. Dissolving a high mass of solute can change the total volume of the solution, so always use the final volume of the prepared solution."
+        },
+        "board_exam_exemplar": {
+            "question_text": "Calculate the mass by volume percentage of a pharmaceutical saline solution containing 9.0 g of NaCl dissolved in enough water to form exactly 1000 mL of solution.",
+            "marking_scheme_solution": {
+                "step_1_given": "Mass of NaCl solute ($w_{\\text{solute}}$) = 9.0 g. Total volume of solution ($V_{\\text{mL}}$) = 1000 mL.",
+                "step_2_formula_state": "\\text{Mass by volume percentage} = \\frac{\\text{Mass of solute}}{\\text{Total volume of solution}} \\times 100",
+                "step_3_substitution": "\\text{Mass by volume percentage} = \\frac{9.0}{1000} \\times 100",
+                "step_4_final_answer": "Mass by volume percentage of NaCl = <b>0.9\\%</b>"
+            }
+        }
+    },
+    {
+        "formula_id": "FORMULA_17",
+        "formula_name": "Thermodynamic Relation for Ebullioscopic Constant (K_b)",
+        "priority_tier": "MEDIUM",
+        "base_equation": "K_b = \\frac{R \\times M_1 \\times T_b^2}{1000 \\times \\Delta_{\\text{vap}}H}",
+        "algebraic_variations": [
+            {
+                "target_variable": "\\Delta_{\\text{vap}}H",
+                "mutated_equation": "\\Delta_{\\text{vap}}H = \\frac{R \\times M_1 \\times T_b^2}{1000 \\times K_b}",
+                "specific_use_case": "Employed to calculate the latent heat or enthalpy of vaporization of a solvent using its experimentally measured ebullioscopic constant."
+            }
+        ],
+        "variable_registry": [
+            {
+                "symbol": "K_b",
+                "parameter_name": "Molal boiling point elevation constant",
+                "mandatory_si_unit": "K kg mol^{-1}",
+                "hidden_nuances": "An intrinsic thermodynamic value belonging solely to the solvent matrix, independent of the solute type."
+            },
+            {
+                "symbol": "R",
+                "parameter_name": "Universal gas constant",
+                "mandatory_si_unit": "J K^{-1} mol^{-1}",
+                "hidden_nuances": "Must strictly equal $8.314 \\text{ J K}^{-1} \\text{mol}^{-1}$ to align with standard metric energy dimensions."
+            },
+            {
+                "symbol": "M_1",
+                "parameter_name": "Molar mass of the pure solvent",
+                "mandatory_si_unit": "g mol^{-1}",
+                "hidden_nuances": "The molecular weight of a single mole of pure solvent molecules (e.g., $18 \\text{ g/mol}$ for water)."
+            },
+            {
+                "symbol": "T_b",
+                "parameter_name": "Boiling point of the pure solvent",
+                "mandatory_si_unit": "K",
+                "hidden_nuances": "The baseline boiling temperature of the solvent at standard pressure. Must be written in absolute Kelvin."
+            },
+            {
+                "symbol": "\\Delta_{\\text{vap}}H",
+                "parameter_name": "Enthalpy of vaporization of the solvent",
+                "mandatory_si_unit": "J mol^{-1}",
+                "hidden_nuances": "The total thermal energy required to transform one mole of liquid solvent into vapor at its boiling point."
+            }
+        ],
+        "tactical_tricks": {
+            "unit_traps": "Examiners almost always provide $\\Delta_{\\text{vap}}H$ in $\\text{kJ/mol}$ instead of $\\text{J/mol}$. Students who fail to multiply this value by $1000$ will get an answer that is incorrect by three orders of magnitude.",
+            "approximation_hacks": "For water, plugging in $T_b = 373.15 \\text{ K}$, $M_1 = 18 \\text{ g/mol}$, and $\\Delta_{\\text{vap}}H = 40660 \\text{ J/mol}$ yields exactly $0.52 \\text{ K kg mol}^{-1}$. This can help you verify your steps during an exam.",
+            "red_flags": "Never use the boiling point of the solution ($T_b$) in this equation; it must strictly be the absolute boiling point of the *pure* solvent ($T_b^0$)."
+        },
+        "board_exam_exemplar": {
+            "question_text": "Calculate the molal boiling point elevation constant ($K_b$) for water if its standard enthalpy of vaporization is $40.66 \\text{ kJ mol}^{-1}$ and pure water boils at $373.15 \\text{ K}$. (Molar mass of water = $18 \\text{ g mol}^{-1}$, $R = 8.314 \\text{ J K}^{-1} \\text{ mol}^{-1}$)",
+            "marking_scheme_solution": {
+                "step_1_given": "Gas Constant ($R$) = $8.314 \\text{ J K}^{-1} \\text{mol}^{-1}$, Solvent mass ($M_1$) = $18 \\text{ g mol}^{-1}$, Pure boiling point ($T_b$) = $373.15 \\text{ K}$, $\\Delta_{\\text{vap}}H = 40.66 \\text{ kJ mol}^{-1} = 40660 \\text{ J mol}^{-1}$.",
+                "step_2_formula_state": "K_b = \\frac{R \\times M_1 \\times T_b^2}{1000 \\times \\Delta_{\\text{vap}}H}",
+                "step_3_substitution": "K_b = \\frac{8.314 \\times 18 \\times (373.15)^2}{1000 \\times 40660}",
+                "step_4_final_answer": "Ebullioscopic constant ($K_b$) of water = <b>0.512 K kg mol^{-1}</b>"
+            }
+        }
+    },
+    {
+        "formula_id": "FORMULA_18",
+        "formula_name": "Thermodynamic Relation for Cryoscopic Constant (K_f)",
+        "priority_tier": "MEDIUM",
+        "base_equation": "K_f = \\frac{R \\times M_1 \\times T_f^2}{1000 \\times \\Delta_{\\text{fus}}H}",
+        "algebraic_variations": [
+            {
+                "target_variable": "\\Delta_{\\text{fus}}H",
+                "mutated_equation": "\\Delta_{\\text{fus}}H = \\frac{R \\times M_1 \\times T_f^2}{1000 \\times K_f}",
+                "specific_use_case": "Isolates the molar enthalpy of fusion of a solid crystal lattice based on measured freezing point depression metrics."
+            }
+        ],
+        "variable_registry": [
+            {
+                "symbol": "K_f",
+                "parameter_name": "Molal freezing point depression constant",
+                "mandatory_si_unit": "K kg mol^{-1}",
+                "hidden_nuances": "The cryoscopic profile defined purely by the properties of the solvent."
+            },
+            {
+                "symbol": "T_f",
+                "parameter_name": "Freezing point temperature of pure solvent",
+                "mandatory_si_unit": "K",
+                "hidden_nuances": "The baseline standard temperature where the pure liquid solvent reaches dynamic equilibrium with its solid phase."
+            },
+            {
+                "symbol": "\\Delta_{\\text{fus}}H",
+                "parameter_name": "Enthalpy of fusion of the solvent matrix",
+                "mandatory_si_unit": "J mol^{-1}",
+                "hidden_nuances": "The thermal energy threshold required to melt one mole of solid solvent into its liquid form."
+            }
+        ],
+        "tactical_tricks": {
+            "unit_traps": "Watch out for unit mismatch: $\\Delta_{\\text{fus}}H$ is typically stated in $\\text{kJ/mol}$, while the ideal gas constant $R$ uses Joules. Failing to convert $\\text{kJ}$ to $\\text{J}$ will make your answer incorrect by a factor of 1000.",
+            "approximation_hacks": "For standard water tracking systems, applying $T_f = 273.15 \\text{ K}$ and $\\Delta_{\\text{fus}}H = 6010 \\text{ J/mol}$ returns a value close to $1.86 \\text{ K kg mol}^{-1}$, which can be used to quickly verify your calculations.",
+            "red_flags": "Ensure you do not use the lower freezing point of the solution ($T_f$) instead of the freezing point of the pure solvent ($T_f^0$)."
+        },
+        "board_exam_exemplar": {
+            "question_text": "Calculate the cryoscopic constant ($K_f$) for water given that the molar enthalpy of fusion of ice at $273.15 \\text{ K}$ is $6.01 \\text{ kJ mol}^{-1}$. (Molar mass of water = $18 \\text{ g mol}^{-1}$, $R = 8.314 \\text{ J K}^{-1} \\text{ mol}^{-1}$)",
+            "marking_scheme_solution": {
+                "step_1_given": "Gas Constant ($R$) = $8.314 \\text{ J K}^{-1} \\text{mol}^{-1}$, Solvent weight ($M_1$) = $18 \\text{ g mol}^{-1}$, Pure freezing point ($T_f$) = $273.15 \\text{ K}$, $\\Delta_{\\text{fus}}H = 6.01 \\text{ kJ mol}^{-1} = 6010 \\text{ J mol}^{-1}$.",
+                "step_2_formula_state": "K_f = \\frac{R \\times M_1 \\times T_f^2}{1000 \\times \\Delta_{\\text{fus}}H}",
+                "step_3_substitution": "K_f = \\frac{8.314 \\times 18 \\times (273.15)^2}{1000 \\times 6010}",
+                "step_4_final_answer": "Cryoscopic constant ($K_f$) of water = <b>1.86 K kg mol^{-1}</b>"
+            }
+        }
+    },
+    {
+        "formula_id": "FORMULA_19",
+        "formula_name": "Molarity Dilution Formula",
+        "priority_tier": "HIGH",
+        "base_equation": "M_1 V_1 = M_2 V_2",
+        "algebraic_variations": [
+            {
+                "target_variable": "V_1",
+                "mutated_equation": "V_1 = \\frac{M_2 V_2}{M_1}",
+                "specific_use_case": "Calculates the volume of a concentrated stock solution ($V_1$) required to prepare a specific target volume ($V_2$) of a diluted solution."
+            }
+        ],
+        "variable_registry": [
+            {
+                "symbol": "M_1",
+                "parameter_name": "Initial molarity of concentrated stock solution",
+                "mandatory_si_unit": "mol L^{-1}",
+                "hidden_nuances": "The concentration value of the source reagent solution before adding any extra solvent."
+            },
+            {
+                "symbol": "V_1",
+                "parameter_name": "Volume of concentrated stock solution",
+                "mandatory_si_unit": "mL",
+                "hidden_nuances": "The specific aliquot volume measured out from the concentrated stock container."
+            },
+            {
+                "symbol": "M_2",
+                "parameter_name": "Final molarity of the diluted solution",
+                "mandatory_si_unit": "mol L^{-1}",
+                "hidden_nuances": "The lower concentration target for the final diluted mixture solution."
+            },
+            {
+                "symbol": "V_2",
+                "parameter_name": "Total final volume of the solution after dilution",
+                "mandatory_si_unit": "mL",
+                "hidden_nuances": "Calculated as the sum of the stock volume and the added solvent volume ($V_1 + V_{\\text{solvent}}$), assuming standard volume additivity."
+            }
+        ],
+        "tactical_tricks": {
+            "unit_traps": "Examiners often ask for the 'volume of water to be added' rather than the final volume $V_2$. Students frequently write down the calculated value of $V_2$ as the final answer instead of calculating the difference: $V_{\\text{added}} = V_2 - V_1$.",
+            "approximation_hacks": "You can keep the volumes in milliliters ($\text{mL}$) on both sides of the equation because the conversion factors cancel out, saving you from doing extra division steps during the exam.",
+            "red_flags": "This equation assumes that no chemical reactions occur upon dilution and that the solute particles are neither created nor destroyed."
+        },
+        "board_exam_exemplar": {
+            "question_text": "Calculate the volume of $0.5 \\text{ M } H_2SO_4$ stock solution required to prepare exactly 500 mL of a diluted $0.1 \\text{ M } H_2SO_4$ solution.",
+            "marking_scheme_solution": {
+                "step_1_given": "Initial Molarity ($M_1$) = 0.5 M, Final Molarity ($M_2$) = 0.1 M, Final Volume ($V_2$) = 500 mL.",
+                "step_2_formula_state": "V_1 = \\frac{M_2 V_2}{M_1}",
+                "step_3_substitution": "V_1 = \\frac{0.1 \\times 500}{0.5}",
+                "step_4_final_answer": "Volume of stock solution required = <b>100 mL</b>"
+            }
+        }
+    },
+    {
+        "formula_id": "FORMULA_20",
+        "formula_name": "Isotonic Solutions Concentration Condition",
+        "priority_tier": "HIGH",
+        "base_equation": "i_1 C_1 = i_2 C_2",
+        "algebraic_variations": [
+            {
+                "target_variable": "M_2",
+                "mutated_equation": "M_2 = \\frac{i_2 \\times w_2 \\times M_1 \\times V_1}{i_1 \\times w_1 \\times V_2}",
+                "specific_use_case": "Used to find the unknown molar mass of a solute in a solution that is isotonic with a known reference solution."
+            }
+        ],
+        "variable_registry": [
+            {
+                "symbol": "C_1",
+                "parameter_name": "Molar concentration of the first solution",
+                "mandatory_si_unit": "mol L^{-1}",
+                "hidden_nuances": "The concentration of the reference solute, typically calculated as $\\frac{w_1}{M_1 \\times V_1}$."
+            },
+            {
+                "symbol": "C_2",
+                "parameter_name": "Molar concentration of the second solution",
+                "mandatory_si_unit": "mol L^{-1}",
+                "hidden_nuances": "The concentration of the second solute system."
+            },
+            {
+                "symbol": "i_1",
+                "parameter_name": "van 't Hoff factor of the first solute",
+                "mandatory_si_unit": "Dimensionless",
+                "hidden_nuances": "Assigned a value of 1 for non-electrolytes like glucose or urea, or greater than 1 if the solute dissociates into ions."
+            },
+            {
+                "symbol": "i_2",
+                "parameter_name": "van 't Hoff factor of the second solute",
+                "mandatory_si_unit": "Dimensionless",
+                "hidden_nuances": "Tracks particle counts for the second solute component."
+            }
+        ],
+        "tactical_tricks": {
+            "unit_traps": "When one solute is an electrolyte (such as $NaCl$, $i=2$) and the other is a non-electrolyte (such as glucose, $i=1$), students often forget to include the van 't Hoff factors, setting $C_1 = C_2$ erroneously.",
+            "approximation_hacks": "For two non-electrolyte solutes at the same temperature, being isotonic simply means their molar concentrations are identical ($C_1 = C_2$).",
+            "red_flags": "This relationship assumes constant temperature conditions. If the two solutions are at different temperatures, you must use the full equation: $i_1 C_1 T_1 = i_2 C_2 T_2$."
+        },
+        "board_exam_exemplar": {
+            "question_text": "An aqueous solution containing 6 g of urea (molar mass = $60 \\text{ g mol}^{-1}$) per liter is isotonic with a solution of an unknown non-electrolyte solute containing 18 g of solute per liter at the same temperature. Find the molar mass of the unknown solute.",
+            "marking_scheme_solution": {
+                "step_1_given": "Urea solution: $w_1 = 6 \\text{ g}$, $M_1 = 60 \\text{ g mol}^{-1}$, $V_1 = 1 \\text{ L}$, $i_1 = 1$. Concentration $C_1 = \\frac{6}{60 \\times 1} = 0.1 \\text{ M}$. Unknown solution: $w_2 = 18 \\text{ g}$, $V_2 = 1 \\text{ L}$, $i_2 = 1$. Since the solutions are isotonic, $C_1 = C_2$.",
+                "step_2_formula_state": "C_1 = \\frac{w_2}{M_2 \\times V_2} \\implies M_2 = \\frac{w_2}{C_1 \\times V_2}",
+                "step_3_substitution": "M_2 = \\frac{18}{0.1 \\times 1}",
+                "step_4_final_answer": "Molar mass of the unknown solute ($M_2$) = <b>180 g mol^{-1}</b>"
+            }
+        }
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 1,
+            "graph_index": 1,
+            "chapter_complete": false
+        },
+        "graph_id": "GRAPH_01",
+        "graph_name": "Fig. 1.2: Experimental results for the solubility of HCl gas in cyclohexane at 293 K",
+        "metadata": {
+            "priority_tier": "HIGH",
+            "pyq_frequency": "6 out of last 10 years",
+            "max_mark_yield": "3 Marks"
+        },
+        "core_concept_mapping": {
+            "governing_principle": "Henry's Law",
+            "molecular_interpretation": "At a constant temperature, the solubility of a gas in a liquid solvent is directly proportional to the partial pressure of that gas above the solution surface. Thermodynamically, increasing the gas pressure increases the number of gas molecules per unit volume striking the liquid surface, thereby forcing more molecules into the liquid phase to achieve a new dynamic equilibrium state."
+        },
+        "cartesian_mechanics": {
+            "x_axis_parameter": "Mole fraction of HCl in its solution in cyclohexane, \\\\chi_{\\\\text{HCl}} (Dimensionless)",
+            "y_axis_parameter": "Partial pressure of HCl, p_{\\\\text{HCl}} / torr",
+            "boundary_conditions": "Left boundary: \\\\chi_{\\\\text{HCl}} = 0, p = 0 torr (pure cyclohexane solvent baseline); Right boundary: \\\\chi_{\\\\text{HCl}} = 0.020, p \\\\approx 900 torr"
+        },
+        "svg_rendering_block": "<svg viewBox=\"0 0 500 400\" xmlns=\"http://www.w3.org/2000/svg\"><g id=\"axes\"><line x1=\"60\" y1=\"340\" x2=\"460\" y2=\"340\" stroke=\"#000000\" stroke-width=\"2\"/><line x1=\"60\" y1=\"40\" x2=\"60\" y2=\"340\" stroke=\"#000000\" stroke-width=\"2\"/><text x=\"260\" y=\"385\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Mole fraction of HCl in cyclohexane (\\chi)</text><text x=\"20\" y=\"190\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" transform=\"rotate(-90 20 190)\">Partial pressure of HCl / torr</text><line x1=\"60\" y1=\"340\" x2=\"60\" y2=\"345\" stroke=\"#000000\" stroke-width=\"1.5\"/><text x=\"60\" y=\"360\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\">0</text><line x1=\"260\" y1=\"340\" x2=\"260\" y2=\"345\" stroke=\"#000000\" stroke-width=\"1.5\"/><text x=\"260\" y=\"360\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\">0.010</text><line x1=\"460\" y1=\"340\" x2=\"460\" y2=\"345\" stroke=\"#000000\" stroke-width=\"1.5\"/><text x=\"460\" y=\"360\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\">0.020</text><line x1=\"55\" y1=\"340\" x2=\"60\" y2=\"340\" stroke=\"#000000\" stroke-width=\"1.5\"/><text x=\"50\" y=\"344\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"end\">0</text><line x1=\"55\" y1=\"190\" x2=\"60\" y2=\"190\" stroke=\"#000000\" stroke-width=\"1.5\"/><text x=\"50\" y=\"194\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"end\">500</text><line x1=\"55\" y1=\"40\" x2=\"60\" y2=\"40\" stroke=\"#000000\" stroke-width=\"1.5\"/><text x=\"50\" y=\"44\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"end\">1000</text></g><g id=\"data-curves\"><line x1=\"60\" y1=\"340\" x2=\"420\" y2=\"70\" stroke=\"#2E7D32\" stroke-width=\"3\"/><circle cx=\"132\" cy=\"286\" r=\"4\" fill=\"#1565C0\"/><circle cx=\"204\" cy=\"232\" r=\"4\" fill=\"#1565C0\"/><circle cx=\"276\" cy=\"178\" r=\"4\" fill=\"#1565C0\"/><circle cx=\"348\" cy=\"124\" r=\"4\" fill=\"#1565C0\"/><circle cx=\"420\" cy=\"70\" r=\"4\" fill=\"#1565C0\"/></g></svg>",
+        "mathematical_anatomy": {
+            "governing_equation": "p = K_H \\\\chi",
+            "slope_identity": "Henry's Law constant, K_H",
+            "intercept_identity": "0 (passes precisely through the coordinates origin)",
+            "linearity_profile": "Linear"
+        },
+        "critical_nodes_and_anomalies": [
+            {
+                "node_name": "Origin Reference State",
+                "coordinates_or_region": "Intersection of axes at canvas position (60, 340)",
+                "physical_significance": "Confirms that at zero external partial pressure of a gas, its solubility or mole fraction within the liquid phase drops identically to zero."
+            }
+        ],
+        "silly_mistake_tracker": {
+            "axis_inversion_trap": "Examiners often invert the plot, putting mole fraction on the Y-axis and partial pressure on the X-axis. In this case, the slope translates to the inverse of the constant, \\\\frac{1}{K_H}.",
+            "unit_mismatch_warning": "Henry's Law constant K_H values are frequently tabulated in kbar or Pa. Students commonly fail to match kbar with pressure values stated in bar or torr, leading to major numerical errors.",
+            "extrapolation_error": "Extrapolating this linear correlation into high-pressure regimes where real gases show massive non-linear trends due to strong molecular interactions."
+        },
+        "exhaustive_question_bank": [
+            {
+                "question_type": "Direct Graph Drawing",
+                "question_text": "State Henry's law for the solubility of a gas in a liquid. Plot a graph showing experimental results for the solubility of HCl gas in cyclohexane. What physical parameter is obtained from the slope of this line?",
+                "examiner_marking_rubric": "1 Mark: Explicit definition stating that partial pressure is proportional to mole fraction in solution. 1 Mark: Neatly sketched linear plot passing through origin with fully labeled axes. 1 Mark: Correct identification of the slope as the Henry's Law constant (K_H).",
+                "perfect_response_script": "<b>Henry's Law</b> states that the partial pressure of a gas in the vapour phase ($p$) is directly proportional to the mole fraction of the gas ($\\chi$) in the solution: $p = K_H \\chi$. <br>The plot of partial pressure of $\\text{HCl}$ versus its mole fraction in cyclohexane is a <b>straight line passing through the origin</b>. The <b>slope of this line is directly equal to the Henry's Law constant ($K_H$)</b>."
+            }
+        ]
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 1,
+            "graph_index": 2,
+            "chapter_complete": false
+        },
+        "graph_id": "GRAPH_02",
+        "graph_name": "Fig. 1.3: The plot of vapour pressure and mole fraction of an ideal solution at constant temperature",
+        "metadata": {
+            "priority_tier": "HIGH",
+            "pyq_frequency": "8 out of last 10 years",
+            "max_mark_yield": "5 Marks"
+        },
+        "core_concept_mapping": {
+            "governing_principle": "Raoult's Law for Binary Volatile Solutions",
+            "molecular_interpretation": "In an ideal binary solution, the intermolecular attractive forces between the components (A-B interactions) are identical in magnitude to those in the pure states (A-A and B-B interactions). Consequently, the escaping tendency of each volatile component is determined solely by its statistical presence at the liquid surface, leading to a perfectly linear variation in partial pressure with liquid mole fraction."
+        },
+        "cartesian_mechanics": {
+            "x_axis_parameter": "Mole fraction of components, \\\\chi_1 and \\\\chi_2 (Dimensionless)",
+            "y_axis_parameter": "Vapour pressure, p / mm Hg",
+            "boundary_conditions": "Left boundary: \\\\chi_1=1, \\\\chi_2=0 (pure component 1 state, p = p_1^0); Right boundary: \\\\chi_1=0, \\\\chi_2=1 (pure component 2 state, p = p_2^0)"
+        },
+        "svg_rendering_block": "<svg viewBox=\"0 0 500 400\" xmlns=\"http://www.w3.org/2000/svg\"><g id=\"axes\"><line x1=\"60\" y1=\"340\" x2=\"440\" y2=\"340\" stroke=\"#000000\" stroke-width=\"2\"/><line x1=\"60\" y1=\"40\" x2=\"60\" y2=\"340\" stroke=\"#000000\" stroke-width=\"2\"/><line x1=\"440\" y1=\"40\" x2=\"440\" y2=\"340\" stroke=\"#000000\" stroke-width=\"2\"/><text x=\"250\" y=\"385\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Mole fraction &rarr;</text><text x=\"20\" y=\"190\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" transform=\"rotate(-90 20 190)\">Vapour pressure &rarr;</text><text x=\"60\" y=\"358\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"middle\">x₁=1, x₂=0</text><text x=\"440\" y=\"358\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"middle\">x₁=0, x₂=1</text><text x=\"50\" y=\"204\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"end\">p₁&deg;</text><text x=\"450\" y=\"104\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"start\">p₂&deg;</text></g><g id=\"reference-lines\"><line x1=\"60\" y1=\"200\" x2=\"440\" y2=\"340\" stroke=\"#757575\" stroke-width=\"1.5\" stroke-dasharray=\"5,5\"/><text x=\"340\" y=\"280\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#757575\">p₁</text><line x1=\"60\" y1=\"340\" x2=\"440\" y2=\"100\" stroke=\"#757575\" stroke-width=\"1.5\" stroke-dasharray=\"5,5\"/><text x=\"140\" y=\"220\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#757575\">p₂</text></g><g id=\"data-curves\"><line x1=\"60\" y1=\"200\" x2=\"440\" y2=\"100\" stroke=\"#2E7D32\" stroke-width=\"2.5\"/><text x=\"250\" y=\"135\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2E7D32\" text-anchor=\"middle\">p_total = p₁ + p₂</text></g></svg>",
+        "mathematical_anatomy": {
+            "governing_equation": "p_{\\\\text{total}} = p_1 + p_2 = p_1^0 \\\\chi_1 + p_2^0 \\\\chi_2 = p_1^0 + (p_2^0 - p_1^0)\\\\chi_2",
+            "slope_identity": "Line I (p_1): -p_1^0; Line II (p_2): p_2^0; Line III (p_total): (p_2^0 - p_1^0)",
+            "intercept_identity": "Left-axis Y-intercept equals p_1^0; Right-axis Y-intercept equals p_2^0",
+            "linearity_profile": "Linear"
+        },
+        "critical_nodes_and_anomalies": [
+            {
+                "node_name": "Pure Less Volatile Boundary (p_1^0)",
+                "coordinates_or_region": "Left vertical axis line at canvas position (60, 200)",
+                "physical_significance": "Represents the absolute vapour pressure of the pure liquid component 1 before any of component 2 is mixed in."
+            },
+            {
+                "node_name": "Pure More Volatile Boundary (p_2^0)",
+                "coordinates_or_region": "Right vertical axis line at canvas position (440, 100)",
+                "physical_significance": "Represents the absolute vapour pressure of pure liquid component 2. Since p_2^0 > p_1^0, it structurally labels component 2 as the more volatile chemical."
+            }
+        ],
+        "silly_mistake_tracker": {
+            "axis_inversion_trap": "Students often fail to note that the horizontal axis contains two opposing scales simultaneously (x_1 decreases left-to-right while x_2 increases left-to-right), leading to incorrect parsing of local slope segments.",
+            "unit_mismatch_warning": "Confusing liquid-phase mole fractions (x) with gas-phase mole fractions (y). The vapour phase at equilibrium will always be enriched in the more volatile component.",
+            "extrapolation_error": "Drawing the total pressure line as a curve or failing to align the partial lines directly to zero at their opposite boundaries."
+        },
+        "exhaustive_question_bank": [
+            {
+                "question_type": "Direct Graph Drawing",
+                "question_text": "Draw a neat, fully labeled diagram showing the variation of total vapour pressure and partial pressures as a function of liquid composition for an ideal binary solution. Assume component 2 is more volatile than component 1.",
+                "examiner_marking_rubric": "2 Marks: Perfectly constructed dual vertical axes with accurate boundary conditions labeled ($x_1=1, x_2=0$ and $x_1=0, x_2=1$). 2 Marks: Three straight lines clearly labeled as partial lines ($p_1, p_2$) and total line ($p_{\\text{total}}$). 1 Mark: Correct vertical positioning showing $p_2^0 > p_1^0$.",
+                "perfect_response_script": "For an ideal solution obeying Raoult's law over the entire composition range, the total vapour pressure varies linearly with composition. <br>1. <b>Line I ($p_1 = p_1^0 x_1$)</b> falls linearly from $p_1^0$ to $0$. <br>2. <b>Line II ($p_2 = p_2^0 x_2$)</b> rises linearly from $0$ to $p_2^0$. <br>3. <b>Line III ($p_{\\text{total}} = p_1 + p_2$)</b> connects $p_1^0$ directly to $p_2^0$. Since component 2 is more volatile, <b>$p_2^0$ is drawn higher up on the vertical scale than $p_1^0$</b>."
+            }
+        ]
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 1,
+            "graph_index": 3,
+            "chapter_complete": false
+        },
+        "graph_id": "GRAPH_03",
+        "graph_name": "Fig. 1.5: Vapour pressure of a solution of a non-volatile solute in a volatile solvent",
+        "metadata": {
+            "priority_tier": "MEDIUM",
+            "pyq_frequency": "3 out of last 10 years",
+            "max_mark_yield": "2 Marks"
+        },
+        "core_concept_mapping": {
+            "governing_principle": "Raoult's Law for Non-Volatile Solute Solutions",
+            "molecular_interpretation": "When a non-volatile solute is dissolved into a volatile solvent, solute particles occupy a portion of the liquid surface area. This reduces the surface fraction covered by solvent molecules, lowering the escape rate of solvent particles into the vapour phase. The resulting solution vapour pressure stems purely from the solvent and decreases linearly as the solvent mole fraction drops."
+        },
+        "cartesian_mechanics": {
+            "x_axis_parameter": "Mole fraction of solvent, \\\\chi_{\\\\text{solvent}} (Dimensionless)",
+            "y_axis_parameter": "Vapour pressure of solution, p / mm Hg",
+            "boundary_conditions": "Left boundary: \\\\chi_{\\\\text{solvent}} = 0, p = 0; Right boundary: \\\\chi_{\\\\text{solvent}} = 1, p = p_1^0 (pure solvent vapour pressure level)"
+        },
+        "svg_rendering_block": "<svg viewBox=\"0 0 500 400\" xmlns=\"http://www.w3.org/2000/svg\"><g id=\"axes\"><line x1=\"60\" y1=\"340\" x2=\"440\" y2=\"340\" stroke=\"#000000\" stroke-width=\"2\"/><line x1=\"60\" y1=\"40\" x2=\"60\" y2=\"340\" stroke=\"#000000\" stroke-width=\"2\"/><line x1=\"440\" y1=\"40\" x2=\"440\" y2=\"340\" stroke=\"#000000\" stroke-width=\"1\"/><text x=\"250\" y=\"385\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Mole fraction of solvent (x_solvent) &rarr;</text><text x=\"20\" y=\"190\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" transform=\"rotate(-90 20 190)\">Vapour pressure &rarr;</text><text x=\"60\" y=\"355\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\">0</text><text x=\"440\" y=\"355\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\">1</text></g><g id=\"data-curves\"><line x1=\"60\" y1=\"340\" x2=\"440\" y2=\"100\" stroke=\"#1565C0\" stroke-width=\"3\"/><text x=\"435\" y=\"90\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#1565C0\">Vapour pressure of pure solvent (p₁&deg;)</text></g></svg>",
+        "mathematical_anatomy": {
+            "governing_equation": "p_1 = p_1^0 \\\\chi_{\\\\text{solvent}}",
+            "slope_identity": "Vapour pressure of the pure liquid solvent, p_1^0",
+            "intercept_identity": "0 (passes through the origin)",
+            "linearity_profile": "Linear"
+        },
+        "critical_nodes_and_anomalies": [
+            {
+                "node_name": "Pure Solvent Endpoint",
+                "coordinates_or_region": "Termination point on the right vertical boundary at position (440, 100)",
+                "physical_significance": "Identifies the reference point where the system transitions to 100% pure solvent, returning a maximum solution vapour pressure equal to p_1^0."
+            }
+        ],
+        "silly_mistake_tracker": {
+            "axis_inversion_trap": "Plotting the solution vapour pressure against the mole fraction of the solute instead of the solvent. A solute-based horizontal scale creates a linear plot with a negative slope: $p_1 = p_1^0 - p_1^0 x_{\\text{solute}}$.",
+            "unit_mismatch_warning": "Using total solution mass or concentration variables that do not track surface area ratios properly, distinct from true mole fractions.",
+            "extrapolation_error": "Failing to start the line straight from the origin (0,0) when using a solvent mole fraction horizontal scale."
+        },
+        "exhaustive_question_bank": [
+            {
+                "question_type": "Analytical Interpretation",
+                "question_text": "Why does the vapour pressure of a volatile solvent decrease when a non-volatile solute is dissolved in it? Describe this behavior mathematically and graphically using Raoult's law.",
+                "examiner_marking_rubric": "1 Mark: Molecular explanation detailing partial surface coverage by non-volatile solute particles. 1 Mark: Correct presentation of the equation $p_1 = p_1^0 x_{\\text{solvent}}$. 1 Mark: Straight line plot starting at zero and rising linearly to pure state pressure.",
+                "perfect_response_script": "In a pure liquid, the entire surface is occupied by solvent molecules. When a non-volatile solute is added, <b>solute particles occupy a fraction of the surface area, reducing the escaping tendency of solvent molecules</b>. <br>According to Raoult's Law, the partial pressure of a volatile component is $p_1 = p_1^0 x_{\\text{solvent}}$. A plot of vapour pressure versus the mole fraction of the solvent yields a <b>perfectly linear plot passing through the origin, terminating at $p_1^0$ when $x_{\\text{solvent}} = 1$</b>."
+            }
+        ]
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 1,
+            "graph_index": 4,
+            "chapter_complete": false
+        },
+        "graph_id": "GRAPH_04",
+        "graph_name": "Fig. 1.6 (a): Vapour pressure of a two-component system showing positive deviation from Raoult's law",
+        "metadata": {
+            "priority_tier": "HIGH",
+            "pyq_frequency": "7 out of last 10 years",
+            "max_mark_yield": "3 Marks"
+        },
+        "core_concept_mapping": {
+            "governing_principle": "Non-Ideal Solutions: Positive Deviation from Raoult's Law",
+            "molecular_interpretation": "The solute-solvent intermolecular forces (A-B type) are significantly weaker than the solute-solute (A-A) and solvent-solvent (B-B) forces. Because of these weaker mixed cohesive interactions, molecules find it easier to escape the bulk liquid phase, causing both partial vapour pressures and the total vapour pressure to rise above ideal, linear values (\\\\Delta_{\\\\text{mix}}H > 0, \\\\Delta_{\\\\text{mix}}V > 0)."
+        },
+        "cartesian_mechanics": {
+            "x_axis_parameter": "Mole fraction of components, \\\\chi_1 and \\\\chi_2 (Dimensionless)",
+            "y_axis_parameter": "Vapour pressure, p / mm Hg",
+            "boundary_conditions": "Left boundary: \\\\chi_1=0, \\\\chi_2=1 (pure component 2, p = p_2^0); Right boundary: \\\\chi_1=1, \\\\chi_2=0 (pure component 1, p = p_1^0)"
+        },
+        "svg_rendering_block": "<svg viewBox=\"0 0 500 400\" xmlns=\"http://www.w3.org/2000/svg\"><g id=\"axes\"><line x1=\"60\" y1=\"340\" x2=\"440\" y2=\"340\" stroke=\"#000000\" stroke-width=\"2\"/><line x1=\"60\" y1=\"40\" x2=\"60\" y2=\"340\" stroke=\"#000000\" stroke-width=\"2\"/><line x1=\"440\" y1=\"40\" x2=\"440\" y2=\"340\" stroke=\"#000000\" stroke-width=\"2\"/><text x=\"250\" y=\"385\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Mole fraction &rarr;</text><text x=\"20\" y=\"190\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" transform=\"rotate(-90 20 190)\">Vapour pressure &rarr;</text><text x=\"60\" y=\"358\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"middle\">x₁=0, x₂=1</text><text x=\"440\" y=\"358\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"middle\">x₁=1, x₂=0</text><text x=\"50\" y=\"204\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"end\">p₂&deg;</text><text x=\"450\" y=\"154\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"start\">p₁&deg;</text></g><g id=\"reference-lines\"><line x1=\"60\" y1=\"340\" x2=\"440\" y2=\"150\" stroke=\"#B0BEC5\" stroke-width=\"1.5\" stroke-dasharray=\"4,4\"/><line x1=\"60\" y1=\"200\" x2=\"440\" y2=\"340\" stroke=\"#B0BEC5\" stroke-width=\"1.5\" stroke-dasharray=\"4,4\"/><line x1=\"60\" y1=\"200\" x2=\"440\" y2=\"150\" stroke=\"#B0BEC5\" stroke-width=\"1.5\" stroke-dasharray=\"4,4\"/></g><g id=\"data-curves\"><path d=\"M 60 340 Q 250 160 440 150\" stroke=\"#1565C0\" stroke-width=\"2\" fill=\"none\"/><text x=\"310\" y=\"190\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#1565C0\">p₁</text><path d=\"M 60 200 Q 250 180 440 340\" stroke=\"#E53935\" stroke-width=\"2\" fill=\"none\"/><text x=\"180\" y=\"210\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#E53935\">p₂</text><path d=\"M 60 200 C 160 80, 320 80, 440 150\" stroke=\"#2E7D32\" stroke-width=\"3\" fill=\"none\"/><text x=\"250\" y=\"70\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2E7D32\" text-anchor=\"middle\">p_total (Solution)</text></g></svg>",
+        "mathematical_anatomy": {
+            "governing_equation": "p_1 > p_1^0 \\\\chi_1, \\\\quad p_2 > p_2^0 \\\\chi_2, \\\\quad p_{\\\\text{total}} > p_1^0 \\\\chi_1 + p_2^0 \\\\chi_2",
+            "slope_identity": "N/A (Non-linear curves with continuously shifting instantaneous slopes)",
+            "intercept_identity": "Left-axis boundary matches p_2^0; Right-axis boundary matches p_1^0",
+            "linearity_profile": "Curved Upward"
+        },
+        "critical_nodes_and_anomalies": [
+            {
+                "node_name": "Maximum Vapour Pressure Azeotropic Node",
+                "coordinates_or_region": "Peak point of the green solid curve near position (250, 75)",
+                "physical_significance": "Identifies the specific composition forming a minimum-boiling azeotrope. At this coordinate, the liquid mixture boils at a constant minimum temperature without change in composition."
+            }
+        ],
+        "silly_mistake_tracker": {
+            "axis_inversion_trap": "Reversing left and right component indices from standard textbook layouts, leading to inverted slopes for the underlying ideal linear baselines.",
+            "unit_mismatch_warning": "Confusing positive deviation with a negative enthalpy of mixing (\\\\Delta H_{\\\\text{mix}} < 0). Endothermic processes generate positive deviations.",
+            "extrapolation_error": "Drawing real non-ideal partial curves sagging below the linear reference dashed lines instead of bowing outward above them."
+        },
+        "exhaustive_question_bank": [
+            {
+                "question_type": "Analytical Interpretation",
+                "question_text": "What type of deviation from Raoult's law is shown by a mixture of ethanol and acetone? Explain the cause of this deviation on a molecular level and draw the complete vapour pressure diagram.",
+                "examiner_marking_rubric": "1 Mark: Clearly states positive deviation from Raoult's law. 1 Mark: Molecular explanation citing that acetone breaks up hydrogen bonds among ethanol molecules, weakening A-B interactions. 1 Mark: Graph showing three curves bulging upwards above the ideal lines.",
+                "perfect_response_script": "A mixture of ethanol and acetone exhibits <b>positive deviation from Raoult's Law</b>. In pure ethanol, molecules are strongly connected via <b>intermolecular hydrogen bonding</b>. Upon adding acetone, its molecules get in between ethanol clusters, <b>breaking some hydrogen bonds</b>. <br>This makes the <b>solute-solvent (A-B) interactions weaker than pure-state interactions</b>. As a result, molecules escape more easily, creating a vapour pressure higher than ideal behavior. The graph reflects this with <b>three upward-bulging curves</b> lying above the dashed linear baselines."
+            }
+        ]
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 1,
+            "graph_index": 5,
+            "chapter_complete": false
+        },
+        "graph_id": "GRAPH_05",
+        "graph_name": "Fig. 1.6 (b): Vapour pressure of a two-component system showing negative deviation from Raoult's law",
+        "metadata": {
+            "priority_tier": "HIGH",
+            "pyq_frequency": "7 out of last 10 years",
+            "max_mark_yield": "3 Marks"
+        },
+        "core_concept_mapping": {
+            "governing_principle": "Non-Ideal Solutions: Negative Deviation from Raoult's Law",
+            "molecular_interpretation": "The solute-solvent intermolecular cohesive forces (A-B interactions) are stronger than solute-solute (A-A) and solvent-solvent (B-B) attractive forces. This increased structural containment within the liquid mixture restricts molecules from escaping into the vapour phase, lowering partial pressures and total vapour pressure below ideal linear predictions (\\\\Delta_{\\\\text{mix}}H < 0, \\\\Delta_{\\\\text{mix}}V < 0)."
+        },
+        "cartesian_mechanics": {
+            "x_axis_parameter": "Mole fraction of components, \\\\chi_1 and \\\\chi_2 (Dimensionless)",
+            "y_axis_parameter": "Vapour pressure, p / mm Hg",
+            "boundary_conditions": "Left boundary: \\\\chi_1=0, \\\\chi_2=1 (pure component 2, p = p_2^0); Right boundary: \\\\chi_1=1, \\\\chi_2=0 (pure component 1, p = p_1^0)"
+        },
+        "svg_rendering_block": "<svg viewBox=\"0 0 500 400\" xmlns=\"http://www.w3.org/2000/svg\"><g id=\"axes\"><line x1=\"60\" y1=\"340\" x2=\"440\" y2=\"340\" stroke=\"#000000\" stroke-width=\"2\"/><line x1=\"60\" y1=\"40\" x2=\"60\" y2=\"340\" stroke=\"#000000\" stroke-width=\"2\"/><line x1=\"440\" y1=\"40\" x2=\"440\" y2=\"340\" stroke=\"#000000\" stroke-width=\"2\"/><text x=\"250\" y=\"385\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Mole fraction &rarr;</text><text x=\"20\" y=\"190\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" transform=\"rotate(-90 20 190)\">Vapour pressure &rarr;</text><text x=\"60\" y=\"358\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"middle\">x₁=0, x₂=1</text><text x=\"440\" y=\"358\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"middle\">x₁=1, x₂=0</text><text x=\"50\" y=\"204\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"end\">p₂&deg;</text><text x=\"450\" y=\"154\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"start\">p₁&deg;</text></g><g id=\"reference-lines\"><line x1=\"60\" y1=\"340\" x2=\"440\" y2=\"150\" stroke=\"#B0BEC5\" stroke-width=\"1.5\" stroke-dasharray=\"4,4\"/><line x1=\"60\" y1=\"200\" x2=\"440\" y2=\"340\" stroke=\"#B0BEC5\" stroke-width=\"1.5\" stroke-dasharray=\"4,4\"/><line x1=\"60\" y1=\"200\" x2=\"440\" y2=\"150\" stroke=\"#B0BEC5\" stroke-width=\"1.5\" stroke-dasharray=\"4,4\"/></g><g id=\"data-curves\"><path d=\"M 60 340 Q 250 310 440 150\" stroke=\"#1565C0\" stroke-width=\"2\" fill=\"none\"/><text x=\"280\" y=\"280\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#1565C0\">p₁</text><path d=\"M 60 200 Q 250 320 440 340\" stroke=\"#E53935\" stroke-width=\"2\" fill=\"none\"/><text x=\"160\" y=\"290\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#E53935\">p₂</text><path d=\"M 60 200 C 160 280, 320 260, 440 150\" stroke=\"#2E7D32\" stroke-width=\"3\" fill=\"none\"/><text x=\"250\" y=\"220\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2E7D32\" text-anchor=\"middle\">p_total (Solution)</text></g></svg>",
+        "mathematical_anatomy": {
+            "governing_equation": "p_1 < p_1^0 \\\\chi_1, \\\\quad p_2 < p_2^0 \\\\chi_2, \\\\quad p_{\\\\text{total}} < p_1^0 \\\\chi_1 + p_2^0 \\\\chi_2",
+            "slope_identity": "N/A (Non-linear curves with continuously shifting instantaneous slopes)",
+            "intercept_identity": "Left-axis boundary matches p_2^0; Right-axis boundary matches p_1^0",
+            "linearity_profile": "Curved Downward"
+        },
+        "critical_nodes_and_anomalies": [
+            {
+                "node_name": "Minimum Vapour Pressure Azeotropic Node",
+                "coordinates_or_region": "Valley/lowest localized point on the green total curve near position (280, 240)",
+                "physical_significance": "Represents the dynamic critical composition that yields a maximum-boiling azeotrope. The solution at this exact ratio boils at a constant maximum temperature without any changes to its liquid-vapour matrix."
+            }
+        ],
+        "silly_mistake_tracker": {
+            "axis_inversion_trap": "Inadvertently mapping curves bulging upward because students associate negative deviation with a maximum boiling temperature, mistakenly plotting temperature instead of vapour pressure.",
+            "unit_mismatch_warning": "Assuming that a decrease in total vapour pressure implies an increase in chemical volume, whereas mixing actually causes net volume contraction (\\\\Delta V_{\\\\text{mix}} < 0).",
+            "extrapolation_error": "Allowing the sagging curves to accidentally cross above or intersect the linear reference dashed lines."
+        },
+        "exhaustive_question_bank": [
+            {
+                "question_type": "Analytical Interpretation",
+                "question_text": "A mixture of chloroform and acetone shows a negative deviation from Raoult's law. Rationalize this statement in terms of intermolecular forces. Sketch the associated vapour pressure curves.",
+                "examiner_marking_rubric": "1 Mark: Identifies that chloroform forms strong new hydrogen bonds with acetone molecules. 1 Mark: Explains that the A-B attractive forces are stronger than individual component forces, reducing escape rates. 1 Mark: Draws three downward-bulging curves sagging below ideal straight lines.",
+                "perfect_response_script": "A mixture of chloroform and acetone exhibits a <b>negative deviation from Raoult's Law</b>. This is caused by the formation of a <b>strong intermolecular hydrogen bond between the chloroform proton and the carbonyl oxygen of acetone</b>. <br>As a consequence, the <b>new A-B attractive forces are stronger than the original A-A and B-B forces</b>, significantly reducing the escaping tendency of both molecules. This drops the system's vapour pressure below ideal values, generating a graph with <b>three downward-sagging curves</b>."
+            }
+        ]
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 2,
+            "graph_index": 6,
+            "chapter_complete": true
+        },
+        "graph_id": "GRAPH_06",
+        "graph_name": "Fig. 1.7: The vapour pressure curve for solution lies below the curve for pure water. The diagram shows that \\\\Delta T_b denotes the elevation of boiling point of a solvent in solution.",
+        "metadata": {
+            "priority_tier": "HIGH",
+            "pyq_frequency": "8 out of last 10 years",
+            "max_mark_yield": "3 Marks"
+        },
+        "core_concept_mapping": {
+            "governing_principle": "Elevation of Boiling Point (Colligative Property)",
+            "molecular_interpretation": "The boiling point of a liquid is the temperature at which its vapour pressure becomes equal to the external atmospheric pressure (1.013 bar). The dissolution of a non-volatile solute reduces the active surface area of the solvent, causing a systematic drop in vapour pressure across all temperatures. Consequently, the solution's vapour pressure curve lies completely beneath the pure solvent baseline, requiring additional thermal energy to elevate its vapour pressure to 1.013 bar ($T_b > T_b^0$)."
+        },
+        "cartesian_mechanics": {
+            "x_axis_parameter": "Temperature measured in Kelvin, T / K",
+            "y_axis_parameter": "Vapour pressure of the system (Dimensionless scale or in bar/atm)",
+            "boundary_conditions": "Lower boundary: baseline liquid states before boiling; Upper boundary: 1.013 bar horizontal isobar intersecting the pure solvent curve at $T_b^0$ and the solution curve at $T_b$."
+        },
+        "svg_rendering_block": "<svg viewBox=\"0 0 500 400\" xmlns=\"http://www.w3.org/2000/svg\"><g id=\"axes\"><line x1=\"60\" y1=\"340\" x2=\"460\" y2=\"340\" stroke=\"#000000\" stroke-width=\"2\"/><line x1=\"60\" y1=\"40\" x2=\"60\" y2=\"340\" stroke=\"#000000\" stroke-width=\"2\"/><text x=\"260\" y=\"385\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Temperature / K &rarr;</text><text x=\"20\" y=\"190\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" transform=\"rotate(-90 20 190)\">Vapour pressure &rarr;</text></g><g id=\"reference-lines\"><line x1=\"60\" y1=\"140\" x2=\"440\" y2=\"140\" stroke=\"#757575\" stroke-width=\"1.5\" stroke-dasharray=\"4,4\"/><text x=\"445\" y=\"135\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#757575\" text-anchor=\"end\">1.013 bar (1 atm)</text><line x1=\"220\" y1=\"140\" x2=\"220\" y2=\"340\" stroke=\"#9E9E9E\" stroke-width=\"1.2\" stroke-dasharray=\"3,3\"/><line x1=\"320\" y1=\"140\" x2=\"320\" y2=\"340\" stroke=\"#9E9E9E\" stroke-width=\"1.2\" stroke-dasharray=\"3,3\"/><text x=\"220\" y=\"355\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\">T_b&deg;</text><text x=\"320\" y=\"355\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\">T_b</text><line x1=\"220\" y1=\"240\" x2=\"320\" y2=\"240\" stroke=\"#000000\" stroke-width=\"1\"/><polygon points=\"220,240 225,236 225,244\" fill=\"#000000\"/><polygon points=\"320,240 315,236 315,244\" fill=\"#000000\"/><text x=\"270\" y=\"232\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\">&Delta;T_b</text></g><g id=\"data-curves\"><path d=\"M 100 260 Q 160 190 260 100\" stroke=\"#1565C0\" stroke-width=\"2.5\" fill=\"none\"/><text x=\"120\" y=\"210\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#1565C0\">Pure solvent</text><path d=\"M 160 300 Q 240 210 360 110\" stroke=\"#E53935\" stroke-width=\"2.5\" fill=\"none\"/><text x=\"200\" y=\"290\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#E53935\">Solution</text></g></svg>",
+        "mathematical_anatomy": {
+            "governing_equation": "\\\\Delta T_b = T_b - T_b^0 = K_b m",
+            "slope_identity": "N/A (Curves represent non-linear exponential trends controlled by Clausius-Clapeyron dependencies)",
+            "intercept_identity": "N/A",
+            "linearity_profile": "Curved Upward"
+        },
+        "critical_nodes_and_anomalies": [
+            {
+                "node_name": "Solvent Isobaric Boiling Node",
+                "coordinates_or_region": "Intersection of the upper blue curve with the horizontal dashed line at canvas position (220, 140)",
+                "physical_significance": "Defines the exact thermal threshold ($T_b^0$) where pure solvent particles possess sufficient dynamic energy to boil openly against external atmospheric pressure."
+            },
+            {
+                "node_name": "Solution Isobaric Boiling Node",
+                "coordinates_or_region": "Intersection of the lower red curve with the horizontal dashed line at canvas position (320, 140)",
+                "physical_significance": "Defines the elevated temperature coordinate ($T_b$) necessary to force the non-volatile solute-solvent system up to atmospheric boiling pressure constraints."
+            }
+        ],
+        "silly_mistake_tracker": {
+            "axis_inversion_trap": "Examiners often flip the layout to put Temperature on the vertical axis and Vapour Pressure on the horizontal axis, reversing the physical orientation of the curves.",
+            "unit_mismatch_warning": "Failing to convert standard mass metrics of solute to molality ($m$), or incorrectly substituting molarity ($M$) in calculations meant strictly for molal constants ($K_b$).",
+            "extrapolation_error": "Mislabeled delta sequence by stating $\\\\Delta T_b = T_b^0 - T_b$, creating an impossible negative thermal shift value."
+        },
+        "exhaustive_question_bank": [
+            {
+                "question_type": "Analytical Interpretation",
+                "question_text": "With the help of a neat vapour pressure-temperature diagram, explain why the boiling point of a solvent increases upon addition of a non-volatile solute.",
+                "examiner_marking_rubric": "1 Mark: Accurate structural drawing of vapor pressure curves for both pure solvent and solution with an explicit horizontal 1 atm isobar line. 1 Mark: Correct identification and clear graphical marking of $T_b^0$, $T_b$, and the interval $\\Delta T_b$. 1 Mark: Clear molecular explanation connecting surface area blocking to a lowered vapor pressure profile.",
+                "perfect_response_script": "When a non-volatile solute is added to a volatile solvent, <b>solute particles block a fraction of the liquid surface area, lowering the solvent's overall vapour pressure</b> at all temperatures. <br>As shown in the graph, the vapour pressure curve of the <b>solution lies completely below that of the pure solvent</b>. Since boiling occurs only when the vapour pressure reaches 1.013 bar (1 atm), the <b>solution must be heated to a higher temperature ($T_b$) than the pure solvent ($T_b^0$)</b> to meet this requirement, leading to an <b>elevation of the boiling point: $\\Delta T_b = T_b - T_b^0$</b>."
+            }
+        ]
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 2,
+            "graph_index": 7,
+            "chapter_complete": true
+        },
+        "graph_id": "GRAPH_07",
+        "graph_name": "Fig. 1.8: Diagram showing \\\\Delta T_f, depression of the freezing point of a solvent in a solution.",
+        "metadata": {
+            "priority_tier": "HIGH",
+            "pyq_frequency": "9 out of last 10 years",
+            "max_mark_yield": "3 Marks"
+        },
+        "core_concept_mapping": {
+            "governing_principle": "Depression of Freezing Point (Colligative Property)",
+            "molecular_interpretation": "The freezing point corresponds to the precise temperature coordinate where a substance's liquid phase shares an identical vapour pressure profile with its solid crystalline phase. Because adding a non-volatile solute reduces the solution's vapour pressure below the pure liquid baseline, the solution's curve intersects the steep frozen solvent curve at an earlier, depressed temperature value ($T_f < T_f^0$)."
+        },
+        "cartesian_mechanics": {
+            "x_axis_parameter": "Temperature measured in Kelvin, T / K",
+            "y_axis_parameter": "Vapour pressure of the phases (Dimensionless scale or in mm Hg/bar)",
+            "boundary_conditions": "Left boundary: low-temperature solid state zone; Right boundary: high-temperature liquid phase zone; Curves meet at phase boundary intersections."
+        },
+        "svg_rendering_block": "<svg viewBox=\"0 0 500 400\" xmlns=\"http://www.w3.org/2000/svg\"><g id=\"axes\"><line x1=\"60\" y1=\"340\" x2=\"460\" y2=\"340\" stroke=\"#000000\" stroke-width=\"2\"/><line x1=\"60\" y1=\"40\" x2=\"60\" y2=\"340\" stroke=\"#000000\" stroke-width=\"2\"/><text x=\"260\" y=\"385\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Temperature / K &rarr;</text><text x=\"20\" y=\"190\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" transform=\"rotate(-90 20 190)\">Vapour pressure &rarr;</text></g><g id=\"reference-lines\"><line x1=\"160\" y1=\"180\" x2=\"160\" y2=\"340\" stroke=\"#9E9E9E\" stroke-width=\"1.2\" stroke-dasharray=\"3,3\"/><line x1=\"220\" y1=\"100\" x2=\"220\" y2=\"340\" stroke=\"#9E9E9E\" stroke-width=\"1.2\" stroke-dasharray=\"3,3\"/><text x=\"160\" y=\"355\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\">T_f</text><text x=\"220\" y=\"355\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\">T_f&deg;</text><line x1=\"160\" y1=\"240\" x2=\"220\" y2=\"240\" stroke=\"#000000\" stroke-width=\"1\"/><polygon points=\"160,240 165,236 165,244\" fill=\"#000000\"/><polygon points=\"220,240 215,236 215,244\" fill=\"#000000\"/><text x=\"190\" y=\"232\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\">&Delta;T_f</text></g><g id=\"data-curves\"><path d=\"M 100 300 Q 150 200 220 100\" stroke=\"#37474F\" stroke-width=\"3\" fill=\"none\"/><text x=\"115\" y=\"190\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#37474F\" transform=\"rotate(-40 115 190)\">Frozen solvent</text><path d=\"M 220 100 Q 320 70 420 50\" stroke=\"#1565C0\" stroke-width=\"2.5\" fill=\"none\"/><text x=\"310\" y=\"65\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#1565C0\">Liquid solvent</text><path d=\"M 160 180 Q 290 130 420 100\" stroke=\"#E53935\" stroke-width=\"2.5\" fill=\"none\"/><text x=\"310\" y=\"125\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#E53935\">Solution</text></g></svg>",
+        "mathematical_anatomy": {
+            "governing_equation": "\\\\Delta T_f = T_f^0 - T_f = K_f m",
+            "slope_identity": "N/A (Curves governed by thermodynamic sublimation and vaporization vapor pressure exponential pathways)",
+            "intercept_identity": "N/A",
+            "linearity_profile": "Curved Upward"
+        },
+        "critical_nodes_and_anomalies": [
+            {
+                "node_name": "Pure Solvent Freezing Coordinate",
+                "coordinates_or_region": "Intersection between the steep dark frozen solvent curve and the blue liquid solvent curve at position (220, 100)",
+                "physical_significance": "The exact thermodynamic temperature ($T_f^0$) where pure liquid solvent transitions into a solid structure under equilibrium."
+            },
+            {
+                "node_name": "Solution Freezing Coordinate",
+                "coordinates_or_region": "Intersection between the steep dark frozen solvent curve and the red liquid solution curve at position (160, 180)",
+                "physical_significance": "The depressed temperature target ($T_f$) where the solution achieves vapor equilibrium with the solid phase, initiating crystal nucleation."
+            }
+        ],
+        "silly_mistake_tracker": {
+            "axis_inversion_trap": "Students often draw the solution curve intersecting the frozen solvent curve to the right of $T_f^0$, which incorrectly shows an elevation of the freezing point.",
+            "unit_mismatch_warning": "Confusing the cryoscopic constant ($K_f$) with the ebullioscopic constant ($K_b$) when working through multi-part numerical problems.",
+            "extrapolation_error": "Mislabeled delta sequence by stating $\\\\Delta T_f = T_f - T_f^0$, resulting in an incorrect negative value for the colligative property magnitude."
+        },
+        "exhaustive_question_bank": [
+            {
+                "question_type": "Analytical Interpretation",
+                "question_text": "Define freezing point. Show diagrammatically that the freezing point of a solvent is depressed when a non-volatile solute is dissolved in it.",
+                "examiner_marking_rubric": "1 Mark: Concise definition matching liquid-solid vapor pressure equilibrium. 1 Mark: Neatly drawn graph with distinct curves for frozen solvent, pure liquid solvent, and solution. 1 Mark: Correct assignment showing $T_f$ positioned to the left of $T_f^0$, yielding a clear visual representation of $\\Delta T_f$.",
+                "perfect_response_script": "The <b>freezing point</b> is defined as the temperature at which the <b>vapour pressure of the substance in its liquid phase equals the vapour pressure of its solid phase</b>. <br>When a non-volatile solute is added, the vapour pressure of the solvent decreases. As a result, the <b>solution's vapour pressure curve runs below the pure solvent curve</b>. It intersects the <b>frozen solvent curve at a lower temperature ($T_f$) compared to the pure liquid solvent ($T_f^0$)</b>, as illustrated in the graph. This shift is known as the <b>depression of freezing point ($\\Delta T_f = T_f^0 - T_f$)</b>."
+            }
+        ]
+    }
+]

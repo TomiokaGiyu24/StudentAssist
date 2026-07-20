@@ -1,0 +1,212 @@
+{
+  "meta": {
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "board": "CBSE",
+    "exam": "Class 12 Board Examination"
+  },
+  "questions": [
+    {
+      "id": "55-4-1-Q12",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "The variation of the reactance of a capacitor (X_C) with the frequency (f) of the AC source is represented by the graph:",
+      "options": {
+        "A": "[Graph showing rectangular hyperbola]",
+        "B": "[Graph showing straight line through origin]",
+        "C": "[Graph showing horizontal line]",
+        "D": "[Graph showing parabolic curve]"
+      },
+      "answer": {
+        "explanation": "Capacitive reactance is given by $X_C = \\frac{1}{2\\pi f C}$.\\nThis implies $X_C \\propto \\frac{1}{f}$.\\nThe graph of $X_C$ versus $f$ is a rectangular hyperbola (decreasing curve approaching axes asymptotically).",
+        "key_formulae": [
+          "X_C = \\frac{1}{\\omega C}"
+        ],
+        "diagrams": [
+          ""
+        ]
+      },
+      "correct_option": "A",
+      "diagram_required": true,
+      "source": "55/4/1",
+      "diagram_url": "/images/Physics/PYQs/chapter7/55-4-1-Q12.png",
+      "image": "/images/Physics/Derivations/Variation of Induced EMF with time.png"
+    },
+    {
+      "id": "55-4-3-Q6",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "An AC voltage $v = v_0 \\sin \\omega t$ is applied to a series LCR circuit. At resonance, the phase difference between the voltage and the current is:",
+      "options": {
+        "A": "Zero",
+        "B": "$\\pi/4$",
+        "C": "$\\pi/2$",
+        "D": "$\\pi$"
+      },
+      "answer": {
+        "explanation": "At resonance in a series LCR circuit, the inductive reactance ($X_L$) equals the capacitive reactance ($X_C$).\\nThe impedance $Z = \\sqrt{R^2 + (X_L - X_C)^2} = R$.\\nThe circuit behaves as a purely resistive circuit.\\nIn a resistive circuit, voltage and current are in phase. Phase difference $\\phi = 0$.",
+        "key_formulae": [
+          "\\tan \\phi = \\frac{X_L - X_C}{R}"
+        ],
+        "diagrams": []
+      },
+      "correct_option": "A",
+      "diagram_required": false,
+      "source": "55/4/3"
+    },
+    {
+      "id": "55-5-3-Q7",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "The ratio of the number of turns in the secondary coil to that in the primary coil of a step-up transformer is 4:1. If the input voltage is 20 V, the output voltage is:",
+      "options": {
+        "A": "5 V",
+        "B": "20 V",
+        "C": "40 V",
+        "D": "80 V"
+      },
+      "answer": {
+        "explanation": "For a transformer: $\\frac{V_s}{V_p} = \\frac{N_s}{N_p}$.\\nGiven $\\frac{N_s}{N_p} = \\frac{4}{1}$ and $V_p = 20$ V.\n$V_s = V_p \\times \\frac{N_s}{N_p} = 20 \\times 4 = 80$ V.",
+        "key_formulae": [
+          "\\frac{V_s}{V_p} = \\frac{N_s}{N_p}"
+        ],
+        "diagrams": []
+      },
+      "correct_option": "D",
+      "diagram_required": false,
+      "source": "55/5/3"
+    },
+    {
+      "id": "55-6-1-Q8",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "In a series LCR circuit, the voltage across the resistor, inductor and capacitor are 20 V, 60 V and 20 V respectively. The voltage of the AC source is:",
+      "options": {
+        "A": "20 V",
+        "B": "60 V",
+        "C": "100 V",
+        "D": "20\\sqrt{5} V"
+      },
+      "answer": {
+        "explanation": "The source voltage $V$ in a series LCR circuit is given by the phasor sum: $V = \\sqrt{V_R^2 + (V_L - V_C)^2}$.\\nGiven $V_R = 20$ V, $V_L = 60$ V, $V_C = 20$ V.\n$V = \\sqrt{20^2 + (60 - 20)^2} = \\sqrt{20^2 + 40^2} = \\sqrt{400 + 1600} = \\sqrt{2000} = 20\\sqrt{5}$ V.",
+        "key_formulae": [
+          "V = \\sqrt{V_R^2 + (V_L - V_C)^2}"
+        ],
+        "diagrams": []
+      },
+      "correct_option": "D",
+      "diagram_required": false,
+      "source": "55/6/1"
+    },
+    {
+      "id": "55-4-3-Q17",
+      "year": 2023,
+      "marks": 1,
+      "type": "assertion_reason",
+      "question": "",
+      "assertion": "In a series LCR circuit, at resonance, the current is maximum.",
+      "reason": "At resonance, the impedance of the circuit is minimum and equal to the resistance of the circuit.",
+      "options": {
+        "A": "Both A and R are true and R is the correct explanation of A",
+        "B": "Both A and R are true but R is NOT the correct explanation of A",
+        "C": "A is true but R is false",
+        "D": "A is false and R is also false"
+      },
+      "answer": {
+        "explanation": "Assertion is True: Current $I = V/Z$. For $I$ to be maximum, $Z$ must be minimum.\\nReason is True: At resonance ($X_L = X_C$), the impedance $Z = \\sqrt{R^2 + (X_L - X_C)^2}$ becomes $Z_{min} = R$. This minimum impedance results in maximum current.\\nThe Reason correctly explains why the current is maximum.",
+        "key_formulae": [],
+        "diagrams": []
+      },
+      "correct_option": "A",
+      "diagram_required": false,
+      "source": "55/4/3"
+    },
+    {
+      "id": "55-4-3-Q22",
+      "year": 2023,
+      "marks": 2,
+      "type": "numerical",
+      "question": "A series LCR circuit with R = 20 $\\Omega$, L = 1.5 H and C = 35 $\\mu$F is connected to a variable-frequency 200 V AC supply. When the frequency of the supply equals the natural frequency of the circuit, what is the average power transferred to the circuit in one complete cycle?",
+      "options": {},
+      "answer": {
+        "explanation": "GIVEN:\n$R = 20 \\Omega, L = 1.5 H, C = 35 \\mu F$.\n$V_{rms} = 200$ V.\\nCondition: Supply frequency = Natural frequency (Resonance).\n\\nSTEPS:\n1. At resonance, $X_L = X_C$, and Impedance $Z = R = 20 \\Omega$.\n2. Current in the circuit $I_{rms} = V_{rms} / Z = 200 / 20 = 10$ A.\n3. Average Power $P = V_{rms} I_{rms} \\cos \\phi$.\n4. At resonance, phase angle $\\phi = 0$, so Power Factor $\\cos \\phi = 1$.\n5. $P = 200 \\times 10 \\times 1 = 2000$ W.\n\\nFINAL RESULT:\\nAverage Power = 2000 W.",
+        "key_formulae": [
+          "P = I_{rms}^2 R",
+          "Z_{res} = R"
+        ],
+        "diagrams": []
+      },
+      "diagram_required": false,
+      "source": "55/4/3"
+    },
+    {
+      "id": "55-6-1-Q29",
+      "year": 2023,
+      "marks": 3,
+      "type": "theory",
+      "question": "(i) Derive an expression for the impedance of a series LCR circuit connected to an AC source of variable frequency.\n(ii) Plot a graph showing variation of current with the frequency of the applied voltage.",
+      "options": {},
+      "answer": {
+        "explanation": "(i) DERIVATION:\n1. Consider a series LCR circuit with current $I = I_m \\sin(\\omega t)$.\n2. Voltages across components:\n   $V_R$ is in phase with $I$.\n   $V_L$ leads $I$ by $\\pi/2$.\n   $V_C$ lags $I$ by $\\pi/2$.\n3. Phasor Diagram: Take $I$ as reference. $V_R$ is horizontal. $V_L$ is vertical up, $V_C$ is vertical down.\n4. Net Voltage $V = \\sqrt{V_R^2 + (V_L - V_C)^2}$.\n5. Substitute $V = IZ$: $I Z = \\sqrt{(IR)^2 + (IX_L - IX_C)^2}$.\n6. $Z = \\sqrt{R^2 + (X_L - X_C)^2}$.\n\n(ii) GRAPH:\n   - Plot Current ($I$) on Y-axis vs Frequency ($\\omega$ or $f$) on X-axis.\n   - The curve starts low, rises to a sharp peak ($I_{max} = V/R$) at resonant frequency $\\omega_r = 1/\\sqrt{LC}$, and then decreases.\n   - This is the Resonance Curve.",
+        "key_formulae": [
+          "Z = \\sqrt{R^2 + (\\omega L - \\frac{1}{\\omega C})^2}"
+        ],
+        "diagrams": [
+          "[Image of LCR circuit phasor diagram]",
+          ""
+        ]
+      },
+      "diagram_required": true,
+      "source": "55/6/1",
+      "diagram_url": "/images/Physics/PYQs/chapter7/55-6-1-Q29.png",
+      "image": "/images/Physics/Derivations/Variation of Induced EMF with time.png"
+    },
+    {
+      "id": "55-5-3-Q32",
+      "year": 2023,
+      "marks": 5,
+      "type": "theory",
+      "question": "(a) Draw the diagram of a step-up transformer. Explain its working principle. Why is the core laminated?\n(b) An ideal step-up transformer has a turns ratio of 1:100. The primary coil is connected to a 220 V mains supply. If the current in the primary coil is 5 A, calculate: (i) the voltage across the secondary, (ii) the current in the secondary, (iii) power output.",
+      "options": {},
+      "answer": {
+        "explanation": "(a) THEORY:\n   - **Diagram:** Show primary coil ($N_p$), secondary coil ($N_s$ where $N_s > N_p$), and soft iron core.\n   - **Principle:** Mutual Induction. An alternating current in the primary coil produces a changing magnetic flux, which links with the secondary coil inducing an emf in it.\n   - **Laminated Core:** To reduce energy loss due to Eddy Currents. Laminations increase resistance to the path of eddy currents, minimizing heat loss ($P = I^2R$).\n\n(b) NUMERICAL:\n   GIVEN: $N_p:N_s = 1:100 \\implies N_s/N_p = 100$.\n   $V_p = 220$ V, $I_p = 5$ A.\n   \n   (i) Voltage across secondary ($V_s$):\n   $V_s / V_p = N_s / N_p \\implies V_s = 220 \\times 100 = 22000$ V.\n   \n   (ii) Current in secondary ($I_s$):\n   For ideal transformer, $P_{in} = P_{out} \\implies V_p I_p = V_s I_s$.\n   $220 \\times 5 = 22000 \\times I_s$.\n   $1100 = 22000 I_s \\implies I_s = 1100 / 22000 = 1/20 = 0.05$ A.\n   \n   (iii) Power Output ($P_{out}$):\n   $P_{out} = V_s I_s = 22000 \\times 0.05 = 1100$ W.\n   (Or simply $P_{out} = P_{in} = 220 \\times 5 = 1100$ W).\n\\nFINAL RESULT:\n(i) 22000 V (22 kV)\n(ii) 0.05 A\n(iii) 1100 W",
+        "key_formulae": [
+          "\\frac{V_s}{V_p} = \\frac{N_s}{N_p} = \\frac{I_p}{I_s}",
+          "P = VI"
+        ],
+        "diagrams": [
+          "[Image of step-up transformer diagram]"
+        ]
+      },
+      "diagram_required": true,
+      "source": "55/5/3",
+      "diagram_url": "/images/Physics/PYQs/chapter7/55-5-3-Q32.png"
+    },
+    {
+      "id": "55-5-3-Q32-OR",
+      "year": 2023,
+      "marks": 5,
+      "type": "theory",
+      "question": "(a) Discuss the LC oscillations in a circuit containing an inductor of inductance L and a capacitor of capacitance C. Show that the total energy in the circuit is constant.\n(b) A 20 $\\mu$F capacitor is charged to 30 V and then connected across a 5 mH inductor. Calculate the angular frequency of oscillation.",
+      "options": {},
+      "answer": {
+        "explanation": "(a) LC OSCILLATIONS:\n   - **Explanation:** When a charged capacitor is connected to an inductor, electrostatic energy ($U_E$) stored in the capacitor starts converting into magnetic energy ($U_B$) in the inductor. Current flows, $C$ discharges, $L$ builds flux. When $C$ is empty, $L$ maintains current (Lenz's law) recharging $C$ in opposite polarity. This energy toggles back and forth.\n   - **Conservation of Energy:**\n     Total Energy $U = U_E + U_B = \\frac{q^2}{2C} + \\frac{1}{2}Li^2$.\n     Since $i = dq/dt$, and from Kirchhoff's law $\\frac{q}{C} + L\\frac{di}{dt} = 0 \\implies \\frac{d^2q}{dt^2} + \\frac{1}{LC}q = 0$.\n     Solution $q = q_0 \\cos(\\omega t)$. Current $i = -q_0 \\omega \\sin(\\omega t)$.\n     $U = \\frac{q_0^2 \\cos^2 \\omega t}{2C} + \\frac{1}{2}L (-q_0 \\omega \\sin \\omega t)^2$.\n     Substitute $\\omega^2 = 1/LC$:\n     $U = \\frac{q_0^2}{2C} (\\cos^2 \\omega t + \\sin^2 \\omega t) = \\frac{q_0^2}{2C} = \\text{Constant}$.\n\n(b) NUMERICAL:\n   GIVEN: $C = 20 \\mu F = 20 \\times 10^{-6}$ F, $L = 5$ mH $= 5 \\times 10^{-3}$ H.\n   Angular Frequency $\\omega = \\frac{1}{\\sqrt{LC}}$.\n   $\\omega = \\frac{1}{\\sqrt{5 \\times 10^{-3} \\times 20 \\times 10^{-6}}}$.\n   $\\omega = \\frac{1}{\\sqrt{100 \\times 10^{-9}}} = \\frac{1}{\\sqrt{10^{-7}}} = \\frac{1}{3.16 \\times 10^{-4}}$? Check power: $\\sqrt{10^{-7}} = 10^{-3.5}$ is messy. Let's recheck product.\n   $LC = 5 \\times 10^{-3} \\times 20 \\times 10^{-6} = 100 \\times 10^{-9} = 10^{-7}$.\n   $\\omega = 1 / \\sqrt{10^{-7}} = \\sqrt{10^7} = \\sqrt{10 \\times 10^6} = 1000\\sqrt{10} \\approx 3162$ rad/s.\n\\nFINAL RESULT:\\nAngular frequency $\\approx 3162$ rad/s.",
+        "key_formulae": [
+          "\\omega = \\frac{1}{\\sqrt{LC}}",
+          "U = \\frac{1}{2}CV^2"
+        ],
+        "diagrams": [
+          ""
+        ]
+      },
+      "diagram_required": true,
+      "source": "55/5/3",
+      "diagram_url": "/images/Physics/PYQs/chapter7/55-5-3-Q32-OR.png"
+    }
+  ],
+  "diagram_required": true
+}

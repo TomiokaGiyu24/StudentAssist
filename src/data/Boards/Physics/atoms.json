@@ -1,0 +1,232 @@
+{
+  "meta": {
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "class": 12,
+    "board": "CBSE"
+  },
+  "notes": [
+    {
+      "type": "concept",
+      "title": "Alpha-particle Scattering Experiment",
+      "points": [
+        "Performed by Geiger and Marsden under Rutherford's suggestion.",
+        "Directed a beam of 5.5 MeV alpha particles at a thin gold foil (thickness 2.1 x 10^-7 m).",
+        "Observations: Most particles passed straight through; some were scattered by small angles; a very few (1 in 8000) were deflected by more than 90 degrees."
+      ]
+    },
+    {
+      "type": "diagram",
+      "title": "Geiger-Marsden Experiment Setup",
+      "image": "/images/Physics/Derivations/Geiger-Marsden Experiment Setup.png",
+      "caption": "Alpha particles from source collimated by lead bricks strike gold foil; scattered particles detected by rotatable detector."
+    },
+    {
+      "type": "concept",
+      "title": "Rutherford's Nuclear Model of Atom",
+      "points": [
+        "Most of the space in an atom is empty.",
+        "The entire positive charge and most of the mass of the atom are concentrated in a tiny central core called the nucleus.",
+        "Electrons revolve around the nucleus in circular orbits like planets around the sun.",
+        "Electrons and nucleus are held together by electrostatic force of attraction."
+      ]
+    },
+    {
+      "type": "diagram",
+      "title": "Trajectory of Alpha Particles",
+      "image": "/images/Physics/Derivations/trajectory of alpha particles.png",
+      "caption": "Paths of alpha particles showing deflection depends on impact parameter b."
+    },
+    {
+      "type": "formula",
+      "latex": "b = \\frac{1}{4\\pi\\epsilon_0} \\frac{Z e^2 \\cot(\\theta/2)}{K}",
+      "label": "Impact Parameter",
+      "conditions": [
+        "b is perpendicular distance of velocity vector from nucleus.",
+        "theta is scattering angle.",
+        "K is kinetic energy of alpha particle."
+      ]
+    },
+    {
+      "type": "derived_result",
+      "statement": "Distance of Closest Approach (d)",
+      "latex": "d = \\frac{1}{4\\pi\\epsilon_0} \\frac{2 Z e^2}{K}",
+      "valid_when": "At this distance, entire kinetic energy K converts to electrostatic potential energy. Gives an estimate of nuclear size."
+    },
+    {
+      "type": "concept",
+      "title": "Drawbacks of Rutherford's Model",
+      "points": [
+        "Accelerated charged particles (orbiting electrons) must radiate energy, leading to spiral path and instability.",
+        "Cannot explain the discrete line spectrum observed in atoms."
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Bohr's Model of Hydrogen Atom",
+      "points": [
+        "Postulate 1 (Stable Orbits): Electron revolves in stable circular orbits without radiating energy.",
+        "Postulate 2 (Quantisation Condition): Angular momentum is an integral multiple of h/2π.",
+        "Postulate 3 (Frequency Condition): Radiation is emitted when electron jumps from higher energy orbit (Ei) to lower energy orbit (Ef)."
+      ]
+    },
+    {
+      "type": "formula",
+      "latex": "L = mvr = \\frac{nh}{2\\pi}",
+      "label": "Bohr's Quantisation Condition",
+      "conditions": [
+        "n is an integer (1, 2, 3...) called principal quantum number."
+      ]
+    },
+    {
+      "type": "formula",
+      "latex": "h\\nu = E_i - E_f",
+      "label": "Bohr's Frequency Condition",
+      "conditions": [
+        "Energy difference determines frequency of emitted photon."
+      ]
+    },
+    {
+      "type": "derived_result",
+      "statement": "Radius of nth Orbit",
+      "latex": "r_n = \\frac{\\epsilon_0 n^2 h^2}{\\pi m e^2} \\implies r_n \\propto n^2",
+      "valid_when": "For Hydrogen. For hydrogen-like ions (He+, Li++), divide by Z."
+    },
+    {
+      "type": "concept",
+      "title": "Bohr Radius",
+      "points": [
+        "The radius of the first orbit (n=1) of hydrogen atom.",
+        "Value: a₀ = 0.529 Å."
+      ]
+    },
+    {
+      "type": "derived_result",
+      "statement": "Total Energy of Electron in nth Orbit",
+      "latex": "E_n = -\\frac{m e^4}{8 \\epsilon_0^2 n^2 h^2} \\approx -\\frac{13.6}{n^2} \\text{ eV}",
+      "valid_when": "Negative sign indicates the electron is bound to the nucleus."
+    },
+    {
+      "type": "concept",
+      "title": "Energy Level Diagram",
+      "points": [
+        "Ground State (n=1): Energy = -13.6 eV.",
+        "First Excited State (n=2): Energy = -3.4 eV.",
+        "Ionisation Energy: Energy required to remove electron from ground state to infinity (+13.6 eV)."
+      ]
+    },
+    {
+      "type": "diagram",
+      "title": "Energy Levels of Hydrogen",
+      "image": "/images/Physics/Derivations/Energy Levels (Gamma decay).png",
+      "caption": "Horizontal lines representing discrete energy states corresponding to n=1, 2, 3..."
+    },
+    {
+      "type": "concept",
+      "title": "Line Spectra of Hydrogen",
+      "points": [
+        "Emission spectrum consists of discrete lines grouped into series.",
+        "Lyman Series: Transitions to n=1 (UV Region).",
+        "Balmer Series: Transitions to n=2 (Visible Region).",
+        "Paschen, Brackett, Pfund Series: Transitions to n=3, 4, 5 (IR Region)."
+      ]
+    },
+    {
+      "type": "formula",
+      "latex": "\\frac{1}{\\lambda} = R \\left( \\frac{1}{n_f^2} - \\frac{1}{n_i^2} \\right)",
+      "label": "Rydberg Formula",
+      "conditions": [
+        "R is Rydberg constant = 1.097 x 10^7 m^-1.",
+        "ni > nf."
+      ]
+    },
+    {
+      "type": "diagram",
+      "title": "Hydrogen Spectral Series",
+      "image": "/images/Physics/Derivations/Hydrogen Spectral series.png",
+      "caption": "Arrows showing electron jumps corresponding to Lyman, Balmer, Paschen series."
+    },
+    {
+      "type": "concept",
+      "title": "de Broglie's Explanation of Bohr's Second Postulate",
+      "points": [
+        "Electron behaves as a particle wave.",
+        "For a stable orbit, the circumference must be an integral multiple of the wavelength (standing wave condition)."
+      ]
+    },
+    {
+      "type": "formula",
+      "latex": "2\\pi r_n = n\\lambda",
+      "label": "Quantisation of Orbit",
+      "conditions": [
+        "Using de Broglie relation (lambda = h/mv), this leads to mvr = nh/2pi."
+      ]
+    }
+  ],
+  "formula_sheet": [
+    {
+      "latex": "b \\propto \\cot(\\theta/2)",
+      "description": "Impact Parameter relation",
+      "use_case": "Direct Use"
+    },
+    {
+      "latex": "d = \\frac{2kZe^2}{K}",
+      "description": "Distance of Closest Approach",
+      "use_case": "Direct Use"
+    },
+    {
+      "latex": "L = \\frac{nh}{2\\pi}",
+      "description": "Bohr's Quantisation",
+      "use_case": "Direct Use"
+    },
+    {
+      "latex": "r_n \\propto n^2",
+      "description": "Radius proportionality",
+      "use_case": "Direct Use"
+    },
+    {
+      "latex": "E_n = -\\frac{13.6}{n^2} eV",
+      "description": "Energy of Hydrogen levels",
+      "use_case": "Direct Use"
+    },
+    {
+      "latex": "\\frac{1}{\\lambda} = R(\\frac{1}{n_f^2} - \\frac{1}{n_i^2})",
+      "description": "Rydberg Formula",
+      "use_case": "Direct Use"
+    }
+  ],
+  "ncert_golden_lines": [
+    "Rutherford's experiments suggested the size of the nucleus to be about 10^-15 m to 10^-14 m.",
+    "An atom has a nearly continuous mass distribution in a Thomson model but has a highly non-uniform mass distribution in a Rutherford model.",
+    "Bohr combined classical and early quantum concepts and gave his theory in the form of three postulates.",
+    "The negative sign of the total energy of an electron moving in an orbit means that the electron is bound with the nucleus.",
+    "De Broglie argued that the electron in its circular orbit, as proposed by Bohr, must be seen as a particle wave.",
+    "Only those orbits are stable for which the standing wave is formed."
+  ],
+  "diagram_descriptors": [
+    {
+      "diagram_name": "Geiger-Marsden Experiment Setup",
+      "used_for": "Geiger-Marsden Experiment Setup",
+      "image_path": "/images/Physics/Derivations/Geiger-Marsden Experiment Setup.png",
+      "detailed_description": "Alpha particles from source collimated by lead bricks strike gold foil; scattered particles detected by rotatable detector."
+    },
+    {
+      "diagram_name": "Trajectory of Alpha Particles",
+      "used_for": "Trajectory of Alpha Particles",
+      "image_path": "/images/Physics/Derivations/trajectory of alpha particles.png",
+      "detailed_description": "Paths of alpha particles showing deflection depends on impact parameter b."
+    },
+    {
+      "diagram_name": "Energy Levels of Hydrogen",
+      "used_for": "Energy Levels of Hydrogen",
+      "image_path": "/images/Physics/Derivations/Energy Levels (Gamma decay).png",
+      "detailed_description": "Horizontal lines representing discrete energy states corresponding to n=1, 2, 3..."
+    },
+    {
+      "diagram_name": "Hydrogen Spectral Series",
+      "used_for": "Hydrogen Spectral Series",
+      "image_path": "/images/Physics/Derivations/Hydrogen Spectral series.png",
+      "detailed_description": "Arrows showing electron jumps corresponding to Lyman, Balmer, Paschen series."
+    }
+  ]
+}

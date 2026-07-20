@@ -1,0 +1,350 @@
+{
+    "meta": {
+        "subject": "Physics",
+        "class": 12,
+        "board": "CBSE",
+        "chapter": "Alternating Current"
+    },
+    "derivations": [
+        {
+            "id": "ch7-01",
+            "title": "Root Mean Square (RMS) Value of Alternating Current ",
+            "priority": "P1",
+            "priority_reason": "Fundamental definition used in all AC numericals. High probability for 3 marks.",
+            "marks": 3,
+            "diagram_required": true,
+            "diagram_description": "Graph showing AC current vs time (sine wave). A horizontal line representing I_rms is drawn, cutting the peaks. Another curve showing I^2 (always positive) can be sketched to illustrate the 'Mean Square' concept.",
+            "derivation": {
+                "given_assumptions": [
+                    "Instantaneous current $I = I_0 \\sin(\\omega t)$.",
+                    "Time period $T = 2\\pi/\\omega$."
+                ],
+                "required": "Relation between $I_{rms}$ and peak current $I_0$.",
+                "steps": [
+                    {
+                        "text": "RMS value is defined as the square root of the mean of the square of current over one complete cycle.",
+                        "latex": "I_{rms} = \\sqrt{ \\frac{1}{T} \\int_{0}^{T} I^2 dt }"
+                    },
+                    {
+                        "text": "Square both sides to simplify integration:",
+                        "latex": "I_{rms}^2 = \\frac{1}{T} \\int_{0}^{T} (I_0 \\sin \\omega t)^2 dt = \\frac{I_0^2}{T} \\int_{0}^{T} \\sin^2(\\omega t) dt"
+                    },
+                    {
+                        "text": "Use identity $\\sin^2 \\theta = \\frac{1 - \\cos 2\\theta}{2}$:",
+                        "latex": "I_{rms}^2 = \\frac{I_0^2}{T} \\int_{0}^{T} \\frac{1 - \\cos(2\\omega t)}{2} dt = \\frac{I_0^2}{2T} \\left[ \\int_{0}^{T} dt - \\int_{0}^{T} \\cos(2\\omega t) dt \\right]"
+                    },
+                    {
+                        "text": "The integral of $\\cos(2\\omega t)$ over a full cycle $T$ is zero.",
+                        "latex": "I_{rms}^2 = \\frac{I_0^2}{2T} [T - 0] = \\frac{I_0^2}{2}"
+                    }
+                ],
+                "final_result": {
+                    "text": "Taking the square root:",
+                    "latex": "I_{rms} = \\frac{I_0}{\\sqrt{2}} \\approx 0.707 I_0"
+                },
+                "examiner_notes": [
+                    "Integration of cos(2wt) being zero must be stated or shown.",
+                    "Students often stop at I_rms^2; must take root for final answer.",
+                    "Same derivation applies to V_rms."
+                ],
+                "question_forms": [
+                    "Define RMS value of alternating current and derive the relation between peak and RMS value.",
+                    "Show that the rms value of AC is 0.707 times the peak value."
+                ]
+            }
+        },
+        {
+            "id": "ch7-02",
+            "title": "AC Voltage Applied to a Series LCR Circuit (Phasor Diagram Method)",
+            "priority": "P1",
+            "priority_reason": "The most important derivation in the chapter. 5-mark standard question.",
+            "marks": 5,
+            "diagram_required": true,
+            "diagram_description": "Series circuit with Resistor R, Inductor L, Capacitor C connected to AC source V. Phasor diagram: Current I is reference phasor (horizontal). Voltage V_R is along I. Voltage V_L leads I by 90 deg (up). Voltage V_C lags I by 90 deg (down). Net voltage V is the vector sum, making angle phi with I.",
+            "derivation": {
+                "given_assumptions": [
+                    "Series LCR circuit with source $V = V_m \\sin(\\omega t)$.",
+                    "Current $I$ is same in all elements.",
+                    "$V_R, V_L, V_C$ are peak voltages across R, L, C."
+                ],
+                "required": "Impedance $Z$ and Phase angle $\\phi$.",
+                "steps": [
+                    {
+                        "text": "From phasor diagram, $V_L$ and $V_C$ are on the same line but opposite. Net reactive voltage is $V_L - V_C$ (assuming $V_L > V_C$).",
+                        "latex": "V_{net}^2 = V_R^2 + (V_L - V_C)^2"
+                    },
+                    {
+                        "text": "Substitute Ohm's law equivalents: $V_R = I R$, $V_L = I X_L$, $V_C = I X_C$.",
+                        "latex": "V^2 = (IR)^2 + (I X_L - I X_C)^2"
+                    },
+                    {
+                        "text": "Take $I^2$ common:",
+                        "latex": "V^2 = I^2 [R^2 + (X_L - X_C)^2]"
+                    },
+                    {
+                        "text": "Impedance $Z = V/I$:",
+                        "latex": "Z = \\sqrt{R^2 + (X_L - X_C)^2}"
+                    },
+                    {
+                        "text": "From the impedance triangle, the phase angle $\\phi$ (angle between $V$ and $I$) is:",
+                        "latex": "\\tan\\phi = \\frac{V_L - V_C}{V_R} = \\frac{X_L - X_C}{R}"
+                    }
+                ],
+                "final_result": {
+                    "text": "Impedance and phase angle:",
+                    "latex": "Z = \\sqrt{R^2 + (\\omega L - \\frac{1}{\\omega C})^2}, \\quad \\phi = \\tan^{-1}\\left(\\frac{X_L - X_C}{R}\\right)"
+                },
+                "examiner_notes": [
+                    "Phasor diagram is mandatory and carries significant marks.",
+                    "Must specify the condition (e.g., X_L > X_C implies inductive nature).",
+                    "Don't confuse Z (Impedance) with R (Resistance)."
+                ],
+                "question_forms": [
+                    "Derive the expression for the impedance of a series LCR circuit using the phasor diagram method.",
+                    "Obtain the condition for resonance in an LCR circuit."
+                ]
+            },
+            "image": "/images/placeholder.svg"
+        },
+        {
+            "id": "ch7-03",
+            "title": "Average Power Associated with a Series LCR Circuit",
+            "priority": "P1",
+            "priority_reason": "Conceptually dense. Tests understanding of phase difference and average value integration.",
+            "marks": 3,
+            "diagram_required": false,
+            "diagram_description": "None required, but phasor diagram helps.",
+            "derivation": {
+                "given_assumptions": [
+                    "Voltage $V = V_m \\sin(\\omega t)$.",
+                    "Current lags/leads by $\\phi$: $I = I_m \\sin(\\omega t + \\phi)$."
+                ],
+                "required": "Average power $P_{avg}$ over one cycle.",
+                "steps": [
+                    {
+                        "text": "Instantaneous power $p = VI$:",
+                        "latex": "p = V_m \\sin(\\omega t) \\cdot I_m \\sin(\\omega t + \\phi)"
+                    },
+                    {
+                        "text": "Using $2\\sin A \\sin B = \\cos(A-B) - \\cos(A+B)$:",
+                        "latex": "p = \\frac{V_m I_m}{2} [\\cos(\\phi) - \\cos(2\\omega t + \\phi)]"
+                    },
+                    {
+                        "text": "Average power is the integral over period $T$. Average of cosine term involving $t$ is zero.",
+                        "latex": "P_{avg} = \\frac{1}{T} \\int_0^T p \\, dt = \\frac{V_m I_m}{2} \\cos\\phi - 0"
+                    },
+                    {
+                        "text": "Rewrite using RMS values ($V_{rms} = V_m/\\sqrt{2}$, $I_{rms} = I_m/\\sqrt{2}$):",
+                        "latex": "P_{avg} = \\left( \\frac{V_m}{\\sqrt{2}} \\right) \\left( \\frac{I_m}{\\sqrt{2}} \\right) \\cos\\phi"
+                    }
+                ],
+                "final_result": {
+                    "text": "Power in AC circuit:",
+                    "latex": "P = V_{rms} I_{rms} \\cos\\phi"
+                },
+                "examiner_notes": [
+                    "Students often miss the factor of 1/2 if not using RMS.",
+                    "Must define cos(phi) as the Power Factor.",
+                    "Special cases (Pure R, Pure L/C) should be briefly mentioned for completeness."
+                ],
+                "question_forms": [
+                    "Derive an expression for average power in an AC circuit containing L, C, and R.",
+                    "Show that power dissipated in a pure inductor or capacitor is zero."
+                ]
+            }
+        },
+        {
+            "id": "ch7-04",
+            "title": "AC Voltage Applied to an Inductor",
+            "priority": "P2",
+            "priority_reason": "Specific case derivation. Important for proving V leads I by pi/2.",
+            "marks": 3,
+            "diagram_required": true,
+            "diagram_description": "Circuit with AC source and pure Inductor L. Graph of V and I versus wt: V starts at 0, I starts at negative peak (or V peak, I zero), clearly showing 90 degree phase shift.",
+            "derivation": {
+                "given_assumptions": [
+                    "Pure inductor $L$. Source $V = V_m \\sin(\\omega t)$.",
+                    "Resistance $R=0$."
+                ],
+                "required": "Expression for current $I$.",
+                "steps": [
+                    {
+                        "text": "By Kirchhoff's loop rule, source voltage equals back emf magnitude:",
+                        "latex": "V - L \\frac{dI}{dt} = 0 \\implies \\frac{dI}{dt} = \\frac{V_m}{L} \\sin(\\omega t)"
+                    },
+                    {
+                        "text": "Integrate to find $I$:",
+                        "latex": "I = \\frac{V_m}{L} \\int \\sin(\\omega t) dt = \\frac{V_m}{L} \\left( -\\frac{\\cos \\omega t}{\\omega} \\right)"
+                    },
+                    {
+                        "text": "Using $-\\cos(\\omega t) = \\sin(\\omega t - \\pi/2)$:",
+                        "latex": "I = \\frac{V_m}{\\omega L} \\sin(\\omega t - \\pi/2)"
+                    },
+                    {
+                        "text": "Define Inductive Reactance $X_L = \\omega L$.",
+                        "latex": "I = I_m \\sin(\\omega t - \\pi/2)"
+                    }
+                ],
+                "final_result": {
+                    "text": "Current lags voltage by 90 degrees.",
+                    "latex": "I = \\frac{V_m}{X_L} \\sin(\\omega t - \\pi/2), \\quad X_L = \\omega L"
+                },
+                "examiner_notes": [
+                    "Integration constant is zero for symmetrical AC.",
+                    "Must show trigonometric conversion clearly (-cos to sin).",
+                    "Statement 'Current lags Voltage' is the key conclusion."
+                ],
+                "question_forms": [
+                    "Show that current lags voltage by pi/2 in a pure inductive circuit.",
+                    "Derive the expression for inductive reactance."
+                ]
+            },
+            "image": "/images/placeholder.svg"
+        },
+        {
+            "id": "ch7-05",
+            "title": "AC Voltage Applied to a Capacitor",
+            "priority": "P2",
+            "priority_reason": "Specific case. Important for proving I leads V by pi/2.",
+            "marks": 3,
+            "diagram_required": true,
+            "diagram_description": "Circuit with AC source and pure Capacitor C. Waveform graph showing I leading V (I peaks before V).",
+            "derivation": {
+                "given_assumptions": [
+                    "Pure capacitor $C$. Source $V = V_m \\sin(\\omega t)$.",
+                    "Charge on capacitor $q = CV$."
+                ],
+                "required": "Expression for current $I$.",
+                "steps": [
+                    {
+                        "text": "Instantaneous charge $q = C V_m \\sin(\\omega t)$.",
+                        "latex": ""
+                    },
+                    {
+                        "text": "Current is rate of change of charge:",
+                        "latex": "I = \\frac{dq}{dt} = \\frac{d}{dt} [C V_m \\sin(\\omega t)]"
+                    },
+                    {
+                        "text": "Differentiating:",
+                        "latex": "I = C V_m \\omega \\cos(\\omega t)"
+                    },
+                    {
+                        "text": "Using $\\cos(\\omega t) = \\sin(\\omega t + \\pi/2)$ and defining $X_C = 1/(\\omega C)$:",
+                        "latex": "I = \\frac{V_m}{1/\\omega C} \\sin(\\omega t + \\pi/2) = \\frac{V_m}{X_C} \\sin(\\omega t + \\pi/2)"
+                    }
+                ],
+                "final_result": {
+                    "text": "Current leads voltage by 90 degrees.",
+                    "latex": "I = I_m \\sin(\\omega t + \\pi/2), \\quad X_C = \\frac{1}{\\omega C}"
+                },
+                "examiner_notes": [
+                    "Chain rule in differentiation (multiplying by omega) is a common check point.",
+                    "Define Capacitive Reactance X_C explicitly."
+                ],
+                "question_forms": [
+                    "Show that current leads voltage by pi/2 in a pure capacitive circuit.",
+                    "Derive the expression for capacitive reactance."
+                ]
+            },
+            "image": "/images/placeholder.svg"
+        },
+        {
+            "id": "ch7-06",
+            "title": "LC Oscillations (Energy Method)",
+            "priority": "P2",
+            "priority_reason": "Analytical derivation of frequency. Links mechanics (SHM) with electromagnetism.",
+            "marks": 3,
+            "diagram_required": true,
+            "diagram_description": "Circuit with charged Capacitor C connected to Inductor L. No resistance. Energy shuttles between electric field of C and magnetic field of L.",
+            "derivation": {
+                "given_assumptions": [
+                    "Pure LC circuit (no resistance).",
+                    "Total energy $U$ is constant (conserved)."
+                ],
+                "required": "Differential equation and frequency $\\omega$.",
+                "steps": [
+                    {
+                        "text": "Total energy = Electrical + Magnetic:",
+                        "latex": "U = \\frac{q^2}{2C} + \\frac{1}{2} L I^2"
+                    },
+                    {
+                        "text": "Since energy is conserved, $\\frac{dU}{dt} = 0$.",
+                        "latex": "\\frac{d}{dt} \\left( \\frac{q^2}{2C} + \\frac{1}{2} L I^2 \\right) = 0"
+                    },
+                    {
+                        "text": "Differentiating (note $I = dq/dt$):",
+                        "latex": "\\frac{2q}{2C} \\frac{dq}{dt} + \\frac{1}{2} L (2I) \\frac{dI}{dt} = 0 \\implies \\frac{q}{C} I + L I \\frac{d^2q}{dt^2} = 0"
+                    },
+                    {
+                        "text": "As $I \\neq 0$, we can divide by $I$:",
+                        "latex": "L \\frac{d^2q}{dt^2} + \\frac{q}{C} = 0 \\implies \\frac{d^2q}{dt^2} + \\frac{1}{LC} q = 0"
+                    },
+                    {
+                        "text": "Comparing with SHM equation $\\frac{d^2x}{dt^2} + \\omega^2 x = 0$:",
+                        "latex": "\\omega^2 = \\frac{1}{LC}"
+                    }
+                ],
+                "final_result": {
+                    "text": "Frequency of oscillation:",
+                    "latex": "\\omega = \\frac{1}{\\sqrt{LC}}, \\quad \\nu = \\frac{1}{2\\pi\\sqrt{LC}}"
+                },
+                "examiner_notes": [
+                    "Must use the energy conservation argument or Kirchhoff's loop rule.",
+                    "Chain rule when differentiating q^2 and I^2 is critical.",
+                    "Analogy with spring-mass system is often asked in sub-parts."
+                ],
+                "question_forms": [
+                    "Derive the expression for the frequency of LC oscillations.",
+                    "Show that the energy in an LC circuit oscillates between electric and magnetic forms."
+                ]
+            },
+            "image": "/images/placeholder.svg"
+        },
+        {
+            "id": "ch7-07",
+            "title": "Transformer Principle and Turns Ratio",
+            "priority": "P1",
+            "priority_reason": "Very frequent 3-mark question. Theory + Derivation.",
+            "marks": 3,
+            "diagram_required": true,
+            "diagram_description": "Soft iron core (laminated) with two windings. Primary coil with Np turns connected to AC source Vp. Secondary coil with Ns turns connected to load Vs. Magnetic flux phi is confined to the core.",
+            "derivation": {
+                "given_assumptions": [
+                    "Ideal transformer (no energy loss).",
+                    "Same flux $\\phi$ links both primary and secondary coils."
+                ],
+                "required": "Relation between $V_s, V_p, N_s, N_p$ and $I_s, I_p$.",
+                "steps": [
+                    {
+                        "text": "Induced emf in primary (equals applied voltage assuming zero resistance):",
+                        "latex": "V_p = -N_p \\frac{d\\phi}{dt}"
+                    },
+                    {
+                        "text": "Induced emf in secondary:",
+                        "latex": "V_s = -N_s \\frac{d\\phi}{dt}"
+                    },
+                    {
+                        "text": "Dividing the two equations:",
+                        "latex": "\\frac{V_s}{V_p} = \\frac{-N_s \\frac{d\\phi}{dt}}{-N_p \\frac{d\\phi}{dt}} = \\frac{N_s}{N_p}"
+                    },
+                    {
+                        "text": "For an ideal transformer, Input Power = Output Power:",
+                        "latex": "V_p I_p = V_s I_s \\implies \\frac{V_s}{V_p} = \\frac{I_p}{I_s}"
+                    }
+                ],
+                "final_result": {
+                    "text": "Transformation ratio:",
+                    "latex": "\\frac{V_s}{V_p} = \\frac{N_s}{N_p} = \\frac{I_p}{I_s} = k"
+                },
+                "examiner_notes": [
+                    "Must explicitly assume 'No Flux Leakage' and 'Ideal conditions'.",
+                    "Inverse relation between Voltage and Current is a common student error point."
+                ],
+                "question_forms": [
+                    "Describe the principle of a transformer and derive the relation between turns ratio and voltage.",
+                    "Show that for an ideal transformer, input power equals output power."
+                ]
+            }
+        }
+    ]
+}

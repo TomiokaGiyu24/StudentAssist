@@ -1,0 +1,727 @@
+{
+  "meta": {
+    "subject": "Chemistry",
+    "class": "12",
+    "chapter_name": "Biomolecules",
+    "pyq_year_range": "2022-2025 (Includes SQPs)",
+    "total_questions": 25,
+    "difficulty_distribution": {
+      "easy": "30%",
+      "moderate": "40%",
+      "hard": "30%"
+    }
+  },
+  "questions": [
+    {
+      "question_id": "BIO-2024-MCQ-01",
+      "year": "2024",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "Which of the following bases is not present in DNA?",
+      "if_graph_or_diagram_required": {
+        "required": true,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (c): Uracil",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "Uracil"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Nucleic Acid Composition",
+        "why_this_question_is_asked": "Basic distinction between DNA (ATGC) and RNA (AUGC).",
+        "common_student_mistake": "Confusing Thymine and Uracil.",
+        "trap_zone": "Thymine is 5-methyluracil."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "c",
+        "options": {
+          "a": "Adenine",
+          "b": "Guanine",
+          "c": "Uracil",
+          "d": "Cytosine"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "BIO-2023-MCQ-02",
+      "year": "2023",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "On hydrolysis, which of the following carbohydrates gives only glucose?",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (d): Starch",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "Starch"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Hydrolysis Products",
+        "why_this_question_is_asked": "Starch is a polymer of alpha-D-glucose. Sucrose gives Glucose+Fructose. Lactose gives Glucose+Galactose.",
+        "common_student_mistake": "Selecting Sucrose.",
+        "trap_zone": "Maltose also gives only glucose, but Starch is the common polysaccharide example."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "d",
+        "options": {
+          "a": "Sucrose",
+          "b": "Lactose",
+          "c": "Fructose",
+          "d": "Starch"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "BIO-2025-MCQ-03",
+      "year": "2025",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "Which of the following amino acids is achiral?",
+      "if_graph_or_diagram_required": {
+        "required": true,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (a): Glycine",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "Glycine"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Amino Acid Chirality",
+        "why_this_question_is_asked": "Glycine (R=H) is the only amino acid without a chiral center.",
+        "common_student_mistake": "Checking Alanine or Valine.",
+        "trap_zone": "Only one out of 20 is achiral."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "a",
+        "options": {
+          "a": "Glycine",
+          "b": "Alanine",
+          "c": "Valine",
+          "d": "Leucine"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "BIO-SQP-MCQ-04",
+      "year": "SQP 2024",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "Reaction of glucose with HI gives:",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (b): n-Hexane",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "n-Hexane"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Structure Elucidation of Glucose",
+        "why_this_question_is_asked": "This reaction proves the straight chain structure of six carbons in glucose.",
+        "common_student_mistake": "Predicting Gluconic acid (Bromine water) or Saccharic acid (HNO3).",
+        "trap_zone": "Prolonged heating with HI reduces all -OH and -CHO groups to alkanes."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "b",
+        "options": {
+          "a": "Gluconic acid",
+          "b": "n-Hexane",
+          "c": "Saccharic acid",
+          "d": "Iodohexane"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "BIO-2022-MCQ-05",
+      "year": "2022",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "The linkage present in proteins is:",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (c): Peptide linkage",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "Peptide linkage"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Biopolymer Linkages",
+        "why_this_question_is_asked": "Distinguishing Peptide (Proteins), Glycosidic (Carbohydrates), and Phosphodiester (Nucleic Acids).",
+        "common_student_mistake": "Selecting Glycosidic linkage.",
+        "trap_zone": "Amide linkage is the chemical name, Peptide is the biochemical name."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "c",
+        "options": {
+          "a": "Glycosidic linkage",
+          "b": "Phosphodiester linkage",
+          "c": "Peptide linkage",
+          "d": "Ester linkage"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "BIO-2023-AR-06",
+      "year": "2023",
+      "question_type": "Assertion-Reason",
+      "marks": 1,
+      "question_text": "Assertion (A): Sucrose is a non-reducing sugar.\nReason (R): The reducing groups of glucose and fructose are involved in glycosidic bond formation.",
+      "if_graph_or_diagram_required": {
+        "required": true,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (a): Both A and R are true and R is the correct explanation of A.",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "Both true, R is explanation"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Reducing vs Non-reducing Sugars",
+        "why_this_question_is_asked": "Sucrose is the classic exception. The C1 of glucose (aldehyde) and C2 of fructose (ketone) are linked, removing free reducing groups.",
+        "common_student_mistake": "Thinking Sucrose is reducing because it's a disaccharide.",
+        "trap_zone": "Maltose and Lactose ARE reducing sugars."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "a",
+        "options": {
+          "a": "Both A and R are true and R is the correct explanation of A",
+          "b": "Both A and R are true but R is not the correct explanation of A",
+          "c": "A is true but R is false",
+          "d": "A is false but R is true"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "BIO-2024-VSA-07",
+      "year": "2024",
+      "question_type": "2M",
+      "marks": 2,
+      "question_text": "Write the products obtained when D-Glucose reacts with:\n(i) Bromine water\n(ii) Hydroxylamine",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(i) Gluconic acid (Bromine water oxidizes -CHO to -COOH).\n(ii) Glucose oxime (Hydroxylamine forms oxime with -CHO).",
+        "stepwise_marking_scheme_breakdown": "1 mark for each product name/structure.",
+        "final_answer_boxed": "Gluconic acid; Glucose oxime"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Reactions of Glucose",
+        "why_this_question_is_asked": "Testing functional group properties of Glucose.",
+        "common_student_mistake": "Writing Saccharic acid for (i) (needs strong oxidizer HNO3).",
+        "trap_zone": "Structure of Oxime."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "BIO-2022-SA-08",
+      "year": "2022",
+      "question_type": "3M",
+      "marks": 3,
+      "question_text": "Define the following with an example of each:\n(i) Essential amino acids\n(ii) Denaturation of proteins\n(iii) Invert sugar",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(i) Amino acids which cannot be synthesized by the body and must be supplied through diet. Ex: Valine, Leucine.\n(ii) Process where a protein loses its biological activity and native shape due to change in pH, temperature, etc., causing unfolding of secondary/tertiary structures. Ex: Coagulation of egg white on boiling.\n(iii) Hydrolysis of sucrose (+ rotation) gives a mixture of Glucose (+) and Fructose (-) with net (-) rotation. This mixture is called Invert sugar.",
+        "stepwise_marking_scheme_breakdown": "1 mark for each definition + example.",
+        "final_answer_boxed": "Valine; Egg white; Hydrolyzed Sucrose"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Key Definitions",
+        "why_this_question_is_asked": "Standard theory check.",
+        "common_student_mistake": "For (ii), saying primary structure is destroyed (it remains intact).",
+        "trap_zone": "Invert sugar is the *mixture*, not the process."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "BIO-2025-SA-09",
+      "year": "2025",
+      "question_type": "3M",
+      "marks": 3,
+      "question_text": "(a) What is the difference between Nucleoside and Nucleotide?\n(b) Name the disease caused by deficiency of Vitamin C.\n(c) What are Zwitter ions?",
+      "if_graph_or_diagram_required": {
+        "required": true,
+        "diagram_description_for_rendering": "[Image of Nucleoside vs Nucleotide structure]"
+      },
+      "board_style_answer": {
+        "structured_answer": "(a) Nucleoside = Base + Sugar. Nucleotide = Base + Sugar + Phosphate group.\n(b) Scurvy.\n(c) In aqueous solution, the carboxyl group of an amino acid can lose a proton and the amino group can accept a proton, giving rise to a dipolar ion known as Zwitter ion. It is electrically neutral.",
+        "stepwise_marking_scheme_breakdown": "1 mark for each part.",
+        "final_answer_boxed": "Scurvy; Dipolar Ion"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Biomolecule Basics",
+        "why_this_question_is_asked": "Wide coverage of chapter.",
+        "common_student_mistake": "Confusing Nucleoside/Nucleotide composition.",
+        "trap_zone": "Zwitter ion exists at specific pH (Isoelectric point)."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "BIO-SQP-SA-10",
+      "year": "SQP 2024",
+      "question_type": "3M",
+      "marks": 3,
+      "question_text": "Explain why:\n(i) Amino acids behave like salts rather than simple amines or carboxylic acids.\n(ii) The two strands of DNA are not identical but complementary.\n(iii) Reaction of glucose that indicates that the carbonyl group is not free.",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(i) Due to formation of Zwitter ion (dipolar nature), they have strong electrostatic attractions like salts, leading to high melting points and solubility in water.\n(ii) Because hydrogen bonding occurs between specific base pairs (Adenine with Thymine, Guanine with Cytosine). The sequence of one strand determines the sequence of the other.\n(iii) Glucose does not give 2,4-DNP test or Schiff's test, and does not form hydrogensulphite addition product, indicating absence of free -CHO group (Cyclic structure).",
+        "stepwise_marking_scheme_breakdown": "1 mark for Zwitter ion logic.\n1 mark for Base pairing logic.\n1 mark for Absence of 2,4-DNP/Schiff test.",
+        "final_answer_boxed": "Zwitter ion; Complementary Base Pairing; Cyclic structure"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Structural Properties",
+        "why_this_question_is_asked": "Testing deep understanding of structures.",
+        "common_student_mistake": "In (iii), citing mutarotation (which is true, but 2,4-DNP failure is the chemical proof).",
+        "trap_zone": "Difference between 'Identical' and 'Complementary'."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "BIO-2023-VSA-11",
+      "year": "2023",
+      "question_type": "2M",
+      "marks": 2,
+      "question_text": "What are the hydrolysis products of:\n(i) Maltose\n(ii) Lactose",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(i) Maltose + H₂O → 2 Glucose units (alpha-D-Glucose).\n(ii) Lactose + H₂O → beta-D-Galactose + beta-D-Glucose.",
+        "stepwise_marking_scheme_breakdown": "1 mark each.",
+        "final_answer_boxed": "2 Glucose; Galactose + Glucose"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Disaccharide Hydrolysis",
+        "why_this_question_is_asked": "Direct memory check.",
+        "common_student_mistake": "Swapping monomers.",
+        "trap_zone": "Isomeric forms (alpha/beta) are precise but 'Glucose/Galactose' is usually sufficient for 1 mark."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "BIO-2024-LA-12",
+      "year": "2024",
+      "question_type": "5M",
+      "marks": 5,
+      "question_text": "(a) Write the cyclic structure of D-Glucose.\n(b) Define Globular and Fibrous proteins with examples.\n(c) Name the vitamins whose deficiency causes: (i) Night blindness, (ii) Pernicious anaemia.",
+      "if_graph_or_diagram_required": {
+        "required": true,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(a) Draws Haworth projection of alpha-D-Glucopyranose (or beta).\n(b) Fibrous: Polypeptide chains run parallel, held by H-bonds/disulphide bonds. Insoluble in water. Ex: Keratin, Myosin.\n   Globular: Chains of polypeptides coil around to give spherical shape. Soluble in water. Ex: Insulin, Albumin.\n(c) (i) Vitamin A (Night blindness).\n   (ii) Vitamin B12 (Pernicious anaemia).",
+        "stepwise_marking_scheme_breakdown": "1 mark for Structure.\n2 marks for Protein definitions/examples.\n2 marks for Vitamins.",
+        "final_answer_boxed": "Vit A, Vit B12"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Comprehensive Biomolecules",
+        "why_this_question_is_asked": "Standard 5M split pattern.",
+        "common_student_mistake": "Drawing Fischer projection instead of Cyclic/Haworth.",
+        "trap_zone": "Pernicious anaemia is B12, not Iron."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "BIO-2023-MCQ-13",
+      "year": "2023",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "Which one of the following is a non-essential amino acid?",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (a): Alanine",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "Alanine"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Amino Acid Classification",
+        "why_this_question_is_asked": "Differentiation between essential (dietary) and non-essential (body made).",
+        "common_student_mistake": "Valine/Leucine/Lysine are essential.",
+        "trap_zone": "Memorizing the list of 10 essential amino acids is key."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "a",
+        "options": {
+          "a": "Alanine",
+          "b": "Valine",
+          "c": "Leucine",
+          "d": "Lysine"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "BIO-2022-SA-14",
+      "year": "2022",
+      "question_type": "3M",
+      "marks": 3,
+      "question_text": "Define the following terms as related to proteins:\n(i) Peptide linkage\n(ii) Primary structure\n(iii) Denaturation",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(i) Peptide linkage: An amide linkage (-CO-NH-) formed between the carboxyl group of one amino acid and the amino group of another with elimination of water.\n(ii) Primary structure: The specific sequence of amino acids in a polypeptide chain of a protein.\n(iii) Denaturation: The process where a protein loses its native 3D structure and biological activity due to physical (heat) or chemical (pH) changes, without breaking the primary structure.",
+        "stepwise_marking_scheme_breakdown": "1 mark each.",
+        "final_answer_boxed": "-CO-NH-; Sequence; Loss of activity"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Protein Structure",
+        "why_this_question_is_asked": "Definitions are high-yield.",
+        "common_student_mistake": "N/A",
+        "trap_zone": "Denaturation does NOT break peptide bonds (primary structure)."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "BIO-2025-VSA-15",
+      "year": "2025",
+      "question_type": "2M",
+      "marks": 2,
+      "question_text": "Write the reactions showing the presence of following in the open structure of glucose:\n(i) Carbonyl group\n(ii) Primary alcoholic group",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(i) Carbonyl group: Reaction with HCN to form Cyanohydrin OR Reaction with Hydroxylamine to form Oxime.\n(ii) Primary alcoholic group: Reaction with Nitric acid (HNO₃) to form Saccharic acid (dicarboxylic acid).",
+        "stepwise_marking_scheme_breakdown": "1 mark for Carbonyl test reaction.\n1 mark for Primary Alcohol test reaction.",
+        "final_answer_boxed": "HCN/NH₂OH; HNO₃"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Glucose Structural Proofs",
+        "why_this_question_is_asked": "Classic organic analysis within biomolecules.",
+        "common_student_mistake": "Using Bromine water for (ii) (Bromine water only oxidizes CHO, not primary OH).",
+        "trap_zone": "HNO3 oxidizes both CHO and primary OH."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "BIO-SQP-CASE-16",
+      "year": "SQP 2023",
+      "question_type": "Case-Based",
+      "marks": 4,
+      "question_text": "Read the passage:\nCarbohydrates are polyhydroxy aldehydes or ketones. They are classified as monosaccharides, oligosaccharides, and polysaccharides. Glucose is the most important monosaccharide. DNA and RNA are nucleic acids responsible for heredity and protein synthesis.\n(a) What is the difference between alpha-glucose and beta-glucose?\n(b) Which linkage holds the two nucleotides together?\n(c) Name the base present in RNA but not in DNA.",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(a) They differ in the configuration of the -OH group at C1 (Anomeric carbon). In alpha-form, OH is on the right/down; in beta-form, OH is on the left/up.\n(b) Phosphodiester linkage.\n(c) Uracil.",
+        "stepwise_marking_scheme_breakdown": "1 mark for (a) (Anomers).\n1 mark for (b).\n1 mark for (c).",
+        "final_answer_boxed": "Anomers; Phosphodiester; Uracil"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Anomers & Nucleic Acids",
+        "why_this_question_is_asked": "Connecting carbohydrate stereochemistry with nucleic acid basics.",
+        "common_student_mistake": "Calling them Enantiomers (They are Anomers/Diastereomers).",
+        "trap_zone": "Linkage between bases is H-bond; linkage between nucleotides is Phosphodiester."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "BIO-2023-MCQ-17",
+      "year": "2023",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "The deficiency of which vitamin causes scurvy?",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (c): Vitamin C",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "Vitamin C"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Vitamins & Diseases",
+        "why_this_question_is_asked": "Common knowledge check.",
+        "common_student_mistake": "N/A",
+        "trap_zone": "Scientific name Ascorbic acid might be used in options."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "c",
+        "options": {
+          "a": "Vitamin A",
+          "b": "Vitamin B",
+          "c": "Vitamin C",
+          "d": "Vitamin D"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "BIO-2024-SA-18",
+      "year": "2024",
+      "question_type": "3M",
+      "marks": 3,
+      "question_text": "Differentiate between:\n(i) Amylose and Amylopectin\n(ii) DNA and RNA\n(iii) alpha-helix and beta-pleated sheet",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(i) Amylose: Linear polymer of alpha-glucose (C1-C4), water soluble. Amylopectin: Branched polymer (C1-C4 and C1-C6), water insoluble.\n(ii) DNA: Deoxyribose sugar, Thymine base, Double stranded. RNA: Ribose sugar, Uracil base, Single stranded.\n(iii) alpha-helix: Intramolecular H-bonding (coiled). beta-pleated: Intermolecular H-bonding (sheets).",
+        "stepwise_marking_scheme_breakdown": "1 mark each.",
+        "final_answer_boxed": "Linear vs Branched; Deoxy vs Ribose; Intra vs Inter H-bond"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Structural Differences",
+        "why_this_question_is_asked": "Standard comparisons.",
+        "common_student_mistake": "Mixing up solubility of amylose/amylopectin.",
+        "trap_zone": "Amylopectin is the major component of starch (>80%)."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "BIO-2022-VSA-19",
+      "year": "2022",
+      "question_type": "2M",
+      "marks": 2,
+      "question_text": "What happens when D-glucose is treated with the following reagents?\n(i) HI\n(ii) Bromine water",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(i) n-Hexane is formed.\n(ii) Gluconic acid is formed.",
+        "stepwise_marking_scheme_breakdown": "1 mark each.",
+        "final_answer_boxed": "n-Hexane; Gluconic Acid"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Reactions of Glucose",
+        "why_this_question_is_asked": "Repeated concept.",
+        "common_student_mistake": "N/A",
+        "trap_zone": "N/A"
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "BIO-2025-SA-20",
+      "year": "2025",
+      "question_type": "3M",
+      "marks": 3,
+      "question_text": "(i) Which vitamin is essential for blood clotting?\n(ii) Name the base that is found in nucleotide of RNA only.\n(iii) What is the effect of denaturation on the structure of proteins?",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(i) Vitamin K.\n(ii) Uracil.\n(iii) Secondary and tertiary structures are destroyed (unfolded), but primary structure remains intact. Biological activity is lost.",
+        "stepwise_marking_scheme_breakdown": "1 mark each.",
+        "final_answer_boxed": "Vit K; Uracil; Unfolding"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Vitamins & Proteins",
+        "why_this_question_is_asked": "Fact retrieval.",
+        "common_student_mistake": "N/A",
+        "trap_zone": "N/A"
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "BIO-SQP-AR-21",
+      "year": "SQP 2024",
+      "question_type": "Assertion-Reason",
+      "marks": 1,
+      "question_text": "Assertion (A): D(+) Glucose is a dextrorotatory in nature.\nReason (R): 'D' represents its dextrorotatory nature.",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (c): A is true but R is false.",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "A true, R false"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "D/L vs d/l Configuration",
+        "why_this_question_is_asked": "Classic confusion. 'D' refers to configuration relative to Glyceraldehyde. '(+)' or 'd' refers to optical rotation.",
+        "common_student_mistake": "Thinking D means Dextro.",
+        "trap_zone": "Capital D/L is configuration; Small d/l or (+)/(-) is rotation."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "c",
+        "options": {
+          "a": "Both A and R are true and R is the correct explanation of A",
+          "b": "Both A and R are true but R is not the correct explanation of A",
+          "c": "A is true but R is false",
+          "d": "A is false but R is true"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "BIO-2023-VSA-22",
+      "year": "2023",
+      "question_type": "2M",
+      "marks": 2,
+      "question_text": "Explain what is meant by:\n(i) Peptide linkage\n(ii) Pyranose structure of glucose",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(i) Peptide Linkage: Amide bond (-CONH-) formed between amino group of one amino acid and carboxyl group of another.\n(ii) Pyranose structure: The 6-membered cyclic hemiacetal structure of glucose containing one oxygen atom and five carbon atoms, resembling Pyran.",
+        "stepwise_marking_scheme_breakdown": "1 mark each.",
+        "final_answer_boxed": "Amide bond; 6-membered ring"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Definitions",
+        "why_this_question_is_asked": "Standard.",
+        "common_student_mistake": "N/A",
+        "trap_zone": "Pyranose is 6-membered; Furanose is 5-membered."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "BIO-2024-MCQ-23",
+      "year": "2024",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "Which of the following is a fibrous protein?",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (a): Keratin",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "Keratin"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Protein Types",
+        "why_this_question_is_asked": "Examples check.",
+        "common_student_mistake": "Albumin (Globular).",
+        "trap_zone": "Insulin is Globular."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "a",
+        "options": {
+          "a": "Keratin",
+          "b": "Albumin",
+          "c": "Insulin",
+          "d": "Haemoglobin"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "BIO-2022-SA-24",
+      "year": "2022",
+      "question_type": "3M",
+      "marks": 3,
+      "question_text": "State the functions of:\n(i) Vitamin A\n(ii) Vitamin D\n(iii) Vitamin K",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(i) Vitamin A: Essential for vision (retinal pigment formation). Deficiency causes night blindness.\n(ii) Vitamin D: Regulates Ca and P absorption for bone health. Deficiency causes Rickets.\n(iii) Vitamin K: Essential for blood clotting. Deficiency causes increased bleeding time.",
+        "stepwise_marking_scheme_breakdown": "1 mark each function.",
+        "final_answer_boxed": "Vision; Bone; Clotting"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Vitamin Functions",
+        "why_this_question_is_asked": "Health relevance.",
+        "common_student_mistake": "N/A",
+        "trap_zone": "N/A"
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "BIO-2025-VSA-25",
+      "year": "2025",
+      "question_type": "2M",
+      "marks": 2,
+      "question_text": "What happens when protein is denatured?",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Upon denaturation, the hydrogen bonds and other weak forces holding the secondary and tertiary structures are disrupted. The protein globules unfold and helixes uncoil, forming a random shape. The protein loses its biological activity. However, the primary structure (sequence of amino acids) remains intact.",
+        "stepwise_marking_scheme_breakdown": "1 mark for 'Unfolding/Loss of 2/3 structure'.\n1 mark for 'Loss of biological activity'.",
+        "final_answer_boxed": "Unfolding & Activity Loss"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Denaturation",
+        "why_this_question_is_asked": "Repeated core concept.",
+        "common_student_mistake": "Thinking peptide bonds break.",
+        "trap_zone": "Reversibility (Renaturation) is possible in some cases but usually irreversible."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    }
+  ],
+  "chapter_pattern_analysis": {
+    "most_repeated_concepts": [
+      "Reactions of Glucose (HI, Bromine water, HNO3).",
+      "Protein Structure (Primary vs Secondary vs Tertiary, Denaturation).",
+      "Vitamins & Deficiency Diseases.",
+      "Nucleic Acids (DNA vs RNA, Bases)."
+    ],
+    "high_probability_2026_focus": [
+      "Structural evidence of Glucose (Reactions).",
+      "Zwitter ion and Isoelectric point logic.",
+      "Glycosidic vs Peptide vs Phosphodiester linkages."
+    ],
+    "numerical_weightage_trend": "None.",
+    "case_based_trend": "Focuses on Carbohydrate classification or DNA/RNA structure.",
+    "assertion_reason_trend": "Stereochemistry (D/L) and Sugar properties (Reducing/Non-reducing)."
+  }
+}

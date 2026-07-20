@@ -1,0 +1,444 @@
+PHYSICS DIAGRAM DESCRIPTIONS FOR GENERATION
+===========================================
+
+
+### CHAPTER: Alternating Current (alternatingcurrent.json)
+--------------------------------------------------
+
+[1] Diagram Name: Phasor Diagram for Resistor
+    Filename: phasor_diagram_resistor.png
+    Context/Usage: Phasor Diagram for Resistor
+    PROMPT/DESCRIPTION: Current and Voltage phasors are parallel (in phase).
+
+[2] Diagram Name: Phasor Diagram for Inductor
+    Filename: phasor_diagram_inductor.png
+    Context/Usage: Phasor Diagram for Inductor
+    PROMPT/DESCRIPTION: Voltage phasor leads Current phasor by 90 degrees.
+
+[3] Diagram Name: Phasor Diagram for Capacitor
+    Filename: phasor_diagram_capacitor.png
+    Context/Usage: Phasor Diagram for Capacitor
+    PROMPT/DESCRIPTION: Current phasor leads Voltage phasor by 90 degrees.
+
+[4] Diagram Name: Phasor Diagram for Series LCR
+    Filename: phasor_diagram_series_lcr.png
+    Context/Usage: Phasor Diagram for Series LCR
+    PROMPT/DESCRIPTION: VL and VC are opposite; Net voltage V makes angle phi with Current I.
+
+[5] Diagram Name: Impedance Triangle
+    Filename: impedance_triangle.png
+    Context/Usage: Impedance Triangle
+    PROMPT/DESCRIPTION: Right-angled triangle with sides R, (XL-XC), and hypotenuse Z.
+
+[6] Diagram Name: Resonance Curve
+    Filename: graph_current_vs_frequency_lcr.png
+    Context/Usage: Resonance Curve
+    PROMPT/DESCRIPTION: Graph showing peak current at resonant frequency w0; sharpness depends on R.
+
+[7] Diagram Name: Transformer Diagram
+    Filename: transformer_schematic.png
+    Context/Usage: Transformer Diagram
+    PROMPT/DESCRIPTION: Primary and secondary coils wound on a laminated soft iron core.
+
+
+### CHAPTER: Atoms (atoms.json)
+--------------------------------------------------
+
+[1] Diagram Name: Geiger-Marsden Experiment Setup
+    Filename: geiger_marsden_experiment_setup.png
+    Context/Usage: Geiger-Marsden Experiment Setup
+    PROMPT/DESCRIPTION: Alpha particles from source collimated by lead bricks strike gold foil; scattered particles detected by rotatable detector.
+
+[2] Diagram Name: Trajectory of Alpha Particles
+    Filename: alpha_particle_trajectory_scattering.png
+    Context/Usage: Trajectory of Alpha Particles
+    PROMPT/DESCRIPTION: Paths of alpha particles showing deflection depends on impact parameter b.
+
+[3] Diagram Name: Energy Levels of Hydrogen
+    Filename: energy_level_diagram_hydrogen.png
+    Context/Usage: Energy Levels of Hydrogen
+    PROMPT/DESCRIPTION: Horizontal lines representing discrete energy states corresponding to n=1, 2, 3...
+
+[4] Diagram Name: Hydrogen Spectral Series
+    Filename: spectral_series_hydrogen_transitions.png
+    Context/Usage: Hydrogen Spectral Series
+    PROMPT/DESCRIPTION: Arrows showing electron jumps corresponding to Lyman, Balmer, Paschen series.
+
+
+### CHAPTER: Current Electricity (currentelectricity.json)
+--------------------------------------------------
+
+[1] Diagram Name: V-I Characteristics
+    Filename: graph_VI_ohmic_vs_nonohmic.png
+    Context/Usage: V-I Characteristics
+    PROMPT/DESCRIPTION: (a) Linear for ohmic conductors (Metals), (b) Non-linear for non-ohmic (e.g., Diode, GaAs).
+
+[2] Diagram Name: Electron Drift
+    Filename: electron_drift_path.png
+    Context/Usage: Electron Drift
+    PROMPT/DESCRIPTION: Random path of electron modified by electric field, resulting in a net drift.
+
+[3] Diagram Name: Resistivity vs Temperature Graphs
+    Filename: graph_resistivity_temp_copper_nichrome_semi.png
+    Context/Usage: Resistivity vs Temperature Graphs
+    PROMPT/DESCRIPTION: (a) Copper (linear), (b) Nichrome (linear, high intercept), (c) Semiconductor (exponential decay).
+
+[4] Diagram Name: Wheatstone Bridge Circuit
+    Filename: circuit_wheatstone_bridge.png
+    Context/Usage: Wheatstone Bridge Circuit
+    PROMPT/DESCRIPTION: Four resistors R1, R2, R3, R4 forming a loop with a galvanometer.
+
+[5] Diagram Name: Potentiometer Circuit
+    Filename: circuit_potentiometer_comparison.png
+    Context/Usage: Potentiometer Circuit
+    PROMPT/DESCRIPTION: Circuit for comparing EMFs of two cells.
+
+
+### CHAPTER: Dual Nature of Radiation and Matter (dualnature.json)
+--------------------------------------------------
+
+[1] Diagram Name: Experimental Setup for Photoelectric Effect
+    Filename: photoelectric_effect_setup.png
+    Context/Usage: Experimental Setup for Photoelectric Effect
+    PROMPT/DESCRIPTION: Evacuated glass tube with photosensitive plate (C) and collector plate (A).
+
+[2] Diagram Name: Graph: Photocurrent vs Intensity
+    Filename: graph_current_vs_intensity.png
+    Context/Usage: Graph: Photocurrent vs Intensity
+    PROMPT/DESCRIPTION: Straight line passing through origin showing linear relationship.
+
+[3] Diagram Name: Graph: Photocurrent vs Potential (Effect of Intensity)
+    Filename: graph_current_vs_potential_intensity.png
+    Context/Usage: Graph: Photocurrent vs Potential (Effect of Intensity)
+    PROMPT/DESCRIPTION: Different intensities I1, I2, I3 have different saturation currents but same stopping potential.
+
+[4] Diagram Name: Graph: Photocurrent vs Potential (Effect of Frequency)
+    Filename: graph_current_vs_potential_frequency.png
+    Context/Usage: Graph: Photocurrent vs Potential (Effect of Frequency)
+    PROMPT/DESCRIPTION: Different frequencies v1, v2, v3 have different stopping potentials but same saturation current (for same intensity).
+
+[5] Diagram Name: Graph: Stopping Potential vs Frequency
+    Filename: graph_stopping_potential_vs_frequency.png
+    Context/Usage: Graph: Stopping Potential vs Frequency
+    PROMPT/DESCRIPTION: Linear graph. Slope = h/e. Intercept on potential axis = -Φ₀/e.
+
+[6] Diagram Name: Davisson-Germer Experimental Setup
+    Filename: davisson_germer_setup.png
+    Context/Usage: Davisson-Germer Experimental Setup
+    PROMPT/DESCRIPTION: Electron gun directs beam at Nickel target; moveable detector measures intensity.
+
+[7] Diagram Name: Polar Graph of Scattering Intensity
+    Filename: davisson_germer_polar_graph.png
+    Context/Usage: Polar Graph of Scattering Intensity
+    PROMPT/DESCRIPTION: Strong peak observed at 54V and 50 degree scattering angle.
+
+
+### CHAPTER: Electric Charges and Fields (electricfieldandcharges.json)
+--------------------------------------------------
+
+[1] Diagram Name: Vector Representation of Coulomb's Law
+    Filename: coulomb_force_vectors.png
+    Context/Usage: Vector Representation of Coulomb's Law
+    PROMPT/DESCRIPTION: Forces between two point charges q1 and q2 acting along the line joining them.
+
+[2] Diagram Name: Electric Field Lines
+    Filename: electric_field_lines_patterns.png
+    Context/Usage: Electric Field Lines
+    PROMPT/DESCRIPTION: Field lines for (a) positive charge, (b) negative charge, (c) dipole, and (d) two positive charges.
+
+[3] Diagram Name: Area Vector and Flux
+    Filename: electric_flux_area_vector.png
+    Context/Usage: Area Vector and Flux
+    PROMPT/DESCRIPTION: Flux depends on the angle between the electric field E and the area vector dS.
+
+[4] Diagram Name: Dipole in Uniform Electric Field
+    Filename: dipole_torque_uniform_field.png
+    Context/Usage: Dipole in Uniform Electric Field
+    PROMPT/DESCRIPTION: Forces on the charges form a couple, creating a torque on the dipole.
+
+[5] Diagram Name: Gaussian Surface for Infinite Wire
+    Filename: gaussian_surface_cylinder_wire.png
+    Context/Usage: Gaussian Surface for Infinite Wire
+    PROMPT/DESCRIPTION: Cylindrical Gaussian surface around a uniformly charged infinite wire.
+
+[6] Diagram Name: Gaussian Surface for Plane Sheet
+    Filename: gaussian_surface_box_sheet.png
+    Context/Usage: Gaussian Surface for Plane Sheet
+    PROMPT/DESCRIPTION: Rectangular parallelepiped (box) Gaussian surface crossing a charged plane sheet.
+
+[7] Diagram Name: Graph of E vs r for Spherical Shell
+    Filename: graph_E_vs_r_shell.png
+    Context/Usage: Graph of E vs r for Spherical Shell
+    PROMPT/DESCRIPTION: E is zero inside the shell and decreases as 1/r^2 outside the shell.
+
+
+### CHAPTER: Electromagnetic Induction (electromagneticinduction.json)
+--------------------------------------------------
+
+[1] Diagram Name: Faraday's Magnet and Coil Experiment
+    Filename: faraday_experiment_magnet_coil.png
+    Context/Usage: Faraday's Magnet and Coil Experiment
+    PROMPT/DESCRIPTION: Relative motion between magnet and coil induces electric current.
+
+[2] Diagram Name: Lenz's Law Illustration
+    Filename: lenz_law_direction.png
+    Context/Usage: Lenz's Law Illustration
+    PROMPT/DESCRIPTION: Approaching North pole induces North pole on coil face (repulsion); Receding North pole induces South pole (attraction).
+
+[3] Diagram Name: Motional EMF Setup
+    Filename: motional_emf_rod_rails.png
+    Context/Usage: Motional EMF Setup
+    PROMPT/DESCRIPTION: Conductor PQ moving on rectangular loop in uniform magnetic field.
+
+[4] Diagram Name: Eddy Current Damping
+    Filename: eddy_current_pendulum.png
+    Context/Usage: Eddy Current Damping
+    PROMPT/DESCRIPTION: Copper plate swinging between magnet poles stops quickly due to magnetic braking.
+
+[5] Diagram Name: Mutual Inductance Setup
+    Filename: mutual_inductance_coaxial_solenoids.png
+    Context/Usage: Mutual Inductance Setup
+    PROMPT/DESCRIPTION: Two long coaxial solenoids S1 and S2.
+
+[6] Diagram Name: AC Generator
+    Filename: ac_generator_schematic.png
+    Context/Usage: AC Generator
+    PROMPT/DESCRIPTION: Coil rotating in magnetic field with slip rings and brushes.
+
+[7] Diagram Name: Variation of Induced EMF with Time
+    Filename: graph_emf_vs_time_sine.png
+    Context/Usage: Variation of Induced EMF with Time
+    PROMPT/DESCRIPTION: Sinusoidal variation of EMF corresponding to coil orientation.
+
+
+### CHAPTER: Electrostatic Potential and Capacitance (electrostaticpotentialandcapicitance.json)
+--------------------------------------------------
+
+[1] Diagram Name: Variation of Potential with Distance
+    Filename: graph_V_vs_r_point_charge.png
+    Context/Usage: Variation of Potential with Distance
+    PROMPT/DESCRIPTION: Graph showing V varies as 1/r, while E varies as 1/r^2.
+
+[2] Diagram Name: Equipotential Surfaces Shapes
+    Filename: equipotential_surfaces_shapes.png
+    Context/Usage: Equipotential Surfaces Shapes
+    PROMPT/DESCRIPTION: (a) Concentric spheres for point charge, (b) Parallel planes for uniform field.
+
+[3] Diagram Name: Parallel Plate Capacitor
+    Filename: parallel_plate_capacitor.png
+    Context/Usage: Parallel Plate Capacitor
+    PROMPT/DESCRIPTION: Two parallel metal plates separated by distance d with charges +Q and -Q.
+
+
+### CHAPTER: Electromagnetic Waves (emwaves.json)
+--------------------------------------------------
+
+[1] Diagram Name: Propagation of EM Wave
+    Filename: em_wave_propagation_sinusoidal.png
+    Context/Usage: Propagation of EM Wave
+    PROMPT/DESCRIPTION: Electric field Ex varies sinusoidally along y-axis, Magnetic field By along z-axis; Wave propagates along x-axis.
+
+[2] Diagram Name: Electromagnetic Spectrum
+    Filename: em_spectrum_chart.png
+    Context/Usage: Electromagnetic Spectrum
+    PROMPT/DESCRIPTION: Spectrum showing wavelength ranges from Gamma rays (10^-12 m) to Radio waves (> 10^0 m).
+
+
+### CHAPTER: Magnetism and Matter (magentismandmatter.json)
+--------------------------------------------------
+
+[1] Diagram Name: Field Lines of Bar Magnet vs Solenoid
+    Filename: field_lines_magnet_solenoid.png
+    Context/Usage: Field Lines of Bar Magnet vs Solenoid
+    PROMPT/DESCRIPTION: Comparison showing that a finite solenoid and a bar magnet produce similar magnetic fields.
+
+[2] Diagram Name: Elements of Earth's Magnetic Field
+    Filename: earth_magnetic_elements_diagram.png
+    Context/Usage: Elements of Earth's Magnetic Field
+    PROMPT/DESCRIPTION: Shows the relationship between Geographic Meridian, Magnetic Meridian, Dip (I), and Horizontal Component (H).
+
+[3] Diagram Name: Magnetic Field Lines in Materials
+    Filename: field_lines_dia_para_ferro.png
+    Context/Usage: Magnetic Field Lines in Materials
+    PROMPT/DESCRIPTION: (a) Diamagnetic (lines expelled), (b) Paramagnetic (lines concentrate).
+
+[4] Diagram Name: Hysteresis Loop
+    Filename: hysteresis_loop_B_vs_H.png
+    Context/Usage: Hysteresis Loop
+    PROMPT/DESCRIPTION: Graph of B vs H showing Retentivity (Ob) and Coercivity (Oc).
+
+
+### CHAPTER: Moving Charges and Magnetism (movingchargesandmagnetism.json)
+--------------------------------------------------
+
+[1] Diagram Name: Direction of Magnetic Force
+    Filename: fleming_left_hand_rule.png
+    Context/Usage: Direction of Magnetic Force
+    PROMPT/DESCRIPTION: Fleming's Left Hand Rule relates directions of F, B, and v (current).
+
+[2] Diagram Name: Helical Motion
+    Filename: helical_path_charged_particle.png
+    Context/Usage: Helical Motion
+    PROMPT/DESCRIPTION: Charged particle moving with velocity v at an angle to B follows a helical path.
+
+[3] Diagram Name: Field on Axis of Circular Loop
+    Filename: field_axis_circular_loop.png
+    Context/Usage: Field on Axis of Circular Loop
+    PROMPT/DESCRIPTION: Geometry showing current element dl, position vector r, and magnetic field components.
+
+[4] Diagram Name: Magnetic Field of Solenoid
+    Filename: solenoid_field_lines.png
+    Context/Usage: Magnetic Field of Solenoid
+    PROMPT/DESCRIPTION: Field lines are parallel inside the solenoid indicating a uniform field.
+
+[5] Diagram Name: Moving Coil Galvanometer
+    Filename: moving_coil_galvanometer_principle.png
+    Context/Usage: Moving Coil Galvanometer
+    PROMPT/DESCRIPTION: Radial magnetic field produced by concave pole pieces ensures constant torque.
+
+
+### CHAPTER: Nuclei (nuclie.json)
+--------------------------------------------------
+
+[1] Diagram Name: Binding Energy per Nucleon Curve
+    Filename: graph_binding_energy_per_nucleon.png
+    Context/Usage: Binding Energy per Nucleon Curve
+    PROMPT/DESCRIPTION: Ebn is practically constant (8 MeV) for 30 < A < 170. Maximum (8.75 MeV) for Fe-56.
+
+[2] Diagram Name: Potential Energy of Nucleon Pair
+    Filename: graph_potential_energy_nucleon_pair.png
+    Context/Usage: Potential Energy of Nucleon Pair
+    PROMPT/DESCRIPTION: Minimum PE at r0 ~ 0.8 fm. Attractive for r > r0, Repulsive for r < r0.
+
+[3] Diagram Name: Exponential Decay Curve
+    Filename: graph_radioactive_decay_exponential.png
+    Context/Usage: Exponential Decay Curve
+    PROMPT/DESCRIPTION: Number of active nuclei N decreases exponentially with time.
+
+[4] Diagram Name: Energy Levels (Gamma Decay)
+    Filename: gamma_decay_energy_levels.png
+    Context/Usage: Energy Levels (Gamma Decay)
+    PROMPT/DESCRIPTION: Example: Co-60 beta decays to excited Ni-60, which emits gamma rays to reach ground state.
+
+[5] Diagram Name: Nuclear Reactor Schematic
+    Filename: nuclear_reactor_schematic.png
+    Context/Usage: Nuclear Reactor Schematic
+    PROMPT/DESCRIPTION: Core containing fuel rods, moderator, and control rods.
+
+
+### CHAPTER: Ray Optics and Optical Instruments (rayoptics.json)
+--------------------------------------------------
+
+[1] Diagram Name: Refraction through Glass Slab
+    Filename: refraction_glass_slab_lateral_shift.png
+    Context/Usage: Refraction through Glass Slab
+    PROMPT/DESCRIPTION: Emergent ray is parallel to incident ray but laterally displaced.
+
+[2] Diagram Name: Total Internal Reflection
+    Filename: total_internal_reflection_critical_angle.png
+    Context/Usage: Total Internal Reflection
+    PROMPT/DESCRIPTION: Ray undergoes reflection when incidence angle exceeds critical angle ic.
+
+[3] Diagram Name: Refraction at Spherical Surface
+    Filename: refraction_spherical_surface_convex.png
+    Context/Usage: Refraction at Spherical Surface
+    PROMPT/DESCRIPTION: Geometry for deriving the relationship between u, v, n1, n2, and R.
+
+[4] Diagram Name: Refraction through Prism
+    Filename: prism_refraction_ray_diagram.png
+    Context/Usage: Refraction through Prism
+    PROMPT/DESCRIPTION: Path of ray showing angle of deviation delta.
+
+[5] Diagram Name: Graph of Deviation vs Incidence Angle
+    Filename: graph_deviation_vs_incidence_prism.png
+    Context/Usage: Graph of Deviation vs Incidence Angle
+    PROMPT/DESCRIPTION: Curve shows a unique minimum value of deviation delta_m.
+
+[6] Diagram Name: Compound Microscope
+    Filename: compound_microscope_ray_diagram.png
+    Context/Usage: Compound Microscope
+    PROMPT/DESCRIPTION: Ray diagram showing image formation by objective and eyepiece.
+
+[7] Diagram Name: Refracting Telescope
+    Filename: refracting_telescope_ray_diagram.png
+    Context/Usage: Refracting Telescope
+    PROMPT/DESCRIPTION: Parallel rays from infinity focused by objective, viewed through eyepiece.
+
+[8] Diagram Name: Cassegrain Reflecting Telescope
+    Filename: cassegrain_telescope_diagram.png
+    Context/Usage: Cassegrain Reflecting Telescope
+    PROMPT/DESCRIPTION: Primary concave mirror and secondary convex mirror focus light to the eye.
+
+
+### CHAPTER: Semiconductor Electronics: Materials, Devices and Simple Circuits (semiconductor.json)
+--------------------------------------------------
+
+[1] Diagram Name: Classification based on Energy Bands
+    Filename: energy_band_diagram_metals_semiconductors_insulators.png
+    Context/Usage: Classification based on Energy Bands
+    PROMPT/DESCRIPTION: (a) Metals: Overlapping bands or no gap. (b) Semiconductors: Small gap (Eg < 3 eV). (c) Insulators: Large gap (Eg > 3 eV).
+
+[2] Diagram Name: Energy Bands in Extrinsic Semiconductors
+    Filename: energy_band_diagram_n_type_p_type.png
+    Context/Usage: Energy Bands in Extrinsic Semiconductors
+    PROMPT/DESCRIPTION: Shows Donor level (Ed) near Conduction Band for n-type, and Acceptor level (Ea) near Valence Band for p-type.
+
+[3] Diagram Name: p-n Junction and Barrier Potential
+    Filename: pn_junction_depletion_barrier_potential.png
+    Context/Usage: p-n Junction and Barrier Potential
+    PROMPT/DESCRIPTION: Depletion region width and potential barrier V0 across the junction.
+
+[4] Diagram Name: V-I Characteristics of p-n Junction Diode
+    Filename: graph_vi_characteristics_diode.png
+    Context/Usage: V-I Characteristics of p-n Junction Diode
+    PROMPT/DESCRIPTION: Exponential rise in forward bias (after threshold voltage); small saturation current in reverse bias.
+
+[5] Diagram Name: Half-Wave Rectifier Circuit and Waveform
+    Filename: circuit_half_wave_rectifier_waveforms.png
+    Context/Usage: Half-Wave Rectifier Circuit and Waveform
+    PROMPT/DESCRIPTION: Diode conducts only when A is positive with respect to B.
+
+[6] Diagram Name: Full-Wave Rectifier Circuit and Waveform
+    Filename: circuit_full_wave_rectifier_waveforms.png
+    Context/Usage: Full-Wave Rectifier Circuit and Waveform
+    PROMPT/DESCRIPTION: Center-tap transformer allows current through load in same direction for both half cycles.
+
+
+### CHAPTER: Wave Optics (waveoptics.json)
+--------------------------------------------------
+
+[1] Diagram Name: Types of Wavefronts
+    Filename: wavefront_types_spherical_plane.png
+    Context/Usage: Types of Wavefronts
+    PROMPT/DESCRIPTION: Rays are always perpendicular to the wavefronts.
+
+[2] Diagram Name: Refraction by Huygens Principle
+    Filename: huygens_refraction_proof.png
+    Context/Usage: Refraction by Huygens Principle
+    PROMPT/DESCRIPTION: Geometry of wavefronts showing change in speed causes bending.
+
+[3] Diagram Name: YDSE Setup
+    Filename: youngs_double_slit_setup.png
+    Context/Usage: YDSE Setup
+    PROMPT/DESCRIPTION: S1 and S2 act as coherent sources separated by distance d; Screen at distance D.
+
+[4] Diagram Name: Interference Intensity Distribution
+    Filename: interference_intensity_graph.png
+    Context/Usage: Interference Intensity Distribution
+    PROMPT/DESCRIPTION: All bright fringes have equal intensity (4I0).
+
+[5] Diagram Name: Single Slit Diffraction
+    Filename: single_slit_diffraction_geometry.png
+    Context/Usage: Single Slit Diffraction
+    PROMPT/DESCRIPTION: Slit width 'a'. Path difference between edges is a*sin(theta).
+
+[6] Diagram Name: Diffraction vs Interference Graph
+    Filename: diffraction_vs_interference_intensity.png
+    Context/Usage: Diffraction vs Interference Graph
+    PROMPT/DESCRIPTION: Interference: Equal width/intensity. Diffraction: Central max dominates.
+
+[7] Diagram Name: Brewster's Angle
+    Filename: polarisation_reflection_brewster.png
+    Context/Usage: Brewster's Angle
+    PROMPT/DESCRIPTION: Reflected ray (dots) is perpendicular to refracted ray.
+

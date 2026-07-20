@@ -1,0 +1,1168 @@
+{
+  "chapter_name": "Integrals",
+  "board": "CBSE",
+  "class": "12",
+  "exam_year": "2026",
+  "formulas": [
+    {
+      "formula_number": 1,
+      "formula_title": "Power Rule of Integration",
+      "section_A": {
+        "latex_formula": "$$\\int x^n dx = \\frac{x^{n+1}}{n+1} + C \\quad (n \\neq -1)$$",
+        "derived_forms": [
+          "$$\\int (ax+b)^n dx = \\frac{(ax+b)^{n+1}}{a(n+1)} + C$$",
+          "$$\\int dx = x + C$$"
+        ],
+        "special_cases": [
+          "$$\\int \\sqrt{x} dx = \\frac{2}{3}x^{3/2} + C$$",
+          "$$\\int \\frac{1}{\\sqrt{x}} dx = 2\\sqrt{x} + C$$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "When integrating polynomial terms, roots, or basic algebraic expressions.",
+        "trigger_keywords": [
+          "polynomial",
+          "root x",
+          "algebraic integral"
+        ],
+        "question_types": [
+          "MCQ",
+          "1_mark",
+          "2_mark"
+        ],
+        "common_mistakes": [
+          "Forgetting the constant of integration (+ C) which costs 0.5 to 1 mark in board exams.",
+          "Applying the power rule when n = -1 (which should be log|x|).",
+          "Forgetting to divide by the coefficient 'a' when integrating (ax+b)^n."
+        ],
+        "board_traps": [
+          "Providing expressions like 1/x^3 and students struggling to convert it to x^{-3} before integrating."
+        ],
+        "examiner_twist_pattern": "Mixing algebraic terms with denominators that require splitting the numerator before applying the power rule."
+      },
+      "section_C": {
+        "why_students_fail": "Rushing through basic integration and failing to adjust coefficients for composite linear functions.",
+        "how_to_think": "Integration is anti-derivation. If deriving multiplies and subtracts 1 from power, integrating adds 1 to power and divides.",
+        "thirty_second_strategy": "Convert all radicals and fractions to negative or fractional exponents. Add 1 to the power. Divide by the new power. Add C.",
+        "mental_shortcut": "Power up, then divide by the new power.",
+        "micro_example": "$$\\int \\frac{1}{x^2} dx = \\int x^{-2} dx = \\frac{x^{-1}}{-1} = -\\frac{1}{x} + C$$"
+      }
+    },
+    {
+      "formula_number": 2,
+      "formula_title": "Logarithmic Integration Rule",
+      "section_A": {
+        "latex_formula": "$$\\int \\frac{1}{x} dx = \\ln|x| + C$$",
+        "derived_forms": [
+          "$$\\int \\frac{1}{ax+b} dx = \\frac{1}{a} \\ln|ax+b| + C$$",
+          "$$\\int \\frac{f'(x)}{f(x)} dx = \\ln|f(x)| + C$$"
+        ],
+        "special_cases": [
+          "$$\\int \\frac{2x}{x^2+a^2} dx = \\ln(x^2+a^2) + C \\text{ (Modulus not strictly needed as } x^2+a^2 > 0)$$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "When the numerator is the exact or proportional derivative of the denominator.",
+        "trigger_keywords": [
+          "rational function",
+          "derivative in numerator",
+          "1/x form"
+        ],
+        "question_types": [
+          "MCQ",
+          "2_mark",
+          "3_mark"
+        ],
+        "common_mistakes": [
+          "Forgetting the absolute value (modulus) signs inside the logarithm. Logarithm domain requires positive arguments.",
+          "Integrating 1/(x^2) as ln|x^2| instead of using the power rule."
+        ],
+        "board_traps": [
+          "Giving an integral like x/(x^2+1). Students forget to multiply and divide by 2 to create the exact derivative in the numerator."
+        ],
+        "examiner_twist_pattern": "Embedding the f'(x)/f(x) form inside a complex trigonometric integral, e.g., integrating cot(x) as cos(x)/sin(x)."
+      },
+      "section_C": {
+        "why_students_fail": "Not scanning the integrand to check if the denominator's derivative is hovering in the numerator.",
+        "how_to_think": "Whenever you see a fraction, immediately mentally differentiate the denominator. If the result looks like the numerator (ignoring constants), it's a log integral.",
+        "thirty_second_strategy": "Identify denominator f(x). Find f'(x). Adjust the numerator with constants if necessary to match f'(x). Write ln|f(x)| + C.",
+        "mental_shortcut": "Derivative on top? Log of the bottom.",
+        "micro_example": "$$\\int \\frac{3x^2}{x^3+5} dx = \\ln|x^3+5| + C$$"
+      }
+    },
+    {
+      "formula_number": 3,
+      "formula_title": "Exponential Integration",
+      "section_A": {
+        "latex_formula": "$$\\int e^x dx = e^x + C$$",
+        "derived_forms": [
+          "$$\\int e^{ax+b} dx = \\frac{e^{ax+b}}{a} + C$$",
+          "$$\\int a^x dx = \\frac{a^x}{\\ln a} + C$$"
+        ],
+        "special_cases": [
+          "$$\\int e^{\\ln(f(x))} dx = \\int f(x) dx$$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "Integrating functions with variable exponents.",
+        "trigger_keywords": [
+          "exponential",
+          "e^x",
+          "base a"
+        ],
+        "question_types": [
+          "1_mark",
+          "2_mark"
+        ],
+        "common_mistakes": [
+          "Writing the integral of a^x as a^{x+1}/(x+1). Applying power rule to exponentials is a fatal error.",
+          "Forgetting to divide by 'a' when integrating e^{ax}."
+        ],
+        "board_traps": [
+          "Testing the fundamental identity e^{\\ln x} = x before the student can integrate. E.g., asking for the integral of e^{3 \\ln x}."
+        ],
+        "examiner_twist_pattern": "Combining exponentials with integration by substitution, e.g., integrating e^{x^3} * x^2."
+      },
+      "section_C": {
+        "why_students_fail": "Confusing the rules for x^n (variable base, constant power) with a^x (constant base, variable power).",
+        "how_to_think": "The function e^x is invincible; it remains unchanged. For base 'a', differentiation multiplies by ln(a), so integration must divide by ln(a).",
+        "thirty_second_strategy": "Check if base is 'e' or a constant 'a'. If 'e', keep it as is and divide by derivative of the linear exponent. If 'a', keep it as is, divide by ln(a) and the exponent's derivative.",
+        "mental_shortcut": "Copy the exponential, divide by derivative of the top and ln(base).",
+        "micro_example": "$$\\int 2^x dx = \\frac{2^x}{\\ln 2} + C$$"
+      }
+    },
+    {
+      "formula_number": 4,
+      "formula_title": "Primary Trigonometric Integrals",
+      "section_A": {
+        "latex_formula": "$$\\int \\sin x dx = -\\cos x + C \\quad \\text{and} \\quad \\int \\cos x dx = \\sin x + C$$",
+        "derived_forms": [
+          "$$\\int \\sin(ax+b) dx = -\\frac{\\cos(ax+b)}{a} + C$$",
+          "$$\\int \\cos(ax+b) dx = \\frac{\\sin(ax+b)}{a} + C$$"
+        ],
+        "special_cases": [
+          "$$\\int \\sin^2 x dx = \\int \\frac{1 - \\cos(2x)}{2} dx = \\frac{x}{2} - \\frac{\\sin(2x)}{4} + C$$",
+          "$$\\int \\cos^2 x dx = \\int \\frac{1 + \\cos(2x)}{2} dx = \\frac{x}{2} + \\frac{\\sin(2x)}{4} + C$$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "When integrating basic sine and cosine functions or their linear combinations.",
+        "trigger_keywords": [
+          "sin x",
+          "cos x",
+          "trig identities"
+        ],
+        "question_types": [
+          "2_mark",
+          "3_mark"
+        ],
+        "common_mistakes": [
+          "Sign errors: Derivating sin(x) gives positive cos(x), but integrating sin(x) gives NEGATIVE cos(x).",
+          "Attempting to integrate sin^2(x) as sin^3(x)/3."
+        ],
+        "board_traps": [
+          "Providing sin^2(x) or cos^2(x). These cannot be integrated directly and MUST be converted using double angle formulas."
+        ],
+        "examiner_twist_pattern": "Testing integration of products like sin(3x)cos(2x). Requires conversion to sums using 2sin(A)cos(B) formulas before integration."
+      },
+      "section_C": {
+        "why_students_fail": "Sign confusion between differentiation and integration is the number one cause of lost marks here.",
+        "how_to_think": "Think backwards: Whose derivative is sin(x)? The derivative of cos(x) is -sin(x). Therefore, the integral of sin(x) must be -cos(x).",
+        "thirty_second_strategy": "If linear power, integrate directly and check signs. If squared power (sin^2, cos^2), immediately swap for (1 \u00b1 cos2x)/2. Divide by inner coefficients.",
+        "mental_shortcut": "Integral of Sin is negative. Integral of Cos is positive.",
+        "micro_example": "$$\\int \\sin(3x) dx = -\\frac{\\cos(3x)}{3} + C$$"
+      }
+    },
+    {
+      "formula_number": 5,
+      "formula_title": "Secondary Trigonometric Integrals",
+      "section_A": {
+        "latex_formula": "$$\\int \\sec^2 x dx = \\tan x + C \\quad \\text{and} \\quad \\int \\csc^2 x dx = -\\cot x + C$$",
+        "derived_forms": [
+          "$$\\int \\sec x \\tan x dx = \\sec x + C$$",
+          "$$\\int \\csc x \\cot x dx = -\\csc x + C$$"
+        ],
+        "special_cases": [
+          "$$\\int \\tan^2 x dx = \\int (\\sec^2 x - 1) dx = \\tan x - x + C$$",
+          "$$\\int \\cot^2 x dx = \\int (\\csc^2 x - 1) dx = -\\cot x - x + C$$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "When integrands involve exact standard trigonometric derivatives.",
+        "trigger_keywords": [
+          "sec^2",
+          "csc^2",
+          "tan^2",
+          "sec tan"
+        ],
+        "question_types": [
+          "2_mark",
+          "3_mark"
+        ],
+        "common_mistakes": [
+          "Trying to apply integration by parts to sec^2(x) instead of recognizing it as a direct standard formula.",
+          "Integrating tan^2(x) directly without converting it to sec^2(x) - 1."
+        ],
+        "board_traps": [
+          "Providing tan^2(x) or cot^2(x). Like sin^2/cos^2, these require an identity shift first, but using Pythagorean identities instead of double angles."
+        ],
+        "examiner_twist_pattern": "Creating complex fractions like 1/(sin^2 x cos^2 x) where students must rewrite the numerator 1 as sin^2 x + cos^2 x to split into sec^2 x + csc^2 x."
+      },
+      "section_C": {
+        "why_students_fail": "Failure to memorize the 6 basic trigonometric derivatives backwards.",
+        "how_to_think": "These are direct reverse-lookups from differential calculus. If you know d/dx(tan x) = sec^2 x, then \u222b sec^2 x dx is free points.",
+        "thirty_second_strategy": "Scan the integrand. Is it one of the 4 special products (sec^2, csc^2, sec tan, csc cot)? If yes, write the base function. If it starts with 'c' (csc^2, csc cot), add a minus sign.",
+        "mental_shortcut": "Co-functions (cot, csc) get the minus sign upon integration.",
+        "micro_example": "$$\\int \\tan^2(2x) dx = \\int (\\sec^2(2x) - 1) dx = \\frac{\\tan(2x)}{2} - x + C$$"
+      }
+    },
+    {
+      "formula_number": 6,
+      "formula_title": "Inverse Trigonometric Integration Formulas",
+      "section_A": {
+        "latex_formula": "$$\\int \\frac{1}{\\sqrt{1-x^2}} dx = \\sin^{-1} x + C$$",
+        "derived_forms": [
+          "$$\\int \\frac{1}{1+x^2} dx = \\tan^{-1} x + C$$",
+          "$$\\int \\frac{1}{x\\sqrt{x^2-1}} dx = \\sec^{-1} x + C$$"
+        ],
+        "special_cases": [
+          "$$\\int \\frac{-1}{\\sqrt{1-x^2}} dx = \\cos^{-1} x + C$$",
+          "$$\\int \\frac{-1}{1+x^2} dx = \\cot^{-1} x + C$$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "When the integrand matches the standard derivatives of inverse trigonometric functions.",
+        "trigger_keywords": [
+          "1/(1+x^2)",
+          "root 1-x^2",
+          "inverse trig derivative"
+        ],
+        "question_types": [
+          "MCQ",
+          "2_mark"
+        ],
+        "common_mistakes": [
+          "Confusing the integrals for sin^-1(x) and ln|x+√(x^2-1)| (which requires x^2-1 in the root).",
+          "Forgetting to divide by 'a' when using the generalized forms like 1/(a^2+x^2)."
+        ],
+        "board_traps": [
+          "Giving an integral like 1/(1+4x^2). Students write tan^-1(4x) instead of (1/2)tan^-1(2x)."
+        ],
+        "examiner_twist_pattern": "Using completing the square method in the denominator to force the expression into the 1/(1+t^2) form."
+      },
+      "section_C": {
+        "why_students_fail": "Failing to substitute correctly when the 'x' term has a coefficient (e.g., integrating 1/√(1-9x^2)).",
+        "how_to_think": "Recognize the footprint of inverse trig. A constant plus a variable squared in the denominator screams inverse tangent. A constant minus a variable squared under a root screams inverse sine.",
+        "thirty_second_strategy": "Isolate the variable squared term. If it has a coefficient, use substitution (e.g., let 3x = t). Then apply the standard direct formula.",
+        "mental_shortcut": "No root, plus sign = tan^-1. Root, number first = sin^-1.",
+        "micro_example": "$$\\int \\frac{1}{1+25x^2} dx = \\frac{1}{5}\\tan^{-1}(5x) + C$$"
+      }
+    },
+    {
+      "formula_number": 7,
+      "formula_title": "Integration by Parts",
+      "section_A": {
+        "latex_formula": "$$\\int u v dx = u \\int v dx - \\int \\left( \\frac{du}{dx} \\int v dx \\right) dx$$",
+        "derived_forms": [
+          "$$\\int f(x)g(x) dx = f(x)\\int g(x) dx - \\int f'(x)\\left(\\int g(x) dx\\right) dx$$"
+        ],
+        "special_cases": [
+          "$$\\int 1 \\cdot \\ln x dx = x \\ln x - x + C \\text{ (Taking 1 as second function)}$$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "When integrating the product of two different types of functions (e.g., algebraic and trigonometric).",
+        "trigger_keywords": [
+          "product of functions",
+          "ILATE",
+          "by parts",
+          "log x integration"
+        ],
+        "question_types": [
+          "3_mark",
+          "5_mark"
+        ],
+        "common_mistakes": [
+          "Choosing the wrong first function (u) and second function (v), leading to a more complex integral.",
+          "Forgetting to integrate the second function 'v' inside the large integral bracket."
+        ],
+        "board_traps": [
+          "Asking to integrate a single inverse trig function like sin^-1(x). The trap is students don't know what to do because it's not a product. (Hint: multiply by 1)."
+        ],
+        "examiner_twist_pattern": "Integrals that loop back to themselves (like e^x sin x), requiring the student to transpose the integral to the LHS as 'I' and solve algebraically."
+      },
+      "section_C": {
+        "why_students_fail": "Not strictly following the ILATE rule (Inverse, Logarithmic, Algebraic, Trigonometric, Exponential) to choose 'u'.",
+        "how_to_think": "It's the product rule for integrals. You want to pick 'u' as the function that gets simpler when you differentiate it, and 'v' as the function that is easy to integrate.",
+        "thirty_second_strategy": "1. Write ILATE. 2. Assign 'u' to the function appearing first in ILATE. 3. Assign 'v' to the other. 4. Apply formula: u*(int v) - int(u' * int v).",
+        "mental_shortcut": "First times integral of second, minus integral of (derivative of first times integral of second).",
+        "micro_example": "$$\\int x e^x dx = x e^x - \\int 1 \\cdot e^x dx = x e^x - e^x + C$$"
+      }
+    },
+    {
+      "formula_number": 8,
+      "formula_title": "Exponential Special Form (Cancellation Theorem)",
+      "section_A": {
+        "latex_formula": "$$\\int e^x [f(x) + f'(x)] dx = e^x f(x) + C$$",
+        "derived_forms": [
+          "$$\\int e^{kx} [k f(x) + f'(x)] dx = e^{kx} f(x) + C$$"
+        ],
+        "special_cases": [
+          "$$\\int e^x \\left( \\frac{1}{x} - \\frac{1}{x^2} \\right) dx = \\frac{e^x}{x} + C$$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "When you see e^x multiplied by a bracket containing two terms.",
+        "trigger_keywords": [
+          "e^x bracket",
+          "function and derivative sum",
+          "e^x (f(x) + f'(x))"
+        ],
+        "question_types": [
+          "2_mark",
+          "3_mark",
+          "MCQ"
+        ],
+        "common_mistakes": [
+          "Expanding the brackets and trying to use Integration by Parts twice, which wastes time and often leads to sign errors.",
+          "Misidentifying which term is f(x) and which is f'(x) when negative signs are involved."
+        ],
+        "board_traps": [
+          "Giving expressions where the f(x) and f'(x) relationship is hidden, like e^x [ (x-1)/(x^2) ]. Students must split the fraction to see 1/x - 1/x^2."
+        ],
+        "examiner_twist_pattern": "Providing functions where the 'e^x' is hidden inside a substitution, e.g., integrating log x requires putting log x = t, which brings in e^t."
+      },
+      "section_C": {
+        "why_students_fail": "Inability to perform algebraic manipulation (like adding and subtracting 1) to force the bracket into the f(x) + f'(x) format.",
+        "how_to_think": "This is a reverse product rule. The derivative of e^x * f(x) is e^x * f'(x) + e^x * f(x). So integrating that sum simply takes you back to e^x * f(x).",
+        "thirty_second_strategy": "Spot e^x. Look at the bracket. Does differentiating one part give the other part? If yes, the answer is just e^x times the original function part.",
+        "mental_shortcut": "e^x [ Function + Derivative ] = e^x * Function.",
+        "micro_example": "$$\\int e^x (\\sin x + \\cos x) dx = e^x \\sin x + C$$"
+      }
+    },
+    {
+      "formula_number": 9,
+      "formula_title": "Six Special Integrals (Without Roots)",
+      "section_A": {
+        "latex_formula": "$$\\int \\frac{1}{x^2 - a^2} dx = \\frac{1}{2a} \\ln \\left| \\frac{x-a}{x+a} \\right| + C$$",
+        "derived_forms": [
+          "$$\\int \\frac{1}{a^2 - x^2} dx = \\frac{1}{2a} \\ln \\left| \\frac{a+x}{a-x} \\right| + C$$",
+          "$$\\int \\frac{1}{x^2 + a^2} dx = \\frac{1}{a} \\tan^{-1}\\frac{x}{a} + C$$"
+        ],
+        "special_cases": [
+          "$$\\text{If coefficient of } x^2 \\text{ is not 1, factor it out before applying the formula.}$$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "When the integrand is a rational function with a constant numerator and a quadratic denominator that can't be easily factored.",
+        "trigger_keywords": [
+          "completing the square",
+          "1 over quadratic",
+          "dx / (quadratic)"
+        ],
+        "question_types": [
+          "3_mark",
+          "5_mark"
+        ],
+        "common_mistakes": [
+          "Swapping the numerator and denominator inside the logarithm for the x^2 - a^2 and a^2 - x^2 formulas.",
+          "Forgetting the 1/(2a) outside the logarithm."
+        ],
+        "board_traps": [
+          "Giving an expression like 1/(3x^2 - 12). Students apply the formula directly with a=√12, ignoring that the formula requires the coefficient of x^2 to be strictly 1."
+        ],
+        "examiner_twist_pattern": "Combining this with a linear term in the numerator (px+q)/(ax^2+bx+c), requiring splitting into a derivative part (log integral) and a special integral part."
+      },
+      "section_C": {
+        "why_students_fail": "Weakness in the algebraic technique of 'completing the square' from Class 10.",
+        "how_to_think": "These formulas bypass partial fractions. First, ensure x^2 is alone. Then complete the square to turn the quadratic into (x \u00b1 h)^2 \u00b1 k^2. Match it to one of the three templates.",
+        "thirty_second_strategy": "Check x^2 coefficient. Make it 1. Complete the square. Identify if it is x^2-a^2, a^2-x^2, or x^2+a^2. Plug into the exact corresponding formula.",
+        "mental_shortcut": "Minus means Log (with 1/2a). Plus means Tan inverse (with 1/a).",
+        "micro_example": "$$\\int \\frac{1}{x^2 - 9} dx = \\frac{1}{6} \\ln \\left| \\frac{x-3}{x+3} \\right| + C$$"
+      }
+    },
+    {
+      "formula_number": 10,
+      "formula_title": "Six Special Integrals (With Roots)",
+      "section_A": {
+        "latex_formula": "$$\\int \\frac{1}{\\sqrt{a^2 - x^2}} dx = \\sin^{-1} \\frac{x}{a} + C$$",
+        "derived_forms": [
+          "$$\\int \\frac{1}{\\sqrt{x^2 - a^2}} dx = \\ln \\left| x + \\sqrt{x^2 - a^2} \\right| + C$$",
+          "$$\\int \\frac{1}{\\sqrt{x^2 + a^2}} dx = \\ln \\left| x + \\sqrt{x^2 + a^2} \\right| + C$$"
+        ],
+        "special_cases": [
+          "$$\\text{If } a=1 \\text{, these reduce to the standard inverse trigonometric and hyperbolic-like integrals.}$$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "When the integrand has a constant numerator and the square root of a quadratic in the denominator.",
+        "trigger_keywords": [
+          "1 over root quadratic",
+          "completing the square under root"
+        ],
+        "question_types": [
+          "3_mark",
+          "5_mark"
+        ],
+        "common_mistakes": [
+          "Adding 1/a outside the sin^-1(x/a) formula (a very common confusion with the tan^-1 formula).",
+          "Mishandling the negative sign when completing the square inside a square root (e.g., √(5 - 4x - x^2))."
+        ],
+        "board_traps": [
+          "Giving an expression like 1/√(9 - 4x^2). Students must pull out the 4 from the root as a 2, or substitute 2x = t, before applying the formula."
+        ],
+        "examiner_twist_pattern": "Using forms like (px+q)/√(ax^2+bx+c). This requires setting px+q = A(derivative of quadratic) + B, splitting the integral into a standard power rule and a special root formula."
+      },
+      "section_C": {
+        "why_students_fail": "Pulling a negative sign completely out of the square root when completing the square for a^2 - x^2, leading to imaginary numbers.",
+        "how_to_think": "These are the root versions of the previous formulas. Notice that x^2 + a^2 and x^2 - a^2 share the exact same 'ln|x + Root|' structure. Only a^2 - x^2 gives the sin^-1 result.",
+        "thirty_second_strategy": "Complete the square INSIDE the root carefully. Identify the pattern. If constant is positive and x^2 is negative -> sin^-1. Otherwise -> ln|x + copy the root|.",
+        "mental_shortcut": "Root with a^2 - x^2 is sine inverse (no 1/a!). The other two are just ln|x + exactly what was in the denominator|.",
+        "micro_example": "$$\\int \\frac{1}{\\sqrt{x^2 + 16}} dx = \\ln \\left| x + \\sqrt{x^2 + 16} \\right| + C$$"
+      }
+    },
+    {
+      "formula_number": 11,
+      "formula_title": "Integration by Partial Fractions",
+      "section_A": {
+        "latex_formula": "$$ \\int \\frac{P(x)}{Q(x)} dx = \\int \\left[ \\frac{A}{x-a} + \\frac{B}{x-b} + \\dots \\right] dx $$",
+        "derived_forms": [
+          "$$ \\frac{px+q}{(x-a)(x-b)} = \\frac{A}{x-a} + \\frac{B}{x-b} $$",
+          "$$ \\frac{px^2+qx+r}{(x-a)^2(x-b)} = \\frac{A}{x-a} + \\frac{B}{(x-a)^2} + \\frac{C}{x-b} $$",
+          "$$ \\frac{px^2+qx+r}{(x-a)(x^2+bx+c)} = \\frac{A}{x-a} + \\frac{Bx+C}{x^2+bx+c} $$"
+        ],
+        "special_cases": [
+          "$$ \\text{If degree of } P(x) \\geq Q(x), \\text{ use long division first.} $$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "When the integrand is a proper rational function where the denominator can be factored into linear or quadratic factors.",
+        "trigger_keywords": [
+          "rational function",
+          "partial fraction",
+          "factorable denominator"
+        ],
+        "question_types": [
+          "3_mark",
+          "5_mark"
+        ],
+        "common_mistakes": [
+          "Forgetting to perform long division when the numerator's degree is equal to or greater than the denominator's.",
+          "Using the wrong partial fraction template for repeated linear factors."
+        ],
+        "board_traps": [
+          "Providing an integrand like $x^2/(x^2+1)(x^2+4)$. A common trap is to use $Ax+B$ forms; however, substituting $x^2=y$ just for decomposition is much faster (Shortcut)."
+        ],
+        "examiner_twist_pattern": "Giving a quadratic factor in the denominator that is 'reducible' (can be factored further) to test if the student simplifies before starting."
+      },
+      "section_C": {
+        "why_students_fail": "Losing marks in algebraic calculation while solving the system of equations for A, B, and C.",
+        "how_to_think": "Deconstruction. You are breaking a complex single fraction into a sum of simple, 'log-ready' or 'tan-inverse-ready' fractions.",
+        "thirty_second_strategy": "1. Check Degree. 2. Factorize Denominator. 3. Write Template. 4. Use the 'Cover-up' method for non-repeated linear factors to find constants instantly.",
+        "mental_shortcut": "Cover-up Method: To find A for $(x-a)$, put $x=a$ in the whole expression except the $(x-a)$ term.",
+        "micro_example": "$$ \\frac{1}{(x-1)(x-2)} = \\frac{-1}{x-1} + \\frac{1}{x-2} $$"
+      }
+    },
+    {
+      "formula_number": 12,
+      "formula_title": "Linear over Quadratic / Root Quadratic Form",
+      "section_A": {
+        "latex_formula": "$$ px+q = A \\cdot \\frac{d}{dx}(ax^2+bx+c) + B $$",
+        "derived_forms": [
+          "$$ \\int \\frac{px+q}{ax^2+bx+c} dx = A \\ln|ax^2+bx+c| + B \\int \\frac{1}{ax^2+bx+c} dx $$",
+          "$$ \\int \\frac{px+q}{\\sqrt{ax^2+bx+c}} dx = 2A \\sqrt{ax^2+bx+c} + B \\int \\frac{1}{\\sqrt{ax^2+bx+c}} dx $$"
+        ],
+        "special_cases": [
+          "$$ \\text{If } q=0, \\text{ direct substitution } ax^2+bx+c = t \\text{ might work if } p \\text{ matches.} $$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "When the numerator is a linear polynomial and the denominator is a quadratic (with or without a square root).",
+        "trigger_keywords": [
+          "linear over quadratic",
+          "px+q form",
+          "completing the square with numerator"
+        ],
+        "question_types": [
+          "4_mark",
+          "5_mark"
+        ],
+        "common_mistakes": [
+          "Failing to equate coefficients of $x$ correctly to find $A$ and $B$.",
+          "Forgetting that the second part of the integral always requires 'Completing the Square'."
+        ],
+        "board_traps": [
+          "Giving $q=0$ but students still use the long A, B method instead of simple substitution, wasting time."
+        ],
+        "examiner_twist_pattern": "Defining $ax^2+bx+c$ such that $b^2-4ac < 0$, forcing a tan-inverse result in the second integral."
+      },
+      "section_C": {
+        "why_students_fail": "Lengthy calculation. These problems are often the 'time-killers' in Section D/E.",
+        "how_to_think": "Split the problem into two missions: Mission 1 is to create the derivative of the bottom on top (Log part). Mission 2 is to handle the leftovers (Special Integral part).",
+        "thirty_second_strategy": "Set $px+q = A(2ax+b) + B$. Find $A = p/2a$. Find $B = q - Ab$. Solve the two resulting integrals separately.",
+        "mental_shortcut": "$A$ is always the ratio of the coefficient of $x$ in the numerator to the coefficient of $x$ in the derivative of the denominator.",
+        "micro_example": "$$ x+2 = \\frac{1}{2}(2x+6) - 1 \\text{ for } x^2+6x+5 $$"
+      }
+    },
+    {
+      "formula_number": 13,
+      "formula_title": "Integrals of Square Root of Quadratic",
+      "section_A": {
+        "latex_formula": "$$ \\int \\sqrt{x^2 - a^2} dx = \\frac{x}{2}\\sqrt{x^2-a^2} - \\frac{a^2}{2} \\ln|x + \\sqrt{x^2-a^2}| + C $$",
+        "derived_forms": [
+          "$$ \\int \\sqrt{x^2 + a^2} dx = \\frac{x}{2}\\sqrt{x^2+a^2} + \\frac{a^2}{2} \\ln|x + \\sqrt{x^2+a^2}| + C $$",
+          "$$ \\int \\sqrt{a^2 - x^2} dx = \\frac{x}{2}\\sqrt{a^2-x^2} + \\frac{a^2}{2} \\sin^{-1}\\frac{x}{a} + C $$"
+        ],
+        "special_cases": [
+          "$$ \\int \\sqrt{1-x^2} dx \\text{ is used for area of a circle/ellipse in next chapter.} $$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "Directly when the integrand is the square root of a quadratic (after completing the square).",
+        "trigger_keywords": [
+          "root quadratic in numerator",
+          "area of circle",
+          "integration by parts result"
+        ],
+        "question_types": [
+          "3_mark",
+          "5_mark",
+          "case_based"
+        ],
+        "common_mistakes": [
+          "Confusing the sign of the $a^2/2$ term. In $x^2-a^2$, it is negative. In the others, it is positive.",
+          "Forgetting the $x/2$ multiplier at the start."
+        ],
+        "board_traps": [
+          "Asking to 'evaluate using parts'. These formulas are technically derived by parts, and examiners sometimes want to see the derivation (taking '1' as second function)."
+        ],
+        "examiner_twist_pattern": "Embedding these in 'Application of Integrals' where students must first find the limits from a curve's equation."
+      },
+      "section_C": {
+        "why_students_fail": "The formulas are long and visually similar. Memory interference is high here.",
+        "how_to_think": "All three start with $(x/2) \\times (\\text{Integrand})$. Then add/sub $(a^2/2) \\times (\\text{Integral of 1/Integrand})$.",
+        "thirty_second_strategy": "Identify the template. Write the $x/2$ part first. Then recall the log or sin-inverse form from the denominator special integrals to complete the $a^2/2$ part.",
+        "mental_shortcut": "Copy the root first, then its 'denominator-equivalent' partner.",
+        "micro_example": "$$ \\int \\sqrt{x^2+4} dx = \\frac{x}{2}\\sqrt{x^2+4} + 2\\ln|x+\\sqrt{x^2+4}| + C $$"
+      }
+    },
+    {
+      "formula_number": 14,
+      "formula_title": "Fundamental Theorem of Calculus (FTC)",
+      "section_A": {
+        "latex_formula": "$$ \\int_a^b f(x) dx = [F(x)]_a^b = F(b) - F(a) $$",
+        "derived_forms": [
+          "$$ \\frac{d}{dx} \\int_a^x f(t) dt = f(x) $$"
+        ],
+        "special_cases": [
+          "$$ \\int_a^a f(x) dx = 0 $$",
+          "$$ \\int_a^b f(x) dx = -\\int_b^a f(x) dx $$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "To evaluate definite integrals where an anti-derivative is known.",
+        "trigger_keywords": [
+          "evaluate the definite integral",
+          "upper and lower limits",
+          "area under curve"
+        ],
+        "question_types": [
+          "2_mark",
+          "3_mark"
+        ],
+        "common_mistakes": [
+          "Calculating $F(a) - F(b)$ instead of $F(b) - F(a)$.",
+          "Forgetting to change the limits when using substitution method (Very common error)."
+        ],
+        "board_traps": [
+          "Giving an integral where $f(x)$ is not continuous in $[a, b]$, making FTC inapplicable. Students often ignore continuity."
+        ],
+        "examiner_twist_pattern": "Asking for the value of a definite integral of a modulus function, requiring splitting using Property $P_2$ before applying FTC."
+      },
+      "section_C": {
+        "why_students_fail": "Neglecting the 'Change of Limits' rule during substitution. They solve for $x$ and plug in old limits.",
+        "how_to_think": "Integration gives you a general formula ($F(x)$). Definite integration asks for the total 'change' in that formula between two specific milestones.",
+        "thirty_second_strategy": "1. Ignore limits. 2. Integrate. 3. Plug Upper Limit. 4. Subtract result of Lower Limit. 5. No '+C' needed.",
+        "mental_shortcut": "Upper minus Lower.",
+        "micro_example": "$$ \\int_1^2 x dx = [x^2/2]_1^2 = 2 - 1/2 = 1.5 $$"
+      }
+    },
+    {
+      "formula_number": 15,
+      "formula_title": "The Reflection Property (King's Property)",
+      "section_A": {
+        "latex_formula": "$$ \\int_0^a f(x) dx = \\int_0^a f(a-x) dx $$",
+        "derived_forms": [
+          "$$ \\int_a^b f(x) dx = \\int_a^b f(a+b-x) dx $$"
+        ],
+        "special_cases": [
+          "$$ \\int_0^{\\pi/2} \\frac{\\sin^n x}{\\sin^n x + \\cos^n x} dx = \\frac{\\pi}{4} $$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "Whenever you see trigonometric functions with limits like $0$ to $\\pi/2$, or $\\pi$.",
+        "trigger_keywords": [
+          "limits 0 to a",
+          "trig rational function",
+          "simplify using limits"
+        ],
+        "question_types": [
+          "4_mark",
+          "5_mark"
+        ],
+        "common_mistakes": [
+          "Applying the property but forgetting to add the original integral 'I' to the new integral 'I' to get '2I'.",
+          "Incorrectly replacing $x$ (e.g., writing $f(a)-f(x)$ instead of $f(a-x)$)."
+        ],
+        "board_traps": [
+          "Giving $\\int_0^\\pi x f(\\sin x) dx$. The trap is to remove the 'x' by applying $P_4$ and adding to get $(1/2)\\pi \\int f(\\sin x)$."
+        ],
+        "examiner_twist_pattern": "Combining King's property with even-odd properties to evaluate integrals that appear impossible to solve analytically."
+      },
+      "section_C": {
+        "why_students_fail": "They try to integrate directly (e.g., using long substitution) instead of looking for symmetry.",
+        "how_to_think": "Think of it as 'folding' the function. If you flip the input relative to the midpoint of the limits, the total area remains exactly the same.",
+        "thirty_second_strategy": "1. Call the integral $I$. 2. Apply $P_4$. 3. Add original $I$ and new $I$. 4. Simplify the integrand (it usually becomes '1' or something easy). 5. Solve and divide by 2.",
+        "mental_shortcut": "Sum of $I = \\text{Midpoint symmetry}$.",
+        "micro_example": "$$ \\int_0^{\\pi/2} \\sin^2 x dx = \\int_0^{\\pi/2} \\cos^2 x dx = I \\implies 2I = \\int_0^{\\pi/2} 1 dx = \\pi/2 \\implies I = \\pi/4 $$"
+      }
+    },
+    {
+      "formula_number": 16,
+      "formula_title": "Dummy Variable and Limit Reversal Properties (P0, P1)",
+      "section_A": {
+        "latex_formula": "$$ \\int_a^b f(x) dx = \\int_a^b f(t) dt \\text{ and } \\int_a^b f(x) dx = -\\int_b^a f(x) dx $$",
+        "derived_forms": [
+          "$$ \\int_a^a f(x) dx = 0 $$"
+        ],
+        "special_cases": [
+          "$$ \\text{Substituting } x = t \\text{ does not change the value of the definite integral.} $$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "When changing the variable of integration or swapping the upper and lower limits to align with standard forms.",
+        "trigger_keywords": [
+          "dummy variable",
+          "limit swap",
+          "change variable"
+        ],
+        "question_types": [
+          "MCQ",
+          "1_mark",
+          "2_mark"
+        ],
+        "common_mistakes": [
+          "Forgetting to change the sign when swapping the limits (P1).",
+          "Thinking that changing the variable (x to t) changes the integral's value in a definite integral (P0)."
+        ],
+        "board_traps": [
+          "Giving an integral where the lower limit is higher than the upper limit (e.g., from 3 to 1). Students may get confused about the sign of the area."
+        ],
+        "examiner_twist_pattern": "Using P0 in the final steps of properties proofs to show that two expressions are identical regardless of the variable name."
+      },
+      "section_C": {
+        "why_students_fail": "Underestimating the power of 'dummy variables' in proving complex definite integral properties.",
+        "how_to_think": "In a definite integral, the variable 'x' is just a placeholder. The value is a number, not a function. Flipping limits is like moving from B to A instead of A to B; the distance is the same, but the displacement is negative.",
+        "thirty_second_strategy": "If limits are swapped, multiply the result by -1. If you just renamed 'x' to 'u' without changing the limits or function, the result stays exactly the same.",
+        "mental_shortcut": "P0: Names don't matter. P1: Order swap = Sign swap.",
+        "micro_example": "$$ \\int_1^2 x^2 dx = -\\int_2^1 x^2 dx $$"
+      }
+    },
+    {
+      "formula_number": 17,
+      "formula_title": "Interval Additivity Property (P2)",
+      "section_A": {
+        "latex_formula": "$$ \\int_a^b f(x) dx = \\int_a^c f(x) dx + \\int_c^b f(x) dx $$",
+        "derived_forms": [
+          "$$ \\int_a^b f(x) dx = \\int_a^{c_1} f(x) dx + \\int_{c_1}^{c_2} f(x) dx + \\dots + \\int_{c_n}^b f(x) dx $$"
+        ],
+        "special_cases": [
+          "$$ \\text{Property holds even if } c \\text{ is outside } [a, b] \\text{ (provided } f \\text{ is continuous).} $$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "The absolute 'go-to' for integrating Piecewise functions, Modulus functions, and Greatest Integer functions.",
+        "trigger_keywords": [
+          "modulus",
+          "piecewise",
+          "greatest integer",
+          "split integral"
+        ],
+        "question_types": [
+          "2_mark",
+          "3_mark",
+          "5_mark"
+        ],
+        "common_mistakes": [
+          "Splitting the integral at a point where the function doesn't actually change its definition.",
+          "Mishandling signs in the modulus split (e.g., forgetting the negative sign for intervals where the expression inside | | is negative)."
+        ],
+        "board_traps": [
+          "Giving $|x^2 - 1|$ from 0 to 2. Students often forget to split at $x=1$, treating it as a single integral."
+        ],
+        "examiner_twist_pattern": "Using Greatest Integer Function $[x]$, requiring the student to split the integral into several unit-width intervals."
+      },
+      "section_C": {
+        "why_students_fail": "Difficulty in finding the correct 'breaking point' (c) where the function behavior changes.",
+        "how_to_think": "Think of the total area as the sum of smaller adjacent plots. If a function is 'broken' or behaves differently in different sections, you MUST calculate the area of each section separately and add them up.",
+        "thirty_second_strategy": "1. Find where the function definition changes (roots of modulus or integers for [x]). 2. Ensure these points are between the original limits. 3. Rewrite as a sum of integrals using these points as new boundaries.",
+        "mental_shortcut": "Split at the 'turning points' or 'jumps'.",
+        "micro_example": "$$ \\int_0^2 |x-1| dx = \\int_0^1 -(x-1) dx + \\int_1^2 (x-1) dx $$"
+      }
+    },
+    {
+      "formula_number": 18,
+      "formula_title": "Generalized Reflection Property (P3)",
+      "section_A": {
+        "latex_formula": "$$ \\int_a^b f(x) dx = \\int_a^b f(a+b-x) dx $$",
+        "derived_forms": [
+          "$$ P_4: \\int_0^a f(x) dx = \\int_0^a f(a-x) dx \\text{ (Special case)} $$"
+        ],
+        "special_cases": [
+          "$$ \\int_a^b \\frac{f(x)}{f(x) + f(a+b-x)} dx = \\frac{b-a}{2} $$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "When the lower limit is non-zero and the integrand can be simplified by replacing $x$ with the sum of limits minus $x$.",
+        "trigger_keywords": [
+          "limits a to b",
+          "root rational functions",
+          "trig functions with pi/6 to pi/3"
+        ],
+        "question_types": [
+          "3_mark",
+          "4_mark"
+        ],
+        "common_mistakes": [
+          "Only subtracting from the upper limit, i.e., incorrectly writing $f(b-x)$ instead of $f(a+b-x)$.",
+          "Forgetting to add the original integral 'I' to the converted integral to get '2I'."
+        ],
+        "board_traps": [
+          "Limits like $\\pi/6$ to $\\pi/3$. The sum is $\\pi/2$, so $\\sin(x)$ becomes $\\sin(\\pi/2 - x) = \\cos(x)$. Students often miss this conversion."
+        ],
+        "examiner_twist_pattern": "Providing a complicated fraction where $f(x) + f(a+b-x)$ in the denominator becomes a constant or cancels with the numerator."
+      },
+      "section_C": {
+        "why_students_fail": "Trying to solve using substitution (like $t = \text{denominator}$) instead of applying the limit property which is 10x faster.",
+        "how_to_think": "This is 'King's Property' for any interval. You are essentially looking at the function from the other end of the window. The total area inside the window remains identical.",
+        "thirty_second_strategy": "1. Replace every $x$ with $(a+b-x)$. 2. Call the new integral $I$. 3. Add it to the original $I$. 4. If $2I$ becomes an integral of '1', the answer is half the length of the interval $(b-a)/2$.",
+        "mental_shortcut": "Swap $x$ for (Sum of Limits - $x$).",
+        "micro_example": "$$ \\int_1^2 \\frac{\\sqrt{x}}{\\sqrt{x} + \\sqrt{3-x}} dx = \\frac{2-1}{2} = 0.5 $$"
+      }
+    },
+    {
+      "formula_number": 19,
+      "formula_title": "Symmetry Reduction Property (P5, P6)",
+      "section_A": {
+        "latex_formula": "$$ \\int_0^{2a} f(x) dx = \\int_0^a f(x) dx + \\int_0^a f(2a-x) dx $$",
+        "derived_forms": [
+          "$$ P_6: \\int_0^{2a} f(x) dx = 2\\int_0^a f(x) dx \\text{ if } f(2a-x) = f(x) $$",
+          "$$ P_6: \\int_0^{2a} f(x) dx = 0 \\text{ if } f(2a-x) = -f(x) $$"
+        ],
+        "special_cases": [
+          "$$ \\int_0^\\pi \\sin^n x dx = 2\\int_0^{\\pi/2} \\sin^n x dx \\text{ (as } \\sin(\\pi-x)=\\sin x) $$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "When the upper limit is twice a standard 'nice' angle (like $2\\pi$ or $\\pi$) and you want to reduce the calculation range.",
+        "trigger_keywords": [
+          "0 to 2pi",
+          "0 to pi",
+          "reduce upper limit"
+        ],
+        "question_types": [
+          "4_mark",
+          "5_mark"
+        ],
+        "common_mistakes": [
+          "Applying the '2nd case' (result 0) when the function is not actually odd under the $(2a-x)$ transformation.",
+          "Confusing $f(2a-x)$ with $f(-x)$ (the parity property)."
+        ],
+        "board_traps": [
+          "Giving $\\int_0^\\pi \\cos^5 x dx$. Since $\\cos(\\pi-x) = -\\cos x$, the integral is 0. Students often waste 10 minutes integrating $\\cos^5 x$ manually."
+        ],
+        "examiner_twist_pattern": "Embedding a function that seems complex but vanishes instantly due to the $f(2a-x) = -f(x)$ condition."
+      },
+      "section_C": {
+        "why_students_fail": "Forgetting to test the condition $f(2a-x)$ before trying to solve the integral.",
+        "how_to_think": "This property splits the journey into two halves. If the second half is a mirror of the first, double it. If the second half is an upside-down mirror, they cancel out to zero.",
+        "thirty_second_strategy": "Calculate $f(\text{Upper Limit} - x)$. If it's the same as $f(x)$, change upper limit to half and put a '2' outside. If it's the negative, the answer is 0.",
+        "mental_shortcut": "Mirror check: Same? Double. Opposite? Zero.",
+        "micro_example": "$$ \\int_0^{2\\pi} \\sin x dx = 0 \\text{ because } \\sin(2\\pi-x) = -\\sin x $$"
+      }
+    },
+    {
+      "formula_number": 20,
+      "formula_title": "Even and Odd Functions Property (P7)",
+      "section_A": {
+        "latex_formula": "$$ \\int_{-a}^a f(x) dx = \\begin{cases} 2\\int_0^a f(x) dx & \\text{if } f(-x) = f(x) \\text{ (Even)} \\\\ 0 & \\text{if } f(-x) = -f(x) \\text{ (Odd)} \\end{cases} $$",
+        "derived_forms": [
+          "$$ \\text{Product of two even or two odd functions is Even.} $$",
+          "$$ \\text{Product of one even and one odd function is Odd.} $$"
+        ],
+        "special_cases": [
+          "$$ \\int_{-1}^1 x^n dx = 0 \\text{ if } n \\text{ is odd.} $$",
+          "$$ \\int_{-a}^a \\sin^{odd}(x) dx = 0 $$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "The very FIRST step whenever you see limits that are negatives of each other (e.g., $-\\pi$ to $\\pi$, $-5$ to $5$).",
+        "trigger_keywords": [
+          "limits -a to a",
+          "symmetric limits",
+          "check parity"
+        ],
+        "question_types": [
+          "MCQ",
+          "1_mark",
+          "2_mark"
+        ],
+        "common_mistakes": [
+          "Trying to integrate from $-a$ to $a$ without checking parity, leading to double work.",
+          "Mistaking a function as odd just because it has a minus sign somewhere."
+        ],
+        "board_traps": [
+          "Giving an 'Odd + Even' mixture, like $\\int_{-1}^1 (x^3 + x^2) dx$. You must split it; the $x^3$ part becomes 0, and the $x^2$ part is doubled."
+        ],
+        "examiner_twist_pattern": "Using functions like $\\log(\\frac{a-x}{a+x})$ which are odd but don't look like it at first glance."
+      },
+      "section_C": {
+        "why_students_fail": "Losing the 'Zero' opportunity. Many Board students compute the whole anti-derivative and plug in limits, only to get 0 after 5 minutes of calculation.",
+        "how_to_think": "Symmetry check. If a function is odd, the negative area on the left exactly eats the positive area on the right. Total = 0. If even, the two sides are identical twins; just find one and double it.",
+        "thirty_second_strategy": "1. See $[-a, a]$. 2. Replace $x$ with $-x$. 3. If $f(-x) = -f(x)$, stop and write 0. 4. If $f(-x) = f(x)$, solve for $[0, a]$ and multiply by 2.",
+        "mental_shortcut": "Negative to Positive limits? Check for Odd function first.",
+        "micro_example": "$$ \\int_{-\\pi}^\\pi \\sin^7 x dx = 0 \\text{ (Odd function)} $$"
+      }
+    },
+
+
+    {
+
+  "trend_analysis": {
+    "dominant_concepts_from_pyqs": [
+      "Properties of Definite Integrals (especially $$ \\int_0^a f(x) dx = \\int_0^a f(a-x) dx $$)",
+      "Integration by Partial Fractions (irreducible quadratic and repeated linear factors)",
+      "Integration by Parts combined with the special form $$ \\int e^x [f(x) + f'(x)] dx $$",
+      "Evaluation of integrals using completing the square method",
+      "Definite integrals involving absolute value (modulus) functions"
+    ],
+    "question_patterns_seen": [
+      "Long answer (4-5 marks) questions strictly testing properties of definite integrals",
+      "3-mark questions on partial fractions involving a substitution step first",
+      "2-mark questions evaluating modulus functions at critical points",
+      "Integration by parts questions requiring trigonometric simplification before applying the formula"
+    ]
+  },
+  "high_leverage_ncert_questions": [
+    {
+      "question_id": 1,
+      "ncert_reference": {
+        "exercise": "Exercise 7.11",
+        "question_number": "16"
+      },
+      "question_text": "Evaluate the definite integral: $$ \\int_{0}^{\\pi} \\log(1 + \\cos x) dx $$",
+      "concepts_tested": [
+        "Properties of Definite Integrals",
+        "King's Rule $$ \\int_0^a f(x) dx = \\int_0^a f(a-x) dx $$",
+        "Trigonometric identities"
+      ],
+      "repeat_probability_2026": "High",
+      "difficulty_level": "Board-Tricky",
+      "topper_solution": {
+        "step_1": "Let $$ I = \\int_{0}^{\\pi} \\log(1 + \\cos x) dx $$. Apply property $$ \\int_0^a f(x) dx = \\int_0^a f(a-x) dx $$ to get $$ I = \\int_{0}^{\\pi} \\log(1 - \\cos x) dx $$.",
+        "step_2": "Add the two equations: $$ 2I = \\int_{0}^{\\pi} \\log(1 - \\cos^2 x) dx = \\int_{0}^{\\pi} \\log(\\sin^2 x) dx = 2 \\int_{0}^{\\pi} \\log(\\sin x) dx $$.",
+        "step_3": "Use $$ \\int_0^{2a} f(x) dx = 2 \\int_0^a f(x) dx $$ to get $$ I = 2 \\int_{0}^{\\pi/2} \\log(\\sin x) dx $$. Using standard result, $$ I = 2 \\left( -\\frac{\\pi}{2} \\log 2 \\right) = -\\pi \\log 2 $$. Final answer: $$ -\\pi \\log 2 $$"
+      },
+      "board_writing_tip": "Explicitly state the property $$ \\int_0^a f(x) dx = \\int_0^a f(a-x) dx $$ in brackets. Do not skip the proof of the standard result $$ \\int_{0}^{\\pi/2} \\log(\\sin x) dx $$ if asked for 5 marks.",
+      "common_student_mistakes": [
+        "Forgetting to divide by 2 after adding the integrals",
+        "Incorrectly applying the property $$ \\int_0^{2a} f(x) dx $$ without checking if $$ f(2a-x) = f(x) $$"
+      ],
+      "estimated_time_seconds": "480"
+    },
+    {
+      "question_id": 2,
+      "ncert_reference": {
+        "exercise": "Exercise 7.6",
+        "question_number": "18"
+      },
+      "question_text": "Integrate the function: $$ \\int e^x \\left( \\frac{1 + \\sin x}{1 + \\cos x} \\right) dx $$",
+      "concepts_tested": [
+        "Integration by Parts",
+        "Special Form $$ \\int e^x [f(x) + f'(x)] dx = e^x f(x) + C $$",
+        "Half-angle trigonometric formulas"
+      ],
+      "repeat_probability_2026": "High",
+      "difficulty_level": "Moderate",
+      "topper_solution": {
+        "step_1": "Simplify the integrand using half-angle formulas: $$ \\frac{1 + 2 \\sin(x/2) \\cos(x/2)}{2 \\cos^2(x/2)} $$.",
+        "step_2": "Separate the terms: $$ \\frac{1}{2 \\cos^2(x/2)} + \\frac{2 \\sin(x/2) \\cos(x/2)}{2 \\cos^2(x/2)} = \\frac{1}{2} \\sec^2(x/2) + \\tan(x/2) $$.",
+        "step_3": "Recognize the form $$ e^x [f(x) + f'(x)] $$ where $$ f(x) = \\tan(x/2) $$ and $$ f'(x) = \\frac{1}{2} \\sec^2(x/2) $$. Final answer: $$ e^x \\tan(x/2) + C $$"
+      },
+      "board_writing_tip": "Clearly define $$ f(x) $$ and $$ f'(x) $$ and quote the theorem $$ \\int e^x [f(x) + f'(x)] dx = e^x f(x) + C $$ before writing the final answer.",
+      "common_student_mistakes": [
+        "Failing to convert to half-angles",
+        "Missing the factor of 1/2 when differentiating $$ \\tan(x/2) $$, leading to confusion"
+      ],
+      "estimated_time_seconds": "240"
+    },
+    {
+      "question_id": 3,
+      "ncert_reference": {
+        "exercise": "Miscellaneous Exercise",
+        "question_number": "24"
+      },
+      "question_text": "Evaluate: $$ \\int \\frac{\\sqrt{x^2+1} [\\log(x^2+1) - 2 \\log x]}{x^4} dx $$",
+      "concepts_tested": [
+        "Algebraic manipulation",
+        "Logarithmic properties",
+        "Integration by Substitution",
+        "Integration by Parts"
+      ],
+      "repeat_probability_2026": "Medium",
+      "difficulty_level": "Board-Tricky",
+      "topper_solution": {
+        "step_1": "Combine logs: $$ \\log(x^2+1) - \\log x^2 = \\log\\left(1 + \\frac{1}{x^2}\\right) $$. Rewrite the expression as $$ \\int \\frac{\\sqrt{x^2(1 + 1/x^2)}}{x^4} \\log\\left(1 + \\frac{1}{x^2}\\right) dx $$.",
+        "step_2": "Simplify to $$ \\int \\frac{1}{x^3} \\sqrt{1 + \\frac{1}{x^2}} \\log\\left(1 + \\frac{1}{x^2}\\right) dx $$. Substitute $$ 1 + \\frac{1}{x^2} = t $$, so $$ -\\frac{2}{x^3} dx = dt $$.",
+        "step_3": "The integral becomes $$ -\\frac{1}{2} \\int \\sqrt{t} \\log t \\, dt $$. Apply Integration by Parts taking $$ \\log t $$ as first function. Final answer: $$ -\\frac{1}{3} \\left(1 + \\frac{1}{x^2}\\right)^{3/2} \\left[ \\log\\left(1 + \\frac{1}{x^2}\\right) - \\frac{2}{3} \\right] + C $$"
+      },
+      "board_writing_tip": "Show the extraction of $$ x $$ from the square root step-by-step. Apply ILATE rule carefully during integration by parts.",
+      "common_student_mistakes": [
+        "Struggling to identify the correct substitution",
+        "Integrating $$ \\sqrt{t} \\log t $$ incorrectly by choosing wrong first and second functions"
+      ],
+      "estimated_time_seconds": "420"
+    },
+    {
+      "question_id": 4,
+      "ncert_reference": {
+        "exercise": "Exercise 7.5",
+        "question_number": "16"
+      },
+      "question_text": "Integrate the rational function: $$ \\int \\frac{1}{x(x^n + 1)} dx $$",
+      "concepts_tested": [
+        "Integration by Partial Fractions",
+        "Strategic Substitution"
+      ],
+      "repeat_probability_2026": "High",
+      "difficulty_level": "Moderate",
+      "topper_solution": {
+        "step_1": "Multiply numerator and denominator by $$ x^{n-1} $$ to get $$ \\int \\frac{x^{n-1}}{x^n(x^n + 1)} dx $$.",
+        "step_2": "Substitute $$ x^n = t $$, yielding $$ n x^{n-1} dx = dt $$. The integral becomes $$ \\frac{1}{n} \\int \\frac{1}{t(t + 1)} dt $$.",
+        "step_3": "Use partial fractions: $$ \\frac{1}{t(t+1)} = \\frac{1}{t} - \\frac{1}{t+1} $$. Integrate to get $$ \\frac{1}{n} [\\log|t| - \\log|t+1|] + C $$. Final answer: $$ \\frac{1}{n} \\log \\left| \\frac{x^n}{x^n + 1} \\right| + C $$"
+      },
+      "board_writing_tip": "Explicitly state the substitution made. This is a standard trick; mentioning 'Multiplying numerator and denominator by $$ x^{n-1} $$' secures method marks.",
+      "common_student_mistakes": [
+        "Trying to apply partial fractions directly without substitution",
+        "Forgetting the $$ \\frac{1}{n} $$ multiplier from the differential"
+      ],
+      "estimated_time_seconds": "300"
+    },
+    {
+      "question_id": 5,
+      "ncert_reference": {
+        "exercise": "Exercise 7.4",
+        "question_number": "19"
+      },
+      "question_text": "Integrate the function: $$ \\int \\frac{6x + 7}{\\sqrt{(x-5)(x-4)}} dx $$",
+      "concepts_tested": [
+        "Integration of form $$ \\frac{px+q}{\\sqrt{ax^2+bx+c}} $$",
+        "Completing the square",
+        "Standard integral formulas"
+      ],
+      "repeat_probability_2026": "Medium",
+      "difficulty_level": "Moderate",
+      "topper_solution": {
+        "step_1": "Expand the denominator: $$ \\sqrt{x^2 - 9x + 20} $$. Express numerator as $$ A \\cdot \\frac{d}{dx}(x^2 - 9x + 20) + B $$. $$ 6x + 7 = A(2x - 9) + B $$. Solving gives $$ A = 3, B = 34 $$.",
+        "step_2": "Split the integral: $$ 3 \\int \\frac{2x - 9}{\\sqrt{x^2 - 9x + 20}} dx + 34 \\int \\frac{1}{\\sqrt{x^2 - 9x + 20}} dx $$. The first part evaluates to $$ 6 \\sqrt{x^2 - 9x + 20} $$.",
+        "step_3": "Complete the square for the second part: $$ x^2 - 9x + 20 = \\left(x - \\frac{9}{2}\\right)^2 - \\left(\\frac{1}{2}\\right)^2 $$. Apply $$ \\int \\frac{1}{\\sqrt{X^2 - a^2}} dX $$. Final answer: $$ 6 \\sqrt{x^2 - 9x + 20} + 34 \\log \\left| x - \\frac{9}{2} + \\sqrt{x^2 - 9x + 20} \\right| + C $$"
+      },
+      "board_writing_tip": "Clearly show the calculation for A and B. Write down the standard formula used for the second integral to guarantee full marks.",
+      "common_student_mistakes": [
+        "Errors in completing the square, specifically with fractions like 9/2",
+        "Forgetting to multiply the second integral part by B (34)"
+      ],
+      "estimated_time_seconds": "420"
+    },
+    {
+      "question_id": 6,
+      "ncert_reference": {
+        "exercise": "Exercise 7.11",
+        "question_number": "18"
+      },
+      "question_text": "Evaluate the definite integral: $$ \\int_{0}^{4} |x - 1| dx $$",
+      "concepts_tested": [
+        "Definite Integrals",
+        "Piecewise/Modulus functions",
+        "Property $$ \\int_a^b f(x) dx = \\int_a^c f(x) dx + \\int_c^b f(x) dx $$"
+      ],
+      "repeat_probability_2026": "High",
+      "difficulty_level": "Easy",
+      "topper_solution": {
+        "step_1": "Find the critical point where $$ x - 1 = 0 $$, which is $$ x = 1 $$. Since $$ 1 \\in (0, 4) $$, split the integral limit at 1.",
+        "step_2": "Write $$ \\int_{0}^{4} |x - 1| dx = \\int_{0}^{1} -(x - 1) dx + \\int_{1}^{4} (x - 1) dx $$.",
+        "step_3": "Integrate both parts: $$ -\\left[ \\frac{x^2}{2} - x \\right]_0^1 + \\left[ \\frac{x^2}{2} - x \\right]_1^4 = -\\left(\\frac{1}{2} - 1\\right) + \\left( \\frac{16}{2} - 4 - \\left(\\frac{1}{2} - 1\\right) \\right) = \\frac{1}{2} + 4 + \\frac{1}{2} = 5 $$.  $$ 5 $$"
+      },
+      "board_writing_tip": "Define the modulus function explicitly before integrating: $$ |x - 1| = -(x-1) $$ for $$ x < 1 $$ and $$ x-1 $$ for $$ x \\ge 1 $$.",
+      "common_student_mistakes": [
+        "Ignoring the modulus sign and integrating directly",
+        "Sign errors when evaluating the lower limits"
+      ],
+      "estimated_time_seconds": "180"
+    },
+    {
+      "question_id": 7,
+      "ncert_reference": {
+        "exercise": "Exercise 7.11",
+        "question_number": "8"
+      },
+      "question_text": "Evaluate: $$ \\int_{0}^{\\pi/4} \\log(1 + \\tan x) dx $$",
+      "concepts_tested": [
+        "Properties of Definite Integrals",
+        "King's Rule $$ \\int_0^a f(x) dx = \\int_0^a f(a-x) dx $$",
+        "Trigonometric expansions"
+      ],
+      "repeat_probability_2026": "High",
+      "difficulty_level": "Moderate",
+      "topper_solution": {
+        "step_1": "Let $$ I = \\int_{0}^{\\pi/4} \\log(1 + \\tan x) dx $$. Apply property $$ \\int_0^a f(x) dx = \\int_0^a f(a-x) dx $$. $$ I = \\int_{0}^{\\pi/4} \\log\\left(1 + \\tan\\left(\\frac{\\pi}{4} - x\\right)\\right) dx $$.",
+        "step_2": "Expand $$ \\tan\\left(\\frac{\\pi}{4} - x\\right) = \\frac{1 - \\tan x}{1 + \\tan x} $$. So, $$ 1 + \\tan\\left(\\frac{\\pi}{4} - x\\right) = 1 + \\frac{1 - \\tan x}{1 + \\tan x} = \\frac{2}{1 + \\tan x} $$.",
+        "step_3": "Substitute back: $$ I = \\int_{0}^{\\pi/4} \\log\\left(\\frac{2}{1 + \\tan x}\\right) dx = \\int_{0}^{\\pi/4} (\\log 2 - \\log(1 + \\tan x)) dx $$. Adding this to the original $$ I $$ gives $$ 2I = \\int_{0}^{\\pi/4} \\log 2 \\, dx = \\frac{\\pi}{4} \\log 2 $$. Final answer: $$ I = \\frac{\\pi}{8} \\log 2 $$"
+      },
+      "board_writing_tip": "Mention the definite integral property explicitly. Show the expansion of $$ \\tan(\\frac{\\pi}{4} - x) $$ clearly, as this carries a step mark.",
+      "common_student_mistakes": [
+        "Incorrectly applying the formula for $$ \\tan(A - B) $$",
+        "Forgetting to divide by 2 at the final step, writing $$ \\frac{\\pi}{4} \\log 2 $$ instead of $$ \\frac{\\pi}{8} \\log 2 $$"
+      ],
+      "estimated_time_seconds": "300"
+    },
+    {
+      "question_id": 8,
+      "ncert_reference": {
+        "exercise": "Exercise 7.5",
+        "question_number": "7"
+      },
+      "question_text": "Integrate the rational function: $$ \\int \\frac{x}{(x^2+1)(x-1)} dx $$",
+      "concepts_tested": [
+        "Integration by Partial Fractions",
+        "Handling irreducible quadratic factors"
+      ],
+      "repeat_probability_2026": "High",
+      "difficulty_level": "Moderate",
+      "topper_solution": {
+        "step_1": "Let $$ \\frac{x}{(x^2+1)(x-1)} = \\frac{Ax+B}{x^2+1} + \\frac{C}{x-1} $$. Multiply by the denominator: $$ x = (Ax+B)(x-1) + C(x^2+1) $$.",
+        "step_2": "Substitute $$ x=1 $$ to get $$ C = \\frac{1}{2} $$. Compare coefficients of $$ x^2 $$ ($$ A+C=0 \\implies A = -\\frac{1}{2} $$) and constants ($$ -B+C=0 \\implies B = \\frac{1}{2} $$).",
+        "step_3": "The integral becomes $$ \\int \\left( \\frac{-\\frac{1}{2}x + \\frac{1}{2}}{x^2+1} + \\frac{\\frac{1}{2}}{x-1} \\right) dx $$. Split the first part: $$ -\\frac{1}{4} \\int \\frac{2x}{x^2+1} dx + \\frac{1}{2} \\int \\frac{1}{x^2+1} dx $$. Final answer: $$ -\\frac{1}{4} \\log(x^2+1) + \\frac{1}{2} \\tan^{-1}x + \\frac{1}{2} \\log|x-1| + C $$"
+      },
+      "board_writing_tip": "Be extremely careful comparing coefficients. Break down the irreducible quadratic integration into a derivative-substitution part and a $$ \\tan^{-1} $$ part.",
+      "common_student_mistakes": [
+        "Writing the partial fraction incorrectly as $$ \\frac{A}{x^2+1} $$ instead of $$ \\frac{Ax+B}{x^2+1} $$",
+        "Missing the factor of 1/2 when integrating $$ \\frac{x}{x^2+1} $$"
+      ],
+      "estimated_time_seconds": "360"
+    },
+    {
+      "question_id": 9,
+      "ncert_reference": {
+        "exercise": "Exercise 7.6",
+        "question_number": "7"
+      },
+      "question_text": "Integrate the function: $$ \\int x \\sin^{-1} x dx $$",
+      "concepts_tested": [
+        "Integration by Parts",
+        "ILATE rule",
+        "Algebraic substitution"
+      ],
+      "repeat_probability_2026": "Medium",
+      "difficulty_level": "Board-Tricky",
+      "topper_solution": {
+        "step_1": "Use ILATE to choose $$ \\sin^{-1} x $$ as the first function and $$ x $$ as the second. Apply Integration by Parts: $$ \\sin^{-1} x \\int x dx - \\int \\left( \\frac{d}{dx}(\\sin^{-1} x) \\int x dx \\right) dx $$.",
+        "step_2": "This gives $$ \\frac{x^2}{2} \\sin^{-1} x - \\int \\frac{1}{\\sqrt{1-x^2}} \\cdot \\frac{x^2}{2} dx $$. Rewrite the integral as $$ -\\frac{1}{2} \\int \\frac{x^2 - 1 + 1}{\\sqrt{1-x^2}} dx $$.",
+        "step_3": "Split the integral: $$ \\frac{1}{2} \\int \\sqrt{1-x^2} dx - \\frac{1}{2} \\int \\frac{1}{\\sqrt{1-x^2}} dx $$. Use standard formula for $$ \\int \\sqrt{a^2-x^2} dx $$. Final answer: $$ \\frac{x^2}{2} \\sin^{-1} x + \\frac{x}{4} \\sqrt{1-x^2} - \\frac{1}{4} \\sin^{-1} x + C $$"
+      },
+      "board_writing_tip": "The manipulation $$ x^2 = -(1-x^2) + 1 $$ is a classic board technique to avoid lengthy trigonometric substitutions. Show this step clearly.",
+      "common_student_mistakes": [
+        "Choosing $$ x $$ as the first function, complicating the integral",
+        "Failing to integrate $$ \\frac{x^2}{\\sqrt{1-x^2}} $$ due to algebraic manipulation errors"
+      ],
+      "estimated_time_seconds": "420"
+    },
+    {
+      "question_id": 10,
+      "ncert_reference": {
+        "exercise": "Exercise 7.11",
+        "question_number": "13"
+      },
+      "question_text": "Evaluate the definite integral: $$ \\int_{-\\pi/2}^{\\pi/2} \\sin^7 x dx $$",
+      "concepts_tested": [
+        "Properties of Definite Integrals",
+        "Odd and Even Functions"
+      ],
+      "repeat_probability_2026": "High",
+      "difficulty_level": "Easy",
+      "topper_solution": {
+        "step_1": "Recognize the symmetric limits $$ [-a, a] $$. Let $$ f(x) = \\sin^7 x $$.",
+        "step_2": "Check if the function is odd or even. Evaluate $$ f(-x) = \\sin^7(-x) = (-\\sin x)^7 = -\\sin^7 x = -f(x) $$.",
+        "step_3": "Since $$ f(x) $$ is an odd function, by the property $$ \\int_{-a}^{a} f(x) dx = 0 $$ for odd functions, the integral evaluates to 0. Final answer: $$ 0 $$"
+      },
+      "board_writing_tip": "Do not just write 0. You must prove the function is odd by showing $$ f(-x) = -f(x) $$ and quote the property $$ \\int_{-a}^a f(x) dx = 0 $$ if $$ f(-x) = -f(x) $$.",
+      "common_student_mistakes": [
+        "Trying to integrate $$ \\sin^7 x $$ using reduction formulas or substitutions, wasting time",
+        "Misinterpreting the power 7 and incorrectly concluding it's an even function"
+      ],
+      "estimated_time_seconds": "120"
+    },
+    {
+      "question_id": 11,
+      "ncert_reference": {
+        "exercise": "Exercise 7.4",
+        "question_number": "14"
+      },
+      "question_text": "Integrate the function: $$ \\int \\frac{1}{\\sqrt{8 + 3x - x^2}} dx $$",
+      "concepts_tested": [
+        "Completing the square",
+        "Integration of form $$ \\frac{1}{\\sqrt{a^2 - x^2}} $$"
+      ],
+      "repeat_probability_2026": "High",
+      "difficulty_level": "Moderate",
+      "topper_solution": {
+        "step_1": "Rewrite the quadratic expression by factoring out the negative sign from the $$ x $$ terms: $$ 8 - (x^2 - 3x) $$.",
+        "step_2": "Complete the square inside the bracket: $$ 8 - \\left(x^2 - 3x + \\frac{9}{4} - \\frac{9}{4}\\right) = 8 + \\frac{9}{4} - \\left(x - \\frac{3}{2}\\right)^2 = \\frac{41}{4} - \\left(x - \\frac{3}{2}\\right)^2 $$.",
+        "step_3": "The integral becomes $$ \\int \\frac{1}{\\sqrt{\\left(\\frac{\\sqrt{41}}{2}\\right)^2 - \\left(x - \\frac{3}{2}\\right)^2}} dx $$. Apply the formula $$ \\int \\frac{1}{\\sqrt{a^2-x^2}} dx = \\sin^{-1}\\left(\\frac{x}{a}\\right) $$. Final answer: $$ \\sin^{-1}\\left(\\frac{2x - 3}{\\sqrt{41}}\\right) + C $$"
+      },
+      "board_writing_tip": "Keep the negative sign outside the completing-square bracket until the very end to avoid sign errors.",
+      "common_student_mistakes": [
+        "Mishandling the negative coefficient of $$ x^2 $$ when completing the square",
+        "Forgetting the '+ C' in the indefinite integral"
+      ],
+      "estimated_time_seconds": "240"
+    },
+    {
+      "question_id": 12,
+      "ncert_reference": {
+        "exercise": "Exercise 7.7",
+        "question_number": "3"
+      },
+      "question_text": "Integrate the function: $$ \\int \\sqrt{x^2 + 4x + 6} dx $$",
+      "concepts_tested": [
+        "Completing the square",
+        "Integration of form $$ \\sqrt{x^2 + a^2} $$"
+      ],
+      "repeat_probability_2026": "Medium",
+      "difficulty_level": "Moderate",
+      "topper_solution": {
+        "step_1": "Complete the square for the expression inside the root: $$ x^2 + 4x + 6 = x^2 + 4x + 4 + 2 = (x+2)^2 + (\\sqrt{2})^2 $$.",
+        "step_2": "The integral transforms to $$ \\int \\sqrt{(x+2)^2 + (\\sqrt{2})^2} dx $$.",
+        "step_3": "Apply the standard formula: $$ \\int \\sqrt{X^2+a^2} dX = \\frac{X}{2}\\sqrt{X^2+a^2} + \\frac{a^2}{2}\\log|X + \\sqrt{X^2+a^2}| $$.  $$ \\frac{x+2}{2}\\sqrt{x^2+4x+6} + \\log|x+2 + \\sqrt{x^2+4x+6}| + C $$"
+      },
+      "board_writing_tip": "Memorize the three special formulas for integrals involving square roots in the numerator. State the formula being used to ensure you get the method mark even if calculation fails.",
+      "common_student_mistakes": [
+        "Confusing the formula with $$ \\sqrt{x^2-a^2} $$ or $$ \\sqrt{a^2-x^2} $$",
+        "Forgetting to divide the second term by 2 (the $$ \\frac{a^2}{2} $$ component)"
+      ],
+      "estimated_time_seconds": "210"
+    }
+  ]
+}
+  ]
+}

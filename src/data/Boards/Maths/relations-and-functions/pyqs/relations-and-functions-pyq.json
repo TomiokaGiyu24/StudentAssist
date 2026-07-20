@@ -1,0 +1,593 @@
+{
+    "chapter_name": "Relations and Functions",
+    "board": "CBSE",
+    "class": "12",
+    "exam_year_target": "2026",
+    "pyq_year_range": "last 3 years",
+    "total_questions_generated": 25,
+    "questions": [
+        {
+            "question_id": 1,
+            "question_type": "MCQ",
+            "concept_tested": "Types of Relations",
+            "difficulty_level": "Easy",
+            "question_text": "Let $$ A = \\{1, 2, 3\\} $$ and consider the relation $$ R = \\{(1, 2), (2, 1)\\} $$. Then, the relation $$ R $$ is:",
+            "options": [
+                "Reflexive but not symmetric",
+                "Symmetric but not transitive",
+                "Transitive but not symmetric",
+                "Equivalence relation"
+            ],
+            "correct_answer": "Symmetric but not transitive",
+            "topper_solution": {
+                "step_1": "Check reflexivity: $$ (1, 1) \\notin R $$, so $$ R $$ is not reflexive.",
+                "step_2": "Check symmetry: $$ (1, 2) \\in R $$ and $$ (2, 1) \\in R $$, so $$ R $$ is symmetric.",
+                "step_3": "Check transitivity: $$ (1, 2) \\in R $$ and $$ (2, 1) \\in R $$, but $$ (1, 1) \\notin R $$. Hence, $$ R $$ is not transitive."
+            },
+            "board_presentation_tip": "Provide a counterexample for reflexivity and transitivity to quickly score the mark without long explanations.",
+            "common_student_mistakes": [
+                "Assuming that since (1, 2) and (2, 1) are present, it must be transitive.",
+                "Forgetting to check if (1, 1) exists for transitivity when aRb and bRa."
+            ],
+            "concept_trigger": "Presence of specific ordered pairs in a small finite set.",
+            "time_to_solve_seconds": "45",
+            "examiner_intent": "Testing basic definitions of reflexive, symmetric, and transitive relations using a simple counterexample."
+        },
+        {
+            "question_id": 2,
+            "question_type": "MCQ",
+            "concept_tested": "One-One and Onto Functions",
+            "difficulty_level": "Moderate",
+            "question_text": "The function $$ f: \\mathbb{R} \\to \\mathbb{R} $$ defined by $$ f(x) = 3 - 4x $$ is:",
+            "options": [
+                "One-one but not onto",
+                "Onto but not one-one",
+                "Bijective (One-one and onto)",
+                "Neither one-one nor onto"
+            ],
+            "correct_answer": "Bijective (One-one and onto)",
+            "topper_solution": {
+                "step_1": "For one-one: Let $$ f(x_1) = f(x_2) $$. Then $$ 3 - 4x_1 = 3 - 4x_2 $$, which gives $$ x_1 = x_2 $$. Thus, $$ f $$ is one-one.",
+                "step_2": "For onto: Let $$ y \\in \\mathbb{R} $$ (codomain). Then $$ y = 3 - 4x $$ gives $$ x = \\frac{3 - y}{4} $$.",
+                "step_3": "Since for every real $$ y $$, $$ x = \\frac{3 - y}{4} $$ is a real number in the domain, $$ f $$ is onto. Hence, it is bijective."
+            },
+            "board_presentation_tip": "Always state the domain and codomain explicitly when expressing x in terms of y for surjectivity.",
+            "common_student_mistakes": [
+                "Confusing the domain constraints, though here it is all real numbers.",
+                "Making sign errors when isolating x."
+            ],
+            "concept_trigger": "Linear function from real to real numbers.",
+            "time_to_solve_seconds": "60",
+            "examiner_intent": "Checking if students can formally prove injectivity and surjectivity for standard polynomial functions."
+        },
+        {
+            "question_id": 3,
+            "question_type": "Assertion Reason",
+            "concept_tested": "Properties of Relations",
+            "difficulty_level": "Board-Tricky",
+            "question_text": "Assertion (A): The relation $$ R $$ in the set of real numbers $$ \\mathbb{R} $$ defined as $$ R = \\{(a, b) : a \\le b^2\\} $$ is not symmetric.\\nReason (R): For real numbers, if $$ a \\le b^2 $$, it does not necessarily imply that $$ b \\le a^2 $$.",
+            "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is not the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+            ],
+            "correct_answer": "Both A and R are true and R is the correct explanation of A",
+            "topper_solution": {
+                "step_1": "Analyze Assertion (A): Let $$ a = 1 $$ and $$ b = 4 $$. Then $$ 1 \\le 4^2 $$ (i.e., $$ 1 \\le 16 $$) is true, so $$ (1, 4) \\in R $$.",
+                "step_2": "Check symmetry for Assertion (A): But $$ 4 \\le 1^2 $$ (i.e., $$ 4 \\le 1 $$) is false. So $$ (4, 1) \\notin R $$. Hence, A is true (it is not symmetric).",
+                "step_3": "Analyze Reason (R): R correctly provides the mathematical reasoning and counter-logic for why symmetry fails. Thus, R is the correct explanation."
+            },
+            "board_presentation_tip": "Using a numerical counterexample is the fastest and most accepted way to disprove a universal statement in CBSE.",
+            "common_student_mistakes": [
+                "Thinking it is symmetric because it works for some numbers like (2, 2).",
+                "Misinterpreting 'not symmetric' as a false statement."
+            ],
+            "concept_trigger": "Inequality relations with powers usually fail symmetry and transitivity.",
+            "time_to_solve_seconds": "90",
+            "examiner_intent": "Evaluating analytical thinking and the ability to find counterexamples for abstract relations."
+        },
+        {
+            "question_id": 4,
+            "question_type": "1_mark",
+            "concept_tested": "Number of Equivalence Relations",
+            "difficulty_level": "Moderate",
+            "question_text": "Find the maximum number of equivalence relations on the set $$ A = \\{1, 2, 3\\} $$ containing the elements $$ (1, 2) $$ and $$ (2, 1) $$.",
+            "options": [],
+            "correct_answer": "2",
+            "topper_solution": {
+                "step_1": "The smallest equivalence relation containing $$ (1, 2) $$ and $$ (2, 1) $$ must also be reflexive. So, $$ R_1 = \\{(1, 1), (2, 2), (3, 3), (1, 2), (2, 1)\\} $$.",
+                "step_2": "The largest equivalence relation on set $$ A $$ is the universal relation $$ R_2 = A \\times A $$, which contains all 9 ordered pairs.",
+                "step_3": "Any relation adding just one more pair to $$ R_1 $$ forces the addition of others to maintain transitivity and symmetry, leading straight to $$ R_2 $$. Hence, exactly 2 relations exist."
+            },
+            "board_presentation_tip": "Explicitly list $$ R_1 $$ and state that the universal relation is the only other possibility.",
+            "common_student_mistakes": [
+                "Guessing the number without constructing the relations.",
+                "Forgetting to include the reflexive pairs (1,1), (2,2), (3,3)."
+            ],
+            "concept_trigger": "Fixed set of elements and conditions for building a relation block by block.",
+            "time_to_solve_seconds": "60",
+            "examiner_intent": "Testing combinatorial understanding of equivalence relations on small finite sets."
+        },
+        {
+            "question_id": 5,
+            "question_type": "2_mark",
+            "concept_tested": "Proving Equivalence Relation",
+            "difficulty_level": "Easy",
+            "question_text": "Show that the relation $$ R $$ in the set $$ Z $$ of integers given by $$ R = \\{(a, b) : 2 \\text{ divides } (a - b)\\} $$ is symmetric.",
+            "options": [],
+            "correct_answer": "Proof of symmetry",
+            "topper_solution": {
+                "step_1": "Let $$ (a, b) \\in R $$. This means that $$ 2 \\text{ divides } (a - b) $$.",
+                "step_2": "Therefore, $$ a - b = 2k $$ for some integer $$ k $$.",
+                "step_3": "Then, $$ b - a = -2k = 2(-k) $$. Since $$ -k $$ is also an integer, $$ 2 \\text{ divides } (b - a) $$, meaning $$ (b, a) \\in R $$. Hence, $$ R $$ is symmetric."
+            },
+            "board_presentation_tip": "Write 'Let (a, b) ∈ R', introduce a constant 'k ∈ Z', and logically deduce '(b, a) ∈ R'.",
+            "common_student_mistakes": [
+                "Explaining in words without using the algebraic '2k' representation.",
+                "Forgetting to specify that 'k' and '-k' belong to the set of integers."
+            ],
+            "concept_trigger": "Divisibility conditions in relations always require algebraic substitution.",
+            "time_to_solve_seconds": "90",
+            "examiner_intent": "Checking foundational algebraic proof writing skills for symmetric properties."
+        },
+        {
+            "question_id": 6,
+            "question_type": "2_mark",
+            "concept_tested": "Injectivity and Surjectivity",
+            "difficulty_level": "Moderate",
+            "question_text": "Check the injectivity and surjectivity of the function $$ f: \\mathbb{N} \\to \\mathbb{N} $$ given by $$ f(x) = x^2 $$.",
+            "options": [],
+            "correct_answer": "Injective but not surjective",
+            "topper_solution": {
+                "step_1": "Injectivity: Let $$ f(x_1) = f(x_2) $$. Then $$ x_1^2 = x_2^2 $$. Since $$ x_1, x_2 \\in \\mathbb{N} $$, $$ x_1 = x_2 $$. Hence, $$ f $$ is one-one (injective).",
+                "step_2": "Surjectivity: Let $$ y = 2 $$, where $$ 2 \\in \\mathbb{N} $$ (codomain).",
+                "step_3": "Then $$ x^2 = 2 \\implies x = \\sqrt{2} $$, but $$ \\sqrt{2} \\notin \\mathbb{N} $$ (domain). Since there is no natural number whose square is 2, $$ f $$ is not onto (not surjective)."
+            },
+            "board_presentation_tip": "Use a clear counterexample (like y=2) to quickly disprove surjectivity.",
+            "common_student_mistakes": [
+                "Saying it's not one-one because (-2)^2 = (2)^2 without checking the domain (Natural numbers).",
+                "Failing to provide a specific counterexample for surjectivity."
+            ],
+            "concept_trigger": "Domain and codomain are Natural numbers, not Real numbers.",
+            "time_to_solve_seconds": "120",
+            "examiner_intent": "Testing attention to detail regarding the specified domain and codomain."
+        },
+        {
+            "question_id": 7,
+            "question_type": "3_mark",
+            "concept_tested": "Bijective Function Proof",
+            "difficulty_level": "Board-Tricky",
+            "question_text": "Let $$ A = \\mathbb{R} - \\{3\\} $$ and $$ B = \\mathbb{R} - \\{1\\} $$. Consider the function $$ f: A \\to B $$ defined by $$ f(x) = \\frac{x - 2}{x - 3} $$. Show that $$ f $$ is one-one and onto.",
+            "options": [],
+            "correct_answer": "Proof of bijection",
+            "topper_solution": {
+                "step_1": "One-one: Let $$ f(x_1) = f(x_2) $$. Then $$ \\frac{x_1 - 2}{x_1 - 3} = \\frac{x_2 - 2}{x_2 - 3} $$. Cross-multiplying gives $$ x_1x_2 - 3x_1 - 2x_2 + 6 = x_1x_2 - 2x_1 - 3x_2 + 6 $$, which simplifies to $$ -3x_1 - 2x_2 = -2x_1 - 3x_2 $$, leading to $$ x_1 = x_2 $$. Thus, $$ f $$ is one-one.",
+                "step_2": "Onto: Let $$ y = f(x) $$. Then $$ y = \\frac{x - 2}{x - 3} $$. Solving for $$ x $$, we get $$ xy - 3y = x - 2 \\implies x(y - 1) = 3y - 2 \\implies x = \\frac{3y - 2}{y - 1} $$.",
+                "step_3": "Since $$ y \\in B $$, $$ y \\neq 1 $$, so $$ x $$ is well-defined. Also, $$ x = 3 $$ would mean $$ 3y - 2 = 3y - 3 $$, which is impossible. Thus $$ x \\in A $$. Since every $$ y \\in B $$ has a pre-image in $$ A $$, $$ f $$ is onto."
+            },
+            "board_presentation_tip": "Show the cross-multiplication expansion clearly for the one-one proof, and explicitly prove that x lies in domain A (i.e., x ≠ 3).",
+            "common_student_mistakes": [
+                "Making algebraic sign errors during cross-multiplication.",
+                "Finding x in terms of y but forgetting to explicitly state that the denominator y-1 ≠ 0 because y ∈ R - {1}."
+            ],
+            "concept_trigger": "Rational function with excluded points in domain and codomain.",
+            "time_to_solve_seconds": "240",
+            "examiner_intent": "Testing algebraic manipulation and the formal definition of onto functions involving domain restrictions."
+        },
+        {
+            "question_id": 8,
+            "question_type": "3_mark",
+            "concept_tested": "Equivalence Relation Proof",
+            "difficulty_level": "Moderate",
+            "question_text": "Show that the relation $$ R $$ in the set $$ A = \\{1, 2, 3, 4, 5\\} $$ given by $$ R = \\{(a, b) : |a - b| \\text{ is even}\\} $$ is an equivalence relation.",
+            "options": [],
+            "correct_answer": "Proof of equivalence relation",
+            "topper_solution": {
+                "step_1": "Reflexive: For any $$ a \\in A $$, $$ |a - a| = 0 $$, which is an even number. Thus, $$ (a, a) \\in R $$. So, $$ R $$ is reflexive.",
+                "step_2": "Symmetric: Let $$ (a, b) \\in R $$. Then $$ |a - b| $$ is even. Since $$ |b - a| = |-(a - b)| = |a - b| $$, $$ |b - a| $$ is also even. Thus, $$ (b, a) \\in R $$. So, $$ R $$ is symmetric.",
+                "step_3": "Transitive: Let $$ (a, b) \\in R $$ and $$ (b, c) \\in R $$. This means $$ a - b = \\pm 2k_1 $$ and $$ b - c = \\pm 2k_2 $$. Adding these equations gives $$ a - c = \\pm 2k_1 \\pm 2k_2 = 2(\\pm k_1 \\pm k_2) $$. Since $$ a - c $$ is a multiple of 2, $$ |a - c| $$ is even. Thus $$ (a, c) \\in R $$. R is an equivalence relation."
+            },
+            "board_presentation_tip": "When proving transitivity for absolute values, drop the absolute value by using ± signs for rigorous proof.",
+            "common_student_mistakes": [
+                "Stating |a - b| + |b - c| = |a - c|, which is mathematically incorrect (Triangle Inequality applies, not equality).",
+                "Forgetting to mention that 0 is an even integer for reflexivity."
+            ],
+            "concept_trigger": "Absolute value condition mapped to 'even' or 'divisible by' properties.",
+            "time_to_solve_seconds": "210",
+            "examiner_intent": "Evaluating the ability to formalize absolute value logic into discrete mathematical proofs."
+        },
+        {
+            "question_id": 9,
+            "question_type": "5_mark",
+            "concept_tested": "Complex Equivalence Relation on Cartesian Product",
+            "difficulty_level": "Board-Tricky",
+            "question_text": "Let $$ N $$ be the set of natural numbers and $$ R $$ be the relation on $$ N \\times N $$ defined by $$ (a, b) R (c, d) $$ if $$ ad(b + c) = bc(a + d) $$. Show that $$ R $$ is an equivalence relation.",
+            "options": [],
+            "correct_answer": "Detailed proof of reflexivity, symmetry, and transitivity.",
+            "topper_solution": {
+                "step_1": "Rewrite condition: $$ ad(b+c) = bc(a+d) \\implies \\frac{b+c}{bc} = \\frac{a+d}{ad} \\implies \\frac{1}{c} + \\frac{1}{b} = \\frac{1}{d} + \\frac{1}{a} \\implies \\frac{1}{a} - \\frac{1}{b} = \\frac{1}{c} - \\frac{1}{d} $$. (Note: Dividing by abcd is valid as a,b,c,d ∈ N).",
+                "step_2": "Reflexive: For any $$ (a, b) \\in N \\times N $$, $$ \\frac{1}{a} - \\frac{1}{b} = \\frac{1}{a} - \\frac{1}{b} $$. Thus $$ (a, b) R (a, b) $$. $$ R $$ is reflexive.",
+                "step_3": "Symmetric: Let $$ (a, b) R (c, d) $$. Then $$ \\frac{1}{a} - \\frac{1}{b} = \\frac{1}{c} - \\frac{1}{d} \\implies \\frac{1}{c} - \\frac{1}{d} = \\frac{1}{a} - \\frac{1}{b} $$. Thus $$ (c, d) R (a, b) $$. $$ R $$ is symmetric.\\nTransitive: Let $$ (a, b) R (c, d) $$ and $$ (c, d) R (e, f) $$. Then $$ \\frac{1}{a} - \\frac{1}{b} = \\frac{1}{c} - \\frac{1}{d} $$ and $$ \\frac{1}{c} - \\frac{1}{d} = \\frac{1}{e} - \\frac{1}{f} $$. From these, $$ \\frac{1}{a} - \\frac{1}{b} = \\frac{1}{e} - \\frac{1}{f} $$, meaning $$ (a, b) R (e, f) $$. $$ R $$ is transitive. Hence, an equivalence relation."
+            },
+            "board_presentation_tip": "Transforming the equation by dividing by abcd simplifies the entire proof. Show this transformation first before checking properties.",
+            "common_student_mistakes": [
+                "Trying to prove transitivity directly by multiplying brackets, resulting in an unmanageable algebraic mess.",
+                "Forgetting that the relation elements are ordered pairs like (a, b) instead of single variables."
+            ],
+            "concept_trigger": "Cross-multiplied products involving sum of variables in Cartesian relations.",
+            "time_to_solve_seconds": "420",
+            "examiner_intent": "Testing high-level algebraic manipulation and the ability to simplify a relation before proving its properties."
+        },
+        {
+            "question_id": 10,
+            "question_type": "case_based",
+            "concept_tested": "Application of Equivalence Relations",
+            "difficulty_level": "Easy",
+            "question_text": "Students of Class XII are participating in a school sports activity. Let $$ A = \\{S_1, S_2, S_3, S_4\\} $$ be the set of four selected students. A relation $$ R $$ on set $$ A $$ is defined as: two students are related if they have exactly the same height in centimeters.\\n\\nBased on this, answer:\\n(i) Is the relation $$ R $$ reflexive?\\n(ii) If student $$ S_1 $$ is related to $$ S_2 $$, and $$ S_2 $$ is related to $$ S_3 $$, is $$ S_1 $$ related to $$ S_3 $$? Name this property.",
+            "options": [],
+            "correct_answer": "(i) Yes, Reflexive. (ii) Yes, Transitive.",
+            "topper_solution": {
+                "step_1": "For (i): Every student has the same height as themselves. So, height of $$ S_1 $$ = height of $$ S_1 $$. Thus $$ (S_1, S_1) \\in R $$. The relation is reflexive.",
+                "step_2": "For (ii): If $$ S_1 $$ is related to $$ S_2 $$, then height($$ S_1 $$) = height($$ S_2 $$). If $$ S_2 $$ is related to $$ S_3 $$, then height($$ S_2 $$) = height($$ S_3 $$).",
+                "step_3": "By equality, height($$ S_1 $$) = height($$ S_3 $$), so $$ S_1 $$ is related to $$ S_3 $$. This property is called Transitivity."
+            },
+            "board_presentation_tip": "Answer each sub-part clearly with a brief 1-line logical reason. Do not just write 'Yes'.",
+            "common_student_mistakes": [
+                "Writing 'Yes' without providing the reasoning 'Every person has the same height as themselves'.",
+                "Confusing symmetric and transitive properties in word problems."
+            ],
+            "concept_trigger": "Real-world 'equality' conditions (same height, same book, same place) always form equivalence relations.",
+            "time_to_solve_seconds": "150",
+            "examiner_intent": "Connecting abstract mathematical relation concepts to practical, real-world situations."
+        },
+        {
+            "question_id": 11,
+            "question_type": "MCQ",
+            "concept_tested": "Properties of Relations",
+            "difficulty_level": "Easy",
+            "question_text": "Let $$ A = \\{1, 2, 3\\} $$. Consider the relation $$ R = \\{(1, 1), (1, 2), (2, 1), (2, 2), (3, 3)\\} $$. Then $$ R $$ is:",
+            "options": [
+                "Reflexive and symmetric but not transitive",
+                "Reflexive and transitive but not symmetric",
+                "Symmetric and transitive but not reflexive",
+                "An equivalence relation"
+            ],
+            "correct_answer": "An equivalence relation",
+            "topper_solution": {
+                "step_1": "Reflexive: $$ (1, 1), (2, 2), (3, 3) $$ are all present in $$ R $$. So, $$ R $$ is reflexive.",
+                "step_2": "Symmetric: $$ (1, 2) \\in R $$ and $$ (2, 1) \\in R $$. The other elements are doublets. So, $$ R $$ is symmetric.",
+                "step_3": "Transitive: $$ (1, 2) \\in R $$ and $$ (2, 1) \\in R \\implies (1, 1) \\in R $$, which is present. $$ (2, 1) \\in R $$ and $$ (1, 2) \\in R \\implies (2, 2) \\in R $$, which is also present. So, $$ R $$ is transitive. Hence, it is an equivalence relation."
+            },
+            "board_presentation_tip": "Check all three conditions systematically. For transitivity, check all pairs of the form (a,b) and (b,c).",
+            "common_student_mistakes": [
+                "Missing the transitivity check for (2,1) and (1,2) leading to (2,2).",
+                "Confusing equivalence relation with universal relation."
+            ],
+            "concept_trigger": "Presence of all diagonal elements plus a symmetric pair usually indicates an equivalence relation.",
+            "time_to_solve_seconds": "45",
+            "examiner_intent": "Testing rigorous checking of equivalence relation conditions on a small set."
+        },
+        {
+            "question_id": 12,
+            "question_type": "MCQ",
+            "concept_tested": "Injectivity and Surjectivity",
+            "difficulty_level": "Easy",
+            "question_text": "The function $$ f: \\mathbb{R} \\to \\mathbb{R} $$ defined by $$ f(x) = |x| $$ is:",
+            "options": [
+                "One-one and onto",
+                "One-one but not onto",
+                "Onto but not one-one",
+                "Neither one-one nor onto"
+            ],
+            "correct_answer": "Neither one-one nor onto",
+            "topper_solution": {
+                "step_1": "One-one check: Let $$ x_1 = 2 $$ and $$ x_2 = -2 $$. Both are in $$ \\mathbb{R} $$. $$ f(2) = |2| = 2 $$ and $$ f(-2) = |-2| = 2 $$. Since $$ f(2) = f(-2) $$ but $$ 2 \\neq -2 $$, $$ f $$ is not one-one.",
+                "step_2": "Onto check: The codomain is $$ \\mathbb{R} $$. Let $$ y = -1 $$. There is no real number $$ x $$ such that $$ |x| = -1 $$.",
+                "step_3": "Since there are negative values in the codomain with no pre-image, $$ f $$ is not onto. Therefore, $$ f $$ is neither one-one nor onto."
+            },
+            "board_presentation_tip": "Use counterexamples to disprove one-one and onto for absolute and even power functions.",
+            "common_student_mistakes": [
+                "Thinking it is onto because every real number has a modulus.",
+                "Ignoring the codomain $$ \\mathbb{R} $$ which includes negative numbers."
+            ],
+            "concept_trigger": "Modulus functions over real numbers are almost never one-one or onto.",
+            "time_to_solve_seconds": "40",
+            "examiner_intent": "Verifying understanding of the graphical and algebraic behavior of the absolute value function."
+        },
+        {
+            "question_id": 13,
+            "question_type": "Assertion Reason",
+            "concept_tested": "Bijective Functions",
+            "difficulty_level": "Moderate",
+            "question_text": "Assertion (A): The function $$ f: \\mathbb{Z} \\to \\mathbb{Z} $$ defined by $$ f(x) = x + 2 $$ is a bijection.\\nReason (R): Every element $$ y $$ in the codomain $$ \\mathbb{Z} $$ has a unique pre-image $$ y - 2 $$ in the domain $$ \\mathbb{Z} $$.",
+            "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is not the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+            ],
+            "correct_answer": "Both A and R are true and R is the correct explanation of A",
+            "topper_solution": {
+                "step_1": "Analyze Assertion (A): For one-one, $$ f(x_1) = f(x_2) \\implies x_1 + 2 = x_2 + 2 \\implies x_1 = x_2 $$. For onto, $$ y = x + 2 \\implies x = y - 2 $$. Since $$ y \\in \\mathbb{Z} $$, $$ x \\in \\mathbb{Z} $$. So, $$ f $$ is a bijection. A is true.",
+                "step_2": "Analyze Reason (R): The reason correctly defines the onto condition and the uniqueness implicitly covers one-one. R is true.",
+                "step_3": "Conclusion: Since R correctly explains why the function is bijective (both one-one and onto logic are satisfied), R is the correct explanation."
+            },
+            "board_presentation_tip": "In Assertion-Reason questions, clearly verify the truth value of A and R separately before evaluating the linkage.",
+            "common_student_mistakes": [
+                "Doubting surjectivity because of the domain $$ \\mathbb{Z} $$ instead of $$ \\mathbb{R} $$.",
+                "Failing to recognize that linear functions like $$ ax + b $$ are bijections if $$ a = \\pm 1 $$ over integers."
+            ],
+            "concept_trigger": "Linear functions with coefficient 1 over integers are bijections.",
+            "time_to_solve_seconds": "60",
+            "examiner_intent": "Testing understanding of bijective definitions and their application to linear functions over discrete domains."
+        },
+        {
+            "question_id": 14,
+            "question_type": "1_mark",
+            "concept_tested": "Equivalence Classes",
+            "difficulty_level": "Moderate",
+            "question_text": "Let $$ R $$ be an equivalence relation on the set $$ A = \\{1, 2, 3, 4, 5\\} $$ defined by $$ R = \\{(a, b) : |a - b| \\text{ is even}\\} $$. Write the equivalence class of 1, denoted by $$ [1] $$.",
+            "options": [],
+            "correct_answer": "{1, 3, 5}",
+            "topper_solution": {
+                "step_1": "The equivalence class of 1, denoted by $$ [1] $$, contains all elements $$ x \\in A $$ such that $$ (x, 1) \\in R $$.",
+                "step_2": "This means $$ |x - 1| $$ must be an even number.",
+                "step_3": "Substitute elements of $$ A $$: $$ |1-1|=0 $$ (even), $$ |2-1|=1 $$ (odd), $$ |3-1|=2 $$ (even), $$ |4-1|=3 $$ (odd), $$ |5-1|=4 $$ (even). Therefore, $$ [1] = \\{1, 3, 5\\} $$."
+            },
+            "board_presentation_tip": "Explicitly define the equivalence class notation before writing the final set.",
+            "common_student_mistakes": [
+                "Forgetting to include 1 in its own equivalence class.",
+                "Including negative numbers which are not in the domain set A."
+            ],
+            "concept_trigger": "Equivalence class asks for 'all elements related to the given element'.",
+            "time_to_solve_seconds": "50",
+            "examiner_intent": "Testing the concept of equivalence classes which partition the base set."
+        },
+        {
+            "question_id": 15,
+            "question_type": "2_mark",
+            "concept_tested": "Proving Not One-One and Not Onto",
+            "difficulty_level": "Easy",
+            "question_text": "Show that the function $$ f: \\mathbb{R} \\to \\mathbb{R} $$ given by $$ f(x) = 1 + x^2 $$ is neither one-one nor onto.",
+            "options": [],
+            "correct_answer": "Proof with counterexamples.",
+            "topper_solution": {
+                "step_1": "Not One-One: Let $$ x_1 = 1 $$ and $$ x_2 = -1 $$. Both belong to the domain $$ \\mathbb{R} $$.",
+                "step_2": "Then $$ f(1) = 1 + (1)^2 = 2 $$ and $$ f(-1) = 1 + (-1)^2 = 2 $$. Since $$ f(1) = f(-1) $$ but $$ 1 \\neq -1 $$, the function is not one-one.",
+                "step_3": "Not Onto: Let $$ y = -2 $$ (an element in the codomain $$ \\mathbb{R} $$). We need to find $$ x $$ such that $$ 1 + x^2 = -2 $$, which gives $$ x^2 = -3 $$. Since the square of a real number cannot be negative, there is no $$ x \\in \\mathbb{R} $$. Hence, $$ f $$ is not onto."
+            },
+            "board_presentation_tip": "Always use specific, simple numerical counterexamples for disproving one-one and onto properties to save time and ensure clarity.",
+            "common_student_mistakes": [
+                "Attempting a generalized algebraic proof when disproving, which often gets confusing.",
+                "Choosing a positive value for y (like y=5) which actually has a pre-image, failing to disprove surjectivity."
+            ],
+            "concept_trigger": "Even powers of x restrict the range to positive numbers, making it easy to disprove onto and one-one.",
+            "time_to_solve_seconds": "90",
+            "examiner_intent": "Testing ability to identify properties of quadratic functions over real numbers using counterexamples."
+        },
+        {
+            "question_id": 16,
+            "question_type": "2_mark",
+            "concept_tested": "Equivalence Relation on Geometry",
+            "difficulty_level": "Moderate",
+            "question_text": "Show that the relation $$ R $$ in the set $$ A $$ of all polygons defined as $$ R = \\{(P_1, P_2) : P_1 \\text{ and } P_2 \\text{ have the same number of sides}\\} $$, is an equivalence relation. ",
+            "options": [],
+            "correct_answer": "Proof of reflexivity, symmetry, and transitivity.",
+            "topper_solution": {
+                "step_1": "Reflexive: For any polygon $$ P $$, it has the same number of sides as itself. So, $$ (P, P) \\in R $$. Thus, $$ R $$ is reflexive.",
+                "step_2": "Symmetric: Let $$ (P_1, P_2) \\in R $$. This means $$ P_1 $$ and $$ P_2 $$ have the same number of sides. This implies $$ P_2 $$ and $$ P_1 $$ have the same number of sides. Thus $$ (P_2, P_1) \\in R $$. So, $$ R $$ is symmetric.",
+                "step_3": "Transitive: Let $$ (P_1, P_2) \\in R $$ and $$ (P_2, P_3) \\in R $$. Then $$ P_1 $$ has same sides as $$ P_2 $$, and $$ P_2 $$ has same sides as $$ P_3 $$. Therefore, $$ P_1 $$ has the same number of sides as $$ P_3 $$, meaning $$ (P_1, P_3) \\in R $$. Hence, $$ R $$ is an equivalence relation."
+            },
+            "board_presentation_tip": "Keep the language simple and directly use the defining phrase 'same number of sides' in each step.",
+            "common_student_mistakes": [
+                "Overcomplicating the proof by introducing variables for the number of sides without clearly linking them back to the polygons."
+            ],
+            "concept_trigger": "Relations based on 'sameness' (same sides, same book pages) are always equivalence relations.",
+            "time_to_solve_seconds": "100",
+            "examiner_intent": "Assessing application of relation properties to non-numerical sets."
+        },
+        {
+            "question_id": 17,
+            "question_type": "3_mark",
+            "concept_tested": "Piecewise Bijective Function",
+            "difficulty_level": "Board-Tricky",
+            "question_text": "Show that the function $$ f: \\mathbb{N} \\to \\mathbb{N} $$ defined by $$ f(n) = n+1 $$ if $$ n $$ is odd, and $$ f(n) = n-1 $$ if $$ n $$ is even, is both one-one and onto.",
+            "options": [],
+            "correct_answer": "Proof of bijection",
+            "topper_solution": {
+                "step_1": "One-one: Let $$ f(n_1) = f(n_2) $$. Case I: Both are odd. $$ n_1+1 = n_2+1 \\implies n_1=n_2 $$. Case II: Both are even. $$ n_1-1 = n_2-1 \\implies n_1=n_2 $$. Case III: One odd, one even. Then $$ n_1+1 $$ (even) $$ = n_2-1 $$ (odd), which is impossible. Thus $$ f $$ is one-one.",
+                "step_2": "Onto: Let $$ y \\in \\mathbb{N} $$ (codomain). If $$ y $$ is odd, let $$ x = y+1 $$. Since $$ y $$ is odd, $$ x $$ is even. Thus $$ f(x) = x-1 = (y+1)-1 = y $$.",
+                "step_3": "If $$ y $$ is even, let $$ x = y-1 $$. Since $$ y $$ is even, $$ x $$ is odd. Thus $$ f(x) = x+1 = (y-1)+1 = y $$. Since every $$ y $$ has a pre-image in $$ \\mathbb{N} $$, $$ f $$ is onto. Hence it is a bijection."
+            },
+            "board_presentation_tip": "Address the three cases (odd-odd, even-even, odd-even) explicitly for injectivity to get full marks.",
+            "common_student_mistakes": [
+                "Failing to consider the case where n1 is odd and n2 is even in the one-one proof.",
+                "Incorrectly defining the pre-image x based on the parity of y in the onto proof."
+            ],
+            "concept_trigger": "Piecewise functions mapping N to N usually swap consecutive integers, preserving bijection.",
+            "time_to_solve_seconds": "240",
+            "examiner_intent": "Testing logical division into cases for proving bijection in piecewise functions."
+        },
+        {
+            "question_id": 18,
+            "question_type": "3_mark",
+            "concept_tested": "Equivalence Relation with Distances",
+            "difficulty_level": "Moderate",
+            "question_text": "Show that the relation $$ R $$ in the set $$ A $$ of points in a plane given by $$ R = \\{(P, Q) : \\text{distance of point } P \\text{ from origin is same as distance of } Q \\text{ from origin}\\} $$, is an equivalence relation. Further, show that the set of all points related to a point $$ P \\neq (0, 0) $$ is the circle passing through $$ P $$ with origin as center.",
+            "options": [],
+            "correct_answer": "Proof of equivalence and circular locus.",
+            "topper_solution": {
+                "step_1": "Let $$ O $$ be the origin. Then $$ R = \\{(P, Q) : OP = OQ\\} $$. Reflexive: $$ OP = OP $$, so $$ (P, P) \\in R $$. Symmetric: If $$ (P, Q) \\in R \\implies OP = OQ \\implies OQ = OP \\implies (Q, P) \\in R $$.",
+                "step_2": "Transitive: If $$ (P, Q) \\in R $$ and $$ (Q, S) \\in R $$, then $$ OP = OQ $$ and $$ OQ = OS $$. Thus $$ OP = OS $$, meaning $$ (P, S) \\in R $$. So, $$ R $$ is an equivalence relation.",
+                "step_3": "Locus part: The set of all points related to $$ P $$ is the set of points $$ Q $$ such that $$ OQ = OP $$ (a constant distance). The locus of points at a constant distance from a fixed point (origin) is a circle. Hence proved."
+            },
+            "board_presentation_tip": "Use mathematical notation like 'OP = OQ' instead of writing long sentences about distances to keep the proof clean.",
+            "common_student_mistakes": [
+                "Proving the equivalence relation but skipping the second part about the circle locus, losing 1 mark.",
+                "Not mentioning 'origin as center' when describing the circle."
+            ],
+            "concept_trigger": "Distance from a fixed point is the fundamental definition of a circle.",
+            "time_to_solve_seconds": "180",
+            "examiner_intent": "Testing equivalence relations combined with basic coordinate geometry concepts."
+        },
+        {
+            "question_id": 19,
+            "question_type": "5_mark",
+            "concept_tested": "Equivalence Relation on Cartesian Product (Addition)",
+            "difficulty_level": "Board-Tricky",
+            "question_text": "Let $$ A = \\mathbb{N} \\times \\mathbb{N} $$ and $$ R $$ be the relation on $$ A $$ defined by $$ (a, b) R (c, d) $$ if and only if $$ a + d = b + c $$. Prove that $$ R $$ is an equivalence relation.",
+            "options": [],
+            "correct_answer": "Detailed proof of reflexivity, symmetry, and transitivity.",
+            "topper_solution": {
+                "step_1": "Reflexivity: Let $$ (a, b) \\in \\mathbb{N} \\times \\mathbb{N} $$. Since addition is commutative, $$ a + b = b + a $$. Therefore, $$ (a, b) R (a, b) $$. $$ R $$ is reflexive.",
+                "step_2": "Symmetry: Let $$ (a, b) R (c, d) $$. This implies $$ a + d = b + c $$. We can rewrite this as $$ c + b = d + a $$, which means $$ (c, d) R (a, b) $$. $$ R $$ is symmetric.",
+                "step_3": "Transitivity: Let $$ (a, b) R (c, d) $$ and $$ (c, d) R (e, f) $$. Then $$ a + d = b + c $$ and $$ c + f = d + e $$. Adding these two equations gives $$ a + d + c + f = b + c + d + e $$.",
+                "step_4": "Canceling $$ c $$ and $$ d $$ from both sides gives $$ a + f = b + e $$, which means $$ (a, b) R (e, f) $$. Thus, $$ R $$ is transitive. Since $$ R $$ is reflexive, symmetric, and transitive, it is an equivalence relation."
+            },
+            "board_presentation_tip": "In transitivity, explicitly write out the addition of the two equations. Showing the cancellation step clearly earns full marks.",
+            "common_student_mistakes": [
+                "Confusing the cross-addition rule $$ a+d = b+c $$ with direct addition $$ a+b = c+d $$.",
+                "Not clearly separating the four variables when proving transitivity."
+            ],
+            "concept_trigger": "Adding equations to eliminate middle variables is the standard method for Cartesian product relations.",
+            "time_to_solve_seconds": "300",
+            "examiner_intent": "Evaluating the ability to apply equivalence relation definitions to pairs of numbers instead of single elements."
+        },
+        {
+            "question_id": 20,
+            "question_type": "case_based",
+            "concept_tested": "Equivalence Class in Real Life Scenario",
+            "difficulty_level": "Moderate",
+            "question_text": "In a school library, books are organized systematically. Let $$ A $$ be the set of all books in the library. A relation $$ R $$ is defined on $$ A $$ as $$ R = \\{(x, y) : x \\text{ and } y \\text{ have the same number of pages}\\} $$.\\n\\nBased on this information, answer the following:\\n(i) Verify if $$ R $$ is an equivalence relation.\\n(ii) If book $$ x $$ is a Maths NCERT with 350 pages, what does the equivalence class of $$ x $$, denoted by $$ [x] $$, represent?",
+            "options": [],
+            "correct_answer": "(i) Yes, it is an equivalence relation. (ii) All books in the library with exactly 350 pages.",
+            "topper_solution": {
+                "step_1": "For (i): Reflexive: Every book has the same number of pages as itself. So $$ (x, x) \\in R $$. Symmetric: If book $$ x $$ and $$ y $$ have the same pages, then $$ y $$ and $$ x $$ have the same pages. So $$ (x, y) \\in R \\implies (y, x) \\in R $$.",
+                "step_2": "Transitive: If $$ x $$ has same pages as $$ y $$, and $$ y $$ has same pages as $$ z $$, then $$ x $$ has same pages as $$ z $$. Hence, $$ R $$ is an equivalence relation.",
+                "step_3": "For (ii): The equivalence class $$ [x] $$ contains all elements related to $$ x $$. Since $$ x $$ has 350 pages, $$ [x] $$ represents the set of all books in the library that contain exactly 350 pages."
+            },
+            "board_presentation_tip": "For real-life context questions, use the scenario context (like 'number of pages') in your justification rather than purely abstract symbols.",
+            "common_student_mistakes": [
+                "Defining the equivalence class mathematically without translating it back to the real-world meaning requested by the question."
+            ],
+            "concept_trigger": "Equivalence classes group items that share the defining property of the relation.",
+            "time_to_solve_seconds": "150",
+            "examiner_intent": "Testing comprehension of equivalence relations and classes in an applied, competency-based format."
+        },
+        {
+      "question_id": 21,
+      "question_type": "5_mark",
+      "concept_tested": "Equivalence Relation & Equivalence Classes",
+      "difficulty_level": "Moderate",
+      "question_text": "Let $$ A = \\{x \\in \\mathbb{Z} : 0 \\le x \\le 12\\} $$. Show that the relation $$ R $$ on $$ A $$ given by $$ R = \\{(a, b) : |a - b| \\text{ is a multiple of } 4\\} $$ is an equivalence relation. Find the set of all elements related to 1. Also write the equivalence class $$ [2] $$.",
+      "options": [],
+      "correct_answer": "Proof of equivalence relation, related to 1: {1, 5, 9}, [2]: {2, 6, 10}",
+      "topper_solution": {
+        "step_1": "Reflexive: For any $$ a \\in A $$, $$ |a - a| = 0 $$, which is a multiple of 4 (since $$ 0 = 4 \\times 0 $$). Thus, $$ (a, a) \\in R $$. $$ R $$ is reflexive.",
+        "step_2": "Symmetric: Let $$ (a, b) \\in R $$. Then $$ |a - b| = 4k $$ for some integer $$ k $$. Since $$ |b - a| = |-(a - b)| = |a - b| = 4k $$, $$ (b, a) \\in R $$. $$ R $$ is symmetric.",
+        "step_3": "Transitive: Let $$ (a, b) \\in R $$ and $$ (b, c) \\in R $$. Then $$ a - b = \\pm 4k_1 $$ and $$ b - c = \\pm 4k_2 $$. Adding them, $$ a - c = 4(\\pm k_1 \\pm k_2) $$, which is a multiple of 4. So $$ |a - c| $$ is a multiple of 4. Thus $$ (a, c) \\in R $$. $$ R $$ is an equivalence relation.",
+        "step_4": "Elements related to 1: Let $$ x $$ be related to 1. Then $$ |x - 1| = 4k $$. For $$ k=0, 1, 2 $$, $$ x = 1, 5, 9 $$. So the set is $$ \\{1, 5, 9\\} $$. Equivalence class $$ [2] = \\{x \\in A : |x - 2| = 4k\\} = \\{2, 6, 10\\} $$."
+      },
+      "board_presentation_tip": "When adding terms for transitivity, always remove the absolute value by using plus-minus signs to ensure rigorous mathematical proof.",
+      "common_student_mistakes": [
+        "Forgetting to limit the equivalence class elements to the set A (0 to 12).",
+        "Assuming |a - b| + |b - c| = |a - c| directly without removing mod signs."
+      ],
+      "concept_trigger": "Multiple of a number in an absolute value difference always forms an equivalence relation.",
+      "time_to_solve_seconds": "300",
+      "examiner_intent": "Testing formal equivalence relation proof and ability to compute specific equivalence classes under domain constraints."
+    },
+    {
+      "question_id": 22,
+      "question_type": "Assertion Reason",
+      "concept_tested": "Surjectivity and Range",
+      "difficulty_level": "Easy",
+      "question_text": "Assertion (A): The function $$ f: \\mathbb{R} \\to \\mathbb{R} $$ defined by $$ f(x) = e^x $$ is not an onto function.\\nReason (R): The range of the exponential function $$ f(x) = e^x $$ is $$ (0, \\infty) $$, which is a proper subset of the codomain $$ \\mathbb{R} $$.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct_answer": "Both A and R are true and R is the correct explanation of A",
+      "topper_solution": {
+        "step_1": "Analyze Assertion (A): For an onto function, the range must equal the codomain. The exponential function $$ e^x $$ only produces strictly positive real numbers. So, negative numbers and zero in the codomain $$ \\mathbb{R} $$ have no pre-image. Thus, $$ f $$ is not onto. Assertion A is true.",
+        "step_2": "Analyze Reason (R): The reason states the range is $$ (0, \\infty) $$. Since $$ (0, \\infty) \\neq \\mathbb{R} $$, this is exactly why it fails to be onto. Reason R is true and correctly explains A."
+      },
+      "board_presentation_tip": "For onto/surjective questions, comparing Range and Codomain is the standard formal method.",
+      "common_student_mistakes": [
+        "Assuming that since the domain is all real numbers, the range must also be all real numbers."
+      ],
+      "concept_trigger": "Exponential functions never yield negative values or zero.",
+      "time_to_solve_seconds": "45",
+      "examiner_intent": "Evaluating conceptual clarity on the definitions of range, codomain, and surjectivity."
+    },
+    {
+      "question_id": 23,
+      "question_type": "3_mark",
+      "concept_tested": "Reflexivity, Symmetry, Transitivity on Inequalities",
+      "difficulty_level": "Board-Tricky",
+      "question_text": "Check whether the relation $$ R $$ in the set $$ \\mathbb{R} $$ of real numbers defined by $$ R = \\{(a, b) : a \\le b^3\\} $$ is reflexive, symmetric, or transitive.",
+      "options": [],
+      "correct_answer": "Neither reflexive, nor symmetric, nor transitive.",
+      "topper_solution": {
+        "step_1": "Reflexive: Let $$ a = \\frac{1}{2} $$. Then $$ \\frac{1}{2} \\le \\left(\\frac{1}{2}\\right)^3 \\implies \\frac{1}{2} \\le \\frac{1}{8} $$, which is false. Thus, $$ \\left(\\frac{1}{2}, \\frac{1}{2}\\right) \\notin R $$. So, $$ R $$ is not reflexive.",
+        "step_2": "Symmetric: Let $$ a = 1, b = 2 $$. $$ 1 \\le 2^3 \\implies 1 \\le 8 $$, which is true. But for $$ (b, a) $$, $$ 2 \\le 1^3 \\implies 2 \\le 1 $$, which is false. Thus, $$ R $$ is not symmetric.",
+        "step_3": "Transitive: Let $$ a = 10, b = 3, c = 1.5 $$. $$ (10, 3) \\in R $$ because $$ 10 \\le 27 $$. $$ (3, 1.5) \\in R $$ because $$ 3 \\le 3.375 $$. But $$ (10, 1.5) \\notin R $$ because $$ 10 \\le 3.375 $$ is false. Thus, $$ R $$ is not transitive."
+      },
+      "board_presentation_tip": "For relations involving squares or cubes, fractions between 0 and 1 are the best counterexamples for reflexivity.",
+      "common_student_mistakes": [
+        "Testing reflexivity with integers (like 2 <= 8), missing the fact that fractions fail the condition.",
+        "Failing to find a counterexample for transitivity, which requires carefully chosen numbers."
+      ],
+      "concept_trigger": "Higher powers with inequality over Real numbers usually fail all three relation properties.",
+      "time_to_solve_seconds": "180",
+      "examiner_intent": "Testing analytical thinking and ability to discover non-trivial counterexamples in real numbers."
+    },
+    {
+      "question_id": 24,
+      "question_type": "2_mark",
+      "concept_tested": "Cubic Bijective Functions",
+      "difficulty_level": "Moderate",
+      "question_text": "Show that the function $$ f: \\mathbb{R} \\to \\mathbb{R} $$ given by $$ f(x) = x^3 + 1 $$ is a bijection.",
+      "options": [],
+      "correct_answer": "Proof of bijection",
+      "topper_solution": {
+        "step_1": "One-one: Let $$ f(x_1) = f(x_2) $$. Then $$ x_1^3 + 1 = x_2^3 + 1 \\implies x_1^3 = x_2^3 $$. Taking the cube root on both sides (which is unique in $$ \\mathbb{R} $$), we get $$ x_1 = x_2 $$. Thus, $$ f $$ is one-one.",
+        "step_2": "Onto: Let $$ y \\in \\mathbb{R} $$ (codomain). Then $$ y = x^3 + 1 \\implies x^3 = y - 1 \\implies x = (y - 1)^{1/3} $$.",
+        "step_3": "Since the cube root of any real number is a real number, $$ x \\in \\mathbb{R} $$ for all $$ y \\in \\mathbb{R} $$. Thus, every element in the codomain has a pre-image, making $$ f $$ onto. Hence, it is a bijection."
+      },
+      "board_presentation_tip": "Explicitly state that taking the cube root yields a unique real number. (Unlike square roots, which yield ± and cause non-injectivity).",
+      "common_student_mistakes": [
+        "Confusing odd powers with even powers and falsely claiming it is not one-one.",
+        "Not clearly writing the pre-image x in terms of y."
+      ],
+      "concept_trigger": "Odd degree polynomials over Reals without turning points are always bijections.",
+      "time_to_solve_seconds": "90",
+      "examiner_intent": "Checking familiarity with algebraic properties of odd integer powers."
+    },
+    {
+      "question_id": 25,
+      "question_type": "case_based",
+      "concept_tested": "Functions in Real Life Scenarios",
+      "difficulty_level": "Easy",
+      "question_text": "An IT company assigns a unique Employee ID (a Natural Number) to each of its newly hired software engineers. Let $$ A $$ be the set of all newly hired engineers and $$ \\mathbb{N} $$ be the set of natural numbers. The assignment is modeled by a function $$ f: A \\to \\mathbb{N} $$ where $$ f(e) $$ is the Employee ID assigned to engineer $$ e $$.\\n\\n(i) Is the function $$ f $$ one-one (injective)? Justify your answer.\\n(ii) Is the function $$ f $$ onto (surjective)? Justify your answer.",
+      "options": [],
+      "correct_answer": "(i) Yes, One-One. (ii) No, Not Onto.",
+      "topper_solution": {
+        "step_1": "For (i): The problem states each engineer gets a 'unique' Employee ID. This means no two different engineers get the same ID. Mathematically, if $$ e_1 \\neq e_2 $$, then $$ f(e_1) \\neq f(e_2) $$. Therefore, the function $$ f $$ is one-one.",
+        "step_2": "For (ii): The codomain is $$ \\mathbb{N} $$, which contains infinite natural numbers. However, the company has a finite number of newly hired engineers.",
+        "step_3": "Thus, there will be many natural numbers (IDs) that are not assigned to anyone (e.g., ID 1000000 if there are only 50 hires). Since there are elements in the codomain without a pre-image, $$ f $$ is not onto."
+      },
+      "board_presentation_tip": "Always link the mathematical definition back to the words used in the real-world prompt (e.g., 'unique', 'finite hires').",
+      "common_student_mistakes": [
+        "Stating it is onto because every engineer gets an ID (confusing the definition of a function mapping with surjectivity).",
+        "Ignoring the domain and codomain sizes."
+      ],
+      "concept_trigger": "Mapping a finite set of people to an infinite set of numbers guarantees it cannot be onto.",
+      "time_to_solve_seconds": "150",
+      "examiner_intent": "Assessing application of injective and surjective definitions to practical logic scenarios."
+    }
+    ]
+}

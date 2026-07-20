@@ -1,0 +1,727 @@
+{
+  "meta": {
+    "subject": "Chemistry",
+    "class": "12",
+    "chapter_name": "Coordination Compounds",
+    "pyq_year_range": "2022-2025 (Includes SQPs)",
+    "total_questions": 25,
+    "difficulty_distribution": {
+      "easy": "25%",
+      "moderate": "45%",
+      "hard": "30%"
+    }
+  },
+  "questions": [
+    {
+      "question_id": "COORD-2024-MCQ-01",
+      "year": "2024",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "The correct IUPAC name of [Pt(NH₃)₂Cl(NO₂)] is:",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (b): Diamminechloridonitrito-N-platinum(II)",
+        "stepwise_marking_scheme_breakdown": "1 mark for correct option.",
+        "final_answer_boxed": "Diamminechloridonitrito-N-platinum(II)"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "IUPAC Naming of Coordination Compounds",
+        "why_this_question_is_asked": "Tests alphabetical order of ligands, handling of ambidentate ligands (NO₂ vs ONO), and oxidation state calculation.",
+        "common_student_mistake": "Forgetting 'ammine' has double 'm'. Ignoring alphabetical order (Chlorido vs Ammine). Calculating oxidation state incorrectly (x + 0 - 1 - 1 = 0 => x = +2).",
+        "trap_zone": "Confusing 'nitrito-N' (NO₂) with 'nitrito-O' (ONO)."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "b",
+        "options": {
+          "a": "Diamminechloridonitrito-O-platinum(II)",
+          "b": "Diamminechloridonitrito-N-platinum(II)",
+          "c": "Chloridodiamminenitrito-N-platinum(II)",
+          "d": "Diamminechloridonitrito-N-platinum(IV)"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "COORD-2023-MCQ-02",
+      "year": "2023",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "Which of the following complexes is homoleptic?",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (a): [Co(NH₃)₆]³⁺",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "[Co(NH₃)₆]³⁺"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Homoleptic vs Heteroleptic Complexes",
+        "why_this_question_is_asked": "Basic definition check. Homoleptic = same type of ligands.",
+        "common_student_mistake": "Confusing the term with 'Monodentate'.",
+        "trap_zone": "Complexes with multiple atoms in one ligand (like en) are still homoleptic if only that ligand is present."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "a",
+        "options": {
+          "a": "[Co(NH₃)₆]³⁺",
+          "b": "[Co(NH₃)₄Cl₂]⁺",
+          "c": "[Ni(NH₃)₄Cl₂]",
+          "d": "[Pt(NH₃)₂Cl₂]"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "COORD-2025-MCQ-03",
+      "year": "2025",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "The crystal field splitting energy (CFSE) for octahedral complex (Δₒ) and tetrahedral complex (Δₜ) are related as:",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (c): Δₜ = (4/9) Δₒ",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "Δₜ = (4/9) Δₒ"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Crystal Field Theory (CFT)",
+        "why_this_question_is_asked": "Standard relation between splitting energies.",
+        "common_student_mistake": "Inverting the ratio (9/4) or confusing it with 2/3.",
+        "trap_zone": "Tetrahedral splitting is always smaller than octahedral."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "c",
+        "options": {
+          "a": "Δₜ = Δₒ",
+          "b": "Δₜ = (9/4) Δₒ",
+          "c": "Δₜ = (4/9) Δₒ",
+          "d": "Δₜ = 2 Δₒ"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "COORD-SQP-MCQ-04",
+      "year": "SQP 2024",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "Which of the following ligands is bidentate?",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (d): ethane-1,2-diamine (en)",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "ethane-1,2-diamine"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Ligand Classification",
+        "why_this_question_is_asked": "Identifying donor sites.",
+        "common_student_mistake": "Thinking EDTA is bidentate (it is hexadentate).",
+        "trap_zone": "N/A"
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "d",
+        "options": {
+          "a": "EDTA",
+          "b": "NH₃",
+          "c": "CN⁻",
+          "d": "ethane-1,2-diamine"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "COORD-2022-MCQ-05",
+      "year": "2022",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "The oxidation state of Ni in [Ni(CO)₄] is:",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (a): 0",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "0"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Oxidation State in Metal Carbonyls",
+        "why_this_question_is_asked": "CO is a neutral ligand, so charge on metal equals charge on complex.",
+        "common_student_mistake": "Assuming metal must always be positive (e.g., +2).",
+        "trap_zone": "Metal Carbonyls usually have zero oxidation state."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "a",
+        "options": {
+          "a": "0",
+          "b": "+2",
+          "c": "+4",
+          "d": "-1"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "COORD-2023-AR-06",
+      "year": "2023",
+      "question_type": "Assertion-Reason",
+      "marks": 1,
+      "question_text": "Assertion (A): [Fe(CN)₆]³⁻ is weakly paramagnetic while [Fe(CN)₆]⁴⁻ is diamagnetic.\nReason (R): [Fe(CN)₆]³⁻ has +3 oxidation state and [Fe(CN)₆]⁴⁻ has +2 oxidation state.",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (b): Both A and R are true but R is NOT the correct explanation of A.",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "Both true, R not explanation"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "VBT/CFT Magnetic Properties",
+        "why_this_question_is_asked": "Connecting Oxidation State -> d-config -> Unpaired electrons.\nA is True: Fe³⁺ (d⁵) has 1 unpaired electron (paramagnetic) in strong field. Fe²⁺ (d⁶) has 0 unpaired (diamagnetic) in strong field.\nR is True: Oxidation states are correct.\nExplanation Check: Does the OS *alone* explain magnetism? No, the *electronic configuration* resulting from that OS and the *ligand field strength* explains it. Simply stating the OS doesn't explain the magnetic behavior without mentioning d-electron count and pairing. Hence (b).",
+        "common_student_mistake": "Choosing (a) because both statements are factually correct.",
+        "trap_zone": "Distinguishing between a statement that is 'true' and one that is the 'reason'."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "b",
+        "options": {
+          "a": "Both A and R are true and R is the correct explanation of A",
+          "b": "Both A and R are true but R is not the correct explanation of A",
+          "c": "A is true but R is false",
+          "d": "A is false but R is true"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "COORD-2024-VSA-07",
+      "year": "2024",
+      "question_type": "2M",
+      "marks": 2,
+      "question_text": "What is meant by the 'chelate effect'? Give an example.",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Chelate Effect: When a di- or polydentate ligand uses its two or more donor atoms to bind to a single metal ion, it forms a ring structure. This ring formation significantly increases the stability of the coordination complex compared to similar complexes with monodentate ligands. This enhanced stability is called the chelate effect.\n\nExample: [Ni(en)₃]²⁺ is more stable than [Ni(NH₃)₆]²⁺ because 'en' (ethane-1,2-diamine) is a chelating ligand forming 5-membered rings.",
+        "stepwise_marking_scheme_breakdown": "1 mark for Definition (Mentioning 'Ring formation' and 'Stability').\n1 mark for Example (Any chelate complex).",
+        "final_answer_boxed": "Ring formation increases stability"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Stability of Coordination Compounds",
+        "why_this_question_is_asked": "Important concept for stability comparison.",
+        "common_student_mistake": "Failing to mention 'ring structure'.",
+        "trap_zone": "Example must involve a polydentate ligand."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "COORD-2025-SA-08",
+      "year": "2025",
+      "question_type": "3M",
+      "marks": 3,
+      "question_text": "Write the electronic configuration of d⁵ in terms of t₂g and e₉ in an octahedral field when:\n(i) Δₒ < P\n(ii) Δₒ > P\n(iii) What is the colour of [Ti(H₂O)₆]³⁺?",
+      "if_graph_or_diagram_required": {
+        "required": true,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(i) When Δₒ < P (Weak Field/High Spin): Electrons will not pair up. Config: t₂g³ e₉².\n(ii) When Δₒ > P (Strong Field/Low Spin): Electrons will pair up in lower energy level. Config: t₂g⁵ e₉⁰.\n(iii) Violet. (Due to d-d transition of single electron in Ti³⁺, 3d¹).",
+        "stepwise_marking_scheme_breakdown": "1 mark for (i).\n1 mark for (ii).\n1 mark for (iii).",
+        "final_answer_boxed": "(i) t₂g³ e₉² (ii) t₂g⁵ e₉⁰"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "CFT Electronic Configuration",
+        "why_this_question_is_asked": "Tests understanding of Pairing energy (P) vs Splitting energy (Δₒ).",
+        "common_student_mistake": "Confusing the < and > signs for pairing.",
+        "trap_zone": "Specific colour of Ti complex is a textbook fact."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "COORD-SQP-SA-09",
+      "year": "SQP 2024",
+      "question_type": "3M",
+      "marks": 3,
+      "question_text": "Using Valence Bond Theory, explain the geometry and magnetic behaviour of [Co(NH₃)₆]³⁺. (Atomic no. of Co = 27)",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "1. Oxidation State: Co is in +3 state. Config: [Ar] 3d⁶.\n2. Nature of Ligand: NH₃ is a strong field ligand (pairs up electrons).\n3. Orbital Diagram:\n   3d: [↑↓][↑↓][↑↓][ ][ ] (Electrons paired)\n   Hybridization involves two 3d, one 4s, three 4p orbitals.\n   Hybridization: d²sp³ (Inner orbital complex).\n4. Geometry: Octahedral.\n5. Magnetic Behaviour: Diamagnetic (No unpaired electrons).",
+        "stepwise_marking_scheme_breakdown": "1 mark for correct oxidation state and d-config.\n1 mark for hybridization logic (pairing).\n1 mark for Geometry and Magnetic property.",
+        "final_answer_boxed": "d²sp³, Octahedral, Diamagnetic"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Valence Bond Theory (VBT)",
+        "why_this_question_is_asked": "Standard VBT application question.",
+        "common_student_mistake": "Treating NH₃ as weak ligand for Co³⁺ (NH₃ is strong for Co³⁺ but weak for some others, essential exception).",
+        "trap_zone": "Hybridization is d²sp³, not sp³d²."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "COORD-2022-SA-10",
+      "year": "2022",
+      "question_type": "3M",
+      "marks": 3,
+      "question_text": "Give the formula of each of the following coordination entities:\n(i) Co³⁺ ion is bound to one Cl⁻, one NH₃ molecule and two bidentate ethylene diamine (en) molecules.\n(ii) Ni²⁺ ion is bound to two water molecules and two oxalate ions.\nWrite the name and magnetic behaviour of each of the above coordination entities.",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(i) Formula: [Co(en)₂(NH₃)Cl]²⁺\n   (Charge: +3 -1 +0 +0 = +2)\n   Name: Amminechloridobis(ethane-1,2-diamine)cobalt(III) ion.\n   Magnetic: Diamagnetic (Co³⁺ with strong field N-donors).\n\n(ii) Formula: [Ni(H₂O)₂(ox)₂]²⁻\n   (Charge: +2 +0 + 2(-2) = -2)\n   Name: Diaquadioxalatonickelate(II) ion.\n   Magnetic: Paramagnetic (Ni²⁺ is d⁸, usually 2 unpaired e⁻).",
+        "stepwise_marking_scheme_breakdown": "1.5 marks for (i) (Formula + Name + Mag).\n1.5 marks for (ii).",
+        "final_answer_boxed": "N/A"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Formulation and Nomenclature",
+        "why_this_question_is_asked": "Reverse process: Description -> Formula.",
+        "common_student_mistake": "Calculation of net charge on the complex sphere. Forgetting 'ate' suffix for anionic complex in (ii).",
+        "trap_zone": "Alphabetical order in name."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "COORD-2023-LA-11",
+      "year": "2023",
+      "question_type": "5M",
+      "marks": 5,
+      "question_text": "(a) Discuss the nature of bonding in metal carbonyls.\n(b) Draw the structures of geometrical isomers of [Fe(NH₃)₂ (CN)₄]⁻.\n(c) Calculate the spin only magnetic moment of [NiCl₄]²⁻.",
+      "if_graph_or_diagram_required": {
+        "required": true,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(a) Bonding in Metal Carbonyls: Possess both σ and π character. The M-C σ bond is formed by donation of lone pair from C to metal. The M-C π bond is formed by back-donation of electrons from filled d-orbital of metal to empty antibonding π* orbital of CO. This 'synergic effect' strengthens the bond.\n\n(b) Isomers: Since formula is [MA₄B₂], it shows Cis and Trans isomers.\n   Cis: Two NH₃ adjacent (90°).\n   Trans: Two NH₃ opposite (180°).\n\n(c) [NiCl₄]²⁻:\n   Ni²⁺ (3d⁸). Cl⁻ is weak field.\n   Config: [Ar] 3d⁸ (Two unpaired electrons).\n   µ = √n(n+2) = √2(4) = √8 = 2.82 BM.",
+        "stepwise_marking_scheme_breakdown": "2 marks for (a) (Diagram/Explanation).\n1.5 marks for (b) (Structures).\n1.5 marks for (c) (Calculation).",
+        "final_answer_boxed": "2.82 BM"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Synergic Bonding, Isomerism, Magnetic Moment",
+        "why_this_question_is_asked": "Comprehensive check of chapter.",
+        "common_student_mistake": "In (c), treating Cl⁻ as strong field (pairing) leading to 0 BM.",
+        "trap_zone": "Synergic effect definition must be precise."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "COORD-2024-SA-12",
+      "year": "2024",
+      "question_type": "3M",
+      "marks": 3,
+      "question_text": "Write the hybridization and magnetic character of the following complexes:\n(i) [Fe(H₂O)₆]²⁺\n(ii) [Ni(CN)₄]²⁻\n(Atomic No: Fe=26, Ni=28)",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(i) [Fe(H₂O)₆]²⁺:\n   Fe²⁺ (3d⁶). H₂O is weak field ligand -> No pairing.\n   Config: t₂g⁴ e₉² (4 unpaired).\n   Hybridization: sp³d² (Outer orbital).\n   Magnetic: Paramagnetic.\n\n(ii) [Ni(CN)₄]²⁻:\n   Ni²⁺ (3d⁸). CN⁻ is strong field ligand -> Pairing occurs.\n   Config: One d-orbital becomes empty.\n   Hybridization: dsp² (Square Planar).\n   Magnetic: Diamagnetic.",
+        "stepwise_marking_scheme_breakdown": "1.5 marks each (0.5 Hyb, 0.5 Mag, 0.5 Logic).",
+        "final_answer_boxed": "sp³d², Para; dsp², Dia"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "VBT Application",
+        "why_this_question_is_asked": "Classic contrast between octahedral outer orbital and square planar inner orbital.",
+        "common_student_mistake": "For Ni, writing sp³ (Tetrahedral) instead of dsp².",
+        "trap_zone": "Ni(II) with Strong field is always Square Planar/Diamagnetic."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "COORD-SQP-VSA-13",
+      "year": "SQP 2023",
+      "question_type": "2M",
+      "marks": 2,
+      "question_text": "Why is [NiCl₄]²⁻ paramagnetic while [Ni(CO)₄] is diamagnetic though both are tetrahedral?",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "[NiCl₄]²⁻:\nOxidation state Ni²⁺ (3d⁸). Cl⁻ is weak field ligand, no pairing. Two unpaired electrons present. Hence Paramagnetic.\n\n[Ni(CO)₄]:\nOxidation state Ni(0) (3d⁸ 4s²). CO is strong field ligand. It pushes 4s electrons into 3d orbitals, making it 3d¹⁰ configuration. No unpaired electrons. Hence Diamagnetic.",
+        "stepwise_marking_scheme_breakdown": "1 mark for [NiCl₄]²⁻ reasoning.\n1 mark for [Ni(CO)₄] reasoning (Mention shifting of 4s to 3d).",
+        "final_answer_boxed": "Unpaired vs Paired"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Magnetic Behavior Logic",
+        "why_this_question_is_asked": "Explains difference based on ligand strength and oxidation state.",
+        "common_student_mistake": "Forgetting that Ni is in 0 state in carbonyls.",
+        "trap_zone": "Both are tetrahedral (sp³), difference is only in d-electron arrangement."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "COORD-2025-VSA-14",
+      "year": "2025",
+      "question_type": "2M",
+      "marks": 2,
+      "question_text": "Differentiate between a double salt and a coordination compound.",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Double Salt:\n1. Dissociates completely into simple ions when dissolved in water.\n2. Loses its identity in solution.\nExample: Mohr's Salt [FeSO₄.(NH₄)₂SO₄.6H₂O].\n\nCoordination Compound:\n1. Does not dissociate into simple ions (complex ion remains intact).\n2. Retains its identity in solution.\nExample: K₄[Fe(CN)₆].",
+        "stepwise_marking_scheme_breakdown": "1 mark for Dissociation point.\n1 mark for Identity/Example.",
+        "final_answer_boxed": "Dissociation behavior"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Basic Definitions",
+        "why_this_question_is_asked": "Fundamental distinction in inorganic chemistry.",
+        "common_student_mistake": "Failing to give examples.",
+        "trap_zone": "N/A"
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "COORD-2022-MCQ-15",
+      "year": "2022",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "Which of the following complexes exhibits linkage isomerism?",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (c): [Co(NH₃)₅(NO₂)]Cl₂",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "[Co(NH₃)₅(NO₂)]Cl₂"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Linkage Isomerism",
+        "why_this_question_is_asked": "Requires presence of ambidentate ligand (NO₂, SCN, CN).",
+        "common_student_mistake": "Selecting complexes with only monodentate ligands like Cl or NH₃.",
+        "trap_zone": "NO₂ can bind via N or O."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "c",
+        "options": {
+          "a": "[Co(NH₃)₆]Cl₃",
+          "b": "[Co(en)₃]Cl₃",
+          "c": "[Co(NH₃)₅(NO₂)]Cl₂",
+          "d": "[Co(NH₃)₅Cl]Cl₂"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "COORD-2023-CASE-16",
+      "year": "2023",
+      "question_type": "Case-Based",
+      "marks": 4,
+      "question_text": "Read the passage:\nCrystal Field Theory (CFT) is an electrostatic model which considers the metal-ligand bond to be ionic. Ligands are treated as point charges. The interaction between d-electrons of metal and ligands causes splitting of d-orbitals. This splitting depends on the nature of ligand (Spectrochemical Series).\n(a) What is the crystal field splitting energy (Δₒ)?\n(b) Why is [Ti(H₂O)₆]³⁺ coloured while [Sc(H₂O)₆]³⁺ is colourless?\n(c) Arrange the following ligands in increasing order of field strength: H₂O, CN⁻, Cl⁻, NH₃.",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(a) The difference in energy between the two sets of d-orbitals (t₂g and e₉) generated by the splitting in a crystal field is called Crystal Field Splitting Energy (Δₒ).\n(b) [Ti(H₂O)₆]³⁺ has Ti³⁺ (3d¹) configuration. It has one unpaired electron which can undergo d-d transition absorbing visible light. [Sc(H₂O)₆]³⁺ has Sc³⁺ (3d⁰). With no d-electrons, no d-d transition is possible, hence colourless.\n(c) Cl⁻ < H₂O < NH₃ < CN⁻",
+        "stepwise_marking_scheme_breakdown": "1 mark for definition.\n1.5 marks for colour reasoning (d-d transition vs empty d-orbital).\n1.5 marks for order.",
+        "final_answer_boxed": "Cl⁻ < H₂O < NH₃ < CN⁻"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "CFT Basics & Spectrochemical Series",
+        "why_this_question_is_asked": "Core theory of chapter.",
+        "common_student_mistake": "In (c), misplacing H₂O and NH₃.",
+        "trap_zone": "Sc³⁺ is 3d⁰, Zn²⁺ is 3d¹⁰ - both colourless."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "COORD-2024-SA-17",
+      "year": "2024",
+      "question_type": "3M",
+      "marks": 3,
+      "question_text": "Draw the structures of optical isomers of:\n(i) [Co(en)₃]³⁺\n(ii) [PtCl₂(en)₂]²⁺ (cis form only)",
+      "if_graph_or_diagram_required": {
+        "required": true,
+        "diagram_description_for_rendering": "3+ (d and l forms) and Cis-[PtCl2(en)2]2+]"
+      },
+      "board_style_answer": {
+        "structured_answer": "(i) [Co(en)₃]³⁺: Draws 'd' and 'l' forms (Propeller shape with 3 'en' rings). Non-superimposable mirror images.\n(ii) Cis-[PtCl₂(en)₂]²⁺: Draws 'd' and 'l' forms of the cis isomer. (Trans form is optically inactive due to plane of symmetry).",
+        "stepwise_marking_scheme_breakdown": "1.5 marks for each pair of drawings.",
+        "final_answer_boxed": "Drawings"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Optical Isomerism",
+        "why_this_question_is_asked": "Visualization skill check.",
+        "common_student_mistake": "Drawing the trans isomer for (ii) which is optically inactive.",
+        "trap_zone": "Only cis isomers of MA₂(AA)₂ show optical activity."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "COORD-SQP-VSA-18",
+      "year": "SQP 2025",
+      "question_type": "2M",
+      "marks": 2,
+      "question_text": "Define 'ambidentate ligand' with an example.",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Definition: A unidentate ligand which contains more than one coordinating atom but coordinates through only one atom at a time is called an ambidentate ligand.\nExample: NO₂⁻ ion. It can coordinate through Nitrogen (-NO₂, nitrito-N) or through Oxygen (-ONO, nitrito-O). (Or SCN⁻ / NCS⁻).",
+        "stepwise_marking_scheme_breakdown": "1 mark Definition.\n1 mark Example.",
+        "final_answer_boxed": "NO₂ / ONO"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Ligand Definition",
+        "why_this_question_is_asked": "Direct definition.",
+        "common_student_mistake": "Confusing with bidentate (which binds with TWO atoms simultaneously). Ambidentate binds with ONE atom, but has choice.",
+        "trap_zone": "Must mention 'coordinates through only one atom at a time'."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "COORD-2022-MCQ-19",
+      "year": "2022",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "The coordination number of Co in [Co(en)₂Cl₂]⁺ is:",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (c): 6",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "6"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Coordination Number",
+        "why_this_question_is_asked": "Tests knowledge that 'en' is bidentate.",
+        "common_student_mistake": "Counting 2(en) + 2(Cl) = 4. Correct is 2*2 + 2*1 = 6.",
+        "trap_zone": "Bidentate ligands contribute 2 to coordination number."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "c",
+        "options": {
+          "a": "4",
+          "b": "5",
+          "c": "6",
+          "d": "2"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "COORD-2023-SA-20",
+      "year": "2023",
+      "question_type": "3M",
+      "marks": 3,
+      "question_text": "Give the IUPAC name of the following:\n(i) K₃[Cr(C₂O₄)₃]\n(ii) [Co(NH₃)₅(CO₃)]Cl\n(iii) Hg[Co(SCN)₄]",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(i) Potassium trioxalatochromate(III)\n(ii) Pentaamminecarbonatocobalt(III) chloride\n(iii) Mercury(I) tetrathiocyanato-S-cobaltate(III) (OR Mercury tetrathiocyanatocobaltate(II) depending on Hg state implied, usually Hg²⁺/Co²⁺ or Hg⁺/Co³⁺. Standard: Mercury(I) tetrathiocyanato-S-cobaltate(III)). *Self-Correction: Hg[Co(SCN)4] usually implies Hg(II) and Co(II) or Hg(I)2? Actually, Co is usually +2 with SCN, making complex 2-. Hg is +2. So Mercury tetrathiocyanato-S-cobaltate(II). Check charge: SCN is -1 x 4 = -4. Co +2. Complex -2. Hg +2 balances. OK.* Name: Mercury(II) tetrathiocyanato-S-cobaltate(II).",
+        "stepwise_marking_scheme_breakdown": "1 mark for each correct name.",
+        "final_answer_boxed": "N/A"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Complex IUPAC Naming",
+        "why_this_question_is_asked": "Testing cationic/anionic complexes and oxidation states.",
+        "common_student_mistake": "For (i), writing 'Chromium' instead of 'Chromate'. For (ii), oxidation state calc.",
+        "trap_zone": "Oxidation state calculation in double salts/bridged species."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "COORD-2024-MCQ-21",
+      "year": "2024",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "The secondary valency of Co in [Co(NH₃)₅Cl]Cl₂ is:",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (d): 6",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "6"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Werner's Theory",
+        "why_this_question_is_asked": "Secondary valency = Coordination Number.",
+        "common_student_mistake": "Confusing it with Primary Valency (Oxidation state, which is +3).",
+        "trap_zone": "Secondary valency is fixed (6 for Co(III))."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "d",
+        "options": {
+          "a": "3",
+          "b": "2",
+          "c": "5",
+          "d": "6"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "COORD-2025-SA-22",
+      "year": "2025",
+      "question_type": "3M",
+      "marks": 3,
+      "question_text": "(i) What is the role of coordination compounds in biological systems? Give one example.\n(ii) Explain the usage of coordination compounds in medicinal chemistry.",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(i) Biological Systems: Many vital biomolecules are coordination complexes. Example: Chlorophyll is a complex of Magnesium (photosynthesis); Haemoglobin is a complex of Iron (oxygen transport).\n(ii) Medicinal Chemistry: Cis-platin [Pt(NH₃)₂Cl₂] is used as an antitumor agent for treating cancer. EDTA is used in lead poisoning treatment.",
+        "stepwise_marking_scheme_breakdown": "1.5 marks for Biological (+example).\n1.5 marks for Medicinal (+example).",
+        "final_answer_boxed": "Chlorophyll, Cis-platin"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Applications of Coordination Compounds",
+        "why_this_question_is_asked": "Theoretical application check.",
+        "common_student_mistake": "Vague answers without specific compound names.",
+        "trap_zone": "N/A"
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "COORD-SQP-LA-23",
+      "year": "SQP 2022",
+      "question_type": "5M",
+      "marks": 5,
+      "question_text": "For the complex [Fe(CN)₆]³⁻:\n(i) Write the IUPAC name.\n(ii) Write the hybridization.\n(iii) Is it high spin or low spin?\n(iv) Calculate spin only magnetic moment.\n(v) Draw the crystal field splitting diagram.",
+      "if_graph_or_diagram_required": {
+        "required": true,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(i) Hexacyanoferrate(III) ion.\n(ii) d²sp³ (Inner orbital).\n(iii) Low spin (CN⁻ is strong field, pairs electrons).\n(iv) Fe³⁺ (3d⁵), pairing occurs -> t₂g⁵ e₉⁰. One unpaired electron (n=1). µ = √1(3) = 1.73 BM.\n(v) Diagram shows large splitting (Δₒ > P), 5 electrons in t₂g, 0 in e₉.",
+        "stepwise_marking_scheme_breakdown": "1 mark each for (i) to (v).",
+        "final_answer_boxed": "1.73 BM"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Complete Complex Analysis",
+        "why_this_question_is_asked": "5M standard pattern.",
+        "common_student_mistake": "Calculating high spin magnetic moment (5.9 BM).",
+        "trap_zone": "Fe(III) is d⁵. In strong field, n=1. In weak field, n=5."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "COORD-2023-AR-24",
+      "year": "2023",
+      "question_type": "Assertion-Reason",
+      "marks": 1,
+      "question_text": "Assertion (A): Tetrahedral complexes do not show geometrical isomerism.\nReason (R): All positions in a tetrahedral geometry are equivalent and adjacent to each other.",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (a): Both A and R are true and R is the correct explanation of A.",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "Both true, R is explanation"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Stereoisomerism Conditions",
+        "why_this_question_is_asked": "Conceptual geometry check.",
+        "common_student_mistake": "Thinking they show optical (they can if ligands distinct) but question asks geometrical.",
+        "trap_zone": "N/A"
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "a",
+        "options": {
+          "a": "Both A and R are true and R is the correct explanation of A",
+          "b": "Both A and R are true but R is not the correct explanation of A",
+          "c": "A is true but R is false",
+          "d": "A is false but R is true"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "COORD-2024-VSA-25",
+      "year": "2024",
+      "question_type": "2M",
+      "marks": 2,
+      "question_text": "How many ions are produced from the complex [Co(NH₃)₆]Cl₃ in solution? Give the reaction.",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "[Co(NH₃)₆]Cl₃ → [Co(NH₃)₆]³⁺ (aq) + 3Cl⁻ (aq)\nTotal ions = 1 (Complex) + 3 (Chloride) = 4 ions.",
+        "stepwise_marking_scheme_breakdown": "1 mark for Reaction.\n1 mark for '4 ions'.",
+        "final_answer_boxed": "4 ions"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Ionization of Complexes",
+        "why_this_question_is_asked": "Werner's theory application (Conductivity depends on number of ions).",
+        "common_student_mistake": "Answering 3 (counting only Cl).",
+        "trap_zone": "Count the complex ion as 1."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    }
+  ],
+  "chapter_pattern_analysis": {
+    "most_repeated_concepts": [
+      "IUPAC Naming (one question guaranteed).",
+      "VBT/CFT (Magnetic moment, Hybridization, High/Low spin).",
+      "Isomerism (Linkage, Optical, Geometrical).",
+      "Definitions (Homoleptic, Heteroleptic, Ambidentate, Chelate)."
+    ],
+    "high_probability_2026_focus": [
+      "Drawing Optical Isomers (d/l).",
+      "CFT splitting energy numericals or logic.",
+      "Synergic Bonding in Metal Carbonyls."
+    ],
+    "numerical_weightage_trend": "Low. Only Magnetic Moment (µ).",
+    "case_based_trend": "Focuses on Stability (Chelate effect) or CFT basics (Colour/Spectrochemical series).",
+    "assertion_reason_trend": "Connects Geometry/Hybridization with Magnetic properties."
+  }
+}

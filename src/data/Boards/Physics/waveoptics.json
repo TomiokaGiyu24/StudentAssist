@@ -1,0 +1,314 @@
+{
+  "meta": {
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "class": 12,
+    "board": "CBSE"
+  },
+  "notes": [
+    {
+      "type": "concept",
+      "title": "Wavefront",
+      "points": [
+        "A wavefront is defined as the continuous locus of all particles of a medium which are vibrating in the same phase.",
+        "Spherical Wavefront: Produced by a point source.",
+        "Plane Wavefront: Produced by a source at infinity (small portion of a large sphere).",
+        "Cylindrical Wavefront: Produced by a linear source (like a slit)."
+      ]
+    },
+    {
+      "type": "diagram",
+      "title": "Types of Wavefronts",
+      "image": "/images/Physics/Derivations/Types of wavefronts.png",
+      "caption": "Rays are always perpendicular to the wavefronts."
+    },
+    {
+      "type": "concept",
+      "title": "Huygens' Principle",
+      "points": [
+        "Each point on a wavefront acts as a source of new disturbance, called secondary wavelets.",
+        "These wavelets spread out in all directions with the speed of the wave.",
+        "The new wavefront at any later time is given by the forward envelope (tangential surface) of these secondary wavelets."
+      ]
+    },
+    {
+      "type": "application",
+      "title": "Refraction of a Plane Wave",
+      "assumptions": [
+        "Plane wavefront incident on a plane surface separating two media.",
+        "Medium 1 (speed v1) and Medium 2 (speed v2)."
+      ],
+      "result": {
+        "latex": "\\frac{\\sin i}{\\sin r} = \\frac{v_1}{v_2} = \\frac{n_2}{n_1}",
+        "direction": "Snell's Law of Refraction derived from wave theory."
+      }
+    },
+    {
+      "type": "diagram",
+      "title": "Refraction by Huygens Principle",
+      "image": "/images/Physics/Derivations/Refraction by Huygens Principle.png",
+      "caption": "Geometry of wavefronts showing change in speed causes bending."
+    },
+    {
+      "type": "application",
+      "title": "Reflection of a Plane Wave",
+      "assumptions": [
+        "Plane wavefront incident on a reflecting surface."
+      ],
+      "result": {
+        "latex": "\\angle i = \\angle r",
+        "direction": "Law of Reflection derived from wave theory."
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Coherent Sources",
+      "points": [
+        "Two sources are said to be coherent if they emit light waves of the same frequency and a constant phase difference.",
+        "Interference patterns are observed only with coherent sources.",
+        "Two independent sources (e.g., two bulbs) are incoherent and cannot produce a sustained interference pattern."
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Interference of Light",
+      "points": [
+        "The phenomenon of redistribution of light energy due to the superposition of light waves from two coherent sources.",
+        "Constructive Interference: Waves meet in phase (Maximum intensity).",
+        "Destructive Interference: Waves meet out of phase (Minimum intensity)."
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Young's Double Slit Experiment (YDSE)",
+      "points": [
+        "Demonstrated interference of light.",
+        "Wavefront from a single source S is split into two coherent sources S1 and S2."
+      ]
+    },
+    {
+      "type": "diagram",
+      "title": "YDSE Setup",
+      "image": "/images/Physics/Derivations/YDSE setup.png",
+      "caption": "S1 and S2 act as coherent sources separated by distance d; Screen at distance D."
+    },
+    {
+      "type": "formula",
+      "latex": "I = I_1 + I_2 + 2\\sqrt{I_1 I_2} \\cos\\phi",
+      "label": "Resultant Intensity",
+      "conditions": [
+        "phi is the phase difference between the two waves.",
+        "If I1 = I2 = I0, then I = 4 I0 cos^2(phi/2)."
+      ]
+    },
+    {
+      "type": "formula",
+      "latex": "\\Delta x = \\frac{xd}{D}",
+      "label": "Path Difference in YDSE",
+      "conditions": [
+        "Valid for D >> d.",
+        "x is the distance of point on screen from central maximum."
+      ]
+    },
+    {
+      "type": "derived_result",
+      "statement": "Conditions for Constructive Interference (Bright Fringes)",
+      "latex": "\\Delta x = n\\lambda \\quad (n = 0, \\pm 1, \\pm 2...)",
+      "valid_when": "Phase difference phi = 2n\\pi."
+    },
+    {
+      "type": "derived_result",
+      "statement": "Conditions for Destructive Interference (Dark Fringes)",
+      "latex": "\\Delta x = (n + \\frac{1}{2})\\lambda \\quad (n = 0, \\pm 1, \\pm 2...)",
+      "valid_when": "Phase difference phi = (2n+1)\\pi."
+    },
+    {
+      "type": "formula",
+      "latex": "\\beta = \\frac{\\lambda D}{d}",
+      "label": "Fringe Width",
+      "conditions": [
+        "Distance between two consecutive bright or dark fringes.",
+        "Depends on wavelength, screen distance, and slit separation."
+      ]
+    },
+    {
+      "type": "diagram",
+      "title": "Interference Intensity Distribution",
+      "image": "/images/Physics/Derivations/Interference intensity.png",
+      "caption": "All bright fringes have equal intensity (4I0)."
+    },
+    {
+      "type": "concept",
+      "title": "Diffraction",
+      "points": [
+        "The bending of light around the corners of an obstacle or aperture.",
+        "Observable when the size of the obstacle is comparable to the wavelength of light.",
+        "Single Slit Diffraction: Produces a broad central maximum and weaker secondary maxima."
+      ]
+    },
+    {
+      "type": "diagram",
+      "title": "Single Slit Diffraction",
+      "image": "/images/Physics/Derivations/Single slit diffraction.png",
+      "caption": "Slit width 'a'. Path difference between edges is a*sin(theta)."
+    },
+    {
+      "type": "derived_result",
+      "statement": "Condition for Minima (Diffraction)",
+      "latex": "a \\sin\\theta = n\\lambda \\quad (n = 1, 2, 3...)",
+      "valid_when": "Note: Condition is 'reversed' compared to interference maxima."
+    },
+    {
+      "type": "derived_result",
+      "statement": "Condition for Secondary Maxima (Diffraction)",
+      "latex": "a \\sin\\theta = (n + \\frac{1}{2})\\lambda \\quad (n = 1, 2, 3...)",
+      "valid_when": "Intensity of secondary maxima decreases rapidly."
+    },
+    {
+      "type": "formula",
+      "latex": "\\beta_0 = \\frac{2\\lambda D}{a}",
+      "label": "Width of Central Maximum",
+      "conditions": [
+        "Twice the width of secondary fringes.",
+        "Spreads out if slit width 'a' is decreased."
+      ]
+    },
+    {
+      "type": "diagram",
+      "title": "Diffraction vs Interference Graph",
+      "image": "/images/Physics/Derivations/Diffraction vs Interfernce graph.png",
+      "caption": "Interference: Equal width/intensity. Diffraction: Central max dominates."
+    },
+    {
+      "type": "concept",
+      "title": "Polarisation",
+      "points": [
+        "Property of transverse waves specifying the geometrical orientation of the oscillations.",
+        "Light is a transverse EM wave.",
+        "Unpolarised light: Electric vector oscillates in all directions perpendicular to propagation."
+      ]
+    },
+    {
+      "type": "formula",
+      "latex": "I = I_0 \\cos^2\\theta",
+      "label": "Malus's Law",
+      "conditions": [
+        "I is intensity of polarised light transmitted through an analyser.",
+        "theta is angle between pass axes of polariser and analyser."
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Polarisation by Reflection (Brewster's Law)",
+      "points": [
+        "When unpolarised light is incident at a specific angle (Brewster's angle), the reflected light is completely polarised.",
+        "At this angle, the reflected and refracted rays are perpendicular to each other."
+      ]
+    },
+    {
+      "type": "formula",
+      "latex": "\\tan i_p = n",
+      "label": "Brewster's Law",
+      "conditions": [
+        "ip is the polarising angle (Brewster's angle).",
+        "n is the refractive index of the reflecting medium."
+      ]
+    },
+    {
+      "type": "diagram",
+      "title": "Brewster's Angle",
+      "image": "/images/Physics/Derivations/brewster angle.png",
+      "caption": "Reflected ray (dots) is perpendicular to refracted ray."
+    }
+  ],
+  "formula_sheet": [
+    {
+      "latex": "n_1 \\sin i = n_2 \\sin r",
+      "description": "Snell's Law",
+      "use_case": "Direct Use"
+    },
+    {
+      "latex": "I = 4I_0 \\cos^2(\\phi/2)",
+      "description": "Interference Intensity",
+      "use_case": "Direct Use"
+    },
+    {
+      "latex": "\\beta = \\frac{\\lambda D}{d}",
+      "description": "Fringe Width (YDSE)",
+      "use_case": "Direct Use"
+    },
+    {
+      "latex": "a \\sin\\theta = n\\lambda",
+      "description": "Diffraction Minima",
+      "use_case": "Direct Use"
+    },
+    {
+      "latex": "a \\sin\\theta = (n+1/2)\\lambda",
+      "description": "Diffraction Maxima",
+      "use_case": "Direct Use"
+    },
+    {
+      "latex": "I = I_0 \\cos^2\\theta",
+      "description": "Malus's Law",
+      "use_case": "Direct Use"
+    },
+    {
+      "latex": "\\tan i_p = n",
+      "description": "Brewster's Law",
+      "use_case": "Direct Use"
+    }
+  ],
+  "ncert_golden_lines": [
+    "A wavefront is the locus of points having the same phase of oscillation.",
+    "According to Huygens principle, each point of the wavefront is the source of a secondary disturbance.",
+    "Interference is the phenomenon in which two waves superpose to form a resultant wave of lower, higher or same amplitude.",
+    "For constructive interference, the path difference must be an integral multiple of the wavelength.",
+    "Diffraction is a general characteristic exhibited by all types of waves, be it sound waves, light waves, water waves or matter waves.",
+    "In interference, all bright fringes have the same intensity. In diffraction, the central maximum is the brightest.",
+    "Light waves are transverse in nature; this is proved by the phenomenon of polarisation."
+  ],
+  "diagram_descriptors": [
+    {
+      "diagram_name": "Types of Wavefronts",
+      "used_for": "Types of Wavefronts",
+      "image_path": "/images/Physics/Derivations/Types of wavefronts.png",
+      "detailed_description": "Rays are always perpendicular to the wavefronts."
+    },
+    {
+      "diagram_name": "Refraction by Huygens Principle",
+      "used_for": "Refraction by Huygens Principle",
+      "image_path": "/images/Physics/Derivations/Refraction by Huygens Principle.png",
+      "detailed_description": "Geometry of wavefronts showing change in speed causes bending."
+    },
+    {
+      "diagram_name": "YDSE Setup",
+      "used_for": "YDSE Setup",
+      "image_path": "/images/Physics/Derivations/YDSE setup.png",
+      "detailed_description": "S1 and S2 act as coherent sources separated by distance d; Screen at distance D."
+    },
+    {
+      "diagram_name": "Interference Intensity Distribution",
+      "used_for": "Interference Intensity Distribution",
+      "image_path": "/images/Physics/Derivations/Interference intensity.png",
+      "detailed_description": "All bright fringes have equal intensity (4I0)."
+    },
+    {
+      "diagram_name": "Single Slit Diffraction",
+      "used_for": "Single Slit Diffraction",
+      "image_path": "/images/Physics/Derivations/Single slit diffraction.png",
+      "detailed_description": "Slit width 'a'. Path difference between edges is a*sin(theta)."
+    },
+    {
+      "diagram_name": "Diffraction vs Interference Graph",
+      "used_for": "Diffraction vs Interference Graph",
+      "image_path": "/images/Physics/Derivations/Diffraction vs Interfernce graph.png",
+      "detailed_description": "Interference: Equal width/intensity. Diffraction: Central max dominates."
+    },
+    {
+      "diagram_name": "Brewster's Angle",
+      "used_for": "Brewster's Angle",
+      "image_path": "/images/Physics/Derivations/brewster angle.png",
+      "detailed_description": "Reflected ray (dots) is perpendicular to refracted ray."
+    }
+  ]
+}

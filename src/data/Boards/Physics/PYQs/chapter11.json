@@ -1,0 +1,310 @@
+{
+  "meta": {
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation and Matter",
+    "board": "CBSE",
+    "exam": "Class 12 Board Examination"
+  },
+  "questions": [
+    {
+      "id": "55-4-3-Q2",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "A light of frequency v is incident on a metal surface whose work function is W_0. The kinetic energy of emitted electron is K. If the frequency of the incident light is doubled then the kinetic energy of emitted electron will be:",
+      "options": {
+        "A": "2K",
+        "B": "more than 2K",
+        "C": "between K and 2K",
+        "D": "less than K"
+      },
+      "answer": {
+        "explanation": "According to Einstein's photoelectric equation: K = hv - W_0.\\nLet the new kinetic energy be K'.\\nK' = h(2v) - W_0 = 2(hv) - W_0.\\nSubstitute hv = K + W_0:\\nK' = 2(K + W_0) - W_0 = 2K + 2W_0 - W_0 = 2K + W_0.\\nSince work function W_0 > 0, K' > 2K.",
+        "key_formulae": [
+          "K_{max} = h\\nu - \\Phi_0"
+        ],
+        "diagrams": []
+      },
+      "correct_option": "B",
+      "diagram_required": false,
+      "source": "55/4/3"
+    },
+    {
+      "id": "55-4-3-Q5",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "Photons of energy 3.2 eV are incident on a photosensitive surface. If the stopping potential for the emitted electrons is 1.5 V, the work function for the surface is:",
+      "options": {
+        "A": "1.5 eV",
+        "B": "1.7 eV",
+        "C": "3.2 eV",
+        "D": "4.7 eV"
+      },
+      "answer": {
+        "explanation": "Energy of incident photon E = 3.2 eV.\\nStopping potential V_0 = 1.5 V, so maximum kinetic energy K_max = 1.5 eV.\\nWork function W_0 = E - K_max = 3.2 eV - 1.5 eV = 1.7 eV.",
+        "key_formulae": [
+          "W_0 = E - eV_0"
+        ],
+        "diagrams": []
+      },
+      "correct_option": "B",
+      "diagram_required": false,
+      "source": "55/4/3"
+    },
+    {
+      "id": "55-4-3-Q10",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "A proton and an alpha particle have the same kinetic energy. The ratio of de Broglie wavelengths associated with the proton to that with the alpha particle is:",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "2\\sqrt{2}",
+        "D": "1/2"
+      },
+      "answer": {
+        "explanation": "De Broglie wavelength is given by lambda = h / sqrt(2mK).\\nSince K is same, lambda is proportional to 1/sqrt(m).\\nRatio lambda_p / lambda_alpha = sqrt(m_alpha / m_p).\\nMass of alpha particle m_alpha = 4 * m_p.\\nRatio = sqrt(4) = 2.",
+        "key_formulae": [
+          "\\lambda = \\frac{h}{\\sqrt{2mK}}"
+        ],
+        "diagrams": []
+      },
+      "correct_option": "B",
+      "diagram_required": false,
+      "source": "55/4/3"
+    },
+    {
+      "id": "55-5-3-Q10",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "The variation of the stopping potential (V_0) with the frequency (v) of the incident radiation for four metals A, B, C and D is shown in the figure. For the same frequency of incident radiation producing photo-electrons in all metals, the kinetic energy of photo-electrons will be maximum for metal:",
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D"
+      },
+      "answer": {
+        "explanation": "From the equation K_max = h*v - W, kinetic energy is higher for a metal with a lower work function W. The x-intercept of the V_0 vs v graph represents the threshold frequency v_0, and W = h*v_0. The graph (implied from typical standard questions of this type) shows metal A having the smallest x-intercept (lowest threshold frequency). Therefore, A has the lowest work function and will yield the maximum kinetic energy.",
+        "key_formulae": [
+          "eV_0 = h\\nu - W",
+          "W = h\\nu_0"
+        ],
+        "diagrams": [
+          ""
+        ]
+      },
+      "correct_option": "A",
+      "diagram_required": true,
+      "source": "55/5/3",
+      "diagram_url": "/images/Physics/PYQs/chapter11/55-5-3-Q10.png",
+      "image": "/images/Physics/Derivations/stopping potential vs frequency.png"
+    },
+    {
+      "id": "55-6-1-Q10",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "The work function of a material is 2.21 eV. Which of the following cannot produce photoelectrons from it?",
+      "options": {
+        "A": "Red light",
+        "B": "Blue light",
+        "C": "Violet light",
+        "D": "Green light"
+      },
+      "answer": {
+        "explanation": "For photoemission, the energy of the incident photon must be greater than the work function (2.21 eV). \\nEnergy E = hc/lambda. Red light has the longest wavelength (approx 620-750 nm) and thus the lowest energy among the options. \\nFor red light (approx 650 nm), E ~ 1.9 eV, which is less than 2.21 eV. Thus, red light cannot produce photoelectrons.",
+        "key_formulae": [
+          "E = \\frac{hc}{\\lambda} > \\Phi_0"
+        ],
+        "diagrams": []
+      },
+      "correct_option": "A",
+      "diagram_required": false,
+      "source": "55/6/1"
+    },
+    {
+      "id": "55-6-1-Q11",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "The momentum (in kg m/s) of a photon of frequency 6.0 x 10^14 Hz is:",
+      "options": {
+        "A": "6.63 x 10^-25",
+        "B": "1.326 x 10^-27",
+        "C": "2.652 x 10^-26",
+        "D": "3.978 x 10^-24"
+      },
+      "answer": {
+        "explanation": "Momentum p = E/c = hv/c.\\np = (6.63 x 10^-34 * 6.0 x 10^14) / (3 x 10^8)\\np = (39.78 x 10^-20) / (3 x 10^8)\\np = 13.26 x 10^-28 = 1.326 x 10^-27 kg m/s.",
+        "key_formulae": [
+          "p = \\frac{h\\nu}{c}"
+        ],
+        "diagrams": []
+      },
+      "correct_option": "B",
+      "diagram_required": false,
+      "source": "55/6/1"
+    },
+    {
+      "id": "55-6-3-Q10",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "The wavelength of a photon is equal to the wavelength associated with an electron. Both will have the same value of:",
+      "options": {
+        "A": "energy",
+        "B": "angular momentum",
+        "C": "velocity",
+        "D": "linear momentum"
+      },
+      "answer": {
+        "explanation": "De Broglie wavelength is related to momentum by lambda = h/p. If the wavelength is the same for both the photon and the electron, their linear momentum (p) must be the same.",
+        "key_formulae": [
+          "\\lambda = \\frac{h}{p}"
+        ],
+        "diagrams": []
+      },
+      "correct_option": "D",
+      "diagram_required": false,
+      "source": "55/6/3"
+    },
+    {
+      "id": "55-4-1-Q6",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "The quantum nature of light explains the observations on photoelectric effect as:",
+      "options": {
+        "A": "there is a minimum frequency of incident radiation below which no electrons are emitted.",
+        "B": "the maximum kinetic energy of photoelectrons depends only on the frequency of incident radiation.",
+        "C": "when the metal surface is illuminated, electrons are ejected from the surface after sometime.",
+        "D": "the photoelectric current is independent of the intensity of incident radiation."
+      },
+      "answer": {
+        "explanation": "The quantum nature of light (photon picture) explains the existence of a threshold frequency (minimum frequency) below which no emission occurs, regardless of intensity. This directly contradicts the wave theory which suggests energy accumulates over time.",
+        "key_formulae": [],
+        "diagrams": []
+      },
+      "correct_option": "A",
+      "diagram_required": false,
+      "source": "55/4/1"
+    },
+    {
+      "id": "55-4-3-Q19",
+      "year": 2023,
+      "marks": 2,
+      "type": "numerical",
+      "question": "The figure shows v_m^2 versus 1/lambda graph for photoelectrons emitted from a surface where v_m is the maximum speed of electrons and lambda is the wavelength of incident radiation. Using this graph and Einstein's photoelectric equation, obtain the expression for Planck's constant and work function of the surface.",
+      "options": {},
+      "answer": {
+        "explanation": "GIVEN:\\nGraph of v_m^2 vs 1/lambda.\n\\nDERIVATION:\n1. Einstein's Photoelectric Equation: K_max = (hc/lambda) - W.\n2. Since K_max = (1/2)m v_m^2:\n   (1/2)m v_m^2 = hc(1/lambda) - W.\n   v_m^2 = (2hc/m)(1/lambda) - (2W/m).\n3. This is a straight line equation y = mx + c, where y = v_m^2 and x = 1/lambda.\n4. Slope of the graph (S) = 2hc/m.\n   Planck's constant h = (S * m) / (2c).\n5. Intercept on y-axis (C) = -2W/m.\n   Work function W = - (C * m) / 2 = (magnitude of intercept * m) / 2.\n\\nFINAL RESULT:\\nh = (Slope * m) / (2c)\\nW = (Y-intercept * m) / 2",
+        "key_formulae": [
+          "v_{max}^2 = \\frac{2hc}{m}\\left(\\frac{1}{\\lambda}\\right) - \\frac{2W}{m}"
+        ],
+        "diagrams": [
+          ""
+        ]
+      },
+      "diagram_required": true,
+      "source": "55/4/3",
+      "diagram_url": "/images/Physics/PYQs/chapter11/55-4-3-Q19.png",
+      "image": "/images/Physics/Derivations/Graph of E vs r for Spherical Shell.png"
+    },
+    {
+      "id": "55-5-2-Q5",
+      "year": 2023,
+      "marks": 3,
+      "type": "numerical",
+      "question": "An alpha particle is accelerated through a potential difference of 100 V. Calculate: (i) alpha-particle acquired speed (ii) associated de-Broglie wavelength (Take mass of alpha particle = 6.4 x 10^-27 kg).",
+      "options": {},
+      "answer": {
+        "explanation": "GIVEN:\\nPotential V = 100 V.\\nCharge of alpha particle q = 2e = 3.2 x 10^-19 C.\\nMass m = 6.4 x 10^-27 kg.\n\\nSTEPS:\n(i) Speed (v):\n   Kinetic Energy K = qV = (3.2 x 10^-19) * 100 = 3.2 x 10^-17 J.\n   K = 1/2 m v^2 => v = sqrt(2K/m).\n   v = sqrt( (2 * 3.2 x 10^-17) / (6.4 x 10^-27) ) = sqrt( (6.4 x 10^-17) / (6.4 x 10^-27) ).\n   v = sqrt(10^10) = 10^5 m/s.\n\n(ii) De Broglie Wavelength (lambda):\n   lambda = h / mv.\n   lambda = (6.63 x 10^-34) / (6.4 x 10^-27 * 10^5).\n   lambda = 6.63 / 6.4 x 10^-12 m.\n   lambda approx 1.036 x 10^-12 m.\n\\nFINAL RESULT:\\nSpeed = 10^5 m/s.\\nWavelength = 1.04 x 10^-12 m.",
+        "key_formulae": [
+          "K = qV",
+          "v = \\sqrt{\\frac{2qV}{m}}",
+          "\\lambda = \\frac{h}{mv}"
+        ],
+        "diagrams": []
+      },
+      "diagram_required": false,
+      "source": "55/5/2"
+    },
+    {
+      "id": "55-5-3-Q3b",
+      "year": 2023,
+      "marks": 2,
+      "type": "theory",
+      "question": "Why it is the frequency and not the intensity of light source that determines whether emission of photoelectrons will occur or not? Explain.",
+      "options": {},
+      "answer": {
+        "explanation": "According to the photon picture of light, light consists of discrete energy packets called photons, with energy E = hv.\n1. Photoelectric emission is a one-to-one interaction between a photon and an electron.\n2. An electron is emitted only if the energy of a single incident photon is greater than the work function (W) of the metal.\n3. Since photon energy depends on frequency (v) and not on intensity (which corresponds to the number of photons), only frequency determines if emission happens. Increasing intensity only increases the number of photons, not their individual energy.",
+        "key_formulae": [
+          "E = h\\nu"
+        ],
+        "diagrams": []
+      },
+      "diagram_required": false,
+      "source": "55/5/3"
+    },
+    {
+      "id": "55-6-1-Q19",
+      "year": 2023,
+      "marks": 2,
+      "type": "numerical",
+      "question": "A laser beam of frequency 3.0 x 10^14 Hz produces average power of 9 mW. Find (i) the energy of photon of the beam, and (ii) the number of photons emitted per second on an average by the source.",
+      "options": {},
+      "answer": {
+        "explanation": "GIVEN:\\nFrequency v = 3.0 x 10^14 Hz.\\nPower P = 9 mW = 9 x 10^-3 W.\n\\nSTEPS:\n(i) Energy of one photon (E):\n   E = hv = 6.63 x 10^-34 * 3.0 x 10^14.\n   E = 19.89 x 10^-20 J = 1.989 x 10^-19 J.\n\n(ii) Number of photons per second (N):\n   Total Power P = N * E.\n   N = P / E = (9 x 10^-3) / (1.989 x 10^-19).\n   N approx 4.52 x 10^16 photons/s.\n\\nFINAL RESULT:\\nEnergy = 1.99 x 10^-19 J.\\nNumber of photons = 4.52 x 10^16 per second.",
+        "key_formulae": [
+          "E = h\\nu",
+          "P = NE"
+        ],
+        "diagrams": []
+      },
+      "diagram_required": false,
+      "source": "55/6/1"
+    },
+    {
+      "id": "55-4-1-Q27",
+      "year": 2023,
+      "marks": 3,
+      "type": "theory",
+      "question": "Explain the following observations using Einstein's photoelectric equation: (a) Photoelectric emission does not occur from a surface when the frequency of the light incident on it is less than a certain minimum value. (b) It is the frequency, and not the intensity of the incident light which affects the maximum kinetic energy of the photoelectrons. (c) The cut-off voltage (V0) versus frequency (v) of the incident light curve is a straight line with a slope.",
+      "options": {},
+      "answer": {
+        "explanation": "Einstein's equation: K_max = hv - W.\n(a) Threshold Frequency: For emission, K_max must be non-negative (>= 0). Thus, hv >= W or v >= W/h. If v < W/h (threshold frequency v_0), no emission occurs.\n(b) Kinetic Energy: From the equation, K_max is linearly dependent on frequency v. Intensity relates to the number of photons (n), affecting photocurrent, but not the energy (hv) of individual photons.\n(c) Slope: The equation can be written as eV_0 = hv - W => V_0 = (h/e)v - (W/e). This is a straight line equation (y = mx + c) with a constant slope h/e, which is independent of the material.",
+        "key_formulae": [
+          "K_{max} = h\\nu - W",
+          "V_0 = \\frac{h}{e}\\nu - \\frac{W}{e}"
+        ],
+        "diagrams": []
+      },
+      "diagram_required": false,
+      "source": "55/4/1"
+    },
+    {
+      "id": "55-5-2-Q22",
+      "year": 2023,
+      "marks": 3,
+      "type": "numerical",
+      "question": "A photosensitive surface of work function 2.1 eV is irradiated by radiation of wavelength 150 nm. Calculate (i) the threshold wavelength, (ii) energy (in eV) of an incident photon, and (iii) maximum kinetic energy of emitted photoelectron.",
+      "options": {},
+      "answer": {
+        "explanation": "GIVEN:\\nWork function W = 2.1 eV.\\nIncident wavelength lambda = 150 nm.\n\\nSTEPS:\n(i) Threshold Wavelength (lambda_0):\n   W = hc / lambda_0.\n   lambda_0 = hc / W = 1240 eV nm / 2.1 eV.\n   lambda_0 = 590.47 nm.\n\n(ii) Energy of Incident Photon (E):\n   E = hc / lambda = 1240 eV nm / 150 nm.\n   E = 8.27 eV.\n\n(iii) Maximum Kinetic Energy (K_max):\n   K_max = E - W.\n   K_max = 8.27 eV - 2.1 eV = 6.17 eV.\n\\nFINAL RESULT:\\nThreshold wavelength = 590.5 nm.\\nPhoton energy = 8.27 eV.\\nMax Kinetic Energy = 6.17 eV.",
+        "key_formulae": [
+          "\\lambda_0 = \\frac{hc}{W}",
+          "E = \\frac{hc}{\\lambda}",
+          "K_{max} = E - W"
+        ],
+        "diagrams": []
+      },
+      "diagram_required": false,
+      "source": "55/5/2"
+    }
+  ],
+  "diagram_required": true
+}

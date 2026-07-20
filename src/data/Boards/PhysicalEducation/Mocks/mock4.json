@@ -1,0 +1,602 @@
+{
+    "meta": {
+        "subject": "Physical Education",
+        "class": 12,
+        "board": "CBSE",
+        "mock_number": 4,
+        "total_marks": 70
+    },
+    "sections": {
+        "A": [
+            {
+                "id": 1,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P1",
+                "priority_reason": "Specific committee roles (Marketing/Announcement).",
+                "question": "Which committee is responsible for purchasing trophies, medals, and certificates for the winners?",
+                "options": [
+                    "Finance Committee",
+                    "Purchase Committee (Prize Distribution)",
+                    "Technical Committee",
+                    "Publicity Committee"
+                ],
+                "correct_option": "Purchase Committee (Prize Distribution)",
+                "answer": {
+                    "final_answer": "Purchase Committee (Prize Distribution)"
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 2,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P2",
+                "priority_reason": "Non-nutritive components (Roughage/Fiber).",
+                "question": "Which of the following is a non-nutritive component of diet that helps in bowel movement?",
+                "options": [
+                    "Proteins",
+                    "Roughage",
+                    "Carbohydrates",
+                    "Fats"
+                ],
+                "correct_option": "Roughage",
+                "answer": {
+                    "final_answer": "Roughage"
+                },
+                "source_basis": "NCERT-derived"
+            },
+            {
+                "id": 3,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P1",
+                "priority_reason": "Asana classification (Cultural/Relaxative/Meditative).",
+                "question": "Shavasana is an example of which type of Asana?",
+                "options": [
+                    "Meditative Asana",
+                    "Relaxative Asana",
+                    "Cultural Asana",
+                    "Corrective Asana"
+                ],
+                "correct_option": "Relaxative Asana",
+                "answer": {
+                    "final_answer": "Relaxative Asana"
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 4,
+                "diagram_url": "/images/PhysicalEducation/round shoulders.png",
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P1",
+                "priority_reason": "Visual ID of deformities (Round Shoulders).",
+                "question": "Identify the postural deformity where the shoulders become rounded and the head leans forward.",
+                "options": [
+                    "Scoliosis",
+                    "Lordosis",
+                    "Round Shoulders",
+                    "Knock Knees"
+                ],
+                "diagram_required": true,
+                "diagram_description": "",
+                "correct_option": "Round Shoulders",
+                "answer": {
+                    "final_answer": "Round Shoulders"
+                },
+                "source_basis": "NCERT-derived"
+            },
+            {
+                "id": 5,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P2",
+                "priority_reason": "Sports Medicine: Fracture types (Comminuted).",
+                "question": "A fracture in which the bone gets crushed into small pieces is known as:",
+                "options": [
+                    "Greenstick Fracture",
+                    "Transverse Fracture",
+                    "Comminuted Fracture",
+                    "Impacted Fracture"
+                ],
+                "correct_option": "Comminuted Fracture",
+                "answer": {
+                    "final_answer": "Comminuted Fracture"
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 6,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P1",
+                "priority_reason": "SAI Test Items (Sit and Reach).",
+                "question": "In the SAI Khelo India Fitness Test (9-18+ years), the 'Sit and Reach Test' is used to measure:",
+                "options": [
+                    "Abdominal Strength",
+                    "Flexibility of Lower Back and Hamstrings",
+                    "Shoulder Flexibility",
+                    "Leg Explosive Power"
+                ],
+                "correct_option": "Flexibility of Lower Back and Hamstrings",
+                "answer": {
+                    "final_answer": "Flexibility of Lower Back and Hamstrings"
+                },
+                "source_basis": "SQP-derived"
+            },
+            {
+                "id": 7,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P3",
+                "priority_reason": "Biomechanics: 1st Class Lever.",
+                "question": "Which of the following examples represents a First Class Lever in the human body?",
+                "options": [
+                    "Standing on tiptoes",
+                    "Flexion of the forearm (Bicep Curl)",
+                    "Nodding of the head",
+                    "Kicking a football"
+                ],
+                "correct_option": "Nodding of the head",
+                "answer": {
+                    "final_answer": "Nodding of the head"
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 8,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P2",
+                "priority_reason": "Physiology: Tidal Volume definition.",
+                "question": "The volume of air inspired or expired during a normal breath is called:",
+                "options": [
+                    "Vital Capacity",
+                    "Tidal Volume",
+                    "Residual Volume",
+                    "Total Lung Capacity"
+                ],
+                "correct_option": "Tidal Volume",
+                "answer": {
+                    "final_answer": "Tidal Volume"
+                },
+                "source_basis": "NCERT-derived"
+            },
+            {
+                "id": 9,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P2",
+                "priority_reason": "Match the following: Sheldon's Body Types.",
+                "question": "Match the Body Types with their characteristics:\n(i) Endomorph    (a) Muscular and athletic\n(ii) Mesomorph   (b) Lean and tall\n(iii) Ectomorph  (c) Round and soft",
+                "options": [
+                    "(i)-c, (ii)-a, (iii)-b",
+                    "(i)-a, (ii)-b, (iii)-c",
+                    "(i)-b, (ii)-c, (iii)-a",
+                    "(i)-c, (ii)-b, (iii)-a"
+                ],
+                "correct_option": "(i)-c, (ii)-a, (iii)-b",
+                "answer": {
+                    "final_answer": "(i)-c, (ii)-a, (iii)-b"
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 10,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P1",
+                "priority_reason": "Assertion-Reason on Goal Setting.",
+                "question": "Given below are two statements, labelled Assertion (A) and Reason (R).\nAssertion (A): Goal setting is an effective motivational technique in sports.\nReason (R): It helps athletes focus their attention and mobilize their efforts towards a specific target.",
+                "options": [
+                    "Both (A) and (R) are true and (R) is the correct explanation of (A).",
+                    "Both (A) and (R) are true but (R) is not the correct explanation of (A).",
+                    "(A) is true but (R) is false.",
+                    "(A) is false but (R) is true."
+                ],
+                "correct_option": "Both (A) and (R) are true and (R) is the correct explanation of (A).",
+                "answer": {
+                    "final_answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 11,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P2",
+                "priority_reason": "CWSN: ASD definition.",
+                "question": "Autism Spectrum Disorder (ASD) is primarily characterized by challenges in:",
+                "options": [
+                    "Physical strength",
+                    "Social interaction and communication",
+                    "Visual acuity",
+                    "Auditory processing"
+                ],
+                "correct_option": "Social interaction and communication",
+                "answer": {
+                    "final_answer": "Social interaction and communication"
+                },
+                "source_basis": "NCERT-derived"
+            },
+            {
+                "id": 12,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P1",
+                "priority_reason": "Fixture: Bye calculation logic.",
+                "question": "If there are 13 teams in a knockout tournament, how many byes will be given?",
+                "options": [
+                    "3",
+                    "13",
+                    "5",
+                    "2"
+                ],
+                "correct_option": "3",
+                "answer": {
+                    "final_answer": "3"
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 13,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P3",
+                "priority_reason": "Biomechanics: Friction coefficient.",
+                "question": "The force of friction depends on:",
+                "options": [
+                    "Nature of the surfaces in contact",
+                    "Area of contact",
+                    "Speed of the object",
+                    "Color of the surface"
+                ],
+                "correct_option": "Nature of the surfaces in contact",
+                "answer": {
+                    "final_answer": "Nature of the surfaces in contact"
+                },
+                "source_basis": "NCERT-derived"
+            },
+            {
+                "id": 14,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P2",
+                "priority_reason": "Psychology: Self-Talk.",
+                "question": "What is 'Self-Talk' in sports psychology?",
+                "options": [
+                    "Talking to the coach",
+                    "Internal dialogue with oneself",
+                    "Talking to opponents",
+                    "Interviews with media"
+                ],
+                "correct_option": "Internal dialogue with oneself",
+                "answer": {
+                    "final_answer": "Internal dialogue with oneself"
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 15,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P1",
+                "priority_reason": "Women in Sports: Osteoporosis.",
+                "question": "Which condition in the Female Athlete Triad involves weakening of bones?",
+                "options": [
+                    "Amenorrhea",
+                    "Osteoporosis",
+                    "Anorexia",
+                    "Bulimia"
+                ],
+                "correct_option": "Osteoporosis",
+                "answer": {
+                    "final_answer": "Osteoporosis"
+                },
+                "source_basis": "PYQ-derived"
+            },
+            {
+                "id": 16,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P2",
+                "priority_reason": "Coordinative Abilities: Reaction Time.",
+                "question": "The ability to react effectively and quickly to a signal is called:",
+                "options": [
+                    "Coupling Ability",
+                    "Reaction Ability",
+                    "Rhythm Ability",
+                    "Adaptation Ability"
+                ],
+                "correct_option": "Reaction Ability",
+                "answer": {
+                    "final_answer": "Reaction Ability"
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 17,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P2",
+                "priority_reason": "Soft Tissue Injuries: Contusion.",
+                "question": "A soft tissue injury caused by a direct blow or impact, resulting in bleeding under the skin (bruise) without breaking the skin, is:",
+                "options": [
+                    "Abrasion",
+                    "Laceration",
+                    "Contusion",
+                    "Incision"
+                ],
+                "correct_option": "Contusion",
+                "answer": {
+                    "final_answer": "Contusion"
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 18,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P3",
+                "priority_reason": "Newton's Laws: Swimming.",
+                "question": "A high jumper pushes the ground to lift his body. This force is:",
+                "options": [
+                    "Frictional Force",
+                    "Centrifugal Force",
+                    "Ground Reaction Force",
+                    "Gravitational Force"
+                ],
+                "correct_option": "Ground Reaction Force",
+                "answer": {
+                    "final_answer": "Ground Reaction Force"
+                },
+                "source_basis": "NCERT-derived"
+            }
+        ],
+        "B": [
+            {
+                "id": 19,
+                "type": "VSLA",
+                "marks": 2,
+                "priority": "P1",
+                "priority_reason": "Objectives of Extramurals.",
+                "question": "State any two objectives of Extramural tournaments.",
+                "answer": {
+                    "final_answer": "1.  **To provide experience:** It gives players exposure to higher levels of competition and new strategies.\n2.  **To improve standard of sports:** It helps in evaluating the performance of the team against other institutions."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 20,
+                "type": "VSLA",
+                "marks": 2,
+                "priority": "P2",
+                "priority_reason": "Protein functions.",
+                "question": "Why are Proteins called 'Body Building Foods'?",
+                "answer": {
+                    "final_answer": "Proteins are called body-building foods because they are the primary structural components of cells and tissues. They are essential for the **growth** of new tissues and the **repair** of worn-out tissues (muscles, organs, skin)."
+                },
+                "source_basis": "NCERT-derived"
+            },
+            {
+                "id": 21,
+                "type": "VSLA",
+                "marks": 2,
+                "priority": "P2",
+                "priority_reason": "Biomechanics: Air Resistance.",
+                "question": "What is 'Air Resistance' in projectile motion? How does it affect the projectile?",
+                "answer": {
+                    "final_answer": "**Air Resistance:** It is the frictional force exerted by air on a moving object.\n**Effect:** It opposes the motion of the projectile, thereby reducing its horizontal range and vertical height."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 22,
+                "type": "VSLA",
+                "marks": 2,
+                "priority": "P1",
+                "priority_reason": "Physiology: Oxygen Debt.",
+                "question": "Define 'Oxygen Debt'.",
+                "answer": {
+                    "final_answer": "**Oxygen Debt:** It is the amount of extra oxygen required by the body during the recovery period after intense exercise to remove the accumulated lactic acid and replenish energy stores (ATP/CP)."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 23,
+                "type": "VSLA",
+                "marks": 2,
+                "priority": "P2",
+                "priority_reason": "CWSN: Strategies for inclusion.",
+                "question": "List any two strategies to make physical activities accessible for CWSN (Children With Special Needs).",
+                "answer": {
+                    "final_answer": "1.  **Modified Equipment:** Using lighter balls, larger bats, or auditory balls for visually impaired.\n2.  **Simplified Rules:** Reducing the size of the playfield or allowing extra chances/time."
+                },
+                "source_basis": "NCERT-derived"
+            },
+            {
+                "id": 24,
+                "type": "VSLA",
+                "marks": 2,
+                "priority": "P3",
+                "priority_reason": "Training: Isometric definition.",
+                "question": "Give two examples of Isometric exercises.",
+                "answer": {
+                    "final_answer": "1.  **Plank:** Holding the body in a straight line supported by forearms and toes.\n2.  **Wall Sit:** Leaning against a wall with knees bent at 90 degrees and holding the position."
+                },
+                "source_basis": "Reference Notes"
+            }
+        ],
+        "C": [
+            {
+                "id": 25,
+                "type": "SLA",
+                "marks": 3,
+                "priority": "P1",
+                "priority_reason": "Management: Post-event responsibilities.",
+                "question": "Elucidate any three responsibilities of the organizing committee **after** the sports event.",
+                "answer": {
+                    "final_answer": "1.  **Prize Distribution:** Handing over trophies, medals, and certificates to the winners and participants.\n2.  **Financial Report:** Settling all accounts, paying vendors, and preparing a final report of income and expenditure.\n3.  **Media Report:** Sending a detailed report of the event results to the media for publication."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 26,
+                "type": "SLA",
+                "marks": 3,
+                "priority": "P2",
+                "priority_reason": "Nutrition: Water importance.",
+                "question": "Write a short note on the importance of 'Water' in a diet.",
+                "answer": {
+                    "final_answer": "Water is an essential non-nutritive component.\n1.  **Temperature Regulation:** It regulates body temperature through sweating.\n2.  **Transport:** It helps in the transportation of nutrients and oxygen to cells via blood.\n3.  **Waste Removal:** It aids in the excretion of waste products through urine and sweat."
+                },
+                "source_basis": "NCERT-derived"
+            },
+            {
+                "id": 27,
+                "type": "SLA",
+                "marks": 3,
+                "priority": "P1",
+                "priority_reason": "Sheldon's Somatotypes.",
+                "question": "Describe the physical characteristics of 'Mesomorph' and 'Ectomorph' body types.",
+                "answer": {
+                    "final_answer": "* **Mesomorph:** Athletic body, broad shoulders, narrow waist, muscular limbs, and minimum body fat. They excel in strength and speed sports.\n* **Ectomorph:** Slender body, thin muscles, narrow shoulders and hips, flat chest, and very less body fat. They excel in endurance sports like long-distance running."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 28,
+                "type": "SLA",
+                "marks": 3,
+                "priority": "P2",
+                "priority_reason": "Motivation techniques.",
+                "question": "Explain 'Goal Setting' and 'Spectators' as techniques of motivation.",
+                "answer": {
+                    "final_answer": "* **Goal Setting:** Setting clear, achievable, and challenging goals (short-term and long-term) keeps the athlete focused and driven to work hard.\n* **Spectators:** The presence of a cheering crowd acts as a strong external motivator (social reinforcement), boosting the athlete's arousal level and performance."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 29,
+                "type": "SLA",
+                "marks": 3,
+                "priority": "P1",
+                "priority_reason": "First Aid: RICE procedure.",
+                "question": "Explain the 'R.I.C.E.' procedure for treating soft tissue injuries.",
+                "answer": {
+                    "final_answer": "* **R - Rest:** Stop activity immediately to prevent further damage.\n* **I - Ice:** Apply ice packs for 10-15 minutes to reduce swelling and pain (vasoconstriction).\n* **C - Compression:** Wrap the area with a crepe bandage to limit swelling.\n* **E - Elevation:** Raise the injured part above heart level to reduce blood flow to the area and minimize swelling."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 30,
+                "type": "SLA",
+                "marks": 3,
+                "priority": "P1",
+                "priority_reason": "Newton's Laws application.",
+                "question": "How is Newton's Third Law of Motion applied in 'Walking' and 'Shooting'?",
+                "answer": {
+                    "final_answer": "* **Walking:** We push the ground backward with our foot (Action), and the ground pushes us forward with an equal force (Reaction).\n* **Shooting (Pistol):** When the bullet is fired forward (Action), the gun recoils backward with an equal force (Reaction)."
+                },
+                "source_basis": "NCERT-derived"
+            }
+        ],
+        "D": [
+            {
+                "id": 31,
+                "diagram_url": "/images/PhysicalEducation/harvard step test.png",
+                "type": "Case Study",
+                "marks": 4,
+                "priority": "P1",
+                "priority_reason": "Harvard Step Test Case Study.",
+                "question": "A coach conducts the Harvard Step Test to measure the cardiovascular fitness of his players. The bench height is 20 inches. The test duration is 5 minutes.\n\n(i) What is the cadence (steps per minute) for this test?\n(ii) Which formula is used to calculate the Fitness Index (Short Form)?\n(iii) If a player stops after 3 minutes due to exhaustion, is his score valid?\n(iv) This test primarily measures which physical component?",
+                "diagram_required": true,
+                "diagram_description": "",
+                "answer": {
+                    "final_answer": "(i) 30 steps per minute.\n(ii) $Fitness Index = \\frac{100 \\times \\text{Test Duration in seconds}}{5.5 \\times \\text{Pulse count between 1-1.5 min}}$.\n(iii) Yes, the duration will be taken as 180 seconds for calculation.\n(iv) Cardiovascular Endurance (Aerobic Fitness)."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 32,
+                "diagram_url": "/images/PhysicalEducation/knockout fixture.png",
+                "type": "Case Study",
+                "marks": 4,
+                "priority": "P2",
+                "priority_reason": "Knockout Fixture interpretation.",
+                "question": "Look at the given Knockout fixture for 11 teams.\n\n(i) How many teams are in the Upper Half?\n(ii) How many byes are given in total?\n(iii) Which team has been given the 1st Bye?\n(iv) How many matches are played in the 1st Round?",
+                "diagram_required": true,
+                "diagram_description": "",
+                "answer": {
+                    "final_answer": "(i) $\\frac{N+1}{2} = 6$ teams.\n(ii) $16 - 11 = 5$ byes.\n(iii) Last team of Lower Half (Team 11).\n(iv) Total teams 11. 5 Byes. Teams playing Round 1 = $11 - 5 = 6$ teams. So, 3 matches."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 33,
+                "type": "Case Study",
+                "marks": 4,
+                "priority": "P1",
+                "priority_reason": "Sports Medicine (Fracture) Case Study.",
+                "question": "During a football match, a player falls and feels severe pain in his lower leg. The shin bone (Tibia) is broken, but the skin is intact.\n\n(i) Identify the type of injury (Soft/Hard tissue).\n(ii) Based on the skin condition, is it a Simple or Compound fracture?\n(iii) If the bone had broken into multiple pieces, what would it be called?\n(iv) What should be the immediate first aid?",
+                "diagram_required": false,
+                "diagram_description": null,
+                "answer": {
+                    "final_answer": "(i) Hard Tissue Injury (Bone Injury).\n(ii) Simple Fracture (Closed Fracture).\n(iii) Comminuted Fracture.\n(iv) Immobilize the leg using a splint/scale and do not move the limb."
+                },
+                "source_basis": "Reference Notes"
+            }
+        ],
+        "E": [
+            {
+                "id": 34,
+                "type": "Long Answer",
+                "marks": 5,
+                "priority": "P1",
+                "priority_reason": "Fixture with Seeding is a complex 5-marker.",
+                "question": "Draw a Knockout fixture for 13 teams where 4 teams are 'Seeded'. Explain the concept of seeding.",
+                "answer": {
+                    "final_answer": "**Seeding:** Procedure to place strong teams in the fixture so they don't meet in early rounds. Seeded teams are placed directly in quarters or specific spots.\n\n**Calculation:**\n* **N:** 13\n* **Upper Half:** 7, **Lower Half:** 6\n* **Byes:** $16-13=3$ Byes.\n* **Seeding placement:**\n    * Seed 1: Bottom of Lower Half (Team 13)\n    * Seed 2: Top of Upper Half (Team 1)\n    * Seed 3: Top of Lower Half (Team 8)\n    * Seed 4: Bottom of Upper Half (Team 7)\n* **Byes Distribution:** Bye 1 to Seed 1, Bye 2 to Seed 2, Bye 3 to Seed 3 (Since seeded teams generally get byes or are placed where byes fall).\n\n**Fixture:** Draw rounds showing seeded teams moving to Round 2 directly."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 35,
+                "type": "Long Answer",
+                "marks": 5,
+                "priority": "P1",
+                "priority_reason": "Yoga for Asthma (Procedure/Benefits).",
+                "question": "What is Asthma? Explain the procedure and benefits of 'Gomukhasana' and 'Matsyasana' for its management.",
+                "answer": {
+                    "final_answer": "**Asthma:** A chronic respiratory condition causing difficulty in breathing due to inflammation of airways.\n\n**1. Gomukhasana (Cow Face Pose):**\n* **Procedure:** Sit cross-legged. Stack right knee over left. Raise right arm, bend elbow behind back. Reach left arm from below and clasp hands. Keep back straight.\n* **Benefits:** Expands chest capacity, improves lung function, relieves stress.\n\n**2. Matsyasana (Fish Pose):**\n* **Procedure:** Lie on back (or in Padmasana). Arch the back lifting chest, support on crown of head and elbows. Hold toes.\n* **Benefits:** Deeply stretches the chest and neck, encourages deep breathing, helps in respiratory disorders."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 36,
+                "type": "Long Answer",
+                "marks": 5,
+                "priority": "P2",
+                "priority_reason": "Equilibrium (Types & Principles).",
+                "question": "Define Equilibrium. Explain the types of equilibrium and the principles to increase stability in sports.",
+                "answer": {
+                    "final_answer": "**Equilibrium:** A state of balance where resultant forces are zero.\n\n**Types:**\n1.  **Stable:** Body returns to original position after disturbance (Low CG, Wide base).\n2.  **Unstable:** Body does not return, falls further (High CG, Narrow base).\n3.  **Neutral:** CG remains at same height (Ball rolling).\n\n**Principles to Increase Stability:**\n1.  **Lowering Center of Gravity:** Bending knees (e.g., Defensive stance).\n2.  **Broadening Base of Support:** Widen feet stance.\n3.  **Increasing Mass:** Heavier objects are more stable.\n4.  **Position of CG:** Keeping CG line within the base of support."
+                },
+                "source_basis": "NCERT-derived"
+            },
+            {
+                "id": 37,
+                "type": "Long Answer",
+                "marks": 5,
+                "priority": "P1",
+                "priority_reason": "Coordinative Abilities (Types) - High technical value.",
+                "question": "What are Coordinative Abilities? Explain any four types of coordinative abilities in sports.",
+                "answer": {
+                    "final_answer": "**Coordinative Abilities:** Abilities enabling precise and smooth movement control, dependent on the CNS.\n\n**Types:**\n1.  **Orientation Ability:** Ability to determine body position in space and time relative to the field/opponent (e.g., Footballer positioning).\n2.  **Coupling Ability:** Ability to coordinate body part movements with total body movement (e.g., Gymnastics, Boxing).\n3.  **Reaction Ability:** Ability to respond quickly to a signal (e.g., Sprint start).\n4.  **Balance Ability:** Ability to maintain equilibrium during static or dynamic movements (e.g., Balancing on beam).\n5.  **Rhythm Ability:** Ability to perceive and reproduce rhythm in movement (e.g., Skating, Gymnastics)."
+                },
+                "source_basis": "Reference Notes"
+            }
+        ]
+    }
+}

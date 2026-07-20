@@ -1,0 +1,315 @@
+{
+  "meta": {
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "board": "CBSE",
+    "exam": "Class 12 Board Examination"
+  },
+  "questions": [
+    {
+      "id": "55-4-1-Q8",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "The magnification produced by a spherical mirror is +2.0. The mirror used and the nature of the image formed will be:",
+      "options": {
+        "A": "Convex and virtual",
+        "B": "Concave and real",
+        "C": "Concave and virtual",
+        "D": "Convex and real"
+      },
+      "answer": {
+        "explanation": "Magnification m = +2.0. \n1. The positive sign indicates the image is erect and virtual.\n2. The magnitude |m| > 1 indicates the image is magnified.\n3. A convex mirror always produces a diminished virtual image (|m| < 1). A concave mirror produces a magnified virtual image when the object is placed between the pole and the focus.\\nTherefore, the mirror is concave and the image is virtual.",
+        "key_formulae": [],
+        "diagrams": []
+      },
+      "correct_option": "C",
+      "diagram_required": false,
+      "source": "55/4/1"
+    },
+    {
+      "id": "55-5-2-Q12",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "The focal lengths of the objective and the eyepiece of a compound microscope are 1 cm and 2 cm respectively. If the tube length of the microscope is 10 cm, the magnification obtained by the microscope for most suitable viewing by relaxed eye is:",
+      "options": {
+        "A": "250",
+        "B": "200",
+        "C": "150",
+        "D": "125"
+      },
+      "answer": {
+        "explanation": "For relaxed eye viewing (image at infinity), the magnification of a compound microscope is given by $m = (L/f_o) \\times (D/f_e)$.\\nGiven: $f_o = 1$ cm, $f_e = 2$ cm, $L = 10$ cm, $D = 25$ cm (near point).\n$m = (10/1) \\times (25/2) = 10 \\times 12.5 = 125$.",
+        "key_formulae": [
+          "M = \\frac{L}{f_o} \\frac{D}{f_e}"
+        ],
+        "diagrams": []
+      },
+      "correct_option": "D",
+      "diagram_required": false,
+      "source": "55/5/2"
+    },
+    {
+      "id": "55-5-3-Q4a-i",
+      "year": 2023,
+      "marks": 1,
+      "type": "theory",
+      "question": "Define SI unit of power of a lens.",
+      "options": {},
+      "answer": {
+        "explanation": "The SI unit of power of a lens is Dioptre (D). One dioptre is defined as the power of a lens whose focal length is 1 meter.\n$1 D = 1 m^{-1}$.",
+        "key_formulae": [
+          "P = \\frac{1}{f (m)}"
+        ],
+        "diagrams": []
+      },
+      "diagram_required": false,
+      "source": "55/5/3"
+    },
+    {
+      "id": "55-5-2-Q19",
+      "year": 2023,
+      "marks": 2,
+      "type": "numerical",
+      "question": "The radius of curvature of a convex mirror is 30 cm. It forms an image of an object which is half the size of the object. Find the separation between the object and the image.",
+      "options": {},
+      "answer": {
+        "explanation": "GIVEN:\\nRadius of curvature R = +30 cm (Convex mirror).\\nFocal length f = R/2 = +15 cm.\\nMagnification m = +1/2 (Convex mirror always forms erect, virtual, diminished image).\n\\nSTEPS:\n1. Use magnification formula: $m = -v/u = 1/2 \\implies v = -u/2$.\n2. Use mirror formula: $1/f = 1/v + 1/u$.\n   $1/15 = 1/(-u/2) + 1/u$\n   $1/15 = -2/u + 1/u = -1/u$\n   $u = -15$ cm.\n3. Calculate image distance v:\n   $v = -(-15)/2 = +7.5$ cm.\n4. Separation between object and image:\n   Since object is in front (real) and image is behind (virtual), separation = $|u| + |v|$.\n   Separation = $15 + 7.5 = 22.5$ cm.\n\\nFINAL RESULT:\\nThe separation between the object and the image is 22.5 cm.",
+        "key_formulae": [
+          "m = -\\frac{v}{u}",
+          "\\frac{1}{f} = \\frac{1}{v} + \\frac{1}{u}"
+        ],
+        "diagrams": []
+      },
+      "diagram_required": false,
+      "source": "55/5/2"
+    },
+    {
+      "id": "55-5-1-Q19",
+      "year": 2023,
+      "marks": 2,
+      "type": "numerical",
+      "question": "A telescope has an objective lens of focal length 150 cm and an eyepiece of focal length 5 cm. Calculate its magnifying power in normal adjustment and the distance of the image formed by the objective.",
+      "options": {},
+      "answer": {
+        "explanation": "GIVEN:\n$f_o = 150$ cm, $f_e = 5$ cm.\\nNormal adjustment implies final image is at infinity.\n\\nREQUIRED:\n1. Magnifying power (m).\n2. Distance of image formed by objective.\n\\nSTEPS:\n1. Magnifying power for normal adjustment:\n   $m = f_o / f_e = 150 / 5 = 30$.\n2. Distance of image formed by objective:\n   The objective forms the image at its second focal plane for a distant object.\n   Image distance $v_o = f_o = 150$ cm.\n\\nFINAL RESULT:\\nMagnifying power = 30.\\nDistance of image formed by objective = 150 cm.",
+        "key_formulae": [
+          "m = \\frac{f_o}{f_e}",
+          "v_o = f_o"
+        ],
+        "diagrams": []
+      },
+      "diagram_required": false,
+      "source": "55/5/1"
+    },
+    {
+      "id": "55-5-3-Q4a-ii",
+      "year": 2023,
+      "marks": 3,
+      "type": "numerical",
+      "question": "A plano convex lens is made of glass of refractive index 1.5. The radius of curvature of the convex surface is 25 cm. (i) Calculate the focal length of the lens. (ii) If an object is placed 50 cm in front of the lens, find the nature and position of the image formed.",
+      "options": {},
+      "answer": {
+        "explanation": "GIVEN:\\nRefractive index $n = 1.5$.\\nPlano-convex lens: $R_1 = \\infty$ (plane), $R_2 = -25$ cm (convex surface facing other side) OR $R_1 = +25$ cm, $R_2 = \\infty$. Let's assume standard convention light enters convex face: $R_1 = +25$ cm, $R_2 = \\infty$.\\nObject distance $u = -50$ cm.\n\\nSTEPS:\n(i) Focal Length:\n   Using Lens Maker's Formula: $1/f = (n-1)(1/R_1 - 1/R_2)$\n   $1/f = (1.5 - 1)(1/25 - 1/\\infty) = 0.5 \\times (1/25) = 1/50$.\n   $f = +50$ cm.\n\n(ii) Image Position:\n   Using Lens Formula: $1/f = 1/v - 1/u$\n   $1/50 = 1/v - 1/(-50)$\n   $1/50 = 1/v + 1/50$\n   $1/v = 0 \\implies v = \\infty$.\n\\nNATURE:\\nSince the object is placed at the focus ($u = f = 50$ cm), the image is formed at infinity. It is real, inverted, and highly magnified.\n\\nFINAL RESULT:\n(i) Focal length = 50 cm.\n(ii) Image is at infinity, real and inverted.",
+        "key_formulae": [
+          "\\frac{1}{f} = (n-1)(\\frac{1}{R_1} - \\frac{1}{R_2})",
+          "\\frac{1}{f} = \\frac{1}{v} - \\frac{1}{u}"
+        ],
+        "diagrams": []
+      },
+      "diagram_required": false,
+      "source": "55/5/3"
+    },
+    {
+      "id": "55-5-3-Q10",
+      "year": 2023,
+      "marks": 3,
+      "type": "numerical",
+      "question": "A ray of light passes through a prism of refractive index $\\sqrt{2}$ as shown in the figure [Ray incident at angle 60 on one face, prism angle A=60]. Find: (i) The angle of incidence (r2) at face AC. (ii) The angle of minimum deviation for this prism.",
+      "options": {},
+      "answer": {
+        "explanation": "GIVEN:\\nPrism angle $A = 60^\\circ$.\\nRefractive index $n = \\sqrt{2}$.\\nIncident angle $i = 60^\\circ$ on first face.\n\\nSTEPS:\n(i) Find $r_1$ (refraction at first face):\n   Using Snell's Law: $1 \\cdot \\sin i = n \\cdot \\sin r_1$\n   $\\sin 60^\\circ = \\sqrt{2} \\sin r_1$\n   $\\frac{\\sqrt{3}}{2} = \\sqrt{2} \\sin r_1 \\implies \\sin r_1 = \\frac{\\sqrt{3}}{2\\sqrt{2}}$. This does not give a standard angle. Let's re-read diagram conditions.\n   *Correction from Source diagram:* The ray usually travels parallel to the base for minimum deviation, or we calculate strictly.\n   Let's check if this is the minimum deviation case. At min dev, $i = e$ and $r_1 = r_2 = A/2 = 30^\\circ$. \n   If $r_1 = 30^\\circ$, then $\\sin i = \\sqrt{2} \\sin 30^\\circ = \\sqrt{2}(0.5) = 1/\\sqrt{2} \\implies i = 45^\\circ$. But given $i = 60^\\circ$. So not minimum deviation initially.\n   \n   Back to calculation:\n   $\\sin r_1 = \\sqrt{3}/(2\\sqrt{2}) \\approx 0.612$. $r_1 \\approx 37.7^\\circ$.\n   Relation for prism: $r_1 + r_2 = A$.\n   $r_2 = A - r_1 = 60^\\circ - 37.7^\\circ = 22.3^\\circ$.\n   (Exact values depend on standard angles, often questions use $45^\\circ$ incidence for $\\sqrt{2}$). If the question implies symmetric path, then $i$ must be such that $r_1=r_2$. \n\n(ii) Angle of Minimum Deviation ($\\delta_m$):\n   For minimum deviation, refractive index relation: $n = \\frac{\\sin((A+\\delta_m)/2)}{\\sin(A/2)}$.\n   $\\sqrt{2} = \\frac{\\sin((60+\\delta_m)/2)}{\\sin(30)}$\n   $\\sqrt{2} = \\frac{\\sin((60+\\delta_m)/2)}{0.5}$\n   $\\frac{\\sqrt{2}}{2} = \\sin((60+\\delta_m)/2)$\n   $\\frac{1}{\\sqrt{2}} = \\sin((60+\\delta_m)/2)$\n   $\\sin 45^\\circ = \\sin((60+\\delta_m)/2)$\n   $45 = (60+\\delta_m)/2 \\implies 90 = 60 + \\delta_m \\implies \\delta_m = 30^\\circ$.\n\\nFINAL RESULT:\n(i) Angle of incidence at face AC ($r_2$) calculated as $A - r_1$ (requires calculation). If problem implies min deviation condition applies to part (ii) independently, $\\delta_m = 30^\\circ$.",
+        "key_formulae": [
+          "n = \\frac{\\sin(\\frac{A+\\delta_m}{2})}{\\sin(\\frac{A}{2})}",
+          "r_1 + r_2 = A"
+        ],
+        "diagrams": [
+          ""
+        ]
+      },
+      "diagram_required": true,
+      "source": "55/5/3",
+      "diagram_url": "/images/Physics/PYQs/chapter9/55-5-3-Q10.png",
+      "image": "/images/Physics/Derivations/graph of deviation vs incidence angle.png"
+    },
+    {
+      "id": "55-5-3-Q6",
+      "year": 2023,
+      "marks": 3,
+      "type": "theory",
+      "question": "With the help of a ray diagram, show how a compound microscope forms a magnified image of a tiny object, at least distance of distinct vision. Hence derive an expression for the magnification produced by it.",
+      "options": {},
+      "answer": {
+        "explanation": "DIAGRAM:\n1. Draw objective lens ($L_o$) with short focal length.\n2. Object AB placed just beyond $F_o$. Real, inverted, magnified intermediate image A'B' formed.\n3. Eyepiece lens ($L_e$) placed such that A'B' lies within its focal length $F_e$.\n4. Virtual, erect (w.r.t intermediate), magnified final image A''B'' formed at distance D.\n\\nDERIVATION:\n1. Total Magnification $m = m_o \\times m_e$.\n2. Magnification of objective $m_o = \\frac{h'}{h} \\approx \\frac{L}{f_o}$ (where L is tube length).\n3. Magnification of eyepiece (simple microscope) at D: $m_e = 1 + \\frac{D}{f_e}$.\n4. Combining: $m = \\frac{L}{f_o} (1 + \\frac{D}{f_e})$.\n(Note: Standard approximation uses negative sign for inverted image $m = -\\frac{L}{f_o}(1+\\frac{D}{f_e})$).\n\\nFINAL RESULT:\\nExpression: $m = \\frac{L}{f_o}(1 + \\frac{D}{f_e})$.",
+        "key_formulae": [
+          "m = m_o \\times m_e",
+          "m \\approx \\frac{L}{f_o}(1+\\frac{D}{f_e})"
+        ],
+        "diagrams": [
+          ""
+        ]
+      },
+      "diagram_required": true,
+      "source": "55/5/3",
+      "diagram_url": "/images/Physics/PYQs/chapter9/55-5-3-Q6.png",
+      "image": "/images/Physics/Derivations/compound microscope.png"
+    },
+    {
+      "id": "55-6-1-Q26",
+      "year": 2023,
+      "marks": 3,
+      "type": "derivation",
+      "question": "Draw a ray diagram showing the image formation when a concave mirror produces a real, inverted and magnified image of an object and hence obtain the mirror formula.",
+      "options": {},
+      "answer": {
+        "explanation": "DIAGRAM:\n1. Concave mirror, pole P, focus F, center of curvature C.\n2. Object AB placed between F and C.\n3. Ray parallel to axis reflects through F. Ray through C reflects back.\n4. Intersection beyond C forms real, inverted, magnified image A'B'.\n\\nDERIVATION:\n1. Triangles ABC and A'B'C are similar: $\\frac{A'B'}{AB} = \\frac{CB'}{CB}$.\n2. Triangles ABP and A'B'P (assuming paraxial/small aperture) are similar: $\\frac{A'B'}{AB} = \\frac{PB'}{PB}$.\n3. Equating: $\\frac{CB'}{CB} = \\frac{PB'}{PB}$.\n4. Using Sign Convention: $PB = -u, PB' = -v, PC = -R = -2f$.\n   $CB = PB - PC = -u - (-2f) = 2f - u$.\n   $CB' = PC - PB' = -2f - (-v) = v - 2f$.\n   (Note: Distance direction matters, usually derive using similar triangles with Pole).\n   Better derivation using $\\triangle A'B'F$ and $\\triangle MPF$ (where M is point on mirror): $\\frac{A'B'}{MP} = \\frac{B'F}{PF}$. Since $MP \\approx AB$, $\\frac{A'B'}{AB} = \\frac{v-f}{f}$.\n   Also $\\frac{A'B'}{AB} = \\frac{v}{u}$.\n   $\\frac{v}{u} = \\frac{v-f}{f} \\implies vf = uv - uf$.\n   Divide by uvf: $\\frac{1}{u} = \\frac{1}{f} - \\frac{1}{v}$.\n   Rearranging: $\\frac{1}{f} = \\frac{1}{v} + \\frac{1}{u}$.\n\\nFINAL RESULT:\\nMirror Formula: $\\frac{1}{v} + \\frac{1}{u} = \\frac{1}{f}$.",
+        "key_formulae": [
+          "\\frac{1}{v} + \\frac{1}{u} = \\frac{1}{f}"
+        ],
+        "diagrams": [
+          ""
+        ]
+      },
+      "diagram_required": true,
+      "source": "55/6/1",
+      "diagram_url": "/images/Physics/PYQs/chapter9/55-6-1-Q26.png"
+    },
+    {
+      "id": "55-4-3-Q33a",
+      "year": 2023,
+      "marks": 5,
+      "type": "theory",
+      "question": "(i) Draw a ray diagram to show how the final image is formed at infinity in an astronomical refracting telescope. Obtain an expression for its magnifying power.\n(ii) Two thin lenses L1 and L2, L1 being a convex lens of focal length 24 cm and L2 a concave lens of focal length 18 cm are placed coaxially at a separation of 45 cm. A 1 cm tall object is placed in front of the lens L1 at a distance of 36 cm. Find the location and height of the image formed by the combination.",
+      "options": {},
+      "answer": {
+        "explanation": "(i) TELESCOPE:\n   - Diagram: Parallel rays from infinity enter Objective ($f_o$), form real image at focus $F_o$. Eyepiece ($f_e$) placed such that this image is at its focus $F_e$. Final rays emerge parallel.\n   - Derivation: Angle subtended by object at objective $\\alpha \\approx \\tan \\alpha = h/f_o$. Angle by image at eyepiece $\\beta \\approx \\tan \\beta = h/f_e$. Magnifying power $m = \\beta/\\alpha = (h/f_e) / (h/f_o) = f_o/f_e$. (Negative for inverted image).\n\n(ii) NUMERICAL:\n   GIVEN: $f_1 = +24$ cm, $f_2 = -18$ cm. Separation $d = 45$ cm.\n   Object at $u_1 = -36$ cm from L1.\n   \n   STEP 1: Image by L1 ($v_1$)\n   $1/v_1 - 1/u_1 = 1/f_1$\n   $1/v_1 - 1/(-36) = 1/24$\n   $1/v_1 = 1/24 - 1/36 = (3-2)/72 = 1/72$.\n   $v_1 = +72$ cm.\n   Magnification $m_1 = v_1/u_1 = 72/(-36) = -2$. Height $h_1 = -2 \\times 1 = -2$ cm.\n\n   STEP 2: Image by L2 ($v_2$)\n   Image from L1 acts as object for L2.\n   Object distance for L2: $u_2 = v_1 - d = 72 - 45 = +27$ cm (Virtual object to the right).\n   $1/v_2 - 1/u_2 = 1/f_2$\n   $1/v_2 - 1/27 = 1/(-18)$\n   $1/v_2 = -1/18 + 1/27 = (-3+2)/54 = -1/54$.\n   $v_2 = -54$ cm.\n   Magnification $m_2 = v_2/u_2 = (-54)/27 = -2$.\n   Total Magnification $M = m_1 \\times m_2 = (-2) \\times (-2) = +4$.\n   Final Height $h' = M \\times h = 4 \\times 1 = 4$ cm.\n\\nFINAL RESULT:\\nLocation: 54 cm to the left of the concave lens.\\nHeight: 4 cm (Erect).",
+        "key_formulae": [
+          "m = \\frac{f_o}{f_e}",
+          "\\frac{1}{v} - \\frac{1}{u} = \\frac{1}{f}",
+          "M = m_1 \\times m_2"
+        ],
+        "diagrams": [
+          ""
+        ]
+      },
+      "diagram_required": true,
+      "source": "55/4/3",
+      "diagram_url": "/images/Physics/PYQs/chapter9/55-4-3-Q33a.png"
+    },
+    {
+      "id": "55-4-3-Q33b",
+      "year": 2023,
+      "marks": 5,
+      "type": "theory",
+      "question": "(i) Explain the working principle of an optical fibre with the help of a diagram. Mention one use of a light pipe.\n(ii) A ray of light is incident at an angle of 60 on one face of a prism with the prism angle A=60. The ray passes symmetrically through the prism. Find the angle of minimum deviation and refractive index of the material of the prism. If the prism is immersed in water, how will the minimum deviation be affected? Justify your answer.",
+      "options": {},
+      "answer": {
+        "explanation": "(i) OPTICAL FIBRE:\n   - Principle: Total Internal Reflection (TIR). When light enters the core at an angle greater than the critical angle, it undergoes repeated reflections at the core-cladding interface and propagates down the fibre.\n   - Diagram: Show Core (n1), Cladding (n2, n2 < n1), and light ray zig-zagging.\n   - Use: Transmission of optical signals (communication) or Endoscopy (medical).\n\n(ii) PRISM:\n   - Condition: Symmetric passage implies Minimum Deviation.\n   - At min deviation, $i = e = 60^\\circ$ and $r_1 = r_2 = A/2 = 30^\\circ$.\n   - Angle of Minimum Deviation $\\delta_m = 2i - A = 2(60) - 60 = 60^\\circ$.\n   - Refractive Index $n = \\frac{\\sin((A+\\delta_m)/2)}{\\sin(A/2)} = \\frac{\\sin(60)}{\\sin(30)} = \\frac{\\sqrt{3}/2}{1/2} = \\sqrt{3} \\approx 1.732$.\n   - Effect of Water: If immersed in water ($n_w$), the relative refractive index of prism decreases ($n' = n_g/n_w < n_g$).\n   - Since deviation depends on $(n-1)A$ (for thin) or general relation, a decrease in relative refractive index leads to a decrease in the angle of deviation. Thus, $\\delta_m$ will decrease.",
+        "key_formulae": [
+          "\\delta_m = 2i - A",
+          "n = \\frac{\\sin i}{\\sin(A/2)}"
+        ],
+        "diagrams": [
+          ""
+        ]
+      },
+      "diagram_required": true,
+      "source": "55/4/3",
+      "diagram_url": "/images/Physics/PYQs/chapter9/55-4-3-Q33b.png",
+      "image": "/images/Physics/Derivations/graph of deviation vs incidence angle.png"
+    },
+    {
+      "id": "55-4-1-Q33a-i",
+      "year": 2023,
+      "marks": 5,
+      "type": "derivation",
+      "question": "Draw a ray diagram for the formation of the image of an object by a convex mirror. Hence, obtain the mirror equation.",
+      "options": {},
+      "answer": {
+        "explanation": "DIAGRAM:\n1. Convex mirror, pole P, focus F, center C behind mirror.\n2. Object AB in front. Ray parallel to axis reflects as if coming from F. Ray towards C reflects back.\n3. Virtual intersection behind mirror forms erect, diminished image A'B'.\n\\nDERIVATION:\n1. Similar triangles A'B'C and ABC: $\\frac{A'B'}{AB} = \\frac{CB'}{CB} = \\frac{PC - PB'}{PC + PB}$.\n2. Similar triangles A'B'F and MPF (M is point on mirror perpendicular dropped to axis, approx pole): $\\frac{A'B'}{MP} = \\frac{FB'}{FP}$. Since $MP=AB$, $\\frac{A'B'}{AB} = \\frac{PF - PB'}{PF}$.\n3. Equating ratios and using sign convention ($PB = -u, PB' = +v, PF = +f, PC = +2f$):\n   This derivation usually uses the Pole triangles: $\\Delta A'B'P \\sim \\Delta ABP$ (angles equal).\n   $\\frac{A'B'}{AB} = \\frac{PB'}{PB} = \\frac{v}{-u} = -\\frac{v}{u}$.\n   Also $\\frac{A'B'}{AB} = \\frac{f-v}{f}$ (from F triangles).\n   $-\\frac{v}{u} = \\frac{f-v}{f} \\implies -vf = uf - uv$.\n   Divide by uvf: $-\\frac{1}{u} = \\frac{1}{v} - \\frac{1}{f}$.\n   $\\frac{1}{f} = \\frac{1}{v} + \\frac{1}{u}$.\n\\nFINAL RESULT:\n$\\frac{1}{v} + \\frac{1}{u} = \\frac{1}{f}$.",
+        "key_formulae": [
+          "\\frac{1}{v} + \\frac{1}{u} = \\frac{1}{f}"
+        ],
+        "diagrams": [
+          ""
+        ]
+      },
+      "diagram_required": true,
+      "source": "55/4/1",
+      "diagram_url": "/images/Physics/PYQs/chapter9/55-4-1-Q33a-i.png"
+    },
+    {
+      "id": "55-4-1-Q33a-iii",
+      "year": 2023,
+      "marks": 5,
+      "type": "numerical",
+      "question": "The magnification of a small object produced by a compound microscope is 200. The focal length of the eyepiece is 2 cm and the final image is formed at infinity. Find the magnification produced by the objective.",
+      "options": {},
+      "answer": {
+        "explanation": "GIVEN:\\nTotal Magnification $M = 200$.\\nFocal length of eyepiece $f_e = 2$ cm.\\nFinal image at infinity (Normal adjustment).\\nNear point $D = 25$ cm (Standard assumption).\n\\nSTEPS:\n1. Magnification of eyepiece $m_e$ for image at infinity:\n   $m_e = D/f_e = 25/2 = 12.5$.\n2. Total magnification $M = m_o \\times m_e$.\n3. $200 = m_o \\times 12.5$.\n4. $m_o = 200 / 12.5 = 16$.\n\\nFINAL RESULT:\\nMagnification produced by the objective is 16.",
+        "key_formulae": [
+          "M = m_o \\times m_e",
+          "m_e = D/f_e"
+        ],
+        "diagrams": []
+      },
+      "diagram_required": false,
+      "source": "55/4/1"
+    },
+    {
+      "id": "55-5-3-Q12-Case",
+      "year": 2023,
+      "marks": 5,
+      "type": "theory",
+      "question": "Case Study: Total Internal Reflection. A ray of light travels from a denser to a rarer medium... (i) A ray travels from a medium into water at angle of incidence 18. Critical angle is 20. Which figure represents the path? (ii) Point source at bottom of water tank depth d. Area of surface of water through which light emerges. (iii) Critical angle maximum for which media w.r.t air? (iv) Critical angle for pair of media A (2.0) and B (1.0). (v) Critical angle 30, speed of light?",
+      "options": {
+        "A": "MCQ options provided in context",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "answer": {
+        "explanation": "(i) Angle of incidence $i = 18^\\circ$ is less than critical angle $i_c = 20^\\circ$. The ray will refract into the rarer medium (water) bending away from the normal. (Select diagram showing refraction).\n(ii) Light emerges from a circular patch of radius $r = d \\tan i_c$. $\\sin i_c = 1/\\mu$. $\\tan i_c = \\frac{1}{\\sqrt{\\mu^2-1}}$. Area $A = \\pi r^2 = \\frac{\\pi d^2}{\\mu^2 - 1}$.\n(iii) Critical angle $\\sin i_c = 1/\\mu$. Max $i_c$ means Min $\\mu$. Among Glass, Diamond, Water - Water has lowest refractive index (1.33). So Water has maximum critical angle.\n(iv) $\\sin i_c = n_r/n_d = 1.0/2.0 = 0.5$. $i_c = 30^\\circ$.\n(v) $\\sin i_c = 1/\\mu \\implies \\sin 30 = 0.5 = 1/\\mu \\implies \\mu = 2$. Speed $v = c/\\mu = 3\\times 10^8 / 2 = 1.5 \\times 10^8$ m/s.",
+        "key_formulae": [
+          "\\sin i_c = \\frac{n_2}{n_1}",
+          "A = \\frac{\\pi d^2}{\\mu^2-1}",
+          "v = c/\\mu"
+        ],
+        "diagrams": []
+      },
+      "diagram_required": true,
+      "source": "55/5/3",
+      "diagram_url": "/images/Physics/PYQs/chapter9/55-5-3-Q12-Case.png",
+      "image": "/images/Physics/Derivations/Total Internal Reflection.png"
+    },
+    {
+      "id": "55-4-3-Q35-Case",
+      "year": 2023,
+      "marks": 4,
+      "type": "theory",
+      "question": "Case Study: Lens Maker's Formula. (a) How will power of lens be affected with increase of wavelength? (b) Convex lens radii R, R. For what n is f=R? (c) Concave lens n=1.5 f=20cm in air. Immersed in water n=4/3. Find new f. OR (c) Object erect image mag 3. Power 5D. Find u and v.",
+      "options": {},
+      "answer": {
+        "explanation": "(a) Power $P = (n-1)(1/R_1 - 1/R_2)$. Refractive index $n$ decreases as wavelength $\\lambda$ increases (Cauchy's relation). Therefore, Power decreases as wavelength increases.\n\n(b) $1/f = (n-1)(1/R - 1/(-R)) = (n-1)(2/R)$.\n   Given $f = R$. So $1/R = (n-1)(2/R) \\implies 1 = 2(n-1) \\implies 0.5 = n-1 \\implies n = 1.5$.\n\n(c) Lens Maker in medium: $1/f_m = (n_g/n_m - 1)K$.\n   $1/f_a = (1.5 - 1)K = 0.5K \\implies K = 2/f_a$.\n   $1/f_w = (1.5/1.33 - 1)K = (1.125 - 1)K = 0.125 K$.\n   $1/f_w = 0.125 (2/f_a) = 0.25 / 20$. (f_a = -20).\n   Actually ratio: $f_w/f_a = (n_g-1) / (n_g/n_w - 1) = 0.5 / (1.5/ (4/3) - 1) = 0.5 / (9/8 - 1) = 0.5 / (1/8) = 4$.\n   $f_w = 4 \\times (-20) = -80$ cm.\n\\nOR (c)\n   $P = 5 D \\implies f = +20$ cm (Convex).\n   Erect image implies Virtual. $m = +3 = v/u \\implies v = 3u$.\n   $1/v - 1/u = 1/f \\implies 1/3u - 1/u = 1/20$.\n   $(1-3)/3u = 1/20 \\implies -2/3u = 1/20 \\implies 3u = -40 \\implies u = -13.33$ cm.\n   $v = 3(-13.33) = -40$ cm.",
+        "key_formulae": [
+          "\\frac{1}{f} = (n_{rel}-1)(\\frac{1}{R_1}-\\frac{1}{R_2})"
+        ],
+        "diagrams": []
+      },
+      "diagram_required": false,
+      "source": "55/4/3"
+    }
+  ],
+  "diagram_required": true
+}

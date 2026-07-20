@@ -1,0 +1,281 @@
+{
+  "meta": {
+    "subject": "Physics",
+    "class": 12,
+    "board": "CBSE",
+    "chapter": "Moving Charges and Magnetism"
+  },
+  "derivations": [
+    {
+      "id": "ch4-01",
+      "title": "Magnetic Field on the Axis of a Circular Current Loop ",
+      "priority": "P1",
+      "priority_reason": "The most frequent 5-mark derivation in this chapter. Application of Biot-Savart Law requiring calculus.",
+      "marks": 5,
+      "diagram_required": true,
+      "diagram_description": "A circular loop of radius R in the y-z plane with center at origin O carrying current I. Point P is on the x-axis at distance x from O. A current element dl is at the top of the loop. Distance r is from dl to P (hypotenuse). Magnetic field vector dB is perpendicular to r, having components dBx (along axis) and dB_perp (perpendicular). dB_perp components from diametrically opposite elements cancel.",
+      "derivation": {
+        "given_assumptions": [
+          "Circular loop of radius $R$ carrying steady current $I$.",
+          "Point P lies on the axis at distance $x$ from the center.",
+          "Biot-Savart Law is applicable."
+        ],
+        "required": "Expression for magnetic field $\\vec{B}$ at P.",
+        "steps": [
+          {
+            "text": "According to Biot-Savart law, the magnitude of field $dB$ due to current element $Id\\vec{l}$ at distance $r = \\sqrt{R^2 + x^2}$ is:",
+            "latex": "dB = \\frac{\\mu_0}{4\\pi} \\frac{I dl \\sin 90^\\circ}{r^2} = \\frac{\\mu_0}{4\\pi} \\frac{I dl}{R^2 + x^2}"
+          },
+          {
+            "text": "(Angle between $d\\vec{l}$ and $\\vec{r}$ is $90^\\circ$ since $d\\vec{l}$ is tangent to the loop). Resolving $dB$: The perpendicular components $dB\\sin\\phi$ cancel out due to symmetry. The axial components $dB\\cos\\theta$ (where $\\theta$ is angle between $r$ and plane of loop) add up.",
+            "latex": "B = \\int dB_x = \\int dB \\cos\\theta"
+          },
+          {
+            "text": "From geometry, $\\cos\\theta = \\frac{R}{r} = \\frac{R}{\\sqrt{R^2 + x^2}}$.",
+            "latex": "B = \\int \\frac{\\mu_0 I dl}{4\\pi (R^2 + x^2)} \\cdot \\frac{R}{(R^2 + x^2)^{1/2}}"
+          },
+          {
+            "text": "Constants pull out. $\\int dl = 2\\pi R$ (circumference).",
+            "latex": "B = \\frac{\\mu_0 I R}{4\\pi (R^2 + x^2)^{3/2}} \\int dl = \\frac{\\mu_0 I R}{4\\pi (R^2 + x^2)^{3/2}} (2\\pi R)"
+          }
+        ],
+        "final_result": {
+          "text": "The magnetic field on the axis is:",
+          "latex": "\\vec{B} = \\frac{\\mu_0 I R^2}{2(R^2 + x^2)^{3/2}} \\hat{i}"
+        },
+        "examiner_notes": [
+          "Students often confuse angle theta. Define it clearly from the diagram (usually angle between r and vertical R).",
+          "Must explicitly state why perpendicular components cancel.",
+          "Final direction (along the axis) must be stated."
+        ],
+        "question_forms": [
+          "Using Biot-Savart law, derive the expression for the magnetic field on the axis of a circular current loop.",
+          "Find the magnetic field at the center of a circular coil carrying current."
+        ]
+      },
+      "image": "/images/placeholder.svg"
+    },
+    {
+      "id": "ch4-02",
+      "title": "Force between Two Parallel Infinite Current-Carrying Wires ",
+      "priority": "P1",
+      "priority_reason": "Defines the Ampere unit. Very high probability for 3 or 5 marks.",
+      "marks": 3,
+      "diagram_required": true,
+      "diagram_description": "Two long straight vertical parallel wires 'a' and 'b' separated by distance d. Wire 'a' carries current I_a, wire 'b' carries I_b in the same direction (upwards). Magnetic field B_a produced by 'a' at position of 'b' points inwards (cross). Force F_ba on 'b' points towards 'a'.",
+      "derivation": {
+        "given_assumptions": [
+          "Two infinite parallel wires separated by distance $d$.",
+          "Currents $I_1$ and $I_2$ flow in the same direction."
+        ],
+        "required": "Force per unit length between the wires.",
+        "steps": [
+          {
+            "text": "Magnetic field $B_1$ produced by wire 1 at the location of wire 2 (using Ampere's law result):",
+            "latex": "B_1 = \\frac{\\mu_0 I_1}{2\\pi d}"
+          },
+          {
+            "text": "Direction of $B_1$ is perpendicular to wire 2 (inwards/outwards). Force on a length $L$ of wire 2 is given by $F_{21} = I_2 L B_1 \\sin 90^\\circ$.",
+            "latex": "F_{21} = I_2 L \\left( \\frac{\\mu_0 I_1}{2\\pi d} \\right)"
+          },
+          {
+            "text": "Force per unit length $f = F/L$:",
+            "latex": "f = \\frac{\\mu_0 I_1 I_2}{2\\pi d}"
+          }
+        ],
+        "final_result": {
+          "text": "The force is attractive for like currents and repulsive for unlike currents.",
+          "latex": "f = \\frac{\\mu_0 I_1 I_2}{2\\pi d}"
+        },
+        "examiner_notes": [
+          "Often asked to define '1 Ampere' based on this formula.",
+          "Must specify direction of force (attraction/repulsion).",
+          "Confusion between I1 producing field and I2 experiencing force."
+        ],
+        "question_forms": [
+          "Derive the expression for the force per unit length between two long straight parallel conductors carrying current.",
+          "Use the expression for force between parallel currents to define one Ampere."
+        ]
+      }
+    },
+    {
+      "id": "ch4-03",
+      "title": "Magnetic Field inside a Long Solenoid (Ampere's Law) ",
+      "priority": "P1",
+      "priority_reason": "Standard application of Ampere's Circuital Law.",
+      "marks": 3,
+      "diagram_required": true,
+      "diagram_description": "Cross-section of a solenoid. Current comes out of page at top (dots) and goes in at bottom (crosses). Magnetic field B is uniform horizontal lines inside. Rectangular Amperian loop PQRS: PQ of length L inside solenoid, QR and SP perpendicular to axis, RS outside solenoid.",
+      "derivation": {
+        "given_assumptions": [
+          "Long solenoid with $n$ turns per unit length, carrying current $I$.",
+          "Field inside is uniform and parallel to axis; field outside is approximately zero."
+        ],
+        "required": "Magnetic field $B$ inside the solenoid.",
+        "steps": [
+          {
+            "text": "Consider a rectangular Amperian loop PQRS of length $L$. Apply Ampere's Circuital Law:",
+            "latex": "\\oint \\vec{B} \\cdot d\\vec{l} = \\mu_0 I_{enclosed}"
+          },
+          {
+            "text": "The integral splits into 4 paths: $\\int_{P}^{Q} + \\int_{Q}^{R} + \\int_{R}^{S} + \\int_{S}^{P}$. Path PQ is inside ($B \\parallel dl$). Paths QR, SP are perpendicular ($B \\perp dl$). Path RS is outside ($B \\approx 0$).",
+            "latex": "\\oint \\vec{B} \\cdot d\\vec{l} = BL + 0 + 0 + 0 = BL"
+          },
+          {
+            "text": "Current enclosed by length $L$ containing $nL$ turns:",
+            "latex": "I_{enclosed} = (nL) I"
+          },
+          {
+            "text": "Equating both sides:",
+            "latex": "BL = \\mu_0 n L I"
+          }
+        ],
+        "final_result": {
+          "text": "Magnetic field inside solenoid:",
+          "latex": "B = \\mu_0 n I"
+        },
+        "examiner_notes": [
+          "Students forget to mention why the integral is zero on the perpendicular and outside paths.",
+          "Must define 'n' as turns per unit length (N/L), not total turns."
+        ],
+        "question_forms": [
+          "Using Ampere's circuital law, obtain the expression for the magnetic field inside a long solenoid.",
+          "Derive the formula for B inside a long air-cored solenoid."
+        ]
+      },
+      "image": "/images/placeholder.svg"
+    },
+    {
+      "id": "ch4-04",
+      "title": "Torque on a Rectangular Current Loop in Uniform Magnetic Field ",
+      "priority": "P1",
+      "priority_reason": "Foundation for electric motors and galvanometers.",
+      "marks": 3,
+      "diagram_required": true,
+      "diagram_description": "Rectangular coil ABCD suspended in uniform magnetic field B. Normal to coil makes angle theta with B. Forces on arms AB and CD are equal and opposite but have different lines of action. Top view shows forces forming a couple with perpendicular distance b sin(theta).",
+      "derivation": {
+        "given_assumptions": [
+          "Rectangular loop of sides $a$ and $b$ carrying current $I$.",
+          "Placed in uniform magnetic field $B$. Area vector makes angle $\\theta$ with $B$."
+        ],
+        "required": "Torque $\\vec{\\tau}$ on the loop.",
+        "steps": [
+          {
+            "text": "Forces on sides of length $b$ (parallel to axis of rotation) are $F = IbB\\sin(90^\\circ) = IbB$. (Sides are perpendicular to B).",
+            "latex": "F_1 = F_2 = IbB"
+          },
+          {
+            "text": "These forces form a couple. Perpendicular distance between lines of action is $a \\sin\\theta$ (where $\\theta$ is angle between area vector and B).",
+            "latex": "\\tau = \\text{Force} \\times \\text{Perpendicular distance} = (IbB) (a \\sin\\theta)"
+          },
+          {
+            "text": "Rearranging terms ($ab = A$, area of loop):",
+            "latex": "\\tau = I (ab) B \\sin\\theta = IAB \\sin\\theta"
+          },
+          {
+            "text": "For $N$ turns, and magnetic moment $M = NIA$:",
+            "latex": "\\tau = MB \\sin\\theta"
+          }
+        ],
+        "final_result": {
+          "text": "Vector form:",
+          "latex": "\\vec{\\tau} = \\vec{M} \\times \\vec{B}"
+        },
+        "examiner_notes": [
+          "Confusion between angle with plane (alpha) and angle with normal (theta). Formula changes to cos(alpha) if plane angle is used.",
+          "Diagram must show the couple clearly."
+        ],
+        "question_forms": [
+          "Derive an expression for the torque experienced by a current loop in a uniform magnetic field.",
+          "Show that torque is M cross B."
+        ]
+      },
+      "image": "/images/placeholder.svg"
+    },
+    {
+      "id": "ch4-05",
+      "title": "Motion of Charged Particle in Magnetic Field (Cyclotron Principle) ",
+      "priority": "P2",
+      "priority_reason": "Frequent numericals and short derivations on radius/time period.",
+      "marks": 2,
+      "diagram_required": true,
+      "diagram_description": "Particle with charge q and velocity v enters perpendicular magnetic field B (crosses). Path is a circle. Lorentz force F acts towards center.",
+      "derivation": {
+        "given_assumptions": [
+          "Charge $q$ moving with velocity $v$ perpendicular to uniform magnetic field $B$."
+        ],
+        "required": "Radius $r$ and Time Period $T$.",
+        "steps": [
+          {
+            "text": "Magnetic Lorentz force provides necessary centripetal force:",
+            "latex": "qvB = \\frac{mv^2}{r}"
+          },
+          {
+            "text": "Solving for radius $r$:",
+            "latex": "r = \\frac{mv}{qB}"
+          },
+          {
+            "text": "Time period $T$ is distance/speed:",
+            "latex": "T = \\frac{2\\pi r}{v} = \\frac{2\\pi}{v} \\left( \\frac{mv}{qB} \\right)"
+          }
+        ],
+        "final_result": {
+          "text": "Period is independent of speed:",
+          "latex": "T = \\frac{2\\pi m}{qB}, \\quad \\nu = \\frac{qB}{2\\pi m}"
+        },
+        "examiner_notes": [
+          "State clearly that v is perpendicular to B.",
+          "Highlight that T is independent of v (Cyclotron principle)."
+        ],
+        "question_forms": [
+          "Show that the time period of a charged particle in a magnetic field is independent of its speed.",
+          "Derive the expression for the radius of the circular path of a charge in a magnetic field."
+        ]
+      },
+      "image": "/images/placeholder.svg"
+    },
+    {
+      "id": "ch4-06",
+      "title": "Current Sensitivity of a Moving Coil Galvanometer",
+      "priority": "P2",
+      "priority_reason": "Practical application, often asked as 'Principle and Working'.",
+      "marks": 3,
+      "diagram_required": true,
+      "diagram_description": "Radial magnetic field shown by curved pole pieces N and S. Coil wrapped on soft iron core. Spring/suspension providing restoring torque.",
+      "derivation": {
+        "given_assumptions": [
+          "Coil of $N$ turns, area $A$, current $I$ in radial magnetic field $B$.",
+          "Torsional constant of spring is $k$."
+        ],
+        "required": "Equilibrium deflection $\\phi$ and Current Sensitivity.",
+        "steps": [
+          {
+            "text": "Deflecting magnetic torque (radial field ensures $\\sin\\theta = 1$ always):",
+            "latex": "\\tau_d = NIAB"
+          },
+          {
+            "text": "Restoring torque due to spring for deflection $\\phi$:",
+            "latex": "\\tau_r = k\\phi"
+          },
+          {
+            "text": "At equilibrium, torques balance:",
+            "latex": "k\\phi = NIAB \\implies \\phi = \\left( \\frac{NAB}{k} \\right) I"
+          }
+        ],
+        "final_result": {
+          "text": "Current Sensitivity ($I_s$):",
+          "latex": "I_s = \\frac{\\phi}{I} = \\frac{NAB}{k}"
+        },
+        "examiner_notes": [
+          "Must mention 'Radial Magnetic Field' to keep torque maximum and constant.",
+          "Define terms N, A, B, k clearly."
+        ],
+        "question_forms": [
+          "Explain the principle and working of a moving coil galvanometer.",
+          "Derive the expression for current sensitivity of a galvanometer."
+        ]
+      },
+      "image": "/images/placeholder.svg"
+    }
+  ]
+}

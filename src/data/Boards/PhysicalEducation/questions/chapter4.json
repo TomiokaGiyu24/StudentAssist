@@ -1,0 +1,455 @@
+{
+  "meta": {
+    "subject": "Physical Education",
+    "class": 12,
+    "board": "CBSE",
+    "chapter": "Physical Education & Sports for CWSN (Children With Special Needs - Divyang)",
+    "total_questions": 20
+  },
+  "questions": [
+    {
+      "id": "Q1",
+      "type": "mcq",
+      "marks": 1,
+      "priority": "P1",
+      "priority_reason": "Repeatedly asked full-form/definition question in board exams.",
+      "question": "Which of the following is NOT a symptom of ADHD (Attention Deficit Hyperactivity Disorder)?",
+      "options": {
+        "A": "Inattentiveness",
+        "B": "Hyperactivity",
+        "C": "Obsessive hand washing",
+        "D": "Impulsiveness"
+      },
+      "correct_option": "C",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "Obsessive hand washing is a symptom of OCD (Obsessive Compulsive Disorder), not ADHD.",
+        "key_points": [],
+        "final_answer": "Option C"
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "Q2",
+      "type": "mcq",
+      "marks": 1,
+      "priority": "P2",
+      "priority_reason": "Confusion between ODD and OCD is a common testing point.",
+      "question": "A child exhibiting a pattern of angry, irritable mood, argumentative behavior, and vindictiveness towards authority figures is likely suffering from:",
+      "options": {
+        "A": "ASD (Autism Spectrum Disorder)",
+        "B": "ODD (Oppositional Defiant Disorder)",
+        "C": "OCD (Obsessive Compulsive Disorder)",
+        "D": "SPD (Sensory Processing Disorder)"
+      },
+      "correct_option": "B",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "ODD is characterized by uncooperative, defiant, and hostile behavior towards authority figures.",
+        "key_points": [],
+        "final_answer": "Option B"
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "Q3",
+      "type": "mcq",
+      "marks": 1,
+      "priority": "P1",
+      "priority_reason": "Standard definition question based on the RPWD Act, 2016.",
+      "question": "According to the Rights of Persons with Disabilities Act, 2016, 'Disability' acts as a barrier hindering full and effective participation in society. Which date is celebrated as World Disability Day?",
+      "options": {
+        "A": "21st June",
+        "B": "29th August",
+        "C": "3rd December",
+        "D": "1st December"
+      },
+      "correct_option": "C",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "3rd December is internationally observed as World Disability Day.",
+        "key_points": [],
+        "final_answer": "Option C"
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "Q4",
+      "type": "assertion_reason",
+      "marks": 1,
+      "priority": "P2",
+      "priority_reason": "Tests deep understanding of the nature of SPD.",
+      "question": "Assertion (A): Children with Sensory Processing Disorder (SPD) may be over-responsive or under-responsive to sensory stimuli.\nReason (R): In SPD, the brain has trouble receiving and responding to information that comes in through the senses.",
+      "options": {
+        "A": "Both A and R are true and R is the correct explanation of A.",
+        "B": "Both A and R are true but R is NOT the correct explanation of A.",
+        "C": "A is true but R is false.",
+        "D": "A is false but R is true."
+      },
+      "correct_option": "A",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "SPD involves the brain's inability to process sensory input effectively, leading to over- or under-reactions (Assertion), which is directly explained by the definition in the Reason.",
+        "key_points": [],
+        "final_answer": "Option A"
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "Q5",
+      "type": "assertion_reason",
+      "marks": 1,
+      "priority": "P1",
+      "priority_reason": "Core concept regarding the benefits of physical activity for CWSN.",
+      "question": "Assertion (A): Physical activities help CWSN (Children With Special Needs) reduce depression and anxiety.\nReason (R): Physical activity increases the level of stress hormones like cortisol in the body.",
+      "options": {
+        "A": "Both A and R are true and R is the correct explanation of A.",
+        "B": "Both A and R are true but R is NOT the correct explanation of A.",
+        "C": "A is true but R is false.",
+        "D": "A is false but R is true."
+      },
+      "correct_option": "C",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "Assertion is true as exercise improves mood. Reason is false because physical activity generally reduces stress hormones rather than increasing them to harmful levels.",
+        "key_points": [],
+        "final_answer": "Option C"
+      },
+      "source_basis": "ALLEN"
+    },
+    {
+      "id": "Q6",
+      "type": "very_short",
+      "marks": 2,
+      "priority": "P1",
+      "priority_reason": "Key syllabus term 'Disability Etiquette' is frequently asked.",
+      "question": "Define 'Disability Etiquette'. Give one example.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Disability Etiquette is a set of guidelines dealing specifically with how to approach and interact respectfully with a person with a disability[cite: 13].",
+          "Example: Speak directly to the person with a disability, not to their interpreter or companion[cite: 13]."
+        ],
+        "final_answer": "Disability Etiquette refers to the guidelines for communicating and interacting respectfully with people who have disabilities. \nExample: When talking to a person in a wheelchair, place yourself at their eye level to facilitate comfortable communication."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "Q7",
+      "type": "very_short",
+      "marks": 2,
+      "priority": "P2",
+      "priority_reason": "Understanding 'Cognitive Disability' is essential for the chapter.",
+      "question": "What is meant by Cognitive Disability?",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "It acts as a hindrance to an individual's ability to store, process, and produce information[cite: 11].",
+          "It affects ability to read, compute, speak, and write[cite: 11]."
+        ],
+        "final_answer": "Cognitive disability is a neurological disorder that affects an individual's ability to store, process, and produce information. It can hinder the ability to read, speak, write, and perform mathematical computations."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "Q8",
+      "type": "very_short",
+      "marks": 2,
+      "priority": "P3",
+      "priority_reason": "Specific types of physical impairments are often asked.",
+      "question": "List any two causes of Physical Disability.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Congenital/Genetic factors (present from birth)[cite: 11].",
+          "Acquired causes like accidents or injuries (spinal cord injury, loss of limb)[cite: 11]."
+        ],
+        "final_answer": "Two causes of physical disability are:\n1. **Congenital factors:** Disabilities present since birth due to genetic issues.\n2. **Accidental injuries:** Disabilities acquired later due to accidents, such as spinal cord injuries or loss of limbs."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "Q9",
+      "type": "short",
+      "marks": 3,
+      "priority": "P1",
+      "priority_reason": "Differentiating between Disability and Disorder is a fundamental concept.",
+      "question": "Differentiate between the terms 'Disability' and 'Disorder'.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "**Disability**: An umbrella term covering impairments, activity limitations, and participation restrictions. It is a functional limitation[cite: 11].",
+          "**Disorder**: A disruption of normal physical or mental functions; often defined by a set of symptoms (e.g., ADHD, OCD)[cite: 11, 22].",
+          "**Nature**: Disability is often a structural/functional loss; Disorder is often a disturbance in function."
+        ],
+        "final_answer": "**Difference between Disability and Disorder:**\n\n1.  **Definition**: \n    * **Disability** is an umbrella term that covers impairments, activity limitations, and participation restrictions. It refers to the reduction in functional ability to lead a daily life[cite: 11].\n    * **Disorder** refers to a disruption or confusion in the normal functioning of the mind or body. It is often an illness that disrupts normal physical or mental functions[cite: 22].\n\n2.  **Nature**:\n    * Disability is often structural or a permanent condition (e.g., blindness, loss of limb).\n    * Disorder is often related to mental health or behavioral irregularities (e.g., ADHD, ODD) and may not always be visible."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "Q10",
+      "type": "short",
+      "marks": 3,
+      "priority": "P1",
+      "priority_reason": "ASD symptoms are a high-probability topic.",
+      "question": "Explain Autism Spectrum Disorder (ASD). List any two common symptoms.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "ASD is a developmental disorder affecting communication and behavior[cite: 12].",
+          "Symptoms: Difficulty in communication, repetitive behaviors, avoiding eye contact[cite: 12]."
+        ],
+        "final_answer": "**Autism Spectrum Disorder (ASD)** is a developmental disorder that affects communication and behavior. It is characterized by challenges with social skills, repetitive behaviors, speech, and nonverbal communication[cite: 12].\n\n**Common Symptoms:**\n1.  **Communication Difficulties:** Trouble understanding or talking to others, taking things literally, and avoiding eye contact[cite: 12].\n2.  **Repetitive Behaviors:** Repeating words or actions, getting upset by minor changes in routine, and having obsessive interests[cite: 12]."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "Q11",
+      "type": "short",
+      "marks": 3,
+      "priority": "P2",
+      "priority_reason": "Questions on ODD behavior patterns are frequent.",
+      "question": "What is Oppositional Defiant Disorder (ODD)? Mention any two behavioral symptoms.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Behavior disorder in children characterized by uncooperative, defiant hostility[cite: 13].",
+          "Symptoms: Arguing with adults, refusing to comply with rules, deliberately annoying others[cite: 13]."
+        ],
+        "final_answer": "**Oppositional Defiant Disorder (ODD)** is a behavior disorder in children characterized by a pattern of uncooperative, defiant, and hostile behavior toward peers, parents, teachers, and other authority figures[cite: 13].\n\n**Behavioral Symptoms:**\n1.  **Argumentative:** Frequently arguing with adults or people in authority[cite: 13].\n2.  **Vindictiveness:** acting in a spiteful or vindictive manner and deliberately annoying others[cite: 13]."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "Q12",
+      "type": "short",
+      "marks": 3,
+      "priority": "P2",
+      "priority_reason": "OCD is another specific disorder explicitly mentioned in the syllabus.",
+      "question": "Explain the concept of Obsessive Compulsive Disorder (OCD).",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Anxiety disorder with repetitive thoughts (obsessions) and routines (compulsions)[cite: 13].",
+          "Obsessions: Fear of dirt, need for symmetry[cite: 13].",
+          "Compulsions: Hand washing, checking locks[cite: 13]."
+        ],
+        "final_answer": "**Obsessive Compulsive Disorder (OCD)** is a mental disorder where people feel the need to check things repeatedly, perform certain routines repeatedly (called 'rituals'), or have certain thoughts repeatedly (called 'obsessions')[cite: 13].\n\n* **Obsessions:** Unwanted, intrusive thoughts or urges that cause distress (e.g., fear of germs or dirt).\n* **Compulsions:** Repetitive behaviors performed to reduce the anxiety caused by obsessions (e.g., repeated hand washing, checking if doors are locked)."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "Q13",
+      "type": "short",
+      "marks": 3,
+      "priority": "P3",
+      "priority_reason": "Ensures coverage of social/emotional impacts.",
+      "question": "How do physical activities improve the emotional health of Children with Special Needs (CWSN)?",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Decreases depression rates[cite: 13].",
+          "Improves self-esteem and self-confidence[cite: 13].",
+          "Reduces anxiety and stress[cite: 13]."
+        ],
+        "final_answer": "Physical activities improve the emotional health of CWSN in the following ways:\n1.  **Reduction in Depression:** Regular exercise releases endorphins which help in decreasing rates of depression and improving general mood[cite: 13].\n2.  **Enhanced Self-Esteem:** Mastering physical skills gives children a sense of accomplishment, thereby boosting self-confidence and self-worth[cite: 13].\n3.  **Stress Management:** It provides a healthy outlet for releasing tension and anxiety, leading to better emotional stability[cite: 13]."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "Q14",
+      "type": "long",
+      "marks": 5,
+      "priority": "P1",
+      "priority_reason": "This is a 'structurally inevitable' 5-mark question covering the 'Strategies' part of the syllabus.",
+      "question": "Explain five strategies to make physical activities accessible for Children with Special Needs (CWSN).",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Medical check-up before activity.",
+          "Modified equipment[cite: 13].",
+          "Simple and clear instructions[cite: 13].",
+          "Modified rules[cite: 13].",
+          "Suitable environment/space[cite: 13]."
+        ],
+        "final_answer": "Strategies to make physical activities accessible for CWSN include:\n\n1.  **Medical Check-up:** Before starting any physical activity, a thorough medical examination of the child should be conducted to understand their specific capabilities and limitations.\n\n2.  **Modified Equipment:** Equipment should be adapted to the needs of the child. For example, using balls with bells for visually impaired students or lighter bats for those with weak muscle strength[cite: 13].\n\n3.  **Simple and Clear Instructions:** Instructions should be given in simple language. Visual aids, demonstrations, and tactile cues should be used alongside verbal commands to ensure understanding[cite: 13].\n\n4.  **Modified Rules:** Rules of the game should be flexible. For example, reducing the size of the playing court, allowing more attempts to hit a ball, or removing time limits can encourage participation[cite: 13].\n\n5.  **Suitable Environment:** The play area should be safe and accessible (e.g., ramps for wheelchairs). It should be free from excessive noise or distractions, especially for children with ADHD or ASD[cite: 13]."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "Q15",
+      "type": "long",
+      "marks": 5,
+      "priority": "P1",
+      "priority_reason": "High probability of asking for a detailed explanation of one major disorder like ADHD.",
+      "question": "Define ADHD. Explain its causes and the three main categories of symptoms.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Definition: Attention Deficit Hyperactivity Disorder[cite: 12].",
+          "Causes: Genetic factors, brain injury, low birth weight.",
+          "Three categories: Inattention, Hyperactivity, Impulsivity[cite: 12]."
+        ],
+        "final_answer": "**ADHD (Attention Deficit Hyperactivity Disorder)** is a neurodevelopmental disorder characterized by persistent patterns of inattention, hyperactivity, and impulsivity that interfere with functioning or development[cite: 12].\n\n**Causes:**\n* **Genetic Factors:** Research suggests genes play a major role.\n* **Brain Injury:** Trauma to the brain during birth or accidents.\n* **Other Factors:** Low birth weight, premature delivery, or exposure to toxins.\n\n**Main Categories of Symptoms:**\n1.  **Inattention:** Difficulty sustaining attention in tasks, easily distracted, forgetful in daily activities, and trouble organizing tasks[cite: 12].\n2.  **Hyperactivity:** Fidgeting with hands or feet, inability to sit still, excessive talking, and running or climbing in inappropriate situations[cite: 12].\n3.  **Impulsivity:** Difficulty waiting for their turn, interrupting others, and acting without thinking about consequences[cite: 12]."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "Q16",
+      "type": "long",
+      "marks": 5,
+      "priority": "P2",
+      "priority_reason": "Tests the 'Advantages' section comprehensively.",
+      "question": "Discuss the physical, mental, and social benefits of physical activities for children with special needs.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Physical: Improved muscle strength, flexibility, motor skills[cite: 13].",
+          "Mental: Reduced anxiety, improved mood/focus[cite: 13].",
+          "Social: Interaction, cooperation, independence[cite: 13]."
+        ],
+        "final_answer": "Participation in physical activities offers holistic benefits for Children with Special Needs (CWSN):\n\n**1. Physical Benefits:**\n* **Improved Health:** Enhances cardiovascular fitness, bone density, and muscle strength [cite: 13].\n* **Motor Skills:** Helps in developing gross and fine motor skills, coordination, and balance [cite: 13].\n* **Weight Management:** Helps control obesity, which is a common issue due to sedentary lifestyles[cite: 13].\n\n**2. Mental/Emotional Benefits:**\n* **Mood Enhancement:** Reduces symptoms of depression and anxiety through the release of endorphins [cite: 13].\n* **Cognitive Improvement:** Helps improve focus, attention span (especially in ADHD), and cognitive functioning[cite: 13].\n\n**3. Social Benefits:**\n* **Social Interaction:** Provides opportunities to interact with peers, fostering friendships and reducing isolation [cite: 13].\n* **Independence:** Increases self-reliance in performing daily activities and boosts self-esteem[cite: 13].\n* **Behavioral Skills:** Teaches teamwork, cooperation, and following rules."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "Q17",
+      "type": "long",
+      "marks": 5,
+      "priority": "P2",
+      "priority_reason": "Etiquettes are a vital value-based topic in the CBSE syllabus.",
+      "question": "Elaborate on the 'Disability Etiquettes' one should follow when interacting with a person with special needs.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Use person-first language[cite: 13].",
+          "Speak directly to the person[cite: 13].",
+          "Don't lean on wheelchairs[cite: 13].",
+          "Ask before helping[cite: 13].",
+          "Treat adults as adults[cite: 13]."
+        ],
+        "final_answer": "Disability Etiquette refers to respectful communication and interaction with persons with disabilities. Key guidelines include:\n\n1.  **Communication:** Always speak directly to the person with the disability, not to their companion or sign language interpreter. Maintain eye contact[cite: 13].\n2.  **Offer Help Politely:** Don't assume they need help. Ask, \"May I help you?\" and wait for instructions before acting. Do not touch their wheelchair or assistive devices without permission[cite: 13].\n3.  **Use Respectful Language:** Use 'person-first' language (e.g., \"person with a disability\" instead of \"disabled person\"). Avoid derogatory labels[cite: 13].\n4.  **Physical Etiquette:** When talking to a person in a wheelchair for more than a few minutes, place yourself at their eye level to spare them from lifting their head[cite: 13]. Never lean on a person's wheelchair as it is part of their personal space[cite: 13].\n5.  **Patience:** Give them extra time to speak or finish a task. Do not interrupt or finish their sentences for them[cite: 13]."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "Q18",
+      "type": "short",
+      "marks": 3,
+      "priority": "P3",
+      "priority_reason": "Specific disorders like SPD need distinct coverage.",
+      "question": "What is Sensory Processing Disorder (SPD)? Describe its nature.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Brain has trouble receiving/responding to sensory info[cite: 12, 13].",
+          "Over-responsive or under-responsive[cite: 12].",
+          "Affects single or multiple senses[cite: 12]."
+        ],
+        "final_answer": "**Sensory Processing Disorder (SPD)** is a condition in which the brain has trouble receiving and responding to information that comes in through the senses [cite: 12].\n\n**Nature of SPD:**\n* **Processing Error:** It is not a problem with the sense organs themselves (like blindness), but with how the brain processes the signal.\n* **Hypersensitivity (Over-responsive):** The child may find normal noises (like a vacuum cleaner) painful, or dislike the texture of certain fabrics or foods [cite: 12].\n* **Hyposensitivity (Under-responsive):** The child may have a high tolerance for pain, crave rough play, or need constant movement/stimulation[cite: 12]."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "Q19",
+      "type": "mcq",
+      "marks": 1,
+      "priority": "P2",
+      "priority_reason": "Tests specific knowledge of Cognitive Disability.",
+      "question": "Which of the following is an example of a Cognitive Disability?",
+      "options": {
+        "A": "Loss of a limb",
+        "B": "Dyslexia",
+        "C": "Blindness",
+        "D": "Polio"
+      },
+      "correct_option": "B",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "Dyslexia is a learning disability related to reading, which falls under cognitive disabilities involving information processing. Blindness and Polio are physical/sensory impairments.",
+        "key_points": [],
+        "final_answer": "Option B"
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "Q20",
+      "type": "very_short",
+      "marks": 2,
+      "priority": "P3",
+      "priority_reason": "Clarifies the concept of 'Intangible' disabilities.",
+      "question": "What is meant by 'Invisible Disability'?",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Disabilities that are not immediately apparent[cite: 11].",
+          "Examples: Mental health disorders, chronic pain, learning disabilities[cite: 11]."
+        ],
+        "final_answer": "Invisible disabilities are those that are not immediately noticeable or visible to others. Examples include learning disabilities (like dyslexia), mental health disorders (like anxiety), or chronic illnesses."
+      },
+      "source_basis": "NCERT"
+    }
+  ]
+}

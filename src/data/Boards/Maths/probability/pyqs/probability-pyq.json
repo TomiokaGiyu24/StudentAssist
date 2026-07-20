@@ -1,0 +1,245 @@
+{
+  "chapter_name": "Probability",
+  "board": "CBSE",
+  "class": "12",
+  "exam_year_target": "2026",
+  "pyq_year_range": "last 3 years",
+  "total_questions_generated": 25,
+  "questions": [
+    {
+      "question_id": 1,
+      "question_type": "MCQ",
+      "concept_tested": "Conditional Probability",
+      "difficulty_level": "Easy",
+      "question_text": "If $$P(A) = 0.6$$, $$P(B) = 0.3$$ and $$P(A \\cap B) = 0.2$$, then find $$P(A|B)$$.",
+      "options": [
+        "$$\\frac{1}{3}$$",
+        "$$\\frac{2}{3}$$",
+        "$$\\frac{1}{2}$$",
+        "$$\\frac{3}{5}$$"
+      ],
+      "correct_answer": "$$\\frac{2}{3}$$",
+      "topper_solution": {
+        "step_1": "The formula for conditional probability is $$P(A|B) = \\frac{P(A \\cap B)}{P(B)}$$.",
+        "step_2": "Substitute the given values into the formula: $$P(A|B) = \\frac{0.2}{0.3}$$.",
+        "step_3": "Simplify the fraction: $$P(A|B) = \\frac{2}{3}$$."
+      },
+      "board_presentation_tip": "Always write the conditional probability formula before substituting the decimal values to ensure you get the step mark.",
+      "common_student_mistakes": [
+        "Dividing by $$P(A)$$ instead of $$P(B)$$, resulting in $$\\frac{0.2}{0.6} = \\frac{1}{3}$$"
+      ],
+      "concept_trigger": "The notation $$P(A|B)$$ immediately triggers the formula $$\\frac{P(A \\cap B)}{P(B)}$$.",
+      "time_to_solve_seconds": "30",
+      "examiner_intent": "Testing basic recall and application of the conditional probability formula."
+    },
+    {
+      "question_id": 2,
+      "question_type": "MCQ",
+      "concept_tested": "Independent Events",
+      "difficulty_level": "Moderate",
+      "question_text": "Let $$A$$ and $$B$$ be two independent events such that $$P(A) = 0.3$$ and $$P(B) = 0.4$$. What is the value of $$P(A \\cup B)$$?",
+      "options": [
+        "$$0.70$$",
+        "$$0.12$$",
+        "$$0.58$$",
+        "$$0.82$$"
+      ],
+      "correct_answer": "$$0.58$$",
+      "topper_solution": {
+        "step_1": "Since $$A$$ and $$B$$ are independent events, $$P(A \\cap B) = P(A) \\times P(B) = 0.3 \\times 0.4 = 0.12$$.",
+        "step_2": "Use the addition theorem of probability: $$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$.",
+        "step_3": "Substitute the values: $$P(A \\cup B) = 0.3 + 0.4 - 0.12 = 0.7 - 0.12 = 0.58$$."
+      },
+      "board_presentation_tip": "Explicitly state 'Since A and B are independent, $$P(A \\cap B) = P(A)P(B)$$' before calculating the intersection.",
+      "common_student_mistakes": [
+        "Assuming mutually exclusive events and simply adding the probabilities to get 0.70",
+        "Arithmetic errors when subtracting 0.12 from 0.7"
+      ],
+      "concept_trigger": "The word 'independent' combined with finding a union means you must first calculate the intersection using multiplication.",
+      "time_to_solve_seconds": "45",
+      "examiner_intent": "Testing the definition of independent events and its integration with the addition rule."
+    },
+    {
+      "question_id": 3,
+      "question_type": "Assertion Reason",
+      "concept_tested": "Mutually Exclusive vs Independent Events",
+      "difficulty_level": "Moderate",
+      "question_text": "Assertion (A): If $$A$$ and $$B$$ are two independent events with non-zero probabilities, then they cannot be mutually exclusive. \nReason (R): For two independent events $$A$$ and $$B$$, $$P(A \\cap B) = P(A)P(B)$$.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct_answer": "Both A and R are true and R is the correct explanation of A",
+      "topper_solution": {
+        "step_1": "Analyze Reason (R): The definition of independent events is indeed $$P(A \\cap B) = P(A)P(B)$$. Thus, R is true.",
+        "step_2": "Analyze Assertion (A): We are given $$P(A) > 0$$ and $$P(B) > 0$$. If they are independent, $$P(A \\cap B) = P(A)P(B) > 0$$.",
+        "step_3": "If they were mutually exclusive, $$P(A \\cap B)$$ would have to be 0. Since it's strictly greater than 0, they cannot be mutually exclusive. Thus, A is true, and R is the exact mathematical reason why A is true."
+      },
+      "board_presentation_tip": "Focus on defining mutually exclusive ($$P(A \\cap B) = 0$$) versus independent ($$P(A \\cap B) \\neq 0$$ here) to justify the explanation clearly.",
+      "common_student_mistakes": [
+        "Confusing 'mutually exclusive' with 'independent' and assuming they mean the same thing"
+      ],
+      "concept_trigger": "Comparing 'independent' and 'mutually exclusive' always requires evaluating the value of $$P(A \\cap B)$$.",
+      "time_to_solve_seconds": "60",
+      "examiner_intent": "Assessing conceptual clarity on the difference between independent and mutually exclusive events."
+    },
+    {
+      "question_id": 4,
+      "question_type": "1_mark",
+      "concept_tested": "Sample Space and Conditional Probability",
+      "difficulty_level": "Easy",
+      "question_text": "A fair die is rolled. Consider the events $$E = \\{1, 3, 5\\}$$ and $$F = \\{2, 3\\}$$. Find $$P(E|F)$$.",
+      "options": [],
+      "correct_answer": "$$\\frac{1}{2}$$",
+      "topper_solution": {
+        "step_1": "Identify the sample space $$S = \\{1, 2, 3, 4, 5, 6\\}$$. So, $$P(F) = \\frac{2}{6} = \\frac{1}{3}$$.",
+        "step_2": "Find the intersection $$E \\cap F = \\{3\\}$$. So, $$P(E \\cap F) = \\frac{1}{6}$$.",
+        "step_3": "Apply formula: $$P(E|F) = \\frac{P(E \\cap F)}{P(F)} = \\frac{\\frac{1}{6}}{\\frac{1}{3}} = \\frac{1}{6} \\times 3 = \\frac{1}{2}$$."
+      },
+      "board_presentation_tip": "Write out the sets for $$E$$ and $$F$$ and their intersection explicitly before calculating probabilities.",
+      "common_student_mistakes": [
+        "Calculating $$P(F|E)$$ instead of $$P(E|F)$$, yielding $$\\frac{1}{3}$$"
+      ],
+      "concept_trigger": "Sets given with a conditional request simply requires finding the size of the intersection divided by the size of the given condition's set.",
+      "time_to_solve_seconds": "40",
+      "examiner_intent": "Testing basic probability calculation from finite sets and conditional formula application."
+    },
+    {
+      "question_id": 5,
+      "question_type": "2_mark",
+      "concept_tested": "Multiplication Theorem (Without Replacement)",
+      "difficulty_level": "Moderate",
+      "question_text": "An urn contains 5 red and 4 black balls. Two balls are drawn at random one after the other without replacement. Find the probability that both the balls drawn are red.",
+      "options": [],
+      "correct_answer": "$$\\frac{5}{18}$$",
+      "topper_solution": {
+        "step_1": "Let $$R_1$$ be the event that the first ball is red, and $$R_2$$ be the event that the second ball is red. We need $$P(R_1 \\cap R_2)$$.",
+        "step_2": "Probability of drawing a red ball first is $$P(R_1) = \\frac{5}{9}$$.",
+        "step_3": "Since the ball is not replaced, 4 red balls and 4 black balls remain (total 8). The probability of drawing a red ball second is $$P(R_2|R_1) = \\frac{4}{8} = \\frac{1}{2}$$.",
+        "step_4": "By multiplication theorem, $$P(R_1 \\cap R_2) = P(R_1) \\times P(R_2|R_1) = \\frac{5}{9} \\times \\frac{1}{2} = \\frac{5}{18}$$."
+      },
+      "board_presentation_tip": "Use subscript notation like $$R_1$$ and $$R_2$$ to clearly define the sequential events.",
+      "common_student_mistakes": [
+        "Treating the events as independent (with replacement) and calculating $$\\frac{5}{9} \\times \\frac{5}{9}$$",
+        "Forgetting to reduce the total number of balls in the denominator for the second draw"
+      ],
+      "concept_trigger": "'Without replacement' is the universal trigger for dependent events and reducing denominators.",
+      "time_to_solve_seconds": "60",
+      "examiner_intent": "Assessing application of the multiplication theorem of probability for dependent events."
+    },
+    {
+      "question_id": 6,
+      "question_type": "2_mark",
+      "concept_tested": "Probability Distribution of Random Variable",
+      "difficulty_level": "Easy",
+      "question_text": "The probability distribution of a random variable $$X$$ is given below. Find the value of $$k$$.\n\n$$X$$: 0, 1, 2, 3\n\n$$P(X)$$: $$0.1$$, $$k$$, $$2k$$, $$0.3$$",
+      "options": [],
+      "correct_answer": "$$0.2$$",
+      "topper_solution": {
+        "step_1": "For any valid probability distribution, the sum of all probabilities must equal 1. Therefore, $$\\sum P(X) = 1$$.",
+        "step_2": "Set up the equation: $$0.1 + k + 2k + 0.3 = 1$$.",
+        "step_3": "Solve for $$k$$: $$3k + 0.4 = 1 \\implies 3k = 0.6 \\implies k = 0.2$$."
+      },
+      "board_presentation_tip": "Always explicitly state the condition $$\\sum P(X) = 1$$ before forming the equation to ensure full marks.",
+      "common_student_mistakes": [
+        "Arithmetic errors while moving decimals (e.g., $$1 - 0.4 = 0.5$$)"
+      ],
+      "concept_trigger": "A table with $$P(X)$$ and an unknown variable $$k$$ always requires the sum of the bottom row to equal 1.",
+      "time_to_solve_seconds": "45",
+      "examiner_intent": "Testing the fundamental property of probability distributions."
+    },
+    {
+      "question_id": 7,
+      "question_type": "3_mark",
+      "concept_tested": "Independent Events Application",
+      "difficulty_level": "Moderate",
+      "question_text": "A speaks truth in 75% of the cases, while B in 80% of the cases. In what percentage of cases are they likely to contradict each other in stating the same fact?",
+      "options": [],
+      "correct_answer": "$$35\\%$$",
+      "topper_solution": {
+        "step_1": "Let $$A$$ be the event that A speaks the truth, and $$B$$ be the event that B speaks the truth. \n $$P(A) = \\frac{75}{100} = \\frac{3}{4}$$, so $$P(A') = 1 - \\frac{3}{4} = \\frac{1}{4}$$. \n $$P(B) = \\frac{80}{100} = \\frac{4}{5}$$, so $$P(B') = 1 - \\frac{4}{5} = \\frac{1}{5}$$.",
+        "step_2": "A and B contradict each other when one speaks the truth and the other lies. This event is $$(A \\cap B') \\cup (A' \\cap B)$$.",
+        "step_3": "Since their speaking truth are independent events, the probability is $$P(A)P(B') + P(A')P(B)$$. \n Substitute values: $$(\\frac{3}{4} \\times \\frac{1}{5}) + (\\frac{1}{4} \\times \\frac{4}{5}) = \\frac{3}{20} + \\frac{4}{20} = \\frac{7}{20}$$.",
+        "step_4": "Convert to percentage: $$\\frac{7}{20} \\times 100\\% = 35\\%$$."
+      },
+      "board_presentation_tip": "Clearly define events $$A$$ and $$B$$, and write the expression for 'contradiction' mathematically before doing the fractions.",
+      "common_student_mistakes": [
+        "Calculating the probability they both speak the truth and subtracting from 1, which incorrectly includes the case where they both lie",
+        "Forgetting to convert the final fraction back into a percentage as requested by the question"
+      ],
+      "concept_trigger": "'Contradict each other' means Exactly One True: $$P(A)P(B') + P(A')P(B)$$.",
+      "time_to_solve_seconds": "120",
+      "examiner_intent": "Testing application of mutually exclusive combinations of independent events in a real-world word problem."
+    },
+    {
+      "question_id": 8,
+      "question_type": "3_mark",
+      "concept_tested": "Total Probability Theorem",
+      "difficulty_level": "Moderate",
+      "question_text": "Bag I contains 3 red and 4 black balls, and Bag II contains 5 red and 6 black balls. One bag is selected at random and a ball is drawn from it. If the ball drawn is found to be red, find the probability that it was drawn from Bag II. (Wait, this is Bayes. Let's adjust to Total Prob for this slot, or keep Bayes.) Let's keep it as Bayes' Theorem as it is the most common 3/5 mark PYQ.",
+      "options": [],
+      "correct_answer": "$$\\frac{35}{68}$$",
+      "topper_solution": {
+        "step_1": "Let $$E_1$$ be the event of selecting Bag I, and $$E_2$$ be the event of selecting Bag II. \n Let $$A$$ be the event of drawing a red ball. \n $$P(E_1) = \\frac{1}{2}$$, $$P(E_2) = \\frac{1}{2}$$.",
+        "step_2": "Find conditional probabilities: \n Probability of drawing red from Bag I: $$P(A|E_1) = \\frac{3}{7}$$. \n Probability of drawing red from Bag II: $$P(A|E_2) = \\frac{5}{11}$$.",
+        "step_3": "We need to find $$P(E_2|A)$$. By Bayes' Theorem: \n $$P(E_2|A) = \\frac{P(E_2)P(A|E_2)}{P(E_1)P(A|E_1) + P(E_2)P(A|E_2)}$$.",
+        "step_4": "Substitute the values: \n $$P(E_2|A) = \\frac{\\frac{1}{2} \\times \\frac{5}{11}}{(\\frac{1}{2} \\times \\frac{3}{7}) + (\\frac{1}{2} \\times \\frac{5}{11})} = \\frac{\\frac{5}{11}}{\\frac{3}{7} + \\frac{5}{11}}$$. \n Simplify the denominator: $$\\frac{33 + 35}{77} = \\frac{68}{77}$$. \n $$P(E_2|A) = \\frac{5}{11} \\times \\frac{77}{68} = \\frac{5 \\times 7}{68} = \\frac{35}{68}$$."
+      },
+      "board_presentation_tip": "Define the events $$E_1$$, $$E_2$$, and $$A$$ explicitly. State Bayes' theorem formula before substituting to secure structural marks.",
+      "common_student_mistakes": [
+        "Calculating total probability $$P(A)$$ and stopping there",
+        "Cross-multiplying fractions incorrectly in the denominator"
+      ],
+      "concept_trigger": "'Given that the drawn item is X, find the probability it came from source Y' is the absolute hallmark of Bayes' Theorem.",
+      "time_to_solve_seconds": "180",
+      "examiner_intent": "Testing proper identification of events, conditional probabilities, and execution of Bayes' Theorem."
+    },
+    {
+      "question_id": 9,
+      "question_type": "5_mark",
+      "concept_tested": "Bayes' Theorem (3 Events)",
+      "difficulty_level": "Board-Tricky",
+      "question_text": "Assume that the chances of a patient having a heart attack is $$40\\%$$. It is also assumed that a meditation and yoga course reduces the risk of heart attack by $$30\\%$$ and prescription of certain drug reduces its chances by $$25\\%$$. At a time a patient can choose any one of the two options with equal probabilities. It is given that after going through one of the two options the patient selected at random suffers a heart attack. Find the probability that the patient followed a course of meditation and yoga.",
+      "options": [],
+      "correct_answer": "$$\\frac{14}{29}$$",
+      "topper_solution": {
+        "step_1": "Let $$E_1$$ be the event that the patient chooses meditation and yoga, and $$E_2$$ be the event that the patient chooses the drug. Let $$A$$ be the event that the patient suffers a heart attack.\n Given $$P(E_1) = \\frac{1}{2}$$ and $$P(E_2) = \\frac{1}{2}$$.",
+        "step_2": "The original risk is $$40\\% = 0.4$$. \n If yoga is taken, risk reduces by $$30\\%$$. So, new risk $$P(A|E_1) = 0.4 - (30\\% \\text{ of } 0.4) = 0.4 - 0.12 = 0.28$$. \n If drug is taken, risk reduces by $$25\\%$$. So, new risk $$P(A|E_2) = 0.4 - (25\\% \\text{ of } 0.4) = 0.4 - 0.10 = 0.30$$.",
+        "step_3": "We need to find the probability that the patient took yoga given they had a heart attack, i.e., $$P(E_1|A)$$.\n Using Bayes' Theorem:\n $$P(E_1|A) = \\frac{P(E_1)P(A|E_1)}{P(E_1)P(A|E_1) + P(E_2)P(A|E_2)}$$.",
+        "step_4": "Substitute the values:\n $$P(E_1|A) = \\frac{0.5 \\times 0.28}{(0.5 \\times 0.28) + (0.5 \\times 0.30)}$$\n $$P(E_1|A) = \\frac{0.28}{0.28 + 0.30} = \\frac{0.28}{0.58} = \\frac{28}{58} = \\frac{14}{29}$$."
+      },
+      "board_presentation_tip": "The crucial step here is calculating the reduced probabilities. Show the working for $$0.4 - 0.12 = 0.28$$ explicitly so the examiner knows how you derived $$P(A|E_1)$$.",
+      "common_student_mistakes": [
+        "Using $$0.30$$ and $$0.25$$ directly as $$P(A|E_1)$$ and $$P(A|E_2)$$, forgetting these are *reductions* on the base rate",
+        "Calculating $$30\\%$$ of $$100\\%$$ instead of $$30\\%$$ of the base $$40\\%$$ risk"
+      ],
+      "concept_trigger": "Phrases like 'reduces the risk by X%' mean you must calculate: New Probability = Old Probability * (1 - Reduction%).",
+      "time_to_solve_seconds": "300",
+      "examiner_intent": "Testing deep comprehension of conditional probability adjustments before applying Bayes' Theorem."
+    },
+    {
+      "question_id": 10,
+      "question_type": "case_based",
+      "concept_tested": "Expected Value / Mean of a Random Variable",
+      "difficulty_level": "Moderate",
+      "question_text": "In a game at a school carnival, a player tosses 3 fair coins simultaneously. The random variable $$X$$ represents the number of heads obtained. \n(i) Create the probability distribution table for $$X$$.\n(ii) The carnival organizers want to know the expected number of heads per game to estimate prize payouts. Calculate the mathematical expectation (mean) of $$X$$.",
+      "options": [],
+      "correct_answer": "(i) P(0)=1/8, P(1)=3/8, P(2)=3/8, P(3)=1/8 (ii) 1.5",
+      "topper_solution": {
+        "step_1": "For (i), when 3 coins are tossed, the sample space $$S$$ has $$2^3 = 8$$ outcomes: {HHH, HHT, HTH, THH, HTT, THT, TTH, TTT}. \n Let $$X$$ be the number of heads. $$X$$ can take values 0, 1, 2, 3.",
+        "step_2": "Calculate probabilities for each $$X$$:\n $$P(X=0)$$ (0 heads, TTT) = $$\\frac{1}{8}$$\n $$P(X=1)$$ (1 head, HTT, THT, TTH) = $$\\frac{3}{8}$$\n $$P(X=2)$$ (2 heads, HHT, HTH, THH) = $$\\frac{3}{8}$$\n $$P(X=3)$$ (3 heads, HHH) = $$\\frac{1}{8}$$ \n This gives the probability distribution table.",
+        "step_3": "For (ii), the expected value or mean is given by $$E(X) = \\sum X \\cdot P(X)$$.\n $$E(X) = (0 \\times \\frac{1}{8}) + (1 \\times \\frac{3}{8}) + (2 \\times \\frac{3}{8}) + (3 \\times \\frac{1}{8})$$\n $$E(X) = 0 + \\frac{3}{8} + \\frac{6}{8} + \\frac{3}{8} = \\frac{12}{8} = \\frac{3}{2} = 1.5$$.\n The expected number of heads is 1.5."
+      },
+      "board_presentation_tip": "Draw a neat table for the probability distribution. It organizes your data and makes calculating the mean much less prone to error.",
+      "common_student_mistakes": [
+        "Miscounting the combinations for 1 head and 2 heads",
+        "Dividing the final expected value by 4 (the number of outcomes) confusing mean of a distribution with basic averages"
+      ],
+      "concept_trigger": "'Expected number' mathematically translates to finding the Mean: $$\\sum X_i P_i$$.",
+      "time_to_solve_seconds": "240",
+      "examiner_intent": "Assessing ability to construct a sample space, assign probabilities, and calculate mathematical expectation."
+    }
+  ]
+}

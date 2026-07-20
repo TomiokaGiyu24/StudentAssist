@@ -1,0 +1,772 @@
+{
+    "chapter_name": "Vector Algebra",
+    "board": "CBSE",
+    "class": "12",
+    "exam_year": "2026",
+    "formulas": [
+        {
+            "formula_number": 1,
+            "formula_title": "Magnitude of a Vector",
+            "section_A": {
+                "latex_formula": "$$ |\\vec{a}| = \\sqrt{x^2 + y^2 + z^2} $$",
+                "derived_forms": [
+                    "$$ \\text{Distance between } P(x_1, y_1, z_1) \\text{ and } Q(x_2, y_2, z_2) = \\sqrt{(x_2-x_1)^2 + (y_2-y_1)^2 + (z_2-z_1)^2} $$"
+                ],
+                "special_cases": [
+                    "$$ |\\vec{a}| = 0 \\iff \\vec{a} \\text{ is a zero vector } (\\vec{0}). $$",
+                    "$$ |\\hat{a}| = 1 \\text{ (for unit vectors).} $$"
+                ]
+            },
+            "section_B": {
+                "when_to_use": "To calculate the length or 'norm' of a vector given in component form.",
+                "trigger_keywords": [
+                    "magnitude",
+                    "length",
+                    "distance",
+                    "modulus"
+                ],
+                "question_types": [
+                    "MCQ",
+                    "1_mark",
+                    "2_mark"
+                ],
+                "common_mistakes": [
+                    "Forgetting to square the components before adding.",
+                    "Including the unit vectors i, j, k inside the square root calculation (e.g., writing sqrt((xi)^2...))."
+                ],
+                "board_traps": [
+                    "Giving a vector with negative components like $$ -3\\hat{i} - 4\\hat{j} $$. Students often forget that squaring a negative number results in a positive value."
+                ],
+                "examiner_twist_pattern": "Asking for the value of a scalar 'k' if the magnitude of $$ k(\\hat{i} + \\hat{j} + \\hat{k}) $$ is a specific value."
+            },
+            "section_C": {
+                "why_students_fail": "Conceptual confusion between a vector (which has direction) and its magnitude (which is a pure scalar distance).",
+                "how_to_think": "Think of the Pythagorean theorem in 3D. The magnitude is just the straight-line distance from the tail to the head of the arrow.",
+                "thirty_second_strategy": "Square each coefficient, sum them up, and take the square root. Ignore the i, j, k completely for this step.",
+                "mental_shortcut": "Magnitude = Square root of (Sum of squares of coefficients).",
+                "micro_example": "If $$ \\vec{a} = 3\\hat{i} - 4\\hat{j} $$, then $$ |\\vec{a}| = \\sqrt{3^2 + (-4)^2} = 5 $$."
+            }
+        },
+        {
+            "formula_number": 2,
+            "formula_title": "Unit Vector in the Direction of a Vector",
+            "section_A": {
+                "latex_formula": "$$ \\hat{a} = \\frac{\\vec{a}}{|\\vec{a}|} $$",
+                "derived_forms": [
+                    "$$ \\vec{a} = |\\vec{a}| \\hat{a} $$",
+                    "$$ \\text{Vector of magnitude 'k' in direction of } \\vec{a} = k \\hat{a} = k \\left( \\frac{\\vec{a}}{|\\vec{a}|} \\right) $$"
+                ],
+                "special_cases": [
+                    "$$ \\hat{i}, \\hat{j}, \\hat{k} \\text{ are unit vectors along x, y, z axes respectively.} $$"
+                ]
+            },
+            "section_B": {
+                "when_to_use": "When you need to extract the 'direction' part of a vector while ignoring its 'size'.",
+                "trigger_keywords": [
+                    "unit vector",
+                    "direction of",
+                    "magnitude 7 (or any k) in direction of"
+                ],
+                "question_types": [
+                    "MCQ",
+                    "2_mark"
+                ],
+                "common_mistakes": [
+                    "Leaving the answer as $$ \\vec{a}/|\\vec{a}| $$ without simplifying the scalar division across all i, j, k components.",
+                    "In 'magnitude k' questions, students often forget to divide by the original magnitude before multiplying by k."
+                ],
+                "board_traps": [
+                    "Asking for a unit vector 'opposite' to the direction of $$ \\vec{a} $$. This requires a negative sign: $$ -\\hat{a} $$.",
+                    "Asking for a vector of magnitude 5 in the direction of $$ \\vec{PQ} $$. Students often use $$ \\vec{P} $$ or $$ \\vec{Q} $$ instead of the displacement vector $$ \\vec{Q} - \\vec{P} $$."
+                ],
+                "examiner_twist_pattern": "Combining with collinearity; asking for a unit vector in the direction of the sum of two vectors."
+            },
+            "section_C": {
+                "why_students_fail": "Not understanding that a unit vector is a 'pure direction' tool. Its job is to point, not to measure length.",
+                "how_to_think": "Normalization. You are 'shrinking' or 'stretching' the original vector until its length becomes exactly 1, without changing where it points.",
+                "thirty_second_strategy": "1. Find magnitude. 2. Divide the original vector by that magnitude. 3. If a specific magnitude 'k' is requested, multiply the result by 'k'.",
+                "mental_shortcut": "Unit Vector = Vector / its own length.",
+                "micro_example": "Vector $$ \\vec{a} = \\hat{i} + \\hat{j} $$. Magnitude is $$ \\sqrt{2} $$. Unit vector is $$ (1/\\sqrt{2})\\hat{i} + (1/\\sqrt{2})\\hat{j} $$."
+            }
+        },
+        {
+            "formula_number": 3,
+            "formula_title": "Direction Cosines and Direction Ratios",
+            "section_A": {
+                "latex_formula": "$$ l = \\cos \\alpha, \\quad m = \\cos \\beta, \\quad n = \\cos \\gamma $$",
+                "derived_forms": [
+                    "$$ l^2 + m^2 + n^2 = 1 $$",
+                    "$$ l = \\frac{a}{\\sqrt{a^2+b^2+c^2}}, \\dots $$",
+                    "$$ \\vec{a} = |\\vec{a}|(l\\hat{i} + m\\hat{j} + n\\hat{k}) $$"
+                ],
+                "special_cases": [
+                    "$$ \\text{Direction ratios } (a, b, c) \\text{ of } x\\hat{i} + y\\hat{j} + z\\hat{k} \\text{ are simply } (x, y, z). $$"
+                ]
+            },
+            "section_B": {
+                "when_to_use": "To define the orientation of a vector relative to the coordinate axes.",
+                "trigger_keywords": [
+                    "direction cosines",
+                    "direction ratios",
+                    "angles with axes",
+                    "inclination"
+                ],
+                "question_types": [
+                    "MCQ",
+                    "1_mark",
+                    "2_mark"
+                ],
+                "common_mistakes": [
+                    "Assuming $$ a^2 + b^2 + c^2 = 1 $$ for direction ratios. This ONLY applies to direction cosines ($$ l, m, n $$).",
+                    "Confusing the angles $$ \\alpha, \\beta, \\gamma $$ with their cosines."
+                ],
+                "board_traps": [
+                    "Asking to find direction cosines of the x-axis. (Answer: 1, 0, 0).",
+                    "Giving angles like 45°, 60° and asking if a vector can exist with these angles. (Check if $$ \\cos^2 45 + \\cos^2 60 + \\cos^2 \\gamma = 1 $$)."
+                ],
+                "examiner_twist_pattern": "Giving a vector and asking for the angle it makes with the z-axis (finding $$ \\gamma $$)."
+            },
+            "section_C": {
+                "why_students_fail": "Lack of 3D visualization. They forget that a vector has a relationship with all three axes simultaneously.",
+                "how_to_think": "Direction cosines are just the components of the UNIT vector. If the unit vector is $$ 0.6\\hat{i} + 0.8\\hat{j} $$, the DCs are 0.6 and 0.8.",
+                "thirty_second_strategy": "Find the unit vector. The coefficients of i, j, k in the unit vector ARE the direction cosines (l, m, n).",
+                "mental_shortcut": "DC = Unit vector components. DR = Any vector components.",
+                "micro_example": "For $$ \\hat{i} + \\hat{j} + \\hat{k} $$, DRs are (1,1,1). Magnitude is $$ \\sqrt{3} $$. DCs are $$ (1/\\sqrt{3}, 1/\\sqrt{3}, 1/\\sqrt{3}) $$."
+            }
+        },
+        {
+            "formula_number": 4,
+            "formula_title": "Scalar (Dot) Product",
+            "section_A": {
+                "latex_formula": "$$ \\vec{a} \\cdot \\vec{b} = |\\vec{a}| |\\vec{b}| \\cos \\theta $$",
+                "derived_forms": [
+                    "$$ \\vec{a} \\cdot \\vec{b} = a_1b_1 + a_2b_2 + a_3b_3 $$",
+                    "$$ \\cos \\theta = \\frac{\\vec{a} \\cdot \\vec{b}}{|\\vec{a}| |\\vec{b}|} $$",
+                    "$$ \\text{Projection of } \\vec{a} \\text{ on } \\vec{b} = \\frac{\\vec{a} \\cdot \\vec{b}}{|\\vec{b}|} $$"
+                ],
+                "special_cases": [
+                    "$$ \\vec{a} \\cdot \\vec{b} = 0 \\iff \\vec{a} \\perp \\vec{b} \\text{ (Perpendicularity condition).} $$",
+                    "$$ \\vec{a} \\cdot \\vec{a} = |\\vec{a}|^2 $$",
+                    "$$ \\hat{i} \\cdot \\hat{i} = 1, \\quad \\hat{i} \\cdot \\hat{j} = 0 $$"
+                ]
+            },
+            "section_B": {
+                "when_to_use": "To find the angle between vectors, check for perpendicularity, or find the shadow (projection) of one vector on another.",
+                "trigger_keywords": [
+                    "dot product",
+                    "angle between",
+                    "perpendicular",
+                    "orthogonal",
+                    "projection"
+                ],
+                "question_types": [
+                    "2_mark",
+                    "3_mark",
+                    "case_based"
+                ],
+                "common_mistakes": [
+                    "Writing the dot product result as a vector. It is ALWAYS a scalar (a single number).",
+                    "Confusing projection of A on B with projection of B on A (the denominator changes)."
+                ],
+                "board_traps": [
+                    "Asking to find the angle between $$ \\vec{a} $$ and $$ \\vec{b} $$ when they are given in a form like $$ |\\vec{a}+\\vec{b}| = |\\vec{a}-\\vec{b}| $$ (which implies they are perpendicular)."
+                ],
+                "examiner_twist_pattern": "Using the property $$ |\\vec{a}+\\vec{b}|^2 = |\\vec{a}|^2 + |\\vec{b}|^2 + 2\\vec{a}\\cdot\\vec{b} $$ in 5-mark proof questions."
+            },
+            "section_C": {
+                "why_students_fail": "Forgetting that dot product measures 'overlap'. If vectors are at 90 degrees, they have zero overlap, so dot product is zero.",
+                "how_to_think": "The dot product tells you how much of one vector is going in the same direction as the other. Multiply matching components and sum them.",
+                "thirty_second_strategy": "1. Multiply i-coefficients. 2. Multiply j-coefficients. 3. Multiply k-coefficients. 4. Add the three results. If the result is 0, they are perpendicular.",
+                "mental_shortcut": "Perpendicular = Dot product is Zero.",
+                "micro_example": "$$ (2\\hat{i} + 3\\hat{j}) \\cdot (4\\hat{i} - \\hat{j}) = (2)(4) + (3)(-1) = 8 - 3 = 5 $$."
+            }
+        },
+        {
+            "formula_number": 5,
+            "formula_title": "Vector (Cross) Product",
+            "section_A": {
+                "latex_formula": "$$ \\vec{a} \\times \\vec{b} = (|\\vec{a}| |\\vec{b}| \\sin \\theta) \\hat{n} $$",
+                "derived_forms": [
+                    "$$ \\vec{a} \\times \\vec{b} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ a_1 & a_2 & a_3 \\\\ b_1 & b_2 & b_3 \\end{vmatrix} $$",
+                    "$$ \\text{Area of Parallelogram} = |\\vec{a} \\times \\vec{b}| $$",
+                    "$$ \\text{Area of Triangle} = \\frac{1}{2} |\\vec{a} \\times \\vec{b}| $$"
+                ],
+                "special_cases": [
+                    "$$ \\vec{a} \\times \\vec{b} = \\vec{0} \\iff \\vec{a} \\parallel \\vec{b} \\text{ (Collinearity condition).} $$",
+                    "$$ \\vec{a} \\times \\vec{b} = -(\\vec{b} \\times \\vec{a}) \\text{ (Anti-commutative).} $$",
+                    "$$ \\hat{i} \\times \\hat{j} = \\hat{k}, \\quad \\hat{j} \\times \\hat{i} = -\\hat{k} $$"
+                ]
+            },
+            "section_B": {
+                "when_to_use": "To find a vector perpendicular to two given vectors, or to calculate areas.",
+                "trigger_keywords": [
+                    "cross product",
+                    "vector product",
+                    "perpendicular to both",
+                    "area of triangle",
+                    "collinear"
+                ],
+                "question_types": [
+                    "2_mark",
+                    "3_mark",
+                    "5_mark"
+                ],
+                "common_mistakes": [
+                    "Calculating the determinant incorrectly (sign errors in the 'j' component are most common).",
+                    "Confusing the area of a triangle ($$ 1/2 $$ factor) with the area of a parallelogram (no $$ 1/2 $$)."
+                ],
+                "board_traps": [
+                    "Asking for a UNIT vector perpendicular to both A and B. Students find the cross product but forget to divide by its magnitude."
+                ],
+                "examiner_twist_pattern": "Giving diagonals of a parallelogram instead of adjacent sides. (Formula for diagonals: $$ 1/2 |\\vec{d_1} \\times \\vec{d_2}| $$)."
+            },
+            "section_C": {
+                "why_students_fail": "Treating cross product like dot product. Cross product is a VECTOR, dot product is a SCALAR.",
+                "how_to_think": "Cross product produces a third vector that is at right angles to the 'floor' created by the first two vectors. Use the right-hand rule.",
+                "thirty_second_strategy": "Set up a 3x3 determinant. Row 1: i, j, k. Row 2: Vector A. Row 3: Vector B. Expand the determinant carefully.",
+                "mental_shortcut": "Cross Product = Area / Perpendicular search tool.",
+                "micro_example": "$$ \\hat{i} \\times \\hat{j} = \\hat{k} $$. This vector is perpendicular to the xy-plane."
+            }
+        },
+        {
+            "formula_number": 6,
+            "formula_title": "Vector Addition (Triangle and Parallelogram Laws)",
+            "section_A": {
+                "latex_formula": "$$ \\vec{a} + \\vec{b} = \\vec{c} $$",
+                "derived_forms": [
+                    "$$ \\text{Triangle Law: } \\vec{AB} + \\vec{BC} = \\vec{AC} $$",
+                    "$$ \\text{Parallelogram Law: } \\vec{OA} + \\vec{OB} = \\vec{OC} \\text{ (where } OC \\text{ is the diagonal)} $$"
+                ],
+                "special_cases": [
+                    "$$ \\vec{a} + \\vec{b} = \\vec{b} + \\vec{a} \\text{ (Commutative)} $$",
+                    "$$ (\\vec{a} + \\vec{b}) + \\vec{c} = \\vec{a} + (\\vec{b} + \\vec{c}) \\text{ (Associative)} $$"
+                ]
+            },
+            "section_B": {
+                "when_to_use": "When finding the resultant of two vectors or the third side of a triangle in vector form.",
+                "trigger_keywords": [
+                    "resultant",
+                    "sum of vectors",
+                    "triangle law",
+                    "parallelogram law"
+                ],
+                "question_types": [
+                    "MCQ",
+                    "2_mark"
+                ],
+                "common_mistakes": [
+                    "Adding magnitudes directly ($|a| + |b|$) instead of using vector components.",
+                    "Ignoring the direction of the arrows when applying the Triangle Law (it must be tail-to-head)."
+                ],
+                "board_traps": [
+                    "Giving vectors in a cycle, e.g., $$ \\vec{AB} + \\vec{BC} + \\vec{CA} $$. Students often forget this equals $$ \\vec{0} $$.",
+                    "Asking for the magnitude of the sum, which requires the formula $$ \\sqrt{a^2 + b^2 + 2ab \\cos \\theta} $$ from physics."
+                ],
+                "examiner_twist_pattern": "Representing the sides of a triangle as vectors and asking to prove the triangle is right-angled or isosceles using addition properties."
+            },
+            "section_C": {
+                "why_students_fail": "Treating vectors like ordinary numbers and forgetting that the direction determines the sign.",
+                "how_to_think": "Think of the Triangle Law as a path. Going from A to B and then B to C is the same net displacement as going directly from A to C.",
+                "thirty_second_strategy": "Draw a quick sketch. Ensure the second vector starts where the first one ends. The resultant starts at the very beginning and ends at the very end.",
+                "mental_shortcut": "Tip-to-Tail = Addition.",
+                "micro_example": "[Image of the triangle law of vector addition] If $$ \\vec{a} = 2\\hat{i} $$ and $$ \\vec{b} = 3\\hat{j} $$, then $$ \\vec{a} + \\vec{b} = 2\\hat{i} + 3\\hat{j} $$."
+            }
+        },
+        {
+            "formula_number": 7,
+            "formula_title": "Vector Joining Two Points",
+            "section_A": {
+                "latex_formula": "$$ \\vec{P_1P_2} = (x_2-x_1)\\hat{i} + (y_2-y_1)\\hat{j} + (z_2-z_1)\\hat{k} $$",
+                "derived_forms": [
+                    "$$ \\vec{P_1P_2} = \\vec{OP_2} - \\vec{OP_1} \\text{ (Position Vector of Head - Position Vector of Tail)} $$"
+                ],
+                "special_cases": [
+                    "$$ |\\vec{P_1P_2}| = \\sqrt{(x_2-x_1)^2 + (y_2-y_1)^2 + (z_2-z_1)^2} $$"
+                ]
+            },
+            "section_B": {
+                "when_to_use": "When you are given coordinates of two points and need the vector connecting them.",
+                "trigger_keywords": [
+                    "vector joining",
+                    "displacement vector",
+                    "points A and B"
+                ],
+                "question_types": [
+                    "MCQ",
+                    "1_mark",
+                    "2_mark"
+                ],
+                "common_mistakes": [
+                    "Subtracting coordinates in the wrong order (Tail - Head instead of Head - Tail).",
+                    "Confusing the position vector of a point with the vector between two points."
+                ],
+                "board_traps": [
+                    "Giving point P and vector PQ, and asking for the coordinates of Q. Students often subtract when they should add."
+                ],
+                "examiner_twist_pattern": "Giving points as vertices of a polygon and asking for the vector representing a specific side or diagonal."
+            },
+            "section_C": {
+                "why_students_fail": "Mixing up the starting and ending points. Direction is critical; $$ \\vec{AB} \\neq \\vec{BA} $$.",
+                "how_to_think": "The vector is the 'instruction' on how to get from point 1 to point 2. You subtract the starting location from the destination.",
+                "thirty_second_strategy": "Take the second point's coordinates, subtract the first point's coordinates, and attach i, j, k. Always 'Destination minus Source'.",
+                "mental_shortcut": "Vector = Final - Initial.",
+                "micro_example": "Points A(1,2) and B(4,6). $$ \\vec{AB} = (4-1)\\hat{i} + (6-2)\\hat{j} = 3\\hat{i} + 4\\hat{j} $$."
+            }
+        },
+        {
+            "formula_number": 8,
+            "formula_title": "Section Formula (Internal and External Division)",
+            "section_A": {
+                "latex_formula": "$$ \\vec{r} = \\frac{m\\vec{b} \\pm n\\vec{a}}{m \\pm n} $$",
+                "derived_forms": [
+                    "$$ \\text{Internal (+): } \\vec{r} = \\frac{m\\vec{b} + n\\vec{a}}{m + n} $$",
+                    "$$ \\text{External (-): } \\vec{r} = \\frac{m\\vec{b} - n\\vec{a}}{m - n} $$",
+                    "$$ \\text{Midpoint: } \\vec{r} = \\frac{\\vec{a} + \\vec{b}}{2} $$"
+                ],
+                "special_cases": [
+                    "$$ \\text{Centroid of a triangle: } \\vec{g} = \\frac{\\vec{a} + \\vec{b} + \\vec{c}}{3} $$"
+                ]
+            },
+            "section_B": {
+                "when_to_use": "To find the position vector of a point that divides a line segment in a given ratio.",
+                "trigger_keywords": [
+                    "divides internally",
+                    "divides externally",
+                    "ratio m:n",
+                    "midpoint"
+                ],
+                "question_types": [
+                    "2_mark",
+                    "3_mark"
+                ],
+                "common_mistakes": [
+                    "Swapping m and n. Remember: 'm' multiplies the distant vector 'b', and 'n' multiplies the distant vector 'a'.",
+                    "Using the internal formula for an external division question."
+                ],
+                "board_traps": [
+                    "Giving the ratio for external division as 3:2 and students using addition in the denominator.",
+                    "Asking to find the ratio 'k:1' when the dividing point is known."
+                ],
+                "examiner_twist_pattern": "Combining the section formula with the proof that medians of a triangle are concurrent."
+            },
+            "section_C": {
+                "why_students_fail": "Algebraic errors when the position vectors involve fractions or many negative components.",
+                "how_to_think": "It's a weighted average. The point 'r' is closer to the vector that has the higher 'weight' (ratio coefficient).",
+                "thirty_second_strategy": "[Image of section formula in vectors                    ] Use the cross-multiplication visual: 'm' goes with the far vector, 'n' goes with the near vector. Add for inside, subtract for outside.",
+                "mental_shortcut": "Section Formula = (Cross-multiply vectors with ratios) / (Sum/Diff of ratios).",
+                "micro_example": "A=i, B=j, ratio 2:1 internally. $$ \\vec{r} = (2j + 1i) / 3 = \\frac{1}{3}\\hat{i} + \\frac{2}{3}\\hat{j} $$."
+            }
+        },
+        {
+            "formula_number": 9,
+            "formula_title": "Collinearity of Three Points",
+            "section_A": {
+                "latex_formula": "$$ \\vec{AB} = \\lambda \\vec{BC} \\text{ or } \\vec{AB} \\times \\vec{BC} = \\vec{0} $$",
+                "derived_forms": [
+                    "$$ \\text{Area of triangle formed by A, B, C is 0} $$",
+                    "$$ \\vec{a} \\times \\vec{b} + \\vec{b} \\times \\vec{c} + \\vec{c} \\times \\vec{a} = \\vec{0} $$"
+                ],
+                "special_cases": [
+                    "$$ \\text{For points A, B, C to be collinear, } |\\vec{AB}| + |\\vec{BC}| = |\\vec{AC}| $$"
+                ]
+            },
+            "section_B": {
+                "when_to_use": "To prove that three given points lie on the same straight line.",
+                "trigger_keywords": [
+                    "collinear",
+                    "same line",
+                    "points on a line"
+                ],
+                "question_types": [
+                    "2_mark",
+                    "3_mark",
+                    "4_mark"
+                ],
+                "common_mistakes": [
+                    "Proving vectors are parallel but forgetting to mention they share a common point (B).",
+                    "Mixing up position vectors with side vectors."
+                ],
+                "board_traps": [
+                    "Giving three points and asking to find a missing coordinate 'x' that makes them collinear."
+                ],
+                "examiner_twist_pattern": "Asking to prove collinearity using the Section Formula (showing one point divides the other two in some ratio)."
+            },
+            "section_C": {
+                "why_students_fail": "They often confuse the condition for parallel vectors with the condition for collinear points.",
+                "how_to_think": "If two vectors are parallel and they share a point, they MUST be on the same line. If they didn't share a point, they would be like train tracks.",
+                "thirty_second_strategy": "1. Find vector AB. 2. Find vector BC. 3. Check if one is a multiple of the other (e.g., AB = 2 BC). If yes, they are collinear.",
+                "mental_shortcut": "Collinear = Parallel + Shared Point.",
+                "micro_example": "If $$ \\vec{AB} = \\hat{i}+\\hat{j} $$ and $$ \\vec{BC} = 2\\hat{i}+2\\hat{j} $$, points A, B, C are collinear."
+            }
+        },
+        {
+            "formula_number": 10,
+            "formula_title": "Area of Parallelogram (Diagonal Form)",
+            "section_A": {
+                "latex_formula": "$$ \\text{Area} = \\frac{1}{2} |\\vec{d_1} \\times \\vec{d_2}| $$",
+                "derived_forms": [
+                    "$$ \\vec{d_1} = \\vec{a} + \\vec{b} \\text{ and } \\vec{d_2} = \\vec{a} - \\vec{b} \\text{ (where a, b are adjacent sides)} $$"
+                ],
+                "special_cases": [
+                    "$$ \\text{Area using adjacent sides } \\vec{a}, \\vec{b} = |\\vec{a} \\times \\vec{b}| $$"
+                ]
+            },
+            "section_B": {
+                "when_to_use": "When the vectors given in the question represent the diagonals of a parallelogram rather than its sides.",
+                "trigger_keywords": [
+                    "diagonals",
+                    "area of parallelogram",
+                    "d1 and d2"
+                ],
+                "question_types": [
+                    "2_mark",
+                    "3_mark"
+                ],
+                "common_mistakes": [
+                    "Forgetting the '1/2' factor when using diagonals (a very common error; students confuse it with the side formula).",
+                    "Using the diagonal formula when sides are given."
+                ],
+                "board_traps": [
+                    "Giving vectors $$ \\vec{a} $$ and $$ \\vec{b} $$ and asking for the area of a parallelogram whose diagonals are $$ \\vec{a} $$ and $$ \\vec{b} $$."
+                ],
+                "examiner_twist_pattern": "Asking for the area of a rhombus where diagonals are given as vectors (since a rhombus is a parallelogram, the same formula applies)."
+            },
+            "section_C": {
+                "why_students_fail": "Memory interference. They memorize $$ |a \\times b| $$ for parallelograms and $$ 1/2 |a \\times b| $$ for triangles, then forget that diagonals also require a $$ 1/2 $$.",
+                "how_to_think": "[Image of area of parallelogram using diagonals] A parallelogram is made of two triangles formed by its diagonals. The formula adjusts because diagonals are combinations of sides.",
+                "thirty_second_strategy": "Read carefully: Are these 'Sides' or 'Diagonals'? Sides = No 1/2. Diagonals = 1/2. Triangle = 1/2.",
+                "mental_shortcut": "Diagonals or Triangle? Use 1/2. Adjacent Sides? No 1/2.",
+                "micro_example": "Diagonals $$ \\hat{i} $$ and $$ \\hat{j} $$. Area = $$ 1/2 |\\hat{i} \\times \\hat{j}| = 1/2 |\\hat{k}| = 0.5 $$ sq units."
+            }
+        },
+
+
+
+
+        {
+
+  "trend_analysis": {
+    "dominant_concepts_from_pyqs": [
+      "Projection of a vector on a line or another vector",
+      "Finding a unit vector perpendicular to two given vectors using cross product",
+      "Using the dot product property: $$ |\\vec{a} + \\vec{b}|^2 = |\\vec{a}|^2 + |\\vec{b}|^2 + 2(\\vec{a} \\cdot \\vec{b}) $$",
+      "Area of a triangle and parallelogram using cross product",
+      "Direction cosines and direction ratios of a vector"
+    ],
+    "question_patterns_seen": [
+      "1-mark MCQs finding the magnitude, projection, or angle between two vectors",
+      "2-mark questions evaluating the dot product when vectors are mutually perpendicular or unit vectors",
+      "3-mark questions asking to find an unknown vector satisfying perpendicularity conditions and a dot product constraint",
+      "Case study questions based on position vectors representing physical locations (like drones, boats, or vertices of a field)"
+    ]
+  },
+  "high_leverage_ncert_questions": [
+    {
+      "question_id": 1,
+      "ncert_reference": {
+        "exercise": "Exercise 10.3",
+        "question_number": "13"
+      },
+      "question_text": "If $$ \\vec{a}, \\vec{b}, \\vec{c} $$ are unit vectors such that $$ \\vec{a} + \\vec{b} + \\vec{c} = \\vec{0} $$, find the value of $$ \\vec{a} \\cdot \\vec{b} + \\vec{b} \\cdot \\vec{c} + \\vec{c} \\cdot \\vec{a} $$.",
+      "concepts_tested": [
+        "Properties of Dot Product",
+        "Magnitude of Unit Vectors",
+        "Expansion of $$ |\\vec{a} + \\vec{b} + \\vec{c}|^2 $$"
+      ],
+      "repeat_probability_2026": "High",
+      "difficulty_level": "Moderate",
+      "topper_solution": {
+        "step_1": "Given $$ \\vec{a} + \\vec{b} + \\vec{c} = \\vec{0} $$. Squaring both sides: $$ |\\vec{a} + \\vec{b} + \\vec{c}|^2 = 0 $$.",
+        "step_2": "Expand using dot product properties: $$ |\\vec{a}|^2 + |\\vec{b}|^2 + |\\vec{c}|^2 + 2(\\vec{a} \\cdot \\vec{b} + \\vec{b} \\cdot \\vec{c} + \\vec{c} \\cdot \\vec{a}) = 0 $$.",
+        "step_3": "Since they are unit vectors, $$ |\\vec{a}| = |\\vec{b}| = |\\vec{c}| = 1 $$. Substituting these values gives $$ 1 + 1 + 1 + 2(\\vec{a} \\cdot \\vec{b} + \\vec{b} \\cdot \\vec{c} + \\vec{c} \\cdot \\vec{a}) = 0 $$. This simplifies to $$ 2(\\vec{a} \\cdot \\vec{b} + \\vec{b} \\cdot \\vec{c} + \\vec{c} \\cdot \\vec{a}) = -3 $$. Final answer: $$ -\\frac{3}{2} $$"
+      },
+      "board_writing_tip": "Explicitly state that $$ |\\vec{x}|^2 = \\vec{x} \\cdot \\vec{x} $$ before expanding, and mention that the magnitude of unit vectors is 1 to secure all step marks.",
+      "common_student_mistakes": [
+        "Forgetting the factor of 2 in the expansion",
+        "Assuming the vectors are mutually perpendicular and concluding the dot products are zero"
+      ],
+      "estimated_time_seconds": "180"
+    },
+    {
+      "question_id": 2,
+      "ncert_reference": {
+        "exercise": "Exercise 10.4",
+        "question_number": "2"
+      },
+      "question_text": "Find a unit vector perpendicular to each of the vectors $$ \\vec{a} + \\vec{b} $$ and $$ \\vec{a} - \\vec{b} $$, where $$ \\vec{a} = 3\\hat{i} + 2\\hat{j} + 2\\hat{k} $$ and $$ \\vec{b} = \\hat{i} + 2\\hat{j} - 2\\hat{k} $$.",
+      "concepts_tested": [
+        "Cross Product",
+        "Vectors perpendicular to a plane",
+        "Unit vectors"
+      ],
+      "repeat_probability_2026": "High",
+      "difficulty_level": "Moderate",
+      "topper_solution": {
+        "step_1": "Calculate $$ \\vec{p} = \\vec{a} + \\vec{b} = 4\\hat{i} + 4\\hat{j} + 0\\hat{k} $$ and $$ \\vec{q} = \\vec{a} - \\vec{b} = 2\\hat{i} + 0\\hat{j} + 4\\hat{k} $$.",
+        "step_2": "Find the cross product $$ \\vec{p} \\times \\vec{q} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 4 & 4 & 0 \\\\ 2 & 0 & 4 \\end{vmatrix} = \\hat{i}(16 - 0) - \\hat{j}(16 - 0) + \\hat{k}(0 - 8) = 16\\hat{i} - 16\\hat{j} - 8\\hat{k} $$.",
+        "step_3": "Find magnitude: $$ |\\vec{p} \\times \\vec{q}| = \\sqrt{16^2 + (-16)^2 + (-8)^2} = \\sqrt{256 + 256 + 64} = \\sqrt{576} = 24 $$. The unit vector is $$ \\pm \\frac{\\vec{p} \\times \\vec{q}}{|\\vec{p} \\times \\vec{q}|} = \\pm \\frac{16\\hat{i} - 16\\hat{j} - 8\\hat{k}}{24} $$. Final answer: $$ \\pm \\left(\\frac{2}{3}\\hat{i} - \\frac{2}{3}\\hat{j} - \\frac{1}{3}\\hat{k}\\right) $$"
+      },
+      "board_writing_tip": "Always include the $$ \\pm $$ sign when finding 'a unit vector perpendicular to' unless direction constraints are specifically given.",
+      "common_student_mistakes": [
+        "Missing the $$ \\pm $$ sign in the final answer",
+        "Making sign errors while evaluating the 3x3 determinant"
+      ],
+      "estimated_time_seconds": "300"
+    },
+    {
+      "question_id": 3,
+      "ncert_reference": {
+        "exercise": "Miscellaneous Exercise",
+        "question_number": "12"
+      },
+      "question_text": "Let $$ \\vec{a} = \\hat{i} + 4\\hat{j} + 2\\hat{k} $$, $$ \\vec{b} = 3\\hat{i} - 2\\hat{j} + 7\\hat{k} $$ and $$ \\vec{c} = 2\\hat{i} - \\hat{j} + 4\\hat{k} $$. Find a vector $$ \\vec{d} $$ which is perpendicular to both $$ \\vec{a} $$ and $$ \\vec{b} $$, and $$ \\vec{c} \\cdot \\vec{d} = 15 $$.",
+      "concepts_tested": [
+        "Cross Product for perpendicular vectors",
+        "Dot Product constraint",
+        "Scalar multiple of a vector"
+      ],
+      "repeat_probability_2026": "High",
+      "difficulty_level": "Board-Tricky",
+      "topper_solution": {
+        "step_1": "Since $$ \\vec{d} $$ is perpendicular to both $$ \\vec{a} $$ and $$ \\vec{b} $$, it is parallel to $$ \\vec{a} \\times \\vec{b} $$. Let $$ \\vec{d} = \\lambda (\\vec{a} \\times \\vec{b}) $$.",
+        "step_2": "Calculate $$ \\vec{a} \\times \\vec{b} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 1 & 4 & 2 \\\\ 3 & -2 & 7 \\end{vmatrix} = \\hat{i}(28 + 4) - \\hat{j}(7 - 6) + \\hat{k}(-2 - 12) = 32\\hat{i} - \\hat{j} - 14\\hat{k} $$. So, $$ \\vec{d} = \\lambda(32\\hat{i} - \\hat{j} - 14\\hat{k}) $$.",
+        "step_3": "Use the condition $$ \\vec{c} \\cdot \\vec{d} = 15 $$: $$ (2\\hat{i} - \\hat{j} + 4\\hat{k}) \\cdot \\lambda(32\\hat{i} - \\hat{j} - 14\\hat{k}) = 15 $$. This gives $$ \\lambda(64 + 1 - 56) = 15 \\implies 9\\lambda = 15 \\implies \\lambda = \\frac{5}{3} $$. Final answer: $$ \\vec{d} = \\frac{160}{3}\\hat{i} - \\frac{5}{3}\\hat{j} - \\frac{70}{3}\\hat{k} $$"
+      },
+      "board_writing_tip": "You can also solve this by assuming $$ \\vec{d} = x\\hat{i} + y\\hat{j} + z\\hat{k} $$ and creating 3 simultaneous equations, but the cross product method is much faster and less error-prone.",
+      "common_student_mistakes": [
+        "Assuming $$ \\vec{d} $$ is exactly equal to $$ \\vec{a} \\times \\vec{b} $$ and forgetting the scalar multiplier $$ \\lambda $$",
+        "Errors in the dot product calculation for $$ \\vec{c} \\cdot \\vec{d} $$ due to negative signs"
+      ],
+      "estimated_time_seconds": "360"
+    },
+    {
+      "question_id": 4,
+      "ncert_reference": {
+        "exercise": "Exercise 10.3",
+        "question_number": "4"
+      },
+      "question_text": "Find the projection of the vector $$ \\hat{i} + 3\\hat{j} + 7\\hat{k} $$ on the vector $$ 7\\hat{i} - \\hat{j} + 8\\hat{k} $$.",
+      "concepts_tested": [
+        "Projection of one vector onto another",
+        "Dot Product"
+      ],
+      "repeat_probability_2026": "High",
+      "difficulty_level": "Easy",
+      "topper_solution": {
+        "step_1": "Let $$ \\vec{a} = \\hat{i} + 3\\hat{j} + 7\\hat{k} $$ and $$ \\vec{b} = 7\\hat{i} - \\hat{j} + 8\\hat{k} $$. The projection of $$ \\vec{a} $$ on $$ \\vec{b} $$ is given by $$ \\frac{\\vec{a} \\cdot \\vec{b}}{|\\vec{b}|} $$.",
+        "step_2": "Calculate the dot product: $$ \\vec{a} \\cdot \\vec{b} = (1)(7) + (3)(-1) + (7)(8) = 7 - 3 + 56 = 60 $$.",
+        "step_3": "Calculate the magnitude of $$ \\vec{b} $$: $$ |\\vec{b}| = \\sqrt{7^2 + (-1)^2 + 8^2} = \\sqrt{49 + 1 + 64} = \\sqrt{114} $$. Final answer: $$ \\frac{60}{\\sqrt{114}} $$"
+      },
+      "board_writing_tip": "Explicitly state the formula for projection. If the answer has a root in the denominator, you don't necessarily need to rationalize it unless asked, but keeping it as $$ \\frac{60}{\\sqrt{114}} $$ is completely acceptable.",
+      "common_student_mistakes": [
+        "Dividing by the magnitude of $$ \\vec{a} $$ instead of $$ \\vec{b} $$",
+        "Writing the answer as a vector instead of a scalar value"
+      ],
+      "estimated_time_seconds": "120"
+    },
+    {
+      "question_id": 5,
+      "ncert_reference": {
+        "exercise": "Exercise 10.4",
+        "question_number": "9"
+      },
+      "question_text": "Find the area of the triangle with vertices A(1, 1, 2), B(2, 3, 5) and C(1, 5, 5).",
+      "concepts_tested": [
+        "Position Vectors",
+        "Vectors connecting two points",
+        "Area of a triangle using Cross Product"
+      ],
+      "repeat_probability_2026": "Medium",
+      "difficulty_level": "Moderate",
+      "topper_solution": {
+        "step_1": "Find the adjacent vectors representing the sides of the triangle, e.g., $$ \\vec{AB} $$ and $$ \\vec{AC} $$. $$ \\vec{AB} = (2-1)\\hat{i} + (3-1)\\hat{j} + (5-2)\\hat{k} = \\hat{i} + 2\\hat{j} + 3\\hat{k} $$. $$ \\vec{AC} = (1-1)\\hat{i} + (5-1)\\hat{j} + (5-2)\\hat{k} = 0\\hat{i} + 4\\hat{j} + 3\\hat{k} $$.",
+        "step_2": "Calculate the cross product $$ \\vec{AB} \\times \\vec{AC} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 1 & 2 & 3 \\\\ 0 & 4 & 3 \\end{vmatrix} = \\hat{i}(6 - 12) - \\hat{j}(3 - 0) + \\hat{k}(4 - 0) = -6\\hat{i} - 3\\hat{j} + 4\\hat{k} $$.",
+        "step_3": "The area of the triangle is $$ \\frac{1}{2} |\\vec{AB} \\times \\vec{AC}| $$. Calculate magnitude: $$ |\\vec{AB} \\times \\vec{AC}| = \\sqrt{(-6)^2 + (-3)^2 + 4^2} = \\sqrt{36 + 9 + 16} = \\sqrt{61} $$.  $$ \\frac{\\sqrt{61}}{2} $$ sq units."
+      },
+      "board_writing_tip": "Always write 'sq units' at the end of an area problem. Also, make sure both vectors initiate from the same vertex (e.g., A to B and A to C).",
+      "common_student_mistakes": [
+        "Using position vectors of the vertices directly in the cross product instead of finding the edge vectors first",
+        "Forgetting to divide the magnitude of the cross product by 2"
+      ],
+      "estimated_time_seconds": "240"
+    },
+    {
+      "question_id": 6,
+      "ncert_reference": {
+        "exercise": "Exercise 10.3",
+        "question_number": "16"
+      },
+      "question_text": "Show that the points A(1, 2, 7), B(2, 6, 3) and C(3, 10, -1) are collinear.",
+      "concepts_tested": [
+        "Collinearity of points",
+        "Distance using vector magnitudes",
+        "Scalar multiple of vectors"
+      ],
+      "repeat_probability_2026": "High",
+      "difficulty_level": "Easy",
+      "topper_solution": {
+        "step_1": "Find vectors $$ \\vec{AB} $$ and $$ \\vec{BC} $$. $$ \\vec{AB} = (2-1)\\hat{i} + (6-2)\\hat{j} + (3-7)\\hat{k} = \\hat{i} + 4\\hat{j} - 4\\hat{k} $$. $$ \\vec{BC} = (3-2)\\hat{i} + (10-6)\\hat{j} + (-1-3)\\hat{k} = \\hat{i} + 4\\hat{j} - 4\\hat{k} $$.",
+        "step_2": "Observe the relationship between the two vectors. We can see that $$ \\vec{BC} = 1 \\cdot \\vec{AB} $$, which means $$ \\vec{BC} $$ is a scalar multiple of $$ \\vec{AB} $$.",
+        "step_3": "Since $$ \\vec{BC} $$ and $$ \\vec{AB} $$ are parallel and share a common point B, the points A, B, and C must lie on the same line. Hence, they are collinear."
+      },
+      "board_writing_tip": "You can also show collinearity by proving $$ |\\vec{AB}| + |\\vec{BC}| = |\\vec{AC}| $$. Both methods are acceptable, but the scalar multiple method is faster and less prone to calculation errors with square roots.",
+      "common_student_mistakes": [
+        "Calculating the cross product to show it's zero but making a sign error in the determinant",
+        "Finding the distances but failing to properly sum the surds (e.g., not simplifying $$ \\sqrt{33} + \\sqrt{33} = 2\\sqrt{33} $$)"
+      ],
+      "estimated_time_seconds": "180"
+    },
+    {
+      "question_id": 7,
+      "ncert_reference": {
+        "exercise": "Exercise 10.4",
+        "question_number": "10"
+      },
+      "question_text": "Find the area of the parallelogram whose adjacent sides are determined by the vectors $$ \\vec{a} = \\hat{i} - \\hat{j} + 3\\hat{k} $$ and $$ \\vec{b} = 2\\hat{i} - 7\\hat{j} + \\hat{k} $$.",
+      "concepts_tested": [
+        "Cross Product",
+        "Area of a Parallelogram"
+      ],
+      "repeat_probability_2026": "High",
+      "difficulty_level": "Easy",
+      "topper_solution": {
+        "step_1": "The area of a parallelogram with adjacent sides $$ \\vec{a} $$ and $$ \\vec{b} $$ is given by $$ |\\vec{a} \\times \\vec{b}| $$.",
+        "step_2": "Calculate $$ \\vec{a} \\times \\vec{b} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 1 & -1 & 3 \\\\ 2 & -7 & 1 \\end{vmatrix} = \\hat{i}(-1 + 21) - \\hat{j}(1 - 6) + \\hat{k}(-7 + 2) = 20\\hat{i} + 5\\hat{j} - 5\\hat{k} $$.",
+        "step_3": "Find the magnitude: $$ |\\vec{a} \\times \\vec{b}| = \\sqrt{20^2 + 5^2 + (-5)^2} = \\sqrt{400 + 25 + 25} = \\sqrt{450} = 15\\sqrt{2} $$. Final answer: $$ 15\\sqrt{2} $$ sq units."
+      },
+      "board_writing_tip": "If the question gives diagonals $$ \\vec{d_1} $$ and $$ \\vec{d_2} $$ instead of adjacent sides, remember the formula changes to $$ \\frac{1}{2}|\\vec{d_1} \\times \\vec{d_2}| $$. Read the question carefully to ensure they are adjacent sides.",
+      "common_student_mistakes": [
+        "Dividing the area by 2, confusing it with the area of a triangle",
+        "Calculation errors in the cross-product determinant"
+      ],
+      "estimated_time_seconds": "180"
+    },
+    {
+      "question_id": 8,
+      "ncert_reference": {
+        "exercise": "Exercise 10.3",
+        "question_number": "10"
+      },
+      "question_text": "If $$ \\vec{a} = 2\\hat{i} + 2\\hat{j} + 3\\hat{k} $$, $$ \\vec{b} = -\\hat{i} + 2\\hat{j} + \\hat{k} $$ and $$ \\vec{c} = 3\\hat{i} + \\hat{j} $$ are such that $$ \\vec{a} + \\lambda \\vec{b} $$ is perpendicular to $$ \\vec{c} $$, then find the value of $$ \\lambda $$.",
+      "concepts_tested": [
+        "Linear combination of vectors",
+        "Condition for perpendicular vectors (Dot Product = 0)"
+      ],
+      "repeat_probability_2026": "High",
+      "difficulty_level": "Moderate",
+      "topper_solution": {
+        "step_1": "First, find the vector $$ \\vec{a} + \\lambda \\vec{b} = (2\\hat{i} + 2\\hat{j} + 3\\hat{k}) + \\lambda(-\\hat{i} + 2\\hat{j} + \\hat{k}) = (2 - \\lambda)\\hat{i} + (2 + 2\\lambda)\\hat{j} + (3 + \\lambda)\\hat{k} $$.",
+        "step_2": "Since $$ \\vec{a} + \\lambda \\vec{b} $$ is perpendicular to $$ \\vec{c} $$, their dot product must be zero: $$ (\\vec{a} + \\lambda \\vec{b}) \\cdot \\vec{c} = 0 $$.",
+        "step_3": "Substitute the vectors: $$ ((2 - \\lambda)\\hat{i} + (2 + 2\\lambda)\\hat{j} + (3 + \\lambda)\\hat{k}) \\cdot (3\\hat{i} + 1\\hat{j} + 0\\hat{k}) = 0 $$. This gives $$ 3(2 - \\lambda) + 1(2 + 2\\lambda) + 0 = 0 $$. Simplifying: $$ 6 - 3\\lambda + 2 + 2\\lambda = 0 \\implies 8 - \\lambda = 0 $$. Final answer: $$ \\lambda = 8 $$"
+      },
+      "board_writing_tip": "Clearly write the condition 'For perpendicular vectors, dot product = 0' to get the concept mark.",
+      "common_student_mistakes": [
+        "Forgetting to group the $$ \\hat{i}, \\hat{j}, \\hat{k} $$ components properly before taking the dot product",
+        "Incorrectly multiplying the $$ \\hat{k} $$ component of the first vector with a non-existent $$ \\hat{k} $$ component in $$ \\vec{c} $$"
+      ],
+      "estimated_time_seconds": "240"
+    },
+    {
+      "question_id": 9,
+      "ncert_reference": {
+        "exercise": "Miscellaneous Exercise",
+        "question_number": "9"
+      },
+      "question_text": "Find the position vector of a point R which divides the line joining two points P and Q whose position vectors are $$ 2\\vec{a} + \\vec{b} $$ and $$ \\vec{a} - 3\\vec{b} $$ externally in the ratio $$ 1 : 2 $$. Also, show that P is the mid-point of the line segment RQ.",
+      "concepts_tested": [
+        "Section Formula (External Division)",
+        "Mid-point Formula for position vectors"
+      ],
+      "repeat_probability_2026": "Medium",
+      "difficulty_level": "Moderate",
+      "topper_solution": {
+        "step_1": "Let position vectors of P and Q be $$ \\vec{OP} = 2\\vec{a} + \\vec{b} $$ and $$ \\vec{OQ} = \\vec{a} - 3\\vec{b} $$. R divides PQ externally in ratio $$ m : n = 1 : 2 $$. Formula: $$ \\vec{OR} = \\frac{m\\vec{OQ} - n\\vec{OP}}{m - n} $$.",
+        "step_2": "Substitute values: $$ \\vec{OR} = \\frac{1(\\vec{a} - 3\\vec{b}) - 2(2\\vec{a} + \\vec{b})}{1 - 2} = \\frac{\\vec{a} - 3\\vec{b} - 4\\vec{a} - 2\\vec{b}}{-1} = \\frac{-3\\vec{a} - 5\\vec{b}}{-1} = 3\\vec{a} + 5\\vec{b} $$.",
+        "step_3": "To show P is the mid-point of RQ, find the mid-point of RQ: $$ \\frac{\\vec{OR} + \\vec{OQ}}{2} = \\frac{(3\\vec{a} + 5\\vec{b}) + (\\vec{a} - 3\\vec{b})}{2} = \\frac{4\\vec{a} + 2\\vec{b}}{2} = 2\\vec{a} + \\vec{b} $$. This is exactly $$ \\vec{OP} $$, hence proved."
+      },
+      "board_writing_tip": "Write the external division formula explicitly before plugging in the values. Doing this prevents sign errors which are very common in external division.",
+      "common_student_mistakes": [
+        "Using the internal division formula (addition instead of subtraction)",
+        "Reversing the order of vectors in the numerator (doing $$ n\\vec{OQ} - m\\vec{OP} $$ instead of $$ m\\vec{OQ} - n\\vec{OP} $$)"
+      ],
+      "estimated_time_seconds": "300"
+    },
+    {
+      "question_id": 10,
+      "ncert_reference": {
+        "exercise": "Exercise 10.3",
+        "question_number": "6"
+      },
+      "question_text": "Find $$ |\\vec{a}| $$ and $$ |\\vec{b}| $$, if $$ (\\vec{a} + \\vec{b}) \\cdot (\\vec{a} - \\vec{b}) = 8 $$ and $$ |\\vec{a}| = 8|\\vec{b}| $$.",
+      "concepts_tested": [
+        "Algebra of Dot Product",
+        "Magnitude of a Vector"
+      ],
+      "repeat_probability_2026": "High",
+      "difficulty_level": "Easy",
+      "topper_solution": {
+        "step_1": "Expand the dot product: $$ (\\vec{a} + \\vec{b}) \\cdot (\\vec{a} - \\vec{b}) = \\vec{a} \\cdot \\vec{a} - \\vec{a} \\cdot \\vec{b} + \\vec{b} \\cdot \\vec{a} - \\vec{b} \\cdot \\vec{b} $$. Since dot product is commutative ($$ \\vec{a} \\cdot \\vec{b} = \\vec{b} \\cdot \\vec{a} $$), this simplifies to $$ |\\vec{a}|^2 - |\\vec{b}|^2 = 8 $$.",
+        "step_2": "Substitute the given condition $$ |\\vec{a}| = 8|\\vec{b}| $$ into the equation: $$ (8|\\vec{b}|)^2 - |\\vec{b}|^2 = 8 $$.",
+        "step_3": "Solve for $$ |\\vec{b}| $$: $$ 64|\\vec{b}|^2 - |\\vec{b}|^2 = 8 \\implies 63|\\vec{b}|^2 = 8 \\implies |\\vec{b}|^2 = \\frac{8}{63} \\implies |\\vec{b}| = \\sqrt{\\frac{8}{63}} = \\frac{2\\sqrt{2}}{3\\sqrt{7}} $$. Then, $$ |\\vec{a}| = 8 \\times \\frac{2\\sqrt{2}}{3\\sqrt{7}} = \\frac{16\\sqrt{2}}{3\\sqrt{7}} $$."
+      },
+      "board_writing_tip": "You can leave the answer un-rationalized, but writing $$ |\\vec{a}|^2 = \\vec{a} \\cdot \\vec{a} $$ specifically fetches a step mark in the expansion phase.",
+      "common_student_mistakes": [
+        "Treating vectors as pure algebraic variables and directly writing $$ a^2 - b^2 $$ without establishing $$ |\\vec{a}|^2 = \\vec{a} \\cdot \\vec{a} $$",
+        "Forgetting to square the '8' when substituting $$ |\\vec{a}| = 8|\\vec{b}| $$"
+      ],
+      "estimated_time_seconds": "150"
+    },
+    {
+      "question_id": 11,
+      "ncert_reference": {
+        "exercise": "Miscellaneous Exercise",
+        "question_number": "13"
+      },
+      "question_text": "The scalar product of the vector $$ \\hat{i} + \\hat{j} + \\hat{k} $$ with a unit vector along the sum of vectors $$ 2\\hat{i} + 4\\hat{j} - 5\\hat{k} $$ and $$ \\lambda\\hat{i} + 2\\hat{j} + 3\\hat{k} $$ is equal to one. Find the value of $$ \\lambda $$.",
+      "concepts_tested": [
+        "Unit Vector in the direction of a given vector",
+        "Scalar (Dot) Product"
+      ],
+      "repeat_probability_2026": "High",
+      "difficulty_level": "Board-Tricky",
+      "topper_solution": {
+        "step_1": "Let $$ \\vec{a} = 2\\hat{i} + 4\\hat{j} - 5\\hat{k} $$ and $$ \\vec{b} = \\lambda\\hat{i} + 2\\hat{j} + 3\\hat{k} $$. The sum vector $$ \\vec{c} = \\vec{a} + \\vec{b} = (2 + \\lambda)\\hat{i} + 6\\hat{j} - 2\\hat{k} $$.",
+        "step_2": "The unit vector along $$ \\vec{c} $$ is $$ \\hat{c} = \\frac{(2 + \\lambda)\\hat{i} + 6\\hat{j} - 2\\hat{k}}{\\sqrt{(2+\\lambda)^2 + 6^2 + (-2)^2}} = \\frac{(2 + \\lambda)\\hat{i} + 6\\hat{j} - 2\\hat{k}}{\\sqrt{\\lambda^2 + 4\\lambda + 44}} $$.",
+        "step_3": "Given that the scalar product of $$ \\hat{i} + \\hat{j} + \\hat{k} $$ with $$ \\hat{c} $$ is 1: $$ \\frac{1(2+\\lambda) + 1(6) + 1(-2)}{\\sqrt{\\lambda^2 + 4\\lambda + 44}} = 1 $$. This gives $$ \\lambda + 6 = \\sqrt{\\lambda^2 + 4\\lambda + 44} $$. Squaring both sides: $$ \\lambda^2 + 12\\lambda + 36 = \\lambda^2 + 4\\lambda + 44 \\implies 8\\lambda = 8 \\implies \\lambda = 1 $$.  $$ \\lambda = 1 $$"
+      },
+      "board_writing_tip": "When squaring both sides of an equation to solve for $$ \\lambda $$, always substitute the final value back into the original linear equation to check for extraneous roots.",
+      "common_student_mistakes": [
+        "Taking the dot product with the sum vector instead of the unit vector along the sum",
+        "Algebraic errors when expanding $$ (\\lambda+6)^2 $$ or simplifying the magnitude under the square root"
+      ],
+      "estimated_time_seconds": "360"
+    },
+    {
+      "question_id": 12,
+      "ncert_reference": {
+        "exercise": "Exercise 10.3",
+        "question_number": "17"
+      },
+      "question_text": "Show that the vectors $$ 2\\hat{i} - \\hat{j} + \\hat{k} $$, $$ \\hat{i} - 3\\hat{j} - 5\\hat{k} $$ and $$ 3\\hat{i} - 4\\hat{j} - 4\\hat{k} $$ form the vertices of a right angled triangle.",
+      "concepts_tested": [
+        "Vectors forming a triangle",
+        "Pythagoras Theorem using Vector Magnitudes"
+      ],
+      "repeat_probability_2026": "Medium",
+      "difficulty_level": "Moderate",
+      "topper_solution": {
+        "step_1": "Let the given position vectors of the vertices be $$ \\vec{OA} = 2\\hat{i} - \\hat{j} + \\hat{k} $$, $$ \\vec{OB} = \\hat{i} - 3\\hat{j} - 5\\hat{k} $$, and $$ \\vec{OC} = 3\\hat{i} - 4\\hat{j} - 4\\hat{k} $$. Find the side vectors: $$ \\vec{AB} = \\vec{OB} - \\vec{OA} = -\\hat{i} - 2\\hat{j} - 6\\hat{k} $$. $$ \\vec{BC} = \\vec{OC} - \\vec{OB} = 2\\hat{i} - \\hat{j} + \\hat{k} $$. $$ \\vec{CA} = \\vec{OA} - \\vec{OC} = -\\hat{i} + 3\\hat{j} + 5\\hat{k} $$.",
+        "step_2": "Verify they form a triangle: $$ \\vec{AB} + \\vec{BC} + \\vec{CA} = 0 $$, which holds true.",
+        "step_3": "Find the squares of the magnitudes of the sides: $$ |\\vec{AB}|^2 = (-1)^2 + (-2)^2 + (-6)^2 = 1 + 4 + 36 = 41 $$. $$ |\\vec{BC}|^2 = 2^2 + (-1)^2 + 1^2 = 4 + 1 + 1 = 6 $$. $$ |\\vec{CA}|^2 = (-1)^2 + 3^2 + 5^2 = 1 + 9 + 25 = 35 $$. Since $$ |\\vec{BC}|^2 + |\\vec{CA}|^2 = 6 + 35 = 41 = |\\vec{AB}|^2 $$, the triangle is right-angled at C."
+      },
+      "board_writing_tip": "You can also prove it's a right-angled triangle by showing the dot product of any two side vectors is zero ($$ \\vec{BC} \\cdot \\vec{CA} = 0 $$). The dot product method is often faster.",
+      "common_student_mistakes": [
+        "Assuming the given vectors are side vectors directly, instead of position vectors of the vertices",
+        "Failing to check if the vectors actually form a closed triangle ($$ \\vec{AB} + \\vec{BC} + \\vec{CA} = 0 $$) before checking for right angle"
+      ],
+      "estimated_time_seconds": "300"
+    }
+  ]
+}
+    ]
+}

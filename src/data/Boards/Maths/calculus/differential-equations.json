@@ -1,0 +1,725 @@
+{
+  "chapter_name": "Differential Equations",
+  "board": "CBSE",
+  "class": "12",
+  "exam_year": "2026",
+  "formulas": [
+    {
+      "formula_number": 1,
+      "formula_title": "Order of a Differential Equation",
+      "section_A": {
+        "latex_formula": "$$ \\text{Order} = \\text{Order of the highest order derivative present in the DE} $$",
+        "derived_forms": [
+          "$$ \\text{For } \\frac{d^n y}{dx^n}, \\text{ Order} = n $$"
+        ],
+        "special_cases": [
+          "$$ \\text{Order is always a positive integer and is always defined.} $$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "To identify the fundamental classification of a differential equation.",
+        "trigger_keywords": [
+          "order",
+          "highest derivative"
+        ],
+        "question_types": [
+          "MCQ",
+          "1_mark"
+        ],
+        "common_mistakes": [
+          "Confusing the power of the derivative with the order of the derivative.",
+          "Looking at the degree instead of the order when both are asked."
+        ],
+        "board_traps": [
+          "Giving an equation like $$ \\left(\\frac{dy}{dx}\\right)^3 + \\frac{d^2y}{dx^2} = 0 $$. Students often say order is 3 because of the power, but it is 2."
+        ],
+        "examiner_twist_pattern": "Mixing higher-order derivatives with complex powers to distract the student from the actual highest derivative[cite: 228, 229, 230]."
+      },
+      "section_C": {
+        "why_students_fail": "Rushing the visual scan and picking the largest number, regardless of whether it represents the derivative count or a power.",
+        "how_to_think": "Count the 'dashes' or the value of 'n' in d^n. Ignore all brackets and exponents for a moment; just find the term that was differentiated the most times.",
+        "thirty_second_strategy": "1. Scan the whole equation. 2. Identify all derivative terms. 3. Pick the one with the highest index of differentiation. 4. That index is your order.",
+        "mental_shortcut": "Order = Number of 'd's on the top.",
+        "micro_example": "In $$ y''' + (y'')^5 + y = 0 $$, the order is 3[cite: 228]."
+      }
+    },
+    {
+      "formula_number": 2,
+      "formula_title": "Degree of a Differential Equation",
+      "section_A": {
+        "latex_formula": "$$ \\text{Degree} = \\text{Power of the highest order derivative when DE is a polynomial in derivatives} $$",
+        "derived_forms": [
+          "$$ \\text{Defined only if DE is a polynomial in } y', y'', \\dots $$"
+        ],
+        "special_cases": [
+          "$$ \\text{Degree is NOT defined if derivatives are inside } \\sin, \\cos, \\log, e^x, \\text{ etc.} $$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "To determine the algebraic complexity of a differential equation.",
+        "trigger_keywords": [
+          "degree",
+          "polynomial in derivatives"
+        ],
+        "question_types": [
+          "MCQ",
+          "1_mark"
+        ],
+        "common_mistakes": [
+          "Declaring a degree when the derivative is inside a transcendental function.",
+          "Picking the highest power in the equation rather than the power of the highest order derivative."
+        ],
+        "board_traps": [
+          "Providing $$ \\frac{d^2y}{dx^2} + \\sin\\left(\\frac{dy}{dx}\\right) = 0 $$. Here degree is NOT defined because it is not a polynomial in derivatives[cite: 232, 234].",
+          "Providing $$ y = e^{y'} $$. Degree is not defined[cite: 241]."
+        ],
+        "examiner_twist_pattern": "Writing a defined degree equation but including functions of 'y' (like sin y) which is allowed, making students think the degree is undefined[cite: 231]."
+      },
+      "section_C": {
+        "why_students_fail": "Failing to check for the 'polynomial condition' before looking for the power.",
+        "how_to_think": "Step 1: Is every derivative 'free'? (Not stuck inside a log, sin, or exponent). If no, degree = Undefined. Step 2: Look at the 'King' (highest order derivative). What is his power? That is the degree.",
+        "thirty_second_strategy": "First, identify the order. Then, look ONLY at that specific derivative term. Check its exponent. Ensure no derivatives are trapped in non-polynomial functions.",
+        "mental_shortcut": "Order first, then Degree. Trapped derivative = No Degree.",
+        "micro_example": "In $$ (y'')^3 + (y')^2 + \\sin y = 0 $$, Order = 2, Degree = 3[cite: 241]."
+      }
+    },
+    {
+      "formula_number": 3,
+      "formula_title": "Variable Separable Method",
+      "section_A": {
+        "latex_formula": "$$ \\frac{dy}{dx} = g(x)h(y) \\implies \\int \\frac{1}{h(y)} dy = \\int g(x) dx + C $$",
+        "derived_forms": [
+          "$$ f(x)dx + \\phi(y)dy = 0 $$"
+        ],
+        "special_cases": [
+          "$$ \\text{Substitution } ax+by+c = v \\text{ can sometimes convert a non-separable DE to separable.} $$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "When the differential equation can be factored such that terms of x and y are completely isolated on opposite sides[cite: 422].",
+        "trigger_keywords": [
+          "general solution",
+          "particular solution",
+          "separable"
+        ],
+        "question_types": [
+          "2_mark",
+          "3_mark"
+        ],
+        "common_mistakes": [
+          "Integrating both sides with respect to the same variable without separating dx and dy.",
+          "Forgetting to include the constant 'C' on only one side."
+        ],
+        "board_traps": [
+          "Giving an equation like $$ \\frac{dy}{dx} = e^{x+y} $$. Students often miss that this is $$ e^x \\cdot e^y $$.",
+          "Mixing terms like $$ x+y $$ in the denominator, which requires substitution before separation."
+        ],
+        "examiner_twist_pattern": "Embedding the separation inside a physical application (e.g., rate of growth or decay problems)[cite: 275, 293]."
+      },
+      "section_C": {
+        "why_students_fail": "Weak integration skills. The separation is often the easy part; the resulting integral is where students lose marks.",
+        "how_to_think": "Think of the equation as two separate 'camps'. Send all 'y' terms and the 'dy' to one camp, and all 'x' terms and the 'dx' to the other. If you can't factor them apart, separation is not the way.",
+        "thirty_second_strategy": "1. Factor the RHS. 2. Cross-multiply to get 'y' with 'dy' and 'x' with 'dx'. 3. Integrate both sides separately. 4. Add C.",
+        "mental_shortcut": "Collect 'y' with 'dy' and 'x' with 'dx'.",
+        "micro_example": "$$ \\frac{dy}{dx} = \\frac{1+y^2}{1+x^2} \\implies \\int \\frac{dy}{1+y^2} = \\int \\frac{dx}{1+x^2} \\implies \\tan^{-1} y = \\tan^{-1} x + C $$[cite: 264]."
+      }
+    },
+    {
+      "formula_number": 4,
+      "formula_title": "Homogeneous Differential Equations",
+      "section_A": {
+        "latex_formula": "$$ \\frac{dy}{dx} = F(x, y) \\text{ where } F(\\lambda x, \\lambda y) = F(x, y) $$",
+        "derived_forms": [
+          "$$ \\frac{dy}{dx} = g\\left(\\frac{y}{x}\\right) \\text{ or } \\frac{dx}{dy} = h\\left(\\frac{x}{y}\\right) $$",
+          "$$ y = vx \\implies \\frac{dy}{dx} = v + x\\frac{dv}{dx} $$"
+        ],
+        "special_cases": [
+          "$$ \\text{If in } \\frac{dx}{dy} \\text{ form, use } x = vy \\text{ and } \\frac{dx}{dy} = v + y\\frac{dv}{dy} $$[cite: 304, 305]."
+        ]
+      },
+      "section_B": {
+        "when_to_use": "When the sum of powers of x and y in every term of the equation is the same[cite: 423].",
+        "trigger_keywords": [
+          "homogeneous",
+          "degree zero",
+          "y/x substitution"
+        ],
+        "question_types": [
+          "4_mark",
+          "5_mark"
+        ],
+        "common_mistakes": [
+          "Failing to substitute dy/dx correctly (forgetting the 'v' term from the product rule).",
+          "Forgetting to replace 'v' back with 'y/x' in the final answer."
+        ],
+        "board_traps": [
+          "Presenting a function like $$ \\sin(y/x) + (y/x) $$ which is clearly homogeneous, vs one where you must factor out powers to see the degree 0[cite: 314, 315].",
+          "Giving a non-homogeneous equation that looks like one, such as $$ \\frac{dy}{dx} = \\frac{x+y+1}{x-y+1} $$ (requires a different shifting method not in core NCERT)."
+        ],
+        "examiner_twist_pattern": "Asking to 'show' it is homogeneous first. You MUST use the $$ \\lambda $$ substitution method to get full marks[cite: 306, 307]."
+      },
+      "section_C": {
+        "why_students_fail": "The algebra after substitution becomes very messy. Errors usually occur during the integration of the 'v' terms.",
+        "how_to_think": "Homogeneous means the ratio y/x is the only thing that matters. By letting y = vx, we reduce a two-variable problem to a separable one-variable problem (v and x).",
+        "thirty_second_strategy": "1. Verify homogeneity (powers match). 2. Let y = vx. 3. Replace dy/dx with v + x(dv/dx). 4. Separate v and x. 5. Integrate and resubstitute.",
+        "mental_shortcut": "Same total power in every term? It's homogeneous.",
+        "micro_example": "$$ (x-y)dy = (x+2y)dx \\implies \\text{Degree of each term is 1, so homogeneous.} $$[cite: 306]."
+      }
+    },
+    {
+      "formula_number": 5,
+      "formula_title": "First Order Linear Differential Equation",
+      "section_A": {
+        "latex_formula": "$$ \\frac{dy}{dx} + Py = Q \\quad (P, Q \\text{ are functions of } x \\text{ or constants}) $$",
+        "derived_forms": [
+          "$$ \\text{Integrating Factor (I.F.)} = e^{\\int P dx} $$",
+          "$$ y \\cdot (I.F.) = \\int (Q \\cdot I.F.) dx + C $$"
+        ],
+        "special_cases": [
+          "$$ \\text{Form II: } \\frac{dx}{dy} + P_1 x = Q_1 \\implies I.F. = e^{\\int P_1 dy} \\text{ and } x(I.F.) = \\int (Q_1 \\cdot I.F.) dy + C $$[cite: 353, 354]."
+        ]
+      },
+      "section_B": {
+        "when_to_use": "When the equation is linear in y (or x) and its derivative[cite: 343, 344].",
+        "trigger_keywords": [
+          "linear",
+          "integrating factor",
+          "I.F."
+        ],
+        "question_types": [
+          "MCQ",
+          "3_mark",
+          "5_mark"
+        ],
+        "common_mistakes": [
+          "Forgetting the minus sign when P is negative (e.g., dy/dx - y/x = x).",
+          "Using the I.F. incorrectly in the final solution formula."
+        ],
+        "board_traps": [
+          "Not having '1' as the coefficient of dy/dx. You MUST divide by the coefficient of dy/dx first to find the correct P[cite: 360].",
+          "Giving $$ e^{\\log f(x)} $$ in the I.F. calculation. Remember $$ e^{\\log f(x)} = f(x) $$[cite: 361]."
+        ],
+        "examiner_twist_pattern": "Providing a 'Type II' equation (linear in x) to see if the student mindlessly uses the 'y' formula[cite: 363]."
+      },
+      "section_C": {
+        "why_students_fail": "Calculating the I.F. incorrectly, which ruins the rest of the problem. Often a sign error in the exponent integral.",
+        "how_to_think": "This is a 'recipe' method. Find the I.F., then use it as a 'key' to unlock the derivative of a product on the LHS.",
+        "thirty_second_strategy": "1. Put in standard form (dy/dx + Py = Q). 2. Identify P and Q. 3. Find I.F. = exp(int P dx). 4. Plug into the solution template.",
+        "mental_shortcut": "I.F. makes the LHS the derivative of (y * I.F.).",
+        "micro_example": "$$ \\frac{dy}{dx} + \\frac{2}{x}y = x \\implies P = 2/x, I.F. = e^{\\int \\frac{2}{x} dx} = e^{2\\log x} = x^2 $$[cite: 360, 361]."
+      }
+    },
+    {
+      "formula_number": 6,
+      "formula_title": "General vs. Particular Solutions (Arbitrary Constants)",
+      "section_A": {
+        "latex_formula": "$$ \\text{Number of Arbitrary Constants in General Solution} = \\text{Order of the DE} $$",
+        "derived_forms": [
+          "$$ \\text{Number of Arbitrary Constants in Particular Solution} = 0 $$"
+        ],
+        "special_cases": [
+          "$$ \\text{If Order is } n, \\text{ the general solution has } n \\text{ independent constants.} $$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "To determine the number of constants without solving the equation, specifically for MCQ-style questions.",
+        "trigger_keywords": [
+          "number of arbitrary constants",
+          "general solution",
+          "particular solution",
+          "order"
+        ],
+        "question_types": [
+          "MCQ",
+          "1_mark"
+        ],
+        "common_mistakes": [
+          "Thinking a particular solution still has constants (it never does).",
+          "Confusing the degree of the DE with the number of constants."
+        ],
+        "board_traps": [
+          "Asking for the number of constants in a 'Particular Solution of a 4th order DE'. The answer is always 0, but students often write 4."
+        ],
+        "examiner_twist_pattern": "Providing a solution like $$ y = (A+B)e^x + C $$ and asking for the order. Students see 3 letters (A,B,C) but $A+B$ is just one constant, so the order is 2."
+      },
+      "section_C": {
+        "why_students_fail": "Missing the conceptual link between 'differentiation' and 'integration'. Every time you integrate to solve, you add a 'C'. High order means more integrations, thus more 'C's.",
+        "how_to_think": "A General Solution is a family of curves (it has 'C's). A Particular Solution is one specific curve from that family (the 'C' is a fixed number).",
+        "thirty_second_strategy": "Identify the Order (n). If the question asks for General Solution constants, answer is n. If it asks for Particular Solution constants, answer is 0.",
+        "mental_shortcut": "Particular = Zero constants. General = Order.",
+        "micro_example": "A 3rd order DE has 3 constants in its general solution and 0 in its particular solution."
+      }
+    },
+    {
+      "formula_number": 7,
+      "formula_title": "Variable Separable by Substitution",
+      "section_A": {
+        "latex_formula": "$$ \\frac{dy}{dx} = f(ax + by + c) \\implies \\text{Let } v = ax + by + c $$",
+        "derived_forms": [
+          "$$ \\frac{dv}{dx} = a + b\\frac{dy}{dx} \\implies \\frac{dv}{dx} = a + b f(v) $$"
+        ],
+        "special_cases": [
+          "$$ \\text{Used when } x \\text{ and } y \\text{ are 'trapped' together inside a function like } \\sin(x+y) \\text{ or } (x+y)^2. $$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "When variables x and y cannot be separated by algebra/factoring but appear as a linear combination inside a function.",
+        "trigger_keywords": [
+          "solve",
+          "trapped variables",
+          "linear combination",
+          "reducible to separable"
+        ],
+        "question_types": [
+          "3_mark",
+          "5_mark"
+        ],
+        "common_mistakes": [
+          "Trying to expand the function (like squaring $(x+y+1)^2$) which makes the DE impossible to solve.",
+          "Forgetting to differentiate the substitution $v$ with respect to $x$ to replace $dy/dx$."
+        ],
+        "board_traps": [
+          "Giving $$ \\frac{dy}{dx} = \\sec(x+y) $$. Students struggle because they can't separate x and y using trig identities, whereas substitution $v=x+y$ makes it easy."
+        ],
+        "examiner_twist_pattern": "Using a coefficient for $y$ in the substitution (e.g., $x+2y$) which requires careful chain rule application during differentiation."
+      },
+      "section_C": {
+        "why_students_fail": "Inability to recognize that a complex-looking equation is just a 'hidden' variable separable problem.",
+        "how_to_think": "If you see a recurring 'block' of $ax+by+c$, treat that block as a single new variable $v$. This 'straightens' the equation so you can separate it.",
+        "thirty_second_strategy": "1. Identify the recurring linear block. 2. Let $v$ equal that block. 3. Differentiate $v$ to find $dy/dx$. 4. Substitute and separate $v$ and $x$.",
+        "mental_shortcut": "Replace the 'messy' part with $v$.",
+        "micro_example": "For $$ \\frac{dy}{dx} = (x+y)^2 $$, let $$ v = x+y $$. Then $$ \\frac{dv}{dx} - 1 = v^2 $$, which is separable."
+      }
+    },
+    {
+      "formula_number": 8,
+      "formula_title": "Geometric Interpretation & Curve Finding",
+      "section_A": {
+        "latex_formula": "$$ \\frac{dy}{dx} = \\text{Slope of the tangent at } (x, y) $$",
+        "derived_forms": [
+          "$$ -\\frac{dx}{dy} = \\text{Slope of the normal at } (x, y) $$",
+          "$$ y - y_1 = m(x - x_1) \\text{ (Equation of tangent)} $$"
+        ],
+        "special_cases": [
+          "$$ \\text{If the tangent is parallel to x-axis, } \\frac{dy}{dx} = 0. $$",
+          "$$ \\text{If the tangent is parallel to y-axis, } \\frac{dx}{dy} = 0. $$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "When the question describes a physical property of a curve (like its slope) and asks for the curve's equation.",
+        "trigger_keywords": [
+          "slope of tangent",
+          "passes through point",
+          "equation of the curve",
+          "orthogonal"
+        ],
+        "question_types": [
+          "3_mark",
+          "5_mark",
+          "case_based"
+        ],
+        "common_mistakes": [
+          "Confusing 'slope of tangent' ($dy/dx$) with 'slope of normal' ($-1/(dy/dx)$).",
+          "Forgetting to use the given 'passing through' point to find the particular value of 'C'."
+        ],
+        "board_traps": [
+          "The problem states 'the slope of the tangent is equal to the sum of the coordinates'. This requires translating English to $dy/dx = x+y$ (a Linear DE)."
+        ],
+        "examiner_twist_pattern": "Linking the slope to the ratio of coordinates, e.g., 'slope is $y/x$', leading to a separable or homogeneous DE."
+      },
+      "section_C": {
+        "why_students_fail": "Difficulty in translating word-based geometric descriptions into mathematical differential equations.",
+        "how_to_think": "Every time you see 'slope of tangent', write $dy/dx$. Once you have an equation with $dy/dx$, you are back to standard solving methods (Separable, Homogeneous, or Linear).",
+        "thirty_second_strategy": "1. Convert the 'text' to an 'equation'. 2. Identify the type of DE. 3. Solve for General Solution. 4. Use the given point $(x_0, y_0)$ to find $C$.",
+        "mental_shortcut": "Slope = Derivative. Point = Particular Solution.",
+        "micro_example": "Slope is $2x/y$ and passes through $(1,2)$. $$ \\frac{dy}{dx} = \\frac{2x}{y} \\implies y dy = 2x dx \\implies y^2/2 = x^2 + C $$. Use $(1,2)$ to find $C$."
+      }
+    },
+    {
+      "formula_number": 9,
+      "formula_title": "Homogeneous DE (Reciprocal Form)",
+      "section_A": {
+        "latex_formula": "$$ \\frac{dx}{dy} = h\\left(\\frac{x}{y}\\right) \\implies \\text{Let } x = vy $$",
+        "derived_forms": [
+          "$$ \\frac{dx}{dy} = v + y\\frac{dv}{dy} $$"
+        ],
+        "special_cases": [
+          "$$ \\text{Used when } x \\text{ and } y \\text{ terms are predominantly in the form } x/y \\text{ or inside functions like } e^{x/y}. $$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "When it is easier to express $x$ as a function of $y$, especially when $x/y$ appears frequently.",
+        "trigger_keywords": [
+          "dx/dy",
+          "homogeneous",
+          "x/y"
+        ],
+        "question_types": [
+          "4_mark",
+          "5_mark"
+        ],
+        "common_mistakes": [
+          "Using $y = vx$ by habit, which makes the integration of $x/y$ forms extremely difficult.",
+          "Mixing up the roles of $x$ and $y$ in the final substitution step."
+        ],
+        "board_traps": [
+          "Giving an equation like $$ (1 + e^{x/y})dx + e^{x/y}(1 - x/y)dy = 0 $$. Here, finding $dy/dx$ is messy; finding $dx/dy$ is the only efficient way."
+        ],
+        "examiner_twist_pattern": "Presenting a standard homogeneous equation but making the 'y' integration much harder than the 'x' integration to see if the student switches forms."
+      },
+      "section_C": {
+        "why_students_fail": "Students are often 'trained' to only look for $dy/dx$. They fail to recognize when the reciprocal form $dx/dy$ is simpler.",
+        "how_to_think": "If the 'x's are 'upstairs' in the fractions (like $x/y$), it's a 'Type 2' homogeneous problem. Let $x$ be the dependent variable.",
+        "thirty_second_strategy": "1. Check if $x/y$ is the dominant term. 2. Rearrange to get $dx/dy$ on one side. 3. Let $x = vy$. 4. Solve as a standard separable DE in $v$ and $y$.",
+        "mental_shortcut": "Reciprocal form: $x$ is the king ($x = vy$).",
+        "micro_example": "$$ \\frac{dx}{dy} = \\frac{x}{y} + \\sin\\left(\\frac{x}{y}\\right) \\implies v + y\\frac{dv}{dy} = v + \\sin v $$."
+      }
+    },
+    {
+      "formula_number": 10,
+      "formula_title": "Linear DE Type II (Reciprocal Form)",
+      "section_A": {
+        "latex_formula": "$$ \\frac{dx}{dy} + P_1 x = Q_1 \\quad (P_1, Q_1 \\text{ are functions of } y \\text{ or constants}) $$",
+        "derived_forms": [
+          "$$ \\text{I.F.} = e^{\\int P_1 dy} $$",
+          "$$ x \\cdot (I.F.) = \\int (Q_1 \\cdot I.F.) dy + C $$"
+        ],
+        "special_cases": [
+          "$$ \\text{Essential when the equation is linear in } x \\text{ but not in } y. $$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "When 'y' appears in denominators or inside complex functions, but 'x' appears only once as $x$ and once as $dx/dy$.",
+        "trigger_keywords": [
+          "linear in x",
+          "dx/dy form",
+          "I.F. in y"
+        ],
+        "question_types": [
+          "3_mark",
+          "5_mark"
+        ],
+        "common_mistakes": [
+          "Integrating $P_1$ with respect to $x$ instead of $y$.",
+          "Writing the final solution as $y \\cdot I.F.$ instead of $x \\cdot I.F.$."
+        ],
+        "board_traps": [
+          "Giving $$ (1+y^2)dx = (\\tan^{-1} y - x)dy $$. Rearranging to $$ dy/dx $$ makes it non-linear, but $$ dx/dy + x/(1+y^2) = \\tan^{-1}y/(1+y^2) $$ is Type II Linear."
+        ],
+        "examiner_twist_pattern": "Mixing $x$ and $y$ such that the student spends time trying to separate variables before realizing it's a Type II Linear DE."
+      },
+      "section_C": {
+        "why_students_fail": "Rigidity. Most students only master Type I ($dy/dx$) and panic when $y$ is the independent variable.",
+        "how_to_think": "Look for the lone variable. If 'x' is lone (only $x$ and $dx/dy$), it's Linear in $x$. If 'y' is lone, it's Linear in $y$.",
+        "thirty_second_strategy": "1. Check if it fits $$ dx/dy + Px = Q $$. 2. Calculate I.F. using $$ \\int P dy $$. 3. Use the formula $$ x \\cdot I.F. = \\int Q \\cdot I.F. dy $$.",
+        "mental_shortcut": "Type II: Just swap $x$ and $y$ in your mind and proceed as usual.",
+        "micro_example": "$$ \\frac{dx}{dy} + \\frac{x}{y} = y^2 \\implies P = 1/y, I.F. = e^{\\ln y} = y. \\text{ Solution: } x \\cdot y = \\int y^3 dy + C $$."
+      }
+    },
+    {
+      "trend_analysis": {
+        "dominant_concepts_from_pyqs": [
+          "Order and Degree of a differential equation (especially cases where degree is not defined)",
+          "Solving Homogeneous Differential Equations using substitution $$ y = vx $$ or $$ x = vy $$",
+          "Solving Linear Differential Equations (LDE) of the form $$ \\frac{dy}{dx} + Py = Q $$ and finding Integrating Factor (IF)",
+          "Solving Linear Differential Equations of the form $$ \\frac{dx}{dy} + Px = Q $$",
+          "Finding particular solutions (Initial Value Problems) for both Homogeneous and Linear Differential Equations"
+        ],
+        "question_patterns_seen": [
+          "1-mark MCQs asking to find the sum or product of order and degree of a given differential equation",
+          "3-mark questions asking to find the general solution of a variable separable or simple LDE",
+          "5-mark long questions requiring proof that a given equation is homogeneous followed by finding its particular solution",
+          "Questions specifically testing the $$ x = vy $$ substitution when terms like $$ e^{x/y} $$ or $$ \\sin(x/y) $$ are present"
+        ]
+      },
+      "high_leverage_ncert_questions": [
+        {
+          "question_id": 1,
+          "ncert_reference": {
+            "exercise": "Exercise 9.1",
+            "question_number": "4"
+          },
+          "question_text": "Determine the order and degree (if defined) of the differential equation: $$ \\frac{d^2y}{dx^2} + \\cos\\left(\\frac{dy}{dx}\\right) = 0 $$",
+          "concepts_tested": [
+            "Order of a Differential Equation",
+            "Degree of a Differential Equation",
+            "Polynomial equation in derivatives"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Easy",
+          "topper_solution": {
+            "step_1": "The highest order derivative present in the differential equation is $$ \\frac{d^2y}{dx^2} $$. Therefore, the order is 2.",
+            "step_2": "For the degree to be defined, the differential equation must be a polynomial equation in its derivatives.",
+            "step_3": "Because of the term $$ \\cos\\left(\\frac{dy}{dx}\\right) $$, it cannot be expressed as a polynomial in $$ \\frac{dy}{dx} $$. Final answer: Order = 2, Degree = Not defined."
+          },
+          "board_writing_tip": "If the degree is not defined, always write the reason: 'The given differential equation is not a polynomial equation in its derivatives.'",
+          "common_student_mistakes": [
+            "Writing the degree as 1 by looking at the power of the highest order derivative",
+            "Confusing the degree with the order"
+          ],
+          "estimated_time_seconds": "60"
+        },
+        {
+          "question_id": 2,
+          "ncert_reference": {
+            "exercise": "Exercise 9.4",
+            "question_number": "10"
+          },
+          "question_text": "Find the general solution: $$ e^x \\tan y \\, dx + (1 - e^x) \\sec^2 y \\, dy = 0 $$",
+          "concepts_tested": [
+            "Variable Separable Method",
+            "Integration by Substitution",
+            "Properties of Logarithms"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Moderate",
+          "topper_solution": {
+            "step_1": "Rearrange to separate variables: $$ (1 - e^x) \\sec^2 y \\, dy = -e^x \\tan y \\, dx $$. Divide by $$ \\tan y $$ and $$ (1 - e^x) $$ to get: $$ \\frac{\\sec^2 y}{\\tan y} dy = \\frac{-e^x}{1 - e^x} dx $$.",
+            "step_2": "Integrate both sides: $$ \\int \\frac{\\sec^2 y}{\\tan y} dy = \\int \\frac{-e^x}{1 - e^x} dx $$. For LHS, put $$ \\tan y = u $$. For RHS, put $$ 1 - e^x = v $$.",
+            "step_3": "This gives $$ \\log|\\tan y| = \\log|1 - e^x| + \\log C $$. Using log properties, $$ \\log|\\tan y| = \\log|C(1 - e^x)| $$. Final answer: $$ \\tan y = C(1 - e^x) $$"
+          },
+          "board_writing_tip": "When integrating and getting log terms on both sides, always use the constant of integration as $$ \\log C $$ instead of $$ C $$ to simplify the final expression.",
+          "common_student_mistakes": [
+            "Losing the negative sign on the RHS during substitution",
+            "Leaving the answer in terms of logs instead of taking antilog"
+          ],
+          "estimated_time_seconds": "240"
+        },
+        {
+          "question_id": 3,
+          "ncert_reference": {
+            "exercise": "Exercise 9.5",
+            "question_number": "3"
+          },
+          "question_text": "Show that the given differential equation is homogeneous and solve it: $$ (x - y) dy - (x + y) dx = 0 $$",
+          "concepts_tested": [
+            "Homogeneous Differential Equations",
+            "Substitution $$ y = vx $$",
+            "Integration of rational functions"
+          ],
+          "repeat_probability_2026": "Medium",
+          "difficulty_level": "Moderate",
+          "topper_solution": {
+            "step_1": "Rewrite as $$ \\frac{dy}{dx} = \\frac{x + y}{x - y} $$. Let $$ F(x, y) = \\frac{x + y}{x - y} $$. Then $$ F(\\lambda x, \\lambda y) = \\frac{\\lambda x + \\lambda y}{\\lambda x - \\lambda y} = F(x, y) $$. Thus, it's a homogeneous function of degree 0.",
+            "step_2": "Put $$ y = vx $$, so $$ \\frac{dy}{dx} = v + x\\frac{dv}{dx} $$. Substitute back: $$ v + x\\frac{dv}{dx} = \\frac{x + vx}{x - vx} = \\frac{1 + v}{1 - v} $$. So, $$ x\\frac{dv}{dx} = \\frac{1 + v}{1 - v} - v = \\frac{1 + v^2}{1 - v} $$.",
+            "step_3": "Separate variables: $$ \\frac{1 - v}{1 + v^2} dv = \\frac{dx}{x} $$. Integrate: $$ \\int \\frac{1}{1+v^2} dv - \\frac{1}{2} \\int \\frac{2v}{1+v^2} dv = \\int \\frac{dx}{x} $$. This gives $$ \\tan^{-1}v - \\frac{1}{2}\\log(1+v^2) = \\log|x| + C $$. Replace $$ v = \\frac{y}{x} $$. Final answer: $$ \\tan^{-1}\\left(\\frac{y}{x}\\right) - \\frac{1}{2}\\log(x^2+y^2) = C $$"
+          },
+          "board_writing_tip": "The question explicitly says 'Show that...'. You must show the $$ F(\\lambda x, \\lambda y) = \\lambda^0 F(x, y) $$ step to get the first mark.",
+          "common_student_mistakes": [
+            "Forgetting to apply the product rule when differentiating $$ y = vx $$",
+            "Struggling to integrate $$ \\frac{1 - v}{1 + v^2} $$ by not separating it into two fractions"
+          ],
+          "estimated_time_seconds": "480"
+        },
+        {
+          "question_id": 4,
+          "ncert_reference": {
+            "exercise": "Exercise 9.5",
+            "question_number": "10"
+          },
+          "question_text": "Solve the differential equation: $$ \\left(1 + e^{x/y}\\right)dx + e^{x/y}\\left(1 - \\frac{x}{y}\\right)dy = 0 $$",
+          "concepts_tested": [
+            "Homogeneous Differential Equation",
+            "Substitution $$ x = vy $$",
+            "Identifying specific forms indicating $$ dx/dy $$"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Board-Tricky",
+          "topper_solution": {
+            "step_1": "Notice the term $$ e^{x/y} $$. We must form $$ \\frac{dx}{dy} $$. Rearrange: $$ \\frac{dx}{dy} = \\frac{-e^{x/y}(1 - x/y)}{1 + e^{x/y}} $$.",
+            "step_2": "Put $$ x = vy $$, so $$ \\frac{dx}{dy} = v + y\\frac{dv}{dy} $$. Substitute: $$ v + y\\frac{dv}{dy} = \\frac{-e^v(1 - v)}{1 + e^v} $$. Simplify: $$ y\\frac{dv}{dy} = \\frac{-e^v + ve^v - v - ve^v}{1 + e^v} = -\\frac{v + e^v}{1 + e^v} $$.",
+            "step_3": "Separate variables: $$ \\frac{1 + e^v}{v + e^v} dv = -\\frac{dy}{y} $$. Integrate both sides. Let $$ v + e^v = t $$, then $$ (1 + e^v)dv = dt $$. So $$ \\log|v + e^v| = -\\log|y| + \\log C $$. Which gives $$ \\log|(v + e^v)y| = \\log C $$. Substitute $$ v = x/y $$. Final answer: $$ x + y e^{x/y} = C $$"
+          },
+          "board_writing_tip": "Whenever you see $$ x/y $$ in an angle or exponent, always formulate the equation in terms of $$ dx/dy $$ and use $$ x = vy $$. State the substitution clearly.",
+          "common_student_mistakes": [
+            "Attempting to solve for $$ dy/dx $$ and using $$ y = vx $$, which makes integration impossible",
+            "Algebraic errors when moving 'v' to the RHS and taking LCM"
+          ],
+          "estimated_time_seconds": "420"
+        },
+        {
+          "question_id": 5,
+          "ncert_reference": {
+            "exercise": "Exercise 9.6",
+            "question_number": "5"
+          },
+          "question_text": "Find the general solution of the differential equation: $$ \\cos^2 x \\frac{dy}{dx} + y = \\tan x \\quad \\left(0 \\le x < \\frac{\\pi}{2}\\right) $$",
+          "concepts_tested": [
+            "Linear Differential Equation (LDE)",
+            "Integrating Factor (I.F.)",
+            "Integration by Parts"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Moderate",
+          "topper_solution": {
+            "step_1": "Divide the entire equation by $$ \\cos^2 x $$ to get the standard form $$ \\frac{dy}{dx} + P y = Q $$. This gives: $$ \\frac{dy}{dx} + (\\sec^2 x)y = \\tan x \\sec^2 x $$. Here, $$ P = \\sec^2 x $$ and $$ Q = \\tan x \\sec^2 x $$.",
+            "step_2": "Find the Integrating Factor (I.F.): $$ I.F. = e^{\\int P dx} = e^{\\int \\sec^2 x dx} = e^{\\tan x} $$.",
+            "step_3": "The solution is given by $$ y \\times (I.F.) = \\int Q \\times (I.F.) dx + C $$. So, $$ y e^{\\tan x} = \\int (\\tan x \\sec^2 x) e^{\\tan x} dx $$. Let $$ \\tan x = t $$, so $$ \\sec^2 x dx = dt $$. The integral becomes $$ \\int t e^t dt $$. Using integration by parts: $$ t e^t - e^t $$. Final answer: $$ y e^{\\tan x} = e^{\\tan x}(\\tan x - 1) + C $$ or $$ y = \\tan x - 1 + C e^{-\\tan x} $$"
+          },
+          "board_writing_tip": "Always explicitly write out the values of P and Q, and state the formula for the general solution of LDE. This guarantees method marks.",
+          "common_student_mistakes": [
+            "Forgetting to divide by the coefficient of $$ dy/dx $$ to put the equation into standard form",
+            "Making a mistake in integration by parts for $$ \\int t e^t dt $$"
+          ],
+          "estimated_time_seconds": "300"
+        },
+        {
+          "question_id": 6,
+          "ncert_reference": {
+            "exercise": "Exercise 9.6",
+            "question_number": "13"
+          },
+          "question_text": "Find a particular solution of the differential equation: $$ \\frac{dy}{dx} + 2y \\tan x = \\sin x $$, given that $$ y = 0 $$ when $$ x = \\frac{\\pi}{3} $$.",
+          "concepts_tested": [
+            "Linear Differential Equation",
+            "Finding particular solution (Initial Value Problem)",
+            "Trigonometric values and identities"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Moderate",
+          "topper_solution": {
+            "step_1": "The equation is of the form $$ \\frac{dy}{dx} + P y = Q $$, where $$ P = 2 \\tan x $$, $$ Q = \\sin x $$. Find I.F.: $$ e^{\\int 2 \\tan x dx} = e^{2 \\log|\\sec x|} = e^{\\log(\\sec^2 x)} = \\sec^2 x $$.",
+            "step_2": "General solution: $$ y \\cdot \\sec^2 x = \\int \\sin x \\sec^2 x dx + C $$. Simplify integral: $$ \\int \\frac{\\sin x}{\\cos^2 x} dx = \\int \\sec x \\tan x dx = \\sec x $$. So, $$ y \\sec^2 x = \\sec x + C $$.",
+            "step_3": "Substitute initial conditions: $$ y = 0 $$, $$ x = \\frac{\\pi}{3} $$. $$ 0 \\cdot \\sec^2(\\frac{\\pi}{3}) = \\sec(\\frac{\\pi}{3}) + C $$. Since $$ \\sec(\\frac{\\pi}{3}) = 2 $$, we get $$ 0 = 2 + C \\implies C = -2 $$.  $$ y = \\cos x - 2\\cos^2 x $$"
+          },
+          "board_writing_tip": "Showing how $$ e^{2\\log\\sec x} $$ simplifies to $$ \\sec^2 x $$ is crucial. Substitute the initial values carefully, as arithmetic mistakes here cost the final mark.",
+          "common_student_mistakes": [
+            "Writing the integral of $$ 2\\tan x $$ as $$ -2\\log\\cos x $$ and failing to convert it to $$ \\sec^2 x $$ correctly",
+            "Evaluating the constant C incorrectly by mixing up trigonometric values for $$ \\pi/3 $$"
+          ],
+          "estimated_time_seconds": "360"
+        },
+        {
+          "question_id": 7,
+          "ncert_reference": {
+            "exercise": "Miscellaneous Exercise",
+            "question_number": "10"
+          },
+          "question_text": "Solve the differential equation: $$ y e^{x/y} dx = (x e^{x/y} + y^2) dy $$",
+          "concepts_tested": [
+            "Homogeneous Differential Equation",
+            "Substitution $$ x = vy $$",
+            "Variable Separable after substitution"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Board-Tricky",
+          "topper_solution": {
+            "step_1": "Rearrange to find $$ \\frac{dx}{dy} $$ because of the $$ e^{x/y} $$ term: $$ \\frac{dx}{dy} = \\frac{x e^{x/y} + y^2}{y e^{x/y}} $$. This is a homogeneous equation.",
+            "step_2": "Substitute $$ x = vy $$, then $$ \\frac{dx}{dy} = v + y\\frac{dv}{dy} $$. The equation becomes $$ v + y\\frac{dv}{dy} = \\frac{vy e^v + y^2}{y e^v} = \\frac{v e^v + y}{e^v} $$.",
+            "step_3": "Simplify: $$ y\\frac{dv}{dy} = v + \\frac{y}{e^v} - v = \\frac{y}{e^v} $$. Divide by $$ y $$ (assuming $$ y \\neq 0 $$): $$ \\frac{dv}{dy} = \\frac{1}{e^v} $$. Separate variables: $$ e^v dv = dy $$. Integrate: $$ \\int e^v dv = \\int dy \\implies e^v = y + C $$. Substitute back $$ v = x/y $$. Final answer: $$ e^{x/y} = y + C $$"
+          },
+          "board_writing_tip": "Clearly isolate $$ dx/dy $$ and state that the equation is homogeneous. The simplification step where 'v' cancels out is a critical checkpoint to know you are on the right track.",
+          "common_student_mistakes": [
+            "Trying to write it in the form of $$ dy/dx $$ and using $$ y = vx $$, which makes it unsolvable",
+            "Forgetting to substitute $$ v = x/y $$ back into the final answer"
+          ],
+          "estimated_time_seconds": "360"
+        },
+        {
+          "question_id": 8,
+          "ncert_reference": {
+            "exercise": "Exercise 9.6",
+            "question_number": "10"
+          },
+          "question_text": "Find the general solution of the differential equation: $$ (x + y)\\frac{dy}{dx} = 1 $$",
+          "concepts_tested": [
+            "Linear Differential Equation in $$ dx/dy $$",
+            "Integrating Factor",
+            "Integration by Parts"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Moderate",
+          "topper_solution": {
+            "step_1": "Taking the reciprocal, we get $$ \\frac{dx}{dy} = x + y $$, which can be written as $$ \\frac{dx}{dy} - x = y $$. This is a Linear Differential Equation of the form $$ \\frac{dx}{dy} + P x = Q $$, where $$ P = -1 $$ and $$ Q = y $$.",
+            "step_2": "Find the Integrating Factor (I.F.): $$ e^{\\int P dy} = e^{\\int -1 dy} = e^{-y} $$.",
+            "step_3": "The solution is $$ x \\times (I.F.) = \\int Q \\times (I.F.) dy + C $$. So, $$ x e^{-y} = \\int y e^{-y} dy $$. Use integration by parts for the RHS: $$ y(-e^{-y}) - \\int 1 \\cdot (-e^{-y}) dy = -y e^{-y} - e^{-y} $$. Thus, $$ x e^{-y} = -e^{-y}(y + 1) + C $$. Final answer: $$ x = -(y + 1) + C e^y $$ or $$ x + y + 1 = C e^y $$"
+          },
+          "board_writing_tip": "Whenever you see $$ x+y $$ inside a bracket multiplying $$ dy/dx $$, immediately think of flipping the derivative to $$ dx/dy $$. This is a very common board trick.",
+          "common_student_mistakes": [
+            "Trying to separate variables or treat it as homogeneous",
+            "Sign errors when finding the Integrating Factor ($$ e^y $$ instead of $$ e^{-y} $$)"
+          ],
+          "estimated_time_seconds": "300"
+        },
+        {
+          "question_id": 9,
+          "ncert_reference": {
+            "exercise": "Exercise 9.4",
+            "question_number": "12"
+          },
+          "question_text": "Find a particular solution of the differential equation: $$ x(x^2 - 1)\\frac{dy}{dx} = 1 $$; given that $$ y = 0 $$ when $$ x = 2 $$.",
+          "concepts_tested": [
+            "Variable Separable Method",
+            "Integration using Partial Fractions",
+            "Initial Value Problem"
+          ],
+          "repeat_probability_2026": "Medium",
+          "difficulty_level": "Board-Tricky",
+          "topper_solution": {
+            "step_1": "Separate variables: $$ dy = \\frac{1}{x(x^2 - 1)} dx = \\frac{1}{x(x-1)(x+1)} dx $$. Integrate both sides: $$ \\int dy = \\int \\frac{1}{x(x-1)(x+1)} dx $$.",
+            "step_2": "Use partial fractions: $$ \\frac{1}{x(x-1)(x+1)} = \\frac{A}{x} + \\frac{B}{x-1} + \\frac{C}{x+1} $$. Solving gives $$ A = -1, B = 1/2, C = 1/2 $$. So, $$ y = -\\int \\frac{1}{x} dx + \\frac{1}{2} \\int \\frac{1}{x-1} dx + \\frac{1}{2} \\int \\frac{1}{x+1} dx $$.",
+            "step_3": "Integrate to get $$ y = -\\log|x| + \\frac{1}{2}\\log|x-1| + \\frac{1}{2}\\log|x+1| + C $$. Using log properties: $$ y = \\frac{1}{2}\\log\\left|\\frac{x^2-1}{x^2}\\right| + C $$. Substitute $$ x = 2, y = 0 $$: $$ 0 = \\frac{1}{2}\\log\\left|\\frac{3}{4}\\right| + C \\implies C = -\\frac{1}{2}\\log\\left(\\frac{3}{4}\\right) $$. Final answer: $$ y = \\frac{1}{2}\\log\\left|\\frac{x^2-1}{x^2}\\right| - \\frac{1}{2}\\log\\left(\\frac{3}{4}\\right) $$"
+          },
+          "board_writing_tip": "Show the partial fraction decomposition clearly as it carries step marks. Combine the log terms before finding the value of C to avoid messy calculations.",
+          "common_student_mistakes": [
+            "Failing to factorize $$ x^2 - 1 $$ and getting stuck in integration",
+            "Making algebraic errors while finding the constants A, B, and C for partial fractions"
+          ],
+          "estimated_time_seconds": "480"
+        },
+        {
+          "question_id": 10,
+          "ncert_reference": {
+            "exercise": "Exercise 9.5",
+            "question_number": "15"
+          },
+          "question_text": "Find a particular solution: $$ 2xy + y^2 - 2x^2\\frac{dy}{dx} = 0 $$, given that $$ y = 2 $$ when $$ x = 1 $$.",
+          "concepts_tested": [
+            "Homogeneous Differential Equation",
+            "Substitution $$ y = vx $$",
+            "Finding particular solution"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Moderate",
+          "topper_solution": {
+            "step_1": "Rewrite the equation: $$ \\frac{dy}{dx} = \\frac{2xy + y^2}{2x^2} = \\frac{y}{x} + \\frac{1}{2}\\left(\\frac{y}{x}\\right)^2 $$. This is homogeneous. Put $$ y = vx $$, so $$ \\frac{dy}{dx} = v + x\\frac{dv}{dx} $$.",
+            "step_2": "Substitute: $$ v + x\\frac{dv}{dx} = v + \\frac{v^2}{2} $$. Canceling $$ v $$ from both sides gives $$ x\\frac{dv}{dx} = \\frac{v^2}{2} $$. Separate variables: $$ 2 v^{-2} dv = \\frac{dx}{x} $$.",
+            "step_3": "Integrate: $$ 2 \\left( \\frac{v^{-1}}{-1} \\right) = \\log|x| + C \\implies -\\frac{2}{v} = \\log|x| + C $$. Replace $$ v = y/x $$ to get $$ -\\frac{2x}{y} = \\log|x| + C $$. Apply initial conditions $$ x=1, y=2 $$: $$ -\\frac{2(1)}{2} = \\log(1) + C \\implies -1 = 0 + C \\implies C = -1 $$. Final answer: $$ -\\frac{2x}{y} = \\log|x| - 1 $$ or $$ y = \\frac{2x}{1 - \\log|x|} $$"
+          },
+          "board_writing_tip": "Rearranging the equation directly into terms of $$ y/x $$ is a faster way to show it's homogeneous and speeds up the substitution step.",
+          "common_student_mistakes": [
+            "Not canceling 'v' correctly and getting a complicated integral",
+            "Leaving the final answer with 'C' instead of calculating its value for the particular solution"
+          ],
+          "estimated_time_seconds": "360"
+        },
+        {
+          "question_id": 11,
+          "ncert_reference": {
+            "exercise": "Exercise 9.6",
+            "question_number": "15"
+          },
+          "question_text": "Find a particular solution of the differential equation: $$ \\frac{dy}{dx} - 3y \\cot x = \\sin 2x $$, given that $$ y = 2 $$ when $$ x = \\frac{\\pi}{2} $$.",
+          "concepts_tested": [
+            "Linear Differential Equation",
+            "Integrating Factor with trigonometric functions",
+            "Trigonometric identities in integration"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Moderate",
+          "topper_solution": {
+            "step_1": "The equation is a Linear Differential Equation of the form $$ \\frac{dy}{dx} + P y = Q $$, where $$ P = -3 \\cot x $$ and $$ Q = \\sin 2x $$.",
+            "step_2": "Find I.F.: $$ e^{\\int -3 \\cot x dx} = e^{-3 \\log|\\sin x|} = e^{\\log(\\sin x)^{-3}} = \\frac{1}{\\sin^3 x} = \\text{cosec}^3 x $$.",
+            "step_3": "General solution: $$ y \\cdot \\frac{1}{\\sin^3 x} = \\int \\sin 2x \\cdot \\frac{1}{\\sin^3 x} dx + C $$. Expand $$ \\sin 2x = 2 \\sin x \\cos x $$. The integral becomes $$ \\int \\frac{2 \\sin x \\cos x}{\\sin^3 x} dx = 2 \\int \\cot x \\text{cosec} x dx = -2 \\text{cosec} x $$. So, $$ \\frac{y}{\\sin^3 x} = -2 \\text{cosec} x + C $$. Substitute $$ x = \\pi/2, y = 2 $$: $$ \\frac{2}{1^3} = -2(1) + C \\implies C = 4 $$.  $$ y = -2\\sin^2 x + 4\\sin^3 x $$"
+          },
+          "board_writing_tip": "Be extremely careful with the negative sign in the Integrating Factor. Expanding $$ \\sin 2x $$ is the key step to solve the integral on the RHS.",
+          "common_student_mistakes": [
+            "Ignoring the negative sign in P, leading to an incorrect I.F. of $$ \\sin^3 x $$",
+            "Forgetting the formula for the integral of $$ \\text{cosec} x \\cot x $$"
+          ],
+          "estimated_time_seconds": "420"
+        }
+      ]
+    }
+  ]
+}

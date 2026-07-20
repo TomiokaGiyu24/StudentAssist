@@ -1,0 +1,209 @@
+{
+  "meta": {
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics: Materials, Devices and Simple Circuits",
+    "class": 12,
+    "board": "CBSE"
+  },
+  "notes": [
+    {
+      "type": "concept",
+      "title": "Energy Bands",
+      "points": [
+        "Inside a crystal, each electron has a unique position and no two electrons see exactly the same pattern of surrounding charges.",
+        "Valence Band: The energy band which includes the energy levels of the valence electrons.",
+        "Conduction Band: The energy band above the valence band. Electrons here are free to move.",
+        "Energy Gap (Eg): The separation between the top of the valence band and the bottom of the conduction band."
+      ]
+    },
+    {
+      "type": "diagram",
+      "title": "Classification based on Energy Bands",
+      "image": "/images/Physics/Derivations/classification of Energy bands.png",
+      "caption": "(a) Metals: Overlapping bands or no gap. (b) Semiconductors: Small gap (Eg < 3 eV). (c) Insulators: Large gap (Eg > 3 eV)."
+    },
+    {
+      "type": "concept",
+      "title": "Intrinsic Semiconductor",
+      "points": [
+        "Pure semiconductors (Si, Ge) free of impurities.",
+        "At T = 0 K, they behave as perfect insulators.",
+        "At T > 0 K, thermal energy excites some electrons from Valence Band to Conduction Band, creating equal numbers of electrons (ne) and holes (nh)."
+      ]
+    },
+    {
+      "type": "formula",
+      "latex": "n_e = n_h = n_i",
+      "label": "Intrinsic Carrier Concentration",
+      "conditions": [
+        "ni is the intrinsic carrier concentration."
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Extrinsic Semiconductor",
+      "points": [
+        "Doped semiconductors to improve conductivity.",
+        "n-type: Doped with Pentavalent impurity (As, Sb, P). Majority carriers: Electrons. Donor energy level lies just below the conduction band.",
+        "p-type: Doped with Trivalent impurity (In, B, Al). Majority carriers: Holes. Acceptor energy level lies just above the valence band."
+      ]
+    },
+    {
+      "type": "diagram",
+      "title": "Energy Bands in Extrinsic Semiconductors",
+      "image": "/images/Physics/Derivations/Energy bands in Extrinsic semiconductor.png",
+      "caption": "Shows Donor level (Ed) near Conduction Band for n-type, and Acceptor level (Ea) near Valence Band for p-type."
+    },
+    {
+      "type": "formula",
+      "latex": "n_e n_h = n_i^2",
+      "label": "Law of Mass Action",
+      "conditions": [
+        "Valid for both intrinsic and extrinsic semiconductors in thermal equilibrium."
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "p-n Junction Formation",
+      "points": [
+        "Diffusion: Holes diffuse from p-side to n-side; Electrons diffuse from n-side to p-side due to concentration gradient.",
+        "Depletion Region: A region near the junction devoid of free charge carriers, containing only immobile ions.",
+        "Barrier Potential: An electric field E is developed across the depletion region (n-side positive, p-side negative) which opposes further diffusion."
+      ]
+    },
+    {
+      "type": "diagram",
+      "title": "p-n Junction and Barrier Potential",
+      "image": "/images/Physics/Derivations/pn junction and barrier potential.png",
+      "caption": "Depletion region width and potential barrier V0 across the junction."
+    },
+    {
+      "type": "concept",
+      "title": "Semiconductor Diode Biasing",
+      "points": [
+        "Forward Bias: p-side connected to Positive, n-side to Negative. Barrier height decreases. Diffusion current dominates. Width of depletion layer decreases.",
+        "Reverse Bias: p-side connected to Negative, n-side to Positive. Barrier height increases. Drift current dominates (very small). Width of depletion layer increases."
+      ]
+    },
+    {
+      "type": "diagram",
+      "title": "V-I Characteristics of p-n Junction Diode",
+      "image": "/images/Physics/Derivations/V-I Characteristics of p-n Junction Diode.png",
+      "caption": "Exponential rise in forward bias (after threshold voltage); small saturation current in reverse bias."
+    },
+    {
+      "type": "formula",
+      "latex": "I = I_s (e^{eV/k_B T} - 1)",
+      "label": "Diode Current Equation",
+      "conditions": [
+        "Is is saturation current.",
+        "V is positive for forward bias, negative for reverse."
+      ]
+    },
+    {
+      "type": "application",
+      "title": "Half-Wave Rectifier",
+      "assumptions": [
+        "Uses a single diode.",
+        "Transforms AC input to pulsating DC."
+      ],
+      "result": {
+        "latex": "\\text{Output Frequency} = \\text{Input Frequency}",
+        "direction": "Current flows only during the positive half-cycle of input AC."
+      }
+    },
+    {
+      "type": "diagram",
+      "title": "Half-Wave Rectifier Circuit and Waveform",
+      "image": "/images/Physics/Derivations/half wave rectifier.png",
+      "caption": "Diode conducts only when A is positive with respect to B."
+    },
+    {
+      "type": "application",
+      "title": "Full-Wave Rectifier",
+      "assumptions": [
+        "Uses two diodes (D1, D2) with a center-tapped transformer.",
+        "Conducts during both half-cycles."
+      ],
+      "result": {
+        "latex": "\\text{Output Frequency} = 2 \\times \\text{Input Frequency}",
+        "direction": "D1 conducts in positive half-cycle, D2 conducts in negative half-cycle. Current direction in load RL is same."
+      }
+    },
+    {
+      "type": "diagram",
+      "title": "Full-Wave Rectifier Circuit and Waveform",
+      "image": "/images/Physics/Derivations/full wave rectifier.png",
+      "caption": "Center-tap transformer allows current through load in same direction for both half cycles."
+    }
+  ],
+  "formula_sheet": [
+    {
+      "latex": "n_e = n_h = n_i",
+      "description": "Intrinsic Carrier Condition",
+      "use_case": "Direct Use"
+    },
+    {
+      "latex": "n_e n_h = n_i^2",
+      "description": "Mass Action Law",
+      "use_case": "Direct Use"
+    },
+    {
+      "latex": "E_g \\approx 1.1 \\text{ eV (Si)}, 0.7 \\text{ eV (Ge)}",
+      "description": "Band Gap Values",
+      "use_case": "Direct Use"
+    },
+    {
+      "latex": "V_{threshold} \\approx 0.7 \\text{ V (Si)}, 0.3 \\text{ V (Ge)}",
+      "description": "Knee Voltage",
+      "use_case": "Direct Use"
+    }
+  ],
+  "ncert_golden_lines": [
+    "At absolute zero, a pure semiconductor behaves as an insulator.",
+    "Carbon, silicon and germanium have the same lattice structure and have 4 valence electrons.",
+    "In an intrinsic semiconductor, the number of free electrons, ne is equal to the number of holes, nh.",
+    "The resistivity of a semiconductor decreases with temperature (negative temperature coefficient of resistance).",
+    "In forward bias, the width of the depletion layer decreases and the barrier height is reduced.",
+    "In reverse bias, the diode acts like an open switch.",
+    "A rectifier is a device which converts alternating current (ac) into direct current (dc)."
+  ],
+  "diagram_descriptors": [
+    {
+      "diagram_name": "Classification based on Energy Bands",
+      "used_for": "Classification based on Energy Bands",
+      "image_path": "/images/Physics/Derivations/classification of Energy bands.png",
+      "detailed_description": "(a) Metals: Overlapping bands or no gap. (b) Semiconductors: Small gap (Eg < 3 eV). (c) Insulators: Large gap (Eg > 3 eV)."
+    },
+    {
+      "diagram_name": "Energy Bands in Extrinsic Semiconductors",
+      "used_for": "Energy Bands in Extrinsic Semiconductors",
+      "image_path": "/images/Physics/Derivations/Energy bands in Extrinsic semiconductor.png",
+      "detailed_description": "Shows Donor level (Ed) near Conduction Band for n-type, and Acceptor level (Ea) near Valence Band for p-type."
+    },
+    {
+      "diagram_name": "p-n Junction and Barrier Potential",
+      "used_for": "p-n Junction and Barrier Potential",
+      "image_path": "/images/Physics/Derivations/pn junction and barrier potential.png",
+      "detailed_description": "Depletion region width and potential barrier V0 across the junction."
+    },
+    {
+      "diagram_name": "V-I Characteristics of p-n Junction Diode",
+      "used_for": "V-I Characteristics of p-n Junction Diode",
+      "image_path": "/images/Physics/Derivations/V-I Characteristics of p-n Junction Diode.png",
+      "detailed_description": "Exponential rise in forward bias (after threshold voltage); small saturation current in reverse bias."
+    },
+    {
+      "diagram_name": "Half-Wave Rectifier Circuit and Waveform",
+      "used_for": "Half-Wave Rectifier Circuit and Waveform",
+      "image_path": "/images/Physics/Derivations/half wave rectifier.png",
+      "detailed_description": "Diode conducts only when A is positive with respect to B."
+    },
+    {
+      "diagram_name": "Full-Wave Rectifier Circuit and Waveform",
+      "used_for": "Full-Wave Rectifier Circuit and Waveform",
+      "image_path": "/images/Physics/Derivations/full wave rectifier.png",
+      "detailed_description": "Center-tap transformer allows current through load in same direction for both half cycles."
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "board": "CBSE",
+    "exam": "Class 12 Board Examination"
+  },
+  "questions": [
+    {
+      "id": "55-4-3-Q3",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "A square loop of side 10 cm and resistance 0.5 $\\Omega$ is placed vertically in the east-west plane. A uniform magnetic field of 0.10 T is set up across the plane in the north-east direction. The magnetic flux linked with the loop is:",
+      "options": {
+        "A": "0.707 mWb",
+        "B": "7.07 mWb",
+        "C": "0",
+        "D": "1 mWb"
+      },
+      "answer": {
+        "explanation": "Magnetic Flux $\\phi = \\vec{B} \\cdot \\vec{A} = BA \\cos \\theta$.\n- Area $A = (0.1)^2 = 0.01 m^2$.\n- The loop is in the East-West plane (vertical). Its area vector is normal to it, i.e., pointing North (or South).\n- Magnetic Field B is North-East.\n- Angle $\\theta$ between North (Area vector) and North-East (B vector) is $45^\\circ$.\n- $\\phi = 0.10 \\times 0.01 \\times \\cos 45^\\circ = 0.001 \\times 0.707 = 0.000707 Wb = 0.707 mWb$.",
+        "key_formulae": [
+          "\\phi = BA \\cos \\theta"
+        ],
+        "diagrams": [
+          ""
+        ]
+      },
+      "correct_option": "A",
+      "diagram_required": false,
+      "source": "55/4/3"
+    },
+    {
+      "id": "55-5-3-Q5",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "The magnetic flux linked with a coil (in Wb) is given by the equation $\\phi = 5t^2 + 3t + 16$. The magnitude of induced emf in the coil at the fourth second will be:",
+      "options": {
+        "A": "33 V",
+        "B": "43 V",
+        "C": "108 V",
+        "D": "10 V"
+      },
+      "answer": {
+        "explanation": "Induced emf $e = |\\frac{d\\phi}{dt}|$.\n$\\phi = 5t^2 + 3t + 16$.\n$\\frac{d\\phi}{dt} = 10t + 3$.\\nAt $t = 4 s$, $e = 10(4) + 3 = 43 V$.",
+        "key_formulae": [
+          "e = -\\frac{d\\phi}{dt}"
+        ],
+        "diagrams": []
+      },
+      "correct_option": "B",
+      "diagram_required": false,
+      "source": "55/5/3"
+    },
+    {
+      "id": "55-6-1-Q7",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "A circular loop of radius r is placed in a uniform magnetic field B perpendicular to the plane of the loop. If the radius of the loop is made to shrink at a constant rate $\\frac{dr}{dt}$, the induced emf is:",
+      "options": {
+        "A": "2$\\pi$rB $\\frac{dr}{dt}$",
+        "B": "$\\pi$rB $\\frac{dr}{dt}$",
+        "C": "$\\pi$r$^2$B $\\frac{dr}{dt}$",
+        "D": "2$\\pi$r$^2$B $\\frac{dr}{dt}$"
+      },
+      "answer": {
+        "explanation": "Flux $\\phi = B \\cdot A = B (\\pi r^2)$.\\nInduced emf $e = |\\frac{d\\phi}{dt}| = |\\frac{d}{dt}(B \\pi r^2)| = B \\pi \\frac{d(r^2)}{dt}$.\\nUsing chain rule: $\\frac{d(r^2)}{dt} = 2r \\frac{dr}{dt}$.\\nThus, $e = 2\\pi r B \\frac{dr}{dt}$.",
+        "key_formulae": [
+          "e = \\frac{d\\phi}{dt}",
+          "\\phi = B \\pi r^2"
+        ],
+        "diagrams": []
+      },
+      "correct_option": "A",
+      "diagram_required": false,
+      "source": "55/6/1"
+    },
+    {
+      "id": "55-4-1-Q9",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "A metallic plate exposed to a changing magnetic field gets heated due to:",
+      "options": {
+        "A": "Eddy currents",
+        "B": "Displacement current",
+        "C": "Photoelectric effect",
+        "D": "Hysteresis loss"
+      },
+      "answer": {
+        "explanation": "Changing magnetic flux linked with a bulk conductor (metallic plate) induces circulating currents called Eddy currents. These currents dissipate energy as heat due to the resistance of the metal ($P = I^2R$).",
+        "key_formulae": [],
+        "diagrams": [
+          ""
+        ]
+      },
+      "correct_option": "A",
+      "diagram_required": false,
+      "source": "55/4/1"
+    },
+    {
+      "id": "55-5-3-Q19",
+      "year": 2023,
+      "marks": 2,
+      "type": "theory",
+      "question": "A metallic rod of length 'L' is rotated with angular frequency '$\\omega$' with one end hinged at the centre and the other end at the circumference of a circular metallic ring of radius L, about an axis passing through the centre and perpendicular to the plane of the ring. A constant and uniform magnetic field B is present parallel to the axis. Derive the expression for the emf induced between the centre and the metallic ring.",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "answer": {
+        "explanation": "GIVEN: Rod length L, angular velocity $\\omega$, Magnetic field B (perpendicular to rotation plane).\\nDERIVATION:\n1. Consider a small element of length $dr$ at distance $r$ from the center.\n2. Velocity of this element $v = r\\omega$.\n3. Induced motional emf across this element $de = Bv dr = B(r\\omega) dr$.\n4. Total emf is the integration from $r=0$ to $r=L$:\n   $E = \\int_0^L B \\omega r dr = B \\omega [\\frac{r^2}{2}]_0^L$\n   $E = \\frac{1}{2} B \\omega L^2$.\\nFINAL RESULT:\n$\\varepsilon = \\frac{1}{2} B \\omega L^2$",
+        "key_formulae": [
+          "d\\varepsilon = Bvdl",
+          "v = r\\omega"
+        ],
+        "diagrams": [
+          ""
+        ]
+      },
+      "diagram_required": true,
+      "source": "55/5/3",
+      "diagram_url": "/images/Physics/PYQs/chapter6/55-5-3-Q19.png",
+      "image": "/images/Physics/Derivations/magnetic field at axis of ring.png"
+    },
+    {
+      "id": "55-6-1-Q20",
+      "year": 2023,
+      "marks": 2,
+      "type": "theory",
+      "question": "(a) Predict the polarity of the capacitor in the situation described by the figure [Magnet moving towards a coil connected to a capacitor]. (b) A rectangular wire loop of sides 8 cm and 2 cm with a small cut is moving out of a region of uniform magnetic field of magnitude 0.3 T directed normal to the loop. What is the emf developed across the cut if the velocity of the loop is 1 cm/s in a direction normal to the longer side?",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "answer": {
+        "explanation": "(a) POLARITY:\n   - Apply Lenz's Law. If the North pole of a magnet approaches the coil, the face of the coil facing the magnet must behave as a North pole to repel it.\n   - This requires the induced current to be anti-clockwise (looking from the magnet side).\n   - Determine the direction of current flow to the capacitor plates. The plate where current enters becomes positive.\n\n(b) NUMERICAL:\n   - GIVEN: $B = 0.3 T$, $v = 1 cm/s = 0.01 m/s$. Moving normal to longer side (length $l = 8 cm = 0.08 m$).\n   - The side cutting the flux is the shorter side? No, velocity is normal to the longer side, meaning the shorter sides (2cm) are cutting field lines? Or is it simply $e = Blv$ where $l$ is the length perpendicular to velocity?\n   - If moving normal to longer side (8cm), the length of the conductor cutting the field is the longer side $l = 8 cm$ ($0.08 m$).\n   - Induced Emf $e = Blv = 0.3 \\times 0.08 \\times 0.01 = 0.00024 V = 0.24 mV$.\n   - Note: The cut does not prevent potential difference (emf) from developing, though no current flows.",
+        "key_formulae": [
+          "e = Blv"
+        ],
+        "diagrams": [
+          ""
+        ]
+      },
+      "diagram_required": true,
+      "source": "55/6/1",
+      "diagram_url": "/images/Physics/PYQs/chapter6/55-6-1-Q20.png",
+      "image": "/images/Physics/Derivations/magnetic field of bar magnet and solenoid.png"
+    },
+    {
+      "id": "55-4-3-Q25",
+      "year": 2023,
+      "marks": 3,
+      "type": "derivation",
+      "question": "(a) Define mutual inductance and write its SI unit. (b) Derive an expression for the mutual inductance of two long coaxial solenoids of same length wound one over the other. (c) In an experiment, two coils C1 and C2 are placed close to each other. Find out the expression for the emf induced in the coil C1 due to a change in the current through the coil C2.",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "answer": {
+        "explanation": "(a) DEFINITION:\n   Mutual inductance is the property of a pair of coils by which an opposing emf is induced in one coil due to the changing current in the neighboring coil.\n   SI Unit: Henry (H).\n\n(b) DERIVATION:\n   1. Let two long solenoids have length $l$, area $A$, and number of turns $N_1, N_2$ ($n_1, n_2$ turns per unit length).\n   2. Current $I_2$ flows in inner solenoid $S_2$. Magnetic field $B_2 = \\mu_0 n_2 I_2$.\n   3. Flux linked with outer solenoid $S_1$: $\\phi_1 = N_1 (B_2 A) = (n_1 l) (\\mu_0 n_2 I_2) A$.\n   4. $\\phi_1 = \\mu_0 n_1 n_2 A l I_2$.\n   5. By definition $\\phi_1 = M I_2$.\n   6. Thus, $M = \\mu_0 n_1 n_2 A l$.\n\n(c) EMF EXPRESSION:\n   - Flux in C1: $\\phi_1 = M I_2$.\n   - Induced emf $e_1 = -\\frac{d\\phi_1}{dt} = -\\frac{d}{dt}(M I_2)$.\n   - Since geometry is constant (M is const): $e_1 = -M \\frac{dI_2}{dt}$.",
+        "key_formulae": [
+          "M = \\mu_0 n_1 n_2 A l",
+          "e_1 = -M \\frac{dI_2}{dt}"
+        ],
+        "diagrams": [
+          ""
+        ]
+      },
+      "diagram_required": true,
+      "source": "55/4/3",
+      "diagram_url": "/images/Physics/PYQs/chapter6/55-4-3-Q25.png",
+      "image": "/images/Physics/Derivations/faradays magnet and coil experiment.png"
+    },
+    {
+      "id": "55-5-3-Q31-b",
+      "year": 2023,
+      "marks": 5,
+      "type": "theory",
+      "question": "(i) With the help of a labeled diagram, explain the principle and working of an a.c. generator. (ii) A rectangular coil of area A and number of turns N rotates at angular speed $\\omega$ in a uniform magnetic field B. Derive the expression for the induced emf.",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "answer": {
+        "explanation": "(i) AC GENERATOR:\n   - Principle: Electromagnetic Induction. When a coil rotates in a magnetic field, the magnetic flux linked with it changes, inducing an alternating emf.\n   - Diagram: Show Magnet poles (N, S), Armature coil, Slip rings, Brushes, and Load.\n   - Working: As coil rotates, angle $\\theta$ between area vector $\\vec{A}$ and field $\\vec{B}$ changes ($\\theta = \\omega t$). Flux $\\phi = NBA \\cos(\\omega t)$. Change in flux induces emf.\n\n(ii) DERIVATION:\n   1. Magnetic Flux linked with coil: $\\phi = N \\vec{B} \\cdot \\vec{A} = NBA \\cos \\theta = NBA \\cos(\\omega t)$.\n   2. By Faraday's Law, induced emf $e = -\\frac{d\\phi}{dt}$.\n   3. $e = -\\frac{d}{dt} [NBA \\cos(\\omega t)] = -NBA [-\\sin(\\omega t)] \\omega$.\n   4. $e = NBA\\omega \\sin(\\omega t)$.\n   5. Max emf $e_0 = NBA\\omega$.\n   6. Final form: $e = e_0 \\sin(\\omega t)$.",
+        "key_formulae": [
+          "\\phi = NBA \\cos(\\omega t)",
+          "e = e_0 \\sin(\\omega t)"
+        ],
+        "diagrams": [
+          "[Image of AC generator diagram with slip rings]"
+        ]
+      },
+      "diagram_required": true,
+      "source": "55/5/3",
+      "diagram_url": "/images/Physics/PYQs/chapter6/55-5-3-Q31-b.png",
+      "image": "/images/Physics/Derivations/Earths magnetic field.png"
+    }
+  ],
+  "diagram_required": true
+}

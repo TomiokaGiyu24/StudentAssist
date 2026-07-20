@@ -1,0 +1,250 @@
+{
+  "meta": {
+    "subject": "Physics",
+    "class": 12,
+    "board": "CBSE",
+    "chapter": "Atoms"
+  },
+  "derivations": [
+    {
+      "id": "ch12-01",
+      "title": "Distance of Closest Approach (Alpha Scattering)",
+      "priority": "P2",
+      "priority_reason": "Fundamental concept for Rutherford model. Often asked as a 2-mark derivation or numerical base.",
+      "marks": 2,
+      "diagram_required": true,
+      "diagram_description": "An alpha particle with velocity v and charge +2e approaches a nucleus of charge +Ze from infinity. It stops momentarily at distance r0 (Distance of Closest Approach) and turns back. Initial state: Kinetic Energy K, Potential Energy 0. Final state at r0: Kinetic Energy 0, Potential Energy U.",
+      "derivation": {
+        "given_assumptions": [
+          "Alpha particle (mass $m$, charge $2e$) approaches nucleus ($Ze$).",
+          "Initial velocity $v$ far from nucleus.",
+          "Coulomb repulsive force acts between them."
+        ],
+        "required": "Expression for distance of closest approach $r_0$.",
+        "steps": [
+          {
+            "text": "At infinity, total energy is purely Kinetic:",
+            "latex": "E_i = K = \\frac{1}{2}mv^2"
+          },
+          {
+            "text": "At distance $r_0$, the particle stops momentarily. Total energy is purely Potential:",
+            "latex": "E_f = U = \\frac{1}{4\\pi\\epsilon_0} \\frac{(2e)(Ze)}{r_0}"
+          },
+          {
+            "text": "By Conservation of Energy ($E_i = E_f$):",
+            "latex": "K = \\frac{1}{4\\pi\\epsilon_0} \\frac{2Ze^2}{r_0}"
+          },
+          {
+            "text": "Solving for $r_0$:",
+            "latex": "r_0 = \\frac{1}{4\\pi\\epsilon_0} \\frac{2Ze^2}{K}"
+          }
+        ],
+        "final_result": {
+          "text": "Distance of closest approach:",
+          "latex": "r_0 = \\frac{2Ze^2}{4\\pi\\epsilon_0 (\\frac{1}{2}mv^2)}"
+        },
+        "examiner_notes": [
+          "Must state 'By Conservation of Mechanical Energy'.",
+          "Common error: Forgetting the factor '2' in alpha particle charge (2e).",
+          "Used to estimate the size of the nucleus."
+        ],
+        "question_forms": [
+          "Derive the expression for the distance of closest approach of an alpha particle towards a nucleus.",
+          "Estimate the size of the nucleus using Rutherford's scattering experiment."
+        ]
+      },
+      "image": "/images/placeholder.svg"
+    },
+    {
+      "id": "ch12-02",
+      "title": "Radius of Bohr's Orbit ",
+      "priority": "P1",
+      "priority_reason": "Core derivation of the chapter. Serves as the base for Velocity and Energy derivations. Extremely high probability.",
+      "marks": 3,
+      "diagram_required": true,
+      "diagram_description": "Electron of mass m, charge e moving in circular orbit of radius r around nucleus +Ze with velocity v. Centripetal force acts inwards, Coulomb force acts inwards.",
+      "derivation": {
+        "given_assumptions": [
+          "Electron moves in circular orbit of radius $r$.",
+          "Nucleus is stationary with charge $Ze$.",
+          "Bohr's Quantization condition holds."
+        ],
+        "required": "Expression for radius of $n^{th}$ orbit $r_n$.",
+        "steps": [
+          {
+            "text": "Condition 1: Centripetal force is provided by Electrostatic attraction.",
+            "latex": "\\frac{mv^2}{r} = \\frac{1}{4\\pi\\epsilon_0} \\frac{Ze^2}{r^2} \\implies mv^2 = \\frac{Ze^2}{4\\pi\\epsilon_0 r} \\quad \\dots(1)"
+          },
+          {
+            "text": "Condition 2: Bohr's Quantization of angular momentum.",
+            "latex": "mvr = \\frac{nh}{2\\pi} \\implies v = \\frac{nh}{2\\pi mr} \\quad \\dots(2)"
+          },
+          {
+            "text": "Substitute $v$ from (2) into (1):",
+            "latex": "m \\left( \\frac{nh}{2\\pi mr} \\right)^2 = \\frac{Ze^2}{4\\pi\\epsilon_0 r}"
+          },
+          {
+            "text": "Expanding and simplifying:",
+            "latex": "m \\frac{n^2 h^2}{4\\pi^2 m^2 r^2} = \\frac{Ze^2}{4\\pi\\epsilon_0 r}"
+          },
+          {
+            "text": "Cancel $r$ from both sides and solve for $r$:",
+            "latex": "r = \\frac{\\epsilon_0 h^2 n^2}{\\pi m Z e^2}"
+          }
+        ],
+        "final_result": {
+          "text": "Radius of nth orbit:",
+          "latex": "r_n \\propto \\frac{n^2}{Z}"
+        },
+        "examiner_notes": [
+          "Students often mix up the constants in the final fraction.",
+          "Remember: Radius is directly proportional to n^2 (n=1, 2, 3... orbits get wider separation).",
+          "For Hydrogen (Z=1, n=1), r = 0.529 Angstrom (Bohr Radius)."
+        ],
+        "question_forms": [
+          "Using Bohr's postulates, derive the expression for the radius of the nth orbit of a hydrogen atom.",
+          "Show that the radius of the orbit in a hydrogen atom varies as the square of the principal quantum number."
+        ]
+      }
+    },
+    {
+      "id": "ch12-03",
+      "title": "Total Energy of Electron in Bohr's Orbit",
+      "priority": "P1",
+      "priority_reason": "Extension of the radius derivation. Often asked together as a 5-mark question.",
+      "marks": 3,
+      "diagram_required": false,
+      "diagram_description": "Same as Bohr radius diagram.",
+      "derivation": {
+        "given_assumptions": [
+          "Orbital radius $r_n = \\frac{\\epsilon_0 h^2 n^2}{\\pi m Z e^2}$.",
+          "From force balance: $mv^2 = \\frac{Ze^2}{4\\pi\\epsilon_0 r}$."
+        ],
+        "required": "Total Energy $E_n$.",
+        "steps": [
+          {
+            "text": "Kinetic Energy $K = \\frac{1}{2}mv^2$. Using force balance equation:",
+            "latex": "K = \\frac{1}{2} \\left( \\frac{Ze^2}{4\\pi\\epsilon_0 r} \\right) = \\frac{Ze^2}{8\\pi\\epsilon_0 r}"
+          },
+          {
+            "text": "Potential Energy $U$ (at distance $r$):",
+            "latex": "U = -\\frac{1}{4\\pi\\epsilon_0} \\frac{(Ze)(e)}{r} = -\\frac{Ze^2}{4\\pi\\epsilon_0 r}"
+          },
+          {
+            "text": "Total Energy $E = K + U$:",
+            "latex": "E = \\frac{Ze^2}{8\\pi\\epsilon_0 r} - \\frac{Ze^2}{4\\pi\\epsilon_0 r} = -\\frac{Ze^2}{8\\pi\\epsilon_0 r}"
+          },
+          {
+            "text": "Substitute the expression for $r$:",
+            "latex": "E_n = -\\frac{Ze^2}{8\\pi\\epsilon_0} \\left( \\frac{\\pi m Z e^2}{\\epsilon_0 h^2 n^2} \\right)"
+          }
+        ],
+        "final_result": {
+          "text": "Total Energy of nth orbit:",
+          "latex": "E_n = -\\frac{m Z^2 e^4}{8 \\epsilon_0^2 h^2 n^2}"
+        },
+        "examiner_notes": [
+          "The negative sign is mandatory (indicates bound state).",
+          "Crucial relations: K = -E, U = 2E.",
+          "For Hydrogen (Z=1), E = -13.6/n^2 eV."
+        ],
+        "question_forms": [
+          "Derive the expression for the total energy of an electron in the nth stationary orbit.",
+          "Show that the total energy of the electron in a hydrogen atom is negative and inversely proportional to n^2."
+        ]
+      }
+    },
+    {
+      "id": "ch12-04",
+      "title": "Rydberg Formula for Spectral Lines",
+      "priority": "P1",
+      "priority_reason": "Explains the Hydrogen spectrum. Standard 3-mark derivation.",
+      "marks": 3,
+      "diagram_required": true,
+      "diagram_description": "Energy level diagram. Electron jumps from higher orbit n_i (Initial) to lower orbit n_f (Final). A photon of energy h-nu is emitted.",
+      "derivation": {
+        "given_assumptions": [
+          "Electron transitions from $n_i$ to $n_f$ ($n_i > n_f$).",
+          "Energy of orbit: $E_n = -\\frac{m e^4}{8 \\epsilon_0^2 h^2 n^2}$ (for H-atom, Z=1)."
+        ],
+        "required": "Wavelength $\\lambda$ or Wave number $\\bar{\\nu}$.",
+        "steps": [
+          {
+            "text": "According to Bohr's frequency condition, energy of emitted photon is the difference in orbital energies:",
+            "latex": "h\\nu = E_{n_i} - E_{n_f}"
+          },
+          {
+            "text": "Substitute energy expressions:",
+            "latex": "h\\nu = \\left( -\\frac{m e^4}{8 \\epsilon_0^2 h^2 n_i^2} \\right) - \\left( -\\frac{m e^4}{8 \\epsilon_0^2 h^2 n_f^2} \\right)"
+          },
+          {
+            "text": "Group constants and rearrange positive term first:",
+            "latex": "h\\nu = \\frac{m e^4}{8 \\epsilon_0^2 h^2} \\left( \\frac{1}{n_f^2} - \\frac{1}{n_i^2} \\right)"
+          },
+          {
+            "text": "Since $\\nu = c/\\lambda$, we have $\\frac{hc}{\\lambda} = \\dots$ Divide by $hc$:",
+            "latex": "\\frac{1}{\\lambda} = \\frac{m e^4}{8 \\epsilon_0^2 h^3 c} \\left( \\frac{1}{n_f^2} - \\frac{1}{n_i^2} \\right)"
+          }
+        ],
+        "final_result": {
+          "text": "Rydberg Formula (where $R$ is Rydberg constant):",
+          "latex": "\\bar{\\nu} = \\frac{1}{\\lambda} = R \\left( \\frac{1}{n_f^2} - \\frac{1}{n_i^2} \\right)"
+        },
+        "examiner_notes": [
+          "Must define R in terms of fundamental constants (me^4 / 8epsilon^2 h^3 c).",
+          "Common mistake: Swapping n_f and n_i. Correct order is (1/lower^2 - 1/higher^2)."
+        ],
+        "question_forms": [
+          "Using Bohr's theory, derive the expression for the wave number of the spectral lines in hydrogen spectrum.",
+          "Obtain the Rydberg formula for hydrogen spectrum."
+        ]
+      }
+    },
+    {
+      "id": "ch12-05",
+      "title": "de Broglie's Explanation of Bohr's Quantization Condition",
+      "priority": "P2",
+      "priority_reason": "Connects Chapter 11 and 12. Short and conceptual.",
+      "marks": 2,
+      "diagram_required": true,
+      "diagram_description": "A circular orbit showing a standing wave fitted into the circumference. The wave must close upon itself continuously (integer number of wavelengths).",
+      "derivation": {
+        "given_assumptions": [
+          "Electron behaves as a wave of wavelength $\\lambda$.",
+          "Orbit is stable only if the wave forms a stationary wave (constructive interference)."
+        ],
+        "required": "Bohr's condition $mvr = nh/2\\pi$.",
+        "steps": [
+          {
+            "text": "For a standing wave in a circular orbit, circumference must be an integral multiple of wavelength:",
+            "latex": "2\\pi r = n\\lambda"
+          },
+          {
+            "text": "According to de Broglie hypothesis, wavelength is inversely proportional to momentum:",
+            "latex": "\\lambda = \\frac{h}{p} = \\frac{h}{mv}"
+          },
+          {
+            "text": "Substitute $\\lambda$ into the circumference equation:",
+            "latex": "2\\pi r = n \\left( \\frac{h}{mv} \\right)"
+          },
+          {
+            "text": "Rearranging terms:",
+            "latex": "mvr = \\frac{nh}{2\\pi}"
+          }
+        ],
+        "final_result": {
+          "text": "Bohr's second postulate is derived.",
+          "latex": "L = \\frac{nh}{2\\pi}"
+        },
+        "examiner_notes": [
+          "Diagram showing 'n' loops in the circle is helpful.",
+          "Statement 'Circumference = Integral multiple of lambda' is the key mark-fetching point."
+        ],
+        "question_forms": [
+          "State Bohr's quantization condition for angular momentum and give its de Broglie explanation.",
+          "Show that the de Broglie hypothesis leads to Bohr's second postulate."
+        ]
+      }
+    }
+  ]
+}

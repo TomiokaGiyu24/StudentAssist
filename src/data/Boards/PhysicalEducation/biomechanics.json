@@ -1,0 +1,162 @@
+{
+    "chapter_name": "Biomechanics & Sports",
+    "weightage_insight": {
+        "estimated_marks_range": "8–12 Marks",
+        "pyq_frequency_summary": "This is the most 'Technical' chapter. A 5-mark question on 'Projectile Motion' (Factors affecting trajectory) or 'Newton’s Laws of Motion in Sports' is highly probable. Levers (Class 1, 2, 3) often appear as 3-mark diagram-based questions. MCQs frequently test the identification of levers in daily movements (e.g., 'Nodding head is which lever?')."
+    },
+    "ultimate_short_notes": [
+        {
+            "heading": "Newton’s Laws of Motion (The Foundation)",
+            "content": [
+                "**1. Law of Inertia**: A body at rest remains at rest, and a body in motion remains in motion unless acted upon by an external force. **Example**: A sprinter remains at the starting blocks until the gun fires.",
+                "**2. Law of Acceleration ($F=ma$)**: The rate of change of momentum is proportional to the applied force. **Example**: A shot-putter applying more force accelerates the shot faster.",
+                "**3. Law of Reaction**: To every action, there is an equal and opposite reaction. **Example**: Swimmer pushes water backward (Action) to move forward (Reaction)."
+            ]
+        },
+        {
+            "heading": "Levers (The F-A-R Code)",
+            "content": [
+                "**Definition**: A rigid bar used to overcome a load when force is applied.",
+                "**Class 1 (F in middle)**: **Load - Fulcrum - Effort**. (e.g., Nodding Head, See-saw). Built for balance.",
+                "**Class 2 (L in middle)**: **Fulcrum - Load - Effort**. (e.g., Standing on toes/Calf raise). Built for force advantage.",
+                "**Class 3 (E in middle)**: **Fulcrum - Effort - Load**. (e.g., Bicep Curl, Kicking a ball). Built for speed/range of motion."
+            ]
+        },
+        {
+            "heading": "Equilibrium & Center of Gravity (COG)",
+            "content": [
+                "**Equilibrium**: State where all forces acting on the body are balanced (Net Force = 0).",
+                "**Center of Gravity**: The point where the entire weight of the body is concentrated.",
+                "**Stability Principle**: Lower COG + Wider Base of Support = Higher Stability. (e.g., Wrestlers spread legs and bend down to avoid being thrown)."
+            ]
+        },
+        {
+            "heading": "Friction (Necessary Evil)",
+            "content": [
+                "**Static Friction**: Force resisting motion when object is at rest (Highest value).",
+                "**Kinetic Friction**: Force resisting motion when object is moving (Lower than static). Includes **Sliding** (Ice skating) and **Rolling** (Hockey ball on turf).",
+                "**Sports Use**: Spikes in shoes *increase* friction for grip; Powder on carrom board *decreases* friction for speed."
+            ]
+        }
+    ],
+    "exam_playbook": [
+        {
+            "strategy_name": "The '1-2-3 F-L-E' Mnemonic",
+            "pyq_pattern": "Identify the class of lever in [Movement] or Draw a diagram of Class 2 Lever.",
+            "how_students_lose_marks": "Confusing the position of Load and Effort.",
+            "winning_approach": "Memorize: **1-2-3** matches **F-L-E** (Fle). Class **1** has **F**ulcrum in middle. Class **2** has **L**oad in middle. Class **3** has **E**ffort in middle. Always draw the line diagram first.",
+            "marks_secured": "3 Marks (Guaranteed)"
+        },
+        {
+            "strategy_name": "Projectile Protocol",
+            "pyq_pattern": "Explain factors affecting the trajectory of a projectile.",
+            "how_students_lose_marks": "Missing 'Air Resistance' or 'Spin'. Only writing 'Speed' and 'Angle'.",
+            "winning_approach": "List 4 Factors: 1. Initial Velocity (Speed), 2. Angle of Release (45° is optimal), 3. Height of Release, 4. Air Resistance/Gravity. Explain each in 1 line.",
+            "marks_secured": "5 Marks"
+        }
+    ],
+    "formula_bank": [
+        {
+            "concept": "Newton's Second Law",
+            "formula": "$$F = m \\times a$$",
+            "used_in_questions": "Explaining why lighter athletes accelerate faster with same force."
+        },
+        {
+            "concept": "Optimal Angle (Projectile)",
+            "formula": "$$\\theta = 45^{\\circ}$$",
+            "used_in_questions": "Condition for maximum horizontal range ($R_{max}$)."
+        },
+        {
+            "concept": "Work Done",
+            "formula": "$$W = F \\times d$$",
+            "used_in_questions": "Mechanical definition often linked to levers."
+        }
+    ],
+    "sure_shot_questions": [
+        {
+            "question": "Elucidate Newton’s Laws of Motion with suitable examples from sports.",
+            "marks": 5,
+            "mandatory_keywords": [
+                "Inertia",
+                "F=ma",
+                "Action-Reaction",
+                "Starting Blocks",
+                "Swimming"
+            ],
+            "answer_structure": "Three sub-headings for each law -> Definition -> Sports Example.",
+            "model_answer_outline": [
+                "**1. Law of Inertia**: Object remains at rest unless forced. *Example*: A football stays on the penalty spot until kicked.",
+                "**2. Law of Acceleration**: $F=ma$. *Example*: Hitting a ball harder (Force) makes it travel faster (Acceleration).",
+                "**3. Law of Reaction**: Equal & Opposite. *Example*: In dribbling, player pushes ball down (Action), ground pushes it up (Reaction)."
+            ]
+        },
+        {
+            "question": "What is Projectile Motion? Explain the factors affecting its trajectory.",
+            "marks": 5,
+            "mandatory_keywords": [
+                "Parabola",
+                "Angle 45 degree",
+                "Initial Velocity",
+                "Gravity",
+                "Air Resistance"
+            ],
+            "answer_structure": "Definition (Flight of object in air) -> Factors list with explanation.",
+            "model_answer_outline": [
+                "**Definition**: An object thrown into space under gravity follows a curved path called a parabola.",
+                "**Factors**:",
+                "1. **Angle of Release**: 45° gives max distance.",
+                "2. **Initial Velocity**: Higher speed = Longer distance.",
+                "3. **Height of Release**: Higher release point increases range.",
+                "4. **Gravity/Air Resistance**: Pulls object down/slows it."
+            ]
+        },
+        {
+            "question": "Draw a diagram of a Class II Lever and give one example from sports.",
+            "marks": 3,
+            "mandatory_keywords": [
+                "Fulcrum",
+                "Load",
+                "Effort",
+                "Calf Raise"
+            ],
+            "answer_structure": "Line Diagram (F-L-E) -> Example -> Explanation.",
+            "model_answer_outline": [
+                "**Diagram**: Fulcrum on one end, Effort on other, Load in center [Image of Class 2 Lever].",
+                "**Example**: Taking off for a jump (Plantar flexion).",
+                "**Explanation**: Toes are Fulcrum, Body weight is Load, Calf muscle provides Effort."
+            ]
+        }
+    ],
+    "diagram_descriptors": [
+        {
+            "diagram_name": "Lever Classes (1, 2, 3)",
+            "used_for": "Lever identification",
+            "image_path": "/images/PhysicalEducation/lever identification.png",
+            "detailed_description": "Three horizontal lines. Class 1: Triangle (Fulcrum) in center. Class 2: Square (Load) in center. Class 3: Arrow (Effort) in center."
+        },
+        {
+            "diagram_name": "Projectile Trajectory",
+            "used_for": "Projectile motion factors",
+            "image_path": "/images/PhysicalEducation/projectile motion.png",
+            "detailed_description": "A parabolic curve starting from ground, reaching a peak, and landing. Labels: 'Angle of Release', 'Height (H)', 'Range (R)'. Arrows showing Gravity acting downwards."
+        },
+        {
+            "diagram_name": "Stable vs Unstable Equilibrium",
+            "used_for": "Equilibrium/COG explanation",
+            "image_path": "/images/PhysicalEducation/stable vs unstable equillibrium.png",
+            "detailed_description": "Stable: A cone sitting on its wide base (Low COG). Unstable: A cone balanced on its tip (High COG, small base)."
+        }
+    ],
+    "examiner_traps": [
+        {
+            "common_mistake": "Confusing Kinetic and Static Friction.",
+            "why_marks_are_cut": "Students write 'Static is when moving'.",
+            "correct_examiner_expectation": "Static = Stationary (Harder to start). Kinetic = Moving (Easier to sustain). $Static > Kinetic$."
+        },
+        {
+            "common_mistake": "Drawing the Lever diagram wrong.",
+            "why_marks_are_cut": "Placing the Fulcrum in the middle for ALL classes.",
+            "correct_examiner_expectation": "Only Class 1 has Fulcrum in middle. Use F-L-E mnemonic."
+        }
+    ]
+}

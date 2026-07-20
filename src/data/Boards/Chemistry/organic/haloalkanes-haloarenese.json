@@ -1,0 +1,929 @@
+{
+  "meta": {
+    "subject": "Chemistry",
+    "class": "12",
+    "board": "CBSE",
+    "chapter_number": "6",
+    "chapter_name": "Haloalkanes and Haloarenes",
+    "ncert_edition": "latest",
+    "chapter_weightage_estimate": "6 Marks",
+    "difficulty_rating": "Moderate",
+    "nature_of_chapter": "Organic",
+    "scoring_potential_analysis": "High. The questions are highly predictable: SN1 vs SN2 mechanisms, Name Reactions (Sandmeyer, Finkelstein, Swarts, Wurtz), and 'Give Reason' for reactivity trends."
+  },
+  "chapter_flow": [
+    {
+      "ncert_section": "6.1 & 6.2",
+      "section_title": "Classification, Nomenclature & Nature of C-X Bond",
+      "section_importance_signal": "Low",
+      "why_section_matters_exam_wise": "Basic literacy for the chapter. 'Allylic' and 'Vinylic' halide definitions are frequent 1M questions.",
+      "core_concepts": [
+        {
+          "concept_id": "HALO-01",
+          "concept_title": "Classification & Bond Nature",
+          "ncert_alignment_scope": "6.1 Classification, 6.3 Nature of C-X Bond",
+          "definition_or_law_verbatim": "Allylic halides: Halogen is bonded to an sp3-hybridised carbon atom next to a carbon-carbon double bond. Vinylic halides: Halogen is bonded to an sp2-hybridised carbon atom of a carbon-carbon double bond.",
+          "concept_clarity_explanation": "C-X bond is polar. Carbon is partial positive, Halogen is partial negative. Bond strength decreases down the group (C-F > C-Cl > C-Br > C-I) as bond length increases.",
+          "cognitive_layering": {
+            "weak_student_layer": "Allylic = Next to double bond. Vinylic = On the double bond.",
+            "board_ready_layer": "Identify Benzylic (sp3 C attached to benzene) vs Aryl (sp2 C of benzene).",
+            "topper_mastery_layer": "Correlate Dipole Moment: CH3Cl > CH3F > CH3Br > CH3I (Exception: Cl > F due to longer bond distance of Cl compensating for lower electronegativity)."
+          },
+          "exam_intelligence": {
+            "why_examiner_tests_this": "Tests foundation for resonance and reactivity arguments later.",
+            "question_formats": [
+              "MCQ (Identify type)",
+              "1M Reasoning (Dipole moment order)"
+            ],
+            "trap_patterns": [
+              "Asking for Dipole Moment order (Chloromethane > Fluoromethane is the trap).",
+              "Confusing Allyl (sp3) with Vinyl (sp2)."
+            ],
+            "frequent_misconceptions": [
+              "Fluorine being most electronegative creates the highest dipole moment (Incorrect, bond length factor makes Cl highest)."
+            ]
+          },
+          "formula_block": [],
+          "derivation_block": {
+            "required": false
+          },
+          "numerical_archetypes": [],
+          "chemical_equations": [],
+          "mechanism_block": {
+            "required": false
+          },
+          "diagram_json": {
+            "diagram_required": true,
+            "diagram_type": "Structure",
+            "components_to_label": ["Allylic Carbon (sp3)", "Vinylic Carbon (sp2)", "Benzylic Carbon"],
+            "concept_tested_through_diagram": "Hybridisation and Classification",
+            "common_exam_twist": "Classifying 3-bromocyclohex-1-ene (Allylic)"
+          },
+          "direct_ncert_question_triggers": [
+            "Intext 6.1"
+          ]
+        }
+      ],
+      "rapid_revision_block": {
+        "ultra_compact_revision": "Allyl/Benzyl = Reactive (Carbocation stabilized). Vinyl/Aryl = Unreactive (Double bond character). Dipole: CH3Cl > CH3F.",
+        "must_remember_points": [
+          "Gem-dihalide (on same C) vs Vic-dihalide (on adjacent C).",
+          "Bond Enthalpy: C-F > C-Cl > C-Br > C-I."
+        ],
+        "formula_snapshot": []
+      }
+    },
+    {
+      "ncert_section": "6.4",
+      "section_title": "Methods of Preparation",
+      "section_importance_signal": "Medium",
+      "why_section_matters_exam_wise": "Name reactions (Finkelstein, Swarts, Sandmeyer) are direct 2M questions or 'Complete the Reaction'.",
+      "core_concepts": [
+        {
+          "concept_id": "HALO-02",
+          "concept_title": "Preparation of Haloalkanes",
+          "ncert_alignment_scope": "From Alcohols, Hydrocarbons, Halogen Exchange",
+          "definition_or_law_verbatim": "Groove's Process: HCl + ZnCl2. Darzen's Process: SOCl2.",
+          "concept_clarity_explanation": "From Alcohols: SOCl2 is preferred because byproducts (SO2, HCl) are gases, leaving pure alkyl halide. Halogen Exchange: Finkelstein (NaI/Acetone) for Iodides. Swarts (AgF, Hg2F2) for Fluorides.",
+          "cognitive_layering": {
+            "weak_student_layer": "Alcohol + PCl5 -> R-Cl. Alcohol + SOCl2 -> R-Cl (Best). Finkelstein = NaI. Swarts = AgF.",
+            "board_ready_layer": "Markovnikov addition of HX to alkenes. Free radical chlorination gives mixtures.",
+            "topper_mastery_layer": "Why KI + H2SO4 fails? (H2SO4 oxidizes HI to I2). Use H3PO4 instead."
+          },
+          "exam_intelligence": {
+            "why_examiner_tests_this": "Tests reagent specificity.",
+            "question_formats": [
+              "Complete the Reaction",
+              "Reasoning (Why SOCl2 preferred?)"
+            ],
+            "trap_patterns": [
+              "Using H2SO4 with KI (Major trap).",
+              "Asking for product of Propene + HBr + Peroxide (Anti-Markovnikov) vs Propene + HBr (Markovnikov)."
+            ],
+            "frequent_misconceptions": [
+              "Finkelstein can prepare fluorides (No, it's for Iodides using solubility difference of NaX in acetone)."
+            ]
+          },
+          "formula_block": [],
+          "derivation_block": {
+            "required": false
+          },
+          "numerical_archetypes": [],
+          "chemical_equations": [
+            {
+              "balanced_equation_latex": "R-OH + SOCl_2 \\rightarrow R-Cl + SO_2(g) + HCl(g)",
+              "conditions": "Reflux (Best Method)",
+              "phase_information": true
+            },
+            {
+              "balanced_equation_latex": "R-X + NaI \\xrightarrow{Acetone} R-I + NaX \\downarrow",
+              "conditions": "Finkelstein Reaction",
+              "phase_information": true
+            },
+            {
+              "balanced_equation_latex": "CH_3-Br + AgF \\rightarrow CH_3-F + AgBr",
+              "conditions": "Swarts Reaction",
+              "phase_information": true
+            }
+          ],
+          "mechanism_block": {
+            "required": false
+          },
+          "diagram_json": {
+            "diagram_required": false
+          },
+          "direct_ncert_question_triggers": [
+            "Example 6.2",
+            "Intext 6.5"
+          ]
+        },
+        {
+          "concept_id": "HALO-03",
+          "concept_title": "Preparation of Haloarenes (Sandmeyer)",
+          "ncert_alignment_scope": "6.4.2 From Hydrocarbons (Electrophilic subst)",
+          "definition_or_law_verbatim": "Sandmeyer Reaction: Mixing the solution of freshly prepared diazonium salt with cuprous chloride or cuprous bromide.",
+          "concept_clarity_explanation": "Direct halogenation (Fe/Dark) gives o/p mixture. Sandmeyer uses Aniline -> Diazonium -> Haloarene (Better yield, specific isomer).",
+          "cognitive_layering": {
+            "weak_student_layer": "Sandmeyer: Aniline -> N2Cl -> Ar-Cl (using Cu2Cl2).",
+            "board_ready_layer": "Gattermann reaction uses Cu powder (easier but less yield than Sandmeyer).",
+            "topper_mastery_layer": "Preparation of Iodobenzene does not require Cu2I2, just warm with KI."
+          },
+          "exam_intelligence": {
+            "why_examiner_tests_this": "Connects Nitrogen chapter (Amines) with Halides.",
+            "question_formats": [
+              "Name Reaction",
+              "Conversion (Aniline to Chlorobenzene)"
+            ],
+            "trap_patterns": [],
+            "frequent_misconceptions": []
+          },
+          "formula_block": [],
+          "derivation_block": {
+            "required": false
+          },
+          "numerical_archetypes": [],
+          "chemical_equations": [
+            {
+              "balanced_equation_latex": "C_6H_5NH_2 \\xrightarrow{NaNO_2 + HX, 273K} C_6H_5N_2^+ X^-",
+              "conditions": "Diazotisation",
+              "phase_information": true
+            },
+            {
+              "balanced_equation_latex": "C_6H_5N_2^+ X^- \\xrightarrow{Cu_2X_2} C_6H_5X + N_2",
+              "conditions": "Sandmeyer Reaction",
+              "phase_information": true
+            }
+          ],
+          "mechanism_block": {
+            "required": false
+          },
+          "diagram_json": {
+            "diagram_required": false
+          },
+          "direct_ncert_question_triggers": []
+        }
+      ],
+      "rapid_revision_block": {
+        "ultra_compact_revision": "SOCl2 best for R-Cl. Finkelstein (NaI/Acetone) -> R-I. Swarts (AgF) -> R-F. Sandmeyer (Cu2X2) -> Ar-Cl/Br. Anti-Markovnikov only for HBr + Peroxide.",
+        "must_remember_points": [
+          "Iodination of benzene requires oxidising agent (HNO3/HIO4) to remove HI.",
+          "Free radical bromination is selective (3 deg > 2 deg > 1 deg)."
+        ],
+        "formula_snapshot": []
+      }
+    },
+    {
+      "ncert_section": "6.6",
+      "section_title": "Chemical Reactions (SN1/SN2)",
+      "section_importance_signal": "High",
+      "why_section_matters_exam_wise": "The Mechanism Block. 5M question on SN1 vs SN2 comparison and stereochemistry is extremely common.",
+      "core_concepts": [
+        {
+          "concept_id": "HALO-04",
+          "concept_title": "Nucleophilic Substitution Mechanisms",
+          "ncert_alignment_scope": "6.6.1 Nucleophilic Substitution",
+          "definition_or_law_verbatim": "SN2: Substitution Nucleophilic Bimolecular. Inversion of configuration. Rate = k[RX][Nu]. SN1: Substitution Nucleophilic Unimolecular. Racemisation. Rate = k[RX].",
+          "concept_clarity_explanation": "SN2: Backside attack. Single step. Order: 1 > 2 > 3 (Steric hindrance). SN1: Carbocation intermediate. Two steps. Order: 3 > 2 > 1 (Carbocation stability).",
+          "cognitive_layering": {
+            "weak_student_layer": "SN2 = Inversion, 1 degree preferred. SN1 = Racemic, 3 degree preferred.",
+            "board_ready_layer": "Identify chirality. Optically active reactant in SN2 -> Inverted product. In SN1 -> Racemic mixture (Zero optical rotation).",
+            "topper_mastery_layer": "Allylic and Benzylic halides undergo SN1 readily due to resonance stabilization of carbocation (even if primary!)."
+          },
+          "exam_intelligence": {
+            "why_examiner_tests_this": "Mechanism-based logical reasoning.",
+            "question_formats": [
+              "3M Compare Reactivity",
+              "5M Mechanism + Stereochemistry"
+            ],
+            "trap_patterns": [
+              "Asking reactivity of Benzylic chloride in SN1 (High reactivity, confusing students who think it's primary).",
+              "Solvent effects (Polar protic favors SN1, Polar aprotic favors SN2)."
+            ],
+            "frequent_misconceptions": [
+              "SN1 means 1 step (No, it means Unimolecular rate law. It is actually 2 steps)."
+            ]
+          },
+          "formula_block": [],
+          "derivation_block": {
+            "required": false
+          },
+          "numerical_archetypes": [],
+          "chemical_equations": [],
+          "mechanism_block": {
+            "required": true,
+            "stepwise_mechanism": [
+              "SN1 Step 1: R-X -> R+ + X- (Slow, Reversible, RDS)",
+              "SN1 Step 2: R+ + Nu- -> R-Nu (Fast, attack from both sides)",
+              "SN2: Nu- + R-X -> [Nu...R...X] (Transition State) -> Nu-R + X-"
+            ],
+            "intermediates": ["Carbocation (SN1)", "Pentavalent Transition State (SN2)"],
+            "rate_determining_step": "Formation of Carbocation (SN1)",
+            "energy_profile_description": "SN1 has 2 humps. SN2 has 1 hump."
+          },
+          "diagram_json": {
+            "diagram_required": true,
+            "diagram_type": "Mechanism Scheme",
+            "components_to_label": ["Inversion (Umbrella inside out) for SN2", "Planar Carbocation for SN1", "Racemic Product"],
+            "concept_tested_through_diagram": "Stereochemical Consequence",
+            "common_exam_twist": "Predicting product stereochemistry for 2-bromooctane hydrolysis"
+          },
+          "direct_ncert_question_triggers": [
+            "Example 6.6",
+            "Example 6.7",
+            "Intext 6.7"
+          ]
+        },
+        {
+          "concept_id": "HALO-05",
+          "concept_title": "Elimination & Reaction with Metals",
+          "ncert_alignment_scope": "6.6.2 Elimination, 6.6.3 Metals",
+          "definition_or_law_verbatim": "Zaitsev Rule: In dehydrohalogenation, the preferred product is that alkene which has the greater number of alkyl groups attached to the doubly bonded carbon atoms.",
+          "concept_clarity_explanation": "Elimination (Beta-elimination) competes with substitution. Favored by alcoholic KOH and heat. Grignard Reagent: R-Mg-X. Organometallic. Reacts with water to form alkane.",
+          "cognitive_layering": {
+            "weak_student_layer": "Alcoholic KOH -> Alkene. Aqueous KOH -> Alcohol.",
+            "board_ready_layer": "Apply Zaitsev rule to 2-bromobutane -> But-2-ene (Major) + But-1-ene (Minor).",
+            "topper_mastery_layer": "Grignard synthesis requires strictly anhydrous conditions because R-Mg-X is a strong base and extracts proton from water."
+          },
+          "exam_intelligence": {
+            "why_examiner_tests_this": "Reagent function discrimination.",
+            "question_formats": [
+              "Predict Product",
+              "Reasoning (Anhydrous condition)"
+            ],
+            "trap_patterns": [
+              "Confusing Alc. KOH (Elimination) with Aq. KOH (Substitution).",
+              "Grignard + Water -> Alcohol (Wrong! It gives Alkane)."
+            ],
+            "frequent_misconceptions": []
+          },
+          "formula_block": [],
+          "derivation_block": {
+            "required": false
+          },
+          "numerical_archetypes": [],
+          "chemical_equations": [
+            {
+              "balanced_equation_latex": "CH_3CH_2CH(Br)CH_3 \\xrightarrow{Alc. KOH, \\Delta} CH_3CH=CHCH_3 (Major) + CH_3CH_2CH=CH_2 (Minor)",
+              "conditions": "Dehydrohalogenation",
+              "phase_information": true
+            },
+            {
+              "balanced_equation_latex": "R-Mg-X + H_2O \\rightarrow R-H + Mg(OH)X",
+              "conditions": "Grignard Hydrolysis",
+              "phase_information": true
+            }
+          ],
+          "mechanism_block": {
+            "required": false
+          },
+          "diagram_json": {
+            "diagram_required": false
+          },
+          "direct_ncert_question_triggers": [
+            "Example 6.8",
+            "Intext 6.8"
+          ]
+        }
+      ],
+      "rapid_revision_block": {
+        "ultra_compact_revision": "SN1: 3>2>1, Racemic, Weak Nu, Polar Protic. SN2: 1>2>3, Inversion, Strong Nu, Polar Aprotic. Elimination: Alc KOH, Zaitsev (More sub alkene). Grignard: Anhydrous only.",
+        "must_remember_points": [
+          "Wurtz Reaction: 2RX + 2Na -> R-R (Doubles carbon chain).",
+          "Grignard reagent converts Haloalkane to Alkane (via H2O)."
+        ],
+        "formula_snapshot": []
+      }
+    },
+    {
+      "ncert_section": "6.7",
+      "section_title": "Reactions of Haloarenes",
+      "section_importance_signal": "High",
+      "why_section_matters_exam_wise": "Explaining 'Low Reactivity' is a standard reasoning question.",
+      "core_concepts": [
+        {
+          "concept_id": "HALO-06",
+          "concept_title": "Reactivity of Haloarenes",
+          "ncert_alignment_scope": "6.7.1 Nucleophilic Substitution",
+          "definition_or_law_verbatim": "Haloarenes are extremely less reactive towards nucleophilic substitution reactions due to: 1. Resonance effect 2. Difference in hybridisation of C atom 3. Instability of phenyl cation.",
+          "concept_clarity_explanation": "C-Cl bond acquires partial double bond character due to resonance. Hence, difficult to break. Electron withdrawing groups (NO2) at ortho/para increase reactivity (Dow's Process).",
+          "cognitive_layering": {
+            "weak_student_layer": "Haloarenes don't do SN reactions easily. Need drastic conditions (NaOH, 623K, 300atm).",
+            "board_ready_layer": "Draw resonance structures of Chlorobenzene showing double bond character.",
+            "topper_mastery_layer": "Mechanism of NO2 effect: Stabilisation of carbanion intermediate (Meisenheimer complex - enrichment)."
+          },
+          "exam_intelligence": {
+            "why_examiner_tests_this": "Concept of Resonance stability.",
+            "question_formats": [
+              "3M Reasoning",
+              "Complete Reaction (with NO2)"
+            ],
+            "trap_patterns": [
+              "Thinking NO2 at meta position increases reactivity (It doesn't help much, only o/p helps).",
+              "Assuming Fittig reaction is Substitution (It is coupling)."
+            ],
+            "frequent_misconceptions": []
+          },
+          "formula_block": [],
+          "derivation_block": {
+            "required": false
+          },
+          "numerical_archetypes": [],
+          "chemical_equations": [
+            {
+              "balanced_equation_latex": "C_6H_5Cl + NaOH \\xrightarrow{623K, 300atm} C_6H_5OH",
+              "conditions": "Dow's Process",
+              "phase_information": true
+            },
+            {
+              "balanced_equation_latex": "2C_6H_5X + 2Na \\xrightarrow{Ether} C_6H_5-C_6H_5",
+              "conditions": "Fittig Reaction",
+              "phase_information": true
+            }
+          ],
+          "mechanism_block": {
+            "required": false
+          },
+          "diagram_json": {
+            "diagram_required": true,
+            "diagram_type": "Resonance Structures",
+            "components_to_label": ["Partial double bond C-Cl", "Negative charge at o, p positions"],
+            "concept_tested_through_diagram": "Resonance Effect",
+            "common_exam_twist": "Why is dipole moment of chlorobenzene lower than cyclohexyl chloride?"
+          },
+          "direct_ncert_question_triggers": [
+            "Example 6.9"
+          ]
+        }
+      ],
+      "rapid_revision_block": {
+        "ultra_compact_revision": "Haloarenes = Inert to Nu- Sub. Reason: Resonance (Double bond), sp2 carbon. NO2 at o/p increases reactivity. Electrophilic Sub: Cl is o,p-directing but deactivating.",
+        "must_remember_points": [
+          "Friedel Crafts: Anhydrous AlCl3 is catalyst.",
+          "Wurtz-Fittig: Alkyl + Aryl halides -> Alkylbenzene."
+        ],
+        "formula_snapshot": []
+      }
+    }
+  ],
+  "chapter_master_control": {
+    "high_probability_areas_2026": [
+      "SN1 vs SN2 mechanism comparison (Stereochemistry)",
+      "Reasoning: Why haloarenes are less reactive than haloalkanes",
+      "Conversions: Ethanol to But-1-yne, Bromomethane to Propanone",
+      "Effect of NO2 group on Nucleophilic substitution of Haloarenes"
+    ],
+    "derivations_to_memorize": [],
+    "examples_that_must_not_be_confused": [
+      "Wurtz (Alkyl+Alkyl), Fittig (Aryl+Aryl), Wurtz-Fittig (Alkyl+Aryl)",
+      "Racemisation (SN1) vs Inversion (SN2)"
+    ],
+    "comparison_tables_to_build": [
+      "SN1 vs SN2 (Kinetics, Stereochem, Order)",
+      "Haloalkane vs Haloarene Reactivity"
+    ],
+    "case_based_angles": [
+      "Environmental effects of Freons (Ozone depletion)",
+      "DDT biomagnification",
+      "Chirality in drugs (Thalidomide tragedy - enrichment context)"
+    ],
+    "cross_chapter_linkages": [
+      "Alcohols (Preparation methods)",
+      "Amines (Sandmeyer reaction)"
+    ],
+    "last_minute_revision_strategy": "Review the SN1/SN2 table. Memorize the 4 name reactions (Finkelstein, Swarts, Sandmeyer, Wurtz). Check Zaitsev rule application."
+  },
+  
+  "formula_trigger_engine": [
+    {
+      "trigger_situation": "Dipole Moment Comparison (CH3F, CH3Cl, CH3Br, CH3I)",
+      "student_should_think": "Dipole Moment = Charge (q) x Distance (d)",
+      "correct_formula_latex": "\\mu = q \\times d",
+      "why_this_formula": "Chlorine has larger 'd' which compensates for lower 'q' compared to Fluorine.",
+      "common_wrong_formula": "Thinking Fluorine always wins due to electronegativity (Charge dominance only).",
+      "unit_or_sign_trap": "Order is CH3Cl > CH3F > CH3Br > CH3I. (Exception: Cl > F)."
+    },
+    {
+      "trigger_situation": "Calculating Optical Rotation",
+      "student_should_think": "Specific Rotation formula",
+      "correct_formula_latex": "[\\alpha] = \\frac{\\alpha_{obs}}{l \\cdot c}",
+      "why_this_formula": "Standardizes rotation for path length (dm) and concentration (g/mL).",
+      "common_wrong_formula": "Using length in cm without converting to dm (1 dm = 10 cm).",
+      "unit_or_sign_trap": "Sign of rotation (+ or -) indicates Dextro or Laevo. 'l' must be in decimeters."
+    },
+    {
+      "trigger_situation": "Number of Stereoisomers",
+      "student_should_think": "2 to the power of n",
+      "correct_formula_latex": "\\text{Isomers} = 2^n",
+      "why_this_formula": "n = number of dissimilar chiral centers.",
+      "common_wrong_formula": "Using 2^n for compounds with symmetry (meso forms reduce the count).",
+      "unit_or_sign_trap": "Identify chiral carbons accurately. Check for plane of symmetry."
+    }
+  ],
+  "numerical_pattern_lab": [
+    {
+      "problem_archetype": "Predicting Order of Reactivity towards SN1",
+      "recognition_signal": "Substrates with different steric/electronic environments (Tertiary vs Primary, Allylic/Benzylic).",
+      "step_sequence": [
+        "1. Remove Halogen and form Carbocation.",
+        "2. Assess Stability: Benzylic/Allylic (Resonance) > 3° > 2° > 1° > Methyl.",
+        "3. If stability is same, check Leaving Group (I > Br > Cl > F)."
+      ],
+      "time_target_seconds": "60",
+      "hidden_exam_trap": "Forgetting that Benzyl carbocation is stabilized by resonance, making it more reactive than some secondary alkyl halides."
+    },
+    {
+      "problem_archetype": "Predicting Order of Reactivity towards SN2",
+      "recognition_signal": "Substrates with varying steric hindrance.",
+      "step_sequence": [
+        "1. Check Steric Hindrance around alpha-carbon.",
+        "2. Order: Methyl > 1° > 2° > 3°.",
+        "3. Check Leaving Group ability (I > Br > Cl > F).",
+        "4. Note: Vinylic and Aryl halides are unreactive."
+      ],
+      "time_target_seconds": "45",
+      "hidden_exam_trap": "Allylic/Benzylic halides are ALSO good for SN2 (transition state stabilized by adjacent pi system), often confusing students."
+    },
+    {
+      "problem_archetype": "Identifying Number of Monohalogenated Products",
+      "recognition_signal": "Free radical halogenation of an alkane (e.g., Isopentane).",
+      "step_sequence": [
+        "1. Draw structure.",
+        "2. Identify non-equivalent hydrogen sets.",
+        "3. Replace one H from each set with Halogen.",
+        "4. Check if any product generates a chiral center (forms racemic mix -> 2 isomers)."
+      ],
+      "time_target_seconds": "90",
+      "hidden_exam_trap": "Counting enantiomers as a single product if the question asks for 'stereoisomers'."
+    }
+  ],
+  "mechanism_classification_trainer": [
+    {
+      "reaction_scenario": "Alkyl Halide + Aqueous KOH",
+      "student_must_identify": "Nucleophilic Substitution (SN1/SN2)",
+      "correct_classification": "R-X + OH- -> R-OH + X-",
+      "decision_logic": "Water is a polar protic solvent, stabilizes transition state/carbocation. OH- acts as Nucleophile.",
+      "common_confusion": "Confusing with Alcoholic KOH (Elimination)."
+    },
+    {
+      "reaction_scenario": "Alkyl Halide + Alcoholic KOH (Heat)",
+      "student_must_identify": "Beta-Elimination (Dehydrohalogenation)",
+      "correct_classification": "R-CH2-CH2-X -> R-CH=CH2",
+      "decision_logic": "Alcoholic solvent (Ethanol) makes RO- (Alkoxide) which is a stronger Base than Nucleophile. Heat favors elimination (entropy).",
+      "common_confusion": "Thinking it substitutes to form Alcohol."
+    },
+    {
+      "reaction_scenario": "Chlorobenzene + NaOH (at room temp)",
+      "student_must_identify": "No Reaction",
+      "correct_classification": "Aryl Halides are inert to Nucleophilic Substitution.",
+      "decision_logic": "Partial double bond character (Resonance), sp2 hybridised carbon (electronegative), repulsion between nucleophile and pi-cloud.",
+      "common_confusion": "Expecting Phenol formation (Requires drastic conditions: 623K, 300atm - Dow's Process)."
+    }
+  ],
+  "reaction_pathway_mapper": [
+    {
+      "starting_functional_group": "R-X (Alkyl Halide)",
+      "target_functional_group": "R-NC (Isocyanide) vs R-CN (Cyanide)",
+      "possible_routes": [
+        "R-X + KCN (alc) -> R-CN (Ionic bond K+ CN-, C attacks)",
+        "R-X + AgCN (alc) -> R-NC (Covalent Ag-C bond, N attacks)"
+      ],
+      "key_reagents": ["KCN (Ionic)", "AgCN (Covalent)"],
+      "exam_conversion_pattern": "KCN extends chain (Nitrile). AgCN forms offensive smell (Isocyanide)."
+    },
+    {
+      "starting_functional_group": "Aniline (Ph-NH2)",
+      "target_functional_group": "Haloarene (Ph-X)",
+      "possible_routes": [
+        "1. NaNO2 + HX (0-5°C) -> Ph-N2+ X- (Diazonium Salt)",
+        "2. Cu2X2/HX (Sandmeyer) OR Cu/HX (Gattermann) -> Ph-X"
+      ],
+      "key_reagents": ["NaNO2/HCl", "Cu2Cl2/HCl"],
+      "exam_conversion_pattern": "Standard route to enter benzene ring from amine."
+    },
+    {
+      "starting_functional_group": "Alkyl Chloride (R-Cl)",
+      "target_functional_group": "Alkyl Iodide (R-I) or Fluoride (R-F)",
+      "possible_routes": [
+        "R-Cl + NaI (in Dry Acetone) -> R-I (Finkelstein)",
+        "R-Cl + AgF/Hg2F2 -> R-F (Swarts)"
+      ],
+      "key_reagents": ["NaI/Acetone", "Metallic Fluorides"],
+      "exam_conversion_pattern": "Halogen Exchange reactions."
+    }
+  ],
+  "inorganic_comparison_arena": [
+    {
+      "entities_compared": [
+        "SN1 Mechanism",
+        "SN2 Mechanism"
+      ],
+      "rapid_fire_questions": [
+        "Order of Kinetics?",
+        "Stereochemistry result?",
+        "Solvent preference?"
+      ],
+      "correct_insight": "SN1: First Order, Racemisation, Polar Protic. SN2: Second Order, Inversion (Walden), Polar Aprotic.",
+      "examiner_trap": "Thinking SN1 implies 1 step (It is 2 steps). Thinking SN2 implies 2 steps (It is 1 step)."
+    },
+    {
+      "entities_compared": [
+        "Grignard Reagent (R-Mg-X)",
+        "Wurtz Reagent (2Na)"
+      ],
+      "rapid_fire_questions": [
+        "Reaction with water?",
+        "Product with R-X?"
+      ],
+      "correct_insight": "Grignard + H2O -> Alkane (R-H). Wurtz + R-X -> Coupled Alkane (R-R).",
+      "examiner_trap": "Grignard must be prepared in anhydrous conditions. Any moisture destroys it to form hydrocarbon."
+    }
+  ],
+  "exception_bank": [
+    {
+      "general_trend": "Boiling point increases with molecular mass.",
+      "exception": "Para-dichlorobenzene has higher Melting Point than ortho/meta.",
+      "why_exception_occurs": "Symmetry of para-isomer leads to better packing in crystal lattice.",
+      "exam_question_style": "Why does p-dichlorobenzene have higher MP and lower solubility?"
+    },
+    {
+      "general_trend": "Alkyl halides are polar, so they should dissolve in water.",
+      "exception": "Alkyl halides are immiscible in water.",
+      "why_exception_occurs": "They cannot form Hydrogen bonds with water. Energy required to break water-water H-bonds is not compensated by R-X...Water interaction.",
+      "exam_question_style": "Reasoning: R-X is polar but insoluble in water."
+    },
+    {
+      "general_trend": "Bond length increases down the group (C-F < C-Cl < C-Br < C-I).",
+      "exception": "Bond Enthalpy follows the inverse (C-F is strongest).",
+      "why_exception_occurs": "Better orbital overlap (2p-2p) in C-F.",
+      "exam_question_style": "Order of bond strength."
+    }
+  ],
+  "diagram_activation_zone": [
+    {
+      "diagram_type": "SN2 Mechanism Transition State",
+      "what_student_must_instantly_recognize": " Nucleophile attacks from back. Leaving group leaves from front. Carbon is temporarily pentavalent (sp2-like). Umbrella inversion.",
+      "exam_twist_pattern": "Drawing the transition state with dotted lines for forming and breaking bonds."
+    },
+    {
+      "diagram_type": "Optical Isomerism (Mirror Images)",
+      "what_student_must_instantly_recognize": "[Image of Non-superimposable mirror images enantiomers] Non-superimposable mirror images. Chiral center marked with asterisk (*).",
+      "exam_twist_pattern": "Identifying if a molecule is 'chiral' or 'achiral' (look for plane of symmetry)."
+    }
+  ],
+  "30_minute_rapid_revision_mode": {
+    "top_10_trigger_points": [
+      "Gem-dihalide -> Both halogens on same carbon.",
+      "Vic-dihalide -> Halogens on adjacent carbons.",
+      "Lucas Reagent -> Conc HCl + ZnCl2 (Distinguishes alcohols, prepares R-Cl).",
+      "Thionyl Chloride (SOCl2) -> Best method for R-Cl (pure products).",
+      "Markownikoff's Rule -> H to C with more H (Negative part to substituted C).",
+      "Anti-Markownikoff (Peroxide) -> HBr only. Br goes to less substituted C.",
+      "Grignard Reagent -> R-Mg-X (Organometallic, very reactive).",
+      "Zaitsev Rule -> Highly substituted alkene is major product in elimination.",
+      "Chirality -> Handedness (lack of symmetry).",
+      "Racemic Mixture -> Zero optical rotation (External compensation)."
+    ],
+    "top_5_numerical_traps": [
+      "Calculating % enantiomeric excess (rare but possible).",
+      "Counting stereoisomers (2^n) - forgetting meso compounds.",
+      "Yield calculation in Wurtz reaction (poor yield for odd carbons).",
+      "Comparing dipole moments of chlorobenzene (lower) and cyclohexyl chloride (higher).",
+      "Rate comparison: R-I > R-Br > R-Cl (Bond energy dominates polarity)."
+    ],
+    "top_5_conversion_patterns": [
+      "Propene -> 1-Bromopropane (HBr/Peroxide)",
+      "Propene -> 2-Bromopropane (HBr)",
+      "2-Bromopropane -> Propene (Alc KOH)",
+      "Ethanol -> Ethyl Chloride (SOCl2)",
+      "Benzene -> Chlorobenzene (Cl2/FeCl3 dark)"
+    ],
+    "top_5_inorganic_exceptions": [],
+    "top_3_derivation_flash_prompts": [
+      "Mechanism of SN1 reaction (Step 1: Carbocation, Step 2: Nucleophile).",
+      "Mechanism of SN2 reaction (Single step, Back attack).",
+      "Mechanism of Elimination (E2) - removal of proton and halide."
+    ]
+  },
+  
+  "visual_elements": [
+    {
+      "ncert_section": "6.6",
+      "visual_id": "FIG_6.1",
+      "visual_type": "Trend Graph",
+      "visual_title": "Boiling Points of Haloalkanes",
+      "what_the_visual_represents": "Variation of boiling points with molecular mass (chain length) and branching.",
+      "axes_or_components": {
+        "x_axis": "Number of Carbon Atoms / Molecular Mass",
+        "y_axis": "Boiling Point (K)",
+        "important_labels": [
+          "Chlorides (Lowest curve)",
+          "Bromides",
+          "Iodides (Highest curve)",
+          "Effect of branching (inset or described)"
+        ],
+        "key_points_to_mark": [
+          "RI > RBr > RCl > RF (for same R group)",
+          "Boiling point increases with chain length",
+          "Boiling point decreases with branching (Surface area decreases)"
+        ]
+      },
+      "mechanism_steps": {
+        "required": false,
+        "stepwise_flow": [],
+        "intermediates": [],
+        "rate_determining_step": "",
+        "stereochemical_outcome": "",
+        "energy_profile_description": ""
+      },
+      "exam_question_patterns": [
+        {
+          "question_type": "2M / Reasoning",
+          "how_examiner_frames_it": "Arrange the following in increasing order of boiling point: 1-Bromobutane, 1-Bromo-2-methylpropane, 2-Bromo-2-methylpropane.",
+          "student_must_do": "Identify that branching decreases surface area -> weaker van der Waals forces -> lower BP. Order: Tertiary < Secondary < Primary."
+        },
+        {
+          "question_type": "1M",
+          "how_examiner_frames_it": "Why does para-dichlorobenzene have a higher melting point than ortho and meta isomers?",
+          "student_must_do": "Explain 'Symmetry' and better packing in crystal lattice."
+        }
+      ],
+      "graph_interpretation_traps": [
+        "Confusing Melting Point with Boiling Point (Para isomer has high MP due to symmetry, but BP is nearly same for all isomers).",
+        "Thinking polarity (dipole moment) is the sole decider (Van der Waals forces/Mass dominate for BP)."
+      ],
+      "labeling_mistakes_students_make": [
+        "Forgetting that Iodine has the highest mass and thus highest BP for analogous alkyl groups."
+      ],
+      "derivation_link_if_any": "",
+      "real_life_application_if_any": "Fractional distillation of petroleum products."
+    },
+    {
+      "ncert_section": "6.7.1",
+      "visual_id": "FIG_6.2_6.3",
+      "visual_type": "Mechanism Schematic",
+      "visual_title": "SN2 Mechanism & Steric Hindrance",
+      "what_the_visual_represents": "Single-step nucleophilic attack with inversion of configuration (Walden Inversion) and effect of bulky groups.",
+      "axes_or_components": {
+        "x_axis": "Reaction Coordinate (implied in energy profile)",
+        "y_axis": "Energy (implied)",
+        "important_labels": [
+          "Nucleophile (OH-)",
+          "Substrate (Alkyl Halide)",
+          "Transition State (Penta-coordinate, unstable)",
+          "Leaving Group (X-)",
+          "Inversion of Configuration"
+        ],
+        "key_points_to_mark": [
+          "Back-side attack (180° to Leaving Group)",
+          "Carbon is sp2 hybridized in Transition State"
+        ]
+      },
+      "mechanism_steps": {
+        "required": true,
+        "stepwise_flow": [
+          "Nucleophile approaches from back side.",
+          "Transition State forms: Bond breaking (C-X) and bond making (C-Nu) simultaneous.",
+          "Inversion: Substituents flip like an umbrella.",
+          "Product formed."
+        ],
+        "intermediates": ["None (Transition State only)"],
+        "rate_determining_step": "Single step (Bimolecular)",
+        "stereochemical_outcome": "100% Inversion of configuration",
+        "energy_profile_description": "Single hump curve. No intermediate valley."
+      },
+      "exam_question_patterns": [
+        {
+          "question_type": "3M",
+          "how_examiner_frames_it": "Draw the SN2 mechanism for the hydrolysis of methyl chloride. Why is this reaction difficult for tert-butyl chloride?",
+          "student_must_do": "Draw the transition state showing partial bonds. Explain Steric Hindrance for tertiary."
+        },
+        {
+          "question_type": "2M",
+          "how_examiner_frames_it": "Predict the stereochemistry of the product if (R)-2-bromooctane undergoes SN2 reaction.",
+          "student_must_do": "Draw the (S)-product (Inverted)."
+        }
+      ],
+      "graph_interpretation_traps": [
+        "Drawing a carbocation intermediate for SN2.",
+        "Forgetting to show the negative charge on the Transition State complex."
+      ],
+      "labeling_mistakes_students_make": [
+        "Drawing the nucleophile attacking from the front (same side as halogen).",
+        "Not drawing wedge-dash bonds to show 3D inversion."
+      ],
+      "derivation_link_if_any": "Rate = k[RX][Nu]",
+      "real_life_application_if_any": "Biological methylation reactions."
+    },
+    {
+      "ncert_section": "6.7.1",
+      "visual_id": "Mechanism_SN1",
+      "visual_type": "Mechanism Schematic",
+      "visual_title": "SN1 Mechanism: Ionisation & Racemisation",
+      "what_the_visual_represents": "Two-step substitution via carbocation, favored by polar protic solvents and stable carbocations.",
+      "axes_or_components": {
+        "x_axis": "Reaction Coordinate",
+        "y_axis": "Potential Energy",
+        "important_labels": [
+          "Reactant (Tertiary Halide)",
+          "Step 1: Carbocation formation (Slow/RDS)",
+          "Intermediate: Planar Carbocation",
+          "Step 2: Nucleophilic attack (Fast)",
+          "Products (Racemic mixture)"
+        ],
+        "key_points_to_mark": [
+          "Double hump energy profile",
+          "Intermediate valley (Carbocation)",
+          "Attack from both sides (Front and Back)"
+        ]
+      },
+      "mechanism_steps": {
+        "required": true,
+        "stepwise_flow": [
+          "Step 1: Heterolytic cleavage of C-X -> C+ (Carbocation) + X- (Slow).",
+          "Step 2: Nucleophile attacks planar C+ from either side (Fast).",
+          "Step 3 (if needed): Deprotonation."
+        ],
+        "intermediates": ["Carbocation (Planar sp2)"],
+        "rate_determining_step": "Step 1 (Formation of Carbocation)",
+        "stereochemical_outcome": "Racemisation (Retention + Inversion)",
+        "energy_profile_description": "Two peaks. First peak (ionization) is higher (Ea1)."
+      },
+      "exam_question_patterns": [
+        {
+          "question_type": "3M",
+          "how_examiner_frames_it": "Why does racemisation occur in SN1 reactions?",
+          "student_must_do": "Draw planar carbocation. Show nucleophile attacking from top and bottom faces with equal probability."
+        },
+        {
+          "question_type": "Case-Based",
+          "how_examiner_frames_it": "Given benzyl chloride and chlorobenzene, which undergoes hydrolysis faster and by which mechanism?",
+          "student_must_do": "Benzyl chloride -> SN1 (Stable benzyl carbocation). Chlorobenzene -> No reaction (Resonance)."
+        }
+      ],
+      "graph_interpretation_traps": [
+        "Assuming 100% racemisation (often partial inversion is observed due to ion-pairing).",
+        "Confusing the order of reactivity with SN2 (SN1 is 3° > 2° > 1°)."
+      ],
+      "labeling_mistakes_students_make": [
+        "Forgetting to mark the 'Slow' and 'Fast' steps."
+      ],
+      "derivation_link_if_any": "Rate = k[RX]",
+      "real_life_application_if_any": "Synthesis of tertiary alcohols."
+    },
+    {
+      "ncert_section": "6.10",
+      "visual_id": "FIG_Resonance_Haloarene",
+      "visual_type": "Resonance Diagram",
+      "visual_title": "Resonance Effect in Haloarenes",
+      "what_the_visual_represents": "Why haloarenes are unreactive to nucleophilic substitution but undergo electrophilic substitution at ortho/para positions.",
+      "axes_or_components": {
+        "x_axis": "N/A",
+        "y_axis": "N/A",
+        "important_labels": [
+          "Lone pairs on Halogen",
+          "Double bond character in C-X bond",
+          "Negative charge at Ortho and Para positions"
+        ],
+        "key_points_to_mark": [
+          "Short C-Cl bond length (169 pm vs 177 pm)",
+          "sp2 hybridised carbon"
+        ]
+      },
+      "mechanism_steps": {
+        "required": true,
+        "stepwise_flow": [
+          "Lone pair on X donates to ring.",
+          "Negative charge delocalizes to Ortho -> Para -> Ortho.",
+          "Result 1: C-X bond gets double bond character (Strength increases).",
+          "Result 2: Electron density increases at o/p positions."
+        ],
+        "intermediates": [],
+        "rate_determining_step": "",
+        "stereochemical_outcome": "",
+        "energy_profile_description": ""
+      },
+      "exam_question_patterns": [
+        {
+          "question_type": "3M",
+          "how_examiner_frames_it": "Explain why chlorobenzene is difficult to hydrolyse compared to ethyl chloride.",
+          "student_must_do": "Draw resonance structures. Point out partial double bond character of C-Cl bond."
+        },
+        {
+          "question_type": "2M",
+          "how_examiner_frames_it": "Why does electrophilic substitution occur at ortho/para positions in haloarenes despite -I effect?",
+          "student_must_do": "Resonance (+R) increases electron density at o/p, opposing the -I effect."
+        }
+      ],
+      "graph_interpretation_traps": [
+        "Thinking halogen is meta directing because it is electronegative (Resonance dominates orientation, Inductive dominates reactivity).",
+        "Ignoring the 'Instability of phenyl cation' as a reason for no SN1."
+      ],
+      "labeling_mistakes_students_make": [
+        "Drawing resonance arrows in wrong direction (must be from halogen to ring)."
+      ],
+      "derivation_link_if_any": "",
+      "real_life_application_if_any": "Manufacturing of pesticides/dyes.",
+      "critical_upgrade": {
+        "temperature_effect": "Dow's Process: Requires 623 K and 300 atm to force nucleophilic substitution (OH- replacing Cl-).",
+        "extreme_conditions": "Adding NO2 groups at o/p positions makes nucleophilic substitution easier (lower T required).",
+        "examiner_trick": "Ask for the product of Chlorobenzene + NaOH at room temp (No Reaction)."
+      }
+    },
+    {
+      "ncert_section": "6.7.1",
+      "visual_id": "Stereo_Enantiomers",
+      "visual_type": "Schematic Diagram",
+      "visual_title": "Chirality and Enantiomers",
+      "what_the_visual_represents": "Non-superimposable mirror images of chiral molecules.",
+      "axes_or_components": {
+        "x_axis": "N/A",
+        "y_axis": "N/A",
+        "important_labels": [
+          "Chiral Center (Star *)",
+          "Mirror Plane",
+          "Enantiomers (Pair)",
+          "Wedge (Out) and Dash (In) bonds"
+        ],
+        "key_points_to_mark": [
+          "4 different groups attached to Carbon",
+          "Inability to superimpose"
+        ]
+      },
+      "mechanism_steps": {
+        "required": false,
+        "stepwise_flow": [],
+        "intermediates": [],
+        "rate_determining_step": "",
+        "stereochemical_outcome": "",
+        "energy_profile_description": ""
+      },
+      "exam_question_patterns": [
+        {
+          "question_type": "2M",
+          "how_examiner_frames_it": "Identify the chiral molecule among the following pairs: 2-Chlorobutane and 1-Chlorobutane.",
+          "student_must_do": "Draw structures. Identify C attached to H, Cl, CH3, C2H5 (4 diff groups) in 2-Chlorobutane."
+        },
+        {
+          "question_type": "1M",
+          "how_examiner_frames_it": "Define racemic mixture.",
+          "student_must_do": "50:50 mixture of enantiomers, zero optical rotation."
+        }
+      ],
+      "graph_interpretation_traps": [
+        "Confusing 'Meso' compounds (chiral centers but symmetric plane) with Chiral compounds.",
+        "Assuming a molecule with chiral centers is always optically active (Racemic mixtures are inactive)."
+      ],
+      "labeling_mistakes_students_make": [
+        "Drawing planar representation without wedges/dashes when asked for stereochemistry."
+      ],
+      "derivation_link_if_any": "",
+      "real_life_application_if_any": "Thalidomide tragedy (one isomer cures morning sickness, other causes birth defects)."
+    }
+  ],
+  "diagram_master_revision": {
+    "must_draw_diagrams": [
+      "SN2 Transition State (Umbrella inversion)",
+      "Resonance structures of Chlorobenzene",
+      "Orbital diagram of Nucleophilic attack on Carbonyl (Chapter 8 overlap, but relevant mechanism logic)",
+      "Zaitsev Elimination (Alkene stability)"
+    ],
+    "must_interpret_graphs": [
+      "Boiling Point vs Molecular Mass (Halides)",
+      "Energy Profile: SN1 (Double hump) vs SN2 (Single hump)"
+    ],
+    "must_explain_mechanisms": [
+      "SN1 vs SN2 (Factors: Solvent, Substrate, Nucleophile)",
+      "Elimination vs Substitution competition",
+      "Electrophilic substitution in Haloarenes (Nitration, Sulphonation)"
+    ],
+    "top_5_visual_traps": [
+      "Forgetting the negative charge on the Transition State of SN2.",
+      "Drawing SN1 as a single step or SN2 as two steps.",
+      "Assuming Chlorobenzene undergoes SN1/SN2 easily (It doesn't).",
+      "Confusing Retention, Inversion, and Racemisation definitions.",
+      "Thinking Reactivity order for SN2 is same as SN1 (It is opposite)."
+    ]
+  }
+
+
+}

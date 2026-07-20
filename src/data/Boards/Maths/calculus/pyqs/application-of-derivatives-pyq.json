@@ -1,0 +1,558 @@
+{
+  "chapter_name": "Applications of Derivatives",
+  "board": "CBSE",
+  "class": "12",
+  "exam_year_target": "2026",
+  "pyq_year_range": "last 3 years",
+  "total_questions_generated": 25,
+  "questions": [
+    {
+      "question_id": 1,
+      "question_type": "MCQ",
+      "concept_tested": "Rate of Change of Quantities",
+      "difficulty_level": "Easy",
+      "question_text": "The rate of change of the area of a circle with respect to its radius $$ r $$ when $$ r = 6 $$ cm is: ",
+      "options": [
+        "$$ 10\\pi $$",
+        "$$ 12\\pi $$",
+        "$$ 8\\pi $$",
+        "$$ 11\\pi $$"
+      ],
+      "correct_answer": "$$ 12\\pi $$",
+      "topper_solution": {
+        "step_1": "Let the area of the circle be $$ A $$. The formula for the area of a circle is $$ A = \\pi r^2 $$.",
+        "step_2": "We need to find the rate of change of area with respect to radius, which is $$ \\frac{dA}{dr} $$.",
+        "step_3": "Differentiating both sides with respect to $$ r $$ gives $$ \\frac{dA}{dr} = \\frac{d}{dr}(\\pi r^2) = 2\\pi r $$.",
+        "step_4": "Substitute $$ r = 6 $$ cm into the derivative: $$ \\frac{dA}{dr} = 2\\pi (6) = 12\\pi $$. The rate of change is $$ 12\\pi $$ cm²/cm."
+      },
+      "board_presentation_tip": "Always write the formula first, then differentiate, and clearly specify the units (cm²/cm) if it is a subjective question.",
+      "common_student_mistakes": [
+        "Differentiating with respect to time ($$ t $$) instead of radius ($$ r $$), resulting in an extra $$ \\frac{dr}{dt} $$ term.",
+        "Forgetting to multiply by 2 when differentiating $$ r^2 $$."
+      ],
+      "concept_trigger": "The phrase 'with respect to its radius' dictates that the derivative should be $$ \\frac{d}{dr} $$, not $$ \\frac{d}{dt} $$.",
+      "time_to_solve_seconds": "30",
+      "examiner_intent": "Testing basic derivative application to geometric formulas."
+    },
+    {
+      "question_id": 2,
+      "question_type": "2_mark",
+      "concept_tested": "Increasing and Decreasing Functions",
+      "difficulty_level": "Easy",
+      "question_text": "Find the intervals in which the function $$ f(x) = x^2 - 4x + 6 $$ is strictly increasing.",
+      "options": [],
+      "correct_answer": "$$ (2, \\infty) $$",
+      "topper_solution": {
+        "step_1": "Given function: $$ f(x) = x^2 - 4x + 6 $$.",
+        "step_2": "Find the first derivative: $$ f'(x) = 2x - 4 $$.",
+        "step_3": "To find the critical points, set $$ f'(x) = 0 $$: $$ 2x - 4 = 0 \\implies 2x = 4 \\implies x = 2 $$.",
+        "step_4": "The point $$ x = 2 $$ divides the real line into two disjoint intervals: $$ (-\\infty, 2) $$ and $$ (2, \\infty) $$.",
+        "step_5": "Check the sign of $$ f'(x) $$ in the interval $$ (2, \\infty) $$. Let $$ x = 3 $$: $$ f'(3) = 2(3) - 4 = 2 > 0 $$.",
+        "step_6": "Since $$ f'(x) > 0 $$ for all $$ x \\in (2, \\infty) $$, the function is strictly increasing in $$ (2, \\infty) $$."
+      },
+      "board_presentation_tip": "Use a number line to show the sign of $$ f'(x) $$. Clearly state the condition for strictly increasing: $$ f'(x) > 0 $$.",
+      "common_student_mistakes": [
+        "Including the critical point in the interval (writing $$ [2, \\infty) $$) when 'strictly increasing' is asked, which requires open intervals per current CBSE guidelines.",
+        "Making algebraic errors when solving $$ 2x - 4 = 0 $$."
+      ],
+      "concept_trigger": "Strictly increasing means solving the inequality $$ f'(x) > 0 $$.",
+      "time_to_solve_seconds": "90",
+      "examiner_intent": "Assessing fundamental procedure for finding monotonicity intervals using the first derivative."
+    },
+    {
+      "question_id": 3,
+      "question_type": "3_mark",
+      "concept_tested": "Local Maxima and Minima",
+      "difficulty_level": "Moderate",
+      "question_text": "Find the points of local maxima and local minima, if any, of the function $$ f(x) = x^3 - 3x $$. Also, find the local maximum and local minimum values. ",
+      "options": [],
+      "correct_answer": "Local Max at x=-1 (value 2), Local Min at x=1 (value -2)",
+      "topper_solution": {
+        "step_1": "Given function: $$ f(x) = x^3 - 3x $$. Find first derivative: $$ f'(x) = 3x^2 - 3 = 3(x^2 - 1) $$.",
+        "step_2": "Set $$ f'(x) = 0 $$ for critical points: $$ 3(x^2 - 1) = 0 \\implies x^2 = 1 \\implies x = 1, -1 $$.",
+        "step_3": "Find the second derivative to use the Second Derivative Test: $$ f''(x) = 6x $$.",
+        "step_4": "Check at $$ x = 1 $$: $$ f''(1) = 6(1) = 6 > 0 $$. Since $$ f''(x) > 0 $$, $$ x = 1 $$ is a point of local minimum.",
+        "step_5": "Check at $$ x = -1 $$: $$ f''(-1) = 6(-1) = -6 < 0 $$. Since $$ f''(x) < 0 $$, $$ x = -1 $$ is a point of local maximum.",
+        "step_6": "Calculate local minimum value: $$ f(1) = (1)^3 - 3(1) = 1 - 3 = -2 $$.",
+        "step_7": "Calculate local maximum value: $$ f(-1) = (-1)^3 - 3(-1) = -1 + 3 = 2 $$."
+      },
+      "board_presentation_tip": "Clearly separate the critical point finding step, the second derivative test, and the value calculation step for maximum readability.",
+      "common_student_mistakes": [
+        "Confusing the second derivative test results: thinking $$ f''(x) > 0 $$ implies maximum instead of minimum.",
+        "Forgetting to substitute the critical points back into the ORIGINAL function $$ f(x) $$ to find the values, mistakenly substituting them into $$ f'(x) $$ or $$ f''(x) $$."
+      ],
+      "concept_trigger": "The prompt 'local maxima and minima' is the standard trigger for the Second Derivative Test.",
+      "time_to_solve_seconds": "180",
+      "examiner_intent": "Testing the standard algorithm for finding local extrema using the First and Second Derivative Tests."
+    },
+    {
+      "question_id": 4,
+      "question_type": "Assertion Reason",
+      "concept_tested": "Rate of Change of Volume",
+      "difficulty_level": "Moderate",
+      "question_text": "Assertion (A): If the radius of a spherical balloon increases at the rate of 2 cm/s, then its volume is increasing at the rate of $$ 800\\pi $$ cm³/s when the radius is 10 cm. \\nReason (R): The volume $$ V $$ of a sphere of radius $$ r $$ is given by $$ V = \\frac{4}{3}\\pi r^3 $$, and its rate of change with respect to time is $$ \\frac{dV}{dt} = 4\\pi r^2 \\frac{dr}{dt} $$.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct_answer": "Both A and R are true and R is the correct explanation of A",
+      "topper_solution": {
+        "step_1": "Analyze Reason (R): Volume of sphere is $$ V = \\frac{4}{3}\\pi r^3 $$. Differentiating w.r.t time $$ t $$, we get $$ \\frac{dV}{dt} = \\frac{4}{3}\\pi (3r^2) \\frac{dr}{dt} = 4\\pi r^2 \\frac{dr}{dt} $$. Reason R is mathematically correct.",
+        "step_2": "Analyze Assertion (A): We are given $$ \\frac{dr}{dt} = 2 $$ cm/s and $$ r = 10 $$ cm.",
+        "step_3": "Apply the formula from R: $$ \\frac{dV}{dt} = 4\\pi (10)^2 (2) = 4\\pi (100) (2) = 800\\pi $$ cm³/s.",
+        "step_4": "The calculated rate matches the assertion. Thus, A is true.",
+        "step_5": "Since Reason R provides the exact formula and logical steps used to prove Assertion A, R is the correct explanation of A."
+      },
+      "board_presentation_tip": "For rate of change questions, explicitly write down the given values with their derivative notation (e.g., $$ \\frac{dr}{dt} = 2 $$) before substituting.",
+      "common_student_mistakes": [
+        "Forgetting the chain rule component $$ \\frac{dr}{dt} $$ in the formula for $$ \\frac{dV}{dt} $$.",
+        "Squaring the rate of change instead of the radius."
+      ],
+      "concept_trigger": "Expanding balloon implies a sphere; 'rate of change' implies differentiating with respect to time 't'.",
+      "time_to_solve_seconds": "90",
+      "examiner_intent": "Evaluating the application of the Chain Rule to geometric volume formulas."
+    },
+    {
+      "question_id": 5,
+      "question_type": "3_mark",
+      "concept_tested": "Monotonicity in Trigonometric Functions",
+      "difficulty_level": "Board-Tricky",
+      "question_text": "Find the intervals in which the function $$ f(x) = \\sin x + \\cos x $$, $$ 0 \\le x \\le 2\\pi $$, is strictly increasing or strictly decreasing.",
+      "options": [],
+      "correct_answer": "Increasing in $$ [0, \\pi/4) \\cup (5\\pi/4, 2\\pi] $$, Decreasing in $$ (\\pi/4, 5\\pi/4) $$",
+      "topper_solution": {
+        "step_1": "Given $$ f(x) = \\sin x + \\cos x $$. Find the derivative: $$ f'(x) = \\cos x - \\sin x $$.",
+        "step_2": "Find critical points by setting $$ f'(x) = 0 $$: $$ \\cos x - \\sin x = 0 \\implies \\cos x = \\sin x \\implies \\tan x = 1 $$.",
+        "step_3": "In the interval $$ [0, 2\\pi] $$, $$ \\tan x = 1 $$ at $$ x = \\frac{\\pi}{4} $$ and $$ x = \\pi + \\frac{\\pi}{4} = \\frac{5\\pi}{4} $$.",
+        "step_4": "These points divide the interval $$ [0, 2\\pi] $$ into three sub-intervals: $$ [0, \\pi/4) $$, $$ (\\pi/4, 5\\pi/4) $$, and $$ (5\\pi/4, 2\\pi] $$.",
+        "step_5": "Check sign of $$ f'(x) $$ in $$ [0, \\pi/4) $$: Let $$ x = 0 $$, $$ f'(0) = 1 - 0 = 1 > 0 $$. So, $$ f $$ is strictly increasing.",
+        "step_6": "Check sign of $$ f'(x) $$ in $$ (\\pi/4, 5\\pi/4) $$: Let $$ x = \\pi/2 $$, $$ f'(\\pi/2) = 0 - 1 = -1 < 0 $$. So, $$ f $$ is strictly decreasing.",
+        "step_7": "Check sign of $$ f'(x) $$ in $$ (5\\pi/4, 2\\pi] $$: Let $$ x = 2\\pi $$, $$ f'(2\\pi) = 1 - 0 = 1 > 0 $$. So, $$ f $$ is strictly increasing.",
+        "step_8": "Conclusion: Strictly increasing in $$ [0, \\frac{\\pi}{4}) \\cup (\\frac{5\\pi}{4}, 2\\pi] $$ and strictly decreasing in $$ (\\frac{\\pi}{4}, \\frac{5\\pi}{4}) $$."
+      },
+      "board_presentation_tip": "To make the sign check bulletproof, you can also write $$ f'(x) = \\sqrt{2}\\cos(x + \\pi/4) $$ and analyze the cosine quadrants.",
+      "common_student_mistakes": [
+        "Finding only the first angle $$ \\pi/4 $$ and missing the third quadrant angle $$ 5\\pi/4 $$.",
+        "Including the critical points in the strictly increasing/decreasing intervals (using closed brackets)."
+      ],
+      "concept_trigger": "For trigonometric functions, $$ f'(x) = 0 $$ usually yields a basic trigonometric equation to solve within a restricted domain.",
+      "time_to_solve_seconds": "240",
+      "examiner_intent": "Testing ability to solve trigonometric equations and analyze signs in specific quadrants."
+    },
+    {
+      "question_id": 6,
+      "question_type": "MCQ",
+      "concept_tested": "Absolute Maxima and Minima",
+      "difficulty_level": "Moderate",
+      "question_text": "The absolute maximum value of the function $$ f(x) = 2x^3 - 15x^2 + 36x + 1 $$ on the interval $$ [1, 5] $$ is:",
+      "options": [
+        "24",
+        "28",
+        "56",
+        "29"
+      ],
+      "correct_answer": "56",
+      "topper_solution": {
+        "step_1": "Find the derivative: $$ f'(x) = 6x^2 - 30x + 36 $$.",
+        "step_2": "Set $$ f'(x) = 0 $$ to find critical points: $$ 6(x^2 - 5x + 6) = 0 \\implies (x - 2)(x - 3) = 0 $$. Critical points are $$ x = 2 $$ and $$ x = 3 $$.",
+        "step_3": "Check if critical points lie in the given interval $$ [1, 5] $$. Both 2 and 3 lie in the interval.",
+        "step_4": "For absolute extrema, evaluate $$ f(x) $$ at critical points and endpoints: $$ x = 1, 2, 3, 5 $$.",
+        "step_5": "$$ f(1) = 2(1) - 15(1) + 36(1) + 1 = 2 - 15 + 36 + 1 = 24 $$.",
+        "step_6": "$$ f(2) = 2(8) - 15(4) + 36(2) + 1 = 16 - 60 + 72 + 1 = 29 $$.",
+        "step_7": "$$ f(3) = 2(27) - 15(9) + 36(3) + 1 = 54 - 135 + 108 + 1 = 28 $$.",
+        "step_8": "$$ f(5) = 2(125) - 15(25) + 36(5) + 1 = 250 - 375 + 180 + 1 = 56 $$.",
+        "step_9": "Comparing these values: {24, 29, 28, 56}. The absolute maximum value is 56."
+      },
+      "board_presentation_tip": "Create a clean table mapping 'x values' (endpoints + critical points) to 'f(x) values' to avoid evaluation errors and present clearly.",
+      "common_student_mistakes": [
+        "Applying the Second Derivative Test, which is unnecessary and incorrect for finding ABSOLUTE extrema on a closed interval.",
+        "Forgetting to evaluate the function at the endpoints of the interval."
+      ],
+      "concept_trigger": "The phrase 'absolute maximum on a closed interval [a, b]' strictly implies evaluating f(x) at critical points AND endpoints.",
+      "time_to_solve_seconds": "180",
+      "examiner_intent": "Testing the closed interval method for finding global extrema."
+    },
+    {
+      "question_id": 7,
+      "question_type": "5_mark",
+      "concept_tested": "Maxima and Minima Application (Geometry)",
+      "difficulty_level": "Board-Tricky",
+      "question_text": "Show that of all the rectangles inscribed in a given fixed circle, the square has the maximum area. [Image of a rectangle inscribed in a circle]",
+      "options": [],
+      "correct_answer": "Proof derived.",
+      "topper_solution": {
+        "step_1": "Let the radius of the given fixed circle be $$ a $$. Let the length and breadth of the inscribed rectangle be $$ x $$ and $$ y $$.",
+        "step_2": "From the right-angled triangle formed by the diagonal (which passes through the center), we have $$ x^2 + y^2 = (2a)^2 = 4a^2 $$. This implies $$ y^2 = 4a^2 - x^2 $$, so $$ y = \\sqrt{4a^2 - x^2} $$.",
+        "step_3": "The area of the rectangle is $$ A = xy = x\\sqrt{4a^2 - x^2} $$.",
+        "step_4": "To maximize area, it is easier to maximize the square of the area. Let $$ Z = A^2 = x^2(4a^2 - x^2) = 4a^2x^2 - x^4 $$.",
+        "step_5": "Differentiate $$ Z $$ with respect to $$ x $$: $$ \\frac{dZ}{dx} = 8a^2x - 4x^3 $$.",
+        "step_6": "Set $$ \\frac{dZ}{dx} = 0 $$ for maximum area: $$ 4x(2a^2 - x^2) = 0 $$. Since $$ x \\neq 0 $$, we have $$ x^2 = 2a^2 \\implies x = \\sqrt{2}a $$.",
+        "step_7": "Find the second derivative: $$ \\frac{d^2Z}{dx^2} = 8a^2 - 12x^2 $$.",
+        "step_8": "Evaluate at $$ x^2 = 2a^2 $$: $$ \\frac{d^2Z}{dx^2} = 8a^2 - 12(2a^2) = -16a^2 < 0 $$. Since it is negative, area is maximum at this point.",
+        "step_9": "Find the corresponding breadth $$ y $$: $$ y = \\sqrt{4a^2 - (\\sqrt{2}a)^2} = \\sqrt{4a^2 - 2a^2} = \\sqrt{2a^2} = \\sqrt{2}a $$.",
+        "step_10": "Since length $$ x = \\sqrt{2}a $$ and breadth $$ y = \\sqrt{2}a $$, $$ x = y $$. Thus, the rectangle is a square."
+      },
+      "board_presentation_tip": "Squaring the area function to remove the square root (Let $$ Z = A^2 $$) is a highly recommended technique that prevents massive quotient/chain rule errors.",
+      "common_student_mistakes": [
+        "Trying to differentiate $$ A = x\\sqrt{4a^2 - x^2} $$ directly using product and chain rules, often making algebra mistakes.",
+        "Forgetting to perform the Second Derivative test to prove it is a maximum."
+      ],
+      "concept_trigger": "Maximizing expressions with square roots is always best done by squaring the entire function first (since maximizing f(x) is equivalent to maximizing [f(x)]^2 for positive f).",
+      "time_to_solve_seconds": "420",
+      "examiner_intent": "Testing the ability to formulate geometric constraints into an algebraic function and optimize it."
+    },
+    {
+      "question_id": 8,
+      "question_type": "2_mark",
+      "concept_tested": "Rate of Change (Related Rates)",
+      "difficulty_level": "Moderate",
+      "question_text": "A ladder 5 m long is leaning against a wall. The bottom of the ladder is pulled along the ground, away from the wall, at the rate of 2 cm/s. How fast is its height on the wall decreasing when the foot of the ladder is 4 m away from the wall? ",
+      "options": [],
+      "correct_answer": "$$ \\frac{8}{3} $$ cm/s",
+      "topper_solution": {
+        "step_1": "Let the distance of the foot of the ladder from the wall be $$ x $$ meters and the height of the ladder on the wall be $$ y $$ meters.",
+        "step_2": "By Pythagoras theorem: $$ x^2 + y^2 = 5^2 = 25 $$.",
+        "step_3": "We are given $$ \\frac{dx}{dt} = 2 $$ cm/s = $$ 0.02 $$ m/s. We need to find $$ \\frac{dy}{dt} $$ when $$ x = 4 $$ m.",
+        "step_4": "Find $$ y $$ when $$ x = 4 $$: $$ 4^2 + y^2 = 25 \\implies 16 + y^2 = 25 \\implies y^2 = 9 \\implies y = 3 $$ m.",
+        "step_5": "Differentiate the equation $$ x^2 + y^2 = 25 $$ with respect to time $$ t $$: $$ 2x \\frac{dx}{dt} + 2y \\frac{dy}{dt} = 0 $$.",
+        "step_6": "Simplify: $$ x \\frac{dx}{dt} + y \\frac{dy}{dt} = 0 $$. Substitute the known values: $$ 4(2) + 3 \\frac{dy}{dt} = 0 $$. (Note: mixing cm/s and meters is fine here as long as we keep units consistent in ratio. Let's use cm/s for rate and m for length. The scale cancels out).",
+        "step_7": "$$ 8 + 3 \\frac{dy}{dt} = 0 \\implies 3 \\frac{dy}{dt} = -8 \\implies \\frac{dy}{dt} = -\\frac{8}{3} $$ cm/s.",
+        "step_8": "The negative sign indicates the height is decreasing. So, the height is decreasing at the rate of $$ \\frac{8}{3} $$ cm/s."
+      },
+      "board_presentation_tip": "Keep the rates in cm/s and distances in meters. As long as you don't add them directly, the ratio holds. Conclude by interpreting the negative sign.",
+      "common_student_mistakes": [
+        "Forgetting to use Pythagoras theorem to find the instantaneous value of y.",
+        "Stating the final answer as a negative decreasing rate (e.g., 'decreasing at -8/3'), which is a double negative."
+      ],
+      "concept_trigger": "A ladder against a wall always forms a right triangle, triggering $$ x^2 + y^2 = L^2 $$ and implicit differentiation with respect to time.",
+      "time_to_solve_seconds": "180",
+      "examiner_intent": "Assessing translation of a physical scenario into a related rates differential equation."
+    },
+    {
+      "question_id": 9,
+      "question_type": "5_mark",
+      "concept_tested": "Optimization in Menstruation",
+      "difficulty_level": "Board-Tricky",
+      "question_text": "A wire of length 28 m is to be cut into two pieces. One of the pieces is to be made into a square and the other into a circle. What should be the length of the two pieces so that the combined area of the square and the circle is minimum?",
+      "options": [],
+      "correct_answer": "Piece for circle: $$ \\frac{28\\pi}{\\pi + 4} $$ m; Piece for square: $$ \\frac{112}{\\pi + 4} $$ m",
+      "topper_solution": {
+        "step_1": "Let the length of the wire cut for the circle be $$ x $$ meters. Then the length for the square will be $$ (28 - x) $$ meters.",
+        "step_2": "The circumference of the circle is $$ 2\\pi r = x \\implies r = \\frac{x}{2\\pi} $$.",
+        "step_3": "The perimeter of the square is $$ 4a = 28 - x \\implies a = \\frac{28 - x}{4} $$.",
+        "step_4": "The combined area $$ A = \\text{Area of circle} + \\text{Area of square} = \\pi r^2 + a^2 $$.",
+        "step_5": "Substitute $$ r $$ and $$ a $$ into the area equation: $$ A(x) = \\pi \\left(\\frac{x}{2\\pi}\\right)^2 + \\left(\\frac{28 - x}{4}\\right)^2 = \\frac{x^2}{4\\pi} + \\frac{(28 - x)^2}{16} $$.",
+        "step_6": "Differentiate with respect to $$ x $$: $$ \\frac{dA}{dx} = \\frac{2x}{4\\pi} + \\frac{2(28 - x)(-1)}{16} = \\frac{x}{2\\pi} - \\frac{28 - x}{8} $$.",
+        "step_7": "Set $$ \\frac{dA}{dx} = 0 $$ for minimum area: $$ \\frac{x}{2\\pi} = \\frac{28 - x}{8} \\implies 8x = 2\\pi(28 - x) \\implies 4x = 28\\pi - \\pi x $$.",
+        "step_8": "Solve for $$ x $$: $$ 4x + \\pi x = 28\\pi \\implies x(4 + \\pi) = 28\\pi \\implies x = \\frac{28\\pi}{\\pi + 4} $$.",
+        "step_9": "Find the second derivative to verify minimum: $$ \\frac{d^2A}{dx^2} = \\frac{1}{2\\pi} - \\left(-\\frac{1}{8}\\right) = \\frac{1}{2\\pi} + \\frac{1}{8} > 0 $$. Since it is positive, area is minimum.",
+        "step_10": "Length for circle is $$ x = \\frac{28\\pi}{\\pi + 4} $$ m. Length for square is $$ 28 - x = 28 - \\frac{28\\pi}{\\pi + 4} = \\frac{28\\pi + 112 - 28\\pi}{\\pi + 4} = \\frac{112}{\\pi + 4} $$ m."
+      },
+      "board_presentation_tip": "Define the variable clearly as 'length of the wire for the circle'. If you define x as the radius, the algebraic substitutions become much harder.",
+      "common_student_mistakes": [
+        "Confusing the variable $$ x $$. Setting $$ x $$ as the side of the square or radius of the circle instead of the length of the wire piece, complicating the perimeter constraint.",
+        "Forgetting the chain rule (-1) when differentiating $$ (28 - x)^2 $$, leading to wrong critical points."
+      ],
+      "concept_trigger": "Problems splitting a fixed length into two shapes require writing one perimeter as 'x' and the other as 'Total - x'.",
+      "time_to_solve_seconds": "480",
+      "examiner_intent": "Testing multi-variable constraint reduction and rigorous optimization using calculus."
+    },
+    {
+      "question_id": 10,
+      "question_type": "case_based",
+      "concept_tested": "Volume Optimization in Packaging",
+      "difficulty_level": "Moderate",
+      "question_text": "A sweets manufacturer wants to design a new open box for packaging. The box is to be made out of a square piece of cardboard measuring 24 cm by 24 cm. This is done by cutting off equal squares of side $$ x $$ cm from all four corners and folding up the flaps. \\n\\nBased on this, answer the following:\\n(i) Express the volume $$ V $$ of the box as a function of $$ x $$.\\n(ii) Find the derivative $$ \\frac{dV}{dx} $$ and the critical points.\\n(iii) Determine the value of $$ x $$ that maximizes the volume of the box. Justify that it is a maximum.",
+      "options": [],
+      "correct_answer": "(i) $$ V(x) = x(24 - 2x)^2 $$, (ii) $$ x = 4, 12 $$, (iii) $$ x = 4 $$ cm maximizes volume.",
+      "topper_solution": {
+        "step_1": "For (i): After cutting squares of side $$ x $$ from corners, the length and breadth of the base of the box become $$ (24 - 2x) $$ cm. The height of the box is $$ x $$ cm.",
+        "step_2": "The volume is $$ V = \\text{Length} \\times \\text{Breadth} \\times \\text{Height} = (24 - 2x)(24 - 2x)x = x(24 - 2x)^2 $$.",
+        "step_3": "For (ii): Expand $$ V(x) = x(576 - 96x + 4x^2) = 4x^3 - 96x^2 + 576x $$.",
+        "step_4": "Differentiate: $$ \\frac{dV}{dx} = 12x^2 - 192x + 576 $$.",
+        "step_5": "Set $$ \\frac{dV}{dx} = 0 $$: $$ 12(x^2 - 16x + 48) = 0 \\implies 12(x - 4)(x - 12) = 0 $$. Critical points are $$ x = 4 $$ and $$ x = 12 $$.",
+        "step_6": "For (iii): If $$ x = 12 $$, then length $$ 24 - 2(12) = 0 $$, which is not possible. So, $$ x = 4 $$ is the only valid critical point.",
+        "step_7": "Find second derivative to justify: $$ \\frac{d^2V}{dx^2} = 24x - 192 $$.",
+        "step_8": "At $$ x = 4 $$: $$ \\frac{d^2V}{dx^2} = 24(4) - 192 = 96 - 192 = -96 < 0 $$. Since second derivative is negative, the volume is maximized at $$ x = 4 $$ cm."
+      },
+      "board_presentation_tip": "In part (iii), you must explicitly state why x=12 is rejected (it makes the box dimensions zero). Missing this physical constraint justification loses marks.",
+      "common_student_mistakes": [
+        "Assuming the base length is $$ 24 - x $$ instead of $$ 24 - 2x $$ (forgetting that two corners are cut off from each side).",
+        "Failing to perform the second derivative test."
+      ],
+      "concept_trigger": "Cutting corners to fold a box maps the dimensions to $$ L - 2x $$, $$ B - 2x $$, and height $$ x $$.",
+      "time_to_solve_seconds": "300",
+      "examiner_intent": "Connecting physical geometry modification to algebraic volume modeling and maximization."
+    },
+    {
+      "question_id": 11,
+      "question_type": "MCQ",
+      "concept_tested": "Marginal Revenue",
+      "difficulty_level": "Easy",
+      "question_text": "The total revenue in Rupees received from the sale of $$ x $$ units of a product is given by $$ R(x) = 3x^2 + 36x + 5 $$. The marginal revenue, when $$ x = 5 $$, is:",
+      "options": [
+        "116",
+        "96",
+        "66",
+        "36"
+      ],
+      "correct_answer": "66",
+      "topper_solution": {
+        "step_1": "Marginal Revenue (MR) is the rate of change of total revenue with respect to the number of units sold. So, $$ MR = \\frac{dR}{dx} $$.",
+        "step_2": "Differentiate $$ R(x) $$ with respect to $$ x $$: $$ \\frac{dR}{dx} = \\frac{d}{dx}(3x^2 + 36x + 5) = 6x + 36 $$.",
+        "step_3": "Substitute $$ x = 5 $$ into the derivative: $$ MR = 6(5) + 36 = 30 + 36 = 66 $$.",
+        "step_4": "The marginal revenue is Rs 66."
+      },
+      "board_presentation_tip": "Clearly write the formula $$ MR = \\frac{dR}{dx} $$ before differentiating to show conceptual understanding.",
+      "common_student_mistakes": [
+        "Substituting x = 5 directly into the R(x) formula instead of its derivative.",
+        "Making simple arithmetic multiplication errors."
+      ],
+      "concept_trigger": "The word 'Marginal' in any cost/revenue function strictly means taking the first derivative.",
+      "time_to_solve_seconds": "45",
+      "examiner_intent": "Testing basic differentiation application in a standard business/economics context."
+    },
+    {
+      "question_id": 12,
+      "question_type": "MCQ",
+      "concept_tested": "Monotonicity in Logarithmic/Trig Functions",
+      "difficulty_level": "Moderate",
+      "question_text": "The function $$ f(x) = \\log(\\cos x) $$ is strictly decreasing on the interval:",
+      "options": [
+        "$$ \\left(0, \\frac{\\pi}{2}\\right) $$",
+        "$$ \\left(-\\frac{\\pi}{2}, 0\\right) $$",
+        "$$ \\left(\\frac{\\pi}{2}, \\pi\\right) $$",
+        "$$ \\left(0, \\pi\\right) $$"
+      ],
+      "correct_answer": "$$ \\left(0, \\frac{\\pi}{2}\\right) $$",
+      "topper_solution": {
+        "step_1": "Find the first derivative of the function using the chain rule: $$ f'(x) = \\frac{d}{dx}(\\log(\\cos x)) = \\frac{1}{\\cos x} \\cdot (-\\sin x) = -\\tan x $$.",
+        "step_2": "For a function to be strictly decreasing, its first derivative must be negative: $$ f'(x) < 0 $$.",
+        "step_3": "Therefore, we need $$ -\\tan x < 0 \\implies \\tan x > 0 $$.",
+        "step_4": "The tangent function is positive in the first quadrant, which corresponds to the interval $$ \\left(0, \\frac{\\pi}{2}\\right) $$ among the given choices."
+      },
+      "board_presentation_tip": "State the condition for strictly decreasing ($$ f'(x) < 0 $$) explicitly before analyzing the quadrants.",
+      "common_student_mistakes": [
+        "Forgetting the negative sign when differentiating $$ \\cos x $$, leading to the opposite conclusion (strictly increasing).",
+        "Ignoring the domain restrictions of the logarithmic function (where $$ \\cos x $$ must be positive)."
+      ],
+      "concept_trigger": "Finding intervals of increase/decrease requires solving the inequality $$ f'(x) < 0 $$ or $$ f'(x) > 0 $$ using quadrant rules for trigonometric results.",
+      "time_to_solve_seconds": "60",
+      "examiner_intent": "Assessing the combination of chain rule differentiation and trigonometric sign analysis across quadrants."
+    },
+    {
+      "question_id": 13,
+      "question_type": "Assertion Reason",
+      "concept_tested": "Point of Inflection",
+      "difficulty_level": "Moderate",
+      "question_text": "Assertion (A): The function $$ f(x) = x^3 $$ has neither a point of local maximum nor a point of local minimum at $$ x = 0 $$. \nReason (R): For a function $$ f(x) $$, if $$ f'(c) = 0 $$ but $$ f'(x) $$ does not change sign as $$ x $$ increases through $$ c $$, then $$ c $$ is a point of inflection.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct_answer": "Both A and R are true and R is the correct explanation of A",
+      "topper_solution": {
+        "step_1": "Analyze Assertion (A): Given $$ f(x) = x^3 $$. Differentiating gives $$ f'(x) = 3x^2 $$. Set $$ f'(x) = 0 \\implies x = 0 $$.",
+        "step_2": "Use the First Derivative Test at $$ x = 0 $$. For slightly less than 0 (e.g., $$ x = -0.1 $$), $$ f'(x) = 3(-0.1)^2 > 0 $$. For slightly more than 0 (e.g., $$ x = 0.1 $$), $$ f'(x) = 3(0.1)^2 > 0 $$.",
+        "step_3": "Since $$ f'(x) $$ does not change sign as $$ x $$ passes through 0, it is a point of inflection, not a max/min. So, A is true.",
+        "step_4": "Analyze Reason (R): The definition provided in R exactly matches the First Derivative Test rule for a point of inflection. R is true.",
+        "step_5": "Conclusion: Reason R directly supplies the theoretical framework used to validate Assertion A. Therefore, R is the correct explanation."
+      },
+      "board_presentation_tip": "When evaluating points of inflection, demonstrating that the sign of the first derivative does not change around the critical point is the standard proof.",
+      "common_student_mistakes": [
+        "Applying the Second Derivative Test, getting $$ f''(0) = 0 $$, and immediately giving up without reverting to the First Derivative Test."
+      ],
+      "concept_trigger": "When $$ f''(x) = 0 $$ fails to give a result, immediately revert to checking the sign change of $$ f'(x) $$ around the critical point.",
+      "time_to_solve_seconds": "90",
+      "examiner_intent": "Testing understanding of the First Derivative Test for points of inflection."
+    },
+    {
+      "question_id": 14,
+      "question_type": "1_mark",
+      "concept_tested": "Rate of Change in Geometry",
+      "difficulty_level": "Easy",
+      "question_text": "The edge of a variable cube is increasing at the rate of 3 cm/s. How fast is the volume of the cube increasing when the edge is 10 cm long?",
+      "options": [],
+      "correct_answer": "900 cm³/s",
+      "topper_solution": {
+        "step_1": "Let $$ a $$ be the edge of the cube and $$ V $$ be its volume. We are given $$ \\frac{da}{dt} = 3 $$ cm/s.",
+        "step_2": "The volume of a cube is $$ V = a^3 $$.",
+        "step_3": "Differentiate with respect to time $$ t $$: $$ \\frac{dV}{dt} = 3a^2 \\cdot \\frac{da}{dt} $$.",
+        "step_4": "Substitute the given values ($$ a = 10 $$, $$ \\frac{da}{dt} = 3 $$): $$ \\frac{dV}{dt} = 3(10)^2(3) = 9(100) = 900 $$.",
+        "step_5": "The volume is increasing at a rate of 900 cm³/s."
+      },
+      "board_presentation_tip": "Do not forget to write the appropriate units (cm³/s) in the final answer, as 1-mark questions often deduct half a mark for missing units.",
+      "common_student_mistakes": [
+        "Forgetting the chain rule component $$ \\frac{da}{dt} $$ and just writing $$ 3a^2 = 300 $$.",
+        "Writing the unit as cm²/s instead of cm³/s for volume."
+      ],
+      "concept_trigger": "Word problems involving 'increasing at a rate' involving time dictate implicit differentiation with respect to 't'.",
+      "time_to_solve_seconds": "45",
+      "examiner_intent": "Quickly assessing application of the chain rule to related rate geometric problems."
+    },
+    {
+      "question_id": 15,
+      "question_type": "2_mark",
+      "concept_tested": "Strictly Decreasing Intervals",
+      "difficulty_level": "Moderate",
+      "question_text": "Find the intervals in which the function $$ f(x) = 2x^3 - 3x^2 - 36x + 7 $$ is strictly decreasing.",
+      "options": [],
+      "correct_answer": "$$ (-2, 3) $$",
+      "topper_solution": {
+        "step_1": "Given $$ f(x) = 2x^3 - 3x^2 - 36x + 7 $$. Differentiate with respect to $$ x $$: $$ f'(x) = 6x^2 - 6x - 36 $$.",
+        "step_2": "Factorize the derivative: $$ f'(x) = 6(x^2 - x - 6) = 6(x - 3)(x + 2) $$.",
+        "step_3": "Find critical points by setting $$ f'(x) = 0 \\implies x = 3, x = -2 $$.",
+        "step_4": "These points divide the real line into three intervals: $$ (-\\infty, -2) $$, $$ (-2, 3) $$, and $$ (3, \\infty) $$.",
+        "step_5": "Test the sign of $$ f'(x) $$ in the middle interval $$ (-2, 3) $$. Let $$ x = 0 $$: $$ f'(0) = 6(0 - 3)(0 + 2) = -36 < 0 $$.",
+        "step_6": "Since $$ f'(x) < 0 $$ for all $$ x \\in (-2, 3) $$, the function is strictly decreasing in the interval $$ (-2, 3) $$."
+      },
+      "board_presentation_tip": "Draw a small wavy curve (wavy curve method / sign chart) on the number line to quickly and accurately determine the signs of the intervals.",
+      "common_student_mistakes": [
+        "Writing the interval with closed brackets $$ [-2, 3] $$ when the question specifies 'strictly decreasing'.",
+        "Factoring the quadratic incorrectly (e.g., getting x=2 and x=-3)."
+      ],
+      "concept_trigger": "A cubic polynomial naturally factorizes into a quadratic derivative, creating a classic three-interval wavy curve sign pattern (+, -, +).",
+      "time_to_solve_seconds": "90",
+      "examiner_intent": "Testing standard algorithmic approach to finding intervals of monotonicity for polynomial functions."
+    },
+    {
+      "question_id": 16,
+      "question_type": "2_mark",
+      "concept_tested": "Absolute Value Minima",
+      "difficulty_level": "Easy",
+      "question_text": "Find the minimum value of the function $$ f(x) = |x + 2| - 1 $$.",
+      "options": [],
+      "correct_answer": "-1",
+      "topper_solution": {
+        "step_1": "Recall the fundamental property of absolute value functions: For any real number $$ x $$, $$ |x + 2| \\ge 0 $$.",
+        "step_2": "The minimum possible value of $$ |x + 2| $$ occurs when $$ x + 2 = 0 $$, which means $$ x = -2 $$. At this point, $$ |x + 2| = 0 $$.",
+        "step_3": "Substitute this inequality into the given function: Since $$ |x + 2| \\ge 0 $$, it follows that $$ |x + 2| - 1 \\ge 0 - 1 $$.",
+        "step_4": "Therefore, $$ f(x) \\ge -1 $$ for all real $$ x $$.",
+        "step_5": "The minimum value of the function is $$ -1 $$, which occurs at $$ x = -2 $$."
+      },
+      "board_presentation_tip": "For absolute value optimization, purely logical deduction based on the property $$ |x| \\ge 0 $$ is faster and cleaner than attempting to use derivatives.",
+      "common_student_mistakes": [
+        "Attempting to differentiate the absolute value function, leading to undefined derivatives at the critical point and confusion.",
+        "Confusing the point where the minimum occurs ($$ x = -2 $$) with the minimum value itself ($$ -1 $$)."
+      ],
+      "concept_trigger": "Functions containing a standalone modulus expression are optimized using the basic inequality $$ |X| \\ge 0 $$.",
+      "time_to_solve_seconds": "45",
+      "examiner_intent": "Assessing conceptual understanding of function range and optimization without relying blindly on calculus algorithms."
+    },
+    {
+      "question_id": 17,
+      "question_type": "3_mark",
+      "concept_tested": "Geometric Optimization (Cylinder)",
+      "difficulty_level": "Board-Tricky",
+      "question_text": "Prove that among all closed cylindrical cans of a given volume, the one with minimum surface area has its height equal to its diameter. ",
+      "options": [],
+      "correct_answer": "Proof completed ($$ h = 2r $$)",
+      "topper_solution": {
+        "step_1": "Let the given constant volume be $$ V $$. Let the radius be $$ r $$ and height be $$ h $$. Then $$ V = \\pi r^2 h \\implies h = \\frac{V}{\\pi r^2} $$.",
+        "step_2": "The total surface area $$ S $$ of a closed cylinder is $$ S = 2\\pi r^2 + 2\\pi rh $$.",
+        "step_3": "Substitute $$ h $$ to make $$ S $$ a function of one variable: $$ S(r) = 2\\pi r^2 + 2\\pi r \\left(\\frac{V}{\\pi r^2}\\right) = 2\\pi r^2 + \\frac{2V}{r} $$.",
+        "step_4": "Differentiate with respect to $$ r $$: $$ \\frac{dS}{dr} = 4\\pi r - \\frac{2V}{r^2} $$.",
+        "step_5": "Set $$ \\frac{dS}{dr} = 0 $$ for minimum area: $$ 4\\pi r = \\frac{2V}{r^2} \\implies 2\\pi r^3 = V $$.",
+        "step_6": "Substitute $$ V = \\pi r^2 h $$ back into the condition: $$ 2\\pi r^3 = \\pi r^2 h $$. Dividing by $$ \\pi r^2 $$ (since $$ r \\neq 0 $$) gives $$ 2r = h $$. Thus, height equals diameter.",
+        "step_7": "To confirm it's a minimum, find the second derivative: $$ \\frac{d^2S}{dr^2} = 4\\pi + \\frac{4V}{r^3} $$. Since both $$ r $$ and $$ V $$ are positive, $$ \\frac{d^2S}{dr^2} > 0 $$. The area is minimized."
+      },
+      "board_presentation_tip": "Substituting the constant parameter 'V' back into the constraint equation (Step 6) is a massive time-saver compared to substituting back the cube root expression for 'r'.",
+      "common_student_mistakes": [
+        "Using the curved surface area instead of the total closed surface area.",
+        "Skipping the second derivative test, losing the final verification mark."
+      ],
+      "concept_trigger": "Given volume implies V is a constant. Eliminate one variable (usually h) using the volume formula to optimize the surface area.",
+      "time_to_solve_seconds": "240",
+      "examiner_intent": "Testing multi-variable constraint elimination and optimization techniques on standard 3D solids."
+    },
+    {
+      "question_id": 18,
+      "question_type": "3_mark",
+      "concept_tested": "Related Rates with Cones",
+      "difficulty_level": "Moderate",
+      "question_text": "Sand is pouring from a pipe at the rate of $$ 12 \\text{ cm}^3/\\text{s} $$. The falling sand forms a cone on the ground in such a way that the height of the cone is always one-sixth of the radius of the base. How fast is the height of the sand cone increasing when the height is 4 cm?",
+      "options": [],
+      "correct_answer": "$$ \\frac{1}{48\\pi} \\text{ cm/s} $$",
+      "topper_solution": {
+        "step_1": "We are given the rate of volume increase: $$ \\frac{dV}{dt} = 12 \\text{ cm}^3/\\text{s} $$. We need to find $$ \\frac{dh}{dt} $$ when $$ h = 4 $$ cm.",
+        "step_2": "We are given the relation between height and radius: $$ h = \\frac{1}{6}r \\implies r = 6h $$.",
+        "step_3": "The volume of a cone is $$ V = \\frac{1}{3}\\pi r^2 h $$.",
+        "step_4": "Substitute $$ r = 6h $$ into the volume formula to make it a function of $$ h $$ only: $$ V = \\frac{1}{3}\\pi (6h)^2 h = \\frac{1}{3}\\pi (36h^2) h = 12\\pi h^3 $$.",
+        "step_5": "Differentiate volume with respect to time $$ t $$: $$ \\frac{dV}{dt} = \\frac{d}{dt}(12\\pi h^3) = 36\\pi h^2 \\cdot \\frac{dh}{dt} $$.",
+        "step_6": "Substitute the given values ($$ \\frac{dV}{dt} = 12 $$ and $$ h = 4 $$): $$ 12 = 36\\pi (4)^2 \\cdot \\frac{dh}{dt} $$.",
+        "step_7": "$$ 12 = 36\\pi (16) \\cdot \\frac{dh}{dt} \\implies 12 = 576\\pi \\cdot \\frac{dh}{dt} \\implies \\frac{dh}{dt} = \\frac{12}{576\\pi} = \\frac{1}{48\\pi} \\text{ cm/s} $$.",
+        "step_8": "The height of the sand cone is increasing at the rate of $$ \\frac{1}{48\\pi} \\text{ cm/s} $$."
+      },
+      "board_presentation_tip": "Expressing V entirely in terms of h before differentiating prevents the need for product rules and multi-variable related rates.",
+      "common_student_mistakes": [
+        "Writing $$ r = \\frac{1}{6}h $$ instead of $$ h = \\frac{1}{6}r $$, leading to a completely incorrect volume expression.",
+        "Forgetting the $$ \\frac{dh}{dt} $$ term while differentiating implicitly."
+      ],
+      "concept_trigger": "Problems involving pouring sand forming a cone strictly require substituting out the radius to express volume purely as a function of height.",
+      "time_to_solve_seconds": "210",
+      "examiner_intent": "Evaluating related rates applications, specifically focusing on variable substitution prior to differentiation."
+    },
+    {
+      "question_id": 19,
+      "question_type": "5_mark",
+      "concept_tested": "Advanced Geometric Optimization",
+      "difficulty_level": "Board-Tricky",
+      "question_text": "Show that the semi-vertical angle of a right circular cone of given surface area and maximum volume is $$ \\sin^{-1}\\left(\\frac{1}{3}\\right) $$. ",
+      "options": [],
+      "correct_answer": "Proof of semi-vertical angle.",
+      "topper_solution": {
+        "step_1": "Let $$ r $$ be the radius, $$ l $$ be the slant height, $$ h $$ be the height, and $$ \\alpha $$ be the semi-vertical angle of the cone. Given total surface area $$ S = \\pi r l + \\pi r^2 $$ is constant.",
+        "step_2": "Express $$ l $$ in terms of $$ S $$ and $$ r $$: $$ \\pi r l = S - \\pi r^2 \\implies l = \\frac{S - \\pi r^2}{\\pi r} $$.",
+        "step_3": "The volume of the cone is $$ V = \\frac{1}{3}\\pi r^2 h $$. To remove the square root for $$ h $$, square the volume: $$ V^2 = \\frac{1}{9}\\pi^2 r^4 h^2 $$.",
+        "step_4": "Use the Pythagorean relation $$ h^2 = l^2 - r^2 $$. Substitute $$ l $$: $$ h^2 = \\left(\\frac{S - \\pi r^2}{\\pi r}\\right)^2 - r^2 = \\frac{S^2 - 2S\\pi r^2 + \\pi^2 r^4}{\\pi^2 r^2} - r^2 = \\frac{S^2 - 2S\\pi r^2}{\\pi^2 r^2} $$.",
+        "step_5": "Substitute $$ h^2 $$ into the $$ V^2 $$ equation. Let $$ Z = V^2 = \\frac{1}{9}\\pi^2 r^4 \\left( \\frac{S^2 - 2S\\pi r^2}{\\pi^2 r^2} \\right) = \\frac{1}{9}(S^2 r^2 - 2S\\pi r^4) $$.",
+        "step_6": "Differentiate $$ Z $$ with respect to $$ r $$: $$ \\frac{dZ}{dr} = \\frac{1}{9}(2S^2 r - 8S\\pi r^3) $$.",
+        "step_7": "Set $$ \\frac{dZ}{dr} = 0 $$ for maximum volume: $$ 2S^2 r - 8S\\pi r^3 = 0 \\implies 2Sr(S - 4\\pi r^2) = 0 $$. Since $$ r \\neq 0 $$ and $$ S \\neq 0 $$, $$ S = 4\\pi r^2 $$.",
+        "step_8": "Substitute $$ S = 4\\pi r^2 $$ back into the surface area equation: $$ 4\\pi r^2 = \\pi r l + \\pi r^2 \\implies 3\\pi r^2 = \\pi r l \\implies l = 3r $$.",
+        "step_9": "From the right triangle in the cone, $$ \\sin \\alpha = \\frac{r}{l} $$. Substitute $$ l = 3r $$: $$ \\sin \\alpha = \\frac{r}{3r} = \\frac{1}{3} $$.",
+        "step_10": "Therefore, the semi-vertical angle is $$ \\alpha = \\sin^{-1}\\left(\\frac{1}{3}\\right) $$. (Second derivative $$ \\frac{d^2Z}{dr^2} = \\frac{1}{9}(2S^2 - 24S\\pi r^2) $$. At $$ S = 4\\pi r^2 $$, it is negative, confirming a maximum)."
+      },
+      "board_presentation_tip": "As with many optimization proofs, maximizing the square of the volume ($$ V^2 $$) completely sidesteps dealing with ugly square roots and quotient rules for $$ h $$.",
+      "common_student_mistakes": [
+        "Confusing total surface area ($$ \\pi rl + \\pi r^2 $$) with curved surface area ($$ \\pi rl $$).",
+        "Failing to use the geometric relationship $$ \\sin \\alpha = \\frac{r}{l} $$ to bridge the optimization result to the required angle proof."
+      ],
+      "concept_trigger": "Problems involving cones, constants, and volumes almost always require substituting $$ l^2 - r^2 $$ for $$ h^2 $$ and maximizing $$ V^2 $$.",
+      "time_to_solve_seconds": "480",
+      "examiner_intent": "Testing heavy algebraic manipulation, 3D geometry constraints, and mastery of calculus optimization workflows."
+    },
+    {
+      "question_id": 20,
+      "question_type": "case_based",
+      "concept_tested": "Real World Optimization (Norman Window)",
+      "difficulty_level": "Moderate",
+      "question_text": "An architect is designing a window in the shape of a rectangle surmounted by a semicircular opening. The total perimeter of the window is constrained to be 10 meters to fit the structural framing. \n\nBased on this, answer the following:\n(i) If the radius of the semicircle is $$ x $$ meters, express the area $$ A $$ of the window entirely as a function of $$ x $$.\n(ii) Find $$ \\frac{dA}{dx} $$ and determine the critical point.\n(iii) What should be the dimensions of the window to admit maximum light (i.e., maximum area)?",
+      "options": [],
+      "correct_answer": "(i) $$ A(x) = 10x - 2x^2 - \\frac{\\pi x^2}{2} $$, (ii) $$ x = \\frac{10}{\\pi + 4} $$, (iii) Width = $$ \\frac{20}{\\pi + 4} $$ m, Height of rectangular part = $$ \\frac{10}{\\pi + 4} $$ m",
+      "topper_solution": {
+        "step_1": "For (i): Let the radius of the semicircle be $$ x $$. The width of the rectangle is $$ 2x $$. Let the height of the rectangle be $$ y $$.",
+        "step_2": "The perimeter constraint is: Base + 2(Height) + Semicircle Arc = 10. So, $$ 2x + 2y + \\pi x = 10 $$.",
+        "step_3": "Express $$ y $$ in terms of $$ x $$: $$ 2y = 10 - 2x - \\pi x \\implies y = 5 - x - \\frac{\\pi x}{2} $$.",
+        "step_4": "Total Area $$ A = \\text{Area of Rectangle} + \\text{Area of Semicircle} = (2x)(y) + \\frac{1}{2}\\pi x^2 $$.",
+        "step_5": "Substitute $$ y $$: $$ A(x) = 2x\\left(5 - x - \\frac{\\pi x}{2}\\right) + \\frac{1}{2}\\pi x^2 = 10x - 2x^2 - \\pi x^2 + \\frac{1}{2}\\pi x^2 = 10x - 2x^2 - \\frac{\\pi x^2}{2} $$.",
+        "step_6": "For (ii): Differentiate $$ A $$ with respect to $$ x $$: $$ \\frac{dA}{dx} = 10 - 4x - \\pi x $$.",
+        "step_7": "Set $$ \\frac{dA}{dx} = 0 $$: $$ 10 = x(4 + \\pi) \\implies x = \\frac{10}{\\pi + 4} $$.",
+        "step_8": "For (iii): Second derivative $$ \\frac{d^2A}{dx^2} = -4 - \\pi < 0 $$, confirming maximum area.",
+        "step_9": "The width is $$ 2x = \\frac{20}{\\pi + 4} $$ meters.",
+        "step_10": "The rectangular height is $$ y = 5 - \\frac{10}{\\pi + 4} - \\frac{5\\pi}{\\pi + 4} = \\frac{5\\pi + 20 - 10 - 5\\pi}{\\pi + 4} = \\frac{10}{\\pi + 4} $$ meters."
+      },
+      "board_presentation_tip": "Labeling the perimeter components correctly is vital. The base of the semicircle is NOT part of the perimeter because it sits inside the window frame.",
+      "common_student_mistakes": [
+        "Including the diameter of the semicircle ($$ 2x $$) in the perimeter calculation, leading to an incorrect constraint equation.",
+        "Confusing the radius of the semicircle with the full width of the window."
+      ],
+      "concept_trigger": "Problems involving shapes combined together (like Norman windows or running tracks) require careful segregation of perimeter boundaries versus interior joints.",
+      "time_to_solve_seconds": "300",
+      "examiner_intent": "Testing applied calculus modeling, specifically handling constraints and perimeter vs area formulations in composite shapes."
+    }
+  ]
+}

@@ -1,0 +1,2993 @@
+[
+  {
+    "chapter_derivations": [
+      {
+        "derivation_id": "EPC-01",
+        "meta": {
+          "chapter_number": 2,
+          "chapter_name": "Electrostatic Potential and Capacitance",
+          "derivation_title": "Electric Potential due to an Electric Dipole at an Axial Point",
+          "cbse_frequency": "HIGH",
+          "historical_occurrence_years": [
+            "2023",
+            "2020",
+            "2017",
+            "2016"
+          ],
+          "total_marks": 3
+        },
+        "examiner_overview": {
+          "asked_as_stems": [
+            "Derive the expression for electric potential due to an electric dipole on its axial line.",
+            "Deduce an expression for the electrostatic potential at a point on the axial line of an electric dipole of dipole moment \\vec{p}. Under what condition does this potential become inversely proportional to the square of the distance from the centre of the dipole?"
+          ],
+          "marking_distribution": {
+            "statement_and_diagram": 1.0,
+            "mathematical_integration": 1.0,
+            "final_expression_and_direction": 1.0
+          }
+        },
+        "derivation_timeline": [
+          {
+            "step_number": 1,
+            "phase": "SETUP_AND_DIAGRAM",
+            "exact_board_text": "Consider an electric dipole consisting of two point charges -q and +q separated by a small distance 2a with its midpoint located at the origin O. Let P be an observation point on the axial line of the dipole at a distance r from its centre O, situated on the side of the positive charge.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [],
+              "algebraic_progression": []
+            },
+            "score_trigger_keywords": [
+              "Electric Dipole",
+              "Axial Line",
+              "Midpoint Origin",
+              "Distance r from centre"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": true,
+              "drawing_instruction": "Draw a straight horizontal line representing the axial line. Mark a center point O. Place a negative charge -q at point A to the left of O at distance a, and a positive charge +q at point B to the right of O at distance a. Extend the line to the right of +q and place an observation point P. Draw clear dimension lines showing distance r from O to P, distance (r-a) from +q to P, and distance (r+a) from -q to P. Draw a vector arrow for the dipole moment vector p pointing from -q to +q.",
+              "generation_prompt": "A pristine technical physics diagram for a dark-mode UI. Background is solid dark gray #0a0a0f. A crisp horizontal dashed white axis line runs through the center. A blue filled circle labeled '-q' sits at point A on the left, and a red filled circle labeled '+q' sits at point B on the right. The exact midpoint between them is a white dot labeled 'O'. Farther to the right along the same axis line, a white point cross labeled 'P' marks the target point. Bright cyan dimension arrows map out distances: 'a' from A to O, 'a' from O to B, 'r' spanning from O to P, 'r-a' spanning from B to P, and 'r+a' spanning from A to P. A clean green vector arrow labeled '\\vec{p}' points directly from -q to +q."
+            }
+          },
+          {
+            "step_number": 2,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "exact_board_text": "The electrostatic potential V_{1} at the observation point P due to the positive charge +q located at a distance (r - a) is determined by applying Coulomb's potential formula.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Using Coulomb's law for a point charge potential"
+              ],
+              "algebraic_progression": [
+                "V_{1} = \\frac{1}{4\\pi\\epsilon_{0}} \\frac{q}{r - a}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Potential due to positive charge",
+              "Distance r - a"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 3,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "exact_board_text": "Similarly, the electrostatic potential V_{2} at the observation point P due to the negative charge -q located at a distance (r + a) is formulated, retaining the explicit negative scalar charge sign.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Using Coulomb's law for a negative point charge potential"
+              ],
+              "algebraic_progression": [
+                "V_{2} = \\frac{1}{4\\pi\\epsilon_{0}} \\frac{-q}{r + a}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Potential due to negative charge",
+              "Distance r + a",
+              "Scalar sign inclusion"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 4,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "exact_board_text": "By the superposition principle of electrostatics, the net electric potential V at the axial point P is equal to the algebraic sum of the individual potentials contributed by each point charge.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Applying the Superposition Principle"
+              ],
+              "algebraic_progression": [
+                "V = V_{1} + V_{2}",
+                "V = \\frac{1}{4\\pi\\epsilon_{0}} \\frac{q}{r - a} + \\frac{1}{4\\pi\\epsilon_{0}} \\frac{-q}{r + a}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Superposition Principle",
+              "Scalar Addition",
+              "Algebraic Sum"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 5,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "exact_board_text": "Isolating the common scalar multiplier outside a bracketed expression to prepare the terms for algebraic fractional simplification.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Factoring common components"
+              ],
+              "algebraic_progression": [
+                "V = \\frac{q}{4\\pi\\epsilon_{0}} \\left( \\frac{1}{r - a} - \\frac{1}{r + a} \\right)"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Factoring common multiplier"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 6,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "exact_board_text": "Determining the lowest common denominator for the algebraic fractions and expanding the numerator terms.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Finding common denominator via difference of squares"
+              ],
+              "algebraic_progression": [
+                "V = \\frac{q}{4\\pi\\epsilon_{0}} \\left( \\frac{(r + a) - (r - a)}{(r - a)(r + a)} \\right)",
+                "V = \\frac{q}{4\\pi\\epsilon_{0}} \\left( \\frac{2a}{r^{2} - a^{2}} \\right)"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Common Denominator",
+              "Numerator expansion and coordinate cancellation"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 7,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "exact_board_text": "Substituting the fundamental definition of the electric dipole moment magnitude p = 2aq into the simplified numerator expression.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Substituting p = 2aq"
+              ],
+              "algebraic_progression": [
+                "V = \\frac{1}{4\\pi\\epsilon_{0}} \\frac{2aq}{r^{2} - a^{2}}",
+                "V = \\frac{1}{4\\pi\\epsilon_{0}} \\frac{p}{r^{2} - a^{2}}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Electric Dipole Moment Definition",
+              "p = 2aq"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 8,
+            "phase": "FINAL_EVALUATION",
+            "exact_board_text": "For a short electric dipole, the observation distance is significantly larger than the dipole half-length. Consequently, the term a^{2} in the denominator is neglected.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Applying short dipole limit coordinate approximation r \\gg a"
+              ],
+              "algebraic_progression": [
+                "V = \\frac{1}{4\\pi\\epsilon_{0}} \\frac{p}{r^{2}}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Short Dipole Approximation",
+              "r \\gg a",
+              "Inverse Square Coordinate Dependence"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          }
+        ],
+        "topper_scoring_notes": [
+          "The absolute biggest trap in this derivation is dropping the negative sign of the charge. Remember that electric potential is a scalar quantity, not a vector. You do not resolve components here; you plug the negative sign of the charge directly into the formula for V_{2}. If you miss that minus sign, your fractions will add up to 2r instead of 2a, and the examiner will zero out the mathematical section instantly.",
+          "Do not get lazy and skip writing down the explicit condition r \\gg a before dropping the a^{2} term in the final step. Examiners check the marking scheme for that specific text boundary condition. Skipping it costs you a half-mark deduction even if your final formula is clean.",
+          "In your diagram, always explicitly include the vector arrow for the dipole moment \\vec{p} pointing from the negative charge to the positive charge. Even though you are solving for a scalar potential field, showing this reference orientation proves structural compliance with standard textbook criteria."
+        ]
+      }
+    ]
+  },
+  {
+    "chapter_derivations": [
+      {
+        "derivation_id": "EPC-02",
+        "meta": {
+          "chapter_number": 2,
+          "chapter_name": "Electrostatic Potential and Capacitance",
+          "derivation_title": "Capacitance of a Parallel Plate Capacitor (Vacuum)",
+          "cbse_frequency": "HIGH",
+          "historical_occurrence_years": [
+            "2024",
+            "2022",
+            "2020",
+            "2017"
+          ],
+          "total_marks": 3
+        },
+        "examiner_overview": {
+          "asked_as_stems": [
+            "Derive the expression for the capacitance of a parallel plate capacitor.",
+            "Obtain an expression for the capacitance of a parallel plate capacitor of plate area A and separation d when there is vacuum between its plates."
+          ],
+          "marking_distribution": {
+            "statement_and_diagram": 1.0,
+            "mathematical_integration": 1.0,
+            "final_expression_and_direction": 1.0
+          }
+        },
+        "derivation_timeline": [
+          {
+            "step_number": 1,
+            "phase": "SETUP_AND_DIAGRAM",
+            "exact_board_text": "Consider a parallel plate capacitor consisting of two large plane parallel conducting plates, 1 and 2, each of area A, separated by a small distance d with vacuum in the intervening region. The plates carry equal and opposite charges +Q and -Q respectively, establishing uniform surface charge densities +\\sigma and -\\sigma.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [],
+              "algebraic_progression": []
+            },
+            "score_trigger_keywords": [
+              "Parallel plates",
+              "Area A",
+              "Separation distance d",
+              "Vacuum medium"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": true,
+              "drawing_instruction": "Draw two identical parallel horizontal blocks representing cross-sections of the conducting plates. Label the upper plate as 1 and the lower plate as 2. Distribute positive '+' signs along the lower surface of plate 1 and negative '-' signs along the upper surface of plate 2. Draw evenly spaced vertical arrows pointing downwards from plate 1 to plate 2 to represent the uniform electric field vector E. Draw dimension lines marking the plate area A for both plates and the vertical separation distance d between them.",
+              "generation_prompt": "A highly precise architectural electronics/physics diagram for a modern web interface. Dark-mode palette with solid black background #0a0a0f. Two thick parallel horizontal metallic rectangles representing plates are rendered in light gray. The upper rectangle is labeled 'Plate 1 (Area A)' and features a row of bright cyan '+' symbols at its baseline. The lower rectangle is labeled 'Plate 2 (Area A)' and features a row of white '-' symbols at its top margin. Five perfectly parallel downward-pointing vertical cyan vector arrows span the gap, clearly labeled as '\\vec{E}'. A white distinct double-headed dimension arrow on the right maps out the separation distance labeled 'd'. The outer fields above Plate 1 and below Plate 2 are visibly labeled 'E = 0'."
+            }
+          },
+          {
+            "step_number": 2,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "exact_board_text": "The uniform surface charge density \\sigma on the conducting plates is defined as the total charge per unit surface area of each individual plate.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Definition of surface charge density"
+              ],
+              "algebraic_progression": [
+                "\\sigma = \\frac{Q}{A}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Surface charge density substitution",
+              "\\sigma = Q/A"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 3,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "exact_board_text": "By applying the expression for the electric field due to an infinite plane sheet of uniform surface charge density, the field magnitudes in the outer regions I (above plate 1) and II (below plate 2) are calculated as zero due to field cancellation.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Using the electric field formula for an infinite charged sheet"
+              ],
+              "algebraic_progression": [
+                "E_{\\text{outer}} = \\frac{\\sigma}{2\\epsilon_{0}} - \\frac{\\sigma}{2\\epsilon_{0}}",
+                "E_{\\text{outer}} = 0"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Outer region field cancellation",
+              "Infinite plane sheet field component"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 4,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "exact_board_text": "In the inner region between the two plates, the individual electric fields produced by the positive and negative sheets of charge point in the identical direction (from positive to negative plate) and add up constructively.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Linear superposition of fields in the inner gap"
+              ],
+              "algebraic_progression": [
+                "E = \\frac{\\sigma}{2\\epsilon_{0}} + \\frac{\\sigma}{2\\epsilon_{0}}",
+                "E = \\frac{\\sigma}{\\epsilon_{0}}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Inner region field addition",
+              "Constructive field superposition"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 5,
+            "phase": "INTEGRATION_AND_SUBSTITUTION",
+            "exact_board_text": "Substituting the surface charge density parameter into the net inner uniform electric field formulation to express the field strength in terms of macroscopic variables.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Plugging in the expression for \\sigma from step 2"
+              ],
+              "algebraic_progression": [
+                "E = \\frac{\\left(\\frac{Q}{A}\\right)}{\\epsilon_{0}}",
+                "E = \\frac{Q}{\\epsilon_{0}A}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Macroscopic variable translation",
+              "Permittivity of free space"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 6,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "exact_board_text": "Since the electric field between the large plates is uniform, the electrostatic potential difference V across the plates is simply the product of the magnitude of the uniform electric field and the separation distance.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Potential relation for uniform field gradient"
+              ],
+              "algebraic_progression": [
+                "V = E \\cdot d",
+                "V = \\frac{Q}{\\epsilon_{0}A} \\cdot d"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Uniform field potential relation",
+              "Linear potential gradient drop"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 7,
+            "phase": "FINAL_EVALUATION",
+            "exact_board_text": "By applying the core physical definition of capacitance as the ratio of stored charge magnitude Q to the potential difference V, the final expression for vacuum capacitance is derived.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Using C_{0} = Q / V"
+              ],
+              "algebraic_progression": [
+                "C_{0} = \\frac{Q}{\\left(\\frac{Q \\cdot d}{\\epsilon_{0}A}\\right)}",
+                "C_{0} = \\frac{\\epsilon_{0}A}{d}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Capacitance core definition",
+              "Geometric parameter dependence"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          }
+        ],
+        "topper_scoring_notes": [
+          "Do not just jump directly from your diagram to the equation E = \\sigma / \\epsilon_{0}. Board markers check the official answer key for the explicit steps showing that the field in the outer regions is zero due to cancellation (E = \\sigma / 2\\epsilon_{0} - \\sigma / 2\\epsilon_{0} = 0). Writing this explicit step secure your 1.0 mark for the formulation phase.",
+          "You must explicitly state the approximation condition d^{2} \\ll A (or that the plate separation is much smaller than the linear size of the plates). If you don't write this, the use of the infinite plane sheet equation is mathematically invalid for finite plates, and rigorous evaluators will dock a half-mark for missing the boundaries.",
+          "Memorize the battery states for the tag-on questions appended to this derivation. If they ask about changing d or inserting a slab with the battery connected, V stays rock-solid constant. If the battery is disconnected before making changes, Q stays completely constant because the charge has nowhere to escape. Mixing these up destroys your score in the numerical attachments."
+        ]
+      }
+    ]
+  },
+  {
+    "chapter_derivations": [
+      {
+        "derivation_id": "EPC-03",
+        "meta": {
+          "chapter_number": 2,
+          "chapter_name": "Electrostatic Potential and Capacitance",
+          "derivation_title": "Capacitance of a Parallel Plate Capacitor with a Dielectric Slab",
+          "cbse_frequency": "HIGH",
+          "historical_occurrence_years": [
+            "2026",
+            "2024",
+            "2023",
+            "2022"
+          ],
+          "total_marks": 5
+        },
+        "examiner_overview": {
+          "asked_as_stems": [
+            "Derive an expression for the capacitance of a parallel plate capacitor when a dielectric slab of thickness t (t<d) is inserted between its plates.",
+            "Deduce an expression for the capacitance of a parallel plate capacitor with a dielectric slab of dielectric constant K partially filling the space between the plates."
+          ],
+          "marking_distribution": {
+            "statement_and_diagram": 1.0,
+            "mathematical_integration": 2.5,
+            "final_expression_and_direction": 1.5
+          }
+        },
+        "derivation_timeline": [
+          {
+            "step_number": 1,
+            "phase": "SETUP_AND_DIAGRAM",
+            "exact_board_text": "Consider a parallel plate capacitor with plates of area A and separation distance d, carrying charges +Q and -Q respectively, such that its vacuum capacitance is given by C_{0} = \\epsilon_{0}A/d. Let a dielectric slab of thickness t (where t < d) and dielectric constant K be introduced into the space between the parallel plates.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [],
+              "algebraic_progression": []
+            },
+            "score_trigger_keywords": [
+              "Dielectric Slab",
+              "Thickness t < d",
+              "Dielectric Constant K",
+              "Partial filling"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": true,
+              "drawing_instruction": "Draw two parallel vertical blocks representing the capacitor plates separated by distance d. Place '+' signs on the left plate and '-' signs on the right plate. In the intermediate gap, draw a distinct shaded rectangular block of thickness t representing the dielectric slab. Label the remaining empty air zones with a combined thickness of (d - t). On the internal left face of the slab, place induced negative charges (-), and on its right internal face, place induced positive charges (+). Draw long arrows labeled E_0 across the air gaps and a shorter arrow labeled E inside the slab, both pointing from left to right.",
+              "generation_prompt": "A pristine technical physics diagram for a dark-mode UI. Background is solid dark gray #0a0a0f. Two vertical parallel white lines represent capacitor plates separated by distance 'd'. The left plate is labeled '+Q' and has a row of cyan '+' signs. The right plate is labeled '-Q' and has a row of white '-' signs. Centered between the plates is a distinct shaded box representing a dielectric slab of thickness 't' labeled with dielectric constant 'K'. On the left surface of the slab, show small '-' polarization charges labeled '-Q_{p}', and on the right surface show small '+' polarization charges labeled '+Q_{p}'. In the air gaps of width 'd-t', draw long cyan horizontal arrows representing the vacuum electric field '\\vec{E}*{0}'. Inside the slab, draw a shorter cyan arrow representing the reduced electric field '\\vec{E}' pointing in the same direction."
+            }
+          },
+          {
+            "step_number": 2,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "exact_board_text": "The uniform vacuum electric field E*{0} established in the remaining un-filled space of thickness (d - t) between the conducting plates is expressed using the plate charge parameters.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Using the uniform field relation in a vacuum gap"
+              ],
+              "algebraic_progression": [
+                "E_{0} = \\frac{\\sigma}{\\epsilon_{0}}",
+                "E_{0} = \\frac{Q}{\\epsilon_{0}A}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Vacuum field region",
+              "Surface charge density mapping"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 3,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "exact_board_text": "Inside the dielectric slab region of thickness t, the presence of the induced polarization charges generates an opposing field, reducing the net internal electric field by a factor equal to the dielectric constant K.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Definition of dielectric medium field attenuation"
+              ],
+              "algebraic_progression": [
+                "E = \\frac{E_{0}}{K}",
+                "E = \\frac{Q}{K\\epsilon_{0}A}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Reduced electric field",
+              "Dielectric constant scale factor"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 4,
+            "phase": "INTEGRATION_AND_SUBSTITUTION",
+            "exact_board_text": "The total electrostatic potential difference V across the capacitor plates is determined by summing the potential drops across the distinct vacuum layers and the dielectric layer.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Linear summation of electrostatic potential drops"
+              ],
+              "algebraic_progression": [
+                "V = E_{0}(d - t) + E \\cdot t",
+                "V = E_{0}(d - t) + \\frac{E_{0}}{K} \\cdot t"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Multi-region potential summation",
+              "Potential gradient drop integration"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 5,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "exact_board_text": "Factoring the common baseline field component E_{0} out of the bracketed expression to condense the multi-region path variables.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Factoring common multiplier"
+              ],
+              "algebraic_progression": [
+                "V = E_{0} \\left( (d - t) + \\frac{t}{K} \\right)"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Factoring common variables"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 6,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "exact_board_text": "Substituting the specific structural value of the vacuum electric field from the first checkpoint into the rearranged potential equation.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Plugging in the expression for E_{0} from step 2"
+              ],
+              "algebraic_progression": [
+                "V = \\frac{Q}{\\epsilon_{0}A} \\left( d - t + \\frac{t}{K} \\right)"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Variable substitution tracking"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 7,
+            "phase": "FINAL_EVALUATION",
+            "exact_board_text": "By applying the fundamental operational definition of capacitance as the ratio of charge to potential difference, the formula for the modified system is established.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Using C = Q / V"
+              ],
+              "algebraic_progression": [
+                "C = \\frac{Q}{\\frac{Q}{\\epsilon_{0}A} \\left( d - t + \\frac{t}{K} \\right)}",
+                "C = \\frac{\\epsilon_{0}A}{d - t + \\frac{t}{K}}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Capacitance ratio definition",
+              "Final algebraic factor translation"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          }
+        ],
+        "topper_scoring_notes": [
+          "This is a premium 5-mark derivation, and the absolute core milestone where students choke is setting up the multi-region potential sum. Evaluators look directly for the line V = E_{0}(d - t) + E \\cdot t in your answer booklet. If you skip this explicit breakdown step and jump right to the factored state, you will lose 1.5 marks instantly.",
+          "Be ready for the standard follow-up trap where they swap the dielectric slab for a conducting metal sheet of thickness t. Remember that inside a conductor, the electric field is zero, which corresponds to setting K = \\infty. If you substitute K = \\infty into your final derived expression, it cleanly collapses to C = \\frac{\\epsilon_{0}A}{d - t}. Write down this exact limit transition explicitly to defend against point deductions in Section E sub-parts.",
+          "When sketching your spatial diagram on your sheet, make absolutely sure your polarization charge polarities match the neighboring plates. The induced negative charges on the slab boundary must face the positive terminal plate, and the induced positive charges must face the negative plate. Reversing these signs or failing to draw the polarization boundary charge profiles entirely will tank your diagram credit."
+        ]
+      }
+    ]
+  },
+  {
+    "chapter_derivations": [
+      {
+        "derivation_id": "EPC-04",
+        "meta": {
+          "chapter_number": 2,
+          "chapter_name": "Electrostatic Potential and Capacitance",
+          "derivation_title": "Electrostatic Energy Stored in a Capacitor",
+          "cbse_frequency": "HIGH",
+          "historical_occurrence_years": [
+            "2025",
+            "2023",
+            "2021",
+            "2019"
+          ],
+          "total_marks": 3
+        },
+        "examiner_overview": {
+          "asked_as_stems": [
+            "Derive the expression for the energy stored in a parallel plate capacitor.",
+            "Prove that the work done in charging a capacitor is stored as potential energy U = \\frac{1}{2}CV^{2}."
+          ],
+          "marking_distribution": {
+            "statement_and_diagram": 0.5,
+            "mathematical_integration": 2.0,
+            "final_expression_and_direction": 0.5
+          }
+        },
+        "derivation_timeline": [
+          {
+            "step_number": 1,
+            "phase": "SETUP_AND_DIAGRAM",
+            "exact_board_text": "Consider a capacitor of capacitance C, initially completely uncharged. Imagine a multi-stage charging process where small increments of positive charge are externally transferred from conductor 2 to conductor 1 until conductor 1 reaches a final total charge Q and conductor 2 retains a total charge -Q.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [],
+              "algebraic_progression": []
+            },
+            "score_trigger_keywords": [
+              "Uncharged initial state",
+              "Charge transfer process",
+              "Capacitance C",
+              "Final charge states Q and -Q"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": true,
+              "drawing_instruction": "Draw two parallel vertical lines representing the capacitor plates, labeled 1 and 2. Show plate 1 connected to the positive terminal of a DC battery source, and plate 2 connected to the negative terminal via a switch. Label the plates with their instantaneous charge values +q and -q. Draw an arrow between the plates with a small charge element dq being driven across the potential difference against the electric field. Clearly label the terminal battery potential as V.",
+              "generation_prompt": "A pristine technical physics diagram for a dark-mode UI. Background is solid dark gray #0a0a0f. Two vertical parallel white blocks represent capacitor plates, labeled '1' and '2'. Plate 1 shows an intermediate positive charge '+q' and Plate 2 shows a negative charge '-q'. Below them, crisp thin white circuit wires connect the plates to a clean DC battery symbol labeled with voltage 'V'. A small horizontal arrow pointing from Plate 2 to Plate 1 shows a small highlighted sphere labeled 'dq' being transferred. A downward pointing vertical arrow in the intermediate space represents the instantaneous internal electric field '\\vec{E}'."
+            }
+          },
+          {
+            "step_number": 2,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "exact_board_text": "Let q be the instantaneous magnitude of charge accumulated on the plates at any intermediate stage of the charging process. The instantaneous potential difference V' established across the plates at this specific stage is defined by the basic ratio of charge to capacitance.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Operational definition of instantaneous capacitance"
+              ],
+              "algebraic_progression": [
+                "V' = \\frac{q}{C}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Instantaneous intermediate charge q",
+              "Variable potential difference V'"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 3,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "exact_board_text": "The small amount of differential work done dW by an external agency to transfer an additional infinitesimal element of charge dq from the lower-potential plate to the higher-potential plate is formulated.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Electrostatic work-potential relation"
+              ],
+              "algebraic_progression": [
+                "dW = V' \\cdot dq",
+                "dW = \\frac{q}{C} \\cdot dq"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Infinitesimal charge transfer dq",
+              "Differential work dW"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 4,
+            "phase": "INTEGRATION_AND_SUBSTITUTION",
+            "exact_board_text": "The total macroscopic work done W required to build up the charge on the capacitor from its initial completely uncharged state (q = 0) to its fully charged state (q = Q) is structured as a definite integral.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Setting up definite calculus integration bounds"
+              ],
+              "algebraic_progression": [
+                "W = \\int_{0}^{Q} dW",
+                "W = \\int_{0}^{Q} \\frac{q}{C} \\, dq"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Definite integration limits",
+              "Limits from q = 0 to q = Q"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 5,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "exact_board_text": "Factoring out the constant parameter of capacitance C from inside the integration operator and computing the antiderivative function with respect to the variable coordinate q.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Evaluating the power rule integration function"
+              ],
+              "algebraic_progression": [
+                "W = \\frac{1}{C} \\int_{0}^{Q} q \\, dq",
+                "W = \\frac{1}{C} \\left[ \\frac{q^{2}}{2} \\right]*{0}^{Q}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Antiderivative calculation",
+              "Constant capacitance extraction"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 6,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "exact_board_text": "Evaluating the upper and lower mathematical boundary limits to determine the final expression for the total work done.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Applying fundamental theorem of calculus bounds"
+              ],
+              "algebraic_progression": [
+                "W = \\frac{1}{C} \\left( \\frac{Q^{2}}{2} - \\frac{0^{2}}{2} \\right)",
+                "W = \\frac{Q^{2}}{2C}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Boundary limit evaluation",
+              "Total work done expression"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 7,
+            "phase": "FINAL_EVALUATION",
+            "exact_board_text": "Since the electrostatic force field is entirely conservative, this total accumulation work done is completely stored within the system as electrostatic potential energy U. By substituting macro variables, alternative equivalent configurations are established.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Using U = W and substituting macro charging relations Q = CV"
+              ],
+              "algebraic_progression": [
+                "U = \\frac{Q^{2}}{2C}",
+                "U = \\frac{(CV)^{2}}{2C} = \\frac{1}{2}CV^{2}",
+                "U = \\frac{1}{2} \\left(\\frac{Q}{V}\\right) V^{2} = \\frac{1}{2}QV"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Conservative force work conversion",
+              "Potential energy storage U",
+              "Three alternative mathematical identities"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          }
+        ],
+        "topper_scoring_notes": [
+          "This derivation is easy marks, but writing U = CV^{2} instead of \\frac{1}{2}CV^{2} is an instant zero on the final formula block. Do not drop the constant integration factor of \\frac{1}{2} that emerges naturally from the power rule algorithm.",
+          "When executing the calculus layout, do not use the macro variable Q inside your differential operator. You cannot write dQ if it represents the final constant value. You must introduce an intermediate lower-case charging variable q and integrate with respect to dq. Rigorous board evaluators look for this proper distinction and dock notation points if you treat final values as differentials.",
+          "Be completely prepared for the classic energy sharing trick question appended to this. When two capacitors share charge, the final common voltage drops to V = (C*{1}V_{1} + C_{2}V_{2}) / (C_{1} + C_{2}). If you calculate the final total energy using this common potential, it will always be strictly less than the initial sum of energies. Know the standard explanation by heart: the missing fraction is lost as Joule heat dissipated in the resistive linking wires and stray electromagnetic transient radiation during the short stabilization phase."
+        ]
+      }
+    ]
+  },
+  {
+    "chapter_derivations": [
+      {
+        "derivation_id": "EPC-05",
+        "meta": {
+          "chapter_number": 2,
+          "chapter_name": "Electrostatic Potential and Capacitance ",
+          "derivation_title": "Potential Energy of an Electric Dipole in a Uniform External Electric Field ",
+          "cbse_frequency": "HIGH ",
+          "historical_occurrence_years": [
+            "2024",
+            "2022",
+            "2020",
+            "2018 "
+          ],
+          "total_marks": 3
+        },
+        "examiner_overview": {
+          "asked_as_stems": [
+            "Derive the expression for the potential energy of an electric dipole in a uniform electric field. ",
+            "An electric dipole of dipole moment \\vec{p} is kept in a uniform electric field \\vec{E}. Find the work done in rotating it from its position of stable equilibrium to unstable equilibrium. "
+          ],
+          "marking_distribution": {
+            "statement_and_diagram": 0.5,
+            "mathematical_integration": 2.0,
+            "final_expression_and_direction": 0.5
+          }
+        },
+        "derivation_timeline": [
+          {
+            "step_number": 1,
+            "phase": "SETUP_AND_DIAGRAM",
+            "exact_board_text": "Consider an electric dipole consisting of two point charges +q and -q separated by a small distance 2a placed in a uniform external electric field \\vec{E}. Let the dipole moment vector \\vec{p} make an instantaneous angle \theta with the direction of the uniform electric field. The equal and opposite forces +q\\vec{E} and -q\\vec{E} acting on the constituent charges form a couple that exerts a torque on the system.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [],
+              "algebraic_progression": []
+            },
+            "score_trigger_keywords": [
+              "Uniform external field ",
+              "Electric dipole moment ",
+              "Couple forces ",
+              "Restoring torque "
+            ],
+            "step_diagram": {
+              "has_inline_drawing": true,
+              "drawing_instruction": "Draw evenly spaced horizontal parallel arrows pointing from left to right to represent the uniform electric field lines. Sketch a tilted dipole axis line intersecting these fields at an angle \theta. Place a positive charge +q at the upper end and a negative charge -q at the lower end. Draw a vector arrow for the dipole moment p pointing from -q to +q. At charge +q, sketch a horizontal force vector arrow pointing right labeled +qE. At charge -q, sketch a horizontal force vector arrow pointing left labeled -qE. Draw a vertical dashed drop line between the action lines of the forces to explicitly mark the perpendicular separation segment of length 2a\\sin(\theta).",
+              "generation_prompt": "A pristine technical physics diagram for a dark-mode UI. Background is solid dark gray #0a0a0f. A sequence of five parallel horizontal white arrows point uniformly to the right, labeled collectively as '\\vec{E}'. An inclined dashed cyan line represents the dipole axis, tilted at an angle '\\theta' relative to the horizontal field vector. A highlighted blue circle at the top-right end contains a '+' symbol labeled '+q', and a highlighted blue circle at the bottom-left end contains a '-' symbol labeled '-q'. The separation length along the axis is explicitly dimensioned as '2a'. From the '+q' charge, a bold white vector arrow points horizontally to the right labeled '+q\\vec{E}'. From the '-q' charge, a bold white vector arrow points horizontally to the left labeled '-q\\vec{E}'. A vertical green dashed line marks the perpendicular gap between the two horizontal forces, cleanly labeled as '2a \\sin(\\theta)'."
+            }
+          },
+          {
+            "step_number": 2,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "exact_board_text": "The magnitude of the torque acting on the dipole due to the external uniform electric field is evaluated by multiplying the magnitude of one of the forces by the perpendicular distance between the two parallel lines of action.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Using cross product torque definition "
+              ],
+              "algebraic_progression": [
+                "\\tau = qE \\cdot (2a \\sin(\\theta))",
+                "\\tau = (2qa) E \\sin(\\theta)"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Torque magnitude ",
+              "Perpendicular distance "
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 3,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "exact_board_text": "Substituting the operational identity of the electric dipole moment magnitude p = 2qa into the torque expression to group macroscopic variables.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Plugging in the definition p = 2qa "
+              ],
+              "algebraic_progression": [
+                "\\tau = pE \\sin(\\theta)"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Dipole moment substitution ",
+              "Trigonometric torque mapping "
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 4,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "exact_board_text": "The small amount of work done dW by an external torque applied to rotate the dipole against the electrostatic torque through an infinitesimal angular displacement d\theta at a constant angular velocity is expressed.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Rotational work-energy relation "
+              ],
+              "algebraic_progression": [
+                "dW = \\tau_{\\text{ext}} \\, d\\theta",
+                "dW = pE \\sin(\\theta) \\, d\\theta"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Infinitesimal rotation d\theta ",
+              "External torque work "
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 5,
+            "phase": "INTEGRATION_AND_SUBSTITUTION",
+            "exact_board_text": "The total macroscopic work done W in changing the angular orientation of the electric dipole from an initial configuration angle \theta_{0} to a final angle \theta_{1} is calculated via definite integration.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Setting up definite angular limits "
+              ],
+              "algebraic_progression": [
+                "W = \\int_{\\theta_{0}}^{\\theta_{1}} dW",
+                "W = \\int_{\\theta_{0}}^{\\theta_{1}} pE \\sin(\\theta) \\, d\\theta"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Definite integration ",
+              "Angular alignment bounds "
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 6,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "exact_board_text": "Extracting the constant parameters of dipole moment magnitude and electric field strength outside the integral and determining the negative cosine antiderivative.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Computing the integral of sine "
+              ],
+              "algebraic_progression": [
+                "W = pE \\int_{\\theta_{0}}^{\\theta_{1}} \\sin(\\theta) \\, d\\theta",
+                "W = pE \\left[ -\\cos(\\theta) \\right]*{\\theta*{0}}^{\\theta_{1}}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Antiderivative calculation ",
+              "Trigonometric integration "
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 7,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "exact_board_text": "Evaluating the upper and lower mathematical boundary limits to determine the standard difference expression for the rotational work done.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Applying limits via the Fundamental Theorem of Calculus "
+              ],
+              "algebraic_progression": [
+                "W = pE \\left( -\\cos(\\theta_{1}) - (-\\cos(\\theta_{0})) \\right)",
+                "W = pE \\left( \\cos(\\theta_{0}) - \\cos(\\theta_{1}) \\right)"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Boundary evaluation ",
+              "Work equation configuration "
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 8,
+            "phase": "FINAL_EVALUATION",
+            "exact_board_text": "Because the electrostatic force field is fully conservative, this work done is stored as the absolute potential energy U(\theta) of the system. By standard convention, the zero-potential energy reference orientation is chosen at \theta_{0} = \frac{\\pi}{2} (90^{\\circ}), where the dipole is perpendicular to the field lines. Setting the final configuration angle \theta_{1} = \theta yields the absolute potential energy relation.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Substituting \theta_{0} = \\frac{\\pi}{2} and \theta_{1} = \theta into the work identity "
+              ],
+              "algebraic_progression": [
+                "U(\\theta) = pE \\left( \\cos\\left(\\frac{\\pi}{2}\\right) - \\cos(\\theta) \\right)",
+                "U(\\theta) = pE (0 - \\cos(\\theta))",
+                "U(\\theta) = -pE \\cos(\\theta) = -\\vec{p} \\cdot \\vec{E}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Potential energy conversion ",
+              "Zero-potential reference state ",
+              "Scalar dot product configuration "
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          }
+        ],
+        "topper_scoring_notes": [
+          "Pay extreme attention to the reference angle choice. Examiners explicitly look for the text explanation of why we set \\theta_{0} = 90^{\\circ}. If you do not state that the potential energy is chosen to be zero when the dipole is perpendicular to the field lines, your final expression for absolute potential energy (-pE\\cos\\theta) lacks initial boundary context, and you will lose a half-mark right at the end.",
+          "Memorize the exact definition of equilibrium angles for the unavoidable sub-part attachments. When \\theta = 0^{\\circ}, the potential energy hits its absolute minimum U = -pE; this is the position of stable equilibrium. When \\theta = 180^{\\circ}, the potential energy hits its absolute maximum U = +pE; this is the position of unstable equilibrium.",
+          "If an examiner sets a trap asking for the work done in rotating a dipole from stable to unstable equilibrium, do not guess the sign. Calculate it directly using the final derived formula: W = U(180^{\\circ}) - U(0^{\\circ}) = (+pE) - (-pE) = 2pE. Keeping this clear prevents sign errors that frequently trip up student solutions."
+        ]
+      }
+    ]
+  },
+  {
+    "chapter_derivations": [
+      {
+        "derivation_id": "EPC-06",
+        "meta": {
+          "chapter_number": 2,
+          "chapter_name": "Electrostatic Potential and Capacitance",
+          "derivation_title": "Electric Potential due to an Isolated Point Charge",
+          "cbse_frequency": "MEDIUM",
+          "historical_occurrence_years": [
+            "2023",
+            "2020",
+            "2018"
+          ],
+          "total_marks": 3
+        },
+        "examiner_overview": {
+          "asked_as_stems": [
+            "Derive the expression for electric potential due to a point charge.",
+            "Show that the electric potential at a distance r from a point charge +q in vacuum is given by V = \\frac{1}{4\\pi\\epsilon_{0}}\\frac{q}{r}."
+          ],
+          "marking_distribution": {
+            "statement_and_diagram": 0.5,
+            "mathematical_integration": 2.0,
+            "final_expression_and_direction": 0.5
+          }
+        },
+        "derivation_timeline": [
+          {
+            "step_number": 1,
+            "phase": "SETUP_AND_DIAGRAM",
+            "exact_board_text": "Let a positive point charge +q be placed at the origin O in a vacuum medium. To determine the electrostatic potential at an arbitrary observation point P located at a radial distance r from the origin, consider a straight radial path extending from the charge out to infinity.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [],
+              "algebraic_progression": []
+            },
+            "score_trigger_keywords": [
+              "Isolated Point Charge",
+              "Origin O",
+              "Observation point P",
+              "Radial path from infinity"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": true,
+              "drawing_instruction": "Draw a horizontal continuous line representing the radial coordinate axis. Place a positive source charge +q at the origin point O on the left end. Mark an observation point P at a distance r from O. Further to the right along the line, select an intermediate point P' at a distance r' from O, and mark a closely adjacent displacement step dr' pointing towards the origin O.",
+              "generation_prompt": "A highly precise technical physics diagram for a dark-mode UI. Background is solid black #0a0a0f. A horizontal continuous white line represents the radial coordinate axis labeled with an infinity symbol on the far right. At the origin O on the left, a bright red circle labeled '+q' is positioned. A point labeled 'P' is marked at a distance 'r' from the origin. Further to the right along the same axis, an intermediate point labeled \"P'\" is placed at a distance \"r'\" from O. A small segment pointing left towards the origin connects point P' to its next incremental position, clearly labeled as \"\\Delta r'\". Cyan dimension lines map out 'r' from O to P, and \"r'\" from O to P'."
+            }
+          },
+          {
+            "step_number": 2,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "exact_board_text": "Consider a unit positive test charge (+1 C) placed at an intermediate point P' at a distance r' along the chosen radial path. By applying Coulomb's law, the magnitude of the electrostatic repulsive force acting on this unit charge is formulated.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Using Coulomb's law for a unit test charge in vacuum"
+              ],
+              "algebraic_progression": [
+                "F = \\frac{1}{4\\pi\\epsilon_{0}} \\frac{q \\cdot 1}{{r'}^{2}}",
+                "F = \\frac{q}{4\\pi\\epsilon_{0}{r'}^{2}}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Unit positive test charge",
+              "Coulomb repulsive force",
+              "Intermediate distance variable r'"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 3,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "exact_board_text": "The small amount of work done \\Delta W by an external agency to shift this unit positive charge through an infinitesimal radial displacement \\Delta r' against the repulsive electrostatic force is written down. The negative sign appears because the inward displacement opposes the outward radial vector.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Definition of mechanical work done against a field force"
+              ],
+              "algebraic_progression": [
+                "\\Delta W = -F \\cdot \\Delta r'",
+                "\\Delta W = -\\frac{q}{4\\pi\\epsilon_{0}{r'}^{2}} \\, \\Delta r'"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Infinitesimal work step \\Delta W",
+              "Opposing displacement vector",
+              "Negative directional sign"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 4,
+            "phase": "INTEGRATION_AND_SUBSTITUTION",
+            "exact_board_text": "The total macroscopic work done W required to bring the unit positive test charge all the way from infinity to the final position vector r is structured by converting the differential summation into a definite integral.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Setting up definite line integration limits"
+              ],
+              "algebraic_progression": [
+                "W = \\int_{\\infty}^{r} dW",
+                "W = \\int_{\\infty}^{r} \\left( -\\frac{q}{4\\pi\\epsilon_{0}{r'}^{2}} \\right) dr'"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Definite integration limits",
+              "Integration boundaries from infinity to r"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 5,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "exact_board_text": "Factoring out the invariant scalar multipliers from the integration operator and representing the radial variable in a standard negative exponent power form.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Extracting constant scalar terms"
+              ],
+              "algebraic_progression": [
+                "W = -\\frac{q}{4\\pi\\epsilon_{0}} \\int_{\\infty}^{r} {r'}^{-2} \\, dr'"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Constant coefficient isolation",
+              "Negative power index configuration"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 6,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "exact_board_text": "Executing the basic power rule of calculus integration to resolve the antiderivative function of the radial tracking variable r'.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Applying power integration rule \\int x^{n} dx = \\frac{x^{n+1}}{n+1}"
+              ],
+              "algebraic_progression": [
+                "W = -\\frac{q}{4\\pi\\epsilon_{0}} \\left[ \\frac{{r'}^{-1}}{-1} \\right]*{\\infty}^{r}",
+                "W = -\\frac{q}{4\\pi\\epsilon*{0}} \\left[ -\\frac{1}{r'} \\right]{\\infty}^{r}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Calculus power rule execution",
+              "Antiderivative tracking function"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 7,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "exact_board_text": "Canceling the negative signs constructively and applying the fundamental limits of calculus by substituting the upper target distance r and the lower reference boundary infinity.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Evaluating limits via the Fundamental Theorem of Calculus"
+              ],
+              "algebraic_progression": [
+                "W = \\frac{q}{4\\pi\\epsilon{0}} \\left[ \\frac{1}{r'} \\right]*{\\infty}^{r}",
+                "W = \\frac{q}{4\\pi\\epsilon*{0}} \\left( \\frac{1}{r} - \\frac{1}{\\infty} \\right)"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Sign cancellation",
+              "Limit value substitution"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 8,
+            "phase": "FINAL_EVALUATION",
+            "exact_board_text": "Eliminating the reciprocal infinity value as zero. By operational definition, the work done per unit positive charge brought from infinity to a specific point is equal to the absolute electrostatic potential V at that location.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Using 1/\\infty = 0 and V(r) = W"
+              ],
+              "algebraic_progression": [
+                "W = \\frac{q}{4\\pi\\epsilon_{0}} \\left( \\frac{1}{r} - 0 \\right)",
+                "V(r) = \\frac{1}{4\\pi\\epsilon_{0}} \\frac{q}{r}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Reciprocal infinity elimination",
+              "Potential-work definition equivalence",
+              "Final electrostatic scalar potential expression"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          }
+        ],
+        "topper_scoring_notes": [
+          "The biggest pitfall where students drop marks here is mismanaging the double-negative cancellation. The minus sign emerges initially because your displacement vector points inward while the repulsive force points outward (dW = -F dr'). Then, a second minus sign pops up from the power rule antiderivative formula. These two minus signs cancel out perfectly to leave a clean positive potential for a positive charge. Messing up either step will land you a negative answer, causing examiners to scratch out the entire page.",
+          "Always explicitly write out the subtraction of the lower limit term (1/\\infty). Skipping straight from the brackets to the final answer looks like you copied it from memory without doing the actual calculus work, and picky board examiners will clip half a mark for missing the reference state transition.",
+          "Keep the inverse relationships completely distinct for standard graphical attachment follow-ups. Electric potential drops off slowly as 1/r, whereas the electric field collapses rapidly as 1/r^{2}. If they ask you to plot both curves on the same grid axis, make sure the field curve is drawn with a significantly steeper downward slope, crossing under the potential curve once r goes beyond the unit reference mark."
+        ]
+      }
+    ]
+  },
+  {
+    "chapter_derivations": [
+      {
+        "derivation_id": "EPC-07",
+        "meta": {
+          "chapter_number": 2,
+          "chapter_name": "Electrostatic Potential and Capacitance",
+          "derivation_title": "Relationship between Electric Field and Electric Potential Gradient",
+          "cbse_frequency": "MEDIUM",
+          "historical_occurrence_years": [
+            "2024",
+            "2022",
+            "2019"
+          ],
+          "total_marks": 2
+        },
+        "examiner_overview": {
+          "asked_as_stems": [
+            "Write the relation between electric field and potential. ",
+            "Show that the electric field is equal to the negative potential gradient. "
+          ],
+          "marking_distribution": {
+            "statement_and_diagram": 0.5,
+            "mathematical_integration": 1.0,
+            "final_expression_and_direction": 0.5
+          }
+        },
+        "derivation_timeline": [
+          {
+            "step_number": 1,
+            "phase": "SETUP_AND_DIAGRAM",
+            "exact_board_text": "Consider two closely spaced parallel equipotential surfaces, A and B, separated by a small perpendicular distance \\delta l. Let the surface A be at an absolute electrostatic potential V, and surface B be at a potential V + \\delta V, where \\delta V is the infinitesimal change in potential in the direction of the electric field \\vec{E}. ",
+            "substitution_matrix": {
+              "substituting_equation_refs": [],
+              "algebraic_progression": []
+            },
+            "score_trigger_keywords": [
+              "Equipotential surfaces",
+              "Perpendicular distance \\delta l",
+              "Infinitesimal potential change \\delta V"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": true,
+              "drawing_instruction": "Draw two parallel, slightly curved horizontal sheets stacked on top of each other to represent closely spaced equipotential surfaces. Label the lower surface as A with potential V, and the upper surface as B with potential V + \\delta V. Pick a point P on surface B and draw a vertical perpendicular line of length \\delta l dropping down to surface A. From point P, extend a bold vertical vector arrow pointing straight up, representing the electric field vector E normal to both surfaces. ",
+              "generation_prompt": "A clean, minimalist vector physics diagram for a dark-mode educational interface. The background is a solid deep midnight blue #0a0a0f. Two parallel, slightly curved horizontal geometric planes represent equipotential surfaces floating in space. The lower plane is outlined in sharp white and labeled 'Surface A (Potential V)'. The upper plane is positioned directly above it, outlined in white, and labeled 'Surface B (Potential V + \\delta V)'. A vertical line segment of length '\\delta l' drops perpendicularly from a distinct point 'P' on Surface B down to Surface A. Extending vertically upwards from point P, perpendicular to both surfaces, is a bold cyan vector arrow clearly designated as '\\vec{E}'."
+            }
+          },
+          {
+            "step_number": 2,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "exact_board_text": "Imagine a unit positive test charge (+1 C) is moved along the perpendicular line from surface B to surface A against the direction of the external electric field. The external force required to move the charge without acceleration is equal and opposite to the electrostatic force field. ",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Definition of mechanical work done by an external agency against an electric field"
+              ],
+              "algebraic_progression": [
+                "W = |\\vec{F}{\\text{ext}}| \\cdot \\delta l",
+                "W = |\\vec{E}| \\cdot \\delta l"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Unit positive test charge",
+              "Perpendicular displacement",
+              "External work done against the field"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 3,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "exact_board_text": "By the fundamental definition of electrostatic potential, the work done in moving a unit test charge between two points is identical to the scalar potential difference between the initial and final positions. ",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Potential difference definition V{\\text{final}} - V_{\\text{initial}}"
+              ],
+              "algebraic_progression": [
+                "W = V_{A} - V_{B}",
+                "W = V - (V + \\delta V) = -\\delta V"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Potential difference equivalence",
+              "Scalar potential drop subtraction"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 4,
+            "phase": "FINAL_EVALUATION",
+            "exact_board_text": "Equating the two independent expressions obtained for the work done per unit positive charge yields the absolute relationship between the uniform electric field magnitude and the potential gradient. ",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Equating the work expressions from Step 2 and Step 3"
+              ],
+              "algebraic_progression": [
+                "|\\vec{E}| \\cdot \\delta l = -\\delta V",
+                "|\\vec{E}| = -\\frac{\\delta V}{\\delta l}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Equating work expressions",
+              "Negative potential gradient relation"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          }
+        ],
+        "topper_scoring_notes": [
+          "This is a brief but high-yield 2-mark derivation where students frequently drop a half-mark due to careless notation. When setting up your potentials, remember that the electric field always points in the direction where the potential decreases steepest. Therefore, if you label surface A as V, surface B (which is upstream against the field lines) must be labeled as V + \\delta V. If you mistakenly write V - \\delta V, your signs will flip and ruin the algebraic progression. ",
+          "Always remember to state the two critical conceptual conclusions that examiners look for right below your final formula: (1) The electric field is oriented in the direction where the potential drops off most steeply , and (2) The magnitude of the electric field is given by the change in the magnitude of potential per unit displacement normal to the equipotential surface. Writing out these two points explicitly is a robust defense against picky marking. ",
+          " Make sure to keep this formula handy for standard sub-part conceptual attachments. Examiners love to ask: 'Why are equipotential surfaces packed closer together in regions of strong electric fields?' Your answer should point straight to this relation: since \\delta l = -\\delta V / |\\vec{E}|, for a constant potential interval \\delta V, the spacing \\delta l is inversely proportional to the field strength. Thus, a large field magnitude forces the surfaces closer together. "
+        ]
+      }
+    ]
+  },
+  {
+    "chapter_derivations": [
+      {
+        "derivation_id": "EPC-08",
+        "meta": {
+          "chapter_number": 2,
+          "chapter_name": "Electrostatic Potential and Capacitance",
+          "derivation_title": "Potential Energy of a System of Two Point Charges",
+          "cbse_frequency": "MEDIUM",
+          "historical_occurrence_years": [
+            "2024",
+            "2020",
+            "2017"
+          ],
+          "total_marks": 2
+        },
+        "examiner_overview": {
+          "asked_as_stems": [
+            "Derive the expression for the potential energy of a system of two point charges.",
+            "Obtain the expression for the electrostatic potential energy of a system of two point charges q_{1} and q_{2} separated by distance r."
+          ],
+          "marking_distribution": {
+            "statement_and_diagram": 0.5,
+            "mathematical_integration": 1.0,
+            "final_expression_and_direction": 0.5
+          }
+        },
+        "derivation_timeline": [
+          {
+            "step_number": 1,
+            "phase": "SETUP_AND_DIAGRAM",
+            "exact_board_text": "Consider a system of two point charges, q_{1} and q_{2}, initially located at an infinite distance away from each other. Let these charges be brought from infinity to their respective positions, defined by position coordinates A and B, in an empty, field-free space such that the final separation distance between them is r.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [],
+              "algebraic_progression": []
+            },
+            "score_trigger_keywords": [
+              "Assembling the Configuration",
+              "Empty Space",
+              "Field-free space",
+              "Separation distance r"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": true,
+              "drawing_instruction": "Mark two discrete point locations labeled A and B along a horizontal plane. Place a point charge q_{1} at location A and a point charge q_{2} at location B. Draw a straight, solid line segment connecting point A and point B. Below this segment, sketch a clear double-headed dimension line extending from A to B, labeled with the distance parameter r.",
+              "generation_prompt": "A pristine technical physics diagram for a dark-mode UI. Background is solid deep black #0a0a0f. Two distinct coordinate points labeled 'A' and 'B' are aligned horizontally. Point A contains a small, brightly glowing cyan filled circle labeled 'q_{1}'. Point B contains a small, brightly glowing white filled circle labeled 'q_{2}'. A thin, clean white line segment connects them. Directly below the segment, a precise horizontal double-headed dimension arrow maps the boundary interval, cleanly labeled with the separation variable 'r'. A faint ghosted contextual note in the upper margin reads 'External Electric Field = 0'."
+            }
+          },
+          {
+            "step_number": 2,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "exact_board_text": "Let the first point charge q_{1} be transferred from infinity to the final position vector A. Because there is no pre-existing external electrostatic field or opposing force acting in the empty space, the mechanical work done W_{1} during this initial assembly step is zero.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Definition of electrostatic work in an uncharged space"
+              ],
+              "algebraic_progression": [
+                "W_{1} = 0"
+              ]
+            },
+            "score_trigger_keywords": [
+              "First charge transfer",
+              "No opposing field",
+              "Initial work step W_{1} = 0"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 3,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "exact_board_text": "The localized presence of the point charge q_{1} fixed at position A alters the space by establishing a non-zero electrostatic potential V_{1} at the neighboring point B, situated at a radial distance r from the source origin.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Coulomb point charge potential mapping"
+              ],
+              "algebraic_progression": [
+                "V_{1} = \\frac{1}{4\\pi\\epsilon_{0}} \\frac{q_{1}}{r}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Electrostatic potential V_{1}",
+              "Source charge q_{1}",
+              "Radial distance r"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 4,
+            "phase": "INTEGRATION_AND_SUBSTITUTION",
+            "exact_board_text": "Now, consider bringing the second point charge q_{2} from infinity to its designated position B against the localized field of the first charge. The work done W_{2} during this secondary step is equal to the product of the magnitude of the charge being moved and the pre-existing electrostatic potential at that point.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Work-potential operational definition"
+              ],
+              "algebraic_progression": [
+                "W_{2} = q_{2} \\cdot V_{1}",
+                "W_{2} = q_{2} \\cdot \\left( \\frac{1}{4\\pi\\epsilon_{0}} \\frac{q_{1}}{r} \\right)",
+                "W_{2} = \\frac{1}{4\\pi\\epsilon_{0}} \\frac{q_{1}q_{2}}{r}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Second charge transfer W_{2}",
+              "Charge-potential product relation"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 5,
+            "phase": "FINAL_EVALUATION",
+            "exact_board_text": "By the principle of linear superposition of work, the total macroscopic work done W in assembling the complete two-charge configuration from infinity is the algebraic sum of the separate work steps. Since the electrostatic force field is fully conservative, this net work is stored within the system configuration as electrostatic potential energy U.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Superposition of configuration work",
+                "Conservative field potential storage energy"
+              ],
+              "algebraic_progression": [
+                "W = W_{1} + W_{2}",
+                "W = 0 + \\frac{1}{4\\pi\\epsilon_{0}} \\frac{q_{1}q_{2}}{r}",
+                "U = \\frac{1}{4\\pi\\epsilon_{0}} \\frac{q_{1}q_{2}}{r}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Superposition of Work",
+              "Conservative field storage",
+              "Total electrostatic potential energy U"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          }
+        ],
+        "topper_scoring_notes": [
+          "This looks like an incredibly short derivation, but do not let its length fool you—examiners are absolutely ruthless about the text context. If you do not explicitly state that W_{1} = 0 because the first charge is brought into an empty field-free space, you will lose a half-mark right out of the gate. Writing the math lines without the explicit explanation of why the initial work is zero signals rote memorization to the evaluator.",
+          "Remember that electrostatic potential energy is a pure scalar quantity, meaning the algebraic signs of the charges matter immensely. If you are tracking a system with one positive and one negative charge, you must carry that negative sign directly into the final calculation expression. A negative potential energy means the charges are mutually bound and attractive; forgetting the sign breaks your physical logic and drops your score to zero instantly.",
+          "Be fully prepared for the standard Section C tag-on question where they expand this to a three-charge or four-charge system on an equilateral triangle or a square grid. The secret rule to avoid messing up is finding every unique, distinct interacting pair without double-counting. For three charges, you add exactly three pairs: U = U_{12} + U_{13} + U_{23}. For a four-charge configuration, remember there are six pairs total—four along the outer perimeter sides and two along the cross-cutting diagonals."
+        ]
+      }
+    ]
+  },
+  {
+    "chapter_derivations": [
+      {
+        "derivation_id": "EPC-09",
+        "meta": {
+          "chapter_number": 2,
+          "chapter_name": "Electrostatic Potential and Capacitance",
+          "derivation_title": "Loss of Electrostatic Energy on Sharing Charges between Capacitors",
+          "cbse_frequency": "MEDIUM",
+          "historical_occurrence_years": [
+            "2025",
+            "2022",
+            "2020"
+          ],
+          "total_marks": 3
+        },
+        "examiner_overview": {
+          "asked_as_stems": [
+            "Derive the formula for the loss in energy on joining two charged capacitors by a wire.",
+            "Two charged capacitors C_{1} and C_{2} at potentials V_{1} and V_{2} are connected. Prove that energy is always lost in the sharing process."
+          ],
+          "marking_distribution": {
+            "statement_and_diagram": 1.0,
+            "mathematical_integration": 1.0,
+            "final_expression_and_direction": 1.0
+          }
+        },
+        "derivation_timeline": [
+          {
+            "step_number": 1,
+            "phase": "SETUP_AND_DIAGRAM",
+            "exact_board_text": "Consider two isolated capacitors of capacitances C_{1} and C_{2} charged to initial electrostatic potentials V_{1} and V_{2} respectively. The initial charges on these capacitors are Q_{1} = C_{1}V_{1} and Q_{2} = C_{2}V_{2}. Let these capacitors be connected in a parallel configuration by a conducting wire of negligible resistance managed by a circuit switch.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [],
+              "algebraic_progression": []
+            },
+            "score_trigger_keywords": [
+              "Isolated capacitors",
+              "Initial charges",
+              "Parallel configuration",
+              "Conducting wire link"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": true,
+              "drawing_instruction": "Draw two schematic panels side by side. On the left panel, label it 'Before Connection' and depict two unconnected capacitors C_{1} and C_{2} with their respective charges and initial voltages V_{1} and V_{2}. On the right panel, label it 'After Connection' and depict the same two capacitors connected in parallel with each other across a closed switch loop. Mark the common potential V across both components.",
+              "generation_prompt": "A pristine technical physics schematic for a dark-mode user interface. Background is solid deep black #0a0a0f. The graphic contains two separate circuit blocks. Left side shows two independent capacitor systems labeled 'C_{1}' and 'C_{2}' with an open wire loop gap containing an open switch symbol. The upper capacitor has potential 'V_{1}' and the lower has 'V_{2}'. Right side shows the two capacitors connected in parallel via clean white horizontal and vertical wire paths forming a complete closed parallel circuit loop with the switch closed. Both capacitors are clearly labeled with a single uniform cyan potential label 'V'."
+            }
+          },
+          {
+            "step_number": 2,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "exact_board_text": "When the connecting circuit switch is closed, charge redistribution takes place between the two capacitors from the higher-potential conductor to the lower-potential conductor until a uniform common electrostatic potential V is attained across the terminals.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Formulating total initial accumulated charge"
+              ],
+              "algebraic_progression": [
+                "Q_{\\text{total}} = Q_{1} + Q_{2}",
+                "Q_{\\text{total}} = C_{1}V_{1} + C_{2}V_{2}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Charge redistribution",
+              "Common electrostatic potential V",
+              "Total charge accumulation"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 3,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "exact_board_text": "According to the fundamental law of conservation of electric charge, the total charge after establishing the parallel connection remains equal to the total initial charge. The common potential V is defined by the ratio of total system charge to total combined capacitance.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Applying the Law of Conservation of Charge"
+              ],
+              "algebraic_progression": [
+                "V = \\frac{Q_{\\text{total}}}{C_{1} + C_{2}}",
+                "V = \\frac{C_{1}V_{1} + C_{2}V_{2}}{C_{1} + C_{2}}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Law of Conservation of Charge",
+              "Combined capacitance ratio",
+              "Common potential expression"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 4,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "exact_board_text": "The total initial electrostatic potential energy U_{i} stored within the two independent capacitors prior to parallel electrical connection is calculated by summing the individual energy values.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Summing initial stored energies"
+              ],
+              "algebraic_progression": [
+                "U_{i} = \\frac{1}{2}C_{1}V_{1}^{2} + \\frac{1}{2}C_{2}V_{2}^{2}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Total initial energy U_{i}",
+              "Sum of individual stored energies"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 5,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "exact_board_text": "Following the charge redistribution process and the stabilization of the common terminal potential, the total final electrostatic potential energy U_{f} stored in the parallel system is structured.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Formulating parallel combined system energy"
+              ],
+              "algebraic_progression": [
+                "U_{f} = \\frac{1}{2}(C_{1} + C_{2})V^{2}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Total final energy U_{f}",
+              "Parallel combined system formulation"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 6,
+            "phase": "INTEGRATION_AND_SUBSTITUTION",
+            "exact_board_text": "Substituting the specific algebraic definition of the common terminal potential V from the conservation checkpoint into the final potential energy expression.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Plugging common potential expression into U_{f}"
+              ],
+              "algebraic_progression": [
+                "U_{f} = \\frac{1}{2}(C_{1} + C_{2})\\left(\\frac{C_{1}V_{1} + C_{2}V_{2}}{C_{1} + C_{2}}\\right)^{2}",
+                "U_{f} = \\frac{1}{2}\\frac{(C_{1}V_{1} + C_{2}V_{2})^{2}}{C_{1} + C_{2}}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Common potential substitution",
+              "Denominator cancellation step"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 7,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "exact_board_text": "The absolute loss of electrostatic energy \\Delta U during this process is explicitly defined as the difference between the total initial stored energy and the total final stored energy.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Defining energy loss relation \\Delta U = U_{i} - U_{f}"
+              ],
+              "algebraic_progression": [
+                "\\Delta U = U_{i} - U_{f}",
+                "\\Delta U = \\left(\\frac{1}{2}C_{1}V_{1}^{2} + \\frac{1}{2}C_{2}V_{2}^{2}\\right) - \\frac{1}{2}\\frac{(C_{1}V_{1} + C_{2}V_{2})^{2}}{C_{1} + C_{2}}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Energy difference subtraction",
+              "Initial and final comparison"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 8,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "exact_board_text": "Determining the lowest common denominator of 2(C_{1} + C_{2}) and expanding the polynomial terms inside the numerator expression.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Cross multiplying by common denominator terms"
+              ],
+              "algebraic_progression": [
+                "\\Delta U = \\frac{(C_{1}V_{1}^{2} + C_{2}V_{2}^{2})(C_{1} + C_{2}) - (C_{1}V_{1} + C_{2}V_{2})^{2}}{2(C_{1} + C_{2})}",
+                "\\Delta U = \\frac{C_{1}^{2}V_{1}^{2} + C_{1}C_{2}V_{1}^{2} + C_{1}C_{2}V_{2}^{2} + C_{2}^{2}V_{2}^{2} - (C_{1}^{2}V_{1}^{2} + C_{2}^{2}V_{2}^{2} + 2C_{1}C_{2}V_{1}V_{2})}{2(C_{1} + C_{2})}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Common denominator expansion",
+              "Polynomial cross-multiplication"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 9,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "exact_board_text": "Canceling the identical quadratic terms within the expanded numerator and factoring out the remaining common product coefficient.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Executing term cancellation"
+              ],
+              "algebraic_progression": [
+                "\\Delta U = \\frac{C_{1}C_{2}V_{1}^{2} + C_{1}C_{2}V_{2}^{2} - 2C_{1}C_{2}V_{1}V_{2}}{2(C_{1} + C_{2})}",
+                "\\Delta U = \\frac{C_{1}C_{2}(V_{1}^{2} + V_{2}^{2} - 2V_{1}V_{2})}{2(C_{1} + C_{2})}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Quadratic term cancellation",
+              "Factoring common product coefficient"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 10,
+            "phase": "FINAL_EVALUATION",
+            "exact_board_text": "Condensing the factored numerator expression into a standard perfect square trinomial function. Because the values of capacitances and perfect squares are inherently positive, the resulting energy delta is proven to be strictly non-negative.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Reducing to a perfect square trinomial identity"
+              ],
+              "algebraic_progression": [
+                "\\Delta U = \\frac{C_{1}C_{2}(V_{1} - V_{2})^{2}}{2(C_{1} + C_{2})}",
+                "\\Delta U \\geq 0"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Perfect square trinomial identity",
+              "Non-negative energy loss validation",
+              "Energy dissipation proof"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          }
+        ],
+        "topper_scoring_notes": [
+          "The absolute deadliest algebraic mistake here is messing up the expansion of the quadratic expression (C_{1}V_{1} + C_{2}V_{2})^{2}. Remember it expands with a 2C_{1}C_{2}V_{1}V_{2} middle term. If you make a sign error there, you won't get the clean perfect square (V_{1} - V_{2})^{2} at the end, and you'll fail to prove that the loss is always positive. Examiners check specifically for that perfect square numerator factor—it's the holy grail of this proof.",
+          "Never forget to explicitly write down the final physical conclusion text: 'Since capacitances C_{1} and C_{2} are always positive, and the term (V_{1} - V_{2})^{2} is a perfect square and thus always positive or zero, \\Delta U must be greater than or equal to zero, proving that energy is always lost as dissipation.' If you leave out this short text summary, rigorous checkers will clip a half-mark because you haven't technically concluded the proof statement.",
+          "Be completely prepared for the classic follow-up tag-on question: 'Where does this missing energy actually go?' Do not use vague language like 'it disappears'. Write down the exact examiner-approved keywords: 'The lost energy is fully dissipated as Joule heat in the conducting wires and as transient spark or electromagnetic radiation when the link stabilizes.'"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter_derivations": [
+      {
+        "derivation_id": "EPC-10",
+        "meta": {
+          "chapter_number": 2,
+          "chapter_name": "Electrostatic Potential and Capacitance",
+          "derivation_title": "Equivalent Capacitance of Capacitors in Series",
+          "cbse_frequency": "MEDIUM",
+          "historical_occurrence_years": [
+            "2025",
+            "2022",
+            "2018"
+          ],
+          "total_marks": 3
+        },
+        "examiner_overview": {
+          "asked_as_stems": [
+            "Three capacitors are connected in series. Derive the equivalent capacitance.",
+            "Show that the equivalent capacitance of series combination is \\frac{1}{C_{s}} = \\sum \\frac{1}{C_{i}}."
+          ],
+          "marking_distribution": {
+            "statement_and_diagram": 1.0,
+            "mathematical_integration": 1.0,
+            "final_expression_and_direction": 1.0
+          }
+        },
+        "derivation_timeline": [
+          {
+            "step_number": 1,
+            "phase": "SETUP_AND_DIAGRAM",
+            "exact_board_text": "Consider three capacitors of capacitances C_{1}, C_{2}, and C_{3} connected end-to-end in a series network across a source of terminal potential difference V. In this configuration, the charge magnitude Q supplied to each individual plate combination remains completely identical, whereas the total applied potential difference splits across the separate units.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [],
+              "algebraic_progression": []
+            },
+            "score_trigger_keywords": [
+              "Series combination",
+              "Charge invariance",
+              "Potential split distribution"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": true,
+              "drawing_instruction": "Draw a horizontal continuous straight circuit wire line containing three capacitors spaced apart. Label them C_{1}, C_{2}, and C_{3}. Show alternating charge polarities: '+Q' on the left plate and '-Q' on the right plate for every capacitor. Connect the ends of this wire sequence to a DC battery symbol at the bottom labeled with potential V. Draw three separate dimension brackets below each capacitor, marking their individual voltage drops as V_{1}, V_{2}, and V_{3} respectively.",
+              "generation_prompt": "A pristine technical physics schematic for a dark-mode user interface. Background is solid deep black #0a0a0f. Three identical capacitor symbol pairs are aligned horizontally in a single row, cleanly interconnected by sharp white circuit lines. The units are labeled from left to right as 'C_{1}', 'C_{2}', and 'C_{3}'. Every left-hand plate features a bright cyan '+Q' label, and every right-hand plate features a white '-Q' label. Below the main branch, horizontal bracket markers indicate individual potential drops labeled 'V_{1}', 'V_{2}', and 'V_{3}'. Faint white routing wires lead downwards from the outer terminals to a standard DC voltage source icon labeled 'V'."
+            }
+          },
+          {
+            "step_number": 2,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "exact_board_text": "By applying the principle of conservation of electrostatic energy, the total macroscopic potential difference across the entire series network must be equal to the algebraic sum of the separate potential drops across each constituent capacitor.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Applying the linear summation rule for series potential drops"
+              ],
+              "algebraic_progression": [
+                "V = V_{1} + V_{2} + V_{3}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Total potential sum equation",
+              "Potential split expression"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 3,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "exact_board_text": "Applying the core operational definition of electrostatic capacitance, the individual potential drop developed across each respective capacitor is formulated in terms of the uniform charge variable Q and its matching capacitance parameter.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Using the core point capacitance relation V = q / C"
+              ],
+              "algebraic_progression": [
+                "V_{1} = \\frac{Q}{C_{1}}",
+                "V_{2} = \\frac{Q}{C_{2}}",
+                "V_{3} = \\frac{Q}{C_{3}}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Individual charge-to-capacitance ratio",
+              "Potential drop substitution tracking"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 4,
+            "phase": "INTEGRATION_AND_SUBSTITUTION",
+            "exact_board_text": "Plugging the individual electrostatic potential drop expressions derived from the core definition directly into the total network potential split equation.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Plugging expressions for V_{1}, V_{2}, V_{3} into the total potential sum"
+              ],
+              "algebraic_progression": [
+                "V = \\frac{Q}{C_{1}} + \\frac{Q}{C_{2}} + \\frac{Q}{C_{3}}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Expression substitution tracking",
+              "Combined fractional expansion"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 5,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "exact_board_text": "Isolating the common invariant scalar multiplier of electric charge Q outside a bracketed expression to separate the reciprocal capacitance terms cleanly.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Factoring out the invariant charge parameter Q"
+              ],
+              "algebraic_progression": [
+                "V = Q \\left( \\frac{1}{C_{1}} + \\frac{1}{C_{2}} + \\frac{1}{C_{3}} \\right)"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Charge parameter factoring",
+              "Reciprocal summation collection"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 6,
+            "phase": "FINAL_EVALUATION",
+            "exact_board_text": "Let C_{s} be the single equivalent capacitance of the entire network, which stores an identical total charge magnitude Q under the same total applied network potential difference V. Substituting this definition into the left side of the equation and dividing both sides by the charge parameter completes the proof.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Substituting V = Q / C_{s} into the factored expression"
+              ],
+              "algebraic_progression": [
+                "\\frac{Q}{C_{s}} = Q \\left( \\frac{1}{C_{1}} + \\frac{1}{C_{2}} + \\frac{1}{C_{3}} \\right)",
+                "\\frac{1}{C_{s}} = \frac{1}{C_{1}} + \\frac{1}{C_{2}} + \\frac{1}{C_{3}}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Equivalent network capacitance C_{s}",
+              "Reciprocal summation rule verification"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          }
+        ],
+        "topper_scoring_notes": [
+          "The absolute biggest mental pitfall here is accidentally writing down the direct linear summation law like you do for resistors in series (R_{s} = R_{1} + R_{2} + R_{3}). Capacitors work in the exact inverse way—they add up as reciprocals in a series circuit. If you slip up and write a direct addition line, the board examiner will void your mathematical progression entirely.",
+          "When sketching the circuit layout on your sheet, do not forget to draw distinct alternating charge polarities (+Q and -Q) on every single capacitor plate. If you draw different charges like q_{1}, q_{2}, q_{3}, you automatically lose the diagram marks. You must explicitly state in your text that the charge remains perfectly constant across all components because there is no alternative branching node in a single series loop path.",
+          "Keep a close eye out for standard conceptual add-ons about why the total equivalent capacitance drops below the smallest individual capacitor value in a series group. The strategic answer examiners want to see is that linking capacitors in series effectively increases the net thickness of the intervening dielectric insulation gap (or the effective plate separation distance d). Since capacitance is inversely proportional to separation distance, expanding that gap causes the total combined storage capacity to collapse."
+        ]
+      }
+    ]
+  },
+  {
+    "chapter_derivations": [
+      {
+        "derivation_id": "EPC-11",
+        "meta": {
+          "chapter_number": 2,
+          "chapter_name": "Electrostatic Potential and Capacitance",
+          "derivation_title": "Equivalent Capacitance of Capacitors in Parallel",
+          "cbse_frequency": "MEDIUM",
+          "historical_occurrence_years": [
+            "2024",
+            "2022",
+            "2017"
+          ],
+          "total_marks": 3
+        },
+        "examiner_overview": {
+          "asked_as_stems": [
+            "Capacitors in parallel: derive total capacitance and show with diagram.",
+            "Three capacitors C_{1}, C_{2}, C_{3} are connected in parallel. Derive equivalent capacitance."
+          ],
+          "marking_distribution": {
+            "statement_and_diagram": 1.0,
+            "mathematical_integration": 1.0,
+            "final_expression_and_direction": 1.0
+          }
+        },
+        "derivation_timeline": [
+          {
+            "step_number": 1,
+            "phase": "SETUP_AND_DIAGRAM",
+            "exact_board_text": "Consider three capacitors of capacitances C_{1}, C_{2}, and C_{3} connected in a parallel network across a source of terminal potential difference V. In this configuration, every capacitor is connected directly across the identical common terminal nodes, maintaining an invariant potential difference V across each component, while the total electric charge Q supplied by the source is distributed across the separate branches as Q_{1}, Q_{2}, and Q_{3} respectively.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [],
+              "algebraic_progression": []
+            },
+            "score_trigger_keywords": [
+              "Parallel arrangement",
+              "Common terminals",
+              "Potential constant",
+              "Branch charges distribution"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": true,
+              "drawing_instruction": "Draw three separate, parallel vertical circuit branches connected together at common upper and lower junction nodes. Place a capacitor in each branch, labeled C_{1}, C_{2}, and C_{3} from left to right. Mark the charges on the plates of each capacitor as (+Q_{1}, -Q_{1}), (+Q_{2}, -Q_{2}), and (+Q_{3}, -Q_{3}) respectively. Extend wire lines from the common junction nodes to a DC battery symbol at the bottom labeled with terminal potential difference V.",
+              "generation_prompt": "A pristine technical physics schematic for a dark-mode user interface. Background is solid deep black #0a0a0f. Three identical capacitor symbol pairs are arranged vertically side-by-side in parallel branches. Clean white circuit lines interconnect their top terminals to a single horizontal node wire, and their bottom terminals to a separate lower horizontal node wire. The units are labeled from left to right as 'C_{1}', 'C_{2}', and 'C_{3}'. The plates are explicitly labeled with their respective charge values: '+Q_{1}/-Q_{1}', '+Q_{2}/-Q_{2}', and '+Q_{3}/-Q_{3}'. Faint white routing wires lead from the common node pair downwards to a standard DC voltage source icon labeled with a single uniform cyan potential label 'V'."
+            }
+          },
+          {
+            "step_number": 2,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "exact_board_text": "By the fundamental principle of conservation of electric charge, the total net charge Q delivered into the combination by the external source must be exactly equal to the algebraic sum of the separate branch charges accumulated on each individual capacitor.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Applying the conservation of electric charge for parallel branching nodes"
+              ],
+              "algebraic_progression": [
+                "Q = Q_{1} + Q_{2} + Q_{3}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Conservation of Charge",
+              "Additive branch charges",
+              "Total system charge accumulation"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 3,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "exact_board_text": "Applying the core physical definition of electrostatic capacitance, the discrete charge quantity accumulated on each respective capacitor is expressed in terms of the constant network potential difference V and its corresponding individual capacitance value.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Using the basic charge-potential relationship Q = C \\cdot V"
+              ],
+              "algebraic_progression": [
+                "Q_{1} = C_{1}V",
+                "Q_{2} = C_{2}V",
+                "Q_{3} = C_{3}V"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Individual charge-potential relation",
+              "Branch charge calculation step"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 4,
+            "phase": "INTEGRATION_AND_SUBSTITUTION",
+            "exact_board_text": "Plugging the individual branch charge expressions derived from the core capacity relation directly back into the total charge conservation summation formula.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Plugging the expressions for Q_{1}, Q_{2}, and Q_{3} into the total charge equation"
+              ],
+              "algebraic_progression": [
+                "Q = C_{1}V + C_{2}V + C_{3}V"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Variable substitution tracking",
+              "Linear capacitive summation expression"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 5,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "exact_board_text": "Factoring the common invariant network voltage scalar variable V out of each term on the right side of the expanded charge accumulation equation.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Factoring out the common potential variable V"
+              ],
+              "algebraic_progression": [
+                "Q = V \\left( C_{1} + C_{2} + C_{3} \\right)"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Common factor isolation",
+              "Additive group capacitance extraction"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 6,
+            "phase": "FINAL_EVALUATION",
+            "exact_board_text": "Let C_{p} be the single equivalent capacitance of the parallel combination that would store the identical total net charge Q when connected across the same terminal potential difference V. Substituting this equivalent capacity definition into the left side of the relation and dividing both sides by the potential variable establishes the final addition expression.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Substituting Q = C_{p}V into the factored charge equation"
+              ],
+              "algebraic_progression": [
+                "C_{p}V = V \\left( C_{1} + C_{2} + C_{3} \\right)",
+                "C_{p} = C_{1} + C_{2} + C_{3}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Equivalent parallel capacitance C_{p}",
+              "Direct summation law validation"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          }
+        ],
+        "topper_scoring_notes": [
+          "The most common careless mistake here is mixing up the formulas between series and parallel combinations. For resistors, parallel is a reciprocal sum, but for capacitors, parallel is a simple, direct linear addition (C_{p} = C_{1} + C_{2} + C_{3}). If you write a reciprocal formula for a parallel capacitor network, your entire derivation and any associated numerical sub-parts will be canceled instantly by the examiner.",
+          "When drawing your circuit schematic, make absolutely certain that all three capacitors are clearly aligned parallel to each other, sharing identical junction nodes. Label the branch charges as Q_{1}, Q_{2}, and Q_{3} and the voltage across each as a uniform V. If you show the same charge on all parallel plates, you violate node equations, and the board evaluator will immediately cut your diagram credit.",
+          "Be ready for standard conceptual follow-up questions asking how a parallel configuration changes charge storage. The textbook answer is that connecting capacitors in parallel effectively expands the net surface area A of the storage plates while keeping the separation distance d completely unchanged. Because capacitance is directly proportional to plate area (C = \\epsilon_{0}A/d), this structural expansion causes the total charge storage capacity to increase additively."
+        ]
+      }
+    ]
+  },
+  {
+    "chapter_derivations": [
+      {
+        "derivation_id": "EPC-12",
+        "meta": {
+          "chapter_number": 2,
+          "chapter_name": "Electrostatic Potential and Capacitance",
+          "derivation_title": "Electric Potential due to an Electric Dipole at an Equatorial Point",
+          "cbse_frequency": "MEDIUM",
+          "historical_occurrence_years": [
+            "2024",
+            "2022",
+            "2018"
+          ],
+          "total_marks": 2
+        },
+        "examiner_overview": {
+          "asked_as_stems": [
+            "Show mathematically that the potential at a point on the equatorial line of an electric dipole is zero.",
+            "Derive the electrostatic potential at a point on the equatorial line of a short dipole."
+          ],
+          "marking_distribution": {
+            "statement_and_diagram": 0.5,
+            "mathematical_integration": 1.0,
+            "final_expression_and_direction": 0.5
+          }
+        },
+        "derivation_timeline": [
+          {
+            "step_number": 1,
+            "phase": "SETUP_AND_DIAGRAM",
+            "exact_board_text": "Consider an electric dipole consisting of two point charges -q and +q separated by a small distance 2a with its midpoint located at the origin O. Let P be an observation point situated on the equatorial perpendicular bisector line of the dipole at a distance r from its center O.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [],
+              "algebraic_progression": []
+            },
+            "score_trigger_keywords": [
+              "Electric Dipole",
+              "Equatorial Perpendicular Bisector",
+              "Midpoint Origin",
+              "Distance r from center"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": true,
+              "drawing_instruction": "Draw a horizontal line representing the dipole axis. Place a negative charge -q at point A on the left and a positive charge +q at point B on the right, with midpoint O. Draw a vertical line passing through O up to an observation point P at distance r. Draw two straight inclined lines connecting A to P and B to P to form an isosceles triangle. Label the length of both hypotenuse segments as \\sqrt{r^{2} + a^{2}}. Mark distance a from A to O and from O to B.",
+              "generation_prompt": "A highly symmetric technical physics layout for a dark-mode user interface. Background is solid deep black #0a0a0f. A horizontal white dashed axis contains a blue circle labeled '-q' at position A on the left and a red circle labeled '+q' at position B on the right. A white dot marks the exact center O. A perfectly vertical solid white line shoots up from O to a target cross point labeled 'P'. The vertical altitude segment is dimensioned as 'r'. Clean cyan inclined lines run from A to P and from B to P, both explicitly labeled with the geometric hypotenuse length function '\\sqrt{r^{2} + a^{2}}'. Base sections are labeled with dimension 'a' from A to O and 'a' from O to B."
+            }
+          },
+          {
+            "step_number": 2,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "exact_board_text": "The distance from the negative charge -q at point A to the equatorial observation point P is calculated using the Pythagorean theorem based on the orthogonal geometry.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Applying Pythagorean theorem to right triangle AOP"
+              ],
+              "algebraic_progression": [
+                "AP = \\sqrt{r^{2} + a^{2}}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Pythagorean distance vector",
+              "Distance AP calculation"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 3,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "exact_board_text": "Similarly, the distance from the positive charge +q at point B to the equatorial observation point P is determined to be structurally symmetric to the first distance segment.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Applying Pythagorean theorem to right triangle BOP"
+              ],
+              "algebraic_progression": [
+                "BP = \\sqrt{r^{2} + a^{2}}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Geometric symmetry",
+              "Distance BP calculation"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 4,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "exact_board_text": "The electrostatic potential V_{1} at the observation point P due to the negative charge -q is formulated, preserving the negative scalar charge sign in the numerator.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Using Coulomb's law for a negative point charge potential"
+              ],
+              "algebraic_progression": [
+                "V_{1} = \\frac{1}{4\\pi\\epsilon_{0}} \\frac{-q}{AP}",
+                "V_{1} = \\frac{1}{4\\pi\\epsilon_{0}} \\frac{-q}{\\sqrt{r^{2} + a^{2}}}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Potential due to negative charge",
+              "Negative scalar sign retention"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 5,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "exact_board_text": "The electrostatic potential V_{2} at the observation point P due to the positive charge +q is formulated using the respective symmetric distance vector.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Using Coulomb's law for a positive point charge potential"
+              ],
+              "algebraic_progression": [
+                "V_{2} = \\frac{1}{4\\pi\\epsilon_{0}} \\frac{q}{BP}",
+                "V_{2} = \\frac{1}{4\\pi\\epsilon_{0}} \\frac{q}{\\sqrt{r^{2} + a^{2}}}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Potential due to positive charge",
+              "Symmetric distance mapping"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 6,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "exact_board_text": "By applying the linear superposition principle of electrostatics, the net electric potential V at the equatorial point P is determined as the direct algebraic sum of the individual contributions.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Applying the Superposition Principle"
+              ],
+              "algebraic_progression": [
+                "V = V_{1} + V_{2}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Superposition Principle",
+              "Scalar Addition",
+              "Algebraic Sum"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 7,
+            "phase": "FINAL_EVALUATION",
+            "exact_board_text": "Substituting the expressions for V_{1} and V_{2} into the total sum equation. Because the two terms are identical in magnitude but opposite in scalar sign, they cancel each other out completely.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Plugging in the formulations from step 4 and step 5"
+              ],
+              "algebraic_progression": [
+                "V = \\frac{1}{4\\pi\\epsilon_{0}} \\frac{-q}{\\sqrt{r^{2} + a^{2}}} + \\frac{1}{4\\pi\\epsilon_{0}} \\frac{q}{\\sqrt{r^{2} + a^{2}}}",
+                "V = 0"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Algebraic Sum Cancellation",
+              "Identical magnitude opposite sign",
+              "Net zero scalar potential field"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          }
+        ],
+        "topper_scoring_notes": [
+          "This is an incredibly short 2-mark proof, but students routinely lose a half-mark by not drawing the diagram or by failing to explicitly write down the hypotenuse equation \\sqrt{r^{2} + a^{2}}. Do not just write V = 0 from memory. Show the separate expressions for V_{1} and V_{2} clearly to give the examiner the specific marking milestones they need to award full marks.",
+          "A favorite high-yield trap question appended to this derivation asks: 'Can a point in space have a non-zero electric field but zero electrostatic potential?' Your answer must be an absolute, confident 'Yes'. At any point on the equatorial plane of an electric dipole, the electric field is definitely non-zero (E = p / (4\\pi\\epsilon_{0}r^{3}) for a short dipole) while the net potential is completely zero.",
+          "If you encounter a sub-part numerical testing the work done to move a test charge along any arbitrary path entirely on the equatorial plane, do not execute long integration algorithms. Because every point on this bisector plane has V = 0, the plane functions as a uniform equipotential surface. Therefore, the potential difference \\Delta V is 0, meaning the work done W = q_{0}\\Delta V is completely zero. Write down this reason directly to save crucial examination runtime."
+        ]
+      }
+    ]
+  },
+  {
+    "chapter_derivations": [
+      {
+        "derivation_id": "EPC-13",
+        "meta": {
+          "chapter_number": 2,
+          "chapter_name": "Electrostatic Potential and Capacitance",
+          "derivation_title": "Electric Potential due to an Electric Dipole at any General Point",
+          "cbse_frequency": "LOW",
+          "historical_occurrence_years": [
+            "2019",
+            "2016"
+          ],
+          "total_marks": 5
+        },
+        "examiner_overview": {
+          "asked_as_stems": [
+            "Derive the electrostatic potential at any arbitrary point (r, \theta) due to a short electric dipole.",
+            "Show that the electric potential due to a short electric dipole is given by \\frac{1}{4\\pi\\epsilon_{0}}\\frac{p\\cos \\theta}{r^{2}}."
+          ],
+          "marking_distribution": {
+            "statement_and_diagram": 1.0,
+            "mathematical_integration": 3.0,
+            "final_expression_and_direction": 1.0
+          }
+        },
+        "derivation_timeline": [
+          {
+            "step_number": 1,
+            "phase": "SETUP_AND_DIAGRAM",
+            "exact_board_text": "Consider an electric dipole consisting of two point charges -q and +q separated by a small distance 2a, with its midpoint located at the origin O. Let P be an arbitrary observation point in space defined by polar coordinates (r, \theta), where r is the radial distance from the origin O and \theta is the angle made by the position vector with the dipole moment axis.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [],
+              "algebraic_progression": []
+            },
+            "score_trigger_keywords": [
+              "Electric Dipole",
+              "Polar Coordinates",
+              "Midpoint Origin",
+              "Arbitrary Observation Point"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": true,
+              "drawing_instruction": "Draw a horizontal line representing the dipole axis. Place a negative charge -q at point A on the left and a positive charge +q at point B on the right, with midpoint origin O. Draw a line from O to an inclined point P at distance r, making an angle \theta with OB. Draw lines AP of length r_{2} and BP of length r_{1}. From B, drop a perpendicular BC onto OP. Extend PO backwards past O, and from A, drop a perpendicular AD onto this extended line. Label the geometric projections clearly.",
+              "generation_prompt": "A complex technical physics diagram for a dark-mode UI. Background is solid dark gray #0a0a0f. A horizontal white axis line contains a blue circle labeled '-q' at point A and a red circle labeled '+q' at point B, with midpoint origin dot 'O'. An inclined solid white line runs from O to an observation point cross labeled 'P(r, \\theta)' at a distance 'r', making an angle '\\theta' with the horizontal segment OB. Cyan lines connect A to P labeled 'r_{2}' and B to P labeled 'r_{1}'. From B, a dashed white line drops perpendicularly to meet OP at point C. The segment OP is extended backwards through O as a dashed line, and from A, a dashed white line drops perpendicularly to meet this extended line at point D. Clear green dimension brackets mark segments: 'a \\cos(\\theta)' from O to C, and 'a \\cos(\\theta)' from O to D."
+            }
+          },
+          {
+            "step_number": 2,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "exact_board_text": "From the geometric construction, the perpendicular lines BC and AD are dropped onto the position vector line OP to determine the spatial distance projections for a far-field observation point.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Using right triangle trigonometry for projections"
+              ],
+              "algebraic_progression": [
+                "OC = a \\cos(\\theta)",
+                "OD = a \\cos(\\theta)"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Geometric projections",
+              "Cosine components"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 3,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "exact_board_text": "For a distant observation point where the radius is significantly larger than the dipole half-length, the distance r_{1} from the positive charge +q to point P is geometrically approximated by subtracting the projection length OC from the total distance r.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Applying far-field distance approximation for r_{1}"
+              ],
+              "algebraic_progression": [
+                "r_{1} \\approx r - OC",
+                "r_{1} \\approx r - a \\cos(\\theta)"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Distant approximation",
+              "r_{1} subtraction approximation"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 4,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "exact_board_text": "Similarly, the distance r_{2} from the negative charge -q to the observation point P is geometrically approximated by adding the extended projection length OD to the radius r.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Applying far-field distance approximation for r_{2}"
+              ],
+              "algebraic_progression": [
+                "r_{2} \\approx r + OD",
+                "r_{2} \\approx r + a \\cos(\\theta)"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Distant approximation",
+              "r_{2} addition approximation"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 5,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "exact_board_text": "The electrostatic potential V_{1} at point P produced by the positive charge +q is written by applying Coulomb's potential expression with the approximated distance r_{1}.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Using Coulomb's law for positive charge potential"
+              ],
+              "algebraic_progression": [
+                "V_{1} = \\frac{1}{4\\pi\\epsilon_{0}} \\frac{q}{r_{1}}",
+                "V_{1} = \\frac{1}{4\\pi\\epsilon_{0}} \\frac{q}{r - a \\cos(\\theta)}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Positive charge potential",
+              "r_{1} substitution"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 6,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "exact_board_text": "The electrostatic potential V_{2} at point P produced by the negative charge -q is written similarly, keeping the negative scalar charge sign explicitly within the formulation.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Using Coulomb's law for negative charge potential"
+              ],
+              "algebraic_progression": [
+                "V_{2} = \\frac{1}{4\\pi\\epsilon_{0}} \\frac{-q}{r_{2}}",
+                "V_{2} = \\frac{1}{4\\pi\\epsilon_{0}} \\frac{-q}{r + a \\cos(\\theta)}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Negative charge potential",
+              "r_{2} substitution",
+              "Scalar sign retention"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 7,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "exact_board_text": "By the principle of linear superposition of electrostatic fields, the total net electric potential V at the general observation point P is the algebraic sum of the individual scalar potentials.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Applying the Superposition Principle"
+              ],
+              "algebraic_progression": [
+                "V = V_{1} + V_{2}",
+                "V = \\frac{1}{4\\pi\\epsilon_{0}} \\frac{q}{r - a \\cos(\\theta)} + \\frac{1}{4\\pi\\epsilon_{0}} \\frac{-q}{r + a \\cos(\\theta)}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Superposition Principle",
+              "Algebraic summation"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 8,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "exact_board_text": "Factoring out the common scalar components to isolate the fractional terms inside a unified algebraic bracket expression.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Factoring common components"
+              ],
+              "algebraic_progression": [
+                "V = \\frac{q}{4\\pi\\epsilon_{0}} \\left( \\frac{1}{r - a \\cos(\\theta)} - \\frac{1}{r + a \\cos(\\theta)} \\right)"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Common factor isolation"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 9,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "exact_board_text": "Finding the common algebraic denominator via the difference of squares identity and simplifying the combined numerator expression.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Cross multiplying fractions and expanding the numerator"
+              ],
+              "algebraic_progression": [
+                "V = \\frac{q}{4\\pi\\epsilon_{0}} \\left( \\frac{(r + a \\cos(\\theta)) - (r - a \\cos(\\theta))}{(r - a \\cos(\\theta))(r + a \\cos(\\theta))} \\right)",
+                "V = \\frac{q}{4\\pi\\epsilon_{0}} \\left( \\frac{2a \\cos(\\theta)}{r^{2} - a^{2}\\cos^{2}(\\theta)} \\right)"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Common denominator expansion",
+              "Numerator coordinate cancellation"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 10,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "exact_board_text": "Substituting the standard macroscopic definition of the electric dipole moment magnitude p = 2aq into the consolidated numerator expression.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Substituting p = 2aq"
+              ],
+              "algebraic_progression": [
+                "V = \\frac{1}{4\\pi\\epsilon_{0}} \\frac{(2aq) \\cos(\\theta)}{r^{2} - a^{2}\\cos^{2}(\\theta)}",
+                "V = \\frac{1}{4\\pi\\epsilon_{0}} \\frac{p \\cos(\\theta)}{r^{2} - a^{2}\\cos^{2}(\\theta)}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Electric Dipole Moment Definition",
+              "p = 2aq"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 11,
+            "phase": "FINAL_EVALUATION",
+            "exact_board_text": "For a short electric dipole, the observation distance r is dramatically larger than the dipole half-length a. Consequently, the higher-order spatial term in the denominator can be completely neglected.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Applying short dipole limit coordinate approximation r \\gg a"
+              ],
+              "algebraic_progression": [
+                "V = \\frac{1}{4\\pi\\epsilon_{0}} \\frac{p \\cos(\\theta)}{r^{2}}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Short Dipole Approximation",
+              "r \\gg a",
+              "Neglecting higher-order terms",
+              "General potential expression"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          }
+        ],
+        "topper_scoring_notes": [
+          "This derivation is rarely asked but serves as the ultimate master key because it collapses into both the axial and equatorial cases. The single most brutal part of this derivation that breaks students is setting up the geometric projections. If you don't draw the perpendicular drops BC and AD clearly, your distance approximations (r_{1} \\approx r - a\\cos(\\theta) and r_{2} \\approx r + a\\cos(\\theta)) look fabricated, and you will lose 1.5 marks instantly from the integration/formulation matrix.",
+          "Watch out for the alternate vector-resolution shortcut allowed by CBSE keys. You can resolve the dipole moment vector \\vec{p} into two components: p\\cos(\\theta) along the position vector \\vec{r}, and p\\sin(\\theta) perpendicular to it. For p\\cos(\\theta), point P is an axial point, so the potential is V = p\\cos(\\theta) / (4\\pi\\epsilon_{0}r^{2}). For p\\sin(\\theta), point P is an equatorial point, so the potential is 0. Adding them up gives the final answer in one line. If you use this method, you MUST explicitly write down the text explaining the axial and equatorial alignment mapping, or the examiner will penalize you for skipping proofs.",
+          "When writing the denominator in the intermediate steps, make sure you write a^{2}\\cos^{2}(\\theta), not just a^{2}. Omitting the trigonometric factor in the denominator before applying the r \\gg a limit is a notation error that picky checkers spot immediately and clip a half-mark for lack of mathematical rigor."
+        ]
+      }
+    ]
+  },
+  {
+    "chapter_derivations": [
+      {
+        "derivation_id": "EPC-14",
+        "meta": {
+          "chapter_number": 2,
+          "chapter_name": "Electrostatic Potential and Capacitance",
+          "derivation_title": "Electrostatic Energy Density of the Electric Field",
+          "cbse_frequency": "LOW",
+          "historical_occurrence_years": [
+            "2024",
+            "2022",
+            "2019"
+          ],
+          "total_marks": 2
+        },
+        "examiner_overview": {
+          "asked_as_stems": [
+            "Derive the expression for the energy stored per unit volume of a parallel plate capacitor.",
+            "Show that the energy density in a parallel-plate capacitor is given by \\frac{1}{2}\\epsilon_{0}E^{2}."
+          ],
+          "marking_distribution": {
+            "statement_and_diagram": 0.5,
+            "mathematical_integration": 1.0,
+            "final_expression_and_direction": 0.5
+          }
+        },
+        "derivation_timeline": [
+          {
+            "step_number": 1,
+            "phase": "SETUP_AND_DIAGRAM",
+            "exact_board_text": "Consider a parallel plate capacitor consisting of two conducting plates each of area A separated by a small distance d in a vacuum medium. Let the capacitor be charged to an electrostatic potential difference V, establishing a uniform internal electric field of magnitude E. The vacuum capacitance of this setup is defined by its geometric configuration, and the total energy stored is confined entirely within the spatial volume between the plates.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [],
+              "algebraic_progression": []
+            },
+            "score_trigger_keywords": [
+              "Parallel plate capacitor",
+              "Uniform electric field E",
+              "Confined spatial volume"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": true,
+              "drawing_instruction": "Draw two parallel horizontal lines representing the capacitor plates of area A separated vertically by a distance d. Sketch evenly spaced vertical vector arrows pointing downwards from the top positive plate to the bottom negative plate to represent the uniform electric field vector E. Lightly shade the entire bounded rectangular space between the plates to indicate the volume region v = Ad where the electrostatic field energy is localized.",
+              "generation_prompt": "A pristine technical physics schematic for a dark-mode user interface. Background is solid deep black #0a0a0f. Two identical parallel horizontal white line segments represent the capacitor plates of area 'A', with a vertical separation distance dimensioned as 'd'. Evenly spaced downward vertical cyan arrows in the region between the plates are labeled as the uniform electric field vector '\\vec{E}'. The entire space enclosed between the plates is filled with a faint translucent green tint, clearly labeled as 'Confined Volume v = A \\cdot d containing Electrostatic Energy U'."
+            }
+          },
+          {
+            "step_number": 2,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "exact_board_text": "The total electrostatic potential energy U accumulated in the uniform electric field of the charged parallel plate capacitor is expressed using the standard capacitance and voltage parameters.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Using the fundamental energy formula for a charged capacitor"
+              ],
+              "algebraic_progression": [
+                "U = \\frac{1}{2}CV^{2}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Total electrostatic potential energy U",
+              "Capacitor energy parameter formula"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 3,
+            "phase": "INTEGRATION_AND_SUBSTITUTION",
+            "exact_board_text": "Substituting the expression for the vacuum capacitance of the parallel plate capacitor in terms of its geometric dimensions into the energy relation.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Plugging in the vacuum capacitance formula C = \\frac{\\epsilon_{0}A}{d}"
+              ],
+              "algebraic_progression": [
+                "U = \\frac{1}{2}\\left(\\frac{\\epsilon_{0}A}{d}\\right)V^{2}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Vacuum capacitance formula substitution",
+              "Geometric parameter mapping"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 4,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "exact_board_text": "Substituting the relationship between the potential difference across the plates and the magnitude of the uniform electric field gradient, followed by simplifying the combined variable exponents.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Using the potential-field gradient relation V = E \\cdot d"
+              ],
+              "algebraic_progression": [
+                "U = \\frac{1}{2}\\left(\\frac{\\epsilon_{0}A}{d}\\right)(E \\cdot d)^{2}",
+                "U = \\frac{1}{2}\\left(\\frac{\\epsilon_{0}A}{d}\\right)E^{2}d^{2}",
+                "U = \\frac{1}{2}\\epsilon_{0}AE^{2}d"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Potential-field gradient relation",
+              "Exponent expansion",
+              "Distance variable simplification"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 5,
+            "phase": "FINAL_EVALUATION",
+            "exact_board_text": "The electrostatic energy density u is defined as the total electrostatic energy stored per unit volume within the field region. Dividing the total energy expression by the macroscopic volume of the plate gap yields the final field-density formula.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Using the energy density definition u = U / v, where volume v = A \\cdot d"
+              ],
+              "algebraic_progression": [
+                "u = \\frac{\\frac{1}{2}\\epsilon_{0}AE^{2}d}{A \\cdot d}",
+                "u = \\frac{1}{2}\\epsilon_{0}E^{2}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Energy per Unit Volume definition",
+              "Capacitor volume division",
+              "Final energy density field expression"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          }
+        ],
+        "topper_scoring_notes": [
+          "Don't confuse the lowercase volume symbol with the capital potential voltage V. This is where students completely break their math. Use a distinct cursive 'v' or write out 'A \\cdot d' directly for volume in your steps to prevent confusing yourself during substitution. If you accidentally cancel voltage V with volume v, your derivation will implode into gibberish and the examiner will scratch out the page.",
+          "Always keep the dielectric modification case in mind for standard sub-part attachments. If they ask how energy density changes when a medium of dielectric constant K fills the plates, the permittivity shifts from \\epsilon_{0} to K\\epsilon_{0}. The final medium energy density formula becomes u_{m} = \\frac{1}{2}K\\epsilon_{0}E^{2}. Memorize this form; it is a favorite 1-mark tag-on trick that routinely pops up to test conceptual limits.",
+          "When drawing the parallel plate layout on your board sheet, don't leave the electric field lines floating without directional arrows. Draw the arrowheads explicitly pointing from the positive plate to the negative plate. Evaluators look at the schema for uniform field alignment indicators, and missing vectors can trigger an instant half-mark deduction."
+        ]
+      }
+    ]
+  },
+  {
+    "chapter_derivations": [
+      {
+        "derivation_id": "EPC-15",
+        "meta": {
+          "chapter_number": 2,
+          "chapter_name": "Electrostatic Potential and Capacitance",
+          "derivation_title": "Electrostatic Potential due to a Uniformly Charged Thin Spherical Shell",
+          "cbse_frequency": "LOW",
+          "historical_occurrence_years": [
+            "2020",
+            "2017"
+          ],
+          "total_marks": 3
+        },
+        "examiner_overview": {
+          "asked_as_stems": [
+            "Derive the electrostatic potential due to a uniformly charged thin spherical shell at a point inside, outside, and on its surface."
+          ],
+          "marking_distribution": {
+            "statement_and_diagram": 0.5,
+            "mathematical_integration": 1.5,
+            "final_expression_and_direction": 1.0
+          }
+        },
+        "derivation_timeline": [
+          {
+            "step_number": 1,
+            "phase": "SETUP_AND_DIAGRAM",
+            "exact_board_text": "Consider a thin spherical shell of radius R carrying a total positive charge q uniformly distributed over its surface. Let r be the distance of the observation point P from the centre O of the shell. To evaluate the electrostatic potential, the space is divided into three distinct radial regions relative to the shell boundary.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [],
+              "algebraic_progression": []
+            },
+            "score_trigger_keywords": [
+              "Thin spherical shell",
+              "Radius R",
+              "Uniform charge distribution",
+              "Radial distance r"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": true,
+              "drawing_instruction": "Draw a central circle of radius R representing the spherical shell, distributing positive '+' signs uniformly along its outer edge. Mark the center point as O. Draw three different observation points labeled P_{1} inside the circle (at distance r < R), P_{2} exactly on the shell boundary (at distance r = R), and P_{3} outside the circle (at distance r > R). Draw dashed concentric circles through P_{1} and P_{3} to denote the spherical coordinate boundaries. Adjacent to this layout, sketch a matching V versus r graph axis showing a flat horizontal potential line from r = 0 to r = R, dropping off as a smooth hyperbola for r > R.",
+              "generation_prompt": "A clean dual-panel physics technical layout for a dark-mode UI. Background is solid black #0a0a0f. The left panel shows a white circle of radius 'R' centered at 'O' with bright cyan '+' signs aligned along its perimeter; a radial vector 'r' extends outwards to an external point 'P'. The right panel shows an orthogonal graph grid with vertical axis labeled 'V' and horizontal axis labeled 'r'. A bright cyan curve on this grid starts at a non-zero value on the V axis, runs perfectly flat and horizontal from r = 0 to r = R, and then transitions into a smooth downward hyperbolic curve labeled 'V \\propto \\frac{1}{r}' for all points where r > R."
+            }
+          },
+          {
+            "step_number": 2,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "exact_board_text": "Case I: Outside the shell (r > R). For any point located outside the uniformly charged thin spherical shell, the electric field E_{\text{out}} points radially outward and its magnitude is identical to that of an isolated point charge concentrated at the center O.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Using the external electric field expression derived from Gauss's law"
+              ],
+              "algebraic_progression": [
+                "E_{\text{out}} = \\frac{1}{4\\pi\\epsilon_{0}} \\frac{q}{r^{2}}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Outside region field mapping",
+              "Point charge field equivalence"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 3,
+            "phase": "INTEGRATION_AND_SUBSTITUTION",
+            "exact_board_text": "The absolute electrostatic potential V_{\text{out}} at an outside point is defined as the work done in bringing a unit positive test charge from infinity to the radial position vector r against the electric field lines.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Setting up the line integral definition of potential"
+              ],
+              "algebraic_progression": [
+                "V_{\text{out}} = -\\int_{\\infty}^{r} E_{\text{out}} \\, dr'",
+                "V_{\text{out}} = -\\int_{\\infty}^{r} \\frac{1}{4\\pi\\epsilon_{0}} \\frac{q}{{r'}^{2}} \\, dr'"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Line integral formulation",
+              "Limits from infinity to r"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 4,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "exact_board_text": "Isolating the constant coefficients outside the definite integral and representing the radial variable as a negative power function to perform basic calculus integration.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Factoring out constant parameters"
+              ],
+              "algebraic_progression": [
+                "V_{\text{out}} = -\\frac{q}{4\\pi\\epsilon_{0}} \\int_{\\infty}^{r} {r'}^{-2} \\, dr'",
+                "V_{\text{out}} = -\\frac{q}{4\\pi\\epsilon_{0}} \\left[ -\\frac{1}{r'} \\right]*{\\infty}^{r}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Antiderivative calculation",
+              "Negative power rule expansion"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 5,
+            "phase": "FINAL_EVALUATION",
+            "exact_board_text": "Canceling the negative signs constructively and evaluating the upper and lower boundary coordinates to find the external potential expression.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Applying limits via the Fundamental Theorem of Calculus"
+              ],
+              "algebraic_progression": [
+                "V*{\text{out}} = \\frac{q}{4\\pi\\epsilon_{0}} \\left( \\frac{1}{r} - \\frac{1}{\\infty} \\right)",
+                "V_{\text{out}} = \\frac{1}{4\\pi\\epsilon_{0}} \\frac{q}{r}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Reciprocal infinity elimination",
+              "External potential expression"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 6,
+            "phase": "FINAL_EVALUATION",
+            "exact_board_text": "Case II: On the surface of the shell (r = R). When the observation point lies exactly on the outer boundary interface of the charged thin shell, the radial tracking variable r becomes identical to the fixed shell radius R.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Substituting boundary coordinate r = R"
+              ],
+              "algebraic_progression": [
+                "V_{\text{surface}} = \\frac{1}{4\\pi\\epsilon_{0}} \\frac{q}{R}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Surface boundary coordinate substitution",
+              "Radius R dependency"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 7,
+            "phase": "MATHEMATICAL_FORMULATION",
+            "exact_board_text": "Case III: Inside the shell (r < R). According to Gauss's law, the net enclosed electric charge within a concentric spherical surface drawn inside the conducting shell boundary is identically zero. Consequently, the internal electric field E_{\text{in}} is zero at all inner points.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Applying Gauss's law inside a hollow charged conductor"
+              ],
+              "algebraic_progression": [
+                "E_{\text{in}} = 0"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Zero internal field",
+              "Zero enclosed charge condition"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 8,
+            "phase": "ALGEBRAIC_SIMPLIFICATION",
+            "exact_board_text": "The uniform electric field is mathematically defined as the negative gradient of the electrostatic potential. Setting the internal field gradient to zero proves that the internal potential function does not vary with spatial coordinates.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Using the potential gradient relationship E = -dV / dr"
+              ],
+              "algebraic_progression": [
+                "-\\frac{dV}{dr} = 0",
+                "\\frac{dV}{dr} = 0 \\implies V = \\text{constant}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Negative potential gradient relation",
+              "Spatially constant potential derivative"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          },
+          {
+            "step_number": 9,
+            "phase": "FINAL_EVALUATION",
+            "exact_board_text": "Because the electrostatic potential must be continuous across space to prevent an unphysical infinite field gradient at the boundary, the constant potential value anywhere inside the hollow shell must equal the exact scalar value established on the surface boundary.",
+            "substitution_matrix": {
+              "substituting_equation_refs": [
+                "Equating constant internal potential to the surface limit value"
+              ],
+              "algebraic_progression": [
+                "V_{\text{in}} = V_{\text{surface}}",
+                "V_{\text{in}} = \\frac{1}{4\\pi\\epsilon_{0}} \\frac{q}{R}"
+              ]
+            },
+            "score_trigger_keywords": [
+              "Potential field continuity",
+              "Equivalence to surface potential",
+              "Final internal potential expression"
+            ],
+            "step_diagram": {
+              "has_inline_drawing": false,
+              "drawing_instruction": "",
+              "generation_prompt": ""
+            }
+          }
+        ],
+        "topper_scoring_notes": [
+          "The absolute number-one trap in this derivation is the inside potential case. Nearly 90% of students look at the internal electric field being zero (E_{\text{in}} = 0) and blindly jump to the conclusion that the internal potential must also be zero. This mistake will completely destroy your score on this question. Keep it clear: E is the *derivative* of potential (-dV/dr). If the derivative is zero, the potential function is a flat constant value, not zero! It stays completely uniform all the way from the center point to the outer shell surface.",
+          "When drawing the graphic components on your sheet, never forget the V versus r graph. Board evaluators look directly for that split plot in the layout marking key: a perfectly flat horizontal line spanning from r = 0 to r = R, followed immediately by a smooth hyperbolic decay curve drop-off (V \\propto 1/r) for the outer space where r > R. Skipping this plot means throwing away an easy half-mark.",
+          "Be fully prepared for the standard numerical trap attached to this. If an examiner asks for the electrostatic potential at a distance of r = 4 cm inside a shell of radius R = 8 cm, do not plug the 4 cm variable into your denominator! Since the potential inside is a uniform constant equal to the surface value, you must use the actual shell radius R = 8 cm in your formula to compute the correct score."
+        ]
+      }
+    ]
+  }
+]

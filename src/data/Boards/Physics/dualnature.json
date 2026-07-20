@@ -1,0 +1,260 @@
+{
+  "meta": {
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation and Matter",
+    "class": 12,
+    "board": "CBSE"
+  },
+  "notes": [
+    {
+      "type": "concept",
+      "title": "Electron Emission",
+      "points": [
+        "Free electrons in a metal are free to move inside the metal but cannot escape the surface on their own.",
+        "Work Function (Φ₀): The minimum amount of energy required by an electron to escape from the metal surface.",
+        "Measured in electron-volt (eV). 1 eV = 1.602 x 10^-19 J.",
+        "Types of emission: Thermionic (heating), Field (strong electric field), Photoelectric (light irradiation)."
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Photoelectric Effect",
+      "points": [
+        "The phenomenon of emission of electrons from a metal surface when electromagnetic radiation of sufficiently high frequency falls on it.",
+        "Hertz's Observation: Electric discharge across a spark gap was enhanced when the emitter plate was illuminated by UV light.",
+        "Hallwachs' and Lenard's Observation: UV light falling on a negative plate caused current to flow; no current flowed when frequency was below a threshold."
+      ]
+    },
+    {
+      "type": "diagram",
+      "title": "Experimental Setup for Photoelectric Effect",
+      "image": "/images/Physics/Derivations/setup for photoeletric effect.png",
+      "caption": "Evacuated glass tube with photosensitive plate (C) and collector plate (A)."
+    },
+    {
+      "type": "concept",
+      "title": "Effect of Intensity on Photocurrent",
+      "points": [
+        "Photocurrent is directly proportional to the intensity of incident radiation (provided frequency > threshold frequency).",
+        "Number of photoelectrons emitted per second is proportional to intensity."
+      ]
+    },
+    {
+      "type": "diagram",
+      "title": "Graph: Photocurrent vs Intensity",
+      "image": "/images/Physics/Derivations/photocurrent vs intensity.png",
+      "caption": "Straight line passing through origin showing linear relationship."
+    },
+    {
+      "type": "concept",
+      "title": "Effect of Potential on Photocurrent",
+      "points": [
+        "Saturation Current: Maximum current when all emitted electrons reach the collector.",
+        "Stopping Potential (V₀): The minimum negative (retarding) potential applied to the collector plate for which the photocurrent stops.",
+        "Stopping potential is independent of intensity but depends on frequency."
+      ]
+    },
+    {
+      "type": "diagram",
+      "title": "Graph: Photocurrent vs Potential (Effect of Intensity)",
+      "image": "/images/Physics/Derivations/photocurrent vs intensity.png",
+      "caption": "Different intensities I1, I2, I3 have different saturation currents but same stopping potential."
+    },
+    {
+      "type": "diagram",
+      "title": "Graph: Photocurrent vs Potential (Effect of Frequency)",
+      "image": "/images/Physics/Derivations/photocurrent vs potential.png",
+      "caption": "Different frequencies v1, v2, v3 have different stopping potentials but same saturation current (for same intensity)."
+    },
+    {
+      "type": "concept",
+      "title": "Effect of Frequency on Stopping Potential",
+      "points": [
+        "Stopping potential varies linearly with the frequency of incident radiation.",
+        "There exists a minimum cut-off frequency (Threshold Frequency, ν₀) below which no emission occurs."
+      ]
+    },
+    {
+      "type": "diagram",
+      "title": "Graph: Stopping Potential vs Frequency",
+      "image": "/images/Physics/Derivations/stopping potential vs frequency.png",
+      "caption": "Linear graph. Slope = h/e. Intercept on potential axis = -Φ₀/e."
+    },
+    {
+      "type": "formula",
+      "latex": "K_{max} = e V_0",
+      "label": "Maximum Kinetic Energy",
+      "conditions": [
+        "K_max depends linearly on frequency, not intensity.",
+        "V_0 is stopping potential."
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Einstein's Photoelectric Equation",
+      "points": [
+        "Light consists of discrete packets of energy called quanta or photons.",
+        "Energy of each photon is E = hν.",
+        "Photoelectric emission is a one-to-one collision between a photon and an electron.",
+        "Explains instantaneous emission (no time lag)."
+      ]
+    },
+    {
+      "type": "formula",
+      "latex": "K_{max} = h\\nu - \\Phi_0 = h(\\nu - \\nu_0)",
+      "label": "Einstein's Photoelectric Equation",
+      "conditions": [
+        "hν is energy of incident photon.",
+        "Φ₀ is work function.",
+        "K_max is maximum kinetic energy of emitted electron."
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Particle Nature of Light: The Photon",
+      "points": [
+        "In interaction with matter, radiation behaves as if it is made up of particles called photons.",
+        "All photons of a particular frequency ν have the same energy E=hν and momentum p=hν/c.",
+        "Photons are electrically neutral.",
+        "Photon mass: Rest mass is zero. Kinetic mass m = E/c².",
+        "In a photon-particle collision, total energy and total momentum are conserved, but photon number may not be conserved."
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Wave Nature of Matter",
+      "points": [
+        "de Broglie Hypothesis: Moving particles of matter should display wave-like properties.",
+        "Matter waves are also called de Broglie waves."
+      ]
+    },
+    {
+      "type": "formula",
+      "latex": "\\lambda = \\frac{h}{p} = \\frac{h}{mv}",
+      "label": "de Broglie Wavelength",
+      "conditions": [
+        "p is momentum of the particle.",
+        "Connects particle characteristic (p) with wave characteristic (λ)."
+      ]
+    },
+    {
+      "type": "derived_result",
+      "statement": "de Broglie Wavelength of Electron accelerated by potential V",
+      "latex": "\\lambda = \\frac{h}{\\sqrt{2mK}} = \\frac{h}{\\sqrt{2meV}} \\approx \\frac{1.227}{\\sqrt{V}} \\text{ nm}",
+      "valid_when": "V is the accelerating potential in volts. m is mass of electron."
+    },
+    {
+      "type": "concept",
+      "title": "Davisson and Germer Experiment",
+      "points": [
+        "Verified the wave nature of electrons.",
+        "Electrons scattered by a nickel crystal showed a diffraction pattern.",
+        "The intensity of scattered electrons showed a strong peak at a specific angle, corresponding to constructive interference."
+      ]
+    },
+    {
+      "type": "diagram",
+      "title": "Davisson-Germer Experimental Setup",
+      "image": "/images/Physics/Derivations/Davisson Germer Experiment.png",
+      "caption": "Electron gun directs beam at Nickel target; moveable detector measures intensity."
+    },
+    {
+      "type": "diagram",
+      "title": "Polar Graph of Scattering Intensity",
+      "image": "/images/Physics/dualnature/davisson_germer_polar_graph.png",
+      "caption": "Strong peak observed at 54V and 50 degree scattering angle."
+    },
+    {
+      "type": "formula",
+      "latex": "2d \\sin\\theta = n\\lambda",
+      "label": "Bragg's Law",
+      "conditions": [
+        "Used to calculate theoretical wavelength in Davisson-Germer experiment."
+      ]
+    }
+  ],
+  "formula_sheet": [
+    {
+      "latex": "E = h\\nu = \\frac{hc}{\\lambda}",
+      "description": "Energy of a Photon",
+      "use_case": "Direct Use"
+    },
+    {
+      "latex": "K_{max} = eV_0",
+      "description": "Max Kinetic Energy vs Stopping Potential",
+      "use_case": "Direct Use"
+    },
+    {
+      "latex": "h\\nu = \\Phi_0 + K_{max}",
+      "description": "Einstein's Photoelectric Equation",
+      "use_case": "Direct Use"
+    },
+    {
+      "latex": "\\nu_0 = \\frac{\\Phi_0}{h}",
+      "description": "Threshold Frequency",
+      "use_case": "Direct Use"
+    },
+    {
+      "latex": "\\lambda = \\frac{h}{p} = \\frac{h}{\\sqrt{2mK}}",
+      "description": "de Broglie Wavelength",
+      "use_case": "Direct Use"
+    },
+    {
+      "latex": "\\lambda_e = \\frac{1.227}{\\sqrt{V}} \\text{ nm}",
+      "description": "Wavelength of Electron",
+      "use_case": "Direct Use"
+    }
+  ],
+  "ncert_golden_lines": [
+    "The work function of platinum is the highest (5.65 eV) while it is the lowest (2.14 eV) for caesium.",
+    "Photoelectric emission is an instantaneous process.",
+    "The stopping potential is independent of the intensity of the incident radiation.",
+    "The maximum kinetic energy of the photoelectrons varies linearly with the frequency of incident radiation.",
+    "Light has a dual nature: it behaves as waves in some experiments (interference, diffraction) and as particles in others (photoelectric effect).",
+    "The de Broglie wavelength of a photon is the same as the wavelength of electromagnetic radiation of which the photon is a quantum."
+  ],
+  "diagram_descriptors": [
+    {
+      "diagram_name": "Experimental Setup for Photoelectric Effect",
+      "used_for": "Experimental Setup for Photoelectric Effect",
+      "image_path": "/images/Physics/Derivations/setup for photoeletric effect.png",
+      "detailed_description": "Evacuated glass tube with photosensitive plate (C) and collector plate (A)."
+    },
+    {
+      "diagram_name": "Graph: Photocurrent vs Intensity",
+      "used_for": "Graph: Photocurrent vs Intensity",
+      "image_path": "/images/Physics/Derivations/photocurrent vs intensity.png",
+      "detailed_description": "Straight line passing through origin showing linear relationship."
+    },
+    {
+      "diagram_name": "Graph: Photocurrent vs Potential (Effect of Intensity)",
+      "used_for": "Graph: Photocurrent vs Potential (Effect of Intensity)",
+      "image_path": "/images/Physics/Derivations/photocurrent vs intensity.png",
+      "detailed_description": "Different intensities I1, I2, I3 have different saturation currents but same stopping potential."
+    },
+    {
+      "diagram_name": "Graph: Photocurrent vs Potential (Effect of Frequency)",
+      "used_for": "Graph: Photocurrent vs Potential (Effect of Frequency)",
+      "image_path": "/images/Physics/Derivations/photocurrent vs potential.png",
+      "detailed_description": "Different frequencies v1, v2, v3 have different stopping potentials but same saturation current (for same intensity)."
+    },
+    {
+      "diagram_name": "Graph: Stopping Potential vs Frequency",
+      "used_for": "Graph: Stopping Potential vs Frequency",
+      "image_path": "/images/Physics/Derivations/stopping potential vs frequency.png",
+      "detailed_description": "Linear graph. Slope = h/e. Intercept on potential axis = -Φ₀/e."
+    },
+    {
+      "diagram_name": "Davisson-Germer Experimental Setup",
+      "used_for": "Davisson-Germer Experimental Setup",
+      "image_path": "/images/Physics/Derivations/Davisson Germer Experiment.png",
+      "detailed_description": "Electron gun directs beam at Nickel target; moveable detector measures intensity."
+    },
+    {
+      "diagram_name": "Polar Graph of Scattering Intensity",
+      "used_for": "Polar Graph of Scattering Intensity",
+      "image_path": "/images/Physics/dualnature/davisson_germer_polar_graph.png",
+      "detailed_description": "Strong peak observed at 54V and 50 degree scattering angle."
+    }
+  ]
+}

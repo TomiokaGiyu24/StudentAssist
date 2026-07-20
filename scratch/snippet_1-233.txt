@@ -1,0 +1,119 @@
+Created At: 2026-06-03T08:09:10Z
+Completed At: 2026-06-03T08:09:11Z
+File Path: `file:///C:/StudentAssist-main/fix_latex_v3.cjs`
+Total Lines: 233
+Total Bytes: 7752
+Showing lines 1 to 233
+The following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.
+1: const fs = require('fs');
+2: 
+3: let data = JSON.parse(fs.readFileSync('src/data/Boards/Physics/electricfieldandcharges.json', 'utf8'));
+4: 
+5: // The strings to be wrapped in $...$
+6: const targets = [
+7:   "\\vec{E}_{axial}",
+8:   "\\vec{E}_{equatorial}",
+9:   "E_{axial} = 2 \\times E_{equatorial}",
+10:   "\\theta = 0^{\\circ}",
+11:   "\\theta = 180^{\\circ}",
+12:   "\\theta = 90^{\\circ}",
+13:   "\\vec{F}_{+} = q\\vec{E}",
+14:   "\\vec{F}_{-} = -q\\vec{E}",
+15:   "17.7 \\times 10^{-12}\\,\\text{C/m}^{2}",
+16:   "-17.7 \\times 10^{-12}\\,\\text{C/m}^{2}",
+17:   "8.85 \\times 10^{-12}\\,\\text{C}^{2}/\\text{Nm}^{2}",
+18:   "8.854 \\times 10^{-12}\\,\\text{C}^{2}/\\text{Nm}^{2}",
+19:   "1/r^2",
+20:   "1/r^3",
+21:   "1/r",
+22:   "\\text{C}^{2}/\\text{Nm}^{2}",
+23:   "q_{1}, q_{2}",
+24:   "\\vec{F}_{21}",
+25:   "r_{21}",
+26:   "\\hat{r}_{21}",
+27:   "\\hat{r}_{12}",
+28:   "\\vec{r}_{1}",
+29:   "\\vec{r}_{2}",
+30:   "\\vec{r}_{21}",
+31:   "\\vec{F}_{12}",
+32:   "q_{1}",
+33:   "q_{2}",
+34:   "q_{3}",
+35:   "F_{net} = \\sqrt{F_{1}^{2} + F_{2}^{2} + 2F_{1}F_{2}\\cos\\theta}",
+36:   "F_{AC}",
+37:   "q_{A}",
+38:   "q_{C}",
+39:   "q_{B}",
+40:   "F_{BC}",
+41:   "\\vec{F}_{1}",
+42:   "q_{i}",
+43:   "r_{1i}",
+44:   "\\hat{r}_{1i}",
+45:   "\\hat{r}_{i1}",
+46:   "\\vec{F}_{13}",
+47:   "\\vec{F}_{14}",
+48:   "8.854 \\times 10^{-12}",
+49:   "\\text{m}^{2}",
+50:   "\\theta = 60^{\\circ}",
+51:   "\\cos(60^{\\circ}) = 0.5",
+52:   "\\vec{E} = \\lim_{q_{0} \\to 0} \\frac{\\vec{F}}{q_{0}}",
+53:   "q_{0} \\to 0",
+54:   "q_{0}",
+55:   "10\\,\\text{m/s}^{2}",
+56:   "\\vec{E} = \\frac{\\vec{F}}{q_{0}}",
+57:   "\\vec
+<truncated 5224 bytes>
+ by length descending! Critical to prevent nested replaces.
+182: targets.sort((a, b) => b.length - a.length);
+183: 
+184: let totalReplaced = 0;
+185: 
+186: function wrapString(str) {
+187:   let result = str;
+188:   // Use a placeholder to protect things we already replaced
+189:   let placeholders = [];
+190:   
+191:   for (let i = 0; i < targets.length; i++) {
+192:     const target = targets[i];
+193:     // Find all occurrences of target in result that are NOT inside a placeholder
+194:     let pos = 0;
+195:     while ((pos = result.indexOf(target, pos)) !== -1) {
+196:       // Check if this position is already inside a placeholder $...$
+197:       // We'll just replace it with a placeholder ID and store the string
+198:       const id = `___MATH_${placeholders.length}___`;
+199:       placeholders.push(`$${target}$`);
+200:       result = result.substring(0, pos) + id + result.substring(pos + target.length);
+201:       pos += id.length;
+202:       totalReplaced++;
+203:     }
+204:   }
+205: 
+206:   // Also intelligently find any remaining \vec{...}, \frac{...}, E = ... that might be missed
+207:   // No, let's stick to explicit targets to be safe.
+208:   
+209:   // Restore placeholders
+210:   for (let i = placeholders.length - 1; i >= 0; i--) {
+211:     result = result.replace(`___MATH_${i}___`, placeholders[i]);
+212:   }
+213:   
+214:   return result;
+215: }
+216: 
+217: function traverse(obj) {
+218:   for (let key in obj) {
+219:     if (typeof obj[key] === 'string') {
+220:       if (key !== 'latex' && key !== 'symbol' && key !== 'what_is_shown') {
+221:          obj[key] = wrapString(obj[key]);
+222:       }
+223:     } else if (typeof obj[key] === 'object' && obj[key] !== null) {
+224:       traverse(obj[key]);
+225:     }
+226:   }
+227: }
+228: 
+229: traverse(data);
+230: 
+231: fs.writeFileSync('src/data/Boards/Physics/electricfieldandcharges.json', JSON.stringify(data, null, 2));
+232: console.log('Total replacements made:', totalReplaced);
+233: 
+The above content shows the entire, complete file contents of the requested file.

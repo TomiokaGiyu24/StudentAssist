@@ -1,0 +1,235 @@
+{
+  "meta": {
+    "subject": "Physics",
+    "class": 12,
+    "board": "CBSE",
+    "chapter": "Electromagnetic Induction"
+  },
+  "derivations": [
+    {
+      "id": "ch6-01",
+      "title": "Motional Electromotive Force (Motional EMF)",
+      "priority": "P1",
+      "priority_reason": "Fundamental concept linking mechanics and electromagnetism. Basis for railgun problems and sliding rod numericals.",
+      "marks": 3,
+      "diagram_required": true,
+      "diagram_description": "A U-shaped conducting rail with a movable rod PQ of length l resting on it. The rod moves to the left with velocity v. Uniform magnetic field B acts perpendicular to the plane (into the page, represented by crosses). The position of the rod is at distance x from the left end.",
+      "derivation": {
+        "given_assumptions": [
+          "Uniform magnetic field $B$ perpendicular to the plane.",
+          "Rod PQ of length $l$ moving with velocity $v$.",
+          "Distance of rod from reference is $x$."
+        ],
+        "required": "Induced emf $\\varepsilon$.",
+        "steps": [
+          {
+            "text": "Magnetic flux enclosed by the loop PQRS at instant $t$:",
+            "latex": "\\phi_B = B \\cdot \\text{Area} = B(lx)"
+          },
+          {
+            "text": "By Faraday's Law of Induction, induced emf is the rate of change of flux:",
+            "latex": "\\varepsilon = -\\frac{d\\phi_B}{dt} = -\\frac{d}{dt}(Blx)"
+          },
+          {
+            "text": "Since $B$ and $l$ are constant, pull them out. Velocity $v = -dx/dt$ (negative because $x$ decreases as rod moves left):",
+            "latex": "\\varepsilon = -Bl \\frac{dx}{dt} = -Bl(-v)"
+          }
+        ],
+        "final_result": {
+          "text": "The magnitude of motional emf is:",
+          "latex": "\\varepsilon = Blv"
+        },
+        "examiner_notes": [
+          "Sign convention: explicitly state why v = -dx/dt if reducing area.",
+          "Lorentz force method (F=qvB => W=F*l => emf=W/q) is also accepted but Faraday's law is preferred for this specific phrasing.",
+          "Must mention B, l, and v are mutually perpendicular."
+        ],
+        "question_forms": [
+          "Derive an expression for the motional emf induced in a conductor moving in a uniform magnetic field.",
+          "A rod of length l moves with velocity v in a magnetic field B. Find the induced emf."
+        ]
+      },
+      "image": "/images/placeholder.svg"
+    },
+    {
+      "id": "ch6-02",
+      "title": "Mutual Inductance of Two Long Coaxial Solenoids",
+      "priority": "P1",
+      "priority_reason": "Most frequent 3 or 5 mark derivation in this chapter. Often asks to prove M12 = M21.",
+      "marks": 3,
+      "diagram_required": true,
+      "diagram_description": "Two long coaxial solenoids. Inner solenoid S1 (radius r1, turns/length n1). Outer solenoid S2 (radius r2, turns/length n2). Length of both is l. Current I2 flows in S2 creating field B2.",
+      "derivation": {
+        "given_assumptions": [
+          "Two long coaxial solenoids of length $l$.",
+          "Inner: $S_1$ ($r_1, n_1, N_1$). Outer: $S_2$ ($r_2, n_2, N_2$).",
+          "Assume current $I_2$ flows in $S_2$."
+        ],
+        "required": "Mutual Inductance $M_{12}$.",
+        "steps": [
+          {
+            "text": "Magnetic field produced by current $I_2$ in outer solenoid $S_2$ (uniform inside):",
+            "latex": "B_2 = \\mu_0 n_2 I_2"
+          },
+          {
+            "text": "Total magnetic flux through inner solenoid $S_1$. Note: Flux exists only over area $A_1 = \\pi r_1^2$.",
+            "latex": "\\phi_1 = N_1 (B_2 A_1) = (n_1 l) (\\mu_0 n_2 I_2) (\\pi r_1^2)"
+          },
+          {
+            "text": "By definition, $\\phi_1 = M_{12} I_2$. Equating the two expressions:",
+            "latex": "M_{12} I_2 = \\mu_0 n_1 n_2 \\pi r_1^2 l I_2"
+          }
+        ],
+        "final_result": {
+          "text": "Mutual inductance:",
+          "latex": "M = \\mu_0 n_1 n_2 \\pi r_1^2 l"
+        },
+        "examiner_notes": [
+          "Crucial Point: When calculating flux through outer solenoid due to inner current, the field is non-zero ONLY inside the inner radius r1. Thus area is always pi*r1^2.",
+          "Reciprocity: Students must state that M12 = M21."
+        ],
+        "question_forms": [
+          "Derive the expression for the mutual inductance of two long coaxial solenoids.",
+          "Show that the mutual inductance between two coils depends on their geometry and number of turns."
+        ]
+      }
+    },
+    {
+      "id": "ch6-03",
+      "title": "Self-Inductance of a Long Solenoid",
+      "priority": "P2",
+      "priority_reason": "Standard derivation, often serves as a backup to Mutual Inductance.",
+      "marks": 2,
+      "diagram_required": true,
+      "diagram_description": "A long solenoid of length l, area A, carrying current I. Magnetic field lines shown parallel inside.",
+      "derivation": {
+        "given_assumptions": [
+          "Long solenoid of length $l$, area $A$, total turns $N$.",
+          "Current $I$ flows through it."
+        ],
+        "required": "Self Inductance $L$.",
+        "steps": [
+          {
+            "text": "Magnetic field inside the solenoid:",
+            "latex": "B = \\mu_0 n I = \\mu_0 \\frac{N}{l} I"
+          },
+          {
+            "text": "Total magnetic flux linked with the solenoid ($N$ turns):",
+            "latex": "\\phi = N (BA) = N \\left( \\mu_0 \\frac{N}{l} I \\right) A"
+          },
+          {
+            "text": "Grouping terms:",
+            "latex": "\\phi = \\frac{\\mu_0 N^2 A}{l} I"
+          },
+          {
+            "text": "By definition $\\phi = LI$. Comparing the terms:",
+            "latex": "L = \\frac{\\mu_0 N^2 A}{l}"
+          }
+        ],
+        "final_result": {
+          "text": "In terms of turn density $n = N/l$:",
+          "latex": "L = \\mu_0 n^2 A l"
+        },
+        "examiner_notes": [
+          "Confusion between N (total turns) and n (turns per unit length).",
+          "Formula dependence: L is proportional to N squared."
+        ],
+        "question_forms": [
+          "Obtain the expression for the self-inductance of a long solenoid.",
+          "On what factors does the self-inductance of a solenoid depend?"
+        ]
+      }
+    },
+    {
+      "id": "ch6-04",
+      "title": "Energy Stored in an Inductor (Magnetic Potential Energy)",
+      "priority": "P2",
+      "priority_reason": "Analogue to capacitor energy. Frequently asked.",
+      "marks": 3,
+      "diagram_required": false,
+      "diagram_description": "Simple circuit with Inductor L connected to a battery and key.",
+      "derivation": {
+        "given_assumptions": [
+          "Inductor with inductance $L$.",
+          "Current increases from $0$ to $I$."
+        ],
+        "required": "Work done (Energy $U$) stored.",
+        "steps": [
+          {
+            "text": "Induced emf opposes the growth of current: $\\varepsilon = -L \\frac{dI}{dt}$.",
+            "latex": ""
+          },
+          {
+            "text": "Work done by external source to maintain current $I$ against this emf in time $dt$:",
+            "latex": "dW = |\\varepsilon| I dt = \\left( L \\frac{dI}{dt} \\right) I dt = LI dI"
+          },
+          {
+            "text": "Total work done to build current from $0$ to $I$:",
+            "latex": "W = \\int_{0}^{I} LI dI = L \\left[ \\frac{I^2}{2} \\right]_0^I"
+          }
+        ],
+        "final_result": {
+          "text": "Magnetic potential energy stored:",
+          "latex": "U = \\frac{1}{2} L I^2"
+        },
+        "examiner_notes": [
+          "Must mention that work is done against the back-emf.",
+          "Integration limits (0 to I) must be shown."
+        ],
+        "question_forms": [
+          "Derive an expression for the energy stored in an inductor.",
+          "Prove that magnetic energy density is B^2/2mu0 (requires substituting L and B formulas)."
+        ]
+      },
+      "image": "/images/placeholder.svg"
+    },
+    {
+      "id": "ch6-05",
+      "title": "AC Generator: Induced EMF in a Rotating Coil",
+      "priority": "P1",
+      "priority_reason": "High-priority 5-mark question involving diagram, principle, and derivation.",
+      "marks": 5,
+      "diagram_required": true,
+      "diagram_description": "Rectangular coil PQRS mounted between curved magnetic poles N and S. Coil rotates with angular velocity omega about an axis perpendicular to B. Slip rings and brushes collect current. Angle theta is between Area vector A and Magnetic field B.",
+      "derivation": {
+        "given_assumptions": [
+          "Coil of $N$ turns, Area $A$ rotating with angular velocity $\\omega$.",
+          "Uniform magnetic field $B$."
+        ],
+        "required": "Instantaneous induced emf $\\varepsilon$.",
+        "steps": [
+          {
+            "text": "At time $t$, angle between area vector $\\vec{A}$ and field $\\vec{B}$ is $\\theta = \\omega t$.",
+            "latex": "\\phi_B = N (\\vec{B} \\cdot \\vec{A}) = N B A \\cos(\\omega t)"
+          },
+          {
+            "text": "By Faraday's law, induced emf is:",
+            "latex": "\\varepsilon = -\\frac{d\\phi_B}{dt} = -\\frac{d}{dt} [NBA \\cos(\\omega t)]"
+          },
+          {
+            "text": "Differentiating $\\cos(\\omega t)$ gives $-\\omega \\sin(\\omega t)$:",
+            "latex": "\\varepsilon = -NBA (-\\omega \\sin \\omega t)"
+          },
+          {
+            "text": "Simplifying:",
+            "latex": "\\varepsilon = NBA\\omega \\sin(\\omega t)"
+          }
+        ],
+        "final_result": {
+          "text": "Instantaneous emf (where $\\varepsilon_0 = NBA\\omega$ is peak emf):",
+          "latex": "\\varepsilon = \\varepsilon_0 \\sin(\\omega t)"
+        },
+        "examiner_notes": [
+          "Angle definition is critical: Theta is between Normal to coil and B. If plane of coil is used, formula becomes cos.",
+          "Chain rule of differentiation: Students often forget to multiply by omega.",
+          "Graph of emf vs time (sine wave) is usually required for the 5th mark."
+        ],
+        "question_forms": [
+          "Describe the principle and construction of an AC generator. Derive the expression for instantaneous emf.",
+          "Show that the emf induced in a rotating coil varies sinusoidally with time."
+        ]
+      },
+      "image": "/images/placeholder.svg"
+    }
+  ]
+}

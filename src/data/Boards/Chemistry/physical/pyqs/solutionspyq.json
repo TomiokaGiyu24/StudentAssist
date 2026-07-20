@@ -1,0 +1,713 @@
+{
+  "meta": {
+    "subject": "Chemistry",
+    "class": "12",
+    "chapter_name": "Solutions",
+    "pyq_year_range": "2022-2025 (Includes SQPs)",
+    "total_questions": 25,
+    "difficulty_distribution": {
+      "easy": "20%",
+      "moderate": "50%",
+      "hard": "30%"
+    }
+  },
+  "questions": [
+    {
+      "question_id": "SOL-2023-MCQ-01",
+      "year": "2023",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "The colligative property used for the determination of molar mass of polymers and proteins is:",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (a): Osmotic pressure",
+        "stepwise_marking_scheme_breakdown": "1 mark for correct option.",
+        "final_answer_boxed": "Osmotic pressure"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Colligative Properties & Molar Mass Determination",
+        "why_this_question_is_asked": "To test knowledge of why osmotic pressure is preferred for biomolecules (magnitude is large even for dilute solutions; measured at room temp).",
+        "common_student_mistake": "Selecting 'Elevation in Boiling Point' ignoring that high temperatures can denature proteins.",
+        "trap_zone": "Confusing it with depression in freezing point."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "a",
+        "options": {
+          "a": "Osmotic pressure",
+          "b": "Depression in freezing point",
+          "c": "Relative lowering in vapour pressure",
+          "d": "Elevation in boiling point"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "SOL-2023-MCQ-02",
+      "year": "2023",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "Low concentration of oxygen in the blood and tissues of people living at high altitude is due to:",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (c): low atmospheric pressure",
+        "stepwise_marking_scheme_breakdown": "1 mark for correct option.",
+        "final_answer_boxed": "low atmospheric pressure"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Henry's Law Application",
+        "why_this_question_is_asked": "Tests the direct relationship between partial pressure of a gas and its solubility in a liquid (blood).",
+        "common_student_mistake": "Associating it with low temperature.",
+        "trap_zone": "Options combining temperature and pressure to confuse the primary cause."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "c",
+        "options": {
+          "a": "high atmospheric pressure",
+          "b": "low temperature",
+          "c": "low atmospheric pressure",
+          "d": "both low temperature and high atmospheric pressure"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "SOL-2024-MCQ-03",
+      "year": "2024",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "For an electrolyte undergoing association in a solvent, the van't Hoff factor (i):",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (d): is always less than one",
+        "stepwise_marking_scheme_breakdown": "1 mark for correct option.",
+        "final_answer_boxed": "is always less than one"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Van't Hoff Factor & Association",
+        "why_this_question_is_asked": "To differentiate between dissociation (i > 1) and association (i < 1).",
+        "common_student_mistake": "Confusing association with dissociation.",
+        "trap_zone": "Thinking 'i' is always greater than 1 for electrolytes."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "d",
+        "options": {
+          "a": "is always greater than one",
+          "b": "has negative value",
+          "c": "has zero value",
+          "d": "is always less than one"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "SOL-2025-MCQ-04",
+      "year": "2025",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "An azeotropic mixture of two liquids has a boiling point higher than that of either of the two liquids when it:",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (c): shows negative deviation from Raoult's law.",
+        "stepwise_marking_scheme_breakdown": "1 mark for correct option.",
+        "final_answer_boxed": "shows negative deviation from Raoult's law."
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Azeotropes & Raoult's Law Deviations",
+        "why_this_question_is_asked": "Tests understanding that stronger intermolecular forces (negative deviation) lead to lower vapour pressure and thus higher boiling point.",
+        "common_student_mistake": "Linking 'higher' boiling point with 'positive' deviation.",
+        "trap_zone": "Inverse relationship between Vapour Pressure and Boiling Point."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "c",
+        "options": {
+          "a": "obeys Raoult's law.",
+          "b": "shows positive deviation from Raoult's law.",
+          "c": "shows negative deviation from Raoult's law.",
+          "d": "obeys Henry's law."
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "SOL-2025-MCQ-05",
+      "year": "2025",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "Solubility of gases in liquid decreases with increase in:",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (d): temperature",
+        "stepwise_marking_scheme_breakdown": "1 mark for correct option.",
+        "final_answer_boxed": "temperature"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Factors affecting Solubility",
+        "why_this_question_is_asked": "Dissolution of gas is exothermic; thus, increasing T shifts equilibrium backward (Le Chatelier's principle).",
+        "common_student_mistake": "Thinking solubility increases with temperature (true for most solids, not gases).",
+        "trap_zone": "Confusing solid-liquid solubility with gas-liquid solubility."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "d",
+        "options": {
+          "a": "pressure",
+          "b": "volume",
+          "c": "number of solute particles",
+          "d": "temperature"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "SOL-2024-AR-06",
+      "year": "2024",
+      "question_type": "Assertion-Reason",
+      "marks": 1,
+      "question_text": "Assertion (A): When NaCl is added to water a depression in freezing point is observed.\nReason (R): NaCl undergoes dissociation in water.",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (a): Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
+        "stepwise_marking_scheme_breakdown": "1 mark for correct selection.",
+        "final_answer_boxed": "Both A and R are true and R is the correct explanation of A."
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Colligative Properties & Dissociation",
+        "why_this_question_is_asked": "To link the observation (depression) with the molecular cause (increase in particle count due to dissociation).",
+        "common_student_mistake": "Thinking the reason is just 'non-volatile solute' without accounting for the 'dissociation' factor explicitly mentioned.",
+        "trap_zone": "Sometimes R is true but not the explanation."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "a",
+        "options": {
+          "a": "Both A and R are true and R is the correct explanation of A",
+          "b": "Both A and R are true but R is not the correct explanation of A",
+          "c": "A is true but R is false",
+          "d": "A is false but R is true"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "SOL-2023-VSA-07",
+      "year": "2023",
+      "question_type": "2M",
+      "marks": 2,
+      "question_text": "What is Henry's law? Give one application of it.",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Statement: Henry's law states that at a constant temperature, the solubility of a gas in a liquid is directly proportional to the partial pressure of the gas present above the surface of the liquid or solution.\nMathematical expression: p = K_H * x\n(where p is partial pressure, K_H is Henry's law constant, x is mole fraction).\n\nApplication:\nTo increase the solubility of CO2 in soft drinks and soda water, the bottle is sealed under high pressure.",
+        "stepwise_marking_scheme_breakdown": "1 Mark for correct definition/statement.\n1 Mark for one valid application.",
+        "final_answer_boxed": "p = K_H * x"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Henry's Law Definition & Application",
+        "why_this_question_is_asked": "Fundamental concept check.",
+        "common_student_mistake": "Forgetting 'at constant temperature'. Writing application vaguely.",
+        "trap_zone": "Confusing Henry's Law with Raoult's Law."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "SOL-2022-SA-08",
+      "year": "2022",
+      "question_type": "2M",
+      "marks": 2,
+      "question_text": "A solution is prepared by dissolving 10 g of non-volatile solute in 200 g of water. It has a vapour pressure of 31.84 mm Hg at 308 K. Calculate the molar mass of the solute. (Vapour pressure of pure water at 308 K = 32 mm Hg)",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Given:\nMass of solute (w_2) = 10 g\nMass of solvent (w_1) = 200 g\nVapour pressure of solution (p_1) = 31.84 mm Hg\nVapour pressure of pure solvent (p_1^0) = 32 mm Hg\nMolar mass of solvent (M_1) (Water) = 18 g/mol\n\nFormula (Relative Lowering of Vapour Pressure):\n(p_1^0 - p_1) / p_1^0 = n_2 / n_1 = (w_2 * M_1) / (M_2 * w_1)\n\nCalculation:\n(32 - 31.84) / 32 = (10 * 18) / (M_2 * 200)\n0.16 / 32 = 180 / (200 * M_2)\n0.005 = 0.9 / M_2\nM_2 = 0.9 / 0.005\nM_2 = 180 g/mol",
+        "stepwise_marking_scheme_breakdown": "0.5 marks for formula.\n1 mark for substitution and calculation steps.\n0.5 marks for final answer with units.",
+        "final_answer_boxed": "180 g/mol"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Relative Lowering of Vapour Pressure",
+        "why_this_question_is_asked": "Numerical application of Raoult's Law for non-volatile solutes.",
+        "common_student_mistake": "Calculation errors in (p_1^0 - p_1). Forgetting the unit g/mol.",
+        "trap_zone": "Using the dilute solution approximation incorrectly without checking if it's applicable (though here valid)."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "SOL-2025-SA-09",
+      "year": "2025",
+      "question_type": "3M",
+      "marks": 3,
+      "question_text": "Calculate the boiling point of solution when 6 g of MgSO4 (Molar mass = 120 g mol⁻¹) was dissolved in 200 g of water, assuming the complete dissociation of MgSO4. (Kb for water = 0.52 K kg mol⁻¹)",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "1. Moles of solute (MgSO4) = Mass / Molar Mass = 6 / 120 = 0.05 mol.\n2. Molality (m) = Moles of solute / Mass of solvent (kg) = 0.05 / 0.200 = 0.25 m.\n3. Van't Hoff factor (i): For MgSO4 -> Mg²⁺ + SO₄²⁻, complete dissociation means i = 2.\n4. Elevation in boiling point (ΔTb) = i * Kb * m\n   ΔTb = 2 * 0.52 * 0.25\n   ΔTb = 0.26 K\n5. Boiling point of solution = Boiling point of pure water + ΔTb\n   Tb = 373.15 K + 0.26 K = 373.41 K",
+        "stepwise_marking_scheme_breakdown": "1 mark for calculating molality.\n1 mark for identifying correct 'i'.\n1 mark for final calculation of boiling point.",
+        "final_answer_boxed": "373.41 K"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Elevation in Boiling Point & Van't Hoff Factor",
+        "why_this_question_is_asked": "Tests if student remembers to use 'i' for electrolytes.",
+        "common_student_mistake": "Ignoring 'i' (calculating for non-electrolyte), resulting in ΔTb = 0.13 K.",
+        "trap_zone": "Asking for 'Boiling Point' but student stops at 'Elevation'."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "SOL-2023-SA-10",
+      "year": "2023",
+      "question_type": "3M",
+      "marks": 3,
+      "question_text": "Differentiate between Ideal solution and Non-ideal solution.",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Ideal Solution:\n1. Obeys Raoult's Law over the entire range of concentration (P_total = p_A^0 x_A + p_B^0 x_B).\n2. Enthalpy of mixing is zero (ΔH_mix = 0).\n3. Volume of mixing is zero (ΔV_mix = 0).\n4. A-B interactions are similar to A-A and B-B interactions.\n\nNon-Ideal Solution:\n1. Does not obey Raoult's Law (shows deviations).\n2. Enthalpy of mixing is not zero (ΔH_mix ≠ 0).\n3. Volume of mixing is not zero (ΔV_mix ≠ 0).\n4. A-B interactions are different (stronger or weaker) than A-A and B-B interactions.",
+        "stepwise_marking_scheme_breakdown": "3 marks for any three distinct valid points of difference.",
+        "final_answer_boxed": "N/A"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Ideal vs Non-Ideal Solutions",
+        "why_this_question_is_asked": "Theoretical understanding of solution thermodynamics.",
+        "common_student_mistake": "Only mentioning Raoult's law and forgetting thermodynamic parameters (H, V).",
+        "trap_zone": "N/A"
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "SOL-2025-SA-11",
+      "year": "2025",
+      "question_type": "3M",
+      "marks": 3,
+      "question_text": "State Raoult's law for a solution containing volatile components. How is Raoult's law a special case of Henry's law?",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Raoult's Law:\nFor a solution of volatile liquids, the partial vapour pressure of each component in the solution is directly proportional to its mole fraction present in the solution.\nMathematically: p_i = p_i^0 * x_i\n\nRaoult's Law as a special case of Henry's Law:\nAccording to Henry's law, the partial pressure of a gas is proportional to its mole fraction: p = K_H * x.\nComparing this with Raoult's law (p = p^0 * x), it can be seen that the partial pressure of the volatile component or gas is directly proportional to its mole fraction in solution.\nIf the Henry's law constant (K_H) becomes equal to the vapour pressure of the pure component (p^0), Raoult's law becomes a special case of Henry's law.",
+        "stepwise_marking_scheme_breakdown": "1.5 marks for statement and formula of Raoult's Law.\n1.5 marks for explaining the condition K_H = p^0.",
+        "final_answer_boxed": "K_H = p^0"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Raoult's Law vs Henry's Law",
+        "why_this_question_is_asked": "To test deep conceptual link between the two laws.",
+        "common_student_mistake": "Stating definitions but failing to equate the proportionality constants.",
+        "trap_zone": "Not writing the mathematical comparison."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "SOL-2024-LA-12",
+      "year": "2024",
+      "question_type": "5M",
+      "marks": 5,
+      "question_text": "(a) At the same temperature, CO2 gas is more soluble in water than O2 gas. Which one of them will have higher value of KH and why?\n(b) How does the size of blood cells change when placed in an aqueous solution containing more than 0.9% (mass/volume) sodium chloride?\n(c) 1 molal aqueous solution of an electrolyte A2B3 is 60% ionized. Calculate the boiling point of the solution. (Given: Kb for H2O = 0.52 K kg mol⁻¹)",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(a) O2 will have a higher KH value.\nReason: KH is inversely proportional to solubility (p = KH * x). Since O2 is less soluble, its KH must be higher.\n\n(b) The size of blood cells decreases (they shrink).\nReason: The solution is hypertonic (>0.9% NaCl). Water moves out of the cells via osmosis.\n\n(c) Numerical:\nElectrolyte A2B3 -> 2A^{3+} + 3B^{2-} (n = 5 ions).\nDegree of dissociation (alpha) = 0.60.\nVan't Hoff factor i = 1 + (n-1)alpha = 1 + (5-1)(0.6) = 1 + 2.4 = 3.4.\n\nElevation in boiling point:\nΔTb = i * Kb * m\nΔTb = 3.4 * 0.52 * 1\nΔTb = 1.768 K\n\nBoiling Point = 373.15 + 1.768 = 374.918 K",
+        "stepwise_marking_scheme_breakdown": "1 mark for (a) (Correct gas + Reason).\n1 mark for (b) (Shrink + Hypertonic).\n3 marks for (c) (1 for i, 1 for ΔTb formula, 1 for final BP).",
+        "final_answer_boxed": "374.918 K"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Henry's Law, Osmosis, Van't Hoff Factor",
+        "why_this_question_is_asked": "Integrated question testing multiple concepts.",
+        "common_student_mistake": "In (c), calculating i incorrectly or forgetting to add ΔTb to 373.15.",
+        "trap_zone": "The concentration 0.9% is the isotonic point; >0.9% is hypertonic."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "SOL-2023-SA-13",
+      "year": "2023",
+      "question_type": "3M",
+      "marks": 3,
+      "question_text": "30 g of urea is dissolved in 846 g of water. Calculate the vapour pressure of water for this solution if vapour pressure of pure water at 298 K is 23.8 mm Hg.",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "1. Moles of urea (n2) = Mass / Molar Mass = 30 / 60 = 0.5 mol.\n2. Moles of water (n1) = 846 / 18 = 47 mol.\n3. Mole fraction of water (x1) = n1 / (n1 + n2) = 47 / (47 + 0.5) = 47 / 47.5 = 0.9895.\n4. According to Raoult's Law: p1 = p1^0 * x1\n5. p1 = 23.8 * 0.9895\n6. p1 = 23.55 mm Hg",
+        "stepwise_marking_scheme_breakdown": "1 mark for moles calculation.\n1 mark for mole fraction.\n1 mark for applying Raoult's law and final answer.",
+        "final_answer_boxed": "23.55 mm Hg"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Raoult's Law for Non-volatile solute",
+        "why_this_question_is_asked": "Standard numerical to test vapour pressure lowering.",
+        "common_student_mistake": "Calculating relative lowering but not finding final solution pressure.",
+        "trap_zone": "Molar mass of urea (60) is often not given."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "SOL-2025-LA-14",
+      "year": "2025",
+      "question_type": "5M",
+      "marks": 5,
+      "question_text": "(a) The freezing point of a solution containing 5 g of benzoic acid (Molar mass = 122 g/mol) in 35 g of benzene is depressed by 2.94 K. Calculate the percentage association of benzoic acid if it forms a dimer in solution. (Kf for benzene = 4.9 K kg/mol)\n(b) Define: (i) Ideal Solution (ii) Osmotic Pressure",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(a) Numerical:\n1. Theoretical Molality (m) = (5/122) / (35/1000) = 0.041 / 0.035 = 1.171 m.\n2. Calculated ΔTf (Theoretical) = Kf * m = 4.9 * 1.171 = 5.738 K.\n3. Observed ΔTf = 2.94 K.\n4. Van't Hoff factor (i) = Observed ΔTf / Theoretical ΔTf = 2.94 / 5.738 = 0.512.\n5. For dimerization: 2A -> A2. i = 1 + (1/n - 1)alpha.\n   Here n=2. \n   0.512 = 1 + (0.5 - 1)alpha\n   0.512 = 1 - 0.5 * alpha\n   0.5 * alpha = 0.488\n   alpha = 0.976\n   Percentage association = 97.6%.\n\n(b) Definitions:\n(i) Ideal Solution: A solution that obeys Raoult's law over the entire range of concentration.\n(ii) Osmotic Pressure: The excess pressure that must be applied to a solution side to prevent the flow of solvent into it through a semi-permeable membrane.",
+        "stepwise_marking_scheme_breakdown": "3 marks for Numerical (1 for m, 1 for i, 1 for alpha).\n2 marks for Definitions (1 each).",
+        "final_answer_boxed": "97.6%"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Association & Freezing Point Depression",
+        "why_this_question_is_asked": "Classic problem testing the concept of 'i' < 1.",
+        "common_student_mistake": "Using dissociation formula instead of dimerization (n=2).",
+        "trap_zone": "Calculation of theoretical vs observed colligative property."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "SOL-2022-SA-15",
+      "year": "2022",
+      "question_type": "3M",
+      "marks": 3,
+      "question_text": "Give reason:\n(a) Measurement of osmotic pressure method is preferred for the determination of molar masses of macromolecules such as proteins and polymers.\n(b) Aquatic animals are more comfortable in cold water than in warm water.\n(c) Elevation of boiling point of 1 M KCl solution is nearly double than that of 1 M sugar solution.",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(a) Osmotic pressure is preferred because:\n1. Its magnitude is large even for very dilute solutions.\n2. It is measured at room temperature, preventing denaturation of biomolecules.\n\n(b) According to Henry's Law, solubility of gases increases with decrease in temperature. Cold water contains more dissolved oxygen than warm water, making it easier for aquatic animals to breathe.\n\n(c) KCl is an electrolyte that dissociates into 2 ions (K+, Cl-, i=2), while sugar is a non-electrolyte (i=1). Since elevation in boiling point is a colligative property (proportional to number of particles), the elevation for KCl (2x particles) is double that of sugar.",
+        "stepwise_marking_scheme_breakdown": "1 mark for each correct reason.",
+        "final_answer_boxed": "N/A"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Conceptual Application of Colligative Properties",
+        "why_this_question_is_asked": "To test reasoning ability beyond formulas.",
+        "common_student_mistake": "In (c), failing to mention 'i' or dissociation.",
+        "trap_zone": "N/A"
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "SOL-2024-VSA-16",
+      "year": "2024",
+      "question_type": "2M",
+      "marks": 2,
+      "question_text": "Define molecularity of the reaction. State any one condition in which a bimolecular reaction may be kinetically of first order.",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Note: This is technically Kinetics, but appeared in a mixed context. Replacing with a Solutions equivalent from SQP.\n\n**Replacement Question (SQP 2024):**\nState the condition under which a non-ideal solution shows negative deviation from Raoult's law. Give an example.\n\nAnswer:\nCondition: When the intermolecular attractive forces between the solute-solvent (A-B) are stronger than those between the solute-solute (B-B) and solvent-solvent (A-A).\nExample: Mixture of Chloroform and Acetone.",
+        "stepwise_marking_scheme_breakdown": "1 mark for condition.\n1 mark for example.",
+        "final_answer_boxed": "A-B > A-A, B-B"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Negative Deviation",
+        "why_this_question_is_asked": "Tests understanding of intermolecular forces in solutions.",
+        "common_student_mistake": "Confusing positive and negative deviation examples.",
+        "trap_zone": "N/A"
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "SOL-2024-CASE-17",
+      "year": "2024",
+      "question_type": "Case-Based",
+      "marks": 4,
+      "question_text": "Read the passage and answer the questions:\nAt high altitudes, the partial pressure of oxygen is less than that at the ground level. This leads to low concentrations of oxygen in the blood and tissues of people living at high altitudes or climbers. Low blood oxygen causes climbers to become weak and unable to think clearly, symptoms of a condition known as anoxia.\n(a) State Henry's Law.\n(b) Why do soda water bottles fizz when opened?\n(c) Calculate the concentration of CO2 in a soft drink that is bottled with a partial pressure of CO2 of 4 atm over the liquid at 25°C. The Henry's law constant for CO2 in water at 25°C is 1.67 x 10^8 Pa. (1 atm = 101325 Pa)",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(a) Henry's Law: The solubility of a gas in a liquid is directly proportional to the partial pressure of the gas present above the surface of the liquid or solution at a constant temperature.\n\n(b) Soda water bottles are sealed under high pressure to increase CO2 solubility. When opened, pressure drops to atmospheric pressure, solubility decreases, and excess CO2 escapes as bubbles (fizz).\n\n(c) Numerical:\n1. p = 4 atm = 4 * 101325 Pa = 405300 Pa.\n2. KH = 1.67 * 10^8 Pa.\n3. Formula: p = KH * x => x = p / KH.\n4. x = 405300 / (1.67 * 10^8) = 2.42 * 10^-3.\nThe concentration (mole fraction) is 2.42 * 10^-3.",
+        "stepwise_marking_scheme_breakdown": "1 mark for definition.\n1 mark for reason.\n2 marks for numerical calculation.",
+        "final_answer_boxed": "2.42 x 10^-3"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Henry's Law Case Study",
+        "why_this_question_is_asked": "Real-life application of solubility laws.",
+        "common_student_mistake": "Forgetting unit conversion (atm to Pa) before using KH in Pa.",
+        "trap_zone": "Units of KH determine the formula units."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "SOL-2022-SA-18",
+      "year": "2022",
+      "question_type": "3M",
+      "marks": 3,
+      "question_text": "(a) A 5% solution (by mass) of cane sugar in water has freezing point of 271 K. Calculate the freezing point of 5% glucose in water if freezing point of pure water is 273.15 K.\n(b) Why is the vapour pressure of a solution of glucose in water lower than that of pure water?",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(a) Cane Sugar (M=342 g/mol), 5% solution:\nΔTf = 273.15 - 271 = 2.15 K.\nMolality m1 = (5/342) / (0.095).\nΔTf = Kf * m1 => 2.15 = Kf * (5/342 * 1000/95).\nKf = 2.15 * 342 * 95 / 5000 = 13.97 (Calculated specific to this problem's data consistency).\n\nGlucose (M=180 g/mol), 5% solution:\nMolality m2 = (5/180) / (0.095).\nΔTf(new) = Kf * m2 = [2.15 * (342/180)] (Since mass% is same, ratio of molar masses applies inversely).\nΔTf(new) = 2.15 * 1.9 = 4.085 K.\nFreezing Point = 273.15 - 4.085 = 269.065 K.\n\n(b) The surface of the solution is occupied by both solute and solvent molecules. This reduces the number of solvent molecules escaping into the vapour phase, lowering vapour pressure.",
+        "stepwise_marking_scheme_breakdown": "2 marks for numerical (1 for Kf logic, 1 for final answer).\n1 mark for reasoning.",
+        "final_answer_boxed": "269.07 K"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Comparison of Colligative Properties",
+        "why_this_question_is_asked": "To see if students can compare solutions without explicitly needing Kf (using ratio).",
+        "common_student_mistake": "Calculating Kf first and getting stuck in complex math instead of using ratios.",
+        "trap_zone": "Molar masses of sugar (342) and glucose (180) must be known or calculated."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "SOL-2025-VSA-19",
+      "year": "2025",
+      "question_type": "2M",
+      "marks": 2,
+      "question_text": "Why do aquatic species feel more comfortable in cold water than in warm water?",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Aquatic species feel more comfortable in cold water because the solubility of gases (like Oxygen) in liquids decreases with increase in temperature (Henry's Law). Cold water has higher dissolved oxygen content, facilitating easier breathing.",
+        "stepwise_marking_scheme_breakdown": "1 mark for mentioning solubility decreases with temp.\n1 mark for relating to dissolved oxygen.",
+        "final_answer_boxed": "Higher Dissolved O2"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Gas Solubility vs Temp",
+        "why_this_question_is_asked": "Frequent conceptual question.",
+        "common_student_mistake": "Saying cold water is denser (irrelevant).",
+        "trap_zone": "N/A"
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "SOL-2023-MCQ-20",
+      "year": "2023",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "Which of the following is an example of a solid solution?",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (b): Copper dissolved in Gold",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "Copper dissolved in Gold"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Types of Solutions",
+        "why_this_question_is_asked": "Basic classification check.",
+        "common_student_mistake": "Selecting 'Camphor in N2' (Gas in Solid).",
+        "trap_zone": "Alloys are solid solutions."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "b",
+        "options": {
+          "a": "Aerated water",
+          "b": "Copper dissolved in Gold",
+          "c": "Ethanol in water",
+          "d": "Amalgam of Hg with Na"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "SOL-2025-SA-21",
+      "year": "2025",
+      "question_type": "3M",
+      "marks": 3,
+      "question_text": "Calculate the mass of ascorbic acid (Vitamin C, C6H8O6) to be dissolved in 75 g of acetic acid to lower its melting point by 1.5°C. (Kf = 3.9 K kg mol⁻¹)",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "1. Formula: ΔTf = Kf * m\n2. Molar mass of Ascorbic Acid (C6H8O6) = 6(12) + 8(1) + 6(16) = 72 + 8 + 96 = 176 g/mol.\n3. Molality m = (w_2 / M_2) * (1000 / w_1)\n4. Substitution: 1.5 = 3.9 * (w_2 / 176) * (1000 / 75)\n5. w_2 = (1.5 * 176 * 75) / (3.9 * 1000)\n6. w_2 = 19800 / 3900 = 5.077 g",
+        "stepwise_marking_scheme_breakdown": "1 mark for Molar mass calc.\n1 mark for Formula.\n1 mark for Final answer.",
+        "final_answer_boxed": "5.08 g"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Freezing Point Depression Numerical",
+        "why_this_question_is_asked": "Calculation skill check.",
+        "common_student_mistake": "Wrong molar mass calculation.",
+        "trap_zone": "Units of mass (g vs kg)."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "SOL-2024-MCQ-22",
+      "year": "2024",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "Isotonic solutions must have the same:",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (a): Osmotic pressure",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "Osmotic pressure"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Isotonicity",
+        "why_this_question_is_asked": "Definition check.",
+        "common_student_mistake": "Thinking they must have same molarity (only true if i and T are same).",
+        "trap_zone": "Temperature dependence."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "a",
+        "options": {
+          "a": "Osmotic pressure",
+          "b": "Boiling point",
+          "c": "Freezing point",
+          "d": "Solute nature"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "SOL-SQP-SA-23",
+      "year": "SQP 2024",
+      "question_type": "3M",
+      "marks": 3,
+      "question_text": "Determine the osmotic pressure of a solution prepared by dissolving 25 mg of K2SO4 in 2 litres of water at 25°C, assuming that it is completely dissociated. (R = 0.0821 L atm K⁻¹ mol⁻¹; Molar mass of K2SO4 = 174 g/mol)",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "1. Moles of K2SO4 = 0.025 g / 174 g/mol = 1.437 * 10^-4 mol.\n2. Van't Hoff factor (i) for K2SO4 -> 2K+ + SO4^2- is i = 3.\n3. Formula: π = i * C * R * T\n   C = n/V = (1.437 * 10^-4) / 2 = 7.185 * 10^-5 M.\n   T = 298 K.\n4. π = 3 * (7.185 * 10^-5) * 0.0821 * 298\n5. π = 5.27 * 10^-3 atm",
+        "stepwise_marking_scheme_breakdown": "1 mark for 'i'.\n1 mark for formula/substitution.\n1 mark for answer.",
+        "final_answer_boxed": "5.27 x 10^-3 atm"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Osmotic Pressure & Van't Hoff",
+        "why_this_question_is_asked": "Testing unit conversions (mg to g) and 'i'.",
+        "common_student_mistake": "Ignoring 'i' or using mass in mg directly.",
+        "trap_zone": "Very small concentration leading to small pressure."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "SOL-2022-VSA-24",
+      "year": "2022",
+      "question_type": "2M",
+      "marks": 2,
+      "question_text": "Define 'ideal solution' and write one of its characteristics.",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Ideal Solution: A solution that obeys Raoult's law over the entire range of concentration.\nCharacteristic: \n1. Enthalpy of mixing is zero (ΔH_mix = 0).\nOR\n2. Volume of mixing is zero (ΔV_mix = 0).",
+        "stepwise_marking_scheme_breakdown": "1 mark for definition.\n1 mark for characteristic.",
+        "final_answer_boxed": "ΔH_mix = 0"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Theoretical concepts",
+        "why_this_question_is_asked": "Direct definition.",
+        "common_student_mistake": "Forgetting 'over entire range of concentration'.",
+        "trap_zone": "N/A"
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "SOL-SQP-SA-25",
+      "year": "SQP 2023",
+      "question_type": "3M",
+      "marks": 3,
+      "question_text": "Explain why: (i) Non-ideal solutions show positive deviation from Raoult's Law. (ii) Azeotropes cannot be separated by fractional distillation.",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(i) Positive Deviation: Occurs when A-B interactions are weaker than A-A and B-B interactions. This leads to higher vapour pressure than predicted by Raoult's Law.\n(ii) Azeotropes: They are constant boiling mixtures where the composition of liquid and vapour phase is identical. Since fractional distillation relies on difference in boiling points/composition, they cannot be separated.",
+        "stepwise_marking_scheme_breakdown": "1.5 marks for (i) (Interaction logic).\n1.5 marks for (ii) (Composition logic).",
+        "final_answer_boxed": "N/A"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Deviations & Azeotropes",
+        "why_this_question_is_asked": "Testing conceptual 'Why'.",
+        "common_student_mistake": "Confusing positive/negative deviation interaction logic.",
+        "trap_zone": "N/A"
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    }
+  ],
+  "chapter_pattern_analysis": {
+    "most_repeated_concepts": [
+      "Van't Hoff factor (i) in numericals (MgSo4, K2SO4, Association/Dissociation).",
+      "Henry's Law applications (Aquatic life, Soda bottles, Anoxia).",
+      "Ideal vs Non-Ideal Solutions and Raoult's Law deviations.",
+      "Freezing point depression numericals."
+    ],
+    "high_probability_2026_focus": [
+      "Numericals involving 'i' (Van't Hoff factor) are almost certain in 3M or 5M.",
+      "Graph-based questions on Raoult's law deviations.",
+      "Case study on Osmosis or Solubility in biological contexts."
+    ],
+    "numerical_weightage_trend": "High. Almost every 3M and 5M question in this chapter is a numerical or has a numerical part.",
+    "case_based_trend": "Likely to be connected to Biology (Blood cells, Respiration) or Industrial application (Antifreeze).",
+    "assertion_reason_trend": "Focuses on the 'Why' behind observations (e.g., why depression in FP happens, why gases are less soluble in warm water)."
+  }
+}

@@ -1,0 +1,87 @@
+{
+"question_metadata": {
+"format_type": "Analytical Paragraph",
+"difficulty_level": "Exam_Level",
+"theme": "Shift in Digital Consumption",
+"board_relevance_reason": "Analytical paragraphs have become a mandatory part of Section B. CBSE 2024-25 papers show a preference for comparative data analysis involving 'Then vs. Now' scenarios or 'Urban vs. Rural' trends."
+},
+"board_style_question": "The following line graph shows the percentage of time spent by Indian teenagers on three different activities—Physical Sports, Social Media, and Reading Books—between the years 2020 and 2025. Write an analytical paragraph in 120-150 words by selecting and reporting the main features, and making comparisons where relevant.\n\n[Data Summary for your reference: \n- Physical Sports: 2020 (40%) -> 2025 (20%)\n- Social Media: 2020 (25%) -> 2025 (65%)\n- Reading Books: 2020 (35%) -> 2025 (15%)]",
+"format_blueprint": {
+"mandatory_components": [
+"Introduction (Restate the prompt/Describe what the graph shows)",
+"The Body (Data interpretation, grouping of similar trends, highlighting contrasts)",
+"Conclusion (A concluding overview/Summary of the major trend)",
+"No Personal Opinion (Strictly objective analysis)"
+],
+"sequence_order": [
+"Overview/Intro",
+"Detailed Analysis (Highs & Lows)",
+"Comparative Synthesis",
+"Concluding Remark"
+],
+"format_visual_layout": "Single or double paragraph. No headings or bullets. Use linking words for data comparison."
+},
+"planning_framework": {
+"brainstorm_points": [
+"Intro: The graph depicts leisure preferences of Indian teens over 5 years.",
+"Trend 1: Social Media is the clear winner (staggering growth from 25% to 65%).",
+"Trend 2: Physical Sports and Reading are both in decline.",
+"Trend 3: The sharpest drop is in Reading (more than halved).",
+"Contrast: 2020 was balanced; 2025 is dominated by one activity."
+],
+"logical_flow_model": "General Trend -> Specific Data Comparison -> Sharpest Variations -> Final Summary.",
+"time_allocation_minutes": "Planning: 3 min | Writing: 10 min | Review: 2 min"
+},
+"model_answer_with_word_count": {
+"answer_text": "The provided line graph illustrates the significant shift in the leisure preferences of Indian teenagers from 2020 to 2025. A cursory glance reveals a drastic transformation in how the youth allocate their time, with digital engagement overshadowing traditional activities.\n\nIn 2020, time distribution was relatively balanced, with Physical Sports leading at 40%, followed by Reading at 35% and Social Media at 25%. However, over the next five years, Social Media consumption witnessed an exponential surge, peaking at 65% in 2025. Conversely, Physical Sports saw a steady decline, plummeting to just 20%. The most concerning trend is observed in Reading habits, which sharply dipped from 35% to a mere 15% by the end of the period. \n\nOverall, the data suggests a clear migration toward a sedentary, screen-heavy lifestyle. While digital connectivity has triumphed, it has come at the cost of physical fitness and literary engagement among the younger generation.",
+"word_count": 149
+},
+"why_this_scores_full_marks": {
+"format_compliance_reason": "Follows the standard structure: Intro, Body, and Conclusion. It focuses entirely on the data provided without adding outside knowledge.",
+"content_strength_reason": "Includes specific percentages (40%, 65%, 15%) to support the analysis. It compares the three categories rather than just listing them.",
+"expression_quality_reason": "Uses high-impact analytical verbs like 'plummeting', 'witnessed', 'peaking', and 'overshadowing'. Maintains a formal, objective tone."
+},
+"vocabulary_upgrade_section": {
+"basic_to_board_level_examples": [
+{
+"basic": "Social media went up a lot.",
+"improved": "Social media usage increased significantly.",
+"board_level": "Social media consumption witnessed an exponential surge, peaking at 65%."
+},
+{
+"basic": "Sports and reading went down.",
+"improved": "There was a fall in sports and reading.",
+"board_level": "Conversely, both Physical Sports and Reading saw a steady decline and plummeted respectively."
+},
+{
+"basic": "The graph shows...",
+"improved": "The graph depicts...",
+"board_level": "The line graph illustrates/exemplifies the shifting paradigms of..."
+}
+],
+"sentence_transformation_examples": [
+"Weak: In 2020 things were equal but in 2025 they changed. -> Strong: While 2020 showcased a balanced distribution, 2025 is characterized by a stark digital dominance.",
+"Weak: Reading dropped from 35 to 15. -> Strong: Reading habits experienced a sharp dip, more than halving from 35% to a mere 15%."
+]
+},
+"common_mark_losing_mistakes": [
+"Giving reasons (e.g., 'Reading decreased because of mobile phones'). Stick to WHAT the graph says, not WHY.",
+"Using 'I', 'Me', or 'In my opinion' (Analytical writing must be impersonal).",
+"Missing the units (Always mention if data is in %, kg, Crore, etc.).",
+"Writing a very short paragraph (under 100 words) or a very long one (over 160).",
+"Failing to compare (Just listing data point by point without showing the relationship between them)."
+],
+"examiner_psychology_insights": [
+"Examiners look for 'Relationship words': 'Whereas', 'In contrast to', 'Similarly', 'Parallelly'. This shows analytical thinking.",
+"They appreciate 'Extreme markers': The 'Highest', the 'Lowest', the 'Sharpest', the 'Most significant'.",
+"A strong 'Overall' statement at the end is a sign of a 95+ student. It shows the student can synthesize the whole data into one thought."
+],
+"self_evaluation_checklist": [
+"Did I paraphrase the question in my first sentence?",
+"Did I use specific figures from the prompt?",
+"Did I compare the different categories?",
+"Did I avoid giving personal opinions or reasons?",
+"Is my concluding sentence a summary of the main trend?",
+"Is my word count between 120-150?"
+]
+}

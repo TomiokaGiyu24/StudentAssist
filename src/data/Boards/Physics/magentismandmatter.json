@@ -1,0 +1,1454 @@
+[
+  {
+    "meta": {
+      "subject": "Physics",
+      "chapter_number": 5,
+      "chapter_name": "Magnetism and Matter",
+      "topic": "Magnetic field lines",
+      "frequency": "MEDIUM",
+      "class": 12,
+      "board": "CBSE"
+    },
+    "notes": [
+      {
+        "type": "concept",
+        "title": "Magnetic Field Lines",
+        "tier": "1",
+        "points": [
+          "Magnetic field lines form continuous closed loops, emerging from the North pole and entering the South pole externally, and travelling from South to North internally.",
+          "The tangent to a magnetic field line at any given point represents the exact direction of the net magnetic field \\vec{B} at that point.",
+          "Two magnetic field lines never intersect; if they did, the magnetic field \\vec{B} would have two unique directions at the point of intersection, which is physically impossible.",
+          "The relative density or closeness of the field lines indicates the magnitude of the magnetic field \\vec{B}; lines are crowded in regions of strong field and spaced apart in weak fields.",
+          "Unlike electrostatic field lines, magnetic field lines do not begin or end on magnetic charges (monopoles do not exist), reflecting Gauss's Law for Magnetism."
+        ],
+        "why_it_matters": "Asked as 1-mark and 2-mark theoretical questions to list properties or give reason for non-intersection."
+      },
+      {
+        "type": "exam_intel",
+        "concept_ref": "Magnetic Field Lines",
+        "frequency": "MEDIUM",
+        "marks_breakdown": [
+          "1 mark (MCQ/Reasoning)",
+          "2 marks (Short Answer)"
+        ],
+        "question_forms": [
+          "List any two properties of magnetic field lines. (2 marks)",
+          "Why do two magnetic field lines never cross each other? (1 mark)",
+          "State the basic difference between electric and magnetic field lines. (1 mark)"
+        ],
+        "board_traps": [
+          "Examiner expects 'continuous closed loops'. Students write 'originate at North and terminate at South' which describes electric field lines, losing marks immediately."
+        ],
+        "common_mistakes": [
+          "Failing to draw the field lines continuing inside the body of the bar magnet from South to North when asked to sketch them."
+        ],
+        "answer_structure": "State the property directly. If asked for the difference with electric field lines, explicitly contrast the 'continuous closed loop' nature of magnetic fields versus the 'open curves' (originating on positive, ending on negative) of electric fields.",
+        "examiner_expectation": "Exact NCERT phrasing for the non-intersection reasoning and the continuous closed-loop property."
+      },
+      {
+        "type": "rapid_recall",
+        "concept_ref": "Magnetic Field Lines",
+        "one_liner": "Continuous closed loops where the tangent gives the direction of \\vec{B} and line density indicates field strength.",
+        "memory_hook": "Closed Loops: No Monopoles.",
+        "never_forget": [
+          "Inside a magnet, lines run South to North.",
+          "Intersection means two tangents, therefore two directions of field at one point, which is physically impossible."
+        ]
+      },
+      {
+        "type": "diagram",
+        "title": "Magnetic Field Lines of a Bar Magnet",
+        "source": "NCERT",
+        "ncert_reference": "NCERT Fig 5.2(a)",
+        "description": {
+          "what_is_shown": "Magnetic field lines around and inside a finite bar magnet.",
+          "elements": [
+            "Bar magnet with N and S poles marked",
+            "Closed loop field lines emerging from N and entering S",
+            "Field lines inside magnet continuing from S to N"
+          ],
+          "labels": [
+            "N (North pole)",
+            "S (South pole)",
+            "\\vec{B} (Magnetic field vectors)"
+          ],
+          "spatial_relationships": "Field lines are densest near the poles and spread out laterally. Every line forms a complete unbroken loop.",
+          "style_notes": "Dark background #0a0a0f. White lines and labels. Red N pole, blue S pole. Clean sans-serif font."
+        },
+        "caption": "Magnetic field lines of a bar magnet forming continuous closed loops.",
+        "generation_prompt": "Draw a horizontal rectangular bar magnet. Label the left end N in red and the right end S in blue. Draw symmetric, continuous elliptical loops passing through the magnet. Outside the magnet, add arrows to the loops pointing from N to S. Inside the magnet, add arrows to the loops pointing from S to N. Ensure lines are packed densely near the poles and never intersect. Use a dark #0a0a0f background with clean white lines."
+      }
+    ],
+    "formula_sheet": [
+      {
+        "latex": "\\oint \\vec{B} \\cdot d\\vec{A} = 0",
+        "label": "Gauss's Law for Magnetism",
+        "description": "Mathematical representation that magnetic field lines form continuous closed loops and that magnetic monopoles do not exist.",
+        "variables": [
+          {
+            "symbol": "\\vec{B}",
+            "name": "Magnetic field vector",
+            "unit": "\\text{T}",
+            "note": ""
+          },
+          {
+            "symbol": "d\\vec{A}",
+            "name": "Infinitesimal area vector",
+            "unit": "\\text{m}^{2}",
+            "note": "Directed outwards from the closed surface"
+          }
+        ],
+        "si_unit_of_result": "\\text{Wb}",
+        "use_case": "Direct Use",
+        "board_frequency": "MEDIUM",
+        "common_error": ""
+      }
+    ],
+    "ncert_golden_lines": [
+      "The magnetic field lines of a magnet (or a solenoid) form continuous closed loops.",
+      "The tangent to the field line at a given point represents the direction of the net magnetic field B at that point.",
+      "The magnetic field lines do not intersect, for if they did, the direction of the magnetic field would not be unique at the point of intersection."
+    ]
+  },
+  {
+    "meta": {
+      "subject": "Physics",
+      "chapter_number": 5,
+      "chapter_name": "Magnetism and Matter",
+      "topic": "Bar Magnet as an Equivalent Solenoid",
+      "frequency": "LOW",
+      "class": 12,
+      "board": "CBSE"
+    },
+    "notes": [
+      {
+        "type": "concept",
+        "title": "Bar Magnet as an Equivalent Solenoid",
+        "tier": "1",
+        "points": [
+          "The magnetic field lines of a bar magnet closely resemble those of a finite current-carrying solenoid, suggesting a bar magnet can be modeled as a large number of circulating microscopic currents.",
+          "Cutting a bar magnet in half is analogous to cutting a solenoid into two smaller solenoids; both yield two independent dipoles with continuous field lines but weaker magnetic properties.",
+          "The magnitude of the magnetic field on the axis of a finite solenoid at a large distance r (where r is much greater than its length l and radius a) is exactly identical to the far axial magnetic field of a bar magnet.",
+          "For a solenoid of length 2l, radius a, with n turns per unit length carrying current I, the equivalent magnetic moment is m = n(2l)I(\\pi a^{2}).",
+          "This macroscopic equivalence demonstrates that isolated magnetic poles (monopoles) do not exist; the fundamental source of magnetic fields is the magnetic dipole (current loop)."
+        ],
+        "why_it_matters": "Asked as a 3-mark derivation in boards to mathematically prove the equivalence between a solenoid and a bar magnet."
+      },
+      {
+        "type": "exam_intel",
+        "concept_ref": "Bar Magnet as an Equivalent Solenoid",
+        "frequency": "LOW",
+        "marks_breakdown": [
+          "2 marks (Short Answer)",
+          "3 marks (Derivation)"
+        ],
+        "question_forms": [
+          "Show mathematically that the magnetic field produced by a finite solenoid at a large distance on its axis is equivalent to that of a bar magnet. (3 marks)",
+          "State two similarities between the magnetic field lines of a bar magnet and a current-carrying solenoid. (2 marks)"
+        ],
+        "board_traps": [
+          "Students often use the formula for an infinite solenoid (B = \\mu_{0}nI) instead of setting up the integral for a finite solenoid.",
+          "Forgetting to substitute the total magnetic moment m = n(2l)I(\\pi a^{2}) at the final step, leaving the expression in terms of I and n."
+        ],
+        "common_mistakes": [
+          "Incorrect limits of integration. The limits must be from -l to +l to cover the full length 2l of the solenoid.",
+          "Mishandling the far-field approximation (r >> x, r >> a) in the denominator during the integration."
+        ],
+        "answer_structure": "Draw the diagram of a finite solenoid. Consider an elemental ring of width dx at distance x. Write the magnetic field dB due to this ring. Integrate from -l to l. Apply the approximation r >> l and r >> a. Multiply and divide by \\pi a^{2} to form the volume/area terms. Substitute m = total turns \\times current \\times area.",
+        "examiner_expectation": "Clear statement of the elemental magnetic field dB, correct integration limits, and explicit declaration of the magnetic moment m."
+      },
+      {
+        "type": "derived_result",
+        "statement": "The axial magnetic field of a finite solenoid at a large distance matches that of a bar magnet, proving macroscopic equivalence.",
+        "latex": "B = \\frac{\\mu_{0}}{4\\pi} \\frac{2m}{r^{3}}",
+        "variables": [
+          {
+            "symbol": "B",
+            "name": "Magnitude of the axial magnetic field",
+            "unit": "T",
+            "note": ""
+          },
+          {
+            "symbol": "\\mu_{0}",
+            "name": "Permeability of free space",
+            "unit": "T\\text{m/A}",
+            "note": ""
+          },
+          {
+            "symbol": "m",
+            "name": "Magnetic dipole moment of the solenoid",
+            "unit": "\\text{A}\\text{m}^{2}",
+            "note": "Calculated as N \\times I \\times A"
+          },
+          {
+            "symbol": "r",
+            "name": "Axial distance from the center of the solenoid",
+            "unit": "m",
+            "note": ""
+          }
+        ],
+        "valid_when": "r \\gg l (distance is much greater than the half-length of the solenoid) and r \\gg a (distance is much greater than the radius of the solenoid).",
+        "derivation_asked": true,
+        "proof_skeleton": [
+          "Consider a solenoid of length 2l, radius a, n turns per unit length, and current I.",
+          "Consider a small element of width dx at distance x from the center. Number of turns in this element = n dx.",
+          "Write the axial magnetic field dB at a point P (distance r from center) due to this circular element: dB = \\frac{\\mu_{0} I a^{2} (n dx)}{2((r-x)^{2} + a^{2})^{3/2}}",
+          "Apply far-field approximation: since r \\gg a and r \\gg x, the denominator simplifies to 2r^{3}.",
+          "Integrate dB from x = -l to x = +l to get the total field B.",
+          "Multiply numerator and denominator by \\pi, and substitute m = n(2l)I(\\pi a^{2}) to obtain the final bar magnet formula."
+        ]
+      },
+      {
+        "type": "rapid_recall",
+        "concept_ref": "Bar Magnet as an Equivalent Solenoid",
+        "one_liner": "A finite current-carrying solenoid produces the exact same far-axial magnetic field as a bar magnet of equal magnetic moment.",
+        "memory_hook": "Solenoid = Stack of current loops; Bar Magnet = Stack of atomic loops. Both yield B = (\\mu_{0}/4\\pi)(2m/r^{3}).",
+        "never_forget": [
+          "The total magnetic moment of the solenoid is m = N I A, where N is the total number of turns (n \\times 2l).",
+          "The derivation strictly requires the far-field approximation (r \\gg l, a)."
+        ]
+      },
+      {
+        "type": "diagram",
+        "title": "Axial Field of a Finite Solenoid",
+        "source": "NCERT",
+        "ncert_reference": "NCERT Fig 5.3(a)",
+        "description": {
+          "what_is_shown": "A finite solenoid of length 2l and radius a, with a small element dx highlighted, used to calculate the magnetic field at an axial point P.",
+          "elements": [
+            "Cylinder representing the solenoid",
+            "Central axis passing horizontally through the cylinder",
+            "Center point O",
+            "Highlight on a small circular strip of width dx at a distance x from O",
+            "Point P on the axis at a distance r from O",
+            "Total length dimension marked as 2l, with O bisecting it into l and l",
+            "Radius dimension marked as a"
+          ],
+          "labels": [
+            "O (Center of solenoid)",
+            "P (Observation point on axis)",
+            "r (Distance from O to P)",
+            "a (Radius of solenoid)",
+            "2l (Total length)",
+            "x (Distance from O to elemental strip)",
+            "dx (Width of the elemental strip)"
+          ],
+          "spatial_relationships": "The elemental strip dx is located at distance x from the origin O. The observation point P is located far away on the central axis at a distance r from O. The distance from the strip dx to P is structurally (r-x).",
+          "style_notes": "Use a dark #0a0a0f background. The cylinder should be drawn with a semi-transparent blue tint and white dashed lines for hidden edges. The element dx should be highlighted in solid bright blue. Use white arrows for dimension lines and white text for labels."
+        },
+        "caption": "Calculation of the axial field of a finite solenoid to demonstrate its similarity to that of a bar magnet.",
+        "generation_prompt": "Draw a horizontal cylinder representing a finite solenoid on a dark #0a0a0f background. The cylinder should have a subtle blue tint with white outlines. Draw a horizontal dashed line passing through its center to represent the axis. Mark the center of the cylinder as 'O'. To the right, along the axis, mark a point 'P\\otimes' indicating the observation point. Draw a vertical line through 'O' to show the origin. Highlight a thin vertical strip on the cylinder to the right of 'O', label its width 'dx', and its distance from 'O' as 'x'. Draw dimension arrows showing the total length of the cylinder as '2l' (centered at O), the radius of the cylinder as 'a' (from the axis to the top edge), and the distance from 'O' to 'P' as 'r'. Use clean, bright white for all text labels and arrows."
+      }
+    ],
+    "formula_sheet": [
+      {
+        "latex": "B = \\frac{\\mu_{0}}{4\\pi} \\frac{2m}{r^{3}}",
+        "label": "Far Axial Magnetic Field of a Solenoid (or Bar Magnet)",
+        "description": "The magnetic field on the axis of a finite solenoid at a distance much greater than its length and radius.",
+        "variables": [
+          {
+            "symbol": "B",
+            "name": "Magnetic field magnitude",
+            "unit": "T",
+            "note": "Evaluated on the axis"
+          },
+          {
+            "symbol": "\\mu_{0}",
+            "name": "Permeability of free space",
+            "unit": "T\\text{m/A}",
+            "note": "4\\pi \\times 10^{-7} T m/A"
+          },
+          {
+            "symbol": "m",
+            "name": "Magnetic dipole moment",
+            "unit": "\\text{A}\\text{m}^{2}",
+            "note": "m = N I A"
+          },
+          {
+            "symbol": "r",
+            "name": "Distance from the center",
+            "unit": "m",
+            "note": "Valid only when r \\gg l and r \\gg a"
+          }
+        ],
+        "si_unit_of_result": "T",
+        "use_case": "Derivation Required",
+        "board_frequency": "LOW",
+        "common_error": "Using this formula for points close to the solenoid where the r \\gg l approximation fails."
+      },
+      {
+        "latex": "m = n(2l)I(\\pi a^{2})",
+        "label": "Magnetic Moment of a Finite Solenoid",
+        "description": "The total magnetic dipole moment of a solenoid acting as a bar magnet.",
+        "variables": [
+          {
+            "symbol": "m",
+            "name": "Magnetic moment",
+            "unit": "\\text{A}\\text{m}^{2}",
+            "note": ""
+          },
+          {
+            "symbol": "n",
+            "name": "Number of turns per unit length",
+            "unit": "\\text{m}^{-1}",
+            "note": ""
+          },
+          {
+            "symbol": "2l",
+            "name": "Total length of the solenoid",
+            "unit": "m",
+            "note": ""
+          },
+          {
+            "symbol": "I",
+            "name": "Current",
+            "unit": "A",
+            "note": ""
+          },
+          {
+            "symbol": "a",
+            "name": "Radius of the solenoid",
+            "unit": "m",
+            "note": ""
+          }
+        ],
+        "si_unit_of_result": "\\text{A}\\text{m}^{2}",
+        "use_case": "Direct Use",
+        "board_frequency": "LOW",
+        "common_error": "Forgetting that N (total turns) is n \\times 2l, and mistakenly using just 'n' as total turns."
+      }
+    ],
+    "ncert_golden_lines": [
+      "The resemblance of magnetic field lines for a bar magnet and a solenoid suggest that a bar magnet may be thought of as a large number of circulating currents in analogy with a solenoid.",
+      "Cutting a bar magnet in half is like cutting a solenoid. We get two smaller solenoids with weaker magnetic properties.",
+      "The magnetic moment of a bar magnet is thus equal to the magnetic moment of an equivalent solenoid that produces the same magnetic field."
+    ]
+  },
+  {
+    "meta": {
+      "subject": "Physics",
+      "chapter_number": 5,
+      "chapter_name": "Magnetism and Matter",
+      "topic": "The Dipole in a Uniform Magnetic Field",
+      "frequency": "MEDIUM",
+      "class": 12,
+      "board": "CBSE"
+    },
+    "notes": [
+      {
+        "type": "concept",
+        "title": "Torque and Potential Energy of a Magnetic Dipole",
+        "tier": "1",
+        "points": [
+          "A magnetic dipole (bar magnet or compass needle) of magnetic moment \\vec{m} placed in a uniform magnetic field \\vec{B} experiences no net force.",
+          "The dipole experiences a restoring torque \\vec{\\tau} = \\vec{m} \\times \\vec{B} which tends to align the dipole moment with the magnetic field.",
+          "The magnitude of the torque is \\tau = mB \\sin\\theta, where \\theta is the angle between \\vec{m} and \\vec{B}.",
+          "The magnetic potential energy of the dipole in the field is U_{m} = -\\vec{m} \\cdot \\vec{B} = -mB \\cos\\theta.",
+          "Stable equilibrium occurs at \\theta = 0^{\\circ} where the potential energy is minimum (U_{m} = -mB) and torque is zero.",
+          "Unstable equilibrium occurs at \\theta = 180^{\\circ} where the potential energy is maximum (U_{m} = +mB) and torque is zero.",
+          "By convention, the potential energy is taken as zero when the dipole is perpendicular to the field (\\theta = 90^{\\circ}).",
+          "Work done by an external agency to rotate the dipole from angle \\theta_{1} to \\theta_{2} is W = U_{m}(\\theta_{2}) - U_{m}(\\theta_{1}) = mB(\\cos\\theta_{1} - \\cos\\theta_{2})."
+        ],
+        "why_it_matters": "Asked as 2-mark conceptual questions to identify equilibrium positions and 3-mark numericals on calculating work done."
+      },
+      {
+        "type": "exam_intel",
+        "concept_ref": "Torque and Potential Energy of a Magnetic Dipole",
+        "frequency": "MEDIUM",
+        "marks_breakdown": [
+          "1 mark (MCQ)",
+          "2 marks (Short Answer)",
+          "3 marks (Derivation/Numerical)"
+        ],
+        "question_forms": [
+          "Write the expression for the magnetic potential energy of a magnetic dipole kept in a uniform magnetic field and identify the orientations corresponding to stable and unstable equilibrium. (2 marks)",
+          "Calculate the work done in rotating a bar magnet of magnetic moment m from its stable equilibrium position to its unstable equilibrium position in a uniform magnetic field B. (2 marks)"
+        ],
+        "board_traps": [
+          "Examiner asks for work done to align perpendicular to the field from stable equilibrium. Students use W = -mBcos(90) instead of taking the difference U(90) - U(0) = 0 - (-mB) = mB.",
+          "Confusing stable and unstable equilibrium angles. Stable is 0 degrees (minimum energy), unstable is 180 degrees (maximum energy)."
+        ],
+        "common_mistakes": [
+          "Dropping the negative sign in the potential energy formula U = -mB\\cos\\theta.",
+          "Assuming a net force acts on the dipole in a UNIFORM magnetic field. The net force is strictly zero."
+        ],
+        "answer_structure": "For equilibrium questions: State U = -mBcosθ. For stable, substitute θ = 0° to get minimum U = -mB. For unstable, substitute θ = 180° to get maximum U = +mB. For work done, explicitly write W = U_final - U_initial.",
+        "examiner_expectation": "Strict adherence to the negative sign in the potential energy formula and correct identification of angles for equilibrium."
+      },
+      {
+        "type": "worked_example",
+        "concept_ref": "Torque and Potential Energy of a Magnetic Dipole",
+        "purpose": "Demonstrates the correct use of the potential energy difference formula to calculate work done.",
+        "situation": "A bar magnet of magnetic moment 1.5 J/T lies aligned with the direction of a uniform magnetic field of 0.22 T. What is the amount of work required by an external torque to turn the magnet so as to align its magnetic moment opposite to the field direction?",
+        "given": [
+          "m = 1.5 \\,\\text{J/T}",
+          "B = 0.22 \\,\\text{T}",
+          "\\theta_{1} = 0^{\\circ} \\text{ (aligned with field)}",
+          "\\theta_{2} = 180^{\\circ} \\text{ (opposite to field)}"
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "action": "State the initial potential energy.",
+            "latex": "U_{i} = -mB \\cos(0^{\\circ}) = -mB",
+            "why": "The magnet is initially in stable equilibrium, aligned with the field."
+          },
+          {
+            "step_number": 2,
+            "action": "State the final potential energy.",
+            "latex": "U_{f} = -mB \\cos(180^{\\circ}) = +mB",
+            "why": "The final position is unstable equilibrium, opposite to the field."
+          },
+          {
+            "step_number": 3,
+            "action": "Calculate the work done as the difference in potential energy.",
+            "latex": "W = U_{f} - U_{i} = mB - (-mB) = 2mB",
+            "why": "Work done by external torque equals the change in potential energy of the system."
+          },
+          {
+            "step_number": 4,
+            "action": "Substitute the values and compute.",
+            "latex": "W = 2 \\times 1.5 \\times 0.22 = 0.66 \\,\\text{J}",
+            "why": "Execution of the final mathematical step."
+          }
+        ],
+        "final_answer": {
+          "latex": "W = 0.66",
+          "unit": "J",
+          "direction": ""
+        },
+        "trap": "Directly using W = mBcosθ instead of taking the difference W = U_final - U_initial."
+      },
+      {
+        "type": "rapid_recall",
+        "concept_ref": "Torque and Potential Energy of a Magnetic Dipole",
+        "one_liner": "Torque aligns the dipole (\\vec{\\tau} = \\vec{m} \\times \\vec{B}) and potential energy measures the work done against the field (U = -\\vec{m} \\cdot \\vec{B}).",
+        "memory_hook": "Cross for Torque, Dot for Energy (with a minus).",
+        "never_forget": [
+          "Stable equilibrium: \\theta = 0^{\\circ}, Energy = -mB.",
+          "Unstable equilibrium: \\theta = 180^{\\circ}, Energy = +mB.",
+          "Net force in a uniform field is ALWAYS zero."
+        ]
+      },
+      {
+        "type": "derived_result",
+        "statement": "The potential energy of a magnetic dipole in a uniform magnetic field is the negative dot product of its magnetic moment and the magnetic field.",
+        "latex": "U_{m} = -\\vec{m} \\cdot \\vec{B}",
+        "variables": [
+          {
+            "symbol": "U_{m}",
+            "name": "Magnetic potential energy",
+            "unit": "\\text{J}",
+            "note": "Zero is chosen at \\theta = 90^{\\circ}"
+          },
+          {
+            "symbol": "\\vec{m}",
+            "name": "Magnetic dipole moment",
+            "unit": "\\text{Am}^{2}",
+            "note": ""
+          },
+          {
+            "symbol": "\\vec{B}",
+            "name": "Uniform magnetic field",
+            "unit": "\\text{T}",
+            "note": ""
+          }
+        ],
+        "valid_when": "The external magnetic field is uniform and the dipole's structure is rigid.",
+        "derivation_asked": true,
+        "proof_skeleton": [
+          "State the restoring torque on the dipole in the magnetic field: \\tau = -mB \\sin\\theta.",
+          "Express the work done by an external torque to rotate the dipole: dW = \\tau_{ext} d\\theta = mB \\sin\\theta d\\theta.",
+          "Integrate the work done from an initial angle \\theta_{1} to a final angle \\theta_{2}: W = \\int_{\\theta_{1}}^{\\theta_{2}} mB \\sin\\theta d\\theta.",
+          "Evaluate the integral: W = -mB(\\cos\\theta_{2} - \\cos\\theta_{1}).",
+          "Define potential energy U_{m}(\\theta) by setting U_{m}(90^{\\circ}) = 0, yielding U_{m}(\\theta) = -mB \\cos\\theta = -\\vec{m} \\cdot \\vec{B}."
+        ]
+      },
+      {
+        "type": "concept",
+        "title": "The Electrostatic Analog",
+        "tier": "1",
+        "points": [
+          "The magnetic field of a bar magnet at large distances (r \\gg l) can be directly obtained from the electric field equations of an electric dipole.",
+          "The analogy requires the following replacements: \\vec{E} \\rightarrow \\vec{B}, \\vec{p} \\rightarrow \\vec{m}, and \\frac{1}{4\\pi\\epsilon_{0}} \\rightarrow \\frac{\\mu_{0}}{4\\pi}.",
+          "Axial magnetic field of a short bar magnet: \\vec{B}_{A} = \\frac{\\mu_{0}}{4\\pi} \\frac{2\\vec{m}}{r^{3}}.",
+          "Equatorial magnetic field of a short bar magnet: \\vec{B}_{E} = -\\frac{\\mu_{0}}{4\\pi} \\frac{\\vec{m}}{r^{3}}."
+        ],
+        "why_it_matters": "Asked as 1-mark objective questions or 2-mark numericals to quickly find the magnetic field at a point without deriving it from scratch."
+      },
+      {
+        "type": "exam_intel",
+        "concept_ref": "The Electrostatic Analog",
+        "frequency": "MEDIUM",
+        "marks_breakdown": [
+          "1 mark (MCQ)",
+          "2 marks (Numerical)"
+        ],
+        "question_forms": [
+          "Write the expression for the magnetic field at a point on the equatorial line of a short bar magnet. (1 mark)",
+          "Compare the expressions for the electric field of an electric dipole and the magnetic field of a magnetic dipole. (2 marks)"
+        ],
+        "board_traps": [
+          "Forgetting the negative sign in the equatorial field expression, which indicates that the magnetic field is strictly anti-parallel to the magnetic moment."
+        ],
+        "common_mistakes": [
+          "Using the formula for large distances when the point is close to the magnet (i.e., when r is comparable to the magnet's length l)."
+        ],
+        "answer_structure": "State the standard electric dipole formula, explicitly state the mapping (p to m, 1/4πε₀ to μ₀/4π), and write the resulting magnetic formula.",
+        "examiner_expectation": "Correct use of vector notation to show that axial field is parallel to m, and equatorial field is anti-parallel to m."
+      },
+      {
+        "type": "rapid_recall",
+        "concept_ref": "The Electrostatic Analog",
+        "one_liner": "Swap electric constants for magnetic constants to convert electric dipole formulas to magnetic dipole formulas.",
+        "memory_hook": "p becomes m, E becomes B, 1/ε₀ becomes μ₀.",
+        "never_forget": [
+          "Axial field is twice the strength of the equatorial field at the same distance.",
+          "Equatorial field is antiparallel to the magnetic moment."
+        ]
+      },
+      {
+        "type": "diagram",
+        "title": "Magnetic Needle in a Uniform Magnetic Field",
+        "source": "NCERT",
+        "ncert_reference": "NCERT Fig 5.3(b)",
+        "description": {
+          "what_is_shown": "A small compass needle (magnetic dipole) placed in a uniform magnetic field, illustrating the torque experienced.",
+          "elements": [
+            "A uniform magnetic field represented by parallel, equally spaced horizontal lines pointing right.",
+            "A diamond-shaped compass needle with N and S poles.",
+            "An axis of rotation passing through the center of the needle.",
+            "Angle \\theta marked between the magnetic moment vector \\vec{m} and the magnetic field vector \\vec{B}."
+          ],
+          "labels": [
+            "\\vec{B} (Uniform magnetic field)",
+            "N (North pole)",
+            "S (South pole)",
+            "\\theta (Angle of deflection)",
+            "Axis"
+          ],
+          "spatial_relationships": "The needle is oriented at an angle \\theta to the horizontal magnetic field lines. The torque tends to rotate the needle to align the N-S axis parallel to the \\vec{B} lines.",
+          "style_notes": "Dark background #0a0a0f. White lines and labels. The compass needle should be lightly shaded, with the N half blue and S half white (or red/blue standard). Clean sans-serif font."
+        },
+        "caption": "A magnetic needle in a uniform magnetic field \\vec{B} experiences a restoring torque.",
+        "generation_prompt": "Draw a uniform magnetic field using parallel horizontal dashed white lines pointing to the right, on a dark #0a0a0f background. In the center, draw a diamond-shaped compass needle (representing a magnetic dipole) tilted at an angle to the horizontal lines. Label the top tip 'N' and the bottom tip 'S'. Draw a vertical dashed line passing through the center of the needle and label it 'Axis'. Draw an arc showing the angle '\\theta' between the needle's axis and the horizontal magnetic field. Label the magnetic field lines with a bold 'B' and an arrow. Use crisp white text and bright blue/red for the needle halves."
+      }
+    ],
+    "formula_sheet": [
+      {
+        "latex": "\\vec{\\tau} = \\vec{m} \\times \\vec{B}",
+        "label": "Torque on a Magnetic Dipole",
+        "description": "The restoring torque experienced by a magnetic dipole in a uniform magnetic field.",
+        "variables": [
+          {
+            "symbol": "\\vec{\\tau}",
+            "name": "Torque",
+            "unit": "\\text{Nm}",
+            "note": ""
+          },
+          {
+            "symbol": "\\vec{m}",
+            "name": "Magnetic dipole moment",
+            "unit": "\\text{Am}^{2}",
+            "note": ""
+          },
+          {
+            "symbol": "\\vec{B}",
+            "name": "Uniform magnetic field",
+            "unit": "\\text{T}",
+            "note": ""
+          }
+        ],
+        "si_unit_of_result": "\\text{Nm}",
+        "use_case": "Direct Use",
+        "board_frequency": "MEDIUM",
+        "common_error": "Calculating the magnitude as mBcosθ instead of mBsinθ."
+      },
+      {
+        "latex": "U_{m} = -\\vec{m} \\cdot \\vec{B} = -mB \\cos\\theta",
+        "label": "Potential Energy of a Magnetic Dipole",
+        "description": "Energy of a magnetic dipole oriented at an angle \\theta with respect to a uniform magnetic field.",
+        "variables": [
+          {
+            "symbol": "U_{m}",
+            "name": "Potential energy",
+            "unit": "\\text{J}",
+            "note": ""
+          },
+          {
+            "symbol": "m",
+            "name": "Magnitude of magnetic dipole moment",
+            "unit": "\\text{Am}^{2}",
+            "note": ""
+          },
+          {
+            "symbol": "B",
+            "name": "Magnitude of magnetic field",
+            "unit": "\\text{T}",
+            "note": ""
+          },
+          {
+            "symbol": "\\theta",
+            "name": "Angle between \\vec{m} and \\vec{B}",
+            "unit": "\\text{rad} \\text{ or degrees}",
+            "note": ""
+          }
+        ],
+        "si_unit_of_result": "\\text{J}",
+        "use_case": "Direct Use",
+        "board_frequency": "MEDIUM",
+        "common_error": "Dropping the negative sign, which flips the identification of stable and unstable equilibrium."
+      },
+      {
+        "latex": "\\vec{B}_{A} = \\frac{\\mu_{0}}{4\\pi} \\frac{2\\vec{m}}{r^{3}}",
+        "label": "Axial Magnetic Field of a Short Bar Magnet",
+        "description": "The magnetic field on the axis of a short bar magnet at a large distance.",
+        "variables": [
+          {
+            "symbol": "\\vec{B}_{A}",
+            "name": "Axial magnetic field",
+            "unit": "\\text{T}",
+            "note": "Parallel to the magnetic moment"
+          },
+          {
+            "symbol": "\\vec{m}",
+            "name": "Magnetic moment",
+            "unit": "\\text{Am}^{2}",
+            "note": ""
+          },
+          {
+            "symbol": "r",
+            "name": "Distance from the center of the magnet",
+            "unit": "\\text{m}",
+            "note": "Requires r \\gg l"
+          }
+        ],
+        "si_unit_of_result": "\\text{T}",
+        "use_case": "Direct Use",
+        "board_frequency": "LOW",
+        "common_error": ""
+      },
+      {
+        "latex": "\\vec{B}_{E} = -\\frac{\\mu_{0}}{4\\pi} \\frac{\\vec{m}}{r^{3}}",
+        "label": "Equatorial Magnetic Field of a Short Bar Magnet",
+        "description": "The magnetic field on the equatorial line of a short bar magnet at a large distance.",
+        "variables": [
+          {
+            "symbol": "\\vec{B}_{E}",
+            "name": "Equatorial magnetic field",
+            "unit": "\\text{T}",
+            "note": "Antiparallel to the magnetic moment"
+          },
+          {
+            "symbol": "\\vec{m}",
+            "name": "Magnetic moment",
+            "unit": "\\text{Am}^{2}",
+            "note": ""
+          },
+          {
+            "symbol": "r",
+            "name": "Distance from the center of the magnet",
+            "unit": "\\text{m}",
+            "note": "Requires r \\gg l"
+          }
+        ],
+        "si_unit_of_result": "\\text{T}",
+        "use_case": "Direct Use",
+        "board_frequency": "LOW",
+        "common_error": "Missing the negative sign which indicates the anti-parallel nature."
+      }
+    ],
+    "ncert_golden_lines": [
+      "A magnetised needle in a uniform magnetic field experiences a torque but no net force.",
+      "Equation (5.3) shows that potential energy is minimum at \\theta = 0^{\\circ} (most stable position) and maximum at \\theta = 180^{\\circ} (most unstable position).",
+      "Comparison of equations for electric dipole suggests that magnetic field at large distances due to a bar magnet of magnetic moment m can be obtained from the equation for electric field due to an electric dipole."
+    ]
+  },
+  {
+    "meta": {
+      "subject": "Physics",
+      "chapter_number": 5,
+      "chapter_name": "Magnetism and Matter",
+      "topic": "Magnetism and Gauss's Law",
+      "frequency": "HIGH",
+      "class": 12,
+      "board": "CBSE"
+    },
+    "notes": [
+      {
+        "type": "concept",
+        "title": "Gauss's Law for Magnetism",
+        "tier": "1",
+        "points": [
+          "Gauss's Law for magnetism states that the net magnetic flux through any closed surface is always zero.",
+          "Mathematically, it is expressed as \\oint \\vec{B} \\cdot d\\vec{A} = 0, where \\vec{B} is the magnetic field and d\\vec{A} is an infinitesimal area element of a closed surface.",
+          "This law signifies that isolated magnetic poles, also known as magnetic monopoles, do not exist in nature.",
+          "Because the net flux is zero, the number of magnetic field lines entering a closed surface is exactly balanced by the number of lines leaving it.",
+          "It establishes that the simplest magnetic element is a magnetic dipole or a current loop, meaning there are no distinct sources or sinks of the magnetic field \\vec{B}.",
+          "If magnetic monopoles were ever discovered, Gauss's Law for magnetism would be modified to \\oint \\vec{B} \\cdot d\\vec{A} = \\mu_{0}q_{m}, where q_{m} is the enclosed magnetic charge."
+        ],
+        "why_it_matters": "Asked as 1-mark or 2-mark conceptual questions in boards, specifically asking to state the law and write its physical significance."
+      },
+      {
+        "type": "exam_intel",
+        "concept_ref": "Gauss's Law for Magnetism",
+        "frequency": "HIGH",
+        "marks_breakdown": [
+          "1 mark (MCQ / Assertion-Reason)",
+          "2 marks (Short Answer)"
+        ],
+        "question_forms": [
+          "State Gauss's law for magnetism. What does it signify? (2 marks)",
+          "Why do magnetic field lines form continuous closed loops? (1 mark)",
+          "If magnetic monopoles existed, how would Gauss's law of magnetism be modified? (1 mark)"
+        ],
+        "board_traps": [
+          "Writing the formula without the closed loop integral sign \\oint. Writing just \\int \\vec{B} \\cdot d\\vec{A} = 0 loses marks because the law specifically applies to a CLOSED surface.",
+          "Failing to mention the core physical significance: 'magnetic monopoles do not exist'."
+        ],
+        "common_mistakes": [
+          "Confusing Gauss's law for magnetism with Gauss's law for electrostatics. Students sometimes accidentally write \\frac{q}{\\epsilon_{0}} on the right-hand side."
+        ],
+        "answer_structure": "For a 2-mark question: First state the law in words. Then write the mathematical equation \\oint \\vec{B} \\cdot d\\vec{A} = 0. Finally, state the physical significance clearly (absence of isolated magnetic poles/monopoles).",
+        "examiner_expectation": "The examiner strictly looks for the term 'magnetic monopoles do not exist' and the correct closed surface integral notation."
+      },
+      {
+        "type": "rapid_recall",
+        "concept_ref": "Gauss's Law for Magnetism",
+        "one_liner": "The net magnetic flux through any closed surface is zero, which proves that magnetic monopoles do not exist.",
+        "memory_hook": "Flux in equals flux out. No start, no end. No monopoles.",
+        "never_forget": [
+          "Magnetic field lines always form continuous closed loops.",
+          "The right-hand side of Gauss's Law for magnetism is ALWAYS exactly zero.",
+          "The simplest magnetic source is a dipole, never a monopole."
+        ]
+      },
+      {
+        "type": "formula",
+        "label": "Gauss's Law for Magnetism",
+        "latex": "\\oint \\vec{B} \\cdot d\\vec{A} = 0",
+        "variables": [
+          {
+            "symbol": "\\vec{B}",
+            "name": "Magnetic field vector",
+            "unit": "T",
+            "note": "Evaluated at the surface element"
+          },
+          {
+            "symbol": "d\\vec{A}",
+            "name": "Infinitesimal area vector",
+            "unit": "m^{2}",
+            "note": "Points outward, normal to the closed surface"
+          }
+        ],
+        "conditions": [
+          "Must be applied over a closed, bounding surface (Gaussian surface)"
+        ],
+        "si_unit_of_result": "Wb",
+        "physical_meaning": "The total magnetic flux exiting any closed 3D surface is exactly zero, reflecting the non-existence of magnetic monopoles.",
+        "common_error": "Omitting the circle on the integral sign \\oint, which specifically denotes a closed surface."
+      },
+      {
+        "type": "diagram",
+        "title": "Gauss's Law for Magnetism applied to a Closed Surface",
+        "source": "NCERT",
+        "ncert_reference": "NCERT Fig 5.5",
+        "description": {
+          "what_is_shown": "A generic closed 3D surface intersected by uniform magnetic field lines, demonstrating that field lines entering the surface also leave it.",
+          "elements": [
+            "An irregularly shaped, blob-like closed 3D surface.",
+            "Parallel diagonal lines passing entirely through the surface, representing uniform magnetic field lines.",
+            "A small darkened rectangular patch on the surface representing an infinitesimal area element.",
+            "An outward pointing vertical arrow from the patch representing the unit normal vector.",
+            "An arrow parallel to the field lines originating from the patch representing the magnetic field vector.",
+            "An angle marking between the normal vector and the magnetic field vector."
+          ],
+          "labels": [
+            "\\Delta S (Area element)",
+            "\\hat{n} (Outward unit normal vector)",
+            "\\vec{B} (Magnetic field vector)",
+            "\\theta (Angle between \\hat{n} and \\vec{B})"
+          ],
+          "spatial_relationships": "The magnetic field lines pass completely through the closed surface without originating or terminating inside. The vector \\vec{B} and normal \\hat{n} diverge at an angle \\theta at the specific area element \\Delta S.",
+          "style_notes": "Use a dark #0a0a0f background. The closed surface should be a semi-transparent light blue blob. Magnetic field lines should be solid white lines with arrows. Vectors \\hat{n} and \\vec{B} should be distinctly colored, e.g., bright cyan and vibrant red, to stand out against the background."
+        },
+        "caption": "A small vector area element \\Delta S of a closed surface S, used to calculate magnetic flux \\Delta\\Phi_{B} = \\vec{B} \\cdot \\Delta\\vec{S}.",
+        "generation_prompt": "Draw an irregular, closed, blob-like 3D surface representing a Gaussian surface on a dark #0a0a0f background. Make the surface semi-transparent blue. Draw several parallel, straight, white dashed lines passing diagonally completely through the surface to represent a uniform magnetic field. On the top boundary of the surface, draw a small, dark rectangular patch to represent an area element. Label it '\\Delta S'. From this patch, draw a bright cyan arrow pointing straight up and label it '\\hat{n}'. From the same patch, draw a bright red arrow parallel to the diagonal magnetic field lines and label it '\\vec{B}'. Draw a small white arc between '\\hat{n}' and '\\vec{B}' and label it '\\theta'."
+      }
+    ],
+    "formula_sheet": [
+      {
+        "latex": "\\oint \\vec{B} \\cdot d\\vec{A} = 0",
+        "label": "Gauss's Law for Magnetism",
+        "description": "Fundamental equation stating that the net magnetic flux through any closed surface is zero.",
+        "variables": [
+          {
+            "symbol": "\\vec{B}",
+            "name": "Magnetic field",
+            "unit": "T",
+            "note": ""
+          },
+          {
+            "symbol": "d\\vec{A}",
+            "name": "Area element",
+            "unit": "m^{2}",
+            "note": ""
+          }
+        ],
+        "si_unit_of_result": "Wb",
+        "use_case": "Direct Use",
+        "board_frequency": "HIGH",
+        "common_error": "Forgetting the closed loop integral notation."
+      },
+      {
+        "latex": "\\oint \\vec{B} \\cdot d\\vec{A} = \\mu_{0}q_{m}",
+        "label": "Hypothetical Gauss's Law for Magnetism (If Monopoles Existed)",
+        "description": "How the law would look if isolated magnetic charges existed.",
+        "variables": [
+          {
+            "symbol": "\\mu_{0}",
+            "name": "Permeability of free space",
+            "unit": "T m / A",
+            "note": ""
+          },
+          {
+            "symbol": "q_{m}",
+            "name": "Enclosed magnetic monopole charge",
+            "unit": "A m",
+            "note": "Hypothetical quantity"
+          }
+        ],
+        "si_unit_of_result": "Wb",
+        "use_case": "Direct Use",
+        "board_frequency": "LOW",
+        "common_error": ""
+      }
+    ],
+    "ncert_golden_lines": [
+      "The net magnetic flux through any closed surface is zero.",
+      "The difference between the Gauss's law of magnetism and that for electrostatics is a reflection of the fact that isolated magnetic poles (also called monopoles) are not known to exist.",
+      "There are no sources or sinks of B; the simplest magnetic element is a dipole or a current loop."
+    ]
+  },
+  {
+    "meta": {
+      "subject": "Physics",
+      "chapter_number": 5,
+      "chapter_name": "Magnetism and matter",
+      "topic": "Magnetisation and Magnetic Intensity",
+      "frequency": "MEDIUM",
+      "class": 12,
+      "board": "CBSE"
+    },
+    "notes": [
+      {
+        "type": "concept",
+        "title": "Magnetisation and Magnetic Intensity",
+        "tier": "1",
+        "points": [
+          "Magnetisation M of a sample is defined as its net magnetic moment per unit volume.",
+          "The total magnetic field B inside a solenoid with a magnetic material core is the sum of the external field and the field contributed by the material core.",
+          "The field contributed by the material core is directly proportional to its magnetisation.",
+          "Magnetic intensity H is a vector field defined to account for the external sources of magnetic field, independent of the material.",
+          "The total magnetic field inside the material is expressed as the product of permeability of free space and the vector sum of magnetic intensity and magnetisation."
+        ],
+        "why_it_matters": "Asked as 2-mark conceptual definitions and standard relation derivations in boards."
+      },
+      {
+        "type": "exam_intel",
+        "concept_ref": "Magnetisation and Magnetic Intensity",
+        "frequency": "MEDIUM",
+        "marks_breakdown": [
+          "1 mark (MCQ)",
+          "2 marks (Short Answer)"
+        ],
+        "question_forms": [
+          "Define magnetisation and write its SI unit. (1 mark)",
+          "Establish the relation between magnetic field B, magnetic intensity H, and magnetisation M. (2 marks)"
+        ],
+        "board_traps": [
+          "Examiner places a question asking for units of H and M to test if students confuse them with the unit of B. Both H and M have units A/m."
+        ],
+        "common_mistakes": [
+          "Writing B = H + M without the permeability constant multiplier."
+        ],
+        "answer_structure": "State the formal definition exactly as per NCERT. Provide the formula, define every symbol, and state the SI unit explicitly.",
+        "examiner_expectation": "Examiner expects the exact term 'net magnetic moment per unit volume' for magnetisation and the correct SI unit."
+      },
+      {
+        "type": "rapid_recall",
+        "concept_ref": "Magnetisation and Magnetic Intensity",
+        "one_liner": "Magnetisation is net magnetic moment per volume, and total magnetic field relies on both external intensity H and material magnetisation M.",
+        "memory_hook": "",
+        "never_forget": [
+          "H and M have the exact same dimensions and SI unit (A/m).",
+          "Magnetic field B is measured in Tesla (T)."
+        ]
+      },
+      {
+        "type": "formula",
+        "label": "Magnetisation",
+        "latex": "\\vec{M} = \\frac{\\vec{m}_{net}}{V}",
+        "variables": [
+          {
+            "symbol": "\\vec{M}",
+            "name": "Magnetisation",
+            "unit": "A/m",
+            "note": ""
+          },
+          {
+            "symbol": "\\vec{m}_{net}",
+            "name": "Net magnetic moment",
+            "unit": "A m^{2}",
+            "note": ""
+          },
+          {
+            "symbol": "V",
+            "name": "Volume of the sample",
+            "unit": "m^{3}",
+            "note": ""
+          }
+        ],
+        "conditions": [
+          "Uniform magnetisation over the volume V"
+        ],
+        "si_unit_of_result": "A/m",
+        "physical_meaning": "Represents the extent to which a material is magnetised when placed in an external magnetic field.",
+        "common_error": ""
+      },
+      {
+        "type": "formula",
+        "label": "Total Magnetic Field",
+        "latex": "\\vec{B} = \\mu_{0}(\\vec{H} + \\vec{M})",
+        "variables": [
+          {
+            "symbol": "\\vec{B}",
+            "name": "Total magnetic field",
+            "unit": "T",
+            "note": ""
+          },
+          {
+            "symbol": "\\mu_{0}",
+            "name": "Permeability of free space",
+            "unit": "T m/A",
+            "note": "Value: 4\\pi \\times 10^{-7},\\text{T m/A}"
+          },
+          {
+            "symbol": "\\vec{H}",
+            "name": "Magnetic intensity",
+            "unit": "A/m",
+            "note": "Determined by external currents"
+          },
+          {
+            "symbol": "\\vec{M}",
+            "name": "Magnetisation",
+            "unit": "A/m",
+            "note": "Determined by the material's response"
+          }
+        ],
+        "conditions": [
+          "Valid for any magnetic material in an external field"
+        ],
+        "si_unit_of_result": "T",
+        "physical_meaning": "The total magnetic field inside a material is the superposition of the external field and the material's internal field response.",
+        "common_error": "Forgetting the permeability multiplier outside the brackets."
+      },
+      {
+        "type": "concept",
+        "title": "Magnetic Susceptibility and Permeability",
+        "tier": "1",
+        "points": [
+          "Magnetic susceptibility is a dimensionless quantity that measures how a magnetic material responds to an external field.",
+          "For linear isotropic materials, magnetisation is directly proportional to magnetic intensity.",
+          "Relative magnetic permeability is the ratio of the magnetic permeability of the substance to the permeability of free space.",
+          "The relation between relative permeability and magnetic susceptibility is linear.",
+          "The total magnetic field can be expressed as the product of absolute permeability and magnetic intensity."
+        ],
+        "why_it_matters": "Asked as 3-mark numericals determining relative permeability, susceptibility, magnetic intensity, and magnetisation for a given material."
+      },
+      {
+        "type": "exam_intel",
+        "concept_ref": "Magnetic Susceptibility and Permeability",
+        "frequency": "MEDIUM",
+        "marks_breakdown": [
+          "1 mark (MCQ)",
+          "3 marks (Numerical)"
+        ],
+        "question_forms": [
+          "Define magnetic susceptibility and relative permeability. (2 marks)",
+          "A solenoid has a core of material with relative permeability 400. Calculate magnetic intensity H, magnetisation M, and magnetic field B. (3 marks)"
+        ],
+        "board_traps": [
+          "Giving relative permeability but students substitute it directly as absolute permeability in formulas."
+        ],
+        "common_mistakes": [
+          "Using the wrong formula for magnetisation by forgetting the exact mathematical relationship to relative permeability."
+        ],
+        "answer_structure": "Identify given values. First calculate H using external factors only. Then calculate B using relative permeability. Finally, calculate M from the relationship between B, H, and M.",
+        "examiner_expectation": "Examiner checks the step-by-step decoupling of H (external) from B (total) and M (material)."
+      },
+      {
+        "type": "worked_example",
+        "concept_ref": "Magnetic Susceptibility and Permeability",
+        "purpose": "Demonstrates calculation of H, B, and M for a solenoid with a magnetic core.",
+        "situation": "A solenoid with 1000 turns per metre carries a current of 2A. Its core has a relative permeability of 400.",
+        "given": [
+          "n = 1000,\\text{m}^{-1}",
+          "I = 2,\\text{A}",
+          "\\mu_{r} = 400"
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "action": "Calculate magnetic intensity H",
+            "latex": "H = nI = 1000 \\times 2 = 2000,\\text{A/m}",
+            "why": "Magnetic intensity depends only on the external free current and winding density, independent of the core material."
+          },
+          {
+            "step_number": 2,
+            "action": "Calculate total magnetic field B",
+            "latex": "B = \\mu_{r}\\mu_{0}H = 400 \\times (4\\pi \\times 10^{-7}) \\times 2000 = 1.0,\\text{T}",
+            "why": "The total magnetic field is scaled by the relative permeability of the core."
+          },
+          {
+            "step_number": 3,
+            "action": "Calculate magnetisation M",
+            "latex": "M = (\\mu_{r} - 1)H = (400 - 1) \\times 2000 = 7.98 \\times 10^{5},\\text{A/m}",
+            "why": "Magnetisation is linked to H through susceptibility, which equals relative permeability minus one."
+          }
+        ],
+        "final_answer": {
+          "latex": "H = 2000,\\text{A/m},\\, B = 1.0,\\text{T},\\, M = 7.98 \\times 10^{5},\\text{A/m}",
+          "unit": "",
+          "direction": ""
+        },
+        "trap": "Calculating B using free space permeability instead of the material's absolute permeability."
+      },
+      {
+        "type": "rapid_recall",
+        "concept_ref": "Magnetic Susceptibility and Permeability",
+        "one_liner": "Magnetic susceptibility links magnetisation to magnetic intensity, and relative permeability links total field to magnetic intensity.",
+        "memory_hook": "",
+        "never_forget": [
+          "Susceptibility and relative permeability are dimensionless constants.",
+          "Magnetic intensity H is unaffected by inserting a core into a solenoid; however, total field B and magnetisation M increase."
+        ]
+      },
+      {
+        "type": "formula",
+        "label": "Magnetic Permeability Relation",
+        "latex": "\\mu = \\mu_{0}(1 + \\chi) = \\mu_{0}\\mu_{r}",
+        "variables": [
+          {
+            "symbol": "\\mu",
+            "name": "Magnetic permeability of the material",
+            "unit": "T m/A",
+            "note": ""
+          },
+          {
+            "symbol": "\\mu_{0}",
+            "name": "Permeability of free space",
+            "unit": "T m/A",
+            "note": ""
+          },
+          {
+            "symbol": "\\chi",
+            "name": "Magnetic susceptibility",
+            "unit": "dimensionless",
+            "note": ""
+          },
+          {
+            "symbol": "\\mu_{r}",
+            "name": "Relative magnetic permeability",
+            "unit": "dimensionless",
+            "note": ""
+          }
+        ],
+        "conditions": [
+          "Linear isotropic magnetic materials"
+        ],
+        "si_unit_of_result": "T m/A",
+        "physical_meaning": "Describes how the presence of a material enhances or reduces the magnetic field compared to a vacuum.",
+        "common_error": ""
+      }
+    ],
+    "formula_sheet": [
+      {
+        "latex": "\\vec{M} = \\frac{\\vec{m}_{net}}{V}",
+        "label": "Magnetisation",
+        "description": "Net magnetic moment per unit volume",
+        "variables": [
+          {
+            "symbol": "\\vec{M}",
+            "name": "Magnetisation",
+            "unit": "A/m",
+            "note": ""
+          },
+          {
+            "symbol": "\\vec{m}_{net}",
+            "name": "Net magnetic moment",
+            "unit": "A m^{2}",
+            "note": ""
+          },
+          {
+            "symbol": "V",
+            "name": "Volume",
+            "unit": "m^{3}",
+            "note": ""
+          }
+        ],
+        "si_unit_of_result": "A/m",
+        "use_case": "Direct Use",
+        "board_frequency": "MEDIUM",
+        "common_error": ""
+      },
+      {
+        "latex": "\\vec{B} = \\mu_{0}(\\vec{H} + \\vec{M})",
+        "label": "Total Magnetic Field",
+        "description": "Superposition of external and internal magnetic fields",
+        "variables": [
+          {
+            "symbol": "\\vec{B}",
+            "name": "Total magnetic field",
+            "unit": "T",
+            "note": ""
+          },
+          {
+            "symbol": "\\mu_{0}",
+            "name": "Permeability of free space",
+            "unit": "T m/A",
+            "note": ""
+          },
+          {
+            "symbol": "\\vec{H}",
+            "name": "Magnetic intensity",
+            "unit": "A/m",
+            "note": ""
+          },
+          {
+            "symbol": "\\vec{M}",
+            "name": "Magnetisation",
+            "unit": "A/m",
+            "note": ""
+          }
+        ],
+        "si_unit_of_result": "T",
+        "use_case": "Direct Use",
+        "board_frequency": "MEDIUM",
+        "common_error": "Missing the permeability constant multiplier."
+      },
+      {
+        "latex": "\\mu = \\mu_{0}(1 + \\chi) = \\mu_{0}\\mu_{r}",
+        "label": "Magnetic Permeability",
+        "description": "Relation between permeability and susceptibility",
+        "variables": [
+          {
+            "symbol": "\\mu",
+            "name": "Magnetic permeability",
+            "unit": "T m/A",
+            "note": ""
+          },
+          {
+            "symbol": "\\mu_{0}",
+            "name": "Permeability of free space",
+            "unit": "T m/A",
+            "note": ""
+          },
+          {
+            "symbol": "\\chi",
+            "name": "Magnetic susceptibility",
+            "unit": "dimensionless",
+            "note": ""
+          },
+          {
+            "symbol": "\\mu_{r}",
+            "name": "Relative magnetic permeability",
+            "unit": "dimensionless",
+            "note": ""
+          }
+        ],
+        "si_unit_of_result": "T m/A",
+        "use_case": "Direct Use",
+        "board_frequency": "MEDIUM",
+        "common_error": ""
+      }
+    ],
+    "ncert_golden_lines": [
+      "Magnetisation of a sample is defined to be equal to its net magnetic moment per unit volume.",
+      "Magnetic intensity is a quantity defined to account for the external sources of magnetic field, independent of the material.",
+      "The magnetic permeability of a substance is the product of the permeability of free space and the relative permeability."
+    ]
+  },
+  {
+    "meta": {
+      "subject": "Physics",
+      "chapter_number": 5,
+      "chapter_name": "Magnetism and Matter",
+      "topic": "Magnetic Properties of Materials",
+      "frequency": "HIGH",
+      "class": 12,
+      "board": "CBSE"
+    },
+    "notes": [
+      {
+        "type": "concept",
+        "title": "Diamagnetism",
+        "tier": "1",
+        "points": [
+          "Diamagnetic substances have a tendency to move from the stronger to the weaker part of the external magnetic field (they are repelled by magnets).",
+          "The resultant magnetic moment of an individual atom in these substances is zero.",
+          "When placed in a magnetic field, electrons with orbital magnetic moments in the same direction slow down, and those in the opposite direction speed up (in accordance with Lenz's law), developing a net magnetic moment opposite to the applied field.",
+          "Magnetic field lines are repelled or expelled, reducing the magnetic field inside the material.",
+          "Key properties: Magnetic susceptibility is small and negative (-1 \\le \\chi < 0), and relative permeability is positive but slightly less than one (0 \\le \\mu_{r} < 1).",
+          "Examples include bismuth, copper, lead, silicon, nitrogen (at STP), water, and sodium chloride.",
+          "Superconductors exhibit perfect diamagnetism (called the Meissner effect) where \\chi = -1 and \\mu_{r} = 0, completely expelling all magnetic field lines."
+        ],
+        "why_it_matters": "Asked as 2-mark conceptual questions requiring students to identify the material from its behaviour in a magnetic field or its negative susceptibility value."
+      },
+      {
+        "type": "exam_intel",
+        "concept_ref": "Diamagnetism",
+        "frequency": "HIGH",
+        "marks_breakdown": [
+          "1 mark (MCQ)",
+          "2 marks (Short Answer)"
+        ],
+        "question_forms": [
+          "Define diamagnetism and give two examples. (2 marks)",
+          "A substance is repelled by a strong magnet. Identify the substance and write the range of its magnetic susceptibility. (2 marks)",
+          "What is the Meissner effect? (1 mark)"
+        ],
+        "board_traps": [
+          "Students often confuse the sign of susceptibility for diamagnetic and paramagnetic materials. Remember diamagnetic susceptibility is always negative.",
+          "Examiner asks for the value of relative permeability of a perfect diamagnet. Students mistakenly write 1 instead of 0."
+        ],
+        "common_mistakes": [
+          "Writing that diamagnets are strictly 'unmagnetised' in a field, instead of 'weakly magnetised in the opposite direction'."
+        ],
+        "answer_structure": "Identify the material as diamagnetic based on repulsion or negative susceptibility. State the range of \\chi or \\mu_{r}. If explaining the origin, explicitly state the role of orbiting electrons and Lenz's law.",
+        "examiner_expectation": "Examiner looks for the keywords 'repelled', 'moves from stronger to weaker field', and the correct negative range of susceptibility."
+      },
+      {
+        "type": "rapid_recall",
+        "concept_ref": "Diamagnetism",
+        "one_liner": "Diamagnetic materials are weakly repelled by magnetic fields because their induced atomic dipoles oppose the external field.",
+        "memory_hook": "Diamagnetic = Die-magnetic (Field lines die or are expelled; the material repels the field).",
+        "never_forget": [
+          "Susceptibility \\chi is negative.",
+          "Relative permeability \\mu_{r} is less than 1 but greater than or equal to 0.",
+          "Superconductors are perfect diamagnets (\\chi = -1, \\mu_{r} = 0)."
+        ]
+      },
+      {
+        "type": "concept",
+        "title": "Paramagnetism",
+        "tier": "1",
+        "points": [
+          "Paramagnetic substances get weakly magnetised in the direction of the external magnetic field and tend to move from a region of weak magnetic field to a strong magnetic field.",
+          "Individual atoms, ions, or molecules in these materials possess a permanent magnetic dipole moment.",
+          "In the absence of an external field, net magnetisation is zero due to the ceaseless random thermal motion of the atoms.",
+          "In a strong external field and at low temperatures, the individual atomic dipole moments align in the same direction as the external field.",
+          "Key properties: Magnetic susceptibility is small and positive (0 < \\chi < \\epsilon), and relative permeability is slightly greater than one (1 < \\mu_{r} < 1+\\epsilon).",
+          "Magnetisation increases as the external field is increased or temperature is lowered, until saturation is reached where all dipoles are perfectly aligned.",
+          "Examples include aluminium, sodium, calcium, oxygen (at STP), and copper chloride."
+        ],
+        "why_it_matters": "Asked as 2-mark distinction questions comparing properties and field line diagrams with diamagnetic and ferromagnetic materials."
+      },
+      {
+        "type": "exam_intel",
+        "concept_ref": "Paramagnetism",
+        "frequency": "HIGH",
+        "marks_breakdown": [
+          "1 mark (MCQ)",
+          "2 marks (Short Answer)"
+        ],
+        "question_forms": [
+          "Explain the origin of paramagnetism. (2 marks)",
+          "How does the magnetisation of a paramagnetic material vary with temperature? (1 mark)",
+          "Draw the magnetic field lines when a paramagnetic substance is placed in an external uniform magnetic field. (1 mark)"
+        ],
+        "board_traps": [
+          "Examiner tests the temperature dependence. Students forget that thermal agitation disrupts alignment, so paramagnetism weakens as temperature increases."
+        ],
+        "common_mistakes": [
+          "Confusing the field line diagram of paramagnetic materials (lines slightly concentrated inside) with ferromagnetic materials (lines highly concentrated)."
+        ],
+        "answer_structure": "Define paramagnetism using the existence of permanent atomic dipoles. State that external fields cause alignment while thermal agitation opposes it. Note the positive, small value of susceptibility.",
+        "examiner_expectation": "Examiner wants to see the mention of 'permanent magnetic dipole moment' of individual atoms and the competing effect of 'thermal agitation'."
+      },
+      {
+        "type": "rapid_recall",
+        "concept_ref": "Paramagnetism",
+        "one_liner": "Paramagnetic materials have permanent atomic dipoles that weakly align with an external field, causing weak attraction.",
+        "memory_hook": "Paramagnetic = Partial alignment (weak attraction, small positive \\chi).",
+        "never_forget": [
+          "Susceptibility \\chi is a small positive number.",
+          "Relative permeability \\mu_{r} is slightly greater than 1.",
+          "Alignment improves with stronger fields and lower temperatures."
+        ]
+      },
+      {
+        "type": "concept",
+        "title": "Ferromagnetism",
+        "tier": "1",
+        "points": [
+          "Ferromagnetic substances get strongly magnetised in the direction of an external magnetic field and have a strong tendency to move from a weak to a strong magnetic field.",
+          "Individual atoms possess a dipole moment, and they interact cooperatively to spontaneously align in a common direction over macroscopic volumes called domains (size \\sim 1,\\text{mm}, containing \\sim 10^{11} atoms).",
+          "Without an external field, domains are randomly oriented, resulting in zero bulk magnetisation.",
+          "Under an external magnetic field \\vec{B}_{0}, domains aligned with the field grow in size, and other domains orient themselves in the direction of \\vec{B}_{0}, leading to a single 'giant' domain.",
+          "Key properties: Susceptibility is large and positive (\\chi \\gg 1), relative permeability is very large (\\mu_{r} \\gg 1).",
+          "Hard ferromagnetic materials (e.g., Alnico, lodestone) retain magnetisation after the external field is removed, making them suitable for permanent magnets.",
+          "Soft ferromagnetic materials (e.g., Soft iron) lose magnetisation upon removal of the external field, making them suitable for electromagnets.",
+          "At high temperatures, the domain structure disintegrates due to thermal agitation, and a ferromagnet becomes a paramagnet. This transition temperature is called the Curie temperature."
+        ],
+        "why_it_matters": "Highly tested in 3-mark and 5-mark questions, specially domain theory, temperature dependence, and distinguishing hard vs soft magnetic materials."
+      },
+      {
+        "type": "exam_intel",
+        "concept_ref": "Ferromagnetism",
+        "frequency": "HIGH",
+        "marks_breakdown": [
+          "2 marks (Reasoning)",
+          "3 marks (Explanatory)"
+        ],
+        "question_forms": [
+          "Explain ferromagnetism on the basis of domain theory. (3 marks)",
+          "Distinguish between hard and soft ferromagnetic materials. Give one example of each. (2 marks)",
+          "What happens to the domain structure of a ferromagnetic material when its temperature is increased? (1 mark)"
+        ],
+        "board_traps": [
+          "Asking why soft iron is used in electromagnets. Students often write 'high susceptibility' but forget to mention 'magnetisation disappears on removal of external field' (low retentivity)."
+        ],
+        "common_mistakes": [
+          "Stating that individual atoms in ferromagnets do not have dipole moments. They DO have them; the key difference is that they interact and align in domains."
+        ],
+        "answer_structure": "For domain theory: define domains \u2192 state random orientation initially \u2192 explain alignment and domain growth in an external field. For material choice: link 'hard' to retaining magnetisation (permanent magnets) and 'soft' to losing it (electromagnets).",
+        "examiner_expectation": "Examiner explicitly looks for the word 'domains' and the mechanism of 'domain growth' or 'domain alignment'."
+      },
+      {
+        "type": "worked_example",
+        "concept_ref": "Ferromagnetism",
+        "purpose": "Demonstrates how to classify materials based on their relative permeability and predict their physical behaviour in a magnetic field.",
+        "situation": "Two magnetic materials A and B have relative magnetic permeabilities 0.96 and 1000 respectively. Identify the magnetic nature of the materials A and B. What will happen if a bar of material B is placed in a non-uniform magnetic field?",
+        "given": [
+          "\\mu_{r,A} = 0.96",
+          "\\mu_{r,B} = 1000"
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "action": "Calculate magnetic susceptibility for material A to determine its nature.",
+            "latex": "\\chi_{A} = \\mu_{r,A} - 1 = 0.96 - 1 = -0.04",
+            "why": "Since the susceptibility is negative, the material weakly opposes the external field, making it diamagnetic."
+          },
+          {
+            "step_number": 2,
+            "action": "Calculate magnetic susceptibility for material B to determine its nature.",
+            "latex": "\\chi_{B} = \\mu_{r,B} - 1 = 1000 - 1 = 999",
+            "why": "Since the susceptibility is a very large positive number, the material strongly aligns with the external field, making it ferromagnetic."
+          },
+          {
+            "step_number": 3,
+            "action": "Predict the behavior of material B in a non-uniform field.",
+            "latex": "",
+            "why": "Ferromagnetic materials are strongly attracted by magnetic fields, so the bar will experience a strong force tending to move it from the weaker region to the stronger region of the magnetic field."
+          }
+        ],
+        "final_answer": {
+          "latex": "\\text{A is diamagnetic, B is ferromagnetic. Material B will move strongly towards the stronger part of the non-uniform magnetic field.}",
+          "unit": "",
+          "direction": ""
+        },
+        "trap": "Concluding material A is paramagnetic simply because its relative permeability 0.96 is a positive number, forgetting that the threshold separating dia and para is \\mu_{r} = 1."
+      },
+      {
+        "type": "rapid_recall",
+        "concept_ref": "Ferromagnetism",
+        "one_liner": "Ferromagnetic materials exhibit strong magnetic attraction due to the alignment of entire domains of atomic dipoles with the external field.",
+        "memory_hook": "Ferromagnetic = Fierce alignment (domains grow and align strongly).",
+        "never_forget": [
+          "Hard ferromagnets = Permanent magnets (Alnico).",
+          "Soft ferromagnets = Electromagnets (Soft iron).",
+          "Heating a ferromagnet destroys domains, turning it into a paramagnet at the Curie temperature."
+        ]
+      },
+      {
+        "type": "diagram",
+        "title": "Magnetic Field Lines in Dia- and Paramagnetic Materials",
+        "source": "NCERT",
+        "ncert_reference": "NCERT Fig 5.7",
+        "description": {
+          "what_is_shown": "The behavior of uniform external magnetic field lines when diamagnetic and paramagnetic bars are placed in them.",
+          "elements": [
+            "A rectangular bar of diamagnetic material.",
+            "A rectangular bar of paramagnetic material.",
+            "Magnetic field lines flowing from left to right."
+          ],
+          "labels": [
+            "(a) Diamagnetic",
+            "(b) Paramagnetic"
+          ],
+          "spatial_relationships": "In the diamagnetic bar, the field lines bend outwards, becoming less dense inside the material (expulsion). In the paramagnetic bar, the field lines bend inwards, becoming slightly more concentrated inside the material.",
+          "style_notes": "Dark background #0a0a0f. White outlines for the bars. Blue for the magnetic field lines with arrowheads indicating direction."
+        },
+        "caption": "Behaviour of magnetic field lines near (a) diamagnetic, and (b) paramagnetic substances.",
+        "generation_prompt": "Draw two separate panels side-by-side. In the left panel (labeled 'a'), draw a vertical rectangular bar representing a diamagnetic material. Draw horizontal magnetic field lines passing through the space. As the lines approach the bar, they must curve slightly outward to bypass or spread apart inside the bar, showing a lower density of field lines inside the bar compared to outside. In the right panel (labeled 'b'), draw a similar vertical rectangular bar representing a paramagnetic material. Draw horizontal magnetic field lines passing through the space. As these lines approach the bar, they must curve slightly inward, showing a slightly higher density of field lines inside the bar compared to the surrounding space. Use a dark background with white lines for the bars and light blue lines with directional arrows for the magnetic field lines."
+      },
+      {
+        "type": "diagram",
+        "title": "Domain Alignment in Ferromagnetic Materials",
+        "source": "NCERT",
+        "ncert_reference": "NCERT Fig 5.8",
+        "description": {
+          "what_is_shown": "The microscopic domain structure of a ferromagnetic material before and after the application of an external magnetic field.",
+          "elements": [
+            "An unmagnetised ferromagnetic sample divided into irregular polygonal regions representing domains.",
+            "A magnetised ferromagnetic sample showing a single giant domain.",
+            "Arrows inside each domain representing the net magnetic moment of that domain.",
+            "An external magnetic field vector arrow."
+          ],
+          "labels": [
+            "(a) Randomly oriented domains",
+            "(b) Aligned domains",
+            "\\vec{B}_{0}"
+          ],
+          "spatial_relationships": "In the unmagnetised state (a), the domains have arrows pointing in completely random directions, cancelling each other out. In the magnetised state (b), the domain boundaries have vanished or merged, and all arrows point uniformly in the direction of the external magnetic field \\vec{B}_{0}.",
+          "style_notes": "Dark background #0a0a0f. White lines for domain boundaries. Light blue arrows for magnetic moments."
+        },
+        "caption": "Randomly oriented domains in an unmagnetised ferromagnet, and aligned domains in a magnetised ferromagnet under an external field.",
+        "generation_prompt": "Create a diagram showing two states of a ferromagnetic material. On the left (labeled 'a'), draw a circular or irregular blob representing a piece of material. Divide the inside of this blob into several smaller, irregular polygonal shapes. Inside each polygon, draw an arrow pointing in a completely random direction. This represents randomly oriented magnetic domains. On the right (labeled 'b'), draw the exact same outer boundary for the material blob, but do not draw any internal polygonal boundaries. Inside this blob, draw several arrows all pointing uniformly towards the right. Above this second blob, draw a large arrow pointing right, labeled 'B_0', representing the applied external magnetic field. Use a dark background with white outlines and bright blue arrows."
+      }
+    ],
+    "formula_sheet": [
+      {
+        "latex": "\\mu_{r} = 1 + \\chi",
+        "label": "Relation between Relative Permeability and Susceptibility",
+        "description": "Connects a material's relative permeability to its magnetic susceptibility.",
+        "variables": [
+          {
+            "symbol": "\\mu_{r}",
+            "name": "Relative magnetic permeability",
+            "unit": "dimensionless",
+            "note": "Ratio of material's permeability to free space permeability."
+          },
+          {
+            "symbol": "\\chi",
+            "name": "Magnetic susceptibility",
+            "unit": "dimensionless",
+            "note": "Measures how easily a substance is magnetised."
+          }
+        ],
+        "si_unit_of_result": "dimensionless",
+        "use_case": "Direct Use",
+        "board_frequency": "HIGH",
+        "common_error": "Misinterpreting the sign; failing to recognise that for diamagnets, \\chi is negative, forcing \\mu_{r} to be strictly less than 1."
+      }
+    ],
+    "ncert_golden_lines": [
+      "Diamagnetic substances are those which have tendency to move from stronger to the weaker part of the external magnetic field.",
+      "The phenomenon of perfect diamagnetism in superconductors is called the Meissner effect.",
+      "Paramagnetic substances are those which get weakly magnetised when placed in an external magnetic field.",
+      "In a ferromagnetic material the field lines are highly concentrated. In non-uniform magnetic field, the sample tends to move towards the region of high field."
+    ]
+  }
+]

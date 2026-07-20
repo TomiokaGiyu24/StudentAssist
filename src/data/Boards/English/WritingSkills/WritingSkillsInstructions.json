@@ -1,0 +1,96 @@
+{
+    "board_pattern_intelligence": {
+        "latest_weightage_trend": "Section B (Creative Writing Skills) Total: 18 Marks. Job Application typically appears as Q5 (5 Marks), usually an internal choice against Letter to the Editor.",
+        "marks_distribution": {
+            "format_marks": 1,
+            "content_marks": 2,
+            "expression_marks": 2
+        },
+        "common_question_variations": [
+            "Application for the post of PGT/TGT (Teacher) in a school.",
+            "Application for a corporate role (e.g., Marketing Executive, Junior Accountant).",
+            "Drafting a Bio-data/Resume/CV is universally mandatory for this question type."
+        ]
+    },
+    "perfect_format_blueprint": {
+        "mandatory_components": [
+            "Sender's Address",
+            "Date",
+            "Receiver's Address (The Principal/The HR Manager)",
+            "Subject Line (Application for the post of...)",
+            "Salutation (Sir/Madam)",
+            "Body Paragraph 1 (Source of info)",
+            "Body Paragraph 2 (Candidature & Skills)",
+            "Body Paragraph 3 (Enclosure reference)",
+            "Complimentary Close (Yours faithfully)",
+            "Signature & Name",
+            "Enclosure Line (Encl: Bio-data)",
+            "BIO-DATA / RESUME (Center Aligned Heading)",
+            "Personal Details (Name, Father's Name, DOB, Address, Contact)",
+            "Educational Qualifications (Table format mandatory)",
+            "Experience",
+            "References (2 names)"
+        ],
+        "sequence_order": [
+            "Cover Letter",
+            "Bio-data"
+        ],
+        "format_visual_structure": "[Sender's Address]\n\n[Date]\n\n[Receiver's Designation]\n[Organization Name]\n[Address]\n\nSubject: Application for the post of [Post Name]\n\nSir/Madam,\n\n[Body]\n\nYours faithfully,\n[Sign]\n[Name]\n\nEncl: Bio-data\n\n----------------- BIO-DATA -----------------\n[Details]"
+    },
+    "step_by_step_writing_algorithm": [
+        "Step 1: Analyze the Question. Identify: Job Title, Organization Name, Required Qualifications (if hinted).",
+        "Step 2: Draft Cover Letter. Use the 'Source-Apply-Assure' formula. State where you saw the ad, apply for the post, and assure service quality.",
+        "Step 3: Create Bio-data. MUST use a box for Bio-data? (Optional but recommended for neatness). Ensure the Educational Qualification table has 4 columns: Course, Board/Uni, Year, %.",
+        "Step 4: Align Qualifications. If applying for a Teacher post, B.Ed is mandatory. If Accountant, B.Com/M.Com/CA.",
+        "Step 5: Review. Check if 'References' are included (crucial for full marks)."
+    ],
+    "introduction_templates": [
+        "In response to your advertisement in 'The Times of India' dated [Date] for the post of [Post Name], I hereby offer my candidature for the same.",
+        "With reference to your advertisement in 'The Hindu' dated [Date] regarding the vacancy for a [Post Name], I wish to apply for the said post."
+    ],
+    "body_development_framework": {
+        "paragraph_structure_model": "Para 1: Reference to Advertisement. Para 2: Suitability (Experience, Skills, Hardworking nature). Para 3: Call to Action (Available for interview).",
+        "argument_building_technique": "Match keywords from the question (e.g., 'hardworking', 'computer literate') directly into the second paragraph.",
+        "coherence_strategy": "Use connectors like 'Furthermore', 'I possess...', 'I enclose herewith...'."
+    },
+    "conclusion_templates": [
+        "I enclose my bio-data for your kind perusal. I am available for an interview at your earliest convenience.",
+        "My detailed resume is attached herewith. I look forward to a positive response."
+    ],
+    "vocabulary_upgrade_system": {
+        "basic_to_board_level_word_map": [
+            {
+                "basic": "Job",
+                "improved": "Post / Vacancy",
+                "board_level": "Candidature"
+            },
+            {
+                "basic": "Good at",
+                "improved": "Proficient in",
+                "board_level": "Possess expertise in"
+            },
+            {
+                "basic": "attached",
+                "improved": "enclosed",
+                "board_level": "Enclosed herewith"
+            }
+        ],
+        "sentence_upgrade_examples": [
+            "Basic: I want to apply for this job.",
+            "Board Level: I hereby offer my candidature for the post of [Name] in your esteemed organization."
+        ]
+    },
+    "model_answer_within_word_limit": "42, Model Town\nKhushnagar\n\n14th March, 2026\n\nThe HR Director\nFinancial Solutions Ltd.\n37 Meghdoot Towers\nNalbagh\n\nSubject: Application for the post of Junior Accountant\n\nSir,\n\nIn response to your advertisement in 'The Daily News' dated 12th March, 2026 for the post of Junior Accountant, I wish to offer my candidature for the same.\n\nI possess the requisite qualifications and experience as per your requirements. I am a hardworking and diligent professional with proficiency in accounting software. I assure you of my dedication and sincerity if given an opportunity to serve your esteemed organization.\n\nMy detailed bio-data is enclosed herewith for your kind perusal. I am available for an interview at any time convenient to you.\n\nYours faithfully,\nShailesh Khanna\n\nEncl: Bio-data\n\nBIO-DATA\nName: Shailesh Khanna\nFather's Name: Mr. Raj Khanna\nDate of Birth: 15th August, 1998\nAddress: 42, Model Town, Khushnagar\nContact No.: 98765xxxxx\nEmail ID: shailesh.k@email.com\n\nEducational Qualifications:\n| Exam | Board/Univ. | Year | % |\n|------|-------------|------|----|\n| CBSE (XII) | CBSE | 2016 | 92% |\n| B.Com (Hons)| Delhi Univ. | 2019 | 85% |\n| M.Com | Delhi Univ. | 2021 | 80% |\n\nExperience: Working as Assistant Accountant at ABC Corp since 2021.\nSkills: Tally, MS Office, Tax Filing.\nLanguages Known: English, Hindi.\nReferences:\n1. Dr. A.K. Sharma, Professor, Delhi University.\n2. Mr. R. Singh, Manager, ABC Corp.",
+    "common_mark_losing_mistakes": [
+        "Omitting the 'Subject' line.",
+        "Forgetting to write 'Encl: Bio-data' at the end of the letter.",
+        "In Bio-data: Missing the 'Educational Qualifications' table (examiners look for the table).",
+        "In Bio-data: Not including 'References' (mandatory component).",
+        "Date mismatch: The date of the letter must be *after* the date of the newspaper advertisement mentioned."
+    ],
+    "examiner_psychology_insights": [
+        "Examiners check the 'Format' first. If the box (for bio-data) and table (for qualifications) are visible, you gain immediate confidence.",
+        "The phrase 'esteemed organization' is a psychological trigger for 'Formal Expression' marks.",
+        "Consistency in the 'Year of Passing' in the qualifications table is checked to ensure chronological logic (e.g., Class 12 in 2016, Graduation in 2019)."
+    ]
+}

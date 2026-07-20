@@ -1,0 +1,704 @@
+{
+  "chapter_name": "Determinants",
+  "board": "CBSE",
+  "class": "12",
+  "exam_year": "2026",
+  "formulas": [
+    {
+      "formula_number": 1,
+      "formula_title": "Expansion of a Determinant (Order 3)",
+      "section_A": {
+        "latex_formula": "$$|A| = a_{11}(a_{22}a_{33} - a_{32}a_{23}) - a_{12}(a_{21}a_{33} - a_{31}a_{23}) + a_{13}(a_{21}a_{32} - a_{31}a_{22})$$",
+        "derived_forms": [
+          "$$|A| = \\sum_{j=1}^{3} (-1)^{i+j} a_{ij} M_{ij} \\quad \\text{(Expansion along } i\\text{-th row)}$$",
+          "$$|A| = \\sum_{i=1}^{3} (-1)^{i+j} a_{ij} M_{ij} \\quad \\text{(Expansion along } j\\text{-th column)}$$"
+        ],
+        "special_cases": [
+          "$$\\text{If a determinant has all zero elements in a row or column, its value is 0.}$$",
+          "$$\\text{Determinant of a triangular matrix is the product of its principal diagonal elements.}$$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "To find a unique numerical value associated with a square matrix, essential for solving systems of equations or finding inverses.",
+        "trigger_keywords": [
+          "Evaluate",
+          "Find the determinant",
+          "Solve for x"
+        ],
+        "question_types": [
+          "1_mark",
+          "2_mark"
+        ],
+        "common_mistakes": [
+          "Forgetting the negative sign for the middle term $a_{12}$ when expanding along the first row.",
+          "Multiplying diagonals in the wrong order ($a_{32}a_{23} - a_{22}a_{33}$) when evaluating the $2 \\times 2$ minor."
+        ],
+        "board_traps": [
+          "Giving a matrix with variables and a known determinant value, leading to a quadratic equation where one root must be rejected based on other conditions."
+        ],
+        "examiner_twist_pattern": "Placing zeros strategically in the second or third row/column to see if students realize they can expand along those lines to save time, rather than blindly using row 1."
+      },
+      "section_C": {
+        "why_students_fail": "Students memorize the pattern for Row 1 but struggle or make sign errors when forced to expand along a different row or column to save time.",
+        "how_to_think": "Think 'Checkerboard of Signs'. Every position has an inherent sign $(+, -, +)$ alternating. Pick the row or column with the most zeros, apply the inherent signs, multiply the element by its minor, and sum them up.",
+        "thirty_second_strategy": "1. Scan the determinant for the row/column with the most zeros. 2. Write down the $+ - +$ pattern for that specific line. 3. Expand only the non-zero terms.",
+        "mental_shortcut": "Down-right is positive, up-right is negative.",
+        "micro_example": "Expand along R2 containing $(0, 5, 0)$. The inherent sign for position $a_{22}$ is $+$. The value is simply $+5 \\times (a_{11}a_{33} - a_{31}a_{13})$. All other terms are zero."
+      }
+    },
+    {
+      "formula_number": 2,
+      "formula_title": "Determinant Scaling Property ($|kA|$)",
+      "section_A": {
+        "latex_formula": "$$|kA| = k^n |A|, \\quad \\text{where } n \\text{ is the order of the square matrix } A.$$",
+        "derived_forms": [
+          "$$|AB| = |A||B|$$",
+          "$$|A^m| = (|A|)^m$$",
+          "$$|I| = 1$$"
+        ],
+        "special_cases": [
+          "$$\\text{If } A \\text{ is a } 3 \\times 3 \\text{ matrix, } |-A| = (-1)^3|A| = -|A|$$",
+          "$$\\text{If } A \\text{ is a } 2 \\times 2 \\text{ matrix, } |-A| = (-1)^2|A| = |A|$$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "When evaluating the determinant of a matrix that has been multiplied by a scalar, or to factor out a common number from an entire matrix.",
+        "trigger_keywords": [
+          "Find |kA|",
+          "Given |A|, find |3A|",
+          "Evaluate without expanding"
+        ],
+        "question_types": [
+          "1_mark",
+          "2_mark"
+        ],
+        "common_mistakes": [
+          "Writing $|kA| = k|A|$. This confuses matrices with determinants. In a determinant, a scalar is factored out from *each row*. For an $n \\times n$ matrix, it comes out $n$ times.",
+          "Applying the property but using the wrong order $n$ (e.g., using $n=2$ for a $3 \\times 3$ matrix)."
+        ],
+        "board_traps": [
+          "Giving a $3 \\times 3$ matrix $A$ with $|A|=4$, and asking for $|2A|$. Students commonly write $8$ ($2 \\times 4$) instead of $32$ ($2^3 \\times 4$)."
+        ],
+        "examiner_twist_pattern": "Asking for the determinant of $-A$. Students forget that taking out a negative sign means taking out $(-1)^n$. If $n$ is even, $|-A| = |A|$. If $n$ is odd, $|-A| = -|A|$."
+      },
+      "section_C": {
+        "why_students_fail": "Deep confusion between Matrix rules and Determinant rules. In matrices, scalar $k$ hits every element. In determinants, scalar $k$ hits just one row.",
+        "how_to_think": "Think 'Volume Scaling'. A $3 \\times 3$ determinant represents 3D volume. If you double every dimension (length, width, height) of a box, the volume increases by $2 \\times 2 \\times 2 = 8$ times, not 2 times.",
+        "thirty_second_strategy": "1. Identify the scalar $k$. 2. Identify the order of the matrix $n$. 3. Raise $k$ to the power $n$. 4. Multiply by the original determinant $|A|$.",
+        "mental_shortcut": "$k$ comes out of the matrix wearing the order as a hat ($k^n$).",
+        "micro_example": "Given $|A| = 5$ and $A$ is $3 \\times 3$. Evaluate $|-2A|$. Solution: $|-2A| = (-2)^3 |A| = -8 \\times 5 = -40$."
+      }
+    },
+    {
+      "formula_number": 3,
+      "formula_title": "Area of a Triangle Using Determinants",
+      "section_A": {
+        "latex_formula": "$$\\Delta = \\frac{1}{2} \\left| \\begin{matrix} x_1 & y_1 & 1 \\\\ x_2 & y_2 & 1 \\\\ x_3 & y_3 & 1 \\end{matrix} \\right|$$",
+        "derived_forms": [
+          "$$\\text{Points are collinear if and only if } \\Delta = 0$$",
+          "$$\\text{Equation of a line through } (x_1, y_1) \\text{ and } (x_2, y_2): \\left| \\begin{matrix} x & y & 1 \\\\ x_1 & y_1 & 1 \\\\ x_2 & y_2 & 1 \\end{matrix} \\right| = 0$$"
+        ],
+        "special_cases": [
+          "$$\\text{Always take the absolute value of the determinant for the final area.}$$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "To find the area of a triangle given its vertices, test for collinearity, or find the equation of a line passing through two points.",
+        "trigger_keywords": [
+          "Using determinants, find the area",
+          "Show that the points are collinear",
+          "Find the equation of the line joining"
+        ],
+        "question_types": [
+          "2_mark",
+          "3_mark"
+        ],
+        "common_mistakes": [
+          "Forgetting the $1/2$ multiplier outside the determinant.",
+          "When area is given (e.g., 35 sq units) to find an unknown coordinate $k$, students only equate the determinant to $+35$, ignoring $-35$."
+        ],
+        "board_traps": [
+          "Giving the area as 4 sq units and points as $(k, 0), (4, 0), (0, 2)$. Asking for $k$. If the student does not use $\\pm 4$, they lose half the marks."
+        ],
+        "examiner_twist_pattern": "Asking to find the equation of a line using determinants, and then verifying if a third point lies on it. Combines line equation and collinearity."
+      },
+      "section_C": {
+        "why_students_fail": "Students forget that the determinant can yield a negative value due to vertex orientation, but area is scalar. When working backwards from a given area, they miss the dual algebraic solutions.",
+        "how_to_think": "Think 'Area is absolute, Math is not'. The determinant calculates a signed area. If you know the physical area is 10, the math inside could have equaled $+10$ or $-10$.",
+        "thirty_second_strategy": "1. Set up the determinant with $x$'s in Col 1, $y$'s in Col 2, $1$'s in Col 3. 2. Put $1/2$ outside. 3. If area is given as $A$, set the equation to $\\pm A$. 4. Solve for the unknown.",
+        "mental_shortcut": "Given Area $\\implies$ Use $\\pm$. Finding Area $\\implies$ Use Absolute value $| |$.",
+        "micro_example": "Area = 3. Vertices: $(1,3), (0,0), (k,0)$. $\\frac{1}{2} |1(0) - 3(0-k) + 1(0)| = \\pm 3 \\implies 3k = \\pm 6 \\implies k = 2$ or $-2$."
+      }
+    },
+    {
+      "formula_number": 4,
+      "formula_title": "Minors and Cofactors",
+      "section_A": {
+        "latex_formula": "$$A_{ij} = (-1)^{i+j} M_{ij}$$",
+        "derived_forms": [
+          "$$|A| = a_{i1}A_{i1} + a_{i2}A_{i2} + a_{i3}A_{i3} \\quad \\text{(Expansion by Cofactors)}$$",
+          "$$a_{i1}A_{j1} + a_{i2}A_{j2} + a_{i3}A_{j3} = 0 \\quad \\text{for } i \\neq j \\quad \\text{(Orthogonal Property)}$$"
+        ],
+        "special_cases": [
+          "$$\\text{If } i+j \\text{ is even, } A_{ij} = M_{ij}$$",
+          "$$\\text{If } i+j \\text{ is odd, } A_{ij} = -M_{ij}$$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "Fundamental building block for finding the Adjoint of a matrix, calculating the inverse, or verifying abstract determinant properties.",
+        "trigger_keywords": [
+          "Write the minors and cofactors",
+          "Using cofactors of elements of second row, evaluate"
+        ],
+        "question_types": [
+          "1_mark",
+          "2_mark"
+        ],
+        "common_mistakes": [
+          "Applying the $(-1)^{i+j}$ sign change twice (once when calculating minor, once for cofactor).",
+          "Mixing up rows and columns when finding the minor (crossing out the wrong row/column)."
+        ],
+        "board_traps": [
+          "Asking for the value of $\\sum a_{1j} A_{2j}$. Students will spend 5 minutes calculating this sum, not realizing the property states that elements of a row multiplied by cofactors of *another* row always sum to 0."
+        ],
+        "examiner_twist_pattern": "Asking to expand the determinant strictly using the cofactors of a specific row or column. If the student expands normally, zero marks are awarded."
+      },
+      "section_C": {
+        "why_students_fail": "Lack of clarity between Minors (pure determinant of the sub-matrix) and Cofactors (Minor attached with a positional sign).",
+        "how_to_think": "Think 'Minor is the raw block, Cofactor paints it'. The minor is just the smaller determinant left over. The cofactor is that same minor painted with either a '+' or '-' based on the checkerboard pattern.",
+        "thirty_second_strategy": "1. Find Minor $M_{ij}$ by hiding row $i$ and column $j$. 2. Add the indices $i+j$. 3. If even, Cofactor = Minor. 4. If odd, Cofactor = -(Minor).",
+        "mental_shortcut": "Diamond pattern in a $3 \\times 3$ has negative signs (positions $12, 21, 23, 32$). All corners and center are positive.",
+        "micro_example": "For matrix $[1 \\quad 2; 3 \\quad 4]$. Minor of $2$ (pos $12$) is $3$. Cofactor $A_{12} = (-1)^{1+2}(3) = -3$."
+      }
+    },
+    {
+      "formula_number": 5,
+      "formula_title": "Adjoint of a Matrix & Identity Relation",
+      "section_A": {
+        "latex_formula": "$$A \\cdot (\\text{adj } A) = (\\text{adj } A) \\cdot A = |A| I$$",
+        "derived_forms": [
+          "$$\\text{adj } A = [A_{ij}]^T = [A_{ji}] \\quad \\text{(Transpose of Cofactor Matrix)}$$",
+          "$$|\\text{adj } A| = |A|^{n-1}$$",
+          "$$\\text{adj(adj } A) = |A|^{n-2} A$$",
+          "$$|\\text{adj(adj } A)| = |A|^{(n-1)^2}$$"
+        ],
+        "special_cases": [
+          "$$\\text{adj}(AB) = (\\text{adj } B)(\\text{adj } A) \\quad \\text{(Reversal Law)}$$",
+          "$$\\text{For a } 2 \\times 2 \\text{ matrix } \\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix}, \\text{ adj } A = \\begin{bmatrix} d & -b \\\\ -c & a \\end{bmatrix}$$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "When solving determinant-based abstract algebra problems, finding the inverse of a matrix, or evaluating 1-mark shortcut questions involving $|\\text{adj } A|$.",
+        "trigger_keywords": [
+          "Find |adj A|",
+          "Verify A(adj A) = |A|I",
+          "Without finding adjoint"
+        ],
+        "question_types": [
+          "1_mark",
+          "2_mark",
+          "4_mark"
+        ],
+        "common_mistakes": [
+          "Forgetting to TRANSPOSE the cofactor matrix when calculating the Adjoint.",
+          "Using $|\\text{adj } A| = |A|^n$ instead of $|A|^{n-1}$. This is the most heavily penalized 1-mark error."
+        ],
+        "board_traps": [
+          "Giving a $3 \\times 3$ matrix $A$ where $|A| = 5$, and asking for $|\\text{adj } A|$. Calculating the full adjoint wastes 10 minutes. Using the formula takes 5 seconds."
+        ],
+        "examiner_twist_pattern": "Asking for $A \\cdot (\\text{adj } A)$ when $A$ is singular ($|A|=0$). Students will calculate everything instead of recognizing that if $|A|=0$, the product is simply the zero matrix $O$."
+      },
+      "section_C": {
+        "why_students_fail": "Students view the adjoint as purely a mechanical calculation rather than a structural property of matrices linked fundamentally to the Identity matrix and Determinant.",
+        "how_to_think": "Think of the Adjoint as the 'pre-inverse'. It does all the heavy lifting of rearranging the matrix so that when it hits the original matrix, everything collapses into the Identity matrix scaled by the determinant.",
+        "thirty_second_strategy": "To find $2 \\times 2$ adjoint: Swap main diagonal, flip signs of the other diagonal. To find $|\\text{adj } A|$: Just find $|A|$, then raise it to the power of $(n-1)$.",
+        "mental_shortcut": "$2 \\times 2$ Adjoint: Swap the main, negate the pain (the other diagonal).",
+        "micro_example": "If $A$ is a $3 \\times 3$ matrix with $|A| = 4$. What is $|\\text{adj } A|$? Answer: $|A|^{3-1} = 4^2 = 16$."
+      }
+    },
+    {
+      "formula_number": 6,
+      "formula_title": "Inverse of a Matrix using Adjoint",
+      "section_A": {
+        "latex_formula": "$$ A^{-1} = \\frac{1}{|A|} \\text{adj}(A), \\quad \\text{provided } |A| \\neq 0 $$",
+        "derived_forms": [
+          "$$ |A^{-1}| = \\frac{1}{|A|} $$",
+          "$$ (A^{-1})^T = (A^T)^{-1} $$",
+          "$$ (AB)^{-1} = B^{-1}A^{-1} $$"
+        ],
+        "special_cases": [
+          "$$ \\text{If } |A| = 0, \\text{ the matrix is singular and its inverse does not exist.} $$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "When asked to find the inverse of a matrix without using elementary row operations, or when calculating the inverse as a step to solve a system of linear equations.",
+        "trigger_keywords": [
+          "Find the inverse of matrix A",
+          "Find A^{-1}",
+          "Hence solve the system of equations"
+        ],
+        "question_types": [
+          "3_mark",
+          "5_mark"
+        ],
+        "common_mistakes": [
+          "Forgetting to divide the adjoint matrix by the determinant $|A|$.",
+          "Dividing by $|A|$ when $|A| = 0$, which is mathematically undefined."
+        ],
+        "board_traps": [
+          "Asking to find $A^{-1}$ and then solving a system of equations, but the system's coefficient matrix is actually $A^T$. Students blindly use $A^{-1}$ instead of $(A^T)^{-1}$."
+        ],
+        "examiner_twist_pattern": "Giving an equation like $A = \\text{diag}(d_1, d_2, d_3)$ and asking for $A^{-1}$. Students waste time finding cofactors instead of just writing $A^{-1} = \\text{diag}(1/d_1, 1/d_2, 1/d_3)$."
+      },
+      "section_C": {
+        "why_students_fail": "Calculation errors in the 9 cofactors cascade into the final adjoint, making the entire inverse incorrect. Lack of checking the answer.",
+        "how_to_think": "Think 'Check your work immediately'. Since $A A^{-1} = I$, you can always multiply your calculated inverse (or just one row of it) by the original matrix to see if you get $1$ on the diagonal and $0$ elsewhere.",
+        "thirty_second_strategy": "1. Find $|A|$. If 0, stop. 2. Find all 9 cofactors. 3. Put them in a matrix and TRANSPOSE it to get $\\text{adj}(A)$. 4. Divide every element by $|A|$.",
+        "mental_shortcut": "Inverse = Transposed Cofactors divided by Determinant.",
+        "micro_example": "If $A = \\begin{bmatrix} 2 & 0 \\\\ 0 & 3 \\end{bmatrix}$, then $|A|=6$ and $\\text{adj}(A) = \\begin{bmatrix} 3 & 0 \\\\ 0 & 2 \\end{bmatrix}$. So $A^{-1} = \\begin{bmatrix} 3/6 & 0 \\\\ 0 & 2/6 \\end{bmatrix} = \\begin{bmatrix} 1/2 & 0 \\\\ 0 & 1/3 \\end{bmatrix}$."
+      }
+    },
+    {
+      "formula_number": 7,
+      "formula_title": "Solution of System of Linear Equations (Matrix Method)",
+      "section_A": {
+        "latex_formula": "$$ AX = B \\implies X = A^{-1}B \\quad \\text{where } X \\text{ is the variable matrix} $$",
+        "derived_forms": [
+          "$$ A = \\text{Coefficient Matrix}, \\quad X = \\text{Variable Matrix}, \\quad B = \\text{Constant Matrix} $$"
+        ],
+        "special_cases": [
+          "$$ \\text{For a homogeneous system } (B=0), AX = 0. \\text{ If } |A| \\neq 0, \\text{ trivial solution } X=0. \\text{ If } |A| = 0, \\text{ non-trivial solutions exist.} $$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "The standard approach for solving 3x3 linear equation word problems or direct variable systems in Section D/E of the board paper.",
+        "trigger_keywords": [
+          "Solve the system of linear equations using matrix method",
+          "Use matrix method to find"
+        ],
+        "question_types": [
+          "5_mark",
+          "case_based"
+        ],
+        "common_mistakes": [
+          "Setting up the $A$ matrix with variables in the wrong order (e.g., mixing $x, y, z$ columns if the equations aren't perfectly aligned).",
+          "Multiplying $B A^{-1}$ instead of $A^{-1} B$. Matrix multiplication is not commutative!"
+        ],
+        "board_traps": [
+          "Giving equations with variables in the denominator (e.g., $2/x + 3/y + 10/z = 4$). Students get confused, whereas they just need to let $u=1/x, v=1/y, w=1/z$ and solve for $u, v, w$ first."
+        ],
+        "examiner_twist_pattern": "Asking to find the product of two matrices $AB$, and 'hence solve' a given system. The twist is that the coefficient matrix of the system is usually $A$, and the product $AB = kI$, meaning $A^{-1} = (1/k)B$. Students calculating the adjoint from scratch lose time and marks."
+      },
+      "section_C": {
+        "why_students_fail": "Failing to write equations in standard form $ax+by+cz=d$ before extracting the matrices, or making a single arithmetic error in $A^{-1}$ which ruins the final $X$ values.",
+        "how_to_think": "Think 'Algebra translation'. You are just writing $ax=b$ as $x=b/a$. But since matrices can't divide, you multiply by the inverse: $X = A^{-1}B$.",
+        "thirty_second_strategy": "1. Align all equations: $x$ then $y$ then $z$ = constant. 2. Extract $A, X, B$. 3. Find $|A|$. 4. Find $\\text{adj}(A)$. 5. Write $A^{-1}$. 6. Multiply $A^{-1}$ row-by-column into $B$. 7. Equate to $X$ to get $x, y, z$.",
+        "mental_shortcut": "Align variables $\\to$ Find Inverse $\\to$ Multiply Inverse by Constants.",
+        "micro_example": "Given $2x=4$. In matrix form: $[2][x] = [4]$. $A=[2], X=[x], B=[4]$. $|A|=2$, $A^{-1}=[1/2]$. $X = A^{-1}B = [1/2][4] = [2]$. So $x=2$."
+      }
+    },
+    {
+      "formula_number": 8,
+      "formula_title": "Conditions for Consistency and Inconsistency",
+      "section_A": {
+        "latex_formula": "$$ \\text{If } |A| \\neq 0, \\text{ system is Consistent (Unique Solution).} $$",
+        "derived_forms": [
+          "$$ \\text{If } |A| = 0 \\text{ and } (\\text{adj } A)B \\neq O, \\text{ system is Inconsistent (No Solution).} $$",
+          "$$ \\text{If } |A| = 0 \\text{ and } (\\text{adj } A)B = O, \\text{ system may be Consistent (Infinite) or Inconsistent.} $$"
+        ],
+        "special_cases": [
+          "$$ O \\text{ represents the Zero Matrix of order } n \\times 1. $$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "When asked to check the nature of the solutions of a system of equations without actually finding the exact values of $x, y, z$.",
+        "trigger_keywords": [
+          "Examine the consistency of the system of equations",
+          "Show that the system has no solution"
+        ],
+        "question_types": [
+          "2_mark",
+          "3_mark"
+        ],
+        "common_mistakes": [
+          "Assuming that $|A| = 0$ automatically means 'no solution'. It could mean infinite solutions. You must check $(\\text{adj } A)B$.",
+          "Calculating $(\\text{adj } A)B$ and getting a scalar 0 instead of a zero matrix $O$."
+        ],
+        "board_traps": [
+          "Giving a system where $|A| = 0$ and asking students to solve it. Students waste time trying to find $A^{-1}$ instead of realizing it's a consistency check question."
+        ],
+        "examiner_twist_pattern": "CBSE rarely tests the infinite solution case for 3 variables, but frequently asks to prove inconsistency by having the student calculate $(\\text{adj } A)B$ and showing it does not equal the zero matrix."
+      },
+      "section_C": {
+        "why_students_fail": "Students forget the flowchart for $|A| = 0$ and panic because they cannot apply the standard $X = A^{-1}B$ formula.",
+        "how_to_think": "Think 'Division by zero check'. If $|A| \\neq 0$, it's like $5/2$ (one answer). If $|A| = 0$, it's like dividing by zero. Now you look at the numerator, which is $(\\text{adj } A)B$. If numerator is non-zero, it's $5/0$ (impossible, no solution). If numerator is also zero, it's $0/0$ (indeterminate, infinite solutions).",
+        "thirty_second_strategy": "1. Calculate $|A|$. 2. If non-zero, write 'Consistent, Unique'. 3. If zero, find $\\text{adj}(A)$ and multiply it by $B$. 4. If result is not a column of zeroes, write 'Inconsistent, No Solution'.",
+        "mental_shortcut": "$|A|=0$ and top is not $0$ $\\implies$ Broken system (No solution).",
+        "micro_example": "Let $|A|=0$, and $(\\text{adj } A)B = \\begin{bmatrix} 5 \\\\ 0 \\\\ 0 \\end{bmatrix} \\neq O$. The system is strictly inconsistent and has no solution."
+      }
+    },
+   
+   
+    {     
+      "trend_analysis": {
+        "dominant_concepts_from_pyqs": [
+          "Solving system of linear equations using Matrix Method (5 marks)",
+          "Finding inverse using polynomial equation (e.g., $A^2 - 5A + 7I = 0$)",
+          "Properties of Adjoint, specifically $|adj A| = |A|^{n-1}$",
+          "Finding area of triangle using determinants and unknown $k$"
+        ],
+        "question_patterns_seen": [
+          "5-mark guaranteed question on solving a 3x3 system of linear equations, often preceded by finding $A^{-1}$.",
+          "3-mark question proving a matrix satisfies a polynomial and then deducing its inverse without using the standard formula.",
+          "1-mark MCQs on determinant properties related to scalar multiplication ($|kA| = k^n|A|$) and adjoints.",
+          "2-mark question involving absolute value and $\\pm$ sign while calculating area of a triangle."
+        ]
+      },
+      "high_leverage_ncert_questions": [
+        {
+          "question_id": 1,
+          "ncert_reference": {
+            "exercise": "4.5",
+            "question_number": "15"
+          },
+          "question_text": "If $$ A = \\begin{bmatrix} 2 & -3 & 5 \\\\ 3 & 2 & -4 \\\\ 1 & 1 & -2 \\end{bmatrix} $$, find $$ A^{-1} $$. Using $$ A^{-1} $$, solve the system of equations:\n$$ 2x - 3y + 5z = 11 $$\n$$ 3x + 2y - 4z = -5 $$\n$$ x + y - 2z = -3 $$",
+          "concepts_tested": [
+            "Matrix Inversion",
+            "Adjoint and Cofactors",
+            "Solution of System of Linear Equations"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Moderate",
+          "topper_solution": {
+            "step_1": "Calculate determinant $$ |A| = 2(-4 - (-4)) - (-3)(-6 - (-4)) + 5(3 - 2) = 2(0) + 3(-2) + 5(1) = -1 $$. Since $$ |A| \\neq 0 $$, $$ A^{-1} $$ exists.",
+            "step_2": "Find cofactors of A: $$ C_{11}=0, C_{12}=2, C_{13}=1 $$; $$ C_{21}=-1, C_{22}=-9, C_{23}=-5 $$; $$ C_{31}=2, C_{32}=23, C_{33}=13 $$.",
+            "step_3": "Write Adjoint A: $$ \\text{adj} A = \\begin{bmatrix} 0 & -1 & 2 \\\\ 2 & -9 & 23 \\\\ 1 & -5 & 13 \\end{bmatrix} $$.",
+            "step_4": "Find $$ A^{-1} = \\frac{1}{|A|} \\text{adj} A = -1 \\begin{bmatrix} 0 & -1 & 2 \\\\ 2 & -9 & 23 \\\\ 1 & -5 & 13 \\end{bmatrix} = \\begin{bmatrix} 0 & 1 & -2 \\\\ -2 & 9 & -23 \\\\ -1 & 5 & -13 \\end{bmatrix} $$.",
+            "step_5": "The given system can be written as $$ AX = B $$, where $$ X = \\begin{bmatrix} x \\\\ y \\\\ z \\end{bmatrix} $$ and $$ B = \\begin{bmatrix} 11 \\\\ -5 \\\\ -3 \\end{bmatrix} $$.",
+            "step_6": "Solution is $$ X = A^{-1}B = \\begin{bmatrix} 0 & 1 & -2 \\\\ -2 & 9 & -23 \\\\ -1 & 5 & -13 \\end{bmatrix} \\begin{bmatrix} 11 \\\\ -5 \\\\ -3 \\end{bmatrix} $$.",
+            "step_7": "$$ X = \\begin{bmatrix} 0 - 5 + 6 \\\\ -22 - 45 + 69 \\\\ -11 - 25 + 39 \\end{bmatrix} = \\begin{bmatrix} 1 \\\\ 2 \\\\ 3 \\end{bmatrix} $$. Therefore, $$ x=1, y=2, z=3 $$."
+          },
+          "board_writing_tip": "Clearly write all 9 cofactors in a systematic grid before forming the adjoint matrix to avoid transpose errors. Mention '$|A| \\neq 0$, hence unique solution exists'.",
+          "common_student_mistakes": [
+            "Forgetting to transpose the cofactor matrix to get the adjoint.",
+            "Sign errors while calculating cofactors (forgetting the $(-1)^{i+j}$ multiplier)."
+          ],
+          "estimated_time_seconds": "600"
+        },
+        {
+          "question_id": 2,
+          "ncert_reference": {
+            "exercise": "4.4",
+            "question_number": "13"
+          },
+          "question_text": "If $$ A = \\begin{bmatrix} 3 & 1 \\\\ -1 & 2 \\end{bmatrix} $$, show that $$ A^2 - 5A + 7I = O $$. Hence find $$ A^{-1} $$.",
+          "concepts_tested": [
+            "Matrix Polynomials",
+            "Finding Inverse without Adjoint method"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Moderate",
+          "topper_solution": {
+            "step_1": "Calculate $$ A^2 = \\begin{bmatrix} 3 & 1 \\\\ -1 & 2 \\end{bmatrix} \\begin{bmatrix} 3 & 1 \\\\ -1 & 2 \\end{bmatrix} = \\begin{bmatrix} 9-1 & 3+2 \\\\ -3-2 & -1+4 \\end{bmatrix} = \\begin{bmatrix} 8 & 5 \\\\ -5 & 3 \\end{bmatrix} $$.",
+            "step_2": "Calculate $$ -5A = \\begin{bmatrix} -15 & -5 \\\\ 5 & -10 \\end{bmatrix} $$ and $$ 7I = \\begin{bmatrix} 7 & 0 \\\\ 0 & 7 \\end{bmatrix} $$.",
+            "step_3": "$$ A^2 - 5A + 7I = \\begin{bmatrix} 8-15+7 & 5-5+0 \\\\ -5+5+0 & 3-10+7 \\end{bmatrix} = \\begin{bmatrix} 0 & 0 \\\\ 0 & 0 \\end{bmatrix} = O $$. Hence proved.",
+            "step_4": "To find $$ A^{-1} $$, multiply the equation by $$ A^{-1} $$: $$ A^{-1}(A^2 - 5A + 7I) = A^{-1}O $$.",
+            "step_5": "$$ A - 5I + 7A^{-1} = O \\implies 7A^{-1} = 5I - A $$.",
+            "step_6": "$$ 7A^{-1} = \\begin{bmatrix} 5 & 0 \\\\ 0 & 5 \\end{bmatrix} - \\begin{bmatrix} 3 & 1 \\\\ -1 & 2 \\end{bmatrix} = \\begin{bmatrix} 2 & -1 \\\\ 1 & 3 \\end{bmatrix} $$.",
+            "step_7": "$$ A^{-1} = \\frac{1}{7} \\begin{bmatrix} 2 & -1 \\\\ 1 & 3 \\end{bmatrix} $$."
+          },
+          "board_writing_tip": "The word 'Hence' means you MUST use the polynomial equation to find the inverse. Do not use the $A^{-1} = \\frac{1}{|A|} \\text{adj} A$ formula, or you will lose marks for that part.",
+          "common_student_mistakes": [
+            "Using the adjoint formula to find $A^{-1}$ despite the word 'Hence'.",
+            "Writing $A^{-1} A^2 = A$ correctly but forgetting that $A^{-1} I = A^{-1}$."
+          ],
+          "estimated_time_seconds": "360"
+        },
+        {
+          "question_id": 3,
+          "ncert_reference": {
+            "exercise": "4.2",
+            "question_number": "3(i)"
+          },
+          "question_text": "Find values of $$ k $$ if area of triangle is 4 sq. units and vertices are $$ (k, 0), (4, 0), (0, 2) $$.",
+          "concepts_tested": [
+            "Area of Triangle using Determinants",
+            "Absolute value properties"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Easy",
+          "topper_solution": {
+            "step_1": "The area of a triangle with vertices $$ (x_1, y_1), (x_2, y_2), (x_3, y_3) $$ is given by $$ \\frac{1}{2} \\left| \\begin{vmatrix} x_1 & y_1 & 1 \\\\ x_2 & y_2 & 1 \\\\ x_3 & y_3 & 1 \\end{vmatrix} \\right| $$.",
+            "step_2": "Substitute the given vertices: Area = $$ \\frac{1}{2} \\left| \\begin{vmatrix} k & 0 & 1 \\\\ 4 & 0 & 1 \\\\ 0 & 2 & 1 \\end{vmatrix} \\right| $$.",
+            "step_3": "Expand the determinant along the second column: $$ -2 \\begin{vmatrix} k & 1 \\\\ 4 & 1 \\end{vmatrix} = -2(k - 4) = -2k + 8 $$.",
+            "step_4": "Area = $$ \\frac{1}{2} |-2k + 8| = |-k + 4| $$.",
+            "step_5": "Given Area = 4, so $$ |-k + 4| = 4 $$. This implies $$ -k + 4 = 4 $$ or $$ -k + 4 = -4 $$.",
+            "step_6": "Solving these equations gives $$ k = 0 $$ or $$ k = 8 $$."
+          },
+          "board_writing_tip": "Always remember to equate the expanded determinant to BOTH $+4$ and $-4$ to find all possible values of $k$.",
+          "common_student_mistakes": [
+            "Equating the determinant simply to 4, forgetting the modulus sign, and ending up with only one value of $k$ ($k=0$)."
+          ],
+          "estimated_time_seconds": "240"
+        },
+        {
+          "question_id": 4,
+          "ncert_reference": {
+            "exercise": "4.4",
+            "question_number": "17"
+          },
+          "question_text": "Let $$ A $$ be a nonsingular square matrix of order $$ 3 \\times 3 $$. Then $$ |\\text{adj } A| $$ is equal to:\n(A) $$ |A| $$\n(B) $$ |A|^2 $$\n(C) $$ |A|^3 $$\n(D) $$ 3|A| $$",
+          "concepts_tested": [
+            "Properties of Adjoint of a Matrix",
+            "Determinants"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Easy",
+          "topper_solution": {
+            "step_1": "We know the fundamental property of the adjoint of a matrix: $$ A(\\text{adj } A) = |A|I $$.",
+            "step_2": "Taking the determinant on both sides: $$ |A(\\text{adj } A)| = ||A|I| $$.",
+            "step_3": "Using properties of determinants: $$ |AB| = |A||B| $$ and $$ |kA| = k^n|A| $$ (where $$ n $$ is the order of the matrix).",
+            "step_4": "$$ |A||\\text{adj } A| = |A|^n |I| $$. Since $$ |I| = 1 $$ and $$ A $$ is non-singular ($$ |A| \\neq 0 $$), we can divide by $$ |A| $$.",
+            "step_5": "$$ |\\text{adj } A| = |A|^{n-1} $$.",
+            "step_6": "Here, the order $$ n = 3 $$. Therefore, $$ |\\text{adj } A| = |A|^{3-1} = |A|^2 $$. Option (B) is correct."
+          },
+          "board_writing_tip": "For MCQs involving standard properties, direct application of the formula $|\\text{adj } A| = |A|^{n-1}$ is expected. Memorizing this saves crucial time.",
+          "common_student_mistakes": [
+            "Confusing $|\\text{adj } A| = |A|^{n-1}$ with $|kA| = k^n|A|$ and choosing option C or D.",
+            "Forgetting to subtract 1 from the order."
+          ],
+          "estimated_time_seconds": "60"
+        },
+        {
+          "question_id": 5,
+          "ncert_reference": {
+            "exercise": "4.5",
+            "question_number": "16"
+          },
+          "question_text": "The cost of 4 kg onion, 3 kg wheat and 2 kg rice is Rs 60. The cost of 2 kg onion, 4 kg wheat and 6 kg rice is Rs 90. The cost of 6 kg onion, 2 kg wheat and 3 kg rice is Rs 70. Find cost of each item per kg by matrix method.",
+          "concepts_tested": [
+            "Formulating Linear Equations from Word Problems",
+            "Matrix Inversion Method for System of Equations"
+          ],
+          "repeat_probability_2026": "Medium",
+          "difficulty_level": "Moderate",
+          "topper_solution": {
+            "step_1": "Let the cost per kg of onion, wheat, and rice be $$ x $$, $$ y $$, and $$ z $$ respectively.",
+            "step_2": "The equations are:\n$$ 4x + 3y + 2z = 60 $$\n$$ 2x + 4y + 6z = 90 $$\n$$ 6x + 2y + 3z = 70 $$",
+            "step_3": "Write in matrix form $$ AX = B $$:\n$$ \\begin{bmatrix} 4 & 3 & 2 \\\\ 2 & 4 & 6 \\\\ 6 & 2 & 3 \\end{bmatrix} \\begin{bmatrix} x \\\\ y \\\\ z \\end{bmatrix} = \\begin{bmatrix} 60 \\\\ 90 \\\\ 70 \\end{bmatrix} $$.",
+            "step_4": "Find $$ |A| = 4(12 - 12) - 3(6 - 36) + 2(4 - 24) = 0 - 3(-30) + 2(-20) = 90 - 40 = 50 $$.",
+            "step_5": "Calculate Adjoint A: $$ C_{11}=0, C_{12}=30, C_{13}=-20 $$; $$ C_{21}=-5, C_{22}=0, C_{23}=10 $$; $$ C_{31}=10, C_{32}=-20, C_{33}=10 $$. $$ \\text{adj} A = \\begin{bmatrix} 0 & -5 & 10 \\\\ 30 & 0 & -20 \\\\ -20 & 10 & 10 \\end{bmatrix} $$.",
+            "step_6": "$$ X = \\frac{1}{50} \\begin{bmatrix} 0 & -5 & 10 \\\\ 30 & 0 & -20 \\\\ -20 & 10 & 10 \\end{bmatrix} \\begin{bmatrix} 60 \\\\ 90 \\\\ 70 \\end{bmatrix} = \\frac{1}{50} \\begin{bmatrix} 0 - 450 + 700 \\\\ 1800 + 0 - 1400 \\\\ -1200 + 900 + 700 \\end{bmatrix} = \\frac{1}{50} \\begin{bmatrix} 250 \\\\ 400 \\\\ 400 \\end{bmatrix} $$.",
+            "step_7": "$$ x = 5, y = 8, z = 8 $$. Cost of onion is Rs 5/kg, wheat is Rs 8/kg, and rice is Rs 8/kg."
+          },
+          "board_writing_tip": "Define your variables explicitly at the start (e.g., 'Let cost of onion be Rs x'). Include units (Rs) in your final answer statement.",
+          "common_student_mistakes": [
+            "Formulating the matrix incorrectly by mixing up columns (e.g., putting onion, wheat, rice data mixed).",
+            "Sign mistakes during the lengthy cofactor calculation."
+          ],
+          "estimated_time_seconds": "720"
+        },
+        {
+          "question_id": 6,
+          "ncert_reference": {
+            "exercise": "4.3",
+            "question_number": "3"
+          },
+          "question_text": "Using Cofactors of elements of second row, evaluate $$ \\Delta = \\begin{vmatrix} 5 & 3 & 8 \\\\ 2 & 0 & 1 \\\\ 1 & 2 & 3 \\end{vmatrix} $$.",
+          "concepts_tested": [
+            "Determinant Expansion using specific row cofactors",
+            "Minors and Cofactors"
+          ],
+          "repeat_probability_2026": "Medium",
+          "difficulty_level": "Easy",
+          "topper_solution": {
+            "step_1": "The expansion of a determinant along the second row is given by: $$ \\Delta = a_{21}C_{21} + a_{22}C_{22} + a_{23}C_{23} $$ or equivalently $$ a_{21}A_{21} + a_{22}A_{22} + a_{23}A_{23} $$.",
+            "step_2": "The elements of the second row are $$ a_{21} = 2 $$, $$ a_{22} = 0 $$, $$ a_{23} = 1 $$.",
+            "step_3": "Find cofactor $$ A_{21} = (-1)^{2+1} \\begin{vmatrix} 3 & 8 \\\\ 2 & 3 \\end{vmatrix} = -1(9 - 16) = -1(-7) = 7 $$.",
+            "step_4": "Find cofactor $$ A_{22} $$ (though multiplied by 0, good to show): $$ A_{22} = (-1)^{2+2} \\begin{vmatrix} 5 & 8 \\\\ 1 & 3 \\end{vmatrix} = 1(15 - 8) = 7 $$.",
+            "step_5": "Find cofactor $$ A_{23} = (-1)^{2+3} \\begin{vmatrix} 5 & 3 \\\\ 1 & 2 \\end{vmatrix} = -1(10 - 3) = -7 $$.",
+            "step_6": "Evaluate determinant: $$ \\Delta = 2(7) + 0(7) + 1(-7) = 14 + 0 - 7 = 7 $$."
+          },
+          "board_writing_tip": "Clearly show the formula for expansion using cofactors before substituting values. Remember that Cofactor $A_{ij} = (-1)^{i+j} M_{ij}$.",
+          "common_student_mistakes": [
+            "Ignoring the $(-1)^{i+j}$ sign factor while calculating the cofactors, essentially just multiplying the elements by their minors.",
+            "Expanding along the first row out of habit despite the specific instruction."
+          ],
+          "estimated_time_seconds": "180"
+        },
+        {
+          "question_id": 7,
+          "ncert_reference": {
+            "exercise": "4.1",
+            "question_number": "8"
+          },
+          "question_text": "If $$ \\begin{vmatrix} x & 2 \\\\ 18 & x \\end{vmatrix} = \\begin{vmatrix} 6 & 2 \\\\ 18 & 6 \\end{vmatrix} $$, then $$ x $$ is equal to:\n(A) 6\n(B) $$ \\pm 6 $$\n(C) -6\n(D) 0",
+          "concepts_tested": [
+            "Evaluation of 2x2 Determinants",
+            "Solving Algebraic Equations"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Easy",
+          "topper_solution": {
+            "step_1": "Expand the determinant on the Left Hand Side (LHS): $$ \\begin{vmatrix} x & 2 \\\\ 18 & x \\end{vmatrix} = (x)(x) - (18)(2) = x^2 - 36 $$.",
+            "step_2": "Expand the determinant on the Right Hand Side (RHS): $$ \\begin{vmatrix} 6 & 2 \\\\ 18 & 6 \\end{vmatrix} = (6)(6) - (18)(2) = 36 - 36 = 0 $$.",
+            "step_3": "Equate LHS and RHS as given in the equation: $$ x^2 - 36 = 0 $$.",
+            "step_4": "Solve for $$ x $$: $$ x^2 = 36 \\implies x = \\pm 6 $$.",
+            "step_5": "Therefore, option (B) is the correct answer."
+          },
+          "board_writing_tip": "Do not equate corresponding elements like in matrices (which would wrongly give just x = 6). A determinant is a value, so you must expand both sides before equating.",
+          "common_student_mistakes": [
+            "Treating the determinant symbols as matrix brackets and directly equating corresponding elements ($$ x = 6 $$), completely missing the $$ -6 $$ root."
+          ],
+          "estimated_time_seconds": "120"
+        },
+        {
+          "question_id": 8,
+          "ncert_reference": {
+            "exercise": "4.1",
+            "question_number": "4"
+          },
+          "question_text": "If $$ A = \\begin{bmatrix} 1 & 0 & 1 \\\\ 0 & 1 & 2 \\\\ 0 & 0 & 4 \\end{bmatrix} $$, then show that $$ |3A| = 27|A| $$.",
+          "concepts_tested": [
+            "Scalar Multiplication of a Matrix",
+            "Determinant of a 3x3 Matrix",
+            "Property $$ |kA| = k^n|A| $$"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Easy",
+          "topper_solution": {
+            "step_1": "First, find the determinant of matrix A: $$ |A| = 1(4 - 0) - 0(0 - 0) + 1(0 - 0) = 4 $$.",
+            "step_2": "Calculate RHS: $$ 27|A| = 27 \\times 4 = 108 $$.",
+            "step_3": "Now, find the matrix $$ 3A $$ by multiplying each element of A by 3: $$ 3A = \\begin{bmatrix} 3 & 0 & 3 \\\\ 0 & 3 & 6 \\\\ 0 & 0 & 12 \\end{bmatrix} $$.",
+            "step_4": "Find the determinant of $$ 3A $$: $$ |3A| = 3(36 - 0) - 0(0 - 0) + 3(0 - 0) $$.",
+            "step_5": "$$ |3A| = 3(36) = 108 $$.",
+            "step_6": "Since LHS = 108 and RHS = 108, we have shown that $$ |3A| = 27|A| $$."
+          },
+          "board_writing_tip": "While you know the property $|kA| = k^n|A|$, a 'show that' question requires you to compute both LHS and RHS separately to prove the equality for the specific case.",
+          "common_student_mistakes": [
+            "Assuming $|3A| = 3|A|$ without expanding, failing to realize that a scalar is multiplied by the order of the matrix when pulled out of a determinant."
+          ],
+          "estimated_time_seconds": "180"
+        },
+        {
+          "question_id": 9,
+          "ncert_reference": {
+            "exercise": "4.2",
+            "question_number": "2"
+          },
+          "question_text": "Show that points $$ A(a, b+c), B(b, c+a), C(c, a+b) $$ are collinear.",
+          "concepts_tested": [
+            "Area of Triangle using Determinants",
+            "Condition for Collinearity"
+          ],
+          "repeat_probability_2026": "Medium",
+          "difficulty_level": "Moderate",
+          "topper_solution": {
+            "step_1": "Three points are collinear if the area of the triangle formed by them is zero.",
+            "step_2": "Area of triangle $$ \\Delta = \\frac{1}{2} \\begin{vmatrix} x_1 & y_1 & 1 \\\\ x_2 & y_2 & 1 \\\\ x_3 & y_3 & 1 \\end{vmatrix} = \\frac{1}{2} \\begin{vmatrix} a & b+c & 1 \\\\ b & c+a & 1 \\\\ c & a+b & 1 \\end{vmatrix} $$.",
+            "step_3": "Expand along the first column (C1): $$ \\Delta = \\frac{1}{2} [ a((c+a)(1) - (a+b)(1)) - b((b+c)(1) - (a+b)(1)) + c((b+c)(1) - (c+a)(1)) ] $$.",
+            "step_4": "Simplify the terms inside the brackets: $$ \\Delta = \\frac{1}{2} [ a(c+a - a-b) - b(b+c - a-b) + c(b+c - c-a) ] $$.",
+            "step_5": "$$ \\Delta = \\frac{1}{2} [ a(c-b) - b(c-a) + c(b-a) ] = \\frac{1}{2} [ ac - ab - bc + ab + bc - ac ] $$.",
+            "step_6": "$$ \\Delta = \\frac{1}{2} [ 0 ] = 0 $$. Since the area is zero, the points are collinear."
+          },
+          "board_writing_tip": "Since properties of determinants are deleted from the syllabus, you must expand the determinant manually. Be extremely careful with signs during the expansion.",
+          "common_student_mistakes": [
+            "Attempting to use deleted properties like $C_1 \to C_1 + C_2$ which might not be awarded marks depending on the strictness of the examiner.",
+            "Algebraic sign errors when expanding the 3x3 determinant."
+          ],
+          "estimated_time_seconds": "240"
+        },
+        {
+          "question_id": 10,
+          "ncert_reference": {
+            "exercise": "4.4",
+            "question_number": "18"
+          },
+          "question_text": "If $$ A $$ is an invertible matrix of order 2, then $$ \\det(A^{-1}) $$ is equal to:\n(A) $$ \\det(A) $$\n(B) $$ \\frac{1}{\\det(A)} $$\n(C) 1\n(D) 0",
+          "concepts_tested": [
+            "Determinant of Inverse Matrix",
+            "Multiplicative Identity of Matrices"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Easy",
+          "topper_solution": {
+            "step_1": "We know the fundamental property of an invertible matrix: $$ A A^{-1} = I $$.",
+            "step_2": "Take the determinant on both sides: $$ |A A^{-1}| = |I| $$.",
+            "step_3": "Use the property of determinants that the determinant of a product is the product of determinants: $$ |A||A^{-1}| = |I| $$.",
+            "step_4": "The determinant of an identity matrix is always 1, so $$ |I| = 1 $$.",
+            "step_5": "Thus, $$ |A||A^{-1}| = 1 $$.",
+            "step_6": "Since $$ A $$ is invertible, $$ |A| \\neq 0 $$. Dividing both sides by $$ |A| $$, we get $$ |A^{-1}| = \\frac{1}{|A|} $$.",
+            "step_7": "Therefore, $$ \\det(A^{-1}) = \\frac{1}{\\det(A)} $$. Option (B) is correct."
+          },
+          "board_writing_tip": "Writing the quick 3-step mathematical proof in your answer sheet rather than just the option ensures confidence and guarantees the mark.",
+          "common_student_mistakes": [
+            "Confusing $|A^{-1}|$ with the adjoint property and answering randomly.",
+            "Assuming $\\det(A^{-1})$ is the same as $\\det(A)$ because they are related."
+          ],
+          "estimated_time_seconds": "120"
+        },
+        {
+          "question_id": 11,
+          "ncert_reference": {
+            "exercise": "Miscellaneous",
+            "question_number": "16"
+          },
+          "question_text": "Solve the system of equations:\n$$ \\frac{2}{x} + \\frac{3}{y} + \\frac{10}{z} = 4 $$\n$$ \\frac{4}{x} - \\frac{6}{y} + \\frac{5}{z} = 1 $$\n$$ \\frac{6}{x} + \\frac{9}{y} - \\frac{20}{z} = 2 $$",
+          "concepts_tested": [
+            "System of Linear Equations",
+            "Matrix Inversion Method",
+            "Variable Substitution"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Moderate",
+          "topper_solution": {
+            "step_1": "Let $$ \\frac{1}{x} = u $$, $$ \\frac{1}{y} = v $$, and $$ \\frac{1}{z} = w $$. The system becomes:\n$$ 2u + 3v + 10w = 4 $$\n$$ 4u - 6v + 5w = 1 $$\n$$ 6u + 9v - 20w = 2 $$",
+            "step_2": "Write in matrix form $$ AX = B $$: $$ A = \\begin{bmatrix} 2 & 3 & 10 \\\\ 4 & -6 & 5 \\\\ 6 & 9 & -20 \\end{bmatrix} $$, $$ X = \\begin{bmatrix} u \\\\ v \\\\ w \\end{bmatrix} $$, $$ B = \\begin{bmatrix} 4 \\\\ 1 \\\\ 2 \\end{bmatrix} $$.",
+            "step_3": "Calculate determinant $$ |A| = 2(120 - 45) - 3(-80 - 30) + 10(36 + 36) = 2(75) - 3(-110) + 10(72) = 150 + 330 + 720 = 1200 $$. Since $$ |A| \\neq 0 $$, unique solution exists.",
+            "step_4": "Find Adjoint of A by calculating cofactors: $$ C_{11}=75, C_{12}=110, C_{13}=72 $$; $$ C_{21}=150, C_{22}=-100, C_{23}=0 $$; $$ C_{31}=75, C_{32}=30, C_{33}=-24 $$. So, $$ \\text{adj} A = \\begin{bmatrix} 75 & 150 & 75 \\\\ 110 & -100 & 30 \\\\ 72 & 0 & -24 \\end{bmatrix} $$.",
+            "step_5": "$$ A^{-1} = \\frac{1}{1200} \\begin{bmatrix} 75 & 150 & 75 \\\\ 110 & -100 & 30 \\\\ 72 & 0 & -24 \\end{bmatrix} $$.",
+            "step_6": "$$ X = A^{-1}B = \\frac{1}{1200} \\begin{bmatrix} 75 & 150 & 75 \\\\ 110 & -100 & 30 \\\\ 72 & 0 & -24 \\end{bmatrix} \\begin{bmatrix} 4 \\\\ 1 \\\\ 2 \\end{bmatrix} = \\frac{1}{1200} \\begin{bmatrix} 300 + 150 + 150 \\\\ 440 - 100 + 60 \\\\ 288 + 0 - 48 \\end{bmatrix} = \\frac{1}{1200} \\begin{bmatrix} 600 \\\\ 400 \\\\ 240 \\end{bmatrix} $$.",
+            "step_7": "$$ u = \\frac{1}{2} $$, $$ v = \\frac{1}{3} $$, $$ w = \\frac{1}{5} $$. Therefore, $$ x = 2 $$, $$ y = 3 $$, $$ z = 5 $$."
+          },
+          "board_writing_tip": "Do not forget the final step of converting u, v, w back to x, y, z. Many students stop at u, v, w and lose the final 1 mark.",
+          "common_student_mistakes": [
+            "Trying to take LCM of x, y, z in the initial equations, which turns them into non-linear equations and makes the matrix method impossible.",
+            "Sign errors during the long 3x3 cofactor calculation."
+          ],
+          "estimated_time_seconds": "720"
+        },
+        {
+          "question_id": 12,
+          "ncert_reference": {
+            "exercise": "4.4",
+            "question_number": "12"
+          },
+          "question_text": "Let $$ A = \\begin{bmatrix} 3 & 7 \\\\ 2 & 5 \\end{bmatrix} $$ and $$ B = \\begin{bmatrix} 6 & 8 \\\\ 7 & 9 \\end{bmatrix} $$. Verify that $$ (AB)^{-1} = B^{-1}A^{-1} $$.",
+          "concepts_tested": [
+            "Matrix Multiplication",
+            "Inverse of a 2x2 Matrix",
+            "Reversal Law of Inverse"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Moderate",
+          "topper_solution": {
+            "step_1": "First, find $$ AB = \\begin{bmatrix} 3 & 7 \\\\ 2 & 5 \\end{bmatrix} \\begin{bmatrix} 6 & 8 \\\\ 7 & 9 \\end{bmatrix} = \\begin{bmatrix} 18+49 & 24+63 \\\\ 12+35 & 16+45 \\end{bmatrix} = \\begin{bmatrix} 67 & 87 \\\\ 47 & 61 \\end{bmatrix} $$.",
+            "step_2": "Calculate determinant of AB: $$ |AB| = (67)(61) - (87)(47) = 4087 - 4089 = -2 $$.",
+            "step_3": "Find $$ (AB)^{-1} = \\frac{1}{-2} \\begin{bmatrix} 61 & -87 \\\\ -47 & 67 \\end{bmatrix} $$ (using shortcut for 2x2 adjoint: swap diagonal, change sign of non-diagonal).",
+            "step_4": "Find $$ A^{-1} $$: $$ |A| = 15 - 14 = 1 $$. $$ A^{-1} = \\frac{1}{1} \\begin{bmatrix} 5 & -7 \\\\ -2 & 3 \\end{bmatrix} = \\begin{bmatrix} 5 & -7 \\\\ -2 & 3 \\end{bmatrix} $$.",
+            "step_5": "Find $$ B^{-1} $$: $$ |B| = 54 - 56 = -2 $$. $$ B^{-1} = \\frac{1}{-2} \\begin{bmatrix} 9 & -8 \\\\ -7 & 6 \\end{bmatrix} $$.",
+            "step_6": "Calculate RHS = $$ B^{-1}A^{-1} = -\\frac{1}{2} \\begin{bmatrix} 9 & -8 \\\\ -7 & 6 \\end{bmatrix} \\begin{bmatrix} 5 & -7 \\\\ -2 & 3 \\end{bmatrix} $$.",
+            "step_7": "$$ RHS = -\\frac{1}{2} \\begin{bmatrix} 45+16 & -63-24 \\\\ -35-12 & 49+18 \\end{bmatrix} = -\\frac{1}{2} \\begin{bmatrix} 61 & -87 \\\\ -47 & 67 \\end{bmatrix} $$.",
+            "step_8": "Since LHS = RHS, $$ (AB)^{-1} = B^{-1}A^{-1} $$ is verified."
+          },
+          "board_writing_tip": "Keep the scalar $-1/2$ outside the matrix during the final multiplication of $B^{-1}A^{-1}$. Multiplying fractions inside the matrix makes calculation heavily error-prone.",
+          "common_student_mistakes": [
+            "Calculating $A^{-1}B^{-1}$ instead of $B^{-1}A^{-1}$ on the RHS.",
+            "Basic arithmetic multiplication errors when calculating the large numbers in the AB matrix."
+          ],
+          "estimated_time_seconds": "480"
+        }
+      ]
+    }
+  ]
+}

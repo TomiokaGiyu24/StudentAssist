@@ -1,0 +1,89 @@
+{
+"question_metadata": {
+"format_type": "Report Writing (Magazine/Newspaper)",
+"difficulty_level": "Exam_Level",
+"theme": "Community Service / Social Awareness",
+"board_relevance_reason": "CBSE often tests reports on school-led social initiatives (e.g., Blood Donation, Literacy Drives, or Health Melas). Analysis of 2024-25 papers shows a focus on factual, chronological reporting of events."
+},
+"board_style_question": "Your school, Sunshine Public School, Pune, organised a 'Plastic-Free Zone' awareness campaign in the adopted village of Khed. As the Student Coordinator, write a report in 120-150 words for your school magazine. Mention the date, activities undertaken, the response of the villagers, and the impact of the drive. You are Karan/Kiran.",
+"format_blueprint": {
+"mandatory_components": [
+"Heading/Title (Catchy and Bold)",
+"Byline (Name and Designation)",
+"Opening Paragraph (The 5 Ws: What, When, Where, Who, Why)",
+"Body Paragraph (Detailed sequence of events/activities)",
+"Conclusion (Outcome, Feedback, or Closing statement)"
+],
+"sequence_order": [
+"Title",
+"Byline",
+"Introductory Para",
+"Detailed Account",
+"Concluding Para"
+],
+"format_visual_layout": "Distinct paragraphs; No box required (unlike Notice); Formal tone."
+},
+"planning_framework": {
+"brainstorm_points": [
+"What: Plastic-Free Awareness Campaign.",
+"Where: Khed Village.",
+"Activities: Door-to-door rally, distribution of cloth bags, street play (Nukkad Natak).",
+"Response: Villagers pledged to stop single-use plastic.",
+"Impact: 50 kg of plastic waste collected."
+],
+"logical_flow_model": "Summary of event -> Step-by-step activities -> Community reaction -> Final outcome/Impact statement.",
+"time_allocation_minutes": "Planning: 3 min | Writing: 10 min | Review: 2 min"
+},
+"model_answer_with_word_count": {
+"answer_text": "PLASTIC-FREE CAMPAIGN AT KHED VILLAGE\nBy Kiran, Student Coordinator\n\nSunshine Public School, Pune, organised a day-long 'Plastic-Free Zone' awareness campaign on 5th February 2026 in its adopted village, Khed. The initiative aimed to educate the rural community about the environmental hazards of single-use plastic and provide sustainable alternatives.\n\nThe drive commenced with an energetic rally where students carrying placards and chanting slogans marched through the village lanes. A highlight of the day was a 'Nukkad Natak' performed by the Drama Club, which effectively depicted the harmful effects of plastic on soil fertility and cattle health. Following the play, volunteers distributed over 300 handmade cloth bags to the residents, explaining their long-term benefits.\n\nThe response from the villagers was overwhelmingly positive. Many shopkeepers pledged to replace plastic carry-bags with paper or cloth alternatives. The Sarpanch commended the students' efforts, noting that such grassroots initiatives are vital for a greener future. The event concluded with a mass cleaning drive, resulting in the collection of 40 kg of plastic waste.",
+"word_count": 146
+},
+"why_this_scores_full_marks": {
+"format_compliance_reason": "Includes a clear, relevant title and a proper byline. Follows the paragraph-based reporting style.",
+"content_strength_reason": "Covers all necessary details: the 'Nukkad Natak', bag distribution, and specific figures (300 bags, 40 kg waste) which add authenticity.",
+"expression_quality_reason": "Uses passive voice appropriately for reporting (e.g., 'were distributed', 'was organised'). Maintains a third-person, objective perspective throughout."
+},
+"vocabulary_upgrade_section": {
+"basic_to_board_level_examples": [
+{
+"basic": "The event was about plastic.",
+"improved": "The initiative aimed to educate...",
+"board_level": "The initiative aimed to sensitise the community to the environmental hazards of single-use plastic."
+},
+{
+"basic": "People liked the play.",
+"improved": "The response was very good.",
+"board_level": "The response from the local residents was overwhelmingly positive and encouraging."
+},
+{
+"basic": "We gave out cloth bags.",
+"improved": "Volunteers distributed cloth bags.",
+"board_level": "Volunteers facilitated the distribution of biodegradable alternatives like handmade cloth bags."
+}
+],
+"sentence_transformation_examples": [
+"Weak: We walked through the village with signs. -> Strong: Students carrying impactful placards marched through the village lanes to spread awareness.",
+"Weak: The village head said thanks. -> Strong: The Sarpanch lauded the students' efforts, emphasizing the importance of grassroots movements."
+]
+},
+"common_mark_losing_mistakes": [
+"Using 'I' or 'We' (A report should be objective; use 'The students' or 'The volunteers').",
+"Writing in the present tense (Reports are accounts of past events; use Past Tense).",
+"Including personal opinions (e.g., 'I felt very happy'). Stick to facts.",
+"Missing the 'Byline' or placing it at the end (Magazine reports usually have the byline at the top).",
+"Vague descriptions (e.g., 'many things happened') instead of specific activities."
+],
+"examiner_psychology_insights": [
+"Examiners look for 'factual markers'—dates, names of places, and specific numbers make the report look real.",
+"The use of 'Formal Linkers' (e.g., 'Furthermore', 'The drive commenced with', 'The event concluded') helps in scoring 5/5 for 'Organization of Ideas'.",
+"Passive voice is the 'secret sauce' of high-scoring reports. It sounds more professional and journalistic."
+],
+"self_evaluation_checklist": [
+"Is my title catchy and center-aligned?",
+"Is my byline (Name/Designation) present under the title?",
+"Is the entire report written in the Past Tense?",
+"Did I avoid using 'I' and 'Me'?",
+"Have I mentioned the specific activities (rally, play, etc.)?",
+"Is the word count within the 120-150 range?"
+]
+}

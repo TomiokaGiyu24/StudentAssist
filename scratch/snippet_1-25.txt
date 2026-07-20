@@ -1,0 +1,33 @@
+Created At: 2026-06-03T08:23:57Z
+Completed At: 2026-06-03T08:23:58Z
+File Path: `file:///c:/StudentAssist-main/src/data/Boards/Physics/Questions/electricfieldandcharges.json`
+Total Lines: 1609
+Total Bytes: 166602
+Showing lines 1 to 25
+The following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.
+1: [
+2:   {
+3:     "chapter_assessment_bank": {
+4:       "chapter_number": 1,
+5:       "chapter_name": "Electric Charges and Fields",
+6:       "questions": [
+7:         {
+8:           "question_id": "CH1-MCQ-01",
+9:           "format": "MCQ",
+10:           "typology_tag": "BOUNDARY_CONDITION",
+11:           "associated_trap_title": "The Boundary Scaling Limit Misdirection",
+12:           "stem_text": "An electric dipole consists of two point charges separated by a small internal distance $___$MATH$_$PH$_$0$___$. Under the macroscopic boundary limit where the observation distance $___$MATH$_$PH$_$1$___$ from the centre of the dipole is significantly greater than the semi$-$axis length $(___$MATH$_$PH$_$2$___)$, the electric field intensity magnitude along the axial line is measured as $___$MATH$_$PH$_$3$___$. If the observation distance along the axis is cleanly tripled to $___$MATH$_$PH$_$4$___$, what is the new magnitude of the electric field intensity?",
+13:           "options": {
+14:             "a": "$___$MATH$_$PH$_$0$___$",
+15:             "b": "$___$MATH$_$PH$_$0$___$",
+16:             "c": "$___$MATH$_$PH$_$0$___$",
+17:             "d": "$___$MATH$_$PH$_$0$___$"
+18:           },
+19:           "correct_option": "c",
+20:           "topper_execution_logic": "Don't fall for the standard point$-$charge $___$MATH$_$PH$_$0$___$ rule here! The prompt explicitly triggers the macro$-$separation limit $(___$MATH$_$PH$_$1$___)$, which drops out the higher$-$order binomial terms and locks you into the short$-$dipole attenuation relation where $___$MATH$_$PH$_$2$___$. Tripling the distance means your field scales by a factor of $___$MATH$_$PH$_$3$___$. Instant kill."
+21:         },
+22:         {
+23:           "question_id": "CH1-MCQ-02",
+24:           "format": "MCQ",
+25:           "typology_tag": "BOUNDARY_CONDITION",
+The above content does NOT show the entire file contents. If you need to view any lines of the file which were not shown to complete your task, call this tool again to view those lines.

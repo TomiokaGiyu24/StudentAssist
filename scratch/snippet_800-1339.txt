@@ -1,0 +1,55 @@
+Created At: 2026-06-03T07:52:01Z
+Completed At: 2026-06-03T07:52:01Z
+File Path: `file:///C:/StudentAssist-main/src/data/Boards/Physics/Questions/electricfieldandcharges.json`
+Total Lines: 1339
+Total Bytes: 141358
+Showing lines 800 to 1339
+The following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.
+800:           "stem_text": "A short electric dipole with a permanent dipole moment magnitude $p$ generates an electric field magnitude of $E_{1}$ at a far-away axial position located at a distance $r$ from its center. The same dipole creates an electric field magnitude of $E_{2}$ at a far-away equatorial plane coordinate located at a distance of $2r$ from its center. Under the definitive point-dipole condition ($r \\\\gg a$), what is the exact value of the numerical ratio $\\\\frac{E_{1}}{E_{2}}$?",
+801:           "options": {
+802:             "a": "2",
+803:             "b": "4",
+804:             "c": "8",
+805:             "d": "16"
+806:           },
+807:           "correct_option": "d",
+808:           "topper_execution_logic": "Don't fall for the simple ratio trap of 2 by assuming same-distance points! Write out the short-dipole scaling equations carefully: $E_{1} = E_{\\\\text{axial}}(r) = \\\\frac{2kp}{r^{3}}$. For the equatorial point at twice the distance, $E_{2} = E_{\\\\text{equatorial}}(2r) = \\\\frac{kp}{(2r)^{3}} = \\\\frac{kp}{8r^{3}}$. Now divide them: $\\\\frac{E_{1}}{E_{2}} = \\\\frac{2kp/r^{3}}{kp/8r^{3}} = 2 \\\\times 8 = 16$. The inverse-cubic drop-off behavior turns the doubled distance into an extra factor of 8, pushing the final ratio up to 16."
+809:         }
+810:       ]
+811:     }
+812:   },
+813: 
+814: 
+815: 
+816: 
+817:   {
+818:   "chapter_subjective_bank": {
+819:     "chapter_number": 1,
+820:     "chapter_name": "Electric Charges and Fields",
+821:     "questions": [
+822:       {
+823:         "que
+<truncated 45282 bytes>
+the completely symmetric placement of equal charges at identical distances from the centroid, their individual field vectors cancel out vectorially[cite: 598, 615].",
+1274:             "algebraic_progression": [
+1275:               "\\\\vec{E}_{\\\\text{net}} = \\\\vec{E}_{A} + \\\\vec{E}_{B} + \\\\vec{E}_{C}",
+1276:               "\\\\vec{E}_{\\\\text{net}} = 0"
+1277:             ]
+1278:           },
+1279:           {
+1280:             "allocated_marks": 1.0,
+1281:             "evaluation_trigger": "Applying the core relationship between field vector values and localized force calculations[cite: 615, 677].",
+1282:             "minimum_viable_text": "The net force is zero (F = 0). Since the net electric field intensity at the centroid location is exactly zero, the force experienced by any charge at that position is F = qE_{\\\\text{net}} = 0 N[cite: 615, 677].",
+1283:             "algebraic_progression": [
+1284:               "\\\\vec{F} = (-Q)\\\\vec{E}_{\\\\text{net}}",
+1285:               "\\\\vec{F} = (-Q) \\\\times 0 = 0\\\\,\\\\text{N}"
+1286:             ]
+1287:           },
+1288:           {
+1289:             "allocated_marks": 2.0,
+1290:             "evaluation_trigger": "Calculating vertex-centroid distances and processing the component addition after changing vector signs[cite: 598, 603, 633].",
+1291:             "minimum_viable_text": "Distance to centroid is r = l/\\\\sqrt{3}$[cite: 598]. Resultant of the remaining two positive vertex fields has magnitude E = \\\\frac{q}{4\\\\pi\\\\epsilon_{0}r^{2}} directed toward the replaced vertex[cite: 610, 611]. The replaced negative charge also produces a field of magnitude E in that same direction[cite: 702]. They add directly: E_{\\\\text{net}} = 2E = 2\\\\left(\\\\frac{3q}{4\\\\pi\\\\epsilon_{0}l^{2}}\\\\right) = \\\\frac{6q}{4\\\\pi\\\\epsilon_{0}l^{2}}$[cite: 603, 612].",
+1292:     
+<truncated 5608 bytes>
+
+NOTE: The output was truncated because it was too long. Use a more targeted query or a smaller range to get the information you need.

@@ -1,0 +1,835 @@
+{
+    "chapter_name": "Inverse Trigonometric Functions",
+    "board": "CBSE",
+    "class": "12",
+    "exam_year": "2026",
+    "formulas": [
+        {
+            "formula_number": 1,
+            "formula_title": "Principal Value Branch & Self-Inverting Property",
+            "section_A": {
+                "latex_formula": "$$ \\sin^{-1}(\\sin x) = x, \\quad x \\in \\left[-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right] $$",
+                "derived_forms": [
+                    "$$ \\cos^{-1}(\\cos x) = x, \\quad x \\in [0, \\pi] $$",
+                    "$$ \\tan^{-1}(\\tan x) = x, \\quad x \\in \\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right) $$",
+                    "$$ \\sin(\\sin^{-1} x) = x, \\quad x \\in [-1, 1] $$"
+                ],
+                "special_cases": [
+                    "$$ \\sin^{-1}(\\sin x) = \\pi - x, \\quad x \\in \\left[\\frac{\\pi}{2}, \\frac{3\\pi}{2}\\right] $$",
+                    "$$ \\cos^{-1}(\\cos x) = 2\\pi - x, \\quad x \\in [\\pi, 2\\pi] $$"
+                ]
+            },
+            "section_B": {
+                "when_to_use": "Used universally in Principal Value questions and simplification of trigonometric expressions. Must be applied only when the argument falls strictly within the principal value branch.",
+                "trigger_keywords": [
+                    "Find the principal value",
+                    "Evaluate",
+                    "Simplify"
+                ],
+                "question_types": [
+                    "MCQ",
+                    "1_mark",
+                    "2_mark"
+                ],
+                "common_mistakes": [
+                    "Cancelling the inverse and trigonometric function blindly without checking the domain (e.g., writing $$ \\sin^{-1}(\\sin(2\\pi/3)) = 2\\pi/3 $$).",
+                    "Confusing the range of $$ \\tan^{-1} x $$ (open interval) with $$ \\sin^{-1} x $$ (closed interval)."
+                ],
+                "board_traps": [
+                    "Giving angles in the 2nd or 3rd quadrant where blind cancellation leads to negative marking.",
+                    "Using angles larger than $$ 2\\pi $$ to force students into multiple reduction steps."
+                ],
+                "examiner_twist_pattern": "CBSE loves asking $$ \\cos^{-1}(\\cos(7\\pi/6)) $$ or $$ \\sin^{-1}(\\sin(3\\pi/5)) $$ to catch students who don't adjust the angle using allied angle formulas."
+            },
+            "section_C": {
+                "why_students_fail": "Students memorize the cancellation rule but ignore the restricted domain necessary for a function to be bijective and invertible.",
+                "how_to_think": "Think 'Check the boundary first'. Before stripping away the sine and sine inverse, ask: 'Is this angle within the safe zone?' If not, push it back into the safe zone using quadrant rules.",
+                "thirty_second_strategy": "1. Check if angle is in Principal Value Branch. 2. If yes, cancel and write angle. 3. If no, use $$ \\pi - \\theta $$ or $$ 2\\pi - \\theta $$ to map it back without changing the original trig value's sign.",
+                "mental_shortcut": "For $$ \\sin^{-1}(\\sin x) $$, if numerator > denominator in fractions of $$ \\pi $$, it's out of bounds. Adjust immediately.",
+                "micro_example": "For $$ \\sin^{-1}(\\sin(2\\pi/3)) $$, $$ 2\\pi/3 $$ is outside $$ [-\\pi/2, \\pi/2] $$. Rewrite as $$ \\sin^{-1}(\\sin(\\pi - \\pi/3)) = \\sin^{-1}(\\sin(\\pi/3)) = \\pi/3 $$."
+            }
+        },
+        {
+            "formula_number": 2,
+            "formula_title": "Negative Argument Property (Group 1: Odd-Like Extensions)",
+            "section_A": {
+                "latex_formula": "$$ \\sin^{-1}(-x) = -\\sin^{-1}(x), \\quad x \\in [-1, 1] $$",
+                "derived_forms": [
+                    "$$ \\tan^{-1}(-x) = -\\tan^{-1}(x), \\quad x \\in \\mathbb{R} $$",
+                    "$$ \\text{cosec}^{-1}(-x) = -\\text{cosec}^{-1}(x), \\quad |x| \\ge 1 $$"
+                ],
+                "special_cases": [
+                    "$$ \\sin^{-1}\\left(-\\frac{1}{2}\\right) = -\\frac{\\pi}{6} $$",
+                    "$$ \\tan^{-1}(-1) = -\\frac{\\pi}{4} $$"
+                ]
+            },
+            "section_B": {
+                "when_to_use": "When the input value to an inverse trigonometric function from Group 1 (sin, tan, cosec) is negative.",
+                "trigger_keywords": [
+                    "Evaluate negative inputs",
+                    "Simplify expressions with negative domains"
+                ],
+                "question_types": [
+                    "MCQ",
+                    "1_mark"
+                ],
+                "common_mistakes": [
+                    "Adding $$ \\pi $$ to the negative angle incorrectly, confusing it with Group 2 functions.",
+                    "Applying this to $$ \\cos^{-1}(-x) $$."
+                ],
+                "board_traps": [
+                    "Mixing Group 1 and Group 2 functions in a single expression to test memory precision (e.g., $$ \\sin^{-1}(-1/2) + \\cos^{-1}(-1/2) $$)."
+                ],
+                "examiner_twist_pattern": "Presenting nested functions where the inner evaluation yields a negative value, forcing the application of this property before the final step."
+            },
+            "section_C": {
+                "why_students_fail": "Rote memorization failure between the two groups of negative argument properties. They forget which functions just spit out the negative sign.",
+                "how_to_think": "Think 'Symmetry around origin'. Since sin(x), tan(x), and cosec(x) are odd functions, their inverses respect this by pulling the negative sign out front (within their principal branches).",
+                "thirty_second_strategy": "Identify function type -> Is it sin, tan, or cosec? -> Yes -> Extract the minus sign -> Solve for positive value -> Attach minus sign to final answer.",
+                "mental_shortcut": "Sin, Tan, Cosec (STC) = Pull out minus.",
+                "micro_example": "Evaluate $$ \\tan^{-1}(-\\sqrt{3}) $$. Extract negative: $$ -\\tan^{-1}(\\sqrt{3}) $$. The angle whose tan is $$ \\sqrt{3} $$ is $$ \\pi/3 $$.  $$ -\\pi/3 $$."
+            }
+        },
+        {
+            "formula_number": 3,
+            "formula_title": "Negative Argument Property (Group 2: Pi-Minus Extensions)",
+            "section_A": {
+                "latex_formula": "$$ \\cos^{-1}(-x) = \\pi - \\cos^{-1}(x), \\quad x \\in [-1, 1] $$",
+                "derived_forms": [
+                    "$$ \\sec^{-1}(-x) = \\pi - \\sec^{-1}(x), \\quad |x| \\ge 1 $$",
+                    "$$ \\cot^{-1}(-x) = \\pi - \\cot^{-1}(x), \\quad x \\in \\mathbb{R} $$"
+                ],
+                "special_cases": [
+                    "$$ \\cos^{-1}\\left(-\\frac{1}{2}\\right) = \\pi - \\frac{\\pi}{3} = \\frac{2\\pi}{3} $$",
+                    "$$ \\cos^{-1}(-1) = \\pi - 0 = \\pi $$"
+                ]
+            },
+            "section_B": {
+                "when_to_use": "When the input value to an inverse trigonometric function from Group 2 (cos, sec, cot) is negative.",
+                "trigger_keywords": [
+                    "Evaluate negative inputs",
+                    "Simplify expressions with negative domains"
+                ],
+                "question_types": [
+                    "MCQ",
+                    "1_mark",
+                    "2_mark"
+                ],
+                "common_mistakes": [
+                    "Writing $$ \\cos^{-1}(-x) = -\\cos^{-1}(x) $$.",
+                    "Forgetting the $$ \\pi $$ and just placing the angle in the 4th quadrant (which is out of the principal branch $$ [0, \\pi] $$)."
+                ],
+                "board_traps": [
+                    "Asking for the value of $$ \\cot^{-1}(-1) $$. Students often write $$ -\\pi/4 $$ instead of $$ 3\\pi/4 $$ because they link cot to tan."
+                ],
+                "examiner_twist_pattern": "Embedding these inside a larger sum, like $$ \\tan^{-1}(1) + \\cos^{-1}(-1/2) + \\sin^{-1}(-1/2) $$, to see if the student remembers to use the $$ \\pi $$ shift for cosine."
+            },
+            "section_C": {
+                "why_students_fail": "Students assume all inverse functions handle negatives the same way or mistakenly map cosine negatives to the 4th quadrant instead of the 2nd quadrant.",
+                "how_to_think": "Think 'Upper half plane'. The principal value branches for cos, sec, cot are entirely positive angles $$ (0 \\text{ to } \\pi) $$. A negative input must map to an obtuse angle (Quadrant II). To get a Q2 angle, subtract Q1 reference angle from $$ \\pi $$.",
+                "thirty_second_strategy": "Identify function type -> Is it cos, sec, or cot? -> Yes -> Write '$$ \\pi - $$' -> Find the angle for the positive value -> Subtract from $$ \\pi $$.",
+                "mental_shortcut": "Cos, Sec, Cot (CSC) = Pi minus.",
+                "micro_example": "Evaluate $$ \\cos^{-1}(-1/\\sqrt{2}) $$. Apply rule: $$ \\pi - \\cos^{-1}(1/\\sqrt{2}) $$. Since $$ \\cos^{-1}(1/\\sqrt{2}) = \\pi/4 $$, answer is $$ \\pi - \\pi/4 = 3\\pi/4 $$."
+            }
+        },
+        {
+            "formula_number": 4,
+            "formula_title": "Reciprocal Argument Property",
+            "section_A": {
+                "latex_formula": "$$ \\text{cosec}^{-1}(x) = \\sin^{-1}\\left(\\frac{1}{x}\\right), \\quad |x| \\ge 1 $$",
+                "derived_forms": [
+                    "$$ \\sec^{-1}(x) = \\cos^{-1}\\left(\\frac{1}{x}\\right), \\quad |x| \\ge 1 $$",
+                    "$$ \\cot^{-1}(x) = \\tan^{-1}\\left(\\frac{1}{x}\\right), \\quad x > 0 $$",
+                    "$$ \\cot^{-1}(x) = \\pi + \\tan^{-1}\\left(\\frac{1}{x}\\right), \\quad x < 0 $$"
+                ],
+                "special_cases": [
+                    "$$ \\text{cosec}^{-1}(2) = \\sin^{-1}\\left(\\frac{1}{2}\\right) = \\frac{\\pi}{6} $$"
+                ]
+            },
+            "section_B": {
+                "when_to_use": "To convert expressions involving cosec⁻¹, sec⁻¹, and cot⁻¹ into the more familiar sin⁻¹, cos⁻¹, and tan⁻¹ for easier calculation or formula application.",
+                "trigger_keywords": [
+                    "cosec inverse",
+                    "sec inverse",
+                    "cot inverse",
+                    "Evaluate"
+                ],
+                "question_types": [
+                    "1_mark",
+                    "2_mark"
+                ],
+                "common_mistakes": [
+                    "Applying the simple reciprocal rule for $$ \\cot^{-1}(x) $$ when $$ x $$ is negative without adding $$ \\pi $$.",
+                    "Taking the reciprocal of the function value instead of the argument (i.e., writing $$ 1/\\sin^{-1}(x) $$)."
+                ],
+                "board_traps": [
+                    "Testing $$ \\cot^{-1}(x) $$ for negative $$ x $$, expecting students to blindly use $$ \\tan^{-1}(1/x) $$ and land in Q4 instead of Q2."
+                ],
+                "examiner_twist_pattern": "Giving complex algebraic fractions inside sec⁻¹ or cosec⁻¹ where taking the reciprocal immediately converts it into a standard substitution form for sin⁻¹ or cos⁻¹."
+            },
+            "section_C": {
+                "why_students_fail": "Ignoring the domain constraint for $$ \\cot^{-1} $$ when $$ x $$ is negative. The ranges of cot⁻¹ $$ (0, \\pi) $$ and tan⁻¹ $$ (-\\pi/2, \\pi/2) $$ do not align for negative numbers.",
+                "how_to_think": "Think 'Flip the inside, change the name'. Inverse functions answer the question 'what angle gives this ratio?' If you flip the ratio (hypotenuse/opposite to opposite/hypotenuse), you must flip the function to match.",
+                "thirty_second_strategy": "Whenever you see sec⁻¹, cosec⁻¹, or cot⁻¹, immediately convert it to cos⁻¹, sin⁻¹, or tan⁻¹ by flipping the argument. Beware of cot⁻¹ with negative inputs—add $$ \\pi $$.",
+                "mental_shortcut": "Flip the fraction, flip the function.",
+                "micro_example": "Convert $$ \\sec^{-1}(2/\\sqrt{3}) $$. Flip argument to $$ \\sqrt{3}/2 $$ and function to $$ \\cos^{-1} $$. Value is $$ \\cos^{-1}(\\sqrt{3}/2) = \\pi/6 $$."
+            }
+        },
+        {
+            "formula_number": 5,
+            "formula_title": "Complementary Angle Property",
+            "section_A": {
+                "latex_formula": "$$ \\sin^{-1}(x) + \\cos^{-1}(x) = \\frac{\\pi}{2}, \\quad x \\in [-1, 1] $$",
+                "derived_forms": [
+                    "$$ \\tan^{-1}(x) + \\cot^{-1}(x) = \\frac{\\pi}{2}, \\quad x \\in \\mathbb{R} $$",
+                    "$$ \\text{cosec}^{-1}(x) + \\sec^{-1}(x) = \\frac{\\pi}{2}, \\quad |x| \\ge 1 $$"
+                ],
+                "special_cases": [
+                    "$$ \\sin^{-1}\\left(\\frac{1}{5}\\right) + \\cos^{-1}\\left(\\frac{1}{5}\\right) = \\frac{\\pi}{2} $$",
+                    "If $$ \\sin^{-1} x + \\cos^{-1} y = \\frac{\\pi}{2} $$, then $$ x = y $$."
+                ]
+            },
+            "section_B": {
+                "when_to_use": "To simplify expressions where an inverse function and its co-function are added with the exact same argument, or to solve equations by substituting one for the other.",
+                "trigger_keywords": [
+                    "Solve for x",
+                    "Find the value of x",
+                    "Simplify"
+                ],
+                "question_types": [
+                    "1_mark",
+                    "2_mark",
+                    "3_mark"
+                ],
+                "common_mistakes": [
+                    "Applying the formula when the arguments are different (e.g., $$ \\sin^{-1}x + \\cos^{-1}y = \\pi/2 $$ is FALSE unless $$ x=y $$).",
+                    "Mixing up the pairs (e.g., matching sin⁻¹ with sec⁻¹ instead of cos⁻¹)."
+                ],
+                "board_traps": [
+                    "Using variables disguised as complex expressions (e.g., $$ \\tan^{-1}(x^2 - 4) + \\cot^{-1}(x^2 - 4) $$) to see if the student realizes the argument complexity is irrelevant.",
+                    "Embedding this in calculus questions (differentiation of $$ \\sin^{-1}x + \\cos^{-1}x $$ is 0)."
+                ],
+                "examiner_twist_pattern": "Equations like $$ \\sin(\\sin^{-1}(1/5) + \\cos^{-1}(x)) = 1 $$. The student must realize $$ \\sin(\\pi/2) = 1 $$, so the inner bracket must be $$ \\pi/2 $$, enforcing $$ x = 1/5 $$."
+            },
+            "section_C": {
+                "why_students_fail": "Overcomplicating the problem by trying to expand or convert into tangents instead of recognizing the direct identity structure.",
+                "how_to_think": "Think 'Co-function pairs sum to 90 degrees'. Just like in regular trig where $$ \\sin(90^\\circ - \\theta) = \\cos(\\theta) $$, in inverse trig, the angles that produce the same ratio for co-functions must add up to 90 degrees ($$ \\pi/2 $$).",
+                "thirty_second_strategy": "Scan for pairs: (sin, cos), (tan, cot), (sec, cosec). Do they have identical inputs? If yes, immediately replace the entire sum with $$ \\pi/2 $$.",
+                "mental_shortcut": "Same input + Co-function pair = $$ \\pi/2 $$.",
+                "micro_example": "Find derivative of $$ y = \\sin^{-1}(e^x) + \\cos^{-1}(e^x) $$. Since inputs are identical, $$ y = \\pi/2 $$. Derivative is 0."
+            }
+        },
+        {
+            "formula_number": 6,
+            "formula_title": "Tangent Inverse Addition Property",
+            "section_A": {
+                "latex_formula": "$$ \\tan^{-1}x + \\tan^{-1}y = \\tan^{-1}\\left(\\frac{x+y}{1-xy}\\right), \\quad xy < 1 $$",
+                "derived_forms": [
+                    "$$ \\tan^{-1}x + \\tan^{-1}y = \\pi + \\tan^{-1}\\left(\\frac{x+y}{1-xy}\\right), \\quad x > 0, y > 0, xy > 1 $$",
+                    "$$ \\tan^{-1}x + \\tan^{-1}y + \\tan^{-1}z = \\tan^{-1}\\left(\\frac{x+y+z-xyz}{1-xy-yz-zx}\\right) $$"
+                ],
+                "special_cases": [
+                    "$$ \\tan^{-1}x + \\tan^{-1}x = 2\\tan^{-1}x = \\tan^{-1}\\left(\\frac{2x}{1-x^2}\\right), \\quad |x| < 1 $$"
+                ]
+            },
+            "section_B": {
+                "when_to_use": "When combining two inverse tangent terms into a single inverse tangent term, especially in proving identities or solving equations.",
+                "trigger_keywords": [
+                    "Prove that",
+                    "Simplify the expression",
+                    "Solve for x"
+                ],
+                "question_types": [
+                    "2_mark",
+                    "3_mark",
+                    "4_mark"
+                ],
+                "common_mistakes": [
+                    "Ignoring the domain condition $$ xy < 1 $$. If $$ xy > 1 $$, students forget to add $$ \\pi $$, leading to quadrant errors.",
+                    "Sign errors in the denominator (writing $$ 1+xy $$ instead of $$ 1-xy $$)."
+                ],
+                "board_traps": [
+                    "Giving values like $$ x=2, y=3 $$. Here $$ xy = 6 > 1 $$. Applying the basic formula gives $$ \\tan^{-1}(-1) = -\\pi/4 $$, but the correct answer is $$ \\pi - \\pi/4 = 3\\pi/4 $$."
+                ],
+                "examiner_twist_pattern": "CBSE often sets up an equation like $$ \\tan^{-1}2x + \\tan^{-1}3x = \\pi/4 $$ to form a quadratic equation where one root must be rejected due to the domain conditions."
+            },
+            "section_C": {
+                "why_students_fail": "Students blindly apply the formula as an algebraic identity without verifying the trigonometric quadrant constraints mapping from $$ (x, y) $$ space to angles.",
+                "how_to_think": "Think 'Check the product first'. The core behavior of the addition formula depends entirely on whether the product $$ xy $$ is less than 1 (safe) or greater than 1 (requires $$ \\pi $$ shift).",
+                "thirty_second_strategy": "1. Multiply $$ x $$ and $$ y $$. 2. Is $$ xy < 1 $$? Use direct formula. 3. Is $$ xy > 1 $$ and both positive? Add $$ \\pi $$ to the direct formula. 4. Solve the resulting algebraic fraction.",
+                "mental_shortcut": "Same as $$ \\tan(A+B) $$ formula, just translated. Numerator adds, denominator subtracts product.",
+                "micro_example": "Evaluate $$ \\tan^{-1}(1/2) + \\tan^{-1}(1/3) $$. $$ xy = 1/6 < 1 $$. Formula gives $$ \\tan^{-1}\\left(\\frac{1/2 + 1/3}{1 - 1/6}\\right) = \\tan^{-1}\\left(\\frac{5/6}{5/6}\\right) = \\tan^{-1}(1) = \\pi/4 $$."
+            }
+        },
+        {
+            "formula_number": 7,
+            "formula_title": "Tangent Inverse Subtraction Property",
+            "section_A": {
+                "latex_formula": "$$ \\tan^{-1}x - \\tan^{-1}y = \\tan^{-1}\\left(\\frac{x-y}{1+xy}\\right), \\quad xy > -1 $$",
+                "derived_forms": [
+                    "$$ \\tan^{-1}\\left(\\frac{a\\cos x - b\\sin x}{b\\cos x + a\\sin x}\\right) = \\tan^{-1}\\left(\\frac{a/b - \\tan x}{1 + (a/b)\\tan x}\\right) = \\tan^{-1}(a/b) - x $$"
+                ],
+                "special_cases": [
+                    "$$ \\tan^{-1}\\left(\\frac{1-x}{1+x}\\right) = \\frac{\\pi}{4} - \\tan^{-1}x, \\quad x > -1 $$"
+                ]
+            },
+            "section_B": {
+                "when_to_use": "When breaking down complex rational functions inside a tan inverse, or when subtracting two tan inverse terms.",
+                "trigger_keywords": [
+                    "Write in simplest form",
+                    "Differentiate with respect to x",
+                    "Integrate"
+                ],
+                "question_types": [
+                    "2_mark",
+                    "3_mark"
+                ],
+                "common_mistakes": [
+                    "Flipping the signs in the numerator and denominator.",
+                    "Not recognizing the reverse application: splitting a complex fraction into two simple $$ \\tan^{-1} $$ terms."
+                ],
+                "board_traps": [
+                    "Embedding this formula inside a calculus problem where direct differentiation would take 3 pages, but applying the reverse formula reduces it to a 2-line problem."
+                ],
+                "examiner_twist_pattern": "CBSE frames questions like simplify $$ \\tan^{-1}\\left(\\frac{\\sqrt{1+x} - \\sqrt{1-x}}{\\sqrt{1+x} + \\sqrt{1-x}}\\right) $$, which after substituting $$ x = \\cos 2\\theta $$ turns into the $$ \\tan^{-1}(1-y)/(1+y) $$ subtraction form."
+            },
+            "section_C": {
+                "why_students_fail": "Failure to recognize the structural pattern of $$ \\frac{A - B}{1 + AB} $$ when it is disguised with algebraic or trigonometric terms.",
+                "how_to_think": "Think 'Deconstruction'. Whenever you see a $$ 1 $$ in the bottom left (or bottom right depending on the arrangement) of a fraction inside a tan inverse, check if the numerator is the difference of the two terms that make up the product in the denominator.",
+                "thirty_second_strategy": "Force a '1' in the denominator's leading term by dividing numerator and denominator by the same expression. Then map it to $$ \\frac{x-y}{1+xy} $$ and split into $$ \\tan^{-1}x - \\tan^{-1}y $$.",
+                "mental_shortcut": "Force the '1' at the bottom, split the top.",
+                "micro_example": "Simplify $$ \\tan^{-1}\\left(\\frac{\\cos x - \\sin x}{\\cos x + \\sin x}\\right) $$. Divide by $$ \\cos x $$ to get $$ \\tan^{-1}\\left(\\frac{1 - \\tan x}{1 + 1\\cdot\\tan x}\\right) $$. This is $$ \\tan^{-1}(1) - \\tan^{-1}(\\tan x) = \\pi/4 - x $$."
+            }
+        },
+        {
+            "formula_number": 8,
+            "formula_title": "Double Angle Conversions (The Universal Keys)",
+            "section_A": {
+                "latex_formula": "$$ 2\\tan^{-1}x = \\tan^{-1}\\left(\\frac{2x}{1-x^2}\\right), \\quad -1 < x < 1 $$",
+                "derived_forms": [
+                    "$$ 2\\tan^{-1}x = \\sin^{-1}\\left(\\frac{2x}{1+x^2}\\right), \\quad |x| \\le 1 $$",
+                    "$$ 2\\tan^{-1}x = \\cos^{-1}\\left(\\frac{1-x^2}{1+x^2}\\right), \\quad x \\ge 0 $$"
+                ],
+                "special_cases": [
+                    "$$ \\sin^{-1}\\left(\\frac{2x}{1+x^2}\\right) + \\cos^{-1}\\left(\\frac{1-y^2}{1+y^2}\\right) = 2\\tan^{-1}x + 2\\tan^{-1}y $$"
+                ]
+            },
+            "section_B": {
+                "when_to_use": "Crucial for converting $$ \\tan^{-1} $$ to $$ \\sin^{-1} $$ or $$ \\cos^{-1} $$ to match other terms in an equation, or simplifying complex arguments into $$ 2\\tan^{-1}x $$.",
+                "trigger_keywords": [
+                    "Prove that",
+                    "Solve for x",
+                    "Simplify"
+                ],
+                "question_types": [
+                    "3_mark",
+                    "4_mark",
+                    "5_mark"
+                ],
+                "common_mistakes": [
+                    "Confusing the denominators: using $$ 1-x^2 $$ for sine and $$ 1+x^2 $$ for tangent.",
+                    "Applying the conversion without checking the required domains."
+                ],
+                "board_traps": [
+                    "Equations like $$ \\tan(1/2 \\times [\\sin^{-1}(2x/(1+x^2)) + \\cos^{-1}((1-y^2)/(1+y^2))]) $$. Students try to evaluate the inverse functions directly instead of swapping them for $$ 2\\tan^{-1} $$."
+                ],
+                "examiner_twist_pattern": "CBSE uses these forms heavily in differentiation. They will ask to differentiate $$ \\sin^{-1}(2x/(1+x^2)) $$. If done via chain rule, it's a nightmare. If swapped to $$ 2\\tan^{-1}x $$, the derivative is instantly $$ 2/(1+x^2) $$."
+            },
+            "section_C": {
+                "why_students_fail": "Students do not memorize the three parallel forms together, treating them as isolated identities, missing the connection that they all map back to $$ 2\\tan^{-1}x $$.",
+                "how_to_think": "Think of $$ 2\\tan^{-1}x $$ as the 'hub' or 'central currency' of inverse trigonometry. It can instantly be exchanged into sine, cosine, or tangent formats depending on what denominator pattern you see.",
+                "thirty_second_strategy": "See $$ 1+x^2 $$ under $$ 2x $$? Swap to $$ 2\\tan^{-1}x $$. See $$ 1+x^2 $$ under $$ 1-x^2 $$? Swap to $$ 2\\tan^{-1}x $$. See $$ 1-x^2 $$ under $$ 2x $$? Swap to $$ 2\\tan^{-1}x $$.",
+                "mental_shortcut": "Plus at bottom = Sin/Cos. Minus at bottom = Tan.",
+                "micro_example": "Simplify $$ \\cos^{-1}\\left(\\frac{1-x^2}{1+x^2}\\right) $$ for differentiation. Recognize the pattern immediately as $$ 2\\tan^{-1}x $$. Differentiate to get $$ \\frac{2}{1+x^2} $$."
+            }
+        },
+        {
+            "formula_number": 9,
+            "formula_title": "Sine and Cosine Inverse Addition/Subtraction",
+            "section_A": {
+                "latex_formula": "$$ \\sin^{-1}x + \\sin^{-1}y = \\sin^{-1}\\left(x\\sqrt{1-y^2} + y\\sqrt{1-x^2}\\right) $$",
+                "derived_forms": [
+                    "$$ \\sin^{-1}x - \\sin^{-1}y = \\sin^{-1}\\left(x\\sqrt{1-y^2} - y\\sqrt{1-x^2}\\right) $$",
+                    "$$ \\cos^{-1}x + \\cos^{-1}y = \\cos^{-1}\\left(xy - \\sqrt{1-x^2}\\sqrt{1-y^2}\\right) $$",
+                    "$$ \\cos^{-1}x - \\cos^{-1}y = \\cos^{-1}\\left(xy + \\sqrt{1-x^2}\\sqrt{1-y^2}\\right) $$"
+                ],
+                "special_cases": [
+                    "$$ \\sin^{-1}x + \\sin^{-1}x = 2\\sin^{-1}x = \\sin^{-1}(2x\\sqrt{1-x^2}) $$",
+                    "$$ \\cos^{-1}x + \\cos^{-1}x = 2\\cos^{-1}x = \\cos^{-1}(2x^2 - 1) $$"
+                ]
+            },
+            "section_B": {
+                "when_to_use": "When proving equations involving only $$ \\sin^{-1} $$ or $$ \\cos^{-1} $$, especially when converting them all to $$ \\tan^{-1} $$ would create overly messy algebra.",
+                "trigger_keywords": [
+                    "Prove that",
+                    "Evaluate",
+                    "Show that"
+                ],
+                "question_types": [
+                    "3_mark",
+                    "4_mark"
+                ],
+                "common_mistakes": [
+                    "Mixing up the signs for cosine: $$ \\cos^{-1} $$ addition has a MINUS sign inside, subtraction has a PLUS sign.",
+                    "Forgetting the square roots entirely and just adding the arguments."
+                ],
+                "board_traps": [
+                    "Providing $$ \\sin^{-1}(x) + \\sin^{-1}(y) = \\pi/2 $$ and asking for relation between x and y. If students use this heavy formula, it takes long. (Smart method uses complementary angles)."
+                ],
+                "examiner_twist_pattern": "Asking to prove $$ \\sin^{-1}(3/5) + \\sin^{-1}(8/17) = \\cos^{-1}(84/85) $$. Students must either use sine addition then convert, or convert both to tan, add, and convert back to cos."
+            },
+            "section_C": {
+                "why_students_fail": "Intimidation by the large square root expressions leading to calculation errors, or forgetting the sign reversal in the cosine formula.",
+                "how_to_think": "Think 'Mirror of compound angles'. $$ \\sin(A+B) = \\sin A\\cos B + \\cos A\\sin B $$. If $$ x = \\sin A $$, then $$ \\sqrt{1-x^2} = \\cos A $$. The inverse formula is literally the algebraic translation of the Class 11 trig identities.",
+                "thirty_second_strategy": "Identify if it's sine or cosine. If sine, alternate the variables with roots and keep the sign. If cosine, multiply variables, multiply roots, and REVERSE the sign.",
+                "mental_shortcut": "Sin plays nice (keeps sign, mixes terms). Cos is stubborn (groups terms, flips sign).",
+                "micro_example": "Evaluate $$ 2\\sin^{-1}(x) $$. Using addition: $$ \\sin^{-1}(x\\sqrt{1-x^2} + x\\sqrt{1-x^2}) = \\sin^{-1}(2x\\sqrt{1-x^2}) $$."
+            }
+        },
+        {
+            "formula_number": 10,
+            "formula_title": "Standard Algebraic Substitutions (Calculus Lifeline)",
+            "section_A": {
+                "latex_formula": "$$ \\text{For } \\sqrt{a^2 - x^2}, \\text{ substitute } x = a\\sin\\theta \\text{ or } a\\cos\\theta $$",
+                "derived_forms": [
+                    "$$ \\text{For } \\sqrt{a^2 + x^2}, \\text{ substitute } x = a\\tan\\theta \\text{ or } a\\cot\\theta $$",
+                    "$$ \\text{For } \\sqrt{x^2 - a^2}, \\text{ substitute } x = a\\sec\\theta \\text{ or } a\\text{cosec}\\theta $$",
+                    "$$ \\text{For } \\sqrt{\\frac{a-x}{a+x}} \\text{ or } \\sqrt{\\frac{a+x}{a-x}}, \\text{ substitute } x = a\\cos2\\theta $$"
+                ],
+                "special_cases": [
+                    "$$ \\text{For } \\sqrt{\\frac{a^2-x^2}{a^2+x^2}}, \\text{ substitute } x^2 = a^2\\cos2\\theta $$"
+                ]
+            },
+            "section_B": {
+                "when_to_use": "Whenever you encounter complex algebraic expressions inside inverse trigonometric functions, especially under square roots, requiring simplification before differentiation or integration.",
+                "trigger_keywords": [
+                    "Write in simplest form",
+                    "Differentiate",
+                    "Integrate"
+                ],
+                "question_types": [
+                    "3_mark",
+                    "4_mark",
+                    "5_mark"
+                ],
+                "common_mistakes": [
+                    "Substituting $$ x = a\\tan\\theta $$ for $$ \\sqrt{a^2 - x^2} $$ which leads nowhere.",
+                    "Forgetting to substitute back the value of $$ \\theta $$ in terms of $$ x $$ at the final step of simplification.",
+                    "Missing the multiplier 'a' when the constant is not 1 (e.g., using $$ x = \\sin\\theta $$ for $$ \\sqrt{4-x^2} $$ instead of $$ x = 2\\sin\\theta $$)."
+                ],
+                "board_traps": [
+                    "Presenting an expression like $$ \\tan^{-1}\\left(\\frac{x}{\\sqrt{a^2-x^2}}\\right) $$. Students who try to differentiate directly will get bogged down in massive quotient/chain rules."
+                ],
+                "examiner_twist_pattern": "Mixing substitutions with properties, e.g., using $$ x = \\cos 2\\theta $$ inside $$ \\tan^{-1}\\left(\\sqrt{\\frac{1-x}{1+x}}\\right) $$, which reduces to $$ \\tan^{-1}(\\tan \\theta) = \\theta = \\frac{1}{2}\\cos^{-1}x $$, followed by a 1-mark differentiation."
+            },
+            "section_C": {
+                "why_students_fail": "Lack of recognition of fundamental Pythagorean identities ($$ 1-\\sin^2 = \\cos^2 $$, $$ 1+\\tan^2 = \\sec^2 $$) in their algebraic form.",
+                "how_to_think": "Think 'Collapse the square root'. The goal of substitution is to turn binomials inside square roots into perfect squares. Only Class 10 Pythagorean identities can do this.",
+                "thirty_second_strategy": "Look at the sign. Number minus variable? Use Sine. Number plus variable? Use Tangent. Variable minus number? Use Secant. Fraction of mixed signs? Use $$ \\cos 2\\theta $$.",
+                "mental_shortcut": "-x² -> Sin, +x² -> Tan, x²- -> Sec.",
+                "micro_example": "Simplify $$ \\sin^{-1}\\left(\\frac{x}{\\sqrt{x^2+a^2}}\\right) $$. Put $$ x = a\\tan\\theta $$. Denominator becomes $$ \\sqrt{a^2\\tan^2\\theta+a^2} = a\\sec\\theta $$. Expression is $$ \\sin^{-1}\\left(\\frac{a\\tan\\theta}{a\\sec\\theta}\\right) = \\sin^{-1}(\\sin\\theta) = \\theta = \\tan^{-1}(x/a) $$."
+            }
+        },
+        {
+            "formula_number": 11,
+            "formula_title": "Interconversion of ITFs (Right Triangle Method)",
+            "section_A": {
+                "latex_formula": "$$ \\sin^{-1}x = \\cos^{-1}\\left(\\sqrt{1-x^2}\\right) = \\tan^{-1}\\left(\\frac{x}{\\sqrt{1-x^2}}\\right), \\quad 0 < x < 1 $$",
+                "derived_forms": [
+                    "$$ \\cos^{-1}x = \\sin^{-1}\\left(\\sqrt{1-x^2}\\right) = \\tan^{-1}\\left(\\frac{\\sqrt{1-x^2}}{x}\\right), \\quad 0 < x < 1 $$",
+                    "$$ \\tan^{-1}x = \\sin^{-1}\\left(\\frac{x}{\\sqrt{1+x^2}}\\right) = \\cos^{-1}\\left(\\frac{1}{\\sqrt{1+x^2}}\\right), \\quad x > 0 $$"
+                ],
+                "special_cases": [
+                    "$$ \\cot^{-1}x = \\sin^{-1}\\left(\\frac{1}{\\sqrt{1+x^2}}\\right) = \\cos^{-1}\\left(\\frac{x}{\\sqrt{1+x^2}}\\right) $$"
+                ]
+            },
+            "section_B": {
+                "when_to_use": "When an expression contains mixed inverse trigonometric functions (e.g., sine outside, cos inverse inside) and you need to match them for cancellation.",
+                "trigger_keywords": [
+                    "Evaluate",
+                    "Simplify",
+                    "Find the value of"
+                ],
+                "question_types": [
+                    "1_mark",
+                    "2_mark",
+                    "3_mark"
+                ],
+                "common_mistakes": [
+                    "Ignoring the domain restrictions when x is negative (the direct triangle method assumes positive lengths).",
+                    "Flipping the numerator and denominator when constructing the ratio for the new function."
+                ],
+                "board_traps": [
+                    "Expressions like $$ \\sin(\\cot^{-1}x) $$. Students try to use complex identities instead of drawing a simple right triangle to find the sine ratio."
+                ],
+                "examiner_twist_pattern": "Nesting multiple functions: $$ \\cos(\\tan^{-1}(\\sin(\\cot^{-1}x))) $$. This forces the student to apply the triangle method sequentially from the inside out."
+            },
+            "section_C": {
+                "why_students_fail": "Students try to memorize these as algebraic formulas instead of visualizing a right-angled triangle with sides x, 1, and the resulting third side.",
+                "how_to_think": "Think 'SOH CAH TOA'. If $$ \\theta = \\sin^{-1}(x/1) $$, then Opposite = x, Hypotenuse = 1. By Pythagoras, Adjacent = $$ \\sqrt{1-x^2} $$. Now you can write ANY other inverse trig function using these three sides.",
+                "thirty_second_strategy": "1. Identify the inner inverse function. 2. Write its argument as a fraction. 3. Draw a right triangle and label two sides. 4. Find the third side via Pythagoras. 5. Write the required matching inverse function using the new sides.",
+                "mental_shortcut": "Sin to Cos? Use $$ \\sqrt{1-x^2} $$. Tan to Sin? Divide by hypotenuse $$ \\sqrt{1+x^2} $$.",
+                "micro_example": "Evaluate $$ \\cos(\\tan^{-1}(3/4)) $$. For $$ \\tan^{-1} $$, Opp=3, Adj=4. Hyp = 5. We need Cosine, which is Adj/Hyp = 4/5. Answer: 4/5. "
+            }
+        },
+        {
+            "formula_number": 12,
+            "formula_title": "Triple Angle Conversions",
+            "section_A": {
+                "latex_formula": "$$ 3\\sin^{-1}x = \\sin^{-1}(3x - 4x^3), \\quad x \\in \\left[-\\frac{1}{2}, \\frac{1}{2}\\right] $$",
+                "derived_forms": [
+                    "$$ 3\\cos^{-1}x = \\cos^{-1}(4x^3 - 3x), \\quad x \\in \\left[\\frac{1}{2}, 1\\right] $$",
+                    "$$ 3\\tan^{-1}x = \\tan^{-1}\\left(\\frac{3x - x^3}{1 - 3x^2}\\right), \\quad -\\frac{1}{\\sqrt{3}} < x < \\frac{1}{\\sqrt{3}} $$"
+                ],
+                "special_cases": [
+                    "$$ \\text{If } x = \\sin\\theta, \\text{ then } \\sin^{-1}(3\\sin\\theta - 4\\sin^3\\theta) = \\sin^{-1}(\\sin 3\\theta) = 3\\theta $$"
+                ]
+            },
+            "section_B": {
+                "when_to_use": "When simplifying expressions involving cubic polynomials inside inverse trigonometric functions, especially prior to taking a derivative.",
+                "trigger_keywords": [
+                    "Prove that",
+                    "Simplify",
+                    "Differentiate with respect to x"
+                ],
+                "question_types": [
+                    "2_mark",
+                    "3_mark"
+                ],
+                "common_mistakes": [
+                    "Confusing the sine and cosine cubic patterns (writing $$ 4x^3 - 3x $$ for sine instead of cosine).",
+                    "Applying the formula outside the restricted principal value domains without adjusting the output angle."
+                ],
+                "board_traps": [
+                    "Asking for the derivative of $$ \\cos^{-1}(4x^3 - 3x) $$. Students who don't recognize the pattern will attempt a horrific chain rule application resulting in massive algebraic mess, likely leading to zero marks."
+                ],
+                "examiner_twist_pattern": "CBSE might present the substitution backwards, providing the simplified form $$ 3\\sin^{-1}x $$ and asking to prove it equals the complex cubic form by substituting $$ x = \\sin\\theta $$."
+            },
+            "section_C": {
+                "why_students_fail": "Failure to solidly memorize the Class 11 identities for $$ \\sin 3\\theta, \\cos 3\\theta, $$ and $$ \\tan 3\\theta $$, from which these are directly derived.",
+                "how_to_think": "Think 'Mirroring Class 11 Triple Angles'. Recognize the algebraic signature: $$ 3x - 4x^3 $$ screams Sine. $$ 4x^3 - 3x $$ screams Cosine. The fraction with a cubic top and quadratic bottom screams Tangent.",
+                "thirty_second_strategy": "Scan the expression for a cubic term. If the coefficient 4 is on the cubic term, it's a Cosine substitution. If the coefficient 4 is trailing with a minus, it's a Sine substitution.",
+                "mental_shortcut": "Sine starts with 3 (3x - 4x³). Cosine starts with 4 (4x³ - 3x).",
+                "micro_example": "Simplify $$ y = \\sin^{-1}(3x - 4x^3) $$. Recognize the formula as $$ y = 3\\sin^{-1}x $$. Its derivative $$ dy/dx $$ is instantly $$ \\frac{3}{\\sqrt{1-x^2}} $$."
+            }
+        },
+       
+        {
+           
+            "trend_analysis": {
+                "dominant_concepts_from_pyqs": [
+                    "Principal Value Branches of ITF",
+                    "Evaluation of composite functions (e.g., $$ \\sin^{-1}(\\sin x) $$ where x is outside principal domain)",
+                    "Domain and Range limits of Inverse Trigonometric Functions",
+                    "Simplification of ITF expressions using trigonometric substitutions",
+                    "Negative arguments in cot, sec, and cos inverse",
+                    "Nested trigonometric evaluations",
+                    "Identifying the correct principal value branch bounds (open vs closed brackets)"
+                ],
+                "question_patterns_seen": [
+                    "1-mark MCQs focusing on finding principal values where direct cancellation leads to an incorrect answer.",
+                    "2-mark questions requiring the addition of multiple inverse trigonometric terms after finding their individual principal values.",
+                    "2-mark or 3-mark questions asking to write a given inverse trigonometric function in its simplest form using standard substitutions.",
+                    "1-mark MCQs asking for the difference of two inverse trigonometric functions with negative arguments.",
+                    "1-mark conceptual MCQs testing the strict definitions of range and domain.",
+                    "2-mark questions evaluating a trigonometric function applied to an inverse trigonometric function."
+                ]
+            },
+            "high_leverage_ncert_questions": [
+                {
+                    "question_id": 1,
+                    "ncert_reference": {
+                        "exercise": "2.1",
+                        "question_number": "11"
+                    },
+                    "question_text": "Find the value of: $$ \\tan^{-1}(1) + \\cos^{-1}\\left(-\\frac{1}{2}\\right) + \\sin^{-1}\\left(-\\frac{1}{2}\\right) $$",
+                    "concepts_tested": [
+                        "Principal Value of ITF",
+                        "Handling negative arguments in inverse cosine and sine"
+                    ],
+                    "repeat_probability_2026": "High",
+                    "difficulty_level": "Easy",
+                    "topper_solution": {
+                        "step_1": "Let $$ x = \\tan^{-1}(1) \\implies \\tan x = 1 $$. The principal value branch of $$ \\tan^{-1} $$ is $$ \\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right) $$, so $$ x = \\frac{\\pi}{4} $$.",
+                        "step_2": "Let $$ y = \\cos^{-1}\\left(-\\frac{1}{2}\\right) \\implies \\cos y = -\\frac{1}{2} $$. The principal value branch of $$ \\cos^{-1} $$ is $$ [0, \\pi] $$. So, $$ y = \\pi - \\frac{\\pi}{3} = \\frac{2\\pi}{3} $$.",
+                        "step_3": "Let $$ z = \\sin^{-1}\\left(-\\frac{1}{2}\\right) \\implies \\sin z = -\\frac{1}{2} $$. The principal value branch of $$ \\sin^{-1} $$ is $$ \\left[-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right] $$. So, $$ z = -\\frac{\\pi}{6} $$.",
+                        "step_4": "Total value = $$ \\frac{\\pi}{4} + \\frac{2\\pi}{3} - \\frac{\\pi}{6} $$. Taking LCM as 12: $$ \\frac{3\\pi + 8\\pi - 2\\pi}{12} = \\frac{9\\pi}{12} = \\frac{3\\pi}{4} $$."
+                    },
+                    "board_writing_tip": "Explicitly mention the principal value branches for each function in brackets to secure the 'concept mark' in step-marking.",
+                    "common_student_mistakes": [
+                        "Incorrectly writing $$ \\cos^{-1}\\left(-\\frac{1}{2}\\right) $$ as $$ -\\frac{\\pi}{3} $$ instead of $$ \\frac{2\\pi}{3} $$.",
+                        "Making calculation errors while taking the LCM of the fractions in the final step."
+                    ],
+                    "estimated_time_seconds": "180"
+                },
+                {
+                    "question_id": 2,
+                    "ncert_reference": {
+                        "exercise": "2.2",
+                        "question_number": "16"
+                    },
+                    "question_text": "Find the value of: $$ \\sin^{-1}\\left(\\sin \\frac{2\\pi}{3}\\right) $$",
+                    "concepts_tested": [
+                        "Principal Value Branch of Inverse Sine",
+                        "Trigonometric Allied Angles"
+                    ],
+                    "repeat_probability_2026": "High",
+                    "difficulty_level": "Moderate",
+                    "topper_solution": {
+                        "step_1": "We know that the principal value branch of $$ \\sin^{-1} $$ is $$ \\left[-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right] $$.",
+                        "step_2": "Here, $$ \\frac{2\\pi}{3} \\notin \\left[-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right] $$. Therefore, $$ \\sin^{-1}\\left(\\sin \\frac{2\\pi}{3}\\right) \\neq \\frac{2\\pi}{3} $$.",
+                        "step_3": "We can write $$ \\sin \\frac{2\\pi}{3} = \\sin\\left(\\pi - \\frac{\\pi}{3}\\right) = \\sin \\frac{\\pi}{3} $$.",
+                        "step_4": "Now, substitute this back: $$ \\sin^{-1}\\left(\\sin \\frac{2\\pi}{3}\\right) = \\sin^{-1}\\left(\\sin \\frac{\\pi}{3}\\right) $$.",
+                        "step_5": "Since $$ \\frac{\\pi}{3} \\in \\left[-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right] $$, the answer is $$ \\frac{\\pi}{3} $$."
+                    },
+                    "board_writing_tip": "Always begin by stating why direct cancellation is invalid (i.e., the angle falls outside the principal domain). This is crucial for board steps.",
+                    "common_student_mistakes": [
+                        "Directly canceling $$ \\sin^{-1} $$ and $$ \\sin $$ to write the answer as $$ \\frac{2\\pi}{3} $$ without checking the domain."
+                    ],
+                    "estimated_time_seconds": "120"
+                },
+                {
+                    "question_id": 3,
+                    "ncert_reference": {
+                        "exercise": "2.2",
+                        "question_number": "19"
+                    },
+                    "question_text": "Find the value of: $$ \\cos^{-1}\\left(\\cos \\frac{7\\pi}{6}\\right) $$",
+                    "concepts_tested": [
+                        "Principal Value Branch of Inverse Cosine",
+                        "Trigonometric Allied Angles in 3rd Quadrant"
+                    ],
+                    "repeat_probability_2026": "High",
+                    "difficulty_level": "Moderate",
+                    "topper_solution": {
+                        "step_1": "We know that the principal value branch of $$ \\cos^{-1} $$ is $$ [0, \\pi] $$.",
+                        "step_2": "Here, $$ \\frac{7\\pi}{6} \\notin [0, \\pi] $$. Therefore, direct cancellation is not possible.",
+                        "step_3": "We can express $$ \\cos \\frac{7\\pi}{6} $$ as $$ \\cos\\left(2\\pi - \\frac{5\\pi}{6}\\right) $$ because $$ \\cos(2\\pi - \\theta) = \\cos \\theta $$. So, $$ \\cos \\frac{7\\pi}{6} = \\cos \\frac{5\\pi}{6} $$.",
+                        "step_4": "Alternatively, $$ \\cos \\frac{7\\pi}{6} = \\cos\\left(\\pi + \\frac{\\pi}{6}\\right) = -\\cos \\frac{\\pi}{6} = -\\frac{\\sqrt{3}}{2} $$. And $$ \\cos^{-1}\\left(-\\frac{\\sqrt{3}}{2}\\right) = \\pi - \\frac{\\pi}{6} = \\frac{5\\pi}{6} $$.",
+                        "step_5": "Since $$ \\frac{5\\pi}{6} \\in [0, \\pi] $$, the answer is $$ \\frac{5\\pi}{6} $$."
+                    },
+                    "board_writing_tip": "Using the $$ 2\\pi - \\theta $$ method is usually faster and less prone to negative sign errors than evaluating the value and taking the inverse again.",
+                    "common_student_mistakes": [
+                        "Writing the answer as $$ \\frac{7\\pi}{6} $$.",
+                        "Using $$ \\pi + \\frac{\\pi}{6} $$ and incorrectly simplifying $$ \\cos^{-1}(-\\cos \\frac{\\pi}{6}) $$ to $$ -\\frac{\\pi}{6} $$ instead of $$ \\pi - \\frac{\\pi}{6} $$."
+                    ],
+                    "estimated_time_seconds": "150"
+                },
+                {
+                    "question_id": 4,
+                    "ncert_reference": {
+                        "exercise": "2.2",
+                        "question_number": "11"
+                    },
+                    "question_text": "Find the value of: $$ \\tan^{-1} \\left[ 2\\cos\\left(2\\sin^{-1}\\frac{1}{2}\\right) \\right] $$",
+                    "concepts_tested": [
+                        "Nested Inverse Trigonometric Functions",
+                        "Step-by-step innermost evaluation"
+                    ],
+                    "repeat_probability_2026": "Medium",
+                    "difficulty_level": "Easy",
+                    "topper_solution": {
+                        "step_1": "Start evaluating from the innermost bracket. Let $$ x = \\sin^{-1}\\left(\\frac{1}{2}\\right) $$.",
+                        "step_2": "We know $$ \\sin \\frac{\\pi}{6} = \\frac{1}{2} $$, and $$ \\frac{\\pi}{6} \\in \\left[-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right] $$. So, $$ x = \\frac{\\pi}{6} $$.",
+                        "step_3": "Substitute this back into the expression: $$ \\tan^{-1}\\left[ 2\\cos\\left(2 \\times \\frac{\\pi}{6}\\right) \\right] = \\tan^{-1}\\left[ 2\\cos\\left(\\frac{\\pi}{3}\\right) \\right] $$.",
+                        "step_4": "We know $$ \\cos \\frac{\\pi}{3} = \\frac{1}{2} $$. So, the expression becomes $$ \\tan^{-1}\\left[ 2 \\times \\frac{1}{2} \\right] $$.",
+                        "step_5": "This simplifies to $$ \\tan^{-1}(1) $$. Since $$ \\tan \\frac{\\pi}{4} = 1 $$ and $$ \\frac{\\pi}{4} \\in \\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right) $$, the final answer is $$ \\frac{\\pi}{4} $$."
+                    },
+                    "board_writing_tip": "Solve nested functions sequentially line by line rather than trying to write all steps in a single continuous equation.",
+                    "common_student_mistakes": [
+                        "Forgetting to multiply the angle by 2 inside the cosine function after evaluating the inverse sine.",
+                        "Confusing the value of $$ \\cos \\frac{\\pi}{3} $$ with $$ \\frac{\\sqrt{3}}{2} $$."
+                    ],
+                    "estimated_time_seconds": "180"
+                },
+                {
+                    "question_id": 5,
+                    "ncert_reference": {
+                        "exercise": "2.2",
+                        "question_number": "5"
+                    },
+                    "question_text": "Write the function in the simplest form: $$ \\tan^{-1} \\left( \\frac{\\sqrt{1+x^2}-1}{x} \\right), x \\neq 0 $$",
+                    "concepts_tested": [
+                        "Simplification of ITF",
+                        "Trigonometric Substitution ($$ x = \\tan \\theta $$)"
+                    ],
+                    "repeat_probability_2026": "High",
+                    "difficulty_level": "Moderate",
+                    "topper_solution": {
+                        "step_1": "Put $$ x = \\tan \\theta \\implies \\theta = \\tan^{-1} x $$.",
+                        "step_2": "Substitute $$ x $$ in the given expression: $$ \\tan^{-1} \\left( \\frac{\\sqrt{1+\\tan^2\\theta}-1}{\\tan\\theta} \\right) $$.",
+                        "step_3": "Using trigonometric identity $$ 1+\\tan^2\\theta = \\sec^2\\theta $$: The expression becomes $$ \\tan^{-1} \\left( \\frac{\\sec\\theta - 1}{\\tan\\theta} \\right) $$.",
+                        "step_4": "Convert to sine and cosine: $$ \\tan^{-1} \\left( \\frac{\\frac{1}{\\cos\\theta} - 1}{\\frac{\\sin\\theta}{\\cos\\theta}} \\right) = \\tan^{-1} \\left( \\frac{1-\\cos\\theta}{\\sin\\theta} \\right) $$.",
+                        "step_5": "Use half-angle formulas ($$ 1-\\cos\\theta = 2\\sin^2\\left(\\frac{\\theta}{2}\\right) $$ and $$ \\sin\\theta = 2\\sin\\left(\\frac{\\theta}{2}\\right)\\cos\\left(\\frac{\\theta}{2}\\right) $$): $$ \\tan^{-1} \\left( \\frac{2\\sin^2(\\theta/2)}{2\\sin(\\theta/2)\\cos(\\theta/2)} \\right) $$.",
+                        "step_6": "This simplifies to $$ \\tan^{-1} \\left( \\tan \\frac{\\theta}{2} \\right) = \\frac{\\theta}{2} $$. Substituting back $$ \\theta $$, the final answer is $$ \\frac{1}{2} \\tan^{-1} x $$."
+                    },
+                    "board_writing_tip": "State the standard trigonometric identities you apply in brackets beside the step where you apply them.",
+                    "common_student_mistakes": [
+                        "Choosing the wrong substitution, like $$ x = \\sin \\theta $$ instead of $$ x = \\tan \\theta $$.",
+                        "Failing to convert secant and tangent into sine and cosine to proceed with half-angle simplification."
+                    ],
+                    "estimated_time_seconds": "300"
+                },
+                {
+                    "question_id": 6,
+                    "ncert_reference": {
+                        "exercise": "2.2",
+                        "question_number": "7"
+                    },
+                    "question_text": "Write the function in the simplest form: $$ \\tan^{-1} \\left( \\sqrt{\\frac{1-\\cos x}{1+\\cos x}} \\right), 0 < x < \\pi $$",
+                    "concepts_tested": [
+                        "Simplification of ITF",
+                        "Half-angle Trigonometric Identities"
+                    ],
+                    "repeat_probability_2026": "High",
+                    "difficulty_level": "Easy",
+                    "topper_solution": {
+                        "step_1": "We use the standard trigonometric half-angle identities: $$ 1 - \\cos x = 2\\sin^2\\left(\\frac{x}{2}\\right) $$ and $$ 1 + \\cos x = 2\\cos^2\\left(\\frac{x}{2}\\right) $$.",
+                        "step_2": "Substitute these into the given expression: $$ \\tan^{-1} \\left( \\sqrt{\\frac{2\\sin^2(x/2)}{2\\cos^2(x/2)}} \\right) $$.",
+                        "step_3": "Cancel the 2s and simplify the fraction inside the root: $$ \\tan^{-1} \\left( \\sqrt{\\tan^2\\left(\\frac{x}{2}\\right)} \\right) $$.",
+                        "step_4": "Since $$ 0 < x < \\pi $$, $$ 0 < \\frac{x}{2} < \\frac{\\pi}{2} $$. In the first quadrant, tan is positive, so $$ \\sqrt{\\tan^2\\left(\\frac{x}{2}\\right)} = \\tan\\left(\\frac{x}{2}\\right) $$.",
+                        "step_5": "The expression becomes $$ \\tan^{-1}\\left(\\tan\\frac{x}{2}\\right) $$. Since $$ \\frac{x}{2} \\in \\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right) $$, this simplifies exactly to $$ \\frac{x}{2} $$."
+                    },
+                    "board_writing_tip": "It is very important to mention the domain check (Step 4) which justifies writing $$ \\sqrt{\\tan^2(x/2)} $$ as $$ +\\tan(x/2) $$. Board examiners look for this understanding.",
+                    "common_student_mistakes": [
+                        "Swapping the formulas for $$ 1 - \\cos x $$ and $$ 1 + \\cos x $$, resulting in $$ \\cot(x/2) $$ inside the bracket instead of $$ \\tan(x/2) $$.",
+                        "Ignoring the domain given in the question entirely."
+                    ],
+                    "estimated_time_seconds": "240"
+                },
+                {
+                    "question_id": 7,
+                    "ncert_reference": {
+                        "exercise": "Miscellaneous",
+                        "question_number": "2"
+                    },
+                    "question_text": "Find the value of: $$ \\tan^{-1}\\left(\\tan \\frac{7\\pi}{6}\\right) $$",
+                    "concepts_tested": [
+                        "Principal Value Branch of Inverse Tangent",
+                        "Trigonometric Allied Angles in 3rd Quadrant"
+                    ],
+                    "repeat_probability_2026": "High",
+                    "difficulty_level": "Moderate",
+                    "topper_solution": {
+                        "step_1": "The principal value branch of $$ \\tan^{-1} $$ is $$ \\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right) $$.",
+                        "step_2": "Here, $$ \\frac{7\\pi}{6} \\notin \\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right) $$. Therefore, direct cancellation is not allowed.",
+                        "step_3": "We rewrite the angle: $$ \\tan \\frac{7\\pi}{6} = \\tan\\left(\\pi + \\frac{\\pi}{6}\\right) $$.",
+                        "step_4": "In the third quadrant, tangent is positive. So, $$ \\tan\\left(\\pi + \\frac{\\pi}{6}\\right) = \\tan \\frac{\\pi}{6} $$.",
+                        "step_5": "Substitute back: $$ \\tan^{-1}\\left(\\tan \\frac{7\\pi}{6}\\right) = \\tan^{-1}\\left(\\tan \\frac{\\pi}{6}\\right) $$.",
+                        "step_6": "Since $$ \\frac{\\pi}{6} \\in \\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right) $$, the answer is $$ \\frac{\\pi}{6} $$."
+                    },
+                    "board_writing_tip": "Clearly mention that the tangent function is positive in the third quadrant to justify the transition from $$ \\pi + \\pi/6 $$ to $$ \\pi/6 $$.",
+                    "common_student_mistakes": [
+                        "Directly writing the answer as $$ \\frac{7\\pi}{6} $$ without checking the principal value branch.",
+                        "Incorrectly applying the second quadrant transformation and introducing a negative sign."
+                    ],
+                    "estimated_time_seconds": "120"
+                },
+                {
+                    "question_id": 8,
+                    "ncert_reference": {
+                        "exercise": "2.1",
+                        "question_number": "20"
+                    },
+                    "question_text": "Find the value of: $$ \\sin\\left(\\frac{\\pi}{3} - \\sin^{-1}\\left(-\\frac{1}{2}\\right)\\right) $$",
+                    "concepts_tested": [
+                        "Evaluating composite trigonometric expressions",
+                        "Principal value of inverse sine with negative argument"
+                    ],
+                    "repeat_probability_2026": "High",
+                    "difficulty_level": "Moderate",
+                    "topper_solution": {
+                        "step_1": "First, evaluate the inner inverse trigonometric function. Let $$ x = \\sin^{-1}\\left(-\\frac{1}{2}\\right) $$.",
+                        "step_2": "The principal value branch of $$ \\sin^{-1} $$ is $$ \\left[-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right] $$. Since $$ \\sin\\left(-\\frac{\\pi}{6}\\right) = -\\frac{1}{2} $$, we have $$ x = -\\frac{\\pi}{6} $$.",
+                        "step_3": "Substitute this back into the original expression: $$ \\sin\\left(\\frac{\\pi}{3} - \\left(-\\frac{\\pi}{6}\\right)\\right) $$.",
+                        "step_4": "Simplify the angle: $$ \\frac{\\pi}{3} + \\frac{\\pi}{6} = \\frac{2\\pi}{6} + \\frac{\\pi}{6} = \\frac{3\\pi}{6} = \\frac{\\pi}{2} $$.",
+                        "step_5": "Evaluate the outer sine function: $$ \\sin\\left(\\frac{\\pi}{2}\\right) = 1 $$. The final answer is 1."
+                    },
+                    "board_writing_tip": "Perform the calculation for the inverse function separately and substitute the result back to avoid confusing minus signs.",
+                    "common_student_mistakes": [
+                        "Taking the value of $$ \\sin^{-1}\\left(-\\frac{1}{2}\\right) $$ as $$ \\frac{11\\pi}{6} $$, which is outside the principal value branch.",
+                        "Making a sign error and calculating $$ \\frac{\\pi}{3} - \\frac{\\pi}{6} $$ instead of adding them."
+                    ],
+                    "estimated_time_seconds": "180"
+                },
+                {
+                    "question_id": 9,
+                    "ncert_reference": {
+                        "exercise": "2.1",
+                        "question_number": "21"
+                    },
+                    "question_text": "Find the value of: $$ \\tan^{-1}(\\sqrt{3}) - \\cot^{-1}(-\\sqrt{3}) $$",
+                    "concepts_tested": [
+                        "Principal values of Inverse Tangent and Cotangent",
+                        "Handling negative arguments in Inverse Cotangent"
+                    ],
+                    "repeat_probability_2026": "High",
+                    "difficulty_level": "Board-Tricky",
+                    "topper_solution": {
+                        "step_1": "Evaluate $$ \\tan^{-1}(\\sqrt{3}) $$: The principal branch is $$ \\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right) $$. $$ \\tan\\left(\\frac{\\pi}{3}\\right) = \\sqrt{3} $$, so $$ \\tan^{-1}(\\sqrt{3}) = \\frac{\\pi}{3} $$.",
+                        "step_2": "Evaluate $$ \\cot^{-1}(-\\sqrt{3}) $$: The principal branch is $$ (0, \\pi) $$. Let $$ y = \\cot^{-1}(-\\sqrt{3}) \\implies \\cot y = -\\sqrt{3} $$.",
+                        "step_3": "We know $$ \\cot\\left(\\frac{\\pi}{6}\\right) = \\sqrt{3} $$. In the second quadrant, $$ \\cot\\left(\\pi - \\frac{\\pi}{6}\\right) = -\\sqrt{3} $$. So, $$ y = \\frac{5\\pi}{6} $$.",
+                        "step_4": "Substitute both values back: $$ \\frac{\\pi}{3} - \\frac{5\\pi}{6} $$.",
+                        "step_5": "Take the LCM (6): $$ \\frac{2\\pi - 5\\pi}{6} = -\\frac{3\\pi}{6} = -\\frac{\\pi}{2} $$. The final answer is $$ -\\frac{\\pi}{2} $$."
+                    },
+                    "board_writing_tip": "Remember that the negative argument property for inverse cotangent is $$ \\cot^{-1}(-x) = \\pi - \\cot^{-1}(x) $$. Using this directly saves time.",
+                    "common_student_mistakes": [
+                        "Incorrectly writing $$ \\cot^{-1}(-\\sqrt{3}) $$ as $$ -\\frac{\\pi}{6} $$, treating it like inverse tangent or inverse sine."
+                    ],
+                    "estimated_time_seconds": "150"
+                },
+                {
+                    "question_id": 10,
+                    "ncert_reference": {
+                        "exercise": "2.1",
+                        "question_number": "14"
+                    },
+                    "question_text": "Find the value of: $$ \\tan^{-1} \\sqrt{3} - \\sec^{-1}(-2) $$",
+                    "concepts_tested": [
+                        "Principal values of Inverse Tangent and Inverse Secant",
+                        "Handling negative arguments in Inverse Secant"
+                    ],
+                    "repeat_probability_2026": "High",
+                    "difficulty_level": "Moderate",
+                    "topper_solution": {
+                        "step_1": "Evaluate $$ \\tan^{-1}(\\sqrt{3}) $$: The value is $$ \\frac{\\pi}{3} $$ since $$ \\tan\\left(\\frac{\\pi}{3}\\right) = \\sqrt{3} $$ and $$ \\frac{\\pi}{3} \\in \\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right) $$.",
+                        "step_2": "Evaluate $$ \\sec^{-1}(-2) $$: Let $$ y = \\sec^{-1}(-2) \\implies \\sec y = -2 \\implies \\cos y = -\\frac{1}{2} $$.",
+                        "step_3": "The principal branch for $$ \\sec^{-1} $$ is $$ [0, \\pi] - \\left\\{\\frac{\\pi}{2}\\right\\} $$. Since $$ \\cos\\left(\\frac{\\pi}{3}\\right) = \\frac{1}{2} $$, for negative half, $$ y = \\pi - \\frac{\\pi}{3} = \\frac{2\\pi}{3} $$.",
+                        "step_4": "Substitute both values into the expression: $$ \\frac{\\pi}{3} - \\frac{2\\pi}{3} $$.",
+                        "step_5": "Simplify to get the final answer: $$ -\\frac{\\pi}{3} $$."
+                    },
+                    "board_writing_tip": "Converting secant to cosine to find the angle is a foolproof method if you ever get confused by the secant domain.",
+                    "common_student_mistakes": [
+                        "Writing $$ \\sec^{-1}(-2) $$ as $$ -\\sec^{-1}(2) = -\\frac{\\pi}{3} $$, leading to a final incorrect answer of $$ \\frac{2\\pi}{3} $$."
+                    ],
+                    "estimated_time_seconds": "150"
+                },
+                {
+                    "question_id": 11,
+                    "ncert_reference": {
+                        "exercise": "2.1",
+                        "question_number": "13"
+                    },
+                    "question_text": "If $$ \\sin^{-1} x = y $$, then find the possible range of values for $$ y $$.",
+                    "concepts_tested": [
+                        "Domain and Range of Inverse Trigonometric Functions"
+                    ],
+                    "repeat_probability_2026": "Medium",
+                    "difficulty_level": "Easy",
+                    "topper_solution": {
+                        "step_1": "By definition, the function $$ y = \\sin^{-1} x $$ represents the principal value branch of the inverse sine function.",
+                        "step_2": "The domain of $$ \\sin^{-1} x $$ is $$ [-1, 1] $$.",
+                        "step_3": "The range (principal value branch) of $$ \\sin^{-1} x $$ is defined strictly on the closed interval $$ \\left[-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right] $$.",
+                        "step_4": "Therefore, the variable $$ y $$ must satisfy the condition: $$ -\\frac{\\pi}{2} \\leq y \\leq \\frac{\\pi}{2} $$."
+                    },
+                    "board_writing_tip": "For such conceptual MCQs, pay extreme attention to the inequality signs. Both bounds must have 'less than or equal to' signs.",
+                    "common_student_mistakes": [
+                        "Choosing the option with strictly less than signs: $$ -\\frac{\\pi}{2} < y < \\frac{\\pi}{2} $$, confusing it with the range of the inverse tangent function.",
+                        "Choosing the domain $$ [-1, 1] $$ instead of the range."
+                    ],
+                    "estimated_time_seconds": "60"
+                }
+            ]
+        }
+    ]
+}

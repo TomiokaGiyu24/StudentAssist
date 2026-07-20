@@ -1,0 +1,135 @@
+{
+"passage_metadata": {
+"theme": "Sustainable Tourism and Environmental Stewardship",
+"difficulty_level": "Easy",
+"passage_type": "Factual",
+"board_relevance_reason": "CBSE often includes factual passages on environmental conservation and tourism to test direct comprehension and basic inference skills."
+},
+"unseen_passage": "(1) Tourism is one of the world’s fastest-growing industries, providing millions of jobs and driving the economies of many nations. In India, the diverse landscape—from the snow-capped Himalayas to the sun-kissed beaches of Goa—attracts millions of domestic and international travelers every year. However, the rapid growth of the tourism sector has often come at a significant cost to the environment. The concept of 'Sustainable Tourism' has emerged as a vital solution to ensure that we can enjoy the beauty of our planet without destroying it for future generations.\n\n(2) Sustainable tourism is defined as travel that takes full account of its current and future economic, social, and environmental impacts. It aims to meet the needs of visitors, the industry, and the environment while also supporting the local communities. Unlike traditional tourism, which often focuses solely on profit, sustainable tourism seeks a balance. For instance, instead of building massive luxury resorts that consume vast amounts of water and electricity, sustainable models promote eco-hotels that use solar energy and rainwater harvesting.\n\n(3) One of the primary benefits of sustainable tourism is the preservation of biodiversity. Many popular tourist destinations are located in ecologically sensitive areas. When tourism is managed responsibly, the revenue generated can be used to fund conservation projects. For example, national parks in India use entry fees to pay for forest guards and to protect endangered species like the Royal Bengal Tiger. Furthermore, sustainable tourism encourages travelers to respect local wildlife and stay on designated paths, reducing the human footprint on natural habitats.\n\n(4) Beyond the environment, sustainable tourism plays a crucial role in empowering local communities. In many traditional setups, large travel agencies take the majority of the profit, leaving very little for the local people. Sustainable tourism, however, encourages 'community-based tourism'. This involves staying in local homestays, eating at small family-owned restaurants, and buying handmade crafts directly from artisans. This ensures that the money spent by tourists goes directly into the hands of those who live in the destination, helping to improve their standard of living and preserve their unique cultural heritage.\n\n(5) However, achieving total sustainability is not without its challenges. 'Over-tourism' remains a major concern. When too many people visit a single location at the same time, it leads to overcrowding, pollution, and the degradation of local infrastructure. To combat this, some destinations have started implementing 'carrying capacity' limits—restricting the number of visitors allowed per day. Others are promoting 'off-beat' destinations to divert the crowd away from saturated spots like Shimla or Manali during peak seasons.\n\n(6) As individuals, we also have a responsibility to be 'mindful travelers'. Simple actions can make a big difference. Carrying a reusable water bottle, avoiding single-use plastics, and respecting local customs are easy ways to contribute. By choosing to travel sustainably, we are not just visiting a place; we are helping to protect it. The future of travel depends on our ability to be guests who are welcomed back, rather than intruders who leave a trail of destruction behind.",
+"questions": {
+"mcqs": [
+{
+"question": "According to the passage, what is the primary difference between traditional tourism and sustainable tourism?",
+"options": [
+"Traditional tourism is cheaper than sustainable tourism.",
+"Sustainable tourism focuses only on international travelers.",
+"Sustainable tourism balances profit with environmental and social impacts.",
+"Traditional tourism does not provide any jobs to the local people."
+],
+"correct_answer": "Sustainable tourism balances profit with environmental and social impacts."
+},
+{
+"question": "How do national parks in India utilize the revenue generated from tourists?",
+"options": [
+"To build more luxury resorts for international visitors.",
+"To fund conservation projects and protect endangered species.",
+"To increase the number of vehicles allowed inside the forest.",
+"To promote traditional tourism over sustainable models."
+],
+"correct_answer": "To fund conservation projects and protect endangered species."
+},
+{
+"question": "What is the main goal of 'community-based tourism'?",
+"options": [
+"To encourage tourists to stay in large international hotel chains.",
+"To ensure profits reach local people and preserve their heritage.",
+"To build more infrastructure in urban cities.",
+"To reduce the number of paths in national parks."
+],
+"correct_answer": "To ensure profits reach local people and preserve their heritage."
+},
+{
+"question": "What does the term 'carrying capacity' refer to in the context of Paragraph 5?",
+"options": [
+"The amount of luggage a tourist is allowed to carry.",
+"The maximum number of visitors a destination can handle without damage.",
+"The weight-bearing limit of mountain roads in Shimla.",
+"The total amount of water a luxury resort can consume daily."
+],
+"correct_answer": "The maximum number of visitors a destination can handle without damage."
+}
+],
+"short_answer_questions": [
+{
+"question": "Mention any two eco-friendly features of sustainable hotels as described in the passage.",
+"word_limit": "30-40 words",
+"marks": 2
+},
+{
+"question": "How does 'over-tourism' affect popular travel destinations?",
+"word_limit": "30-40 words",
+"marks": 2
+},
+{
+"question": "State two simple ways an individual can be a 'mindful traveler'.",
+"word_limit": "30-40 words",
+"marks": 2
+}
+],
+"vocabulary_questions": [
+{
+"question": "Find a word in Paragraph 1 that is a synonym for 'essential' or 'extremely important'.",
+"marks": 1
+},
+{
+"question": "What is the antonym of the word 'intruders' as used in Paragraph 6?",
+"marks": 1
+}
+]
+},
+"model_answers": {
+"mcq_answers": [
+"Sustainable tourism balances profit with environmental and social impacts.",
+"To fund conservation projects and protect endangered species.",
+"To ensure profits reach local people and preserve their heritage.",
+"The maximum number of visitors a destination can handle without damage."
+],
+"short_answer_responses": [
+{
+"question_reference": "Mention any two eco-friendly features of sustainable hotels as described in the passage.",
+"answer": "According to the passage, sustainable hotels or eco-hotels prioritize the environment by using solar energy for power and implementing rainwater harvesting systems to conserve water, unlike traditional luxury resorts.",
+"word_count": 32,
+"why_this_scores_full_marks": "Identifies the two specific features (solar energy and rainwater harvesting) mentioned in the text.",
+"common_wrong_pattern": "Mentioning general eco-friendly tips not found in the text."
+},
+{
+"question_reference": "How does 'over-tourism' affect popular travel destinations?",
+"answer": "Over-tourism leads to several negative consequences including overcrowding, increased pollution levels, and the rapid degradation of local infrastructure, which eventually harms the destination's appeal and ecology.",
+"word_count": 30,
+"why_this_scores_full_marks": "Directly lists the three impacts mentioned in Paragraph 5.",
+"common_wrong_pattern": "Only mentioning 'crowds' without discussing the impact on infrastructure or pollution."
+},
+{
+"question_reference": "State two simple ways an individual can be a 'mindful traveler'.",
+"answer": "An individual can practice mindful travel by avoiding the use of single-use plastics and by carrying a reusable water bottle. Additionally, respecting local customs and traditions is also highlighted.",
+"word_count": 32,
+"why_this_scores_full_marks": "Accurately lists the points provided in the final paragraph.",
+"common_wrong_pattern": "Providing personal opinions instead of text-based actions."
+}
+],
+"vocabulary_answers": [
+"Vital",
+"Guests"
+]
+},
+"examiner_insight_section": {
+"likely_traps": [
+"The 'carrying capacity' question might be confused with physical weight if not read in context.",
+"Students might assume sustainable tourism is only about nature, ignoring the social/economic aspects mentioned in Para 4."
+],
+"where_students_lose_marks": [
+"Providing overly long answers for simple 2-mark questions.",
+"Spelling errors in vocabulary words like 'Vital'."
+],
+"accuracy_checklist": [
+"Did I find the exact word from Paragraph 1?",
+"Do my short answers stay within the word limit?",
+"Is the MCQ choice based on the text and not general knowledge?"
+]
+},
+"timed_attempt_guidance": {
+"recommended_time_minutes": 12,
+"time_split_strategy": "2 mins: Skim. 6 mins: MCQs/Vocab. 4 mins: Short answers.",
+"final_verification_strategy": "Check that the two features in the first short answer are exactly what the text says."
+}
+}

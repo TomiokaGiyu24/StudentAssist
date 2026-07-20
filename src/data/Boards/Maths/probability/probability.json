@@ -1,0 +1,433 @@
+{
+    "chapter_name": "Probability",
+    "board": "CBSE",
+    "class": "12",
+    "exam_year": "2026",
+    "formulas": [
+        {
+            "formula_number": 1,
+            "formula_title": "Conditional Probability",
+            "section_A": {
+                "latex_formula": "$$ P(A|B) = \\frac{P(A \\cap B)}{P(B)}, \\quad P(B) \\neq 0 $$",
+                "derived_forms": [
+                    "$$ P(A \\cap B) = P(B) P(A|B) $$",
+                    "$$ P(B|A) = \\frac{P(A \\cap B)}{P(A)}, \\quad P(A) \\neq 0 $$",
+                    "$$ P(A \\cup B | C) = P(A|C) + P(B|C) - P(A \\cap B | C) $$"
+                ],
+                "special_cases": [
+                    "$$ P(S|F) = P(F|F) = 1 $$",
+                    "$$ P(A'|B) = 1 - P(A|B) $$",
+                    "$$ P(A|B) = 0 \\quad \\text{if A and B are mutually exclusive} $$"
+                ]
+            },
+            "section_B": {
+                "when_to_use": "Used to find the probability of an event when another event has already occurred, effectively reducing the sample space.",
+                "trigger_keywords": [
+                    "given that",
+                    "if it is known that",
+                    "subject to the condition",
+                    "already occurred",
+                    "find the probability of A, provided B"
+                ],
+                "question_types": [
+                    "MCQ",
+                    "1_mark",
+                    "2_mark",
+                    "case_based"
+                ],
+                "common_mistakes": [
+                    "Confusing P(A|B) with P(B|A).",
+                    "Forgetting to divide by the probability of the given event P(B).",
+                    "Incorrectly calculating the intersection P(A \u2229 B) by assuming independence when it is not stated."
+                ],
+                "board_traps": [
+                    "Providing data for P(A \u222a B), P(A), and P(B) and asking for P(A|B), requiring the student to first use the addition theorem to find P(A \u2229 B).",
+                    "Framing the question in a table format where reading marginal probabilities incorrectly leads to the wrong denominator."
+                ],
+                "examiner_twist_pattern": "CBSE often hides the 'given' condition in a subordinate clause at the end of a long word problem, testing reading comprehension as much as math."
+            },
+            "section_C": {
+                "why_students_fail": "Students fail to realize that the 'given' event becomes the new sample space (the denominator). They continue to divide by the original total sample space.",
+                "how_to_think": "Think: 'Out of all the times B happens, what fraction of those times does A also happen?'",
+                "thirty_second_strategy": "1. Identify the 'Find' event (Numerator part 1). 2. Identify the 'Given' event (Denominator). 3. Find their overlap (Numerator part 2). 4. Divide overlap by the 'Given' probability.",
+                "mental_shortcut": "P(What you want | What you know) = (Overlap) / (What you know)",
+                "micro_example": "Rolling a die. Find prob of getting a prime, given it's an odd number. Known: {1,3,5} (size 3). Prime and Odd overlap: {3,5} (size 2). Answer = 2/3."
+            }
+        },
+        {
+            "formula_number": 2,
+            "formula_title": "Multiplication Theorem on Probability",
+            "section_A": {
+                "latex_formula": "$$ P(A \\cap B) = P(A) \\cdot P(B|A) $$",
+                "derived_forms": [
+                    "$$ P(A \\cap B) = P(B) \\cdot P(A|B) $$",
+                    "$$ P(A \\cap B \\cap C) = P(A) \\cdot P(B|A) \\cdot P(C|A \\cap B) $$"
+                ],
+                "special_cases": [
+                    "$$ P(A \\cap B) = 0 \\quad \\text{if events are mutually exclusive} $$"
+                ]
+            },
+            "section_B": {
+                "when_to_use": "Used when multiple events occur in succession (one after the other) and the outcome of the first event affects the sample space of the second event (without replacement).",
+                "trigger_keywords": [
+                    "drawn successively",
+                    "without replacement",
+                    "both events occur",
+                    "one by one",
+                    "first A, then B"
+                ],
+                "question_types": [
+                    "2_mark",
+                    "3_mark",
+                    "case_based"
+                ],
+                "common_mistakes": [
+                    "Using the independent events formula P(A) * P(B) when draws are made WITHOUT replacement.",
+                    "Forgetting to reduce the total number of items in the denominator for the second event."
+                ],
+                "board_traps": [
+                    "Asking for the probability of drawing specific items in a specific order versus any order (which requires adding multiple multiplication theorem paths).",
+                    "Using 'with replacement' phrasing subtly to see if the student blindly applies the dependent multiplication theorem."
+                ],
+                "examiner_twist_pattern": "CBSE will ask for the probability of 'at least one' using successive draws, forcing students to either use a massive probability tree or the much simpler 1 - P(none) complement rule with the multiplication theorem."
+            },
+            "section_C": {
+                "why_students_fail": "Students treat successive dependent events as independent, forgetting that removing an item changes both the favorable outcomes and the total outcomes for the next draw.",
+                "how_to_think": "Visualize physically removing an object from a bag and NOT putting it back. The bag is now lighter, and the counts have changed.",
+                "thirty_second_strategy": "Check replacement status. If 'without replacement', write out fractions successively, subtracting 1 from the denominator (and potentially the numerator) for each subsequent draw.",
+                "mental_shortcut": "Chain rule of probability: Prob of sequence = (Prob of 1st) * (Prob of 2nd given 1st happened) * ...",
+                "micro_example": "Draw 2 kings from 52 cards without replacement. P(1st King) = 4/52. P(2nd King | 1st was King) = 3/51. Total = (4/52) * (3/51)."
+            }
+        },
+        {
+            "formula_number": 3,
+            "formula_title": "Independent Events",
+            "section_A": {
+                "latex_formula": "$$ P(A \\cap B) = P(A) \\cdot P(B) $$",
+                "derived_forms": [
+                    "$$ P(A|B) = P(A) \\quad \\text{and} \\quad P(B|A) = P(B) $$",
+                    "$$ P(A \\cup B) = 1 - P(A')P(B') $$",
+                    "$$ P(A \\cap B \\cap C) = P(A)P(B)P(C) \\quad \\text{(for mutually independent events)} $$"
+                ],
+                "special_cases": [
+                    "$$ \\text{If A and B are independent, then A' and B' are independent: } P(A' \\cap B') = P(A')P(B') $$",
+                    "$$ \\text{A and B' are independent: } P(A \\cap B') = P(A)P(B') $$"
+                ]
+            },
+            "section_B": {
+                "when_to_use": "Used either to prove that two events are independent, or to calculate intersection/union when independence is explicitly given or logically implied (e.g., coin tosses, draws with replacement).",
+                "trigger_keywords": [
+                    "independent events",
+                    "with replacement",
+                    "tossing a coin and rolling a die",
+                    "firing at a target independently",
+                    "check if events A and B are independent"
+                ],
+                "question_types": [
+                    "MCQ",
+                    "1_mark",
+                    "2_mark",
+                    "3_mark"
+                ],
+                "common_mistakes": [
+                    "Confusing 'Independent Events' with 'Mutually Exclusive Events'. Mutually exclusive means P(A \u2229 B) = 0. Independent means P(A \u2229 B) = P(A)P(B).",
+                    "Assuming events are independent just because they 'feel' disconnected, without mathematical verification."
+                ],
+                "board_traps": [
+                    "Giving P(A) and P(B) and asking if they are mutually exclusive or independent, based on a derived P(A \u2229 B).",
+                    "Using the 'At least one solves the problem' scenario where students try to add probabilities instead of using the complement of independent failures."
+                ],
+                "examiner_twist_pattern": "CBSE loves questions where a machine has multiple independent components, and the machine works only if all components work, or questions asking 'probability that problem is solved by at least one student'."
+            },
+            "section_C": {
+                "why_students_fail": "Fundamental confusion between mutual exclusivity (sets don't overlap) and independence (occurrence of one doesn't affect the probability of the other).",
+                "how_to_think": "Independence means 'I don't care what you did'. If A is rolling a 6 and B is flipping a Heads, the die doesn't care about the coin.",
+                "thirty_second_strategy": "To prove independence: Calculate P(A), calculate P(B), calculate P(A \u2229 B) separately from the sample space. If P(A \u2229 B) == P(A)*P(B), they are independent.",
+                "mental_shortcut": "For independent 'at least one' problems: P(at least one succeeds) = 1 - P(all fail) = 1 - [P(A') * P(B') * P(C')].",
+                "micro_example": "A and B independently try to solve a sum. P(A solves) = 1/2, P(B solves) = 1/3. P(Both solve) = (1/2)*(1/3) = 1/6."
+            }
+        },
+        {
+            "formula_number": 4,
+            "formula_title": "Theorem of Total Probability",
+            "section_A": {
+                "latex_formula": "$$ P(A) = \\sum_{j=1}^{n} P(E_j) P(A|E_j) $$",
+                "derived_forms": [
+                    "$$ P(A) = P(E_1)P(A|E_1) + P(E_2)P(A|E_2) + \\dots + P(E_n)P(A|E_n) $$"
+                ],
+                "special_cases": [
+                    "$$ \\text{For two partitions: } P(A) = P(E_1)P(A|E_1) + P(E_2)P(A|E_2) $$",
+                    "$$ \\text{Using an event and its complement: } P(A) = P(E)P(A|E) + P(E')P(A|E') $$"
+                ]
+            },
+            "section_B": {
+                "when_to_use": "Used when an event A can occur through several distinct, mutually exclusive and exhaustive paths (partitions). You need the overall probability of event A happening, regardless of the path.",
+                "trigger_keywords": [
+                    "probability that the drawn ball is red (from multiple bags)",
+                    "overall probability",
+                    "a person is chosen at random and found to be...",
+                    "manufactured by any of the machines"
+                ],
+                "question_types": [
+                    "3_mark",
+                    "4_mark",
+                    "5_mark"
+                ],
+                "common_mistakes": [
+                    "Forgetting to multiply the conditional probability P(A|E_j) by the path probability P(E_j).",
+                    "Not ensuring that the chosen partitions (E1, E2, E3) are exhaustive (sum of their probabilities must be 1)."
+                ],
+                "board_traps": [
+                    "Hiding the base probabilities P(E_j) in ratios (e.g., 'Machine A produces twice as much as Machine B'), requiring the student to convert ratios to probabilities first.",
+                    "Describing three bags, but the process of selecting the bags is not equally likely (e.g., depends on a die roll)."
+                ],
+                "examiner_twist_pattern": "CBSE will combine this with a preliminary experiment. For example, 'A die is rolled. If 1 or 2 shows, Bag A is chosen; otherwise Bag B is chosen.' Students must calculate P(E1) and P(E2) before applying the theorem."
+            },
+            "section_C": {
+                "why_students_fail": "Students get lost in the text and fail to identify the 'partitions' (the first stage choices) versus the 'event of interest' (the final outcome).",
+                "how_to_think": "Think of a tree diagram. You are standing at the root. Event A is the leaves at the end. You must calculate the probability of walking down every single branch that leads to an 'A' leaf, and add them all up.",
+                "thirty_second_strategy": "1. Identify the final outcome (Event A). 2. Identify the mutually exclusive starting scenarios (E1, E2...). 3. Calculate P(E_i) for all. 4. Calculate P(A|E_i) for all. 5. Multiply corresponding pairs and sum them up.",
+                "mental_shortcut": "Total Prob = (Prob of Path 1 * Prob of Success on Path 1) + (Prob of Path 2 * Prob of Success on Path 2)",
+                "micro_example": "Bag 1: 3 Red, Bag 2: 4 Red. P(Bag 1) = 1/2, P(Bag 2) = 1/2. Total P(Red) = (1/2)*(3/total_in_B1) + (1/2)*(4/total_in_B2)."
+            }
+        },
+        {
+            "formula_number": 5,
+            "formula_title": "Bayes' Theorem",
+            "section_A": {
+                "latex_formula": "$$ P(E_i|A) = \\frac{P(E_i) P(A|E_i)}{\\sum_{j=1}^{n} P(E_j) P(A|E_j)} $$",
+                "derived_forms": [
+                    "$$ P(E_1|A) = \\frac{P(E_1)P(A|E_1)}{P(E_1)P(A|E_1) + P(E_2)P(A|E_2) + \\dots + P(E_n)P(A|E_n)} $$",
+                    "$$ P(E_i|A) = \\frac{\\text{Specific Path Probability}}{\\text{Total Probability}} $$"
+                ],
+                "special_cases": [
+                    "$$ \\text{When } P(E_1) = P(E_2) = \\dots = P(E_n), \\text{ the formula simplifies to: } P(E_i|A) = \\frac{P(A|E_i)}{\\sum P(A|E_j)} $$"
+                ]
+            },
+            "section_B": {
+                "when_to_use": "Used for 'reverse probability'. You know the final outcome has already occurred (Event A), and you need to find the probability that it was caused by a specific starting path (partition E_i).",
+                "trigger_keywords": [
+                    "it is found to be",
+                    "it is known that",
+                    "what is the probability that it came from",
+                    "find the probability that it was manufactured by",
+                    "what is the probability that he actually has the disease"
+                ],
+                "question_types": [
+                    "4_mark",
+                    "5_mark",
+                    "case_based"
+                ],
+                "common_mistakes": [
+                    "Swapping the numerator with a different branch (calculating for E2 when asked for E1).",
+                    "Incorrectly defining the 'Event A' (the given condition) and the 'Partitions' (the causes), putting them backwards.",
+                    "Calculation errors in the denominator, which is essentially the Law of Total Probability."
+                ],
+                "board_traps": [
+                    "Medical testing problems: Confusing 'Probability of testing positive given you have the disease' (sensitivity) with 'Probability of having the disease given you tested positive' (Bayes).",
+                    "Truth-telling problems: 'A speaks truth 4 out of 5 times. A reports a 6 was rolled.' Students fail to realize the partitions are E1: 6 was actually rolled, E2: 6 was not rolled."
+                ],
+                "examiner_twist_pattern": "The classic CBSE twist is the 'Missing Card' or 'Truth-telling' problem where establishing the base probabilities P(E1) and P(E2) requires careful logical deduction rather than just reading numbers from the text."
+            },
+            "section_C": {
+                "why_students_fail": "Inability to distinguish between P(A|E) [forward probability] and P(E|A) [reverse probability]. If the problem says 'It is drawn and found to be red', 'Red' is A, the given condition.",
+                "how_to_think": "Time travel. The event has already happened. You are looking backward in time to figure out which path was taken to get here. The denominator is ALL possible ways it could have happened. The numerator is the ONE specific way you care about.",
+                "thirty_second_strategy": "1. Identify what ALREADY happened (Event A). 2. Identify the possible causes (E1, E2...). 3. Build the Total Probability denominator. 4. Take the branch you are asked about and put it in the numerator.",
+                "mental_shortcut": "Bayes = (Branch you want) / (Sum of all branches)",
+                "micro_example": "A test is 99% accurate. 1% of population has disease. You test positive. P(Disease | Positive) = (0.01 * 0.99) / [ (0.01 * 0.99) + (0.99 * 0.01) ]."
+            }
+        },
+
+
+
+
+        {
+    "formula_number": 6,
+    "formula_title": "Probability Distribution of a Random Variable",
+    "section_A": {
+      "latex_formula": "$$\\sum_{i=1}^{n} p_i = 1 \\quad \\text{and} \\quad p_i \\geq 0$$",
+      "derived_forms": [
+        "$$p_1 + p_2 + p_3 + \\dots + p_n = 1$$"
+      ],
+      "special_cases": [
+        "$$P(X < k) = \\sum_{x_i < k} P(X = x_i)$$",
+        "$$P(X \\geq k) = 1 - P(X < k)$$"
+      ]
+    },
+    "section_B": {
+      "when_to_use": "Used when verifying if a given table of probabilities represents a valid probability distribution, or when finding an unknown constant 'k' in a distribution table.",
+      "trigger_keywords": [
+        "probability distribution",
+        "random variable X",
+        "determine the value of k",
+        "find the probability distribution of number of"
+      ],
+      "question_types": [
+        "1_mark",
+        "2_mark",
+        "3_mark"
+      ],
+      "common_mistakes": [
+        "Forgetting to check if any probability $p_i$ is negative, which automatically makes it an invalid distribution.",
+        "Solving a quadratic for 'k' and blindly accepting both roots, even if one root yields a negative probability."
+      ],
+      "board_traps": [
+        "Providing a function like $P(X=x) = cx^2$ for $x=0,1,2,3$ and expecting the student to create the table and sum it to 1 to find $c$.",
+        "Asking for $P(X > 2)$ and students mistakenly include $P(X=2)$ in their sum."
+      ],
+      "examiner_twist_pattern": "CBSE often asks students to first form the sample space, define the random variable, calculate individual probabilities, and then display it in a tabular format, testing the entire foundational concept before asking for Mean or Variance."
+    },
+    "section_C": {
+      "why_students_fail": "Students struggle with defining the random variable $X$ (e.g., 'number of heads', 'number of defective items') and linking it to the correct combinations in the sample space.",
+      "how_to_think": "Think of $X$ as a function that assigns a real number to every outcome. The sum of the probabilities of all these possible real numbers must account for 100% of the scenarios.",
+      "thirty_second_strategy": "1. Identify what $X$ represents. 2. List all possible values $X$ can take (usually 0, 1, 2...). 3. Find probability for each value. 4. Put in a table. 5. Verify the sum is exactly 1.",
+      "mental_shortcut": "Total probability is always 1. If finding an unknown, equate the sum to 1.",
+      "micro_example": "X = number of heads in 2 coin tosses. X can be 0, 1, 2. P(0)=1/4, P(1)=2/4, P(2)=1/4. Sum = 1/4 + 2/4 + 1/4 = 1."
+    }
+  },
+  {
+    "formula_number": 7,
+    "formula_title": "Mean (Expected Value) of a Random Variable",
+    "section_A": {
+      "latex_formula": "$$\\mu = E(X) = \\sum_{i=1}^{n} x_i p_i$$",
+      "derived_forms": [
+        "$$E(X) = x_1p_1 + x_2p_2 + \\dots + x_np_n$$",
+        "$$E(aX + b) = aE(X) + b$$"
+      ],
+      "special_cases": [
+        "$$E(c) = c \\quad \\text{(where c is a constant)}$$"
+      ]
+    },
+    "section_B": {
+      "when_to_use": "Used to find the average or expected outcome of a random experiment if it were repeated infinitely many times.",
+      "trigger_keywords": [
+        "mean of the distribution",
+        "expected value",
+        "expectation of X",
+        "find E(X)",
+        "average number of"
+      ],
+      "question_types": [
+        "2_mark",
+        "3_mark",
+        "case_based"
+      ],
+      "common_mistakes": [
+        "Simply averaging the values of $x_i$ without multiplying by their respective probabilities.",
+        "Calculation errors in multiplication or addition of fractions/decimals during the final step."
+      ],
+      "board_traps": [
+        "Asking for the expected 'winnings' in a game where losing means paying money. Students forget to assign negative values to $x_i$ for losses.",
+        "Combining finding 'k' in the distribution with finding the mean in a single 3-mark question."
+      ],
+      "examiner_twist_pattern": "Framing a real-life lottery or insurance problem where $X$ represents monetary gain/loss, testing if students comprehend 'expectation' as the long-term average gain."
+    },
+    "section_C": {
+      "why_students_fail": "Lack of understanding that 'Expectation' is a weighted average. The values of $X$ that are more probable pull the mean closer to them.",
+      "how_to_think": "It's the center of gravity of the probability distribution. Imagine a seesaw where distances are $x_i$ and weights are $p_i$. $E(X)$ is where it balances.",
+      "thirty_second_strategy": "1. Ensure you have a valid distribution table. 2. Create a third row/column for $x_i \\times p_i$. 3. Multiply each $x_i$ by its corresponding $p_i$. 4. Sum all the products.",
+      "mental_shortcut": "Mean = Sum of (Value \u00d7 Probability)",
+      "micro_example": "Roll a die. X = outcome. P(X=x) = 1/6 for all. Mean = 1(1/6) + 2(1/6) + 3(1/6) + 4(1/6) + 5(1/6) + 6(1/6) = 21/6 = 3.5."
+    }
+  },
+  {
+    "formula_number": 8,
+    "formula_title": "Variance and Standard Deviation of a Random Variable",
+    "section_A": {
+      "latex_formula": "$$\\sigma^2 = Var(X) = E(X^2) - [E(X)]^2$$",
+      "derived_forms": [
+        "$$Var(X) = \\sum_{i=1}^{n} x_i^2 p_i - \\left( \\sum_{i=1}^{n} x_i p_i \\right)^2$$",
+        "$$\\sigma = \\sqrt{Var(X)}$$",
+        "$$Var(aX + b) = a^2 Var(X)$$"
+      ],
+      "special_cases": [
+        "$$Var(c) = 0 \\quad \\text{(where c is a constant)}$$"
+      ]
+    },
+    "section_B": {
+      "when_to_use": "Used to measure the spread or dispersion of the random variable's values around the mean.",
+      "trigger_keywords": [
+        "variance",
+        "standard deviation",
+        "find Var(X)",
+        "calculate the spread"
+      ],
+      "question_types": [
+        "3_mark",
+        "5_mark"
+      ],
+      "common_mistakes": [
+        "Forgetting to subtract the square of the mean $[E(X)]^2$ at the end.",
+        "Calculating $E(X^2)$ by squaring the probability $p_i$ as well as $x_i$. The formula is $x_i^2 p_i$, NOT $(x_i p_i)^2$.",
+        "Forgetting to take the square root when asked for Standard Deviation."
+      ],
+      "board_traps": [
+        "Giving negative values for $X$. Students make sign errors when calculating $X^2$.",
+        "Calculation-heavy distributions that waste time if fractions are converted to decimals too early."
+      ],
+      "examiner_twist_pattern": "CBSE will give a distribution with an unknown variable $k$, ask the student to find $k$, then find the mean, and finally the variance, making it a comprehensive 5-marker where an early mistake cascades."
+    },
+    "section_C": {
+      "why_students_fail": "Formula confusion. They mix up $E(X^2)$ (mean of the squares) with $[E(X)]^2$ (square of the mean).",
+      "how_to_think": "Variance is 'Mean of Squares minus Square of Mean'. It quantifies how much the outcomes vary from the expected value.",
+      "thirty_second_strategy": "1. Build table: $x_i$, $p_i$, $x_ip_i$, $x_i^2$, $x_i^2p_i$. 2. Sum $x_ip_i$ to get Mean. 3. Sum $x_i^2p_i$ to get $E(X^2)$. 4. Subtract $(\\text{Mean})^2$ from $E(X^2)$.",
+      "mental_shortcut": "Var(X) = E(X\u00b2) - (\u03bc)\u00b2. Always keep calculations in fractions until the very last step to avoid rounding errors.",
+      "micro_example": "Coin toss where X=0 (T) or 1 (H). Mean = 0(0.5) + 1(0.5) = 0.5. E(X\u00b2) = 0\u00b2(0.5) + 1\u00b2(0.5) = 0.5. Var(X) = 0.5 - (0.5)\u00b2 = 0.5 - 0.25 = 0.25."
+    }
+  },
+  {
+    "formula_number": 9,
+    "formula_title": "Binomial Distribution (Bernoulli Trials)",
+    "section_A": {
+      "latex_formula": "$$P(X = r) = \\binom{n}{r} p^r q^{n-r}$$",
+      "derived_forms": [
+        "$$P(X = r) = ^nC_r p^r (1-p)^{n-r}$$",
+        "$$P(X = 0) = q^n$$",
+        "$$P(X = n) = p^n$$"
+      ],
+      "special_cases": [
+        "$$\\text{Mean of Binomial Distribution: } \\mu = np$$",
+        "$$\\text{Variance of Binomial Distribution: } \\sigma^2 = npq$$"
+      ]
+    },
+    "section_B": {
+      "when_to_use": "Used when an experiment consists of 'n' independent identical trials, each with exactly two possible outcomes (Success/Failure), and the probability of success 'p' is constant.",
+      "trigger_keywords": [
+        "a coin is tossed 10 times",
+        "exactly 4 successes",
+        "at least 1 success",
+        "probability of getting 5 defective bulbs out of 20",
+        "drawn with replacement"
+      ],
+      "question_types": [
+        "2_mark",
+        "3_mark",
+        "4_mark",
+        "case_based"
+      ],
+      "common_mistakes": [
+        "Confusing 'at least r' with 'exactly r'. 'At least 1' means $P(X \\geq 1) = 1 - P(X=0)$.",
+        "Using Binomial Distribution for draws *without* replacement (which requires Hypergeometric/combinations, not Binomial).",
+        "Miscalculating combinations $^nC_r$."
+      ],
+      "board_traps": [
+        "Asking for 'at most 2 successes', requiring students to calculate $P(X=0) + P(X=1) + P(X=2)$.",
+        "Giving Mean and Variance, and asking to construct the Binomial Distribution (requires solving $\\mu = np$ and $\\sigma^2 = npq$ to find $n$, $p$, and $q$)."
+      ],
+      "examiner_twist_pattern": "Using phrases like 'success is defined as getting a number greater than 4'. Students must first calculate the base probability $p$ from the sample space before applying the Binomial formula."
+    },
+    "section_C": {
+      "why_students_fail": "Failure to correctly identify $n$ (total trials), $p$ (probability of success in ONE trial), and $r$ (number of successes desired).",
+      "how_to_think": "Think of it as choosing $r$ specific spots for your successes out of $n$ available spots (hence $^nC_r$), multiplying by the probability of those successes happening ($p^r$), and the failures happening in the remaining spots ($q^{n-r}$).",
+      "thirty_second_strategy": "1. Verify trials are independent (with replacement/coin tosses). 2. Define 'Success' and find $p$. 3. Find $q = 1-p$. 4. Identify $n$ and $r$. 5. Plug into $^nC_r p^r q^{n-r}$.",
+      "mental_shortcut": "For 'at least one' problems in Binomial, never calculate $P(1)+P(2)+...+P(n)$. Always use $1 - P(X=0) = 1 - q^n$.",
+      "micro_example": "Roll a die 5 times. Success = getting a 6. p = 1/6, q = 5/6, n = 5. P(exactly 2 sixes) = \u2075C\u2082 (1/6)\u00b2 (5/6)\u00b3."
+    }
+  }
+
+
+
+
+
+    ]
+}

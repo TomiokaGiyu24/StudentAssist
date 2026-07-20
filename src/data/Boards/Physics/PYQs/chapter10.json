@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "board": "CBSE",
+    "exam": "Class 12 Board Examination"
+  },
+  "questions": [
+    {
+      "id": "55-5-3-Q11",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "Two sources of light are said to be coherent, when both emit light waves of:",
+      "options": {
+        "A": "same amplitude and have a varying phase difference.",
+        "B": "same wavelength and a constant phase difference.",
+        "C": "different wavelengths and same intensity.",
+        "D": "different wavelengths and a constant phase difference."
+      },
+      "answer": {
+        "explanation": "Coherent sources must emit waves of the same frequency (or wavelength) and maintain a zero or constant phase difference with respect to time. This is the essential condition for sustained interference.",
+        "key_formulae": [],
+        "diagrams": []
+      },
+      "correct_option": "B",
+      "diagram_required": false,
+      "source": "55/5/3"
+    },
+    {
+      "id": "55-5-3-Q12",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "The fringe width in a Young's double slit experiment is $\\beta$. If the whole set-up is immersed in a liquid of refractive index $\\mu$, then the new fringe width will be:",
+      "options": {
+        "A": "\\beta",
+        "B": "\\beta\\mu",
+        "C": "\\frac{\\beta}{\\mu}",
+        "D": "\\frac{\\beta}{\\mu^2}"
+      },
+      "answer": {
+        "explanation": "Fringe width in air is $\\beta = \\frac{D\\lambda}{d}$.\\nWhen immersed in a liquid of refractive index $\\mu$, the wavelength decreases to $\\lambda' = \\frac{\\lambda}{\\mu}$.\\nNew fringe width $\\beta' = \\frac{D\\lambda'}{d} = \\frac{D(\\lambda/\\mu)}{d} = \\frac{1}{\\mu} \\left(\\frac{D\\lambda}{d}\\right) = \\frac{\\beta}{\\mu}$.",
+        "key_formulae": [
+          "\\beta = \\frac{D\\lambda}{d}",
+          "\\lambda' = \\frac{\\lambda}{\\mu}"
+        ],
+        "diagrams": []
+      },
+      "correct_option": "C",
+      "diagram_required": false,
+      "source": "55/5/3"
+    },
+    {
+      "id": "55-5-3-Q13",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "What will happen to the pattern on the screen, when the two slits $S_1$ and $S_2$ in a Young's double slit experiment are replaced by two independent but identical sources?",
+      "options": {
+        "A": "The intensity of pattern will increase",
+        "B": "The intensity of pattern will decrease",
+        "C": "The number of fringes will become double",
+        "D": "No pattern will be observed on the screen"
+      },
+      "answer": {
+        "explanation": "Two independent sources, even if identical, cannot maintain a constant phase difference (they are incoherent). The phase difference varies randomly with time, causing the interference term to average out to zero. The screen becomes uniformly illuminated, and no interference pattern (fringes) is observed.",
+        "key_formulae": [
+          "I = I_1 + I_2 + 2\\sqrt{I_1 I_2} \\cos \\phi",
+          "\\langle \\cos \\phi \\rangle = 0"
+        ],
+        "diagrams": []
+      },
+      "correct_option": "D",
+      "diagram_required": false,
+      "source": "55/5/3"
+    },
+    {
+      "id": "55-4-1-Q10",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "Which of the following figures correctly shows the wavefronts for a line source of light?",
+      "options": {
+        "A": "[Cylindrical wavefronts]",
+        "B": "[Spherical wavefronts]",
+        "C": "[Plane wavefronts]",
+        "D": "[Conical wavefronts]"
+      },
+      "answer": {
+        "explanation": "For a line source (like a slit or a thin tube), the locus of points equidistant from the source forms a cylinder. Therefore, the wavefronts are cylindrical in shape.",
+        "key_formulae": [],
+        "diagrams": [
+          ""
+        ]
+      },
+      "correct_option": "A",
+      "diagram_required": true,
+      "source": "55/4/1",
+      "diagram_url": "/images/Physics/PYQs/chapter10/55-4-1-Q10.png"
+    },
+    {
+      "id": "55-4-3-Q26",
+      "year": 2023,
+      "marks": 2,
+      "type": "theory",
+      "question": "Differentiate between interference and diffraction based on the nature of the intensity of fringes.",
+      "options": {},
+      "answer": {
+        "explanation": "1. **Intensity Distribution:** In an interference pattern (like YDSE), all bright fringes have the same maximum intensity ($4I_0$). In a diffraction pattern (single slit), the central maximum is the brightest, and the intensity of secondary maxima decreases rapidly as we move away from the center.\n2. **Fringe Width:** In interference, fringe width is generally constant ($\\beta = D\\lambda/d$). In diffraction, the central maximum is twice as wide as the secondary maxima.",
+        "key_formulae": [],
+        "diagrams": [
+          ""
+        ]
+      },
+      "diagram_required": true,
+      "source": "55/4/3",
+      "diagram_url": "/images/Physics/PYQs/chapter10/55-4-3-Q26.png",
+      "image": "/images/Physics/Derivations/Interference intensity.png"
+    },
+    {
+      "id": "55-5-3-Q33b-i",
+      "year": 2023,
+      "marks": 3,
+      "type": "derivation",
+      "question": "State Huygens' principle. A plane wave is incident at an angle $i$ on a reflecting surface. Construct the corresponding reflected wavefront. Using this diagram, prove that the angle of reflection is equal to the angle of incidence.",
+      "options": {},
+      "answer": {
+        "explanation": "**Huygens' Principle:**\n1. Every point on a given wavefront acts as a fresh source of new disturbance, called secondary wavelets, which travel in all directions with the speed of light in the medium.\n2. A surface touching these secondary wavelets tangentially in the forward direction at any instant gives the new wavefront at that instant.\n\n**Derivation (Law of Reflection):**\n1. Consider a plane wavefront AB incident on a reflecting surface MN at angle $i$.\n2. Let $v$ be the speed of light. At $t=0$, point A touches the surface. By the time point B reaches the surface at C (time $\\tau$), the secondary wavelet from A has spread to a radius $v\\tau$.\n3. Draw a sphere of radius $v\\tau = BC$ centered at A. Draw a tangent CD from C to this sphere. CD represents the reflected wavefront.\n4. In $\\Delta ABC$ and $\\Delta ADC$:\n   - $AC$ is common (hypotenuse).\n   - $BC = AD = v\\tau$ (distance traveled).\n   - $\\angle ABC = \\angle ADC = 90^\\circ$ (wavefront is perpendicular to rays).\n5. The triangles are congruent (RHS).\n6. Therefore, $\\angle BAC = \\angle DCA$. \n   Since $\\angle BAC = i$ (angle between wavefront and surface) and $\\angle DCA = r$ (angle between reflected wavefront and surface),\n   $i = r$.",
+        "key_formulae": [
+          "BC = v\\tau",
+          "AD = v\\tau",
+          "\\Delta ABC \\cong \\Delta ADC"
+        ],
+        "diagrams": [
+          ""
+        ]
+      },
+      "diagram_required": true,
+      "source": "55/5/3",
+      "diagram_url": "/images/Physics/PYQs/chapter10/55-5-3-Q33b-i.png",
+      "image": "/images/Physics/Derivations/graph of deviation vs incidence angle.png"
+    },
+    {
+      "id": "55-5-3-Q33b-iii",
+      "year": 2023,
+      "marks": 3,
+      "type": "numerical",
+      "question": "A beam of light consisting of a known wavelength 520 nm and an unknown wavelength $\\lambda'$ is used in a Young's double slit experiment. The fourth bright fringe of 520 nm coincides with the $n^{th}$ bright fringe of $\\lambda'$. Find the value of $\\lambda'$ if $n=5$.",
+      "options": {},
+      "answer": {
+        "explanation": "GIVEN:\n$\\lambda_{1} = 520$ nm.\\nBright fringe order for $\\lambda_{1}$ is $n_{1} = 4$.\\nUnknown wavelength $\\lambda_{2} = \\lambda'$.\\nBright fringe order for $\\lambda_{2}$ is $n_{2} = 5$.\n\\nCONDITION FOR COINCIDENCE:\\nPosition of bright fringe $y = \\frac{n D \\lambda}{d}$.\\nFor coincidence, $y_{1} = y_{2}$.\n$\\frac{n_{1} D \\lambda_{1}}{d} = \\frac{n_{2} D \\lambda_{2}}{d}$.\n$n_{1} \\lambda_{1} = n_{2} \\lambda_{2}$.\n\\nCALCULATION:\n$4 \\times 520 = 5 \\times \\lambda'$.\n$2080 = 5 \\lambda'$.\n$\\lambda' = \\frac{2080}{5} = 416$ nm.\n\\nFINAL RESULT:\\nThe unknown wavelength is 416 nm.",
+        "key_formulae": [
+          "y_n = \\frac{n D \\lambda}{d}",
+          "n_1 \\lambda_1 = n_2 \\lambda_2"
+        ],
+        "diagrams": []
+      },
+      "diagram_required": false,
+      "source": "55/5/3"
+    },
+    {
+      "id": "55-6-1-Q31",
+      "year": 2023,
+      "marks": 5,
+      "type": "theory",
+      "question": "(a) Use Huygens' principle to verify the laws of refraction.\n(b) In a single slit diffraction experiment, the width of the slit is made double the original width. How does this affect the size and intensity of the central diffraction band?",
+      "options": {},
+      "answer": {
+        "explanation": "(a) **Laws of Refraction (Derivation):**\n1. Consider a plane wavefront incident on a surface separating medium 1 ($v_1$) and medium 2 ($v_2$) at angle $i$.\n2. While point B of the wavefront travels distance $BC=v_1\\tau$ to reach the interface, the wavelet from A travels distance $AD=v_2\\tau$ into the second medium.\n3. Draw tangent CD from C to the arc of radius $AD$ at D. CD is the refracted wavefront.\n4. In $\\Delta ABC$, $\\sin i = \\frac{BC}{AC} = \\frac{v_1 \\tau}{AC}$.\n5. In $\\Delta ADC$, $\\sin r = \\frac{AD}{AC} = \\frac{v_2 \\tau}{AC}$.\n6. Dividing: $\\frac{\\sin i}{\\sin r} = \\frac{v_1 \\tau / AC}{v_2 \\tau / AC} = \\frac{v_1}{v_2}$.\n7. Since refractive index $n = c/v$, $\\frac{v_1}{v_2} = \\frac{n_2}{n_1}$.\n   Thus, $n_{1} \\sin i = n_{2} \\sin r$ (Snell's Law).\n\n(b) **Effect on Central Band:**\n   - **Size (Linear Width):** Width of central maximum is given by $\\beta_0 = \\frac{2D\\lambda}{a}$.\n     If slit width 'a' is doubled ($a' = 2a$), the new width $\\beta_0' = \\frac{2D\\lambda}{2a} = \\frac{\\beta_0}{2}$.\n     The size of the central band becomes **half**.\n   - **Intensity:** Intensity is proportional to the square of the amplitude. Amplitude is proportional to the slit width (area of wavefront allowed). If 'a' doubles, amplitude doubles.\n     Intensity $I \\propto A^2 \\propto a^2$.\n     $I' \\propto (2a)^2 = 4a^2 = 4I$.\n     The intensity of the central maximum becomes **four times**.",
+        "key_formulae": [
+          "\\frac{\\sin i}{\\sin r} = \\frac{v_1}{v_2} = \\mu",
+          "\\text{Width} = \\frac{2D\\lambda}{a}",
+          "I \\propto a^2"
+        ],
+        "diagrams": [
+          "",
+          ""
+        ]
+      },
+      "diagram_required": true,
+      "source": "55/6/1",
+      "diagram_url": "/images/Physics/PYQs/chapter10/55-6-1-Q31.png",
+      "image": "/images/Physics/Derivations/faradays magnet and coil experiment.png"
+    }
+  ],
+  "diagram_required": true
+}

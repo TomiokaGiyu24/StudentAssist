@@ -1,0 +1,430 @@
+{
+  "meta": {
+    "subject": "Physical Education",
+    "class": 12,
+    "board": "CBSE",
+    "chapter": "Management of Sporting Events",
+    "total_questions": 20
+  },
+  "questions": [
+    {
+      "id": "CH1_MCQ_01",
+      "type": "mcq",
+      "marks": 1,
+      "priority": "P1",
+      "priority_reason": "Repeatedly asked concept regarding formulas in Knock-out tournaments.",
+      "question": "In a Knock-out tournament, if the total number of participating teams is 19, what is the total number of matches to be played?",
+      "options": {
+        "A": "18",
+        "B": "19",
+        "C": "20",
+        "D": "17"
+      },
+      "correct_option": "A",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "In a Knock-out tournament, the number of matches is calculated as (N - 1), where N is the number of teams.",
+        "key_points": [],
+        "final_answer": "18"
+      },
+      "source_basis": "PYQ"
+    },
+    {
+      "id": "CH1_MCQ_02",
+      "type": "mcq",
+      "marks": 1,
+      "priority": "P2",
+      "priority_reason": "Committee responsibilities are a frequent topic for objective questions.",
+      "question": "Which committee is responsible for preparing the budget and settling bills after the tournament?",
+      "options": {
+        "A": "Logistics Committee",
+        "B": "Marketing Committee",
+        "C": "Finance Committee",
+        "D": "Technical Committee"
+      },
+      "correct_option": "C",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "The Finance Committee handles all financial aspects, including budget preparation and settlement of accounts.",
+        "key_points": [],
+        "final_answer": "Finance Committee"
+      },
+      "source_basis": "Reference Notes"
+    },
+    {
+      "id": "CH1_MCQ_03",
+      "type": "mcq",
+      "marks": 1,
+      "priority": "P2",
+      "priority_reason": "Basic definition of tournament types often appears in MCQs.",
+      "question": "Which method of drawing fixtures requires no byes and allows every team to play every other team?",
+      "options": {
+        "A": "Knock-out",
+        "B": "Staircase Method",
+        "C": "Combination Tournament",
+        "D": "Consolation Tournament"
+      },
+      "correct_option": "B",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "The Staircase Method is a type of League fixture where no byes are needed, and every team plays every other team systematically.",
+        "key_points": [],
+        "final_answer": "Staircase Method"
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "CH1_MCQ_04",
+      "type": "mcq",
+      "marks": 1,
+      "priority": "P3",
+      "priority_reason": "Knowledge of specific sports programmes is part of the syllabus.",
+      "question": "Which specific sports programme is primarily organized to promote unity and peace among people of different religions and communities?",
+      "options": {
+        "A": "Health Run",
+        "B": "Run for Fun",
+        "C": "Run for Unity",
+        "D": "Sports Day"
+      },
+      "correct_option": "C",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "Run for Unity is organized to foster a sense of togetherness and national integrity.",
+        "key_points": [],
+        "final_answer": "Run for Unity"
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "CH1_AR_01",
+      "type": "assertion_reason",
+      "marks": 1,
+      "priority": "P1",
+      "priority_reason": "Conceptual understanding of 'Seeding' is frequently tested in A-R format.",
+      "question": "Given below are two statements, one labelled as Assertion (A) and the other labelled as Reason (R).\n\nAssertion (A): Seeding is a procedure used in Knock-out tournaments to keep strong teams apart in the initial rounds.\nReason (R): Strong teams getting eliminated in the early rounds can reduce the interest of spectators in the tournament.",
+      "options": {
+        "A": "Both (A) and (R) are true and (R) is the correct explanation of (A).",
+        "B": "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "C": "(A) is true, but (R) is false.",
+        "D": "(A) is false, but (R) is true."
+      },
+      "correct_option": "A",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "Seeding is done specifically to prevent strong teams from meeting early and eliminating each other, ensuring spectator interest is maintained till the end.",
+        "key_points": [],
+        "final_answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)."
+      },
+      "source_basis": "ALLEN"
+    },
+    {
+      "id": "CH1_AR_02",
+      "type": "assertion_reason",
+      "marks": 1,
+      "priority": "P2",
+      "priority_reason": "Comparison between League and Knockout is a core concept.",
+      "question": "Given below are two statements:\n\nAssertion (A): A League tournament takes more time and is more expensive than a Knock-out tournament.\nReason (R): In a League tournament, every team plays with every other team irrespective of winning or losing.",
+      "options": {
+        "A": "Both (A) and (R) are true and (R) is the correct explanation of (A).",
+        "B": "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "C": "(A) is true, but (R) is false.",
+        "D": "(A) is false, but (R) is true."
+      },
+      "correct_option": "A",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "Because every team plays every other team (Reason), the total number of matches increases significantly, leading to higher time and cost (Assertion).",
+        "key_points": [],
+        "final_answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "CH1_VSA_01",
+      "type": "very_short",
+      "marks": 2,
+      "priority": "P1",
+      "priority_reason": "Standard definition question asked frequently.",
+      "question": "Define 'Planning' in sports.",
+      "options": null,
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Planning is the process of creating a strategy to accomplish goals.",
+          "It involves deciding in advance what is to be done, when, where, how, and by whom."
+        ],
+        "final_answer": "Planning is the intellectual process of creating a strategy to accomplish specific goals. It involves deciding in advance what is to be done, when, where, how, and by whom to ensure the smooth conduct of a sports event."
+      },
+      "source_basis": "Reference Notes"
+    },
+    {
+      "id": "CH1_VSA_02",
+      "type": "very_short",
+      "marks": 2,
+      "priority": "P1",
+      "priority_reason": "Mathematical formula application is crucial for this chapter.",
+      "question": "What is the formula to calculate the number of matches in a League tournament using the Cyclic method?",
+      "options": null,
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Formula for single league."
+        ],
+        "final_answer": "The formula to calculate the number of matches in a single league tournament is:\n$$ \\text{Number of Matches} = \\frac{N(N-1)}{2} $$\nWhere \\( N \\) is the total number of teams."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "CH1_VSA_03",
+      "type": "very_short",
+      "marks": 2,
+      "priority": "P2",
+      "priority_reason": "Distinction between key terms.",
+      "question": "Differentiate between Intramural and Extramural tournaments.",
+      "options": null,
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Intramural: Within the walls (same institution).",
+          "Extramural: Outside the walls (between different institutions)."
+        ],
+        "final_answer": "1. **Intramural**: Activities performed within the walls of an institution (e.g., Inter-house sports). Participation is restricted to students of that school.\n2. **Extramural**: Competitions played between two or more different institutions (e.g., Inter-school zonals). It involves representation at a higher level."
+      },
+      "source_basis": "Reference Notes"
+    },
+    {
+      "id": "CH1_SA_01",
+      "type": "short",
+      "marks": 3,
+      "priority": "P1",
+      "priority_reason": "Committee responsibilities are a high-yield topic for 3-mark questions.",
+      "question": "Discuss the responsibilities of the 'Technical Committee' before and during a tournament.",
+      "options": null,
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Pre-tournament: Equipment, fixtures, officials.",
+          "During tournament: Conducting matches, jury, score sheets."
+        ],
+        "final_answer": "**Responsibilities of Technical Committee:**\n\n* **Pre-Tournament:**\n    1.  Preparing fixtures and rules/regulations for the event.\n    2.  Inviting and confirming officials (referees, umpires).\n    3.  Arranging necessary equipment and marking the fields.\n\n* **During Tournament:**\n    1.  Conducting matches on time as per the schedule.\n    2.  Collection of score sheets and preparation of merit lists.\n    3.  Ensuring the presence of the jury to resolve disputes."
+      },
+      "source_basis": "Reference Notes"
+    },
+    {
+      "id": "CH1_SA_02",
+      "type": "short",
+      "marks": 3,
+      "priority": "P1",
+      "priority_reason": "Calculation of Byes is a mandatory skill.",
+      "question": "Explain the procedure for placing 'Byes' in a Knock-out fixture.",
+      "options": null,
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Definition of Bye.",
+          "Calculation: Next power of 2 - N.",
+          "Order of placement: 4 steps."
+        ],
+        "final_answer": "**Procedure for Fixing Byes:**\n1.  **Calculation:** Total Byes = \\( 2^n - N \\), where \\( 2^n \\) is the next highest power of 2 and \\( N \\) is the number of teams.\n2.  **Order of Placement:**\n    * **1st Bye:** Given to the last team of the Lower Half.\n    * **2nd Bye:** Given to the first team of the Upper Half.\n    * **3rd Bye:** Given to the first team of the Lower Half.\n    * **4th Bye:** Given to the last team of the Upper Half.\n    * This sequence is repeated for remaining byes."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "CH1_SA_03",
+      "type": "short",
+      "marks": 3,
+      "priority": "P2",
+      "priority_reason": "A theoretical question on the purpose of sports events.",
+      "question": "What are the objectives of Intramural tournaments? List any three.",
+      "options": null,
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Mass participation.",
+          "Leadership qualities.",
+          "Recreation."
+        ],
+        "final_answer": "The objectives of Intramural tournaments are:\n1.  **To provide opportunity to every student:** It encourages mass participation in sports within the institution.\n2.  **To develop leadership qualities:** Students get to organize and manage events, developing leadership skills.\n3.  **To provide recreation:** It offers fun and enjoyment, helping students relax from academic stress."
+      },
+      "source_basis": "Reference Notes"
+    },
+    {
+      "id": "CH1_SA_04",
+      "type": "short",
+      "marks": 3,
+      "priority": "P2",
+      "priority_reason": "Often asked to test understanding of different league methods.",
+      "question": "Draw a fixture of 6 teams on a League basis using the Staircase Method.",
+      "options": null,
+      "correct_option": null,
+      "diagram_required": true,
+      "diagram_description": "A visual representation of the Staircase Method for 6 teams (1 to 6). It should show steps descending from left to right. \nStep 1: 1-2, 1-3, 1-4, 1-5, 1-6 stacked vertically.\nStep 2: 2-3, 2-4, 2-5, 2-6 stacked vertically to the right of Step 1.\nStep 3: 3-4, 3-5, 3-6.\nStep 4: 4-5, 4-6.\nStep 5: 5-6.\nNo byes are used.",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "No byes needed.",
+          "Systematic arrangement like stairs.",
+          "Teams: 1, 2, 3, 4, 5, 6."
+        ],
+        "final_answer": "In the Staircase Method, fixtures are arranged like a staircase. No byes are given.\n\n**Fixture for 6 Teams:**\n\n* **Round 1 (Team 1 fixed):** 1-2, 1-3, 1-4, 1-5, 1-6\n* **Round 2 (Team 2 fixed):** 2-3, 2-4, 2-5, 2-6\n* **Round 3 (Team 3 fixed):** 3-4, 3-5, 3-6\n* **Round 4 (Team 4 fixed):** 4-5, 4-6\n* **Round 5 (Team 5 fixed):** 5-6\n\n"
+      },
+      "source_basis": "Reference Notes"
+    },
+    {
+      "id": "CH1_SA_05",
+      "type": "short",
+      "marks": 3,
+      "priority": "P3",
+      "priority_reason": "Application-based question on seeding.",
+      "question": "What is 'Special Seeding'? How is it different from simple seeding?",
+      "options": null,
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Definition: Direct entry to QF/SF.",
+          "Difference: Simple seeding places in suitable slot, special skips rounds."
+        ],
+        "final_answer": "**Special Seeding:** In special seeding, the seeded players or teams directly participate in the Quarter-finals or Semi-finals. They do not wait/play in the initial preliminary rounds.\n\n**Difference:**\n* **Simple Seeding:** Strong teams are placed in specific places in the fixture to avoid meeting early, but they play from the first available round (after byes).\n* **Special Seeding:** Teams skip the initial rounds entirely and enter directly at a later stage."
+      },
+      "source_basis": "Reference Notes"
+    },
+    {
+      "id": "CH1_LA_01",
+      "type": "long",
+      "marks": 5,
+      "priority": "P1",
+      "priority_reason": "The most probable 5-mark question. Fixture drawing with calculation.",
+      "question": "Draw a Knock-out fixture for 21 teams mentioning all the steps involved.",
+      "options": null,
+      "correct_option": null,
+      "diagram_required": true,
+      "diagram_description": "A detailed flow chart for a knockout tournament of 21 teams.\n1. Total Teams = 21.\n2. Upper Half = 11 teams, Lower Half = 10 teams.\n3. Byes = 11 (32 - 21).\n4. Upper Half Byes = 5, Lower Half Byes = 6.\n5. Matches = 20.\n6. Rounds = 5.\nThe diagram shows brackets connecting teams. Round 1 has 10 teams playing (5 matches) and 11 byes. Round 2 has 16 teams. Subsequent rounds narrow down to the winner.",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Calculations: Teams, Halves, Byes, Rounds.",
+          "Drawing the fixture visually."
+        ],
+        "final_answer": "**Step 1: Calculations**\n* Total Teams (N) = 21\n* Teams in Upper Half = \\( \\frac{N+1}{2} = \\frac{22}{2} = 11 \\)\n* Teams in Lower Half = \\( \\frac{N-1}{2} = \\frac{20}{2} = 10 \\)\n* Total Byes = Next Power of 2 (32) - 21 = 11 Byes\n* Byes in Upper Half = \\( \\frac{NB-1}{2} = \\frac{10}{2} = 5 \\)\n* Byes in Lower Half = \\( \\frac{NB+1}{2} = \\frac{12}{2} = 6 \\)\n* Total Rounds = 5 (since \\( 2^5 = 32 \\))\n* Total Matches = \\( N - 1 = 20 \\)\n\n**Step 2: Fixture Draw**\n* **Round 1:** Only non-bye teams play. 11 Teams get byes and move to Round 2.\n* **Round 2:** All 16 teams (winners of R1 + bye teams) play.\n* **Quarter-finals, Semi-finals, and Final** follow."
+      },
+      "source_basis": "Reference Notes"
+    },
+    {
+      "id": "CH1_LA_02",
+      "type": "long",
+      "marks": 5,
+      "priority": "P1",
+      "priority_reason": "Management functions are a core theoretical component.",
+      "question": "Define Planning. Explain the role of various committees pre, during, and post-tournament.",
+      "options": null,
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Definition of Planning.",
+          "Pre-work (Budget, Publicity).",
+          "During-work (Conduct, Discipline).",
+          "Post-work (Records, Payments)."
+        ],
+        "final_answer": "**Definition:** Planning is the process of creating a strategy to accomplish goals and solving futuristic problems.\n\n**Role of Committees:**\n1.  **Pre-Tournament:**\n    * **Organizing Committee:** Forms sub-committees and policies.\n    * **Finance:** Prepares budget and procures funds.\n    * **Publicity:** Advertises dates and venue.\n2.  **During Tournament:**\n    * **Technical:** Conducts matches, officiating, and records scores.\n    * **Transport/Boarding:** Manages accommodation and travel for athletes.\n    * **First Aid:** Provides immediate medical support.\n3.  **Post-Tournament:**\n    * **Finance:** Settles bills and prepares final reports.\n    * **Technical:** Returns equipment and cleans the venue.\n    * **Prize Distribution:** Distributes certificates and trophies."
+      },
+      "source_basis": "Reference Notes"
+    },
+    {
+      "id": "CH1_LA_03",
+      "type": "long",
+      "marks": 5,
+      "priority": "P2",
+      "priority_reason": "Cyclic method is the alternative to Staircase and often asked for 5 marks.",
+      "question": "Draw a fixture for 5 teams using the 'Cyclic Method' of League tournament. Explain the procedure.",
+      "options": null,
+      "correct_option": null,
+      "diagram_required": true,
+      "diagram_description": "Representation of Cyclic Method for 5 teams (Odd number). \nSince N is odd (5), a 'Bye' is fixed at the top right. Teams rotate clockwise.\nRound 1: 5-Bye, 4-1, 3-2.\nRound 2: 1-Bye, 5-2, 4-3.\n...\nShows 5 rounds total.",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "N=5 (Odd), so 'Bye' is fixed.",
+          "Number of Matches = 10.",
+          "Number of Rounds = 5.",
+          "Rotation clockwise."
+        ],
+        "final_answer": "**Procedure (Cyclic Method - Odd Teams):**\n1.  **Calculations:**\n    * Total Teams (N) = 5\n    * Total Matches = \\( \\frac{5(4)}{2} = 10 \\)\n    * Total Rounds = N = 5 (Since N is odd)\n2.  **Fixture:**\n    * A 'Bye' is kept fixed at the top right position.\n    * Teams rotate in a clockwise direction for each round.\n\n**Rounds:**\n* **Round 1:** 4-1, 3-2, 5-Bye\n* **Round 2:** 5-2, 4-3, 1-Bye\n* (Continue rotation for 5 rounds)\n\n"
+      },
+      "source_basis": "Reference Notes"
+    },
+    {
+      "id": "CH1_LA_04",
+      "type": "long",
+      "marks": 5,
+      "priority": "P2",
+      "priority_reason": "Consolidation tournament is a niche but valid topic for 5 marks.",
+      "question": "What is a 'Consolation Tournament'? Explain its types and significance.",
+      "options": null,
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Definition: For defeated teams.",
+          "Types: Type I and Type II.",
+          "Significance: More chances, utilization of resources."
+        ],
+        "final_answer": "**Definition:** A Consolation Tournament is organized for the teams that are defeated in the first round of a Knock-out tournament. It gives them a second chance to play.\n\n**Types:**\n1.  **Type I:** Only teams defeated in the very first round participate.\n2.  **Type II:** Teams defeated in all rounds (except the winner) participate in a separate bracket.\n\n**Significance:**\n* Allows good teams defeated by chance early on to prove their worth.\n* Provides more match practice to players.\n* Ensures maximum utilization of sports resources."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "CH1_LA_05",
+      "type": "long",
+      "marks": 5,
+      "priority": "P2",
+      "priority_reason": "Specific Sports Programmes are part of the syllabus and easy to score.",
+      "question": "Explain the concept of 'Specific Sports Programmes'. Describe 'Run for Unity' and 'Health Run' in detail.",
+      "options": null,
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Specific Sports Programmes: Non-competitive, social cause.",
+          "Run for Unity: National integration.",
+          "Health Run: Fitness awareness."
+        ],
+        "final_answer": "**Specific Sports Programmes:** These are sports events organized not for competition but for creating awareness about social issues, health, or unity. They are often one-day events.\n\n**1. Run for Unity:**\n* **Purpose:** To promote national solidarity, peace, and brotherhood among people of different religions and regions.\n* **Example:** Runs organized on National Unity Day (Rashtriya Ekta Diwas).\n\n**2. Health Run:**\n* **Purpose:** To improve health standards and create awareness about fitness in the community.\n* **Significance:** There is no age bar, and it encourages people to adopt an active lifestyle to prevent diseases."
+      },
+      "source_basis": "Reference Notes"
+    }
+  ]
+}

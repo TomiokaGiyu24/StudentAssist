@@ -1,0 +1,156 @@
+{
+    "chapter_name": "Sports & Nutrition",
+    "weightage_insight": {
+        "estimated_marks_range": "6–9 Marks",
+        "pyq_frequency_summary": "High frequency of 1-mark MCQs asking for Chemical Names of Vitamins (e.g., 'What is the chemical name of Vitamin C?') or deficiency diseases. 3 or 5-mark questions focus on 'Macro vs Micro Nutrients', 'Nutritive vs Non-Nutritive Components', or 'Pitfalls of Dieting'."
+    },
+    "ultimate_short_notes": [
+        {
+            "heading": "Balanced Diet",
+            "content": [
+                "**Definition**: A diet that contains all the essential nutrients (Carbohydrates, Fats, Proteins, Vitamins, Minerals) in the correct proportion (e.g., 4:1:1 for Carbs:Protein:Fat) for the efficient working of the body.",
+                "**Goal**: Provides energy, repairs tissues, and maintains body functions.",
+                "**Exam Relevance**: Start any 5-mark nutrition answer with this definition."
+            ]
+        },
+        {
+            "heading": "Macro Nutrients (Energy & Build)",
+            "content": [
+                "**Carbohydrates (CHO)**: Primary source of energy. 1g = 4 kcal. Types: Simple (Sugar/Glucose) & Complex (Starch/Glycogen).",
+                "**Proteins (CHON)**: Building blocks for muscle growth and repair. 1g = 4 kcal. Composed of Amino Acids.",
+                "**Fats (Lipids)**: Concentrated energy reserve and organ protection. 1g = 9 kcal. Necessary for absorption of Vitamins A, D, E, K.",
+                "**Water**: Regulates body temperature and transports nutrients. Essential macro."
+            ]
+        },
+        {
+            "heading": "Micro Nutrients (Defense & Regulation)",
+            "content": [
+                "**Vitamins**: Required in small quantities for immunity and metabolism. **DO NOT provide energy**.",
+                "**Fat Soluble**: A, D, E, K (Stored in liver/fat).",
+                "**Water Soluble**: B-Complex, C (Excreted in urine, need daily intake).",
+                "**Minerals**: Elements like Calcium (Bone/Teeth), Iron (Haemoglobin), Sodium/Potassium (Nerve impulses)."
+            ]
+        },
+        {
+            "heading": "Non-Nutritive Components",
+            "content": [
+                "Substances that **do not** provide calories/energy but are essential for body processes or sensory appeal.",
+                "**Fiber/Roughage**: Aids digestion, prevents constipation (e.g., Salad, Whole grains).",
+                "**Water**: Hydration.",
+                "**Colour/Flavour Compounds**: Make food appetizing.",
+                "**Plant Compounds**: Caffeine (Stimulant)."
+            ]
+        }
+    ],
+    "exam_playbook": [
+        {
+            "strategy_name": "The Vitamin Grid",
+            "pyq_pattern": "Identify the vitamin deficiency or chemical name.",
+            "how_students_lose_marks": "Writing common names instead of chemical names. Mixing up Fat/Water soluble categories.",
+            "winning_approach": "Memorize: **Vit A**=Retinol (Eyes), **Vit C**=Ascorbic Acid (Scurvy/Gums), **Vit D**=Calciferol (Bones), **Vit K**=Blood Clotting. Mnemonic: 'KEDA' is Fat (Fat-Soluble).",
+            "marks_secured": "1 to 2 Marks (MCQ)"
+        },
+        {
+            "strategy_name": "The Intolerance Trap",
+            "pyq_pattern": "Differentiate between Food Intolerance and Food Myths.",
+            "how_students_lose_marks": "Confusing Intolerance with Allergy. Allergy = Immune System reaction. Intolerance = Digestive System inability.",
+            "winning_approach": "Use the keyword: 'Enzymatic deficiency' for Intolerance (e.g., Lactose Intolerance - lack of lactase). Myths are false beliefs (e.g., 'Don't drink water while eating').",
+            "marks_secured": "3 Marks"
+        }
+    ],
+    "formula_bank": [
+        {
+            "concept": "Caloric Value",
+            "formula": "$$1g~\\text{Fat} = 9~\\text{kcal} > 1g~\\text{Carb/Protein} = 4~\\text{kcal}$$",
+            "used_in_questions": "Explaining why Fats are 'concentrated' energy sources."
+        },
+        {
+            "concept": "Ideal Ratio (General)",
+            "formula": "$$\\text{Carbs} : \\text{Protein} : \\text{Fat} \\approx 4 : 1 : 1$$",
+            "used_in_questions": "Describing a balanced diet composition."
+        },
+        {
+            "concept": "BMI (Weight Control)",
+            "formula": "$$\\text{BMI} = \\frac{\\text{Weight (kg)}}{\\text{Height (m)}^2}$$",
+            "used_in_questions": "Checking healthy weight (18.5 - 24.9)."
+        }
+    ],
+    "sure_shot_questions": [
+        {
+            "question": "Classify nutrients into Macro and Micro nutrients. Explain the role of any two Macro nutrients.",
+            "marks": 5,
+            "mandatory_keywords": [
+                "Carbohydrates",
+                "Proteins",
+                "Fats",
+                "Vitamins",
+                "Minerals",
+                "Energy Yielding",
+                "Body Building"
+            ],
+            "answer_structure": "1. Chart classifying Nutrients. 2. Heading: Carbohydrates (Role + Source). 3. Heading: Proteins (Role + Source).",
+            "model_answer_outline": [
+                "**Classification**: Macro (Large amount: Carbs, Fats, Protein, Water) vs Micro (Trace amount: Vitamins, Minerals).",
+                "**1. Carbohydrates**: The main fuel source. 1g yields 4kcal. Sources: Rice, Wheat, Potatoes.",
+                "**2. Proteins**: Essential for growth, tissue repair, and enzyme production. 1g yields 4kcal. Sources: Pulses, Eggs, Milk."
+            ]
+        },
+        {
+            "question": "What are the 'Pitfalls of Dieting'? Explain any three.",
+            "marks": 3,
+            "mandatory_keywords": [
+                "Starvation",
+                "Skipping Meals",
+                "Metabolism Slowdown",
+                "Micronutrient Deficiency"
+            ],
+            "answer_structure": "Definition (Temporary weight loss methods that harm health) -> 3 Points with explanation.",
+            "model_answer_outline": [
+                "**1. Extreme Starvation**: Reduces metabolic rate; body starts storing fat later.",
+                "**2. Skipping Meals**: Leads to overeating in the next meal and blood sugar fluctuations.",
+                "**3. Reducing Specific Nutrients**: Cutting out fats/carbs entirely leads to deficiency diseases and lethargy."
+            ]
+        },
+        {
+            "question": "Explain the significance of Non-Nutritive components of diet.",
+            "marks": 3,
+            "mandatory_keywords": [
+                "Roughage",
+                "Peristalsis",
+                "Constipation",
+                "Hydration"
+            ],
+            "answer_structure": "Intro: They provide no energy but are vital. -> Explaining Fiber and Water.",
+            "model_answer_outline": [
+                "**Fiber (Roughage)**: Adds bulk to food, aids in peristalsis (muscle movement of gut), and prevents constipation. Examples: Fruits, Salad.",
+                "**Water**: Essential for chemical reactions, temperature regulation, and waste elimination."
+            ]
+        }
+    ],
+    "diagram_descriptors": [
+        {
+            "diagram_name": "Food Pyramid",
+            "used_for": "Balanced Diet explanation",
+            "image_path": "/images/PhysicalEducation/food pyramid.png",
+            "detailed_description": "A triangle divided into layers. Base (Largest): Cereals/Bread (Carbs). Level 2: Fruits & Vegetables (Vitamins/Minerals/Fiber). Level 3: Milk, Meat, Pulses (Proteins). Top (Smallest): Oil, Sugar, Sweets (Fats/Sugar)."
+        },
+        {
+            "diagram_name": "Nutrients Flowchart",
+            "used_for": "Macro vs Micro question",
+            "image_path": "/images/PhysicalEducation/nutirents flowchart.png",
+            "detailed_description": "A flowchart starting with 'Nutrients'. Branches into Macro (Carbs, Fats, Proteins, Water) and Micro (Vitamins, Minerals). Vitamins further branch into 'Fat Soluble (ADEK)' and 'Water Soluble (B, C)'."
+        }
+    ],
+    "examiner_traps": [
+        {
+            "common_mistake": "Writing that Vitamins/Minerals provide energy.",
+            "why_marks_are_cut": "Scientific inaccuracy. Only Macros (Carbs, Fats, Proteins) provide caloric energy. Micros regulate processes.",
+            "correct_examiner_expectation": "Vitamins protect the body; they do NOT provide calories."
+        },
+        {
+            "common_mistake": "Confusing 'Food Intolerance' with 'Food Myths'.",
+            "why_marks_are_cut": "Students often write myths (like 'potatoes make you fat') under intolerance. Intolerance is a biological inability to digest (e.g., Lactose).",
+            "correct_examiner_expectation": "Intolerance = Biological/Digestive issue. Myth = False social belief."
+        }
+    ]
+}

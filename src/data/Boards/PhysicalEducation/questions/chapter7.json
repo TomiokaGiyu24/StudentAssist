@@ -1,0 +1,461 @@
+{
+"meta": {
+"subject": "Physical Education",
+"class": 12,
+"board": "CBSE",
+"chapter": "Physiology & Injuries in Sports",
+"total_questions": 20
+},
+"questions": [
+{
+"id": "Q1",
+"type": "mcq",
+"marks": 1,
+"priority": "P1",
+"priority_reason": "Fundamental definition frequently asked in objective sections.",
+"question": "Which of the following terms refers to the amount of blood pumped out by the heart in one beat?",
+"options": {
+"A": "Cardiac Output",
+"B": "Stroke Volume",
+"C": "Vital Capacity",
+"D": "Tidal Volume"
+},
+"correct_option": "B",
+"diagram_required": false,
+"diagram_description": "",
+"answer": {
+"explanation": "Stroke Volume is defined as the volume of blood pumped by the heart (specifically the left ventricle) in a single contraction (beat).",
+"key_points": [],
+"final_answer": "Option B"
+},
+"source_basis": "NCERT"
+},
+{
+"id": "Q2",
+"type": "mcq",
+"marks": 1,
+"priority": "P1",
+"priority_reason": "Differentiation between Sprain and Strain is a classic board question.",
+"question": "A ligament injury characterised by tearing or overstretching is known as:",
+"options": {
+"A": "Strain",
+"B": "Contusion",
+"C": "Sprain",
+"D": "Abrasion"
+},
+"correct_option": "C",
+"diagram_required": false,
+"diagram_description": "",
+"answer": {
+"explanation": "A Sprain is an injury to a ligament (tissue connecting bone to bone), whereas a Strain is an injury to a muscle or tendon.",
+"key_points": [],
+"final_answer": "Option C"
+},
+"source_basis": "NCERT"
+},
+{
+"id": "Q3",
+"type": "mcq",
+"marks": 1,
+"priority": "P2",
+"priority_reason": "Specific fracture types, especially those affecting children, are common MCQ topics.",
+"question": "Which type of fracture is most common in young children where the bone bends and cracks instead of breaking completely?",
+"options": {
+"A": "Comminuted Fracture",
+"B": "Greenstick Fracture",
+"C": "Transverse Fracture",
+"D": "Impacted Fracture"
+},
+"correct_option": "B",
+"diagram_required": false,
+"diagram_description": "",
+"answer": {
+"explanation": "Greenstick fractures occur in soft bones, typically in children, where the bone bends and breaks only on one side, similar to a fresh green stick.",
+"key_points": [],
+"final_answer": "Option B"
+},
+"source_basis": "ALLEN"
+},
+{
+"id": "Q4",
+"type": "assertion_reason",
+"marks": 1,
+"priority": "P1",
+"priority_reason": "Tests conceptual understanding of physiological adaptations to training.",
+"question": "Assertion (A): Regular exercise leads to a decrease in resting heart rate.\nReason (R): Regular exercise causes hypertrophy of the heart muscle, increasing stroke volume and efficiency.",
+"options": {
+"A": "Both A and R are true and R is the correct explanation of A.",
+"B": "Both A and R are true but R is NOT the correct explanation of A.",
+"C": "A is true but R is false.",
+"D": "A is false but R is true."
+},
+"correct_option": "A",
+"diagram_required": false,
+"diagram_description": "",
+"answer": {
+"explanation": "Regular exercise strengthens the heart (Cardiac Hypertrophy), allowing it to pump more blood per beat (Stroke Volume). Consequently, the heart needs to beat fewer times per minute to supply the body at rest.",
+"key_points": [],
+"final_answer": "Option A"
+},
+"source_basis": "NCERT"
+},
+{
+"id": "Q5",
+"type": "assertion_reason",
+"marks": 1,
+"priority": "P2",
+"priority_reason": "Clarifies the physiological basis of speed.",
+"question": "Assertion (A): Fast Twitch fibers (White Fibers) are essential for endurance activities.\nReason (R): Fast Twitch fibers contract quickly and produce great force but fatigue rapidly.",
+"options": {
+"A": "Both A and R are true and R is the correct explanation of A.",
+"B": "Both A and R are true but R is NOT the correct explanation of A.",
+"C": "A is true but R is false.",
+"D": "A is false but R is true."
+},
+"correct_option": "D",
+"diagram_required": false,
+"diagram_description": "",
+"answer": {
+"explanation": "Fast Twitch fibers are anaerobic and suited for speed/power (sprints), not endurance. Slow Twitch (Red) fibers are for endurance. Reason R correctly describes the properties of Fast Twitch fibers.",
+"key_points": [],
+"final_answer": "Option D"
+},
+"source_basis": "NCERT"
+},
+{
+"id": "Q6",
+"type": "very_short",
+"marks": 2,
+"priority": "P1",
+"priority_reason": "Standard definition question asked repeatedly.",
+"question": "Define 'Vital Capacity'.",
+"options": {},
+"correct_option": null,
+"diagram_required": false,
+"diagram_description": "",
+"answer": {
+"explanation": "",
+"key_points": [
+"It is the maximum volume of air that can be exhaled after a maximum inhalation.",
+"Formula: $VC = Tidal Volume + Inspiratory Reserve Volume + Expiratory Reserve Volume$."
+],
+"final_answer": "Vital Capacity is the maximum amount of air a person can expel from the lungs after a maximum inhalation. It represents the functional capacity of the lungs."
+},
+"source_basis": "NCERT"
+},
+{
+"id": "Q7",
+"type": "very_short",
+"marks": 2,
+"priority": "P2",
+"priority_reason": "Distinguishes between similar sounding injury terms.",
+"question": "Differentiate between 'Abrasion' and 'Laceration'.",
+"options": {},
+"correct_option": null,
+"diagram_required": false,
+"diagram_description": "",
+"answer": {
+"explanation": "",
+"key_points": [
+"**Abrasion**: Superficial injury caused by friction/scraping of skin (e.g., sliding on a court).",
+"**Laceration**: Irregular jagged cut or tear in the skin caused by a sharp object or impact."
+],
+"final_answer": "1. **Abrasion**: An injury caused by friction or scraping of the outer layer of skin (epidermis), usually causing a burning sensation.\n2. **Laceration**: A jagged or irregular tear/cut in the skin caused by sharp objects or severe impact."
+},
+"source_basis": "ALLEN"
+},
+{
+"id": "Q8",
+"type": "very_short",
+"marks": 2,
+"priority": "P3",
+"priority_reason": "Basic first aid knowledge.",
+"question": "State the full form of P.R.I.C.E. in the context of sports injury management.",
+"options": {},
+"correct_option": null,
+"diagram_required": false,
+"diagram_description": "",
+"answer": {
+"explanation": "",
+"key_points": [
+"**P**rotection",
+"**R**est",
+"**I**ce",
+"**C**ompression",
+"**E**levation"
+],
+"final_answer": "**P** - Protection\n**R** - Rest\n**I** - Ice\n**C** - Compression\n**E** - Elevation"
+},
+"source_basis": "NCERT"
+},
+{
+"id": "Q9",
+"type": "short",
+"marks": 3,
+"priority": "P1",
+"priority_reason": "High probability topic connecting physiology to performance.",
+"question": "Explain any three physiological factors determining 'Speed'.",
+"options": {},
+"correct_option": null,
+"diagram_required": false,
+"diagram_description": "",
+"answer": {
+"explanation": "",
+"key_points": [
+"**Muscle Fibre Type**: Higher % of Fast Twitch (White) fibres increases speed.",
+"**Explosive Strength**: Ability to overcome resistance with high speed.",
+"**Mobility of Nervous System**: Rapid excitation and inhibition of motor centres."
+],
+"final_answer": "Three physiological factors determining speed are:\n1. **Muscle Fibre Type**: Individuals with a higher percentage of Fast Twitch (White) fibres produce faster contractions, leading to greater speed.\n2. **Explosive Strength**: Speed depends on the ability of muscles to generate maximum force in minimum time (Power).\n3. **Mobility of the Nervous System**: The central nervous system's ability to transmit impulses rapidly for contraction and relaxation of muscles directly affects contraction speed."
+},
+"source_basis": "NCERT"
+},
+{
+"id": "Q10",
+"type": "short",
+"marks": 3,
+"priority": "P1",
+"priority_reason": "Core syllabus topic regarding long-term effects of training.",
+"question": "Discuss the effects of regular exercise on the Muscular System.",
+"options": {},
+"correct_option": null,
+"diagram_required": false,
+"diagram_description": "",
+"answer": {
+"explanation": "",
+"key_points": [
+"**Hypertrophy**: Enlargement of muscle size.",
+"**Increase in Connective Tissue**: Tendons and ligaments become stronger.",
+"**Delayed Fatigue**: Better blood supply and lactate tolerance."
+],
+"final_answer": "Regular exercise produces the following effects on the muscular system:\n1. **Muscle Hypertrophy**: Consistent training leads to an increase in the size and cross-sectional area of muscle fibres, increasing overall strength.\n2. **Delay in Fatigue**: Exercise improves capillary density and mitochondrial efficiency, allowing muscles to work for longer periods without getting tired.\n3. **Improved Muscle Tone**: Muscles remain in a semi-contracted state (tone) even at rest, improving posture and reaction time."
+},
+"source_basis": "NCERT"
+},
+{
+"id": "Q11",
+"type": "short",
+"marks": 3,
+"priority": "P2",
+"priority_reason": "Specific injury classification is frequently asked.",
+"question": "Classify 'Joint Injuries' and briefly explain any two types of dislocation.",
+"options": {},
+"correct_option": null,
+"diagram_required": false,
+"diagram_description": "",
+"answer": {
+"explanation": "",
+"key_points": [
+"Dislocation is the displacement of bone ends from their joint cavity.",
+"Types: Lower Jaw, Shoulder, Hip, Wrist."
+],
+"final_answer": "**Joint Injuries** primarily refer to **Dislocations**, where the bones are displaced from their normal position in a joint.\n\nTwo types of dislocations are:\n1. **Dislocation of Shoulder**: The humerus ball pops out of the glenoid cavity. It is common in contact sports like football or judo.\n2. **Dislocation of Lower Jaw**: Occurs when the chin strikes a hard surface, causing the mandible to displace from the temporomandibular joint."
+},
+"source_basis": "NCERT"
+},
+{
+"id": "Q12",
+"type": "short",
+"marks": 3,
+"priority": "P2",
+"priority_reason": "Understanding ageing physiology is a syllabus component.",
+"question": "Describe the physiological changes in the Respiratory System due to ageing.",
+"options": {},
+"correct_option": null,
+"diagram_required": false,
+"diagram_description": "",
+"answer": {
+"explanation": "",
+"key_points": [
+"Decreased elasticity of lungs.",
+"Weakening of respiratory muscles.",
+"Reduced Vital Capacity."
+],
+"final_answer": "Physiological changes in the respiratory system due to ageing include:\n1. **Loss of Elasticity**: The lung tissue loses elasticity, making it harder to expand and contract fully.\n2. **Decreased Vital Capacity**: The maximum amount of air a person can exhale decreases due to chest wall stiffness.\n3. **Weak Respiratory Muscles**: The diaphragm and intercostal muscles become weaker, reducing the efficiency of breathing and oxygen uptake."
+},
+"source_basis": "NCERT"
+},
+{
+"id": "Q13",
+"type": "long",
+"marks": 5,
+"priority": "P1",
+"priority_reason": "Very common 5-marker. Covers a major system.",
+"question": "Elucidate the long-term effects of regular exercise on the Cardio-Respiratory System.",
+"options": {},
+"correct_option": null,
+"diagram_required": false,
+"diagram_description": "",
+"answer": {
+"explanation": "",
+"key_points": [
+"**Cardiac Hypertrophy**: Heart size increases.",
+"**Increased Stroke Volume**: More blood per beat.",
+"**Decreased Resting Heart Rate**: Bradycardia.",
+"**Increased Tidal Volume**: Deeper breathing.",
+"**Faster Recovery Rate**: Heart rate returns to normal quickly."
+],
+"final_answer": "Regular exercise brings significant long-term adaptations to the Cardio-Respiratory system:\n\n1. **Cardiac Hypertrophy**: The heart muscle (myocardium) thickens and enlarges, specifically the left ventricle, allowing it to pump blood more powerfully.\n2. **Increased Stroke Volume**: The amount of blood ejected per beat increases significantly at rest and during exercise, improving blood flow.\n3. **Decreased Resting Heart Rate**: Due to increased efficiency (stroke volume), the heart beats fewer times per minute to maintain cardiac output. This is a sign of a fit heart.\n4. **Increased Tidal Volume**: The amount of air inhaled and exhaled per breath increases, reducing the breathing frequency required for the same oxygen intake.\n5. **Faster Recovery Rate**: A trained athlete's heart rate and respiration rate return to normal levels much faster after strenuous activity compared to an untrained individual."
+},
+"source_basis": "NCERT"
+},
+{
+"id": "Q14",
+"type": "long",
+"marks": 5,
+"priority": "P1",
+"priority_reason": "Fractures are the most important part of the 'Injuries' section.",
+"question": "Classify 'Bone Injuries'. Explain the different types of fractures with the help of descriptions.",
+"options": {},
+"correct_option": null,
+"diagram_required": true,
+"diagram_description": "Five types of fractures: 1. Greenstick (bent bone), 2. Comminuted (bone shattered in pieces), 3. Transverse (break at right angle), 4. Oblique (diagonal break), 5. Impacted (one bone end driven into another).",
+"answer": {
+"explanation": "",
+"key_points": [
+"Bone injuries are called Fractures.",
+"**Greenstick**: Bend/crack (children).",
+"**Comminuted**: 3+ pieces.",
+"**Transverse**: 90-degree break.",
+"**Oblique**: Slanted break.",
+"**Impacted**: Bones drive into each other."
+],
+"final_answer": "Bone injuries are termed as **Fractures**. They are classified as follows:\n\n1. **Greenstick Fracture**: Common in children. The bone bends and cracks but does not break completely, similar to a green twig.\n2. **Comminuted Fracture**: The bone is shattered into three or more pieces. This usually results from high-impact trauma.\n3. **Transverse Fracture**: The fracture line acts perpendicular (at a right angle) to the long axis of the bone.\n4. **Oblique Fracture**: The bone breaks diagonally. The fracture line is angled relative to the bone.\n5. **Impacted Fracture**: One end of the broken bone is driven forcibly into the other end."
+},
+"source_basis": "NCERT"
+},
+{
+"id": "Q15",
+"type": "long",
+"marks": 5,
+"priority": "P2",
+"priority_reason": "Soft tissue injuries are frequent exam topics. Management (RICE) is essential.",
+"question": "What are 'Soft Tissue Injuries'? Classify them and detail the immediate management using the P.R.I.C.E. procedure.",
+"options": {},
+"correct_option": null,
+"diagram_required": false,
+"diagram_description": "",
+"answer": {
+"explanation": "",
+"key_points": [
+"**Soft Tissue Injuries**: Damage to muscles, tendons, ligaments, skin.",
+"**Types**: Contusion, Strain, Sprain, Abrasion, Laceration.",
+"**PRICE**: Protection, Rest, Ice, Compression, Elevation."
+],
+"final_answer": "**Soft Tissue Injuries** involve damage to muscles, ligaments, tendons, and skin. They are classified as:\n1. **Contusion**: Bruise caused by direct impact.\n2. **Strain**: Muscle or tendon tear.\n3. **Sprain**: Ligament tear.\n4. **Abrasion**: Skin scraping.\n5. **Laceration**: Cut/tear in skin.\n\n**Management (P.R.I.C.E. Procedure):**\n* **Protection**: Protect the injured area from further harm (use support/splint).\n* **Rest**: Stop activity immediately to prevent worsening the injury.\n* **Ice**: Apply ice packs for 10-15 minutes to reduce internal bleeding and swelling (Cryotherapy).\n* **Compression**: Apply a crepe bandage to limit swelling.\n* **Elevation**: Keep the injured limb raised above heart level to reduce blood accumulation/swelling."
+},
+"source_basis": "NCERT"
+},
+{
+"id": "Q16",
+"type": "short",
+"marks": 3,
+"priority": "P1",
+"priority_reason": "A key physiological concept often tested in 3 marks.",
+"question": "Analyze the physiological factors determining 'Strength'.",
+"options": {},
+"correct_option": null,
+"diagram_required": false,
+"diagram_description": "",
+"answer": {
+"explanation": "",
+"key_points": [
+"**Muscle Cross-sectional Area**: Bigger muscles = more strength.",
+"**Muscle Fibre Type**: White fibres = explosive strength.",
+"**Body Weight**: Positive correlation with strength."
+],
+"final_answer": "Physiological factors determining strength include:\n1. **Size of the Muscle**: There is a direct relationship between muscle size (cross-sectional area) and force. Larger muscles can generate more force (Hypertrophy).\n2. **Muscle Composition**: Muscles with a higher percentage of Fast Twitch (White) fibres can generate more explosive strength compared to Slow Twitch fibres.\n3. **Body Weight**: Generally, individuals with higher body weight possess greater absolute strength due to larger muscle mass."
+},
+"source_basis": "NCERT"
+},
+{
+"id": "Q17",
+"type": "mcq",
+"marks": 1,
+"priority": "P2",
+"priority_reason": "Understanding the immediate chemical energy source.",
+"question": "Which system provides energy for the shortest duration and highest intensity activities (e.g., 100m sprint)?",
+"options": {
+"A": "Aerobic System",
+"B": "ATP-CP System",
+"C": "Lactic Acid System",
+"D": "Glycolytic System"
+},
+"correct_option": "B",
+"diagram_required": false,
+"diagram_description": "",
+"answer": {
+"explanation": "The ATP-CP (Adenosine Triphosphate - Creatine Phosphate) system provides immediate energy for high-intensity bursts lasting up to 10 seconds.",
+"key_points": [],
+"final_answer": "Option B"
+},
+"source_basis": "ALLEN"
+},
+{
+"id": "Q18",
+"type": "very_short",
+"marks": 2,
+"priority": "P3",
+"priority_reason": "Differentiates between two similar lung volume concepts.",
+"question": "Differentiate between 'Tidal Volume' and 'Residual Volume'.",
+"options": {},
+"correct_option": null,
+"diagram_required": false,
+"diagram_description": "",
+"answer": {
+"explanation": "",
+"key_points": [
+"**Tidal Volume**: Air inhaled/exhaled during normal breathing.",
+"**Residual Volume**: Air remaining in lungs after forceful exhalation."
+],
+"final_answer": "1. **Tidal Volume**: The volume of air inhaled or exhaled during a normal, relaxed breath.\n2. **Residual Volume**: The volume of air that remains in the lungs even after a forceful and complete exhalation (prevents lung collapse)."
+},
+"source_basis": "NCERT"
+},
+{
+"id": "Q19",
+"type": "assertion_reason",
+"marks": 1,
+"priority": "P2",
+"priority_reason": "Links age to physiological decline.",
+"question": "Assertion (A): Flexibility decreases with advancing age.\nReason (R): As we age, muscles lose elasticity and tendons become stiffer.",
+"options": {
+"A": "Both A and R are true and R is the correct explanation of A.",
+"B": "Both A and R are true but R is NOT the correct explanation of A.",
+"C": "A is true but R is false.",
+"D": "A is false but R is true."
+},
+"correct_option": "A",
+"diagram_required": false,
+"diagram_description": "",
+"answer": {
+"explanation": "Ageing causes degenerative changes in connective tissues (collagen), leading to reduced elasticity in muscles and stiffness in tendons, directly reducing range of motion.",
+"key_points": [],
+"final_answer": "Option A"
+},
+"source_basis": "NCERT"
+},
+{
+"id": "Q20",
+"type": "short",
+"marks": 3,
+"priority": "P2",
+"priority_reason": "Flexibility physiology is a standard question.",
+"question": "Explain the physiological factors determining 'Flexibility'.",
+"options": {},
+"correct_option": null,
+"diagram_required": false,
+"diagram_description": "",
+"answer": {
+"explanation": "",
+"key_points": [
+"**Muscle Strength**: To move against resistance.",
+"**Joint Structure**: Ball & socket vs Hinge.",
+"**Stretchability of Muscles**: Elasticity allows range of motion."
+],
+"final_answer": "Physiological factors determining flexibility include:\n1. **Joint Structure**: The anatomical design of a joint (e.g., ball and socket vs. hinge joint) sets the limit for the range of motion.\n2. **Stretchability of Muscles**: The ability of muscles and ligaments to stretch (elasticity) determines how far a joint can move without injury.\n3. **Muscle Strength**: A minimum level of strength is required to move a limb against gravity or external resistance through its full range of motion."
+},
+"source_basis": "NCERT"
+}
+]
+}

@@ -1,0 +1,3574 @@
+[
+  {
+    "meta": {
+      "subject": "Physics",
+      "chapter_number": 1,
+      "chapter_name": "Electric Charges and Fields",
+      "topic": "Electric Charges",
+      "frequency": "LOW",
+      "class": 12,
+      "board": "CBSE"
+    },
+    "notes": [
+      {
+        "type": "concept",
+        "title": "Basic Properties of Electric Charge",
+        "tier": "1",
+        "points": [
+          "Additivity of charge: The total charge of a system is the algebraic sum of all individual charges located at different points inside the system, taking proper positive and negative signs into account.",
+          "Conservation of charge: The total charge of an isolated system remains constant; charges can neither be created nor destroyed, only transferred from one body to another.",
+          "Charges can be created or destroyed only in equal and opposite pairs (e.g., annihilation or pair production).",
+          "Quantisation of charge: All observable free charges are integral multiples of a basic unit of charge denoted by e.",
+          "Macroscopic charges are phenomenally large compared to the elementary charge, so the granular (quantised) nature of charge is ignored and charge is treated as a continuous distribution."
+        ],
+        "why_it_matters": "Asked as 1-mark or 2-mark theory questions or simple numericals in Section A and B."
+      },
+      {
+        "type": "exam_intel",
+        "concept_ref": "Basic Properties of Electric Charge",
+        "frequency": "LOW",
+        "marks_breakdown": [
+          "1 mark (MCQ)",
+          "2 marks (Very Short Answer)"
+        ],
+        "question_forms": [
+          "State two basic properties of electric charge. (2 marks)",
+          "Why can one ignore quantisation of electric charge when dealing with macroscopic amounts of charge? (1 mark)"
+        ],
+        "board_traps": [
+          "Defining conservation without mentioning 'isolated system'. The total charge of a non-isolated system can change.",
+          "Stating quantisation as 'charge is a multiple of e' without specifying 'integral multiple'. Using fractions loses marks."
+        ],
+        "common_mistakes": [
+          "Failing to use algebraic signs (adding absolute values instead) when calculating the net additive charge of a system."
+        ],
+        "answer_structure": "For property definitions, write the exact NCERT statement. For macroscopic quantisation, explicitly state that q is extremely large compared to e, rendering the discrete steps unnoticeable.",
+        "examiner_expectation": "Examiners look for the keywords 'algebraic sum', 'isolated system', and 'integral multiple'."
+      },
+      {
+        "type": "formula",
+        "label": "Quantisation of Charge",
+        "latex": "q = ne",
+        "variables": [
+          {
+            "symbol": "q",
+            "name": "Total charge on the body",
+            "unit": "C",
+            "note": "Includes algebraic sign indicating excess (negative) or deficit (positive) of electrons."
+          },
+          {
+            "symbol": "n",
+            "name": "Number of electrons transferred",
+            "unit": "dimensionless",
+            "note": "Must be an integer: 0, \\pm 1, \\pm 2. Common error: accepting non-integer values."
+          },
+          {
+            "symbol": "e",
+            "name": "Elementary charge",
+            "unit": "C",
+            "note": "Magnitude of charge on an electron. Value: $1.6 \\times 10^{-19}\\,\\text{C}$."
+          }
+        ],
+        "conditions": [
+          "Valid for all observable free charges."
+        ],
+        "si_unit_of_result": "C",
+        "physical_meaning": "Electric charge exists in discrete packets rather than continuous amounts.",
+        "common_error": "Using mass of electron instead of charge of electron when calculating n."
+      },
+      {
+        "type": "worked_example",
+        "concept_ref": "Basic Properties of Electric Charge",
+        "purpose": "Verify if a specific amount of charge can exist on a macroscopic body.",
+        "situation": "Can a body have a charge of $0.32 \\times 10^{-18}\\,\\text{C}$?",
+        "given": [
+          "q = $0.32 \\times 10^{-18}\\,\\text{C}$",
+          "e = $1.6 \\times 10^{-19}\\,\\text{C}$"
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "action": "Apply quantisation principle to find the number of elementary charges.",
+            "latex": "n = \\frac{q}{e}",
+            "why": "If n evaluates to an integer, the charge is physically possible; if a fraction, it is impossible."
+          },
+          {
+            "step_number": 2,
+            "action": "Substitute values and simplify.",
+            "latex": "n = \\frac{0.32 \\times 10^{-18}}{1.6 \\times 10^{-19}} = 2",
+            "why": "Extracting the ratio normalises the macroscopic charge to the fundamental atomic scale."
+          }
+        ],
+        "final_answer": {
+          "latex": "n = 2",
+          "unit": "dimensionless",
+          "direction": ""
+        },
+        "trap": "Miscalculating the powers of 10 and concluding n is a fraction (e.g., 0.2) when it is actually an integer."
+      },
+      {
+        "type": "rapid_recall",
+        "concept_ref": "Basic Properties of Electric Charge",
+        "one_liner": "Charge is scalar, additive with sign, strictly conserved in isolated systems, and quantised as integral multiples of e.",
+        "memory_hook": "ACQ: Additive, Conserved, Quantised.",
+        "never_forget": [
+          "Protons and electrons have equal but opposite charge magnitude e = $1.6 \\times 10^{-19}\\,\\text{C}$.",
+          "When a body is negatively charged, its mass slightly increases because electrons carry physical mass."
+        ]
+      }
+    ],
+    "formula_sheet": [
+      {
+        "latex": "q = ne",
+        "label": "Quantisation of Charge",
+        "description": "Calculates the total free charge on a body based on the integer number of elementary charges.",
+        "variables": [
+          {
+            "symbol": "q",
+            "name": "Total charge on the body",
+            "unit": "C",
+            "note": "Can be positive or negative."
+          },
+          {
+            "symbol": "n",
+            "name": "Integer multiple",
+            "unit": "dimensionless",
+            "note": "Number of electrons gained or lost."
+          },
+          {
+            "symbol": "e",
+            "name": "Elementary charge",
+            "unit": "C",
+            "note": "$1.6 \\times 10^{-19}\\,\\text{C}$"
+          }
+        ],
+        "si_unit_of_result": "C",
+        "use_case": "Direct Use",
+        "board_frequency": "LOW",
+        "common_error": "Failing to convert initial charge from \\mu\\text{C} or \\text{mC} to Coulombs before dividing by e."
+      }
+    ],
+    "ncert_golden_lines": [
+      "The quantisation of charge means that free charges are always integral multiples of e.",
+      "Within an isolated system consisting of many charged bodies, due to interactions among the bodies, charges may get redistributed but it is found that the total charge of the isolated system is always conserved.",
+      "If a system contains n charges, then the total charge of the system is the algebraic sum of individual charges."
+    ]
+  },
+  {
+    "meta": {
+      "subject": "Physics",
+      "chapter_number": 1,
+      "chapter_name": "Electric Charges and Fields",
+      "topic": "Conductors and Insulators",
+      "frequency": "LOW",
+      "class": 12,
+      "board": "CBSE"
+    },
+    "notes": [
+      {
+        "type": "concept",
+        "title": "Conductors and Insulators",
+        "tier": "1",
+        "points": [
+          "Conductors are substances that readily allow the passage of electricity through them because they possess electric charges (electrons) that are comparatively free to move inside the material.",
+          "Metals, human and animal bodies, and the earth are examples of conductors.",
+          "Insulators are substances that offer high resistance to the passage of electricity through them, as their electrons are tightly bound to atoms.",
+          "Glass, porcelain, plastic, nylon, and wood are examples of insulators.",
+          "When some charge is transferred to a conductor, it readily gets distributed over the entire surface of the conductor.",
+          "In contrast, if some charge is put on an insulator, it stays localized at the same place.",
+          "Semiconductors form a third category offering resistance to the movement of charges that is intermediate between conductors and insulators.",
+          "If a metal rod with a wooden or plastic handle is rubbed without touching its metal part, it gets charged, but if held directly by hand, the charges leak through our body to the ground because both are conductors."
+        ],
+        "why_it_matters": "Asked as 1-mark or 2-mark conceptual 'give reason' questions testing the understanding of charge distribution and grounding."
+      },
+      {
+        "type": "exam_intel",
+        "concept_ref": "Conductors and Insulators",
+        "frequency": "LOW",
+        "marks_breakdown": [
+          "1 mark (Assertion-Reason / MCQ)",
+          "2 marks (Very Short Answer)"
+        ],
+        "question_forms": [
+          "Why does a nylon or plastic comb get electrified on combing dry hair, but a metal spoon does not? (2 marks)",
+          "Distinguish between a conductor and an insulator based on how charge is distributed on them. (1 mark)"
+        ],
+        "board_traps": [
+          "Stating that insulators 'do not have electrons'—they have electrons, but they are tightly bound and not free to move.",
+          "Forgetting to mention that the human body is a conductor when explaining why handheld metals don't retain charge."
+        ],
+        "common_mistakes": [
+          "Confusing the surface distribution of conductors with volume distribution. Net static charge on a conductor always resides on its outer surface."
+        ],
+        "answer_structure": "For reasoning questions about metal objects not charging, state three steps: 1) Metal is a conductor, 2) Human body is a conductor, 3) Charge leaks to the earth. For distribution questions, explicitly contrast 'distributes over entire surface' with 'stays at the same place'.",
+        "examiner_expectation": "Examiners look for the keywords 'free to move' and 'distributed over the entire surface' for conductors, and 'stays at the same place' for insulators."
+      },
+      {
+        "type": "rapid_recall",
+        "concept_ref": "Conductors and Insulators",
+        "one_liner": "Conductors allow free movement and distribute excess charge over their entire surface, whereas insulators restrict charge movement, keeping it exactly where it was placed.",
+        "memory_hook": "Conductors = Couriers (spread charge everywhere); Insulators = Isolators (keep charge trapped).",
+        "never_forget": [
+          "The human body and the Earth are both conductors.",
+          "Excess charge on an insulator does not spread out.",
+          "Excess charge on a solid or hollow conductor resides entirely on its outer surface."
+        ]
+      }
+    ],
+    "formula_sheet": [],
+    "ncert_golden_lines": [
+      "Those which allow electricity to pass through them easily are called conductors.",
+      "Most of the non-metals like glass, porcelain, plastic, nylon, wood offer high resistance to the passage of electricity through them. They are called insulators.",
+      "When some charge is transferred to a conductor, it readily gets distributed over the entire surface of the conductor.",
+      "In contrast, if some charge is put on an insulator, it stays at the same place."
+    ]
+  },
+  {
+    "meta": {
+      "subject": "Physics",
+      "chapter_number": 1,
+      "chapter_name": "Electric Charges and Fields",
+      "topic": "Basic Properties of Electric Charge",
+      "frequency": "LOW",
+      "class": 12,
+      "board": "CBSE"
+    },
+    "notes": [
+      {
+        "type": "concept",
+        "title": "Basic Properties of Electric Charge",
+        "tier": "1",
+        "points": [
+          "Additivity of charge: If a system contains n charges $q_{1}, q_{2}, ..., q_{n}$, then the total charge of the system is the algebraic sum $q_{1} + q_{2} + ... + q_{n}$.",
+          "Charge has magnitude but no direction, so proper positive and negative signs must be used while adding the charges in a system.",
+          "Conservation of charge: Within an isolated system consisting of many charged bodies, due to interactions among the bodies, charges may get redistributed but the total charge of the isolated system is always conserved.",
+          "It is not possible to create or destroy net charge carried by any isolated system, although charge-carrying particles may be created or destroyed in equal and opposite pairs.",
+          "Quantisation of charge: Experimentally it is established that all observable free charges are always integral multiples of a basic unit of charge denoted by e.",
+          "At the macroscopic level, one deals with charges that are enormous compared to the magnitude of elementary charge e, making the grainy nature of charge invisible.",
+          "Therefore, at the macroscopic level, the quantisation of charge has no practical consequence and can be ignored, treating charge as a continuous distribution."
+        ],
+        "why_it_matters": "Asked as 1-mark reasoning questions or 2-mark definitions in Section A and B of the board exam."
+      },
+      {
+        "type": "exam_intel",
+        "concept_ref": "Basic Properties of Electric Charge",
+        "frequency": "LOW",
+        "marks_breakdown": [
+          "1 mark (MCQ / Assertion-Reason)",
+          "2 marks (Very Short Answer)"
+        ],
+        "question_forms": [
+          "State two basic properties of electric charge. (2 marks)",
+          "Why can one ignore quantisation of electric charge when dealing with macroscopic amounts of charge? (1 mark)"
+        ],
+        "board_traps": [
+          "Defining conservation of charge without specifying 'isolated system' — the total charge of a non-isolated system is not conserved.",
+          "Defining quantisation merely as 'a multiple of e' — omitting the word 'integral' loses the mark."
+        ],
+        "common_mistakes": [
+          "Adding the magnitudes of charges to find the total charge of a system while ignoring their negative signs."
+        ],
+        "answer_structure": "For definitions, state the property using exact NCERT keywords. For the macroscopic question, clearly state that macroscopic charges are enormous compared to the elementary charge e, making the discrete steps unnoticeable.",
+        "examiner_expectation": "Examiners specifically check for the keywords 'algebraic sum', 'isolated system', and 'integral multiple'."
+      },
+      {
+        "type": "formula",
+        "label": "Quantisation of Charge",
+        "latex": "q = ne",
+        "variables": [
+          {
+            "symbol": "q",
+            "name": "Total charge on the body",
+            "unit": "C",
+            "note": "Includes algebraic sign indicating excess (negative) or deficit (positive) of electrons."
+          },
+          {
+            "symbol": "n",
+            "name": "Number of elementary charges",
+            "unit": "dimensionless",
+            "note": "Must be an integer: 0, \\pm 1, \\pm 2. Common error: accepting fractional values."
+          },
+          {
+            "symbol": "e",
+            "name": "Elementary charge",
+            "unit": "C",
+            "note": "Magnitude of charge on an electron. Value: $1.6 \\times 10^{-19}\\,\\text{C}$."
+          }
+        ],
+        "conditions": [
+          "Valid for all observable free charges"
+        ],
+        "si_unit_of_result": "C",
+        "physical_meaning": "Electric charge exists only in discrete packets rather than continuous continuous amounts.",
+        "common_error": "Using the mass of an electron instead of its charge, or failing to convert macroscopic charge units (like \\mu\\text{C}) to Coulombs before calculating n."
+      },
+      {
+        "type": "rapid_recall",
+        "concept_ref": "Basic Properties of Electric Charge",
+        "one_liner": "Electric charge is a scalar that adds algebraically, remains strictly conserved in isolated systems, and exists only as integral multiples of the elementary charge e.",
+        "memory_hook": "ACQ: Additive, Conserved, Quantised.",
+        "never_forget": [
+          "e = $1.6 \\times 10^{-19}\\,\\text{C}$",
+          "Charge is additive with its algebraic sign, not just its magnitude."
+        ]
+      }
+    ],
+    "formula_sheet": [
+      {
+        "latex": "q = ne",
+        "label": "Quantisation of Charge",
+        "description": "Calculates the total free charge on a body based on the integer number of elementary charges gained or lost.",
+        "variables": [
+          {
+            "symbol": "q",
+            "name": "Total charge on the body",
+            "unit": "C",
+            "note": "Can be positive or negative."
+          },
+          {
+            "symbol": "n",
+            "name": "Integer multiple",
+            "unit": "dimensionless",
+            "note": "Number of electrons gained or lost."
+          },
+          {
+            "symbol": "e",
+            "name": "Elementary charge",
+            "unit": "C",
+            "note": "$1.6 \\times 10^{-19}\\,\\text{C}$"
+          }
+        ],
+        "si_unit_of_result": "C",
+        "use_case": "Direct Use",
+        "board_frequency": "LOW",
+        "common_error": "Failing to convert initial charge from microcoulombs or nanocoulombs to Coulombs before dividing by e."
+      }
+    ],
+    "ncert_golden_lines": [
+      "If a system contains n charges, then the total charge of the system is the algebraic sum of individual charges.",
+      "Within an isolated system consisting of many charged bodies, due to interactions among the bodies, charges may get redistributed but the total charge of the isolated system is always conserved.",
+      "The fact that electric charge is always an integral multiple of e is termed as quantisation of charge.",
+      "At the macroscopic level, the quantisation of charge has no practical consequence and can be ignored."
+    ]
+  },
+  {
+    "meta": {
+      "subject": "Physics",
+      "chapter_number": 1,
+      "chapter_name": "Electric Charges and Fields",
+      "topic": "Coulomb's Law",
+      "frequency": "HIGH",
+      "class": 12,
+      "board": "CBSE"
+    },
+    "notes": [
+      {
+        "type": "concept",
+        "title": "Coulomb's Law",
+        "tier": "1",
+        "points": [
+          "The mutual electrostatic force between two stationary point charges is directly proportional to the product of their magnitudes $q_{1}q_{2}$ and inversely proportional to the square of the distance $r^{2}$ separating them.",
+          "The force acts along the line joining the centres of the two charges, making it a central force.",
+          "In vacuum, the constant of proportionality is $\\frac{1}{4\\pi\\epsilon_{0}}$, where $\\epsilon_{0}$ is the permittivity of free space.",
+          "The experimental value of $\\epsilon_{0}$ is $8.854 \\times 10^{-12}\\,\\text{C}^{2}/\\text{Nm}^{2}$, and $\\frac{1}{4\\pi\\epsilon_{0}}$ is approximately $9 \\times 10^{9}\\,\\text{Nm}^{2}/\\text{C}^{2}$.",
+          "Coulomb's law agrees with Newton's third law; the forces the charges exert on each other are equal in magnitude and opposite in direction ($\\vec{F}_{12} = -\\vec{F}_{21}$).",
+          "The force is repulsive for like charges ($q_{1}q_{2} > 0$) and attractive for unlike charges ($q_{1}q_{2} < 0$)."
+        ],
+        "why_it_matters": "Asked as 1-mark MCQs, 2-mark conceptual questions, and forms the mathematical foundation for all 3-mark and 5-mark numericals on electrostatics."
+      },
+      {
+        "type": "exam_intel",
+        "concept_ref": "Coulomb's Law",
+        "frequency": "HIGH",
+        "marks_breakdown": [
+          "1 mark (MCQ / Assertion-Reason)",
+          "2 marks (Very Short Answer)",
+          "3 marks (Numericals on net force)"
+        ],
+        "question_forms": [
+          "State Coulomb's law in vector form. (1 mark)",
+          "Plot a graph showing the variation of Coulomb force F versus $\\frac{1}{r^{2}}$ for a pair of point charges. (2 marks)",
+          "Compare the electrostatic force and gravitational force between an electron and a proton. Which is stronger? (2 marks)",
+          "Two identical metallic spheres having unequal opposite charges are placed at a distance. After bringing them in contact, they are placed at the same distance. Find the ratio of initial to final forces. (3 marks)"
+        ],
+        "board_traps": [
+          "Examiner gives the separation distance in cm or mm. Students use these directly in the formula without converting to meters, resulting in a completely wrong force magnitude.",
+          "Examiner asks for force between two extended charged spheres at a close distance. Students blindly apply Coulomb's Law, ignoring that it is strictly valid only for point charges."
+        ],
+        "common_mistakes": [
+          "Forgetting to square the distance r in the denominator.",
+          "Including the negative signs of charges while calculating the magnitude of force, leading to confusion with vector directions."
+        ],
+        "answer_structure": "For theory questions, always state the proportionality rules, write the mathematical formula, define every symbol, and mention that it acts along the line joining the charges. For numericals, extract given values in SI units, substitute into the formula, calculate magnitude, and state direction separately based on charge signs.",
+        "examiner_expectation": "The examiner looks for the exact proportionality statement, the mention of 'point charges', and correct vector notation if vector form is asked."
+      },
+      {
+        "type": "rapid_recall",
+        "concept_ref": "Coulomb's Law",
+        "one_liner": "Coulomb's force is an inverse-square central force whose magnitude depends on the product of charges and the permittivity of the medium.",
+        "memory_hook": "Looks exactly like Newton's Law of Gravitation, but uses charges instead of masses and features the constant $\\frac{1}{4\\pi\\epsilon_{0}}$.",
+        "never_forget": [
+          "$\\frac{1}{4\\pi\\epsilon_{0}}$ = $9 \\times 10^{9}\\,\\text{Nm}^{2}/\\text{C}^{2}$",
+          "Always convert distances to meters and charges to Coulombs (micro = $10^{-6}$, nano = $10^{-9}$) before calculation.",
+          "Calculate force magnitude using absolute values of charges; determine direction visually using 'like repels, unlike attracts'."
+        ]
+      },
+      {
+        "type": "formula",
+        "label": "Coulomb's Law (Scalar Form)",
+        "latex": "F = \\frac{1}{4\\pi\\epsilon_{0}} \\cdot \\frac{|q_{1}q_{2}|}{r^{2}}",
+        "variables": [
+          {
+            "symbol": "F",
+            "name": "Magnitude of electrostatic force",
+            "unit": "N",
+            "note": ""
+          },
+          {
+            "symbol": "\\epsilon_{0}",
+            "name": "Permittivity of free space",
+            "unit": "$\\text{C}^{2}/\\text{Nm}^{2}$",
+            "note": "Value: $8.854 \\times 10^{-12}\\,\\text{C}^{2}/\\text{Nm}^{2}$"
+          },
+          {
+            "symbol": "q_{1}, q_{2}",
+            "name": "Magnitudes of the two point charges",
+            "unit": "C",
+            "note": "Take absolute values for calculating magnitude."
+          },
+          {
+            "symbol": "r",
+            "name": "Distance between the two point charges",
+            "unit": "m",
+            "note": "Must be in meters. Do not forget to square it."
+          }
+        ],
+        "conditions": [
+          "Charges must be point charges",
+          "Charges must be at rest (electrostatics)",
+          "Medium between charges is vacuum or air"
+        ],
+        "si_unit_of_result": "N",
+        "physical_meaning": "Calculates the exact magnitude of the electrostatic push or pull between two static point charges in a vacuum.",
+        "common_error": "Writing F \\propto \\frac{1}{r} instead of $\\frac{1}{r^{2}}$, or failing to square the distance during numerical substitution."
+      },
+      {
+        "type": "formula",
+        "label": "Coulomb's Law (Vector Form)",
+        "latex": "\\vec{F}_{21} = \\frac{1}{4\\pi\\epsilon_{0}} \\cdot \\frac{q_{1}q_{2}}{r_{21}^{2}} \\hat{r}_{21}",
+        "variables": [
+          {
+            "symbol": "\\vec{F}_{21}",
+            "name": "Force on charge 2 due to charge 1",
+            "unit": "N",
+            "note": ""
+          },
+          {
+            "symbol": "q_{1}, q_{2}",
+            "name": "Point charges with their algebraic signs",
+            "unit": "C",
+            "note": "Include positive/negative signs here."
+          },
+          {
+            "symbol": "r_{21}",
+            "name": "Distance between charge 1 and 2",
+            "unit": "m",
+            "note": "Magnitude of the position vector difference."
+          },
+          {
+            "symbol": "\\hat{r}_{21}",
+            "name": "Unit vector pointing from charge 1 to charge 2",
+            "unit": "dimensionless",
+            "note": "Defines the direction along the line joining the charges."
+          }
+        ],
+        "conditions": [
+          "Point charges at rest",
+          "Vacuum medium"
+        ],
+        "si_unit_of_result": "N",
+        "physical_meaning": "Gives both the magnitude and spatial direction of the electrostatic force, automatically accounting for attraction or repulsion through charge signs.",
+        "common_error": "Mismatched indices. Writing $\\vec{F}_{21}$ but using $\\hat{r}_{12}$ without a negative sign."
+      },
+      {
+        "type": "diagram",
+        "title": "Coulomb's Law Vector Geometry",
+        "source": "NCERT",
+        "ncert_reference": "NCERT Fig 1.3",
+        "description": {
+          "what_is_shown": "Geometry and force vectors between two point charges, illustrating Newton's third law compliance.",
+          "elements": [
+            "Coordinate system with origin O",
+            "Point charge $q_{1}$ at position $\\vec{r}_{1}$",
+            "Point charge $q_{2}$ at position $\\vec{r}_{2}$",
+            "Vector $\\vec{r}_{21}$ pointing from $q_{1}$ to $q_{2}$",
+            "Force vectors $\\vec{F}_{12}$ and $\\vec{F}_{21}$ acting on the charges"
+          ],
+          "labels": [
+            "O",
+            "$q_{1}$",
+            "$q_{2}$",
+            "$\\vec{r}_{1}$",
+            "$\\vec{r}_{2}$",
+            "$\\hat{r}_{21}$",
+            "$\\vec{F}_{12}$",
+            "$\\vec{F}_{21}$"
+          ],
+          "spatial_relationships": "For like charges ($q_{1}q_{2} > 0$), the force vectors $\\vec{F}_{12}$ and $\\vec{F}_{21}$ point radially away from each other. For unlike charges ($q_{1}q_{2} < 0$), they point inwards towards each other.",
+          "style_notes": "Dark background #0a0a0f. White lines and labels. Red for positive charges. Blue for negative charges. Clean sans-serif font."
+        },
+        "caption": "Forces between like and unlike point charges in vector notation.",
+        "generation_prompt": "Draw a 2D diagram illustrating the vector form of Coulomb's Law. Start with an origin O at the bottom left. Draw a position vector r1 pointing to a red positive charge q1, and a position vector r2 pointing to another red positive charge q2. Draw a dashed line connecting q1 and q2, with a displacement unit vector r21 pointing from q1 to q2. Draw a force vector F21 originating from q2 pointing away from q1, and a force vector F12 originating from q1 pointing away from q2. Repeat a similar setup below it for unlike charges (one red q1, one blue q2), but with force vectors pointing inwards towards each other. Use a dark #0a0a0f background with bright white text and arrows."
+      },
+      {
+        "type": "concept",
+        "title": "Principle of Superposition",
+        "tier": "1",
+        "points": [
+          "The force on any charge due to a number of other charges is the vector sum of all the forces on that charge due to the other charges, taken one at a time.",
+          "The individual forces between any pair of charges are completely unaffected by the presence or absence of other charges.",
+          "Forces of electrostatic origin add according to the parallelogram law of vector addition."
+        ],
+        "why_it_matters": "Asked as 3-mark and 5-mark numericals where students must calculate the net force on a charge placed in a system of multiple charges (e.g., triangle, square configurations)."
+      },
+      {
+        "type": "exam_intel",
+        "concept_ref": "Principle of Superposition",
+        "frequency": "HIGH",
+        "marks_breakdown": [
+          "2 marks (Simple 1D line configurations)",
+          "3 marks (2D configurations like triangles and squares)"
+        ],
+        "question_forms": [
+          "Three identical charges are placed at the vertices of an equilateral triangle. Calculate the net force on a charge placed at the centroid. (3 marks)",
+          "Four point charges are placed at the corners of a square. Find the magnitude and direction of the net electrostatic force on one of the charges. (3 marks)",
+          "Two point charges are placed a certain distance apart. Where should a third charge be placed on the line joining them so that it experiences no net force? (3 marks)"
+        ],
+        "board_traps": [
+          "Examiner sets up a highly symmetric configuration (like charges at all corners of a regular polygon) asking for force at the center. Students waste time calculating each vector instead of using symmetry to immediately state the net force is zero.",
+          "Asking for force on a corner charge in a square. Students simply add the magnitudes of forces from the other three corners algebraically instead of resolving them into perpendicular vectors."
+        ],
+        "common_mistakes": [
+          "Adding force magnitudes linearly instead of using vector addition rules (e.g., $F_{net} = \\sqrt{F_{1}^{2} + F_{2}^{2} + 2F_{1}F_{2}\\cos\\theta}$).",
+          "Making sign errors while resolving vectors into x and y components."
+        ],
+        "answer_structure": "Draw a clear diagram showing all individual force vectors originating from the target charge. Calculate the magnitude of each individual force using Coulomb's law. Choose an x-y coordinate system and resolve each force into components, or use the parallelogram law if only two forces are present. Sum the components to find the resultant vector's magnitude and direction.",
+        "examiner_expectation": "A clear vector diagram is expected. Without it, examiners may deduct marks even if the final calculation is correct, as the diagram proves understanding of vector directions."
+      },
+      {
+        "type": "worked_example",
+        "concept_ref": "Principle of Superposition",
+        "purpose": "Demonstrate vector addition of collinear electrostatic forces in a 1D system.",
+        "situation": "Two point charges $q_{A} = +2 \\times 10^{-6}\\,\\text{C}$ and $q_{B} = -2 \\times 10^{-6}\\,\\text{C}$ are located $0.2\\,\\text{m}$ apart in vacuum. Find the net electrostatic force on a test charge $q_{C} = +1 \\times 10^{-6}\\,\\text{C}$ placed exactly at the midpoint between them.",
+        "given": [
+          "$q_{A} = +2 \\times 10^{-6}\\,\\text{C}$",
+          "$q_{B} = -2 \\times 10^{-6}\\,\\text{C}$",
+          "$q_{C} = +1 \\times 10^{-6}\\,\\text{C}$",
+          "$r_{AC} = 0.1\\,\\text{m}$",
+          "$r_{BC} = 0.1\\,\\text{m}$"
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "action": "Calculate the magnitude of force exerted by $q_{A}$ on $q_{C}$",
+            "latex": "F_{AC} = \\frac{9 \\times 10^{9} \\times 2 \\times 10^{-6} \\times 1 \\times 10^{-6}}{(0.1)^{2}} = 1.8\\,\\text{N}",
+            "why": "Coulomb's law gives the magnitude of force between the first pair of charges."
+          },
+          {
+            "step_number": 2,
+            "action": "Determine the direction of $F_{AC}$",
+            "latex": "",
+            "why": "Since $q_{A}$ and $q_{C}$ are both positive, the force is repulsive. The force on $q_{C}$ points away from $q_{A}$, towards $q_{B}$."
+          },
+          {
+            "step_number": 3,
+            "action": "Calculate the magnitude of force exerted by $q_{B}$ on $q_{C}$",
+            "latex": "F_{BC} = \\frac{9 \\times 10^{9} \\times 2 \\times 10^{-6} \\times 1 \\times 10^{-6}}{(0.1)^{2}} = 1.8\\,\\text{N}",
+            "why": "The magnitude of the charges and the distance are identical to the first pair."
+          },
+          {
+            "step_number": 4,
+            "action": "Determine the direction of $F_{BC}$",
+            "latex": "",
+            "why": "Since $q_{B}$ is negative and $q_{C}$ is positive, the force is attractive. The force on $q_{C}$ points towards $q_{B}$."
+          },
+          {
+            "step_number": 5,
+            "action": "Apply the superposition principle to find the net force on $q_{C}$",
+            "latex": "F_{net} = F_{AC} + F_{BC} = 1.8 + 1.8 = 3.6\\,\\text{N}",
+            "why": "Both individual force vectors point in the exact same direction (towards B), so their magnitudes add directly algebraically."
+          }
+        ],
+        "final_answer": {
+          "latex": "\\vec{F}_{net} = 3.6",
+          "unit": "N",
+          "direction": "Towards charge $q_{B}$"
+        },
+        "trap": "Assuming the forces cancel out to zero at the midpoint because the source charges have opposite signs. (They actually point in the same direction and reinforce each other)."
+      },
+      {
+        "type": "rapid_recall",
+        "concept_ref": "Principle of Superposition",
+        "one_liner": "The net force on a charge is the vector sum of the individual Coulomb forces exerted on it by all other charges in the system.",
+        "memory_hook": "Calculate one-on-one, then add them up like vectors. The charges don't 'block' or 'shield' each other.",
+        "never_forget": [
+          "Electrostatic forces are vectors! Never just add the numbers together without checking directions.",
+          "If multiple equal forces act at equal angles (like a symmetric polygon), the net force at the center is always zero.",
+          "Always resolve forces into x and y components if they are not acting along the same straight line."
+        ]
+      },
+      {
+        "type": "formula",
+        "label": "Superposition of Forces",
+        "latex": "\\vec{F}_{1} = \\frac{q_{1}}{4\\pi\\epsilon_{0}} \\sum_{i=2}^{n} \\frac{q_{i}}{r_{1i}^{2}} \\hat{r}_{1i}",
+        "variables": [
+          {
+            "symbol": "\\vec{F}_{1}",
+            "name": "Total net force on charge 1",
+            "unit": "N",
+            "note": ""
+          },
+          {
+            "symbol": "q_{1}",
+            "name": "The charge experiencing the net force",
+            "unit": "C",
+            "note": ""
+          },
+          {
+            "symbol": "q_{i}",
+            "name": "The source charges (i = 2, 3, ... n)",
+            "unit": "C",
+            "note": ""
+          },
+          {
+            "symbol": "r_{1i}",
+            "name": "Distance between charge 1 and charge i",
+            "unit": "m",
+            "note": ""
+          },
+          {
+            "symbol": "\\hat{r}_{1i}",
+            "name": "Unit vector from charge i to charge 1",
+            "unit": "dimensionless",
+            "note": "Careful with indices. Usually $\\hat{r}_{i1}$ points from i to 1."
+          }
+        ],
+        "conditions": [
+          "System of multiple point charges",
+          "Linear medium (vacuum/air)"
+        ],
+        "si_unit_of_result": "N",
+        "physical_meaning": "Mathematically formalizes that the net force on a single charge is exactly equal to the vector addition of all individual Coulomb forces acting upon it.",
+        "common_error": "Attempting to substitute all charges into one giant non-vector equation instead of calculating separate vectors and resolving components."
+      },
+      {
+        "type": "diagram",
+        "title": "Superposition Principle in Action",
+        "source": "NCERT",
+        "ncert_reference": "NCERT Fig 1.5",
+        "description": {
+          "what_is_shown": "Vector addition of forces on a single charge q_{1} due to multiple other charges.",
+          "elements": [
+            "Target point charge $q_{1}$",
+            "Source point charges $q_{2}$, $q_{3}$, q_{4}, etc.",
+            "Individual force vectors $\\vec{F}_{12}$, $\\vec{F}_{13}$, $\\vec{F}_{14}$ originating from $q_{1}$",
+            "Resultant vector $\\vec{F}_{1}$ constructed using the parallelogram law"
+          ],
+          "labels": [
+            "$q_{1}$",
+            "$q_{2}$",
+            "$q_{3}$",
+            "$\\vec{F}_{12}$",
+            "$\\vec{F}_{13}$",
+            "$\\vec{F}_{1}$"
+          ],
+          "spatial_relationships": "The individual force vectors branch out from $q_{1}$ in different directions based on the positions of the source charges. Dashed lines complete the parallelograms to show how the resultant vector $\\vec{F}_{1}$ is geometrically derived.",
+          "style_notes": "Dark background #0a0a0f. White lines and labels. Red points for charges. Cyan arrows for individual forces. Bold yellow arrow for the resultant net force."
+        },
+        "caption": "Net force on a charge is the vector sum of individual forces.",
+        "generation_prompt": "Draw a 2D physics diagram demonstrating the superposition principle. Place a central red point charge labeled q1. Place two other red point charges q2 and q3 nearby. Draw a cyan vector arrow F12 starting at q1 and pointing directly away from q2. Draw another cyan vector arrow F13 starting at q1 and pointing directly away from q3. Draw dashed white lines parallel to these vectors to complete a parallelogram. Draw a thick yellow vector arrow starting at q1 and extending to the opposite corner of the parallelogram, labeling it F1 (the resultant net force). Use a solid dark #0a0a0f background."
+      }
+    ],
+    "formula_sheet": [
+      {
+        "latex": "F = \\frac{1}{4\\pi\\epsilon_{0}} \\cdot \\frac{|q_{1}q_{2}|}{r^{2}}",
+        "label": "Coulomb's Law (Scalar)",
+        "description": "Calculates the magnitude of electrostatic force between two stationary point charges.",
+        "variables": [
+          {
+            "symbol": "F",
+            "name": "Magnitude of electrostatic force",
+            "unit": "N",
+            "note": ""
+          },
+          {
+            "symbol": "\\epsilon_{0}",
+            "name": "Permittivity of free space",
+            "unit": "$\\text{C}^{2}/\\text{Nm}^{2}$",
+            "note": "$8.854 \\times 10^{-12}$"
+          },
+          {
+            "symbol": "q_{1}, q_{2}",
+            "name": "Point charges",
+            "unit": "C",
+            "note": ""
+          },
+          {
+            "symbol": "r",
+            "name": "Distance",
+            "unit": "m",
+            "note": "Must square this."
+          }
+        ],
+        "si_unit_of_result": "N",
+        "use_case": "Direct Use",
+        "board_frequency": "HIGH",
+        "common_error": "Forgetting to square the distance 'r'."
+      },
+      {
+        "latex": "\\vec{F}_{21} = \\frac{1}{4\\pi\\epsilon_{0}} \\cdot \\frac{q_{1}q_{2}}{r_{21}^{2}} \\hat{r}_{21}",
+        "label": "Coulomb's Law (Vector)",
+        "description": "Calculates the electrostatic force vector including direction.",
+        "variables": [
+          {
+            "symbol": "\\vec{F}_{21}",
+            "name": "Force vector on 2 due to 1",
+            "unit": "N",
+            "note": ""
+          },
+          {
+            "symbol": "q_{1}, q_{2}",
+            "name": "Point charges",
+            "unit": "C",
+            "note": "Use algebraic signs."
+          },
+          {
+            "symbol": "r_{21}",
+            "name": "Distance squared",
+            "unit": "$\\text{m}^{2}$",
+            "note": ""
+          },
+          {
+            "symbol": "\\hat{r}_{21}",
+            "name": "Unit vector from 1 to 2",
+            "unit": "dimensionless",
+            "note": ""
+          }
+        ],
+        "si_unit_of_result": "N",
+        "use_case": "Direct Use",
+        "board_frequency": "HIGH",
+        "common_error": "Mismatched index order causing reversed force directions."
+      },
+      {
+        "latex": "\\vec{F}_{1} = \\sum_{i=2}^{n} \\vec{F}_{1i} = \\frac{q_{1}}{4\\pi\\epsilon_{0}} \\sum_{i=2}^{n} \\frac{q_{i}}{r_{1i}^{2}} \\hat{r}_{1i}",
+        "label": "Superposition of Forces",
+        "description": "Calculates the net force on a charge by summing individual force vectors.",
+        "variables": [
+          {
+            "symbol": "\\vec{F}_{1}",
+            "name": "Net force on charge 1",
+            "unit": "N",
+            "note": ""
+          },
+          {
+            "symbol": "q_{1}",
+            "name": "Target charge",
+            "unit": "C",
+            "note": ""
+          },
+          {
+            "symbol": "q_{i}",
+            "name": "Source charges",
+            "unit": "C",
+            "note": ""
+          },
+          {
+            "symbol": "r_{1i}",
+            "name": "Distance between 1 and i",
+            "unit": "m",
+            "note": ""
+          },
+          {
+            "symbol": "\\hat{r}_{1i}",
+            "name": "Unit vector",
+            "unit": "dimensionless",
+            "note": ""
+          }
+        ],
+        "si_unit_of_result": "N",
+        "use_case": "Direct Use",
+        "board_frequency": "HIGH",
+        "common_error": "Algebraically adding magnitudes instead of performing proper vector component addition."
+      }
+    ],
+    "ncert_golden_lines": [
+      "Coulomb's law is a quantitative statement about the force between two point charges.",
+      "The constant k is usually put as 1/4πε₀ for later convenience.",
+      "The individual forces are unaffected due to the presence of other charges. This is termed as the principle of superposition.",
+      "All of electrostatics is basically a consequence of Coulomb's law and the superposition principle."
+    ]
+  },
+  {
+    "meta": {
+      "subject": "Physics",
+      "chapter_number": 1,
+      "chapter_name": "Electric Charges and Fields",
+      "topic": "Forces between Multiple Charges (Superposition Principle)",
+      "frequency": "MEDIUM",
+      "class": 12,
+      "board": "CBSE"
+    },
+    "notes": [
+      {
+        "type": "concept",
+        "title": "Principle of Superposition",
+        "tier": "1",
+        "points": [
+          "The force on any charge due to a number of other charges is the vector sum of all the forces on that charge due to the other charges, taken one at a time. [cite: 367]",
+          "The individual forces are unaffected due to the presence of other charges. [cite: 368]",
+          "Forces of electrostatic origin add according to the parallelogram law of addition. [cite: 365, 415]"
+        ],
+        "why_it_matters": "Asked as 3-mark numericals where students must calculate the net force on a charge placed in a 2D system like a triangle or square."
+      },
+      {
+        "type": "exam_intel",
+        "concept_ref": "Principle of Superposition",
+        "frequency": "MEDIUM",
+        "marks_breakdown": [
+          "2 marks (1D collinear configurations)",
+          "3 marks (2D configurations like triangles)"
+        ],
+        "question_forms": [
+          "Three charges each equal to q are placed at the vertices of an equilateral triangle. What is the force on a charge placed at the centroid? (3 marks)",
+          "Two point charges are separated by a distance. Where should a third charge be placed such that it experiences no net force? (2 marks)"
+        ],
+        "board_traps": [
+          "Examiner asks for the force at the geometric center of a highly symmetric charge distribution. Students waste time calculating vectors instead of using symmetry to state the net force is zero.",
+          "Examiner provides charges with negative signs. Students substitute the negative sign into the Coulomb force formula instead of using it only to determine the vector's direction on the diagram."
+        ],
+        "common_mistakes": [
+          "Adding force magnitudes linearly instead of using vector addition rules like $F_{net} = \\sqrt{F_{1}^{2} + F_{2}^{2} + 2F_{1}F_{2}\\cos\\theta}$.",
+          "Making sine/cosine resolution errors when breaking force vectors into x and y components."
+        ],
+        "answer_structure": "Draw a clear vector diagram showing all individual forces acting on the target charge. Calculate the magnitude of each force using Coulomb's law. Resolve the forces into components or use the parallelogram law to find the resultant vector magnitude and direction.",
+        "examiner_expectation": "A clear vector diagram with correct arrow directions is expected before any mathematical calculation begins. Missing the diagram often leads to marks being deducted."
+      },
+      {
+        "type": "worked_example",
+        "concept_ref": "Principle of Superposition",
+        "purpose": "Demonstrate vector addition of electrostatic forces using the parallelogram law.",
+        "situation": "Two point charges $q_{A} = +2 \\times 10^{-6}\\,\\text{C}$ and $q_{B}$ = $+2 \\times 10^{-6}\\,\\text{C}$ are located at two corners of an equilateral triangle of side $0.1\\,\\text{m}$. Find the magnitude of the net force on a third charge $q_{C} = +1 \\times 10^{-6}\\,\\text{C}$ placed at the third corner.",
+        "given": [
+          "$q_{A} = +2 \\times 10^{-6}\\,\\text{C}$",
+          "$q_{B}$ = $+2 \\times 10^{-6}\\,\\text{C}$",
+          "$q_{C} = +1 \\times 10^{-6}\\,\\text{C}$",
+          "r = $0.1\\,\\text{m}$",
+          "$\\theta = 60^{\\circ}$"
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "action": "Calculate the magnitude of force exerted by $q_{A}$ on $q_{C}$",
+            "latex": "F_{A} = \\frac{9 \\times 10^{9} \\times 2 \\times 10^{-6} \\times 1 \\times 10^{-6}}{(0.1)^{2}} = 1.8\\,\\text{N}",
+            "why": "Coulomb's law gives the magnitude of the force from the first charge."
+          },
+          {
+            "step_number": 2,
+            "action": "Calculate the magnitude of force exerted by $q_{B}$ on $q_{C}$",
+            "latex": "F_{B} = \\frac{9 \\times 10^{9} \\times 2 \\times 10^{-6} \\times 1 \\times 10^{-6}}{(0.1)^{2}} = 1.8\\,\\text{N}",
+            "why": "By symmetry, the second charge exerts an identical magnitude of force."
+          },
+          {
+            "step_number": 3,
+            "action": "Apply the parallelogram law of vector addition",
+            "latex": "F_{net} = \\sqrt{F_{A}^{2} + F_{B}^{2} + 2F_{A}F_{B}\\cos(60^{\\circ})}",
+            "why": "The two repulsive force vectors are separated by 60 degrees, the interior angle of an equilateral triangle."
+          },
+          {
+            "step_number": 4,
+            "action": "Calculate the final resultant magnitude",
+            "latex": "F_{net} = \\sqrt{(1.8)^{2} + (1.8)^{2} + 2(1.8)(1.8)(0.5)} = 1.8\\sqrt{3}\\,\\text{N}",
+            "why": "Substituting $\\cos(60^{\\circ}) = 0.5$ and simplifying the expression."
+          }
+        ],
+        "final_answer": {
+          "latex": "1.8\\sqrt{3}",
+          "unit": "N",
+          "direction": "Along the angle bisector of the two forces"
+        },
+        "trap": "Forgetting the angle between the forces and simply adding 1.8 + 1.8 = 3.6 N."
+      },
+      {
+        "type": "rapid_recall",
+        "concept_ref": "Principle of Superposition",
+        "one_liner": "The net force on a target charge is the vector sum of all individual Coulomb forces acting on it from surrounding charges.",
+        "memory_hook": "Calculate magnitudes individually, assign directions visually, then add as vectors.",
+        "never_forget": [
+          "Electrostatic forces are vectors; never add their magnitudes algebraically if they are not collinear.",
+          "The force between any two charges ignores the presence of a third charge."
+        ]
+      },
+      {
+        "type": "formula",
+        "label": "Superposition of Forces",
+        "latex": "\\vec{F}_{1} = \\frac{q_{1}}{4\\pi\\epsilon_{0}} \\sum_{i=2}^{n} \\frac{q_{i}}{r_{1i}^{2}} \\hat{r}_{1i}",
+        "variables": [
+          {
+            "symbol": "\\vec{F}_{1}",
+            "name": "Total net force on target charge 1",
+            "unit": "N",
+            "note": ""
+          },
+          {
+            "symbol": "q_{1}",
+            "name": "The target charge experiencing the net force",
+            "unit": "C",
+            "note": ""
+          },
+          {
+            "symbol": "q_{i}",
+            "name": "The source charges (i = 2, 3, ... n)",
+            "unit": "C",
+            "note": ""
+          },
+          {
+            "symbol": "r_{1i}",
+            "name": "Distance between target charge 1 and source charge i",
+            "unit": "m",
+            "note": ""
+          },
+          {
+            "symbol": "\\hat{r}_{1i}",
+            "name": "Unit vector from source charge i to target charge 1",
+            "unit": "dimensionless",
+            "note": "Defines the direction of the force exerted by i on 1."
+          }
+        ],
+        "conditions": [
+          "System of multiple point charges",
+          "Vacuum medium"
+        ],
+        "si_unit_of_result": "N",
+        "physical_meaning": "Formalizes that the total force on one charge is exactly equal to the vector addition of all individual Coulomb forces acting upon it.",
+        "common_error": "Attempting to substitute all charges into one giant scalar equation instead of calculating separate vectors and resolving components."
+      },
+      {
+        "type": "diagram",
+        "title": "Superposition Principle in Action",
+        "source": "NCERT",
+        "ncert_reference": "NCERT Fig 1.5",
+        "description": {
+          "what_is_shown": "Vector addition of forces on a single charge q_{1} due to multiple other charges.",
+          "elements": [
+            "Target point charge $q_{1}$",
+            "Source point charges $q_{2}$, $q_{3}$, q_{4}",
+            "Individual force vectors $\\vec{F}_{12}$, $\\vec{F}_{13}$",
+            "Resultant vector $\\vec{F}_{1}$ constructed using the parallelogram law"
+          ],
+          "labels": [
+            "$q_{1}$",
+            "$q_{2}$",
+            "$q_{3}$",
+            "$\\vec{F}_{12}$",
+            "$\\vec{F}_{13}$",
+            "$\\vec{F}_{1}$"
+          ],
+          "spatial_relationships": "Individual force vectors branch out from $q_{1}$ in different directions. Dashed lines complete the parallelograms to show the resultant vector $\\vec{F}_{1}$ geometrically.",
+          "style_notes": "Dark background #0a0a0f. White lines and labels. Red points for charges. Cyan arrows for individual forces. Bold yellow arrow for the resultant net force."
+        },
+        "caption": "Net force on a charge is the vector sum of individual forces.",
+        "generation_prompt": "Draw a 2D physics diagram demonstrating the superposition principle. Place a central red point charge labeled q1. Place two other red point charges q2 and q3 nearby. Draw a cyan vector arrow F12 starting at q1 and pointing directly away from q2. Draw another cyan vector arrow F13 starting at q1 and pointing directly away from q3. Draw dashed white lines parallel to these vectors to complete a parallelogram. Draw a thick yellow vector arrow starting at q1 and extending to the opposite corner of the parallelogram, labeling it F1 (the resultant net force). Use a solid dark #0a0a0f background."
+      }
+    ],
+    "formula_sheet": [
+      {
+        "latex": "\\vec{F}_{1} = \\sum_{i=2}^{n} \\vec{F}_{1i} = \\frac{q_{1}}{4\\pi\\epsilon_{0}} \\sum_{i=2}^{n} \\frac{q_{i}}{r_{1i}^{2}} \\hat{r}_{1i}",
+        "label": "Superposition of Forces",
+        "description": "Calculates the net force on a target charge by summing individual force vectors from all surrounding source charges.",
+        "variables": [
+          {
+            "symbol": "\\vec{F}_{1}",
+            "name": "Net force on charge 1",
+            "unit": "N",
+            "note": ""
+          },
+          {
+            "symbol": "q_{1}",
+            "name": "Target charge",
+            "unit": "C",
+            "note": ""
+          },
+          {
+            "symbol": "q_{i}",
+            "name": "Source charges",
+            "unit": "C",
+            "note": ""
+          },
+          {
+            "symbol": "r_{1i}",
+            "name": "Distance between 1 and i",
+            "unit": "m",
+            "note": ""
+          },
+          {
+            "symbol": "\\hat{r}_{1i}",
+            "name": "Unit vector from i to 1",
+            "unit": "dimensionless",
+            "note": ""
+          }
+        ],
+        "si_unit_of_result": "N",
+        "use_case": "Direct Use",
+        "board_frequency": "MEDIUM",
+        "common_error": "Algebraically adding magnitudes instead of performing proper vector component addition."
+      }
+    ],
+    "ncert_golden_lines": [
+      "Experimentally, it is verified that force on any charge due to a number of other charges is the vector sum of all the forces on that charge due to the other charges, taken one at a time. [cite: 367]",
+      "The individual forces are unaffected due to the presence of other charges. [cite: 368]"
+    ]
+  },
+  {
+    "meta": {
+      "subject": "Physics",
+      "chapter_number": 1,
+      "chapter_name": "Electric Charges and Fields",
+      "topic": "Electric Field",
+      "frequency": "HIGH",
+      "class": 12,
+      "board": "CBSE"
+    },
+    "notes": [
+      {
+        "type": "concept",
+        "title": "Electric Field",
+        "tier": "1",
+        "points": [
+          "The electric field at a point is defined as the electrostatic force experienced by a vanishingly small positive test charge placed at that point, divided by the magnitude of the test charge.",
+          "Mathematically expressed as $\\vec{E} = \\lim_{q_{0} \\to 0} \\frac{\\vec{F}}{q_{0}}$, where $q_{0}$ is the test charge.",
+          "It is a vector quantity; its direction is the same as the direction of the force experienced by a positive test charge.",
+          "The limit $q_{0} \\to 0$ is conceptually required so that the test charge itself does not disturb the original charge distribution that is producing the electric field.",
+          "The SI unit of electric field is N/C (Newton per Coulomb) or equivalently V/m (Volt per metre).",
+          "The electric field is a characteristic of the system of charges and is strictly independent of the test charge $q_{0}$ placed to measure it."
+        ],
+        "why_it_matters": "Asked as 1-mark definitions and forms the fundamental conceptual framework for understanding electric flux, Gauss's Law, and capacitance."
+      },
+      {
+        "type": "exam_intel",
+        "concept_ref": "Electric Field",
+        "frequency": "HIGH",
+        "marks_breakdown": [
+          "1 mark (Definition / SI Unit)",
+          "2 marks (Conceptual reasoning / Basic numericals)"
+        ],
+        "question_forms": [
+          "Define electric field at a point. Write its SI unit. (1 mark)",
+          "Why is it necessary that the test charge used to measure the electric field be vanishingly small? (1 mark)",
+          "An electron is suspended at rest in a uniform electric field. Calculate the magnitude and direction of the electric field. (2 marks)"
+        ],
+        "board_traps": [
+          "Examiner asks for the direction of force on a negative charge placed in an electric field. Students blindly write 'in the direction of the field' (which is only true for positive charges).",
+          "Students write the formula E = F/q but forget the limit condition or fail to state that q is a strictly positive test charge."
+        ],
+        "common_mistakes": [
+          "Writing the SI unit incorrectly as C/N instead of N/C.",
+          "Assuming the electric field depends on the test charge $q_{0}$. (It depends only on the source charge)."
+        ],
+        "answer_structure": "For definitions, state the 'force per unit positive test charge' and immediately write the limit formula. For reasoning questions about the test charge size, explicitly use the phrase 'so it does not disturb the source charge configuration'.",
+        "examiner_expectation": "The exact phrase 'vanishingly small positive test charge' and the limit notation in the formula are looked for by examiners to award the full definition mark."
+      },
+      {
+        "type": "worked_example",
+        "concept_ref": "Electric Field",
+        "purpose": "Demonstrate the relationship between electric field, electrostatic force, and gravitational force (weight balancing).",
+        "situation": "A tiny charged oil drop of mass 3 \\times $10^{-6}$\\,\\text{kg} and charge $-2 \\times 10^{-6}\\,\\text{C}$ remains suspended stationary in a uniform uniform downward electric field. Calculate the magnitude and direction of the electric field required. (Take g = $10\\,\\text{m/s}^{2}$)",
+        "given": [
+          "m = 3 \\times $10^{-6}$\\,\\text{kg}",
+          "q = $-2 \\times 10^{-6}\\,\\text{C}$",
+          "g = $10\\,\\text{m/s}^{2}$"
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "action": "Identify the forces acting on the drop.",
+            "latex": "",
+            "why": "For the drop to remain stationary, the downward gravitational force (weight) must be exactly balanced by an upward electrostatic force."
+          },
+          {
+            "step_number": 2,
+            "action": "Equate the magnitudes of the two forces.",
+            "latex": "mg = |q|E",
+            "why": "Equilibrium condition in the vertical direction."
+          },
+          {
+            "step_number": 3,
+            "action": "Substitute the given values and solve for E.",
+            "latex": "3 \\times 10^{-6} \\times 10 = (2 \\times 10^{-6}) E \\implies 30 = 2E \\implies E = 15\\,\\text{N/C}",
+            "why": "Basic algebraic substitution to find the electric field magnitude."
+          },
+          {
+            "step_number": 4,
+            "action": "Determine the direction of the electric field.",
+            "latex": "",
+            "why": "The electrostatic force must be upward to balance gravity. Since the charge is negative, the electric field must point in the direction opposite to the force. Therefore, the field must point downward. (The problem states it's downward, confirming our logic)."
+          }
+        ],
+        "final_answer": {
+          "latex": "15",
+          "unit": "N/C",
+          "direction": "Downward"
+        },
+        "trap": "Plugging the negative sign of the charge into the magnitude equation, leading to a negative field magnitude, which confuses students regarding vector directions."
+      },
+      {
+        "type": "rapid_recall",
+        "concept_ref": "Electric Field",
+        "one_liner": "Electric field is the electrostatic force experienced per unit positive test charge at a given point.",
+        "memory_hook": "Electric Field is the 'price tag' of force for 1 Coulomb of charge at any spot in space.",
+        "never_forget": [
+          "$\\vec{F}$ = q\\vec{E}",
+          "If q is positive, $\\vec{F}$ is parallel to \\vec{E}.",
+          "If q is negative, $\\vec{F}$ is anti-parallel (opposite) to \\vec{E}."
+        ]
+      },
+      {
+        "type": "formula",
+        "label": "Electric Field (Definition)",
+        "latex": "\\vec{E} = \\lim_{q_{0} \\to 0} \\frac{\\vec{F}}{q_{0}}",
+        "variables": [
+          {
+            "symbol": "\\vec{E}",
+            "name": "Electric field vector",
+            "unit": "N/C",
+            "note": ""
+          },
+          {
+            "symbol": "\\vec{F}",
+            "name": "Electrostatic force vector",
+            "unit": "N",
+            "note": ""
+          },
+          {
+            "symbol": "q_{0}",
+            "name": "Positive test charge",
+            "unit": "C",
+            "note": "Must be vanishingly small."
+          }
+        ],
+        "conditions": [
+          "Test charge must be small enough not to disturb source charges"
+        ],
+        "si_unit_of_result": "N/C",
+        "physical_meaning": "Measures the strength and direction of the electrical influence created by source charges at a specific point in space.",
+        "common_error": "Omitting the limit condition when asked for the formal definition."
+      },
+      {
+        "type": "concept",
+        "title": "Electric Field due to a Point Charge",
+        "tier": "1",
+        "points": [
+          "The electric field produced by a single isolated point charge Q at a distance r is given by Coulomb's law applied to a unit charge.",
+          "The magnitude of the field is inversely proportional to the square of the distance from the charge ($E \\propto \\frac{1}{r^{2}}$).",
+          "The electric field due to a point charge has spherical symmetry; it has the same magnitude on the surface of any sphere centered on the charge.",
+          "For a positive point charge, the electric field is directed radially outwards.",
+          "For a negative point charge, the electric field is directed radially inwards."
+        ],
+        "why_it_matters": "Asked as a 2-mark derivation, graph drawing questions (E vs r), and serves as the building block for calculating fields of dipoles and continuous charge distributions."
+      },
+      {
+        "type": "derived_result",
+        "statement": "The electric field at a distance r from a point charge Q is spherically symmetric and obeys an inverse-square law.",
+        "latex": "\\vec{E} = \\frac{1}{4\\pi\\epsilon_{0}} \\frac{Q}{r^{2}} \\hat{r}",
+        "variables": [
+          {
+            "symbol": "\\vec{E}",
+            "name": "Electric field vector",
+            "unit": "N/C",
+            "note": ""
+          },
+          {
+            "symbol": "Q",
+            "name": "Source point charge",
+            "unit": "C",
+            "note": "Include sign in vector expression, absolute value for magnitude."
+          },
+          {
+            "symbol": "r",
+            "name": "Distance from the source charge",
+            "unit": "m",
+            "note": ""
+          },
+          {
+            "symbol": "\\hat{r}",
+            "name": "Unit vector pointing from the source charge to the observation point",
+            "unit": "dimensionless",
+            "note": ""
+          }
+        ],
+        "valid_when": "Valid only for a point source charge in vacuum.",
+        "derivation_asked": true,
+        "proof_skeleton": [
+          "Place a source charge Q at the origin O.",
+          "Place a small positive test charge $q_{0}$ at point P, at a position vector \\vec{r} from O.",
+          "Write Coulomb's force on $q_{0}$: $\\vec{F}$ = $\\frac{1}{4\\pi\\epsilon_{0}}$ \\frac{Q$q_{0}$}{$r^{2}$} \\hat{r}",
+          "Apply definition of electric field: $\\vec{E} = \\frac{\\vec{F}}{q_{0}}$",
+          "Substitute $\\vec{F}$ and cancel $q_{0}$ to get the final expression."
+        ]
+      },
+      {
+        "type": "exam_intel",
+        "concept_ref": "Electric Field due to a Point Charge",
+        "frequency": "HIGH",
+        "marks_breakdown": [
+          "2 marks (Derivation or Graph)",
+          "3 marks (Superposition principle numericals finding neutral points)"
+        ],
+        "question_forms": [
+          "Derive an expression for the electric field at a point due to a point charge. (2 marks)",
+          "Plot a graph showing the variation of electric field E with distance r from a point charge. (2 marks)",
+          "Two point charges +q and +4q are separated by a distance L. Find the point on the line joining them where the net electric field is zero. (3 marks)"
+        ],
+        "board_traps": [
+          "Drawing a straight line for the E vs r graph. It must be a curve (rectangular hyperbola shape for $1/r^2$).",
+          "When finding the neutral point between two like charges, students place the point outside the charges instead of between them."
+        ],
+        "common_mistakes": [
+          "Forgetting the unit vector \\hat{r} when asked to derive the vector form.",
+          "Squaring the charge instead of the distance in numericals."
+        ],
+        "answer_structure": "For derivations, always start with a small diagram showing Q, q_0, and r. For numericals finding the neutral point, clearly define distance x from one charge, state that $E1 = E2$, and solve by taking the square root of both sides immediately.",
+        "examiner_expectation": "In graphs, examiners check if the curve correctly approaches the axes asymptotically without touching them. In numericals, vector directions must be justified."
+      },
+      {
+        "type": "worked_example",
+        "concept_ref": "Electric Field due to a Point Charge",
+        "purpose": "Demonstrate application of superposition to find a zero electric field location (neutral point).",
+        "situation": "Two point charges $Q_{1}$ = +1 \\times $10^{-6}$\\,\\text{C} and $Q_{2}$ = +4 \\times $10^{-6}$\\,\\text{C} are placed 0.3\\,\\text{m} apart. Find the position of the point on the line joining them where the net electric field is zero.",
+        "given": [
+          "$Q_{1}$ = +1 \\times $10^{-6}$\\,\\text{C}",
+          "$Q_{2}$ = +4 \\times $10^{-6}$\\,\\text{C}",
+          "d = 0.3\\,\\text{m}"
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "action": "Locate the possible region for the neutral point.",
+            "latex": "",
+            "why": "Since both charges are positive, the electric fields they produce will point in opposite directions only in the region strictly between them."
+          },
+          {
+            "step_number": 2,
+            "action": "Set up the algebraic distance.",
+            "latex": "",
+            "why": "Let the neutral point be at a distance x from $Q_{1}$. Its distance from $Q_{2}$ is then (0.3 - x)."
+          },
+          {
+            "step_number": 3,
+            "action": "Equate the magnitudes of the electric fields produced by both charges at this point.",
+            "latex": "\\frac{1}{4\\pi\\epsilon_{0}} \\frac{Q_{1}}{x^{2}} = \\frac{1}{4\\pi\\epsilon_{0}} \\frac{Q_{2}}{(0.3 - x)^{2}}",
+            "why": "For the net field to be zero, the two opposing field vectors must have equal magnitudes."
+          },
+          {
+            "step_number": 4,
+            "action": "Cancel constants and substitute values.",
+            "latex": "\\frac{1 \\times 10^{-6}}{x^{2}} = \\frac{4 \\times 10^{-6}}{(0.3 - x)^{2}} \\implies \\frac{1}{x^{2}} = \\frac{4}{(0.3 - x)^{2}}",
+            "why": "Simplifying the equation makes it ready for a direct square root."
+          },
+          {
+            "step_number": 5,
+            "action": "Take the square root of both sides.",
+            "latex": "\\frac{1}{x} = \\frac{2}{0.3 - x}",
+            "why": "Taking the positive square root directly avoids complex quadratic equations."
+          },
+          {
+            "step_number": 6,
+            "action": "Solve for x.",
+            "latex": "0.3 - x = 2x \\implies 3x = 0.3 \\implies x = 0.1",
+            "why": "Cross multiplication."
+          }
+        ],
+        "final_answer": {
+          "latex": "x = 0.1",
+          "unit": "m",
+          "direction": "from the smaller charge $Q_{1}$"
+        },
+        "trap": "Expanding $(0.3 - x)^2$ to form a quadratic equation wastes time and invites calculation errors. Always take the square root."
+      },
+      {
+        "type": "rapid_recall",
+        "concept_ref": "Electric Field due to a Point Charge",
+        "one_liner": "The electric field of a point charge falls off as the inverse square of the distance and points radially outward for positive charges.",
+        "memory_hook": "Neutral point is always closer to the smaller charge.",
+        "never_forget": [
+          "Electric field obeys the superposition principle exactly like Coulomb force.",
+          "E \\propto 1/$r^{2}$",
+          "Positive charge = field arrows shoot OUT.",
+          "Negative charge = field arrows point IN."
+        ]
+      },
+      {
+        "type": "diagram",
+        "title": "Electric Field of a Point Charge",
+        "source": "NCERT",
+        "ncert_reference": "NCERT Fig 1.11",
+        "description": {
+          "what_is_shown": "Radial electric field lines originating from a positive point charge and terminating on a negative point charge.",
+          "elements": [
+            "Red positive point charge +q",
+            "Blue negative point charge -q",
+            "Electric field vectors pointing radially away from +q",
+            "Electric field vectors pointing radially towards -q",
+            "Vector arrows become shorter as distance from the charge increases"
+          ],
+          "labels": [
+            "+q",
+            "-q",
+            "\\vec{E}"
+          ],
+          "spatial_relationships": "Spherical symmetry is shown in 2D. The density of arrows decreases outwards, and the length of the arrows decreases to physically represent the $1/r^2$ drop in magnitude.",
+          "style_notes": "Dark background #0a0a0f. White arrows and labels. Red for positive charge. Blue for negative charge."
+        },
+        "caption": "Electric field vectors for positive and negative point charges.",
+        "generation_prompt": "Draw two separate 2D diagrams side-by-side. On the left, draw a central red point charge labeled +q. Draw 8 vector arrows pointing radially outward from it at equal angles. Make the arrows closest to the charge thick and long. Draw a second set of 8 arrows further out, making them shorter and thinner to show decreasing field strength. On the right, draw a central blue point charge labeled -q. Draw 8 vector arrows pointing radially inward towards it at equal angles, with the longest arrows closest to the charge. Use a solid dark #0a0a0f background with white arrows and text."
+      }
+    ],
+    "formula_sheet": [
+      {
+        "latex": "\\vec{E} = \\frac{\\vec{F}}{q_{0}}",
+        "label": "Electric Field (General Definition)",
+        "description": "Calculates the electric field if the force on a test charge is known.",
+        "variables": [
+          {
+            "symbol": "\\vec{E}",
+            "name": "Electric field",
+            "unit": "N/C",
+            "note": ""
+          },
+          {
+            "symbol": "\\vec{F}",
+            "name": "Electrostatic force",
+            "unit": "N",
+            "note": ""
+          },
+          {
+            "symbol": "q_{0}",
+            "name": "Test charge",
+            "unit": "C",
+            "note": ""
+          }
+        ],
+        "si_unit_of_result": "N/C",
+        "use_case": "Direct Use",
+        "board_frequency": "HIGH",
+        "common_error": "Using the source charge instead of the test charge in the denominator."
+      },
+      {
+        "latex": "E = \\frac{1}{4\\pi\\epsilon_{0}} \\frac{|Q|}{r^{2}}",
+        "label": "Electric Field of a Point Charge (Magnitude)",
+        "description": "Calculates the magnitude of the electric field produced by a single point charge.",
+        "variables": [
+          {
+            "symbol": "E",
+            "name": "Magnitude of electric field",
+            "unit": "N/C",
+            "note": ""
+          },
+          {
+            "symbol": "Q",
+            "name": "Source charge",
+            "unit": "C",
+            "note": ""
+          },
+          {
+            "symbol": "r",
+            "name": "Distance",
+            "unit": "m",
+            "note": ""
+          }
+        ],
+        "si_unit_of_result": "N/C",
+        "use_case": "Both",
+        "board_frequency": "HIGH",
+        "common_error": "Forgetting to square the distance."
+      }
+    ],
+    "ncert_golden_lines": [
+      "The true physical significance of the concept of electric field... emerges only when we go beyond electrostatics and deal with time-dependent electromagnetic phenomena.",
+      "Electric field is a vector field that associates to each point in space the force experienced by a unit positive test charge.",
+      "The electric field E due to a charge Q is strictly independent of the test charge q placed to measure it."
+    ]
+  },
+  {
+    "meta": {
+      "subject": "Physics",
+      "chapter_number": 1,
+      "chapter_name": "Electric Charges and Fields",
+      "topic": "Electric Field Lines",
+      "frequency": "MEDIUM",
+      "class": 12,
+      "board": "CBSE"
+    },
+    "notes": [
+      {
+        "type": "concept",
+        "title": "Electric Field Lines",
+        "tier": "1",
+        "points": [
+          "An electric field line is a continuous curve drawn in such a way that the tangent to it at each point indicates the direction of the net electric field at that point.",
+          "Field lines originate from positive charges and terminate at negative charges. For a single isolated charge, they may start or end at infinity.",
+          "In a charge-free region, electric field lines can be taken to be continuous curves without any breaks.",
+          "Two field lines can never intersect each other. If they did, it would mean there are two tangents at the point of intersection, implying two different directions of the electric field at a single point, which is physically impossible.",
+          "Electrostatic field lines do not form any closed loops. This is a direct consequence of the conservative nature of the electrostatic field.",
+          "The relative density or closeness of the field lines in a region indicates the relative strength of the electric field; lines are closer together where the field is stronger and farther apart where it is weaker."
+        ],
+        "why_it_matters": "Asked routinely as 1-mark 'give reason' questions (why they don't intersect/form closed loops) or 2-mark diagram drawing tasks for specific charge configurations."
+      },
+      {
+        "type": "exam_intel",
+        "concept_ref": "Electric Field Lines",
+        "frequency": "MEDIUM",
+        "marks_breakdown": [
+          "1 mark (Reasoning questions)",
+          "2 marks (Listing properties or drawing field patterns)"
+        ],
+        "question_forms": [
+          "State two properties of electric field lines. Why do two field lines never cross each other? (2 marks)",
+          "Sketch the electric field lines for an electric dipole. (2 marks)",
+          "Why do electrostatic field lines not form closed loops? (1 mark)"
+        ],
+        "board_traps": [
+          "Students sketch the field lines properly but forget to draw the arrowheads to show the direction, which leads to immediate mark deduction.",
+          "Confusing electrostatic field lines with magnetic field lines and drawing them as continuous closed loops."
+        ],
+        "common_mistakes": [
+          "Drawing field lines passing through or originating from the empty space between charges rather than starting exactly from the charges.",
+          "Drawing lines with sharp angles or kinks; field lines must always be smooth curves."
+        ],
+        "answer_structure": "For reasoning on intersection, state: 'If they intersect, there will be two tangents at the intersection point, representing two directions of the net electric field at the same point, which is impossible.' For drawings, place charges symmetrically, ensure smooth curves, verify arrow directions (away from +, towards -), and ensure no lines cross.",
+        "examiner_expectation": "Examiners strictly look for arrowheads and non-intersecting smooth curves in diagrams. For theory, the exact phrase 'two directions of electric field at one point' is required for full marks."
+      },
+      {
+        "type": "rapid_recall",
+        "concept_ref": "Electric Field Lines",
+        "one_liner": "Electric field lines are imaginary, smooth, non-intersecting curves that map out the electric field, starting at positive charges and ending at negative ones.",
+        "memory_hook": "Lines tell the story: Density = Strength, Tangent = Direction, Positive = Outward, Negative = Inward.",
+        "never_forget": [
+          "NEVER draw two lines crossing each other.",
+          "NEVER draw an electrostatic field line forming a closed loop.",
+          "ALWAYS include arrowheads."
+        ]
+      },
+      {
+        "type": "diagram",
+        "title": "Field Lines of an Electric Dipole",
+        "source": "NCERT",
+        "ncert_reference": "NCERT Fig 1.14",
+        "description": {
+          "what_is_shown": "The electric field line pattern for an electric dipole (two equal and opposite point charges).",
+          "elements": [
+            "Red positive point charge +q",
+            "Blue negative point charge -q",
+            "Smooth curved field lines originating from +q and terminating on -q",
+            "Arrowheads indicating direction from positive to negative",
+            "Field lines bulging outwards laterally"
+          ],
+          "labels": [
+            "+q",
+            "-q"
+          ],
+          "spatial_relationships": "The field lines are dense between the charges. They originate symmetrically from the positive charge and curve gracefully to enter the negative charge symmetrically.",
+          "style_notes": "Dark background #0a0a0f. White lines and labels. Red for positive charge. Blue for negative charge."
+        },
+        "caption": "Electric field lines of a dipole (equal and opposite charges).",
+        "generation_prompt": "Draw a 2D physics diagram showing the electric field lines of an electric dipole. Place a red point charge labeled +q on the left and a blue point charge labeled -q on the right. Draw several smooth, continuous white curves starting from the +q charge and ending at the -q charge. Place arrowheads on these curves pointing from left to right. Draw field lines radiating outward from the left side of the +q charge and field lines curving inward towards the right side of the -q charge. Ensure no two lines intersect. Use a solid dark #0a0a0f background."
+      },
+      {
+        "type": "diagram",
+        "title": "Field Lines of Two Equal Positive Charges",
+        "source": "NCERT",
+        "ncert_reference": "NCERT Fig 1.15",
+        "description": {
+          "what_is_shown": "The electric field line pattern for two equal positive point charges, showing lateral repulsion.",
+          "elements": [
+            "Two red positive point charges +q",
+            "Field lines radiating outwards from both charges",
+            "Field lines curving away from each other in the central region",
+            "A neutral point exactly in the middle where field lines avoid crossing"
+          ],
+          "labels": [
+            "+q",
+            "+q"
+          ],
+          "spatial_relationships": "The lines near each charge are nearly radial. In the region between them, the lines bend away from the vertical midline, visually representing repulsion. A gap exists exactly at the midpoint, representing zero electric field.",
+          "style_notes": "Dark background #0a0a0f. White lines and labels. Red for both positive charges."
+        },
+        "caption": "Electric field lines of two equal positive charges showing mutual repulsion.",
+        "generation_prompt": "Draw a 2D physics diagram showing the electric field lines of two equal positive charges. Place two red point charges labeled +q horizontally adjacent to each other. Draw white field lines originating from both charges and pointing outward. In the space between the charges, draw the lines curving sharply upwards and downwards, moving away from the vertical center line to show repulsion. Leave the exact vertical center space empty to indicate a neutral point. Ensure arrowheads point away from the charges. Use a solid dark #0a0a0f background."
+      }
+    ],
+    "formula_sheet": [],
+    "ncert_golden_lines": [
+      "An electric field line is a curve drawn in such a way that the tangent to it at each point is in the direction of the net field at that point.",
+      "Two field lines can never cross each other.",
+      "Electrostatic field lines do not form any closed loops. This follows from the conservative nature of electric field."
+    ]
+  },
+  {
+    "meta": {
+      "subject": "Physics",
+      "chapter_number": 1,
+      "chapter_name": "Electric Charges and Fields",
+      "topic": "Electric Flux",
+      "frequency": "HIGH",
+      "class": 12,
+      "board": "CBSE"
+    },
+    "notes": [
+      {
+        "type": "concept",
+        "title": "Electric Flux",
+        "tier": "1",
+        "points": [
+          "Electric flux through a given surface area is defined as the total number of electric field lines passing normally through that area.",
+          "Mathematically, the flux \\Phi through a planar area \\vec{A} in a uniform electric field \\vec{E} is defined as the dot product: \\Phi = \\vec{E} \\cdot \\vec{A} = EA\\cos\\theta.",
+          "The area vector \\vec{A} has a magnitude equal to the area of the surface and a direction along the outward drawn normal to the surface.",
+          "For a closed surface, the convention dictates that the outward normal is strictly taken as the positive direction of the area vector.",
+          "For a non-uniform electric field or a curved surface, the total flux is the surface integral: \\Phi = \\oint \\vec{E} \\cdot d\\vec{A}.",
+          "Electric flux is a scalar quantity.",
+          "The flux is maximum when the surface is held perpendicular to the electric field ($\\theta = 0^{\\circ}$) and zero when the surface is held parallel to the field ($\\theta = 90^{\\circ}$)."
+        ],
+        "why_it_matters": "Asked as a 1-mark definition and unit, forms the basis of 2-mark dot-product numericals, and is the absolute prerequisite for understanding and applying Gauss's Law."
+      },
+      {
+        "type": "exam_intel",
+        "concept_ref": "Electric Flux",
+        "frequency": "HIGH",
+        "marks_breakdown": [
+          "1 mark (Definition and SI Unit)",
+          "2 marks (Vector dot product numericals)",
+          "3 marks (Calculating flux through faces of 3D shapes like cubes or cylinders)"
+        ],
+        "question_forms": [
+          "Define electric flux. Is it a scalar or a vector quantity? Write its SI unit. (1 mark)",
+          "Given a uniform electric field $\\vec{E} = 5 \\times 10^{3} \\hat{i}\\,\\text{N/C}$, find the flux of this field through a square of $10\\,\\text{cm}$ on a side whose plane is parallel to the y-z plane. (2 marks)",
+          "A hollow cylinder is placed in a uniform electric field \\vec{E} with its axis parallel to the field. Show that the total electric flux through the cylinder is zero. (3 marks)"
+        ],
+        "board_traps": [
+          "Examiner gives the angle between the electric field and the PLANE of the surface (e.g., 30^{\\circ}). Students use this directly as \\theta in EA\\cos\\theta. The correct angle to use is with the normal: $\\theta = 90^{\\circ}$ - 30^{\\circ} = 60^{\\circ}.",
+          "Asking for flux through a specific face of a cube where the field is parallel to that face. Students calculate EA instead of recognizing $\\theta = 90^{\\circ}$ makes the flux zero."
+        ],
+        "common_mistakes": [
+          "Writing the final answer as a vector (with \\hat{i}, \\hat{j}) instead of a scalar.",
+          "Forgetting to convert the area from $\\text{cm}^{2}$ to $\\text{m}^{2}$ by multiplying by 10^{-4} before multiplying with the electric field.",
+          "Confusing the SI unit of flux ($\\text{Nm}^{2}/\\text{C}$) with the unit of electric field ($\\text{N/C}$)."
+        ],
+        "answer_structure": "For definitions, state the 'number of field lines crossing normally' and write the dot product formula. For numericals, write \\vec{E}, extract \\vec{A} by finding the area and assigning the correct normal unit vector (\\hat{i}, \\hat{j}, or \\hat{k}), and show the dot product calculation explicitly before stating the final scalar value.",
+        "examiner_expectation": "The examiner strictly looks for the identification of the correct angle \\theta with the OUTWARD NORMAL. Mentioning 'outward normal' is often required for the full definition mark."
+      },
+      {
+        "type": "worked_example",
+        "concept_ref": "Electric Flux",
+        "purpose": "Demonstrate calculation of flux using the scalar product and extracting the correct angle from plane geometry.",
+        "situation": "A uniform electric field $\\vec{E} = 3 \\times 10^{3} \\hat{i}\\,\\text{N/C}$ passes through a square planar surface of edge $0.1\\,\\text{m}$. Calculate the electric flux through the square if the normal to its plane makes an angle of 60^{\\circ} with the x-axis.",
+        "given": [
+          "$\\vec{E} = 3 \\times 10^{3} \\hat{i}\\,\\text{N/C}$",
+          "\\text{side } a = $0.1\\,\\text{m}$",
+          "$\\theta = 60^{\\circ}$"
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "action": "Calculate the magnitude of the area of the square surface.",
+            "latex": "A = (0.1)^{2} = 0.01\\,\\text{m}^{2}",
+            "why": "Area must be in square meters to match the SI units of the electric field."
+          },
+          {
+            "step_number": 2,
+            "action": "Identify the angle \\theta between the electric field and the area vector.",
+            "latex": "\\theta = 60^{\\circ}",
+            "why": "The problem explicitly states the angle is between the 'normal to its plane' (which is the area vector) and the x-axis (which is the direction of the electric field), so we use it directly."
+          },
+          {
+            "step_number": 3,
+            "action": "Calculate the electric flux using the dot product formula.",
+            "latex": "\\Phi = EA\\cos\\theta = (3 \\times 10^{3}) \\cdot (0.01) \\cdot \\cos(60^{\\circ})",
+            "why": "Flux is the scalar product of the electric field magnitude and area magnitude scaled by the cosine of the angle between them."
+          },
+          {
+            "step_number": 4,
+            "action": "Compute the final scalar value.",
+            "latex": "\\Phi = 30 \\cdot 0.5 = 15\\,\\text{Nm}^{2}/\\text{C}",
+            "why": "Substitute $\\cos(60^{\\circ}) = 0.5$ and complete the multiplication."
+          }
+        ],
+        "final_answer": {
+          "latex": "\\Phi = 15",
+          "unit": "$\\text{Nm}^{2}/\\text{C}$",
+          "direction": ""
+        },
+        "trap": "If the question had stated 'the plane of the square makes an angle of 60^{\\circ} with the x-axis', the correct angle to use in the formula would be $\\theta = 90^{\\circ}$ - 60^{\\circ} = 30^{\\circ}."
+      },
+      {
+        "type": "rapid_recall",
+        "concept_ref": "Electric Flux",
+        "one_liner": "Electric flux is the dot product of the electric field and the area vector, measuring the total number of field lines piercing a surface.",
+        "memory_hook": "Flux is like rain falling through a window. Maximum water enters when the window is completely facing the rain ($\\theta = 0^{\\circ}$). None enters if the window is parallel to the rain ($\\theta = 90^{\\circ}$).",
+        "never_forget": [
+          "\\theta is the angle with the NORMAL to the surface, NOT the surface itself.",
+          "Flux is a SCALAR. Never leave \\hat{i}, \\hat{j}, \\hat{k} in your final answer.",
+          "Area must be in $\\text{m}^{2}$. Remember $1\\,\\text{cm}^{2} = 10^{-4}\\,\\text{m}^{2}$."
+        ]
+      },
+      {
+        "type": "diagram",
+        "title": "Electric Flux and Area Vector",
+        "source": "NCERT",
+        "ncert_reference": "NCERT Fig 1.18",
+        "description": {
+          "what_is_shown": "Electric field lines passing through a planar area, illustrating the area vector and the angle \\theta.",
+          "elements": [
+            "Planar surface area \\Delta S",
+            "Area vector \\Delta\\vec{S} drawn perpendicular to the surface",
+            "Electric field vector \\vec{E} passing through the surface",
+            "Angle \\theta between \\vec{E} and \\Delta\\vec{S}"
+          ],
+          "labels": [
+            "\\Delta S",
+            "\\Delta\\vec{S}",
+            "\\vec{E}",
+            "\\theta"
+          ],
+          "spatial_relationships": "The planar surface is tilted. The area vector points strictly perpendicular to it. The electric field lines pass horizontally through the surface, making an angle \\theta with the normal.",
+          "style_notes": "Dark background #0a0a0f. White lines and labels. Light blue for the surface plane. Yellow for the area vector. Cyan for electric field vectors."
+        },
+        "caption": "Dependence of flux on the angle between electric field and area vector.",
+        "generation_prompt": "Draw a 2D physics diagram showing electric flux. Draw a tilted light blue rectangular plane representing a surface area. Draw a yellow vector arrow originating from the center of the plane, perpendicular to its surface, and label it with the area vector symbol. Draw several horizontal cyan vector arrows passing through the plane from left to right, representing the uniform electric field E. Mark the angle between the horizontal electric field vector and the perpendicular area vector as theta. Use a solid dark #0a0a0f background with bright white text."
+      }
+    ],
+    "formula_sheet": [
+      {
+        "latex": "\\Phi = \\vec{E} \\cdot \\vec{A} = EA\\cos\\theta",
+        "label": "Electric Flux (Uniform Field)",
+        "description": "Calculates the electric flux through a flat planar surface in a uniform electric field.",
+        "variables": [
+          {
+            "symbol": "\\Phi",
+            "name": "Electric flux",
+            "unit": "$\\text{Nm}^{2}/\\text{C}$",
+            "note": "Scalar quantity."
+          },
+          {
+            "symbol": "\\vec{E}",
+            "name": "Electric field vector",
+            "unit": "$\\text{N/C}$",
+            "note": ""
+          },
+          {
+            "symbol": "\\vec{A}",
+            "name": "Area vector",
+            "unit": "$\\text{m}^{2}$",
+            "note": "Direction is strictly along the outward normal."
+          },
+          {
+            "symbol": "\\theta",
+            "name": "Angle",
+            "unit": "^{\\circ}",
+            "note": "Angle between the electric field and the area vector."
+          }
+        ],
+        "si_unit_of_result": "$\\text{Nm}^{2}/\\text{C}$",
+        "use_case": "Direct Use",
+        "board_frequency": "HIGH",
+        "common_error": "Substituting the angle between the field and the plane of the surface instead of the normal."
+      },
+      {
+        "latex": "\\Phi = \\oint \\vec{E} \\cdot d\\vec{A}",
+        "label": "Electric Flux (General/Closed Surface)",
+        "description": "General formula for total flux over a curved or closed surface in a uniform or non-uniform field.",
+        "variables": [
+          {
+            "symbol": "\\Phi",
+            "name": "Total electric flux",
+            "unit": "$\\text{Nm}^{2}/\\text{C}$",
+            "note": ""
+          },
+          {
+            "symbol": "\\vec{E}",
+            "name": "Electric field vector",
+            "unit": "$\\text{N/C}$",
+            "note": ""
+          },
+          {
+            "symbol": "d\\vec{A}",
+            "name": "Infinitesimal area vector element",
+            "unit": "$\\text{m}^{2}$",
+            "note": "Points along the outward normal of the differential patch."
+          }
+        ],
+        "si_unit_of_result": "$\\text{Nm}^{2}/\\text{C}$",
+        "use_case": "Derivation Required",
+        "board_frequency": "HIGH",
+        "common_error": "Forgetting that the circle on the integral sign implies a sum over the ENTIRE completely closed surface."
+      }
+    ],
+    "ncert_golden_lines": [
+      "Electric flux \\Delta\\Phi through an area element \\Delta\\vec{S} is defined by \\Delta\\Phi = \\vec{E} \\cdot \\Delta\\vec{S} = E \\Delta S \\cos\\theta.",
+      "The direction of a planar area vector is along its normal.",
+      "For a closed surface, the convention is that the outward normal is taken as the positive direction."
+    ]
+  },
+  {
+    "meta": {
+      "subject": "Physics",
+      "chapter_number": 1,
+      "chapter_name": "Electric Charges and Fields",
+      "topic": "Electric Dipole",
+      "frequency": "HIGH",
+      "class": 12,
+      "board": "CBSE"
+    },
+    "notes": [
+      {
+        "type": "concept",
+        "title": "Electric Dipole and Dipole Moment",
+        "tier": "1",
+        "points": [
+          "An electric dipole is a pair of equal and opposite point charges (q and -q) separated by a distance 2a.",
+          "The total charge of the electric dipole is strictly zero, but its electric field is not zero because the charges are separated by some distance.",
+          "The electric dipole moment \\vec{p} is a vector quantity whose magnitude is the product of either charge and the separation distance: p = q \\times 2a.",
+          "By convention, the direction of the dipole moment \\vec{p} is from the negative charge to the positive charge.",
+          "The center of the dipole is the midpoint of the line joining the two charges.",
+          "In physics, molecules where the center of positive charge does not coincide with the center of negative charge (like water) possess permanent dipole moments and are called polar molecules."
+        ],
+        "why_it_matters": "Asked as 1-mark definitions. The dipole moment is the fundamental variable used to describe the dipole's behavior in electric fields, replacing individual charges q and separation 2a."
+      },
+      {
+        "type": "exam_intel",
+        "concept_ref": "Electric Dipole and Dipole Moment",
+        "frequency": "HIGH",
+        "marks_breakdown": [
+          "1 mark (Definition, SI unit, or direction)",
+          "2 marks (Conceptual questions on net charge vs net field)"
+        ],
+        "question_forms": [
+          "Define electric dipole moment. Is it a scalar or a vector quantity? Write its SI unit. (1 mark)",
+          "What is the net charge of an electric dipole? Does it mean the electric field is zero? Explain. (2 marks)"
+        ],
+        "board_traps": [
+          "Examiner asks for the direction of dipole moment. Students write 'positive to negative' because they confuse it with the convention for electric field lines. It is strictly NEGATIVE to POSITIVE.",
+          "Examiner gives the total separation distance between charges as a value (e.g., d = 2 mm). Students substitute this value for 'a' instead of '2a' in the formula p = q(2a), doubling their final answer."
+        ],
+        "common_mistakes": [
+          "Writing the SI unit as cm (centimeter) instead of Cm (Coulomb-meter).",
+          "Assuming the net field is zero just because the net charge is zero."
+        ],
+        "answer_structure": "For definitions, write the theoretical statement, immediately followed by the formula \\vec{p} = q(2\\vec{a}) and an explicit statement of direction. State the SI unit clearly with a capital C.",
+        "examiner_expectation": "The vector nature and the specific direction (negative to positive) are the two mandatory keywords an examiner scans for in the definition."
+      },
+      {
+        "type": "rapid_recall",
+        "concept_ref": "Electric Dipole and Dipole Moment",
+        "one_liner": "An electric dipole is an arrangement of two equal and opposite charges, characterized by a dipole moment vector pointing from the negative to the positive charge.",
+        "memory_hook": "Dipole Moment is a 'Negative to Positive' journey. It climbs UP the charge ladder (- to +).",
+        "never_forget": [
+          "Direction: -q to +q.",
+          "Formula uses 2a as the TOTAL distance. Do not multiply the given total distance by 2.",
+          "SI Unit: Coulomb-meter (Cm), not centimeter."
+        ]
+      },
+      {
+        "type": "formula",
+        "label": "Electric Dipole Moment",
+        "latex": "\\vec{p} = q(2a)\\hat{p}",
+        "variables": [
+          {
+            "symbol": "\\vec{p}",
+            "name": "Electric dipole moment vector",
+            "unit": "\\text{Cm}",
+            "note": "Points from -q to +q."
+          },
+          {
+            "symbol": "q",
+            "name": "Magnitude of either charge",
+            "unit": "C",
+            "note": "Use the positive magnitude."
+          },
+          {
+            "symbol": "2a",
+            "name": "Total separation distance between charges",
+            "unit": "m",
+            "note": "This is a single quantity representing the full gap."
+          },
+          {
+            "symbol": "\\hat{p}",
+            "name": "Unit vector along the dipole axis",
+            "unit": "dimensionless",
+            "note": "Directed from -q to +q."
+          }
+        ],
+        "conditions": [
+          "Two point charges of equal magnitude and opposite sign"
+        ],
+        "si_unit_of_result": "\\text{Cm}",
+        "physical_meaning": "A measure of the system's overall polarity and its geometric size, which determines how strongly it will interact with external electric fields.",
+        "common_error": "Substituting the given separation distance for 'a' and multiplying by 2."
+      },
+      {
+        "type": "diagram",
+        "title": "Electric Dipole",
+        "source": "NCERT",
+        "ncert_reference": "NCERT Fig 1.20",
+        "description": {
+          "what_is_shown": "The basic structure of an electric dipole and its dipole moment vector.",
+          "elements": [
+            "Blue point charge labeled -q",
+            "Red point charge labeled +q",
+            "Axis connecting the two charges",
+            "Center point O",
+            "Distance 'a' marked from -q to O, and 'a' from O to +q",
+            "Vector arrow \\vec{p} pointing from -q to +q"
+          ],
+          "labels": [
+            "-q",
+            "+q",
+            "2a",
+            "\\vec{p}",
+            "O"
+          ],
+          "spatial_relationships": "The charges are separated horizontally. The vector \\vec{p} runs parallel to the axis, strictly starting at the negative charge and pointing towards the positive charge.",
+          "style_notes": "Dark background #0a0a0f. White lines and text. Blue for negative, red for positive."
+        },
+        "caption": "An electric dipole and the direction of its dipole moment.",
+        "generation_prompt": "Draw a 2D physics diagram of an electric dipole. Draw a blue point charge labeled -q on the left and a red point charge labeled +q on the right. Connect them with a horizontal white dashed line. Mark the exact center of this line as O. Mark the distance from -q to O as 'a', and from O to +q as 'a'. Draw a thick white arrow parallel to the dashed line, pointing from -q to +q, and label it with the vector symbol p. Use a solid dark #0a0a0f background."
+      },
+      {
+        "type": "concept",
+        "title": "Electric Field at an Axial Point of a Dipole",
+        "tier": "1",
+        "points": [
+          "The axial line is the straight line passing through both charges of the dipole.",
+          "The electric field at any point on the axial line is the vector sum of the electric fields produced individually by the +q and -q charges.",
+          "Because the point is closer to one charge than the other, the two collinear field vectors have unequal magnitudes and point in opposite directions.",
+          "The net electric field at an axial point is always directed along the direction of the dipole moment vector \\vec{p}.",
+          "For distances far away from the dipole ($r \\gg a$), the electric field falls off as \\frac{1}{r^{3}}, not $\\frac{1}{r^{2}}$ like a single point charge."
+        ],
+        "why_it_matters": "Asked as a 3-mark derivation in almost every alternate board exam, and is heavily tested in numericals checking if the student knows to apply the short-dipole approximation."
+      },
+      {
+        "type": "derived_result",
+        "statement": "The net electric field at a point on the axis of an electric dipole points in the direction of the dipole moment.",
+        "latex": "\\vec{E} = \\frac{1}{4\\pi\\epsilon_{0}} \\frac{2pr}{(r^{2}-a^{2})^{2}} \\hat{p}",
+        "variables": [
+          {
+            "symbol": "\\vec{E}",
+            "name": "Net electric field on the axial line",
+            "unit": "$\\text{N/C}$",
+            "note": ""
+          },
+          {
+            "symbol": "p",
+            "name": "Magnitude of dipole moment (q \\times 2a)",
+            "unit": "\\text{Cm}",
+            "note": ""
+          },
+          {
+            "symbol": "r",
+            "name": "Distance of observation point from the CENTER of the dipole",
+            "unit": "m",
+            "note": "Crucial: measured from the center, not from the charges."
+          },
+          {
+            "symbol": "a",
+            "name": "Half the separation distance between charges",
+            "unit": "m",
+            "note": ""
+          },
+          {
+            "symbol": "\\hat{p}",
+            "name": "Unit vector along dipole moment",
+            "unit": "dimensionless",
+            "note": "Indicates field is parallel to p."
+          }
+        ],
+        "valid_when": "Valid for any point on the axial line outside the dipole.",
+        "derivation_asked": true,
+        "proof_skeleton": [
+          "Draw dipole on x-axis with center at origin. Identify observation point P at distance r from center.",
+          "Write magnitude of field due to +q: E_{+q} = \\frac{q}{4\\pi$\\epsilon_{0}$(r-a)^{2}} pointing away from +q.",
+          "Write magnitude of field due to -q: E_{-q} = \\frac{q}{4\\pi$\\epsilon_{0}$(r+a)^{2}} pointing towards -q.",
+          "State net field is vector sum. Since they are opposite, subtract magnitudes: $E = E_{+q} - E_{-q}$.",
+          "Take common terms out and find common denominator: (r-a)^{2}(r+a)^{2} = ($r^{2}$-a^{2})^{2}.",
+          "Expand numerators: $(r+a)^{2} - (r-a)^{2} = 4ar$.",
+          "Group terms into dipole moment: q(2a) = p to get the final general formula.",
+          "Apply short dipole limit ($r \\gg a$) by dropping a^{2} in denominator to get E = \\frac{2p}{4\\pi$\\epsilon_{0}$r^{3}}."
+        ]
+      },
+      {
+        "type": "exam_intel",
+        "concept_ref": "Electric Field at an Axial Point of a Dipole",
+        "frequency": "HIGH",
+        "marks_breakdown": [
+          "3 marks (Derivation)",
+          "3 marks (Numericals on exact vs approximate formula)"
+        ],
+        "question_forms": [
+          "Derive an expression for the electric field at a point on the axial line of an electric dipole. (3 marks)",
+          "Two charges \\pm 10\\,\\mu\\text{C} are placed 5\\,\\text{mm} apart. Determine the electric field at a point P on the axis of the dipole 15\\,\\text{cm} away from its centre on the side of the positive charge. (3 marks)"
+        ],
+        "board_traps": [
+          "Examiner gives a distance r that is NOT much greater than a (e.g., a = 5 cm, r = 10 cm). Students blindly use the short dipole formula $\\frac{2kp}{r^{3}}$ and lose all marks for the calculation. You must verify if $r \\gg a$.",
+          "Students calculate distance from the charge instead of the center. If point P is 10 cm from the +q charge, they plug r = 10 into the formula. The formula requires r to be from the center."
+        ],
+        "common_mistakes": [
+          "Algebraic errors when expanding $(r+a)^{2} - (r-a)^{2}$ during the derivation.",
+          "Forgetting to multiply q by 2a when substituting for p in the final step of the derivation."
+        ],
+        "answer_structure": "For derivations, a diagram is compulsory. Define distance r from the center. Clearly show the subtraction of vectors. Arrive at the general formula first, then explicitly write 'For a short dipole (r >> a)' and write the reduced formula.",
+        "examiner_expectation": "Examiners look for the diagram showing r measured from the center, the correct algebraic expansion, and the explicit statement of the direction of the final field."
+      },
+      {
+        "type": "worked_example",
+        "concept_ref": "Electric Field at an Axial Point of a Dipole",
+        "purpose": "Demonstrate why you cannot always use the short dipole approximation and must check the ratio of r to a.",
+        "situation": "Two point charges of $+2 \\times 10^{-6}\\,\\text{C}$ and $-2 \\times 10^{-6}\\,\\text{C}$ are separated by a distance of $0.2\\,\\text{m}$. Calculate the electric field at a point on the axial line $0.2\\,\\text{m}$ from the center of the dipole.",
+        "given": [
+          "q = 2 \\times $10^{-6}$\\,\\text{C}",
+          "2a = $0.2\\,\\text{m}$ \\implies a = $0.1\\,\\text{m}$",
+          "r = $0.2\\,\\text{m}$"
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "action": "Check if the short dipole approximation is valid.",
+            "latex": "",
+            "why": "Compare r and a. Here, r = 0.2 m and a = 0.1 m. r is NOT much greater than a (it's only double). Therefore, the short dipole formula $E = 2kp/r^{3}$ will give a massively wrong answer. We MUST use the general formula."
+          },
+          {
+            "step_number": 2,
+            "action": "Calculate the dipole moment p.",
+            "latex": "p = q(2a) = (2 \\times 10^{-6}) \\cdot (0.2) = 4 \\times 10^{-7}\\,\\text{Cm}",
+            "why": "Find the core parameter of the dipole first."
+          },
+          {
+            "step_number": 3,
+            "action": "Substitute values into the general axial formula.",
+            "latex": "E = \\frac{1}{4\\pi\\epsilon_{0}} \\frac{2pr}{(r^{2}-a^{2})^{2}} = (9 \\times 10^{9}) \\frac{2(4 \\times 10^{-7})(0.2)}{((0.2)^{2} - (0.1)^{2})^{2}}",
+            "why": "Direct substitution into the exact theoretical formula."
+          },
+          {
+            "step_number": 4,
+            "action": "Simplify the denominator.",
+            "latex": "(0.04 - 0.01)^{2} = (0.03)^{2} = 0.0009 = 9 \\times 10^{-4}",
+            "why": "Careful arithmetic to avoid decimal errors."
+          },
+          {
+            "step_number": 5,
+            "action": "Calculate final magnitude.",
+            "latex": "E = \\frac{9 \\times 10^{9} \\times 1.6 \\times 10^{-7}}{9 \\times 10^{-4}} = \\frac{14.4 \\times 10^{2}}{9 \\times 10^{-4}} = 1.6 \\times 10^{6}\\,\\text{N/C}",
+            "why": "Basic algebraic simplification."
+          }
+        ],
+        "final_answer": {
+          "latex": "1.6 \\times 10^{6}",
+          "unit": "$\\text{N/C}$",
+          "direction": "Along the dipole moment vector (from -q to +q)"
+        },
+        "trap": "If a student blindly used E = $2kp/r^3$, they would get $E = 9\\times 10^9 \\times 2 \\times 4\\times 10^{-7} / (0.2)^3 = 9\\times 10^5 \\text{N/C}$. This is almost half the correct value! Always check if r >> a."
+      },
+      {
+        "type": "rapid_recall",
+        "concept_ref": "Electric Field at an Axial Point of a Dipole",
+        "one_liner": "The electric field on the axis of a dipole points in the same direction as the dipole moment and decays as $1/r^3$ at large distances.",
+        "memory_hook": "Axial field is 'Pro-Dipole'. It aligns WITH the dipole moment \\vec{p}.",
+        "never_forget": [
+          "Axial field direction is exactly parallel to \\vec{p}.",
+          "Distance 'r' is always measured from the CENTER, not the edges.",
+          "Only use $2kp/r^3$ if the problem says 'short dipole' or if r is at least 10 times larger than a."
+        ]
+      },
+      {
+        "type": "diagram",
+        "title": "Electric Field at an Axial Point",
+        "source": "NCERT",
+        "ncert_reference": "NCERT Fig 1.21(a)",
+        "description": {
+          "what_is_shown": "Vector representation of electric fields from individual charges at an observation point P on the dipole axis.",
+          "elements": [
+            "Dipole with -q and +q charges",
+            "Center O and distance 2a",
+            "Observation point P on the axis, on the side of +q",
+            "Distance r marked from center O to point P",
+            "Long vector arrow $\\vec{E}_{+q}$ pointing away from +q",
+            "Short vector arrow $\\vec{E}_{-q}$ pointing towards -q"
+          ],
+          "labels": [
+            "-q",
+            "+q",
+            "O",
+            "P",
+            "r",
+            "2a",
+            "$\\vec{E}_{+q}$",
+            "$\\vec{E}_{-q}$"
+          ],
+          "spatial_relationships": "Point P is closer to +q, so $\\vec{E}_{+q}$ is drawn significantly longer than $\\vec{E}_{-q}$ to visually prove why the net field points away from the dipole.",
+          "style_notes": "Dark background #0a0a0f. White lines and labels. Blue for -q, red for +q. Cyan for electric field vectors."
+        },
+        "caption": "Electric field of a dipole at an axial point.",
+        "generation_prompt": "Draw a 2D physics diagram for the electric field at an axial point. Draw a horizontal dipole: a blue -q charge on the left, a red +q charge on the right. Mark the center O. Draw a point P on the horizontal line further to the right of +q. Label the distance from O to P as 'r'. At point P, draw two vector arrows: a long cyan arrow pointing right labeled $E_+q$, and a short cyan arrow pointing left labeled $E_-q$. Use a solid dark #0a0a0f background."
+      },
+      {
+        "type": "concept",
+        "title": "Electric Field at an Equatorial Point of a Dipole",
+        "tier": "1",
+        "points": [
+          "The equatorial plane is the plane passing through the center of the dipole and perpendicular to its axis.",
+          "At any point on the equatorial line, the magnitudes of the electric fields produced by +q and -q are exactly equal because the point is equidistant from both charges.",
+          "When these field vectors are resolved into components, the components perpendicular to the dipole axis cancel each other out.",
+          "The components parallel to the dipole axis add up to give the net electric field.",
+          "The net electric field at an equatorial point is always directed opposite (anti-parallel) to the dipole moment vector \\vec{p}."
+        ],
+        "why_it_matters": "Asked as a 3-mark derivation requiring vector resolution skills. Frequently paired with the axial field to ask for the ratio of fields for a short dipole."
+      },
+      {
+        "type": "derived_result",
+        "statement": "The net electric field at a point on the equatorial line of an electric dipole points opposite to the direction of the dipole moment.",
+        "latex": "\\vec{E} = -\\frac{1}{4\\pi\\epsilon_{0}} \\frac{p}{(r^{2}+a^{2})^{3/2}} \\hat{p}",
+        "variables": [
+          {
+            "symbol": "\\vec{E}",
+            "name": "Net electric field on the equatorial line",
+            "unit": "$\\text{N/C}$",
+            "note": ""
+          },
+          {
+            "symbol": "p",
+            "name": "Magnitude of dipole moment",
+            "unit": "\\text{Cm}",
+            "note": ""
+          },
+          {
+            "symbol": "r",
+            "name": "Perpendicular distance from the center of the dipole",
+            "unit": "m",
+            "note": ""
+          },
+          {
+            "symbol": "a",
+            "name": "Half the separation distance",
+            "unit": "m",
+            "note": ""
+          },
+          {
+            "symbol": "\\hat{p}",
+            "name": "Unit vector along dipole moment",
+            "unit": "dimensionless",
+            "note": "The negative sign indicates the field is opposite to p."
+          }
+        ],
+        "valid_when": "Valid for any point on the perpendicular bisector of the dipole.",
+        "derivation_asked": true,
+        "proof_skeleton": [
+          "Draw dipole on x-axis. Identify point P on the y-axis at distance r from center O.",
+          "Distance from P to either charge is \\sqrt{$r^{2}$+a^{2}}.",
+          "Write magnitudes: $E_{+q} = E_{-q} = \\frac{q}{4\\pi\\epsilon_{0}(r^{2}+a^{2})}$.",
+          "Resolve vectors at P. The vertical components (E\\sin\\theta) are equal and opposite, so they cancel.",
+          "The horizontal components (E\\cos\\theta) point in the same direction (opposite to \\vec{p}) and add up.",
+          "Net field $E = 2 E_{+q} \\cos\\theta$.",
+          "From the geometry triangle, substitute $\\cos\\theta = \\frac{a}{\\sqrt{r^{2}+a^{2}}}$.",
+          "Simplify: $E = \\frac{2qa}{4\\pi\\epsilon_{0}(r^{2}+a^{2})^{3/2}}$.",
+          "Substitute p = 2qa. Add negative sign for vector notation.",
+          "Apply short dipole limit ($r \\gg a$) by dropping a^{2} to get E = -\\frac{p}{4\\pi$\\epsilon_{0}$r^{3}} \\hat{p}."
+        ]
+      },
+      {
+        "type": "exam_intel",
+        "concept_ref": "Electric Field at an Equatorial Point of a Dipole",
+        "frequency": "HIGH",
+        "marks_breakdown": [
+          "3 marks (Derivation)",
+          "1 mark (Ratio questions)"
+        ],
+        "question_forms": [
+          "Derive an expression for the electric field at a point on the equatorial plane of an electric dipole. (3 marks)",
+          "What is the ratio of the electric field at an axial point to the electric field at an equatorial point for a short dipole at the same distance? (1 mark)"
+        ],
+        "board_traps": [
+          "Students forget the negative sign in the final vector expression for the equatorial field. It is crucial because the field points opposite to \\vec{p}.",
+          "In the derivation diagram, students draw the resultant field pointing towards the right (same as \\vec{p}) instead of the left."
+        ],
+        "common_mistakes": [
+          "Incorrectly substituting $\\cos\\theta = r/\\sqrt{r^2+a^2}$ instead of the correct $a/\\sqrt{r^2+a^2}$.",
+          "Failing to state explicitly that the perpendicular components cancel out."
+        ],
+        "answer_structure": "For derivations, the diagram showing vector resolution is the most critical part. State clearly: 'Vertical components E\\sin\\theta cancel out. Horizontal components E\\cos\\theta add up.' Show the geometric substitution for \\cos\\theta. Conclude with the negative vector notation.",
+        "examiner_expectation": "Examiners specifically look for the vector resolution diagram at point P. Without showing the components adding and cancelling, the derivation is considered incomplete."
+      },
+      {
+        "type": "rapid_recall",
+        "concept_ref": "Electric Field at an Equatorial Point of a Dipole",
+        "one_liner": "The electric field on the equatorial plane of a dipole points opposite to the dipole moment and is exactly half the strength of the axial field at the same distance for a short dipole.",
+        "memory_hook": "Equatorial is 'Anti-Dipole' and 'Half-Strength'.",
+        "never_forget": [
+          "Equatorial field direction is ANTI-PARALLEL to \\vec{p}.",
+          "$E_{axial} = 2 \\times E_{equatorial}$ (for a short dipole).",
+          "The denominator power is 3/2 in the general formula."
+        ]
+      },
+      {
+        "type": "diagram",
+        "title": "Electric Field at an Equatorial Point",
+        "source": "NCERT",
+        "ncert_reference": "NCERT Fig 1.21(b)",
+        "description": {
+          "what_is_shown": "Vector resolution of electric fields from individual charges at an observation point P on the equatorial bisector.",
+          "elements": [
+            "Dipole with -q (left) and +q (right)",
+            "Center O",
+            "Observation point P on the vertical bisector above O",
+            "Distance r marked from O to P",
+            "Vector $\\vec{E}_{+q}$ pointing diagonally up and away from +q",
+            "Vector $\\vec{E}_{-q}$ pointing diagonally down and towards -q",
+            "Angles \\theta marked inside the triangle and at point P",
+            "Resultant vector \\vec{E} pointing horizontally to the left (opposite to \\vec{p})"
+          ],
+          "labels": [
+            "-q",
+            "+q",
+            "P",
+            "r",
+            "\\theta",
+            "$\\vec{E}_{+q}$",
+            "$\\vec{E}_{-q}$",
+            "\\vec{E}"
+          ],
+          "spatial_relationships": "The two individual field vectors form a parallelogram. The resultant diagonal vector points perfectly horizontally to the left, which is visually opposite to the -q to +q direction of the dipole moment.",
+          "style_notes": "Dark background #0a0a0f. White lines and labels. Blue for -q, red for +q. Cyan for individual field vectors, yellow for the resultant net field vector."
+        },
+        "caption": "Electric field of a dipole at an equatorial point showing vector resolution.",
+        "generation_prompt": "Draw a 2D physics diagram for the electric field at an equatorial point. Draw a horizontal dipole: a blue -q charge on the left, a red +q charge on the right, centered at O. Draw a point P vertically above O at distance r. Draw dashed lines connecting -q to P and +q to P, forming an isosceles triangle. Mark base angles as theta. At point P, draw a cyan vector $E_+q$ pointing diagonally up-left (away from +q). Draw another cyan vector $E_-q$ pointing diagonally down-left (towards -q). Draw a horizontal yellow vector pointing left labeled E (resultant). Show the angle theta between $E_+q$ and the horizontal. Use a solid dark #0a0a0f background."
+      }
+    ],
+    "formula_sheet": [
+      {
+        "latex": "\\vec{p} = q(2a)\\hat{p}",
+        "label": "Electric Dipole Moment",
+        "description": "Calculates the dipole moment vector.",
+        "variables": [
+          {
+            "symbol": "\\vec{p}",
+            "name": "Dipole moment",
+            "unit": "\\text{Cm}",
+            "note": "Direction is - to +"
+          },
+          {
+            "symbol": "q",
+            "name": "Charge magnitude",
+            "unit": "C",
+            "note": ""
+          },
+          {
+            "symbol": "2a",
+            "name": "Total separation",
+            "unit": "m",
+            "note": ""
+          }
+        ],
+        "si_unit_of_result": "\\text{Cm}",
+        "use_case": "Direct Use",
+        "board_frequency": "HIGH",
+        "common_error": "Multiplying the given separation distance by 2."
+      },
+      {
+        "latex": "E_{axial} = \\frac{1}{4\\pi\\epsilon_{0}} \\frac{2pr}{(r^{2}-a^{2})^{2}}",
+        "label": "Axial Field (Exact)",
+        "description": "Magnitude of electric field on the axis at any distance r.",
+        "variables": [
+          {
+            "symbol": "p",
+            "name": "Dipole moment",
+            "unit": "\\text{Cm}",
+            "note": ""
+          },
+          {
+            "symbol": "r",
+            "name": "Distance from center",
+            "unit": "m",
+            "note": ""
+          },
+          {
+            "symbol": "a",
+            "name": "Half separation",
+            "unit": "m",
+            "note": ""
+          }
+        ],
+        "si_unit_of_result": "$\\text{N/C}$",
+        "use_case": "Both",
+        "board_frequency": "HIGH",
+        "common_error": "Using this instead of the short formula when r >> a, wasting time."
+      },
+      {
+        "latex": "\\vec{E}_{axial} = \\frac{1}{4\\pi\\epsilon_{0}} \\frac{2p}{r^{3}} \\hat{p}",
+        "label": "Axial Field (Short Dipole)",
+        "description": "Electric field on the axis when r >> a.",
+        "variables": [
+          {
+            "symbol": "\\vec{E}_{axial}",
+            "name": "Axial field",
+            "unit": "$\\text{N/C}$",
+            "note": "Parallel to p."
+          },
+          {
+            "symbol": "p",
+            "name": "Dipole moment",
+            "unit": "\\text{Cm}",
+            "note": ""
+          },
+          {
+            "symbol": "r",
+            "name": "Distance from center",
+            "unit": "m",
+            "note": "Must cube this."
+          }
+        ],
+        "si_unit_of_result": "$\\text{N/C}$",
+        "use_case": "Both",
+        "board_frequency": "HIGH",
+        "common_error": "Using this when r is comparable to a."
+      },
+      {
+        "latex": "E_{equatorial} = \\frac{1}{4\\pi\\epsilon_{0}} \\frac{p}{(r^{2}+a^{2})^{3/2}}",
+        "label": "Equatorial Field (Exact)",
+        "description": "Magnitude of electric field on the bisector at any distance r.",
+        "variables": [
+          {
+            "symbol": "p",
+            "name": "Dipole moment",
+            "unit": "\\text{Cm}",
+            "note": ""
+          },
+          {
+            "symbol": "r",
+            "name": "Distance from center",
+            "unit": "m",
+            "note": ""
+          },
+          {
+            "symbol": "a",
+            "name": "Half separation",
+            "unit": "m",
+            "note": ""
+          }
+        ],
+        "si_unit_of_result": "$\\text{N/C}$",
+        "use_case": "Both",
+        "board_frequency": "HIGH",
+        "common_error": "Incorrect mathematical handling of the 3/2 power."
+      },
+      {
+        "latex": "\\vec{E}_{equatorial} = -\\frac{1}{4\\pi\\epsilon_{0}} \\frac{p}{r^{3}} \\hat{p}",
+        "label": "Equatorial Field (Short Dipole)",
+        "description": "Electric field on the bisector when r >> a.",
+        "variables": [
+          {
+            "symbol": "\\vec{E}_{equatorial}",
+            "name": "Equatorial field",
+            "unit": "$\\text{N/C}$",
+            "note": "Negative sign means anti-parallel to p."
+          },
+          {
+            "symbol": "p",
+            "name": "Dipole moment",
+            "unit": "\\text{Cm}",
+            "note": ""
+          },
+          {
+            "symbol": "r",
+            "name": "Distance from center",
+            "unit": "m",
+            "note": ""
+          }
+        ],
+        "si_unit_of_result": "$\\text{N/C}$",
+        "use_case": "Both",
+        "board_frequency": "HIGH",
+        "common_error": "Forgetting the negative sign indicating direction."
+      }
+    ],
+    "ncert_golden_lines": [
+      "The total charge of the electric dipole is obviously zero. This does not mean that the field of the electric dipole is zero.",
+      "At large distances, the dipole field falls off as $1/r^3$.",
+      "The physical significance of dipoles emerges when we look at materials. In some molecules, the centres of negative charges and of positive charges do not coincide."
+    ]
+  },
+  {
+    "meta": {
+      "subject": "Physics",
+      "chapter_number": 1,
+      "chapter_name": "Electric Charges and Fields",
+      "topic": "Dipole in a Uniform External Field",
+      "frequency": "MEDIUM",
+      "class": 12,
+      "board": "CBSE"
+    },
+    "notes": [
+      {
+        "type": "concept",
+        "title": "Dipole in a Uniform External Field",
+        "tier": "1",
+        "points": [
+          "When an electric dipole is placed in a uniform external electric field \\vec{E}, the positive charge +q experiences a force +q\\vec{E} in the direction of the field.",
+          "The negative charge -q experiences a force -q\\vec{E} in the direction opposite to the field.",
+          "Since the external field is uniform, these two forces are equal in magnitude and opposite in direction, making the net translational force on the dipole exactly zero.",
+          "A dipole in a uniform electric field does not undergo any translational motion.",
+          "However, because the two forces act at different points and do not share the same line of action, they constitute a couple.",
+          "This couple exerts a net torque on the dipole, which tends to rotate it and align its dipole moment \\vec{p} with the direction of the external field \\vec{E}.",
+          "The dipole is in stable equilibrium when \\vec{p} is parallel to \\vec{E} ($\\theta = 0^{\\circ}$) and unstable equilibrium when \\vec{p} is anti-parallel to \\vec{E} ($\\theta = 180^{\\circ}$)."
+        ],
+        "why_it_matters": "Asked as 1-mark conceptual questions on equilibrium states and as a standard 2-mark derivation for the torque formula."
+      },
+      {
+        "type": "derived_result",
+        "statement": "The torque acting on a dipole in a uniform electric field is the cross product of the dipole moment and the electric field.",
+        "latex": "\\vec{\\tau} = \\vec{p} \\times \\vec{E}",
+        "variables": [
+          {
+            "symbol": "\\vec{\\tau}",
+            "name": "Torque acting on the dipole",
+            "unit": "\\text{Nm}",
+            "note": "Direction is given by the right-hand rule."
+          },
+          {
+            "symbol": "\\vec{p}",
+            "name": "Electric dipole moment",
+            "unit": "\\text{Cm}",
+            "note": "Magnitude is q(2a)."
+          },
+          {
+            "symbol": "\\vec{E}",
+            "name": "Uniform external electric field",
+            "unit": "$\\text{N/C}$",
+            "note": ""
+          }
+        ],
+        "valid_when": "The external electric field must be uniform across the entire length of the dipole.",
+        "derivation_asked": true,
+        "proof_skeleton": [
+          "Draw a dipole of length 2a at an angle \\theta to a uniform horizontal electric field \\vec{E}.",
+          "State the forces: $\\vec{F}_{+} = q\\vec{E}$ and $\\vec{F}_{-} = -q\\vec{E}$.",
+          "State that net force is zero but they form a couple.",
+          "Identify the formula for torque: magnitude of one force \\times perpendicular distance between their lines of action.",
+          "From the diagram geometry, show that perpendicular distance = 2a\\sin\\theta.",
+          "Substitute to find torque magnitude: \\tau = qE \\times (2a\\sin\\theta).",
+          "Group terms into dipole moment: \\tau = (q \\times 2a)E\\sin\\theta = pE\\sin\\theta.",
+          "Write in vector notation using the definition of cross product: \\vec{\\tau} = \\vec{p} \\times \\vec{E}."
+        ]
+      },
+      {
+        "type": "exam_intel",
+        "concept_ref": "Dipole in a Uniform External Field",
+        "frequency": "MEDIUM",
+        "marks_breakdown": [
+          "1 mark (MCQ / Objective on equilibrium conditions)",
+          "2 marks (Derivation of torque)"
+        ],
+        "question_forms": [
+          "Derive an expression for the torque experienced by an electric dipole kept in a uniform electric field. (2 marks)",
+          "When is the torque acting on an electric dipole maximum? (1 mark)",
+          "An electric dipole is placed in a uniform electric field. What is the net force acting on it? Identify the conditions for stable and unstable equilibrium. (2 marks)"
+        ],
+        "board_traps": [
+          "Examiner asks for the torque when the dipole is parallel to the field. Students calculate maximum torque instead of realizing $\\sin(0^{\\circ}) = 0$.",
+          "Asking for the net force in a UNIFORM field. Students write a complex equation instead of simply stating it is strictly zero."
+        ],
+        "common_mistakes": [
+          "Writing the vector product backwards as \\vec{E} \\times \\vec{p}, which gives the wrong direction for the torque.",
+          "Forgetting to multiply the charge by the full distance 2a when calculating p to substitute into the torque formula."
+        ],
+        "answer_structure": "For derivations, start with the diagram showing forces and the angle \\theta. Explicitly state 'net force is zero' before calculating torque. Derive the magnitude, then state the vector form. For equilibrium questions, always state the angle (0 or 180) and explain that the torque is zero in both cases.",
+        "examiner_expectation": "The vector cross-product notation is required at the end of the derivation. The perpendicular distance must be clearly visible and labelled as 2a\\sin\\theta in the diagram."
+      },
+      {
+        "type": "rapid_recall",
+        "concept_ref": "Dipole in a Uniform External Field",
+        "one_liner": "A dipole in a uniform electric field feels no net force, but experiences a torque \\vec{p} \\times \\vec{E} that tries to align it with the field.",
+        "memory_hook": "Uniform field = Zero Force, Twist only. It spins like a compass needle until it points with the field.",
+        "never_forget": [
+          "Net force is ALWAYS zero in a uniform field.",
+          "Stable equilibrium = aligned ($\\theta = 0^{\\circ}$). Unstable equilibrium = backwards ($\\theta = 180^{\\circ}$).",
+          "\\vec{\\tau} = \\vec{p} \\times \\vec{E} (p comes first!)."
+        ]
+      },
+      {
+        "type": "diagram",
+        "title": "Dipole in a Uniform Electric Field",
+        "source": "NCERT",
+        "ncert_reference": "NCERT Fig 1.22",
+        "description": {
+          "what_is_shown": "An electric dipole placed at an angle to a uniform electric field, demonstrating the forces that create a torque.",
+          "elements": [
+            "Uniform horizontal electric field lines \\vec{E} pointing right",
+            "Dipole axis at an angle \\theta to the field lines",
+            "Charge +q at the top right, with a horizontal force vector q\\vec{E} pointing right",
+            "Charge -q at the bottom left, with a horizontal force vector -q\\vec{E} pointing left",
+            "Total length of dipole 2a",
+            "Perpendicular distance between the two force vectors marked as 2a\\sin\\theta"
+          ],
+          "labels": [
+            "\\vec{E}",
+            "+q",
+            "-q",
+            "q\\vec{E}",
+            "-q\\vec{E}",
+            "2a",
+            "2a\\sin\\theta",
+            "\\theta"
+          ],
+          "spatial_relationships": "The field lines are strictly parallel and evenly spaced. The force vectors on the charges are parallel to the field lines but point in opposite directions, creating a rotational couple around the center of the dipole.",
+          "style_notes": "Dark background #0a0a0f. White lines and text. Cyan for electric field. Yellow for force vectors. Red and blue points for charges."
+        },
+        "caption": "Torque on a dipole in a uniform electric field.",
+        "generation_prompt": "Draw a 2D physics diagram showing an electric dipole in a uniform electric field. Draw 4 evenly spaced horizontal cyan lines pointing to the right to represent the uniform electric field E. Superimpose an electric dipole at a 45-degree angle pointing up and to the right. Place a red +q charge at the top end and a blue -q charge at the bottom end. Draw a yellow vector arrow from +q pointing right (labeled qE). Draw a yellow vector arrow from -q pointing left (labeled -qE). Mark the angle between the dipole axis and the horizontal field as theta. Drop a dashed vertical line from +q down to the horizontal line passing through -q, forming a right triangle. Label this vertical dashed line as 2a sin(theta). Label the hypotenuse as 2a. Use a solid dark #0a0a0f background."
+      }
+    ],
+    "formula_sheet": [
+      {
+        "latex": "\\tau = pE\\sin\\theta",
+        "label": "Magnitude of Torque on a Dipole",
+        "description": "Calculates the rotational turning effect on a dipole in a uniform electric field.",
+        "variables": [
+          {
+            "symbol": "\\tau",
+            "name": "Magnitude of torque",
+            "unit": "\\text{Nm}",
+            "note": ""
+          },
+          {
+            "symbol": "p",
+            "name": "Dipole moment",
+            "unit": "\\text{Cm}",
+            "note": ""
+          },
+          {
+            "symbol": "E",
+            "name": "Electric field strength",
+            "unit": "$\\text{N/C}$",
+            "note": ""
+          },
+          {
+            "symbol": "\\theta",
+            "name": "Angle",
+            "unit": "^{\\circ}",
+            "note": "Angle between the dipole moment \\vec{p} and electric field \\vec{E}."
+          }
+        ],
+        "si_unit_of_result": "\\text{Nm}",
+        "use_case": "Direct Use",
+        "board_frequency": "MEDIUM",
+        "common_error": "Using cosine instead of sine, or calculating angle with the perpendicular instead of the field lines."
+      },
+      {
+        "latex": "\\vec{\\tau} = \\vec{p} \\times \\vec{E}",
+        "label": "Torque on a Dipole (Vector Form)",
+        "description": "Vector expression for the torque on a dipole.",
+        "variables": [
+          {
+            "symbol": "\\vec{\\tau}",
+            "name": "Torque vector",
+            "unit": "\\text{Nm}",
+            "note": ""
+          },
+          {
+            "symbol": "\\vec{p}",
+            "name": "Dipole moment vector",
+            "unit": "\\text{Cm}",
+            "note": ""
+          },
+          {
+            "symbol": "\\vec{E}",
+            "name": "Electric field vector",
+            "unit": "$\\text{N/C}$",
+            "note": ""
+          }
+        ],
+        "si_unit_of_result": "\\text{Nm}",
+        "use_case": "Derivation Required",
+        "board_frequency": "MEDIUM",
+        "common_error": "Writing the cross product in reverse order (\\vec{E} \\times \\vec{p})."
+      }
+    ],
+    "ncert_golden_lines": [
+      "Since E is uniform, the net force on the dipole is zero.",
+      "The forces act at different points, resulting in a torque on the dipole.",
+      "This torque tends to align the dipole with the field E. When p is aligned with E, the torque is zero."
+    ]
+  },
+  {
+    "meta": {
+      "subject": "Physics",
+      "chapter_number": 1,
+      "chapter_name": "Electric Charges and Fields",
+      "topic": "Continuous Charge Distribution",
+      "frequency": "LOW",
+      "class": 12,
+      "board": "CBSE"
+    },
+    "notes": [
+      {
+        "type": "concept",
+        "title": "Continuous Charge Distribution",
+        "tier": "1",
+        "points": [
+          "At macroscopic levels, the discrete (quantised) nature of charge can be ignored, and charge can be assumed to be spread continuously over a region.",
+          "Linear charge density \\lambda is the charge per unit length, expressed as \\lambda = \\frac{dq}{dl}, with SI unit \\text{C/m}.",
+          "Surface charge density \\sigma is the charge per unit area, expressed as \\sigma = \\frac{dq}{dS}, with SI unit $\\text{C/m}^{2}$.",
+          "Volume charge density \\rho is the charge per unit volume, expressed as \\rho = \\frac{dq}{dV}, with SI unit $\\text{C/m}^{3}$.",
+          "The total electric field due to a continuous charge distribution is obtained by integrating the field contributions of infinitesimal charge elements dq over the entire distribution.",
+          "For a volume distribution, the electric field is \\vec{E} = $\\frac{1}{4\\pi\\epsilon_{0}}$ \\int \\frac{\\rho dV}{$r^{2}$} \\hat{r}."
+        ],
+        "why_it_matters": "Asked as 1-mark definitions and forms the fundamental language used to state and apply Gauss's Law to different macroscopic shapes (lines, sheets, spheres)."
+      },
+      {
+        "type": "exam_intel",
+        "concept_ref": "Continuous Charge Distribution",
+        "frequency": "LOW",
+        "marks_breakdown": [
+          "1 mark (Definitions and SI units)"
+        ],
+        "question_forms": [
+          "Define linear charge density and write its SI unit. (1 mark)",
+          "Write the expression for the electric field due to a continuous volume charge distribution. (1 mark)"
+        ],
+        "board_traps": [
+          "Examiner gives a solid conducting sphere and asks for its charge distribution. Students assume it has a volume charge density \\rho. Since it is a conductor, all charge resides strictly on the surface, so it only has a surface charge density \\sigma."
+        ],
+        "common_mistakes": [
+          "Writing the unit of surface charge density as \\text{C/m} instead of $\\text{C/m}^{2}$."
+        ],
+        "answer_structure": "For definitions, state 'charge per unit [length/area/volume]', write the differential formula (e.g., dq/dl), and explicitly state the SI unit.",
+        "examiner_expectation": "The exact SI unit and the calculus-based differential notation (dq/dl, etc.) are required to secure full marks for the definition."
+      },
+      {
+        "type": "rapid_recall",
+        "concept_ref": "Continuous Charge Distribution",
+        "one_liner": "Macroscopic charges are treated as continuous distributions defined by linear (\\lambda), surface (\\sigma), and volume (\\rho) charge densities.",
+        "memory_hook": "1D = Line (\\lambda), 2D = Surface (\\sigma), 3D = Volume/Room (\\rho).",
+        "never_forget": [
+          "Conducting objects (even solid 3D ones) only ever have surface charge density \\sigma, never volume density \\rho.",
+          "Densities are scalar quantities, but they are used to compute vector electric fields."
+        ]
+      },
+      {
+        "type": "formula",
+        "label": "Linear Charge Density",
+        "latex": "\\lambda = \\frac{dq}{dl}",
+        "variables": [
+          {
+            "symbol": "\\lambda",
+            "name": "Linear charge density",
+            "unit": "\\text{C/m}",
+            "note": ""
+          },
+          {
+            "symbol": "dq",
+            "name": "Infinitesimal charge element",
+            "unit": "C",
+            "note": ""
+          },
+          {
+            "symbol": "dl",
+            "name": "Infinitesimal length element",
+            "unit": "m",
+            "note": ""
+          }
+        ],
+        "conditions": [
+          "Charge is distributed along a 1D line or very thin wire"
+        ],
+        "si_unit_of_result": "\\text{C/m}",
+        "physical_meaning": "Measures how tightly packed electric charge is along a one-dimensional line.",
+        "common_error": ""
+      },
+      {
+        "type": "formula",
+        "label": "Surface Charge Density",
+        "latex": "\\sigma = \\frac{dq}{dS}",
+        "variables": [
+          {
+            "symbol": "\\sigma",
+            "name": "Surface charge density",
+            "unit": "$\\text{C/m}^{2}$",
+            "note": ""
+          },
+          {
+            "symbol": "dq",
+            "name": "Infinitesimal charge element",
+            "unit": "C",
+            "note": ""
+          },
+          {
+            "symbol": "dS",
+            "name": "Infinitesimal area element",
+            "unit": "$\\text{m}^{2}$",
+            "note": ""
+          }
+        ],
+        "conditions": [
+          "Charge is distributed over a 2D surface or the boundary of a conductor"
+        ],
+        "si_unit_of_result": "$\\text{C/m}^{2}$",
+        "physical_meaning": "Measures how tightly packed electric charge is across a two-dimensional area.",
+        "common_error": ""
+      },
+      {
+        "type": "formula",
+        "label": "Volume Charge Density",
+        "latex": "\\rho = \\frac{dq}{dV}",
+        "variables": [
+          {
+            "symbol": "\\rho",
+            "name": "Volume charge density",
+            "unit": "$\\text{C/m}^{3}$",
+            "note": ""
+          },
+          {
+            "symbol": "dq",
+            "name": "Infinitesimal charge element",
+            "unit": "C",
+            "note": ""
+          },
+          {
+            "symbol": "dV",
+            "name": "Infinitesimal volume element",
+            "unit": "\\text{m}^{3}",
+            "note": ""
+          }
+        ],
+        "conditions": [
+          "Charge is distributed throughout the bulk of a 3D insulating material"
+        ],
+        "si_unit_of_result": "$\\text{C/m}^{3}$",
+        "physical_meaning": "Measures how tightly packed electric charge is within a three-dimensional space.",
+        "common_error": ""
+      },
+      {
+        "type": "diagram",
+        "title": "Continuous Charge Distributions",
+        "source": "NCERT",
+        "ncert_reference": "NCERT Fig 1.24",
+        "description": {
+          "what_is_shown": "Visual representation of line, surface, and volume charge elements.",
+          "elements": [
+            "A curved 1D line with a highlighted small segment dl containing charge dq",
+            "A 2D planar surface sheet with a highlighted small square area dS containing charge dq",
+            "A 3D arbitrary block with a highlighted small cubic volume dV containing charge dq"
+          ],
+          "labels": [
+            "\\Delta l",
+            "\\Delta S",
+            "\\Delta V",
+            "\\lambda",
+            "\\sigma",
+            "\\rho"
+          ],
+          "spatial_relationships": "The diagram transitions from 1D to 2D to 3D, isolating an infinitesimal element in each to show how macroscopic objects are broken down for integration.",
+          "style_notes": "Dark background #0a0a0f. White outlines. Highlighted differential elements in distinct colors (e.g., cyan for dl, yellow for dS, red for dV)."
+        },
+        "caption": "Linear, surface, and volume continuous charge distributions.",
+        "generation_prompt": "Draw a 2D physics diagram illustrating three types of continuous charge distributions side-by-side. On the left, draw a white curved line, highlight a small segment in cyan, and label it delta l. In the middle, draw a white curved 2D surface sheet, highlight a small square patch in yellow, and label it delta S. On the right, draw a white 3D blob or block, draw a small red internal cube, and label it delta V. Place the symbols lambda, sigma, and rho below the respective shapes. Use a solid dark #0a0a0f background."
+      }
+    ],
+    "formula_sheet": [
+      {
+        "latex": "\\lambda = \\frac{dq}{dl}",
+        "label": "Linear Charge Density",
+        "description": "Calculates charge per unit length.",
+        "variables": [
+          {
+            "symbol": "\\lambda",
+            "name": "Linear density",
+            "unit": "\\text{C/m}",
+            "note": ""
+          },
+          {
+            "symbol": "dq",
+            "name": "Charge element",
+            "unit": "C",
+            "note": ""
+          },
+          {
+            "symbol": "dl",
+            "name": "Length element",
+            "unit": "m",
+            "note": ""
+          }
+        ],
+        "si_unit_of_result": "\\text{C/m}",
+        "use_case": "Direct Use",
+        "board_frequency": "LOW",
+        "common_error": ""
+      },
+      {
+        "latex": "\\sigma = \\frac{dq}{dS}",
+        "label": "Surface Charge Density",
+        "description": "Calculates charge per unit area.",
+        "variables": [
+          {
+            "symbol": "\\sigma",
+            "name": "Surface density",
+            "unit": "$\\text{C/m}^{2}$",
+            "note": ""
+          },
+          {
+            "symbol": "dq",
+            "name": "Charge element",
+            "unit": "C",
+            "note": ""
+          },
+          {
+            "symbol": "dS",
+            "name": "Area element",
+            "unit": "$\\text{m}^{2}$",
+            "note": ""
+          }
+        ],
+        "si_unit_of_result": "$\\text{C/m}^{2}$",
+        "use_case": "Direct Use",
+        "board_frequency": "LOW",
+        "common_error": ""
+      },
+      {
+        "latex": "\\rho = \\frac{dq}{dV}",
+        "label": "Volume Charge Density",
+        "description": "Calculates charge per unit volume.",
+        "variables": [
+          {
+            "symbol": "\\rho",
+            "name": "Volume density",
+            "unit": "$\\text{C/m}^{3}$",
+            "note": ""
+          },
+          {
+            "symbol": "dq",
+            "name": "Charge element",
+            "unit": "C",
+            "note": ""
+          },
+          {
+            "symbol": "dV",
+            "name": "Volume element",
+            "unit": "\\text{m}^{3}",
+            "note": ""
+          }
+        ],
+        "si_unit_of_result": "$\\text{C/m}^{3}$",
+        "use_case": "Direct Use",
+        "board_frequency": "LOW",
+        "common_error": ""
+      }
+    ],
+    "ncert_golden_lines": [
+      "At the macroscopic level, we deal with charges that are enormous compared to the magnitude of charge e.",
+      "In such cases, it is impractical to specify the charge distribution in terms of the locations of microscopic constituents. We can just as well assume that the charge is spread continuously."
+    ]
+  },
+  {
+    "meta": {
+      "subject": "Physics",
+      "chapter_number": 1,
+      "chapter_name": "Electric Charges and Fields",
+      "topic": "Gauss's Law",
+      "frequency": "HIGH",
+      "class": 12,
+      "board": "CBSE"
+    },
+    "notes": [
+      {
+        "type": "concept",
+        "title": "Gauss's Law",
+        "tier": "1",
+        "points": [
+          "Gauss's law states that the total electric flux through any closed surface is exactly equal to \\frac{1}{$\\epsilon_{0}$} times the net charge enclosed by the surface.",
+          "Mathematically expressed as the surface integral over a closed loop: $\\oint \\vec{E} \\cdot d\\vec{A} = \\frac{q_{enc}}{\\epsilon_{0}}$.",
+          "The total electric flux through a closed surface is strictly independent of the shape or size of the surface.",
+          "The term $q_{enc}$ represents the algebraic sum of all charges enclosed, regardless of their exact position inside the surface.",
+          "Charges located strictly outside the closed surface contribute zero to the total net electric flux through the surface.",
+          "In the equation $\\oint \\vec{E} \\cdot d\\vec{A} = \\frac{q_{enc}}{\\epsilon_{0}}$, the electric field \\vec{E} on the left side is the resultant field due to ALL charges existing in space (both inside and outside), even though the net flux on the right side depends only on the enclosed charges."
+        ],
+        "why_it_matters": "Asked as 1-mark definitions, core 2-mark conceptual reasoning questions regarding expanding surfaces, and forms the mathematical backbone for deriving electric fields of continuous charge distributions (5-mark questions)."
+      },
+      {
+        "type": "exam_intel",
+        "concept_ref": "Gauss's Law",
+        "frequency": "HIGH",
+        "marks_breakdown": [
+          "1 mark (State the law / Conceptual MCQ)",
+          "2 marks (Numerical on flux through cube/sphere)",
+          "3 marks (Deriving Coulomb's Law from Gauss's Law)"
+        ],
+        "question_forms": [
+          "State Gauss's law in electrostatics. (1 mark)",
+          "A point charge is placed at the centre of a spherical Gaussian surface. If the radius of the surface is doubled, how will the electric flux change? (1 mark)",
+          "An electric dipole is placed inside a closed surface. What is the net electric flux passing through the surface? (1 mark)",
+          "A charge q is placed at the centre of a cube. What is the electric flux passing through one of its faces? (2 marks)"
+        ],
+        "board_traps": [
+          "Examiner doubles the radius or changes the shape of the Gaussian surface (e.g., from sphere to cylinder) and asks for the new flux. Students scale the flux. Correct answer: Flux remains unchanged because enclosed charge is unchanged.",
+          "Examiner asks about the electric field \\vec{E} on the surface when an external charge is introduced. Students state \\vec{E} is unchanged because flux is unchanged. Correct answer: The electric field \\vec{E} changes at every point due to the external charge, but the surface integral (net flux) remains zero for that external charge.",
+          "Giving an electric dipole inside a box. Students calculate flux using individual charges instead of realizing the algebraic sum of +q and -q is exactly zero."
+        ],
+        "common_mistakes": [
+          "Forgetting to write the integration circle \\oint on the integral sign, which turns it from a closed surface integral into an open surface integral.",
+          "Using 9 \\times 10^{9} for \\frac{1}{$\\epsilon_{0}$} instead of correctly substituting $\\epsilon_{0}$ = $8.854 \\times 10^{-12}$ in raw numerical calculations."
+        ],
+        "answer_structure": "For the statement, use the exact phrase 'closed surface' and 'algebraic sum of enclosed charges'. Write the mathematical formula immediately after. For questions on doubling radius, state 'Flux is independent of dimensions, hence remains unchanged.'",
+        "examiner_expectation": "Examiners scan for the word 'closed surface' in the definition. Omitting this invalidates the law and loses the mark entirely."
+      },
+      {
+        "type": "worked_example",
+        "concept_ref": "Gauss's Law",
+        "purpose": "Demonstrate the use of symmetry to find flux through a portion of a closed surface.",
+        "situation": "A point charge q = 17.7 \\times 10^{-12}\\,\\text{C} is placed exactly at the geometric centre of a hollow cube. Calculate the electric flux passing through any one single face of the cube.",
+        "given": [
+          "$q_{enc} = 17.7 \\times 10^{-12}\\,\\text{C}$",
+          "$\\epsilon_{0}$ = $8.854 \\times 10^{-12}\\,\\text{C}^{2}/\\text{Nm}^{2}$"
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "action": "Calculate the total net flux through the entire closed cubic surface using Gauss's Law.",
+            "latex": "\\Phi_{total} = \\frac{q_{enc}}{\\epsilon_{0}} = \\frac{17.7 \\times 10^{-12}}{8.854 \\times 10^{-12}} = 2\\,\\text{Nm}^{2}/\\text{C}",
+            "why": "Gauss's Law gives the total flux escaping the entire closed volume, regardless of its cubical shape."
+          },
+          {
+            "step_number": 2,
+            "action": "Apply geometric symmetry to find the flux through a single face.",
+            "latex": "\\Phi_{face} = \\frac{\\Phi_{total}}{6} = \\frac{2}{6} = \\frac{1}{3}\\,\\text{Nm}^{2}/\\text{C}",
+            "why": "Since the charge is exactly at the geometric centre, the flux is distributed equally and symmetrically across all 6 identical faces of the cube."
+          }
+        ],
+        "final_answer": {
+          "latex": "\\frac{1}{3}",
+          "unit": "$\\text{Nm}^{2}/\\text{C}$",
+          "direction": ""
+        },
+        "trap": "Stopping at Step 1 and reporting the total flux instead of dividing by 6. Reading the question carefully to spot 'one face' is critical."
+      },
+      {
+        "type": "rapid_recall",
+        "concept_ref": "Gauss's Law",
+        "one_liner": "Gauss's Law states that the net electric flux through any closed boundary is the total enclosed charge divided by the permittivity of free space.",
+        "memory_hook": "Flux is a head-count of charges INSIDE the room. The size of the room or people outside the room do not change the count.",
+        "never_forget": [
+          "Net enclosed charge of a dipole is ZERO, so net flux is ZERO.",
+          "Radius, shape, and volume of the closed surface do NOT affect the flux.",
+          "The electric field \\vec{E} in the formula \\oint \\vec{E} \\cdot d\\vec{A} is created by ALL charges (inside + outside)."
+        ]
+      },
+      {
+        "type": "formula",
+        "label": "Gauss's Law",
+        "latex": "\\oint \\vec{E} \\cdot d\\vec{A} = \\frac{q_{enc}}{\\epsilon_{0}}",
+        "variables": [
+          {
+            "symbol": "\\oint",
+            "name": "Closed surface integral",
+            "unit": "dimensionless",
+            "note": "Indicates integration over a completely sealed 3D boundary."
+          },
+          {
+            "symbol": "\\vec{E}",
+            "name": "Resultant electric field vector",
+            "unit": "$\\text{N/C}$",
+            "note": "Created by both enclosed and external charges."
+          },
+          {
+            "symbol": "d\\vec{A}",
+            "name": "Infinitesimal area vector",
+            "unit": "$\\text{m}^{2}$",
+            "note": "Points strictly along the outward normal."
+          },
+          {
+            "symbol": "q_{enc}",
+            "name": "Net enclosed charge",
+            "unit": "C",
+            "note": "Algebraic sum of only the charges inside the surface."
+          },
+          {
+            "symbol": "\\epsilon_{0}",
+            "name": "Permittivity of free space",
+            "unit": "$\\text{C}^{2}/\\text{Nm}^{2}$",
+            "note": "Constant value: $8.854 \\times 10^{-12}$"
+          }
+        ],
+        "conditions": [
+          "The surface of integration must be completely closed (Gaussian surface)."
+        ],
+        "si_unit_of_result": "$\\text{Nm}^{2}/\\text{C}$",
+        "physical_meaning": "Links the geometry of the electric field mapped over a closed boundary directly to the physical source (charge) contained within that boundary.",
+        "common_error": "Including external charges in the $q_{enc}$ term."
+      },
+      {
+        "type": "derived_result",
+        "statement": "Gauss's Law is consistent with and can be used to derive Coulomb's Law for a point charge.",
+        "latex": "E = \\frac{1}{4\\pi\\epsilon_{0}} \\frac{q}{r^{2}}",
+        "variables": [
+          {
+            "symbol": "E",
+            "name": "Magnitude of electric field",
+            "unit": "$\\text{N/C}$",
+            "note": ""
+          },
+          {
+            "symbol": "q",
+            "name": "Source point charge",
+            "unit": "C",
+            "note": ""
+          },
+          {
+            "symbol": "r",
+            "name": "Distance from the charge",
+            "unit": "m",
+            "note": ""
+          }
+        ],
+        "valid_when": "Derived using a spherically symmetric Gaussian surface centered on the point charge.",
+        "derivation_asked": true,
+        "proof_skeleton": [
+          "Consider an isolated point charge q at the origin.",
+          "Construct a spherical Gaussian surface of radius r centered on the charge.",
+          "By symmetry, the electric field \\vec{E} is radial and has the same magnitude E at all points on the surface.",
+          "The area vector d\\vec{A} is also radial and outward. Therefore, $\\theta = 0^{\\circ}$ and $\\vec{E} \\cdot d\\vec{A} = E dA$.",
+          "Apply Gauss's Law: $\\oint E dA = \\frac{q}{\\epsilon_{0}}$.",
+          "Pull constant E out of the integral: $E \\oint dA = \\frac{q}{\\epsilon_{0}}$.",
+          "Substitute the surface area of the sphere: $\\oint dA = 4\\pi r^{2}$.",
+          "Solve for E: $E (4\\pi r^{2}) = \\frac{q}{\\epsilon_{0}} \\implies E = \\frac{1}{4\\pi\\epsilon_{0}} \\frac{q}{r^{2}}$."
+        ]
+      },
+      {
+        "type": "concept",
+        "title": "Gaussian Surface",
+        "tier": "1",
+        "points": [
+          "A Gaussian surface is an imaginary closed mathematical surface chosen in space to evaluate the surface integral of the electric field.",
+          "It is chosen to reflect the symmetry of the charge distribution (spherical, cylindrical, or planar) so that \\vec{E} is either constant or zero over the surface, pulling E out of the integral.",
+          "A Gaussian surface must not pass through any discrete point charge, because the electric field is infinitely large and not well-defined at the exact location of a point charge.",
+          "A Gaussian surface can safely pass through a continuous charge distribution (like a line, sheet, or volume of charge) because the electric field is finite there."
+        ],
+        "why_it_matters": "Asked as 1-mark theoretical questions regarding where a Gaussian surface can and cannot be drawn, and is the prerequisite mental step for all 5-mark derivations."
+      },
+      {
+        "type": "exam_intel",
+        "concept_ref": "Gaussian Surface",
+        "frequency": "HIGH",
+        "marks_breakdown": [
+          "1 mark (Conceptual constraints)"
+        ],
+        "question_forms": [
+          "Can a Gaussian surface pass through a discrete point charge? Give reason. (1 mark)",
+          "What type of Gaussian surface is used to find the electric field of an infinitely long straight charged wire? (1 mark)"
+        ],
+        "board_traps": [
+          "Students assume Gaussian surfaces must be real physical boundaries. Correct answer: They are strictly imaginary mathematical constructs.",
+          "Thinking a Gaussian surface cannot pass through a charged sheet. It CAN pass through continuous charge distributions, just not discrete point charges."
+        ],
+        "common_mistakes": [
+          "Choosing a non-symmetric Gaussian surface (like a cube for a spherical charge) during a derivation. While Gauss's law still holds true, the integral becomes impossible to solve algebraically, leading to zero marks for the derivation."
+        ],
+        "answer_structure": "State clearly: 'No, it cannot pass through a point charge because the electric field is undefined ($E \\to \\infty$) at the location of a point charge.'",
+        "examiner_expectation": "The exact reasoning 'electric field is not well-defined' is required for the full mark when explaining why it cannot pass through a point charge."
+      },
+      {
+        "type": "rapid_recall",
+        "concept_ref": "Gaussian Surface",
+        "one_liner": "A Gaussian surface is an imaginary closed boundary chosen to exploit symmetry and make the flux integral easy to calculate.",
+        "memory_hook": "Symmetry is the key: Spheres for points, Cylinders for lines, Pillboxes for sheets.",
+        "never_forget": [
+          "Never draw a Gaussian surface crossing directly through a discrete point charge."
+        ]
+      }
+    ],
+    "formula_sheet": [
+      {
+        "latex": "\\oint \\vec{E} \\cdot d\\vec{A} = \\frac{q_{enc}}{\\epsilon_{0}}",
+        "label": "Gauss's Law",
+        "description": "Relates the net electric flux through a closed surface to the charge enclosed by it.",
+        "variables": [
+          {
+            "symbol": "\\oint",
+            "name": "Closed surface integral",
+            "unit": "dimensionless",
+            "note": ""
+          },
+          {
+            "symbol": "\\vec{E}",
+            "name": "Electric field",
+            "unit": "$\\text{N/C}$",
+            "note": "Field due to all charges."
+          },
+          {
+            "symbol": "d\\vec{A}",
+            "name": "Area element",
+            "unit": "$\\text{m}^{2}$",
+            "note": "Points outward."
+          },
+          {
+            "symbol": "q_{enc}",
+            "name": "Enclosed charge",
+            "unit": "C",
+            "note": "Only charges inside."
+          },
+          {
+            "symbol": "\\epsilon_{0}",
+            "name": "Permittivity of free space",
+            "unit": "$\\text{C}^{2}/\\text{Nm}^{2}$",
+            "note": ""
+          }
+        ],
+        "si_unit_of_result": "$\\text{Nm}^{2}/\\text{C}$",
+        "use_case": "Both",
+        "board_frequency": "HIGH",
+        "common_error": "Plugging external charges into the enclosed charge term."
+      }
+    ],
+    "ncert_golden_lines": [
+      "Gauss's law is true for any closed surface, no matter what its shape or size.",
+      "The term q on the right side of Gauss's law includes the sum of all charges enclosed by the surface.",
+      "The electric field E on the left side of the equation is due to all the charges, both inside and outside the surface.",
+      "The Gaussian surface can pass through a continuous charge distribution."
+    ]
+  },
+  {
+    "meta": {
+      "subject": "Physics",
+      "chapter_number": 1,
+      "chapter_name": "Electric Charges and Fields",
+      "topic": "Applications of Gauss's Law",
+      "frequency": "HIGH",
+      "class": 12,
+      "board": "CBSE"
+    },
+    "notes": [
+      {
+        "type": "concept",
+        "title": "Field due to an Infinitely Long Straight Uniformly Charged Wire",
+        "tier": "1",
+        "points": [
+          "An infinitely long straight wire has a uniform linear charge density \\lambda.",
+          "By symmetry, the electric field is everywhere radial in the plane cutting the wire normally, and its magnitude depends only on the radial distance r from the wire.",
+          "The direction of the electric field is radially outward for positive \\lambda and radially inward for negative \\lambda.",
+          "To calculate the field using Gauss's Law, a cylindrical Gaussian surface of radius r and length L, coaxial with the line charge, is chosen.",
+          "The electric field magnitude falls off as \\frac{1}{r}, which is slower than the $\\frac{1}{r^{2}}$ fall-off of a point charge."
+        ],
+        "why_it_matters": "Asked routinely as a direct 3-mark derivation and as a 2-mark graph drawing question (E vs r)."
+      },
+      {
+        "type": "derived_result",
+        "statement": "The electric field due to an infinite straight charged wire is inversely proportional to the perpendicular distance from the wire.",
+        "latex": "\\vec{E} = \\frac{\\lambda}{2\\pi\\epsilon_{0}r} \\hat{n}",
+        "variables": [
+          {
+            "symbol": "\\vec{E}",
+            "name": "Electric field vector",
+            "unit": "$\\text{N/C}$",
+            "note": ""
+          },
+          {
+            "symbol": "\\lambda",
+            "name": "Linear charge density",
+            "unit": "\\text{C/m}",
+            "note": ""
+          },
+          {
+            "symbol": "r",
+            "name": "Perpendicular distance from the wire",
+            "unit": "m",
+            "note": ""
+          },
+          {
+            "symbol": "\\epsilon_{0}",
+            "name": "Permittivity of free space",
+            "unit": "$\\text{C}^{2}/\\text{Nm}^{2}$",
+            "note": ""
+          },
+          {
+            "symbol": "\\hat{n}",
+            "name": "Radial unit vector in the plane normal to the wire",
+            "unit": "dimensionless",
+            "note": "Points outward for +\\lambda, inward for -\\lambda."
+          }
+        ],
+        "valid_when": "Valid for infinitely long wires, or at distances r much smaller than the length of a finite wire (ignoring edge effects).",
+        "derivation_asked": true,
+        "proof_skeleton": [
+          "Consider an infinite wire with uniform linear charge density \\lambda.",
+          "Construct a cylindrical Gaussian surface of radius r and length L coaxial with the wire.",
+          "Total flux \\Phi = Flux through curved surface + Flux through two flat circular caps.",
+          "For flat caps, \\vec{E} and d\\vec{A} are perpendicular ($\\theta = 90^{\\circ}$), so flux is zero.",
+          "For curved surface, \\vec{E} and d\\vec{A} are parallel ($\\theta = 0^{\\circ}$), and E is constant. Flux = E \\cdot (2\\pi r L).",
+          "Charge enclosed by the cylinder is $q_{enc} = \\lambda L$.",
+          "Apply Gauss's Law: $E(2\\pi r L) = \\frac{\\lambda L}{\\epsilon_{0}}$.",
+          "Cancel L and solve for E to get the final formula."
+        ]
+      },
+      {
+        "type": "exam_intel",
+        "concept_ref": "Field due to an Infinitely Long Straight Uniformly Charged Wire",
+        "frequency": "HIGH",
+        "marks_breakdown": [
+          "2 marks (Graph of E vs r)",
+          "3 marks (Derivation)"
+        ],
+        "question_forms": [
+          "Using Gauss's law, derive the expression for the electric field due to a uniformly charged infinite straight wire. (3 marks)",
+          "Plot a graph showing the variation of electric field E with perpendicular distance r from an infinitely long straight charged wire. (2 marks)"
+        ],
+        "board_traps": [
+          "Students forget to mention why the flux through the flat circular caps of the Gaussian cylinder is zero. Without stating $\\vec{E} \\perp d\\vec{A}$ (or $\\theta = 90^{\\circ}$), marks are deducted.",
+          "Drawing a straight line for the E vs r graph. It must be a rectangular hyperbola curve."
+        ],
+        "common_mistakes": [
+          "Cancelling r instead of L during the derivation steps.",
+          "Writing the final formula with 4\\pi$\\epsilon_{0}$ instead of 2\\pi$\\epsilon_{0}$ in the denominator."
+        ],
+        "answer_structure": "Draw the wire and the coaxial Gaussian cylinder. Label r and L. Explicitly write the flux equations for all three surfaces (curved + top cap + bottom cap). Show caps are zero. Apply Gauss's Law, equate, cancel L, state final vector form.",
+        "examiner_expectation": "The examiner looks for a clearly labeled diagram of the Gaussian cylinder, the splitting of the integral into three parts, and the explicit cancellation of the arbitrary length L."
+      },
+      {
+        "type": "rapid_recall",
+        "concept_ref": "Field due to an Infinitely Long Straight Uniformly Charged Wire",
+        "one_liner": "For a line charge, E falls off as $1/r$ and relies on a cylindrical Gaussian surface.",
+        "memory_hook": "Line = Cylinder = $1/r$. (Compare: Point = Sphere = $1/r^2$).",
+        "never_forget": [
+          "E \\propto \\frac{1}{r} for a line charge.",
+          "The formula has 2\\pi in the denominator, not 4\\pi.",
+          "Flux through the flat ends of the cylinder is exactly zero."
+        ]
+      },
+      {
+        "type": "diagram",
+        "title": "Gaussian Surface for a Line Charge",
+        "source": "NCERT",
+        "ncert_reference": "NCERT Fig 1.28",
+        "description": {
+          "what_is_shown": "An infinite straight charged wire surrounded by a coaxial cylindrical Gaussian surface.",
+          "elements": [
+            "Vertical infinite line with positive charges (+)",
+            "A transparent cylinder of radius r and length l wrapping a section of the wire",
+            "Electric field vectors \\vec{E} pointing radially outward, piercing the curved surface",
+            "Area vector \\Delta\\vec{S} on the curved surface parallel to \\vec{E}",
+            "Flat circular end caps where \\vec{E} is parallel to the surface (perpendicular to area vector)"
+          ],
+          "labels": [
+            "r",
+            "l",
+            "\\vec{E}",
+            "\\Delta\\vec{S}",
+            "+"
+          ],
+          "spatial_relationships": "The wire lies exactly on the central axis of the cylinder. \\vec{E} vectors only cross the curved vertical walls, never the top or bottom circular caps.",
+          "style_notes": "Dark background #0a0a0f. White lines and text. Cyan for electric field vectors. Yellow for area vectors."
+        },
+        "caption": "Cylindrical Gaussian surface for an infinitely long straight wire.",
+        "generation_prompt": "Draw a 2D physics diagram of a vertical infinite straight wire. Mark positive plus signs along the wire. Draw a semi-transparent vertical cylinder centered on this wire. Label the cylinder's radius as r and its height as l. On the curved side of the cylinder, draw a cyan arrow pointing radially outward horizontally, labeled E. Next to it, draw a yellow arrow pointing in the exact same direction, labeled delta S. At the top flat circular cap, show that the electric field E is horizontal while the outward normal would be vertical. Use a solid dark #0a0a0f background."
+      },
+      {
+        "type": "concept",
+        "title": "Field due to a Uniformly Charged Infinite Plane Sheet",
+        "tier": "1",
+        "points": [
+          "An infinite plane sheet has a uniform surface charge density \\sigma.",
+          "By symmetry, the electric field points outward and normal to the sheet for positive \\sigma, and inward and normal for negative \\sigma.",
+          "The magnitude of the electric field is strictly independent of the distance from the sheet.",
+          "To calculate the field, a rectangular or cylindrical 'pillbox' Gaussian surface is chosen, piercing the sheet normally.",
+          "The electric field is uniform in the entire space on either side of the infinite sheet."
+        ],
+        "why_it_matters": "Asked as a 3-mark derivation. More importantly, it forms the entire theoretical basis for the parallel plate capacitor in Chapter 2, making superposition of two sheets a high-frequency application question."
+      },
+      {
+        "type": "derived_result",
+        "statement": "The electric field due to an infinite uniformly charged plane sheet is uniform and independent of distance.",
+        "latex": "\\vec{E} = \\frac{\\sigma}{2\\epsilon_{0}} \\hat{n}",
+        "variables": [
+          {
+            "symbol": "\\vec{E}",
+            "name": "Electric field vector",
+            "unit": "$\\text{N/C}$",
+            "note": ""
+          },
+          {
+            "symbol": "\\sigma",
+            "name": "Surface charge density",
+            "unit": "$\\text{C/m}^{2}$",
+            "note": ""
+          },
+          {
+            "symbol": "\\epsilon_{0}",
+            "name": "Permittivity of free space",
+            "unit": "$\\text{C}^{2}/\\text{Nm}^{2}$",
+            "note": ""
+          },
+          {
+            "symbol": "\\hat{n}",
+            "name": "Unit vector normal to the plane",
+            "unit": "dimensionless",
+            "note": "Points away from the sheet."
+          }
+        ],
+        "valid_when": "Valid for infinite sheets, or at points close to the center of a finite sheet where edge effects are negligible.",
+        "derivation_asked": true,
+        "proof_skeleton": [
+          "Consider an infinite plane sheet with uniform surface charge density \\sigma.",
+          "Construct a cylindrical/rectangular pillbox Gaussian surface of cross-sectional area A, piercing through the sheet, extending distance r on both sides.",
+          "Total flux \\Phi = Flux through curved part + Flux through two flat ends.",
+          "For the curved part, \\vec{E} is perpendicular to d\\vec{A} ($\\theta = 90^{\\circ}$), so flux is zero.",
+          "For the two flat ends, \\vec{E} is parallel to d\\vec{A}. Flux = EA + EA = 2EA.",
+          "Charge enclosed by the pillbox is $q_{enc} = \\sigma A$.",
+          "Apply Gauss's Law: $2EA = \\frac{\\sigma A}{\\epsilon_{0}}$.",
+          "Cancel A and solve for E."
+        ]
+      },
+      {
+        "type": "exam_intel",
+        "concept_ref": "Field due to a Uniformly Charged Infinite Plane Sheet",
+        "frequency": "HIGH",
+        "marks_breakdown": [
+          "2 marks (Conceptual on distance independence)",
+          "3 marks (Derivation or Superposition numerical)"
+        ],
+        "question_forms": [
+          "Derive an expression for the electric field due to an infinite plane sheet of charge. (3 marks)",
+          "Two large parallel thin metallic plates have surface charge densities +\\sigma and -\\sigma. Find the electric field in the outer regions and in the inner region between the plates. (3 marks)",
+          "How does the electric field due to an infinite uniformly charged sheet vary with distance? (1 mark)"
+        ],
+        "board_traps": [
+          "Students assume the field must depend on distance 'r' and artificially introduce it into the formula. It is completely independent of distance.",
+          "When finding the field between two parallel sheets with opposite charges, students subtract the fields (getting 0) instead of adding them (getting $\\sigma/\\epsilon_{0}$). Directions must be checked carefully."
+        ],
+        "common_mistakes": [
+          "Writing the final formula as \\frac{\\sigma}{$\\epsilon_{0}$} instead of \\frac{\\sigma}{2$\\epsilon_{0}$} for a single thin sheet.",
+          "Only calculating the flux through ONE flat end of the pillbox instead of both, losing the factor of 2."
+        ],
+        "answer_structure": "For derivation: draw sheet with piercing pillbox. State curved flux is zero. State flat flux is 2EA. Equate to \\sigma A / $\\epsilon_{0}$. Cancel A. For superposition problems: Draw the sheets. Pick a point. Draw E1 and E2 vectors based on charge signs. Add or subtract magnitudes based on vector directions.",
+        "examiner_expectation": "The clear statement that flux escapes through BOTH flat ends equally is required. The cancellation of the Area 'A' must be shown to prove distance/size independence."
+      },
+      {
+        "type": "worked_example",
+        "concept_ref": "Field due to a Uniformly Charged Infinite Plane Sheet",
+        "purpose": "Demonstrate the superposition of electric fields from two parallel charged sheets (Capacitor setup).",
+        "situation": "Two large, thin, parallel metallic plates are placed close to each other. They have surface charge densities of +$17.7 \\times 10^{-12}\\,\\text{C/m}^{2}$ and $-17.7 \\times 10^{-12}\\,\\text{C/m}^{2}$ respectively. Calculate the electric field in the outer region of the first plate, and in the inner region between the plates.",
+        "given": [
+          "\\sigma_{1} = +$17.7 \\times 10^{-12}\\,\\text{C/m}^{2}$",
+          "\\sigma_{2} = $-17.7 \\times 10^{-12}\\,\\text{C/m}^{2}$",
+          "$\\epsilon_{0}$ = $8.85 \\times 10^{-12}\\,\\text{C}^{2}/\\text{Nm}^{2}$"
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "action": "Determine the magnitude of the field produced by each individual sheet.",
+            "latex": "E_{1} = \\frac{|\\sigma_{1}|}{2\\epsilon_{0}}, \\quad E_{2} = \\frac{|\\sigma_{2}|}{2\\epsilon_{0}}",
+            "why": "The magnitude of the field from any single thin sheet is $\\sigma/2\\epsilon_{0}$, regardless of position."
+          },
+          {
+            "step_number": 2,
+            "action": "Analyze the outer region (Region I, to the left of the positive plate).",
+            "latex": "E_{I} = E_{1} - E_{2} = \\frac{\\sigma}{2\\epsilon_{0}} - \\frac{\\sigma}{2\\epsilon_{0}} = 0",
+            "why": "In the outer region, the field from the positive plate points left, and the field from the negative plate points right. Being equal in magnitude and opposite in direction, they cancel exactly."
+          },
+          {
+            "step_number": 3,
+            "action": "Analyze the inner region between the plates (Region II).",
+            "latex": "",
+            "why": "Between the plates, the field from the positive plate points right (away from it), and the field from the negative plate also points right (towards it). Since they point in the same direction, their magnitudes add up."
+          },
+          {
+            "step_number": 4,
+            "action": "Calculate the net field in the inner region.",
+            "latex": "E_{II} = E_{1} + E_{2} = \\frac{\\sigma}{2\\epsilon_{0}} + \\frac{\\sigma}{2\\epsilon_{0}} = \\frac{\\sigma}{\\epsilon_{0}}",
+            "why": "Adding the two halves gives the total uniform field."
+          },
+          {
+            "step_number": 5,
+            "action": "Substitute the numerical values.",
+            "latex": "E_{II} = \\frac{17.7 \\times 10^{-12}}{8.85 \\times 10^{-12}} = 2\\,\\text{N/C}",
+            "why": "Final arithmetic step using the given permittivity value."
+          }
+        ],
+        "final_answer": {
+          "latex": "E_{outer} = 0, \\quad E_{inner} = 2",
+          "unit": "$\\text{N/C}$",
+          "direction": "Inner field points from the positive to the negative plate."
+        },
+        "trap": "Plugging the negative sign of $\\sigma_2$ into the magnitude formula and algebraically subtracting them in the middle region to get zero. Always use absolute magnitudes and determine addition/subtraction visually from vector arrows."
+      },
+      {
+        "type": "rapid_recall",
+        "concept_ref": "Field due to a Uniformly Charged Infinite Plane Sheet",
+        "one_liner": "An infinite sheet creates a uniform electric field $\\sigma / 2\\epsilon_{0}$ that does not fade with distance.",
+        "memory_hook": "A Sheet is like a Wall of Light. It doesn't get dimmer as you walk away. E is CONSTANT.",
+        "never_forget": [
+          "E does NOT depend on 'r'.",
+          "Single thin sheet = $\\sigma / 2\\epsilon_{0}$.",
+          "Between two oppositely charged plates = $\\sigma / \\epsilon_{0}$.",
+          "Outside two oppositely charged plates = 0."
+        ]
+      },
+      {
+        "type": "diagram",
+        "title": "Gaussian Surface for a Plane Sheet",
+        "source": "NCERT",
+        "ncert_reference": "NCERT Fig 1.29",
+        "description": {
+          "what_is_shown": "A flat uniformly charged infinite sheet pierced by a rectangular parallelepiped (pillbox) Gaussian surface.",
+          "elements": [
+            "A planar 2D sheet with positive charge (+)",
+            "A transparent rectangular box piercing the sheet symmetrically",
+            "Cross-sectional area A marked on the flat end caps",
+            "Electric field vectors \\vec{E} emerging horizontally outward from both flat end caps",
+            "Area vectors also emerging horizontally outward from both flat end caps"
+          ],
+          "labels": [
+            "A",
+            "\\vec{E}",
+            "1",
+            "2"
+          ],
+          "spatial_relationships": "The electric field only pierces the two flat ends (labeled 1 and 2). It runs parallel to the top, bottom, and side faces of the pillbox, resulting in zero flux through those faces.",
+          "style_notes": "Dark background #0a0a0f. White lines and text. Light blue plane. Cyan field vectors. Yellow area vectors."
+        },
+        "caption": "Gaussian pillbox for an infinite plane sheet of charge.",
+        "generation_prompt": "Draw a 2D physics diagram of a large vertical plane sheet colored light blue, marked with positive plus signs. Draw a transparent rectangular box (a pillbox) horizontally piercing right through the middle of the sheet. Label the flat left end cap as '1' and the flat right end cap as '2'. From both end caps 1 and 2, draw cyan vector arrows pointing horizontally outward, away from the sheet, labeled E. Show that the area A of the caps is perpendicular to the electric field. Use a solid dark #0a0a0f background."
+      },
+      {
+        "type": "concept",
+        "title": "Field due to a Uniformly Charged Thin Spherical Shell",
+        "tier": "1",
+        "points": [
+          "A thin spherical shell of radius R has a uniform surface charge density \\sigma, making total charge $q = 4\\pi R^{2} \\sigma$.",
+          "The charge resides entirely on the outer surface of the shell.",
+          "For points outside the shell (r > R), the electric field is identical to that of a point charge q concentrated entirely at the center.",
+          "For points on the surface of the shell (r = R), the electric field is maximum and equals $\\frac{q}{4\\pi\\epsilon_{0}R^{2}}$.",
+          "For all points strictly inside the shell (r < R), the electric field is exactly zero. This is a crucial property related to electrostatic shielding."
+        ],
+        "why_it_matters": "The ultimate 5-mark Gauss's law question. Tests derivation across three different regions and requires combining them into a final discontinuous graph."
+      },
+      {
+        "type": "derived_result",
+        "statement": "The electric field is zero inside a uniform spherical shell, and behaves like a point charge outside.",
+        "latex": "E_{out} = \\frac{1}{4\\pi\\epsilon_{0}}\\frac{q}{r^{2}}, \\quad E_{in} = 0",
+        "variables": [
+          {
+            "symbol": "E_{out}",
+            "name": "Electric field outside (r > R)",
+            "unit": "$\\text{N/C}$",
+            "note": ""
+          },
+          {
+            "symbol": "E_{in}",
+            "name": "Electric field inside (r < R)",
+            "unit": "$\\text{N/C}$",
+            "note": ""
+          },
+          {
+            "symbol": "q",
+            "name": "Total charge on the shell",
+            "unit": "C",
+            "note": "$q = 4\\pi R^{2}\\sigma$"
+          },
+          {
+            "symbol": "r",
+            "name": "Distance from the center of the shell",
+            "unit": "m",
+            "note": ""
+          },
+          {
+            "symbol": "R",
+            "name": "Radius of the shell",
+            "unit": "m",
+            "note": ""
+          }
+        ],
+        "valid_when": "Strictly for a thin spherical shell with uniform charge distribution.",
+        "derivation_asked": true,
+        "proof_skeleton": [
+          "Case 1: Outside (r > R). Construct a spherical Gaussian surface of radius r concentric with the shell.",
+          "By symmetry, \\vec{E} is radial, so \\vec{E} \\parallel d\\vec{A} and E is constant. $\\oint E dA = E(4\\pi r^{2})$.",
+          "Charge enclosed is the total charge q.",
+          "Gauss's Law: $E(4\\pi r^{2}) = \\frac{q}{\\epsilon_{0}}$. Solve for E.",
+          "Case 2: Inside (r < R). Construct a spherical Gaussian surface of radius r concentric with the shell.",
+          "The flux is still E(4\\pi $r^{2}$).",
+          "Charge enclosed is 0 (all charge is on the shell at radius R).",
+          "Gauss's Law: $E(4\\pi r^{2}) = 0 \\implies E = 0$."
+        ]
+      },
+      {
+        "type": "exam_intel",
+        "concept_ref": "Field due to a Uniformly Charged Thin Spherical Shell",
+        "frequency": "HIGH",
+        "marks_breakdown": [
+          "5 marks (Full derivation for both regions + graph)",
+          "2 marks (Conceptual applications of E=0 inside)"
+        ],
+        "question_forms": [
+          "Use Gauss's law to derive the expression for the electric field due to a uniformly charged thin spherical shell at a point (i) outside and (ii) inside the shell. Draw a graph showing the variation of electric field with distance r from the centre. (5 marks)",
+          "Why is the electric field zero inside a charged spherical shell? (1 mark)"
+        ],
+        "board_traps": [
+          "Students try to do a volume integral or use volume charge density \\rho. A thin shell only has surface charge density \\sigma.",
+          "Drawing the E vs r graph as a continuous smooth curve. It must show a sudden discontinuity (jump from 0 to max) exactly at r = R."
+        ],
+        "common_mistakes": [
+          "Confusing 'r' (variable distance) and 'R' (fixed radius) in the formulas.",
+          "Forgetting to draw the graph when asked, immediately losing 1 or 2 marks out of 5."
+        ],
+        "answer_structure": "Start with a diagram of the shell (radius R) and two dotted Gaussian spheres (r<R and r>R). Write Heading '1. Outside (r>R)', do the 4 steps. Write Heading '2. Inside (r<R)', do the 3 steps, clearly state $q_enc = 0$. Conclude with a clean E vs r graph.",
+        "examiner_expectation": "The explicit statement that $q_{enc}$ = 0 for the inside case is heavily weighted. The graph must clearly label the x-axis discontinuity point as r = R."
+      },
+      {
+        "type": "rapid_recall",
+        "concept_ref": "Field due to a Uniformly Charged Thin Spherical Shell",
+        "one_liner": "A spherical shell hides all electric field inside itself (E=0), but acts exactly like a concentrated point charge to everything outside.",
+        "memory_hook": "Inside: Empty Space = Zero Field. Outside: Looks like a Point Charge.",
+        "never_forget": [
+          "$E = 0$ for ALL points where r < R.",
+          "Graph starts flat on the zero line, spikes up at r = R, then curves down as $1/r^2$.",
+          "Maximum electric field exists exactly on the surface."
+        ]
+      },
+      {
+        "type": "diagram",
+        "title": "Electric Field vs Distance for Spherical Shell",
+        "source": "Conceptual",
+        "ncert_reference": "",
+        "description": {
+          "what_is_shown": "A graph showing how electric field magnitude E varies with radial distance r for a thin charged spherical shell.",
+          "elements": [
+            "Y-axis labeled E (Electric Field)",
+            "X-axis labeled r (Distance from center)",
+            "A vertical dashed line marking r = R (the surface of the shell)",
+            "A flat horizontal line running exactly on the x-axis from r = 0 to r = R (representing $E = 0$ inside)",
+            "A sudden jump at r = R up to a maximum value $E_{max} = \\frac{1}{4\\pi\\epsilon_{0}}\\frac{q}{R^{2}}$",
+            "A curved line decaying from E_{max} towards the right for r > R, representing the $1/r^2$ fall-off."
+          ],
+          "labels": [
+            "E",
+            "r",
+            "R",
+            "$E \\propto \\frac{1}{r^{2}}$",
+            "$E = 0$"
+          ],
+          "spatial_relationships": "The discontinuity at r = R is the most critical feature. The curve for r > R must approach the x-axis asymptotically but never touch it.",
+          "style_notes": "Dark background #0a0a0f. White axes and text. Cyan line for the graph curve to make it pop."
+        },
+        "caption": "Variation of electric field E with distance r for a thin spherical shell.",
+        "generation_prompt": "Draw a 2D line graph. The vertical y-axis is labeled E. The horizontal x-axis is labeled r. Mark a point R on the x-axis and draw a vertical dashed line up from it. From r=0 to r=R, draw a thick cyan line exactly flat on the x-axis, labeled E=0. At r=R, jump straight up to a high point on the y-axis. From this high point, draw a thick cyan curve sweeping downwards to the right, approaching the x-axis asymptotically. Label this curve E proportional to $1/r^2$. Use a solid dark #0a0a0f background with bright white axes and text."
+      }
+    ],
+    "formula_sheet": [
+      {
+        "latex": "E = \\frac{\\lambda}{2\\pi\\epsilon_{0}r}",
+        "label": "Field of an Infinite Line Charge",
+        "description": "Magnitude of electric field at distance r from a long straight charged wire.",
+        "variables": [
+          {
+            "symbol": "E",
+            "name": "Electric field magnitude",
+            "unit": "$\\text{N/C}$",
+            "note": ""
+          },
+          {
+            "symbol": "\\lambda",
+            "name": "Linear charge density",
+            "unit": "\\text{C/m}",
+            "note": ""
+          },
+          {
+            "symbol": "r",
+            "name": "Perpendicular distance",
+            "unit": "m",
+            "note": ""
+          }
+        ],
+        "si_unit_of_result": "$\\text{N/C}$",
+        "use_case": "Both",
+        "board_frequency": "HIGH",
+        "common_error": "Using 4\\pi$\\epsilon_{0}$ instead of 2\\pi$\\epsilon_{0}$."
+      },
+      {
+        "latex": "E = \\frac{\\sigma}{2\\epsilon_{0}}",
+        "label": "Field of an Infinite Plane Sheet",
+        "description": "Magnitude of uniform electric field produced by a single thin charged sheet.",
+        "variables": [
+          {
+            "symbol": "E",
+            "name": "Electric field magnitude",
+            "unit": "$\\text{N/C}$",
+            "note": "Independent of distance."
+          },
+          {
+            "symbol": "\\sigma",
+            "name": "Surface charge density",
+            "unit": "$\\text{C/m}^{2}$",
+            "note": ""
+          },
+          {
+            "symbol": "\\epsilon_{0}",
+            "name": "Permittivity of free space",
+            "unit": "$\\text{C}^{2}/\\text{Nm}^{2}$",
+            "note": ""
+          }
+        ],
+        "si_unit_of_result": "$\\text{N/C}$",
+        "use_case": "Both",
+        "board_frequency": "HIGH",
+        "common_error": "Adding an 'r' term to the formula."
+      },
+      {
+        "latex": "E = \\frac{1}{4\\pi\\epsilon_{0}}\\frac{q}{r^{2}}",
+        "label": "Field Outside a Spherical Shell (r > R)",
+        "description": "Electric field outside a charged shell, acting like a point charge.",
+        "variables": [
+          {
+            "symbol": "E",
+            "name": "Electric field magnitude",
+            "unit": "$\\text{N/C}$",
+            "note": ""
+          },
+          {
+            "symbol": "q",
+            "name": "Total charge on shell",
+            "unit": "C",
+            "note": ""
+          },
+          {
+            "symbol": "r",
+            "name": "Distance from center",
+            "unit": "m",
+            "note": "Must be greater than R."
+          }
+        ],
+        "si_unit_of_result": "$\\text{N/C}$",
+        "use_case": "Both",
+        "board_frequency": "HIGH",
+        "common_error": "Using the radius of the shell R instead of the distance r."
+      },
+      {
+        "latex": "E = 0",
+        "label": "Field Inside a Spherical Shell (r < R)",
+        "description": "Electric field at any point inside a uniformly charged thin spherical shell.",
+        "variables": [],
+        "si_unit_of_result": "$\\text{N/C}$",
+        "use_case": "Both",
+        "board_frequency": "HIGH",
+        "common_error": "Calculating a non-zero value."
+      }
+    ],
+    "ncert_golden_lines": [
+      "The electric field due to an infinite plane sheet of charge is independent of the distance from the sheet.",
+      "For points outside the shell, the field is as if the entire charge of the shell is concentrated at its centre.",
+      "The electric field is zero at all points inside a uniformly charged thin spherical shell."
+    ]
+  }
+]

@@ -1,0 +1,426 @@
+{
+  "meta": {
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "class": 12,
+    "board": "CBSE"
+  },
+  "notes": [
+    {
+      "type": "concept",
+      "title": "Reflection of Light by Spherical Mirrors",
+      "points": [
+        "Sign Convention: Cartesian sign convention is used. Pole (P) is the origin. Direction of incident light is positive x-axis.",
+        "Focal Length (f): Distance between Pole and Principal Focus. For spherical mirrors, f = R/2.",
+        "Concave Mirror: Converging mirror. Real focus.",
+        "Convex Mirror: Diverging mirror. Virtual focus."
+      ]
+    },
+    {
+      "type": "formula",
+      "latex": "\\frac{1}{v} + \\frac{1}{u} = \\frac{1}{f}",
+      "label": "Mirror Formula",
+      "conditions": [
+        "u is object distance (always negative).",
+        "v is image distance.",
+        "f is focal length (negative for concave, positive for convex)."
+      ]
+    },
+    {
+      "type": "formula",
+      "latex": "m = \\frac{h'}{h} = -\\frac{v}{u}",
+      "label": "Linear Magnification (Mirror)",
+      "conditions": [
+        "m is negative for real, inverted images.",
+        "m is positive for virtual, erect images."
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Refraction of Light",
+      "points": [
+        "Bending of light when passing obliquely from one medium to another.",
+        "Snell's Law: Ratio of sine of angle of incidence to sine of angle of refraction is constant."
+      ]
+    },
+    {
+      "type": "formula",
+      "latex": "n_{21} = \\frac{n_2}{n_1} = \\frac{\\sin i}{\\sin r} = \\frac{v_1}{v_2}",
+      "label": "Snell's Law",
+      "conditions": [
+        "n21 is refractive index of medium 2 with respect to medium 1.",
+        "n is absolute refractive index (c/v)."
+      ]
+    },
+    {
+      "type": "diagram",
+      "title": "Refraction through Glass Slab",
+      "image": "/images/Physics/Derivations/refraction through glass slab.png",
+      "caption": "Emergent ray is parallel to incident ray but laterally displaced."
+    },
+    {
+      "type": "concept",
+      "title": "Total Internal Reflection (TIR)",
+      "points": [
+        "Occurs when light travels from denser to rarer medium.",
+        "If angle of incidence i > critical angle ic, the ray is totally reflected back into the denser medium.",
+        "Applications: Mirage, Diamond brilliance, Prisms, Optical Fibres."
+      ]
+    },
+    {
+      "type": "formula",
+      "latex": "\\sin i_c = \\frac{1}{n_{12}} = \\frac{n_1}{n_2}",
+      "label": "Critical Angle Condition",
+      "conditions": [
+        "n1 is rarer medium (often air, n=1), n2 is denser medium."
+      ]
+    },
+    {
+      "type": "diagram",
+      "title": "Total Internal Reflection",
+      "image": "/images/Physics/Derivations/Total Internal Reflection.png",
+      "caption": "Ray undergoes reflection when incidence angle exceeds critical angle ic."
+    },
+    {
+      "type": "concept",
+      "title": "Refraction at Spherical Surfaces",
+      "points": [
+        "Refraction occurs at a single spherical interface separating two media."
+      ]
+    },
+    {
+      "type": "formula",
+      "latex": "\\frac{n_2}{v} - \\frac{n_1}{u} = \\frac{n_2 - n_1}{R}",
+      "label": "Refraction Formula (Spherical Surface)",
+      "conditions": [
+        "Light travels from medium n1 to n2.",
+        "R is radius of curvature."
+      ]
+    },
+    {
+      "type": "diagram",
+      "title": "Refraction at Spherical Surface",
+      "image": "/images/Physics/Derivations/spherical surface refraction.png",
+      "caption": "Geometry for deriving the relationship between u, v, n1, n2, and R."
+    },
+    {
+      "type": "concept",
+      "title": "Refraction by Lenses",
+      "points": [
+        "A lens is a transparent medium bounded by two spherical surfaces.",
+        "Thin lens approximation: Thickness is negligible compared to radii of curvature."
+      ]
+    },
+    {
+      "type": "formula",
+      "latex": "\\frac{1}{f} = (n_{21} - 1) \\left( \\frac{1}{R_1} - \\frac{1}{R_2} \\right)",
+      "label": "Lens Maker's Formula",
+      "conditions": [
+        "R1 and R2 are radii of curvature of the two surfaces.",
+        "Sign convention applies to R1 and R2."
+      ]
+    },
+    {
+      "type": "formula",
+      "latex": "\\frac{1}{v} - \\frac{1}{u} = \\frac{1}{f}",
+      "label": "Thin Lens Formula",
+      "conditions": [
+        "Same form for convex and concave lenses."
+      ]
+    },
+    {
+      "type": "formula",
+      "latex": "m = \\frac{v}{u}",
+      "label": "Magnification (Lens)",
+      "conditions": [
+        "m is positive for virtual image, negative for real image."
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Power of a Lens",
+      "points": [
+        "Measure of the convergence or divergence which a lens introduces in the light falling on it.",
+        "SI Unit: Dioptre (D). 1 D = 1 m^-1."
+      ]
+    },
+    {
+      "type": "formula",
+      "latex": "P = \\frac{1}{f}",
+      "label": "Power of Lens",
+      "conditions": [
+        "f must be in meters.",
+        "P is positive for convex, negative for concave."
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Combination of Lenses",
+      "points": [
+        "When two thin lenses are in contact, the combination acts as a single lens.",
+        "Total magnification is the product of individual magnifications."
+      ]
+    },
+    {
+      "type": "formula",
+      "latex": "\\frac{1}{f} = \\frac{1}{f_1} + \\frac{1}{f_2} \\quad ; \\quad P = P_1 + P_2",
+      "label": "Lenses in Contact",
+      "conditions": [
+        "Algebraic sum (signs must be included)."
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Refraction through a Prism",
+      "points": [
+        "Light bends towards the base of the prism.",
+        "Angle of deviation (delta) depends on angle of incidence.",
+        "At minimum deviation, the refracted ray inside the prism is parallel to the base."
+      ]
+    },
+    {
+      "type": "formula",
+      "latex": "A + \\delta = i + e",
+      "label": "Prism Equation",
+      "conditions": [
+        "A is angle of prism, delta is deviation, i is incidence, e is emergence."
+      ]
+    },
+    {
+      "type": "formula",
+      "latex": "n_{21} = \\frac{\\sin \\frac{A + \\delta_m}{2}}{\\sin \\frac{A}{2}}",
+      "label": "Refractive Index of Prism Material",
+      "conditions": [
+        "Valid only at condition of minimum deviation (delta_m).",
+        "At minimum deviation, i = e and r1 = r2."
+      ]
+    },
+    {
+      "type": "diagram",
+      "title": "Refraction through Prism",
+      "image": "/images/Physics/Derivations/prism.png",
+      "caption": "Path of ray showing angle of deviation delta."
+    },
+    {
+      "type": "diagram",
+      "title": "Graph of Deviation vs Incidence Angle",
+      "image": "/images/Physics/Derivations/graph of deviation vs incidence angle.png",
+      "caption": "Curve shows a unique minimum value of deviation delta_m."
+    },
+    {
+      "type": "concept",
+      "title": "Dispersion and Scattering",
+      "points": [
+        "Dispersion: Splitting of white light into constituent colours (VIBGYOR) because refractive index depends on wavelength (Cauchy's formula).",
+        "Scattering: Change in direction of light by irregularities in medium (Rayleigh Scattering).",
+        "Condition for Rayleigh scattering: Size of scatterer a << wavelength lambda."
+      ]
+    },
+    {
+      "type": "formula",
+      "latex": "I \\propto \\frac{1}{\\lambda^4}",
+      "label": "Rayleigh Scattering Law",
+      "conditions": [
+        "Shorter wavelengths (Blue) scatter much more than longer wavelengths (Red).",
+        "Explains blue sky and reddish sunrise/sunset."
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "The Eye",
+      "points": [
+        "Ciliary muscles adjust the curvature of the lens to focus objects at different distances (Accommodation).",
+        "Near point (D) = 25 cm. Far point = Infinity."
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Simple Microscope",
+      "points": [
+        "A convex lens of short focal length.",
+        "Object placed between focus and optical center."
+      ]
+    },
+    {
+      "type": "formula",
+      "latex": "m = 1 + \\frac{D}{f}",
+      "label": "Magnification (Simple Microscope)",
+      "conditions": [
+        "Image formed at Near Point (D = 25 cm)."
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Compound Microscope",
+      "points": [
+        "Consists of two convex lenses: Objective (short f, small aperture) and Eyepiece (larger f, larger aperture).",
+        "Objective forms a real, inverted, magnified image.",
+        "Eyepiece acts as a simple microscope to magnify this intermediate image."
+      ]
+    },
+    {
+      "type": "diagram",
+      "title": "Compound Microscope",
+      "image": "/images/Physics/Derivations/compound microscope.png",
+      "caption": "Ray diagram showing image formation by objective and eyepiece."
+    },
+    {
+      "type": "formula",
+      "latex": "m = m_o \\times m_e = \\frac{v_o}{u_o} \\left( 1 + \\frac{D}{f_e} \\right) \\approx -\\frac{L}{f_o} \\left( 1 + \\frac{D}{f_e} \\right)",
+      "label": "Magnification (Compound Microscope)",
+      "conditions": [
+        "L is tube length (distance between second focus of objective and first focus of eyepiece).",
+        "Image at near point."
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Refracting Telescope",
+      "points": [
+        "Used for observing distant objects.",
+        "Objective: Large focal length and large aperture (to gather light).",
+        "Eyepiece: Small focal length."
+      ]
+    },
+    {
+      "type": "diagram",
+      "title": "Refracting Telescope",
+      "image": "/images/Physics/Derivations/Refracting Telescope.png",
+      "caption": "Parallel rays from infinity focused by objective, viewed through eyepiece."
+    },
+    {
+      "type": "formula",
+      "latex": "m = -\\frac{f_o}{f_e}",
+      "label": "Magnification (Telescope - Normal Adjustment)",
+      "conditions": [
+        "Final image formed at infinity.",
+        "Length of telescope L = fo + fe."
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Reflecting Telescope (Cassegrain)",
+      "points": [
+        "Uses a parabolic concave mirror as the objective.",
+        "Advantages: No chromatic aberration, no spherical aberration (if parabolic), lighter weight, easier to support."
+      ]
+    },
+    {
+      "type": "diagram",
+      "title": "Cassegrain Reflecting Telescope",
+      "image": "/images/Physics/Derivations/Cassegrain Reflecting Telescope.png",
+      "caption": "Primary concave mirror and secondary convex mirror focus light to the eye."
+    }
+  ],
+  "formula_sheet": [
+    {
+      "latex": "\\frac{1}{v} + \\frac{1}{u} = \\frac{1}{f}",
+      "description": "Mirror Formula",
+      "use_case": "Direct Use"
+    },
+    {
+      "latex": "n = \\frac{c}{v}",
+      "description": "Refractive Index",
+      "use_case": "Direct Use"
+    },
+    {
+      "latex": "\\sin i_c = \\frac{1}{n}",
+      "description": "Critical Angle",
+      "use_case": "Direct Use"
+    },
+    {
+      "latex": "\\frac{n_2}{v} - \\frac{n_1}{u} = \\frac{n_2-n_1}{R}",
+      "description": "Spherical Surface Refraction",
+      "use_case": "Derivation Required"
+    },
+    {
+      "latex": "\\frac{1}{f} = (n-1)(\\frac{1}{R_1}-\\frac{1}{R_2})",
+      "description": "Lens Maker's Formula",
+      "use_case": "Direct Use"
+    },
+    {
+      "latex": "\\frac{1}{v} - \\frac{1}{u} = \\frac{1}{f}",
+      "description": "Lens Formula",
+      "use_case": "Direct Use"
+    },
+    {
+      "latex": "n = \\frac{\\sin((A+\\delta_m)/2)}{\\sin(A/2)}",
+      "description": "Prism Formula",
+      "use_case": "Direct Use"
+    },
+    {
+      "latex": "m = 1 + D/f",
+      "description": "Simple Microscope Magnification",
+      "use_case": "Direct Use"
+    },
+    {
+      "latex": "m = \\frac{L}{f_o} \\frac{D}{f_e}",
+      "description": "Compound Microscope Magnification",
+      "use_case": "Direct Use"
+    },
+    {
+      "latex": "m = f_o/f_e",
+      "description": "Telescope Magnification",
+      "use_case": "Direct Use"
+    }
+  ],
+  "ncert_golden_lines": [
+    "Light travels with a speed of 3x10^8 m/s in vacuum.",
+    "A convex mirror always produces a virtual image independent of the location of the object.",
+    "The refractive index of a medium depends on the wavelength of light.",
+    "Total internal reflection occurs only when light travels from a denser medium to a rarer medium.",
+    "The power of a lens is the reciprocal of its focal length in meters.",
+    "Blue light is scattered more than red light.",
+    "The largest telescope in the world is a reflecting telescope."
+  ],
+  "diagram_descriptors": [
+    {
+      "diagram_name": "Refraction through Glass Slab",
+      "used_for": "Refraction through Glass Slab",
+      "image_path": "/images/Physics/Derivations/refraction through glass slab.png",
+      "detailed_description": "Emergent ray is parallel to incident ray but laterally displaced."
+    },
+    {
+      "diagram_name": "Total Internal Reflection",
+      "used_for": "Total Internal Reflection",
+      "image_path": "/images/Physics/Derivations/Total Internal Reflection.png",
+      "detailed_description": "Ray undergoes reflection when incidence angle exceeds critical angle ic."
+    },
+    {
+      "diagram_name": "Refraction at Spherical Surface",
+      "used_for": "Refraction at Spherical Surface",
+      "image_path": "/images/Physics/Derivations/spherical surface refraction.png",
+      "detailed_description": "Geometry for deriving the relationship between u, v, n1, n2, and R."
+    },
+    {
+      "diagram_name": "Refraction through Prism",
+      "used_for": "Refraction through Prism",
+      "image_path": "/images/Physics/Derivations/prism.png",
+      "detailed_description": "Path of ray showing angle of deviation delta."
+    },
+    {
+      "diagram_name": "Graph of Deviation vs Incidence Angle",
+      "used_for": "Graph of Deviation vs Incidence Angle",
+      "image_path": "/images/Physics/Derivations/graph of deviation vs incidence angle.png",
+      "detailed_description": "Curve shows a unique minimum value of deviation delta_m."
+    },
+    {
+      "diagram_name": "Compound Microscope",
+      "used_for": "Compound Microscope",
+      "image_path": "/images/Physics/Derivations/compound microscope.png",
+      "detailed_description": "Ray diagram showing image formation by objective and eyepiece."
+    },
+    {
+      "diagram_name": "Refracting Telescope",
+      "used_for": "Refracting Telescope",
+      "image_path": "/images/Physics/Derivations/Refracting Telescope.png",
+      "detailed_description": "Parallel rays from infinity focused by objective, viewed through eyepiece."
+    },
+    {
+      "diagram_name": "Cassegrain Reflecting Telescope",
+      "used_for": "Cassegrain Reflecting Telescope",
+      "image_path": "/images/Physics/Derivations/Cassegrain Reflecting Telescope.png",
+      "detailed_description": "Primary concave mirror and secondary convex mirror focus light to the eye."
+    }
+  ]
+}

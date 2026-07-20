@@ -1,0 +1,90 @@
+{
+"question_metadata": {
+"format_type": "Article Writing",
+"difficulty_level": "Exam_Level",
+"theme": "Social Issue / Youth Wellbeing",
+"board_relevance_reason": "Based on PYQ trends (2023-25), topics revolving around Technology, Mental Health, and Youth Lifestyle are in the 'High Probability' zone. This question integrates all three."
+},
+"board_style_question": "You are Aryan/Amrita, a student of Class XII. You have observed that despite being 'connected' 24/7, teenagers today feel more isolated and anxious than ever before. Write an article in 120-150 words for a national daily on the topic: 'The Paradox of Connectivity: Why We Need a Digital Detox'.\n\nUse the following cues:\n- Obsession with social media validation.\n- Impact on sleep and focus (The 'FOMO' factor).\n- Loss of real-world social skills.\n- The concept of 'JOMO' (Joy of Missing Out).",
+"format_blueprint": {
+"mandatory_components": [
+"Catchy/Descriptive Heading (Center Aligned)",
+"Byline (By Name) - Immediately below heading",
+"Introduction (Hook + Thesis Statement)",
+"Body Paragraph 1 (Problem Analysis/Cause)",
+"Body Paragraph 2 (Consequences/Effects)",
+"Conclusion (Solutions + Call to Action/Hope)"
+],
+"sequence_order": [
+"Heading",
+"Byline",
+"Intro",
+"Body",
+"Conclusion"
+],
+"format_visual_layout": "3-4 distinct paragraphs. No bullet points in the final text (weave points into sentences)."
+},
+"planning_framework": {
+"brainstorm_points": [
+"Hook: We check phones before saying good morning.",
+"Problem: Likes/Comments = Self-worth.",
+"Consequence: Insomnia, anxiety, 'doom scrolling'.",
+"Contrast: Virtual friends vs Real loneliness.",
+"Solution: Tech-free zones, JOMO, mindful usage."
+],
+"logical_flow_model": "Define the Irony (Connected but lonely) -> Analyze the Cause (Validation seeking) -> Discuss Impact (Health/Mind) -> Propose Solution (Detox).",
+"time_allocation_minutes": "Planning: 3 min | Writing: 10 min | Review: 2 min"
+},
+"model_answer_with_word_count": {
+"answer_text": "THE PARADOX OF CONNECTIVITY: WHY WE NEED A DIGITAL DETOX\nBy Amrita\n\nWe live in an era where we have Wi-Fi in every corner, yet meaningful connections are harder to find. While technology was designed to bridge gaps, it has ironically created invisible walls of isolation among the youth. Today, teenagers are hyper-connected yet emotionally detached, suffering from what experts call 'Digital Dependency'.\n\nThe root cause lies in the constant thirst for social media validation. Self-worth is now quantified by 'likes' and 'views', leading to a perpetual Fear of Missing Out (FOMO). This obsession disrupts sleep cycles, hampers academic focus, and erodes face-to-face social skills. We are scrolling through life rather than living it.\n\nThe solution is not to discard technology, but to master it. We must embrace the 'Joy of Missing Out' (JOMO)—finding peace in disconnecting. Setting 'tech-free zones' at home and prioritising real conversations over virtual streaks is the need of the hour. It is time we looked up from our screens and reconnected with the world around us.",
+"word_count": 148
+},
+"why_this_scores_full_marks": {
+"format_compliance_reason": "Perfect structure: Heading is impactful, Byline is present, and the text is split into three clear, balanced paragraphs.",
+"content_strength_reason": "It addresses all cues (Validation, FOMO, JOMO) seamlessly without listing them. The argument flows logically from problem to solution.",
+"expression_quality_reason": "Uses sophisticated vocabulary ('quantified by likes', 'erodes social skills') but remains lucid. Strong opening and closing lines."
+},
+"vocabulary_upgrade_section": {
+"basic_to_board_level_examples": [
+{
+"basic": "People use phones too much.",
+"improved": "There is an excessive reliance on gadgets.",
+"board_level": "We are grappling with an era of 'Digital Dependency' and hyper-connectivity."
+},
+{
+"basic": "It is bad for our sleep and study.",
+"improved": "It negatively affects sleep and concentration.",
+"board_level": "This obsession disrupts sleep cycles and hampers academic focus."
+},
+{
+"basic": "We should stop using phones sometimes.",
+"improved": "We need to take a break from technology.",
+"board_level": "We must embrace the 'Joy of Missing Out' (JOMO) and consciously disconnect."
+}
+],
+"sentence_transformation_examples": [
+"Weak: Technology makes us lonely even if we have friends online. -> Strong: While technology bridges gaps, it has ironically created invisible walls of isolation.",
+"Weak: We need to solve this problem now. -> Strong: Prioritising real conversations over virtual streaks is the need of the hour."
+]
+},
+"common_mark_losing_mistakes": [
+"Writing the Article in one single long block without paragraph breaks.",
+"Using bullet points or numbering (Strictly forbidden in Article writing).",
+"Forgetting the Byline (By Name).",
+"Exceeding the word limit significantly (150+ words risks penalty).",
+"Being too informal (e.g., 'I think phones are bad lol'). Tone must be formal/semi-formal."
+],
+"examiner_psychology_insights": [
+"Examiners read the First Paragraph and the Last Sentence most carefully. Make them strong.",
+"They look for 'Cohesion'—transition words like 'Moreover', 'However', 'Consequently' help score high in the 'Organization' criteria.",
+"A generic title like 'Digital Detox' scores average. A descriptive title like 'The Paradox of Connectivity' scores higher."
+],
+"self_evaluation_checklist": [
+"Is my Heading centered and capitalized?",
+"Did I write 'By [Name]' immediately under the heading?",
+"Do I have 3 distinct paragraphs?",
+"Is my word count between 120-150?",
+"Did I offer a practical solution in the conclusion?",
+"Did I avoid using bullet points?"
+]
+}

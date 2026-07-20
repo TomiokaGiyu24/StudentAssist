@@ -1,0 +1,48 @@
+Created At: 2026-06-03T08:19:15Z
+Completed At: 2026-06-03T08:19:15Z
+File Path: `file:///c:/StudentAssist-main/src/data/Boards/Physics/Questions/electricfieldandcharges.json`
+Total Lines: 1609
+Total Bytes: 166539
+Showing lines 820 to 860
+The following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.
+820:           "typology_tag": "VSA",
+821:           "stem_text": "An electric dipole consists of two point charges $+1 \\\\mu{\\\\text{C}}$ and $-1 \\\\mu{\\\\text{C}}$, held 10 cm apart. It is subjected to a uniform electric field of 100 N$/C$. Calculate the amount of work done in turning the dipole from its position of stable equilibrium to the position of unstable equilibrium, in the field.",
+822:           "marking_scheme_breakdown": [
+823:             {
+824:               "allocated_marks": 1,
+825:               "evaluation_trigger": "Identification of initial stable orientation angle $\\\\theta_{1} = 0^{\\\\circ}$ and final unstable orientation angle $\\\\theta_{2} = 180^{\\\\circ}$, combined with the general work equation.",
+826:               "minimum_viable_text": "Stable equilibrium is at $\\\\theta_{1} = 0^{\\\\circ}$ and unstable equilibrium is at $\\\\theta_{2} = 180^{\\\\circ}$. Work done is W $=$ pE$(\\\\cos\\\\theta_{1} - \\\\cos\\\\theta_{2}) = 2pE$.",
+827:               "algebraic_progression": [
+828:                 "W $=$ pE$(\\\\cos(0^{\\\\circ}) - \\\\cos(180^{\\\\circ}))$",
+829:                 "W $=$ pE$(1 - (-1)) = 2pE$"
+830:               ]
+831:             },
+832:             {
+833:               "allocated_marks": 1,
+834:               "evaluation_trigger": "Accurate calculation of the dipole moment p and final numeric work value with appropriate S.I. units.",
+835:               "minimum_viable_text": "Dipole moment $p = q(2a) = 10^{-6}\\\\text{ C} \\\\times 0.1\\\\text{ m} = 10^{-7}\\\\text{ C}\\\\cdot\\\\text{m}$
+<truncated 429 bytes>
+$\\\\,$\\\\text{J}$"
+839:               ]
+840:             }
+841:           ],
+842:           "topper_execution_logic": "Watch out for the classic trap here! The 10 cm separation given is the $*$entire$*$ dipole length $(2a)$, not just '$a'$. If you mistake it for '$a'$ and double it, your dipole moment doubles, pushing your work value to $4 \\\\times 10^{-5}\\\\text{ J}$, which triggers an automatic $-0.5$ mark penalty. Also, never forget to append the unit symbol $('J'$ or 'N$\\\\cdot\\\\text{m}')$ at the end, or examiners will slice off another 0.5 marks instantly."
+843:         },
+844:         {
+845:           "question_id": "CH1-2M-02",
+846:           "marks_category": 2,
+847:           "typology_tag": "VSA",
+848:           "stem_text": "Four point charges of $1 \\\\mu{\\\\text{C}}, -2 \\\\mu{\\\\text{C}}, 1 \\\\mu{\\\\text{C}}$ and $-2 \\\\mu{\\\\text{C}}$ are placed at the corners A, B, C and D respectively, of a square of side 30 cm. Find the net force acting on a charge of $4 \\\\mu{\\\\text{C}}$ placed at the centre of the square.",
+849:           "marking_scheme_breakdown": [
+850:             {
+851:               "allocated_marks": 1,
+852:               "evaluation_trigger": "Vector resolution and pair$-$wise cancellation along diagonal AC.",
+853:               "minimum_viable_text": "Forces exerted on the central $+4 \\\\mu{\\\\text{C}}$ charge by equal charges at opposite corners A and $C (1 \\\\mu{\\\\text{C}}$ each) are equal in magnitude but opposite in direction. They cancel vectorially: $\\\\vec{F}_{A} + \\\\vec{F}_{C} = 0\\\\text{ N}$.",
+854:               "algebraic_progression": [
+855:                 "$\\\\vec{F}_{A} = -\\\\vec{F}_{C}$",
+856:                 "$\\\\vec{F}_{A} + \\\\vec{F}_{C} = 0\\\\text{ N}$"
+857:               ]
+858:             },
+859:             {
+860:               "allocated_marks": 1,
+The above content does NOT show the entire file contents. If you need to view any lines of the file which were not shown to complete your task, call this tool again to view those lines.

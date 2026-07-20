@@ -1,0 +1,314 @@
+{
+  "meta": {
+    "subject": "Physics",
+    "class": 12,
+    "board": "CBSE",
+    "chapter_scope": "Electric Charges and Fields",
+    "mock_type": "COMPETENCY_BASED",
+    "time_minutes": 180,
+    "maximum_marks": 70,
+    "difficulty_profile": {
+      "easy": 15,
+      "moderate": 55,
+      "challenging": 30
+    }
+  },
+  "sections": [
+    {
+      "section_id": "A",
+      "section_name": "MCQs & Assertion-Reasoning",
+      "question_type": "mcq",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Two small spheres, each having a mass of $m$ kg and charge $q$ C, are suspended from a point by insulating threads each of length $l$ m but of negligible mass. If $\\theta$ is the angle which each thread makes with the vertical when equilibrium has been attained, which of the following relations connects $q, m, l$ and $\\theta$?",
+          "options": [
+            "q^2 = 16\\pi\\epsilon_0 l^2 mg \\tan\\theta \\sin^2\\theta",
+            "q^2 = 4\\pi\\epsilon_0 l^2 mg \\tan\\theta \\sin^2\\theta",
+            "q = 4l \\sqrt{\\pi\\epsilon_0 mg \\tan\\theta}",
+            "q^2 = 16\\pi\\epsilon_0 l mg \\tan\\theta \\sin\\theta"
+          ],
+          "answer": "**Option (A)**\n**Reason:** In equilibrium, three forces act on the sphere: Tension $T$, Weight $mg$, and Electrostatic Force $F_e$. \nResolving forces:\n$T \\cos\\theta = mg$ ...(i)\n$T \\sin\\theta = F_e = \\frac{1}{4\\pi\\epsilon_0} \\frac{q^2}{r^2}$ ...(ii)\nDistance $r = 2l \\sin\\theta$.\nDividing (ii) by (i): $\\tan\\theta = \\frac{q^2}{4\\pi\\epsilon_0 (2l\\sin\\theta)^2 mg}$.\nRearranging: $q^2 = 16\\pi\\epsilon_0 l^2 mg \\tan\\theta \\sin^2\\theta$."
+        },
+        {
+          "id": 2,
+          "question": "A point charge $+q$ is placed at a distance $d/2$ directly above the center of a square of side $d$. The electric flux through the square is:",
+          "options": [
+            "q / \u03f5\u2080",
+            "q / 6\u03f5\u2080",
+            "q / 4\u03f5\u2080",
+            "Zero"
+          ],
+          "answer": "**Option (B)**\n**Reason:** By symmetry, the square can be considered as one face of a cube of side $d$ with the charge $+q$ at its center. According to Gauss's Law, total flux through the cube is $\\phi_{total} = q/\\epsilon_0$. Since the cube has 6 identical faces, flux through one face is $\\phi_{face} = \\frac{1}{6} \\phi_{total} = \\frac{q}{6\\epsilon_0}$."
+        },
+        {
+          "id": 3,
+          "question": "Three charges $+4q, Q$ and $q$ are placed in a straight line of length $l$ at points $0, l/2$ and $l$ respectively. What should be $Q$ in order to make the net force on $q$ to be zero?",
+          "options": [
+            "-q",
+            "-2q",
+            "-q/2",
+            "4q"
+          ],
+          "answer": "**Option (A)**\n**Reason:** For net force on $q$ (at $x=l$) to be zero:\nForce due to $+4q$ (at $0$) + Force due to $Q$ (at $l/2$) = 0.\n$\\frac{k(4q)(q)}{l^2} + \\frac{k(Q)(q)}{(l/2)^2} = 0$\n$\\frac{4q}{l^2} + \\frac{4Q}{l^2} = 0 \\implies 4q = -4Q \\implies Q = -q$."
+        },
+        {
+          "id": 4,
+          "question": "An electron falls from rest through a vertical distance $h$ in a uniform and vertically upward directed electric field $E$. The direction of electric field is now reversed, keeping its magnitude the same. A proton is allowed to fall from rest in it through the same vertical distance $h$. The time of fall of the electron, in comparison to the time of fall of the proton is:",
+          "options": [
+            "Smaller",
+            "5 times greater",
+            "10 times greater",
+            "Equal"
+          ],
+          "answer": "**Option (A)**\n**Reason:** The acceleration of a charged particle in field $E$ is $a = \\frac{qE}{m}$.\nTime of fall $t = \\sqrt{\\frac{2h}{a}} = \\sqrt{\\frac{2hm}{qE}}$.\nSince $h, E, q$ (magnitude) are same, $t \\propto \\sqrt{m}$.\nMass of electron ($m_e$) $<<$ Mass of proton ($m_p$), so $t_e < t_p$."
+        },
+        {
+          "id": 5,
+          "question": "The electric field in a certain region is acting radially outward and is given by $E = Ar$. A charge contained in a sphere of radius $a$ centered at the origin of the field will be given by:",
+          "options": [
+            "4\u03c0\u03f5\u2080Aa^2",
+            "A\u03f5\u2080a^2",
+            "4\u03c0\u03f5\u2080Aa^3",
+            "\u03f5\u2080Aa^3"
+          ],
+          "answer": "**Option (C)**\n**Reason:** At the surface of the sphere ($r=a$), $E = Aa$. \nFlux $\\phi = \\oint \\vec{E} \\cdot d\\vec{A} = E(4\\pi a^2) = (Aa)(4\\pi a^2) = 4\\pi A a^3$.\nBy Gauss's Law, $q_{in} = \\epsilon_0 \\phi = 4\\pi\\epsilon_0 A a^3$."
+        },
+        {
+          "id": 6,
+          "question": "A charged particle $q$ is shot towards another charged particle $Q$ which is fixed, with a speed $v$. It approaches $Q$ up to a closest distance $r$ and then returns. If $q$ were given a speed $2v$, the closest distance of approach would be:",
+          "options": [
+            "r",
+            "2r",
+            "r/2",
+            "r/4"
+          ],
+          "answer": "**Option (D)**\n**Reason:** At the distance of closest approach, the initial kinetic energy is entirely converted into electrostatic potential energy.\n$\\frac{1}{2}mv^2 = \\frac{kqQ}{r} \\implies r \\propto \\frac{1}{v^2}$.\nIf $v' = 2v$, then $r' \\propto \\frac{1}{(2v)^2} = \\frac{1}{4v^2}$.\nThus, $r' = r/4$."
+        },
+        {
+          "id": 7,
+          "question": "Two parallel infinite line charges with linear charge densities $+\\lambda$ C/m and $-\\lambda$ C/m are placed at a distance of $2R$ in free space. What is the electric field mid-way between the two line charges?",
+          "options": [
+            "Zero",
+            "2\u03bb / \u03c0\u03f5\u2080R",
+            "\u03bb / \u03c0\u03f5\u2080R",
+            "\u03bb / 2\u03c0\u03f5\u2080R"
+          ],
+          "answer": "**Option (C)**\n**Reason:** Field due to $+\\lambda$ at distance $R$: $E_1 = \\frac{\\lambda}{2\\pi\\epsilon_0 R}$ (Towards $-\\lambda$).\nField due to $-\\lambda$ at distance $R$: $E_2 = \\frac{\\lambda}{2\\pi\\epsilon_0 R}$ (Towards itself).\nSince both fields point in the same direction:\n$E_{net} = E_1 + E_2 = \\frac{2\\lambda}{2\\pi\\epsilon_0 R} = \\frac{\\lambda}{\\pi\\epsilon_0 R}$."
+        },
+        {
+          "id": 8,
+          "question": "Figure shows the electric field lines around three point charges A, B and C. Which of the following charges are positive?",
+          "options": [
+            "A and C",
+            "A and B",
+            "Only B",
+            "Only A"
+          ],
+          "answer": "**Option (A)**\n**Reason:** Electric field lines originate from positive charges and terminate on negative charges. In the standard diagram for this configuration, lines are seen emerging from A and C, and converging onto B. Therefore, A and C are positive, B is negative."
+        },
+        {
+          "id": 9,
+          "question": "An electric dipole of moment $\\vec{p}$ is placed in a uniform electric field $\\vec{E}$. The dipole is rotated from an angle $0^{\\circ}$ to $180^{\\circ}$. The work done by the external force is:",
+          "options": [
+            "pE",
+            "2pE",
+            "-2pE",
+            "Zero"
+          ],
+          "answer": "**Option (B)**\n**Reason:** Work done $W = \\int_{\\theta_1}^{\\theta_2} \\tau d\\theta = pE(\\cos\\theta_1 - \\cos\\theta_2)$.\nHere $\\theta_1 = 0^{\\circ}, \\theta_2 = 180^{\\circ}$.\n$W = pE(\\cos 0^{\\circ} - \\cos 180^{\\circ}) = pE(1 - (-1)) = 2pE$."
+        },
+        {
+          "id": 10,
+          "question": "A soap bubble is given a negative charge, then its radius:",
+          "options": [
+            "Decreases",
+            "Increases",
+            "Remains unchanged",
+            "Nothing can be predicted"
+          ],
+          "answer": "**Option (B)**\n**Reason:** When a soap bubble is charged (positive or negative), the mutual repulsion between the like charges on the surface creates an outward pressure (electrostatic pressure). This opposes the surface tension and atmospheric pressure, causing the radius to increase to minimize energy."
+        },
+        {
+          "id": 11,
+          "question": "Which of the following graphs shows the correct variation of Electric field intensity $E$ due to a uniformly charged hollow spherical shell of radius $R$ as a function of distance $r$ from the center?",
+          "options": [
+            "Graph starting from origin, linear increasing, then decreasing",
+            "Graph zero until R, then decreasing as 1/r^2",
+            "Graph constant until R, then zero",
+            "Graph decreasing as 1/r^2 from origin"
+          ],
+          "answer": "**Option (B)**\n**Reason:** \nInside the shell ($r < R$), $E = 0$. \nAt surface ($r = R$), $E$ is maximum.\nOutside ($r > R$), $E \\propto 1/r^2$."
+        },
+        {
+          "id": 12,
+          "question": "Two point charges $+8q$ and $-2q$ are located at $x=0$ and $x=L$ respectively. The location of a point on the x-axis at which the net electric field is zero is:",
+          "options": [
+            "8L",
+            "4L",
+            "2L",
+            "L/4"
+          ],
+          "answer": "**Option (C)**\n**Reason:** Let the null point be at distance $x$ from $-2q$ (outside the pair, on the side of the smaller magnitude charge). Distance from $+8q$ is $L+x$.\n$E_1 = E_2 \\implies \\frac{k(8q)}{(L+x)^2} = \\frac{k(2q)}{x^2}$.\n$4x^2 = (L+x)^2 \\implies 2x = L+x \\implies x=L$.\nThe point is at $L$ from $-2q$, which corresponds to coordinate $x = L + L = 2L$."
+        },
+        {
+          "id": 13,
+          "question": "Assertion (A): If a Gaussian surface encloses no net charge, then the electric field must be zero at every point on that surface.\nReason (R): Gauss's law states that the net flux through a closed surface is proportional to the net charge enclosed.",
+          "options": [
+            "Both A and R are true and R is the correct explanation of A",
+            "Both A and R are true but R is NOT the correct explanation of A",
+            "A is true but R is false",
+            "A is false but R is true"
+          ],
+          "answer": "**Option (D)**\n**Reason:** Assertion is False. Zero net charge implies zero *net flux* ($\\oint \\vec{E} \\cdot d\\vec{A} = 0$). It does not imply $E=0$ everywhere. For example, a dipole inside a sphere has net charge 0, but $E \\neq 0$ on the surface. Reason is True (Statement of Gauss's Law)."
+        },
+        {
+          "id": 14,
+          "question": "Assertion (A): The electric field lines are always perpendicular to the surface of a charged conductor.\nReason (R): The component of electric field parallel to the surface would cause current flow, violating electrostatic equilibrium.",
+          "options": [
+            "Both A and R are true and R is the correct explanation of A",
+            "Both A and R are true but R is NOT the correct explanation of A",
+            "A is true but R is false",
+            "A is false but R is true"
+          ],
+          "answer": "**Option (A)**\n**Reason:** If $E$ had a tangential component, the free electrons on the conductor surface would experience a force and move, constituting a current. Since we are in electrostatic equilibrium (no currents), the tangential component must be zero, meaning $E$ is purely normal."
+        },
+        {
+          "id": 15,
+          "question": "Assertion (A): A proton and an electron placed in the same uniform electric field experience forces of equal magnitude but different accelerations.\nReason (R): Electric force depends on charge magnitude, while acceleration depends on mass.",
+          "options": [
+            "Both A and R are true and R is the correct explanation of A",
+            "Both A and R are true but R is NOT the correct explanation of A",
+            "A is true but R is false",
+            "A is false but R is true"
+          ],
+          "answer": "**Option (A)**\n**Reason:** Force $F = qE$. Magnitudes of charge are equal ($|q_p| = |q_e| = e$), so forces are equal ($F=eE$). Acceleration $a = F/m$. Since $m_p \\gg m_e$, accelerations are different ($a_e \\gg a_p$). R correctly explains A."
+        },
+        {
+          "id": 16,
+          "question": "Assertion (A): Three point charges $Q, q$ and $Q$ are placed along a line at $x=0, x=a/2, x=a$. The system is in equilibrium if $q = -Q/4$.\nReason (R): For the system to be in equilibrium, the net force on every charge must be zero.",
+          "options": [
+            "Both A and R are true and R is the correct explanation of A",
+            "Both A and R are true but R is NOT the correct explanation of A",
+            "A is true but R is false",
+            "A is false but R is true"
+          ],
+          "answer": "**Option (A)**\n**Reason:** Checking equilibrium for charge at $x=0$ ($Q$): Force from $q$ (at $a/2$) + Force from $Q$ (at $a$) = 0.\n$\\frac{kQq}{(a/2)^2} + \\frac{kQ^2}{a^2} = 0 \\implies \\frac{4Qq}{a^2} = -\\frac{Q^2}{a^2} \\implies 4q = -Q \\implies q = -Q/4$.\nSince symmetry handles the other $Q$, and the central $q$ is in equilibrium by symmetry (forces cancel), the whole system is in equilibrium. R is the correct condition."
+        }
+      ]
+    },
+    {
+      "section_id": "B",
+      "section_name": "Very Short Answer Questions",
+      "question_type": "theory",
+      "questions": [
+        {
+          "id": 17,
+          "question": "A free proton and a free electron are placed in a uniform field. Which of the two experiences greater force and greater acceleration?",
+          "answer": "**Force:** Both experience the same magnitude of force $F = eE$, as the magnitude of charge $e$ is the same for both.\n**Acceleration:** The electron experiences greater acceleration.\nReason: $a = F/m$. Since mass of electron $m_e \\ll$ mass of proton $m_p$, $a_e \\gg a_p$."
+        },
+        {
+          "id": 18,
+          "question": "Consider a uniform electric field $\\vec{E} = 3 \\times 10^3 \\hat{i}$ N/C. What is the flux of this field through a square of 10 cm on a side whose plane is parallel to the yz plane?",
+          "answer": "**Given:** $\\vec{E} = 3000 \\hat{i}$ N/C.\nSide $a = 10$ cm $= 0.1$ m. Area $A = (0.1)^2 = 0.01 \\text{ m}^2$.\n**Orientation:** Plane is parallel to yz-plane, so the area vector $\\vec{A}$ is perpendicular to it, i.e., along the x-axis. $\\vec{A} = 0.01 \\hat{i} \\text{ m}^2$.\n**Flux:** $\\phi = \\vec{E} \\cdot \\vec{A} = (3000 \\hat{i}) \\cdot (0.01 \\hat{i}) = 30 \\text{ N m}^2/\\text{C}$."
+        },
+        {
+          "id": 19,
+          "question": "Two identical metallic spheres A and B having charges $+4Q$ and $-10Q$ are kept a certain distance apart. A third identical uncharged sphere C is first placed in contact with sphere A and then with sphere B, then placed at the midpoint. Calculate the final charge on sphere C.",
+          "answer": "**Step 1 (Contact with A):**\nInitial: $q_A = +4Q, q_C = 0$.\nRedistribution: $q_A' = q_C' = \\frac{4Q + 0}{2} = +2Q$.\n\n**Step 2 (Contact with B):**\nInitial for this step: $q_B = -10Q, q_C = +2Q$.\nRedistribution: $q_B' = q_C'' = \\frac{-10Q + 2Q}{2} = \\frac{-8Q}{2} = -4Q$.\n\n**Final Answer:**\nThe final charge on sphere C is $-4Q$."
+        },
+        {
+          "id": 20,
+          "question": "Why is it necessary for the electric field lines to be normal to the charged conductor at every point? What would happen if they were not?",
+          "answer": "**Explanation:** If the electric field lines were not normal, the electric field vector $\\vec{E}$ would have a tangential component $E_t$ along the surface.\n**Consequence:** $E_t$ would exert a force $F = qE_t$ on the free electrons on the surface, causing them to move. This flow of charge (current) violates the condition of electrostatics. Therefore, in static equilibrium, $E_t$ must be zero, implying $\\vec{E}$ is perpendicular to the surface."
+        },
+        {
+          "id": 21,
+          "question": "Sketch the electric field lines for a system of two equal positive point charges $+q$ placed a distance $d$ apart. Label the neutral point.",
+          "answer": "**Sketch Description:**\n1.  Draw two points representing $+q$.\n2.  Draw field lines emerging radially outward from both.\n3.  Between the charges, the lines curve away from each other (lateral repulsion).\n4.  Mark a point 'N' exactly at the midpoint of the line joining the charges. This is the **Neutral Point** ($E=0$) where no field lines pass.\n"
+        }
+      ]
+    },
+    {
+      "section_id": "C",
+      "section_name": "Short Answer Questions",
+      "question_type": "numerical",
+      "questions": [
+        {
+          "id": 22,
+          "question": "A charged spherical conductor has a surface charge density of $0.07 \\text{ C/m}^2$. When the charge is increased by $0.44 \\text{ C}$, the surface charge density changes by $0.14 \\text{ C/m}^2$. Find the radius of the sphere and the initial charge on it.",
+          "answer": "**Given:**\nInitial $\\sigma_1 = \\frac{Q}{4\\pi r^2} = 0.07$.\nNew Charge $Q' = Q + 0.44$.\nNew Density $\\sigma_2 = \\frac{Q+0.44}{4\\pi r^2} = \\sigma_1 + 0.14 = 0.07 + 0.14 = 0.21$.\n\n**Calculation:**\n$\\sigma_2 - \\sigma_1 = \\frac{0.44}{4\\pi r^2} = 0.14$.\n$r^2 = \\frac{0.44}{4\\pi (0.14)} = \\frac{0.44}{1.759}$.\n$r^2 \\approx 0.25 \\implies r = 0.5 \\text{ m}$.\n\n**Initial Charge:**\n$Q = \\sigma_1 (4\\pi r^2) = 0.07 \\times 4 \\times 3.1416 \\times (0.5)^2$.\n$Q = 0.07 \\times 3.1416 = 0.22 \\text{ C}$."
+        },
+        {
+          "id": 23,
+          "question": "Four point charges $q_A = 2 \\mu C, q_B = -5 \\mu C, q_C = 2 \\mu C$, and $q_D = -5 \\mu C$ are located at the corners of a square ABCD of side 10 cm. What is the force on a charge of $1 \\mu C$ placed at the center of the square?",
+          "answer": "**Symmetry Analysis:**\n1.  Charges at opposite corners A ($2\\mu C$) and C ($2\\mu C$) are equal and positive. The forces they exert on the center charge ($1\\mu C$) are repulsive and directed towards C and A respectively. Since the distances are equal, these forces $\\vec{F}_A$ and $\\vec{F}_C$ are equal and opposite. They cancel out.\n2.  Charges at opposite corners B ($-5\\mu C$) and D ($-5\\mu C$) are equal and negative. The forces they exert are attractive. $\\vec{F}_B$ pulls towards B, $\\vec{F}_D$ pulls towards D. These forces are also equal and opposite. They cancel out.\n\n**Conclusion:**\nNet Force $\\vec{F}_{net} = 0$."
+        },
+        {
+          "id": 24,
+          "question": "A pendulum bob of mass 80 mg and carrying a charge of $2 \\times 10^{-8}$ C is at rest in a horizontal uniform electric field of $2 \\times 10^4$ V/m. Find the tension in the thread of the pendulum and the angle it makes with the vertical.",
+          "answer": "**Given:**\n$m = 80 \\text{ mg} = 80 \\times 10^{-6} \\text{ kg}$.\n$q = 2 \\times 10^{-8} \\text{ C}$.\n$E = 2 \\times 10^4 \\text{ V/m}$.\n$g = 9.8 \\text{ m/s}^2$.\n\n**Forces:**\n1.  Weight $W = mg = (80 \\times 10^{-6})(9.8) = 784 \\times 10^{-6} \\text{ N}$.\n2.  Electric Force $F_e = qE = (2 \\times 10^{-8})(2 \\times 10^4) = 4 \\times 10^{-4} \\text{ N} = 400 \\times 10^{-6} \\text{ N}$.\n\n**Calculations:**\n$\\tan \\theta = \\frac{F_e}{mg} = \\frac{400 \\times 10^{-6}}{784 \\times 10^{-6}} \\approx 0.51$.\n$\\theta = \\tan^{-1}(0.51) \\approx 27^{\\circ}$.\n\nTension $T = \\sqrt{(mg)^2 + (F_e)^2} = 10^{-6} \\sqrt{784^2 + 400^2}$.\n$T = 10^{-6} \\sqrt{614656 + 160000} = 10^{-6} \\sqrt{774656}$.\n$T \\approx 8.8 \\times 10^{-4} \\text{ N}$."
+        },
+        {
+          "id": 25,
+          "question": "Two large, thin metal plates are parallel and close to each other. On their inner faces, the plates have surface charge densities of opposite signs and of magnitude $17.0 \\times 10^{-22} \\text{ C/m}^2$. What is the electric field strength E: \n(a) in the outer region of the first plate,\n(b) in the outer region of the second plate, and \n(c) between the plates?",
+          "answer": "**Concept:** Field due to single plate $E = \\frac{\\sigma}{2\\epsilon_0}$.\nLet plates be I (+$\\sigma$) and II (-$\\sigma$).\n\n**(a) Region I (Outside Left):**\n$E = E_{I} - E_{II} = \\frac{\\sigma}{2\\epsilon_0} - \\frac{\\sigma}{2\\epsilon_0} = 0$.\n\n**(b) Region II (Outside Right):**\n$E = E_{I} - E_{II} = \\frac{\\sigma}{2\\epsilon_0} - \\frac{\\sigma}{2\\epsilon_0} = 0$.\n\n**(c) Region III (Between plates):**\nFields add up (Away from +, Towards -).\n$E = E_{I} + E_{II} = \\frac{\\sigma}{2\\epsilon_0} + \\frac{\\sigma}{2\\epsilon_0} = \\frac{\\sigma}{\\epsilon_0}$.\nCalculation: $E = \\frac{17.0 \\times 10^{-22}}{8.854 \\times 10^{-12}} \\approx 1.92 \\times 10^{-10} \\text{ N/C}$."
+        },
+        {
+          "id": 26,
+          "question": "Define electric flux. A sphere of radius $r_1$ encloses a charge $Q$. If there is another concentric sphere of radius $r_2$ ($r_2 > r_1$) and there be no additional charges between $S_1$ and $S_2$, find the ratio of electric flux through $S_1$ and $S_2$.",
+          "answer": "**Definition:** Electric flux is the measure of the number of electric field lines passing normally through a given area. Mathematically, $\\phi = \\oint \\vec{E} \\cdot d\\vec{A}$.\n\n**Ratio Calculation:**\nUsing Gauss's Law: $\\phi = \\frac{q_{enclosed}}{\\epsilon_0}$.\nFor sphere $S_1$ (Radius $r_1$): $q_{in} = Q$. Flux $\\phi_1 = Q/\\epsilon_0$.\nFor sphere $S_2$ (Radius $r_2$): The enclosed charge is still just $Q$ (since no extra charge is between the shells).\nFlux $\\phi_2 = Q/\\epsilon_0$.\n\n**Ratio:** $\\phi_1 : \\phi_2 = 1:1$."
+        },
+        {
+          "id": 27,
+          "question": "(i) Derive the expression for the torque acting on an electric dipole placed in a uniform electric field.\n(ii) In which orientation is the torque maximum?",
+          "answer": "**(i) Derivation:**\nConsider a dipole of length $2a$ and charge $q$ in uniform field $E$. The force on $+q$ is $qE$ and on $-q$ is $-qE$. Net force is zero.\nThe forces form a couple. Torque $\\tau = \\text{Force} \\times \\text{Perpendicular distance}$.\n$\\tau = qE \\times (2a \\sin \\theta) = (q \\cdot 2a) E \\sin \\theta$.\nSince $p = q(2a)$, $\\tau = pE \\sin \\theta$.\nVector form: $\\vec{\\tau} = \\vec{p} \\times \\vec{E}$.\n\n**(ii) Maximum Torque:**\n$\\tau$ is max when $\\sin \\theta = 1$, i.e., $\\theta = 90^{\\circ}$.\nThis occurs when the dipole is perpendicular to the electric field."
+        },
+        {
+          "id": 28,
+          "question": "An infinite line charge produces a field of $9 \\times 10^4 \\text{ N/C}$ at a distance of 2 cm. Calculate the linear charge density.",
+          "answer": "**Formula:** $E = \\frac{\\lambda}{2\\pi\\epsilon_0 r} = \\frac{2k\\lambda}{r}$.\n\n**Given:**\n$E = 9 \\times 10^4 \\text{ N/C}$.\n$r = 2 \\text{ cm} = 0.02 \\text{ m}$.\n$k = 9 \\times 10^9 \\text{ N m}^2/\\text{C}^2$.\n\n**Calculation:**\n$9 \\times 10^4 = \\frac{2(9 \\times 10^9) \\lambda}{0.02}$\n$9 \\times 10^4 = \\frac{18 \\times 10^9 \\lambda}{0.02}$\n$9 \\times 10^4 \\times 0.02 = 18 \\times 10^9 \\lambda$\n$1.8 \\times 10^3 = 18 \\times 10^9 \\lambda$\n$\\lambda = \\frac{1.8 \\times 10^3}{18 \\times 10^9} = 0.1 \\times 10^{-6} = 10^{-7} \\text{ C/m} = 0.1 \\mu \\text{C/m}$."
+        }
+      ]
+    },
+    {
+      "section_id": "D",
+      "section_name": "Case Study Questions",
+      "question_type": "competency",
+      "questions": [
+        {
+          "id": 29,
+          "question": "**Case Study: Millikan’s Oil Drop Experiment**\n\nIn 1909, Robert Millikan performed an experiment to determine the charge on an electron. He observed microscopic charged oil droplets between two horizontal metal plates. By adjusting the electric field between the plates, he could balance the downward gravitational force with the upward electric force, suspending the droplet in mid-air. This balance condition allows the calculation of charge $q$. If the droplet is held stationary, $qE = mg$. When the field is switched off, the drop falls with a terminal velocity due to air viscosity.\n\n(i) If a drop of mass $1.6 \\times 10^{-14}$ kg remains stationary in an electric field of $10^5$ N/C, what is the charge on the drop?\n(ii) The charge calculated on different drops was found to be integral multiples of a basic value. What does this imply about the nature of charge?\n(iii) If the polarity of the plates is reversed, what is the instantaneous acceleration of the drop?\nOR\n(iii) Why must the electric field be uniform for this experiment to work accurately?",
+          "answer": "**(i)** Condition for equilibrium: $qE = mg$.\n$q = \\frac{mg}{E} = \\frac{(1.6 \\times 10^{-14})(10)}{10^5} = 1.6 \\times 10^{-18} \\text{ C}$.\n\n**(ii)** It implies **Quantization of Charge**. Charge exists in discrete packets ($q = ne$), where $e$ is the elementary charge.\n\n**(iii) Acceleration:**\nInitially $F_e = mg$ (Upward). When reversed, $F_e$ acts downward.\nTotal force $F_{net} = mg + F_e = mg + mg = 2mg$.\nAcceleration $a = \\frac{F_{net}}{m} = \\frac{2mg}{m} = 2g = 20 \\text{ m/s}^2$ (downward).\n\n**OR (iii)**\nIf the field were not uniform, the electric force $F_e = qE$ would vary with the position of the drop. It would be impossible to maintain a stable suspension or calculate $q$ accurately without knowing the exact function $E(x,y,z)$."
+        },
+        {
+          "id": 30,
+          "question": "**Case Study: Faraday Cage and Electrostatic Shielding**\n\nA Faraday cage is an enclosure used to block electromagnetic fields. A Faraday cage may be formed by a continuous covering of conductive material, or in the case of a mesh, by such materials. External static electric fields cause the electric charges within the cage's conducting material to be distributed such that they cancel the field's effect in the cage's interior. This phenomenon is used to protect sensitive electronic equipment from external radio frequency interference (RFI).\n\n(i) A sensitive instrument is to be shielded from strong external electrostatic fields. Which of the following is the best way to do it: (a) Wrap it in plastic, (b) Place it inside a hollow copper sphere, (c) Place it near a strong magnet?\n(ii) What is the value of the electric field inside the conductor material (body of the shell) under static conditions?\n(iii) Can we say that a Faraday cage blocks gravitational fields as well? Explain.\nOR\n(iii) A cavity is made inside a solid neutral conductor. A charge $+q$ is placed inside the cavity. What is the charge induced on the inner and outer surfaces of the conductor?",
+          "answer": "**(i)** **(b) Place it inside a hollow copper sphere.** Copper is a conductor. The field inside a hollow conductor is zero due to electrostatic shielding.\n\n**(ii)** **Zero.** In electrostatic equilibrium, there is no net current flow, which implies the net electric field inside the material of the conductor is zero.\n\n**(iii)** **No.** Gravitational force depends on mass, and there is no concept of \"negative mass\" to cancel out fields. Gravitational shielding is not possible with ordinary matter.\n\n**OR (iii)**\n* **Inner Surface:** To cancel the field of $+q$ inside the conductor material, a charge $-q$ is induced on the inner surface of the cavity.\n* **Outer Surface:** Since the conductor is neutral, charge is conserved. A charge $+q$ appears on the outer surface."
+        }
+      ]
+    },
+    {
+      "section_id": "E",
+      "section_name": "Long Answer Questions",
+      "question_type": "derivation",
+      "questions": [
+        {
+          "id": 31,
+          "question": "(a) State Gauss's Law. Using this law, prove that the electric field at a point due to a uniformly charged infinite plane sheet is independent of the distance from it.\n(b) How is the field directed if (i) the sheet is positively charged, (ii) negatively charged?",
+          "answer": "**(a) Statement:** The total electric flux through a closed surface is equal to $1/\\epsilon_0$ times the net charge enclosed by the surface. $\\oint \\vec{E} \\cdot d\\vec{A} = q_{in}/\\epsilon_0$.\n\n**Derivation:**\n1.  **Gaussian Surface:** Consider a pillbox (cylinder) of cross-sectional area $A$ passing through the sheet.\n2.  **Flux:** The field $\\vec{E}$ is perpendicular to the sheet. Flux through curved surface is 0 ($\\vec{E} \\perp d\\vec{A}$). Flux through two flat ends is $EA + EA = 2EA$.\n3.  **Charge:** Enclosed charge $q = \\sigma A$.\n4.  **Result:** $2EA = \\frac{\\sigma A}{\\epsilon_0} \\implies E = \\frac{\\sigma}{2\\epsilon_0}$.\n**Independence:** The expression does not contain $r$, so the field is uniform and independent of distance.\n\n**(b) Direction:**\n(i) **Positively charged:** Directed **outwards** (away from the sheet).\n(ii) **Negatively charged:** Directed **inwards** (towards the sheet)."
+        },
+        {
+          "id": 32,
+          "question": "Two point charges $+q$ and $-q$ are placed at a distance $2a$ apart.\n(a) Calculate the electric field at a point P located at distance $r$ on the equatorial line of this dipole.\n(b) Show that for $r \\gg a$, the field is anti-parallel to the dipole moment.\n(c) A system has two charges $q_A = 2.5 \\times 10^{-7}$ C and $q_B = -2.5 \\times 10^{-7}$ C located at points A: $(0,0,-15 \\text{ cm})$ and B: $(0,0,+15 \\text{ cm})$. What is the total charge and electric dipole moment of the system?",
+          "answer": "**(a) Derivation:**\n\nResolving fields from $+q$ and $-q$, vertical components cancel. Horizontal components add up.\n$E_{net} = 2 E \\cos \\theta = 2 \\left( \\frac{kq}{r^2+a^2} \\right) \\frac{a}{\\sqrt{r^2+a^2}} = \\frac{kp}{(r^2+a^2)^{3/2}}$.\n\n**(b) Short Dipole:**\nFor $r \\gg a$, ignore $a^2$. $E \\approx \\frac{kp}{r^3}$.\nDirection: The horizontal components point from $+q$ side to $-q$ side, which is opposite to dipole moment $\\vec{p}$ ($-q$ to $+q$). Hence, anti-parallel.\n\n**(c) Numerical:**\n* **Total Charge:** $q_{net} = q_A + q_B = 2.5 \\times 10^{-7} - 2.5 \\times 10^{-7} = 0$.\n* **Dipole Moment:** Length $2a = 15 - (-15) = 30 \\text{ cm} = 0.3 \\text{ m}$.\n$p = q(2a) = (2.5 \\times 10^{-7})(0.3) = 0.75 \\times 10^{-7} \\text{ C m}$.\nDirection: From $q_B$ ($-$) to $q_A$ ($+$)? No, B is negative (-2.5). A is positive. Direction is B to A (along -z axis)."
+        },
+        {
+          "id": 33,
+          "question": "(a) Use Gauss's theorem to find the electric field due to a uniformly charged spherical shell of radius $R$ at a point (i) outside the shell, and (ii) inside the shell.\n(b) Plot a graph depicting the variation of electric field $E$ with distance $r$ from the center of the shell.\n(c) A hollow charged conductor has a tiny hole cut into its surface. Show that the electric field in the hole is $(\\sigma/2\\epsilon_0) \\hat{n}$, where $\\hat{n}$ is the unit vector in the outward normal direction.",
+          "answer": "**(a) Derivation:**\n(i) **Outside ($r>R$):** Gaussian sphere radius $r$. $E(4\\pi r^2) = Q/\\epsilon_0 \\implies E = \\frac{Q}{4\\pi\\epsilon_0 r^2}$.\n(ii) **Inside ($r<R$):** Gaussian sphere radius $r$. Enclosed charge $Q_{in} = 0$ (charge resides on surface). $\\implies E = 0$.\n\n**(b) Graph:**\nShows $E=0$ from $r=0$ to $R$. At $r=R$, jumps to $E_{max}$. Then decays as $1/r^2$.\n\n**(c) Field in Hole:**\nConsider the surface filled. Total field just outside is $E_{total} = \\sigma/\\epsilon_0$. Inside is 0.\n$E_{total} = E_{rest} + E_{plug}$.\nJust inside: $E_{rest} - E_{plug} = 0 \\implies E_{rest} = E_{plug}$.\nJust outside: $E_{rest} + E_{plug} = \\sigma/\\epsilon_0$.\nSince $E_{rest} = E_{plug}$, then $2E_{rest} = \\sigma/\\epsilon_0 \\implies E_{rest} = \\frac{\\sigma}{2\\epsilon_0}$.\nSo, the field in the hole (due to the rest of the sphere) is $\\frac{\\sigma}{2\\epsilon_0}$."
+        }
+      ]
+    }
+  ]
+}

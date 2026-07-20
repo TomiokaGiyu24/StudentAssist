@@ -1,0 +1,84 @@
+{
+"board_pattern_intelligence": {
+"typical_question_structure": [
+"Passage 1 (Discursive/Factual): 12 Marks. Mix of 1-mark (MCQ/Objective) and 2-mark (Short Answer) questions.",
+"Passage 2 (Case-Based): 10 Marks. Data interpretation, MCQs, and Analytical Short Answers.",
+"Total Section A Weightage: 22 Marks."
+],
+"average_mark_distribution": "Questions are split into 1-mark (approx 6-8 questions) and 2-mark (approx 2-3 questions) per passage. No long answers.",
+"most_frequent_question_types": [
+"Direct Factual (What/Where)",
+"Textual Evidence (Prove/Give evidence)",
+"Inference (Why/Implication)",
+"Vocabulary (Synonyms/Antonyms/Analogies)",
+"Data Analysis (For Case-Based)"
+],
+"difficulty_trend_last_years": "Shift from direct 'find-the-line' questions to 'interpret-the-phrase' and 'textual evidence' questions. MCQs have close distractors."
+},
+"15_minute_execution_algorithm": [
+"Step 1 (0:00-0:30): Read the Questions FIRST. Do not read the passage yet. Scan questions 1-5 to identify keywords (dates, names, capitalized words).",
+"Step 2 (0:30-5:30): Skim the Passage. Read the first and last sentence of every paragraph carefully. Read the rest at high speed, underlining keywords found in Step 1.",
+"Step 3 (5:30-10:00): Attack Direct Questions. Answer the 'What', 'When', 'Where' questions immediately. These answers are usually sequential in the text.",
+"Step 4 (10:00-12:30): Tackle Inference/2-Mark Questions. Locate the relevant paragraph. Read 2 lines before and 2 lines after the keyword. Formulate answer using the 'Statement + Because + Text reference' structure.",
+"Step 5 (12:30-14:00): Vocabulary & MCQs. Use elimination. For vocabulary, plug the options back into the sentence to see which fits contextually.",
+"Step 6 (14:00-15:00): Final Sanity Check. Ensure 2-mark answers have 2 distinct points. Check if 'Textual Evidence' questions actually contain a quote."
+],
+"question_type_attack_models": [
+{
+"question_type": "Textual_Evidence",
+"recognition_signal": "Words like 'Give evidence', 'Quote the line', 'Prove that...'",
+"answer_construction_rule": "Copy the exact phrase or sentence from the passage inside quotation marks.",
+"word_limit_rule": "Do not explain unless asked. Just the quote is often sufficient or a brief intro + quote.",
+"common_trap": "Paraphrasing instead of quoting. You lose marks if you rewrite the evidence."
+},
+{
+"question_type": "Inference (2 Marks)",
+"recognition_signal": "Words like 'Why', 'Infer', 'What does the author imply', 'Comment on...'",
+"answer_construction_rule": "Structure: [Direct Answer/Thesis] + [Because/As indicated by] + [Reference to Text].",
+"minimal_interpretation_rule": "Do not use outside knowledge. Answer must be supported strictly by the passage.",
+"common_trap": "Writing too much generic philosophy. Stick to the specific context of the paragraph."
+},
+{
+"question_type": "Vocabulary_in_Context",
+"recognition_signal": "Words like 'Replace the underlined word', 'Find a word meaning...', 'Analogy (X : Y :: A : ?)'",
+"context_scanning_rule": "Locate the target sentence. Read it blanking out the difficult word. Predict a simple synonym. Match prediction with options.",
+"elimination_strategy": "Eliminate options that are the wrong part of speech (e.g., if looking for a noun, cross out verbs)."
+},
+{
+"question_type": "Data_Interpretation (Case-Based)",
+"recognition_signal": "Charts, Graphs, Tables in Passage 2.",
+"answer_construction_rule": "Compare data points (Highest vs Lowest). Look for trends (Increasing/Decreasing). Cite specific numbers/percentages in the answer.",
+"word_limit_rule": "Keep it factual. 'The data shows a 20% increase...' is better than 'It went up a lot...'",
+"common_trap": "Ignoring the units (e.g., writing '50' instead of '50 million' or '50%')."
+},
+{
+"question_type": "True_False_with_Justification",
+"verification_process": "Find the exact sentence in the text. If the text contradicts the statement 100%, it is False. If it supports it 100%, it is True.",
+"justification_structure": "True/False. The passage states '[Insert Quote/Fact]'.",
+"common_trap": "Writing True/False without the justification when the question asks for it."
+}
+],
+"word_limit_discipline_system": {
+"1_mark_answer_range": "10-15 words. One complete sentence or a direct phrase.",
+"2_mark_answer_range": "30-40 words. Two distinct points or one developed point with evidence.",
+"why_excess_writing_loses_marks": "Examiners look for keywords. Fluff hides keywords. Extra writing increases risk of grammar errors.",
+"tight_answer_example_model": "Q: Why was the author stressed? A: The author was stressed due to the impending deadline and lack of resources (Para 3)."
+},
+"panic_control_protocol": [
+"If a word is unknown: Ignore it. Read the sentence without it. Guess the meaning from the 'vibe' (positive/negative) of the surrounding text.",
+"If an answer is not found: Mark the question and move on. The answer often reveals itself while looking for the next one.",
+"If time is running out: Switch to 'Scan and Hunt' mode. Stop reading sentences; look only for the specific nouns in the question."
+],
+"accuracy_improvement_checklist": [
+"Did I answer the specific question asked? (e.g., 'How' vs 'Why')",
+"Did I include units in data questions?",
+"Did I close quotation marks for textual evidence?",
+"Did I check if the question asks for 'One' reason or 'Two' reasons?"
+],
+"common_mark_losing_behaviours": [
+"Copying entire paragraphs for a 1-mark answer.",
+"Giving personal opinions instead of passage-based facts.",
+"Missing the 'NOT' in questions like 'Which of these is NOT true?'",
+"Spending 10 minutes on a single difficult vocabulary question."
+]
+}

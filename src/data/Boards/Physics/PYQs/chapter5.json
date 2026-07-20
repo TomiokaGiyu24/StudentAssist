@@ -1,0 +1,221 @@
+{
+  "meta": {
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "board": "CBSE",
+    "exam": "Class 12 Board Examination"
+  },
+  "questions": [
+    {
+      "id": "55-4-3-Q2",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "The magnetic susceptibility of a magnetic material is -0.0004. The material is:",
+      "options": {
+        "A": "Diamagnetic",
+        "B": "Paramagnetic",
+        "C": "Ferromagnetic",
+        "D": "Non-magnetic"
+      },
+      "answer": {
+        "explanation": "Magnetic susceptibility ($\\chi$) is negative for diamagnetic materials. \\nSince $\\chi = -0.0004$ (a small negative value), the material is diamagnetic.",
+        "key_formulae": [
+          "\\chi < 0 \\rightarrow \\text{Diamagnetic}",
+          "\\chi > 0 \\rightarrow \\text{Paramagnetic}",
+          "\\chi \\gg 0 \\rightarrow \\text{Ferromagnetic}"
+        ],
+        "diagrams": []
+      },
+      "correct_option": "A",
+      "diagram_required": false,
+      "source": "55/4/3"
+    },
+    {
+      "id": "55-5-3-Q3",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "A uniform magnetic field exists in the region of space. A magnetic needle is kept in this region. The needle will experience:",
+      "options": {
+        "A": "A force but no torque",
+        "B": "A torque but no force",
+        "C": "Both a force and a torque",
+        "D": "Neither a force nor a torque"
+      },
+      "answer": {
+        "explanation": "In a uniform magnetic field, the net force on a magnetic dipole (needle) is zero because the forces on the two poles are equal and opposite ($\\vec{F}_{net} = q_m B - q_m B = 0$).\\nHowever, these forces form a couple if the needle is inclined to the field, causing a torque ($\\vec{\\tau} = \\vec{m} \\times \\vec{B}$).\\nThus, it experiences a torque but no net force.",
+        "key_formulae": [
+          "\\vec{F}_{net} = 0",
+          "\\vec{\\tau} = \\vec{m} \\times \\vec{B}"
+        ],
+        "diagrams": []
+      },
+      "correct_option": "B",
+      "diagram_required": false,
+      "source": "55/5/3"
+    },
+    {
+      "id": "55-6-1-Q4",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "The vertical component of the earth's magnetic field at a place is $\\sqrt{3}$ times the horizontal component. The angle of dip at that place is:",
+      "options": {
+        "A": "60^\\circ",
+        "B": "45^\\circ",
+        "C": "30^\\circ",
+        "D": "0^\\circ"
+      },
+      "answer": {
+        "explanation": "The angle of dip ($\\delta$) is related to vertical ($B_V$) and horizontal ($B_H$) components by $\\tan \\delta = \\frac{B_V}{B_H}$.\\nGiven $B_V = \\sqrt{3} B_H$, we have:\n$\\tan \\delta = \\frac{\\sqrt{3} B_H}{B_H} = \\sqrt{3}$.\\nTherefore, $\\delta = 60^\\circ$.",
+        "key_formulae": [
+          "\\tan \\delta = \\frac{B_V}{B_H}"
+        ],
+        "diagrams": []
+      },
+      "correct_option": "A",
+      "diagram_required": false,
+      "source": "55/6/1"
+    },
+    {
+      "id": "55-4-1-Q3",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "The relative magnetic permeability of a substance is 0.9999. The substance is:",
+      "options": {
+        "A": "Paramagnetic",
+        "B": "Diamagnetic",
+        "C": "Ferromagnetic",
+        "D": "Non-magnetic"
+      },
+      "answer": {
+        "explanation": "Relative permeability $\\mu_r = 1 + \\chi$.\\nSince $\\mu_r = 0.9999 < 1$, the susceptibility $\\chi$ is negative ($-0.0001$).\\nMaterials with $\\mu_r < 1$ (and negative susceptibility) are diamagnetic.",
+        "key_formulae": [
+          "\\mu_r < 1 \\implies \\text{Diamagnetic}"
+        ],
+        "diagrams": []
+      },
+      "correct_option": "B",
+      "diagram_required": false,
+      "source": "55/4/1"
+    },
+    {
+      "id": "11-55-1-1-Q4",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "Which of the following statements is true for a diamagnetic material?",
+      "options": {
+        "A": "It is strongly attracted by a magnet.",
+        "B": "Its magnetic susceptibility is positive and small.",
+        "C": "It moves from weaker to stronger parts of a non-uniform magnetic field.",
+        "D": "Its magnetic susceptibility is negative and small."
+      },
+      "answer": {
+        "explanation": "Diamagnetic materials are feebly repelled by magnets.\\nTheir susceptibility is small and negative ($-1 < \\chi < 0$).\\nThey tend to move from stronger to weaker parts of a non-uniform magnetic field.\\nTherefore, option D is correct.",
+        "key_formulae": [],
+        "diagrams": []
+      },
+      "correct_option": "D",
+      "diagram_required": false,
+      "source": "11/55/1/1"
+    },
+    {
+      "id": "55-5-3-Q16",
+      "year": 2023,
+      "marks": 1,
+      "type": "assertion_reason",
+      "question": "",
+      "assertion": "The poles of a bar magnet cannot be separated.",
+      "reason": "Magnetic monopoles do not exist.",
+      "options": {
+        "A": "Both A and R are true and R is the correct explanation of A",
+        "B": "Both A and R are true but R is NOT the correct explanation of A",
+        "C": "A is true but R is false",
+        "D": "A is false and R is also false"
+      },
+      "answer": {
+        "explanation": "Assertion is True: Cutting a magnet always results in two smaller magnets, each with a North and South pole.\\nReason is True: This fundamental property is due to the non-existence of isolated magnetic charges (monopoles); magnetism arises from current loops/electron spin.\\nThe Reason correctly explains why poles cannot be separated.",
+        "key_formulae": [
+          "\\oint \\vec{B} \\cdot d\\vec{A} = 0"
+        ],
+        "diagrams": []
+      },
+      "correct_option": "A",
+      "diagram_required": false,
+      "source": "55/5/3"
+    },
+    {
+      "id": "55-4-3-Q24",
+      "year": 2023,
+      "marks": 2,
+      "type": "theory",
+      "question": "Define the terms 'magnetic dip' and 'magnetic declination' with the help of a suitable diagram.",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "answer": {
+        "explanation": "1. MAGNETIC DECLINATION ($\\alpha$):\n   - It is the angle between the magnetic meridian and the geographic meridian at a place.\n   - It represents the deviation of a compass needle from true geographic North.\n\n2. MAGNETIC DIP (or INCLINATION, $\\delta$):\n   - It is the angle that the total magnetic field vector of the Earth makes with the horizontal direction in the magnetic meridian.\n   - At the equator, dip is $0^\\circ$; at the poles, dip is $90^\\circ$.",
+        "key_formulae": [],
+        "diagrams": [
+          ""
+        ]
+      },
+      "diagram_required": true,
+      "source": "55/4/3",
+      "diagram_url": "/images/Physics/PYQs/chapter5/55-4-3-Q24.png",
+      "image": "/images/Physics/Derivations/magnetic field of bar magnet and solenoid.png"
+    },
+    {
+      "id": "55-6-1-Q24",
+      "year": 2023,
+      "marks": 2,
+      "type": "theory",
+      "question": "State Gauss's law in magnetism. Explain its significance.",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "answer": {
+        "explanation": "STATEMENT:\\nGauss's Law for Magnetism states that the net magnetic flux through any closed surface is always zero.\n$\\oint \\vec{B} \\cdot d\\vec{A} = 0$\n\\nSIGNIFICANCE:\n1. It implies that isolated magnetic poles (monopoles) do not exist.\n2. Magnetic field lines always form continuous closed loops; they do not start or end at a point (unlike electric field lines).",
+        "key_formulae": [
+          "\\phi_B = \\oint \\vec{B} \\cdot d\\vec{A} = 0"
+        ],
+        "diagrams": []
+      },
+      "diagram_required": false,
+      "source": "55/6/1"
+    },
+    {
+      "id": "55-5-3-Q20",
+      "year": 2023,
+      "marks": 2,
+      "type": "numerical",
+      "question": "A short bar magnet of magnetic moment $0.9 J T^{-1}$ is placed with its axis at $30^\\circ$ to a uniform magnetic field of $0.8 T$. (a) Calculate the magnitude of the torque exerted on the magnet. (b) In which orientation will the magnet be in stable equilibrium?",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "answer": {
+        "explanation": "GIVEN:\n$m = 0.9 A m^2 (J T^{-1})$\n$B = 0.8 T$\n$\\theta = 30^\\circ$\n\n(a) TORQUE:\n$\\tau = m B \\sin \\theta$\n$\\tau = 0.9 \\times 0.8 \\times \\sin 30^\\circ$\n$\\tau = 0.72 \\times 0.5 = 0.36 N m$.\n\n(b) STABLE EQUILIBRIUM:\\nThe magnet is in stable equilibrium when its potential energy is minimum, which occurs when the magnetic moment $\\vec{m}$ is parallel to the magnetic field $\\vec{B}$ ($\\theta = 0^\\circ$).",
+        "key_formulae": [
+          "\\tau = mB \\sin \\theta",
+          "U = -mB \\cos \\theta"
+        ],
+        "diagrams": []
+      },
+      "diagram_required": false,
+      "source": "55/5/3"
+    }
+  ],
+  "diagram_required": true
+}

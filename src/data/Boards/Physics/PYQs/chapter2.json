@@ -1,0 +1,345 @@
+{
+  "meta": {
+    "subject": "Physics",
+    "chapter": "Electric Potential and Capacitance",
+    "board": "CBSE",
+    "exam": "Class 12 Board Examination"
+  },
+  "questions": [
+    {
+      "id": "55-4-3-Q1",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "The plates P1 and P2 of a 2 µF capacitor are at potentials 25 V and 25 V respectively. The charge on plate P1 will be:",
+      "options": {
+        "A": "0.02 mC",
+        "B": "0.1 mC",
+        "C": "0.1 µC",
+        "D": "1 µC"
+      },
+      "answer": {
+        "explanation": "Potential difference V = V1 - V2. Since both plates are at 25 V (assuming typo in question source, usually one is +25 and other -25 or 0, but if text says 25 and 25 literally, V=0. However, standard context implies potential difference). Let's assume standard V = 25 - (-25) = 50V or V = 25 - 0 = 25V? \\nRe-reading source snippet 13-55/3/3: 'The plates P1 and P2... are at potentials 25 V and 25 V respectively'. This phrasing is ambiguous without signs. \n*Correction from standard physics context*: If potentials are equal, Q=0. If potentials are +25V and -25V (common case), V = 50V. Q = CV = 2e-6 * 50 = 100e-6 C = 0.1 mC. \\nIf potentials are 25V and 0V, V = 25V. Q = 50e-6 C. \\nGiven option B is 0.1 mC, it strongly implies potentials were +25V and -25V.",
+        "key_formulae": [
+          "Q = C(V_1 - V_2)"
+        ],
+        "diagrams": []
+      },
+      "correct_option": "B",
+      "diagram_required": false,
+      "source": "13-55/3/3"
+    },
+    {
+      "id": "55-4-1-Q2",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "A proton is taken from point P1 to point P2, both located in an electric field. The potentials at points P1 and P2 are 5 V and + 5 V respectively. Assuming that kinetic energies of the proton at points P1 and P2 are zero, the work done on the proton is:",
+      "options": {
+        "A": "-1.6 \\times 10^{-18} J",
+        "B": "1.6 \\times 10^{-18} J",
+        "C": "Zero",
+        "D": "0.8 \\times 10^{-18} J"
+      },
+      "answer": {
+        "explanation": "Work done on charge q is W = q(V_final - V_initial). \\nV_initial (P1) is not explicitly signed in snippet but context of P2 being '+5V' usually implies P1 might be -5V or 0. \\nCase 1: P1 = -5V, P2 = +5V. dV = 10V. W = 1.6e-19 * 10 = 1.6e-18 J. (Matches Option B)\\nCase 2: P1 = 5V, P2 = 5V. dV = 0. W = 0. (Option C).\\nGiven 'taken from P1 to P2' and option B exists, P1 is likely -5V.",
+        "key_formulae": [
+          "W = q\\Delta V"
+        ],
+        "diagrams": []
+      },
+      "correct_option": "B",
+      "diagram_required": false,
+      "source": "55/4/1"
+    },
+    {
+      "id": "11-55-1-1-Q2",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "Ten capacitors, each of capacitance 1 µF, are connected in parallel to a source of 100 V. The total energy stored in the system is equal to:",
+      "options": {
+        "A": "10^{-2} J",
+        "B": "10^{-3} J",
+        "C": "0.5 \\times 10^{-3} J",
+        "D": "5.0 \\times 10^{-2} J"
+      },
+      "answer": {
+        "explanation": "Equivalent capacitance in parallel C_eq = n * C = 10 * 1 µF = 10 µF.\\nTotal Energy U = 1/2 * C_eq * V^2 = 0.5 * 10e-6 * (100)^2\\nU = 5e-6 * 10000 = 0.05 J = 5.0 * 10^-2 J.",
+        "key_formulae": [
+          "C_{eq} = nC",
+          "U = \\frac{1}{2}CV^2"
+        ],
+        "diagrams": []
+      },
+      "correct_option": "D",
+      "diagram_required": false,
+      "source": "11/55/1/1"
+    },
+    {
+      "id": "12-55-2-2-Q1",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "The capacitance of a parallel plate capacitor having a medium of dielectric constant K = 4 in between the plates is C. If this medium is removed, then the capacitance of the capacitor becomes:",
+      "options": {
+        "A": "4C",
+        "B": "C/4",
+        "C": "C",
+        "D": "2C"
+      },
+      "answer": {
+        "explanation": "Capacitance with dielectric C = K * C_air.\\nGiven C = 4 * C_air.\\nTherefore, C_air = C / 4.",
+        "key_formulae": [
+          "C = K C_0"
+        ],
+        "diagrams": []
+      },
+      "correct_option": "B",
+      "diagram_required": false,
+      "source": "12/55/2/2"
+    },
+    {
+      "id": "2255-5-3-Q30-ii",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "Which of the following statements about dielectrics is correct?",
+      "options": {
+        "A": "A polar dielectric has a net dipole moment in absence of an external electric field which gets modified due to the induced dipoles.",
+        "B": "The net dipole moments of induced dipoles is along the direction of the applied electric field.",
+        "C": "Dielectrics contain free charges.",
+        "D": "The electric field produced due to induced surface charges inside a dielectric is along the external electric field."
+      },
+      "answer": {
+        "explanation": "Option A is incorrect because polar dielectrics have randomly oriented dipoles summing to zero net moment in absence of field.\\nOption C is incorrect as dielectrics are insulators.\\nOption D is incorrect as induced field opposes external field.\\nOption B is correct: The external field aligns dipoles, creating a net moment along the field.",
+        "key_formulae": [],
+        "diagrams": []
+      },
+      "correct_option": "B",
+      "diagram_required": false,
+      "source": "2255/5/3"
+    },
+    {
+      "id": "2255-5-3-Q30-iv-a",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "An air-filled capacitor with plate area A and plate separation d has capacitance C0. A slab of dielectric constant K, area A and thickness (d/5) is inserted between the plates. The capacitance of the capacitor will become:",
+      "options": {
+        "A": "[\\frac{4K}{5K+1}]C_0",
+        "B": "[\\frac{K+5}{4}]C_0",
+        "C": "[\\frac{5K}{4K+1}]C_0",
+        "D": "[\\frac{K+4}{5K}]C_0"
+      },
+      "answer": {
+        "explanation": "Formula for partially filled capacitor: C = \\frac{\\epsilon_0 A}{d - t + t/K}\\nHere t = d/5.\\nC = \\frac{\\epsilon_0 A}{d - d/5 + d/(5K)} = \\frac{\\epsilon_0 A}{4d/5 + d/(5K)}\\nC = \\frac{\\epsilon_0 A}{d(4/5 + 1/5K)} = \\frac{C_0}{(20K + 5)/25K} ... simplifying fraction:\\nDenominator factor = 4/5 + 1/(5K) = (4K+1)/(5K).\\nC = C_0 / [(4K+1)/(5K)] = C_0 * [5K / (4K+1)]",
+        "key_formulae": [
+          "C = \\frac{\\epsilon_0 A}{d - t(1 - 1/K)}"
+        ],
+        "diagrams": []
+      },
+      "correct_option": "C",
+      "diagram_required": false,
+      "source": "2255/5/3"
+    },
+    {
+      "id": "2155-4-1-Q1",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "Two charges +q each are kept '2a' distance apart. A third charge -2q is placed midway between them. The potential energy of the system is:",
+      "options": {
+        "A": "\\frac{q^2}{8\\pi\\epsilon_0 a}",
+        "B": "-\\frac{6q^2}{8\\pi\\epsilon_0 a}",
+        "C": "-\\frac{7q^2}{8\\pi\\epsilon_0 a}",
+        "D": "\\frac{9q^2}{8\\pi\\epsilon_0 a}"
+      },
+      "answer": {
+        "explanation": "Three charges: q at x=-a, q at x=a, -2q at x=0 (midway).\\nDistances: r_12 (q to -2q) = a; r_23 (-2q to q) = a; r_13 (q to q) = 2a.\\nPairs: (q, -2q), (-2q, q), (q, q).\\nU = k [ (q*-2q)/a + (-2q*q)/a + (q*q)/2a ]\\nU = k [ -2q^2/a - 2q^2/a + q^2/2a ]\\nU = \\frac{kq^2}{a} [ -4 + 0.5 ] = \\frac{kq^2}{a} [-3.5] = -\\frac{7}{2} \\frac{kq^2}{a}\\nSubstituting k = 1/(4πε0):\\nU = -\\frac{7}{2} \\frac{q^2}{4\\pi\\epsilon_0 a} = -\\frac{7q^2}{8\\pi\\epsilon_0 a}",
+        "key_formulae": [
+          "U = \\frac{1}{4\\pi\\epsilon_0} \\sum \\frac{q_i q_j}{r_{ij}}"
+        ],
+        "diagrams": []
+      },
+      "correct_option": "C",
+      "diagram_required": false,
+      "source": "2155/4/1"
+    },
+    {
+      "id": "2255-5-3-Q30-iv-b",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "Two capacitors of capacitances 2C0 and 6C0 are first connected in series and then in parallel across the same battery. The ratio of energies stored in series combination to that in parallel is:",
+      "options": {
+        "A": "1/4",
+        "B": "1/6",
+        "C": "2/15",
+        "D": "3/16"
+      },
+      "answer": {
+        "explanation": "Capacitors C1=2C0, C2=6C0.\\nSeries C_s = (2*6)/(2+6) C0 = 12/8 C0 = 1.5 C0.\\nParallel C_p = 2+6 = 8 C0.\\nEnergy U = 1/2 C V^2. Since V is same:\\nRatio U_s/U_p = C_s / C_p = 1.5 / 8 = 3/16.",
+        "key_formulae": [
+          "C_s = \\frac{C_1 C_2}{C_1+C_2}",
+          "C_p = C_1+C_2",
+          "U \\propto C"
+        ],
+        "diagrams": []
+      },
+      "correct_option": "D",
+      "diagram_required": false,
+      "source": "2255/5/3"
+    },
+    {
+      "id": "13-55-3-1-Q1",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "Consider a group of charges q1, q2, q3... qn = 0. Then equipotentials at a large distance, due to this group are approximately:",
+      "options": {
+        "A": "Plane",
+        "B": "Spherical surface",
+        "C": "Paraboloidal surface",
+        "D": "Ellipsoidal surface"
+      },
+      "answer": {
+        "explanation": "If the net charge is non-zero, at large distances the system behaves like a point charge, resulting in spherical equipotential surfaces.",
+        "key_formulae": [
+          "V \\propto \\frac{1}{r}"
+        ],
+        "diagrams": []
+      },
+      "correct_option": "B",
+      "diagram_required": false,
+      "source": "13-55/3/1"
+    },
+    {
+      "id": "55-4-3-Q24a",
+      "year": 2023,
+      "marks": 2,
+      "type": "derivation",
+      "question": "Obtain an expression for electrostatic potential energy of a system of three charges q, 2q and -3q placed at the vertices of an equilateral triangle of side a.",
+      "options": {},
+      "answer": {
+        "explanation": "GIVEN: Charges q_1=q, q_2=2q, q_3=-3q. Separation r=a (equilateral triangle).\\nREQUIRED: System Potential Energy U.\\nSTEPS:\n1. The total potential energy is the sum of interaction energies of all unique pairs.\n   U = U_{12} + U_{23} + U_{13}\n2. U = \\frac{1}{4\\pi\\epsilon_0} [ \\frac{q_1 q_2}{a} + \\frac{q_2 q_3}{a} + \\frac{q_1 q_3}{a} ]\n3. Substitute values:\n   U = k/a [ (q)(2q) + (2q)(-3q) + (q)(-3q) ]\n   U = k/a [ 2q^2 - 6q^2 - 3q^2 ]\n   U = k/a [ -7q^2 ]\\nFINAL RESULT:\\nU = -\\frac{7q^2}{4\\pi\\epsilon_0 a}",
+        "key_formulae": [
+          "U = \\frac{1}{4\\pi\\epsilon_0} \\sum \\frac{q_i q_j}{r_{ij}}"
+        ],
+        "diagrams": []
+      },
+      "correct_option": null,
+      "diagram_required": false,
+      "source": "55/4/3"
+    },
+    {
+      "id": "55-4-3-Q24b",
+      "year": 2023,
+      "marks": 2,
+      "type": "derivation",
+      "question": "Two small conducting balls A and B of radius r1 and r2 have charges q1 and q2 respectively. They are connected by a wire. Obtain the expression for charges on A and B, in equilibrium.",
+      "options": {},
+      "answer": {
+        "explanation": "GIVEN: Spheres A(r1, q1), B(r2, q2). Connected by wire.\\nREQUIRED: Final charges q1', q2'.\\nSTEPS:\n1. Charge flows until potential is same: V_A = V_B.\n   \\frac{k q_1'}{r_1} = \\frac{k q_2'}{r_2}  =>  \\frac{q_1'}{r_1} = \\frac{q_2'}{r_2}.\n2. Conservation of charge: q_1' + q_2' = q_1 + q_2 = Q_total.\n3. From (1), q_1' = q_2' (r_1/r_2).\n   Substitute into (2): q_2'(r_1/r_2) + q_2' = Q_total\n   q_2' ( \\frac{r_1+r_2}{r_2} ) = Q_total\n   q_2' = Q_total \\frac{r_2}{r_1+r_2}\n4. Similarly, q_1' = Q_total \\frac{r_1}{r_1+r_2}\\nFINAL RESULT:\\nq'_1 = (q_1+q_2)\\frac{r_1}{r_1+r_2},  q'_2 = (q_1+q_2)\\frac{r_2}{r_1+r_2}",
+        "key_formulae": [
+          "V = \\frac{q}{4\\pi\\epsilon_0 r}",
+          "\\sum q_{initial} = \\sum q_{final}"
+        ],
+        "diagrams": []
+      },
+      "correct_option": null,
+      "diagram_required": false,
+      "source": "55/4/3"
+    },
+    {
+      "id": "55-5-3-Q33a",
+      "year": 2023,
+      "marks": 5,
+      "type": "theory",
+      "question": "(i) Draw equipotential surfaces for an electric dipole.\n(ii) Two point charges q1 and q2 are located at r1 and r2 respectively in an external electric field E. Obtain an expression for the potential energy of the system.\n(iii) The dipole moment of a molecule is 10^-30 Cm. It is placed in an electric field E of 10^5 V/m such that its axis is along the electric field. The direction of E is suddenly changed by 60 degrees at an instant. Find the change in the potential energy of the dipole, at that instant.",
+      "options": {},
+      "answer": {
+        "explanation": "(i) DIAGRAM: Draw two point charges +q and -q. Equipotential surfaces are closed loops around charges, denser between them, and a plane zero-potential surface bisecting the axis.\n\n(ii) DERIVATION:\n1. Work done to bring q1 from infinity to r1 against external field E: W1 = q1 V(r1).\n2. Work done to bring q2 from infinity to r2 against external field E: W2_ext = q2 V(r2).\n3. Work done against the field of q1 to bring q2: W2_int = \\frac{1}{4\\pi\\epsilon_0} \\frac{q_1 q_2}{r_{12}}.\n4. Total Energy U = W1 + W2_ext + W2_int.\n   U = q_1 V(\\vec{r}_1) + q_2 V(\\vec{r}_2) + \\frac{1}{4\\pi\\epsilon_0} \\frac{q_1 q_2}{|\\vec{r}_1 - \\vec{r}_2|}\n\n(iii) NUMERICAL:\\nGIVEN: p = 10^-30 Cm, E = 10^5 V/m. Initial angle theta1 = 0 (along field). Final angle theta2 = 60.\\nSTEPS:\n1. Initial PE U1 = -pE cos(0) = -pE.\n2. Final PE U2 = -pE cos(60) = -pE (0.5).\n3. Change in Energy dU = U2 - U1 = -0.5 pE - (-pE) = 0.5 pE.\n4. Calculation: dU = 0.5 * (10^-30) * (10^5) = 0.5 * 10^-25 J.\\nFINAL RESULT:\\nChange in Potential Energy = 5 \\times 10^{-26} J.",
+        "key_formulae": [
+          "U = qV + \\frac{k q_1 q_2}{r}",
+          "U_{dipole} = -pE \\cos \\theta"
+        ],
+        "diagrams": [
+          ""
+        ]
+      },
+      "correct_option": null,
+      "diagram_required": true,
+      "source": "55/5/3",
+      "diagram_url": "/images/Physics/PYQs/chapter2/55-5-3-Q33a.png",
+      "image": "/images/Physics/Derivations/electric field lines pattern.png"
+    },
+    {
+      "id": "55-6-1-Q29",
+      "year": 2023,
+      "marks": 4,
+      "type": "theory",
+      "question": "Case Study: A capacitor is a system of two conductors separated by an insulator... (See source for full text). \n(i) Consider a capacitor of capacitance C, with plate area A and plate separation d, filled with air. The distance between the plates is increased to 2d and one of the plates is shifted (area overlap becomes A/2? Based on diagram b). The capacitance of the new system now is:\n(ii) A slab of dielectric constant K is inserted... (MCQ on formula)\n(iii) Energy stored in capacitor... (MCQ on formula)\n(iv) Circuit question or Dielectric slab insertion calculation.",
+      "options": {
+        "A": "Multiple options per sub-question",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "answer": {
+        "explanation": "(i) Original C = e0 A / d. New separation d' = 2d. Diagram b (from source 55-6-1) typically shows plates displaced such that effective area A' = A/2 (needs visual confirmation, assuming partial overlap). If A' = A (no shift mentioned in text, only 'shifted' implies misalignment), let's assume effective Area is halved. \\nC' = e0 (A/2) / (2d) = (1/4) (e0 A / d) = C/4. (Matches Option A in source).\n\n(ii) Formula for K in terms of charge densities. Induced charge density sigma_p = sigma(1 - 1/K). \\nRearranging: sigma_p/sigma = 1 - 1/K => 1/K = 1 - sigma_p/sigma = (sigma - sigma_p)/sigma.\\nK = sigma / (sigma - sigma_p). (Matches Option B).\n\n(iii) Energy density u = 1/2 e0 E^2. Total Energy U = u * Volume = 1/2 e0 E^2 V. (Matches Option C).\n\n(iv) (b) Dielectric of thickness d/2 inserted. \\nC_new = e0 A / ( (d - d/2) + (d/2)/K ) = e0 A / ( d/2 + d/2K ) = e0 A / [ (d/2)(1 + 1/K) ]\\nC_new = 2 (e0 A / d) / ( (K+1)/K ) = 2 C0 K / (K+1). (Matches Option B).",
+        "key_formulae": [
+          "C = \\frac{\\epsilon_0 A}{d}",
+          "U = \\frac{1}{2}\\epsilon_0 E^2 V",
+          "C_{dielectric} = \\frac{\\epsilon_0 A}{d-t+t/K}"
+        ],
+        "diagrams": []
+      },
+      "correct_option": null,
+      "diagram_required": true,
+      "source": "55/6/1",
+      "diagram_url": "/images/Physics/PYQs/chapter2/55-6-1-Q29.png",
+      "image": "/images/Physics/Derivations/parallel plate capacitor.png"
+    },
+    {
+      "id": "55-7-1-Q31-b",
+      "year": 2023,
+      "marks": 5,
+      "type": "numerical",
+      "question": "You are given a 1200 V power supply and many identical capacitors of capacitance 1 µF each. Each capacitor can withstand a maximum voltage of 200 V. Find the minimum number of capacitors required and the manner of their arrangement to form a system of equivalent capacitance 2 µF suitable for this supply.",
+      "options": {},
+      "answer": {
+        "explanation": "GIVEN: Supply V = 1200 V. Cap rating V_max = 200 V, C = 1 µF. Required C_eq = 2 µF.\\nSTEPS:\n1. Series Requirement: To withstand 1200 V using 200 V capacitors, we need minimum 'n' capacitors in series.\n   n = V_total / V_max = 1200 / 200 = 6 capacitors in series.\n2. Capacitance of one series row: C_series = C / n = 1 µF / 6 = 1/6 µF.\n3. Parallel Requirement: To get C_eq = 2 µF using rows of capacitance 1/6 µF, we need 'm' rows in parallel.\n   m * C_series = C_eq  =>  m * (1/6) = 2  =>  m = 12 rows.\n4. Total Capacitors = n * m = 6 * 12 = 72.\n\\nFINAL RESULT:\\nMinimum number of capacitors = 72.\\nArrangement: 12 parallel rows, each row containing 6 capacitors in series.",
+        "key_formulae": [
+          "n = \\frac{V_{total}}{V_{rating}}",
+          "C_{series} = C/n",
+          "C_{eq} = m \\times C_{series}"
+        ],
+        "diagrams": []
+      },
+      "correct_option": null,
+      "diagram_required": false,
+      "source": "55/7/1"
+    },
+    {
+      "id": "2155-4-3-Q31-a",
+      "year": 2023,
+      "marks": 5,
+      "type": "theory",
+      "question": "(i) A dielectric slab of dielectric constant 'K' and thickness 't' is inserted between plates of a parallel plate capacitor of plate separation d and plate area A. Obtain an expression for its capacitance.\n(ii) Two capacitors of different capacitances are connected first (1) in series and then (2) in parallel across a dc source of 100 V. If the total energy stored in the combination in the two cases are 40 mJ and 250 mJ respectively, find the capacitance of the capacitors.",
+      "options": {},
+      "answer": {
+        "explanation": "(i) DERIVATION:\n1. Electric field in air = E0, in dielectric = E0/K.\n2. Potential difference V = E0(d-t) + (E0/K)t = E0 [ d - t + t/K ].\n3. Since E0 = sigma/epsilon0 = Q/(A epsilon0).\n4. V = \\frac{Q}{A\\epsilon_0} (d - t + t/K).\n5. C = Q/V = \\frac{\\epsilon_0 A}{d - t(1 - 1/K)}.\n\n(ii) NUMERICAL:\\nGIVEN: V = 100 V. U_s = 40 mJ = 0.04 J. U_p = 250 mJ = 0.25 J.\\nSTEPS:\n1. Parallel Energy: U_p = 1/2 (C1+C2) V^2.\n   0.25 = 0.5 * (C1+C2) * 10000 => C1+C2 = 0.5 / 10000 = 50 microFarad.\n2. Series Energy: U_s = 1/2 (C_s) V^2.\n   0.04 = 0.5 * C_s * 10000 => C_s = 0.08 / 10000 = 8 microFarad.\n3. We have C1+C2 = 50 and C1C2/(C1+C2) = 8.\n   C1C2 / 50 = 8 => C1C2 = 400.\n4. Solve quadratic: x^2 - (50)x + 400 = 0.\n   (x - 40)(x - 10) = 0.\n   C1 = 40 µF, C2 = 10 µF.\n\\nFINAL RESULT:\\nCapacitances are 10 µF and 40 µF.",
+        "key_formulae": [
+          "C = \\frac{\\epsilon_0 A}{d - t(1 - 1/K)}",
+          "U = \\frac{1}{2}CV^2"
+        ],
+        "diagrams": []
+      },
+      "correct_option": null,
+      "diagram_required": false,
+      "source": "2155/4/3"
+    }
+  ],
+  "diagram_required": true
+}

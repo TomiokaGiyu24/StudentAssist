@@ -1,0 +1,1203 @@
+[
+    {
+        "batch_metadata": {
+            "batch_number": 1,
+            "node_index": 1,
+            "batch_complete": false
+        },
+        "prerequisite_name": "Allylic Carbon",
+        "core_category": "Spatial Frameworks",
+        "syllabus_tier": "CRITICAL",
+        "visual_svg_block": "CH2CHCH2Clsp3 Allylic Carbon",
+        "plain_terms_decode": {
+            "the_concept_simplified": "Allylic means being next door to a double bond. You are an ordinary tetrahedral single-bonded carbon, but your immediate neighbor is a carbon-carbon double bond.",
+            "the_textbook_definition": "An allylic carbon is an sp3 hybridized carbon atom bonded directly to an sp2 hybridized carbon atom of an alkene group. It maintains a tetrahedral configuration with ideal bond angles of 109.5 degrees."
+        },
+        "class_12_dependency": {
+            "chapter_link": "Haloalkanes and Haloarenes ",
+            "mechanism_or_reaction": "SN1 Substitution of Allylic Halides ",
+            "the_consequence": "Students fail to understand why allyl chloride easily undergoes hydrolysis while vinyl chloride is inert to nucleophilic attack. Examiners exploit this gap by presenting pairs like CH2=CH-CH2-Cl vs CH2=CH-Cl in reactivity-ordering questions, leading to incorrect predictions of substitution rates."
+        },
+        "diagnostic_flash_card": {
+            "flash_question": "Why does allylic chloride (CH2=CH-CH2-Cl) undergo nucleophilic substitution with aqueous KOH much faster than vinylic chloride (CH2=CH-Cl)? ",
+            "perfect_response_script": "Allylic chloride ionizes easily to yield an **allylic carbocation** that is highly stabilized by **resonance**. In contrast, vinylic chloride is inert because the chlorine lone pair undergoes resonance with the double bond, imparting a **partial double bond character** to the C-Cl bond, which makes it extremely difficult to break."
+        }
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 1,
+            "node_index": 2,
+            "batch_complete": false
+        },
+        "prerequisite_name": "Vinylic Carbon",
+        "core_category": "Spatial Frameworks",
+        "syllabus_tier": "CRITICAL",
+        "visual_svg_block": "CH2CHClsp2 Vinylic Carbon",
+        "plain_terms_decode": {
+            "the_concept_simplified": "Vinylic means you are the double bond. You are one of the two carbons sharing that double bond directly.",
+            "the_textbook_definition": "A vinylic carbon is an sp2 hybridized carbon atom that is a direct participant in the carbon-carbon double bond of an alkene. It possesses a trigonal planar geometry with ideal bond angles of 120 degrees."
+        },
+        "class_12_dependency": {
+            "chapter_link": "Haloalkanes and Haloarenes ",
+            "mechanism_or_reaction": "Resistance of Vinyl Halides to Nucleophilic Attack ",
+            "the_consequence": "Students fail to recognize that halogens attached to vinylic carbons resist simple nucleophilic displacement. This vulnerability is heavily targeted by examiners using structural pairs in comparative substitution rate questions, leading to incorrect predictions."
+        },
+        "diagnostic_flash_card": {
+            "flash_question": "Explain the geometric and electronic reasons why vinyl chloride is resistant to nucleophilic substitution reactions.",
+            "perfect_response_script": "A vinylic carbon is **sp2 hybridized** and **trigonal planar**. In vinyl chloride, the lone pair of electrons on the chlorine atom undergoes **resonance** with the adjacent pi-bond of the double bond. This introduces a strong **partial double bond character** to the C-Cl bond, preventing easy cleavage or nucleophilic attack."
+        }
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 1,
+            "node_index": 3,
+            "batch_complete": false
+        },
+        "prerequisite_name": "Benzylic Carbon",
+        "core_category": "Spatial Frameworks",
+        "syllabus_tier": "CRITICAL",
+        "visual_svg_block": "CH2Cl",
+        "plain_terms_decode": {
+            "the_concept_simplified": "Benzylic is a single-bonded carbon holding onto a benzene ring from the outside.",
+            "the_textbook_definition": "A benzylic carbon is an sp3 hybridized carbon atom directly bonded to an aromatic ring (Ar-C). It forms a tetrahedral spatial arrangement with ideal bond angles of 109.5 degrees."
+        },
+        "class_12_dependency": {
+            "chapter_link": "Haloalkanes and Haloarenes ",
+            "mechanism_or_reaction": "High Reactivity of Benzyl Halides in SN1 Pathways ",
+            "the_consequence": "Students regularly confuse benzyl chloride (C6H5-CH2-Cl) with chlorobenzene (C6H5-Cl). If they miss this spatial distinction, they will incorrectly predict that chlorobenzene undergoes easy substitution or that benzyl chloride is inert, failing primary reactivity-ordering questions."
+        },
+        "diagnostic_flash_card": {
+            "flash_question": "Why does benzyl chloride show remarkably high reactivity via the SN1 pathway? ",
+            "perfect_response_script": "The ionization of benzyl chloride smoothly generates a highly stable **benzyl carbocation** intermediate. This reactive intermediate is stabilized by the extensive delocalization of its positive charge throughout the aromatic ring system via **resonance**."
+        }
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 1,
+            "node_index": 4,
+            "batch_complete": false
+        },
+        "prerequisite_name": "Aryl Carbon",
+        "core_category": "Spatial Frameworks",
+        "syllabus_tier": "CRITICAL",
+        "visual_svg_block": "Clsp2 Aryl C",
+        "plain_terms_decode": {
+            "the_concept_simplified": "Aryl is a carbon that is a native, locked-in member of the benzene ring itself.",
+            "the_textbook_definition": "An aryl carbon is an sp2 hybridized carbon atom that is an integral member of the conjugated aromatic ring system (Ar). It maintains a trigonal planar spatial geometry with 120-degree bond angles."
+        },
+        "class_12_dependency": {
+            "chapter_link": "Haloalkanes and Haloarenes ",
+            "mechanism_or_reaction": "Nucleophilic Aromatic Substitution Suppression in Haloarenes ",
+            "the_consequence": "Students often attempt to apply traditional aliphatic substitution rules to haloarenes, overlooking that aryl carbon-halogen bonds are suppressed towards nucleophilic cleavage. Examiners exploit this vulnerability using comparative ordering tests containing chlorobenzene."
+        },
+        "diagnostic_flash_card": {
+            "flash_question": "Arrange benzyl chloride and chlorobenzene in decreasing order of reactivity towards SN1 reaction, and justify.",
+            "perfect_response_script": "The correct decreasing order is **benzyl chloride > chlorobenzene**. Nucleophilic attack on benzyl chloride yields a stable **benzyl carbocation** stabilized by **resonance**, whereas the C-Cl bond in chlorobenzene has **partial double bond character** due to resonance, suppressing easy cleavage."
+        }
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 1,
+            "node_index": 5,
+            "batch_complete": false
+        },
+        "prerequisite_name": "Ortho, Meta, and Para Positioning Rules",
+        "core_category": "Spatial Frameworks",
+        "syllabus_tier": "CRITICAL",
+        "visual_svg_block": "Goommp",
+        "plain_terms_decode": {
+            "the_concept_simplified": "If you look at a benzene ring with a main group sitting on top, the adjacent positions on the immediate left and right (positions 2 and 6) are Ortho. The positions one gap away (3 and 5) are Meta. The position directly opposite at the bottom (4) is Para.",
+            "the_textbook_definition": "In a monosubstituted benzene ring, positions 1,2 are designated as ortho (o-), positions 1,3 as meta (m-), and positions 1,4 as para (p-), relative to the principal substituent at position 1."
+        },
+        "class_12_dependency": {
+            "chapter_link": "Alcohols, Phenols and Ethers ",
+            "mechanism_or_reaction": "Electrophilic Aromatic Substitution (EAS) of Phenols and Anisole ",
+            "the_consequence": "If a student cannot identify these positions, they will write incorrect products for electrophilic aromatic substitutions (e.g., placing a nitro group at the meta position of phenol instead of ortho/para). Examiners exploit this by asking for major and minor products of anisole nitration, penalizing mislocated isomers."
+        },
+        "diagnostic_flash_card": {
+            "flash_question": "Write the structural formula of the major product obtained when anisole (methoxybenzene) undergoes nitration with concentrated HNO3 and H2SO4.",
+            "perfect_response_script": "The major product is **p-nitroanisole (4-nitroanisole)** because the methoxy group (-OCH3) is an **electron-donating group** that directs incoming electrophiles specifically to the ortho and para positions, with the **para isomer** being the major product due to **minimized steric hindrance**."
+        }
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 2,
+            "node_index": 6,
+            "batch_complete": false
+        },
+        "prerequisite_name": "Alpha Carbon and Alpha-Hydrogen Identification",
+        "core_category": "Spatial Frameworks",
+        "syllabus_tier": "CRITICAL",
+        "visual_svg_block": "CH3COHAlpha position",
+        "plain_terms_decode": {
+            "the_concept_simplified": "The carbon directly touching the functional group (like Cl, OH, or C=O) is the Alpha carbon. The hydrogens attached directly to this specific carbon are Alpha-hydrogens, which have unique acidic properties due to the neighboring group.",
+            "the_textbook_definition": "The alpha (α) carbon is the carbon atom directly bonded to a principal functional group. Hydrogens bonded to this carbon are designated as α-hydrogens and exhibit enhanced acidity in carbonyl systems."
+        },
+        "class_12_dependency": {
+            "chapter_link": "Aldehydes, Ketones, and Carboxylic Acids",
+            "mechanism_or_reaction": "Aldol Condensation vs Cannizzaro Reaction",
+            "the_consequence": "Students fail to identify whether an aldehyde can undergo Aldol condensation (which strictly requires an alpha-hydrogen) or Cannizzaro reaction (no alpha-hydrogen), losing 3-5 marks on mechanism-based roadmaps constructed by examiners."
+        },
+        "diagnostic_flash_card": {
+            "flash_question": "Why does benzaldehyde (C6H5-CHO) undergo the Cannizzaro reaction while acetaldehyde (CH3-CHO) undergoes Aldol condensation when treated with dilute NaOH?",
+            "perfect_response_script": "Acetaldehyde possesses **alpha-hydrogens** on its alpha-carbon, which are **acidic** and easily abstracted by a base to initiate **Aldol condensation**, whereas benzaldehyde lacks **alpha-hydrogens**, forcing it to undergo self-redox via the **Cannizzaro reaction**."
+        }
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 2,
+            "node_index": 7,
+            "batch_complete": false
+        },
+        "prerequisite_name": "Beta and Gamma Carbon and Hydrogen Identification",
+        "core_category": "Spatial Frameworks",
+        "syllabus_tier": "CRITICAL",
+        "visual_svg_block": "CH3 (gamma)CH2 (beta)CH2 (alpha)Cl",
+        "plain_terms_decode": {
+            "the_concept_simplified": "Moving out from the main functional group, the neighbors of the Alpha carbon are Beta, and the next ones down the chain are Gamma. The hydrogens attached to these carbons take the exact same Greek names.",
+            "the_textbook_definition": "The beta (β) carbon is the carbon atom immediately adjacent to the alpha carbon, and the gamma (γ) carbon is adjacent to the beta carbon. Hydrogens bonded to these positions are designated as β-hydrogens and γ-hydrogens respectively."
+        },
+        "class_12_dependency": {
+            "chapter_link": "Haloalkanes and Haloarenes",
+            "mechanism_or_reaction": "E2 Elimination Mechanism",
+            "the_consequence": "Without properly identifying the beta-position and its attached hydrogens, a student cannot execute E2 beta-elimination transformations in alkyl halides, leading to incorrect alkene structural isomers or total failure on multi-step roadmap conversions."
+        },
+        "diagnostic_flash_card": {
+            "flash_question": "Explain the role of beta-hydrogens during the dehydrohalogenation of 2-bromobutane with alcoholic KOH.",
+            "perfect_response_script": "The strong base abstracts a proton from the **beta-carbon** (a **beta-elimination** process). Because 2-bromobutane contains two distinct beta-positions, elimination yields a mixture of alkenes where **but-2-ene** forms as the major product according to **Saytzeff's rule** due to its higher substitution and thermodynamic stability."
+        }
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 2,
+            "node_index": 8,
+            "batch_complete": false
+        },
+        "prerequisite_name": "Carbocation Geometry, Hybridization, and Bond Angles",
+        "core_category": "Spatial Frameworks",
+        "syllabus_tier": "CRITICAL",
+        "visual_svg_block": "C+Vacant p-orbitalRRR",
+        "plain_terms_decode": {
+            "the_concept_simplified": "A carbocation is a flat triangle. It has three bonds spread out in a flat sheet, with bond angles of 120 degrees, and an empty slot (a vacant p-orbital) pointing straight up and down from the center carbon.",
+            "the_textbook_definition": "A carbocation is a trivalent carbon intermediate containing six electrons in its valence shell. It is sp2 hybridized, adopting a trigonal planar geometry with ideal bond angles of 120 degrees and an empty, unhybridized p-orbital perpendicular to the molecular plane."
+        },
+        "class_12_dependency": {
+            "chapter_link": "Haloalkanes and Haloarenes",
+            "mechanism_or_reaction": "SN1 Mechanism Stereochemistry and Racemization",
+            "the_consequence": "If a student does not master the planar geometry of carbocations, they cannot successfully deduce or predict the stereochemical outcomes of SN1 reactions, which lead to racemization due to equal-probability nucleophilic attack from either side of the open intermediate."
+        },
+        "diagnostic_flash_card": {
+            "flash_question": "Explain why the SN1 hydrolysis of optically active 2-bromooctane results in a racemic mixture of octan-2-ol.",
+            "perfect_response_script": "The rate-determining step of the SN1 mechanism involves the formation of a **planar carbocation intermediate** which is **sp2 hybridized**. The incoming nucleophile (H2O) can attack this planar carbon atom with **equal probability from either the front or back face**, leading to **racemization** and optical inactivity."
+        }
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 2,
+            "node_index": 9,
+            "batch_complete": false
+        },
+        "prerequisite_name": "Carbanion Geometry, Hybridization, and Bond Angles",
+        "core_category": "Spatial Frameworks",
+        "syllabus_tier": "HIGH-YIELD",
+        "visual_svg_block": "C-Lone Pair in sp3",
+        "plain_terms_decode": {
+            "the_concept_simplified": "A carbanion is shaped like a three-legged pyramid. The central carbon holds onto three neighbors via single bonds, and the fourth orbital at the top of the pyramid houses a lone pair of negative electrons.",
+            "the_textbook_definition": "A carbanion is a negatively charged carbon species containing eight valence electrons. The carbon atom is sp3 hybridized, adopting a trigonal pyramidal geometry with bond angles of approximately 107 degrees due to strong lone-pair-bond-pair repulsion."
+        },
+        "class_12_dependency": {
+            "chapter_link": "Aldehydes, Ketones, and Carboxylic Acids",
+            "mechanism_or_reaction": "Aldol Condensation and Decarboxylation Intermediates",
+            "the_consequence": "Students often fail to recognize that carbanions serve as powerful nucleophiles. If they do not identify the negative charge localized on the alpha-carbon of an enolate, they cannot accurately trace the nucleophilic attack path onto a carbonyl group, missing crucial mechanism steps."
+        },
+        "diagnostic_flash_card": {
+            "flash_question": "Identify the hybridization and geometry of the carbon intermediate formed during the base-catalyzed deprotonation of acetaldehyde.",
+            "perfect_response_script": "The base-catalyzed deprotonation yields an enolate ion where the localized carbanion center is **sp3 hybridized** and exhibits a **trigonal pyramidal geometry**. This localized structure is stabilized via **resonance** with the adjacent carbonyl pi-system, delocalizing the charge onto oxygen to form a planar conjugated system."
+        }
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 2,
+            "node_index": 10,
+            "batch_complete": false
+        },
+        "prerequisite_name": "Carbon Free Radical Geometry, Hybridization, and Bond Angles",
+        "core_category": "Spatial Frameworks",
+        "syllabus_tier": "HIGH-YIELD",
+        "visual_svg_block": "C*Single Electron",
+        "plain_terms_decode": {
+            "the_concept_simplified": "A free radical is a flat triangle containing one solitary, unpaired electron. It is flat like a sheet with bond angles of 120 degrees, and that single electron sits in a perpendicular pocket pointing straight up and down.",
+            "the_textbook_definition": "A carbon free radical is a neutral species containing seven valence electrons. The radical carbon atom is sp2 hybridized, possessing a trigonal planar (or nearly planar) geometry with ideal bond angles of approximately 120 degrees, where the single unpaired electron resides in the unhybridized p-orbital."
+        },
+        "class_12_dependency": {
+            "chapter_link": "Haloalkanes and Haloarenes",
+            "mechanism_or_reaction": "Free Radical Halogenation and Anti-Markovnikov Addition",
+            "the_consequence": "Without understanding the planar nature of free radical intermediates, students fail to accurately predict stereochemical mixtures during radical substitutions, resulting in incorrect assumptions about optical activity in radical-generated chiral centers."
+        },
+        "diagnostic_flash_card": {
+            "flash_question": "Predict the stereochemical outcome of monochlorination of butane at the C2 position, and explain based on intermediate geometry.",
+            "perfect_response_script": "The reaction yields a **racemic mixture** of 2-chlorobutane because the intermediate sec-butyl free radical is **sp2 hybridized** and **planar**. The incoming chlorine radical can attack with **equal probability from either face** of the planar radical center, resulting in optical inactivity."
+        }
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 3,
+            "node_index": 11,
+            "batch_complete": false
+        },
+        "prerequisite_name": "Aniline",
+        "core_category": "Trivial Nomenclature",
+        "syllabus_tier": "CRITICAL",
+        "visual_svg_block": "NH2",
+        "plain_terms_decode": {
+            "the_concept_simplified": "Aniline is a benzene ring with an amino (-NH2) group attached to it.",
+            "the_textbook_definition": "Aniline is the accepted trivial and IUPAC name for aminobenzene (C6H5NH2), a primary aromatic amine system."
+        },
+        "class_12_dependency": {
+            "chapter_link": "Amines ",
+            "mechanism_or_reaction": "Diazotization of Aniline and Coupling Reactions ",
+            "the_consequence": "If a student cannot draw Aniline from its trivial name, they cannot construct benzene diazonium chloride or execute dye coupling, resulting in a loss of 3-5 marks on synthetic sequence questions."
+        },
+        "diagnostic_flash_card": {
+            "flash_question": "Write the chemical equation for the reaction of aniline with nitrous acid (NaNO2 + HCl) at 273-278 K.",
+            "perfect_response_script": "Aniline [C6H5NH2] reacts with NaNO2 and HCl at 273-278 K to undergo **diazotization**, yielding **benzene diazonium chloride** [C6H5-N2+Cl-], sodium chloride, and water."
+        }
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 3,
+            "node_index": 12,
+            "batch_complete": false
+        },
+        "prerequisite_name": "Phenol",
+        "core_category": "Trivial Nomenclature",
+        "syllabus_tier": "CRITICAL",
+        "visual_svg_block": "OH",
+        "plain_terms_decode": {
+            "the_concept_simplified": "Phenol is a benzene ring holding a basic hydroxyl (-OH) group directly on one of its core carbons.",
+            "the_textbook_definition": "Phenol is the accepted systematic and trivial name for hydroxybenzene (C6H5OH), where the functional hydroxyl group is directly bonded to an sp2 hybridized aromatic carbon atom."
+        },
+        "class_12_dependency": {
+            "chapter_link": "Alcohols, Phenols and Ethers ",
+            "mechanism_or_reaction": "Azo Dye Coupling and Electrophilic Substitution Reactions ",
+            "the_consequence": "If a student cannot translate the trivial name Phenol into its correct structural representation, they fail to complete benzene diazonium chloride dye coupling sequences or structural roadmap transformations, resulting in a direct loss of 3-5 marks."
+        },
+        "diagnostic_flash_card": {
+            "flash_question": "Explain the directing influence and activation behavior of the hydroxyl group in phenol during electrophilic aromatic substitution.",
+            "perfect_response_script": "The hydroxyl group (-OH) in phenol is a powerful **activating** and **ortho/para-directing group** because the lone pairs on the oxygen atom undergo **resonance (+R effect)** with the aromatic ring, increasing electron density specifically at the ortho and para positions."
+        }
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 3,
+            "node_index": 13,
+            "batch_complete": false
+        },
+        "prerequisite_name": "Anisole",
+        "core_category": "Trivial Nomenclature",
+        "syllabus_tier": "CRITICAL",
+        "visual_svg_block": "OCH3",
+        "plain_terms_decode": {
+            "the_concept_simplified": "Anisole is a benzene ring with an -OCH3 (methoxy) group sitting on top of it.",
+            "the_textbook_definition": "Anisole is the accepted trivial and IUPAC name for methoxybenzene (C6H5OCH3), serving as the baseline model for aromatic ethers."
+        },
+        "class_12_dependency": {
+            "chapter_link": "Alcohols, Phenols and Ethers ",
+            "mechanism_or_reaction": "Electrophilic Aromatic Substitution (EAS) of Phenols and Anisole ",
+            "the_consequence": "If a student cannot identify these positions, they will write incorrect products for electrophilic aromatic substitutions (e.g., placing a nitro group at the meta position of phenol instead of ortho/para). Examiners exploit this by asking for major and minor products of anisole nitration, penalizing mislocated isomers."
+        },
+        "diagnostic_flash_card": {
+            "flash_question": "Write the structural formula of the major product obtained when anisole (methoxybenzene) undergoes nitration with concentrated HNO3 and H2SO4.",
+            "perfect_response_script": "The major product is **p-nitroanisole (4-nitroanisole)** because the methoxy group (-OCH3) is an **electron-donating group** that directs incoming electrophiles specifically to the ortho and para positions, with the **para isomer** being the major product due to **minimized steric hindrance**."
+        }
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 3,
+            "node_index": 14,
+            "batch_complete": false
+        },
+        "prerequisite_name": "Toluene",
+        "core_category": "Trivial Nomenclature",
+        "syllabus_tier": "CRITICAL",
+        "visual_svg_block": "CH3",
+        "plain_terms_decode": {
+            "the_concept_simplified": "Toluene is simply a benzene ring with a single methyl (-CH3) group attached to its side.",
+            "the_textbook_definition": "Toluene is the universally accepted trivial and systematic IUPAC name for methylbenzene (C6H5CH3)."
+        },
+        "class_12_dependency": {
+            "chapter_link": "Aldehydes, Ketones, and Carboxylic Acids ",
+            "mechanism_or_reaction": "Side-Chain Chlorination of Toluene to Benzaldehyde ",
+            "the_consequence": "Students confuse the degree of side-chain chlorination. If they write benzyl chloride instead of benzal chloride, they predict benzyl alcohol as the hydrolysis product instead of the required benzaldehyde, leading to complete loss of marks on conversions."
+        },
+        "diagnostic_flash_card": {
+            "flash_question": "Show how benzaldehyde is prepared from toluene via side-chain chlorination.",
+            "perfect_response_script": "Toluene undergoes side-chain chlorination in the presence of light to form **benzal chloride** [C6H5-CHCl2]. Subsequent hydrolysis of benzal chloride with aqueous NaOH/KOH yields an unstable **gem-diol** [C6H5-CH(OH)2] which immediately undergoes **elimination of a water molecule** to yield benzaldehyde [C6H5-CHO]."
+        }
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 3,
+            "node_index": 15,
+            "batch_complete": false
+        },
+        "prerequisite_name": "Cumene Structure and Industrial Relevance",
+        "core_category": "Trivial Nomenclature",
+        "syllabus_tier": "CRITICAL",
+        "visual_svg_block": "CH(CH3)2",
+        "plain_terms_decode": {
+            "the_concept_simplified": "Cumene is a benzene ring holding an isopropyl group. Imagine a central carbon attached to the benzene ring, with one hydrogen and two methyl groups attached to that same carbon.",
+            "the_textbook_definition": "Cumene is the common/trivial name for Isopropylbenzene (C6H5CH(CH3)2), prepared industrially via Friedel-Crafts alkylation of benzene with propylene."
+        },
+        "class_12_dependency": {
+            "chapter_link": "Alcohols, Phenols and Ethers ",
+            "mechanism_or_reaction": "Industrial Phenol Synthesis via the Cumene Process ",
+            "the_consequence": "This reaction is heavily tested in Board exams. If a student cannot write the structure of Cumene, they cannot complete the oxidation and hydrolysis pathways, resulting in a zero score for this highly specific conversion question."
+        },
+        "diagnostic_flash_card": {
+            "flash_question": "Draw the structure of Cumene and write the chemical equations for its conversion to Phenol and Acetone.",
+            "perfect_response_script": "Cumene is isopropylbenzene [C6H5-CH(CH3)2]. It is oxidized by air to **cumene hydroperoxide** [C6H5-C(CH3)2-O-O-H], which upon hydrolysis with dilute acid decomposes into **phenol** [C6H5-OH] and **acetone** [CH3-CO-CH3] as a highly valuable commercial byproduct."
+        }
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 4,
+            "node_index": 16,
+            "batch_complete": false
+        },
+        "prerequisite_name": "Benzyl Chloride",
+        "core_category": "Trivial Nomenclature",
+        "syllabus_tier": "HIGH-YIELD",
+        "visual_svg_block": "CH2Cl",
+        "plain_terms_decode": {
+            "the_concept_simplified": "Benzyl chloride has one chlorine attached to the side-chain carbon of toluene. The carbon holding the chlorine is outside the ring and behaves like a typical single-bonded aliphatic carbon.",
+            "the_textbook_definition": "Benzyl chloride (Chloromethylbenzene, C6H5CH2Cl) is the monosubstituted side-chain derivative obtained by the free radical chlorination of toluene."
+        },
+        "class_12_dependency": {
+            "chapter_link": "Aldehydes, Ketones, and Carboxylic Acids",
+            "mechanism_or_reaction": "Side-Chain Chlorination of Toluene Pathways",
+            "the_consequence": "Students frequently confuse the degrees of side-chain chlorination. If they write benzyl chloride instead of benzal chloride in a synthetic roadmap, they will mistakenly predict benzyl alcohol as the final product instead of the required benzaldehyde, losing all synthesis marks."
+        },
+        "diagnostic_flash_card": {
+            "flash_question": "What product is obtained when benzyl chloride is hydrolyzed with aqueous NaOH, and how does its reactivity compare to chlorobenzene?",
+            "perfect_response_script": "Hydrolysis of benzyl chloride yields **benzyl alcohol** [C6H5CH2OH]. Benzyl chloride undergoes rapid substitution via the **SN1 pathway** because it forms a highly stable **benzyl carbocation** intermediate stabilized by **resonance**, whereas chlorobenzene is inert due to partial double bond character."
+        }
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 4,
+            "node_index": 17,
+            "batch_complete": false
+        },
+        "prerequisite_name": "Benzal Chloride",
+        "core_category": "Trivial Nomenclature",
+        "syllabus_tier": "HIGH-YIELD",
+        "visual_svg_block": "CHCl2",
+        "plain_terms_decode": {
+            "the_concept_simplified": "Benzal chloride has two chlorine atoms attached to the same side-chain carbon outside the benzene ring.",
+            "the_textbook_definition": "Benzal chloride (Dichloromethylbenzene, C6H5CHCl2) is the disubstituted geminal dihalide derivative obtained by the progressive side-chain chlorination of toluene."
+        },
+        "class_12_dependency": {
+            "chapter_link": "Aldehydes, Ketones, and Carboxylic Acids",
+            "mechanism_or_reaction": "Industrial Preparation of Benzaldehyde",
+            "the_consequence": "Examiners hide commercial synthesis routes using this trivial term. If a student cannot translate 'benzal chloride' to its gem-dihalide structure, they cannot execute the multi-step hydrolysis mechanism that leads to benzaldehyde, scoring zero on the entire roadmap node."
+        },
+        "diagnostic_flash_card": {
+            "flash_question": "Show how benzaldehyde is prepared from toluene via side-chain chlorination.",
+            "perfect_response_script": "Toluene undergoes side-chain chlorination in the presence of light to form **benzal chloride** [C6H5-CHCl2]. Subsequent hydrolysis of benzal chloride with aqueous NaOH/KOH yields an unstable **gem-diol** [C6H5-CH(OH)2] which immediately undergoes **elimination of a water molecule** to yield benzaldehyde [C6H5-CHO]."
+        }
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 4,
+            "node_index": 18,
+            "batch_complete": false
+        },
+        "prerequisite_name": "Benzo Trichloride",
+        "core_category": "Trivial Nomenclature",
+        "syllabus_tier": "HIGH-YIELD",
+        "visual_svg_block": "CCl3",
+        "plain_terms_decode": {
+            "the_concept_simplified": "Benzo trichloride is the final step on the toluene chlorination ladder. The single side-chain carbon is completely covered in three chlorine atoms, with no hydrogens left.",
+            "the_textbook_definition": "Benzo trichloride (Trichloromethylbenzene, C6H5CCl3) is the trisubstituted side-chain derivative formed via the exhaustive free radical halogenation of toluene."
+        },
+        "class_12_dependency": {
+            "chapter_link": "Aldehydes, Ketones, and Carboxylic Acids",
+            "mechanism_or_reaction": "Complete Hydrolysis to Benzoic Acid",
+            "the_consequence": "Students fail to realize that hydrolyzing three chlorines on a single carbon atom generates a carboxylic acid instead of an aldehyde or alcohol. Missing this structural trigger results in an incorrect product prediction during conversion sequences."
+        },
+        "diagnostic_flash_card": {
+            "flash_question": "Predict the final organic product obtained when benzo trichloride undergoes complete aqueous alkaline hydrolysis.",
+            "perfect_response_script": "Complete hydrolysis of benzo trichloride replaces three chlorine atoms to form an unstable intermediate with three hydroxyl groups on one carbon. This intermediate immediately loses a water molecule to form **benzoic acid** [C6H5COOH]."
+        }
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 4,
+            "node_index": 19,
+            "batch_complete": false
+        },
+        "prerequisite_name": "Chloroform",
+        "core_category": "Trivial Nomenclature",
+        "syllabus_tier": "CRITICAL",
+        "visual_svg_block": "HClClClC",
+        "plain_terms_decode": {
+            "the_concept_simplified": "Chloroform is a single carbon atom holding onto one hydrogen and three chlorines.",
+            "the_textbook_definition": "Chloroform is the accepted trivial nomenclature for Trichloromethane (CHCl3), a trihalogenated methane derivative."
+        },
+        "class_12_dependency": {
+            "chapter_link": "Haloalkanes and Haloarenes",
+            "mechanism_or_reaction": "Reimer-Tiemann Reaction and Carbylamine Test",
+            "the_consequence": "If a student cannot identify CHCl3 as Chloroform from a word problem, they cannot write out key name reactions like the Reimer-Tiemann synthesis of salicylaldehyde or identify the toxic intermediate in the Carbylamine primary amine test, losing 2-3 marks instantly."
+        },
+        "diagnostic_flash_card": {
+            "flash_question": "Identify the highly reactive intermediate formed when chloroform reacts with a strong base during the Reimer-Tiemann reaction.",
+            "perfect_response_script": "The reaction of chloroform with a strong base involves alpha-elimination of HCl to generate **dichlorocarbene** [★ CCl2], which acts as an electrophile and attacks the phenoxide ring to eventually produce **salicylaldehyde**."
+        }
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 4,
+            "node_index": 20,
+            "batch_complete": false
+        },
+        "prerequisite_name": "Iodoform",
+        "core_category": "Trivial Nomenclature",
+        "syllabus_tier": "CRITICAL",
+        "visual_svg_block": "HIIIC",
+        "plain_terms_decode": {
+            "the_concept_simplified": "Iodoform is a single carbon atom holding one hydrogen and three iodines. It physicalizes in lab tests as a distinct, bright yellow solid.",
+            "the_textbook_definition": "Iodoform is the accepted trivial nomenclature for Triiodomethane (CHI3), a trihalogenated methane derivative produced via the haloform reaction."
+        },
+        "class_12_dependency": {
+            "chapter_link": "Aldehydes, Ketones, and Carboxylic Acids",
+            "mechanism_or_reaction": "Iodoform Test for Methyl Ketones",
+            "the_consequence": "Examiners regularly use word problems asking how to chemically distinguish pairs like propan-2-ol and propan-1-ol. If a student cannot recall that CHI3 is the yellow precipitate known as iodoform, they will fail to complete the mandatory distinguishing reaction equation."
+        },
+        "diagnostic_flash_card": {
+            "flash_question": "What yellow precipitate is formed when propan-2-ol is treated with iodine and aqueous sodium hydroxide, and what is its chemical formula?",
+            "perfect_response_script": "The bright yellow precipitate formed is **iodoform** (triiodomethane), which has the chemical formula **CHI3**. This positive test confirms the presence of a **methyl carbinol** or **methyl ketone** structural group."
+        }
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 5,
+            "node_index": 21,
+            "batch_complete": false
+        },
+        "prerequisite_name": "Formaldehyde",
+        "core_category": "Trivial Nomenclature",
+        "syllabus_tier": "CRITICAL",
+        "visual_svg_block": "OHHC",
+        "plain_terms_decode": {
+            "the_concept_simplified": "Formaldehyde is the simplest possible carbonyl compound. It has a single central carbon double-bonded to an oxygen, with just two lonely hydrogen atoms flanking its sides.",
+            "the_textbook_definition": "Formaldehyde is the universally accepted trivial name for Methanal (HCHO), which is the single-carbon baseline unit of the aliphatic aldehyde homologous series."
+        },
+        "class_12_dependency": {
+            "chapter_link": "Aldehydes, Ketones, and Carboxylic Acids",
+            "mechanism_or_reaction": "Nucleophilic Addition of Grignard Reagent and Cannizzaro Reaction",
+            "the_consequence": "Examiners target the structural simplicity of formaldehyde. Because it lacks alkyl branches, it has zero alpha-hydrogens, making it a primary substrate for the Cannizzaro reaction. Furthermore, its addition reaction with Grignard reagents uniquely yields primary alcohols instead of secondary or tertiary alcohols, causing students to fail synthesis chain questions if they misidentify its formula."
+        },
+        "diagnostic_flash_card": {
+            "flash_question": "What specific class of alcohol is obtained when formaldehyde is reacted with methylmagnesium bromide followed by acid hydrolysis, and why?",
+            "perfect_response_script": "The reaction yields **ethanol**, which is a **primary alcohol**. This specific outcome occurs because formaldehyde has **zero alkyl groups** attached to its carbonyl carbon , ensuring that the **nucleophilic addition** of the Grignard reagent's methyl group creates a terminal carbon center with only a single alkyl branch."
+        }
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 5,
+            "node_index": 22,
+            "batch_complete": false
+        },
+        "prerequisite_name": "Acetaldehyde",
+        "core_category": "Trivial Nomenclature",
+        "syllabus_tier": "CRITICAL",
+        "visual_svg_block": "OCH3HC",
+        "plain_terms_decode": {
+            "the_concept_simplified": "Acetaldehyde has a single methyl group attached to one side of the carbonyl double bond and a lone hydrogen atom sitting on the opposite side.",
+            "the_textbook_definition": "Acetaldehyde is the accepted common nomenclature for Ethanal (CH3CHO), a two-carbon aliphatic aldehyde containing functional alpha-hydrogens."
+        },
+        "class_12_dependency": {
+            "chapter_link": "Aldehydes, Ketones, and Carboxylic Acids",
+            "mechanism_or_reaction": "Aldol Condensation Mechanism",
+            "the_consequence": "Students regularly confuse acetaldehyde structural rules with benzaldehyde or formaldehyde traps. Because acetaldehyde carries an active alpha-carbon loaded with three alpha-hydrogens, it strictly undergoes base-catalyzed self-condensation. Missing this structural assignment prevents students from correctly predicting enolate attack vectors in board roadmap papers."
+        },
+        "diagnostic_flash_card": {
+            "flash_question": "Why does acetaldehyde undergo Aldol condensation when treated with dilute NaOH, whereas formaldehyde undergoes the Cannizzaro reaction?",
+            "perfect_response_script": "Acetaldehyde possesses highly **acidic alpha-hydrogens** on its alpha-carbon atom. A base can easily abstract one of these protons to generate a nucleophilic **enolate ion** intermediate, which drives **Aldol condensation**. Formaldehyde completely **lacks alpha-hydrogens**, forcing it to navigate a self-redox path via the **Cannizzaro reaction**."
+        }
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 5,
+            "node_index": 23,
+            "batch_complete": false
+        },
+        "prerequisite_name": "Acetone",
+        "core_category": "Trivial Nomenclature",
+        "syllabus_tier": "CRITICAL",
+        "visual_svg_block": "OCH3CH3C",
+        "plain_terms_decode": {
+            "the_concept_simplified": "Acetone has methyl groups flanking both sides of the central carbonyl C=O group, making it a symmetrical, simple ketone.",
+            "the_textbook_definition": "Acetone is the accepted trivial and common name for Propan-2-one (CH3COCH3), the simplest possible aliphatic dialkyl ketone."
+        },
+        "class_12_dependency": {
+            "chapter_link": "Aldehydes, Ketones, and Carboxylic Acids",
+            "mechanism_or_reaction": "Nucleophilic Addition of Grignard Reagent and Iodoform Test",
+            "the_consequence": "Examiners regularly use questions like 'Acetone reacts with CH3MgBr followed by hydrolysis'. If a student misinterprets the trivial name and draws acetaldehyde instead of a ketone, they will write a secondary alcohol instead of a tertiary alcohol product, receiving zero credit for the multi-step transformation."
+        },
+        "diagnostic_flash_card": {
+            "flash_question": "Write the reaction of acetone with methylmagnesium bromide followed by acid hydrolysis.",
+            "perfect_response_script": "Acetone [CH3COCH3] reacts with methylmagnesium bromide followed by hydrolysis to yield **2-methylpropan-2-ol**. The mechanism proceeds via the **nucleophilic addition** of the methyl group to the carbonyl carbon, producing a stable **tertiary alcohol** framework."
+        }
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 5,
+            "node_index": 24,
+            "batch_complete": false
+        },
+        "prerequisite_name": "Glacial Acetic Acid",
+        "core_category": "Trivial Nomenclature",
+        "syllabus_tier": "CRITICAL",
+        "visual_svg_block": "OCH3OHC",
+        "plain_terms_decode": {
+            "the_concept_simplified": "Glacial acetic acid is pure, 100% water-free vinegar acid. Structurally, it is just a methyl group connected to a carboxylic acid group.",
+            "the_textbook_definition": "Glacial acetic acid refers to pure, anhydrous Ethanoic Acid (CH3COOH) which forms ice-like crystal structures upon freezing at low temperatures."
+        },
+        "class_12_dependency": {
+            "chapter_link": "Aldehydes, Ketones, and Carboxylic Acids",
+            "mechanism_or_reaction": "Anhydrous Carboxylic Acid Reactions",
+            "the_consequence": "Students fail to realize that the term 'glacial' dictates an anhydrous operational state. If they introduce water or assume it is a regular dilute acid solution, they miss that this system allows water-sensitive pathways like phosphorus-halide substitutions or acid anhydride synthesis to run smoothly without hydrolysis intervention, resulting in flawed conversion equations."
+        },
+        "diagnostic_flash_card": {
+            "flash_question": "What distinguishes glacial acetic acid from regular acetic acid in the context of chemical reactivity?",
+            "perfect_response_script": "Glacial acetic acid represents **pure, anhydrous ethanoic acid**. The absolute absence of water ensures its utility in **anhydrous carboxylic acid reactions**, permitting operations that would otherwise be destroyed or reversed by aqueous equilibria, such as **esterification** or anhydride preparation."
+        }
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 5,
+            "node_index": 25,
+            "batch_complete": false
+        },
+        "prerequisite_name": "Ethylene Glycol",
+        "core_category": "Trivial Nomenclature",
+        "syllabus_tier": "HIGH-YIELD",
+        "visual_svg_block": "HOCH2CH2OH",
+        "plain_terms_decode": {
+            "the_concept_simplified": "Ethylene glycol is a simple two-carbon chain containing an ordinary hydroxyl alcohol (-OH) group on each carbon atom.",
+            "the_textbook_definition": "Ethylene glycol is the accepted trivial and industrial nomenclature for Ethane-1,2-diol, a classic vicinal diol system."
+        },
+        "class_12_dependency": {
+            "chapter_link": "Aldehydes, Ketones, and Carboxylic Acids",
+            "mechanism_or_reaction": "Protection of Carbonyl Groups to form Cyclic Ketals",
+            "the_consequence": "Students are often unable to construct the protecting equations for aldehydes or ketones. If they do not recognize ethylene glycol as a bidentate protecting agent, they cannot complete synthetic pathways that require shielding a carbonyl center from Grignard or hydride attacks, resulting in a complete loss of marks on selective multi-step synthesis roadmaps."
+        },
+        "diagnostic_flash_card": {
+            "flash_question": "Identify the final organic product obtained when ethylene glycol is oxidized with acidified potassium dichromate.",
+            "perfect_response_script": "The final organic product of complete oxidation is **oxalic acid (ethanedioic acid)**. This occurs via the exhaustive oxidation of both independent **primary hydroxyl groups** into functional **carboxylic acid groups**."
+        }
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 6,
+            "node_index": 26,
+            "batch_complete": false
+        },
+        "prerequisite_name": "Glycerol",
+        "core_category": "Trivial Nomenclature",
+        "syllabus_tier": "HIGH-YIELD",
+        "visual_svg_block": "HO-CH2CHCH2-OHOH",
+        "plain_terms_decode": {
+            "the_concept_simplified": "Glycerol is a simple three-carbon backbone chain with a sweet alcohol hydroxyl (-OH) group sitting squarely on every single carbon atom.",
+            "the_textbook_definition": "Glycerol is the universally accepted trivial name for Propane-1,2,3-triol, an aliphatic trihydric alcohol system containing three distinct hydroxyl binding sites."
+        },
+        "class_12_dependency": {
+            "chapter_link": "Aldehydes, Ketones, and Carboxylic Acids",
+            "mechanism_or_reaction": "Polyester Synthesis and Polyhydric Alcohol Oxidation",
+            "the_consequence": "Students regularly overlook multi-hydroxyl molecular arrangements when processing industrial chemical terminology. If they confuse glycerol with simple glycols, they write faulty stoichiometry and miss structural alignment points in board examination questions."
+        },
+        "diagnostic_flash_card": {
+            "flash_question": "State the systematic IUPAC name and structural formula layout of Glycerol.",
+            "perfect_response_script": "The systematic IUPAC name of glycerol is **propane-1,2,3-triol**. Its structural representation consists of a saturated three-carbon chain where **every carbon holds an independent hydroxyl (-OH) functional group**, classifying it as a **trihydric alcohol**."
+        }
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 6,
+            "node_index": 27,
+            "batch_complete": false
+        },
+        "prerequisite_name": "Oxalic Acid",
+        "core_category": "Trivial Nomenclature",
+        "syllabus_tier": "HIGH-YIELD",
+        "visual_svg_block": "HOOCCOOH",
+        "plain_terms_decode": {
+            "the_concept_simplified": "Oxalic acid is just two functional carboxylic acid groups fused directly together face-to-face, without any intervening carbon atom separating them.",
+            "the_textbook_definition": "Oxalic acid is the common trivial name for Ethanedioic acid (HOOC-COOH), the simplest possible open-chain dicarboxylic acid system."
+        },
+        "class_12_dependency": {
+            "chapter_link": "Aldehydes, Ketones, and Carboxylic Acids",
+            "mechanism_or_reaction": "Glycol Acidic Oxidation End Product",
+            "the_consequence": "Students frequently fail to recognize oxalic acid as the terminal product of energetic oxidation pathways involving vicinal diols. Missing this specific structural trigger completely breaks multi-stage transformation roadmaps."
+        },
+        "diagnostic_flash_card": {
+            "flash_question": "Identify the final organic product obtained when ethylene glycol is oxidized with acidified potassium dichromate.",
+            "perfect_response_script": "The final organic product of the exhaustive oxidation of ethylene glycol is **oxalic acid [HOOC-COOH]**, which is produced via the complete oxidation of both primary terminal hydroxyl units into functional **carboxylic acid groups**."
+        }
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 6,
+            "node_index": 28,
+            "batch_complete": false
+        },
+        "prerequisite_name": "o-Cresol",
+        "core_category": "Trivial Nomenclature",
+        "syllabus_tier": "HIGH-YIELD",
+        "visual_svg_block": "OHCH3",
+        "plain_terms_decode": {
+            "the_concept_simplified": "Ortho-cresol is a benzene ring where an -OH alcohol group and a -CH3 methyl group are sitting directly next door to each other at positions 1 and 2.",
+            "the_textbook_definition": "o-Cresol is the accepted trivial nomenclature for 2-Methylphenol, a monosubstituted methyl derivative of an aromatic phenol ring system."
+        },
+        "class_12_dependency": {
+            "chapter_link": "Alcohols, Phenols and Ethers",
+            "mechanism_or_reaction": "Acidity of Substituted Phenols",
+            "the_consequence": "Examiners regularly test comparative acidity rankings across cresol isomers. If a student cannot accurately position the methyl group on the ring, they fail to balance the combined inductive (+I) and hyperconjugative paths, predicting flawed stability structures."
+        },
+        "diagnostic_flash_card": {
+            "flash_question": "Explain how the structural layout of o-cresol influences its overall acidic strength compared to unsubstituted phenol.",
+            "perfect_response_script": "**o-Cresol** displays weaker acidic strength than phenol because the electron-donating methyl substituent located at the adjacent ortho position releases electron density through both the **positive inductive (+I) effect** and **hyperconjugation**, which destabilizes the resulting **phenoxide ion**."
+        }
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 6,
+            "node_index": 29,
+            "batch_complete": false
+        },
+        "prerequisite_name": "m-Cresol",
+        "core_category": "Trivial Nomenclature",
+        "syllabus_tier": "HIGH-YIELD",
+        "visual_svg_block": "OHCH3",
+        "plain_terms_decode": {
+            "the_concept_simplified": "Meta-cresol is a phenol ring where the methyl group is shifted one carbon slot further away, leaving an open carbon gap between it and the main hydroxyl group.",
+            "the_textbook_definition": "m-Cresol is the accepted trivial nomenclature for 3-Methylphenol, where the ring positions are relative to the principal hydroxyl locus."
+        },
+        "class_12_dependency": {
+            "chapter_link": "Alcohols, Phenols and Ethers",
+            "mechanism_or_reaction": "Highly Contested Acidity Ordering vs o/p Isomers",
+            "the_consequence": "Students fail to realize that hyperconjugation rules are completely inactive from the meta position. If they incorrectly apply global deactivation metrics, they misrank m-cresol as less acidic than its isomers, surrendering high-yield board marks."
+        },
+        "diagnostic_flash_card": {
+            "flash_question": "Why does m-cresol exhibit a higher acidic strength than both ortho and para-cresol isomers?",
+            "perfect_response_script": "At the meta position, the methyl group **cannot exert its hyperconjugative effect** to inject electron density onto the phenoxide oxygen; it operates strictly via the weaker **inductive (+I) effect**, which causes less destabilization and preserves a **higher acidity**."
+        }
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 6,
+            "node_index": 30,
+            "batch_complete": false
+        },
+        "prerequisite_name": "p-Cresol",
+        "core_category": "Trivial Nomenclature",
+        "syllabus_tier": "HIGH-YIELD",
+        "visual_svg_block": "OHCH3",
+        "plain_terms_decode": {
+            "the_concept_simplified": "Para-cresol is a perfectly symmetrical structure where the methyl group sits on the absolute opposite side of the ring from the hydroxyl alcohol group.",
+            "the_textbook_definition": "p-Cresol is the accepted trivial nomenclature for 4-Methylphenol, representing the 1,4-disubstituted configuration of this aromatic group."
+        },
+        "class_12_dependency": {
+            "chapter_link": "Alcohols, Phenols and Ethers",
+            "mechanism_or_reaction": "Acidity of Substituted Phenols",
+            "the_consequence": "Students confuse the distance parameters of electronic effects. They assume the para position should match meta properties, failing to realize that hyperconjugation operates fully across the para axis to alter ring electron density, leading to incorrect ranking choices."
+        },
+        "diagnostic_flash_card": {
+            "flash_question": "Arrange o-cresol, m-cresol, and p-cresol in increasing order of their acidic strength.",
+            "perfect_response_script": "The correct increasing order of acidic strength is **o-cresol < p-cresol < m-cresol**. Both ortho and para locations are heavily destabilized by ring electron enrichment from **hyperconjugation**, whereas the meta position is spared from this effect."
+        }
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 7,
+            "node_index": 31,
+            "batch_complete": false
+        },
+        "prerequisite_name": "Catechol",
+        "core_category": "Trivial Nomenclature",
+        "syllabus_tier": "HIGH-YIELD",
+        "visual_svg_block": "OHOH",
+        "plain_terms_decode": {
+            "the_concept_simplified": "Catechol is a benzene ring that holds two functional hydroxyl (-OH) groups sitting directly right next door to each other at positions 1 and 2 (ortho positions).",
+            "the_textbook_definition": "Catechol is the accepted trivial nomenclature for Benzene-1,2-diol, which is an isomeric dihydroxybenzene system."
+        },
+        "class_12_dependency": {
+            "chapter_link": "Alcohols, Phenols and Ethers ",
+            "mechanism_or_reaction": "Oxidation of Dihydric Phenols and Ether Synthesis ",
+            "the_consequence": "If a student cannot draw catechol from its trivial name, they will fail to complete structural synthesis equations, oxidation mechanism profiles, or ring alkylation pathways, resulting in a loss of credit on structural synthesis problems."
+        },
+        "diagnostic_flash_card": {
+            "flash_question": "State the systematic IUPAC name and positioning parameters for Catechol.",
+            "perfect_response_script": "The systematic IUPAC name of catechol is **benzene-1,2-diol**. Structurally, it consists of a benzene ring with two functional **hydroxyl (-OH) groups** attached to adjacent carbon atoms, representing the **ortho configuration**."
+        }
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 7,
+            "node_index": 32,
+            "batch_complete": false
+        },
+        "prerequisite_name": "Resorcinol",
+        "core_category": "Trivial Nomenclature",
+        "syllabus_tier": "HIGH-YIELD",
+        "visual_svg_block": "OHOH",
+        "plain_terms_decode": {
+            "the_concept_simplified": "Resorcinol is a benzene ring where the two functional hydroxyl (-OH) groups are separated by a one-carbon gap, putting them at positions 1 and 3 (meta positions).",
+            "the_textbook_definition": "Resorcinol is the accepted trivial nomenclature for Benzene-1,3-diol, an isomeric dihydroxybenzene system."
+        },
+        "class_12_dependency": {
+            "chapter_link": "Alcohols, Phenols and Ethers ",
+            "mechanism_or_reaction": "Condensation Reactions for Resin and Dye Synthesis ",
+            "the_consequence": "Examiners integrate resorcinol into advanced polymer and dye condensation chemistry equations. Students who fail to map the exact meta-relationship will misplace coupling junctions, predicting faulty macrostructures."
+        },
+        "diagnostic_flash_card": {
+            "flash_question": "Write the structural mapping and systematic IUPAC name for Resorcinol.",
+            "perfect_response_script": "The systematic IUPAC name of resorcinol is **benzene-1,3-diol**. Structurally, it features two **hydroxyl (-OH) groups** positioned with a single un-substituted carbon gap between them at the **meta positions** (1,3-relationship) of the aromatic ring."
+        }
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 7,
+            "node_index": 33,
+            "batch_complete": false
+        },
+        "prerequisite_name": "Hydroquinone",
+        "core_category": "Trivial Nomenclature",
+        "syllabus_tier": "HIGH-YIELD",
+        "visual_svg_block": "OHOH",
+        "plain_terms_decode": {
+            "the_concept_simplified": "Hydroquinone is a perfectly symmetrical layout where the two hydroxyl (-OH) groups are fixed on opposite ends of the benzene ring at positions 1 and 4 (para positions).",
+            "the_textbook_definition": "Hydroquinone (also known as Quinol) is the accepted trivial nomenclature for Benzene-1,4-diol."
+        },
+        "class_12_dependency": {
+            "chapter_link": "Alcohols, Phenols and Ethers ",
+            "mechanism_or_reaction": "Redox Cycling to Benzoquinone ",
+            "the_consequence": "If a student cannot draw hydroquinone, they cannot write out the products of structural oxidation reactions. They fail to trace how mild oxidizing agents convert this dihydric phenol into p-benzoquinone, leading to a zero on quinone conversion queries."
+        },
+        "diagnostic_flash_card": {
+            "flash_question": "What organic compound is produced when hydroquinone (benzene-1,4-diol) is oxidized with mild oxidizing agents? ",
+            "perfect_response_script": "Mild oxidation of hydroquinone removes two protons and two electrons to yield **p-benzoquinone**. This product represents a conjugated dione configuration that explicitly **disrupts the aromaticity** of the underlying benzene ring system."
+        }
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 7,
+            "node_index": 34,
+            "batch_complete": false
+        },
+        "prerequisite_name": "Hybridization-Induced Electronegativity Shifts",
+        "core_category": "Electronic Effects",
+        "syllabus_tier": "HIGH-YIELD",
+        "visual_svg_block": "Electronegativity Scalesp325% ssp233.3% ssp50% s",
+        "plain_terms_decode": {
+            "the_concept_simplified": "Carbons are not all equally greedy for electrons. The more 's-character' a hybrid carbon contains, the closer its valence electrons sit to the nucleus, making it behave like a highly electronegative atom. Therefore, an sp carbon (50% s) is strongly electronegative, an sp2 carbon (33% s) is moderately electronegative, and an sp3 carbon (25% s) is the weakest puller.",
+            "the_textbook_definition": "The electronegativity of a carbon atom increases proportionally with an increase in the s-character of its hybrid orbitals (sp = 50%, sp2 = 33.3%, sp3 = 25%). The strict descending order of electronegativity is sp > sp2 > sp3."
+        },
+        "class_12_dependency": {
+            "chapter_link": "Alcohols, Phenols and Ethers ",
+            "mechanism_or_reaction": "Acidity of Phenols vs Aliphatic Alcohols ",
+            "the_consequence": "If a student does not master hybridization-based electronegativity variations, they will fail to comprehend why phenol is thousands of times more acidic than ethanol. They will write flawed stability parameters during board ranking exams that mix aliphatic and aromatic rings."
+        },
+        "diagnostic_flash_card": {
+            "flash_question": "Why is phenol significantly more acidic than cyclohexanol despite both structures incorporating a six-membered carbon ring? ",
+            "perfect_response_script": "In phenol, the hydroxyl group is attached to an **sp2 hybridized carbon** atom of the benzene ring, which is highly **electronegative**, effectively withdrawing electron density and highly stabilizing the resulting **phenoxide ion**. In contrast, cyclohexanol features a hydroxyl group bonded to an **sp3 hybridized carbon**, which is far less electronegative and exerts a destabilizing **+I inductive effect**."
+        }
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 7,
+            "node_index": 35,
+            "batch_complete": false
+        },
+        "prerequisite_name": "Positive Inductive Effect (+I) of Alkyl Group Variations",
+        "core_category": "Electronic Effects",
+        "syllabus_tier": "CRITICAL",
+        "visual_svg_block": "+I Inductive Power-CH3-CH2CH3-CH(CH3)2-C(CH3)3",
+        "plain_terms_decode": {
+            "the_concept_simplified": "Alkyl groups act like tiny electron pumps, pushing electron density away from themselves down a line of single bonds. The larger, heavier, and more branched the alkyl network becomes, the harder it pumps electrons forward. Consequently, a bulky tert-butyl group is a major electron pump, whereas a small methyl group is a minimal pump.",
+            "the_textbook_definition": "The positive inductive (+I) effect describes the permanent polarization and displacement of sigma bond density away from an alkyl group toward a more electronegative center. The magnitude of this release scales strictly with carbon mass and branching density: -CH3 < -CH2CH3 < -CH(CH3)2 < -C(CH3)3."
+        },
+        "class_12_dependency": {
+            "chapter_link": "Amines ",
+            "mechanism_or_reaction": "Aliphatic Amine Basicity in Gaseous Phase vs Aqueous Phase ",
+            "the_consequence": "Without mastering +I trends, students stumble on basicity anomalies. They will fail to realize that while gaseous basicity relies strictly on inductive electron pumping, aqueous basicity is heavily regulated by steric congestion and solvation parameters, losing full credit on deceptive amine ranking matrices."
+        },
+        "diagnostic_flash_card": {
+            "flash_question": "Arrange primary, secondary, and tertiary aliphatic amines in increasing order of basic strength in the gas phase and justify. ",
+            "perfect_response_script": "The basic strength order in the gaseous phase is **primary amine < secondary amine < tertiary amine**. This baseline is dictated by the increasing number of electron-donating alkyl substituents, which amplifies the **positive inductive (+I) effect**, systematically driving up electron density on the nitrogen atom and rendering its **lone pair highly available for donation**."
+        }
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 8,
+            "node_index": 36,
+            "batch_complete": false
+        },
+        "prerequisite_name": "Negative Inductive Effect (-I) Strength Hierarchy",
+        "core_category": "Electronic Effects",
+        "syllabus_tier": "HIGH-YIELD",
+        "visual_svg_block": "-I Pulling Power Scale-NO2-CN-COOH-F-Cl-I",
+        "plain_terms_decode": {
+            "the_concept_simplified": "This is a structural tug-of-war strength chart for chemical groups that pull electron density toward themselves through single bonds. Nitro is the undisputed heavyweight champion puller, followed closely by Cyanide, then Carboxylic acid, and then the Halogens (where compact Fluorine pulls harder than Chlorine, Bromine, and Iodine).",
+            "the_textbook_definition": "The negative inductive (-I) effect represents the permanent electronic withdrawal of sigma (σ) bond density by highly electronegative or positively charged atoms or groups. The absolute decreasing order of -I power is: -NO2 > -CN > -COOH > -F > -Cl > -Br > -I."
+        },
+        "class_12_dependency": {
+            "chapter_link": "Aldehydes, Ketones, and Carboxylic Acids",
+            "mechanism_or_reaction": "Acidity of Haloacetic and Nitroacetic Acids",
+            "the_consequence": "CBSE heavily tests the acidity ranking of substituted carboxylic acids (e.g., arranging fluoroacetic acid, chloroacetic acid, and nitroacetic acid). Students who do not know this exact -I strength hierarchy will fail to predict the correct acid stability rankings, losing full credit on short-answer questions."
+        },
+        "diagnostic_flash_card": {
+            "flash_question": "Arrange the following in decreasing order of their acidic strength and explain: Nitroacetic acid, Cyanoacetic acid, Chloroacetic acid, and Acetic acid.",
+            "perfect_response_script": "The correct decreasing order of acidic strength is **nitroacetic acid > cyanoacetic acid > chloroacetic acid > acetic acid**. This sequence occurs because the strong electron-withdrawing **-I effect** of these substituents decreases in the exact order of **-NO2 > -CN > -Cl**, which systematically **stabilizes the carboxylate anion** by dispersing its localized negative charge."
+        }
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 8,
+            "node_index": 37,
+            "batch_complete": false
+        },
+        "prerequisite_name": "+R Resonance Delocalization Paths",
+        "core_category": "Electronic Effects",
+        "syllabus_tier": "CRITICAL",
+        "visual_svg_block": "..NH2-",
+        "plain_terms_decode": {
+            "the_concept_simplified": "Think of the +R effect as an atom pushing its extra lone pair of electrons down into a neighboring double bond or ring system. This causes a structural domino effect, shoving the existing pi-electrons down the chain and lighting up specific carbon centers with a negative charge.",
+            "the_textbook_definition": "The positive resonance (+R) effect involves the displacement of pi (π) electrons away from a substituent group and into the conjugated conjugated system via orbital overlap, increasing electron density at the ortho and para positions of an aromatic ring."
+        },
+        "class_12_dependency": {
+            "chapter_link": "Alcohols, Phenols and Ethers",
+            "mechanism_or_reaction": "Electrophilic Aromatic Substitution of Phenols and Anisole",
+            "the_consequence": "Instructors expect students to explicitly map how electron-donating substituents activate aromatic systems. If students fail to draw proper curved curved vectors for +R pathways, they write meta-substituted products for highly activated rings like anisole or phenol, incurring zero credit."
+        },
+        "diagnostic_flash_card": {
+            "flash_question": "Using resonance structures, explain why aniline directs incoming electrophiles to the ortho and para positions.",
+            "perfect_response_script": "Aniline undergoes a **+R resonance effect** where the lone pair on the nitrogen atom is donated into the conjugated aromatic ring system. This delocalization systematically **increases electron density specifically at the ortho and para positions**, making these locations highly attractive to incoming **electrophiles**."
+        }
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 8,
+            "node_index": 38,
+            "batch_complete": false
+        },
+        "prerequisite_name": "-R Resonance Delocalization Paths",
+        "core_category": "Electronic Effects",
+        "syllabus_tier": "CRITICAL",
+        "visual_svg_block": "NO2+",
+        "plain_terms_decode": {
+            "the_concept_simplified": "The -R effect is a powerful chemical vacuum cleaner. An electron-hungry group sitting outside the benzene ring sucks the pi-electrons out of the ring toward itself, leaving the ring starved of electrons and creating positive charges at the ortho and para positions.",
+            "the_textbook_definition": "The negative resonance (-R) effect involves the permanent withdrawal of pi (π) electron density out of a conjugated or aromatic system and into an attached substituent group containing a multiple bond with an electronegative atom."
+        },
+        "class_12_dependency": {
+            "chapter_link": "Haloalkanes and Haloarenes",
+            "mechanism_or_reaction": "Nucleophilic Aromatic Substitution of Nitro-substituted Haloarenes",
+            "the_consequence": "Examiners heavily test how the presence of a -R group like -NO2 at ortho/para positions dramatically accelerates nucleophilic substitution in chlorobenzene. If a student doesn't understand -R withdrawal mechanics, they fail to explain this reactivity spike and drop 3 marks on conceptual exam entries."
+        },
+        "diagnostic_flash_card": {
+            "flash_question": "Why does p-nitrochlorobenzene undergo nucleophilic substitution with aqueous NaOH much more easily than pure chlorobenzene?",
+            "perfect_response_script": "The nitro group (-NO2) is a powerful **electron-withdrawing group** that operates via a **-R resonance effect**. When located at the para position, it effectively **delocalizes and stabilizes the negative charge** of the intermediate carbanion complex, dramatically reducing the activation energy for nucleophilic attack."
+        }
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 8,
+            "node_index": 39,
+            "batch_complete": false
+        },
+        "prerequisite_name": "Hyperconjugation Stabilization Rules",
+        "core_category": "Electronic Effects",
+        "syllabus_tier": "HIGH-YIELD",
+        "visual_svg_block": "CH3CH=CH2σ → π* overlap",
+        "plain_terms_decode": {
+            "the_concept_simplified": "Think of hyperconjugation as 'no-bond resonance'. Attached methyl or alkyl groups can lean over and spill some of the electron density from their ordinary C-H single bonds into an adjacent empty p-orbital or empty pi-system, helping to spread out and stabilize carbocations or double bonds.",
+            "the_textbook_definition": "Hyperconjugation is a permanent electronic stabilization interaction involving the overlap of sigma (σ) electrons of a C-H bond with an adjacent unhybridized empty p-orbital or an attached unsaturated pi (π) system."
+        },
+        "class_12_dependency": {
+            "chapter_link": "Alcohols, Phenols and Ethers",
+            "mechanism_or_reaction": "Comparative Acidity of Isomeric Cresols",
+            "the_consequence": "Examiners regularly construct traps around cresol acidity rankings. If a student doesn't realize that hyperconjugation is strictly inactive from the meta position, they will miscalculate the phenoxide stabilization profile and predict a completely wrong acidity order."
+        },
+        "diagnostic_flash_card": {
+            "flash_question": "Explain why the hyperconjugative effect of a methyl substituent is completely inactive when located at the meta position of a phenol ring.",
+            "perfect_response_script": "Hyperconjugation requires a conjugated path to delocalize electron density onto the functional ring site. When a methyl group is located at the **meta position**, resonance structures demonstrate that the released electron density **cannot reach or polarize the phenoxide oxygen atom** ; it can only influence the system via the weaker **inductive (+I) effect**."
+        }
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 8,
+            "node_index": 40,
+            "batch_complete": false
+        },
+        "prerequisite_name": "The Halogen Conflict Anomaly",
+        "core_category": "Electronic Effects",
+        "syllabus_tier": "CRITICAL",
+        "visual_svg_block": "Cl-I (Deactivating)+R (o/p Director)",
+        "plain_terms_decode": {
+            "the_concept_simplified": "Halogens are unique 'double-agents' on a benzene ring. Because they are highly electronegative, they relentlessly pull electron density out of the ring through single bonds (-I), which deactivates the ring and slows reactions down. But during an actual electrophilic attack, they willingly share their lone pairs through resonance (+R), directing incoming groups specifically to the ortho and para positions.",
+            "the_textbook_definition": "Halogens act as overall deactivating groups on aromatic rings because their powerful electron-withdrawing inductive effect dominates over resonance (-I > +R). However, they function as ortho/para-directors because they can donate a lone pair into the pi-system via resonance (+R) during an electrophilic attack."
+        },
+        "class_12_dependency": {
+            "chapter_link": "Haloalkanes and Haloarenes",
+            "mechanism_or_reaction": "Electrophilic Aromatic Substitution (EAS) of Haloarenes",
+            "the_consequence": "This conflict is a premier conceptual target in Board papers. If a student fails to resolve this dual mechanism, they incorrectly predict that halogens are meta-directing due to their deactivating nature, forfeiting 2-3 marks on core structural synthesis questions."
+        },
+        "diagnostic_flash_card": {
+            "flash_question": "Why is chlorobenzene less reactive than benzene towards electrophilic substitution, yet chlorination yields ortho and para-dichlorobenzene?",
+            "perfect_response_script": "Chlorine possesses a powerful electron-withdrawing **-I effect that dominates over its +R resonance effect**, rendering the aromatic ring electron-deficient and **deactivated**. However, during electrophilic attack, chlorine can donate a lone pair via **resonance (+R)**, which preferentially stabilizes the carbocation intermediate at the **ortho and para positions**, directing the substitution there."
+        }
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 9,
+            "node_index": 41,
+            "batch_complete": false
+        },
+        "prerequisite_name": "Electromeric Effect",
+        "core_category": "Electronic Effects",
+        "syllabus_tier": "HIGH-YIELD",
+        "visual_svg_block": "NC-CO-E Electromeric Shift",
+        "plain_terms_decode": {
+            "the_concept_simplified": "Think of this as a temporary, emergency shift of double-bond electrons that only happens when an attacking chemical reagent shows up. If the double-bond electrons jump onto the same atom where the reagent attacks, it is a +E effect. If the electrons jump away to a different atom, it is a -E effect.",
+            "the_textbook_definition": "The electromeric effect is a temporary electronic displacement involving the complete transfer of a shared pair of pi-electrons to one of the atoms joined by a multiple bond at the requirement of an attacking reagent. It is classified as +E when the pi-electrons transfer to the atom to which the attacking reagent gets attached, and -E when the pi-electrons transfer to an atom other than the one to which the reagent attaches."
+        },
+        "class_12_dependency": {
+            "chapter_link": "Aldehydes, Ketones, and Carboxylic Acids ",
+            "mechanism_or_reaction": "Nucleophilic Addition to Carbonyl Groups ",
+            "the_consequence": "Students fail to understand the dynamic nature of chemical reactivity. They treat the carbonyl carbon as static and fail to draw proper curved arrows for the nucleophilic addition of HCN or Grignard reagents, leading to partial credit loss on mechanism questions."
+        },
+        "diagnostic_flash_card": {
+            "flash_question": "Illustrate the electromeric effect (-E) when a cyanide ion (CN-) attacks a carbonyl group (C=O).",
+            "perfect_response_script": "When the nucleophile CN- attacks the electron-deficient carbonyl carbon, the pi-electrons of the C=O double bond transfer completely to the oxygen atom (an atom other than the one being attacked), representing a **-E electromeric effect** and producing a stable **alkoxide intermediate**."
+        }
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 9,
+            "node_index": 42,
+            "prerequisite_name": "Electrophiles",
+            "batch_complete": false
+        },
+        "prerequisite_name": "Electrophiles",
+        "core_category": "Reagent Mechanics",
+        "syllabus_tier": "CRITICAL",
+        "visual_svg_block": "E+Electron-Deficient Center",
+        "plain_terms_decode": {
+            "the_concept_simplified": "Electrophiles are electron-loving chemical species. They run around searching for negative electron pairs or rich centers because they are missing electrons themselves.",
+            "the_textbook_definition": "An electrophile is an electron-deficient species containing vacant orbitals that can accept an electron pair from an electron-rich center, thus acting as a Lewis acid."
+        },
+        "class_12_dependency": {
+            "chapter_link": "Alcohols, Phenols and Ethers ",
+            "mechanism_or_reaction": "Electrophilic Aromatic Substitution (EAS) ",
+            "the_consequence": "Students often struggle to identify what actually attacks an aromatic ring during reactions like nitration or Friedel-Crafts alkylation. Failing to recognize the electrophile prevents them from writing clean mechanistic pathways, costing them full credit on mechanism-based entries."
+        },
+        "diagnostic_flash_card": {
+            "flash_question": "Identify the key electrophile formed during the nitration of aromatic rings using concentrated HNO3 and H2SO4.",
+            "perfect_response_script": "The active electrophile is the **nitronium ion (NO2+)**, which acts as an electron-deficient **Lewis acid**. It attacks the electron-dense aromatic ring to initiate **electrophilic aromatic substitution**."
+        }
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 9,
+            "node_index": 43,
+            "batch_complete": false
+        },
+        "prerequisite_name": "Nucleophiles",
+        "core_category": "Reagent Mechanics",
+        "syllabus_tier": "CRITICAL",
+        "visual_svg_block": "Nu-Lone Pair Donor",
+        "plain_terms_decode": {
+            "the_concept_simplified": "Nucleophiles are nucleus-loving or positive-seeking species. They are packed with extra electrons or negative charges, searching to launch an attack onto a positive or neutral carbon atom.",
+            "the_textbook_definition": "A nucleophile is an electron-rich species possessing at least one unshared pair of electrons that it can donate to an electron-deficient carbon center, behaving as a classic Lewis base."
+        },
+        "class_12_dependency": {
+            "chapter_link": "Haloalkanes and Haloarenes ",
+            "mechanism_or_reaction": "Nucleophilic Substitution (SN1/SN2) ",
+            "the_consequence": "Without classifying basic vs anionic nucleophiles, students misinterpret substitution dynamics. They fail to understand how strong nucleophiles completely alter kinetic properties, misidentifying path selections between substitution and elimination channels."
+        },
+        "diagnostic_flash_card": {
+            "flash_question": "State the general role of a nucleophile during an SN2 substitution mechanism.",
+            "perfect_response_script": "During an SN2 mechanism, an electron-rich **nucleophile** initiates a simultaneous **backside attack** on the electrophilic carbon center, donating its **lone pair of electrons** as the leaving group departs in a coordinated single step."
+        }
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 9,
+            "node_index": 44,
+            "batch_complete": false
+        },
+        "prerequisite_name": "Ambident Cyanide/Isocyanide Nucleophiles",
+        "core_category": "Reagent Mechanics",
+        "syllabus_tier": "CRITICAL",
+        "visual_svg_block": "C ≡ NIonic (C-attack)Covalent (N-attack)",
+        "plain_terms_decode": {
+            "the_concept_simplified": "An ambident nucleophile is like a structural plug with two different prongs; it can plug into a carbon skeleton using two different atoms. The cyanide ion can attack using its carbon side (making a cyanide/nitrile) or its nitrogen side (making an isocyanide).",
+            "the_textbook_definition": "Ambident nucleophiles are species possessing two distinct nucleophilic donor atoms through either of which they can initiate a nucleophilic attack on an electrophilic center, leading to two isomeric products. The cyanide ion [CN-] represents a classical example with delocalized resonance structures."
+        },
+        "class_12_dependency": {
+            "chapter_link": "Haloalkanes and Haloarenes ",
+            "mechanism_or_reaction": "Nucleophilic Substitution of Alkyl Halides with KCN/AgCN ",
+            "the_consequence": "This is an extremely common, high-yield conceptual trap. If students do not understand ambident reactivity, they will mistakenly write R-CN when reacting with AgCN (instead of R-NC), resulting in a complete loss of marks for these selective transformation queries."
+        },
+        "diagnostic_flash_card": {
+            "flash_question": "Why does the reaction of haloalkanes with KCN yield alkyl cyanides, while AgCN yields alkyl isocyanides as the major product?",
+            "perfect_response_script": "**KCN is predominantly ionic** and dissociates completely to provide free cyanide ions; attack occurs primarily through carbon because the **C-C bond** is more stable than the C-N bond. Conversely, **AgCN is highly covalent** and the carbon atom is bonded to silver, leaving only the lone pair on the **nitrogen atom** free to attack, which yields **alkyl isocyanides**."
+        }
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 9,
+            "node_index": 45,
+            "batch_complete": false
+        },
+        "prerequisite_name": "Ambident Nitrite/Nitro Nucleophiles",
+        "core_category": "Reagent Mechanics",
+        "syllabus_tier": "CRITICAL",
+        "visual_svg_block": "O - N = OO-Link (Nitrite)N-Link (Nitro)",
+        "plain_terms_decode": {
+            "the_concept_simplified": "Just like cyanide, the nitrite ion has two different reactive faces. It can launch its attack using its negative oxygen atom (which builds an alkyl nitrite isomer) or it can use its nitrogen atom lone pair (which builds a nitroalkane).",
+            "the_textbook_definition": "The nitrite ion $[O-N=O]^-$ is an ambident nucleophile containing two non-equivalent donor atoms. Attack can be initiated through either the oxygen site or the nitrogen site depending on the bond parameters of the reagent salt system."
+        },
+        "class_12_dependency": {
+            "chapter_link": "Haloalkanes and Haloarenes ",
+            "mechanism_or_reaction": "Nucleophilic Substitution of Alkyl Halides with KNO2/AgNO2 ",
+            "the_consequence": "Students regularly trip on the salt differences. If they assume all nitrites act identically, they will write R-NO2 when reacting an alkyl halide with KNO2 instead of the proper R-ONO nitrite structure, failing key Board exam conversions."
+        },
+        "diagnostic_flash_card": {
+            "flash_question": "Why does the reaction of haloalkanes with KNO2 yield alkyl nitrites, while AgNO2 yields nitroalkanes? ",
+            "perfect_response_script": "**KNO2 is an ionic salt** and dissociates to provide free nitrite ions $[O-N=O]-$. The negative charge is localized on the **oxygen atom**, which attacks the alkyl group to form **alkyl nitrites**. **AgNO2 is covalent**, where the oxygen is bound to silver; the reaction thus proceeds via the **lone pair on the nitrogen atom**, forming **nitroalkanes**."
+        }
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 10,
+            "node_index": 46,
+            "batch_complete": false
+        },
+        "prerequisite_name": "Basicity Parameters of Bulky Reagents",
+        "core_category": "Reagent Mechanics",
+        "syllabus_tier": "HIGH-YIELD",
+        "visual_svg_block": "t-BuO-H-CHigh Proton Affinity (Thermodynamic)",
+        "plain_terms_decode": {
+            "the_concept_simplified": "Basicity is how badly a chemical wants to grab a hydrogen proton, which is a thermodynamic affinity. A big, crowded molecule like potassium tert-butoxide is an extremely strong base because it loves protons.",
+            "the_textbook_definition": "Basicity is a thermodynamic measure of a species' ability to share its electron pair with a proton (H+). Highly sterically hindered species, such as potassium tert-butoxide, act as exceptionally strong bases."
+        },
+        "class_12_dependency": {
+            "chapter_link": "Haloalkanes and Haloarenes ",
+            "mechanism_or_reaction": "E2 Elimination vs SN2 Substitution pathways ",
+            "the_consequence": "If a student treats potassium tert-butoxide as a typical nucleophile, they will write incorrect substitution products instead of the correct elimination products (alkenes) when reacting it with secondary/tertiary alkyl halides, failing elimination-based questions."
+        },
+        "diagnostic_flash_card": {
+            "flash_question": "Why is potassium tert-butoxide preferentially used to prepare alkenes via E2 elimination rather than nucleophilic substitution? ",
+            "perfect_response_script": "Potassium tert-butoxide is a highly **sterically hindered strong base**. Due to the bulky tert-butyl groups surrounding the oxygen atom, it acts with **high thermodynamic proton affinity** to selectively abstract the most accessible, least hindered beta-hydrogen, smoothly yielding the less-substituted **Hofmann alkene** via **E2 elimination**."
+        }
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 10,
+            "node_index": 47,
+            "batch_complete": false
+        },
+        "prerequisite_name": "Nucleophilicity Parameters of Bulky Reagents",
+        "core_category": "Reagent Mechanics",
+        "syllabus_tier": "HIGH-YIELD",
+        "visual_svg_block": "Ct-BuO-Kinetic Attack Blocked",
+        "plain_terms_decode": {
+            "the_concept_simplified": "Nucleophilicity is how fast a chemical can run in and attack an electron-deficient carbon atom, which is a kinetic rate. A big, fat, crowded molecule like potassium tert-butoxide is a terrible nucleophile because it is too bulky to fit through a crowd and touch a carbon atom.",
+            "the_textbook_definition": "Nucleophilicity is a kinetic measure of a species' ability to attack an electron-deficient carbon atom. Highly sterically hindered species act as poor nucleophiles due to geometric restriction."
+        },
+        "class_12_dependency": {
+            "chapter_link": "Haloalkanes and Haloarenes ",
+            "mechanism_or_reaction": "Suppression of SN2 Substitution Pathways ",
+            "the_consequence": "Students fail to realize that bulk completely suppresses kinetic substitution rates. Treating sterically crowded oxyanions as efficient nucleophiles leads to erroneous Williamson ether synthesis product predictions rather than the mandatory elimination outputs."
+        },
+        "diagnostic_flash_card": {
+            "flash_question": "Explain the kinetic limitation of the tert-butoxide ion when reacting with an alkyl halide. ",
+            "perfect_response_script": "While the tert-butoxide ion has a strong negative charge, it is a **poor nucleophile** because its kinetic ability to attack a carbon center is severely minimized by **steric hindrance** from its own bulky methyl groups. This suppresses the **kinetic rate of nucleophilic substitution (SN2)**, steering the pathway toward elimination instead."
+        }
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 10,
+            "node_index": 48,
+            "batch_complete": false
+        },
+        "prerequisite_name": "Leaving Group Ability Hierarchy",
+        "core_category": "Reagent Mechanics",
+        "syllabus_tier": "CRITICAL",
+        "visual_svg_block": "F-Cl-Br-I-Leaving Group Ability (Weakest Base)",
+        "plain_terms_decode": {
+            "the_concept_simplified": "A leaving group is like someone getting kicked out of a house. The happier and more stable they are on their own as a weak, stable base, the easier they pack up and leave. Iodine is huge and easily spreads out its negative charge, so it is an excellent leaving group, whereas tiny Fluorine is unstable with a negative charge and leaves poorly.",
+            "the_textbook_definition": "Leaving group ability is directly proportional to the stability of the departing species as an independent anion. Weak bases (the conjugate bases of strong acids) are highly stable and thus act as superior leaving groups, establishing the halide hierarchy: I- > Br- > Cl- > F-."
+        },
+        "class_12_dependency": {
+            "chapter_link": "Haloalkanes and Haloarenes ",
+            "mechanism_or_reaction": "SN1 and SN2 Substitution Rates ",
+            "the_consequence": "In Board exams, students are frequently asked to arrange halocarbon compounds in order of reactivity towards SN1/SN2 reactions. If they do not know the leaving group ability hierarchy, they will incorrectly order them (often thinking F- is best because fluorine is highly electronegative), losing full marks."
+        },
+        "diagnostic_flash_card": {
+            "flash_question": "Why does an alkyl iodide undergo nucleophilic substitution reactions at a much faster rate than an alkyl fluoride? ",
+            "perfect_response_script": "The iodide ion (I-) is a much **weaker conjugate base** than the fluoride ion (F-) because its negative charge is dispersed over a larger atomic volume, making it highly stable. Since **weaker bases are superior leaving groups**, the C-I bond cleaves much more easily than the strong C-F bond, significantly **accelerating the rate of nucleophilic substitution**."
+        }
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 10,
+            "node_index": 49,
+            "batch_complete": false
+        },
+        "prerequisite_name": "Steric Hindrance in Alkyl Halides",
+        "core_category": "Reagent Mechanics",
+        "syllabus_tier": "CRITICAL",
+        "visual_svg_block": "CCH3CH3CH3Nu-SN2 Backside Attack Blocked",
+        "plain_terms_decode": {
+            "the_concept_simplified": "Steric hindrance is simply a spatial traffic jam. If a target carbon is surrounded by heavy, bulky methyl groups, it physically blocks the path of an incoming nucleophile, which is why SN2 reactions prefer open space (methyl/primary carbons) over totally blocked environments (tertiary carbons).",
+            "the_textbook_definition": "Steric hindrance is the prevention or restriction of a chemical reaction at a reactive center due to the spatial bulk of surrounding atoms or groups of atoms which physically block the trajectory of an incoming reagent."
+        },
+        "class_12_dependency": {
+            "chapter_link": "Haloalkanes and Haloarenes ",
+            "mechanism_or_reaction": "SN2 Backside Attack Reactivity Order ",
+            "the_consequence": "This is a cornerstone of mechanistic evaluation questions. If a student does not understand steric hindrance, they cannot explain why primary alkyl halides favor SN2 while tertiary alkyl halides are virtually inert to SN2 paths (and choose SN1 pathways instead), forfeiting critical board marks."
+        },
+        "diagnostic_flash_card": {
+            "flash_question": "Explain why 1-bromobutane reacts via the SN2 mechanism at a much faster rate than 2-bromo-2-methylpropane. ",
+            "perfect_response_script": "1-bromobutane is a **primary alkyl halide** presenting **minimal steric hindrance**, which allows the incoming nucleophile to easily perform a coordinated **backside attack** on the electrophilic carbon center. Conversely, 2-bromo-2-methylpropane is a **tertiary alkyl halide** surrounded by three bulky methyl groups that physically block the trajectory of the nucleophile, rendering it **inert to the SN2 pathway**."
+        }
+    },
+    {
+        "batch_metadata": {
+            "batch_number": 10,
+            "node_index": 50,
+            "batch_complete": true
+        },
+        "prerequisite_name": "Steric Hindrance in Carbonyl Systems",
+        "core_category": "Reagent Mechanics",
+        "syllabus_tier": "CRITICAL",
+        "visual_svg_block": "COCH3CH3Nu-",
+        "plain_terms_decode": {
+            "the_concept_simplified": "Steric crowding acts as a spatial shield in carbonyl units too. If a carbonyl carbon has methyl groups attached to both sides instead of just tiny hydrogens, the incoming nucleophile faces a massive spatial block trying to force its way in to attack.",
+            "the_textbook_definition": "The reactivity of carbonyl compounds towards nucleophilic addition decreases with an increase in the number and size of alkyl groups attached to the carbonyl carbon due to increased spatial crowding at the transition state."
+        },
+        "class_12_dependency": {
+            "chapter_link": "Aldehydes, Ketones, and Carboxylic Acids ",
+            "mechanism_or_reaction": "Nucleophilic Addition Reactivity Ordering ",
+            "the_consequence": "Examiners regularly design relative reactivity ordering questions contrasting aldehydes and ketones. If students overlook the spatial crowding profile of ketones, they will fail to explain why propanone is significantly less reactive to nucleophilic addition than ethanal, dropping 2-3 marks."
+        },
+        "diagnostic_flash_card": {
+            "flash_question": "Arrange propanone and ethanal in decreasing order of reactivity towards nucleophilic addition reactions, and justify based on spatial parameters. ",
+            "perfect_response_script": "The correct decreasing order is **ethanal > propanone**. Propanone possesses two relatively bulky methyl groups flanking the carbonyl carbon, which create significant **steric hindrance** and physically shield the attack trajectory , whereas ethanal has only one methyl group, resulting in **minimized steric hindrance** and a faster nucleophilic attack."
+        }
+    }
+]

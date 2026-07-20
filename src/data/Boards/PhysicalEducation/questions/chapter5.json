@@ -1,0 +1,481 @@
+{
+  "meta": {
+    "subject": "Physical Education",
+    "class": 12,
+    "board": "CBSE",
+    "chapter": "Children and Women in Sports",
+    "total_questions": 22
+  },
+  "questions": [
+    {
+      "id": "CH5_MCQ_01",
+      "type": "mcq",
+      "marks": 1,
+      "priority": "P1",
+      "priority_reason": "Repeatedly asked concept regarding spinal deformities, crucial for diagram-based questions.",
+      "question": "Which of the following postural deformities is characterized by an abnormal inward curvature of the lumbar spine?",
+      "options": {
+        "A": "Kyphosis",
+        "B": "Lordosis",
+        "C": "Scoliosis",
+        "D": "Round Shoulders"
+      },
+      "correct_option": "B",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "Lordosis affects the lower back (lumbar region), creating a deep inward curve.",
+        "key_points": [],
+        "final_answer": "Option B: Lordosis"
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "CH5_MCQ_02",
+      "type": "mcq",
+      "marks": 1,
+      "priority": "P1",
+      "priority_reason": "Core topic regarding women's health in sports; frequently tested.",
+      "question": "The 'Female Athlete Triad' consists of Osteoporosis, Amenorrhea, and which third component?",
+      "options": {
+        "A": "Anemia",
+        "B": "Eating Disorders",
+        "C": "Hypertension",
+        "D": "Diabetes"
+      },
+      "correct_option": "B",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "The Female Athlete Triad is a syndrome including three interrelated conditions: Energy Deficiency with or without Eating Disorders, Menstrual Disturbances (Amenorrhea), and Decreased Bone Mineral Density (Osteoporosis).",
+        "key_points": [],
+        "final_answer": "Option B: Eating Disorders"
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "CH5_MCQ_03",
+      "type": "mcq",
+      "marks": 1,
+      "priority": "P2",
+      "priority_reason": "Fundamental concept of motor development classification.",
+      "question": "Which of the following activities is an example of Fine Motor Development?",
+      "options": {
+        "A": "Running",
+        "B": "Catching a big ball",
+        "C": "Drawing with a pencil",
+        "D": "Jumping"
+      },
+      "correct_option": "C",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "Fine motor skills involve small muscles, specifically in the hands and fingers, for precise movements like drawing or writing.",
+        "key_points": [],
+        "final_answer": "Option C: Drawing with a pencil"
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "CH5_MCQ_04",
+      "type": "mcq",
+      "marks": 1,
+      "priority": "P2",
+      "priority_reason": "Tests knowledge of corrective measures for common deformities.",
+      "question": "Which asana is most effective for correcting 'Flat Foot'?",
+      "options": {
+        "A": "Vajrasana",
+        "B": "Tadasana",
+        "C": "Chakrasana",
+        "D": "Dhanurasana"
+      },
+      "correct_option": "B",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "Tadasana (Mountain Pose) helps in strengthening the foot muscles and arches, making it a corrective measure for flat foot[cite: 147].",
+        "key_points": [],
+        "final_answer": "Option B: Tadasana"
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "CH5_AR_01",
+      "type": "assertion_reason",
+      "marks": 1,
+      "priority": "P1",
+      "priority_reason": "Connects physiological conditions in the female athlete triad, a high-value conceptual link.",
+      "question": "Assertion (A): Amenorrhea in female athletes can lead to Osteoporosis.\nReason (R): Low levels of estrogen associated with Amenorrhea decrease calcium absorption and bone mineral density.",
+      "options": {
+        "A": "Both A and R are true and R is the correct explanation of A.",
+        "B": "Both A and R are true but R is not the correct explanation of A.",
+        "C": "A is true but R is false.",
+        "D": "A is false but R is true."
+      },
+      "correct_option": "A",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "Amenorrhea (absence of menstruation) results in lowered estrogen levels. Estrogen is crucial for bone health; its deficiency leads to bone loss (Osteoporosis).",
+        "key_points": [],
+        "final_answer": "Option A: Both A and R are true and R is the correct explanation of A."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "CH5_AR_02",
+      "type": "assertion_reason",
+      "marks": 1,
+      "priority": "P2",
+      "priority_reason": "Tests understanding of deformity causes.",
+      "question": "Assertion (A): Knock knees is a postural deformity where the knees touch each other in normal standing position.\nReason (R): It is caused due to the deficiency of Vitamin C during early childhood.",
+      "options": {
+        "A": "Both A and R are true and R is the correct explanation of A.",
+        "B": "Both A and R are true but R is not the correct explanation of A.",
+        "C": "A is true but R is false.",
+        "D": "A is false but R is true."
+      },
+      "correct_option": "C",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "Knock knees (Genu Valgum) is indeed characterized by knees touching. However, it is primarily caused by a deficiency of Vitamin D (Rickets), calcium, or obesity, not Vitamin C.",
+        "key_points": [],
+        "final_answer": "Option C: A is true but R is false."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "CH5_VSA_01",
+      "type": "very_short",
+      "marks": 2,
+      "priority": "P1",
+      "priority_reason": "Standard definition frequently asked in VSA section.",
+      "question": "Define 'Menarche'. Mention one factor that may delay it in female athletes.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "**Menarche**: It is the onset of the first menstrual period in a female adolescent[cite: 148].",
+          "**Factor affecting delay**: Intensive sports training or high-intensity physical activity combined with low body fat can delay menarche."
+        ],
+        "final_answer": "Menarche is the onset of the first menstrual period in a female adolescent, marking the beginning of reproductive capability[cite: 148]. Intense physical training and low body fat percentage are factors that may delay menarche in female athletes."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "CH5_VSA_02",
+      "type": "very_short",
+      "marks": 2,
+      "priority": "P2",
+      "priority_reason": "Basic differentiation required for chapter understanding.",
+      "question": "Differentiate between Gross Motor Development and Fine Motor Development.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "**Gross Motor Development**: Involves the development of large muscles in the body (legs, arms, back) for movements like running, jumping, and sitting[cite: 145].",
+          "**Fine Motor Development**: Involves the development of small muscles (fingers, hands) for precise movements like holding a spoon, writing, or catching a small ball[cite: 145]."
+        ],
+        "final_answer": "Gross Motor Development involves the large muscles of the body and is responsible for major body movements such as sitting, standing, and running. Fine Motor Development involves the small muscles, particularly of the hands and fingers, enabling precise tasks like writing or grasping small objects[cite: 145]."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "CH5_VSA_03",
+      "type": "very_short",
+      "marks": 2,
+      "priority": "P2",
+      "priority_reason": "Short, direct question on a specific disorder.",
+      "question": "What is Bulimia Nervosa?",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "**Definition**: An eating disorder characterized by a cycle of binge eating followed by purging.",
+          "**Mechanism**: Individuals eat large amounts of food and then vomit or use laxatives to prevent weight gain[cite: 148]."
+        ],
+        "final_answer": "Bulimia Nervosa is an eating disorder characterized by recurrent episodes of binge eating (consuming large amounts of food) followed by compensatory behaviors like forced vomiting or excessive exercise to prevent weight gain[cite: 148]."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "CH5_SA_01",
+      "type": "short",
+      "marks": 3,
+      "priority": "P1",
+      "priority_reason": "High probability of being asked to identify and correct postural deformities.",
+      "question": "Explain 'Kyphosis'. List any two corrective asanas for it.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": true,
+      "diagram_description": "A side profile illustration of a human spine showing an exaggerated outward curvature (hump) in the upper back (thoracic region), labeled 'Kyphosis'.",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "**Kyphosis (Round Back)**: An exaggerated posterior curvature of the thoracic spine (upper back), creating a hunchback appearance[cite: 147].",
+          "**Corrective Asanas**:",
+          "1. **Chakrasana (Wheel Pose)**: Expands the chest and straightens the spine.",
+          "2. **Bhujangasana (Cobra Pose)**: Strengthens back muscles and reduces the curve[cite: 140]."
+        ],
+        "final_answer": "**Kyphosis**, also known as hunchback, is a postural deformity characterized by an abnormal increase in the outward curvature of the thoracic spine (upper back). It leads to rounding of the shoulders and a forward head posture.\n\n**Corrective Asanas:**\n1. **Bhujangasana (Cobra Pose):** Helps extend the spine and open the chest.\n2. **Dhanurasana (Bow Pose):** Strengthens the back muscles and corrects the curvature."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "CH5_SA_02",
+      "type": "short",
+      "marks": 3,
+      "priority": "P1",
+      "priority_reason": "Triad is a critical topic for female athletes syllabus.",
+      "question": "Elucidate the concept of 'Osteoporosis' and 'Amenorrhea' within the Female Athlete Triad.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "**Osteoporosis**: Weakening of bones due to low bone mineral density. In female athletes, it is often caused by low estrogen levels.",
+          "**Amenorrhea**: The absence of menstrual periods. Primary (never started by 15-16) or Secondary (stopped for 3+ months).",
+          "**Relation**: Low energy availability leads to Amenorrhea, which lowers estrogen, directly causing Osteoporosis."
+        ],
+        "final_answer": "**1. Osteoporosis:** It refers to a condition of low bone mineral density, making bones weak and brittle. In the Female Athlete Triad, this is often a result of hormonal imbalance (low estrogen) caused by intense training and poor nutrition[cite: 148].\n\n**2. Amenorrhea:** This is the absence of menstruation. It can be primary (periods haven't started by age 15) or secondary (absence of three or more consecutive periods). It is triggered by low energy availability and intense physical stress[cite: 148]."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "CH5_SA_03",
+      "type": "short",
+      "marks": 3,
+      "priority": "P2",
+      "priority_reason": "Standard 'Factors Affecting' question format common in CBSE.",
+      "question": "Discuss any three factors affecting Motor Development in children.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "**Biological Factors (Genetics)**: Heredity determines muscle fiber type and growth potential.",
+          "**Nutrition**: Adequate nutrition promotes proper growth; malnutrition hinders it.",
+          "**Physical Activity/Environment**: Opportunities to play and practice skills accelerate development[cite: 145]."
+        ],
+        "final_answer": "Three factors affecting motor development are:\n1. **Biological Factors (Genetics):** Genes play a major role in determining the rate of growth, muscle development, and physical potential of a child.\n2. **Nutrition:** A balanced diet is essential for developing strong bones and muscles. Malnutrition can retard motor skills and physical growth.\n3. **Environment and Opportunity:** An encouraging environment with opportunities for physical activity, play, and training enhances motor skill acquisition[cite: 145]."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "CH5_SA_04",
+      "type": "short",
+      "marks": 3,
+      "priority": "P2",
+      "priority_reason": "Exercise guidelines are explicitly mentioned in syllabus; application-based.",
+      "question": "Suggest exercise guidelines for children in the age group of 5 to 12 years.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "**Focus**: Skill development, fun, and general fitness.",
+          "**Duration**: At least 60 minutes of moderate-to-vigorous activity daily.",
+          "**Type**: Running, jumping, swimming, and basic sports skills.",
+          "**Avoid**: Heavy weight training; focus on body weight exercises."
+        ],
+        "final_answer": "For children aged 5-12 years (Late Childhood):\n1. **Frequency & Duration:** They should engage in at least 60 minutes of moderate-to-vigorous physical activity daily.\n2. **Types of Activity:** Focus should be on developing fundamental motor skills through activities like running, jumping, swimming, and team sports.\n3. **Strength Training:** Emphasis should be on body-weight exercises (like push-ups, climbing) rather than heavy weight lifting to ensure safety[cite: 146]."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "CH5_SA_05",
+      "type": "short",
+      "marks": 3,
+      "priority": "P2",
+      "priority_reason": "Specific deformity with visual identification potential.",
+      "question": "What is 'Bow Legs'? State two causes and two corrective measures.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": true,
+      "diagram_description": "An illustration of the lower legs where the knees are wide apart while the ankles are touching, labeled 'Bow Legs' (Genu Varum).",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "**Definition**: Genu Varum; a condition where knees are wide apart when ankles touch.",
+          "**Causes**: Rickets (Vitamin D deficiency), obesity, early standing/walking.",
+          "**Corrective Measures**: Vitamin D supplements, Garudasana, walking on inner edge of feet."
+        ],
+        "final_answer": "**Bow Legs (Genu Varum):** It is a postural deformity where there is a wide gap between the knees when standing with the feet together[cite: 147].\n\n**Causes:**\n1. Deficiency of Calcium and Vitamin D (Rickets).\n2. Forcing babies to walk at a very early age.\n\n**Corrective Measures:**\n1. **Garudasana (Eagle Pose):** Helps in aligning the legs.\n2. **Walking on inner edge of feet:** Helps to correct the curvature."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "CH5_SA_06",
+      "type": "short",
+      "marks": 3,
+      "priority": "P3",
+      "priority_reason": "Often confused with Knock Knees; good for differentiation questions.",
+      "question": "Describe 'Flat Foot' and suggest exercises to rectify it.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": true,
+      "diagram_description": "Comparison of a 'Normal Foot' with an arch and a 'Flat Foot' with no arch, showing the footprint impressions.",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "**Flat Foot**: Loss of the medial longitudinal arch of the foot.",
+          "**Exercises**: Walking on toes, picking up marbles with toes, skipping, Tadasana."
+        ],
+        "final_answer": "**Flat Foot** is a deformity where the arch of the foot collapses, causing the entire sole to touch the ground. This reduces shock absorption ability.\n\n**Rectification Exercises:**\n1. **Heel walking and Toe walking:** strengthens foot muscles.\n2. **Picking up marbles/towels with toes:** Builds the arch.\n3. **Skipping on toes:** Improves arch strength[cite: 147]."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "CH5_LA_01",
+      "type": "long",
+      "marks": 5,
+      "priority": "P1",
+      "priority_reason": "Most comprehensive topic in the chapter. Highly probable 5-mark question.",
+      "question": "Explain the 'Female Athlete Triad' in detail. How can it be managed?",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": true,
+      "diagram_description": "A triangular diagram labeled 'Female Athlete Triad' with three corners: 'Low Energy Availability/Eating Disorders', 'Menstrual Dysfunction/Amenorrhea', and 'Low Bone Density/Osteoporosis'. Arrows showing the interrelation.",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "**Definition**: A syndrome of three interrelated conditions.",
+          "1. **Osteoporosis**: Low bone density, risk of fractures.",
+          "2. **Amenorrhea**: Absence of menses (Primary/Secondary).",
+          "3. **Eating Disorders**: Anorexia Nervosa, Bulimia Nervosa, restricted eating.",
+          "**Management**: Balanced diet (Calcium/Iron), reduced training load, psychological counseling."
+        ],
+        "final_answer": "The **Female Athlete Triad** is a syndrome comprising three interrelated health conditions often observed in female athletes:\n\n1.  **Eating Disorders (Low Energy Availability):** This involves insufficient calorie intake relative to energy expenditure. It may manifest as Anorexia Nervosa (starvation) or Bulimia Nervosa (binge-purge), leading to severe energy deficits.\n2.  **Amenorrhea:** Low energy availability disrupts hormonal balance, specifically lowering estrogen. This leads to the absence of menstruation (Amenorrhea). It can be Primary (no period by 15) or Secondary (cessation for 3+ months).\n3.  **Osteoporosis:** Low estrogen levels and poor nutrition (calcium/vitamin D deficiency) lead to decreased bone mineral density. This makes bones porous and increases the risk of stress fractures[cite: 148].\n\n**Management:**\n* **Nutritional Intervention:** Ensure adequate caloric intake matching energy expenditure. Increase Calcium and Vitamin D.\n* **Training Adjustment:** Reduce training intensity and volume to reduce physical stress.\n* **Medical & Psychological Support:** Counseling for eating disorders and monitoring menstrual health."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "CH5_LA_02",
+      "type": "long",
+      "marks": 5,
+      "priority": "P1",
+      "priority_reason": "Standard 5-mark question covering multiple deformities.",
+      "question": "Describe the causes and corrective measures for 'Knock Knees', 'Round Shoulders', and 'Scoliosis'.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "**Knock Knees**: Knees touch, feet apart. Cause: Rickets, Obesity. Correction: Horse riding, Padmasana.",
+          "**Round Shoulders**: Shoulders forward. Cause: Poor posture, heavy bags. Correction: Chakrasana, Dhanurasana.",
+          "**Scoliosis**: Sideways spinal curve. Cause: Uneven legs, one-sided bags. Correction: Trikonasana, hanging."
+        ],
+        "final_answer": "1.  **Knock Knees (Genu Valgum):**\n    * **Description:** Knees knock against each other while standing, with a gap between ankles.\n    * **Causes:** Vitamin D deficiency (Rickets), obesity, weak ligaments.\n    * **Corrective Measures:** Horse riding, Padmasana, keeping a pillow between knees while sleeping[cite: 147].\n\n2.  **Round Shoulders:**\n    * **Description:** Shoulders droop forward, often accompanying a bent neck.\n    * **Causes:** Carrying heavy bags on shoulders, sitting with poor posture, weak back muscles.\n    * **Corrective Measures:** Chakrasana, Dhanurasana, holding horizontal bar for some time[cite: 147].\n\n3.  **Scoliosis:**\n    * **Description:** A lateral (sideways) curvature of the spine (S or C shape).\n    * **Causes:** Congenital defects, differences in leg length, carrying weight on one shoulder.\n    * **Corrective Measures:** Trikonasana (Triangle Pose), hanging on a horizontal bar, breaststroke swimming[cite: 146]."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "CH5_LA_03",
+      "type": "long",
+      "marks": 5,
+      "priority": "P2",
+      "priority_reason": "Application-based question on exercise prescription.",
+      "question": "Develop a guideline for exercise at different stages of growth and development (Infancy, Early Childhood, Later Childhood, Adolescence).",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "**Infancy (0-2)**: Gross motor activities (crawling, reaching).",
+          "**Early Childhood (3-7)**: Play-based, non-competitive, throwing, jumping.",
+          "**Later Childhood (8-12)**: Skill acquisition, team sports, endurance, body weight strength.",
+          "**Adolescence (13-19)**: Moderate to vigorous intensity, strength training (with supervision), competitive sports."
+        ],
+        "final_answer": "**1. Infancy (0-2 years):** Focus on gross motor skills. Encourage crawling, reaching, grasping, and walking. Physical activity should be play-based and unstructured.\n\n**2. Early Childhood (3-7 years):** Emphasis on refining motor skills like running, jumping, and throwing. Activities should be fun, non-competitive, and allow exploration. Introduction to recreational games.\n\n**3. Later Childhood (8-12 years):** Focus on developing specific sports skills, coordination, and agility. Structured team sports can be introduced. Endurance and body-weight strength exercises are beneficial. 60 mins daily activity recommended[cite: 146].\n\n**4. Adolescence (13-19 years):** Focus on muscle strengthening, bone strengthening, and vigorous aerobic activity. Competitive sports, weight training (under supervision), and specialized skill training are appropriate. 60 mins to several hours of activity is recommended."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "CH5_SA_07",
+      "type": "short",
+      "marks": 3,
+      "priority": "P2",
+      "priority_reason": "Sociological aspect of the chapter.",
+      "question": "Analyze the reasons for lower sports participation of women in India.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "**Social Constraints**: Traditional mindsets prioritizing domestic roles.",
+          "**Lack of Infrastructure**: Safety issues, lack of female coaches.",
+          "**Physiological Myths**: misconceptions about impact on fertility or femininity.",
+          "**Lack of Education**: Awareness about benefits of sports is low."
+        ],
+        "final_answer": "1. **Social and Cultural Constraints:** Traditional Indian society often prioritizes domestic roles for women, discouraging participation in outdoor sports. There is often family pressure to focus on academics or marriage.\n2. **Lack of Infrastructure and Safety:** A shortage of safe training facilities, changing rooms, and female coaches deters participation.\n3. **Myths and Misconceptions:** False beliefs that sports make women 'masculine' or affect fertility/childbearing ability negatively impact participation rates[cite: 147]."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "CH5_MCQ_05",
+      "type": "mcq",
+      "marks": 1,
+      "priority": "P3",
+      "priority_reason": "Definition check.",
+      "question": "Which of the following terms refers to the 'abnormal lateral curvature of the spine'?",
+      "options": {
+        "A": "Kyphosis",
+        "B": "Scoliosis",
+        "C": "Lordosis",
+        "D": "Spondylosis"
+      },
+      "correct_option": "B",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "Scoliosis is the lateral (sideways) curvature of the spine[cite: 147].",
+        "key_points": [],
+        "final_answer": "Option B: Scoliosis"
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "CH5_VSA_04",
+      "type": "very_short",
+      "marks": 2,
+      "priority": "P2",
+      "priority_reason": "Specific eating disorder definition.",
+      "question": "Define 'Anorexia Nervosa'.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "**Definition**: Eating disorder characterized by fear of gaining weight.",
+          "**Action**: Extreme restriction of food intake, distorted body image."
+        ],
+        "final_answer": "Anorexia Nervosa is a serious eating disorder characterized by an intense fear of gaining weight and a distorted body image. Individuals with this disorder restrict food intake severely to maintain a dangerously low body weight[cite: 148]."
+      },
+      "source_basis": "NCERT"
+    }
+  ]
+}

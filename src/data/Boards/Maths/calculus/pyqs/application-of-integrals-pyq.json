@@ -1,0 +1,695 @@
+{
+    "chapter_name": "Application of Integrals",
+    "board": "CBSE",
+    "class": "12",
+    "exam_year_target": "2026",
+    "pyq_year_range": "last 3 years",
+    "total_questions_generated": 10,
+    "questions": [
+        {
+            "question_id": 1,
+            "question_type": "MCQ",
+            "concept_tested": "Area under a simple curve",
+            "difficulty_level": "Easy",
+            "question_text": "The area of the region bounded by the curve $$y = x^2$$ and the lines $$x = 1$$, $$x = 2$$ and the x-axis is: ",
+            "options": [
+                "$$\\frac{7}{3}$$ sq. units",
+                "$$\\frac{8}{3}$$ sq. units",
+                "$$\\frac{5}{3}$$ sq. units",
+                "$$\\frac{1}{3}$$ sq. units"
+            ],
+            "correct_answer": "$$\\frac{7}{3}$$ sq. units",
+            "topper_solution": {
+                "step_1": "The required area $$A$$ is given by the definite integral of the curve $$y = x^2$$ from $$x = 1$$ to $$x = 2$$.",
+                "step_2": "$$A = \\int_{1}^{2} y \\, dx = \\int_{1}^{2} x^2 \\, dx$$.",
+                "step_3": "Integrate the function: $$\\int x^2 \\, dx = \\left[ \\frac{x^3}{3} \\right]_1^2$$.",
+                "step_4": "Apply the limits: $$A = \\frac{2^3}{3} - \\frac{1^3}{3} = \\frac{8}{3} - \\frac{1}{3} = \\frac{7}{3}$$ sq. units."
+            },
+            "board_presentation_tip": "Always write 'sq. units' after calculating the area to avoid a half-mark deduction.",
+            "common_student_mistakes": [
+                "Integrating incorrectly as $$2x$$ instead of $$x^3/3$$.",
+                "Forgetting to subtract the lower limit evaluation from the upper limit evaluation."
+            ],
+            "concept_trigger": "The phrase 'area bounded by a curve, lines x=a, x=b, and x-axis' strictly translates to the definite integral $$\\int_a^b y \\, dx$$.",
+            "time_to_solve_seconds": "45",
+            "examiner_intent": "Testing basic setup and evaluation of a definite integral to find the area under a standard polynomial curve."
+        },
+        {
+            "question_id": 2,
+            "question_type": "MCQ",
+            "concept_tested": "Area of a Circle",
+            "difficulty_level": "Moderate",
+            "question_text": "The area of the region bounded by the circle $$x^2 + y^2 = 16$$ in the first quadrant is: ",
+            "options": [
+                "$$16\\pi$$ sq. units",
+                "$$8\\pi$$ sq. units",
+                "$$4\\pi$$ sq. units",
+                "$$2\\pi$$ sq. units"
+            ],
+            "correct_answer": "$$4\\pi$$ sq. units",
+            "topper_solution": {
+                "step_1": "The equation of the circle is $$x^2 + y^2 = 16$$, which has radius $$r = 4$$.",
+                "step_2": "In the first quadrant, $$y = \\sqrt{16 - x^2}$$. The limits for $$x$$ are from 0 to 4.",
+                "step_3": "Area $$A = \\int_{0}^{4} \\sqrt{16 - x^2} \\, dx$$.",
+                "step_4": "Use the standard formula $$\\int \\sqrt{a^2 - x^2} \\, dx = \\frac{x}{2}\\sqrt{a^2 - x^2} + \\frac{a^2}{2}\\sin^{-1}\\left(\\frac{x}{a}\\right)$$.",
+                "step_5": "$$A = \\left[ \\frac{x}{2}\\sqrt{16 - x^2} + \\frac{16}{2}\\sin^{-1}\\left(\\frac{x}{4}\\right) \\right]_0^4$$.",
+                "step_6": "$$A = \\left( 0 + 8\\sin^{-1}(1) \\right) - \\left( 0 + 8\\sin^{-1}(0) \\right) = 8 \\left(\\frac{\\pi}{2}\\right) = 4\\pi$$ sq. units."
+            },
+            "board_presentation_tip": "While you can cross-check using the geometric formula ($$\\frac{1}{4}\\pi r^2$$), you must show the integration steps if this appears as a subjective question.",
+            "common_student_mistakes": [
+                "Calculating the area of the entire circle ($$16\\pi$$) and forgetting the 'first quadrant' restriction.",
+                "Applying the integration formula incorrectly, particularly missing the $$\\frac{a^2}{2}$$ coefficient."
+            ],
+            "concept_trigger": "First quadrant restriction for a circle centered at origin means limits are 0 to r, and the area is exactly 1/4th of the total area.",
+            "time_to_solve_seconds": "60",
+            "examiner_intent": "Evaluating the application of the standard $$\\sqrt{a^2 - x^2}$$ integration formula in geometric contexts."
+        },
+        {
+            "question_id": 3,
+            "question_type": "Assertion Reason",
+            "concept_tested": "Area bounded by Sine Curve",
+            "difficulty_level": "Easy",
+            "question_text": "Assertion (A): The area of the region bounded by the curve $$y = \\sin x$$ between $$x = 0$$ and $$x = 2\\pi$$ and the x-axis is 4 sq. units. \nReason (R): The area is given by the definite integral $$\\int_{0}^{2\\pi} \\sin x \\, dx$$.",
+            "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is not the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+            ],
+            "correct_answer": "A is true but R is false",
+            "topper_solution": {
+                "step_1": "Analyze Reason (R): The integral $$\\int_{0}^{2\\pi} \\sin x \\, dx = [-\\cos x]_0^{2\\pi} = -\\cos(2\\pi) - (-\\cos 0) = -1 + 1 = 0$$. This gives the algebraic sum, not the geometric area. Thus, R is false.",
+                "step_2": "Analyze Assertion (A): The curve $$y = \\sin x$$ is above the x-axis for $$[0, \\pi]$$ and below for $$[\\pi, 2\\pi]$$.",
+                "step_3": "To find the true area, we split the integral: Area = $$\\int_{0}^{\\pi} \\sin x \\, dx + \\left| \\int_{\\pi}^{2\\pi} \\sin x \\, dx \\right|$$.",
+                "step_4": "Area = $$[-\\cos x]_0^{\\pi} + \\left| [-\\cos x]_{\\pi}^{2\\pi} \\right| = (-(-1) - (-1)) + |(-1) - (-(-1))| = (1 + 1) + |-1 - 1| = 2 + 2 = 4$$ sq. units. Assertion A is true.",
+                "step_5": "Conclusion: A is true but R is false, because true geometric area requires integrating the absolute value of the function."
+            },
+            "board_presentation_tip": "When calculating areas where the curve dips below the x-axis, taking the absolute value of the negative integral explicitly demonstrates conceptual clarity.",
+            "common_student_mistakes": [
+                "Thinking Reason R is true and concluding the area is 0.",
+                "Integrating from 0 to $$2\\pi$$ directly without splitting at $$\\pi$$."
+            ],
+            "concept_trigger": "If a curve crosses the x-axis within the integration limits, the integral MUST be split at the roots, and absolute values applied to negative sections.",
+            "time_to_solve_seconds": "90",
+            "examiner_intent": "Testing the critical distinction between a definite integral (algebraic area) and geometric area."
+        },
+        {
+            "question_id": 4,
+            "question_type": "1_mark",
+            "concept_tested": "Symmetry in Area Calculation",
+            "difficulty_level": "Easy",
+            "question_text": "Find the area of the region bounded by the curve $$y^2 = 4x$$ and the line $$x = 3$$. ",
+            "options": [],
+            "correct_answer": "$$8\\sqrt{3}$$ sq. units",
+            "topper_solution": {
+                "step_1": "The curve is a right-opening parabola symmetric about the x-axis. The total area is twice the area in the first quadrant.",
+                "step_2": "Area $$A = 2 \\int_{0}^{3} y \\, dx$$. Since $$y^2 = 4x$$, we take $$y = 2\\sqrt{x}$$ for the upper branch.",
+                "step_3": "$$A = 2 \\int_{0}^{3} 2\\sqrt{x} \\, dx = 4 \\int_{0}^{3} x^{1/2} \\, dx$$.",
+                "step_4": "$$A = 4 \\left[ \\frac{x^{3/2}}{3/2} \\right]_0^3 = \\frac{8}{3} [x^{3/2}]_0^3$$.",
+                "step_5": "$$A = \\frac{8}{3} (3^{3/2} - 0) = \\frac{8}{3} (3\\sqrt{3}) = 8\\sqrt{3}$$ sq. units."
+            },
+            "board_presentation_tip": "Explicitly state 'By symmetry, Total Area = 2 × Area in 1st quadrant' before setting up the integral.",
+            "common_student_mistakes": [
+                "Forgetting to multiply by 2 to account for both the upper and lower halves of the parabola.",
+                "Evaluating $$3^{3/2}$$ incorrectly."
+            ],
+            "concept_trigger": "Parabolas of the form $$y^2 = 4ax$$ are symmetric about the x-axis; area bounded by a vertical line $$x=k$$ always requires multiplying by 2.",
+            "time_to_solve_seconds": "60",
+            "examiner_intent": "Checking basic integration of fractional powers and application of geometric symmetry."
+        },
+        {
+            "question_id": 5,
+            "question_type": "2_mark",
+            "concept_tested": "Area bounded by Modulus Function",
+            "difficulty_level": "Moderate",
+            "question_text": "Find the area of the region bounded by the curve $$y = |x+1|$$ and the lines $$x = -2$$, $$x = 1$$, and the x-axis. ",
+            "options": [],
+            "correct_answer": "$$\\frac{5}{2}$$ sq. units",
+            "topper_solution": {
+                "step_1": "The critical point of the modulus function $$y = |x+1|$$ is $$x = -1$$.",
+                "step_2": "The function splits as: $$y = -(x+1)$$ for $$-2 \\le x < -1$$, and $$y = (x+1)$$ for $$-1 \\le x \\le 1$$.",
+                "step_3": "The required area $$A = \\int_{-2}^{-1} -(x+1) \\, dx + \\int_{-1}^{1} (x+1) \\, dx$$.",
+                "step_4": "Integrate the first part: $$-\\left[ \\frac{x^2}{2} + x \\right]_{-2}^{-1} = -\\left( \\left(\\frac{1}{2} - 1\\right) - (2 - 2) \\right) = -\\left(-\\frac{1}{2} - 0\\right) = \\frac{1}{2}$$.",
+                "step_5": "Integrate the second part: $$\\left[ \\frac{x^2}{2} + x \\right]_{-1}^{1} = \\left(\\frac{1}{2} + 1\\right) - \\left(\\frac{1}{2} - 1\\right) = \\frac{3}{2} - \\left(-\\frac{1}{2}\\right) = \\frac{4}{2} = 2$$.",
+                "step_6": "Total Area = $$\\frac{1}{2} + 2 = \\frac{5}{2}$$ sq. units."
+            },
+            "board_presentation_tip": "Identify and state the critical point where the modulus opens with a negative sign versus a positive sign. Draw a rough sketch to visualize the two triangles.",
+            "common_student_mistakes": [
+                "Integrating $$(x+1)$$ directly from -2 to 1 without splitting at the critical point, resulting in a wrong algebraic area.",
+                "Sign errors when evaluating the negative definite integral."
+            ],
+            "concept_trigger": "Area under a modulus function $$|x - a|$$ strictly requires splitting the definite integral at the root $$x = a$$.",
+            "time_to_solve_seconds": "120",
+            "examiner_intent": "Testing piecewise integration handling and careful evaluation of definite integral limits."
+        },
+        {
+            "question_id": 6,
+            "question_type": "2_mark",
+            "concept_tested": "Area bounded by Exponential Curve",
+            "difficulty_level": "Easy",
+            "question_text": "Find the area bounded by the curve $$y = e^x$$, the x-axis, and the ordinates $$x = 0$$ and $$x = 2$$.",
+            "options": [],
+            "correct_answer": "$$e^2 - 1$$ sq. units",
+            "topper_solution": {
+                "step_1": "The required area is the region under the curve $$y = e^x$$ from $$x = 0$$ to $$x = 2$$.",
+                "step_2": "Area $$A = \\int_{0}^{2} y \\, dx = \\int_{0}^{2} e^x \\, dx$$.",
+                "step_3": "The anti-derivative of $$e^x$$ is $$e^x$$.",
+                "step_4": "$$A = [e^x]_0^2 = e^2 - e^0$$.",
+                "step_5": "Since $$e^0 = 1$$, the area is $$e^2 - 1$$ sq. units."
+            },
+            "board_presentation_tip": "Do not leave the answer as $$e^2 - e^0$$. Explicitly simplifying $$e^0$$ to 1 shows completeness.",
+            "common_student_mistakes": [
+                "Evaluating $$e^0$$ as 0, leading to the incorrect answer $$e^2$$.",
+                "Confusing the limits and writing $$1 - e^2$$."
+            ],
+            "concept_trigger": "Exponential areas evaluate straightforwardly, but lower limit evaluations (like $$e^0 = 1$$) are the primary trap.",
+            "time_to_solve_seconds": "45",
+            "examiner_intent": "Checking basic integration of transcendental functions and correct numerical evaluation of limits."
+        },
+        {
+            "question_id": 7,
+            "question_type": "3_mark",
+            "concept_tested": "Area bounded by a Parabola and a Line",
+            "difficulty_level": "Moderate",
+            "question_text": "Find the area of the region bounded by the parabola $$y^2 = 2x$$ and the straight line $$x - y = 4$$. ",
+            "options": [],
+            "correct_answer": "$$18$$ sq. units",
+            "topper_solution": {
+                "step_1": "First, find the points of intersection of the curve $$y^2 = 2x$$ and the line $$x = y + 4$$.",
+                "step_2": "Substitute $$x$$ into the parabola's equation: $$y^2 = 2(y + 4) \\implies y^2 - 2y - 8 = 0$$.",
+                "step_3": "Factorize: $$(y - 4)(y + 2) = 0$$. So, $$y = 4$$ and $$y = -2$$. These are our limits of integration with respect to the y-axis.",
+                "step_4": "To find the area with respect to the y-axis, use $$\\int_{y_1}^{y_2} (x_{\\text{line}} - x_{\\text{parabola}}) \\, dy$$.",
+                "step_5": "$$A = \\int_{-2}^{4} \\left( (y + 4) - \\frac{y^2}{2} \\right) \\, dy$$.",
+                "step_6": "Integrate term by term: $$A = \\left[ \\frac{y^2}{2} + 4y - \\frac{y^3}{6} \\right]_{-2}^{4}$$.",
+                "step_7": "Evaluate at upper limit (y=4): $$\\left( \\frac{16}{2} + 16 - \\frac{64}{6} \\right) = 8 + 16 - \\frac{32}{3} = 24 - \\frac{32}{3} = \\frac{40}{3}$$.",
+                "step_8": "Evaluate at lower limit (y=-2): $$\\left( \\frac{4}{2} - 8 - \\frac{-8}{6} \\right) = 2 - 8 + \\frac{4}{3} = -6 + \\frac{4}{3} = -\\frac{14}{3}$$.",
+                "step_9": "Subtract: $$A = \\frac{40}{3} - \\left(-\\frac{14}{3}\\right) = \\frac{54}{3} = 18$$ sq. units."
+            },
+            "board_presentation_tip": "Integrating with respect to 'y' is vastly easier for right-opening parabolas intersecting lines than splitting the integral with respect to 'x'. State 'Integrating with respect to y-axis' explicitly.",
+            "common_student_mistakes": [
+                "Trying to integrate with respect to x, which requires splitting the area into two complex parts involving square roots.",
+                "Subtracting the line from the parabola instead of the parabola from the line, getting a negative area."
+            ],
+            "concept_trigger": "Right-opening parabolas ($$y^2 = 4ax$$) cut by lines are almost always solved optimally by integrating with respect to the y-axis ($$dx = x_2 - x_1$$).",
+            "time_to_solve_seconds": "240",
+            "examiner_intent": "Testing strategic choice of integration variable to minimize calculation complexity."
+        },
+        {
+            "question_id": 8,
+            "question_type": "3_mark",
+            "concept_tested": "Area of Ellipse",
+            "difficulty_level": "Moderate",
+            "question_text": "Find the area of the region bounded by the ellipse $$\\frac{x^2}{16} + \\frac{y^2}{9} = 1$$. ",
+            "options": [],
+            "correct_answer": "$$12\\pi$$ sq. units",
+            "topper_solution": {
+                "step_1": "The equation of the ellipse is $$\\frac{x^2}{4^2} + \\frac{y^2}{3^2} = 1$$, so $$a = 4$$ and $$b = 3$$.",
+                "step_2": "The ellipse is symmetric about both coordinate axes. So, Total Area = $$4 \\times \\text{Area in the first quadrant}$$.",
+                "step_3": "Express $$y$$ in terms of $$x$$ for the first quadrant: $$\\frac{y^2}{9} = 1 - \\frac{x^2}{16} = \\frac{16 - x^2}{16} \\implies y = \\frac{3}{4}\\sqrt{16 - x^2}$$.",
+                "step_4": "Area in the first quadrant $$A_1 = \\int_{0}^{4} \\frac{3}{4}\\sqrt{16 - x^2} \\, dx = \\frac{3}{4} \\int_{0}^{4} \\sqrt{4^2 - x^2} \\, dx$$.",
+                "step_5": "Use the standard formula: $$\\int \\sqrt{a^2 - x^2} \\, dx = \\frac{x}{2}\\sqrt{a^2 - x^2} + \\frac{a^2}{2}\\sin^{-1}\\left(\\frac{x}{a}\\right)$$.",
+                "step_6": "$$A_1 = \\frac{3}{4} \\left[ \\frac{x}{2}\\sqrt{16 - x^2} + \\frac{16}{2}\\sin^{-1}\\left(\\frac{x}{4}\\right) \\right]_0^4$$.",
+                "step_7": "$$A_1 = \\frac{3}{4} \\left[ \\left( 0 + 8\\sin^{-1}(1) \\right) - (0 + 0) \\right] = \\frac{3}{4} \\left( 8 \\times \\frac{\\pi}{2} \\right) = \\frac{3}{4}(4\\pi) = 3\\pi$$.",
+                "step_8": "Total Area = $$4 \\times A_1 = 4 \\times 3\\pi = 12\\pi$$ sq. units."
+            },
+            "board_presentation_tip": "Draw a rough sketch of the ellipse and shade the first quadrant. Mention symmetry explicitly. You can mentally verify the answer using the formula $$\\pi ab$$.",
+            "common_student_mistakes": [
+                "Forgetting to multiply the first quadrant area by 4 at the end.",
+                "Incorrectly extracting $$y$$ as $$\\frac{4}{3}\\sqrt{9 - x^2}$$ by mixing up a and b."
+            ],
+            "concept_trigger": "Ellipse area problems strictly follow a \"find y, integrate 0 to a using the square root formula, multiply by 4\" algorithm.",
+            "time_to_solve_seconds": "180",
+            "examiner_intent": "Assessing application of definite integrals to find areas of closed conic sections exploiting symmetry."
+        },
+        {
+            "question_id": 9,
+            "question_type": "5_mark",
+            "concept_tested": "Area between Two Curves",
+            "difficulty_level": "Board-Tricky",
+            "question_text": "Find the area of the region in the first quadrant enclosed by the x-axis, the line $$y = x$$, and the circle $$x^2 + y^2 = 32$$. ",
+            "options": [],
+            "correct_answer": "$$4\\pi$$ sq. units",
+            "topper_solution": {
+                "step_1": "The region is bounded by the line $$y = x$$ and the circle $$x^2 + y^2 = 32$$ (radius $$r = \\sqrt{32} = 4\\sqrt{2}$$) in the first quadrant.",
+                "step_2": "Find the intersection point of the line and the circle. Substitute $$y = x$$ into the circle's equation: $$x^2 + x^2 = 32 \\implies 2x^2 = 32 \\implies x^2 = 16 \\implies x = 4$$ (taking positive value for the 1st quadrant). The point is $$(4, 4)$$.",
+                "step_3": "Draw a perpendicular from the intersection point $$(4, 4)$$ to the x-axis. This splits the required area into two parts: Area 1 (under the line) and Area 2 (under the circle).",
+                "step_4": "Area 1 (from $$x = 0$$ to $$x = 4$$): $$\\int_{0}^{4} x \\, dx = \\left[ \\frac{x^2}{2} \\right]_0^4 = \\frac{16}{2} = 8$$ sq. units.",
+                "step_5": "Area 2 (from $$x = 4$$ to $$x = 4\\sqrt{2}$$): $$\\int_{4}^{4\\sqrt{2}} \\sqrt{32 - x^2} \\, dx$$.",
+                "step_6": "Use the standard formula for the integral: $$\\left[ \\frac{x}{2}\\sqrt{32 - x^2} + \\frac{32}{2}\\sin^{-1}\\left(\\frac{x}{4\\sqrt{2}}\\right) \\right]_4^{4\\sqrt{2}}$$.",
+                "step_7": "Evaluate at upper limit ($$4\\sqrt{2}$$): $$0 + 16\\sin^{-1}(1) = 16\\left(\\frac{\\pi}{2}\\right) = 8\\pi$$.",
+                "step_8": "Evaluate at lower limit (4): $$\\frac{4}{2}\\sqrt{32 - 16} + 16\\sin^{-1}\\left(\\frac{4}{4\\sqrt{2}}\\right) = 2(4) + 16\\sin^{-1}\\left(\\frac{1}{\\sqrt{2}}\\right) = 8 + 16\\left(\\frac{\\pi}{4}\\right) = 8 + 4\\pi$$.",
+                "step_9": "Area 2 = $$8\\pi - (8 + 4\\pi) = 4\\pi - 8$$.",
+                "step_10": "Total Area = Area 1 + Area 2 = $$8 + (4\\pi - 8) = 4\\pi$$ sq. units."
+            },
+            "board_presentation_tip": "Splitting the integral at the intersection point's x-coordinate is mandatory. Drawing the graph and shading the two distinct areas (triangle + sector segment) makes the logic transparent.",
+            "common_student_mistakes": [
+                "Integrating $$(\\text{Curve} - \\text{Line})$$ from 0 to $$4\\sqrt{2}$$, completely misinterpreting the geometric shape defined by 'enclosed by x-axis, line, and circle'.",
+                "Evaluating the complicated inverse sine limits incorrectly."
+            ],
+            "concept_trigger": "Regions enclosed by the x-axis, a line, and a curve are almost always 'Area Addition' problems, requiring splitting the integral at the intersection point's x-coordinate.",
+            "time_to_solve_seconds": "480",
+            "examiner_intent": "Testing multi-step integration involving intersection finding, area splitting, and careful limit evaluation."
+        },
+        {
+            "question_id": 10,
+            "question_type": "case_based",
+            "concept_tested": "Real-World Application (Area of Plot)",
+            "difficulty_level": "Moderate",
+            "question_text": "A landscape architect is designing a park. A small artificial river flows through the park, modeled by the curve $$y = \\sqrt{x}$$. A straight walkway bounds the park on the right side, modeled by the line $$x = 4$$. The main road forms the bottom boundary along the x-axis. \n\nBased on this information, answer the following:\n(i) Sketch a rough graph of the park's boundaries.\n(ii) Set up the definite integral to find the total area of the park.\n(iii) Calculate the exact area of the park in square units.",
+            "options": [],
+            "correct_answer": "(i) Sketch of y=√x from x=0 to x=4, (ii) $$\\int_0^4 \\sqrt{x} \\, dx$$, (iii) 16/3 sq. units.",
+            "topper_solution": {
+                "step_1": "For (i): The region is bounded by $$y = \\sqrt{x}$$ (upper curve), $$y = 0$$ (x-axis, lower boundary), and $$x = 4$$ (right boundary). The intersection starts at origin $$(0,0)$$.",
+                "step_2": "For (ii): The area is represented by the definite integral of the upper curve minus the lower curve (which is 0) from the starting x to the ending x.",
+                "step_3": "Integral Setup: Area $$A = \\int_{0}^{4} y \\, dx = \\int_{0}^{4} \\sqrt{x} \\, dx$$.",
+                "step_4": "For (iii): Evaluate the integral. $$\\int x^{1/2} \\, dx = \\frac{x^{3/2}}{3/2} = \\frac{2}{3} x^{3/2}$$.",
+                "step_5": "Apply limits: $$A = \\left[ \\frac{2}{3} x^{3/2} \\right]_0^4 = \\frac{2}{3} (4^{3/2}) - 0$$.",
+                "step_6": "Since $$4^{3/2} = (\\sqrt{4})^3 = 2^3 = 8$$, the Area = $$\\frac{2}{3}(8) = \\frac{16}{3}$$ sq. units."
+            },
+            "board_presentation_tip": "In case-based questions, answer each sub-part clearly. Even if the sketch is 'rough', ensure the axes, curve shape, and boundaries are properly labelled.",
+            "common_student_mistakes": [
+                "Setting up the integral with respect to y instead of x, which complicates the limits and boundaries unnecessarily.",
+                "Calculating $$4^{3/2}$$ incorrectly as 6."
+            ],
+            "concept_trigger": "Real-world boundary descriptions map directly to geometric functions. 'River' = Curve, 'Walkway' = Vertical limit, 'Road' = axis.",
+            "time_to_solve_seconds": "240",
+            "examiner_intent": "Assessing translation of physical boundary descriptions into calculus-based area formulas and basic integration."
+        },
+        {
+            "chapter_name": "Application of Integrals",
+            "board": "CBSE",
+            "class": "12",
+            "exam_year_target": "2026",
+            "pyq_year_range": "last 3 years",
+            "total_questions_generated": 20,
+            "questions": [
+                {
+                    "question_id": 11,
+                    "question_type": "MCQ",
+                    "concept_tested": "Area of Trigonometric Curve",
+                    "difficulty_level": "Easy",
+                    "question_text": "The area of the region bounded by the curve $$y = \\cos x$$ and the x-axis between $$x = 0$$ and $$x = \\frac{\\pi}{2}$$ is: ",
+                    "options": [
+                        "2 sq. units",
+                        "1 sq. unit",
+                        "$$\\frac{\\pi}{2}$$ sq. units",
+                        "$$\\frac{1}{2}$$ sq. unit"
+                    ],
+                    "correct_answer": "1 sq. unit",
+                    "topper_solution": {
+                        "step_1": "The region is bounded by $$y = \\cos x$$, the x-axis, and the ordinates $$x = 0$$ to $$x = \\frac{\\pi}{2}$$.",
+                        "step_2": "The area is given by the definite integral: $$A = \\int_{0}^{\\pi/2} \\cos x \\, dx$$.",
+                        "step_3": "Integrate the function: $$\\int \\cos x \\, dx = \\sin x$$.",
+                        "step_4": "Apply the limits: $$A = [\\sin x]_0^{\\pi/2} = \\sin\\left(\\frac{\\pi}{2}\\right) - \\sin(0) = 1 - 0 = 1$$ sq. unit."
+                    },
+                    "board_presentation_tip": "For basic trigonometric curves, drawing a quick sketch showing the shaded region confirms that the curve stays above the x-axis, meaning no modulus is required.",
+                    "common_student_mistakes": [
+                        "Evaluating $$\\sin(\\pi/2)$$ incorrectly as 0.",
+                        "Using the derivative ($$-\\sin x$$) instead of the integral."
+                    ],
+                    "concept_trigger": "Simple boundaries with a single curve mapping to the x-axis directly use $$\\int_{a}^{b} y \\, dx$$.",
+                    "time_to_solve_seconds": "30",
+                    "examiner_intent": "Testing basic knowledge of trigonometric integration and definite integral evaluation."
+                },
+                {
+                    "question_id": 12,
+                    "question_type": "MCQ",
+                    "concept_tested": "Area of an Inverted Parabola",
+                    "difficulty_level": "Moderate",
+                    "question_text": "The area of the region bounded by the curve $$y = 4 - x^2$$ and the x-axis is: ",
+                    "options": [
+                        "$$\\frac{16}{3}$$ sq. units",
+                        "$$\\frac{32}{3}$$ sq. units",
+                        "$$8$$ sq. units",
+                        "$$\\frac{8}{3}$$ sq. units"
+                    ],
+                    "correct_answer": "$$\\frac{32}{3}$$ sq. units",
+                    "topper_solution": {
+                        "step_1": "Find the points of intersection of the curve $$y = 4 - x^2$$ with the x-axis by setting $$y = 0$$.",
+                        "step_2": "$$4 - x^2 = 0 \\implies x^2 = 4 \\implies x = \\pm 2$$. The limits of integration are $$-2$$ to $$2$$.",
+                        "step_3": "Area $$A = \\int_{-2}^{2} (4 - x^2) \\, dx$$.",
+                        "step_4": "Since $$(4 - x^2)$$ is an even function, we can write $$A = 2 \\int_{0}^{2} (4 - x^2) \\, dx$$.",
+                        "step_5": "Integrate: $$A = 2 \\left[ 4x - \\frac{x^3}{3} \\right]_0^2$$.",
+                        "step_6": "Evaluate limits: $$A = 2 \\left( \\left(4(2) - \\frac{8}{3}\\right) - 0 \\right) = 2 \\left( 8 - \\frac{8}{3} \\right) = 2 \\left( \\frac{16}{3} \\right) = \\frac{32}{3}$$ sq. units."
+                    },
+                    "board_presentation_tip": "Using the even function property ($$2 \\int_0^a$$) reduces the chances of sign errors when substituting negative limits.",
+                    "common_student_mistakes": [
+                        "Integrating from 0 to 2 and forgetting to multiply by 2.",
+                        "Making algebraic errors when subtracting $$\\frac{8}{3}$$ from 8."
+                    ],
+                    "concept_trigger": "When bounded by the 'x-axis', find the roots of the equation first to determine the limits of integration.",
+                    "time_to_solve_seconds": "60",
+                    "examiner_intent": "Testing ability to determine implied limits of integration and utilizing symmetry."
+                },
+                {
+                    "question_id": 13,
+                    "question_type": "Assertion Reason",
+                    "concept_tested": "Area of an Ellipse using Integration",
+                    "difficulty_level": "Moderate",
+                    "question_text": "Assertion (A): The area of the region bounded by the ellipse $$\\frac{x^2}{16} + \\frac{y^2}{9} = 1$$ is $$12\\pi$$ sq. units.\\nReason (R): The area of an ellipse $$\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$$ is given by $$4 \\int_{0}^{a} b\\sqrt{1 - \\frac{x^2}{a^2}} \\, dx$$.",
+                    "options": [
+                        "Both A and R are true and R is the correct explanation of A",
+                        "Both A and R are true but R is not the correct explanation of A",
+                        "A is true but R is false",
+                        "A is false but R is true"
+                    ],
+                    "correct_answer": "Both A and R are true and R is the correct explanation of A",
+                    "topper_solution": {
+                        "step_1": "Analyze Reason (R): The equation of the ellipse is $$\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$$. Solving for $$y$$ in the first quadrant gives $$y = b\\sqrt{1 - \\frac{x^2}{a^2}}$$. Since the ellipse is symmetric across both axes, the total area is $$4 \\times \\text{(Area in 1st quadrant)}$$, which matches the formula in R. Reason R is true.",
+                        "step_2": "Analyze Assertion (A): The given ellipse has $$a^2 = 16 \\implies a = 4$$ and $$b^2 = 9 \\implies b = 3$$.",
+                        "step_3": "Using the formula from R, the area is $$4 \\int_{0}^{4} 3\\sqrt{1 - \\frac{x^2}{16}} \\, dx = \\pi ab = \\pi(4)(3) = 12\\pi$$ sq. units. Assertion A is true.",
+                        "step_4": "Conclusion: Since Reason R provides the exact integration framework used to compute the area in Assertion A, R is the correct explanation."
+                    },
+                    "board_presentation_tip": "While you can solve the assertion instantly with the geometric formula $$\\pi ab$$, explicitly checking that the integration formula in Reason R is correct validates the linkage.",
+                    "common_student_mistakes": [
+                        "Confusing the parameters $$a$$ and $$b$$ with $$a^2$$ and $$b^2$$, leading to an area calculation of $$144\\pi$$.",
+                        "Doubting Reason R because they are more familiar with writing it as $$\\frac{b}{a} \\sqrt{a^2 - x^2}$$ instead of $$b\\sqrt{1 - x^2/a^2}$$, which are mathematically identical."
+                    ],
+                    "concept_trigger": "Symmetric closed figures like ellipses and circles have their total area defined as 4 times the definite integral in the first quadrant.",
+                    "time_to_solve_seconds": "45",
+                    "examiner_intent": "Validating the student's theoretical understanding of how the area of an ellipse is formally derived via integration."
+                },
+                {
+                    "question_id": 14,
+                    "question_type": "1_mark",
+                    "concept_tested": "Area under a Cubic Curve",
+                    "difficulty_level": "Easy",
+                    "question_text": "Find the area of the region bounded by the curve $$y = x^3$$, the x-axis, and the ordinates $$x = 1$$ and $$x = 2$$.",
+                    "options": [],
+                    "correct_answer": "$$\\frac{15}{4}$$ sq. units",
+                    "topper_solution": {
+                        "step_1": "The area is bounded by $$y = x^3$$ between $$x = 1$$ and $$x = 2$$. Since $$x^3$$ is positive in this interval, the area lies entirely above the x-axis.",
+                        "step_2": "Set up the integral: $$A = \\int_{1}^{2} x^3 \\, dx$$.",
+                        "step_3": "Integrate the function: $$\\int x^3 \\, dx = \\left[ \\frac{x^4}{4} \\right]_1^2$$.",
+                        "step_4": "Evaluate the limits: $$A = \\frac{2^4}{4} - \\frac{1^4}{4} = \\frac{16}{4} - \\frac{1}{4} = \\frac{15}{4}$$ sq. units."
+                    },
+                    "board_presentation_tip": "Show the substitution step explicitly: $$\\frac{16 - 1}{4}$$. Do not convert to mixed fractions unless asked; improper fractions are preferred.",
+                    "common_student_mistakes": [
+                        "Applying the limits in reverse order.",
+                        "Calculating $$2^4$$ as 8 instead of 16."
+                    ],
+                    "concept_trigger": "Direct application of the power rule for integration within defined positive limits.",
+                    "time_to_solve_seconds": "30",
+                    "examiner_intent": "Testing basic operational skills with the definite integral power rule."
+                },
+                {
+                    "question_id": 15,
+                    "question_type": "2_mark",
+                    "concept_tested": "Area bounded by absolute value combinations",
+                    "difficulty_level": "Moderate",
+                    "question_text": "Find the area of the region bounded by the curve $$y = x|x|$$, the x-axis, and the ordinates $$x = -1$$ and $$x = 1$$.",
+                    "options": [],
+                    "correct_answer": "$$\\frac{2}{3}$$ sq. units",
+                    "topper_solution": {
+                        "step_1": "Redefine the function $$y = x|x|$$ without the modulus:\\nFor $$x \\ge 0$$, $$|x| = x$$, so $$y = x^2$$.\\nFor $$x < 0$$, $$|x| = -x$$, so $$y = -x^2$$.",
+                        "step_2": "The question asks for the geometric area, which is $$A = \\int_{-1}^{1} |y| \\, dx$$.",
+                        "step_3": "In the interval $$[-1, 0]$$, $$y = -x^2$$, so the area bounded is $$\\int_{-1}^{0} |-x^2| \\, dx = \\int_{-1}^{0} x^2 \\, dx$$.",
+                        "step_4": "In the interval $$[0, 1]$$, $$y = x^2$$, so the area bounded is $$\\int_{0}^{1} x^2 \\, dx$$.",
+                        "step_5": "Total Area $$A = \\int_{-1}^{0} x^2 \\, dx + \\int_{0}^{1} x^2 \\, dx = 2 \\int_{0}^{1} x^2 \\, dx$$ (since $$x^2$$ is an even function).",
+                        "step_6": "$$A = 2 \\left[ \\frac{x^3}{3} \\right]_0^1 = 2 \\left( \\frac{1}{3} - 0 \\right) = \\frac{2}{3}$$ sq. units."
+                    },
+                    "board_presentation_tip": "Splitting the function definitions clearly for $$x < 0$$ and $$x \\ge 0$$ is crucial to show you understand how modulus behavior alters the curve.",
+                    "common_student_mistakes": [
+                        "Integrating $$x|x|$$ directly as an odd function from -1 to 1 and stating the area is 0, forgetting that geometric area requires the integral of $$|y|$$.",
+                        "Integrating $$-x^2$$ without taking absolute value, leading to a negative area component."
+                    ],
+                    "concept_trigger": "Geometric 'Area' requires absolute value of the function ($$\\int |y| dx$$). For an odd function like $$x|x|$$, the net area is 0, but the bounded geometric area is double the positive side.",
+                    "time_to_solve_seconds": "90",
+                    "examiner_intent": "Evaluating the understanding of geometric area vs algebraic integration for piecewise/odd functions."
+                },
+                {
+                    "question_id": 16,
+                    "question_type": "2_mark",
+                    "concept_tested": "Area of Line Crossing the X-axis",
+                    "difficulty_level": "Moderate",
+                    "question_text": "Find the area of the region bounded by the line $$y = 3x + 2$$, the x-axis, and the ordinates $$x = -1$$ and $$x = 1$$.",
+                    "options": [],
+                    "correct_answer": "$$\\frac{13}{3}$$ sq. units",
+                    "topper_solution": {
+                        "step_1": "Find where the line crosses the x-axis by setting $$y = 0$$: $$3x + 2 = 0 \\implies x = -\\frac{2}{3}$$.",
+                        "step_2": "The root $x = -\\frac{2}{3}$ lies within the interval $$[-1, 1]$$. Therefore, the area must be split.",
+                        "step_3": "Area $$A = \\left| \\int_{-1}^{-2/3} (3x + 2) \\, dx \\right| + \\int_{-2/3}^{1} (3x + 2) \\, dx$$.",
+                        "step_4": "Integrate: $$\\int (3x + 2) \\, dx = \\frac{3x^2}{2} + 2x$$.",
+                        "step_5": "Evaluate Part 1: $$\\left[ \\frac{3x^2}{2} + 2x \\right]_{-1}^{-2/3} = \\left( \\frac{3}{2}\\left(\\frac{4}{9}\\right) - \\frac{4}{3} \\right) - \\left( \\frac{3}{2} - 2 \\right) = \\left(\\frac{2}{3} - \\frac{4}{3}\\right) - \\left(-\\frac{1}{2}\\right) = -\\frac{2}{3} + \\frac{1}{2} = -\\frac{1}{6}$$. Area 1 = $$\\left|-\\frac{1}{6}\\right| = \\frac{1}{6}$$.",
+                        "step_6": "Evaluate Part 2: $$\\left[ \\frac{3x^2}{2} + 2x \\right]_{-2/3}^{1} = \\left( \\frac{3}{2} + 2 \\right) - \\left( -\\frac{2}{3} \\right) = \\frac{7}{2} + \\frac{2}{3} = \\frac{21 + 4}{6} = \\frac{25}{6}$$.",
+                        "step_7": "Total Area = $$\\frac{1}{6} + \\frac{25}{6} = \\frac{26}{6} = \\frac{13}{3}$$ sq. units."
+                    },
+                    "board_presentation_tip": "Using absolute value bars around the negative integral section is the mathematically rigorous way to handle areas below the x-axis.",
+                    "common_student_mistakes": [
+                        "Integrating continuously from -1 to 1 without finding the root, which yields $$\\frac{7}{2} - (-\\frac{1}{2}) = 4$$, which is the net area, not the total geometric area.",
+                        "Fraction addition and subtraction errors during the evaluation of limits."
+                    ],
+                    "concept_trigger": "If integrating a straight line over an interval, ALWAYS check if its x-intercept lies within that interval. If yes, you must split the integral.",
+                    "time_to_solve_seconds": "150",
+                    "examiner_intent": "Testing awareness of zero-crossing points and proper handling of signed areas in basic definite integrals."
+                },
+                {
+                    "question_id": 17,
+                    "question_type": "3_mark",
+                    "concept_tested": "Area between Parabola and Line",
+                    "difficulty_level": "Moderate",
+                    "question_text": "Find the area of the region bounded by the curve $$y = \\sqrt{x}$$ and the line $$y = x$$.",
+                    "options": [],
+                    "correct_answer": "$$\\frac{1}{6}$$ sq. units",
+                    "topper_solution": {
+                        "step_1": "Find the points of intersection by equating the two equations: $$\\sqrt{x} = x$$.",
+                        "step_2": "Square both sides: $$x = x^2 \\implies x^2 - x = 0 \\implies x(x - 1) = 0$$.",
+                        "step_3": "The points of intersection are at $$x = 0$$ and $$x = 1$$.",
+                        "step_4": "In the interval $$[0, 1]$$, check which curve is on top. E.g., at $$x = 0.25$$, $$\\sqrt{0.25} = 0.5$$, which is greater than $$0.25$$. So, the curve $$y = \\sqrt{x}$$ is above the line $$y = x$$.",
+                        "step_5": "Set up the integral for the area: $$A = \\int_{0}^{1} (y_{\\text{upper}} - y_{\\text{lower}}) \\, dx = \\int_{0}^{1} (\\sqrt{x} - x) \\, dx$$.",
+                        "step_6": "Integrate: $$A = \\left[ \\frac{2}{3}x^{3/2} - \\frac{x^2}{2} \\right]_0^1$$.",
+                        "step_7": "Evaluate limits: $$A = \\left(\\frac{2}{3} - \\frac{1}{2}\\right) - (0) = \\frac{4 - 3}{6} = \\frac{1}{6}$$ sq. units."
+                    },
+                    "board_presentation_tip": "Briefly state how you determined which curve is the 'upper' curve to justify your setup $$(\\sqrt{x} - x)$$ rather than $$(x - \\sqrt{x})$$.",
+                    "common_student_mistakes": [
+                        "Setting up the integral as $$\\int (x - \\sqrt{x}) dx$$ and getting a negative answer.",
+                        "Incorrectly squaring the equations and generating phantom intersection points."
+                    ],
+                    "concept_trigger": "Area between two curves is always $$\\int_{a}^{b} (\\text{Top Curve} - \\text{Bottom Curve}) \\, dx$$ bounded by their intersection points.",
+                    "time_to_solve_seconds": "180",
+                    "examiner_intent": "Testing intersection finding and the standard 'upper curve minus lower curve' integration protocol."
+                },
+                {
+                    "question_id": 18,
+                    "question_type": "3_mark",
+                    "concept_tested": "Area of Circle Sector (Integration)",
+                    "difficulty_level": "Board-Tricky",
+                    "question_text": "Find the area of the region bounded by the circle $$x^2 + y^2 = 8$$ and the line $$x = 2$$ in the first quadrant. ",
+                    "options": [],
+                    "correct_answer": "$$\\pi - 2$$ sq. units",
+                    "topper_solution": {
+                        "step_1": "The equation of the circle is $$x^2 + y^2 = 8$$, giving a radius $$r = \\sqrt{8} = 2\\sqrt{2}$$.",
+                        "step_2": "The region is bounded by $$x = 2$$ on the left and the circle curve on the right in the first quadrant. Thus, limits are from $$x = 2$$ to $$x = 2\\sqrt{2}$$.",
+                        "step_3": "Express $$y$$ from the circle equation for the first quadrant: $$y = \\sqrt{8 - x^2}$$.",
+                        "step_4": "Set up the integral: $$A = \\int_{2}^{2\\sqrt{2}} \\sqrt{8 - x^2} \\, dx$$.",
+                        "step_5": "Use the standard formula: $$\\int \\sqrt{a^2 - x^2} \\, dx = \\frac{x}{2}\\sqrt{a^2 - x^2} + \\frac{a^2}{2}\\sin^{-1}\\left(\\frac{x}{a}\\right)$$.",
+                        "step_6": "$$A = \\left[ \\frac{x}{2}\\sqrt{8 - x^2} + \\frac{8}{2}\\sin^{-1}\\left(\\frac{x}{2\\sqrt{2}}\\right) \\right]_2^{2\\sqrt{2}}$$.",
+                        "step_7": "Upper Limit ($$2\\sqrt{2}$$): $$0 + 4\\sin^{-1}(1) = 4\\left(\\frac{\\pi}{2}\\right) = 2\\pi$$.",
+                        "step_8": "Lower Limit (2): $$\\frac{2}{2}\\sqrt{8 - 4} + 4\\sin^{-1}\\left(\\frac{2}{2\\sqrt{2}}\\right) = \\sqrt{4} + 4\\sin^{-1}\\left(\\frac{1}{\\sqrt{2}}\\right) = 2 + 4\\left(\\frac{\\pi}{4}\\right) = 2 + \\pi$$.",
+                        "step_9": "Subtract: $$A = 2\\pi - (2 + \\pi) = \\pi - 2$$ sq. units."
+                    },
+                    "board_presentation_tip": "Keep the radius as $$\\sqrt{8}$$ for internal calculations, but use $$2\\sqrt{2}$$ for evaluating limits to easily spot the standard inverse sine angles.",
+                    "common_student_mistakes": [
+                        "Setting up the integral from 0 to 2 instead of 2 to $$2\\sqrt{2}$$. The question implies the region 'bounded by the circle and the line', which visually forms a small cap.",
+                        "Evaluating $$\\sin^{-1}\\left(\\frac{1}{\\sqrt{2}}\\right)$$ as $$\\frac{\\pi}{3}$$ instead of $$\\frac{\\pi}{4}$$."
+                    ],
+                    "concept_trigger": "The phrase 'bounded by circle and vertical line' generally targets the smaller region cap unless specified otherwise, dictating limits from the line 'x=a' to the circle's radius boundary 'r'.",
+                    "time_to_solve_seconds": "240",
+                    "examiner_intent": "Testing exact limit evaluations for circle integrations and parsing geometric boundary descriptions."
+                },
+                {
+                    "question_id": 19,
+                    "question_type": "5_mark",
+                    "concept_tested": "Area of Triangle using Integration",
+                    "difficulty_level": "Board-Tricky",
+                    "question_text": "Using integration, find the area of the region bounded by the triangle whose vertices are $$(-1, 0)$$, $$(1, 3)$$, and $$(3, 2)$$.",
+                    "options": [],
+                    "correct_answer": "4 sq. units",
+                    "topper_solution": {
+                        "step_1": "Let the vertices be $$A(-1, 0)$$, $$B(1, 3)$$, and $$C(3, 2)$$. First, find the equations of the lines AB, BC, and AC.",
+                        "step_2": "Equation of AB (using two-point form): $$y - 0 = \\frac{3 - 0}{1 - (-1)}(x - (-1)) \\implies y = \\frac{3}{2}(x + 1)$$.",
+                        "step_3": "Equation of BC: $$y - 3 = \\frac{2 - 3}{3 - 1}(x - 1) \\implies y - 3 = -\\frac{1}{2}(x - 1) \\implies y = -\\frac{1}{2}x + \\frac{1}{2} + 3 \\implies y = -\\frac{1}{2}x + \\frac{7}{2}$$.",
+                        "step_4": "Equation of AC: $$y - 0 = \\frac{2 - 0}{3 - (-1)}(x - (-1)) \\implies y = \\frac{2}{4}(x + 1) \\implies y = \\frac{1}{2}(x + 1)$$.",
+                        "step_5": "The area of the triangle is the Area under AB + Area under BC - Area under AC.",
+                        "step_6": "$$A = \\int_{-1}^{1} \\frac{3}{2}(x + 1) \\, dx + \\int_{1}^{3} \\left(-\\frac{1}{2}x + \\frac{7}{2}\\right) \\, dx - \\int_{-1}^{3} \\frac{1}{2}(x + 1) \\, dx$$.",
+                        "step_7": "Integrate AB: $$\\frac{3}{2} \\left[ \\frac{x^2}{2} + x \\right]_{-1}^1 = \\frac{3}{2} \\left( \\left(\\frac{1}{2} + 1\\right) - \\left(\\frac{1}{2} - 1\\right) \\right) = \\frac{3}{2}(2) = 3$$.",
+                        "step_8": "Integrate BC: $$\\left[ -\\frac{x^2}{4} + \\frac{7}{2}x \\right]_1^3 = \\left(-\\frac{9}{4} + \\frac{21}{2}\\right) - \\left(-\\frac{1}{4} + \\frac{7}{2}\\right) = \\frac{33}{4} - \\frac{13}{4} = \\frac{20}{4} = 5$$.",
+                        "step_9": "Integrate AC: $$\\frac{1}{2} \\left[ \\frac{x^2}{2} + x \\right]_{-1}^3 = \\frac{1}{2} \\left( \\left(\\frac{9}{2} + 3\\right) - \\left(\\frac{1}{2} - 1\\right) \\right) = \\frac{1}{2} \\left( \\frac{15}{2} - \\left(-\\frac{1}{2}\\right) \\right) = \\frac{1}{2}(8) = 4$$.",
+                        "step_10": "Total Area = $$3 + 5 - 4 = 4$$ sq. units."
+                    },
+                    "board_presentation_tip": "Drawing a neat, labeled graph with the three points plotted and lines connected is mandatory for this 5-mark question. Clearly write the Area formula as 'Area(AB) + Area(BC) - Area(AC)' before substituting integrals.",
+                    "common_student_mistakes": [
+                        "Finding the incorrect line equations due to slope calculation errors.",
+                        "Adding the area under AC instead of subtracting it from the upper boundary."
+                    ],
+                    "concept_trigger": "Finding triangle area via integration requires defining three line equations and adding the integrals of the two 'roof' lines while subtracting the 'floor' line.",
+                    "time_to_solve_seconds": "480",
+                    "examiner_intent": "Testing multi-step competency: coordinating geometry line formulation, setting up split definite integrals, and executing fractions accurately."
+                },
+                {
+                    "question_id": 20,
+                    "question_type": "case_based",
+                    "concept_tested": "Real-World Parabolic Area Application",
+                    "difficulty_level": "Moderate",
+                    "question_text": "An amusement park has built a decorative entrance gate in the shape of a parabolic arch. The height of the arch at the center is 4 meters, and its width at the base (on the ground) is 4 meters. Taking the ground as the x-axis and the center of the base as the origin $$(0,0)$$. \n\nBased on this, answer the following:\n(i) Formulate the equation of the parabolic arch.\n(ii) Set up the definite integral to find the area of the front face of the arch.\n(iii) Calculate the total area of the front face in square meters.",
+                    "options": [],
+                    "correct_answer": "(i) $$x^2 = -1(y - 4)$$ or $$y = 4 - x^2$$, (ii) $$\\int_{-2}^{2} (4 - x^2) \\, dx$$, (iii) $$\\frac{32}{3}$$ sq. meters.",
+                    "topper_solution": {
+                        "step_1": "For (i): The vertex of the downward-opening parabola is at $$(0, 4)$$. So its equation is of the form $$(x - h)^2 = -4a(y - k) \\implies x^2 = -4a(y - 4)$$.",
+                        "step_2": "The base width is 4m, centered at origin, meaning it touches the ground at $$(2, 0)$$ and $$(-2, 0)$$.",
+                        "step_3": "Substitute $$(2, 0)$$ into the equation: $$2^2 = -4a(0 - 4) \\implies 4 = 16a \\implies a = \\frac{1}{4}$$.",
+                        "step_4": "So, the equation is $$x^2 = -4\\left(\\frac{1}{4}\\right)(y - 4) \\implies x^2 = -(y - 4) \\implies y = 4 - x^2$$.",
+                        "step_5": "For (ii): The area of the front face is bounded by the parabola and the ground (x-axis). The limits are from $$x = -2$$ to $$x = 2$$.",
+                        "step_6": "Integral setup: Area = $$\\int_{-2}^{2} (4 - x^2) \\, dx$$.",
+                        "step_7": "For (iii): Using the even function property, Area = $$2 \\int_{0}^{2} (4 - x^2) \\, dx$$.",
+                        "step_8": "$$A = 2 \\left[ 4x - \\frac{x^3}{3} \\right]_0^2 = 2 \\left( 8 - \\frac{8}{3} \\right) = 2 \\left( \\frac{16}{3} \\right) = \\frac{32}{3}$$ sq. meters."
+                    },
+                    "board_presentation_tip": "In part (i), clearly state the vertex coordinates and the base boundary points. Deriving the equation correctly is the most critical step; if it is wrong, the entire problem collapses.",
+                    "common_student_mistakes": [
+                        "Assuming the equation is $$y^2 = 4ax$$, not recognizing that an arch over the ground is a downward-opening parabola $$x^2 = -4ay$$.",
+                        "Placing the vertex at the origin, which makes the arch go underground instead of standing on it."
+                    ],
+                    "concept_trigger": "Real-world arches described with 'height at center' and 'width at base' map to a parabola with vertex $$(0, H)$$ and roots at $$(-W/2, 0)$$ and $$(W/2, 0)$$.",
+                    "time_to_solve_seconds": "300",
+                    "examiner_intent": "Assessing the ability to translate real-world physical dimensions into a Cartesian curve equation and integrating to find the physical area."
+                },
+                {
+      "question_id": 21,
+      "question_type": "5_mark",
+      "concept_tested": "Area between Two Intersecting Circles",
+      "difficulty_level": "Board-Tricky",
+      "question_text": "Find the area of the region bounded by the two circles $$ x^2 + y^2 = 4 $$ and $$ (x - 2)^2 + y^2 = 4 $$. ",
+      "options": [],
+      "correct_answer": "$$ \\frac{8\\pi}{3} - 2\\sqrt{3} $$ sq. units",
+      "topper_solution": {
+        "step_1": "Find the points of intersection. Subtracting the equations: $$ x^2 - (x - 2)^2 = 0 \\implies x^2 - (x^2 - 4x + 4) = 0 \\implies 4x = 4 \\implies x = 1 $$.",
+        "step_2": "Substitute $$ x = 1 $$ into $$ x^2 + y^2 = 4 \\implies 1 + y^2 = 4 \\implies y^2 = 3 \\implies y = \\pm \\sqrt{3} $$. The points are $$ (1, \\sqrt{3}) $$ and $$ (1, -\\sqrt{3}) $$.",
+        "step_3": "Due to symmetry about the x-axis, Area = 2 × (Area in the first quadrant).",
+        "step_4": "In the first quadrant, the region is bounded by the second circle $$ y = \\sqrt{4 - (x - 2)^2} $$ from $$ x = 0 $$ to $$ x = 1 $$, and the first circle $$ y = \\sqrt{4 - x^2} $$ from $$ x = 1 $$ to $$ x = 2 $$.",
+        "step_5": "Area $$ A = 2 \\left[ \\int_0^1 \\sqrt{4 - (x - 2)^2} \\, dx + \\int_1^2 \\sqrt{4 - x^2} \\, dx \\right] $$.",
+        "step_6": "Integrate the first part using the standard formula. Notice that replacing $$ x $$ with $$ 2-x $$ shows both integrals are numerically equal. So, $$ A = 4 \\int_1^2 \\sqrt{4 - x^2} \\, dx $$.",
+        "step_7": "$$ A = 4 \\left[ \\frac{x}{2}\\sqrt{4 - x^2} + \\frac{4}{2}\\sin^{-1}\\left(\\frac{x}{2}\\right) \\right]_1^2 $$.",
+        "step_8": "Upper Limit (2): $$ 4 \\left[ 0 + 2\\sin^{-1}(1) \\right] = 4(2 \\times \\frac{\\pi}{2}) = 4\\pi $$.",
+        "step_9": "Lower Limit (1): $$ 4 \\left[ \\frac{1}{2}\\sqrt{3} + 2\\sin^{-1}\\left(\\frac{1}{2}\\right) \\right] = 4 \\left( \\frac{\\sqrt{3}}{2} + 2\\left(\\frac{\\pi}{6}\\right) \\right) = 2\\sqrt{3} + \\frac{4\\pi}{3} $$.",
+        "step_10": "Subtract: $$ A = 4\\pi - \\left(2\\sqrt{3} + \\frac{4\\pi}{3}\\right) = \\frac{12\\pi - 4\\pi}{3} - 2\\sqrt{3} = \\frac{8\\pi}{3} - 2\\sqrt{3} $$ sq. units."
+      },
+      "board_presentation_tip": "Proving that the two integrals are equal (Area from 0 to 1 = Area from 1 to 2) using symmetry drastically cuts down calculation time and prevents errors. State this symmetry clearly.",
+      "common_student_mistakes": [
+        "Integrating the wrong circle equation for the respective intervals (e.g., using $$ \\sqrt{4 - x^2} $$ from 0 to 1).",
+        "Forgetting to multiply the entire integral by 2 to account for the region below the x-axis."
+      ],
+      "concept_trigger": "Intersecting symmetric shapes require finding the x-coordinate of intersection, splitting the definite integral at that point, and adding the areas under the respective boundary curves.",
+      "time_to_solve_seconds": "420",
+      "examiner_intent": "Testing advanced multi-region area calculation, finding geometric intersections, and handling complex trigonometric limit evaluations."
+    },
+    {
+      "question_id": 22,
+      "question_type": "Assertion Reason",
+      "concept_tested": "Area between Sine and Cosine Curves",
+      "difficulty_level": "Moderate",
+      "question_text": "Assertion (A): The area of the region bounded by the curves $$ y = \\cos x $$ and $$ y = \\sin x $$, and the ordinates $$ x = 0 $$ and $$ x = \\frac{\\pi}{4} $$ is $$ \\sqrt{2} - 1 $$ sq. units.\\nReason (R): In the interval $$ \\left[0, \\frac{\\pi}{4}\\right] $$, $$ \\cos x \\ge \\sin x $$, so the bounded area is given by $$ \\int_0^{\\pi/4} (\\cos x - \\sin x) \\, dx $$.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct_answer": "Both A and R are true and R is the correct explanation of A",
+      "topper_solution": {
+        "step_1": "Analyze Reason (R): Between 0 and 45 degrees ($$ \\pi/4 $$), the cosine curve starts at 1 and drops to $$ 1/\\sqrt{2} $$, while the sine curve starts at 0 and rises to $$ 1/\\sqrt{2} $$. Therefore, $$ \\cos x $$ is indeed the upper curve. The area between two curves is $$ \\int (y_{\\text{upper}} - y_{\\text{lower}}) dx $$. Reason R is mathematically sound and true.",
+        "step_2": "Analyze Assertion (A): Using the formula from R, compute the area: $$ A = \\int_0^{\\pi/4} (\\cos x - \\sin x) \\, dx $$.",
+        "step_3": "Integrate: $$ A = [\\sin x - (-\\cos x)]_0^{\\pi/4} = [\\sin x + \\cos x]_0^{\\pi/4} $$.",
+        "step_4": "Evaluate limits: $$ \\left( \\sin\\left(\\frac{\\pi}{4}\\right) + \\cos\\left(\\frac{\\pi}{4}\\right) \\right) - (\\sin(0) + \\cos(0)) $$.",
+        "step_5": "$$ = \\left( \\frac{1}{\\sqrt{2}} + \\frac{1}{\\sqrt{2}} \\right) - (0 + 1) = \\frac{2}{\\sqrt{2}} - 1 = \\sqrt{2} - 1 $$ sq. units. Assertion A is true.",
+        "step_6": "Since R perfectly establishes the upper/lower boundary logic needed to calculate A, it is the correct explanation."
+      },
+      "board_presentation_tip": "If unsure which curve is upper, explicitly test a midpoint like $$ \\pi/6 $$ (30 degrees). $$ \\cos(30) = \\sqrt{3}/2 \\approx 0.866 $$, $$ \\sin(30) = 0.5 $$. This proves $$ \\cos x $$ is above $$ \\sin x $$.",
+      "common_student_mistakes": [
+        "Setting up the integral as $$ \\int (\\sin x - \\cos x) dx $$ and getting a negative area.",
+        "Evaluating the lower limit as 0 instead of 1 (since $$ \\cos(0) = 1 $$)."
+      ],
+      "concept_trigger": "When integrating between two trigonometric curves, establishing which one lies above the other in the specific interval is mandatory before setting up $$ y_1 - y_2 $$.",
+      "time_to_solve_seconds": "90",
+      "examiner_intent": "Assessing knowledge of trigonometric curve graphs and applying the 'upper minus lower' rule correctly."
+    },
+    {
+      "question_id": 23,
+      "question_type": "2_mark",
+      "concept_tested": "Area bounded by the Y-axis",
+      "difficulty_level": "Moderate",
+      "question_text": "Find the area bounded by the curve $$ x = 2 - y^2 $$ and the y-axis. ",
+      "options": [],
+      "correct_answer": "$$ \\frac{8\\sqrt{2}}{3} $$ sq. units",
+      "topper_solution": {
+        "step_1": "The curve $$ x = 2 - y^2 $$ is a left-opening parabola with its vertex at (2, 0).",
+        "step_2": "Find the points of intersection with the y-axis by setting $$ x = 0 $$: $$ 0 = 2 - y^2 \\implies y^2 = 2 \\implies y = \\pm \\sqrt{2} $$.",
+        "step_3": "The area bounded by the curve and the y-axis is given by the integral with respect to y: $$ A = \\int_{-\\sqrt{2}}^{\\sqrt{2}} x \\, dy $$.",
+        "step_4": "Since the parabola is symmetric about the x-axis (even function of y), $$ A = 2 \\int_0^{\\sqrt{2}} (2 - y^2) \\, dy $$.",
+        "step_5": "Integrate: $$ A = 2 \\left[ 2y - \\frac{y^3}{3} \\right]_0^{\\sqrt{2}} $$.",
+        "step_6": "Evaluate limits: $$ A = 2 \\left( 2\\sqrt{2} - \\frac{(\\sqrt{2})^3}{3} \\right) = 2 \\left( 2\\sqrt{2} - \\frac{2\\sqrt{2}}{3} \\right) = 2 \\left( \\frac{6\\sqrt{2} - 2\\sqrt{2}}{3} \\right) = 2 \\left( \\frac{4\\sqrt{2}}{3} \\right) = \\frac{8\\sqrt{2}}{3} $$ sq. units."
+      },
+      "board_presentation_tip": "Clearly write 'Integrating with respect to the y-axis' and use the formula $$ \\int x \\, dy $$. Utilizing symmetry reduces the risk of making sign errors with negative limits.",
+      "common_student_mistakes": [
+        "Trying to integrate with respect to x, which requires splitting the curve into $$ y = \\sqrt{2-x} $$ and $$ y = -\\sqrt{2-x} $$, complicating the process.",
+        "Calculating $$ (\\sqrt{2})^3 $$ incorrectly."
+      ],
+      "concept_trigger": "A curve given as $$ x = f(y) $$ bounded by the 'y-axis' is a direct cue to integrate with respect to dy.",
+      "time_to_solve_seconds": "120",
+      "examiner_intent": "Testing the flexibility of students to switch the variable of integration to 'y' when geometrically optimal."
+    },
+    {
+      "question_id": 24,
+      "question_type": "3_mark",
+      "concept_tested": "Area bounded by Parabola and Latus Rectum",
+      "difficulty_level": "Easy",
+      "question_text": "Find the area of the region bounded by the parabola $$ y^2 = 12x $$ and its latus rectum.",
+      "options": [],
+      "correct_answer": "24 sq. units",
+      "topper_solution": {
+        "step_1": "The equation of the parabola is $$ y^2 = 12x $$. Comparing it with the standard form $$ y^2 = 4ax $$, we get $$ 4a = 12 \\implies a = 3 $$.",
+        "step_2": "The latus rectum is a vertical line passing through the focus $$ (a, 0) $$. So, its equation is $$ x = 3 $$.",
+        "step_3": "The required region is bounded by $$ y^2 = 12x $$ and the line $$ x = 3 $$. Due to symmetry about the x-axis, the total area is twice the area in the first quadrant.",
+        "step_4": "Area $$ A = 2 \\int_0^3 y \\, dx = 2 \\int_0^3 \\sqrt{12x} \\, dx $$.",
+        "step_5": "Extract constants: $$ A = 2 \\sqrt{12} \\int_0^3 x^{1/2} \\, dx = 2(2\\sqrt{3}) \\int_0^3 x^{1/2} \\, dx = 4\\sqrt{3} \\left[ \\frac{x^{3/2}}{3/2} \\right]_0^3 $$.",
+        "step_6": "$$ A = 4\\sqrt{3} \\times \\frac{2}{3} \\left[ x^{3/2} \\right]_0^3 = \\frac{8\\sqrt{3}}{3} (3^{3/2} - 0) $$.",
+        "step_7": "Since $$ 3^{3/2} = 3\\sqrt{3} $$, we have $$ A = \\frac{8\\sqrt{3}}{3} \\times 3\\sqrt{3} = 8 \\times 3 = 24 $$ sq. units."
+      },
+      "board_presentation_tip": "State what the latus rectum is (the line x = a) before setting up the integral to demonstrate theoretical knowledge.",
+      "common_student_mistakes": [
+        "Confusing the latus rectum with the directrix ($$ x = -a $$) and setting the wrong integration limits.",
+        "Forgetting to multiply the final integral by 2 to account for the bottom half of the parabola."
+      ],
+      "concept_trigger": "The term 'latus rectum' is a vocabulary check; for $$ y^2 = 4ax $$, it always means the vertical line $$ x = a $$.",
+      "time_to_solve_seconds": "120",
+      "examiner_intent": "Assessing conic section vocabulary mapping to definite integral limits."
+    },
+    {
+      "question_id": 25,
+      "question_type": "case_based",
+      "concept_tested": "Real-World Application: Plot Partitioning",
+      "difficulty_level": "Moderate",
+      "question_text": "A farmer has a piece of land modeled on a Cartesian plane. The land is bounded by a parabolic ridge represented by $$ y = x^2 $$ and a straight pathway represented by $$ y = x $$ in the first quadrant. He wants to plant wheat in this exact bounded region. \\n\\nBased on this information, answer the following:\\n(i) Find the points of intersection of the parabolic ridge and the straight pathway.\\n(ii) Set up the definite integral required to find the area of the wheat field.\\n(iii) Calculate the exact area of the field in square units.",
+      "options": [],
+      "correct_answer": "(i) $$ (0,0) $$ and $$ (1,1) $$, (ii) $$ \\int_0^1 (x - x^2) dx $$, (iii) 1/6 sq. units.",
+      "topper_solution": {
+        "step_1": "For (i): To find the points of intersection, equate the two curve equations: $$ x^2 = x $$.",
+        "step_2": "$$ x^2 - x = 0 \\implies x(x - 1) = 0 $$. This gives $$ x = 0 $$ and $$ x = 1 $$.",
+        "step_3": "Substitute these back to find y: When $$ x = 0 $$, $$ y = 0 $$. When $$ x = 1 $$, $$ y = 1 $$. The intersection points are $$ (0, 0) $$ and $$ (1, 1) $$.",
+        "step_4": "For (ii): In the interval $$ [0, 1] $$, the line $$ y = x $$ lies above the parabola $$ y = x^2 $$ (e.g., at $$ x = 0.5 $$, $$ 0.5 > 0.25 $$).",
+        "step_5": "The integral for the area is $$ \\int_{x_1}^{x_2} (y_{\\text{upper}} - y_{\\text{lower}}) \\, dx = \\int_0^1 (x - x^2) \\, dx $$.",
+        "step_6": "For (iii): Evaluate the integral: $$ \\left[ \\frac{x^2}{2} - \\frac{x^3}{3} \\right]_0^1 $$.",
+        "step_7": "$$ = \\left( \\frac{1}{2} - \\frac{1}{3} \\right) - (0) = \\frac{3 - 2}{6} = \\frac{1}{6} $$ sq. units."
+      },
+      "board_presentation_tip": "In the intersection step, never just divide both sides by x (i.e., $$ x^2 = x \\implies x = 1 $$), as this loses the root at x=0. Always factorize.",
+      "common_student_mistakes": [
+        "Setting the integral as $$ \\int (x^2 - x) dx $$, resulting in a negative area of -1/6.",
+        "Dividing by x during algebra and losing the origin as an intersection point."
+      ],
+      "concept_trigger": "Area 'bounded by' two simple curves immediately requires equating them to find limits, then integrating (Upper - Lower).",
+      "time_to_solve_seconds": "180",
+      "examiner_intent": "Testing foundational area-between-curves setup and accurate fractional arithmetic in a competency-based framing."
+    }
+            ]
+        }
+    ]
+}

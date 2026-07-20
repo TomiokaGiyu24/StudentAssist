@@ -1,0 +1,680 @@
+{
+  "chapter_name": "Matrices",
+  "board": "CBSE",
+  "class": "12",
+  "exam_year": "2026",
+  "formulas": [
+    {
+      "formula_number": 1,
+      "formula_title": "Order and Equality of Matrices",
+      "section_A": {
+        "latex_formula": "$$A = [a_{ij}]_{m \\times n} = B = [b_{ij}]_{p \\times q} \\iff m=p, n=q \\text{ and } a_{ij} = b_{ij} \\forall i, j$$",
+        "derived_forms": [
+          "$$\\text{Total number of elements} = m \\times n$$",
+          "$$\\text{Possible orders for } k \\text{ elements are all factor pairs of } k$$"
+        ],
+        "special_cases": [
+          "$$\\text{If } A \\text{ is a square matrix, } m = n \\text{ and order is } n$$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "Used to find unknown variables when two matrices are given as equal, or to determine the dimensions and possible configurations of a matrix.",
+        "trigger_keywords": [
+          "Find the values of x, y, z",
+          "Construct a matrix",
+          "Possible orders"
+        ],
+        "question_types": [
+          "1_mark",
+          "2_mark"
+        ],
+        "common_mistakes": [
+          "Equating corresponding elements without first checking if the orders of the two matrices are identical.",
+          "Confusing the row index (i) with the column index (j) when constructing a matrix from a given formula $$a_{ij}$$."
+        ],
+        "board_traps": [
+          "Giving a set of equations from matrix equality where one variable yields two different values, meaning such a matrix does not exist."
+        ],
+        "examiner_twist_pattern": "Asking for the number of all possible matrices of a certain order with specific entry restrictions (e.g., entries 0 or 1), which tests permutations along with matrix order."
+      },
+      "section_C": {
+        "why_students_fail": "Students solve the derived linear equations carelessly or fail to cross-verify the values in all the equated elements.",
+        "how_to_think": "Think 'Position-to-Position Mapping'. A matrix is just an ordered grid. Equality means the grid size is identical AND every single box holds the exact same value as its counterpart.",
+        "thirty_second_strategy": "1. Verify both matrices have the same order. 2. Equate the simplest corresponding elements first to find single variables. 3. Substitute these into the more complex equations to find the rest. 4. Check answers against all elements.",
+        "mental_shortcut": "Row is first, Column is second (RC -> Roman Catholic, or Race Car).",
+        "micro_example": "If $$[x+y \\quad 2; 5 \\quad xy] = [6 \\quad 2; 5 \\quad 8]$$, then $$x+y=6$$ and $$xy=8$$. Solving gives $$x=2, y=4$$ or $$x=4, y=2$$."
+      }
+    },
+    {
+      "formula_number": 2,
+      "formula_title": "Matrix Multiplication & Commutativity Failure",
+      "section_A": {
+        "latex_formula": "$$\\text{If } A = [a_{ij}]_{m \\times n} \\text{ and } B = [b_{jk}]_{n \\times p}, \\text{ then } AB = C = [c_{ik}]_{m \\times p} \\text{ where } c_{ik} = \\sum_{j=1}^{n} a_{ij} b_{jk}$$",
+        "derived_forms": [
+          "$$A(BC) = (AB)C \\quad (\\text{Associative Law})$$",
+          "$$A(B+C) = AB + AC \\quad (\\text{Distributive Law})$$",
+          "$$AI = IA = A$$"
+        ],
+        "special_cases": [
+          "$$AB = 0 \\text{ does NOT necessarily imply } A = 0 \\text{ or } B = 0$$",
+          "$$AB \\neq BA \\text{ in general (Matrix multiplication is NOT commutative)}$$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "To multiply two matrices or simplify polynomial equations involving matrices.",
+        "trigger_keywords": [
+          "Find AB",
+          "Prove that AB = BA",
+          "Show that A^2 - 5A + 7I = 0"
+        ],
+        "question_types": [
+          "2_mark",
+          "3_mark",
+          "5_mark"
+        ],
+        "common_mistakes": [
+          "Multiplying corresponding elements instead of applying the row-by-column method.",
+          "Assuming $$(A+B)^2 = A^2 + 2AB + B^2$$ is always true. It's only true if $$AB = BA$$."
+        ],
+        "board_traps": [
+          "Asking to find $$B$$ such that $$AB = C$$. Students might try to divide by a matrix, which is mathematically invalid.",
+          "Giving matrices where $$AB$$ is defined but $$BA$$ is not, testing order conditions."
+        ],
+        "examiner_twist_pattern": "CBSE loves matrix polynomial questions. They will give a matrix $$A$$, ask to prove $$A^2 - 4A + I = 0$$, and then use this result to find $$A^{-1}$$ without using the adjoint method."
+      },
+      "section_C": {
+        "why_students_fail": "Lack of practice leads to calculation errors during the 'dive and sweep' multiplication process, particularly with negative signs.",
+        "how_to_think": "Think 'Row dives into Column'. Take the entire first row of the first matrix, tilt it vertically, and multiply it across the first column of the second matrix. Add the results. ",
+        "thirty_second_strategy": "1. Write orders: $$(m \\times n)$$ and $$(n \\times p)$$. 2. Cancel inner numbers. 3. Final order is $$(m \\times p)$$. 4. Use your index fingers to trace the row of A and column of B simultaneously while multiplying.",
+        "mental_shortcut": "Inner dimensions must match to multiply. Outer dimensions give the size of the answer.",
+        "micro_example": "If $$A$$ is $$2 \\times 3$$ and $$B$$ is $$3 \\times 4$$, $$AB$$ is defined and is $$2 \\times 4$$. $$BA$$ is NOT defined because 4 does not equal 2."
+      }
+    },
+    {
+      "formula_number": 3,
+      "formula_title": "Transpose of a Matrix Properties",
+      "section_A": {
+        "latex_formula": "$$(A')' = A \\text{ or } (A^T)^T = A$$",
+        "derived_forms": [
+          "$$(A + B)' = A' + B'$$",
+          "$$(kA)' = kA' \\quad \\text{(where } k \\text{ is a scalar)}$$",
+          "$$(AB)' = B'A' \\quad \\text{(Reversal Law)}$$",
+          "$$(ABC)' = C'B'A'$$"
+        ],
+        "special_cases": [
+          "$$(A^n)' = (A')^n$$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "When simplifying expressions involving transposes, proving properties of symmetric/skew-symmetric matrices, or dealing with matrix equations involving transposes.",
+        "trigger_keywords": [
+          "Verify that (AB)' = B'A'",
+          "Express matrix as sum of",
+          "Find A' if..."
+        ],
+        "question_types": [
+          "1_mark",
+          "2_mark",
+          "3_mark"
+        ],
+        "common_mistakes": [
+          "Writing $$(AB)' = A'B'$$. Forgetting the reversal law is the most common error.",
+          "Transposing only parts of a matrix equation."
+        ],
+        "board_traps": [
+          "Giving non-square matrices for $$A$$ and $$B$$ to verify $$(AB)' = B'A'$$. If a student forgets the reversal law, their multiplication won't even be dimensionally possible."
+        ],
+        "examiner_twist_pattern": "Using transpose properties to prove abstract results, such as 'Prove that $$B'AB$$ is symmetric if $$A$$ is symmetric'."
+      },
+      "section_C": {
+        "why_students_fail": "Rote memorization of the reversal law without understanding why the dimensions force the order to flip.",
+        "how_to_think": "Think 'Flip the matrix, flip the order'. Transposing swaps rows and columns. To maintain compatibility in multiplication (where row of first hits column of second), you have to reverse the order of the matrices.",
+        "thirty_second_strategy": "Whenever you apply a transpose to a product of matrices, read the product backwards and attach the transpose symbol to each individual matrix.",
+        "mental_shortcut": "Transpose of a product wears its shoes backwards (Reversal Law).",
+        "micro_example": "Verify dimensionally: If $$A$$ is $$2 \\times 3$$, $$B$$ is $$3 \\times 4$$. $$AB$$ is $$2 \\times 4$$. $$(AB)'$$ is $$4 \\times 2$$. $$B'$$ is $$4 \\times 3$$, $$A'$$ is $$3 \\times 2$$. $$B'A'$$ is $$4 \\times 2$$. It matches."
+      }
+    },
+    {
+      "formula_number": 4,
+      "formula_title": "Symmetric and Skew-Symmetric Decomposition",
+      "section_A": {
+        "latex_formula": "$$A = \\frac{1}{2}(A + A') + \\frac{1}{2}(A - A')$$",
+        "derived_forms": [
+          "$$A \\text{ is Symmetric} \\iff A' = A$$",
+          "$$A \\text{ is Skew-Symmetric} \\iff A' = -A$$",
+          "$$a_{ij} = a_{ji} \\text{ (Symmetric)}$$",
+          "$$a_{ij} = -a_{ji} \\text{ (Skew-Symmetric)}$$"
+        ],
+        "special_cases": [
+          "$$\\text{For a skew-symmetric matrix, all diagonal elements are zero } (a_{ii} = 0)$$",
+          "$$A+A' \\text{ is always symmetric.}$$",
+          "$$A-A' \\text{ is always skew-symmetric.}$$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "When asked to express a square matrix as the sum of a symmetric and a skew-symmetric matrix, or when identifying properties of matrix elements.",
+        "trigger_keywords": [
+          "Express as the sum of a symmetric and a skew-symmetric matrix",
+          "Is symmetric",
+          "Is skew-symmetric"
+        ],
+        "question_types": [
+          "3_mark",
+          "4_mark"
+        ],
+        "common_mistakes": [
+          "Forgetting the $$\\frac{1}{2}$$ scalar multiplier when doing the final decomposition.",
+          "Making calculation errors in $$A - A'$$ which leads to non-zero diagonal elements in the skew-symmetric part."
+        ],
+        "board_traps": [
+          "Asking a 1-mark question: 'If $$A$$ is a skew-symmetric matrix of order 3, find the trace (sum of diagonal elements).' Students calculate blindly instead of knowing it's 0."
+        ],
+        "examiner_twist_pattern": "Giving a matrix with variables (e.g., $$x, y, z$$) and stating it is skew-symmetric, asking students to find the variables. Students must use $$a_{ij} = -a_{ji}$$ and $$a_{ii} = 0$$."
+      },
+      "section_C": {
+        "why_students_fail": "Students see the decomposition formula as a long calculation exercise rather than an identity where the $$A'$$ cancels out.",
+        "how_to_think": "Think 'Even and Odd Functions'. Just like any function can be split into even and odd parts $$f(x) = \\frac{f(x)+f(-x)}{2} + \\frac{f(x)-f(-x)}{2}$$, any matrix can be split into symmetric (even-like) and skew-symmetric (odd-like) parts.",
+        "thirty_second_strategy": "1. Find $$A'$$. 2. Add $$A$$ and $$A'$$, divide by 2. This is matrix $$P$$ (symmetric). 3. Subtract $$A'$$ from $$A$$, divide by 2. This is matrix $$Q$$ (skew-symmetric, check diagonal is 0). 4. State $$A = P + Q$$.",
+        "mental_shortcut": "Skew means 'negative mirror'. The diagonal is the mirror, so a number can't be its own negative unless it is zero.",
+        "micro_example": "If $$A = [0 \\quad x; -2 \\quad 0]$$ is skew-symmetric, then the element in row 1, col 2 must be the negative of row 2, col 1. So, $$x = -(-2) = 2$$."
+      }
+    },
+    {
+      "formula_number": 5,
+      "formula_title": "Invertible Matrices and Uniqueness of Inverse",
+      "section_A": {
+        "latex_formula": "$$\\text{If } A \\text{ and } B \\text{ are square matrices of same order such that } AB = BA = I, \\text{ then } B = A^{-1} \\text{ and } A = B^{-1}$$",
+        "derived_forms": [
+          "$$(AB)^{-1} = B^{-1} A^{-1} \\quad \\text{(Reversal Law for Inverses)}$$",
+          "$$(A^{-1})^{-1} = A$$",
+          "$$(A')^{-1} = (A^{-1})'$$"
+        ],
+        "special_cases": [
+          "$$\\text{A rectangular matrix does not possess an inverse.}$$",
+          "$$\\text{If } A \\text{ is invertible, its inverse is unique.}$$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "To prove properties of matrix inverses, use the reversal law, or verify that two matrices are inverses of each other.",
+        "trigger_keywords": [
+          "Verify that AB = BA = I",
+          "Find the inverse using elementary operations",
+          "Prove that the inverse is unique"
+        ],
+        "question_types": [
+          "1_mark",
+          "2_mark",
+          "3_mark"
+        ],
+        "common_mistakes": [
+          "Writing $$(AB)^{-1} = A^{-1}B^{-1}$$ instead of applying the Reversal Law.",
+          "Assuming $$AB = I$$ is sufficient for rectangular matrices. (Inverse only exists for square matrices)."
+        ],
+        "board_traps": [
+          "Asking to find $$(AB)^{-1}$$ given $$A^{-1}$$ and $$B^{-1}$$. Students often multiply them in the wrong order."
+        ],
+        "examiner_twist_pattern": "CBSE gives an equation like $$A^2 - 3A + 2I = 0$$, and asks to find $$A^{-1}$$. Students must multiply the entire equation by $$A^{-1}$$ to get $$A - 3I + 2A^{-1} = 0$$, then solve for $$A^{-1}$$ algebraically without calculating cofactors."
+      },
+      "section_C": {
+        "why_students_fail": "Failing to connect the algebraic concept of reciprocals to matrices. Matrices divide by multiplying by the inverse.",
+        "how_to_think": "Think 'Mathematical Undo Button'. The inverse of a matrix undoes whatever the original matrix did. If you do A then B (which is BA), to undo it, you must undo B first, then undo A ($$B^{-1}A^{-1}$$).",
+        "thirty_second_strategy": "To check if B is the inverse of A, just multiply them. If you get the Identity matrix (1s on the diagonal, 0s elsewhere), they are inverses. To find inverse from a polynomial, multiply by $$A^{-1}$$ and isolate it.",
+        "mental_shortcut": "Inverse of a product wears its shoes backwards (same as transpose).",
+        "micro_example": "Given $$A^2 - A + I = 0$$. Multiply by $$A^{-1}$$: $$A^{-1}(A^2) - A^{-1}(A) + A^{-1}(I) = 0$$. This becomes $$A - I + A^{-1} = 0$$. So, $$A^{-1} = I - A$$."
+      }
+    },
+    {
+      "formula_number": 6,
+      "formula_title": "Properties of Matrix Addition and Scalar Multiplication",
+      "section_A": {
+        "latex_formula": "$$k(A + B) = kA + kB$$",
+        "derived_forms": [
+          "$$A + B = B + A \\quad \\text{(Commutative Law)}$$",
+          "$$(A + B) + C = A + (B + C) \\quad \\text{(Associative Law)}$$",
+          "$$(k_1 + k_2)A = k_1A + k_2A$$"
+        ],
+        "special_cases": [
+          "$$A + O = O + A = A \\quad \\text{(Additive Identity)}$$",
+          "$$A + (-A) = O \\quad \\text{(Additive Inverse)}$$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "When simplifying linear equations involving matrices or scaling matrices for operations.",
+        "trigger_keywords": [
+          "Simplify",
+          "Find matrix X such that 2A + 3X = 5B",
+          "Solve for matrix"
+        ],
+        "question_types": [
+          "1_mark",
+          "2_mark"
+        ],
+        "common_mistakes": [
+          "Multiplying a scalar to only the first row or first column instead of every element of the matrix (confusing it with determinants).",
+          "Assuming matrix multiplication is commutative just because matrix addition is."
+        ],
+        "board_traps": [
+          "Giving an equation like $$2X + 3Y = A$$ and $$3X + 2Y = B$$. Students often mess up the scalar distribution when doing elimination method with matrices."
+        ],
+        "examiner_twist_pattern": "Asking to find a matrix $$X$$ where $$A + B + X = O$$. Tests the concept of additive inverse in matrix form."
+      },
+      "section_C": {
+        "why_students_fail": "Confusing the rules of matrices with the rules of determinants. In a matrix, a scalar multiplies *every* element. In a determinant, it multiplies only *one row/column*.",
+        "how_to_think": "Think 'Universal scaling'. If a matrix is a picture made of pixels, scalar multiplication changes the brightness of *every single pixel* simultaneously.",
+        "thirty_second_strategy": "Distribute scalars to every element inside the bracket first. Then, treat matrix addition just like regular algebraic addition, adding strictly position-by-position.",
+        "mental_shortcut": "Matrix addition = position matching. Scalar = multiply all.",
+        "micro_example": "If $$A = [1 \\quad 2; 3 \\quad 4]$$, then $$3A = [3 \\quad 6; 9 \\quad 12]$$. Not $$[3 \\quad 2; 3 \\quad 4]$$."
+      }
+    },
+    {
+      "formula_number": 7,
+      "formula_title": "Elementary Row/Column Operations",
+      "section_A": {
+        "latex_formula": "$$R_i \\leftrightarrow R_j, \\quad R_i \\rightarrow k R_i \\text{ (where } k \\neq 0), \\quad R_i \\rightarrow R_i + k R_j$$",
+        "derived_forms": [
+          "$$C_i \\leftrightarrow C_j$$",
+          "$$C_i \\rightarrow k C_i$$",
+          "$$C_i \\rightarrow C_i + k C_j$$"
+        ],
+        "special_cases": [
+          "$$A = IA \\quad \\text{(Use for Row Operations)}$$",
+          "$$A = AI \\quad \\text{(Use for Column Operations)}$$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "When finding the inverse of a matrix using elementary transformations (if tested), or manipulating matrices into upper/lower triangular forms.",
+        "trigger_keywords": [
+          "Using elementary operations",
+          "Find the inverse using row transformations"
+        ],
+        "question_types": [
+          "3_mark",
+          "5_mark"
+        ],
+        "common_mistakes": [
+          "Mixing row and column operations in the same problem. If you start with rows, you MUST stick to rows until the end.",
+          "Using $$k = 0$$ in $$R_i \\rightarrow k R_i$$, which destroys the row."
+        ],
+        "board_traps": [
+          "Presenting a matrix where one entire row becomes zero during the operations. Students keep calculating instead of realizing the inverse does not exist."
+        ],
+        "examiner_twist_pattern": "CBSE often sets the matrix such that if you don't follow a specific order (e.g., making $a_{11}=1$, then zeroes below it), you enter an endless loop of fractions."
+      },
+      "section_C": {
+        "why_students_fail": "Lack of a systemic algorithm. Students apply random operations hoping to get the identity matrix, which messes up already established 1s and 0s.",
+        "how_to_think": "Think 'Tetris column by column'. Build the identity matrix one column at a time from left to right. Fix the pivot (make it 1), then use that pivot to clear the rest of the column (make them 0).",
+        "thirty_second_strategy": "1. Write $$A = IA$$. 2. Target $a_{11}$, make it 1. 3. Use $R_1$ to make $a_{21}$ and $a_{31}$ zero. 4. Target $a_{22}$, make it 1. 5. Use $R_2$ to make $a_{12}$ and $a_{32}$ zero. 6. Repeat for column 3.",
+        "mental_shortcut": "U-Shape path for 2x2: $a_{11} \\rightarrow a_{21} \\rightarrow a_{22} \\rightarrow a_{12}$.",
+        "micro_example": "To make $a_{21}=0$ using a pivot of 1 at $a_{11}$, use the operation $$R_2 \\rightarrow R_2 - (a_{21})R_1$$. This zeros out the spot without changing anything to its left."
+      }
+    },
+    {
+      "trend_analysis": {
+        "dominant_concepts_from_pyqs": [
+          "Matrix Polynomial Equations and evaluating $A^2$ or $A^3$",
+          "Expressing a matrix as the sum of a symmetric and a skew-symmetric matrix",
+          "Properties of Transpose (e.g., $(AB)^T = B^T A^T$)",
+          "Finding unknown scalars from given matrix equations",
+          "Finding unknown matrix elements through matrix multiplication equals zero",
+          "Permutations and Combinations integrated with Matrix Construction"
+        ],
+        "question_patterns_seen": [
+          "3-mark or 5-mark questions calculating $A^2$ or $A^3$ to prove a polynomial equation.",
+          "2-mark questions finding scalars $x$ and $y$ or $k$ by equating elements of matrices.",
+          "1-mark MCQs dealing with properties of symmetric and skew-symmetric matrices (like $AB-BA$).",
+          "Trigonometry integrated with matrices for proof-based 4-mark questions.",
+          "1-mark MCQs testing combinations of orders of matrices for multiplication to be defined."
+        ]
+      },
+      "high_leverage_ncert_questions": [
+        {
+          "question_id": 1,
+          "ncert_reference": {
+            "exercise": "3.2",
+            "question_number": "15"
+          },
+          "question_text": "Find $$A^2 - 5A + 6I$$, if $$A = \\begin{bmatrix} 2 & 0 & 1 \\\\ 2 & 1 & 3 \\\\ 1 & -1 & 0 \\end{bmatrix}$$.",
+          "concepts_tested": [
+            "Matrix Multiplication",
+            "Matrix Polynomial Evaluation",
+            "Scalar Multiplication"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Moderate",
+          "topper_solution": {
+            "step_1": "First, calculate $$A^2 = A \\times A = \\begin{bmatrix} 2 & 0 & 1 \\\\ 2 & 1 & 3 \\\\ 1 & -1 & 0 \\end{bmatrix} \\begin{bmatrix} 2 & 0 & 1 \\\\ 2 & 1 & 3 \\\\ 1 & -1 & 0 \\end{bmatrix}$$.",
+            "step_2": "$$A^2 = \\begin{bmatrix} 4+0+1 & 0+0-1 & 2+0+0 \\\\ 4+2+3 & 0+1-3 & 2+3+0 \\\\ 2-2+0 & 0-1+0 & 1-3+0 \\end{bmatrix} = \\begin{bmatrix} 5 & -1 & 2 \\\\ 9 & -2 & 5 \\\\ 0 & -1 & -2 \\end{bmatrix}$$.",
+            "step_3": "Calculate $$5A = 5 \\begin{bmatrix} 2 & 0 & 1 \\\\ 2 & 1 & 3 \\\\ 1 & -1 & 0 \\end{bmatrix} = \\begin{bmatrix} 10 & 0 & 5 \\\\ 10 & 5 & 15 \\\\ 5 & -5 & 0 \\end{bmatrix}$$.",
+            "step_4": "Write $$6I = 6 \\begin{bmatrix} 1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1 \\end{bmatrix} = \\begin{bmatrix} 6 & 0 & 0 \\\\ 0 & 6 & 0 \\\\ 0 & 0 & 6 \\end{bmatrix}$$.",
+            "step_5": "Substitute all in $$A^2 - 5A + 6I$$: $$\\begin{bmatrix} 5 & -1 & 2 \\\\ 9 & -2 & 5 \\\\ 0 & -1 & -2 \\end{bmatrix} - \\begin{bmatrix} 10 & 0 & 5 \\\\ 10 & 5 & 15 \\\\ 5 & -5 & 0 \\end{bmatrix} + \\begin{bmatrix} 6 & 0 & 0 \\\\ 0 & 6 & 0 \\\\ 0 & 0 & 6 \\end{bmatrix}$$.",
+            "step_6": "Final Result = $$\\begin{bmatrix} 5-10+6 & -1-0+0 & 2-5+0 \\\\ 9-10+0 & -2-5+6 & 5-15+0 \\\\ 0-5+0 & -1+5+0 & -2-0+6 \\end{bmatrix} = \\begin{bmatrix} 1 & -1 & -3 \\\\ -1 & -1 & -10 \\\\ -5 & 4 & 4 \\end{bmatrix}$$."
+          },
+          "board_writing_tip": "Show the intermediate addition/multiplication steps for calculating elements of $A^2$. Many students lose marks for direct incorrect answers without showing the row-by-column pairings.",
+          "common_student_mistakes": [
+            "Squaring the individual elements of matrix A to find $A^2$ instead of performing proper matrix multiplication.",
+            "Sign errors while subtracting $5A$ from $A^2$."
+          ],
+          "estimated_time_seconds": "480"
+        },
+        {
+          "question_id": 2,
+          "ncert_reference": {
+            "exercise": "3.3",
+            "question_number": "10(ii)"
+          },
+          "question_text": "Express the matrix $$A = \\begin{bmatrix} 6 & -2 & 2 \\\\ -2 & 3 & -1 \\\\ 2 & -1 & 3 \\end{bmatrix}$$ as the sum of a symmetric and a skew-symmetric matrix.",
+          "concepts_tested": [
+            "Symmetric and Skew-Symmetric Matrices",
+            "Matrix Transpose"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Moderate",
+          "topper_solution": {
+            "step_1": "Let $$P = \\frac{1}{2}(A + A^T)$$ and $$Q = \\frac{1}{2}(A - A^T)$$. We know $$A = P + Q$$, where $$P$$ is symmetric and $$Q$$ is skew-symmetric.",
+            "step_2": "Find $$A^T = \\begin{bmatrix} 6 & -2 & 2 \\\\ -2 & 3 & -1 \\\\ 2 & -1 & 3 \\end{bmatrix}$$. Since $$A = A^T$$, matrix A is already symmetric.",
+            "step_3": "Calculate $$P = \\frac{1}{2}(A + A^T) = \\frac{1}{2} \\left( \\begin{bmatrix} 6 & -2 & 2 \\\\ -2 & 3 & -1 \\\\ 2 & -1 & 3 \\end{bmatrix} + \\begin{bmatrix} 6 & -2 & 2 \\\\ -2 & 3 & -1 \\\\ 2 & -1 & 3 \\end{bmatrix} \\right) = \\begin{bmatrix} 6 & -2 & 2 \\\\ -2 & 3 & -1 \\\\ 2 & -1 & 3 \\end{bmatrix}$$. Check $$P^T = P$$, so $$P$$ is symmetric.",
+            "step_4": "Calculate $$Q = \\frac{1}{2}(A - A^T) = \\frac{1}{2} \\left( \\begin{bmatrix} 6 & -2 & 2 \\\\ -2 & 3 & -1 \\\\ 2 & -1 & 3 \\end{bmatrix} - \\begin{bmatrix} 6 & -2 & 2 \\\\ -2 & 3 & -1 \\\\ 2 & -1 & 3 \\end{bmatrix} \\right) = \\begin{bmatrix} 0 & 0 & 0 \\\\ 0 & 0 & 0 \\\\ 0 & 0 & 0 \\end{bmatrix}$$. Check $$Q^T = -Q$$, so $$Q$$ is skew-symmetric.",
+            "step_5": "Express as sum: $$A = P + Q = \\begin{bmatrix} 6 & -2 & 2 \\\\ -2 & 3 & -1 \\\\ 2 & -1 & 3 \\end{bmatrix} + \\begin{bmatrix} 0 & 0 & 0 \\\\ 0 & 0 & 0 \\\\ 0 & 0 & 0 \\end{bmatrix}$$."
+          },
+          "board_writing_tip": "Always explicitly define $P = \\frac{1}{2}(A+A^T)$ and $Q = \\frac{1}{2}(A-A^T)$, and verify that $P^T = P$ and $Q^T = -Q$ at the end to secure full marks.",
+          "common_student_mistakes": [
+            "Adding the matrices $P$ and $Q$ at the end to get $A$, instead of leaving them expressed as a sum $A = P + Q$."
+          ],
+          "estimated_time_seconds": "360"
+        },
+        {
+          "question_id": 3,
+          "ncert_reference": {
+            "exercise": "3.2",
+            "question_number": "17"
+          },
+          "question_text": "If $$A = \\begin{bmatrix} 3 & -2 \\\\ 4 & -2 \\end{bmatrix}$$ and $$I = \\begin{bmatrix} 1 & 0 \\\\ 0 & 1 \\end{bmatrix}$$, find $$k$$ so that $$A^2 = kA - 2I$$.",
+          "concepts_tested": [
+            "Matrix Polynomial Evaluation",
+            "Equality of Matrices"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Moderate",
+          "topper_solution": {
+            "step_1": "Calculate $$A^2 = \\begin{bmatrix} 3 & -2 \\\\ 4 & -2 \\end{bmatrix} \\begin{bmatrix} 3 & -2 \\\\ 4 & -2 \\end{bmatrix} = \\begin{bmatrix} 9-8 & -6+4 \\\\ 12-8 & -8+4 \\end{bmatrix} = \\begin{bmatrix} 1 & -2 \\\\ 4 & -4 \\end{bmatrix}$$.",
+            "step_2": "Calculate the RHS: $$kA - 2I = k \\begin{bmatrix} 3 & -2 \\\\ 4 & -2 \\end{bmatrix} - 2 \\begin{bmatrix} 1 & 0 \\\\ 0 & 1 \\end{bmatrix} = \\begin{bmatrix} 3k & -2k \\\\ 4k & -2k \\end{bmatrix} - \\begin{bmatrix} 2 & 0 \\\\ 0 & 2 \\end{bmatrix}$$.",
+            "step_3": "Simplify RHS: $$\\begin{bmatrix} 3k-2 & -2k \\\\ 4k & -2k-2 \\end{bmatrix}$$.",
+            "step_4": "Equate LHS and RHS: $$\\begin{bmatrix} 1 & -2 \\\\ 4 & -4 \\end{bmatrix} = \\begin{bmatrix} 3k-2 & -2k \\\\ 4k & -2k-2 \\end{bmatrix}$$.",
+            "step_5": "Compare corresponding elements: $$4 = 4k \\implies k = 1$$. Verify with another element: $$-2 = -2k \\implies k = 1$$. Therefore, $$k = 1$$."
+          },
+          "board_writing_tip": "Equate at least two different elements to find the value of the unknown and verify it. This proves to the examiner that the value is consistent across the entire matrix.",
+          "common_student_mistakes": [
+            "Not squaring the matrix correctly (squaring individual elements instead).",
+            "Forgetting to subtract the identity matrix elements correctly on the diagonal."
+          ],
+          "estimated_time_seconds": "300"
+        },
+        {
+          "question_id": 4,
+          "ncert_reference": {
+            "exercise": "3.3",
+            "question_number": "11"
+          },
+          "question_text": "If $$A, B$$ are symmetric matrices of same order, then $$AB - BA$$ is a\n(A) Skew symmetric matrix\n(B) Symmetric matrix\n(C) Zero matrix\n(D) Identity matrix",
+          "concepts_tested": [
+            "Properties of Transpose",
+            "Symmetric and Skew-Symmetric Matrices"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Board-Tricky",
+          "topper_solution": {
+            "step_1": "Given $$A$$ and $$B$$ are symmetric matrices, so $$A^T = A$$ and $$B^T = B$$.",
+            "step_2": "Let $$P = AB - BA$$. We need to find the nature of $$P$$, so we evaluate $$P^T$$.",
+            "step_3": "$$P^T = (AB - BA)^T = (AB)^T - (BA)^T$$ (Using property $$(X-Y)^T = X^T - Y^T$$).",
+            "step_4": "Using reversal law of transpose $$(XY)^T = Y^T X^T$$, we get $$P^T = B^T A^T - A^T B^T$$.",
+            "step_5": "Substitute $$A^T = A$$ and $$B^T = B$$: $$P^T = BA - AB = -(AB - BA) = -P$$.",
+            "step_6": "Since $$P^T = -P$$, the matrix $$AB - BA$$ is a skew-symmetric matrix. Option (A) is correct."
+          },
+          "board_writing_tip": "Even for MCQs, showing this quick 3-step proof in the rough column ensures you don't make a careless guessing error.",
+          "common_student_mistakes": [
+            "Incorrectly assuming that the product of symmetric matrices is always symmetric, leading to the wrong conclusion that $AB-BA$ is symmetric.",
+            "Applying $(AB)^T = A^T B^T$ instead of the reversal law."
+          ],
+          "estimated_time_seconds": "180"
+        },
+        {
+          "question_id": 5,
+          "ncert_reference": {
+            "exercise": "3.2",
+            "question_number": "18"
+          },
+          "question_text": "If $$A = \\begin{bmatrix} 0 & -\\tan\\frac{\\alpha}{2} \\\\ \\tan\\frac{\\alpha}{2} & 0 \\end{bmatrix}$$ and $$I$$ is the identity matrix of order 2, show that $$I + A = (I - A)\\begin{bmatrix} \\cos\\alpha & -\\sin\\alpha \\\\ \\sin\\alpha & \\cos\\alpha \\end{bmatrix}$$.",
+          "concepts_tested": [
+            "Matrix Multiplication",
+            "Trigonometric Half-Angle Formulas integrated with Matrices"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Board-Tricky",
+          "topper_solution": {
+            "step_1": "Let $$t = \\tan\\frac{\\alpha}{2}$$. Then $$A = \\begin{bmatrix} 0 & -t \\\\ t & 0 \\end{bmatrix}$$. LHS $$= I + A = \\begin{bmatrix} 1 & -t \\\\ t & 1 \\end{bmatrix}$$.",
+            "step_2": "Using half-angle formulas: $$\\cos\\alpha = \\frac{1-t^2}{1+t^2}$$ and $$\\sin\\alpha = \\frac{2t}{1+t^2}$$.",
+            "step_3": "Calculate $$(I - A) = \\begin{bmatrix} 1 & 0 \\\\ 0 & 1 \\end{bmatrix} - \\begin{bmatrix} 0 & -t \\\\ t & 0 \\end{bmatrix} = \\begin{bmatrix} 1 & t \\\\ -t & 1 \\end{bmatrix}$$.",
+            "step_4": "RHS $$= \\begin{bmatrix} 1 & t \\\\ -t & 1 \\end{bmatrix} \\begin{bmatrix} \\frac{1-t^2}{1+t^2} & -\\frac{2t}{1+t^2} \\\\ \\frac{2t}{1+t^2} & \\frac{1-t^2}{1+t^2} \\end{bmatrix}$$.",
+            "step_5": "Multiply the matrices row by column. Element (1,1) = $$1 \\cdot \\frac{1-t^2}{1+t^2} + t \\cdot \\frac{2t}{1+t^2} = \\frac{1-t^2+2t^2}{1+t^2} = \\frac{1+t^2}{1+t^2} = 1$$.",
+            "step_6": "Element (1,2) = $$1 \\cdot (-\\frac{2t}{1+t^2}) + t \\cdot \\frac{1-t^2}{1+t^2} = \\frac{-2t+t-t^3}{1+t^2} = \\frac{-t(1+t^2)}{1+t^2} = -t$$.",
+            "step_7": "Element (2,1) = $$-t \\cdot \\frac{1-t^2}{1+t^2} + 1 \\cdot \\frac{2t}{1+t^2} = \\frac{-t+t^3+2t}{1+t^2} = \\frac{t(1+t^2)}{1+t^2} = t$$.",
+            "step_8": "Element (2,2) = $$-t \\cdot (-\\frac{2t}{1+t^2}) + 1 \\cdot \\frac{1-t^2}{1+t^2} = \\frac{2t^2+1-t^2}{1+t^2} = \\frac{1+t^2}{1+t^2} = 1$$.",
+            "step_9": "RHS becomes $$\\begin{bmatrix} 1 & -t \\\\ t & 1 \\end{bmatrix}$$, which matches LHS. Hence proved."
+          },
+          "board_writing_tip": "Substituting $\\tan(\\alpha/2) = t$ drastically reduces writing time and visual clutter, minimizing algebra mistakes. Remember to state the trig half-angle formulas used.",
+          "common_student_mistakes": [
+            "Trying to multiply using full sine/cosine expressions without substituting 't', leading to extremely complex and messy calculations.",
+            "Sign errors during matrix multiplication involving the minus signs."
+          ],
+          "estimated_time_seconds": "600"
+        },
+        {
+          "question_id": 6,
+          "ncert_reference": {
+            "exercise": "3.1",
+            "question_number": "4(i)"
+          },
+          "question_text": "Construct a $$2 \\times 2$$ matrix, $$A = [a_{ij}]$$, whose elements are given by: $$a_{ij} = \\frac{(i+j)^2}{2}$$.",
+          "concepts_tested": [
+            "Matrix Construction",
+            "Understanding Matrix Indices"
+          ],
+          "repeat_probability_2026": "Medium",
+          "difficulty_level": "Easy",
+          "topper_solution": {
+            "step_1": "A $$2 \\times 2$$ matrix has the general form $$A = \\begin{bmatrix} a_{11} & a_{12} \\\\ a_{21} & a_{22} \\end{bmatrix}$$.",
+            "step_2": "For element $$a_{11}$$ (where $$i=1, j=1$$): $$a_{11} = \\frac{(1+1)^2}{2} = \\frac{2^2}{2} = \\frac{4}{2} = 2$$.",
+            "step_3": "For element $$a_{12}$$ (where $$i=1, j=2$$): $$a_{12} = \\frac{(1+2)^2}{2} = \\frac{3^2}{2} = \\frac{9}{2}$$.",
+            "step_4": "For element $$a_{21}$$ (where $$i=2, j=1$$): $$a_{21} = \\frac{(2+1)^2}{2} = \\frac{3^2}{2} = \\frac{9}{2}$$.",
+            "step_5": "For element $$a_{22}$$ (where $$i=2, j=2$$): $$a_{22} = \\frac{(2+2)^2}{2} = \\frac{4^2}{2} = \\frac{16}{2} = 8$$.",
+            "step_6": "The required matrix is $$A = \\begin{bmatrix} 2 & \\frac{9}{2} \\\\ \\frac{9}{2} & 8 \\end{bmatrix}$$."
+          },
+          "board_writing_tip": "Write out the general form of the matrix first. It acts as a clear map for the examiner and prevents index confusion.",
+          "common_student_mistakes": [
+            "Swapping the values of $i$ and $j$ in non-symmetric formulas (though in this specific formula $(i+j)^2/2$, swapping doesn't change the value, it matters for others).",
+            "Calculation errors in basic squaring."
+          ],
+          "estimated_time_seconds": "180"
+        },
+        {
+          "question_id": 7,
+          "ncert_reference": {
+            "exercise": "Miscellaneous",
+            "question_number": "5"
+          },
+          "question_text": "Show that the matrix $$ B'AB $$ is symmetric or skew symmetric according as $$ A $$ is symmetric or skew symmetric.",
+          "concepts_tested": [
+            "Properties of Transpose of a Matrix",
+            "Symmetric and Skew Symmetric Matrices",
+            "Reversal Law of Transpose"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Moderate",
+          "topper_solution": {
+            "step_1": "Let $$ P = B'AB $$. To check if it is symmetric or skew-symmetric, we take its transpose: $$ P' = (B'AB)' $$.",
+            "step_2": "Using the reversal law of transpose $$(XYZ)' = Z'Y'X'$$, we get: $$ P' = B' A' (B')' $$.",
+            "step_3": "Since the transpose of a transpose is the original matrix, $$(B')' = B$$. So, $$ P' = B'A'B $$.",
+            "step_4": "Case 1: If $$ A $$ is symmetric, then $$ A' = A $$. Substituting this, we get $$ P' = B'AB = P $$. Since $$ P' = P $$, $$ B'AB $$ is symmetric.",
+            "step_5": "Case 2: If $$ A $$ is skew-symmetric, then $$ A' = -A $$. Substituting this, we get $$ P' = B'(-A)B = -B'AB = -P $$. Since $$ P' = -P $$, $$ B'AB $$ is skew-symmetric.",
+            "step_6": "Hence proved."
+          },
+          "board_writing_tip": "Clearly mention the properties used: $$(ABC)' = C'B'A'$$ and $$(B')' = B$$ in brackets next to the respective steps. Dividing the proof into 'Case 1' and 'Case 2' makes it very readable for the examiner.",
+          "common_student_mistakes": [
+            "Applying the transpose over the product without reversing the order, incorrectly writing $(B'AB)' = (B')'A'B'$.",
+            "Forgetting to prove both cases (symmetric AND skew-symmetric)."
+          ],
+          "estimated_time_seconds": "300"
+        },
+        {
+          "question_id": 8,
+          "ncert_reference": {
+            "exercise": "Miscellaneous",
+            "question_number": "7"
+          },
+          "question_text": "For what values of $$ x $$: $$ \\begin{bmatrix} 1 & 2 & 1 \\end{bmatrix} \\begin{bmatrix} 1 & 2 & 0 \\\\ 2 & 0 & 1 \\\\ 1 & 0 & 2 \\end{bmatrix} \\begin{bmatrix} 0 \\\\ 2 \\\\ x \\end{bmatrix} = O $$ ?",
+          "concepts_tested": [
+            "Multiplication of Matrices",
+            "Solving Matrix Equations",
+            "Order of Matrix Product"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Moderate",
+          "topper_solution": {
+            "step_1": "First, multiply the $$ 1 \\times 3 $$ matrix and the $$ 3 \\times 3 $$ matrix. The result will be a $$ 1 \\times 3 $$ matrix.",
+            "step_2": "$$ \\begin{bmatrix} 1(1)+2(2)+1(1) & 1(2)+2(0)+1(0) & 1(0)+2(1)+1(2) \\end{bmatrix} = \\begin{bmatrix} 1+4+1 & 2+0+0 & 0+2+2 \\end{bmatrix} = \\begin{bmatrix} 6 & 2 & 4 \\end{bmatrix} $$.",
+            "step_3": "Now, multiply this resulting $$ 1 \\times 3 $$ matrix with the given $$ 3 \\times 1 $$ column matrix.",
+            "step_4": "$$ \\begin{bmatrix} 6 & 2 & 4 \\end{bmatrix} \\begin{bmatrix} 0 \\\\ 2 \\\\ x \\end{bmatrix} = \\begin{bmatrix} 6(0) + 2(2) + 4(x) \\end{bmatrix} = \\begin{bmatrix} 0 + 4 + 4x \\end{bmatrix} = \\begin{bmatrix} 4 + 4x \\end{bmatrix} $$.",
+            "step_5": "Equate the final $$ 1 \\times 1 $$ matrix to the zero matrix $$ O $$ (which in this case is $$ [0] $$).",
+            "step_6": "$$ \\begin{bmatrix} 4 + 4x \\end{bmatrix} = \\begin{bmatrix} 0 \\end{bmatrix} \\implies 4 + 4x = 0 \\implies 4x = -4 \\implies x = -1 $$."
+          },
+          "board_writing_tip": "You can multiply the second and third matrices first (associative property), but left-to-right is less prone to dimension errors. Clearly indicate the order of the matrices you are multiplying to avoid row-column confusion.",
+          "common_student_mistakes": [
+            "Multiplying elements directly without following the row-by-column rule.",
+            "Getting confused with the order of the resulting matrix and creating a 3x3 matrix instead of a 1x3 matrix in the first step."
+          ],
+          "estimated_time_seconds": "240"
+        },
+        {
+          "question_id": 9,
+          "ncert_reference": {
+            "exercise": "3.2",
+            "question_number": "13"
+          },
+          "question_text": "If $$ F(x) = \\begin{bmatrix} \\cos x & -\\sin x & 0 \\\\ \\sin x & \\cos x & 0 \\\\ 0 & 0 & 1 \\end{bmatrix} $$, show that $$ F(x)F(y) = F(x+y) $$.",
+          "concepts_tested": [
+            "Matrix Multiplication",
+            "Trigonometric Addition Formulas"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Moderate",
+          "topper_solution": {
+            "step_1": "Write down $$ F(y) $$ by replacing $$ x $$ with $$ y $$: $$ F(y) = \\begin{bmatrix} \\cos y & -\\sin y & 0 \\\\ \\sin y & \\cos y & 0 \\\\ 0 & 0 & 1 \\end{bmatrix} $$.",
+            "step_2": "Calculate LHS = $$ F(x)F(y) = \\begin{bmatrix} \\cos x & -\\sin x & 0 \\\\ \\sin x & \\cos x & 0 \\\\ 0 & 0 & 1 \\end{bmatrix} \\begin{bmatrix} \\cos y & -\\sin y & 0 \\\\ \\sin y & \\cos y & 0 \\\\ 0 & 0 & 1 \\end{bmatrix} $$.",
+            "step_3": "Perform row-by-column multiplication. For row 1, col 1: $$ \\cos x \\cos y + (-\\sin x)(\\sin y) + 0(0) = \\cos x \\cos y - \\sin x \\sin y $$.",
+            "step_4": "For row 1, col 2: $$ \\cos x (-\\sin y) + (-\\sin x)(\\cos y) + 0(0) = -(\\sin x \\cos y + \\cos x \\sin y) $$.",
+            "step_5": "For row 2, col 1: $$ \\sin x \\cos y + \\cos x \\sin y + 0(0) = \\sin x \\cos y + \\cos x \\sin y $$.",
+            "step_6": "For row 2, col 2: $$ \\sin x (-\\sin y) + \\cos x \\cos y + 0(0) = \\cos x \\cos y - \\sin x \\sin y $$. The remaining elements are 0s and 1.",
+            "step_7": "The resulting matrix is $$ \\begin{bmatrix} \\cos x \\cos y - \\sin x \\sin y & -(\\sin x \\cos y + \\cos x \\sin y) & 0 \\\\ \\sin x \\cos y + \\cos x \\sin y & \\cos x \\cos y - \\sin x \\sin y & 0 \\\\ 0 & 0 & 1 \\end{bmatrix} $$.",
+            "step_8": "Apply trigonometric identities: $$ \\cos(x+y) = \\cos x \\cos y - \\sin x \\sin y $$ and $$ \\sin(x+y) = \\sin x \\cos y + \\cos x \\sin y $$.",
+            "step_9": "The matrix becomes $$ \\begin{bmatrix} \\cos(x+y) & -\\sin(x+y) & 0 \\\\ \\sin(x+y) & \\cos(x+y) & 0 \\\\ 0 & 0 & 1 \\end{bmatrix} $$, which is exactly $$ F(x+y) $$. Hence proved."
+          },
+          "board_writing_tip": "Write the trigonometric identities used in brackets beside the final step. This explicitly shows the examiner you know the formula and didn't just write the final answer from memory.",
+          "common_student_mistakes": [
+            "Sign errors when grouping the negative terms in Row 1, Column 2.",
+            "Mixing up the sine and cosine compound angle formulas."
+          ],
+          "estimated_time_seconds": "420"
+        },
+        {
+          "question_id": 10,
+          "ncert_reference": {
+            "exercise": "3.2",
+            "question_number": "21"
+          },
+          "question_text": "Assume $$ X, Y, Z, W $$ and $$ P $$ are matrices of order $$ 2 \\times n $$, $$ 3 \\times k $$, $$ 2 \\times p $$, $$ n \\times 3 $$ and $$ p \\times k $$, respectively. The restriction on $$ n, k $$ and $$ p $$ so that $$ PY + WY $$ will be defined are:\n(A) $$ k = 3, p = n $$\n(B) $$ k $$ is arbitrary, $$ p = 2 $$\n(C) $$ p $$ is arbitrary, $$ k = 3 $$\n(D) $$ k = 2, p = 3 $$",
+          "concepts_tested": [
+            "Order of Matrix Multiplication",
+            "Addition of Matrices"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Easy",
+          "topper_solution": {
+            "step_1": "For the product $$ PY $$ to be defined, the number of columns in $$ P $$ must equal the number of rows in $$ Y $$.",
+            "step_2": "Order of $$ P $$ is $$ p \\times k $$. Order of $$ Y $$ is $$ 3 \\times k $$. Therefore, for $$ PY $$ to be possible, $$ k = 3 $$.",
+            "step_3": "The order of the resulting matrix $$ PY $$ will be $$ p \\times k $$. Since $$ k=3 $$, order of $$ PY $$ is $$ p \\times 3 $$.",
+            "step_4": "For the product $$ WY $$, order of $$ W $$ is $$ n \\times 3 $$ and order of $$ Y $$ is $$ 3 \\times k $$ (which is $$ 3 \\times 3 $$). The product is defined since $$ 3 = 3 $$.",
+            "step_5": "The order of the resulting matrix $$ WY $$ will be $$ n \\times k $$. Since $$ k=3 $$, order of $$ WY $$ is $$ n \\times 3 $$.",
+            "step_6": "For matrix addition $$ PY + WY $$ to be defined, both matrices must have the exact same order.",
+            "step_7": "This means the order of $$ PY $$ ($$ p \\times 3 $$) must equal the order of $$ WY $$ ($$ n \\times 3 $$). Therefore, $$ p = n $$.",
+            "step_8": "Conclusion: The restrictions are $$ k = 3 $$ and $$ p = n $$. Option (A) is correct."
+          },
+          "board_writing_tip": "For such conceptual MCQs, quickly map out the matrix dimensions using the `(m x n) * (n x p) = (m x p)` visual representation in your rough work to avoid silly mistakes.",
+          "common_student_mistakes": [
+            "Confusing the condition for matrix addition with multiplication, thinking that the number of columns of PY must equal rows of WY.",
+            "Guessing the answer without writing down the order equations."
+          ],
+          "estimated_time_seconds": "120"
+        },
+        {
+          "question_id": 11,
+          "ncert_reference": {
+            "exercise": "Miscellaneous",
+            "question_number": "15"
+          },
+          "question_text": "If $$ A $$ is square matrix such that $$ A^2 = A $$, then $$ (I + A)^3 - 7A $$ is equal to:\n(A) $$ A $$\n(B) $$ I - A $$\n(C) $$ I $$\n(D) $$ 3A $$",
+          "concepts_tested": [
+            "Matrix Polynomial Evaluation",
+            "Properties of Identity Matrix"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Easy",
+          "topper_solution": {
+            "step_1": "Given $$ A^2 = A $$. First, observe that if $$ A^2 = A $$, then $$ A^3 = A^2 \\cdot A = A \\cdot A = A^2 = A $$. So, $$ A^n = A $$ for any integer $$ n \\geq 1 $$.",
+            "step_2": "Expand $$ (I + A)^3 $$ using the binomial expansion formula (valid because $$ I $$ and $$ A $$ commute, i.e., $$ IA = AI = A $$).",
+            "step_3": "$$ (I + A)^3 = I^3 + 3I^2A + 3IA^2 + A^3 $$.",
+            "step_4": "We know $$ I^n = I $$ for any power, and $$ I \\cdot X = X $$ for any matrix $$ X $$.",
+            "step_5": "Substitute the properties: $$ I^3 = I $$, $$ 3I^2A = 3IA = 3A $$, $$ 3IA^2 = 3A^2 $$.",
+            "step_6": "So, $$ (I + A)^3 = I + 3A + 3A^2 + A^3 $$.",
+            "step_7": "Since $$ A^2 = A $$ and $$ A^3 = A $$, substitute these back into the expansion.",
+            "step_8": "$$ (I + A)^3 = I + 3A + 3A + A = I + 7A $$.",
+            "step_9": "Now evaluate the full expression: $$ (I + A)^3 - 7A = (I + 7A) - 7A = I $$. Option (C) is correct."
+          },
+          "board_writing_tip": "Remember that you can only use standard algebraic formulas like $(a+b)^3$ for matrices if they commute ($ab=ba$). Always explicitly state that $IA = AI$ to justify using the formula.",
+          "common_student_mistakes": [
+            "Forgetting that $A^3$ simplifies to $A$ when $A^2 = A$.",
+            "Incorrectly expanding $(I+A)^3$, getting stuck multiplying matrices manually and making arithmetic errors."
+          ],
+          "estimated_time_seconds": "180"
+        },
+        {
+          "question_id": 12,
+          "ncert_reference": {
+            "exercise": "3.1",
+            "question_number": "10"
+          },
+          "question_text": "The number of all possible matrices of order $$ 3 \\times 3 $$ with each entry 0 or 1 is:\n(A) 27\n(B) 18\n(C) 81\n(D) 512",
+          "concepts_tested": [
+            "Permutations and Combinations",
+            "Matrix Construction"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Easy",
+          "topper_solution": {
+            "step_1": "Determine the total number of elements in a $$ 3 \\times 3 $$ matrix. A $$ 3 \\times 3 $$ matrix has $$ 3 \\times 3 = 9 $$ elements.",
+            "step_2": "Identify the number of choices available for each element. The question states each entry can be either 0 or 1. Thus, there are 2 choices for each element.",
+            "step_3": "Apply the Fundamental Principle of Counting (Multiplication Rule). Since there are 9 independent positions in the matrix and each can be filled in 2 ways, the total number of matrices is $$ 2 \\times 2 \\times \\dots \\text{(9 times)} $$.",
+            "step_4": "Total matrices = $$ 2^9 $$.",
+            "step_5": "Calculate the value: $$ 2^9 = 512 $$. Option (D) is correct."
+          },
+          "board_writing_tip": "Do not write complex steps for 1-mark MCQs. A simple statement '9 elements, 2 choices each -> 2^9 = 512' is perfect for rough work.",
+          "common_student_mistakes": [
+            "Calculating $9^2 = 81$ by swapping the base and exponent.",
+            "Calculating $9 \\times 2 = 18$ instead of raising to the power.",
+            "Assuming a 3x3 matrix has only 3 elements instead of 9, giving $2^3 = 8$."
+          ],
+          "estimated_time_seconds": "60"
+        }
+      ]
+    }
+  ]
+}

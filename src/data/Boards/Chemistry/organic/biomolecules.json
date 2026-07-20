@@ -1,0 +1,808 @@
+{
+    "meta": {
+        "subject": "Chemistry",
+        "class": "12",
+        "board": "CBSE",
+        "chapter_number": "10",
+        "chapter_name": "Biomolecules",
+        "ncert_edition": "latest",
+        "chapter_weightage_estimate": "7 Marks",
+        "difficulty_rating": "Foundational",
+        "nature_of_chapter": "Organic / Biochemistry",
+        "scoring_potential_analysis": "Very High. Purely theoretical and fact-based. If you memorize the structures of Glucose/Fructose and the Vitamin deficiency table, you cannot lose marks."
+    },
+    "chapter_flow": [
+        {
+            "ncert_section": "10.1",
+            "section_title": "Carbohydrates",
+            "section_importance_signal": "High",
+            "why_section_matters_exam_wise": "The reactions of Glucose proving its structure are the most repeated 3M questions in this chapter.",
+            "core_concepts": [
+                {
+                    "concept_id": "BIO-01",
+                    "concept_title": "Structure & Reactions of Glucose",
+                    "ncert_alignment_scope": "10.1.2 Monosaccharides (Glucose)",
+                    "definition_or_law_verbatim": "Glucose is an aldohexose. It is also known as dextrose. Structure elucidation reactions prove the presence of straight chain, carbonyl group, aldehyde group, and 5 -OH groups.",
+                    "concept_clarity_explanation": "1. HI -> n-Hexane (Straight Chain). 2. NH2OH -> Oxime (Carbonyl). 3. Br2 water -> Gluconic acid (Aldehyde). 4. HNO3 -> Saccharic Acid (Primary Alcohol). 5. Acetic Anhydride -> Pentaacetate (5 OH groups).",
+                    "cognitive_layering": {
+                        "weak_student_layer": "Memorize the 5 reactions and the product names.",
+                        "board_ready_layer": "Draw the Fischer Projection and Haworth Projection (Alpha-D and Beta-D Glucose).",
+                        "topper_mastery_layer": "Explain Anomers (C1 configuration difference) and Mutarotation (Change in optical rotation in solution)."
+                    },
+                    "exam_intelligence": {
+                        "why_examiner_tests_this": "Tests deduction of structure from chemical evidence.",
+                        "question_formats": [
+                            "3M Reasoning (Write reaction to prove...)",
+                            "Structure Drawing"
+                        ],
+                        "trap_patterns": [
+                            "Confusing reaction with HNO3 (Oxidizes both CHO and terminal CH2OH) vs Br2 Water (Oxidizes only CHO).",
+                            "Thinking Glucose reacts with NaHSO3 (It doesn't, proving Cyclic structure limitation)."
+                        ],
+                        "frequent_misconceptions": [
+                            "Alpha and Beta glucose are mirror images (No, they are Diastereomers/Anomers)."
+                        ]
+                    },
+                    "formula_block": [],
+                    "derivation_block": {
+                        "required": false
+                    },
+                    "numerical_archetypes": [],
+                    "chemical_equations": [
+                        {
+                            "balanced_equation_latex": "C_6H_{12}O_6 \\xrightarrow{HI, \\Delta} CH_3-CH_2-CH_2-CH_2-CH_2-CH_3",
+                            "conditions": "Reduction (Proves straight chain)",
+                            "phase_information": false
+                        },
+                        {
+                            "balanced_equation_latex": "Glucose \\xrightarrow{Br_2/H_2O} Gluconic\\ Acid (COOH-(CHOH)_4-CH_2OH)",
+                            "conditions": "Mild Oxidation (Proves Aldehyde)",
+                            "phase_information": false
+                        },
+                        {
+                            "balanced_equation_latex": "Glucose \\xrightarrow{HNO_3} Saccharic\\ Acid (HOOC-(CHOH)_4-COOH)",
+                            "conditions": "Strong Oxidation (Proves Primary Alcohol)",
+                            "phase_information": false
+                        }
+                    ],
+                    "mechanism_block": {
+                        "required": false
+                    },
+                    "diagram_json": {
+                        "diagram_required": true,
+                        "diagram_type": "Structure",
+                        "components_to_label": [
+                            "Fischer Projection",
+                            "Haworth Projection",
+                            "Anomeric Carbon (C1)",
+                            "Glycosidic Linkage"
+                        ],
+                        "concept_tested_through_diagram": "Cyclic Structure of Glucose",
+                        "common_exam_twist": "Draw Beta-D-Glucopyranose"
+                    },
+                    "direct_ncert_question_triggers": [
+                        "Intext 10.1",
+                        "Intext 10.2",
+                        "Example 10.1"
+                    ]
+                },
+                {
+                    "concept_id": "BIO-02",
+                    "concept_title": "Disaccharides & Polysaccharides",
+                    "ncert_alignment_scope": "10.1.3 Disaccharides, 10.1.4 Polysaccharides",
+                    "definition_or_law_verbatim": "Glycosidic linkage: Oxide linkage formed by the loss of a water molecule between two monosaccharide units. Invert Sugar: Hydrolysis of (+) Sucrose gives (-) Fructose and (+) Glucose, changing the sign of rotation.",
+                    "concept_clarity_explanation": "Sucrose (Non-reducing): C1 of Glucose + C2 of Fructose. Maltose (Reducing): C1 of Glucose + C4 of Glucose. Lactose (Reducing): C1 of Galactose + C4 of Glucose. Starch: Amylose (C1-C4 linear) + Amylopectin (C1-C6 branched).",
+                    "cognitive_layering": {
+                        "weak_student_layer": "Sucrose = Glucose + Fructose. Starch = Polymer of Glucose. Cellulose = Cell wall.",
+                        "board_ready_layer": "Reducing sugar = Has free CHO/CO group (Reacts with Tollen's/Fehling's). Sucrose is non-reducing.",
+                        "topper_mastery_layer": "Why is Cellulose not digested by humans? (We lack the enzyme to break Beta-glycosidic linkage)."
+                    },
+                    "exam_intelligence": {
+                        "why_examiner_tests_this": "Structural linkage details.",
+                        "question_formats": [
+                            "1M Definition (Glycosidic linkage)",
+                            "Reasoning (Invert sugar)"
+                        ],
+                        "trap_patterns": [
+                            "Assuming all disaccharides are reducing (Sucrose is the exception).",
+                            "Amylose is branched (False, Amylopectin is branched)."
+                        ],
+                        "frequent_misconceptions": [
+                            "Starch and Cellulose are isomers (No, they are polymers with different linkages: Alpha vs Beta)."
+                        ]
+                    },
+                    "formula_block": [],
+                    "derivation_block": {
+                        "required": false
+                    },
+                    "numerical_archetypes": [],
+                    "chemical_equations": [
+                        {
+                            "balanced_equation_latex": "C_{12}H_{22}O_{11} + H_2O \\xrightarrow{H^+} C_6H_{12}O_6 (+ Glucose) + C_6H_{12}O_6 (- Fructose)",
+                            "conditions": "Inversion of Cane Sugar",
+                            "phase_information": true
+                        }
+                    ],
+                    "mechanism_block": {
+                        "required": false
+                    },
+                    "diagram_json": {
+                        "diagram_required": true,
+                        "diagram_type": "Structure",
+                        "components_to_label": [
+                            "Alpha-1,4-Glycosidic linkage (Maltose)",
+                            "Beta-1,4-Glycosidic linkage (Cellulose)"
+                        ],
+                        "concept_tested_through_diagram": "Linkage types",
+                        "common_exam_twist": ""
+                    },
+                    "direct_ncert_question_triggers": [
+                        "Intext 10.3"
+                    ]
+                }
+            ],
+            "rapid_revision_block": {
+                "ultra_compact_revision": "Glucose: Aldohexose. Reactions: HI (Hexane), Br2 (Gluconic), HNO3 (Saccharic). Cyclic: No Schiff's test. Sucrose: Invert sugar, Non-reducing. Starch: Amylose (Linear) + Amylopectin (Branched). Cellulose: Beta-D-Glucose polymer.",
+                "must_remember_points": [
+                    "Glycogen is 'Animal Starch' stored in liver.",
+                    "Fructose is a ketohexose (Furanose structure)."
+                ],
+                "formula_snapshot": []
+            }
+        },
+        {
+            "ncert_section": "10.2",
+            "section_title": "Proteins",
+            "section_importance_signal": "High",
+            "why_section_matters_exam_wise": "Denaturation and Zwitter ion are standard definition questions.",
+            "core_concepts": [
+                {
+                    "concept_id": "BIO-03",
+                    "concept_title": "Amino Acids & Peptide Bond",
+                    "ncert_alignment_scope": "10.2.1 Amino Acids, 10.2.2 Structure",
+                    "definition_or_law_verbatim": "Zwitter ion: In aqueous solution, the carboxyl group can lose a proton and amino group can accept a proton, giving rise to a dipolar ion. Peptide linkage: Amide formed between -COOH and -NH2.",
+                    "concept_clarity_explanation": "Essential AA: Body cannot make (Valine, Leucine). Non-essential: Body makes (Glycine, Alanine). Primary Structure: Sequence. Secondary: Alpha-helix/Beta-sheet (H-bonds). Tertiary: Folding (S-S, H-bond, Ionic). Quaternary: Subunits.",
+                    "cognitive_layering": {
+                        "weak_student_layer": "Proteins are made of Amino Acids linked by Peptide bond. Zwitter ion has + and - charge.",
+                        "board_ready_layer": "Difference between Fibrous (Keratin, Myosin) and Globular (Insulin, Albumin) proteins.",
+                        "topper_mastery_layer": "Denaturation: Loss of biological activity due to unfolding of 2 and 3 degree structure. 1 degree structure remains intact."
+                    },
+                    "exam_intelligence": {
+                        "why_examiner_tests_this": "Biochemistry fundamentals.",
+                        "question_formats": [
+                            "2M Differentiate (Fibrous vs Globular)",
+                            "1M Definition (Denaturation)"
+                        ],
+                        "trap_patterns": [
+                            "Thinking Denaturation breaks Peptide bonds (It destroys H-bonds, not peptide bonds/primary structure).",
+                            "Is Glycine optically active? (No, it has no chiral carbon)."
+                        ],
+                        "frequent_misconceptions": [
+                            "Essential amino acids are 'essential' because we need them more (No, just because we can't synthesize them)."
+                        ]
+                    },
+                    "formula_block": [],
+                    "derivation_block": {
+                        "required": false
+                    },
+                    "numerical_archetypes": [],
+                    "chemical_equations": [],
+                    "mechanism_block": {
+                        "required": false
+                    },
+                    "diagram_json": {
+                        "diagram_required": true,
+                        "diagram_type": "Structure",
+                        "components_to_label": [
+                            "Zwitter Ion (NH3+, COO-)",
+                            "Peptide Bond (-CO-NH-)",
+                            "Alpha Helix (H-bonding)"
+                        ],
+                        "concept_tested_through_diagram": "Protein Architecture",
+                        "common_exam_twist": "Draw the zwitter ion of Alanine"
+                    },
+                    "direct_ncert_question_triggers": [
+                        "Intext 10.4",
+                        "Example 10.2"
+                    ]
+                }
+            ],
+            "rapid_revision_block": {
+                "ultra_compact_revision": "Amino Acids: Amphoteric (Zwitter ion). Essential (Valine, Lysine). Bond: Peptide. Structure: 1 (Sequence), 2 (Helix/Sheet), 3 (Folding), 4 (Subunits). Denaturation: Unfolding (Egg boiling), 1 deg structure safe.",
+                "must_remember_points": [
+                    "Insulin is a globular protein.",
+                    "Keratin (hair) is a fibrous protein."
+                ],
+                "formula_snapshot": []
+            }
+        },
+        {
+            "ncert_section": "10.3 & 10.4",
+            "section_title": "Vitamins & Nucleic Acids",
+            "section_importance_signal": "Medium",
+            "why_section_matters_exam_wise": "Vitamin table is pure memory. DNA/RNA differences are guaranteed marks.",
+            "core_concepts": [
+                {
+                    "concept_id": "BIO-04",
+                    "concept_title": "Vitamins",
+                    "ncert_alignment_scope": "10.3 Vitamins",
+                    "definition_or_law_verbatim": "Fat soluble: A, D, E, K (Stored in liver/fat). Water soluble: B, C (Excreted in urine, must be supplied regularly).",
+                    "concept_clarity_explanation": "Deficiencies: A-Night blindness, C-Scurvy, D-Rickets, B1-Beri Beri, B12-Pernicious Anaemia. Vitamin B12 is the only B vitamin stored in liver.",
+                    "cognitive_layering": {
+                        "weak_student_layer": "Memorize: C=Scurvy, D=Rickets, A=Eyes. B/C are water soluble.",
+                        "board_ready_layer": "Why must Vitamin C be taken regularly? (Water soluble, excreted).",
+                        "topper_mastery_layer": "Chemical names (Ascorbic acid, Retinol, etc.) - Enrichment."
+                    },
+                    "exam_intelligence": {
+                        "why_examiner_tests_this": "Health awareness.",
+                        "question_formats": [
+                            "MCQ (Match deficiency)",
+                            "1M Reasoning"
+                        ],
+                        "trap_patterns": [
+                            "Which vitamin is stored in the body? (Fat soluble ones).",
+                            "Is Vitamin H (Biotin) water soluble? (Yes)."
+                        ],
+                        "frequent_misconceptions": []
+                    },
+                    "formula_block": [],
+                    "derivation_block": {
+                        "required": false
+                    },
+                    "numerical_archetypes": [],
+                    "chemical_equations": [],
+                    "mechanism_block": {
+                        "required": false
+                    },
+                    "diagram_json": {
+                        "diagram_required": false
+                    },
+                    "direct_ncert_question_triggers": [
+                        "Intext 10.5"
+                    ]
+                },
+                {
+                    "concept_id": "BIO-05",
+                    "concept_title": "Nucleic Acids (DNA/RNA)",
+                    "ncert_alignment_scope": "10.4 Nucleic Acids",
+                    "definition_or_law_verbatim": "Nucleoside: Base + Sugar. Nucleotide: Base + Sugar + Phosphate. Linkage: Phosphodiester linkage (between 3' and 5' carbons).",
+                    "concept_clarity_explanation": "DNA: Deoxyribose, Bases A, G, C, T. Double Helix. RNA: Ribose, Bases A, G, C, U (Uracil replaces Thymine). Single strand. Chargaff's Rule: A=T (2 H-bonds), G=C (3 H-bonds).",
+                    "cognitive_layering": {
+                        "weak_student_layer": "DNA has T, RNA has U. DNA is genetic material.",
+                        "board_ready_layer": "Identify the 5' and 3' ends. Difference in sugar structure (2'-OH missing in DNA).",
+                        "topper_mastery_layer": "Why is DNA more stable than RNA? (Lack of 2'-OH makes it less reactive to hydrolysis)."
+                    },
+                    "exam_intelligence": {
+                        "why_examiner_tests_this": "Genetic basis of life.",
+                        "question_formats": [
+                            "2M Differentiate DNA/RNA",
+                            "1M Structure of Nucleotide"
+                        ],
+                        "trap_patterns": [
+                            "Does DNA contain Uracil? (No).",
+                            "What is the linkage between base and sugar? (N-glycosidic linkage, not Phosphodiester)."
+                        ],
+                        "frequent_misconceptions": [
+                            "Nucleoside has phosphate (No, NucleoTide has phosphate)."
+                        ]
+                    },
+                    "formula_block": [],
+                    "derivation_block": {
+                        "required": false
+                    },
+                    "numerical_archetypes": [],
+                    "chemical_equations": [],
+                    "mechanism_block": {
+                        "required": false
+                    },
+                    "diagram_json": {
+                        "diagram_required": true,
+                        "diagram_type": "Structure",
+                        "components_to_label": [
+                            "Sugar-Phosphate backbone",
+                            "Base pairs (A=T, G=C)",
+                            "N-glycosidic bond"
+                        ],
+                        "concept_tested_through_diagram": "Double Helix",
+                        "common_exam_twist": "Identify the 3' and 5' ends."
+                    },
+                    "direct_ncert_question_triggers": [
+                        "Example 10.4",
+                        "Intext 10.6"
+                    ]
+                }
+            ],
+            "rapid_revision_block": {
+                "ultra_compact_revision": "Vitamins: Water (B, C), Fat (A, D, E, K). Nucleic Acids: Nucleotide = Base+Sugar+Phosphate. DNA: ATGC, Deoxyribose. RNA: AUGC, Ribose. Linkage: Phosphodiester.",
+                "must_remember_points": [
+                    "Vitamin B12 contains Cobalt.",
+                    "ATP is the energy currency (Nucleotide derivative)."
+                ],
+                "formula_snapshot": []
+            }
+        }
+    ],
+    "chapter_master_control": {
+        "high_probability_areas_2026": [
+            "Reactions of Glucose (HI, Br2 water, HNO3)",
+            "Differences between DNA and RNA",
+            "Denaturation of proteins definition",
+            "Deficiency diseases of Vitamin C, D, B12",
+            "Structure of Zwitter ion"
+        ],
+        "derivations_to_memorize": [],
+        "examples_that_must_not_be_confused": [
+            "Nucleoside (Base+Sugar) vs Nucleotide (Base+Sugar+Phosphate)",
+            "Fibrous (insoluble) vs Globular (soluble) proteins"
+        ],
+        "comparison_tables_to_build": [
+            "DNA vs RNA",
+            "Amylose vs Amylopectin",
+            "Globular vs Fibrous Proteins"
+        ],
+        "case_based_angles": [
+            "Diabetes (Insulin and Glucose monitoring)",
+            "DNA Fingerprinting (Unique base sequence)"
+        ],
+        "cross_chapter_linkages": [
+            "Solutions (Osmotic pressure of macromolecules)",
+            "Chemistry in Everyday Life (Artificial sweeteners - if in syllabus)"
+        ],
+        "last_minute_revision_strategy": "Memorize the Vitamin Table. Practice drawing Haworth structures of Maltose and Sucrose. Review the 5 Glucose reactions."
+    },
+    "formula_trigger_engine": [
+        {
+            "trigger_situation": "Evidence for Straight Chain structure of Glucose",
+            "student_should_think": "Prolonged heating with HI",
+            "correct_formula_latex": "C_6H_{12}O_6 \\xrightarrow{HI, \\Delta} \\text{n-Hexane}",
+            "why_this_formula": "Reduction of all -OH and -CHO groups to -CH2-/-CH3 proves the carbon skeleton is unbranched.",
+            "common_wrong_formula": "Reaction with HCN (This proves presence of Carbonyl group, not straight chain).",
+            "unit_or_sign_trap": "Must specify 'Prolonged heating'. Mild reaction might not reduce completely."
+        },
+        {
+            "trigger_situation": "Evidence for Aldehyde group in Glucose",
+            "student_should_think": "Mild Oxidation (Bromine Water)",
+            "correct_formula_latex": "\\text{Glucose} \\xrightarrow{Br_2(aq)} \\text{Gluconic Acid}",
+            "why_this_formula": "Bromine water selectively oxidizes -CHO to -COOH. It does not oxidize ketones or alcohols easily.",
+            "common_wrong_formula": "Reaction with HNO3 (Strong oxidant oxidizes BOTH aldehyde and primary alcohol to Saccharic acid).",
+            "unit_or_sign_trap": "Gluconic acid (Mono-carboxylic). Saccharic acid (Di-carboxylic)."
+        },
+        {
+            "trigger_situation": "Number of Peptide Bonds in a Polypeptide",
+            "student_should_think": "Dehydration synthesis count",
+            "correct_formula_latex": "\\text{Peptide Bonds} = n - 1",
+            "why_this_formula": "n = number of amino acids linked. One water molecule lost per linkage.",
+            "common_wrong_formula": "Peptide bonds = n (Incorrect, ends are free).",
+            "unit_or_sign_trap": "A 'Tripeptide' has 3 amino acids but only 2 peptide bonds."
+        }
+    ],
+    "numerical_pattern_lab": [
+        {
+            "problem_archetype": "Chargaff's Rule Calculation (DNA Base Pairing)",
+            "recognition_signal": "Given % of Adenine, find % of Cytosine.",
+            "step_sequence": [
+                "1. Recall A pairs with T, G pairs with C.",
+                "2. %A = %T.",
+                "3. %G = %C.",
+                "4. %A + %T + %G + %C = 100.",
+                "5. Example: If A=20%, T=20%. Remaining 60% is G+C. So G=30%, C=30%."
+            ],
+            "time_target_seconds": "45",
+            "hidden_exam_trap": "Applying this rule to RNA (Single stranded viruses usually don't follow Chargaff's rule exactly, and RNA has Uracil instead of Thymine)."
+        },
+        {
+            "problem_archetype": "Isoelectric Point (pI) Logic",
+            "recognition_signal": "Amino acid behavior in electric field at pH = pI.",
+            "step_sequence": [
+                "1. At pH < pI: Amino acid becomes Cation (moves to Cathode).",
+                "2. At pH > pI: Amino acid becomes Anion (moves to Anode).",
+                "3. At pH = pI: Zwitter ion (Net charge 0, No movement)."
+            ],
+            "time_target_seconds": "60",
+            "hidden_exam_trap": "Assuming Zwitter ion has NO charge. It has both + and - charges, but NET charge is zero."
+        }
+    ],
+    "mechanism_classification_trainer": [
+        {
+            "reaction_scenario": "Sugar + Fehling's Solution or Tollen's Reagent",
+            "student_must_identify": "Reducing vs Non-Reducing Sugar",
+            "correct_classification": "Free Aldehyde/Ketone/Hemiacetal group -> Reducing. Bonded (Acetal) -> Non-reducing.",
+            "decision_logic": "All Monosaccharides are Reducing. Disaccharides: Maltose/Lactose (Reducing), Sucrose (Non-reducing).",
+            "common_confusion": "Thinking Fructose is non-reducing because it's a ketone. (False, alpha-hydroxy ketones tautomerize to aldehydes in base, so Fructose IS reducing)."
+        },
+        {
+            "reaction_scenario": "Protein treated with Heat/Acid",
+            "student_must_identify": "Denaturation",
+            "correct_classification": "Loss of Biological Activity.",
+            "decision_logic": "Hydrogen bonds break. Globules unfold to helix, helix uncoils. Primary structure (Sequence) remains INTACT.",
+            "common_confusion": "Thinking peptide bonds break during denaturation (They break during Hydrolysis, not Denaturation)."
+        }
+    ],
+    "reaction_pathway_mapper": [
+        {
+            "starting_functional_group": "Sucrose (C12H22O11)",
+            "target_functional_group": "Invert Sugar (Glucose + Fructose)",
+            "possible_routes": [
+                "Hydrolysis with Dilute Acid or Invertase enzyme."
+            ],
+            "key_reagents": [
+                "H3O+",
+                "Invertase"
+            ],
+            "exam_conversion_pattern": "Optical rotation changes from Dextro (+66.5) to Levo (Net -20). Hence 'Inversion' of cane sugar."
+        },
+        {
+            "starting_functional_group": "D-Glucose",
+            "target_functional_group": "Alpha-D-Glucopyranose (Cyclic)",
+            "possible_routes": [
+                "Intramolecular Hemiacetal formation (C1 aldehyde reacts with C5 -OH)."
+            ],
+            "key_reagents": [
+                "Spontaneous in aqueous solution"
+            ],
+            "exam_conversion_pattern": "Mutarotation: Alpha form (+112) <-> Equilibrium (+52.5) <-> Beta form (+19). Specific rotation change."
+        }
+    ],
+    "inorganic_comparison_arena": [
+        {
+            "entities_compared": [
+                "DNA",
+                "RNA"
+            ],
+            "rapid_fire_questions": [
+                "Sugar unit?",
+                "Unique Base?"
+            ],
+            "correct_insight": "DNA: Deoxyribose (No O at C2), Thymine. RNA: Ribose (OH at C2), Uracil.",
+            "examiner_trap": "Thinking DNA is more reactive. DNA is more stable (missing 2'-OH prevents self-hydrolysis, Thymine is more stable than Uracil)."
+        },
+        {
+            "entities_compared": [
+                "Amylose",
+                "Amylopectin"
+            ],
+            "rapid_fire_questions": [
+                "Water solubility?",
+                "Branching?"
+            ],
+            "correct_insight": "Amylose: Water soluble, Linear (C1-C4). Amylopectin: Insoluble, Branched (C1-C6 at branch).",
+            "examiner_trap": "Starch is a mixture of both. Iodine test is given by Amylose (Blue-black complex)."
+        }
+    ],
+    "exception_bank": [
+        {
+            "general_trend": "Amino acids are optically active.",
+            "exception": "Glycine",
+            "why_exception_occurs": "Side chain is -H. The alpha-carbon is achiral (NH2-CH2-COOH).",
+            "exam_question_style": "Which amino acid does not rotate plane polarized light?"
+        },
+        {
+            "general_trend": "Vitamins must be supplied by diet.",
+            "exception": "Vitamin D and K (Synthesis in body/gut).",
+            "why_exception_occurs": "D synthesized in skin by sunlight. K by gut bacteria.",
+            "exam_question_style": "Identify the vitamin synthesized by exposure to sunlight."
+        },
+        {
+            "general_trend": "Carbohydrates fit formula Cx(H2O)y.",
+            "exception": "Rhamnose (C6H12O5), Deoxyribose (C5H10O4) do not fit. Acetic Acid (C2H4O2) fits but is not sugar.",
+            "why_exception_occurs": "Historical definition based on 'Hydrates of Carbon' is flawed.",
+            "exam_question_style": "Give an example of a carbohydrate that doesn't follow the general formula."
+        }
+    ],
+    "diagram_activation_zone": [
+        {
+            "diagram_type": "Haworth Projection of Glucose",
+            "what_student_must_instantly_recognize": " Pyranose ring (6 membered with O). Alpha: -OH at C1 is DOWN. Beta: -OH at C1 is UP.",
+            "exam_twist_pattern": "Anomers differ ONLY at C1 configuration."
+        },
+        {
+            "diagram_type": "Zwitter Ion Structure",
+            "what_student_must_instantly_recognize": " NH3+ and COO- present simultaneously. R group determines nature (Acidic/Basic/Neutral).",
+            "exam_twist_pattern": "In highly acidic medium, COO- becomes COOH (Cation). In basic, NH3+ becomes NH2 (Anion)."
+        }
+    ],
+    "30_minute_rapid_revision_mode": {
+        "top_10_trigger_points": [
+            "Glycosidic Linkage -> Ether bond between sugars (C-O-C).",
+            "Peptide Linkage -> Amide bond between amino acids (-CO-NH-).",
+            "Phosphodiester Linkage -> Backbone of Nucleic Acids.",
+            "Essential Amino Acids -> Valine, Leucine, Isoleucine, Lysine, etc. (Must eat).",
+            "Globular Proteins -> Soluble, Enzymatic (Egg albumin).",
+            "Fibrous Proteins -> Insoluble, Structural (Keratin, Myosin).",
+            "Vitamin C -> Ascorbic acid, destroyed by heat, prevents Scurvy.",
+            "Vitamin B12 -> Contains Cobalt, pernicious anaemia.",
+            "Glucose + HNO3 -> Saccharic Acid (Primary alcohol oxidation).",
+            "Acetylation of Glucose -> Pentaacetate (Proves 5 -OH groups)."
+        ],
+        "top_5_numerical_traps": [
+            "Number of water molecules lost in polymerisation (n-1).",
+            "Counting stereoisomers of Glucose (2^4 = 16).",
+            "Chargaff rule calculation errors.",
+            "Confusion between Nucleoside (Base+Sugar) and Nucleotide (Base+Sugar+Phosphate).",
+            "Invert sugar rotation calculation (Weighted average)."
+        ],
+        "top_5_conversion_patterns": [
+            "Starch -> Maltose -> Glucose",
+            "Sucrose -> Glucose + Fructose",
+            "Glucose -> n-Hexane",
+            "Glucose -> Oxime (reacts with NH2OH)",
+            "Glucose -> Cyanohydrin (reacts with HCN)"
+        ],
+        "top_5_inorganic_exceptions": [],
+        "top_3_derivation_flash_prompts": [
+            "Elucidate the structure of Glucose using reaction evidences.",
+            "Explain the mechanism of Mutarotation (Cyclic hemiacetal opening/closing).",
+            "Differentiate between DNA and RNA structurally and functionally."
+        ]
+    },
+    
+  "visual_elements": [
+    {
+      "ncert_section": "10.1.2",
+      "visual_id": "Structure_Glucose_Cyclic",
+      "visual_type": "Molecular Structure Diagram",
+      "visual_title": "Cyclic Structure of Glucose (Fischer & Haworth Projections)",
+      "what_the_visual_represents": "The equilibrium between open-chain and cyclic hemiacetal forms (Anomers).",
+      "axes_or_components": {
+        "x_axis": "N/A",
+        "y_axis": "N/A",
+        "important_labels": [
+          "C1 Carbon (Anomeric Carbon)",
+          "alpha-D-Glucose (-OH on right/down)",
+          "beta-D-Glucose (-OH on left/up)",
+          "Pyranose Ring (6-membered)",
+          "Hemiacetal linkage (-O- between C1 and C5)"
+        ],
+        "key_points_to_mark": [
+          "Difference at C1 configuration",
+          "Absence of free -CHO group in cyclic form"
+        ]
+      },
+      "mechanism_steps": {
+        "required": true,
+        "stepwise_flow": [
+          "Nucleophilic attack of C5-OH on C1-Aldehyde group.",
+          "Formation of cyclic Hemiacetal.",
+          "Generation of two isomers (Alpha and Beta) differing at C1."
+        ],
+        "intermediates": [],
+        "rate_determining_step": "",
+        "stereochemical_outcome": "Anomers (Diastereomers)",
+        "energy_profile_description": ""
+      },
+      "exam_question_patterns": [
+        {
+          "question_type": "3M",
+          "how_examiner_frames_it": "Draw the Haworth structures of alpha-D-(+)-Glucopyranose and beta-D-(+)-Glucopyranose. What is the relationship between them?",
+          "student_must_do": "Draw hexagon with Oxygen at top-right. Alpha: OH down at C1. Beta: OH up at C1. Identify them as 'Anomers'."
+        },
+        {
+          "question_type": "2M / Reasoning",
+          "how_examiner_frames_it": "Why does glucose not give Schiff's test despite having an aldehyde group?",
+          "student_must_do": "Explain that the -CHO group is involved in the cyclic hemiacetal bond and is not free."
+        }
+      ],
+      "graph_interpretation_traps": [
+        "Confusing Alpha (OH down) with Beta (OH up). Mnemonic: 'Beta is Better' (Up/Top).",
+        "Drawing Furanose (5-membered) instead of Pyranose (6-membered) for Glucose."
+      ],
+      "labeling_mistakes_students_make": [
+        " Numbering carbons counter-clockwise (Standard is clockwise starting from C1)."
+      ],
+      "derivation_link_if_any": "",
+      "real_life_application_if_any": "Blood sugar monitoring."
+    },
+    {
+      "ncert_section": "10.2.3",
+      "visual_id": "Structure_Peptide_Bond",
+      "visual_type": "Mechanism Schematic",
+      "visual_title": "Formation of Peptide Linkage",
+      "what_the_visual_represents": "Condensation reaction between amino group of one amino acid and carboxyl group of another.",
+      "axes_or_components": {
+        "x_axis": "N/A",
+        "y_axis": "N/A",
+        "important_labels": [
+          "N-terminal (Amino end)",
+          "C-terminal (Carboxyl end)",
+          "Peptide Bond (-CO-NH-)",
+          "Water molecule elimination"
+        ],
+        "key_points_to_mark": [
+          "Planarity of the amide bond (Partial double bond character)"
+        ]
+      },
+      "mechanism_steps": {
+        "required": true,
+        "stepwise_flow": [
+          "COOH of AA1 + NH2 of AA2 -> -CO-NH- + H2O"
+        ],
+        "intermediates": [],
+        "rate_determining_step": "",
+        "stereochemical_outcome": "",
+        "energy_profile_description": ""
+      },
+      "exam_question_patterns": [
+        {
+          "question_type": "2M",
+          "how_examiner_frames_it": "Draw the structure of the dipeptide Gly-Ala.",
+          "student_must_do": "Draw Glycine (H-R group) on left, Alanine (CH3-R group) on right. Connect with -CO-NH- bond."
+        }
+      ],
+      "graph_interpretation_traps": [
+        "Thinking Gly-Ala is same as Ala-Gly (Sequence matters: N-terminal vs C-terminal).",
+        "Hydrolysing the bond incorrectly."
+      ],
+      "labeling_mistakes_students_make": [
+        "Writing -NH-CO- instead of -CO-NH- (Directionality convention)."
+      ],
+      "derivation_link_if_any": "",
+      "real_life_application_if_any": "Insulin structure, Synthetic sweeteners (Aspartame)."
+    },
+    {
+      "ncert_section": "10.2.4",
+      "visual_id": "Structure_Protein_Secondary",
+      "visual_type": "Schematic Diagram",
+      "visual_title": "Secondary Structure of Proteins (Alpha-Helix vs Beta-Pleated Sheet)",
+      "what_the_visual_represents": "Folding of polypeptide chains stabilized by Hydrogen bonding.",
+      "axes_or_components": {
+        "x_axis": "N/A",
+        "y_axis": "N/A",
+        "important_labels": [
+          "Alpha-Helix: Intramolecular H-bonds (C=O of residue i with N-H of residue i+4)",
+          "Beta-Sheet: Intermolecular H-bonds (between different strands)",
+          "Right-handed Screw"
+        ],
+        "key_points_to_mark": [
+          "H-bonds run parallel to axis in Helix",
+          "R-groups stick out"
+        ]
+      },
+      "mechanism_steps": {
+        "required": false,
+        "stepwise_flow": [],
+        "intermediates": [],
+        "rate_determining_step": "",
+        "stereochemical_outcome": "",
+        "energy_profile_description": ""
+      },
+      "exam_question_patterns": [
+        {
+          "question_type": "2M",
+          "how_examiner_frames_it": "Differentiate between alpha-helix and beta-pleated sheet structures.",
+          "student_must_do": "Compare H-bonding pattern (Intra vs Inter) and shape (Coiled vs Sheet-like)."
+        },
+        {
+          "question_type": "1M",
+          "how_examiner_frames_it": "What type of bonding stabilises the secondary structure?",
+          "student_must_do": "Hydrogen bonding."
+        }
+      ],
+      "graph_interpretation_traps": [
+        "Confusing Secondary structure with Tertiary (Folding of the helix itself).",
+        "Thinking all proteins have alpha-helix (some are beta-sheet dominant like Silk)."
+      ],
+      "labeling_mistakes_students_make": [
+        "Drawing H-bonds between R-groups (Secondary structure H-bonds are backbone-backbone; Tertiary are R-group interactions)."
+      ],
+      "derivation_link_if_any": "",
+      "real_life_application_if_any": "Keratin (Hair - Helix), Silk (Sheet)."
+    },
+    {
+      "ncert_section": "10.1.3",
+      "visual_id": "Structure_Glycosidic",
+      "visual_type": "Molecular Structure Diagram",
+      "visual_title": "Glycosidic Linkage in Disaccharides (Sucrose, Maltose, Lactose)",
+      "what_the_visual_represents": "How monosaccharides join; reducing vs non-reducing nature.",
+      "axes_or_components": {
+        "x_axis": "N/A",
+        "y_axis": "N/A",
+        "important_labels": [
+          "Sucrose: C1(Glu) - C2(Fru) linkage (Non-reducing)",
+          "Maltose: C1(Glu) - C4(Glu) linkage (Reducing)",
+          "Lactose: C1(Gal) - C4(Glu) linkage (Reducing)"
+        ],
+        "key_points_to_mark": [
+          "In Sucrose, both reducing groups (Aldehyde/Ketone) are involved in bonding."
+        ]
+      },
+      "mechanism_steps": {
+        "required": false,
+        "stepwise_flow": [],
+        "intermediates": [],
+        "rate_determining_step": "",
+        "stereochemical_outcome": "",
+        "energy_profile_description": ""
+      },
+      "exam_question_patterns": [
+        {
+          "question_type": "3M",
+          "how_examiner_frames_it": "Draw the structure of Sucrose and explain why it is a non-reducing sugar.",
+          "student_must_do": "Draw Glucose and Fructose joined by C1-C2-O- bond. Explain absence of free hemiacetal -OH group."
+        },
+        {
+          "question_type": "1M",
+          "how_examiner_frames_it": "What are the hydrolysis products of Lactose?",
+          "student_must_do": "Beta-D-Galactose and Beta-D-Glucose."
+        }
+      ],
+      "graph_interpretation_traps": [
+        "Drawing Sucrose linkage as C1-C4 (It is C1-C2).",
+        "Assuming all disaccharides are reducing (Sucrose is the exception)."
+      ],
+      "labeling_mistakes_students_make": [
+        "Confusing Galactose structure with Glucose (Galactose is C4 epimer - OH up at C4)."
+      ],
+      "derivation_link_if_any": "",
+      "real_life_application_if_any": "Lactose intolerance, Invert sugar (Honey)."
+    },
+    {
+      "ncert_section": "10.5",
+      "visual_id": "Structure_DNA",
+      "visual_type": "Schematic Diagram",
+      "visual_title": "Double Strand Helix Structure of DNA",
+      "what_the_visual_represents": "Watson-Crick model, complementarity, and directionality.",
+      "axes_or_components": {
+        "x_axis": "N/A",
+        "y_axis": "N/A",
+        "important_labels": [
+          "Sugar-Phosphate Backbone",
+          "Base Pairs (Steps of ladder)",
+          "A=T (Double H-bond)",
+          "G≡C (Triple H-bond)",
+          "5' end and 3' end (Antiparallel)"
+        ],
+        "key_points_to_mark": [
+          "Complementary strands",
+          "Right-handed coil"
+        ]
+      },
+      "mechanism_steps": {
+        "required": false,
+        "stepwise_flow": [],
+        "intermediates": [],
+        "rate_determining_step": "",
+        "stereochemical_outcome": "",
+        "energy_profile_description": ""
+      },
+      "exam_question_patterns": [
+        {
+          "question_type": "2M",
+          "how_examiner_frames_it": "Explain the term 'complementary' regarding DNA strands.",
+          "student_must_do": "A always pairs with T, G with C. If sequence of one strand is known, other can be predicted."
+        }
+      ],
+      "graph_interpretation_traps": [
+        "Pairing A with G or C with T.",
+        "Drawing strands parallel (Must be antiparallel 5'->3' and 3'->5')."
+      ],
+      "labeling_mistakes_students_make": [
+        "Confusing Nucleoside (Base+Sugar) with Nucleotide (Base+Sugar+Phosphate)."
+      ],
+      "derivation_link_if_any": "",
+      "real_life_application_if_any": "DNA Fingerprinting, Forensic science."
+    }
+  ],
+  "diagram_master_revision": {
+    "must_draw_diagrams": [
+      "Haworth projection of Alpha-D-Glucopyranose",
+      "Zwitterion structure of Amino Acids (Alanine)",
+      "Peptide linkage formation",
+      "Schematic of DNA Double Helix"
+    ],
+    "must_interpret_graphs": [
+      "No major graphs in this chapter, mostly structures."
+    ],
+    "must_explain_mechanisms": [
+      "Formation of Cyclic Hemiacetal in Glucose",
+      "Denaturation of Proteins (Loss of 2°/3° structure, retention of 1°)"
+    ],
+    "top_5_visual_traps": [
+      "Drawing Glucose as a 5-membered ring (It's 6).",
+      "Putting OH on the left at C1 for Alpha-Glucose (Alpha is Down/Right).",
+      "Identifying Sucrose as a Reducing Sugar.",
+      "Thinking Denaturation destroys Primary structure (It remains intact).",
+      "Confusing Nucleotide (with Phosphate) vs Nucleoside (without)."
+    ]
+  }
+
+}

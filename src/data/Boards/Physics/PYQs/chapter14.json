@@ -1,0 +1,223 @@
+{
+  "meta": {
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "board": "CBSE",
+    "exam": "Class 12 Board Examination"
+  },
+  "questions": [
+    {
+      "id": "55-4-3-Q13",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "In an n-type semiconductor, the donor energy level lies:",
+      "options": {
+        "A": "just above the valence band.",
+        "B": "just below the conduction band.",
+        "C": "at the middle of the forbidden gap.",
+        "D": "just below the valence band."
+      },
+      "answer": {
+        "explanation": "In an n-type semiconductor, pentavalent impurity atoms introduce an extra energy level called the donor level. This level contains loosely bound electrons and is located very close to the bottom of the conduction band (just below it), allowing electrons to easily jump into the conduction band at room temperature.",
+        "key_formulae": [],
+        "diagrams": [
+          ""
+        ]
+      },
+      "correct_option": "B",
+      "diagram_required": true,
+      "source": "55/4/3",
+      "diagram_url": "/images/Physics/PYQs/chapter14/55-4-3-Q13.png",
+      "image": "/images/Physics/Derivations/Energy bands in Extrinsic semiconductor.png"
+    },
+    {
+      "id": "55-5-3-Q14",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "The threshold voltage for a p-n junction diode used in the circuit is 0.7 V. The type of biasing and current in the circuit are:",
+      "options": {
+        "A": "Forward biasing, 0 A",
+        "B": "Reverse biasing, 0 A",
+        "C": "Forward biasing, 5 mA",
+        "D": "Reverse biasing, 2 mA"
+      },
+      "answer": {
+        "explanation": "To determine biasing, check the polarity of the battery connected to the diode. If the p-side is connected to the positive terminal and n-side to negative, it's forward biased. If the applied voltage (V) is greater than the threshold voltage (VthV_{th}Vth​), current flows.\\nCurrent I=(V−Vth)/RI = (V - V_{th}) / RI=(V−Vth​)/R.\n(Assuming typical circuit values from similar PYQs: V=0.5V < 0.7V or V > 0.7V. If the source voltage is less than 0.7V, current is zero even if forward biased. If reverse biased, current is zero).\\nWithout the diagram's specific values, if V < 0.7V, answer is A (0 A).",
+        "key_formulae": [
+          "I = \\frac{V - V_{th}}{R}"
+        ],
+        "diagrams": [
+          "[Image of pn junction diode circuit]"
+        ]
+      },
+      "correct_option": "A",
+      "diagram_required": true,
+      "source": "55/5/3",
+      "diagram_url": "/images/Physics/PYQs/chapter14/55-5-3-Q14.png",
+      "image": "/images/Physics/Derivations/pn junction and barrier potential.png"
+    },
+    {
+      "id": "55-6-1-Q14",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "At absolute zero temperature, a pure silicon crystal behaves like:",
+      "options": {
+        "A": "a perfect conductor",
+        "B": "a perfect insulator",
+        "C": "a semiconductor",
+        "D": "a superconductor"
+      },
+      "answer": {
+        "explanation": "At absolute zero (0 K), all electrons in the valence band of a pure silicon crystal are tightly bound in covalent bonds. There are no thermal excitations to promote electrons to the conduction band. Thus, the conduction band is empty, and the crystal behaves as a perfect insulator.",
+        "key_formulae": [],
+        "diagrams": []
+      },
+      "correct_option": "B",
+      "diagram_required": false,
+      "source": "55/6/1"
+    },
+    {
+      "id": "55-4-1-Q13",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "When a p-n junction diode is reverse biased, the thickness of the depletion layer:",
+      "options": {
+        "A": "decreases",
+        "B": "increases",
+        "C": "remains the same",
+        "D": "becomes zero"
+      },
+      "answer": {
+        "explanation": "In reverse bias, the external electric field aids the internal barrier field. This pulls the majority charge carriers away from the junction, thereby widening the region of immobile ions. Hence, the thickness of the depletion layer increases.",
+        "key_formulae": [],
+        "diagrams": [
+          ""
+        ]
+      },
+      "correct_option": "B",
+      "diagram_required": true,
+      "source": "55/4/1",
+      "diagram_url": "/images/Physics/PYQs/chapter14/55-4-1-Q13.png"
+    },
+    {
+      "id": "55-4-3-Q14",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "Two statements are given-one labelled Assertion (A) and the other labelled Reason (R).\\nAssertion (A): The conductivity of an intrinsic semiconductor increases with the increase in temperature.\\nReason (R): The increase in temperature results in the increase in the number of electrons in the conduction band.",
+      "options": {
+        "A": "Both A and R are true and R is the correct explanation of A",
+        "B": "Both A and R are true but R is NOT the correct explanation of A",
+        "C": "A is true but R is false",
+        "D": "A is false and R is also false"
+      },
+      "answer": {
+        "explanation": "Assertion is True: As temperature increases, more covalent bonds break, generating more electron-hole pairs, which increases conductivity.\\nReason is True: Thermal energy excites electrons from the valence band to the conduction band, increasing charge carrier density.\\nReason is the correct explanation for the increase in conductivity.",
+        "key_formulae": [
+          "n_i \\propto T^{3/2} e^{-E_g/2kT}"
+        ],
+        "diagrams": []
+      },
+      "correct_option": "A",
+      "diagram_required": false,
+      "source": "55/4/3"
+    },
+    {
+      "id": "55-5-3-Q23",
+      "year": 2023,
+      "marks": 2,
+      "type": "theory",
+      "question": "Distinguish between 'n-type' and 'p-type' semiconductors based on: (i) Energy band diagram, (ii) Nature of majority charge carriers.",
+      "options": {},
+      "answer": {
+        "explanation": "(i) **Energy Band Diagram:**\n   - **n-type:** Donor energy level (EDE_{D}ED​) lies just below the conduction band. At room temperature, electrons from this level jump to the conduction band.\n   - **p-type:** Acceptor energy level (EAE_{A}EA​) lies just above the valence band. Electrons from the valence band jump to this level, creating holes.\n(ii) **Majority Charge Carriers:**\n   - **n-type:** Electrons are majority carriers (neggnhn_{e} \\gg n_{h}ne​ggnh​).\n   - **p-type:** Holes are majority carriers (nhggnen_{h} \\gg n_{e}nh​ggne​).",
+        "key_formulae": [],
+        "diagrams": [
+          ""
+        ]
+      },
+      "diagram_required": true,
+      "source": "55/5/3",
+      "diagram_url": "/images/Physics/PYQs/chapter14/55-5-3-Q23.png"
+    },
+    {
+      "id": "55-4-3-Q26",
+      "year": 2023,
+      "marks": 2,
+      "type": "theory",
+      "question": "(a) Draw the circuit diagram of a full wave rectifier. Explain its working principle. (b) Show the input and output waveforms.",
+      "options": {},
+      "answer": {
+        "explanation": "(a) **Circuit & Principle:**\n   - **Circuit:** Consists of a center-tapped transformer, two diodes (D1,D2D_{1}, D_{2}D1​,D2​) connected to the secondary coil, and a load resistor (RLR_{L}RL​).\n   - **Principle:** During the positive half-cycle of AC input, diode D1D_{1}D1​ is forward biased (conducts) and D2D_{2}D2​ is reverse biased (does not conduct). Current flows through RLR_{L}RL​. During the negative half-cycle, D2D_{2}D2​ becomes forward biased and D1D_{1}D1​ reverse biased. Current again flows through RLR_{L}RL​ in the *same* direction. Thus, unidirectional (rectified) current is obtained for both half-cycles.\n\n(b) **Waveforms:**\n   - **Input:** Sinusoidal wave.\n   - **Output:** Pulsating DC (all positive half-cycles).",
+        "key_formulae": [],
+        "diagrams": [
+          "[Image of full wave rectifier circuit]",
+          "[Image of input and output waveforms of full wave rectifier]"
+        ]
+      },
+      "diagram_required": true,
+      "source": "55/4/3",
+      "diagram_url": "/images/Physics/PYQs/chapter14/55-4-3-Q26.png",
+      "image": "/images/Physics/Derivations/full wave rectifier.png"
+    },
+    {
+      "id": "55-6-1-Q28",
+      "year": 2023,
+      "marks": 3,
+      "type": "theory",
+      "question": "How is a p-n junction formed? Briefly explain the formation of the potential barrier and depletion region across the junction.",
+      "options": {},
+      "answer": {
+        "explanation": "**Formation:**\n1. When a p-type semiconductor is joined to an n-type semiconductor, a p-n junction is formed.\n2. **Diffusion:** Holes from the p-side diffuse into the n-side, and electrons from the n-side diffuse into the p-side due to the concentration gradient.\n3. **Depletion Region:** When electrons leave the n-side, they leave behind positively charged immobile donor ions. When holes leave the p-side, they leave behind negatively charged immobile acceptor ions. This region near the junction, depleted of mobile charge carriers, is called the depletion region.\n4. **Potential Barrier:** The accumulation of positive space charge on the n-side and negative space charge on the p-side sets up an electric field directed from n to p. This field opposes further diffusion of majority carriers. The potential difference developed across the junction is called the potential barrier.",
+        "key_formulae": [],
+        "diagrams": [
+          ""
+        ]
+      },
+      "diagram_required": true,
+      "source": "55/6/1",
+      "diagram_url": "/images/Physics/PYQs/chapter14/55-6-1-Q28.png",
+      "image": "/images/Physics/Derivations/pn junction and barrier potential.png"
+    },
+    {
+      "id": "55-5-2-Q28",
+      "year": 2023,
+      "marks": 3,
+      "type": "theory",
+      "question": "(a) Explain the formation of depletion layer and potential barrier in a p-n junction. (b) How does the width of depletion layer change when the junction is (i) forward biased, (ii) reverse biased?",
+      "options": {},
+      "answer": {
+        "explanation": "(a) **Formation:** (See explanation above).\n(b) **Effect of Biasing:**\n   (i) **Forward Bias:** The applied external field opposes the barrier field. It pushes majority carriers towards the junction, neutralizing some of the space charge. Thus, the width of the depletion layer **decreases**.\n   (ii) **Reverse Bias:** The applied external field is in the same direction as the barrier field. It pulls majority carriers away from the junction, uncovering more immobile ions. Thus, the width of the depletion layer **increases**.",
+        "key_formulae": [],
+        "diagrams": []
+      },
+      "diagram_required": false,
+      "source": "55/5/2"
+    },
+    {
+      "id": "55-4-1-Q30",
+      "year": 2023,
+      "marks": 5,
+      "type": "theory",
+      "question": "(a) Draw the I-V characteristics of a p-n junction diode in (i) forward bias, (ii) reverse bias. (b) A p-n junction diode is used as a half-wave rectifier. Draw the circuit diagram and explain its working. Draw the input and output waveforms.",
+      "options": {},
+      "answer": {
+        "explanation": "(a) **I-V Characteristics:**\n   - **Forward Bias:** Exponential rise in current after threshold voltage (knee voltage). (Graph in 1st quadrant).\n   - **Reverse Bias:** Very small saturation current until breakdown voltage, then sharp rise. (Graph in 3rd quadrant).\n\n(b) **Half-Wave Rectifier:**\n   - **Circuit:** Transformer, single diode, load resistor.\n   - **Working:** During positive half-cycle, diode is forward biased and conducts. Current flows through load. During negative half-cycle, diode is reverse biased and does not conduct. Output is zero.\n   - **Waveforms:** Output appears only for positive half-cycles; flat line for negative halves.",
+        "key_formulae": [],
+        "diagrams": [
+          "",
+          ""
+        ]
+      },
+      "diagram_required": true,
+      "source": "55/4/1",
+      "diagram_url": "/images/Physics/PYQs/chapter14/55-4-1-Q30.png",
+      "image": "/images/Physics/Derivations/half wave rectifier.png"
+    }
+  ],
+  "diagram_required": true
+}

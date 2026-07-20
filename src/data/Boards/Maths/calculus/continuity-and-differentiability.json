@@ -1,0 +1,715 @@
+{
+  "chapter_name": "Continuity and Differentiability",
+  "board": "CBSE",
+  "class": "12",
+  "exam_year": "2026",
+  "formulas": [
+    {
+      "formula_number": 1,
+      "formula_title": "Condition for Continuity at a Point",
+      "section_A": {
+        "latex_formula": "$$ \\lim_{x \\to c^-} f(x) = \\lim_{x \\to c^+} f(x) = f(c) $$",
+        "derived_forms": [
+          "$$ \\lim_{h \\to 0} f(c-h) = \\lim_{h \\to 0} f(c+h) = f(c) $$",
+          "$$ \\text{If } f(x) \\text{ is continuous at } x=c, \\text{ then } \\lim_{x \\to c} f(x) = f(c) $$"
+        ],
+        "special_cases": [
+          "$$ \\text{Every polynomial, rational, sine, and cosine function is continuous in its domain.} $$",
+          "$$ |x| \\text{ is continuous everywhere but } [x] \\text{ (greatest integer) is discontinuous at all integers.} $$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "To check if a function is continuous at a specific breakpoint, or to find the value of unknown constants (like k, a, b) when a function is given as continuous.",
+        "trigger_keywords": [
+          "Discuss the continuity",
+          "Find the value of k if the function is continuous",
+          "Is the function continuous at x = c"
+        ],
+        "question_types": [
+          "2_mark",
+          "3_mark",
+          "4_mark"
+        ],
+        "common_mistakes": [
+          "Only evaluating the Left Hand Limit (LHL) and Right Hand Limit (RHL) and forgetting to check if they equal the exact function value $f(c)$.",
+          "Using direct substitution in piecewise functions without formally setting up the $h \\to 0$ limit."
+        ],
+        "board_traps": [
+          "Giving a function with three unknowns (a, b, c) and stating it is continuous at two different breakpoints. Students must set up a system of linear equations.",
+          "Functions involving $|x-a|/(x-a)$, which are classic examples of jump discontinuities."
+        ],
+        "examiner_twist_pattern": "CBSE frequently combines continuity with inverse trigonometric limits (e.g., $f(x) = \\frac{\\sin^{-1}(2x)}{x}$) to force students to use Class 11 limit properties alongside Class 12 continuity."
+      },
+      "section_C": {
+        "why_students_fail": "Students try to rely purely on algebraic simplification and forget that limits represent the approaching value, not the actual substituted value, especially around modulus or greatest integer functions.",
+        "how_to_think": "Think 'No breaks, no jumps, no holes'.  The path from the left (LHL) must meet the path from the right (RHL) exactly at the solid bridge ($f(c)$).",
+        "thirty_second_strategy": "1. Identify the 'doubtful points' (where the function definition changes). 2. Calculate LHL (replace $x$ with $c-h$). 3. Calculate RHL (replace $x$ with $c+h$). 4. Calculate $f(c)$. 5. Equate all three.",
+        "mental_shortcut": "LHL = RHL = Exact Value. If any one fails, the function is discontinuous.",
+        "micro_example": "If $f(x) = kx+1$ for $x \\le \\pi$ and $f(x) = \\cos x$ for $x > \\pi$ is continuous at $x=\\pi$. LHL $= k\\pi + 1$. RHL $= \\cos(\\pi) = -1$. Equating: $k\\pi + 1 = -1 \\implies k = -2/\\pi$."
+      }
+    },
+    {
+      "formula_number": 2,
+      "formula_title": "Condition for Differentiability at a Point",
+      "section_A": {
+        "latex_formula": "$$ \\text{LHD} = \\lim_{h \\to 0} \\frac{f(c-h) - f(c)}{-h} = \\lim_{h \\to 0} \\frac{f(c+h) - f(c)}{h} = \\text{RHD} $$",
+        "derived_forms": [
+          "$$ f'(c) = \\lim_{x \\to c} \\frac{f(x) - f(c)}{x - c} $$",
+          "$$ \\text{Differentiability implies Continuity, but Continuity does NOT imply Differentiability.} $$"
+        ],
+        "special_cases": [
+          "$$ f(x) = |x| \\text{ is continuous at } x=0 \\text{ but not differentiable there (sharp corner).} $$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "When explicitly asked to prove a function is (or isn't) differentiable at a point, particularly for modulus functions or piecewise functions.",
+        "trigger_keywords": [
+          "Examine the differentiability",
+          "Show that the function is not differentiable",
+          "Find the left hand derivative"
+        ],
+        "question_types": [
+          "3_mark",
+          "4_mark"
+        ],
+        "common_mistakes": [
+          "Forgetting the negative sign in the denominator of the LHD formula.",
+          "Trying to use standard differentiation rules (like power rule) on piecewise functions at the breakpoint instead of using first principles (limits)."
+        ],
+        "board_traps": [
+          "Asking to check differentiability of $f(x) = |x-1| + |x-2|$ at $x=1$ and $x=2$. Students often get bogged down redefining the whole function instead of just testing the specific points."
+        ],
+        "examiner_twist_pattern": "Giving a function that is not even continuous at $c$ and asking to check differentiability. Smart students will show it's discontinuous and immediately conclude it's not differentiable, saving 5 minutes."
+      },
+      "section_C": {
+        "why_students_fail": "Students confuse the rules of differentiation (calculus) with the fundamental definition of a derivative (limits). At breakpoints, formulas break down; limits are required.",
+        "how_to_think": "Think 'Smoothness'. Differentiability means you can draw exactly one unique tangent line at that point. [Image showing a smooth curve with a unique tangent vs a sharp corner curve with multiple possible tangents] Sharp turns (like modulus) or jumps have no defined slope.",
+        "thirty_second_strategy": "First, verify continuity. If discontinuous, stop—it's not differentiable. If continuous, set up the LHD and RHD limit formulas separately. Evaluate both. If they match, it's differentiable.",
+        "mental_shortcut": "Modulus functions are NEVER differentiable at their critical points (where the inside equals zero).",
+        "micro_example": "For $f(x) = |x|$ at $x=0$. LHD $= \\lim_{h \\to 0} \\frac{|0-h| - 0}{-h} = \\frac{h}{-h} = -1$. RHD $= \\lim_{h \\to 0} \\frac{|0+h| - 0}{h} = 1$. LHD $\\neq$ RHD. Not differentiable."
+      }
+    },
+    {
+      "formula_number": 3,
+      "formula_title": "Derivatives of Inverse Trigonometric Functions",
+      "section_A": {
+        "latex_formula": "$$ \\frac{d}{dx}(\\sin^{-1}x) = \\frac{1}{\\sqrt{1-x^2}}, \\quad \\frac{d}{dx}(\\cos^{-1}x) = \\frac{-1}{\\sqrt{1-x^2}} $$",
+        "derived_forms": [
+          "$$ \\frac{d}{dx}(\\tan^{-1}x) = \\frac{1}{1+x^2}, \\quad \\frac{d}{dx}(\\cot^{-1}x) = \\frac{-1}{1+x^2} $$",
+          "$$ \\frac{d}{dx}(\\sec^{-1}x) = \\frac{1}{|x|\\sqrt{x^2-1}}, \\quad \\frac{d}{dx}(\\text{cosec}^{-1}x) = \\frac{-1}{|x|\\sqrt{x^2-1}} $$"
+        ],
+        "special_cases": [
+          "$$ \\frac{d}{dx}(\\sin^{-1}f(x)) = \\frac{1}{\\sqrt{1-(f(x))^2}} \\cdot f'(x) \\quad \\text{(Chain Rule application)} $$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "Direct differentiation of inverse trigonometric terms or when using algebraic substitutions to simplify inverse functions before differentiating.",
+        "trigger_keywords": [
+          "Find dy/dx",
+          "Differentiate with respect to x"
+        ],
+        "question_types": [
+          "1_mark",
+          "2_mark"
+        ],
+        "common_mistakes": [
+          "Missing the negative sign on the co-functions (cos, cot, cosec).",
+          "Forgetting to apply the chain rule when the argument is not simply 'x'."
+        ],
+        "board_traps": [
+          "Giving $y = \\sec^{-1}\\left(\\frac{1}{2x^2-1}\\right)$. If a student differentiates this directly, it's an algebraic nightmare. They must use substitution ($x = \\cos \\theta$) to turn it into $y = 2\\cos^{-1}x$ before differentiating."
+        ],
+        "examiner_twist_pattern": "Combining inverse trig derivatives with implicit differentiation, e.g., $\\sin^{-1}(x) + \\sin^{-1}(y) = c$, asking to prove $dy/dx$ is a specific expression involving square roots."
+      },
+      "section_C": {
+        "why_students_fail": "Students try to memorize six distinct formulas instead of seeing the pattern of pairs, and they fail to combine these with the chain rule properly.",
+        "how_to_think": "Think 'Co means Negative'. Just like regular trigonometry where derivatives of cos, cot, and cosec are negative, inverse functions starting with 'c' also have a negative derivative.",
+        "thirty_second_strategy": "1. Identify the base inverse function. 2. Write its standard derivative form. 3. Replace 'x' in the formula with the inner function. 4. Multiply the whole thing by the derivative of the inner function.",
+        "mental_shortcut": "Sin/Cos have roots and $1-x^2$. Sec/Cosec have roots and $x^2-1$. Tan/Cot have no roots and $1+x^2$.",
+        "micro_example": "Differentiate $y = \\tan^{-1}(e^x)$. Standard formula is $1/(1+x^2)$. Replace $x$ with $e^x$: $1/(1+(e^x)^2)$. Multiply by derivative of $e^x$. Result: $e^x / (1+e^{2x})$."
+      }
+    },
+    {
+      "formula_number": 4,
+      "formula_title": "Logarithmic Differentiation",
+      "section_A": {
+        "latex_formula": "$$ \\text{If } y = u(x)^{v(x)}, \\text{ then } \\ln y = v(x) \\cdot \\ln u(x) \\implies \\frac{1}{y}\\frac{dy}{dx} = v(x)\\cdot\\frac{d}{dx}(\\ln u) + \\ln u\\cdot\\frac{d}{dx}(v) $$",
+        "derived_forms": [
+          "$$ \\frac{dy}{dx} = u(x)^{v(x)} \\left[ \\frac{v(x)}{u(x)} u'(x) + v'(x) \\ln u(x) \\right] $$",
+          "$$ \\text{If } y = u_1 \\cdot u_2 \\cdot \\dots \\cdot u_n, \\text{ then } \\ln y = \\ln u_1 + \\ln u_2 + \\dots + \\ln u_n $$"
+        ],
+        "special_cases": [
+          "$$ y = x^x \\implies \\frac{dy}{dx} = x^x(1 + \\ln x) $$",
+          "$$ y = a^x \\implies \\frac{dy}{dx} = a^x \\ln a $$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "Whenever you have a function raised to the power of another function (variable base to a variable power), or a product/quotient of many complex functions.",
+        "trigger_keywords": [
+          "Differentiate x^x",
+          "Find dy/dx for (sin x)^cos x",
+          "y = u^v + p^q"
+        ],
+        "question_types": [
+          "3_mark",
+          "5_mark"
+        ],
+        "common_mistakes": [
+          "Applying power rule incorrectly: $\\frac{d}{dx}(x^x) = x \\cdot x^{x-1}$. This is FATALLY wrong. Power rule only works when the exponent is a constant.",
+          "Taking logarithm directly over a sum: $\\ln(u + v) = \\ln u + \\ln v$. Logarithms do NOT distribute over addition."
+        ],
+        "board_traps": [
+          "Giving $y = x^{\\sin x} + (\\sin x)^x$. If a student writes $\\ln y = \\ln(x^{\\sin x} + (\\sin x)^x)$, they get zero. They must split it: let $u = x^{\\sin x}$, $v = (\\sin x)^x$, find $du/dx$ and $dv/dx$ separately using logs, then add them."
+        ],
+        "examiner_twist_pattern": "Using implicit equations with variable exponents like $x^y = y^x$. Students must take log on both sides $\\implies y\\ln x = x\\ln y$, then use product rule and isolate $dy/dx$."
+      },
+      "section_C": {
+        "why_students_fail": "Fundamental misunderstanding of logarithm properties, specifically trying to distribute 'log' across addition, which breaks all subsequent calculus steps.",
+        "how_to_think": "Think 'Bring the power down'. Logarithms are the mathematical tool for turning exponents into multiplication, and multiplication into addition. This makes calculus manageable.",
+        "thirty_second_strategy": "Is it Variable^Variable? Yes $\\to$ Use logs. Are terms added? Yes $\\to$ Split into $u$ and $v$, apply log to each separately. Use product rule on the RHS, and remember to multiply the original function 'y' back to the RHS at the end.",
+        "mental_shortcut": "Derivative of $u^v$ is always: (The Original Function) $\\times$ [Derivative of the exponent $\\cdot$ log(base)].",
+        "micro_example": "If $y = (\\sin x)^x$. Then $\\ln y = x \\ln(\\sin x)$. Diff: $\\frac{1}{y} y' = x \\cdot \\frac{1}{\\sin x} \\cos x + 1 \\cdot \\ln(\\sin x)$. So $y' = (\\sin x)^x [x \\cot x + \\ln(\\sin x)]$."
+      }
+    },
+    {
+      "formula_number": 5,
+      "formula_title": "Parametric Differentiation & Second Derivative",
+      "section_A": {
+        "latex_formula": "$$ \\frac{dy}{dx} = \\frac{\\frac{dy}{dt}}{\\frac{dx}{dt}} = \\frac{y'(t)}{x'(t)}, \\quad x'(t) \\neq 0 $$",
+        "derived_forms": [
+          "$$ \\frac{d^2y}{dx^2} = \\frac{d}{dx}\\left(\\frac{dy}{dx}\\right) = \\frac{d}{dt}\\left(\\frac{dy}{dx}\\right) \\cdot \\frac{dt}{dx} $$",
+          "$$ \\frac{d^2y}{dx^2} = \\frac{x'(t)y''(t) - y'(t)x''(t)}{[x'(t)]^3} $$"
+        ],
+        "special_cases": [
+          "$$ x = a \\cos \\theta, y = a \\sin \\theta \\implies \\frac{dy}{dx} = -\\cot \\theta $$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "When $x$ and $y$ are both given in terms of a third variable (parameter) like $t$ or $\\theta$, and you need to find $dy/dx$ or $d^2y/dx^2$.",
+        "trigger_keywords": [
+          "If x = a(t - sin t), y = a(1 - cos t)",
+          "Find dy/dx",
+          "Find the second derivative"
+        ],
+        "question_types": [
+          "3_mark",
+          "4_mark",
+          "5_mark"
+        ],
+        "common_mistakes": [
+          "In finding the second derivative, students just differentiate $dy/dx$ with respect to $t$ and stop. They completely forget to multiply by $dt/dx$ (the chain rule factor).",
+          "Writing $\\frac{d^2y}{dx^2} = \\frac{y''(t)}{x''(t)}$. This is completely mathematically incorrect."
+        ],
+        "board_traps": [
+          "Asking for $d^2y/dx^2$ at a specific value of $\\theta$, say $\\theta = \\pi/4$. Students often substitute the value into $dy/dx$ BEFORE differentiating a second time, resulting in a derivative of zero."
+        ],
+        "examiner_twist_pattern": "Giving complex trigonometric parametric equations where $dy/dx$ simplifies elegantly via half-angle formulas. If students don't simplify $dy/dx$ first, finding the second derivative becomes impossible."
+      },
+      "section_C": {
+        "why_students_fail": "Failing to recognize that $dy/dx$ is a function of 't', but the operator is $d/dx$. The chain rule demands multiplying by $dt/dx$ to bridge the gap.",
+        "how_to_think": "Think 'Third Wheel'. $t$ is the third wheel linking $x$ and $y$. Find their individual rates against $t$, then divide them to cut $t$ out of the picture for the first derivative.",
+        "thirty_second_strategy": "1. Find $dx/dt$ and $dy/dt$. 2. Divide $dy/dt$ by $dx/dt$ to get $dy/dx$. 3. SIMPLIFY fully. 4. Differentiate the result with respect to $t$. 5. CRITICAL: Multiply by $1/(dx/dt)$.",
+        "mental_shortcut": "For 2nd derivative: Diff $dy/dx$ normally with respect to $t$, then divide by $dx/dt$ AGAIN.",
+        "micro_example": "Let $x=t^2, y=t^3$. $dx/dt = 2t, dy/dt = 3t^2$. $dy/dx = (3t^2)/(2t) = \\frac{3}{2}t$. For 2nd derivative: $\\frac{d}{dt}(\\frac{3}{2}t) = \\frac{3}{2}$. Multiply by $dt/dx$, which is $1/(2t)$. Final $d^2y/dx^2 = \\frac{3}{4t}$."
+      }
+    },
+    {
+      "formula_number": 6,
+      "formula_title": "Implicit Differentiation",
+      "section_A": {
+        "latex_formula": "$$ \\frac{d}{dx}[f(x, y)] = 0 \\implies \\text{Differentiate every term w.r.t } x \\text{ and isolate } \\frac{dy}{dx} $$",
+        "derived_forms": [
+          "$$ \\frac{d}{dx}(y^n) = n y^{n-1} \\cdot \\frac{dy}{dx} $$",
+          "$$ \\frac{d}{dx}(xy) = x \\frac{dy}{dx} + y \\cdot 1 \\quad \\text{(Product Rule Application)} $$"
+        ],
+        "special_cases": [
+          "$$ \\text{If } f(x,y) = 0, \\text{ then } \\frac{dy}{dx} = -\\frac{\\frac{\\partial f}{\\partial x}}{\\frac{\\partial f}{\\partial y}} \\quad \\text{(Shortcut for MCQ/Checking)} $$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "When the relation between x and y is given as an equation where y cannot be easily or cleanly expressed as an explicit function of x (e.g., $y = f(x)$).",
+        "trigger_keywords": [
+          "Find dy/dx if",
+          "Differentiate implicitly",
+          "x^2 + xy + y^2 = 100"
+        ],
+        "question_types": [
+          "2_mark",
+          "3_mark"
+        ],
+        "common_mistakes": [
+          "Forgetting to multiply by $dy/dx$ when differentiating terms containing $y$.",
+          "Differentiating a constant on the right-hand side (like 100) and writing it as 100 instead of 0."
+        ],
+        "board_traps": [
+          "Equations like $\\sin(xy) + \\frac{x}{y} = x^2 - y$. Students often mess up the product rule inside the sine function and the quotient rule for the fraction, forgetting $dy/dx$ attachments."
+        ],
+        "examiner_twist_pattern": "CBSE loves combining implicit differentiation with inverse trigonometric substitutions. For example, $y = \\sec^{-1}(\\dots) + \\text{cosec}^{-1}(\\dots) = \\text{constant}$, and asking to prove $dy/dx = 0$."
+      },
+      "section_C": {
+        "why_students_fail": "Losing track of the $dy/dx$ terms in long equations or failing to factor $dy/dx$ out correctly to isolate it on one side.",
+        "how_to_think": "Think 'Tag the y'. Every time you touch a 'y' while differentiating with respect to 'x', you must leave a 'dy/dx' tag on it because of the chain rule. Then, it just becomes an algebra problem of collecting all the 'tags' on the left side.",
+        "thirty_second_strategy": "1. Differentiate both sides w.r.t x. 2. Apply product/chain rules normally, but attach $dy/dx$ whenever you differentiate a $y$ term. 3. Move all terms with $dy/dx$ to the LHS. 4. Factor out $dy/dx$. 5. Divide to isolate.",
+        "mental_shortcut": "Diff everything. Touch a y? Attach dy/dx. Gather dy/dx. Divide.",
+        "micro_example": "If $x^2 + y^2 = 25$. Differentiate: $2x + 2y \\frac{dy}{dx} = 0$. Isolate: $2y \\frac{dy}{dx} = -2x \\implies \\frac{dy}{dx} = -\\frac{x}{y}$."
+      }
+    },
+    {
+      "formula_number": 7,
+      "formula_title": "Derivatives of Exponential and Logarithmic Functions",
+      "section_A": {
+        "latex_formula": "$$ \\frac{d}{dx}(e^x) = e^x, \\quad \\frac{d}{dx}(\\ln|x|) = \\frac{1}{x} $$",
+        "derived_forms": [
+          "$$ \\frac{d}{dx}(a^x) = a^x \\ln a, \\quad a > 0 $$",
+          "$$ \\frac{d}{dx}(\\log_a x) = \\frac{1}{x \\ln a}, \\quad a > 0, a \\neq 1 $$",
+          "$$ \\frac{d}{dx}(e^{f(x)}) = e^{f(x)} \\cdot f'(x) $$"
+        ],
+        "special_cases": [
+          "$$ \\frac{d}{dx}(\\ln(f(x))) = \\frac{f'(x)}{f(x)} $$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "When finding derivatives of functions involving the natural exponential ($e^x$), general exponentials ($a^x$), natural logs ($\\ln x$), or logs to other bases.",
+        "trigger_keywords": [
+          "Differentiate e^{sin x}",
+          "Find the derivative of log(cos x)",
+          "Find dy/dx"
+        ],
+        "question_types": [
+          "1_mark",
+          "2_mark"
+        ],
+        "common_mistakes": [
+          "Differentiating $a^x$ as $x \\cdot a^{x-1}$ (applying power rule to an exponential function).",
+          "Forgetting the $\\ln a$ factor when the base of the exponential or logarithm is not $e$ (e.g., differentiating $2^x$ as just $2^x$)."
+        ],
+        "board_traps": [
+          "Giving $y = \\log_7(2x)$. Students differentiate it as $1/(2x) \\cdot 2 = 1/x$, missing the base conversion factor. The correct answer is $1/(x \\ln 7)$."
+        ],
+        "examiner_twist_pattern": "Embedding logs within logs, e.g., $y = \\log(\\log(\\log x))$. Forces the student to apply the chain rule multiple times: $1/(\\log(\\log x)) \\cdot 1/(\\log x) \\cdot 1/x$."
+      },
+      "section_C": {
+        "why_students_fail": "Students confuse the rules for variable bases/constant powers (power rule) with constant bases/variable powers (exponential rules).",
+        "how_to_think": "Think 'e is immune, a pays a tax'. The function $e^x$ is its own derivative. Any other base $a^x$ acts the same but pays a 'tax' by multiplying by $\\ln a$. Similarly, $\\ln x$ gives $1/x$, but $\\log_a x$ pays a tax by dividing by $\\ln a$.",
+        "thirty_second_strategy": "1. Identify if base is $e$ or a constant $a$. 2. Apply standard rule. 3. Immediately multiply by the derivative of the exponent/inner function (Chain Rule).",
+        "mental_shortcut": "$a^x$ brings a log to the party (multiplies). $\\log_a x$ leaves a log in the basement (divides).",
+        "micro_example": "Differentiate $y = 5^{x^2}$. Rule: $a^x \\ln a$. So, $5^{x^2} \\ln 5$. Now chain rule for $x^2$: multiply by $2x$. Final: $2x \\cdot 5^{x^2} \\ln 5$."
+      }
+    },
+    {
+      "formula_number": 8,
+      "formula_title": "The Chain Rule & Algebra of Derivatives",
+      "section_A": {
+        "latex_formula": "$$ \\frac{d}{dx}[f(g(x))] = f'(g(x)) \\cdot g'(x) \\quad \\text{(Chain Rule)} $$",
+        "derived_forms": [
+          "$$ \\frac{d}{dx}(uv) = u\\frac{dv}{dx} + v\\frac{du}{dx} \\quad \\text{(Product Rule)} $$",
+          "$$ \\frac{d}{dx}\\left(\\frac{u}{v}\\right) = \\frac{v\\frac{du}{dx} - u\\frac{dv}{dx}}{v^2} \\quad \\text{(Quotient Rule)} $$",
+          "$$ \\frac{dy}{dx} = \\frac{dy}{du} \\cdot \\frac{du}{dv} \\cdot \\frac{dv}{dx} \\quad \\text{(Extended Chain Rule)} $$"
+        ],
+        "special_cases": [
+          "$$ \\frac{d}{dx}\\left( \\frac{1}{v} \\right) = -\\frac{1}{v^2} \\frac{dv}{dx} $$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "The absolute foundation of all calculus. Used whenever a function is inside another function, multiplied by another function, or divided by another function.",
+        "trigger_keywords": [
+          "Differentiate w.r.t x",
+          "Find f'(x)"
+        ],
+        "question_types": [
+          "1_mark",
+          "2_mark",
+          "3_mark",
+          "4_mark"
+        ],
+        "common_mistakes": [
+          "Applying the quotient rule backwards (i.e., $u'v - v'u$ instead of $v u' - u v'$), resulting in a negative sign error.",
+          "Differentiating $f(g(x))$ as $f'(x) \\cdot g'(x)$ instead of leaving $g(x)$ inside $f'$."
+        ],
+        "board_traps": [
+          "Questions like $y = \\sin^2(x^3)$. Students miss the layers. There are three layers here: the square, the sine, and the cube. They must apply the chain rule twice."
+        ],
+        "examiner_twist_pattern": "Combining Product Rule and Chain Rule heavily in $e^x \\sin x$ or $x^2 e^{3x}$. If they ask for the second derivative, the product rule expands the number of terms significantly."
+      },
+      "section_C": {
+        "why_students_fail": "Students try to do everything in one step in their heads and drop layers of the chain rule, or they misidentify which rule applies first (e.g., seeing a sum as a product).",
+        "how_to_think": "Think 'Peeling an Onion'. For the chain rule, differentiate the outermost layer first, keeping everything inside untouched. Then multiply by the derivative of the next layer in.  For Quotient Rule: 'Low D-High minus High D-Low, over Low squared'.",
+        "thirty_second_strategy": "1. Identify the outermost structure (Is it a product? A fraction? A composite?). 2. Apply the main rule for that structure. 3. As you process the pieces, apply the chain rule for any inner composites.",
+        "mental_shortcut": "Product Rule: 1st $\\times$ Diff 2nd + 2nd $\\times$ Diff 1st. Quotient Rule: Bottom $\\times$ Top' - Top $\\times$ Bottom' / Bottom$^2$.",
+        "micro_example": "Differentiate $y = \\cos(x^2)$. Outer layer is $\\cos()$. Inner layer is $x^2$. Derivative of $\\cos$ is $-\\sin$. So, $-\\sin(x^2)$. Multiply by derivative of inner layer ($2x$). Final: $-2x \\sin(x^2)$."
+      }
+    },
+
+
+    
+    {
+      "trend_analysis": {
+        "dominant_concepts_from_pyqs": [
+          "Evaluating unknown constants ($k, a, b$) in continuous piecewise functions",
+          "Logarithmic Differentiation for $u^v + p^q$ forms",
+          "Parametric differentiation using trigonometric substitutions",
+          "Second-order derivative proofs forming a differential equation",
+          "Checking non-differentiability of Modulus functions at sharp corner points"
+        ],
+        "question_patterns_seen": [
+          "2-mark or 3-mark questions demanding the relationship between unknowns or their exact values for a function to be continuous.",
+          "5-mark questions strictly asking to differentiate equations of the type $x^y + y^x = a^b$.",
+          "4-mark or 5-mark proof-based questions on second-order derivatives ($y_2$ and $y_1$).",
+          "Tricky implicit differentiation proofs in the Miscellaneous exercise."
+        ]
+      },
+      "high_leverage_ncert_questions": [
+        {
+          "question_id": 1,
+          "ncert_reference": {
+            "exercise": "5.1",
+            "question_number": "17"
+          },
+          "question_text": "Find the relationship between $$a$$ and $$b$$ so that the function $$f$$ defined by $$f(x) = \\begin{cases} ax + 1, & \\text{if } x \\leq 3 \\\\ bx + 3, & \\text{if } x > 3 \\end{cases}$$ is continuous at $$x = 3$$.",
+          "concepts_tested": [
+            "Left Hand Limit (LHL) and Right Hand Limit (RHL)",
+            "Continuity of a Function at a Point"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Easy",
+          "topper_solution": {
+            "step_1": "Since $$f(x)$$ is continuous at $$x = 3$$, we must have: $$\\lim_{x \\to 3^-} f(x) = \\lim_{x \\to 3^+} f(x) = f(3)$$.",
+            "step_2": "Calculate Left Hand Limit (LHL): $$\\lim_{x \\to 3^-} (ax + 1) = a(3) + 1 = 3a + 1$$.",
+            "step_3": "Calculate Right Hand Limit (RHL): $$\\lim_{x \\to 3^+} (bx + 3) = b(3) + 3 = 3b + 3$$.",
+            "step_4": "Calculate value of function at $$x = 3$$: $$f(3) = a(3) + 1 = 3a + 1$$.",
+            "step_5": "Equating LHL and RHL: $$3a + 1 = 3b + 3$$.",
+            "step_6": "Simplify to get the relationship: $$3a - 3b = 2 \\implies 3(a - b) = 2 \\implies a - b = \\frac{2}{3}$$ or $$a = b + \\frac{2}{3}$$."
+          },
+          "board_writing_tip": "Clearly write the formulas for LHL and RHL using the limit notation. Stating the condition for continuity (LHL = RHL = f(c)) at the beginning secures the first concept mark.",
+          "common_student_mistakes": [
+            "Trying to solve for explicit numerical values of $$a$$ and $$b$$ instead of leaving it as an equation (relationship) between them.",
+            "Equating the limits to zero instead of each other."
+          ],
+          "estimated_time_seconds": "180"
+        },
+        {
+          "question_id": 2,
+          "ncert_reference": {
+            "exercise": "5.1",
+            "question_number": "30"
+          },
+          "question_text": "Find the values of $$a$$ and $$b$$ such that the function defined by $$f(x) = \\begin{cases} 5, & \\text{if } x \\leq 2 \\\\ ax + b, & \\text{if } 2 < x < 10 \\\\ 21, & \\text{if } x \\geq 10 \\end{cases}$$ is a continuous function.",
+          "concepts_tested": [
+            "Continuity at Multiple Points",
+            "Solving Linear Equations in Two Variables"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Moderate",
+          "topper_solution": {
+            "step_1": "For the function to be continuous everywhere, it must be continuous at the critical points $$x = 2$$ and $$x = 10$$.",
+            "step_2": "At $$x = 2$$: LHL = $$\\lim_{x \\to 2^-} 5 = 5$$. RHL = $$\\lim_{x \\to 2^+} (ax + b) = 2a + b$$. Since continuous, $$2a + b = 5$$ --- (Equation 1).",
+            "step_3": "At $$x = 10$$: LHL = $$\\lim_{x \\to 10^-} (ax + b) = 10a + b$$. RHL = $$\\lim_{x \\to 10^+} 21 = 21$$. Since continuous, $$10a + b = 21$$ --- (Equation 2).",
+            "step_4": "Subtract Equation 1 from Equation 2: $$(10a + b) - (2a + b) = 21 - 5 \\implies 8a = 16 \\implies a = 2$$.",
+            "step_5": "Substitute $$a = 2$$ in Equation 1: $$2(2) + b = 5 \\implies 4 + b = 5 \\implies b = 1$$.",
+            "step_6": "Final values are $$a = 2$$ and $$b = 1$$."
+          },
+          "board_writing_tip": "Explicitly mention that 'since the function is given to be continuous everywhere, it must be continuous at the break points x=2 and x=10'.",
+          "common_student_mistakes": [
+            "Calculating limits correctly but making algebraic errors while solving the two simultaneous linear equations.",
+            "Testing continuity at only one point and leaving the answer incomplete."
+          ],
+          "estimated_time_seconds": "300"
+        },
+        {
+          "question_id": 3,
+          "ncert_reference": {
+            "exercise": "5.5",
+            "question_number": "12"
+          },
+          "question_text": "Find $$\\frac{dy}{dx}$$ of the function: $$x^y + y^x = 1$$.",
+          "concepts_tested": [
+            "Logarithmic Differentiation",
+            "Implicit Differentiation"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Board-Tricky",
+          "topper_solution": {
+            "step_1": "Let $$u = x^y$$ and $$v = y^x$$. The equation becomes $$u + v = 1$$. Differentiating with respect to x: $$\\frac{du}{dx} + \\frac{dv}{dx} = 0$$.",
+            "step_2": "For $$u = x^y$$: Taking log on both sides, $$\\log u = y \\log x$$. Differentiating w.r.t x: $$\\frac{1}{u} \\frac{du}{dx} = y \\cdot \\frac{1}{x} + \\log x \\cdot \\frac{dy}{dx}$$. So, $$\\frac{du}{dx} = x^y \\left( \\frac{y}{x} + \\log x \\cdot \\frac{dy}{dx} \\right)$$.",
+            "step_3": "For $$v = y^x$$: Taking log on both sides, $$\\log v = x \\log y$$. Differentiating w.r.t x: $$\\frac{1}{v} \\frac{dv}{dx} = x \\cdot \\frac{1}{y} \\frac{dy}{dx} + \\log y \\cdot 1$$. So, $$\\frac{dv}{dx} = y^x \\left( \\frac{x}{y} \\frac{dy}{dx} + \\log y \\right)$$.",
+            "step_4": "Substitute into $$\\frac{du}{dx} + \\frac{dv}{dx} = 0$$: $$x^y \\left( \\frac{y}{x} + \\log x \\cdot \\frac{dy}{dx} \\right) + y^x \\left( \\frac{x}{y} \\frac{dy}{dx} + \\log y \\right) = 0$$.",
+            "step_5": "Expand: $$yx^{y-1} + x^y \\log x \\frac{dy}{dx} + xy^{x-1} \\frac{dy}{dx} + y^x \\log y = 0$$.",
+            "step_6": "Group terms with $$\\frac{dy}{dx}$$: $$\\frac{dy}{dx} (x^y \\log x + xy^{x-1}) = - (yx^{y-1} + y^x \\log y)$$.",
+            "step_7": " $$\\frac{dy}{dx} = -\\frac{y x^{y-1} + y^x \\log y}{x^y \\log x + x y^{x-1}}$$."
+          },
+          "board_writing_tip": "Never take log directly on the equation $x^y + y^x = 1$. $\\log(x^y + y^x) \\neq \n\\log(x^y) + \\log(y^x)$. Always separate into u and v.",
+          "common_student_mistakes": [
+            "Applying log directly to the sum, writing $\\log(x^y + y^x) = y\\log x + x\\log y$. This is mathematically illegal and results in 0 marks.",
+            "Incorrectly writing $x^y \\cdot \\frac{y}{x}$ as just $y \\cdot x^y$ instead of $y \\cdot x^{y-1}$."
+          ],
+          "estimated_time_seconds": "480"
+        },
+        {
+          "question_id": 4,
+          "ncert_reference": {
+            "exercise": "5.6",
+            "question_number": "11"
+          },
+          "question_text": "If $$x = \\sqrt{a^{\\sin^{-1} t}}$$ and $$y = \\sqrt{a^{\\cos^{-1} t}}$$, show that $$\\frac{dy}{dx} = -\\frac{y}{x}$$.",
+          "concepts_tested": [
+            "Parametric Differentiation",
+            "Properties of Inverse Trigonometric Functions",
+            "Logarithmic Differentiation"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Moderate",
+          "topper_solution": {
+            "step_1": "Method 1 (Smart Method): Multiply $$x$$ and $$y$$. $$xy = \\sqrt{a^{\\sin^{-1} t}} \\cdot \\sqrt{a^{\\cos^{-1} t}} = \\sqrt{a^{\\sin^{-1} t + \\cos^{-1} t}}$$.",
+            "step_2": "We know that $$\\sin^{-1} t + \\cos^{-1} t = \\frac{\\pi}{2}$$. So, $$xy = \\sqrt{a^{\\pi/2}}$$.",
+            "step_3": "Differentiate both sides with respect to $$x$$. The RHS is a constant, so its derivative is 0.",
+            "step_4": "Using the product rule on LHS: $$x \\frac{dy}{dx} + y(1) = 0$$.",
+            "step_5": "Solving for $$\\frac{dy}{dx}$$: $$x \\frac{dy}{dx} = -y \\implies \\frac{dy}{dx} = -\\frac{y}{x}$$. Hence proved.",
+            "step_6": "Alternative (Parametric Method): $$\\log x = \\frac{1}{2} \\sin^{-1} t \\cdot \\log a \\implies \\frac{1}{x} \\frac{dx}{dt} = \\frac{\\log a}{2\\sqrt{1-t^2}}$$. Similarly for $$y$$, and dividing $$\\frac{dy/dt}{dx/dt}$$ gives the same result."
+          },
+          "board_writing_tip": "Using the algebraic multiplication method (Method 1) saves huge amounts of time and eliminates the risk of differentiation errors compared to solving parametrically.",
+          "common_student_mistakes": [
+            "Using the lengthy parametric differentiation and messing up the chain rule with the square roots and exponential terms.",
+            "Forgetting that $\\sqrt{a^{\\pi/2}}$ is a constant and incorrectly differentiating it."
+          ],
+          "estimated_time_seconds": "300"
+        },
+        {
+          "question_id": 5,
+          "ncert_reference": {
+            "exercise": "5.7",
+            "question_number": "17"
+          },
+          "question_text": "If $$y = (\\tan^{-1} x)^2$$, show that $$(x^2 + 1)^2 y_2 + 2x(x^2 + 1)y_1 = 2$$.",
+          "concepts_tested": [
+            "Second Order Derivative",
+            "Implicit Form of Differential Equations"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Moderate",
+          "topper_solution": {
+            "step_1": "Given $$y = (\\tan^{-1} x)^2$$. Differentiate with respect to x: $$y_1 = 2(\\tan^{-1} x) \\cdot \\frac{d}{dx}(\\tan^{-1} x)$$.",
+            "step_2": "$$y_1 = 2(\\tan^{-1} x) \\cdot \\frac{1}{1+x^2}$$.",
+            "step_3": "Cross-multiply to avoid quotient rule: $$(1+x^2)y_1 = 2\\tan^{-1} x$$.",
+            "step_4": "Differentiate again with respect to x using the product rule on LHS: $$(1+x^2) \\cdot \\frac{d}{dx}(y_1) + y_1 \\cdot \\frac{d}{dx}(1+x^2) = 2 \\cdot \\frac{1}{1+x^2}$$.",
+            "step_5": "$$(1+x^2)y_2 + y_1(2x) = \\frac{2}{1+x^2}$$.",
+            "step_6": "Multiply the entire equation by $$(1+x^2)$$: $$(1+x^2)^2 y_2 + 2x(1+x^2)y_1 = 2$$. Hence proved."
+          },
+          "board_writing_tip": "Cross-multiplying the denominator to the LHS before differentiating a second time is the 'golden rule' for these 4-mark proof questions. It completely bypasses the messy quotient rule.",
+          "common_student_mistakes": [
+            "Applying the quotient rule on $y_1 = \\frac{2\\tan^{-1}x}{1+x^2}$ and getting trapped in complicated algebra to reach the final form.",
+            "Forgetting to apply the chain rule in the very first step, writing $y_1 = 2\\tan^{-1} x$ only."
+          ],
+          "estimated_time_seconds": "300"
+        },
+        {
+          "question_id": 6,
+          "ncert_reference": {
+            "exercise": "Miscellaneous",
+            "question_number": "14"
+          },
+          "question_text": "If $$x\\sqrt{1+y} + y\\sqrt{1+x} = 0$$, for $$-1 < x < 1$$, prove that $$\\frac{dy}{dx} = -\\frac{1}{(1+x)^2}$$.",
+          "concepts_tested": [
+            "Implicit Differentiation",
+            "Algebraic manipulation before differentiation"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Board-Tricky",
+          "topper_solution": {
+            "step_1": "Given $$x\\sqrt{1+y} + y\\sqrt{1+x} = 0$$. Rearrange: $$x\\sqrt{1+y} = -y\\sqrt{1+x}$$.",
+            "step_2": "Square both sides to remove square roots: $$x^2(1+y) = y^2(1+x)$$.",
+            "step_3": "Expand: $$x^2 + x^2y = y^2 + y^2x$$. Bring all terms to one side: $$x^2 - y^2 + x^2y - xy^2 = 0$$.",
+            "step_4": "Factorize: $$(x-y)(x+y) + xy(x-y) = 0 \\implies (x-y)(x+y+xy) = 0$$.",
+            "step_5": "Since it is given for an interval, $$x \\neq y$$ (otherwise the original equation implies $$x=0$$ only). So, $$x + y + xy = 0$$.",
+            "step_6": "Express y in terms of x: $$y(1+x) = -x \\implies y = \\frac{-x}{1+x}$$.",
+            "step_7": "Differentiate using quotient rule: $$\\frac{dy}{dx} = - \\left[ \\frac{(1+x)(1) - x(1)}{(1+x)^2} \\right]$$.",
+            "step_8": "$$\\frac{dy}{dx} = - \\left[ \\frac{1+x-x}{(1+x)^2} \\right] = -\\frac{1}{(1+x)^2}$$. Hence proved."
+          },
+          "board_writing_tip": "If you directly differentiate the given expression without algebraic simplification, it becomes virtually impossible to prove the RHS. Always isolate 'y' first in this specific question.",
+          "common_student_mistakes": [
+            "Attempting implicit differentiation directly on $x\\sqrt{1+y} + y\\sqrt{1+x} = 0$ using product rule, leading to a massive, unsolvable equation.",
+            "Dividing by $(x-y)$ without explicitly stating that $x \\neq y$ as per the domain logic."
+          ],
+          "estimated_time_seconds": "420"
+        },
+        {
+          "question_id": 7,
+          "ncert_reference": {
+            "exercise": "5.2",
+            "question_number": "9"
+          },
+          "question_text": "Prove that the function $$ f $$ given by $$ f(x) = |x - 1| $$, $$ x \\in \\mathbb{R} $$ is not differentiable at $$ x = 1 $$.",
+          "concepts_tested": [
+            "Differentiability of a Function at a Point",
+            "Left Hand Derivative (LHD) and Right Hand Derivative (RHD)",
+            "Modulus Function Properties"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Moderate",
+          "topper_solution": {
+            "step_1": "A function is differentiable at $$ x = c $$ if its Left Hand Derivative (LHD) equals its Right Hand Derivative (RHD). ",
+            "step_2": "Calculate LHD at $$ x = 1 $$: $$ \\lim_{h \\to 0^-} \\frac{f(1+h) - f(1)}{h} $$. For $$ h < 0 $$, $$ 1+h < 1 $$, so $$ f(1+h) = |1+h-1| = |h| = -h $$.",
+            "step_3": "$$ \\text{LHD} = \\lim_{h \\to 0} \\frac{-h - 0}{-h} $$ (using limit definition with $$ h \\to 0 $$ from left). Alternatively using $$ x \\to 1^- $$: $$ \\lim_{x \\to 1^-} \\frac{|x-1| - 0}{x - 1} = \\lim_{x \\to 1^-} \\frac{-(x-1)}{x-1} = -1 $$.",
+            "step_4": "Calculate RHD at $$ x = 1 $$: $$ \\lim_{x \\to 1^+} \\frac{f(x) - f(1)}{x - 1} $$. For $$ x > 1 $$, $$ |x-1| = (x-1) $$.",
+            "step_5": "$$ \\text{RHD} = \\lim_{x \\to 1^+} \\frac{(x-1) - 0}{x-1} = \\lim_{x \\to 1^+} 1 = 1 $$.",
+            "step_6": "Since $$ \\text{LHD} \\neq \\text{RHD} $$ ($$ -1 \\neq 1 $$), the function $$ f(x) = |x-1| $$ is not differentiable at $$ x = 1 $$."
+          },
+          "board_writing_tip": "Clearly write the formula for LHD and RHD before substituting the functions. State explicitly how the modulus opens (positive or negative) based on the left or right limit.",
+          "common_student_mistakes": [
+            "Confusing the differentiability limit formula with the continuity limit formula and just checking if Left Hand Limit = Right Hand Limit.",
+            "Mishandling the sign of the modulus function when $h \\to 0^-$."
+          ],
+          "estimated_time_seconds": "240"
+        },
+        {
+          "question_id": 8,
+          "ncert_reference": {
+            "exercise": "5.1",
+            "question_number": "26"
+          },
+          "question_text": "Find the value of $$ k $$ so that the function $$ f $$ is continuous at the indicated point: $$ f(x) = \\begin{cases} \\frac{k \\cos x}{\\pi - 2x}, & \\text{if } x \\neq \\frac{\\pi}{2} \\\\ 3, & \\text{if } x = \\frac{\\pi}{2} \\end{cases} $$ at $$ x = \\frac{\\pi}{2} $$.",
+          "concepts_tested": [
+            "Continuity at a point",
+            "Evaluation of Trigonometric Limits",
+            "Substitution Method for Limits"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Moderate",
+          "topper_solution": {
+            "step_1": "For $$ f(x) $$ to be continuous at $$ x = \\frac{\\pi}{2} $$, $$ \\lim_{x \\to \\pi/2} f(x) = f\\left(\\frac{\\pi}{2}\\right) $$.",
+            "step_2": "Given $$ f\\left(\\frac{\\pi}{2}\\right) = 3 $$. We need to evaluate $$ \\lim_{x \\to \\pi/2} \\frac{k \\cos x}{\\pi - 2x} $$.",
+            "step_3": "Substitute $$ x = \\frac{\\pi}{2} - h $$. As $$ x \\to \\frac{\\pi}{2} $$, $$ h \\to 0 $$.",
+            "step_4": "The limit becomes $$ \\lim_{h \\to 0} \\frac{k \\cos(\\frac{\\pi}{2} - h)}{\\pi - 2(\\frac{\\pi}{2} - h)} = \\lim_{h \\to 0} \\frac{k \\sin h}{\\pi - \\pi + 2h} $$.",
+            "step_5": "$$ \\lim_{h \\to 0} \\frac{k \\sin h}{2h} = \\frac{k}{2} \\lim_{h \\to 0} \\frac{\\sin h}{h} $$.",
+            "step_6": "Since $$ \\lim_{h \\to 0} \\frac{\\sin h}{h} = 1 $$, the limit evaluates to $$ \\frac{k}{2}(1) = \\frac{k}{2} $$.",
+            "step_7": "Equating the limit to the functional value: $$ \\frac{k}{2} = 3 \\implies k = 6 $$."
+          },
+          "board_writing_tip": "Using the substitution $x = \\pi/2 - h$ is much safer and widely accepted by examiners than trying to apply L'Hopital's rule, which sometimes loses marks if not explicitly part of the standard marking scheme.",
+          "common_student_mistakes": [
+            "Failing to convert $\\cos(\\pi/2 - h)$ to $\\sin h$.",
+            "Making a sign error in the denominator: $\\pi - 2(\\pi/2 - h)$ often mistakenly written as $-2h$."
+          ],
+          "estimated_time_seconds": "300"
+        },
+        {
+          "question_id": 9,
+          "ncert_reference": {
+            "exercise": "5.6",
+            "question_number": "8"
+          },
+          "question_text": "If $$ x = a\\left(\\cos t + \\log \\tan \\frac{t}{2}\\right) $$ and $$ y = a \\sin t $$, find $$ \\frac{dy}{dx} $$.",
+          "concepts_tested": [
+            "Parametric Differentiation",
+            "Chain Rule in Trigonometric and Logarithmic Functions"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Board-Tricky",
+          "topper_solution": {
+            "step_1": "Differentiate $$ y $$ with respect to $$ t $$: $$ \\frac{dy}{dt} = a \\cos t $$.",
+            "step_2": "Differentiate $$ x $$ with respect to $$ t $$: $$ \\frac{dx}{dt} = a \\left[ -\\sin t + \\frac{1}{\\tan(t/2)} \\cdot \\sec^2\\left(\\frac{t}{2}\\right) \\cdot \\frac{1}{2} \\right] $$.",
+            "step_3": "Simplify the second term: $$ \\frac{1}{\\tan(t/2)} \\cdot \\sec^2(t/2) \\cdot \\frac{1}{2} = \\frac{\\cos(t/2)}{\\sin(t/2)} \\cdot \\frac{1}{\\cos^2(t/2)} \\cdot \\frac{1}{2} = \\frac{1}{2 \\sin(t/2) \\cos(t/2)} $$.",
+            "step_4": "Using the identity $$ 2 \\sin \\theta \\cos \\theta = \\sin 2\\theta $$, this becomes $$ \\frac{1}{\\sin t} = \\csc t $$.",
+            "step_5": "Substitute back: $$ \\frac{dx}{dt} = a \\left( -\\sin t + \\frac{1}{\\sin t} \\right) = a \\left( \\frac{-\\sin^2 t + 1}{\\sin t} \\right) = a \\frac{\\cos^2 t}{\\sin t} $$.",
+            "step_6": "Find $$ \\frac{dy}{dx} = \\frac{\\frac{dy}{dt}}{\\frac{dx}{dt}} = \\frac{a \\cos t}{a \\frac{\\cos^2 t}{\\sin t}} = \\frac{\\cos t \\cdot \\sin t}{\\cos^2 t} = \\frac{\\sin t}{\\cos t} = \\tan t $$."
+          },
+          "board_writing_tip": "Showing the simplification of the logarithmic derivative step-by-step into $1/\\sin t$ is where most marks are awarded. Do not skip the half-angle formula step.",
+          "common_student_mistakes": [
+            "Forgetting the chain rule factor of $1/2$ when differentiating $\\tan(t/2)$.",
+            "Leaving the expression unsimplified, which results in losing the final answer mark."
+          ],
+          "estimated_time_seconds": "420"
+        },
+        {
+          "question_id": 10,
+          "ncert_reference": {
+            "exercise": "5.5",
+            "question_number": "7"
+          },
+          "question_text": "Differentiate with respect to $$ x $$: $$ (\\log x)^x + x^{\\log x} $$",
+          "concepts_tested": [
+            "Logarithmic Differentiation",
+            "Differentiation of Sum of Functions"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Moderate",
+          "topper_solution": {
+            "step_1": "Let $$ y = u + v $$, where $$ u = (\\log x)^x $$ and $$ v = x^{\\log x} $$. We need $$ \\frac{dy}{dx} = \\frac{du}{dx} + \\frac{dv}{dx} $$.",
+            "step_2": "For $$ u = (\\log x)^x $$: Take log on both sides: $$ \\log u = x \\log(\\log x) $$.",
+            "step_3": "Differentiate w.r.t $$ x $$: $$ \\frac{1}{u} \\frac{du}{dx} = 1 \\cdot \\log(\\log x) + x \\cdot \\frac{1}{\\log x} \\cdot \\frac{1}{x} = \\log(\\log x) + \\frac{1}{\\log x} $$.",
+            "step_4": "$$ \\frac{du}{dx} = (\\log x)^x \\left[ \\log(\\log x) + \\frac{1}{\\log x} \\right] $$.",
+            "step_5": "For $$ v = x^{\\log x} $$: Take log on both sides: $$ \\log v = (\\log x)(\\log x) = (\\log x)^2 $$.",
+            "step_6": "Differentiate w.r.t $$ x $$: $$ \\frac{1}{v} \\frac{dv}{dx} = 2(\\log x) \\cdot \\frac{1}{x} $$.",
+            "step_7": "$$ \\frac{dv}{dx} = x^{\\log x} \\left( \\frac{2 \\log x}{x} \\right) $$. (Note: this can also be written as $$ 2x^{\\log x - 1} \\log x $$).",
+            "step_8": "Substitute back: $$ \\frac{dy}{dx} = (\\log x)^x \\left[ \\log(\\log x) + \\frac{1}{\\log x} \\right] + x^{\\log x} \\left( \\frac{2 \\log x}{x} \\right) $$."
+          },
+          "board_writing_tip": "Always declare $u$ and $v$ separately. Never write $\\log(u+v) = \\log u + \\log v$. This is a fatal mathematical error that guarantees a zero for the question.",
+          "common_student_mistakes": [
+            "Taking log directly on the sum: writing $\\log y = \\log((\\log x)^x + x^{\\log x}) = x\\log(\\log x) + \\log x \\cdot \\log x$.",
+            "Applying the power rule ($x \\cdot (\\log x)^{x-1}$) instead of logarithmic differentiation to a function to the power of a function."
+          ],
+          "estimated_time_seconds": "480"
+        },
+        {
+          "question_id": 11,
+          "ncert_reference": {
+            "exercise": "5.3",
+            "question_number": "11"
+          },
+          "question_text": "Find $$ \\frac{dy}{dx} $$ if $$ y = \\cos^{-1}\\left(\\frac{1 - x^2}{1 + x^2}\\right) $$, $$ 0 < x < 1 $$.",
+          "concepts_tested": [
+            "Differentiation of Inverse Trigonometric Functions",
+            "Trigonometric Substitution"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Easy",
+          "topper_solution": {
+            "step_1": "We use trigonometric substitution to simplify the inverse trigonometric function. Let $$ x = \\tan \\theta $$. Then $$ \\theta = \\tan^{-1} x $$.",
+            "step_2": "Substitute $$ x $$ in the equation: $$ y = \\cos^{-1}\\left(\\frac{1 - \\tan^2\\theta}{1 + \\tan^2\\theta}\\right) $$.",
+            "step_3": "Using the multiple angle formula, we know that $$ \\frac{1 - \\tan^2\\theta}{1 + \\tan^2\\theta} = \\cos 2\\theta $$.",
+            "step_4": "So, $$ y = \\cos^{-1}(\\cos 2\\theta) $$. Since $$ 0 < x < 1 $$, $$ 0 < \\tan \\theta < 1 $$, which implies $$ 0 < \\theta < \\frac{\\pi}{4} $$. Thus, $$ 0 < 2\\theta < \\frac{\\pi}{2} $$.",
+            "step_5": "Because $$ 2\\theta $$ lies in the principal value branch of $$ \\cos^{-1} $$ ($$ [0, \\pi] $$), we can write $$ y = 2\\theta $$.",
+            "step_6": "Substitute back $$ \\theta = \\tan^{-1} x $$ to get $$ y = 2 \\tan^{-1} x $$.",
+            "step_7": "Differentiate with respect to $$ x $$: $$ \\frac{dy}{dx} = 2 \\cdot \\frac{d}{dx}(\\tan^{-1} x) = \\frac{2}{1 + x^2} $$."
+          },
+          "board_writing_tip": "Mentioning the domain check ($0 < 2\\theta < \\pi/2$) is a mark of a topper and ensures you get full marks, as it justifies the cancellation of $\\cos^{-1}$ and $\\cos$.",
+          "common_student_mistakes": [
+            "Differentiating directly using the chain rule for $\\cos^{-1}u$, which leads to a massive, complicated algebraic expression that is hard to simplify.",
+            "Choosing the wrong substitution, like $x = \\sin \\theta$."
+          ],
+          "estimated_time_seconds": "240"
+        },
+        {
+          "question_id": 12,
+          "ncert_reference": {
+            "exercise": "5.7",
+            "question_number": "14"
+          },
+          "question_text": "If $$ y = A e^{mx} + B e^{nx} $$, show that $$ \\frac{d^2y}{dx^2} - (m+n)\\frac{dy}{dx} + mny = 0 $$.",
+          "concepts_tested": [
+            "Second Order Derivative",
+            "Proving Differential Equations"
+          ],
+          "repeat_probability_2026": "Medium",
+          "difficulty_level": "Moderate",
+          "topper_solution": {
+            "step_1": "Given $$ y = A e^{mx} + B e^{nx} $$. Differentiate w.r.t $$ x $$ to find $$ \\frac{dy}{dx} $$.",
+            "step_2": "$$ \\frac{dy}{dx} = A \\cdot m e^{mx} + B \\cdot n e^{nx} = Am e^{mx} + Bn e^{nx} $$.",
+            "step_3": "Differentiate again w.r.t $$ x $$ to find $$ \\frac{d^2y}{dx^2} $$.",
+            "step_4": "$$ \\frac{d^2y}{dx^2} = Am \\cdot m e^{mx} + Bn \\cdot n e^{nx} = Am^2 e^{mx} + Bn^2 e^{nx} $$.",
+            "step_5": "Take the LHS of the equation to prove: $$ \\text{LHS} = \\frac{d^2y}{dx^2} - (m+n)\\frac{dy}{dx} + mny $$.",
+            "step_6": "Substitute the derivatives and $$ y $$ into the LHS: $$ \\text{LHS} = (Am^2 e^{mx} + Bn^2 e^{nx}) - (m+n)(Am e^{mx} + Bn e^{nx}) + mn(A e^{mx} + B e^{nx}) $$.",
+            "step_7": "Expand the terms: $$ \\text{LHS} = Am^2 e^{mx} + Bn^2 e^{nx} - (Am^2 e^{mx} + ABmn e^{nx} + Amn e^{mx} + Bn^2 e^{nx}) + Amn e^{mx} + Bmn e^{nx} $$. Wait, correction in expansion: $$ (m+n)(Am e^{mx} + Bn e^{nx}) = Am^2 e^{mx} + Bmn e^{nx} + Amn e^{mx} + Bn^2 e^{nx} $$.",
+            "step_8": "$$ \\text{LHS} = Am^2 e^{mx} + Bn^2 e^{nx} - Am^2 e^{mx} - Bmn e^{nx} - Amn e^{mx} - Bn^2 e^{nx} + Amn e^{mx} + Bmn e^{nx} $$.",
+            "step_9": "Group similar terms. All terms cancel out exactly: $$ (Am^2 - Am^2)e^{mx} + (Bn^2 - Bn^2)e^{nx} + (Amn - Amn)e^{mx} + (Bmn - Bmn)e^{nx} = 0 $$.",
+            "step_10": "$$ \\text{LHS} = 0 = \\text{RHS} $$. Hence proved."
+          },
+          "board_writing_tip": "For this type of proof, calculating $y_1$ and $y_2$ separately and substituting them into the LHS is the most reliable method. Trying to manipulate $y_2$ directly into the form of the equation is much harder.",
+          "common_student_mistakes": [
+            "Algebraic expansion errors when multiplying $(m+n)$ with the first derivative.",
+            "Missing the chain rule constants ($m$ and $n$) when differentiating the exponential functions."
+          ],
+          "estimated_time_seconds": "360"
+        }
+      ]
+    }
+  ]
+}

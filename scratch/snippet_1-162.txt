@@ -1,0 +1,106 @@
+Created At: 2026-06-03T08:18:08Z
+Completed At: 2026-06-03T08:18:08Z
+File Path: `file:///c:/StudentAssist-main/scratch/fix_questions_db.cjs`
+Total Lines: 162
+Total Bytes: 5115
+Showing lines 1 to 162
+The following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.
+1: const fs = require('fs');
+2: const path = require('path');
+3: 
+4: function formatPartIndents(str) {
+5:   if (!str) return str;
+6:   // Clean citations first
+7:   str = str.replace(/\[cite:\s*[^\]]+\]/g, '');
+8:   str = str.replace(/\s+/g, ' ');
+9:   return str.replace(/\s+(\([a-d]\)|\([i-v]+\))\s+/g, (match, p1, offset) => {
+10:     const prev = str.substring(0, offset).trim();
+11:     if (prev.endsWith('(a)') || prev.endsWith('(b)') || prev.endsWith('(c)') || prev.endsWith('(d)')) {
+12:       return ` ${p1} `;
+13:     }
+14:     return `\n\n${p1} `;
+15:   });
+16: }
+17: 
+18: function wrapMathExpressions(text) {
+19:   if (!text) return text;
+20:   
+21:   // Clean citations first
+22:   text = text.replace(/\[cite:\s*[^\]]+\]/g, '');
+23:   
+24:   // Protect existing wrapped math to avoid double wrapping
+25:   const segments = [];
+26:   let placeholderCount = 0;
+27:   text = text.replace(/\$([^$]+)\$/g, (match) => {
+28:     const ph = `___MATH_PH_${placeholderCount++}___`;
+29:     segments.push({ ph, val: match });
+30:     return ph;
+31:   });
+32: 
+33:   // Math tokens matcher regex:
+34:   const tokenRegex = /(\\[a-zA-Z]+(?:_\{[^{}]*\}|\^\{[^{}]*\}|_[a-zA-Z0-9]+|\^[a-zA-Z0-9]+|'|\{[^}]*\})*|\b\d+(?:\.\d+)?[a-zA-Z]+(?:_\{[^{}]*\}|\^\{[^{}]*\}|_[a-zA-Z0-9]+|\^[a-zA-Z0-9]+|')*|\b[a-zA-Z](?:_\{[^{}]*\}|\^\{[^{}]*\}|_[a-zA-Z0-9]+|\^[a-zA-Z0-9]+|'(?![a-zA-Z]))+|\b[qQpPrRkaExyzdLtlC]\b|\b\d+(?:\.\d+)?\b|[+\-*\/=><\^_]|\\cdot|\\times|\\approx|\\propto|\\gg|\\pm|[()\[\]{}])/g;
+35: 
+36:   let matches = [];
+37:   let match;
+38:   tokenRegex.lastIndex = 0;
+39:   while ((match = tokenRegex.exec(t
+<truncated 2244 bytes>
+.val);
+106:   }
+107: 
+108:   // Normalize spacing around dollar signs using functions to avoid escape patterns
+109:   result = result.replace(/\s+/g, ' ')
+110:                  .replace(/\s+\$/g, ' $')
+111:                  .replace(/\$\s+/g, '$ ')
+112:                  .replace(/\s+\$([.,?!;:]|$)/g, (match, p1) => '$' + p1)
+113:                  .replace(/\$\s+([.,?!;:])/g, (match, p1) => '$' + p1)
+114:                  .replace(/\s+([.,?!;:])/g, (match, p1) => p1);
+115: 
+116:   return result.trim();
+117: }
+118: 
+119: function processValue(key, val) {
+120:   if (typeof val === 'string') {
+121:     const skipKeys = ['question_id', 'format', 'typology_tag', 'correct_option', 'associated_trap_title', 'marks_category', 'chapter_name'];
+122:     if (skipKeys.includes(key)) {
+123:       return val;
+124:     }
+125:     
+126:     let cleaned = formatPartIndents(val);
+127:     cleaned = wrapMathExpressions(cleaned);
+128:     return cleaned;
+129:   }
+130:   
+131:   if (Array.isArray(val)) {
+132:     return val.map(item => processValue(key, item));
+133:   }
+134:   
+135:   if (val !== null && typeof val === 'object') {
+136:     const res = {};
+137:     for (let k in val) {
+138:       res[k] = processValue(k, val[k]);
+139:     }
+140:     return res;
+141:   }
+142:   
+143:   return val;
+144: }
+145: 
+146: // Target file
+147: const targetFile = path.resolve(__dirname, '../src/data/Boards/Physics/Questions/electricfieldandcharges.json');
+148: console.log(`Processing file: ${targetFile}`);
+149: 
+150: try {
+151:   const content = fs.readFileSync(targetFile, 'utf8');
+152:   const data = JSON.parse(content);
+153:   
+154:   const processedData = processValue(null, data);
+155:   
+156:   fs.writeFileSync(targetFile, JSON.stringify(processedData, null, 2), 'utf8');
+157:   console.log('Successfully cleaned and formatted questions JSON file!');
+158: } catch (err) {
+159:   console.error('Error processing JSON file:', err);
+160:   process.exit(1);
+161: }
+162: 
+The above content shows the entire, complete file contents of the requested file.

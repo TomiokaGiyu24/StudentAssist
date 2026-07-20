@@ -1,0 +1,163 @@
+===============================================
+PHYSICAL EDUCATION - DIAGRAM DESCRIPTIONS
+===============================================
+Total Images Required: 22
+
+
+=== CHAPTER 1: MANAGEMENT OF SPORTING EVENTS ===
+
+Diagram name - Knock-out Fixture (11 Teams)
+Used for - Visualizing the flow of matches and bye placement
+Description - A vertical list of numbers 1 to 11. A horizontal line separates Upper Half (1-6) and Lower Half (7-11). Byes (16-11=5) are marked next to: Team 11 (B1), Team 1 (B2), Team 7 (B3), Team 6 (B4), Team 10 (B5). Round 1 matches: Team 2 vs 3, Team 4 vs 5, Team 8 vs 9. Round 2: Team 1 plays winner of (2v3), Team 6 plays winner of (4v5), etc. Arrows connect winners moving rightward to Semis and Final.
+
+---
+
+Diagram name - Staircase Method (5 Teams)
+Used for - League fixture representation
+Description - Resembles a staircase descending from left to right. Step 1: 1-2, 1-3, 1-4, 1-5. Step 2: 2-3, 2-4, 2-5. Step 3: 3-4, 3-5. Step 4: 4-5. Each pair represents a match. No byes used here.
+
+
+=== CHAPTER 2: CHILDREN AND WOMEN IN SPORTS ===
+
+Diagram name - Spinal Deformities (Stick Figures)
+Used for - Visualizing Kyphosis, Lordosis, Scoliosis
+Description - Three side-profile stick figures. Kyphosis: Spine curves significantly outwards at the top (hump). Lordosis: Spine curves deeply inwards at the lower back (belly out). Scoliosis: (Back view) Spine curves sideways like an 'S'.
+
+---
+
+Diagram name - Footprint Comparison
+Used for - Flat Foot explanation
+Description - Two footprint outlines. Normal Foot: Has a curve/gap on the inner side. Flat Foot: The entire sole imprint is visible with no curve/gap.
+
+
+=== CHAPTER 3: YOGA AS PREVENTIVE MEASURE ===
+
+Diagram name - Bhujangasana (Cobra Pose)
+Used for - Diabetes, Back Pain, Asthma
+Description - A stick figure lying on its stomach. The legs are flat on the ground. The upper body (torso) is raised in a curve, supported by arms pushing against the ground. Head is tilted back looking up. Resembles a snake lifting its head.
+
+---
+
+Diagram name - Trikonasana (Triangle Pose)
+Used for - Obesity
+Description - A standing stick figure with legs wide apart. The torso is bent sideways. One arm reaches down to touch the foot, the other arm extends straight up towards the sky. The arms form a straight vertical line.
+
+---
+
+Diagram name - Pavanmuktasana (Wind-Relieving Pose)
+Used for - Gas, Diabetes
+Description - A stick figure lying on its back. The knees are bent and pulled close to the chest. The arms are wrapped around the shins. The head is lifted slightly to touch the knees.
+
+
+=== CHAPTER 4: CWSN / DIVYANG ===
+
+Diagram name - Paralympics Logo
+Used for - Identifying the logo in MCQs
+Description - Three crescent shapes (Agitos) in Red, Blue, and Green colors, circling a central point on a white background. Symbolizes 'Spirit in Motion'.
+
+---
+
+Diagram name - Special Olympics Logo
+Used for - Identifying the logo
+Description - Five figures arranged in a circle, holding hands. Represents a global movement of people creating a new world of inclusion and community.
+
+
+=== CHAPTER 5: SPORTS & NUTRITION ===
+
+Diagram name - Food Pyramid
+Used for - Balanced Diet explanation
+Description - A triangle divided into layers. Base (Largest): Cereals/Bread (Carbs). Level 2: Fruits and Vegetables (Vitamins/Minerals/Fiber). Level 3: Milk, Meat, Pulses (Proteins). Top (Smallest): Oil, Sugar, Sweets (Fats/Sugar).
+
+---
+
+Diagram name - Nutrients Flowchart
+Used for - Macro vs Micro question
+Description - A flowchart starting with 'Nutrients'. Branches into Macro (Carbs, Fats, Proteins, Water) and Micro (Vitamins, Minerals). Vitamins further branch into 'Fat Soluble (ADEK)' and 'Water Soluble (B, C)'.
+
+
+=== CHAPTER 6: TEST & MEASUREMENT ===
+
+Diagram name - Sit and Reach Test
+Used for - Explaining Flexibility Test
+Description - A student sitting on the floor with legs stretched out straight. Feet are placed flat against a testing box. The student reaches forward with both hands to touch the box/scale. Measures flexibility of hamstrings and lower back.
+
+---
+
+Diagram name - Flamingo Balance Test
+Used for - Static Balance explanation
+Description - A student standing on one leg on a narrow beam. The other leg is bent at the knee and held by the hand. The free hand tries to maintain balance. The examiner times how long balance is held.
+
+---
+
+Diagram name - Chair Stand Test
+Used for - Senior Citizen Test
+Description - An elderly person sitting on a chair with arms crossed against the chest. The diagram shows two phases: 'Sitting' and 'Standing up' fully, then returning to sit. Repeated for 30 seconds.
+
+
+=== CHAPTER 7: PHYSIOLOGY & INJURIES ===
+
+Diagram name - Greenstick Fracture
+Used for - Types of Fractures
+Description - A long bone (like forearm) that is bent like a green twig. One side of the bone is broken/splintered, but the other side is intact (bent).
+
+---
+
+Diagram name - Comminuted Fracture
+Used for - Types of Fractures
+Description - A bone where the fracture site has shattered into 3 or more small bony fragments/pieces.
+
+---
+
+Diagram name - Sports Injury Classification Flowchart
+Used for - Classification questions
+Description - A flowchart. Top: 'Sports Injuries'. Branch 1: 'Soft Tissue' (Sprain, Strain, Contusion, Abrasion). Branch 2: 'Hard Tissue'. Sub-branch A: 'Joint Injuries' (Dislocation). Sub-branch B: 'Bone Injuries' (Fractures).
+
+
+=== CHAPTER 8: BIOMECHANICS & SPORTS ===
+
+Diagram name - Lever Classes (1, 2, 3)
+Used for - Lever identification
+Description - Three horizontal lines. Class 1: Triangle (Fulcrum) in center. Class 2: Square (Load) in center. Class 3: Arrow (Effort) in center.
+
+---
+
+Diagram name - Projectile Trajectory
+Used for - Projectile motion factors
+Description - A parabolic curve starting from ground, reaching a peak, and landing. Labels: 'Angle of Release', 'Height (H)', 'Range (R)'. Arrows showing Gravity acting downwards.
+
+---
+
+Diagram name - Stable vs Unstable Equilibrium
+Used for - Equilibrium/COG explanation
+Description - Stable: A cone sitting on its wide base (Low COG). Unstable: A cone balanced on its tip (High COG, small base).
+
+
+=== CHAPTER 9: PSYCHOLOGY & SPORTS ===
+
+Diagram name - OCEAN Personality Chart
+Used for - Visualizing Personality Traits
+Description - A circular chart divided into 5 sectors, each labeled with a letter from O-C-E-A-N and the corresponding trait name.
+
+---
+
+Diagram name - Aggression Scale
+Used for - Types of Aggression
+Description - A linear scale. Left: Assertive Behavior (No intent to harm, within rules). Middle: Instrumental Aggression (Intent to harm for a goal). Right: Hostile Aggression (Intent to harm for anger/pain).
+
+
+=== CHAPTER 10: TRAINING IN SPORTS ===
+
+Diagram name - Isometric vs Isotonic Exercises
+Used for - Differentiation question
+Description - Isometric: Person pushing against a solid wall (No movement). Isotonic: Person lifting a dumbbell (Arm bends, muscle bulges).
+
+---
+
+Diagram name - Interval Training Heart Rate Graph
+Used for - Interval Method explanation
+Description - A saw-tooth graph. Vertical axis = Heart Rate. Horizontal axis = Time. The line goes UP (Work phase, HR rises to 180) then DOWN (Recovery phase, HR drops to 120), repeated multiple times.
+
+
+===============================================
+END OF DIAGRAM DESCRIPTIONS
+===============================================

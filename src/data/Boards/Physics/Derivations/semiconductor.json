@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "subject": "Physics",
+    "class": 12,
+    "board": "CBSE",
+    "chapter": "Semiconductor Electronics: Materials, Devices and Simple Circuits"
+  },
+  "derivations": [
+    {
+      "id": "ch14-01",
+      "title": "Conductivity of Intrinsic Semiconductor",
+      "priority": "P2",
+      "priority_reason": "Basic derivation connecting current density to mobility. Often appears as a 2-mark logical step or numerical basis.",
+      "marks": 2,
+      "diagram_required": false,
+      "diagram_description": "Block of semiconductor with area A. Holes moving in direction of E, Electrons moving opposite. Both currents add up.",
+      "derivation": {
+        "given_assumptions": [
+          "Intrinsic semiconductor with electron density $n_e$ and hole density $n_h$.",
+          "Applied electric field $E$."
+        ],
+        "required": "Expression for conductivity $\\sigma$.",
+        "steps": [
+          {
+            "text": "Total current is sum of electron and hole currents:",
+            "latex": "I = I_e + I_h"
+          },
+          {
+            "text": "Using $I = nAev_d$. For electrons $v_e = \\mu_e E$, for holes $v_h = \\mu_h E$.",
+            "latex": "I = n_e A e (\\mu_e E) + n_h A e (\\mu_h E)"
+          },
+          {
+            "text": "Current density $J = I/A$:",
+            "latex": "J = e E (n_e \\mu_e + n_h \\mu_h)"
+          },
+          {
+            "text": "By Ohm's law in point form $J = \\sigma E$. Comparing:",
+            "latex": "\\sigma = e (n_e \\mu_e + n_h \\mu_h)"
+          }
+        ],
+        "final_result": {
+          "text": "For intrinsic semiconductor ($n_e = n_h = n_i$):",
+          "latex": "\\sigma = n_i e (\\mu_e + \\mu_h)"
+        },
+        "examiner_notes": [
+          "Crucial concept: Electron and Hole currents add up physically (opposite charge, opposite velocity = same current direction).",
+          "Mobility mu is always positive."
+        ],
+        "question_forms": [
+          "Derive the expression for the conductivity of an intrinsic semiconductor in terms of carrier mobilities.",
+          "Show that the total current density in a semiconductor is sum of electron and hole current densities."
+        ]
+      }
+    },
+    {
+      "id": "ch14-02",
+      "title": "Rectification Efficiency of Half Wave Rectifier",
+      "priority": "P2",
+      "priority_reason": "Often asked if 'Derive the efficiency' is specified. Good for 3 marks involving integration.",
+      "marks": 3,
+      "diagram_required": true,
+      "diagram_description": "Circuit with diode and load R. Input waveform (sine). Output waveform (only positive half cycles present).",
+      "derivation": {
+        "given_assumptions": [
+          "Input current $I = I_0 \\sin \\omega t$ for $0$ to $\\pi$, $0$ for $\\pi$ to $2\\pi$.",
+          "Diode is ideal."
+        ],
+        "required": "Efficiency $\\eta = P_{DC} / P_{AC}$.",
+        "steps": [
+          {
+            "text": "Average (DC) current over one cycle:",
+            "latex": "I_{dc} = \\frac{1}{2\\pi} \\int_0^\\pi I_0 \\sin\\theta d\\theta = \\frac{I_0}{\\pi}"
+          },
+          {
+            "text": "RMS current over one cycle:",
+            "latex": "I_{rms} = \\sqrt{ \\frac{1}{2\\pi} \\int_0^\\pi (I_0 \\sin\\theta)^2 d\\theta } = \\frac{I_0}{2}"
+          },
+          {
+            "text": "DC Output Power $P_{DC} = I_{dc}^2 R_L$:",
+            "latex": "P_{DC} = \\left( \\frac{I_0}{\\pi} \\right)^2 R_L"
+          },
+          {
+            "text": "AC Input Power $P_{AC} = I_{rms}^2 (r_f + R_L) \\approx I_{rms}^2 R_L$ (neglecting diode resistance):",
+            "latex": "P_{AC} = \\left( \\frac{I_0}{2} \\right)^2 R_L"
+          },
+          {
+            "text": "Efficiency $\\eta$:",
+            "latex": "\\eta = \\frac{(I_0/\\pi)^2}{(I_0/2)^2} = \\frac{4}{\\pi^2} \\approx 0.406"
+          }
+        ],
+        "final_result": {
+          "text": "Maximum efficiency of HWR:",
+          "latex": "\\eta = 40.6\\%"
+        },
+        "examiner_notes": [
+          "Integration limits are 0 to pi, not 2pi (current is zero in second half).",
+          "I_rms is I0/2 for half wave, not I0/root(2) (which is for full wave).",
+          "Result 40.6% is a standard value to remember."
+        ],
+        "question_forms": [
+          "Derive the expression for the efficiency of a half-wave rectifier."
+        ]
+      },
+      "image": "/images/placeholder.svg"
+    },
+    {
+      "id": "ch14-03",
+      "title": "Rectification Efficiency of Full Wave Rectifier",
+      "priority": "P2",
+      "priority_reason": "Standard 3-mark derivation parallel to HWR.",
+      "marks": 3,
+      "diagram_required": true,
+      "diagram_description": "Center-tapped transformer with two diodes D1, D2 and Load R. Waveforms: Input, D1 current, D2 current, Total Load current (unidirectional pulses).",
+      "derivation": {
+        "given_assumptions": [
+          "Current flows in both half cycles.",
+          "$I = I_0 |\\sin \\omega t|$."
+        ],
+        "required": "Efficiency $\\eta$.",
+        "steps": [
+          {
+            "text": "Average (DC) current ($2 \\times$ Half Wave):",
+            "latex": "I_{dc} = \\frac{2I_0}{\\pi}"
+          },
+          {
+            "text": "RMS current (same as standard AC):",
+            "latex": "I_{rms} = \\frac{I_0}{\\sqrt{2}}"
+          },
+          {
+            "text": "Efficiency ratio:",
+            "latex": "\\eta = \\frac{I_{dc}^2 R}{I_{rms}^2 R} = \\frac{(2I_0/\\pi)^2}{(I_0/\\sqrt{2})^2}"
+          },
+          {
+            "text": "Simplifying:",
+            "latex": "\\eta = \\frac{4}{\\pi^2} \\times 2 = \\frac{8}{\\pi^2} \\approx 0.812"
+          }
+        ],
+        "final_result": {
+          "text": "Maximum efficiency of FWR:",
+          "latex": "\\eta = 81.2\\%"
+        },
+        "examiner_notes": [
+          "I_rms calculation is the key difference from HWR.",
+          "Must show that efficiency is exactly double that of HWR."
+        ],
+        "question_forms": [
+          "Derive the expression for the efficiency of a full-wave rectifier.",
+          "Show that the efficiency of a full wave rectifier is 81.2%."
+        ]
+      },
+      "image": "/images/placeholder.svg"
+    }
+  ]
+}

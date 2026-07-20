@@ -1,0 +1,252 @@
+{
+  "meta": {
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "class": 12,
+    "board": "CBSE"
+  },
+  "notes": [
+    {
+      "type": "concept",
+      "title": "Displacement Current",
+      "points": [
+        "Ampere's Circuital Law was found to be inconsistent when applied to a charging capacitor.",
+        "Maxwell suggested that a changing electric field produces a magnetic field, equivalent to a current.",
+        "Displacement current (Id) is that current which comes into existence in a region whenever the electric flux changes with time.",
+        "Conduction current (Ic) and displacement current (Id) together maintain continuity."
+      ]
+    },
+    {
+      "type": "formula",
+      "latex": "I_d = \\epsilon_0 \\frac{d\\Phi_E}{dt}",
+      "label": "Displacement Current",
+      "conditions": [
+        "Exists in the gap between capacitor plates where E is changing.",
+        "Phi_E is the electric flux."
+      ]
+    },
+    {
+      "type": "formula",
+      "latex": "\\oint \\mathbf{B} \\cdot d\\mathbf{l} = \\mu_0 (I_c + I_d) = \\mu_0 I_c + \\mu_0 \\epsilon_0 \\frac{d\\Phi_E}{dt}",
+      "label": "Ampere-Maxwell Law",
+      "conditions": [
+        "Generalised form of Ampere's Law.",
+        "Implies that both conduction current and changing electric field are sources of magnetic field."
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Maxwell's Equations",
+      "points": [
+        "1. Gauss's Law for Electricity: Electric flux through closed surface is q/epsilon_0.",
+        "2. Gauss's Law for Magnetism: Magnetic flux through closed surface is zero (no monopoles).",
+        "3. Faraday's Law: Changing magnetic flux induces electric field.",
+        "4. Ampere-Maxwell Law: Magnetic field is produced by conduction current and changing electric flux."
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Source of Electromagnetic Waves",
+      "points": [
+        "Accelerating charges produce electromagnetic waves.",
+        "An oscillating charge (accelerating) produces an oscillating electric field, which produces an oscillating magnetic field, and so on."
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Nature of Electromagnetic Waves",
+      "points": [
+        "EM waves are transverse in nature.",
+        "Electric field (E) and Magnetic field (B) oscillate perpendicular to each other and perpendicular to the direction of propagation.",
+        "Do not require a material medium for propagation."
+      ]
+    },
+    {
+      "type": "diagram",
+      "title": "Propagation of EM Wave",
+      "image": "/images/Physics/Derivations/Propagation of EM waves.png",
+      "caption": "Electric field Ex varies sinusoidally along y-axis, Magnetic field By along z-axis; Wave propagates along x-axis."
+    },
+    {
+      "type": "formula",
+      "latex": "c = \\frac{1}{\\sqrt{\\mu_0 \\epsilon_0}}",
+      "label": "Speed of EM Waves in Vacuum",
+      "conditions": [
+        "Value is approximately 3 x 10^8 m/s.",
+        "Speed is same for all wavelengths in vacuum."
+      ]
+    },
+    {
+      "type": "formula",
+      "latex": "c = \\frac{E_0}{B_0} = \\frac{E_{rms}}{B_{rms}}",
+      "label": "Relation between Field Amplitudes",
+      "conditions": [
+        "E0 and B0 are peak values of electric and magnetic fields."
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Energy and Momentum",
+      "points": [
+        "EM waves carry energy and momentum.",
+        "Energy density is shared equally between electric and magnetic fields.",
+        "When waves strike a surface, they exert radiation pressure."
+      ]
+    },
+    {
+      "type": "formula",
+      "latex": "p = \\frac{U}{c}",
+      "label": "Momentum delivered",
+      "conditions": [
+        "U is the total energy transferred to a surface for complete absorption.",
+        "If reflected, momentum delivered is 2U/c."
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "The Electromagnetic Spectrum",
+      "points": [
+        "Classification of EM waves based on frequency or wavelength.",
+        "No sharp division between adjacent regions.",
+        "Order (Increasing Frequency): Radio waves, Microwaves, Infrared, Visible, Ultraviolet, X-rays, Gamma rays."
+      ]
+    },
+    {
+      "type": "diagram",
+      "title": "Electromagnetic Spectrum",
+      "image": "/images/Physics/Derivations/Electromagnetic Spectrum.png",
+      "caption": "Spectrum showing wavelength ranges from Gamma rays (10^-12 m) to Radio waves (> 10^0 m)."
+    },
+    {
+      "type": "application",
+      "title": "Radio Waves",
+      "assumptions": [
+        "Produced by accelerated motion of charges in conducting wires.",
+        "Frequency: 500 kHz to 1000 MHz."
+      ],
+      "result": {
+        "latex": "\\text{Radio and TV Communication}",
+        "direction": "AM band (530-1710 kHz), FM band (88-108 MHz), TV waves (54-890 MHz)."
+      }
+    },
+    {
+      "type": "application",
+      "title": "Microwaves",
+      "assumptions": [
+        "Produced by special vacuum tubes (Klystrons, Magnetrons).",
+        "Frequency: GHz range."
+      ],
+      "result": {
+        "latex": "\\text{Radar, Microwave Ovens}",
+        "direction": "Used for radar systems in aircraft navigation and cooking food."
+      }
+    },
+    {
+      "type": "application",
+      "title": "Infrared Waves",
+      "assumptions": [
+        "Produced by hot bodies and molecules.",
+        "Also called Heat Waves."
+      ],
+      "result": {
+        "latex": "\\text{Remote controls, Green house effect}",
+        "direction": "Maintain earth's warmth; used in physical therapy and night vision."
+      }
+    },
+    {
+      "type": "application",
+      "title": "Visible Light",
+      "assumptions": [
+        "Produced by atomic excitation.",
+        "Frequency: 4 x 10^14 Hz to 7 x 10^14 Hz."
+      ],
+      "result": {
+        "latex": "\\text{Vision}",
+        "direction": "Detectable by human eye. Wavelength 400 nm to 700 nm."
+      }
+    },
+    {
+      "type": "application",
+      "title": "Ultraviolet Rays",
+      "assumptions": [
+        "Produced by very hot bodies (Sun) and special lamps.",
+        "Wavelength: 400 nm to 0.6 nm."
+      ],
+      "result": {
+        "latex": "\\text{Water purification, LASIK eye surgery}",
+        "direction": "Harmful to skin (tanning, cancer); ozone layer absorbs most solar UV."
+      }
+    },
+    {
+      "type": "application",
+      "title": "X-Rays",
+      "assumptions": [
+        "Produced by bombarding metal target with high energy electrons."
+      ],
+      "result": {
+        "latex": "\\text{Medical Diagnosis, Treatment}",
+        "direction": "Used to image bones and treat cancer."
+      }
+    },
+    {
+      "type": "application",
+      "title": "Gamma Rays",
+      "assumptions": [
+        "Produced in nuclear reactions and by radioactive nuclei."
+      ],
+      "result": {
+        "latex": "\\text{Cancer treatment}",
+        "direction": "Highest frequency, highest energy. Used to destroy cancer cells."
+      }
+    }
+  ],
+  "formula_sheet": [
+    {
+      "latex": "I_d = \\epsilon_0 \\frac{d\\Phi_E}{dt}",
+      "description": "Displacement Current",
+      "use_case": "Direct Use"
+    },
+    {
+      "latex": "c = \\frac{1}{\\sqrt{\\mu_0 \\epsilon_0}}",
+      "description": "Speed of Light in Vacuum",
+      "use_case": "Direct Use"
+    },
+    {
+      "latex": "c = \\frac{E_0}{B_0}",
+      "description": "Ratio of Amplitudes",
+      "use_case": "Direct Use"
+    },
+    {
+      "latex": "v = \\frac{1}{\\sqrt{\\mu \\epsilon}}",
+      "description": "Speed in Medium",
+      "use_case": "Direct Use"
+    },
+    {
+      "latex": "p = U/c",
+      "description": "Radiation Pressure (Absorption)",
+      "use_case": "Direct Use"
+    }
+  ],
+  "ncert_golden_lines": [
+    "Maxwell famously argued that a changing electric field must induce a magnetic field.",
+    "The displacement current has the same physical effects as the conduction current.",
+    "Accelerating charges produce electromagnetic waves.",
+    "Electromagnetic waves transport energy and momentum.",
+    "Radio waves are produced by the accelerated motion of charges in conducting wires.",
+    "Infrared waves are sometimes referred to as heat waves."
+  ],
+  "diagram_descriptors": [
+    {
+      "diagram_name": "Propagation of EM Wave",
+      "used_for": "Propagation of EM Wave",
+      "image_path": "/images/Physics/emwaves/em_wave_propagation_sinusoidal.png",
+      "detailed_description": "Electric field Ex varies sinusoidally along y-axis, Magnetic field By along z-axis; Wave propagates along x-axis."
+    },
+    {
+      "diagram_name": "Electromagnetic Spectrum",
+      "used_for": "Electromagnetic Spectrum",
+      "image_path": "/images/Physics/Derivations/Electromagnetic Spectrum.png",
+      "detailed_description": "Spectrum showing wavelength ranges from Gamma rays (10^-12 m) to Radio waves (> 10^0 m)."
+    }
+  ]
+}

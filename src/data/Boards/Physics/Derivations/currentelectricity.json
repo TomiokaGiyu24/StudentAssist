@@ -1,0 +1,292 @@
+{
+  "meta": {
+    "subject": "Physics",
+    "class": 12,
+    "board": "CBSE",
+    "chapter": "Current Electricity"
+  },
+  "derivations": [
+    {
+      "id": "ch3-01",
+      "title": "Relation between Electric Current and Drift Velocity",
+      "priority": "P1",
+      "priority_reason": "Foundation for understanding current at microscopic level. Frequently asked directly or as part of Ohm's law derivation.",
+      "marks": 3,
+      "diagram_required": true,
+      "diagram_description": "A cylindrical conductor of length L and cross-sectional area A connected to a battery. Electric field E is applied from left to right. Electrons drift from right to left with velocity vd. Volume element of length 'vd delta t' is highlighted.",
+      "derivation": {
+        "given_assumptions": [
+          "Conductor of length $L$, area of cross-section $A$.",
+          "Number density of free electrons is $n$.",
+          "Drift velocity of electrons is $v_d$."
+        ],
+        "required": "Relation between Current $I$ and Drift Velocity $v_d$.",
+        "steps": [
+          {
+            "text": "Consider a small time interval $\\Delta t$. In this time, all electrons within a distance $v_d \\Delta t$ from the cross-section will pass through it.",
+            "latex": "\\text{Volume} = A \\times (v_d \\Delta t)"
+          },
+          {
+            "text": "Total number of electrons in this volume:",
+            "latex": "N = n \\times \\text{Volume} = n A v_d \\Delta t"
+          },
+          {
+            "text": "Total charge passing through the cross-section:",
+            "latex": "\\Delta Q = N e = (n A v_d \\Delta t) e"
+          },
+          {
+            "text": "Current is rate of flow of charge $I = \\Delta Q / \\Delta t$:",
+            "latex": "I = \\frac{n A e v_d \\Delta t}{\\Delta t}"
+          }
+        ],
+        "final_result": {
+          "text": "The relation is:",
+          "latex": "I = n A e v_d"
+        },
+        "examiner_notes": [
+          "Common error: Forgetting to define 'n' as number density (electrons per unit volume), not total electrons.",
+          "Must clearly distinguish between random thermal velocity (avg = 0) and drift velocity."
+        ],
+        "question_forms": [
+          "Derive the relation between electric current and drift velocity.",
+          "Show that current is directly proportional to drift velocity."
+        ]
+      }
+    },
+    {
+      "id": "ch3-02",
+      "title": "Deduction of Ohm's Law and Expression for Resistivity",
+      "priority": "P1",
+      "priority_reason": "The most critical derivation in the chapter. Connects microscopic parameters to macroscopic Resistance.",
+      "marks": 5,
+      "diagram_required": false,
+      "diagram_description": "Same as the drift velocity diagram.",
+      "derivation": {
+        "given_assumptions": [
+          "Electric field $E$ applied across conductor of length $l$.",
+          "Potential difference $V = El$.",
+          "Relaxation time $\\tau$, Mass of electron $m$."
+        ],
+        "required": "Proof of $V \\propto I$ and formula for $\\rho$.",
+        "steps": [
+          {
+            "text": "Force on electron $F = eE$. Acceleration $a = F/m = eE/m$.",
+            "latex": "v_d = a \\tau = \\frac{eE}{m} \\tau"
+          },
+          {
+            "text": "Substitute $v_d$ into the current equation $I = n A e v_d$:",
+            "latex": "I = n A e \\left( \\frac{eE}{m} \\tau \\right) = \\frac{n e^2 A \\tau}{m} E"
+          },
+          {
+            "text": "Substitute electric field $E = V/l$:",
+            "latex": "I = \\frac{n e^2 A \\tau}{m} \\left( \\frac{V}{l} \\right)"
+          },
+          {
+            "text": "Rearranging to solve for $V$:",
+            "latex": "V = \\left( \\frac{m}{n e^2 \\tau} \\right) \\left( \\frac{l}{A} \\right) I"
+          },
+          {
+            "text": "Compare with Ohm's Law $V = RI$. Here $R = \\rho \\frac{l}{A}$.",
+            "latex": "R = \\left( \\frac{m}{n e^2 \\tau} \\right) \\frac{l}{A} \\implies \\rho = \\frac{m}{n e^2 \\tau}"
+          }
+        ],
+        "final_result": {
+          "text": "Ohm's law is deduced. Resistivity is:",
+          "latex": "\\rho = \\frac{m}{n e^2 \\tau}"
+        },
+        "examiner_notes": [
+          "Students must explicitly substitute E = V/l.",
+          "Often asked to define relaxation time (tau) within the derivation.",
+          "Final expression for rho is a frequent 1-mark recall question derived here."
+        ],
+        "question_forms": [
+          "Deduce Ohm's law using the concept of drift velocity.",
+          "Derive an expression for the resistivity of a conductor in terms of number density and relaxation time."
+        ]
+      }
+    },
+    {
+      "id": "ch3-03",
+      "title": "Equivalent EMF and Internal Resistance of Cells in Parallel",
+      "priority": "P1",
+      "priority_reason": "Algebraically tricky. High probability for 3-mark or 5-mark question involving circuit analysis.",
+      "marks": 3,
+      "diagram_required": true,
+      "diagram_description": "Two cells in parallel connected between points A and C (via B1, B2). Top cell: EMF E1, internal resistance r1. Bottom cell: EMF E2, internal resistance r2. Currents I1 and I2 flow from positive terminals and merge to form I. External resistance R may be shown but focus is on the combination.",
+      "derivation": {
+        "given_assumptions": [
+          "Two cells $\\varepsilon_1, r_1$ and $\\varepsilon_2, r_2$ connected in parallel.",
+          "Potential difference across the combination is $V$."
+        ],
+        "required": "Equivalent $\\varepsilon_{eq}$ and $r_{eq}$.",
+        "steps": [
+          {
+            "text": "For cell 1, terminal potential difference $V = \\varepsilon_1 - I_1 r_1$. Solving for current:",
+            "latex": "I_1 = \\frac{\\varepsilon_1 - V}{r_1}"
+          },
+          {
+            "text": "For cell 2, similarly:",
+            "latex": "I_2 = \\frac{\\varepsilon_2 - V}{r_2}"
+          },
+          {
+            "text": "Total current $I = I_1 + I_2$:",
+            "latex": "I = \\frac{\\varepsilon_1 - V}{r_1} + \\frac{\\varepsilon_2 - V}{r_2} = \\left( \\frac{\\varepsilon_1}{r_1} + \\frac{\\varepsilon_2}{r_2} \\right) - V \\left( \\frac{1}{r_1} + \\frac{1}{r_2} \\right)"
+          },
+          {
+            "text": "Rearranging to form $V = \\varepsilon_{eq} - I r_{eq}$. First, isolate V term:",
+            "latex": "V \\left( \\frac{1}{r_1} + \\frac{1}{r_2} \\right) = \\left( \\frac{\\varepsilon_1}{r_1} + \\frac{\\varepsilon_2}{r_2} \\right) - I"
+          },
+          {
+            "text": "Divide by the resistance factor $(\\frac{1}{r_1} + \\frac{1}{r_2})$:",
+            "latex": "V = \\frac{\\frac{\\varepsilon_1}{r_1} + \\frac{\\varepsilon_2}{r_2}}{\\frac{1}{r_1} + \\frac{1}{r_2}} - I \\frac{1}{\\frac{1}{r_1} + \\frac{1}{r_2}}"
+          }
+        ],
+        "final_result": {
+          "text": "Comparing with $V = \\varepsilon_{eq} - I r_{eq}$:",
+          "latex": "\\varepsilon_{eq} = \\frac{\\varepsilon_1 r_2 + \\varepsilon_2 r_1}{r_1 + r_2}, \\quad r_{eq} = \\frac{r_1 r_2}{r_1 + r_2}"
+        },
+        "examiner_notes": [
+          "Algebra error in the final step is extremely common.",
+          "Students often forget to mention that V is the same for both cells in parallel.",
+          "Alternative form: E_eq/r_eq = E1/r1 + E2/r2 is also acceptable and easier to remember."
+        ],
+        "question_forms": [
+          "Derive the expression for equivalent emf and internal resistance of two cells connected in parallel.",
+          "Two cells of emfs E1, E2 and internal resistances r1, r2 are connected in parallel. Find the equivalent combination."
+        ]
+      }
+    },
+    {
+      "id": "ch3-04",
+      "title": "Wheatstone Bridge Balance Condition",
+      "priority": "P1",
+      "priority_reason": "Direct application of Kirchhoff's Laws. Fundamental to the chapter.",
+      "marks": 3,
+      "diagram_required": true,
+      "diagram_description": "Quadrilateral loop ABCD. Arms: AB=R1, BC=R2, AD=R3, DC=R4. Galvanometer G connected between B and D. Battery connected across A and C. Currents I1, I2, I3, I4 and Ig are labeled.",
+      "derivation": {
+        "given_assumptions": [
+          "Four resistors $R_1, R_2, R_3, R_4$ forming a bridge.",
+          "Balanced condition: No current flows through galvanometer ($I_g = 0$).",
+          "Apply Kirchhoff's Voltage Law (KVL)."
+        ],
+        "required": "Relation $R_2/R_1 = R_4/R_3$.",
+        "steps": [
+          {
+            "text": "Apply KVL to loop ABDA. With $I_g = 0$, current in AB is $I_1$ and AD is $I_2$.",
+            "latex": "-I_1 R_1 + I_g G + I_2 R_3 = 0 \\implies I_1 R_1 = I_2 R_3"
+          },
+          {
+            "text": "Apply KVL to loop BCDB. With $I_g = 0$, current in BC is $I_1$ and DC is $I_2$.",
+            "latex": "-I_1 R_2 + I_2 R_4 + I_g G = 0 \\implies I_1 R_2 = I_2 R_4"
+          },
+          {
+            "text": "Divide equation (2) by equation (1):",
+            "latex": "\\frac{I_1 R_2}{I_1 R_1} = \\frac{I_2 R_4}{I_2 R_3}"
+          }
+        ],
+        "final_result": {
+          "text": "The balanced condition is:",
+          "latex": "\\frac{R_2}{R_1} = \\frac{R_4}{R_3}"
+        },
+        "examiner_notes": [
+          "Must explicitly state 'Applying Kirchhoff's Loop Rule'.",
+          "Sign convention errors in KVL loops are common.",
+          "Condition Ig = 0 is the starting point, not the result."
+        ],
+        "question_forms": [
+          "Obtain the condition for a balanced Wheatstone bridge using Kirchhoff's laws.",
+          "Derive the principle of Wheatstone bridge."
+        ]
+      },
+      "image": "/images/placeholder.svg"
+    },
+    {
+      "id": "ch3-05",
+      "title": "Internal Resistance of a Cell using Potentiometer",
+      "priority": "P1",
+      "priority_reason": "Major practical-linked derivation. Very frequently asked.",
+      "marks": 3,
+      "diagram_required": true,
+      "diagram_description": "Potentiometer wire AB with driver cell E' and rheostat. Secondary circuit: Cell E with internal resistance r connected to A. A resistance box R is connected in parallel with cell E through a key K. Galvanometer connected to jockey J. Balancing lengths l1 (K open) and l2 (K closed) are marked.",
+      "derivation": {
+        "given_assumptions": [
+          "Potentiometer with potential gradient $\\phi$ (V per unit length).",
+          "Cell of emf $\\varepsilon$ and internal resistance $r$."
+        ],
+        "required": "Expression for internal resistance $r$.",
+        "steps": [
+          {
+            "text": "When key K is open, the cell is in open circuit. Balancing length is $l_1$. EMF is balanced.",
+            "latex": "\\varepsilon = \\phi l_1"
+          },
+          {
+            "text": "When key K is closed, current flows through R. Terminal potential difference $V$ is balanced at length $l_2$.",
+            "latex": "V = \\phi l_2"
+          },
+          {
+            "text": "Divide the two equations:",
+            "latex": "\\frac{\\varepsilon}{V} = \\frac{l_1}{l_2}"
+          },
+          {
+            "text": "We know for a cell discharging through R, $\\varepsilon = I(R+r)$ and $V = IR$.",
+            "latex": "\\frac{\\varepsilon}{V} = \\frac{I(R+r)}{IR} = \\frac{R+r}{R} = 1 + \\frac{r}{R}"
+          },
+          {
+            "text": "Equate the two ratios:",
+            "latex": "1 + \\frac{r}{R} = \\frac{l_1}{l_2} \\implies \\frac{r}{R} = \\frac{l_1}{l_2} - 1"
+          }
+        ],
+        "final_result": {
+          "text": "Internal resistance is:",
+          "latex": "r = R \\left( \\frac{l_1}{l_2} - 1 \\right)"
+        },
+        "examiner_notes": [
+          "Confusion between l1 (open circuit, longer) and l2 (closed circuit, shorter).",
+          "Must explain why l1 > l2.",
+          "Circuit diagram is mandatory and carries 1 mark."
+        ],
+        "question_forms": [
+          "Explain the principle of a potentiometer. How can it be used to determine the internal resistance of a cell?",
+          "Derive the formula for internal resistance using a potentiometer."
+        ]
+      }
+    },
+    {
+      "id": "ch3-06",
+      "title": "Cells in Series",
+      "priority": "P2",
+      "priority_reason": "Simple derivation, often assumed known, but appears in basic sets.",
+      "marks": 2,
+      "diagram_required": true,
+      "diagram_description": "Two cells E1, r1 and E2, r2 connected in series (negative of one to positive of next). Current I flows through the single loop.",
+      "derivation": {
+        "given_assumptions": [
+          "Two cells connected in series.",
+          "Current $I$ is same for both."
+        ],
+        "required": "Equivalent $\\varepsilon_{eq}$ and $r_{eq}$.",
+        "steps": [
+          {
+            "text": "Potential difference across the combination is sum of potential differences.",
+            "latex": "V = V_{AB} + V_{BC} = (\\varepsilon_1 - I r_1) + (\\varepsilon_2 - I r_2)"
+          },
+          {
+            "text": "Grouping terms:",
+            "latex": "V = (\\varepsilon_1 + \\varepsilon_2) - I (r_1 + r_2)"
+          }
+        ],
+        "final_result": {
+          "text": "Comparing with standard equation:",
+          "latex": "\\varepsilon_{eq} = \\varepsilon_1 + \\varepsilon_2, \\quad r_{eq} = r_1 + r_2"
+        },
+        "examiner_notes": [
+          "Note polarity: If cells oppose each other, E_eq = E1 - E2."
+        ],
+        "question_forms": [
+          "Find the equivalent emf and internal resistance for cells in series."
+        ]
+      }
+    }
+  ]
+}

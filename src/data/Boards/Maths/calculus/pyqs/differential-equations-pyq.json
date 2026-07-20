@@ -1,0 +1,667 @@
+{
+  "chapter_name": "Differential Equations",
+  "board": "CBSE",
+  "class": "12",
+  "exam_year_target": "2026",
+  "pyq_year_range": "last 3 years",
+  "total_questions_generated": 10,
+  "questions": [
+    {
+      "question_id": 1,
+      "question_type": "MCQ",
+      "concept_tested": "Order and Degree of Differential Equations",
+      "difficulty_level": "Easy",
+      "question_text": "The order and degree of the differential equation $$ \\left(\\frac{d^2y}{dx^2}\\right)^3 + \\left(\\frac{dy}{dx}\\right)^2 + \\sin\\left(\\frac{dy}{dx}\\right) + 1 = 0 $$ are respectively:",
+      "options": [
+        "Order 2, Degree 3",
+        "Order 2, Degree not defined",
+        "Order 1, Degree 2",
+        "Order 2, Degree 1"
+      ],
+      "correct_answer": "Order 2, Degree not defined",
+      "topper_solution": {
+        "step_1": "Identify the highest order derivative in the equation. The term $$ \\frac{d^2y}{dx^2} $$ is the highest order derivative, so the Order is 2.",
+        "step_2": "Check if the differential equation is a polynomial equation in its derivatives.",
+        "step_3": "Because of the term $$ \\sin\\left(\\frac{dy}{dx}\\right) $$, the equation cannot be written as a polynomial in terms of derivatives.",
+        "step_4": "Therefore, while the order is 2, the degree is not defined."
+      },
+      "board_presentation_tip": "Clearly state why the degree is not defined. Pointing out the specific non-polynomial term involving the derivative (like sine, cosine, log, or exponential of dy/dx) secures full marks.",
+      "common_student_mistakes": [
+        "Confusing the power of the highest order derivative (which is 3) as the degree, ignoring the sine term constraint.",
+        "Writing degree as 1 because the equation equals 0."
+      ],
+      "concept_trigger": "If any derivative is 'trapped' inside a transcendental function (trig, log, exponential), the degree is strictly 'not defined'.",
+      "time_to_solve_seconds": "30",
+      "examiner_intent": "Testing the foundational definitions of order and degree, specifically the polynomial condition for degree."
+    },
+    {
+      "question_id": 2,
+      "question_type": "MCQ",
+      "concept_tested": "Integrating Factor of Linear Differential Equation",
+      "difficulty_level": "Moderate",
+      "question_text": "The Integrating Factor (I.F.) of the differential equation $$ \\cos x \\frac{dy}{dx} + y \\sin x = 1 $$ is:",
+      "options": [
+        "$$ \\cos x $$",
+        "$$ \\tan x $$",
+        "$$ \\sec x $$",
+        "$$ \\sin x $$"
+      ],
+      "correct_answer": "$$ \\sec x $$",
+      "topper_solution": {
+        "step_1": "Rewrite the differential equation in the standard linear form $$ \\frac{dy}{dx} + Py = Q $$.",
+        "step_2": "Divide the entire equation by $$ \\cos x $$ (assuming $$ \\cos x \\neq 0 $$): $$ \\frac{dy}{dx} + y \\left(\\frac{\\sin x}{\\cos x}\\right) = \\frac{1}{\\cos x} $$.",
+        "step_3": "This simplifies to $$ \\frac{dy}{dx} + y \\tan x = \\sec x $$. Here, $$ P = \\tan x $$.",
+        "step_4": "The formula for Integrating Factor is $$ I.F. = e^{\\int P dx} $$.",
+        "step_5": "Calculate the integral: $$ \\int \\tan x dx = \\log|\\sec x| $$.",
+        "step_6": "So, $$ I.F. = e^{\\log|\\sec x|} = \\sec x $$."
+      },
+      "board_presentation_tip": "Always explicitly write down 'Dividing by cos x to convert to standard form'. Don't just extract P from the original equation.",
+      "common_student_mistakes": [
+        "Taking $$ P = \\sin x $$ without dividing by the coefficient of $$ dy/dx $$.",
+        "Integrating $$ \\tan x $$ as $$ -\\log|\\cos x| $$ and mistakenly writing IF as $$ e^{-\\log\\cos x} = -\\cos x $$ due to log property errors."
+      ],
+      "concept_trigger": "To find IF, the coefficient of $$ dy/dx $$ must ALWAYS be 1. Any other term must be divided out first.",
+      "time_to_solve_seconds": "60",
+      "examiner_intent": "Evaluating the procedural requirement of normalizing a linear differential equation before finding the integrating factor."
+    },
+    {
+      "question_id": 3,
+      "question_type": "Assertion Reason",
+      "concept_tested": "Number of Arbitrary Constants in Solutions",
+      "difficulty_level": "Easy",
+      "question_text": "Assertion (A): The number of arbitrary constants in the general solution of a differential equation of order 3 is 3.\\nReason (R): The number of arbitrary constants in the general solution of a differential equation is strictly equal to the order of the differential equation.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct_answer": "Both A and R are true and R is the correct explanation of A",
+      "topper_solution": {
+        "step_1": "Analyze Reason (R): By mathematical theorem, the general solution of an $$n^{th}$$ order differential equation contains exactly $$n$$ independent arbitrary constants. Thus, R is true.",
+        "step_2": "Analyze Assertion (A): The given differential equation has an order of 3. Based on the theorem, its general solution must have exactly 3 arbitrary constants. Thus, A is true.",
+        "step_3": "Conclusion: Since Reason R provides the exact theorem used to deduce the number of constants in Assertion A, R is the correct explanation for A."
+      },
+      "board_presentation_tip": "Differentiate clearly between 'General Solution' (contains constants equal to order) and 'Particular Solution' (contains zero arbitrary constants) if asked.",
+      "common_student_mistakes": [
+        "Confusing general solution with particular solution and stating the number of constants is 0."
+      ],
+      "concept_trigger": "General Solution Constants = Order of DE. Particular Solution Constants = 0.",
+      "time_to_solve_seconds": "30",
+      "examiner_intent": "Testing theoretical knowledge regarding the structure of differential equation solutions."
+    },
+    {
+      "question_id": 4,
+      "question_type": "1_mark",
+      "concept_tested": "Variables Separable Method",
+      "difficulty_level": "Easy",
+      "question_text": "Find the general solution of the differential equation $$ \\frac{dy}{dx} = \\frac{1 + y^2}{1 + x^2} $$.",
+      "options": [],
+      "correct_answer": "$$ \\tan^{-1}y = \\tan^{-1}x + C $$",
+      "topper_solution": {
+        "step_1": "Separate the variables by bringing all $$ y $$ terms to one side and $$ x $$ terms to the other.",
+        "step_2": "$$ \\frac{dy}{1 + y^2} = \\frac{dx}{1 + x^2} $$.",
+        "step_3": "Integrate both sides: $$ \\int \\frac{dy}{1 + y^2} = \\int \\frac{dx}{1 + x^2} $$.",
+        "step_4": "Apply the standard integration formula: $$ \\tan^{-1}y = \\tan^{-1}x + C $$. (This can also be simplified using inverse trig properties, but this form is acceptable)."
+      },
+      "board_presentation_tip": "Showing the integration symbol explicitly before writing the answer is crucial for the method mark.",
+      "common_student_mistakes": [
+        "Integrating as $$ \\log(1+y^2) $$ instead of the inverse tangent formula.",
+        "Forgetting the constant of integration '+ C'."
+      ],
+      "concept_trigger": "Expressions where x and y are distinctly isolated in multiplication/division instantly cue the 'Variables Separable' technique.",
+      "time_to_solve_seconds": "45",
+      "examiner_intent": "Assessing fundamental variable separation execution and memory of basic integration formulas."
+    },
+    {
+      "question_id": 5,
+      "question_type": "2_mark",
+      "concept_tested": "Linear Differential Equation in x",
+      "difficulty_level": "Board-Tricky",
+      "question_text": "Find the integrating factor of the differential equation $$ (1 - y^2)\\frac{dx}{dy} + yx = ay $$, where $$ -1 < y < 1 $$.",
+      "options": [],
+      "correct_answer": "$$ \\frac{1}{\\sqrt{1 - y^2}} $$",
+      "topper_solution": {
+        "step_1": "Notice that the equation is given with $$ \\frac{dx}{dy} $$. This implies it's a linear differential equation in terms of $$ x $$, having the form $$ \\frac{dx}{dy} + P_1 x = Q_1 $$.",
+        "step_2": "Divide the equation by $$ (1 - y^2) $$ to isolate $$ \\frac{dx}{dy} $$: $$ \\frac{dx}{dy} + \\frac{y}{1 - y^2} x = \\frac{ay}{1 - y^2} $$.",
+        "step_3": "Identify $$ P_1 = \\frac{y}{1 - y^2} $$.",
+        "step_4": "Calculate the Integrating Factor: $$ I.F. = e^{\\int P_1 dy} = e^{\\int \\frac{y}{1 - y^2} dy} $$.",
+        "step_5": "To integrate $$ \\frac{y}{1 - y^2} $$, multiply and divide by -2: $$ -\\frac{1}{2} \\int \\frac{-2y}{1 - y^2} dy = -\\frac{1}{2} \\log|1 - y^2| $$.",
+        "step_6": "Apply log properties: $$ I.F. = e^{\\log(1 - y^2)^{-1/2}} = (1 - y^2)^{-1/2} = \\frac{1}{\\sqrt{1 - y^2}} $$. Since $$ -1 < y < 1 $$, $$ 1-y^2 $$ is positive."
+      },
+      "board_presentation_tip": "When evaluating the IF, explicitly show the step multiplying and dividing by -2 to make the numerator the exact derivative of the denominator.",
+      "common_student_mistakes": [
+        "Blindly trying to convert it to $$ \\frac{dy}{dx} $$ format, which makes it non-linear and unsolvable.",
+        "Missing the negative sign during integration, resulting in IF = $$ \\sqrt{1-y^2} $$."
+      ],
+      "concept_trigger": "If a DE contains terms like $$ dx/dy $$ or is impossible to isolate $$ dy/dx $$ linearly (e.g., y is trapped in powers but x is linear), flip the paradigm to a Linear DE in x.",
+      "time_to_solve_seconds": "120",
+      "examiner_intent": "Testing pattern recognition for the less common 'dx/dy' form of linear differential equations."
+    },
+    {
+      "question_id": 6,
+      "question_type": "2_mark",
+      "concept_tested": "Variables Separable with Trigonometry",
+      "difficulty_level": "Moderate",
+      "question_text": "Find the general solution of the differential equation: $$ \\sec^2 x \\tan y dx + \\sec^2 y \\tan x dy = 0 $$.",
+      "options": [],
+      "correct_answer": "$$ \\tan x \\tan y = C $$",
+      "topper_solution": {
+        "step_1": "Separate the variables by moving the $$ dy $$ term to the RHS: $$ \\sec^2 x \\tan y dx = -\\sec^2 y \\tan x dy $$.",
+        "step_2": "Divide both sides by $$ \\tan x \\tan y $$: $$ \\frac{\\sec^2 x}{\\tan x} dx = -\\frac{\\sec^2 y}{\\tan y} dy $$.",
+        "step_3": "Integrate both sides: $$ \\int \\frac{\\sec^2 x}{\\tan x} dx = -\\int \\frac{\\sec^2 y}{\\tan y} dy $$.",
+        "step_4": "Notice that the numerator is the exact derivative of the denominator ($$ \\frac{d}{dx}(\\tan x) = \\sec^2 x $$). Use the standard integral $$ \\int \\frac{f'(x)}{f(x)} dx = \\log|f(x)| $$.",
+        "step_5": "$$ \\log|\\tan x| = -\\log|\\tan y| + \\log C $$. (Using $$ \\log C $$ as the constant of integration makes simplification easier).",
+        "step_6": "$$ \\log|\\tan x| + \\log|\\tan y| = \\log C \\implies \\log|\\tan x \\cdot \\tan y| = \\log C $$.",
+        "step_7": "Remove the logarithm: $$ \\tan x \\tan y = C $$."
+      },
+      "board_presentation_tip": "Whenever integrating both sides yields logarithmic functions, taking the constant of integration as `log C` is highly recommended for elegant final answers.",
+      "common_student_mistakes": [
+        "Failing to separate variables correctly because of algebraic division errors.",
+        "Leaving the answer as a sum of logarithms instead of combining them into a single product, missing the final simplification mark."
+      ],
+      "concept_trigger": "Terms grouped as (Function of x)(Function of y) dx + (Function of x)(Function of y) dy = 0 are prime candidates for dividing by cross-terms to separate variables.",
+      "time_to_solve_seconds": "90",
+      "examiner_intent": "Evaluating variable separation skills combined with logarithmic integration and property-based simplification."
+    },
+    {
+      "question_id": 7,
+      "question_type": "3_mark",
+      "concept_tested": "Homogeneous Differential Equation",
+      "difficulty_level": "Board-Tricky",
+      "question_text": "Solve the differential equation: $$ x \\frac{dy}{dx} - y = \\sqrt{x^2 + y^2} $$.",
+      "options": [],
+      "correct_answer": "$$ y + \\sqrt{x^2 + y^2} = C x^2 $$",
+      "topper_solution": {
+        "step_1": "Isolate $$ \\frac{dy}{dx} $$: $$ \\frac{dy}{dx} = \\frac{y + \\sqrt{x^2 + y^2}}{x} $$. Divide numerator terms by $$ x $$: $$ \\frac{dy}{dx} = \\frac{y}{x} + \\sqrt{1 + \\left(\\frac{y}{x}\\right)^2} $$. This confirms it is a homogeneous differential equation.",
+        "step_2": "Use the substitution $$ y = vx $$. Differentiating with respect to $$ x $$ gives $$ \\frac{dy}{dx} = v + x\\frac{dv}{dx} $$.",
+        "step_3": "Substitute into the equation: $$ v + x\\frac{dv}{dx} = v + \\sqrt{1 + v^2} $$.",
+        "step_4": "Simplify: $$ x\\frac{dv}{dx} = \\sqrt{1 + v^2} $$. Now variables are separable.",
+        "step_5": "$$ \\frac{dv}{\\sqrt{1 + v^2}} = \\frac{dx}{x} $$.",
+        "step_6": "Integrate both sides: $$ \\int \\frac{dv}{\\sqrt{1 + v^2}} = \\int \\frac{dx}{x} $$.",
+        "step_7": "Use standard formula: $$ \\log|v + \\sqrt{1 + v^2}| = \\log|x| + \\log C $$.",
+        "step_8": "Combine logs: $$ \\log|v + \\sqrt{1 + v^2}| = \\log|Cx| \\implies v + \\sqrt{1 + v^2} = Cx $$.",
+        "step_9": "Substitute back $$ v = \\frac{y}{x} $$: $$ \\frac{y}{x} + \\sqrt{1 + \\frac{y^2}{x^2}} = Cx $$.",
+        "step_10": "Simplify by taking LCM: $$ \\frac{y + \\sqrt{x^2 + y^2}}{x} = Cx \\implies y + \\sqrt{x^2 + y^2} = Cx^2 $$."
+      },
+      "board_presentation_tip": "Showing the degree-zero check (dividing by x) to explicitly prove the equation is homogeneous earns the first step mark.",
+      "common_student_mistakes": [
+        "Failing to take 'x' out of the square root correctly (getting $$ \\sqrt{1+y^2} $$ instead of $$ \\sqrt{1+(y/x)^2} $$).",
+        "Forgetting to substitute $$ v = y/x $$ back at the end."
+      ],
+      "concept_trigger": "Polynomial degrees matching perfectly across all terms (x is degree 1, y is 1, $$ \\sqrt{x^2} $$ is degree 1) is the ultimate trigger for the $$ y = vx $$ homogeneous method.",
+      "time_to_solve_seconds": "240",
+      "examiner_intent": "Testing identification and algorithmic solving of Homogeneous DEs requiring standard inverse-hyperbolic/logarithmic integrals."
+    },
+    {
+      "question_id": 8,
+      "question_type": "3_mark",
+      "concept_tested": "Linear Differential Equation",
+      "difficulty_level": "Moderate",
+      "question_text": "Find the general solution of the differential equation: $$ (1 + x^2)dy + 2xy dx = \\cot x dx $$, where $$ x \\neq 0 $$.",
+      "options": [],
+      "correct_answer": "$$ y(1 + x^2) = \\log|\\sin x| + C $$",
+      "topper_solution": {
+        "step_1": "Divide the entire equation by $$ dx $$ to get derivatives: $$ (1 + x^2)\\frac{dy}{dx} + 2xy = \\cot x $$.",
+        "step_2": "Convert to standard linear form by dividing by $$ (1 + x^2) $$: $$ \\frac{dy}{dx} + \\left(\\frac{2x}{1 + x^2}\\right)y = \\frac{\\cot x}{1 + x^2} $$.",
+        "step_3": "This is a linear DE of the form $$ \\frac{dy}{dx} + Py = Q $$, where $$ P = \\frac{2x}{1 + x^2} $$ and $$ Q = \\frac{\\cot x}{1 + x^2} $$.",
+        "step_4": "Find Integrating Factor (I.F.): $$ I.F. = e^{\\int P dx} = e^{\\int \\frac{2x}{1 + x^2} dx} $$.",
+        "step_5": "Since numerator is derivative of denominator, $$ \\int \\frac{2x}{1+x^2} dx = \\log(1 + x^2) $$. So, $$ I.F. = e^{\\log(1 + x^2)} = 1 + x^2 $$.",
+        "step_6": "The general solution is given by: $$ y \\cdot (I.F.) = \\int Q \\cdot (I.F.) dx + C $$.",
+        "step_7": "$$ y(1 + x^2) = \\int \\left( \\frac{\\cot x}{1 + x^2} \\right) \\cdot (1 + x^2) dx + C $$.",
+        "step_8": "$$ y(1 + x^2) = \\int \\cot x dx + C $$.",
+        "step_9": "Integrate: $$ y(1 + x^2) = \\log|\\sin x| + C $$."
+      },
+      "board_presentation_tip": "Always state the standard form `dy/dx + Py = Q` and explicitly declare what P and Q are before finding the IF. It organizes the work clearly for the examiner.",
+      "common_student_mistakes": [
+        "Failing to divide the RHS (cot x) by (1+x^2), throwing off the final integration step.",
+        "Incorrectly integrating the I.F. exponent."
+      ],
+      "concept_trigger": "An equation with isolated `dy` and `y dx` terms, mixed with x-polynomials, strongly suggests a Linear DE.",
+      "time_to_solve_seconds": "180",
+      "examiner_intent": "Assessing methodical execution of the Linear DE solving algorithm: Normalization -> I.F. -> Solution equation."
+    },
+    {
+      "question_id": 9,
+      "question_type": "5_mark",
+      "concept_tested": "Linear DE in Reverse Form (dx/dy) - Particular Solution",
+      "difficulty_level": "Board-Tricky",
+      "question_text": "Find the particular solution of the differential equation $$ (x + y)\\frac{dy}{dx} = 1 $$, given that $$ y = 1 $$ when $$ x = -1 $$.",
+      "options": [],
+      "correct_answer": "$$ x = -y - 1 + e^{y-1} $$",
+      "topper_solution": {
+        "step_1": "The equation is $$ \\frac{dy}{dx} = \\frac{1}{x+y} $$. This cannot be solved via separation or homogeneous methods. Take the reciprocal: $$ \\frac{dx}{dy} = x + y $$.",
+        "step_2": "Rearrange into standard Linear DE form for x: $$ \\frac{dx}{dy} - x = y $$. Here, $$ P_1 = -1 $$ and $$ Q_1 = y $$.",
+        "step_3": "Find Integrating Factor: $$ I.F. = e^{\\int P_1 dy} = e^{\\int -1 dy} = e^{-y} $$.",
+        "step_4": "Write the general solution: $$ x \\cdot (I.F.) = \\int Q_1 \\cdot (I.F.) dy + C $$.",
+        "step_5": "$$ x e^{-y} = \\int y e^{-y} dy + C $$.",
+        "step_6": "Integrate RHS using Integration by Parts (ILATE: u=y, v=e^{-y}):\\n$$ \\int y e^{-y} dy = y \\left( \\frac{e^{-y}}{-1} \\right) - \\int 1 \\cdot \\left( \\frac{e^{-y}}{-1} \\right) dy $$\\n$$ = -y e^{-y} + \\int e^{-y} dy = -y e^{-y} - e^{-y} $$.",
+        "step_7": "Substitute back: $$ x e^{-y} = -y e^{-y} - e^{-y} + C $$.",
+        "step_8": "Multiply entire equation by $$ e^y $$: $$ x = -y - 1 + C e^y $$. This is the general solution.",
+        "step_9": "Find particular solution using given condition $$ x = -1 $$ when $$ y = 1 $$:\\n$$ -1 = -1 - 1 + C e^1 \\implies -1 = -2 + C e \\implies 1 = C e \\implies C = \\frac{1}{e} = e^{-1} $$.",
+        "step_10": "Substitute $$ C $$ into general solution: $$ x = -y - 1 + e^{-1} e^y \\implies x = -y - 1 + e^{y-1} $$."
+      },
+      "board_presentation_tip": "Flipping the derivative to dx/dy is the critical 'trick' here. Highlight this step. Also, bracket the Integration by Parts calculation to avoid sign mix-ups.",
+      "common_student_mistakes": [
+        "Trying to separate variables by cross multiplying, failing to recognize it's impossible.",
+        "Assuming P = 1 instead of P = -1, messing up the integrating factor.",
+        "Forgetting to multiply the constant C by $$ e^y $$ when dividing out the I.F."
+      ],
+      "concept_trigger": "If $$ dy/dx = \\frac{1}{\\text{linear function of x and y}} $$, instantly take the reciprocal to form a Linear DE in $$ dx/dy $$.",
+      "time_to_solve_seconds": "360",
+      "examiner_intent": "Testing adaptability in identifying non-standard linear forms and executing integration by parts with boundary conditions."
+    },
+    {
+      "question_id": 10,
+      "question_type": "case_based",
+      "concept_tested": "Application of DE (Population Growth)",
+      "difficulty_level": "Moderate",
+      "question_text": "In a laboratory experiment, a bacteria population in a petri dish grows at a rate proportional to its present number. Let $$ P $$ be the population at time $$ t $$ hours, and the initial population is $$ P_0 $$. It is observed that the population doubles in 5 hours. [Image of exponential bacteria growth curve] \\n\\nBased on this information, answer the following:\\n(i) Formulate the differential equation modeling this growth and find its general solution.\\n(ii) Use the given conditions to find the value of the growth constant $$ k $$.\\n(iii) Determine the time required for the bacteria population to become four times its initial value.",
+      "options": [],
+      "correct_answer": "(i) $$ P = C e^{kt} $$, (ii) $$ k = \\frac{1}{5}\\log 2 $$, (iii) 10 hours.",
+      "topper_solution": {
+        "step_1": "For (i): The rate of growth $$ \\frac{dP}{dt} $$ is proportional to $$ P $$. So, $$ \\frac{dP}{dt} = kP $$, where $$ k $$ is the growth constant.",
+        "step_2": "Separate variables: $$ \\frac{dP}{P} = k dt $$.",
+        "step_3": "Integrate: $$ \\int \\frac{dP}{P} = \\int k dt \\implies \\log P = kt + C_1 $$.",
+        "step_4": "Convert to exponential form: $$ P = e^{kt + C_1} = e^{C_1} e^{kt} $$. Let $$ e^{C_1} = C $$. General solution is $$ P = C e^{kt} $$.",
+        "step_5": "For (ii): At $$ t = 0 $$, $$ P = P_0 $$. So, $$ P_0 = C e^0 \\implies C = P_0 $$. Thus, $$ P = P_0 e^{kt} $$.",
+        "step_6": "At $$ t = 5 $$, $$ P = 2P_0 $$ (population doubled). Substitute this: $$ 2P_0 = P_0 e^{5k} $$.",
+        "step_7": "Divide by $$ P_0 $$: $$ e^{5k} = 2 \\implies 5k = \\log 2 \\implies k = \\frac{\\log 2}{5} $$.",
+        "step_8": "For (iii): We need time $$ t $$ when $$ P = 4P_0 $$.",
+        "step_9": "Use the equation $$ P = P_0 e^{kt} $$: $$ 4P_0 = P_0 e^{kt} \\implies 4 = e^{kt} $$.",
+        "step_10": "Take log on both sides: $$ \\log 4 = kt \\implies 2 \\log 2 = \\left(\\frac{\\log 2}{5}\\right) t $$. Cancelling $$ \\log 2 $$, we get $$ t = 5 \\times 2 = 10 $$ hours."
+      },
+      "board_presentation_tip": "Always explicitly define all variables and constants introduced. Use 'log' representing natural logarithm consistently. For part (iii), taking logs immediately instead of keeping e is much faster.",
+      "common_student_mistakes": [
+        "Failing to convert the initial proportionality statement into a differential equation.",
+        "Algebraic errors in exponent rules, specifically confusing $$ \\log(2^2) $$."
+      ],
+      "concept_trigger": "The phrase 'rate proportional to its present number' is the universal trigger for $$ dP/dt = kP $$, which leads directly to exponential growth $$ P = P_0 e^{kt} $$.",
+      "time_to_solve_seconds": "300",
+      "examiner_intent": "Assessing the ability to translate real-world physical descriptions into differential equations and solve them using initial value constraints."
+    },
+    {
+      "question_id": 11,
+      "question_type": "MCQ",
+      "concept_tested": "Homogeneous Differential Equation Recognition",
+      "difficulty_level": "Easy",
+      "question_text": "Which of the following is a homogeneous differential equation?",
+      "options": [
+        "$$ (4x + 6y + 5) dy - (3y + 2x + 4) dx = 0 $$",
+        "$$ (xy) dx - (x^3 + y^3) dy = 0 $$",
+        "$$ (x^2 + y^2) dx + 2xy dy = 0 $$",
+        "$$ y^2 dx + (x^2 - xy - y^2) dy = 0 $$"
+      ],
+      "correct_answer": "$$ (x^2 + y^2) dx + 2xy dy = 0 $$",
+      "topper_solution": {
+        "step_1": "A differential equation $$ M(x,y)dx + N(x,y)dy = 0 $$ is homogeneous if $$ M $$ and $$ N $$ are homogeneous functions of the same degree.",
+        "step_2": "In option C: $$ M = x^2 + y^2 $$ (Degree 2) and $$ N = 2xy $$ (Degree 1+1 = 2).",
+        "step_3": "Since both functions have the same degree, it is a homogeneous differential equation."
+      },
+      "board_presentation_tip": "To verify homogeneity formally, replace $$ x $$ with $$ \\lambda x $$ and $$ y $$ with $$ \\lambda y $$ and show that $$ \\lambda^n $$ factors out completely.",
+      "common_student_mistakes": [
+        "Choosing option B by only looking at the $$ y^3 $$ term and ignoring the degree of $$ xy $$.",
+        "Confusing 'homogeneous' with 'linear'."
+      ],
+      "concept_trigger": "Homogeneity depends on the sum of powers of variables in every single term being identical.",
+      "time_to_solve_seconds": "45",
+      "examiner_intent": "Testing the ability to visually identify homogeneous equations before solving."
+    },
+    {
+      "question_id": 12,
+      "question_type": "MCQ",
+      "concept_tested": "Particular Solution of Variables Separable DE",
+      "difficulty_level": "Moderate",
+      "question_text": "The particular solution of $$ \\frac{dy}{dx} = -4xy^2 $$ given that $$ y(0) = 1 $$ is:",
+      "options": [
+        "$$ y = \\frac{1}{2x^2 + 1} $$",
+        "$$ y = \\frac{1}{2x^2 - 1} $$",
+        "$$ y = 2x^2 + 1 $$",
+        "$$ y = e^{-2x^2} $$"
+      ],
+      "correct_answer": "$$ y = \\frac{1}{2x^2 + 1} $$",
+      "topper_solution": {
+        "step_1": "Separate variables: $$ \\frac{dy}{y^2} = -4x dx $$.",
+        "step_2": "Integrate both sides: $$ \\int y^{-2} dy = \\int -4x dx \\implies -\\frac{1}{y} = -2x^2 + C $$.",
+        "step_3": "Apply initial condition $$ x=0, y=1 $$: $$ -\\frac{1}{1} = -2(0)^2 + C \\implies C = -1 $$.",
+        "step_4": "Substitute C back: $$ -\\frac{1}{y} = -2x^2 - 1 \\implies \\frac{1}{y} = 2x^2 + 1 \\implies y = \\frac{1}{2x^2 + 1} $$."
+      },
+      "board_presentation_tip": "Always re-arrange the final equation to express $$ y $$ explicitly in terms of $$ x $$ if possible.",
+      "common_student_mistakes": [
+        "Integrating $$ 1/y^2 $$ as $$ \\log(y^2) $$.",
+        "Sign errors when moving terms from LHS to RHS."
+      ],
+      "concept_trigger": "The notation $$ y(0)=1 $$ is a direct instruction to find a Particular Solution by solving for C.",
+      "time_to_solve_seconds": "90",
+      "examiner_intent": "Assessing accuracy in separation of variables and applying boundary conditions."
+    },
+    {
+      "question_id": 13,
+      "question_type": "Assertion Reason",
+      "concept_tested": "Integrating Factor of Linear DE",
+      "difficulty_level": "Moderate",
+      "question_text": "Assertion (A): The integrating factor of $$ \\frac{dy}{dx} + y \\sec x = \\tan x $$ is $$ \\sec x + \\tan x $$.\\nReason (R): For a differential equation of the form $$ \\frac{dy}{dx} + Py = Q $$, the Integrating Factor is $$ e^{\\int P dx} $$.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct_answer": "Both A and R are true and R is the correct explanation of A",
+      "topper_solution": {
+        "step_1": "Identify $$ P = \\sec x $$.",
+        "step_2": "Using Reason R: $$ I.F. = e^{\\int \\sec x dx} $$.",
+        "step_3": "We know $$ \\int \\sec x dx = \\log|\\sec x + \\tan x| $$.",
+        "step_4": "$$ I.F. = e^{\\log|\\sec x + \\tan x|} = \\sec x + \\tan x $$. Thus, Assertion A is true and R explains it."
+      },
+      "board_presentation_tip": "In the answer sheet, explicitly show the integration of P before writing the final I.F.",
+      "common_student_mistakes": [
+        "Forgetting the standard integral of $$ \\sec x $$.",
+        "Thinking the I.F. is simply $$ e^P $$ without the integral."
+      ],
+      "concept_trigger": "A linear y term with a coefficient function of x signifies a Linear Differential Equation.",
+      "time_to_solve_seconds": "60",
+      "examiner_intent": "Checking mastery of the Integrating Factor formula and trigonometric integrals."
+    },
+    {
+      "question_id": 14,
+      "question_type": "1_mark",
+      "concept_tested": "Degree of Differential Equation",
+      "difficulty_level": "Easy",
+      "question_text": "Find the sum of the order and degree of the differential equation: $$ \\frac{d}{dx}\\left[ \\left(\\frac{dy}{dx}\\right)^3 \\right] = 0 $$.",
+      "options": [],
+      "correct_answer": "3",
+      "topper_solution": {
+        "step_1": "Differentiate the LHS: $$ \\frac{d}{dx}\\left[ \\left(\\frac{dy}{dx}\\right)^3 \\right] = 3\\left(\\frac{dy}{dx}\\right)^2 \\cdot \\frac{d^2y}{dx^2} $$.",
+        "step_2": "The equation is $$ 3\\left(\\frac{dy}{dx}\\right)^2 \\frac{d^2y}{dx^2} = 0 $$.",
+        "step_3": "Order = 2 (highest derivative). Degree = 1 (power of highest derivative).",
+        "step_4": "Sum = 2 + 1 = 3."
+      },
+      "board_presentation_tip": "You MUST perform the outer differentiation $$ d/dx $$ first. Many students look at the bracket and guess order 1.",
+      "common_student_mistakes": [
+        "Stating order is 1 because they didn't see the outer derivative.",
+        "Stating degree is 3."
+      ],
+      "concept_trigger": "The outer operator $$ d/dx $$ indicates hidden derivatives.",
+      "time_to_solve_seconds": "60",
+      "examiner_intent": "Testing attention to detail regarding operators acting on derivatives."
+    },
+    {
+      "question_id": 15,
+      "question_type": "2_mark",
+      "concept_tested": "Variables Separable with Logarithms",
+      "difficulty_level": "Moderate",
+      "question_text": "Solve: $$ e^x \\tan y dx + (1 - e^x) \\sec^2 y dy = 0 $$.",
+      "options": [],
+      "correct_answer": "$$ \\tan y = C(1 - e^x) $$",
+      "topper_solution": {
+        "step_1": "Separate variables: $$ (1 - e^x) \\sec^2 y dy = -e^x \\tan y dx $$.",
+        "step_2": "$$ \\frac{\\sec^2 y}{\\tan y} dy = \\frac{-e^x}{1 - e^x} dx $$.",
+        "step_3": "Integrate both sides: $$ \\log|\\tan y| = \\int \\frac{-e^x}{1 - e^x} dx $$.",
+        "step_4": "For RHS, let $$ u = 1 - e^x \\implies du = -e^x dx $$. Integral is $$ \\log|1 - e^x| + \\log C $$.",
+        "step_5": "$$ \\log|\\tan y| = \\log|C(1 - e^x)| \\implies \\tan y = C(1 - e^x) $$."
+      },
+      "board_presentation_tip": "When both sides result in log terms, use $$ \\log C $$ as the constant to simplify the final equation into a non-logarithmic form.",
+      "common_student_mistakes": [
+        "Failing to recognize that the numerator is the derivative of the denominator on both sides.",
+        "Sign errors on the RHS substitution."
+      ],
+      "concept_trigger": "Product of distinct x and y functions allows clean division to separate variables.",
+      "time_to_solve_seconds": "120",
+      "examiner_intent": "Assessing logarithmic integration skills within differential equations."
+    },
+    {
+      "question_id": 16,
+      "question_type": "2_mark",
+      "concept_tested": "Verifying Solution of DE",
+      "difficulty_level": "Easy",
+      "question_text": "Verify that the function $$ y = e^{-3x} $$ is a solution of the differential equation $$ \\frac{d^2y}{dx^2} + \\frac{dy}{dx} - 6y = 0 $$.",
+      "options": [],
+      "correct_answer": "Verified",
+      "topper_solution": {
+        "step_1": "Find first derivative: $$ y' = -3e^{-3x} $$.",
+        "step_2": "Find second derivative: $$ y'' = 9e^{-3x} $$.",
+        "step_3": "Substitute into LHS of DE: $$ 9e^{-3x} + (-3e^{-3x}) - 6(e^{-3x}) $$.",
+        "step_4": "$$ (9 - 3 - 6)e^{-3x} = 0 \\cdot e^{-3x} = 0 = RHS $$. Verified."
+      },
+      "board_presentation_tip": "Show each derivative calculation clearly before substituting into the equation.",
+      "common_student_mistakes": [
+        "Errors in the chain rule during differentiation (e.g., getting $$ 3e^{-3x} $$ instead of $$ -3e^{-3x} $$).",
+        "Arithmetic errors in the final sum."
+      ],
+      "concept_trigger": "The instruction 'Verify that function is a solution' requires substituting derivatives into the equation.",
+      "time_to_solve_seconds": "90",
+      "examiner_intent": "Checking basic differentiation and substitution skills."
+    },
+    {
+      "question_id": 17,
+      "question_type": "3_mark",
+      "concept_tested": "Linear Differential Equation solving",
+      "difficulty_level": "Moderate",
+      "question_text": "Solve: $$ x \\frac{dy}{dx} + 2y = x^2 $$ (where $$ x \\neq 0 $$).",
+      "options": [],
+      "correct_answer": "$$ y = \\frac{x^2}{4} + \\frac{C}{x^2} $$",
+      "topper_solution": {
+        "step_1": "Standard form: $$ \\frac{dy}{dx} + \\frac{2}{x}y = x $$. Here $$ P = 2/x, Q = x $$.",
+        "step_2": "$$ I.F. = e^{\\int \\frac{2}{x}dx} = e^{2\\log x} = e^{\\log x^2} = x^2 $$.",
+        "step_3": "Solution: $$ y \\cdot x^2 = \\int (x \\cdot x^2) dx + C $$.",
+        "step_4": "$$ y x^2 = \\int x^3 dx + C = \\frac{x^4}{4} + C $$.",
+        "step_5": "$$ y = \\frac{x^2}{4} + \\frac{C}{x^2} $$."
+      },
+      "board_presentation_tip": "Always state the I.F. formula and the general solution formula before calculation.",
+      "common_student_mistakes": [
+        "Forgetting to divide the RHS by $$ x $$ when converting to standard form.",
+        "Incorrectly simplifying $$ e^{2\\log x} $$ as $$ 2x $$ instead of $$ x^2 $$."
+      ],
+      "concept_trigger": "Equation is linear in y but variables cannot be separated.",
+      "time_to_solve_seconds": "180",
+      "examiner_intent": "Testing sequential steps of Linear DE solving."
+    },
+    {
+      "question_id": 18,
+      "question_type": "3_mark",
+      "concept_tested": "Homogeneous DE with initial conditions",
+      "difficulty_level": "Board-Tricky",
+      "question_text": "Find the particular solution of $$ \\frac{dy}{dx} = \\frac{y}{x} + \\sin\\left(\\frac{y}{x}\\right) $$ given $$ y = \\pi/2 $$ when $$ x = 1 $$.",
+      "options": [],
+      "correct_answer": "$$ \\tan\\left(\\frac{y}{2x}\\right) = x $$",
+      "topper_solution": {
+        "step_1": "Let $$ y = vx \\implies \\frac{dy}{dx} = v + x\\frac{dv}{dx} $$.",
+        "step_2": "$$ v + x\\frac{dv}{dx} = v + \\sin v \\implies x\\frac{dv}{dx} = \\sin v $$.",
+        "step_3": "$$ \\int \\csc v dv = \\int \\frac{1}{x} dx \\implies \\log|\\tan(v/2)| = \\log|x| + \\log C $$.",
+        "step_4": "$$ \\tan(v/2) = Cx \\implies \\tan(y/2x) = Cx $$.",
+        "step_5": "Apply $$ x=1, y=\\pi/2 $$: $$ \\tan(\\pi/4) = C(1) \\implies C = 1 $$.",
+        "step_6": "Solution: $$ \\tan\\left(\\frac{y}{2x}\\right) = x $$."
+      },
+      "board_presentation_tip": "Use the $$ \\log|\\tan(v/2)| $$ formula for the integral of $$ \\csc v $$ for the most efficient simplification.",
+      "common_student_mistakes": [
+        "Trying to integrate $$ \\sin v $$ instead of its reciprocal.",
+        "Failing to convert the final answer back to y/x."
+      ],
+      "concept_trigger": "Presence of terms like $$ y/x $$ inside transcendental functions indicates a homogeneous substitution.",
+      "time_to_solve_seconds": "240",
+      "examiner_intent": "Assessing complex substitution and initial value problem solving."
+    },
+    {
+      "question_id": 19,
+      "question_type": "5_mark",
+      "concept_tested": "Comprehensive Linear DE with Particular Solution",
+      "difficulty_level": "Board-Tricky",
+      "question_text": "Solve: $$ (x^2 - 1) \\frac{dy}{dx} + 2xy = \\frac{2}{x^2 - 1} $$, given $$ y(2) = 1 $$.",
+      "options": [],
+      "correct_answer": "$$ y = \\frac{1}{x^2 - 1} \\left[ \\log\\left|\\frac{x-1}{x+1}\\right| + 3 + \\log 3 \\right] $$ (Approximate form)",
+      "topper_solution": {
+        "step_1": "Standard form: $$ \\frac{dy}{dx} + \\frac{2x}{x^2 - 1}y = \\frac{2}{(x^2 - 1)^2} $$.",
+        "step_2": "$$ I.F. = e^{\\int \\frac{2x}{x^2 - 1}dx} = e^{ \\log(x^2 - 1) } = x^2 - 1 $$.",
+        "step_3": "General Solution: $$ y(x^2 - 1) = \\int \\frac{2}{(x^2 - 1)^2} (x^2 - 1) dx + C $$.",
+        "step_4": "$$ y(x^2 - 1) = \\int \\frac{2}{x^2 - 1} dx + C = 2 \\cdot \\frac{1}{2} \\log\\left|\\frac{x-1}{x+1}\\right| + C $$.",
+        "step_5": "$$ y(x^2 - 1) = \\log\\left|\\frac{x-1}{x+1}\\right| + C $$.",
+        "step_6": "Particular solution: At $$ x=2, y=1 \\implies 1(3) = \\log(1/3) + C \\implies C = 3 + \\log 3 $$.",
+        "step_7": "Final: $$ y = \\frac{1}{x^2 - 1} \\left( \\log\\left|\\frac{x-1}{x+1}\\right| + 3 + \\log 3 \\right) $$."
+      },
+      "board_presentation_tip": "Show the calculation of the constant C clearly to get full steps marks.",
+      "common_student_mistakes": [
+        "Messing up the special integral formula $$ \\int \\frac{1}{x^2 - a^2} dx $$.",
+        "Calculation errors in finding C with logs."
+      ],
+      "concept_trigger": "Normalization leads to a product of the normalized Q and I.F. that matches a special integral.",
+      "time_to_solve_seconds": "480",
+      "examiner_intent": "Testing multi-level precision in normalization, integration, and particular value calculation."
+    },
+    {
+      "question_id": 20,
+      "question_type": "case_based",
+      "concept_tested": "Newton's Law of Cooling / Applications of DE",
+      "difficulty_level": "Moderate",
+      "question_text": "The temperature $$ T $$ of a cooling liquid at time $$ t $$ is given by the differential equation $$ \\frac{dT}{dt} = -k(T - T_s) $$, where $$ T_s $$ is the surrounding temperature and $$ k > 0 $$ is a constant. \\n\\nBased on this, answer the following:\\n(i) Find the general solution for the temperature $$ T(t) $$.\\n(ii) If the surrounding temperature is $$ 20^\\circ\\text{C} $$ and the liquid cools from $$ 100^\\circ\\text{C} $$ to $$ 60^\\circ\\text{C} $$ in 10 minutes, set up the equations to find $$ k $$ and the constant of integration.",
+      "options": [],
+      "correct_answer": "(i) $$ T = T_s + Ce^{-kt} $$, (ii) $$ 80 = C, 40 = 80e^{-10k} $$",
+      "topper_solution": {
+        "step_1": "For (i): Separate variables: $$ \\frac{dT}{T - T_s} = -k dt $$.",
+        "step_2": "Integrate: $$ \\log(T - T_s) = -kt + C_1 $$.",
+        "step_3": "$$ T - T_s = e^{-kt + C_1} = Ce^{-kt} \\implies T = T_s + Ce^{-kt} $$.",
+        "step_4": "For (ii): Given $$ T_s = 20 $$, At $$ t=0, T=100 \\implies 100 = 20 + C e^0 \\implies C = 80 $$.",
+        "step_5": "At $$ t=10, T=60 \\implies 60 = 20 + 80 e^{-10k} \\implies 40 = 80 e^{-10k} \\implies e^{-10k} = 0.5 $$."
+      },
+      "board_presentation_tip": "Clearly distinguish between the variable temperature T and the constant surrounding temperature Ts.",
+      "common_student_mistakes": [
+        "Setting up the integral as $$ \\int (T - T_s) dT $$.",
+        "Ignoring the negative sign in the rate constant."
+      ],
+      "concept_trigger": "Any problem involving rates proportional to a difference (cooling, heating, diffusion) uses this specific separable DE.",
+      "time_to_solve_seconds": "300",
+      "examiner_intent": "Assessing translation of physical laws into solved mathematical models."
+    },
+    {
+      "question_id": 21,
+      "question_type": "5_mark",
+      "concept_tested": "Homogeneous DE - Algebraic and Logarithmic Integration",
+      "difficulty_level": "Board-Tricky",
+      "question_text": "Solve the differential equation: $$ \\left(x^2 - y^2\\right) dx + 2xy dy = 0 $$, given that $$ y = 1 $$ when $$ x = 1 $$.",
+      "options": [],
+      "correct_answer": "$$ x^2 + y^2 = 2x $$",
+      "topper_solution": {
+        "step_1": "Rewrite the equation in the form $$ \\frac{dy}{dx} = f\\left(\\frac{y}{x}\\right) $$: $$ 2xy dy = -\\left(x^2 - y^2\\right) dx \\implies \\frac{dy}{dx} = \\frac{y^2 - x^2}{2xy} $$.",
+        "step_2": "Divide numerator and denominator by $$ x^2 $$: $$ \\frac{dy}{dx} = \\frac{(y/x)^2 - 1}{2(y/x)} $$. This is a homogeneous DE.",
+        "step_3": "Substitute $$ y = vx \\implies \\frac{dy}{dx} = v + x\\frac{dv}{dx} $$.",
+        "step_4": "Substitute into the DE: $$ v + x\\frac{dv}{dx} = \\frac{v^2 - 1}{2v} $$.",
+        "step_5": "Isolate $$ \\frac{dv}{dx} $$: $$ x\\frac{dv}{dx} = \\frac{v^2 - 1}{2v} - v = \\frac{v^2 - 1 - 2v^2}{2v} = \\frac{-(v^2 + 1)}{2v} $$.",
+        "step_6": "Separate variables: $$ \\frac{2v}{v^2 + 1} dv = -\\frac{dx}{x} $$.",
+        "step_7": "Integrate both sides: $$ \\log\\left|v^2 + 1\\right| = -\\log|x| + \\log C \\implies \\log\\left|v^2 + 1\\right| + \\log|x| = \\log C $$.",
+        "step_8": "Combine logs: $$ x\\left(v^2 + 1\\right) = C $$. Substitute back $$ v = y/x $$: $$ x\\left(\\frac{y^2}{x^2} + 1\\right) = C \\implies \\frac{x^2 + y^2}{x} = C \\implies x^2 + y^2 = Cx $$.",
+        "step_9": "Apply initial condition $$ x = 1, y = 1 $$: $$ 1^2 + 1^2 = C(1) \\implies C = 2 $$.",
+        "step_10": "The particular solution is $$ x^2 + y^2 = 2x $$."
+      },
+      "board_presentation_tip": "Show the substitution $$ y = vx $$ and the derivative $$ dy/dx = v + x dv/dx $$ clearly. In the end, simplifying the constant of integration using log properties makes the final equation much cleaner and more likely to get full marks.",
+      "common_student_mistakes": [
+        "Sign errors when subtracting $$ v $$ from the RHS.",
+        "Forgetting to replace $$ v $$ with $$ y/x $$ in the final equation."
+      ],
+      "concept_trigger": "Sum of powers of variables in each term is 2 (e.g., $$ x^2, y^2, xy $$), signaling a homogeneous equation.",
+      "time_to_solve_seconds": "420",
+      "examiner_intent": "Testing multi-step execution: identifying homogeneity, substituting correctly, and handling logarithmic constants."
+    },
+    {
+      "question_id": 22,
+      "question_type": "Assertion Reason",
+      "concept_tested": "Solution to Linear DE",
+      "difficulty_level": "Moderate",
+      "question_text": "Assertion (A): The general solution of $$ \\frac{dy}{dx} + y = e^{-x} $$ is $$ y e^x = x + C $$.\\nReason (R): The integrating factor for the given differential equation is $$ e^x $$.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct_answer": "Both A and R are true and R is the correct explanation of A",
+      "topper_solution": {
+        "step_1": "Analyze Reason (R): The equation is $$ \\frac{dy}{dx} + Py = Q $$ where $$ P = 1 $$. $$ I.F. = e^{\\int 1 dx} = e^x $$. R is true.",
+        "step_2": "Analyze Assertion (A): Solution is $$ y \\cdot (I.F.) = \\int Q \\cdot (I.F.) dx + C $$.",
+        "step_3": "$$ y \\cdot e^x = \\int e^{-x} \\cdot e^x dx + C = \\int e^0 dx + C = \\int 1 dx + C = x + C $$.",
+        "step_4": "Thus, $$ y e^x = x + C $$. A is true and R is the correct explanation."
+      },
+      "board_presentation_tip": "Check if the simplified product of Q and I.F. equals 1 before integrating.",
+      "common_student_mistakes": [
+        "Taking $$ I.F. = e^{-x} $$ by confusing the solution form with the coefficient P.",
+        "Assuming the integral of 1 is 0."
+      ],
+      "concept_trigger": "Basic linear DE where P and Q are constants or simple functions of x.",
+      "time_to_solve_seconds": "60",
+      "examiner_intent": "Evaluating standard I.F. calculation and its application in forming the general solution."
+    },
+    {
+      "question_id": 23,
+      "question_type": "2_mark",
+      "concept_tested": "Forming Differential Equation by Eliminating Constants",
+      "difficulty_level": "Moderate",
+      "question_text": "Form the differential equation representing the family of curves $$ y = a \\sin(x + b) $$, where $$ a, b $$ are arbitrary constants.",
+      "options": [],
+      "correct_answer": "$$ \\frac{d^2y}{dx^2} + y = 0 $$",
+      "topper_solution": {
+        "step_1": "Given $$ y = a \\sin(x + b) $$. Differentiate with respect to $$ x $$: $$ \\frac{dy}{dx} = a \\cos(x + b) $$.",
+        "step_2": "Differentiate again (since there are two arbitrary constants): $$ \\frac{d^2y}{dx^2} = -a \\sin(x + b) $$.",
+        "step_3": "Observe that $$ -a \\sin(x + b) = -y $$.",
+        "step_4": "Substitute to get: $$ \\frac{d^2y}{dx^2} = -y \\implies \\frac{d^2y}{dx^2} + y = 0 $$."
+      },
+      "board_presentation_tip": "State clearly: 'Differentiating twice to eliminate two arbitrary constants'. The final DE must not contain 'a' or 'b'.",
+      "common_student_mistakes": [
+        "Differentiating only once and leaving a constant in the equation.",
+        "Incorrectly expanding $$ \\sin(x+b) $$ before differentiating, making the algebra more difficult."
+      ],
+      "concept_trigger": "Problem asks to 'form' a DE from a family of curves with specific constants.",
+      "time_to_solve_seconds": "120",
+      "examiner_intent": "Testing the rule that the order of the DE equals the number of independent arbitrary constants."
+    },
+    {
+      "question_id": 24,
+      "question_type": "3_mark",
+      "concept_tested": "Variables Separable with Exp/Trig mix",
+      "difficulty_level": "Moderate",
+      "question_text": "Solve the differential equation: $$ \\frac{dy}{dx} + \\sqrt{\\frac{1-y^2}{1-x^2}} = 0 $$.",
+      "options": [],
+      "correct_answer": "$$ \\sin^{-1}y + \\sin^{-1}x = C $$",
+      "topper_solution": {
+        "step_1": "Rearrange the equation: $$ \\frac{dy}{dx} = -\\frac{\\sqrt{1-y^2}}{\\sqrt{1-x^2}} $$.",
+        "step_2": "Separate the variables: $$ \\frac{dy}{\\sqrt{1-y^2}} = -\\frac{dx}{\\sqrt{1-x^2}} $$.",
+        "step_3": "Integrate both sides: $$ \\int \\frac{dy}{\\sqrt{1-y^2}} = -\\int \\frac{dx}{\\sqrt{1-x^2}} $$.",
+        "step_4": "Using standard formulas: $$ \\sin^{-1}y = -\\sin^{-1}x + C $$.",
+        "step_5": "Rearrange: $$ \\sin^{-1}y + \\sin^{-1}x = C $$."
+      },
+      "board_presentation_tip": "Using $$ \\sin^{-1} $$ is standard, but you could also use $$ -\\cos^{-1} $$. Stick to $$ \\sin^{-1} $$ as it matches common marking scheme answers.",
+      "common_student_mistakes": [
+        "Integrating as $$ \\log|\\sqrt{1-x^2}| $$.",
+        "Missing the negative sign while separating variables."
+      ],
+      "concept_trigger": "Fractional roots of $$(1 - \\text{var}^2)$$ are a direct signal for inverse sine integration.",
+      "time_to_solve_seconds": "150",
+      "examiner_intent": "Checking basic variable separation and standard integral formula identification."
+    },
+    {
+      "question_id": 25,
+      "question_type": "case_based",
+      "concept_tested": "Application of DE - Mixing Tank Problem",
+      "difficulty_level": "Moderate",
+      "question_text": "A large tank contains 100 liters of pure water. Brine containing 2 grams of salt per liter is pumped into the tank at a rate of 5 liters per minute. The well-mixed solution is pumped out at the same rate. \\n\\nBased on this, answer the following:\\n(i) If $$ S(t) $$ is the amount of salt in the tank at time $$ t $$, formulate the differential equation for $$ \\frac{dS}{dt} $$.\\n(ii) Find the general solution for $$ S(t) $$.\\n(iii) Calculate the amount of salt in the tank after a very long time (as $$ t \\to \\infty $$).",
+      "options": [],
+      "correct_answer": "(i) $$ \\frac{dS}{dt} = 10 - \\frac{S}{20} $$, (ii) $$ S = 200 - 200e^{-t/20} $$, (iii) 200 grams.",
+      "topper_solution": {
+        "step_1": "For (i): Rate of change = Rate in - Rate out. Rate in = $$ 2 \\, \\text{g/L} \\times 5 \\, \\text{L/min} = 10 \\, \\text{g/min} $$.",
+        "step_2": "Rate out = $$ \\text{Concentration} \\times \\text{Outflow rate} = \\frac{S}{100} \\times 5 = \\frac{5S}{100} = \\frac{S}{20} $$.",
+        "step_3": "Equation: $$ \\frac{dS}{dt} = 10 - \\frac{S}{20} $$.",
+        "step_4": "For (ii): This is a linear DE $$ \\frac{dS}{dt} + \\frac{1}{20}S = 10 $$. $$ I.F. = e^{\\int \\frac{1}{20} dt} = e^{t/20} $$.",
+        "step_5": "Solution: $$ S e^{t/20} = \\int 10 e^{t/20} dt = 10 \\times 20 e^{t/20} + C = 200 e^{t/20} + C $$.",
+        "step_6": "$$ S = 200 + C e^{-t/20} $$. At $$ t = 0, S = 0 $$ (pure water) $$ \\implies 0 = 200 + C \\implies C = -200 $$.",
+        "step_7": "$$ S(t) = 200(1 - e^{-t/20}) $$.",
+        "step_8": "For (iii): As $$ t \\to \\infty, e^{-t/20} \\to 0 $$. Thus, $$ S \\to 200(1 - 0) = 200 $$ grams."
+      },
+      "board_presentation_tip": "Clearly define the initial condition $$ S(0) = 0 $$ before solving for C. This is crucial for the particular solution.",
+      "common_student_mistakes": [
+        "Confusing amount of salt with concentration in the differential equation.",
+        "Incorrectly calculating the 'Rate Out' term by forgetting to divide S by the volume."
+      ],
+      "concept_trigger": "Mixing problems with inflow/outflow always use the 'Rate In - Rate Out' model.",
+      "time_to_solve_seconds": "300",
+      "examiner_intent": "Assessing application of Linear DEs to modeling substance mixing in fluids."
+    }
+  ]
+}

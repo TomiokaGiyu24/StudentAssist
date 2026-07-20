@@ -1,0 +1,147 @@
+{
+    "chapter_name": "Physical Education & Sports for CWSN (Divyang)",
+    "weightage_insight": {
+        "estimated_marks_range": "4–8 Marks",
+        "pyq_frequency_summary": "Moderate weightage but highly predictable. Examiners consistently ask to 'Differentiate between Paralympics and Special Olympics' (3 marks) or 'List strategies to make physical activity accessible' (3/5 marks). 1-mark MCQs often target the 'Motto', 'Starting Year', or 'Founder' of these organizations."
+    },
+    "ultimate_short_notes": [
+        {
+            "heading": "Organizations Promoting Adaptive Sports",
+            "content": [
+                "**Paralympics**: For athletes with **physical** and **visual** impairments. Started by **Sir Ludwig Guttmann** (Rome, 1960). Motto: *'Spirit in Motion'*. Governed by IPC.",
+                "**Special Olympics**: For children/adults with **Intellectual Disabilities**. Founded by **Eunice Kennedy Shriver** (1968). Motto: *'Let me win. But if I cannot win, let me be brave in the attempt.'*",
+                "**Deaflympics**: For athletes with **Hearing Impairment** (55dB loss or more). Formerly 'World Games for the Deaf' (1924). Motto: *'Per Ludos Aequalitas'* (Equality through Sports)."
+            ]
+        },
+        {
+            "heading": "Concept of Inclusion",
+            "content": [
+                "**Definition**: Inclusion implies that all children, regardless of their strengths or weaknesses (disabilities), become part of the school community and learn together.",
+                "**Philosophy**: It shifts focus from 'changing the child' to 'changing the system/environment' to accommodate the child.",
+                "**Benefit**: Develops social skills, reduces discrimination, and improves self-esteem of CWSN."
+            ]
+        },
+        {
+            "heading": "Strategies to Make Physical Activities Accessible",
+            "content": [
+                "**Medical Check-up**: Mandatory before starting any activity to know limits.",
+                "**Modified Rules**: E.g., reducing ground size, allowing extra attempts, removing the 'offside' rule.",
+                "**Modified Equipment**: Using bright/colorful balls (visual), balls with bells (blind), or lighter bats.",
+                "**Environment**: Ramps for wheelchairs, non-slippery surfaces, proper lighting."
+            ]
+        }
+    ],
+    "exam_playbook": [
+        {
+            "strategy_name": "The Organization Grid",
+            "pyq_pattern": "Differentiate between Special Olympics and Paralympics.",
+            "how_students_lose_marks": "Mixing up the target groups (writing 'Handicapped' generally instead of specific 'Intellectual' vs 'Physical'). Forgetting the Mottos.",
+            "winning_approach": "Create a 3-column table: **Target Group**, **Founder/Year**, **Motto**. This guarantees 3/3 marks. Always quote the 'Special Olympics Oath' if possible.",
+            "marks_secured": "3 Marks"
+        },
+        {
+            "strategy_name": "Strategy Specifics",
+            "pyq_pattern": "Suggest strategies to make sports accessible for CWSN.",
+            "how_students_lose_marks": "Writing generic points like 'Help them' or 'Be kind'.",
+            "winning_approach": "Use technical terms: 'Modified Equipment' (give example: Texture ball), 'Modified Rules' (give example: Extra time), 'Inclusive Environment' (give example: Ramps).",
+            "marks_secured": "3 to 5 Marks"
+        }
+    ],
+    "formula_bank": [
+        {
+            "concept": "Paralympics Identity",
+            "formula": "$$\\text{Founder: Ludwig Guttmann} \\mid \\text{Motto: Spirit in Motion}$$",
+            "used_in_questions": "MCQs identifying the correct organization details."
+        },
+        {
+            "concept": "Special Olympics Oath",
+            "formula": "$$\\text{\"Let me win. But if I cannot win, let me be brave in the attempt.\"}$$",
+            "used_in_questions": "Fill in the blanks or Identification questions."
+        },
+        {
+            "concept": "Deaflympics Eligibility",
+            "formula": "$$\\text{Hearing Loss} \\ge 55 \\text{ dB}$$",
+            "used_in_questions": "Criteria for participation in Deaflympics."
+        }
+    ],
+    "sure_shot_questions": [
+        {
+            "question": "Differentiate between Paralympics and Special Olympics Bharat on the basis of their objectives and target population.",
+            "marks": 3,
+            "mandatory_keywords": [
+                "Intellectual Disability",
+                "Physical/Visual Impairment",
+                "Eunice Kennedy Shriver",
+                "Ludwig Guttmann",
+                "IPC",
+                "SOI"
+            ],
+            "answer_structure": "Table format comparing: 1. Target Group 2. Governing Body 3. Main Objective.",
+            "model_answer_outline": [
+                "**Paralympics**: Target - Physical & Visual impairments. Focus - Elite sports competition (Parallel to Olympics).",
+                "**Special Olympics**: Target - Intellectual disabilities (cognitive delay). Focus - Participation, social inclusion, and courage."
+            ]
+        },
+        {
+            "question": "Explain any five strategies to make physical activities accessible for children with special needs.",
+            "marks": 5,
+            "mandatory_keywords": [
+                "Modified Rules",
+                "Assistive Devices",
+                "Safe Environment",
+                "Simple Instructions",
+                "Trained Instructors"
+            ],
+            "answer_structure": "Heading for each strategy -> One sentence explanation -> One practical example.",
+            "model_answer_outline": [
+                "1. **Modified Equipment**: Use balls with bells for visually impaired; larger handles for weak grip.",
+                "2. **Modified Rules**: Reduce the court size; increase number of chances to hit/throw.",
+                "3. **Simple Instructions**: Use visual aids or hand signals along with verbal commands.",
+                "4. **Safe Environment**: Remove obstacles; install ramps; ensure non-slip flooring.",
+                "5. **Trained Instructors**: Teachers should know sign language or first aid for CWSN."
+            ]
+        },
+        {
+            "question": "Write a short note on the Special Olympics Bharat.",
+            "marks": 3,
+            "mandatory_keywords": [
+                "National Sports Federation",
+                "Intellectual Disabilities",
+                "Community Based",
+                "Training & Competition"
+            ],
+            "answer_structure": "Introduction (India chapter of SOI) -> Recognition (by Govt of India) -> Achievement.",
+            "model_answer_outline": [
+                "**Origin**: Recognized by Govt of India in 2001 as a National Sports Federation.",
+                "**Mission**: To provide year-round sports training for children with intellectual disabilities in India.",
+                "**Impact**: Promotes social acceptance and has registered over 1 million athletes in India."
+            ]
+        }
+    ],
+    "diagram_descriptors": [
+        {
+            "diagram_name": "Paralympics Logo",
+            "used_for": "Identifying the logo in MCQs",
+            "image_path": "/images/PhysicalEducation/paraolympics logo.png",
+            "detailed_description": "Three crescent shapes (Agitos) in Red, Blue, and Green colors, circling a central point on a white background. Symbolizes 'Spirit in Motion'."
+        },
+        {
+            "diagram_name": "Special Olympics Logo",
+            "used_for": "Identifying the logo",
+            "image_path": "/images/PhysicalEducation/special olympic logo.png",
+            "detailed_description": "Five figures arranged in a circle, holding hands. Represents a global movement of people creating a new world of inclusion and community."
+        }
+    ],
+    "examiner_traps": [
+        {
+            "common_mistake": "Thinking 'Special Olympics' is for physically disabled people.",
+            "why_marks_are_cut": "This is a fundamental conceptual error. Special Olympics is *exclusively* for Intellectual Disabilities (slow learners, Down syndrome). Paralympics is for Physical disabilities.",
+            "correct_examiner_expectation": "Clearly distinguish: Special = Intellectual; Para = Physical."
+        },
+        {
+            "common_mistake": "Writing 'Hearing Impaired' athletes participate in Paralympics.",
+            "why_marks_are_cut": "Hearing impaired athletes have their own separate games called 'Deaflympics'. They do not compete in Paralympics unless they have another physical disability.",
+            "correct_examiner_expectation": "Deaflympics is a distinct entity."
+        }
+    ]
+}

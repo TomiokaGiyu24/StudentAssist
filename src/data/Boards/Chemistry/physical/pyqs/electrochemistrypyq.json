@@ -1,0 +1,715 @@
+{
+"meta": {
+"subject": "Chemistry",
+"class": "12",
+"chapter_name": "Electrochemistry",
+"pyq_year_range": "2022-2025 (Includes SQPs)",
+"total_questions": 25,
+"difficulty_distribution": {
+"easy": "20%",
+"moderate": "45%",
+"hard": "35%"
+}
+},
+"questions": [
+{
+"question_id": "ELEC-2024-MCQ-01",
+"year": "2024",
+"question_type": "MCQ",
+"marks": 1,
+"question_text": "Which of the following solutions will have the highest conductivity at 298 K?",
+"if_graph_or_diagram_required": {
+"required": false,
+"diagram_description_for_rendering": ""
+},
+"board_style_answer": {
+"structured_answer": "Option (b): 0.1 M HCl solution",
+"stepwise_marking_scheme_breakdown": "1 mark for correct option.",
+"final_answer_boxed": "0.1 M HCl solution"
+},
+"examiner_intent_analysis": {
+"concept_tested": "Factors affecting Conductivity",
+"why_this_question_is_asked": "Tests understanding of strong vs weak electrolytes and concentration effects.",
+"common_student_mistake": "Selecting weak acid (CH3COOH) or lower concentration (0.01 M) thinking dilution increases conductivity (dilution increases molar conductivity, not conductivity).",
+"trap_zone": "Confusing Conductivity (k) with Molar Conductivity (Λm)."
+},
+"quiz_mode": {
+"correct_option_if_mcq": "b",
+"options": {
+"a": "0.01 M HCl solution",
+"b": "0.1 M HCl solution",
+"c": "0.01 M CH3COOH solution",
+"d": "0.1 M CH3COOH solution"
+},
+"visible_after_attempt": true
+}
+},
+{
+"question_id": "ELEC-2023-MCQ-02",
+"year": "2023",
+"question_type": "MCQ",
+"marks": 1,
+"question_text": "The quantity of charge required to obtain one mole of Aluminium from Al2O3 is:",
+"if_graph_or_diagram_required": {
+"required": false,
+"diagram_description_for_rendering": ""
+},
+"board_style_answer": {
+"structured_answer": "Option (c): 3F",
+"stepwise_marking_scheme_breakdown": "1 mark for correct option.",
+"final_answer_boxed": "3F"
+},
+"examiner_intent_analysis": {
+"concept_tested": "Faraday's Laws of Electrolysis",
+"why_this_question_is_asked": "Tests stoichiometry of electron transfer. Al3+ + 3e- -> Al.",
+"common_student_mistake": "Calculating for Al2O3 (which has 2 Al) instead of 'one mole of Aluminium'.",
+"trap_zone": "Ignoring the specific wording 'one mole of Aluminium'."
+},
+"quiz_mode": {
+"correct_option_if_mcq": "c",
+"options": {
+"a": "1F",
+"b": "6F",
+"c": "3F",
+"d": "2F"
+},
+"visible_after_attempt": true
+}
+},
+{
+"question_id": "ELEC-2025-MCQ-03",
+"year": "2025",
+"question_type": "MCQ",
+"marks": 1,
+"question_text": "Standard electrode potential of three metals X, Y and Z are -1.2 V, +0.5 V and -3.0 V respectively. The reducing power of these metals will be:",
+"if_graph_or_diagram_required": {
+"required": false,
+"diagram_description_for_rendering": ""
+},
+"board_style_answer": {
+"structured_answer": "Option (a): Z > X > Y",
+"stepwise_marking_scheme_breakdown": "1 mark for correct order.",
+"final_answer_boxed": "Z > X > Y"
+},
+"examiner_intent_analysis": {
+"concept_tested": "Standard Electrode Potential & Reducing Power",
+"why_this_question_is_asked": "Lower (more negative) E° implies higher tendency to lose electrons (oxidize), thus stronger reducing agent.",
+"common_student_mistake": "Confusing Oxidizing power with Reducing power.",
+"trap_zone": "Thinking positive E° means stronger reducing agent."
+},
+"quiz_mode": {
+"correct_option_if_mcq": "a",
+"options": {
+"a": "Z > X > Y",
+"b": "Y > X > Z",
+"c": "X > Y > Z",
+"d": "Y > Z > X"
+},
+"visible_after_attempt": true
+}
+},
+{
+"question_id": "ELEC-2022-MCQ-04",
+"year": "2022",
+"question_type": "MCQ",
+"marks": 1,
+"question_text": "The cell constant of a conductivity cell:",
+"if_graph_or_diagram_required": {
+"required": false,
+"diagram_description_for_rendering": ""
+},
+"board_style_answer": {
+"structured_answer": "Option (a): remains constant for a cell",
+"stepwise_marking_scheme_breakdown": "1 mark.",
+"final_answer_boxed": "remains constant for a cell"
+},
+"examiner_intent_analysis": {
+"concept_tested": "Cell Constant (G*)",
+"why_this_question_is_asked": "Definition check. G* = l/A, depends on geometry of cell, not electrolyte.",
+"common_student_mistake": "Thinking it changes with concentration of electrolyte.",
+"trap_zone": "Options suggesting it depends on temperature or electrolyte nature."
+},
+"quiz_mode": {
+"correct_option_if_mcq": "a",
+"options": {
+"a": "remains constant for a cell",
+"b": "changes with change of electrolyte",
+"c": "changes with change of concentration of electrolyte",
+"d": "changes with temperature"
+},
+"visible_after_attempt": true
+}
+},
+{
+"question_id": "ELEC-SQP-AR-05",
+"year": "SQP 2024",
+"question_type": "Assertion-Reason",
+"marks": 1,
+"question_text": "Assertion (A): Conductivity of an electrolyte increases with decrease in concentration.\nReason (R): Number of ions per unit volume decreases on dilution.",
+"if_graph_or_diagram_required": {
+"required": false,
+"diagram_description_for_rendering": ""
+},
+"board_style_answer": {
+"structured_answer": "Option (d): Assertion (A) is false but Reason (R) is true.",
+"stepwise_marking_scheme_breakdown": "1 mark.",
+"final_answer_boxed": "A is false but R is true"
+},
+"examiner_intent_analysis": {
+"concept_tested": "Conductivity vs Molar Conductivity trends",
+"why_this_question_is_asked": "Classic confusion point. Conductivity (k) decreases with dilution; Molar Conductivity (Λm) increases.",
+"common_student_mistake": "Thinking Assertion is true because they confuse k with Λm.",
+"trap_zone": "The reason statement is actually correct, but it contradicts the (false) assertion."
+},
+"quiz_mode": {
+"correct_option_if_mcq": "d",
+"options": {
+"a": "Both A and R are true and R is the correct explanation of A",
+"b": "Both A and R are true but R is not the correct explanation of A",
+"c": "A is true but R is false",
+"d": "A is false but R is true"
+},
+"visible_after_attempt": true
+}
+},
+{
+"question_id": "ELEC-2025-VSA-06",
+"year": "2025",
+"question_type": "2M",
+"marks": 2,
+"question_text": "Define limiting molar conductivity. Why does conductivity of a solution decrease with dilution?",
+"if_graph_or_diagram_required": {
+"required": false,
+"diagram_description_for_rendering": ""
+},
+"board_style_answer": {
+"structured_answer": "Limiting Molar Conductivity: The molar conductivity of an electrolyte when the concentration approaches zero (infinite dilution).\n\nReason for decrease in conductivity: Conductivity is the conductance of ions present in unit volume of solution. On dilution, the number of ions per unit volume decreases, hence conductivity decreases.",
+"stepwise_marking_scheme_breakdown": "1 mark for Definition.\n1 mark for Reason.",
+"final_answer_boxed": "Number of ions per unit volume decreases"
+},
+"examiner_intent_analysis": {
+"concept_tested": "Conductivity Concepts",
+"why_this_question_is_asked": "Fundamental theory check.",
+"common_student_mistake": "Explaining molar conductivity trend instead of conductivity trend.",
+"trap_zone": "N/A"
+},
+"quiz_mode": {
+"visible_after_attempt": true
+}
+},
+{
+"question_id": "ELEC-2024-SA-07",
+"year": "2024",
+"question_type": "3M",
+"marks": 3,
+"question_text": "Calculate the emf of the following cell at 25°C:\nZn(s) | Zn2+ (0.001 M) || Cd2+ (0.1 M) | Cd(s)\nGiven: E°(Zn2+/Zn) = -0.76 V, E°(Cd2+/Cd) = -0.40 V. (log 10 = 1)",
+"if_graph_or_diagram_required": {
+"required": false,
+"diagram_description_for_rendering": ""
+},
+"board_style_answer": {
+"structured_answer": "1. Cell Reaction: Zn + Cd2+ -> Zn2+ + Cd\n   Here n = 2 electrons.\n2. E°cell = E°cathode - E°anode\n   E°cell = -0.40 - (-0.76) = +0.36 V.\n3. Nernst Equation:\n   Ecell = E°cell - (0.059/n) log ([Zn2+]/[Cd2+])\n   Ecell = 0.36 - (0.059/2) log (0.001 / 0.1)\n   Ecell = 0.36 - 0.0295 log (10^-2)\n   Ecell = 0.36 - 0.0295 (-2)\n   Ecell = 0.36 + 0.059\n   Ecell = 0.419 V",
+"stepwise_marking_scheme_breakdown": "1 mark for E°cell.\n1 mark for Nernst substitution.\n1 mark for final answer.",
+"final_answer_boxed": "0.419 V"
+},
+"examiner_intent_analysis": {
+"concept_tested": "Nernst Equation",
+"why_this_question_is_asked": "Standard numerical to test application of Nernst eq.",
+"common_student_mistake": "Wrong Q value (Product/Reactant ratio inverted). Calculation errors with log.",
+"trap_zone": "Signs in log calculation (log 10^-2 is negative)."
+},
+"quiz_mode": {
+"visible_after_attempt": true
+}
+},
+{
+"question_id": "ELEC-2023-SA-08",
+"year": "2023",
+"question_type": "3M",
+"marks": 3,
+"question_text": "The conductivity of 0.001 M acetic acid is 4 x 10^-5 S/cm. Calculate the dissociation constant of acetic acid, if limiting molar conductivity for acetic acid is 390 S cm2/mol.",
+"if_graph_or_diagram_required": {
+"required": false,
+"diagram_description_for_rendering": ""
+},
+"board_style_answer": {
+"structured_answer": "1. Molar Conductivity (Λm) = (k * 1000) / C\n   Λm = (4 * 10^-5 * 1000) / 0.001\n   Λm = (4 * 10^-2) / 10^-3 = 40 S cm2/mol.\n2. Degree of dissociation (α) = Λm / Λm°\n   α = 40 / 390 = 4/39 ≈ 0.1026.\n3. Dissociation constant (Ka) = (C * α^2) / (1 - α)\n   Since α is small, Ka ≈ C * α^2\n   Ka = 0.001 * (0.1026)^2\n   Ka = 10^-3 * 0.0105\n   Ka = 1.05 * 10^-5",
+"stepwise_marking_scheme_breakdown": "1 mark for Λm calculation.\n1 mark for α.\n1 mark for Ka.",
+"final_answer_boxed": "1.05 x 10^-5"
+},
+"examiner_intent_analysis": {
+"concept_tested": "Weak Electrolyte Dissociation",
+"why_this_question_is_asked": "Connects conductivity, degree of dissociation, and equilibrium constant.",
+"common_student_mistake": "Forgetting to multiply k by 1000 in Λm formula.",
+"trap_zone": "Calculation of alpha squared."
+},
+"quiz_mode": {
+"visible_after_attempt": true
+}
+},
+{
+"question_id": "ELEC-SQP-LA-09",
+"year": "SQP 2024",
+"question_type": "5M",
+"marks": 5,
+"question_text": "(a) Write the cell reaction and calculate ΔrG° for the cell:\nNi(s) | Ni2+ (1 M) || Ag+ (1 M) | Ag(s)\nGiven E°(Ni2+/Ni) = -0.25 V, E°(Ag+/Ag) = +0.80 V.\n(b) What are fuel cells? Give one example.",
+"if_graph_or_diagram_required": {
+"required": false,
+"diagram_description_for_rendering": ""
+},
+"board_style_answer": {
+"structured_answer": "(a) Cell Reaction:\nAnode (Oxidation): Ni -> Ni2+ + 2e-\nCathode (Reduction): 2Ag+ + 2e- -> 2Ag\nOverall: Ni(s) + 2Ag+(aq) -> Ni2+(aq) + 2Ag(s)\n\nCalculation:\nE°cell = E°(Ag+/Ag) - E°(Ni2+/Ni)\nE°cell = 0.80 - (-0.25) = 1.05 V\n\nΔrG° = -nFE°cell\nn = 2\nF = 96500 C/mol\nΔrG° = -2 * 96500 * 1.05\nΔrG° = -202,650 J/mol = -202.65 kJ/mol\n\n(b) Fuel Cells: Galvanic cells that convert the energy of combustion of fuels (like hydrogen, methane) directly into electrical energy.\nExample: H2-O2 fuel cell.",
+"stepwise_marking_scheme_breakdown": "1 mark for cell reaction.\n1 mark for E°cell.\n1 mark for ΔrG° formula and value.\n1 mark for Fuel cell definition.\n1 mark for Example.",
+"final_answer_boxed": "-202.65 kJ/mol"
+},
+"examiner_intent_analysis": {
+"concept_tested": "Gibbs Energy & Thermodynamics of Cell",
+"why_this_question_is_asked": "Relationship between thermodynamic parameter G and electrochemical parameter E.",
+"common_student_mistake": "Using n=1 instead of n=2 (balancing Ag). Forgetting negative sign in ΔG.",
+"trap_zone": "Unit conversion (J to kJ is preferred but J is acceptable if unit is written)."
+},
+"quiz_mode": {
+"visible_after_attempt": true
+}
+},
+{
+"question_id": "ELEC-2022-SA-10",
+"year": "2022",
+"question_type": "3M",
+"marks": 3,
+"question_text": "State Kohlrausch law of independent migration of ions. Calculate the limiting molar conductivity of acetic acid if limiting molar conductivities of NaCl, HCl and CH3COONa are 126.4, 425.9 and 91.0 S cm2/mol respectively.",
+"if_graph_or_diagram_required": {
+"required": false,
+"diagram_description_for_rendering": ""
+},
+"board_style_answer": {
+"structured_answer": "Statement: Kohlrausch law states that limiting molar conductivity of an electrolyte can be represented as the sum of the individual contributions of the anion and cation of the electrolyte.\n\nCalculation:\nΛ°(CH3COOH) = Λ°(CH3COONa) + Λ°(HCl) - Λ°(NaCl)\nValues:\nΛ°(CH3COONa) = 91.0\nΛ°(HCl) = 425.9\nΛ°(NaCl) = 126.4\n\nΛ°(CH3COOH) = 91.0 + 425.9 - 126.4\nΛ°(CH3COOH) = 516.9 - 126.4\nΛ°(CH3COOH) = 390.5 S cm2/mol",
+"stepwise_marking_scheme_breakdown": "1 mark for Statement.\n1 mark for Formula logic.\n1 mark for Final answer with units.",
+"final_answer_boxed": "390.5 S cm2/mol"
+},
+"examiner_intent_analysis": {
+"concept_tested": "Kohlrausch Law Application",
+"why_this_question_is_asked": "Standard method to find Λ° for weak electrolytes.",
+"common_student_mistake": "Wrong combination of electrolytes (e.g., adding NaCl).",
+"trap_zone": "Calculation errors."
+},
+"quiz_mode": {
+"visible_after_attempt": true
+}
+},
+{
+"question_id": "ELEC-2025-SA-11",
+"year": "2025",
+"question_type": "2M",
+"marks": 2,
+"question_text": "Why is the use of a mercury cell advantageous for watches and hearing aids? Write the overall reaction occurring in a mercury cell.",
+"if_graph_or_diagram_required": {
+"required": false,
+"diagram_description_for_rendering": ""
+},
+"board_style_answer": {
+"structured_answer": "Advantage: The cell potential remains constant during its life as the overall reaction does not involve any ion in solution whose concentration can change.\n\nOverall Reaction:\nZn(Hg) + HgO(s) -> ZnO(s) + Hg(l)",
+"stepwise_marking_scheme_breakdown": "1 mark for Advantage (Constant potential).\n1 mark for Reaction.",
+"final_answer_boxed": "Constant Potential 1.35V"
+},
+"examiner_intent_analysis": {
+"concept_tested": "Primary Batteries",
+"why_this_question_is_asked": "Practical application of electrochemistry.",
+"common_student_mistake": "Writing half reactions incorrectly or forgetting the main advantage.",
+"trap_zone": "N/A"
+},
+"quiz_mode": {
+"visible_after_attempt": true
+}
+},
+{
+"question_id": "ELEC-2024-SA-12",
+"year": "2024",
+"question_type": "3M",
+"marks": 3,
+"question_text": "Predict the products of electrolysis in each of the following:\n(i) An aqueous solution of AgNO3 with silver electrodes.\n(ii) An aqueous solution of AgNO3 with platinum electrodes.\n(iii) A dilute solution of H2SO4 with platinum electrodes.",
+"if_graph_or_diagram_required": {
+"required": false,
+"diagram_description_for_rendering": ""
+},
+"board_style_answer": {
+"structured_answer": "(i) Ag electrodes (Active):\nCathode: Ag+ reduced to Ag.\nAnode: Ag oxidized to Ag+.\nProduct: Ag deposited at cathode, Ag dissolves from anode.\n\n(ii) Pt electrodes (Inert):\nCathode: Ag+ reduced to Ag.\nAnode: H2O oxidized to O2 (since Pt is inert).\nProduct: Ag at cathode, O2 at anode.\n\n(iii) Dilute H2SO4 (Pt):\nCathode: H+ reduced to H2.\nAnode: H2O oxidized to O2.\nProduct: H2 at cathode, O2 at anode.",
+"stepwise_marking_scheme_breakdown": "1 mark for each correct prediction pair.",
+"final_answer_boxed": "N/A"
+},
+"examiner_intent_analysis": {
+"concept_tested": "Electrolysis Products",
+"why_this_question_is_asked": "Tests impact of electrode nature (Active vs Inert) and preferential discharge theory.",
+"common_student_mistake": "In (i), predicting O2 at anode (treating Ag as inert).",
+"trap_zone": "Ag electrode participates in reaction."
+},
+"quiz_mode": {
+"visible_after_attempt": true
+}
+},
+{
+"question_id": "ELEC-SQP-CASE-13",
+"year": "SQP 2022",
+"question_type": "Case-Based",
+"marks": 4,
+"question_text": "Read the passage:\nThe potential difference between the two electrodes of a galvanic cell is called the cell potential and is measured in volts. The cell potential is the difference between the electrode potentials (reduction potentials) of the cathode and anode.\n(a) Which electrode is the cathode in a standard Daniell cell?\n(b) How does E_cell change when the concentration of Zn2+ is increased in the Daniell cell?\n(c) What is the value of E°cell for the reaction Cu2+ + Zn -> Cu + Zn2+? (Given E°Cu = 0.34V, E°Zn = -0.76V).\nOr (c) When does a galvanic cell behave like an electrolytic cell?",
+"if_graph_or_diagram_required": {
+"required": true,
+"diagram_description_for_rendering": ""
+},
+"board_style_answer": {
+"structured_answer": "(a) Copper (Cu) electrode.\n(b) According to Nernst equation: E = E° - (RT/2F)ln([Zn2+]/[Cu2+]).\nIf [Zn2+] increases, the log term increases, subtracted value increases, so E_cell decreases.\n(c) E°cell = E°cathode - E°anode = 0.34 - (-0.76) = 1.10 V.\nOR (c) When an external opposing potential (E_ext) greater than E_cell (1.1 V) is applied.",
+"stepwise_marking_scheme_breakdown": "1 mark for (a).\n1 mark for (b) with reasoning.\n2 marks for (c) calculation or condition.",
+"final_answer_boxed": "1.10 V"
+},
+"examiner_intent_analysis": {
+"concept_tested": "Galvanic Cell Principles",
+"why_this_question_is_asked": "Basics of Daniell cell and Nernst qualitative analysis.",
+"common_student_mistake": "Thinking increasing Reactant ion concentration decreases potential (it's Product ion Zn2+ here).",
+"trap_zone": "Direction of external potential."
+},
+"quiz_mode": {
+"visible_after_attempt": true
+}
+},
+{
+"question_id": "ELEC-2023-LA-14",
+"year": "2023",
+"question_type": "5M",
+"marks": 5,
+"question_text": "(a) Calculate the time to deposit 1.27 g of copper at cathode when a current of 2 A was passed through the solution of CuSO4. (Molar mass of Cu = 63.5 g/mol, 1F = 96500 C).\n(b) Discuss the chemistry of the Lead Storage Battery during discharge.",
+"if_graph_or_diagram_required": {
+"required": false,
+"diagram_description_for_rendering": ""
+},
+"board_style_answer": {
+"structured_answer": "(a) Reaction: Cu2+ + 2e- -> Cu (n=2).\nFormula: m = (M * I * t) / (n * F)\n1.27 = (63.5 * 2 * t) / (2 * 96500)\n1.27 = (63.5 * t) / 96500\nt = (1.27 * 96500) / 63.5\nt = (122555) / 63.5\nt = 1930 seconds.\n\n(b) Lead Storage Battery (Discharge):\nAnode: Pb(s) + SO4^2-(aq) -> PbSO4(s) + 2e-\nCathode: PbO2(s) + SO4^2-(aq) + 4H+(aq) + 2e- -> PbSO4(s) + 2H2O(l)\nOverall: Pb(s) + PbO2(s) + 2H2SO4(aq) -> 2PbSO4(s) + 2H2O(l)",
+"stepwise_marking_scheme_breakdown": "2 marks for Time calculation.\n3 marks for Battery reactions (1 Anode, 1 Cathode, 1 Overall).",
+"final_answer_boxed": "1930 s"
+},
+"examiner_intent_analysis": {
+"concept_tested": "Faraday's Law & Secondary Batteries",
+"why_this_question_is_asked": "Tests numerical skill and memory of complex battery reactions.",
+"common_student_mistake": "Unbalanced equations for Lead Storage battery. Forgetting H+ ions in cathode reaction.",
+"trap_zone": "Confusing Discharge reactions with Recharge reactions."
+},
+"quiz_mode": {
+"visible_after_attempt": true
+}
+},
+{
+"question_id": "ELEC-2025-MCQ-15",
+"year": "2025",
+"question_type": "MCQ",
+"marks": 1,
+"question_text": "In the electrolysis of aqueous NaCl, the product formed at the cathode is:",
+"if_graph_or_diagram_required": {
+"required": false,
+"diagram_description_for_rendering": ""
+},
+"board_style_answer": {
+"structured_answer": "Option (c): H2 gas",
+"stepwise_marking_scheme_breakdown": "1 mark.",
+"final_answer_boxed": "H2 gas"
+},
+"examiner_intent_analysis": {
+"concept_tested": "Electrolysis of Aqueous NaCl",
+"why_this_question_is_asked": "H+ has lower discharge potential than Na+ (reduction potential of water is higher than Na+).",
+"common_student_mistake": "Predicting Sodium metal (Na).",
+"trap_zone": "Difference between Molten NaCl (Na) and Aqueous NaCl (H2)."
+},
+"quiz_mode": {
+"correct_option_if_mcq": "c",
+"options": {
+"a": "Sodium metal",
+"b": "Chlorine gas",
+"c": "Hydrogen gas",
+"d": "Oxygen gas"
+},
+"visible_after_attempt": true
+}
+},
+{
+"question_id": "ELEC-2022-SA-16",
+"year": "2022",
+"question_type": "2M",
+"marks": 2,
+"question_text": "Represent the galvanic cell in which the reaction Zn(s) + Cu2+(aq) -> Zn2+(aq) + Cu(s) takes place. Mention the direction of electron flow.",
+"if_graph_or_diagram_required": {
+"required": false,
+"diagram_description_for_rendering": ""
+},
+"board_style_answer": {
+"structured_answer": "Representation:\nZn(s) | Zn2+(aq) || Cu2+(aq) | Cu(s)\n\nDirection of electron flow:\nFrom Anode (Zinc) to Cathode (Copper) through the external circuit.",
+"stepwise_marking_scheme_breakdown": "1 mark for Cell Notation (Salt bridge || placement).\n1 mark for Electron flow direction.",
+"final_answer_boxed": "Zn to Cu"
+},
+"examiner_intent_analysis": {
+"concept_tested": "Cell Representation",
+"why_this_question_is_asked": "Standard convention check (ABC: Anode Bridge Cathode).",
+"common_student_mistake": "Reversing the flow (saying Current flow direction instead of Electron flow).",
+"trap_zone": "Current flows Cu to Zn; Electrons flow Zn to Cu."
+},
+"quiz_mode": {
+"visible_after_attempt": true
+}
+},
+{
+"question_id": "ELEC-2024-VSA-17",
+"year": "2024",
+"question_type": "2M",
+"marks": 2,
+"question_text": "Why does the conductivity of a solution decrease with dilution, whereas molar conductivity increases?",
+"if_graph_or_diagram_required": {
+"required": false,
+"diagram_description_for_rendering": ""
+},
+"board_style_answer": {
+"structured_answer": "1. Conductivity (k) decreases because the number of ions per unit volume decreases upon dilution.\n2. Molar conductivity (Λm = k/C) increases because the decrease in k is more than compensated by the large increase in volume (1/C). Also, interionic attractions decrease, increasing ion mobility.",
+"stepwise_marking_scheme_breakdown": "1 mark for k reason.\n1 mark for Λm reason.",
+"final_answer_boxed": "N/A"
+},
+"examiner_intent_analysis": {
+"concept_tested": "Conductivity Trends",
+"why_this_question_is_asked": "Differentiating k and Λm behavior.",
+"common_student_mistake": "Mixing up the reasons.",
+"trap_zone": "N/A"
+},
+"quiz_mode": {
+"visible_after_attempt": true
+}
+},
+{
+"question_id": "ELEC-SQP-SA-18",
+"year": "SQP 2023",
+"question_type": "3M",
+"marks": 3,
+"question_text": "Calculate the equilibrium constant (log Kc) for the reaction:\nCu(s) + 2Ag+(aq) -> Cu2+(aq) + 2Ag(s)\nGiven E°cell = 0.46 V.",
+"if_graph_or_diagram_required": {
+"required": false,
+"diagram_description_for_rendering": ""
+},
+"board_style_answer": {
+"structured_answer": "Formula: E°cell = (0.059/n) log Kc\nn = 2 (2 electrons transferred).\nSubstitution:\n0.46 = (0.059/2) log Kc\n0.46 = 0.0295 log Kc\nlog Kc = 0.46 / 0.0295\nlog Kc = 15.593\nKc = antilog(15.593) = 3.92 x 10^15",
+"stepwise_marking_scheme_breakdown": "1 mark for formula.\n1 mark for substitution.\n1 mark for final answer.",
+"final_answer_boxed": "3.92 x 10^15"
+},
+"examiner_intent_analysis": {
+"concept_tested": "Equilibrium Constant from E°",
+"why_this_question_is_asked": "Connects equilibrium to electrochemistry.",
+"common_student_mistake": "Calculation error in division 0.46/0.0295.",
+"trap_zone": "Often the question asks only for 'log Kc', but sometimes 'Kc'. Check query carefully."
+},
+"quiz_mode": {
+"visible_after_attempt": true
+}
+},
+{
+"question_id": "ELEC-2023-MCQ-19",
+"year": "2023",
+"question_type": "MCQ",
+"marks": 1,
+"question_text": "Which of the following acts as a depolarizer in a dry cell?",
+"if_graph_or_diagram_required": {
+"required": false,
+"diagram_description_for_rendering": ""
+},
+"board_style_answer": {
+"structured_answer": "Option (c): MnO2",
+"stepwise_marking_scheme_breakdown": "1 mark.",
+"final_answer_boxed": "MnO2"
+},
+"examiner_intent_analysis": {
+"concept_tested": "Dry Cell Components",
+"why_this_question_is_asked": "MnO2 oxidizes H2 produced to water, preventing polarization.",
+"common_student_mistake": "Selecting Carbon (Cathode) or NH4Cl (Electrolyte).",
+"trap_zone": "Role of specific chemical components."
+},
+"quiz_mode": {
+"correct_option_if_mcq": "c",
+"options": {
+"a": "NH4Cl",
+"b": "Carbon",
+"c": "MnO2",
+"d": "ZnCl2"
+},
+"visible_after_attempt": true
+}
+},
+{
+"question_id": "ELEC-2022-SA-20",
+"year": "2022",
+"question_type": "3M",
+"marks": 3,
+"question_text": "Write the Nernst equation and calculate the emf of the following cell at 298 K:\nMg(s) | Mg2+(0.001 M) || Cu2+(0.0001 M) | Cu(s)\nGiven E°Mg = -2.37 V, E°Cu = +0.34 V.",
+"if_graph_or_diagram_required": {
+"required": false,
+"diagram_description_for_rendering": ""
+},
+"board_style_answer": {
+"structured_answer": "1. E°cell = 0.34 - (-2.37) = 2.71 V.\n2. Reaction: Mg + Cu2+ -> Mg2+ + Cu (n=2).\n3. Nernst Eq:\n   E = 2.71 - (0.059/2) log ([Mg2+]/[Cu2+])\n   E = 2.71 - 0.0295 log (10^-3 / 10^-4)\n   E = 2.71 - 0.0295 log (10)\n   E = 2.71 - 0.0295(1)\n   E = 2.68 V",
+"stepwise_marking_scheme_breakdown": "1 mark for E°cell.\n1 mark for substitution.\n1 mark for calculation.",
+"final_answer_boxed": "2.68 V"
+},
+"examiner_intent_analysis": {
+"concept_tested": "Nernst Equation",
+"why_this_question_is_asked": "Standard calculation.",
+"common_student_mistake": "Mixing up concentrations of anode and cathode in log term.",
+"trap_zone": "Power of 10 calculations."
+},
+"quiz_mode": {
+"visible_after_attempt": true
+}
+},
+{
+"question_id": "ELEC-2025-SA-21",
+"year": "2025",
+"question_type": "2M",
+"marks": 2,
+"question_text": "Suggest two materials other than hydrogen that can be used as fuels in fuel cells.",
+"if_graph_or_diagram_required": {
+"required": false,
+"diagram_description_for_rendering": ""
+},
+"board_style_answer": {
+"structured_answer": "1. Methane (CH4)\n2. Methanol (CH3OH)",
+"stepwise_marking_scheme_breakdown": "1 mark for each valid fuel.",
+"final_answer_boxed": "Methane, Methanol"
+},
+"examiner_intent_analysis": {
+"concept_tested": "Fuel Cells",
+"why_this_question_is_asked": "Testing knowledge beyond the standard H2-O2 cell.",
+"common_student_mistake": "Writing gasoline or coal (not used directly in fuel cells).",
+"trap_zone": "N/A"
+},
+"quiz_mode": {
+"visible_after_attempt": true
+}
+},
+{
+"question_id": "ELEC-2024-SA-22",
+"year": "2024",
+"question_type": "3M",
+"marks": 3,
+"question_text": "Define the term 'molar conductivity'. How is it related to conductivity? What are its units?",
+"if_graph_or_diagram_required": {
+"required": false,
+"diagram_description_for_rendering": ""
+},
+"board_style_answer": {
+"structured_answer": "Definition: Molar conductivity is the conducting power of all the ions produced by dissolving one mole of an electrolyte in solution.\nRelation: Λm = (k * 1000) / C\n(where k is conductivity in S/cm and C is concentration in mol/L).\nUnits: S cm^2 mol^-1.",
+"stepwise_marking_scheme_breakdown": "1 mark Definition.\n1 mark Relation.\n1 mark Units.",
+"final_answer_boxed": "S cm^2 mol^-1"
+},
+"examiner_intent_analysis": {
+"concept_tested": "Molar Conductivity Definition",
+"why_this_question_is_asked": "Foundational check.",
+"common_student_mistake": "Wrong units (S cm^-1 or S m^2).",
+"trap_zone": "Factor of 1000 in relation depends on units of volume."
+},
+"quiz_mode": {
+"visible_after_attempt": true
+}
+},
+{
+"question_id": "ELEC-SQP-AR-23",
+"year": "SQP 2024",
+"question_type": "Assertion-Reason",
+"marks": 1,
+"question_text": "Assertion (A): Copper sulphate can be stored in a zinc vessel.\nReason (R): Zinc is more reactive than copper.",
+"if_graph_or_diagram_required": {
+"required": false,
+"diagram_description_for_rendering": ""
+},
+"board_style_answer": {
+"structured_answer": "Option (d): Assertion (A) is false but Reason (R) is true.",
+"stepwise_marking_scheme_breakdown": "1 mark.",
+"final_answer_boxed": "A is false but R is true"
+},
+"examiner_intent_analysis": {
+"concept_tested": "Electrochemical Series",
+"why_this_question_is_asked": "Reactivity application.",
+"common_student_mistake": "Thinking A is true. If Zn is more reactive, it will displace Cu from CuSO4, so you CANNOT store it.",
+"trap_zone": "Logical inversion."
+},
+"quiz_mode": {
+"correct_option_if_mcq": "d",
+"options": {
+"a": "Both A and R are true and R is the correct explanation of A",
+"b": "Both A and R are true but R is not the correct explanation of A",
+"c": "A is true but R is false",
+"d": "A is false but R is true"
+},
+"visible_after_attempt": true
+}
+},
+{
+"question_id": "ELEC-2023-LA-24",
+"year": "2023",
+"question_type": "5M",
+"marks": 5,
+"question_text": "(a) Define corrosion. Write the chemical reaction taking place during rusting of iron.\n(b) Suggest two methods to prevent corrosion.",
+"if_graph_or_diagram_required": {
+"required": false,
+"diagram_description_for_rendering": ""
+},
+"board_style_answer": {
+"structured_answer": "(a) Corrosion: The process of slow destruction of metals due to attack by atmospheric gases and moisture.\nRusting Reactions:\nAnode: 2Fe(s) -> 2Fe2+ + 4e-\nCathode: O2(g) + 4H+(aq) + 4e- -> 2H2O(l)\nAtmospheric Oxidation: 2Fe2+ + 2H2O + (1/2)O2 -> Fe2O3 + 4H+\nHydration: Fe2O3 + xH2O -> Fe2O3.xH2O (Rust)\n\n(b) Prevention:\n1. Barrier Protection (Painting, Oiling).\n2. Galvanization (Coating with Zn).",
+"stepwise_marking_scheme_breakdown": "3 marks for Definition and Mechanism/Reactions.\n2 marks for Prevention methods.",
+"final_answer_boxed": "Fe2O3.xH2O"
+},
+"examiner_intent_analysis": {
+"concept_tested": "Corrosion",
+"why_this_question_is_asked": "Chemical application in daily life.",
+"common_student_mistake": "Writing simple oxidation without the electrochemical cell mechanism.",
+"trap_zone": "Forgetting the role of H+ ions in the cathode reaction."
+},
+"quiz_mode": {
+"visible_after_attempt": true
+}
+},
+{
+"question_id": "ELEC-2022-SA-25",
+"year": "2022",
+"question_type": "3M",
+"marks": 3,
+"question_text": "The resistance of a conductivity cell containing 0.001 M KCl solution at 298 K is 1500 ohm. What is the cell constant if conductivity of 0.001 M KCl solution at 298 K is 0.146 x 10^-3 S cm^-1?",
+"if_graph_or_diagram_required": {
+"required": false,
+"diagram_description_for_rendering": ""
+},
+"board_style_answer": {
+"structured_answer": "Formula: Cell Constant (G*) = Conductivity (k) x Resistance (R)\nCalculation:\nG* = (0.146 x 10^-3) x 1500\nG* = 0.146 x 1.5\nG* = 0.219 cm^-1",
+"stepwise_marking_scheme_breakdown": "1 mark for Formula.\n1 mark for Substitution.\n1 mark for Final Answer with Unit.",
+"final_answer_boxed": "0.219 cm^-1"
+},
+"examiner_intent_analysis": {
+"concept_tested": "Cell Constant Calculation",
+"why_this_question_is_asked": "Basic relation G* = Rk.",
+"common_student_mistake": "Using G* = k/R (confusing conductance).",
+"trap_zone": "Calculation of decimals."
+},
+"quiz_mode": {
+"visible_after_attempt": true
+}
+}
+],
+"chapter_pattern_analysis": {
+"most_repeated_concepts": [
+"Nernst Equation (Numericals on EMF and Equilibrium Constant).",
+"Conductivity vs Dilution logic (A/R or Theory).",
+"Faraday's Laws (Mass deposited or Charge required).",
+"Kohlrausch Law (Calculation of Λ° for weak electrolytes).",
+"Batteries (Lead Storage reactions are frequent)."
+],
+"high_probability_2026_focus": [
+"Numericals combining Nernst equation with Gibbs energy (ΔG).",
+"Product of electrolysis for specific aqueous solutions (NaCl, H2SO4).",
+"Conceptual questions on Fuel Cells and their efficiency."
+],
+"numerical_weightage_trend": "Very High. Expect 3M or 5M numericals definitely.",
+"case_based_trend": "Often focuses on Standard Cells (Daniell) or Batteries (Lead Storage/Fuel Cell) interpreting their function.",
+"assertion_reason_trend": "Focuses on conductivity trends and feasibility of reactions (based on E°)."
+}
+}
+

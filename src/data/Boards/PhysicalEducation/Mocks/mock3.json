@@ -1,0 +1,600 @@
+{
+    "meta": {
+        "subject": "Physical Education",
+        "class": 12,
+        "board": "CBSE",
+        "mock_number": 3,
+        "total_marks": 70
+    },
+    "sections": {
+        "A": [
+            {
+                "id": 1,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P1",
+                "priority_reason": "Specific committee roles (Grounds/Equipment) are a standard start.",
+                "question": "Which committee is responsible for preparing the playfields and providing necessary sports equipment like balls, nets, and bats?",
+                "options": [
+                    "Finance Committee",
+                    "Ground and Equipment Committee",
+                    "Technical Committee",
+                    "Publicity Committee"
+                ],
+                "correct_option": "Ground and Equipment Committee",
+                "answer": {
+                    "final_answer": "Ground and Equipment Committee"
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 2,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P1",
+                "priority_reason": "Nutrient deficiency diseases (Scurvy/Rickets) are frequent MCQs.",
+                "question": "Deficiency of Vitamin C causes:",
+                "options": [
+                    "Rickets",
+                    "Beriberi",
+                    "Scurvy",
+                    "Night Blindness"
+                ],
+                "correct_option": "Scurvy",
+                "answer": {
+                    "final_answer": "Scurvy"
+                },
+                "source_basis": "NCERT-derived"
+            },
+            {
+                "id": 3,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P2",
+                "priority_reason": "Yoga for specific conditions (Asthma/Back Pain).",
+                "question": "Which of the following Asanas is NOT recommended for individuals suffering from Asthma?",
+                "options": [
+                    "Sukhasana",
+                    "Chakrasana",
+                    "Gomukhasana",
+                    "Sarvangasana"
+                ],
+                "correct_option": "Sarvangasana",
+                "answer": {
+                    "final_answer": "Sarvangasana"
+                },
+                "source_basis": "PYQ-derived"
+            },
+            {
+                "id": 4,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P1",
+                "priority_reason": "Visual ID of deformities (Scoliosis).",
+                "question": "Identify the postural deformity characterized by a sideways curvature of the spine, often forming an 'S' or 'C' shape.",
+                "options": [
+                    "Kyphosis",
+                    "Lordosis",
+                    "Scoliosis",
+                    "Flat Foot"
+                ],
+                "diagram_required": true,
+                "diagram_description": "",
+                "correct_option": "Scoliosis",
+                "answer": {
+                    "final_answer": "Scoliosis"
+                },
+                "source_basis": "NCERT-derived"
+            },
+            {
+                "id": 5,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P2",
+                "priority_reason": "Sports Medicine: Strain vs Sprain distinction.",
+                "question": "An injury to the ligament connecting bone to bone is known as:",
+                "options": [
+                    "Strain",
+                    "Sprain",
+                    "Contusion",
+                    "Abrasion"
+                ],
+                "correct_option": "Sprain",
+                "answer": {
+                    "final_answer": "Sprain"
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 6,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P1",
+                "priority_reason": "SAI Fitness Test items (Flamingo Balance).",
+                "question": "In the SAI Khelo India Fitness Test (5-8 years), the 'Flamingo Balance Test' measures:",
+                "options": [
+                    "Static Balance",
+                    "Dynamic Balance",
+                    "Speed",
+                    "Strength"
+                ],
+                "correct_option": "Static Balance",
+                "answer": {
+                    "final_answer": "Static Balance"
+                },
+                "source_basis": "SQP-derived"
+            },
+            {
+                "id": 7,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P3",
+                "priority_reason": "Biomechanics: Law of Inertia application.",
+                "question": "A football placed on the penalty spot remains at rest until kicked. This is an example of:",
+                "options": [
+                    "Newton’s First Law",
+                    "Newton’s Second Law",
+                    "Newton’s Third Law",
+                    "Law of Gravitation"
+                ],
+                "correct_option": "Newton’s First Law",
+                "answer": {
+                    "final_answer": "Newton’s First Law"
+                },
+                "source_basis": "NCERT-derived"
+            },
+            {
+                "id": 8,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P2",
+                "priority_reason": "Physiology: Effects of exercise (Heart size).",
+                "question": "The condition of 'Athletic Heart' refers to:",
+                "options": [
+                    "Weakening of heart muscles",
+                    "Hypertrophy of the heart",
+                    "Increased resting heart rate",
+                    "Decrease in stroke volume"
+                ],
+                "correct_option": "Hypertrophy of the heart",
+                "answer": {
+                    "final_answer": "Hypertrophy of the heart"
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 9,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P2",
+                "priority_reason": "Match the following: Biomechanics/Movements.",
+                "question": "Match the following movements with their definitions:\n(i) Flexion      (a) Moving away from midline\n(ii) Extension   (b) Decreasing angle between bones\n(iii) Abduction  (c) Increasing angle between bones\n(iv) Adduction   (d) Moving towards midline",
+                "options": [
+                    "(i)-b, (ii)-c, (iii)-a, (iv)-d",
+                    "(i)-c, (ii)-b, (iii)-d, (iv)-a",
+                    "(i)-a, (ii)-d, (iii)-b, (iv)-c",
+                    "(i)-b, (ii)-a, (iii)-c, (iv)-d"
+                ],
+                "correct_option": "(i)-b, (ii)-c, (iii)-a, (iv)-d",
+                "answer": {
+                    "final_answer": "(i)-b, (ii)-c, (iii)-a, (iv)-d"
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 10,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P1",
+                "priority_reason": "Assertion-Reason on Fixtures (Bye calculation).",
+                "question": "Given below are two statements, labelled Assertion (A) and Reason (R).\nAssertion (A): In a knockout tournament of 11 teams, the number of byes given is 5.\nReason (R): The number of byes is calculated by subtracting the number of teams from the next higher power of two ($16 - 11 = 5$).",
+                "options": [
+                    "Both (A) and (R) are true and (R) is the correct explanation of (A).",
+                    "Both (A) and (R) are true but (R) is not the correct explanation of (A).",
+                    "(A) is true but (R) is false.",
+                    "(A) is false but (R) is true."
+                ],
+                "correct_option": "Both (A) and (R) are true and (R) is the correct explanation of (A).",
+                "answer": {
+                    "final_answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 11,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P2",
+                "priority_reason": "Psychology: Big Five (Neuroticism).",
+                "question": "Individuals who score high on 'Neuroticism' in the Big Five Theory are likely to be:",
+                "options": [
+                    "Calm and confident",
+                    "Anxious and unstable",
+                    "Organized and disciplined",
+                    "Outgoing and social"
+                ],
+                "correct_option": "Anxious and unstable",
+                "answer": {
+                    "final_answer": "Anxious and unstable"
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 12,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P1",
+                "priority_reason": "CWSN: Disorder types (ODD).",
+                "question": "A behavior disorder in children characterized by uncooperative, defiant, and hostile behavior towards authority figures is:",
+                "options": [
+                    "ADHD",
+                    "ODD (Oppositional Defiant Disorder)",
+                    "OCD",
+                    "ASD"
+                ],
+                "correct_option": "ODD (Oppositional Defiant Disorder)",
+                "answer": {
+                    "final_answer": "ODD (Oppositional Defiant Disorder)"
+                },
+                "source_basis": "NCERT-derived"
+            },
+            {
+                "id": 13,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P3",
+                "priority_reason": "Fixture: Round Robin types.",
+                "question": "Which of the following is NOT a method of drawing a League fixture?",
+                "options": [
+                    "Staircase Method",
+                    "Cyclic Method",
+                    "Tabular Method",
+                    "Consolation Method"
+                ],
+                "correct_option": "Consolation Method",
+                "answer": {
+                    "final_answer": "Consolation Method"
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 14,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P2",
+                "priority_reason": "Training: Strength methods (Isometric).",
+                "question": "Pushing against a stationary wall is an example of:",
+                "options": [
+                    "Isotonic Exercise",
+                    "Isometric Exercise",
+                    "Isokinetic Exercise",
+                    "Aerobic Exercise"
+                ],
+                "correct_option": "Isometric Exercise",
+                "answer": {
+                    "final_answer": "Isometric Exercise"
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 15,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P1",
+                "priority_reason": "Biomechanics: Friction adjustment.",
+                "question": "Why do athletes use spikes in running shoes?",
+                "options": [
+                    "To decrease friction",
+                    "To increase friction",
+                    "To increase weight",
+                    "To look professional"
+                ],
+                "correct_option": "To increase friction",
+                "answer": {
+                    "final_answer": "To increase friction"
+                },
+                "source_basis": "NCERT-derived"
+            },
+            {
+                "id": 16,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P3",
+                "priority_reason": "Types of Coordination.",
+                "question": "The ability to determine the position of the body in time and space in relation to a definite field of action is called:",
+                "options": [
+                    "Coupling Ability",
+                    "Orientation Ability",
+                    "Reaction Ability",
+                    "Balance Ability"
+                ],
+                "correct_option": "Orientation Ability",
+                "answer": {
+                    "final_answer": "Orientation Ability"
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 17,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P2",
+                "priority_reason": "Injuries: Bone fracture types.",
+                "question": "A fracture where the bone breaks diagonally to the axis of the bone is called:",
+                "options": [
+                    "Transverse Fracture",
+                    "Oblique Fracture",
+                    "Comminuted Fracture",
+                    "Greenstick Fracture"
+                ],
+                "correct_option": "Oblique Fracture",
+                "answer": {
+                    "final_answer": "Oblique Fracture"
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 18,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P1",
+                "priority_reason": "Women in Sports: Psychological aspects.",
+                "question": "Which of the following is a psychological benefit of women's participation in sports?",
+                "options": [
+                    "Increased bone density",
+                    "Improved cardiovascular health",
+                    "Enhanced self-confidence and body image",
+                    "Muscle toning"
+                ],
+                "correct_option": "Enhanced self-confidence and body image",
+                "answer": {
+                    "final_answer": "Enhanced self-confidence and body image"
+                },
+                "source_basis": "ALLEN-derived"
+            }
+        ],
+        "B": [
+            {
+                "id": 19,
+                "type": "VSLA",
+                "marks": 2,
+                "priority": "P1",
+                "priority_reason": "Seeding definition is a P1 concept.",
+                "question": "What is 'Seeding' in a tournament? Why is it done?",
+                "answer": {
+                    "final_answer": "**Seeding:** It is the procedure of placing strong teams in the fixture in such a way that they do not meet each other in the initial rounds.\n**Purpose:** To prevent strong teams from getting eliminated early and to keep the tournament competitive."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 20,
+                "type": "VSLA",
+                "marks": 2,
+                "priority": "P2",
+                "priority_reason": "Balanced Diet definition.",
+                "question": "Define 'Balanced Diet'.",
+                "answer": {
+                    "final_answer": "**Balanced Diet:** A diet that contains all the essential nutrients—carbohydrates, proteins, fats, vitamins, minerals, water, and roughage—in the correct proportions required for the efficient working of the body."
+                },
+                "source_basis": "NCERT-derived"
+            },
+            {
+                "id": 21,
+                "type": "VSLA",
+                "marks": 2,
+                "priority": "P3",
+                "priority_reason": "Physiology: Vital Capacity.",
+                "question": "What is 'Vital Capacity'?",
+                "answer": {
+                    "final_answer": "**Vital Capacity:** It is the maximum amount of air a person can exhale from the lungs after a maximum inhalation. It is the sum of Tidal Volume, Inspiratory Reserve Volume, and Expiratory Reserve Volume."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 22,
+                "type": "VSLA",
+                "marks": 2,
+                "priority": "P1",
+                "priority_reason": "Soft tissue injuries (Strain).",
+                "question": "What is a 'Strain'? Which body part does it affect?",
+                "answer": {
+                    "final_answer": "**Strain:** It is a soft tissue injury involving the tearing or overstretching of a **muscle or tendon**.\nIt is often caused by overuse, force, or stretching beyond the limit."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 23,
+                "type": "VSLA",
+                "marks": 2,
+                "priority": "P2",
+                "priority_reason": "Psychology: Aggression definition.",
+                "question": "Define 'Aggression' in the context of sports.",
+                "answer": {
+                    "final_answer": "**Aggression:** Any behavior directed toward another living being with the intent to cause physical or psychological harm or injury. In sports, it can be hostile (intent to harm) or instrumental (intent to win)."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 24,
+                "type": "VSLA",
+                "marks": 2,
+                "priority": "P3",
+                "priority_reason": "Training: Fartlek definition.",
+                "question": "What does the term 'Fartlek' mean? What is its main feature?",
+                "answer": {
+                    "final_answer": "**Fartlek:** A Swedish term meaning \"Speed Play\".\n**Feature:** It is a training method where the athlete changes speed according to the terrain and their feeling, blending aerobic and anaerobic running without a fixed plan."
+                },
+                "source_basis": "Reference Notes"
+            }
+        ],
+        "C": [
+            {
+                "id": 25,
+                "type": "SLA",
+                "marks": 3,
+                "priority": "P2",
+                "priority_reason": "Specific Sports Programmes (Run for Unity) are Syllabus-valid.",
+                "question": "Explain the objectives of 'Run for Unity'.",
+                "answer": {
+                    "final_answer": "1.  **National Integration:** To promote a sense of togetherness and unity among people of different states, religions, and cultures.\n2.  **Health Awareness:** To encourage people to adopt running as a fitness habit for better health.\n3.  **Peace and Harmony:** To spread the message of peace and brotherhood in society."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 26,
+                "type": "SLA",
+                "marks": 3,
+                "priority": "P1",
+                "priority_reason": "Female Athlete Triad details.",
+                "question": "Describe the components of the 'Female Athlete Triad'.",
+                "answer": {
+                    "final_answer": "The Female Athlete Triad is a syndrome of three interrelated conditions:\n1.  **Osteoporosis:** Low bone mineral density leading to weak bones and stress fractures.\n2.  **Amenorrhea:** The absence of menstrual periods, often due to low energy availability.\n3.  **Eating Disorders (Low Energy Availability):** Disordered eating behaviors like anorexia or bulimia resulting in insufficient energy for the body's needs."
+                },
+                "source_basis": "PYQ-derived"
+            },
+            {
+                "id": 27,
+                "type": "SLA",
+                "marks": 3,
+                "priority": "P2",
+                "priority_reason": "CWSN: Disability vs Disorder.",
+                "question": "Differentiate between 'Disability' and 'Disorder'.",
+                "answer": {
+                    "final_answer": "* **Disability:** It is a functional limitation or restriction in the ability to perform an activity in the manner considered normal for a human being (e.g., physical impairment like loss of a limb).\n* **Disorder:** It is a disruption or abnormality in regular bodily functions or mental processes (e.g., ADHD is a mental disorder affecting attention). A disorder may lead to a disability."
+                },
+                "source_basis": "NCERT-derived"
+            },
+            {
+                "id": 28,
+                "type": "SLA",
+                "marks": 3,
+                "priority": "P1",
+                "priority_reason": "Kyphosis details and correction.",
+                "question": "What is Kyphosis? Suggest two exercises to correct it.",
+                "answer": {
+                    "final_answer": "**Kyphosis (Hunchback):** An excessive outward curvature of the thoracic region (upper back) of the spine.\n\n**Corrective Exercises:**\n1.  **Chakrasana (Wheel Pose):** Bending backward helps open the chest and straighten the spine.\n2.  **Bhujangasana (Cobra Pose):** Strengthening the back muscles by lifting the chest while lying prone.\n3.  **Dhanurasana (Bow Pose):** Effectively counteracts the forward hunch."
+                },
+                "source_basis": "NCERT-derived"
+            },
+            {
+                "id": 29,
+                "type": "SLA",
+                "marks": 3,
+                "priority": "P2",
+                "priority_reason": "Training: Continuous Method.",
+                "question": "Explain the 'Continuous Training Method' and its benefits.",
+                "answer": {
+                    "final_answer": "**Continuous Training:** A method where exercise is performed for a long duration without any break or pause. The intensity remains constant and moderate.\n\n**Benefits:**\n1.  Increases Glycogen storage in muscles.\n2.  Improves cardiovascular endurance and aerobic capacity.\n3.  Increases the number and size of mitochondria."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 30,
+                "type": "SLA",
+                "marks": 3,
+                "priority": "P1",
+                "priority_reason": "Equilibrium types (Stable/Unstable/Neutral).",
+                "question": "Discuss the types of Equilibrium with examples from sports.",
+                "answer": {
+                    "final_answer": "1.  **Stable Equilibrium:** When the center of gravity is low and the base of support is wide. *Example:* A wrestler in a defensive stance.\n2.  **Unstable Equilibrium:** When the center of gravity is high and the base of support is narrow. *Example:* A gymnast doing a handstand.\n3.  **Neutral Equilibrium:** When the center of gravity remains at the same height even when the object moves. *Example:* A ball rolling on the ground."
+                },
+                "source_basis": "Reference Notes"
+            }
+        ],
+        "D": [
+            {
+                "id": 31,
+                "type": "Case Study",
+                "marks": 4,
+                "priority": "P1",
+                "priority_reason": "BMI Case Study is the most probable practical question.",
+                "question": "A school conducted a health check-up. Student A has a weight of 70 kg and height of 1.75 m. Student B has a weight of 90 kg and height of 1.70 m.\n\n(i) Calculate the BMI of Student A.\n(ii) In which category does Student A fall?\n(iii) Calculate the BMI of Student B.\n(iv) Suggest one health risk associated with Student B's category.",
+                "diagram_required": false,
+                "diagram_description": null,
+                "answer": {
+                    "final_answer": "(i) $BMI_A = \\frac{70}{1.75 \\times 1.75} = \\frac{70}{3.06} = 22.8$.\n(ii) Normal Weight (18.5 - 24.9).\n(iii) $BMI_B = \\frac{90}{1.70 \\times 1.70} = \\frac{90}{2.89} = 31.1$.\n(iv) Obesity (Class I). Risk of Diabetes or Hypertension."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 32,
+                "diagram_url": "/images/PhysicalEducation/senior citizen fitness test.png",
+                "type": "Case Study",
+                "marks": 4,
+                "priority": "P1",
+                "priority_reason": "Rikli & Jones Case Study (Senior Citizens).",
+                "question": "A fitness camp for senior citizens was organized. The following tests were conducted:\n\n(i) Chair Stand Test\n(ii) Arm Curl Test\n(iii) Chair Sit and Reach Test\n(iv) 6 Minute Walk Test\n\nIdentify the physical component measured by each of these tests.",
+                "diagram_required": true,
+                "diagram_description": "",
+                "answer": {
+                    "final_answer": "(i) Lower Body Strength.\n(ii) Upper Body Strength.\n(iii) Lower Body Flexibility.\n(iv) Aerobic Endurance."
+                },
+                "source_basis": "SQP-derived"
+            },
+            {
+                "id": 33,
+                "type": "Case Study",
+                "marks": 4,
+                "priority": "P2",
+                "priority_reason": "Psychology (Jung) Case Study.",
+                "question": "Rohan is a very social student who loves to lead the team and express his feelings openly. In contrast, Amit is shy, prefers reading books alone, and avoids social gatherings.\n\n(i) According to Jung's classification, what personality type is Rohan?\n(ii) What personality type is Amit?\n(iii) If a person has qualities of both Rohan and Amit, what are they called?\n(iv) Who proposed this classification of personality?",
+                "diagram_required": false,
+                "diagram_description": null,
+                "answer": {
+                    "final_answer": "(i) Extrovert.\n(ii) Introvert.\n(iii) Ambivert.\n(iv) C.G. Jung."
+                },
+                "source_basis": "Reference Notes"
+            }
+        ],
+        "E": [
+            {
+                "id": 34,
+                "type": "Long Answer",
+                "marks": 5,
+                "priority": "P1",
+                "priority_reason": "Fixture: Staircase Method is a standard E-section Q.",
+                "question": "Draw a fixture for 9 teams using the Staircase Method. State one advantage of this method.",
+                "answer": {
+                    "final_answer": "**Fixture (Staircase Method N=9):**\nArrange matches in steps:\n* **Step 1:** 1-2, 1-3, 1-4, ... 1-9\n* **Step 2:** 2-3, 2-4, ... 2-9\n* **Step 3:** 3-4, ... 3-9\n... (continue until)\n* **Step 8:** 8-9\n\n**Calculation:** Total Matches = $\\frac{N(N-1)}{2} = \\frac{9(8)}{2} = 36$ matches.\n**Advantage:** No byes are required, and it is easy to arrange."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 35,
+                "type": "Long Answer",
+                "marks": 5,
+                "priority": "P1",
+                "priority_reason": "Yoga for Obesity (Procedure/Benefits).",
+                "question": "What is Obesity? Describe the procedure and benefits of 'Vajrasana' and 'Hastottanasana' to control obesity.",
+                "answer": {
+                    "final_answer": "**Obesity:** Excessive accumulation of body fat that poses a health risk (BMI > 30).\n\n**1. Vajrasana (Thunderbolt Pose):**\n* **Procedure:** Kneel down, sit on heels, keep spine straight, hands on knees. Breathe deeply.\n* **Benefits:** Improves digestion, reduces belly fat, cures gastric problems. (Only asana performable after meals).\n\n**2. Hastottanasana (Upward Salute):**\n* **Procedure:** Stand straight, inhale and raise arms overhead, interlock fingers, stretch upward.\n* **Benefits:** Stretches abdominal muscles, reduces waist fat, increases height in children."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 36,
+                "type": "Long Answer",
+                "marks": 5,
+                "priority": "P1",
+                "priority_reason": "Projectiles: Factors affecting trajectory.",
+                "question": "Define 'Projectile'. Explain any four factors affecting the trajectory of a projectile.",
+                "answer": {
+                    "final_answer": "**Projectile:** An object thrown into space under the influence of gravity and air resistance.\n\n**Factors:**\n1.  **Angle of Release:** 45 degrees is optimal for maximum distance.\n2.  **Initial Velocity:** Higher velocity results in greater distance.\n3.  **Height of Release:** Releasing from a higher point increases horizontal range.\n4.  **Air Resistance:** Headwind reduces distance; tailwind increases it.\n5.  **Gravity:** Constant downward force affecting vertical height."
+                },
+                "source_basis": "PYQ-derived"
+            },
+            {
+                "id": 37,
+                "type": "Long Answer",
+                "marks": 5,
+                "priority": "P2",
+                "priority_reason": "Training: Circuit Training definition/advantages.",
+                "question": "What is Circuit Training? Draw a diagram of 6 stations and explain its advantages.",
+                "answer": {
+                    "final_answer": "**Circuit Training:** A method where exercises are performed at various stations in a circle. The athlete moves from one station to another with minimal rest.\n\n**Diagram:** [Station 1: Pushups -> Station 2: Squats -> Station 3: Situps -> Station 4: Skipping -> Station 5: Back extension -> Station 6: Shuttle run]\n\n**Advantages:**\n1.  Can accommodate many trainees at once.\n2.  Develops strength and endurance simultaneously.\n3.  Easy to supervise and modify intensity."
+                },
+                "source_basis": "Reference Notes"
+            }
+        ]
+    }
+}

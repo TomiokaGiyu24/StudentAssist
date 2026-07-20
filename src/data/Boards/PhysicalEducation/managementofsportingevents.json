@@ -1,0 +1,169 @@
+{
+    "chapter_name": "Management of Sporting Events",
+    "weightage_insight": {
+        "estimated_marks_range": "5–9 Marks",
+        "pyq_frequency_summary": "High priority chapter. A 3 or 5-mark question on 'Drawing a Fixture' (Knockout/League) is almost guaranteed[cite: 2631, 2993]. 1-mark MCQs often target formulas (number of matches/byes) or specific committees[cite: 6091, 6092]. Management functions and Intramural/Extramural objectives appear frequently in 2 or 3-mark sections[cite: 2537, 1607, 1609]."
+    },
+    "ultimate_short_notes": [
+        {
+            "heading": "Functions of Sports Management",
+            "content": [
+                "**Planning**: The foremost function; creating a strategy/roadmap to bridge the gap between where we are and where we want to reach[cite: 1467, 1468].",
+                "**Organising**: assembling resources (human & financial) and establishing productive relationships to execute the plan[cite: 1470, 1471].",
+                "**Staffing**: Recruiting, selecting, and training the right people for the right jobs[cite: 1472, 1474].",
+                "**Directing**: Guiding, instructing, and motivating the staff to achieve goals[cite: 1475, 1476].",
+                "**Controlling**: Monitoring performance against standards and taking corrective action if there are deviations[cite: 1477, 1479].",
+                "**Exam Relevance**: Often asked as 'Enlist functions of management' (2 marks) or 'Explain Planning as a function' (3 marks)."
+            ]
+        },
+        {
+            "heading": "Committees & Responsibilities",
+            "content": [
+                "**Technical Committee**: Responsible for technical conduct—procuring equipment, fixtures, rules, appointing referees/judges[cite: 1483].",
+                "**Logistics/Transport Committee**: Manages transportation, boarding, lodging, and refreshments for players/officials[cite: 1486].",
+                "**Finance Committee**: Prepares budget, manages inflow/outflow of funds, settles bills, and prepares financial reports[cite: 1593, 2594].",
+                "**Marketing Committee**: Handles publicity, press releases, sponsorships, and media broadcasting[cite: 1603, 2603].",
+                "**Timeline of Duty**: Responsibilities are divided into **Pre-event** (Budgeting, Fixtures), **During-event** (Conducting matches, First-aid), and **Post-event** (Reports, Payments)[cite: 1484, 1485, 2562]."
+            ]
+        },
+        {
+            "heading": "Tournaments Types",
+            "content": [
+                "**Knock-out (Elimination)**: A team is eliminated immediately after losing a match. **Merit:** Saves time/money. **Demerit:** Good teams may exit early[cite: 2632, 2636].",
+                "**League (Round Robin)**: Every team plays every other team irrespective of win/loss. **Merit:** True winner emerges. **Demerit:** Expensive & time-consuming[cite: 2995, 3001, 3008].",
+                "**Combination**: Used for large zones (e.g., League-cum-Knockout). Teams play league in zones, then winners play knockout[cite: 1586, 1600]."
+            ]
+        },
+        {
+            "heading": "Intramural vs. Extramural",
+            "content": [
+                "**Intramural** (Lat. 'Intra' + 'Muralis'): Activities performed **within the walls** of an institution (e.g., Inter-house sports). **Objective:** Mass participation, recreation[cite: 1604, 1605, 1607].",
+                "**Extramural** (Lat. 'Extra' + 'Muralis'): Competitions **outside the walls** involving multiple institutions (e.g., Zonal, Nationals). **Objective:** High performance, career in sports[cite: 1608, 1609]."
+            ]
+        }
+    ],
+    "exam_playbook": [
+        {
+            "strategy_name": "The Fixture Fortress",
+            "pyq_pattern": "Draw a fixture for N teams (e.g., 11, 19, 21) on Knockout basis[cite: 2631, 1537]. Or League fixture using Staircase/Cyclic method[cite: 2993].",
+            "how_students_lose_marks": "Forgetting to label 'Winner', 'Semi-final', or 'Round number'. Calculating 'Byes' incorrectly. Not distributing byes in the correct order (Bottom-Top-Bottom-Top).",
+            "winning_approach": "Always write the Formulae Step-by-Step (N, Matches, Byes, Halves) BEFORE drawing. Use a ruler. Label every round. Mention date/venue at the top.",
+            "marks_secured": "3 to 5 Marks (Guaranteed)"
+        },
+        {
+            "strategy_name": "Committee Clarity",
+            "pyq_pattern": "Differentiate between the role of X committee Pre and During the tournament.",
+            "how_students_lose_marks": "Writing general points like 'they work hard'.",
+            "winning_approach": "Be specific: 'Finance committee prepares budget (Pre) and pays officials (During)'. Use the keywords: Procurement, Logistics, Publicity.",
+            "marks_secured": "2 to 3 Marks"
+        }
+    ],
+    "formula_bank": [
+        {
+            "concept": "Knock-out: Total Matches",
+            "formula": "$N - 1$ (where $N$ = Number of teams)",
+            "used_in_questions": "Calculating matches for a knockout fixture[cite: 2697, 6091]."
+        },
+        {
+            "concept": "Knock-out: Number of Byes",
+            "formula": "$2^n - N$ (Next higher power of 2 minus $N$)",
+            "used_in_questions": "Determining how many teams skip the first round[cite: 2678]."
+        },
+        {
+            "concept": "Knock-out: Teams in Upper/Lower Half (Odd N)",
+            "formula": "Upper: $\\frac{N+1}{2}$, Lower: $\\frac{N-1}{2}$",
+            "used_in_questions": "Dividing teams in the fixture draw[cite: 2659]."
+        },
+        {
+            "concept": "Knock-out: Byes in Upper/Lower Half (Odd Byes)",
+            "formula": "Upper: $\\frac{NB-1}{2}$, Lower: $\\frac{NB+1}{2}$",
+            "used_in_questions": "Distributing byes when total byes are odd[cite: 2682]."
+        },
+        {
+            "concept": "League: Total Matches (Single League)",
+            "formula": "$\\frac{N(N-1)}{2}$",
+            "used_in_questions": "Calculating total matches in Round Robin[cite: 3025]."
+        },
+        {
+            "concept": "League: Number of Rounds",
+            "formula": "$N-1$ (if N is even), $N$ (if N is odd)",
+            "used_in_questions": "Cyclic method planning[cite: 3020, 3021]."
+        }
+    ],
+    "sure_shot_questions": [
+        {
+            "question": "Draw a Knock-out fixture for 19 teams mentioning all the steps involved.",
+            "marks": 5,
+            "mandatory_keywords": [
+                "Total Teams (N)",
+                "Total Matches (N-1)",
+                "Byes ($2^n - N$)",
+                "Upper/Lower Half",
+                "Quarters (if applicable)",
+                "Round numbering"
+            ],
+            "answer_structure": "1. Write given N=19. 2. Calculate Matches ($19-1=18$). 3. Calculate Byes ($32-19=13$). 4. Distribute teams in halves/quarters. 5. Draw diagram with proper bye placement order.",
+            "model_answer_outline": [
+                "**Step 1: Matches**: $N-1 = 18$ Matches.",
+                "**Step 2: Byes**: Next Power of 2 is 32. Byes = $32 - 19 = 13$.",
+                "**Step 3: Halves**: Upper Half = $\\frac{19+1}{2} = 10$. Lower Half = $\\frac{19-1}{2} = 9$[cite: 2936, 2937].",
+                "**Step 4: Bye Distribution**: Lower Half gets $\\frac{13+1}{2} = 7$ Byes. Upper Half gets $\\frac{13-1}{2} = 6$ Byes[cite: 2809].",
+                "**Step 5 (Diagram)**: Draw 19 lines. Mark halves. Assign 13 byes (First to bottom of LH, Second to top of UH, etc.)[cite: 2813]. Only non-bye teams play Round 1."
+            ]
+        },
+        {
+            "question": "Define Intramural and Extramural activities. List two objectives of each.",
+            "marks": 3,
+            "mandatory_keywords": [
+                "Intra (Within)",
+                "Extra (Outside)",
+                "Mass Participation",
+                "Talent Identification",
+                "Standard of Sports"
+            ],
+            "answer_structure": "Define Intramural -> List 2 Objectives -> Define Extramural -> List 2 Objectives.",
+            "model_answer_outline": [
+                "**Intramural**: Activities within the institution's boundary (e.g., Inter-house). Objectives: Mass participation, Recreation, Developing leadership[cite: 1605, 1607].",
+                "**Extramural**: Competitions between different institutions (e.g., Nationals). Objectives: Assessing performance standard, Career opportunity, Sports integration[cite: 1608, 1609]."
+            ]
+        },
+        {
+            "question": "Draw a fixture for 6 teams using the League (Cyclic) Method.",
+            "marks": 3,
+            "mandatory_keywords": [
+                "Cyclic Method",
+                "Fixed Pivot",
+                "Rotation",
+                "Rounds"
+            ],
+            "answer_structure": "1. Calculate Matches $\\frac{N(N-1)}{2}$. 2. Rounds = $N-1$ (since N is even). 3. Draw cycles for each round keeping Team 1 fixed.",
+            "model_answer_outline": [
+                "**Matches**: $\\frac{6(5)}{2} = 15$. **Rounds**: $6-1 = 5$.",
+                "**Procedure**: Keep position '1' fixed on top right. Rotate others clockwise.",
+                "**Round 1**: 6-1, 5-2, 4-3.",
+                "**Round 2**: 5-1, 4-6, 3-2...",
+                "(Continue till Round 5)[cite: 3041, 3048]."
+            ]
+        }
+    ],
+    "diagram_descriptors": [
+        {
+            "diagram_name": "Knock-out Fixture (11 Teams)",
+            "used_for": "Visualizing the flow of matches and bye placement.",
+            "image_path": "/images/PhysicalEducation/Fixtures (11 team).png",
+            "detailed_description": "A vertical list of numbers 1 to 11. A horizontal line separates Upper Half (1-6) and Lower Half (7-11). Byes (16-11=5) are marked next to: Team 11 (B1), Team 1 (B2), Team 7 (B3), Team 6 (B4), Team 10 (B5). Round 1 matches: Team 2 vs 3, Team 4 vs 5, Team 8 vs 9. Round 2: Team 1 plays winner of (2v3), Team 6 plays winner of (4v5), etc."
+        }
+    ],
+    "examiner_traps": [
+        {
+            "common_mistake": "Mixing up Bye formulae for 'Upper Half' and 'Lower Half'.",
+            "why_marks_are_cut": "In *Teams* distribution, Upper Half gets more teams (if odd). In *Bye* distribution, Lower Half gets more byes (if odd). Students often reverse this.",
+            "correct_examiner_expectation": "For Odd N: Teams ($UH > LH$), Byes ($LH > UH$). Formula: Teams UH = $\\frac{N+1}{2}$, Byes LH = $\\frac{NB+1}{2}$[cite: 2660, 2688]."
+        },
+        {
+            "common_mistake": "Calculating rounds incorrectly for Knockout.",
+            "why_marks_are_cut": "Writing rounds = $N-1$ (which is matches). Rounds are determined by the Power of 2.",
+            "correct_examiner_expectation": "Rounds = $n$ where $2^n \\ge N$. E.g., for 11 teams, next power is 16 ($2^4$), so Rounds = 4[cite: 2699]."
+        }
+    ]
+}

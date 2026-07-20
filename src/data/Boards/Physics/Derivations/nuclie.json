@@ -1,0 +1,202 @@
+{
+  "meta": {
+    "subject": "Physics",
+    "class": 12,
+    "board": "CBSE",
+    "chapter": "Nuclei"
+  },
+  "derivations": [
+    {
+      "id": "ch13-01",
+      "title": "Nuclear Density is Independent of Mass Number",
+      "priority": "P2",
+      "priority_reason": "Conceptual derivation. Often asked to prove that all nuclei have constant density.",
+      "marks": 2,
+      "diagram_required": false,
+      "diagram_description": "None required.",
+      "derivation": {
+        "given_assumptions": [
+          "Nucleus is a sphere of radius $R$.",
+          "Radius $R = R_0 A^{1/3}$ (where $A$ is Mass Number).",
+          "Average mass of a nucleon is $m$."
+        ],
+        "required": "Show that nuclear density $\\rho$ is constant.",
+        "steps": [
+          {
+            "text": "Volume of the nucleus:",
+            "latex": "V = \\frac{4}{3}\\pi R^3 = \\frac{4}{3}\\pi (R_0 A^{1/3})^3 = \\frac{4}{3}\\pi R_0^3 A"
+          },
+          {
+            "text": "Total Mass of the nucleus (approx):",
+            "latex": "M = m \\times A"
+          },
+          {
+            "text": "Nuclear Density $\\rho = \\text{Mass} / \\text{Volume}$:",
+            "latex": "\\rho = \\frac{mA}{\\frac{4}{3}\\pi R_0^3 A}"
+          },
+          {
+            "text": "The Mass Number $A$ cancels out:",
+            "latex": "\\rho = \\frac{3m}{4\\pi R_0^3}"
+          }
+        ],
+        "final_result": {
+          "text": "Since $m$ and $R_0$ are constants, density is constant (approx $2.3 \\times 10^{17} \\text{ kg/m}^3$).",
+          "latex": "\\rho = \\text{constant}"
+        },
+        "examiner_notes": [
+          "Students often forget to substitute R = R0 A^(1/3).",
+          "Must state that since A cancels, density is independent of the size of the nucleus."
+        ],
+        "question_forms": [
+          "Show that the density of nuclear matter is independent of the mass number.",
+          "Prove that all nuclei have nearly the same density."
+        ]
+      }
+    },
+    {
+      "id": "ch13-02",
+      "title": "Law of Radioactive Decay (Exponential Law)",
+      "priority": "P1",
+      "priority_reason": "The core mathematical derivation of the chapter. High probability for 3 marks.",
+      "marks": 3,
+      "diagram_required": true,
+      "diagram_description": "Exponential decay graph. N (y-axis) vs Time t (x-axis). Curve starts at N0 and drops asymptotically to 0. Points corresponding to Half-life (N0/2) and Mean-life (N0/e) are often marked.",
+      "derivation": {
+        "given_assumptions": [
+          "Number of undecayed nuclei at time $t$ is $N$.",
+          "Rate of decay is proportional to $N$."
+        ],
+        "required": "Expression for $N(t)$.",
+        "steps": [
+          {
+            "text": "Rate of disintegration:",
+            "latex": "\\frac{dN}{dt} \\propto -N \\implies \\frac{dN}{dt} = -\\lambda N"
+          },
+          {
+            "text": "Rearrange for integration:",
+            "latex": "\\frac{dN}{N} = -\\lambda dt"
+          },
+          {
+            "text": "Integrate from $t=0$ ($N=N_0$) to $t=t$ ($N=N$):",
+            "latex": "\\int_{N_0}^{N} \\frac{dN}{N} = -\\lambda \\int_{0}^{t} dt"
+          },
+          {
+            "text": "Solving the integral:",
+            "latex": "[\\ln N]_{N_0}^{N} = -\\lambda [t]_0^t"
+          },
+          {
+            "text": "Applying limits:",
+            "latex": "\\ln N - \\ln N_0 = -\\lambda t \\implies \\ln \\left( \\frac{N}{N_0} \\right) = -\\lambda t"
+          }
+        ],
+        "final_result": {
+          "text": "Exponential decay law:",
+          "latex": "N = N_0 e^{-\\lambda t}"
+        },
+        "examiner_notes": [
+          "Negative sign in dN/dt = -lambda N is mandatory (indicates decrease).",
+          "Integration limits must be shown explicitly.",
+          "Graph is often required for the 3rd mark."
+        ],
+        "question_forms": [
+          "Derive the expression N = N0 e^(-lambda t) for radioactive decay.",
+          "State the law of radioactive decay and deduce the relation for the number of undecayed nuclei at any time t."
+        ]
+      }
+    },
+    {
+      "id": "ch13-03",
+      "title": "Relation between Half-Life and Decay Constant",
+      "priority": "P1",
+      "priority_reason": "Standard follow-up to the decay law. Essential for numericals.",
+      "marks": 2,
+      "diagram_required": false,
+      "diagram_description": "None.",
+      "derivation": {
+        "given_assumptions": [
+          "Radioactive decay follows $N = N_0 e^{-\\lambda t}$.",
+          "At half-life $t = T_{1/2}$, number of nuclei $N = N_0 / 2$."
+        ],
+        "required": "Expression for $T_{1/2}$.",
+        "steps": [
+          {
+            "text": "Substitute conditions into decay equation:",
+            "latex": "\\frac{N_0}{2} = N_0 e^{-\\lambda T_{1/2}}"
+          },
+          {
+            "text": "Cancel $N_0$:",
+            "latex": "\\frac{1}{2} = e^{-\\lambda T_{1/2}} \\implies 2 = e^{\\lambda T_{1/2}}"
+          },
+          {
+            "text": "Take natural log (ln) on both sides:",
+            "latex": "\\ln 2 = \\lambda T_{1/2}"
+          }
+        ],
+        "final_result": {
+          "text": "Half-life formula:",
+          "latex": "T_{1/2} = \\frac{\\ln 2}{\\lambda} = \\frac{0.693}{\\lambda}"
+        },
+        "examiner_notes": [
+          "Must memorize ln(2) approx 0.693.",
+          "Do not confuse Mean life (1/lambda) with Half life (0.693/lambda)."
+        ],
+        "question_forms": [
+          "Derive the relation between half-life and decay constant of a radioactive substance.",
+          "Show that half-life is inversely proportional to the decay constant."
+        ]
+      }
+    },
+    {
+      "id": "ch13-04",
+      "title": "Average (Mean) Life of a Radioactive Substance",
+      "priority": "P2",
+      "priority_reason": "Involves integration by parts. Often distinguishes between average and top scorers.",
+      "marks": 3,
+      "diagram_required": false,
+      "diagram_description": "None.",
+      "derivation": {
+        "given_assumptions": [
+          "Decay law $N = N_0 e^{-\\lambda t}$.",
+          "Decay rate $|dN/dt| = \\lambda N_0 e^{-\\lambda t}$ (Number of nuclei decaying between $t$ and $t+dt$).",
+          "These $dN$ nuclei lived for time $t$."
+        ],
+        "required": "Mean life $\\tau$ (Sum of all lifetimes / Total nuclei).",
+        "steps": [
+          {
+            "text": "Total lifetime of all nuclei = $\\int_{0}^{\\infty} t |dN|$.",
+            "latex": "\\text{Total Time} = \\int_{0}^{\\infty} t (\\lambda N_0 e^{-\\lambda t}) dt"
+          },
+          {
+            "text": "Mean life $\\tau = \\frac{\\text{Total Time}}{N_0}$:",
+            "latex": "\\tau = \\lambda \\int_{0}^{\\infty} t e^{-\\lambda t} dt"
+          },
+          {
+            "text": "Integrate by parts: $\\int u dv = uv - \\int v du$. Let $u=t, dv=e^{-\\lambda t}dt$.",
+            "latex": "\\tau = \\lambda \\left[ \\left[ t \\frac{e^{-\\lambda t}}{-\\lambda} \\right]_0^\\infty - \\int_0^\\infty \\frac{e^{-\\lambda t}}{-\\lambda} dt \\right]"
+          },
+          {
+            "text": "First term is 0 at both limits. Evaluate second term:",
+            "latex": "\\tau = \\lambda \\left( 0 + \\frac{1}{\\lambda} \\int_0^\\infty e^{-\\lambda t} dt \\right) = \\int_0^\\infty e^{-\\lambda t} dt"
+          },
+          {
+            "text": "Final integration:",
+            "latex": "\\tau = \\left[ \\frac{e^{-\\lambda t}}{-\\lambda} \\right]_0^\\infty = -\\frac{1}{\\lambda} (0 - 1)"
+          }
+        ],
+        "final_result": {
+          "text": "Mean life:",
+          "latex": "\\tau = \\frac{1}{\\lambda} = 1.44 T_{1/2}"
+        },
+        "examiner_notes": [
+          "Integration by parts is the critical step.",
+          "Limits 0 to infinity must be used.",
+          "Relation tau = 1.44 T_half is often asked as a sub-question."
+        ],
+        "question_forms": [
+          "Define mean life of a radioactive sample and derive its expression in terms of decay constant.",
+          "Show that the mean life is reciprocal of the decay constant."
+        ]
+      }
+    }
+  ]
+}

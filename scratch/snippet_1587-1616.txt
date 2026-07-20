@@ -1,0 +1,38 @@
+The USER performed the following action:
+Show the contents of file c:\StudentAssist-main\src\data\Boards\Physics\Questions\electricfieldandcharges.json from lines 1587 to 1616
+File Path: `file:///c:/StudentAssist-main/src/data/Boards/Physics/Questions/electricfieldandcharges.json`
+Total Lines: 1616
+Total Bytes: 166611
+Showing lines 1587 to 1616
+The following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.
+1587:             "algebraic_progression": [
+1588:               "\\\\vec{E} = \\\\frac{q}{4\\\\pi\\\\epsilon_{0}}\\\\left[\\\\frac{(r+a)^{2} - (r-a)^{2}}{(r-a)^{2}(r+a)^{2}}\\\\right]\\\\hat{p}",
+1589:               "\\\\vec{E} = \\\\frac{q}{4\\\\pi\\\\epsilon_{0}}\\\\left[\\\\frac{4ar}{(r^{2}-a^{2})^{2}}\\\\right]\\\\hat{p}"
+1590:             ]
+1591:           },
+1592:           {
+1593:             "allocated_marks": 1.0,
+1594:             "evaluation_trigger": "Simplifying the combined terms into the standard full algebraic equation for the axial field.",
+1595:             "minimum_viable_text": "Simplifying the numerator terms yields the exact expression for the axial field profile: \\\\vec{E} = \\\\frac{1}{4\\\\pi\\\\epsilon_{0}} \\\\frac{4qar}{(r^{2}-a^{2})^{2}} \\\\hat{p} = \\\\frac{1}{4\\\\pi\\\\epsilon_{0}} \\\\frac{2pr}{(r^{2}-a^{2})^{2}} \\\\hat{p}[cite: 1047, 1663].",
+1596:             "algebraic_progression": [
+1597:               "\\\\vec{E} = \\\\frac{1}{4\\\\pi\\\\epsilon_{0}} \\\\frac{2 \\\\cdot (q \\\\cdot 2a) \\\\cdot r}{(r^{2}-a^{2})^{2}} \\\\hat{p}",
+1598:               "\\\\vec{E} = \\\\frac{1}{4\\\\pi\\\\epsilon_{0}} \\\\frac{2pr}{(r^{2}-a^{2})^{2}} \\\\hat{p}"
+1599:             ]
+1600:           },
+1601:           {
+1602:             "allocated_marks": 1.0,
+1603:             "evaluation_trigger": "Stating the far-field approximation limit and contrasting the inverse scaling profiles.",
+1604:             "minimum_viable_text": "For r \\\\gg a, the equation simplifies to \\\\vec{E} = \\\\frac{2\\\\vec{p}}{4\\\\pi\\\\epsilon_{0}r^{3}}[cite: 1049, 1081]. This shows an inverse-cube distance dependence (1/r^{3}) [cite: 1665], contrasting with a single charge's inverse-square (1/r^{2}) dependence[cite: 1666].",
+1605:             "algebraic_progression": [
+1606:               "\\\\vec{E} \\\\approx \\\\frac{1}{4\\\\pi\\\\epsilon_{0}}\\\\frac{2pr}{(r^{2})^{2}}\\\\hat{p} = \\\\frac{2p}{4\\\\pi\\\\epsilon_{0}r^{3}}\\\\hat{p}",
+1607:               "\\\\vec{E}_{\\\\text{axial}} = \\\\frac{2\\\\vec{p}}{4\\\\pi\\\\epsilon_{0}r^{3}} \\\\quad \\\\left(\\\\text{Dipole: } E \\\\propto \\\\frac{1}{r^{3}} \\\\text{ vs Point Charge: } E \\\\propto \\\\frac{1}{r^{2}}\\\\right)"
+1608:             ]
+1609:           }
+1610:         ],
+1611:         "topper_execution_logic": "Make sure you don't mess up your common denominator subtraction algebra in step 3! Expanding those terms incorrectly will completely derail your derivation and cost you full points. Also, explicitly highlight the contrast in distance scaling—stating clearly that the dipole field drops off much faster as 1/r^{3} due to the partial cancellation of opposite charges at large distances will secure your final point[cite: 1012, 1013]."
+1612:       }
+1613:     ]
+1614:   }
+1615: }
+1616: ]
+

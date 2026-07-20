@@ -1,0 +1,277 @@
+{
+  "meta": {
+    "subject": "Physics",
+    "chapter": "Electric Charges and Fields",
+    "board": "CBSE",
+    "exam": "Class 12 Board Examination"
+  },
+  "questions": [
+    {
+      "id": "55-4-3-Q4",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "A particle of mass $m$ and charge $-q$ is moving with a uniform speed $v$ in a circle of radius $r$, with another charge $q$ at the centre of the circle. The value of $r$ is:",
+      "options": {
+        "A": "$\\frac{1}{4\\pi\\epsilon_{0}m}(\\frac{q}{v})$",
+        "B": "$\\frac{m}{4\\pi\\epsilon_{0}}(\\frac{q}{v})$",
+        "C": "$\\frac{1}{4\\pi\\epsilon_{0}m}(\\frac{q}{v})^{2}$",
+        "D": "$\\frac{m}{4\\pi\\epsilon_{0}}(\\frac{q}{v})^{2}$"
+      },
+      "answer": {
+        "explanation": "The electrostatic force provides the necessary centripetal force for circular motion.\n$\\frac{mv^2}{r} = \\frac{1}{4\\pi\\epsilon_0}\\frac{q^2}{r^2}$\\nRearranging for r:\n$r = \\frac{1}{4\\pi\\epsilon_0}\\frac{q^2}{mv^2} = \\frac{1}{4\\pi\\epsilon_0 m}(\\frac{q}{v})^2$",
+        "key_formulae": [
+          "$F_e = F_c$"
+        ],
+        "diagrams": []
+      },
+      "correct_option": "C",
+      "diagram_required": false,
+      "source": "55/4/3"
+    },
+    {
+      "id": "55-4-1-Q1",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "Two charges $q_1$ and $q_2$ are placed at the centres of two spherical conducting shells of radius $r_1$ and $r_2$ respectively. The shells are arranged such that their centres are $d > (r_1 + r_2)$ distance apart. The force on $q_2$ due to $q_1$ is:",
+      "options": {
+        "A": "$\\frac{1}{4\\pi\\epsilon_{0}}\\frac{q_{1}q_{2}}{d^{2}}$",
+        "B": "$\\frac{1}{4\\pi\\epsilon_{0}}\\frac{q_{1}q_{2}}{(d-r_{1})^{2}}$",
+        "C": "Zero",
+        "D": "$\\frac{1}{4\\pi\\epsilon_{0}}\\frac{q_{1}q_{2}}{[d-(r_{1}+r_{2})]^{2}}$"
+      },
+      "answer": {
+        "explanation": "The charge $q_2$ is located at the centre of a conducting shell. Due to electrostatic shielding, the electric field inside the cavity of the conducting shell (where $q_2$ is placed) due to any external charge ($q_1$) is zero. Therefore, the force on $q_2$ is zero.",
+        "key_formulae": [
+          "$E_{inside\\_conductor} = 0$"
+        ],
+        "diagrams": []
+      },
+      "correct_option": "C",
+      "diagram_required": false,
+      "source": "55/4/1"
+    },
+    {
+      "id": "55-4-1-Q6",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "A point charge $q$ is at a distance $r$ from an infinitely long straight wire with charge density $\\lambda$. The magnitude of the electrostatic force experienced by the charge $q$ is:",
+      "options": {
+        "A": "Zero",
+        "B": "$\\frac{q\\lambda}{\\epsilon_{0}r}$",
+        "C": "$\\frac{q\\lambda}{4\\pi\\epsilon_{0}r}$",
+        "D": "$\\frac{q\\lambda}{2\\pi\\epsilon_{0}r}$"
+      },
+      "answer": {
+        "explanation": "The electric field due to an infinitely long straight charged wire at a distance $r$ is $E = \\frac{\\lambda}{2\\pi\\epsilon_0 r}$.\\nThe force on charge $q$ is $F = qE = \\frac{q\\lambda}{2\\pi\\epsilon_0 r}$.",
+        "key_formulae": [
+          "$E = \\frac{\\lambda}{2\\pi\\epsilon_0 r}$",
+          "$F = qE$"
+        ],
+        "diagrams": []
+      },
+      "correct_option": "D",
+      "diagram_required": false,
+      "source": "55/4/1"
+    },
+    {
+      "id": "2155-4-1-Q2",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "Two identical small conducting balls $B_1$ and $B_2$ are given $-7\\text{ pC}$ and $+4\\text{ pC}$ charges respectively. They are brought in contact with a third identical ball $B_3$ and then separated. If the final charge on each ball is $-2\\text{ pC}$, the initial charge on $B_3$ was:",
+      "options": {
+        "A": "$-2\\text{ pC}$",
+        "B": "$-3\\text{ pC}$",
+        "C": "$-5\\text{ pC}$",
+        "D": "$-15\\text{ pC}$"
+      },
+      "answer": {
+        "explanation": "When identical balls are brought in contact, the total charge is conserved and redistributed equally.\\nTotal final charge = $3 \\times (-2 \\text{ pC}) = -6 \\text{ pC}$.\\nTotal initial charge = $q_{B1} + q_{B2} + q_{B3} = -7 + 4 + q_{B3} = -3 + q_{B3}$.\\nEquating initial and final charges: $-3 + q_{B3} = -6 \\implies q_{B3} = -3 \\text{ pC}$.",
+        "key_formulae": [
+          "$Q_{total} = \\sum q_i$",
+          "$q_{final} = \\frac{Q_{total}}{3}$"
+        ],
+        "diagrams": []
+      },
+      "correct_option": "B",
+      "diagram_required": false,
+      "source": "2155/4/1"
+    },
+    {
+      "id": "55-6-3-Q3",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "A particle of mass $m$ and charge $q$ moving with velocity $v\\hat{i}$ is subjected to a uniform electric field $E\\hat{j}$. The particle will initially have a tendency to move in a:",
+      "options": {
+        "A": "circle of radius $\\frac{mv}{qE}$ in x-y plane",
+        "B": "parabolic path in x-y plane",
+        "C": "circle of radius $\\frac{mv^2}{qE}$ in x-y plane",
+        "D": "parabolic path in y-z plane"
+      },
+      "answer": {
+        "explanation": "The initial velocity is along the x-axis, and the force $F = qE$ is along the y-axis (perpendicular to velocity). This is analogous to projectile motion, resulting in a parabolic trajectory in the x-y plane.",
+        "key_formulae": [
+          "$\\vec{F} = q\\vec{E}$",
+          "$y \\propto x^2$"
+        ],
+        "diagrams": []
+      },
+      "correct_option": "B",
+      "diagram_required": false,
+      "source": "55/6/3"
+    },
+    {
+      "id": "11-55-1-3-Q1",
+      "year": 2023,
+      "marks": 1,
+      "type": "mcq",
+      "question": "A thin plastic rod is bent into a circular ring of radius $R$. It is uniformly charged with charge density $\\lambda$. The magnitude of the electric field at its centre is:",
+      "options": {
+        "A": "$\\frac{\\lambda}{2\\epsilon_0 R}$",
+        "B": "Zero",
+        "C": "$\\frac{\\lambda}{2\\pi\\epsilon_0 R}$",
+        "D": "$\\frac{\\lambda}{4\\epsilon_0 R}$"
+      },
+      "answer": {
+        "explanation": "For a uniformly charged circular ring, the electric field contributions from diametrically opposite elements cancel each other out. Thus, the net electric field at the center is zero.",
+        "key_formulae": [],
+        "diagrams": []
+      },
+      "correct_option": "B",
+      "diagram_required": false,
+      "source": "11/55/1/3"
+    },
+    {
+      "id": "55-5-3-Q15",
+      "year": 2023,
+      "marks": 1,
+      "type": "assertion_reason",
+      "question": "Assertion (A): Equal amount of positive and negative charges are distributed uniformly on two halves of a thin circular ring. The resultant electric field at the centre O of the ring is along OC.\\nReason (R): It is so because the net potential at O is not zero.",
+      "assertion": "Equal amount of positive and negative charges are distributed uniformly on two halves of a thin circular ring as shown in figure. The resultant electric field at the centre O of the ring is along OC.",
+      "reason": "It is so because the net potential at O is not zero.",
+      "options": {
+        "A": "Both A and R are true and R is the correct explanation of A",
+        "B": "Both A and R are true but R is NOT the correct explanation of A",
+        "C": "A is true but R is false",
+        "D": "A is false and R is also false"
+      },
+      "answer": {
+        "explanation": "Assertion is True: The field due to the positive half is directed away, and the field due to the negative half is directed towards it. By symmetry, components perpendicular to the axis of symmetry cancel, and components along the axis add up.\\nReason is False: The potential at the center is the scalar sum of potentials. Since charges $+Q$ and $-Q$ are at the same distance $R$, $V = \\frac{kQ}{R} + \\frac{k(-Q)}{R} = 0$.",
+        "key_formulae": [],
+        "diagrams": []
+      },
+      "correct_option": "C",
+      "diagram_required": true,
+      "source": "55/5/3",
+      "diagram_url": "/images/Physics/PYQs/chapter1/55-5-3-Q15.png",
+      "image": "/images/Physics/Derivations/electric field lines pattern.png"
+    },
+    {
+      "id": "55-4-1-Q19",
+      "year": 2023,
+      "marks": 2,
+      "type": "numerical",
+      "question": "Two identical dipoles are arranged in x-y plane as shown in the figure [One along x-axis, one along y-axis at equal distance $a$ from origin]. Find the magnitude and the direction of net electric field at the origin O.",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "answer": {
+        "explanation": "GIVEN:\\nTwo identical dipoles with moment $p$, at distance $a$ from origin.\\nDipole 1 is on -x axis pointing towards +x (axial point).\\nDipole 2 is on +y axis pointing towards +y (equatorial point).\n(Assumption based on standard diagram configuration for this common question):\n\\nSTEPS:\n1. Field due to dipole on axis (at origin): $\\vec{E}_1 = \\frac{2kp}{a^3} \\hat{i}$\n2. Field due to dipole on equatorial line (at origin): $\\vec{E}_2 = -\\frac{kp}{a^3} \\hat{j}$ (Direction is opposite to dipole moment).\n3. Resultant Field $\\vec{E}_{net} = \\vec{E}_1 + \\vec{E}_2 = \\frac{kp}{a^3}(2\\hat{i} - \\hat{j})$\n4. Magnitude: $E_{net} = \\frac{kp}{a^3}\\sqrt{2^2 + (-1)^2} = \\frac{\\sqrt{5}kp}{a^3}$\n5. Direction: $\\theta = \\tan^{-1}(\\frac{E_y}{E_x}) = \\tan^{-1}(-0.5)$ with x-axis.\n\\nFINAL RESULT:\\nMagnitude = $\\frac{\\sqrt{5} p}{4\\pi\\epsilon_0 a^3}$",
+        "key_formulae": [
+          "$E_{axial} = \\frac{2kp}{r^3}$",
+          "$E_{equatorial} = \\frac{kp}{r^3}$"
+        ],
+        "diagrams": []
+      },
+      "diagram_required": true,
+      "source": "55/4/1",
+      "diagram_url": "/images/Physics/PYQs/chapter1/55-4-1-Q19.png",
+      "image": "/images/Physics/Derivations/electric field lines pattern.png"
+    },
+    {
+      "id": "55-4-3-Q24b",
+      "year": 2023,
+      "marks": 2,
+      "type": "derivation",
+      "question": "Two small conducting balls A and B of radius $r_1$ and $r_2$ have charges $q_1$ and $q_2$ respectively. They are connected by a wire. Obtain the expression for charges on A and B, in equilibrium.",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "answer": {
+        "explanation": "GIVEN: Conducting spheres radii $r_1, r_2$. Initial charges $q_1, q_2$.\\nREQUIRED: Final charges $q'_1, q'_2$.\\nSTEPS:\n1. When connected, charge flows until potentials become equal: $V_1 = V_2$.\n2. Potential of sphere: $V = \\frac{kq}{r}$. Thus, $\\frac{kq'_1}{r_1} = \\frac{kq'_2}{r_2} \\implies \\frac{q'_1}{q'_2} = \\frac{r_1}{r_2}$.\n3. By Conservation of Charge: $q'_1 + q'_2 = q_1 + q_2 = Q_{total}$.\n4. Substituting $q'_2 = q'_1 \\frac{r_2}{r_1}$:\n   $q'_1 (1 + \\frac{r_2}{r_1}) = Q_{total} \\implies q'_1 = Q_{total} \\frac{r_1}{r_1+r_2}$.\n   Similarly, $q'_2 = Q_{total} \\frac{r_2}{r_1+r_2}$.\n\\nFINAL RESULT:\n$q'_1 = (q_1+q_2)\\frac{r_1}{r_1+r_2}, \\quad q'_2 = (q_1+q_2)\\frac{r_2}{r_1+r_2}$",
+        "key_formulae": [
+          "$V = \\frac{1}{4\\pi\\epsilon_0}\\frac{q}{r}$",
+          "$q_1+q_2 = \\text{constant}$"
+        ],
+        "diagrams": []
+      },
+      "diagram_required": false,
+      "source": "55/4/3"
+    },
+    {
+      "id": "55-5-3-Q33-b",
+      "year": 2023,
+      "marks": 5,
+      "type": "theory",
+      "question": "(i) A thin spherical shell of radius $R$ has a uniform surface charge density $\\sigma$. Using Gauss' law, deduce an expression for electric field (a) outside and (b) inside the shell.\n(ii) Two long straight thin wires AB and CD have linear charge densities $10 \\mu \\text{C/m}$ and $-20 \\mu \\text{C/m}$ respectively. They are kept parallel to each other at a distance $1 \\text{ m}$. Find magnitude and direction of the net electric field at a point midway between them.",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "answer": {
+        "explanation": "(i) See standard derivation for spherical shell.\n(ii) GIVEN: $\\lambda_1 = 10 \\mu \\text{C/m}, \\lambda_2 = -20 \\mu \\text{C/m}, r = 0.5 \\text{ m}$.\\nSTEPS:\n1. Field $E_1$ away from AB: $E_1 = \\frac{\\lambda_1}{2\\pi\\epsilon_0 r}$\n2. Field $E_2$ towards CD (due to negative charge): $E_2 = \\frac{|\\lambda_2|}{2\\pi\\epsilon_0 r}$\n3. Since both fields point towards CD, they add up:\n   $E_{net} = \\frac{1}{2\\pi\\epsilon_0 r} (10 + 20) \\times 10^{-6}$\n   $E_{net} = \\frac{2 \\times 9 \\times 10^9}{0.5} (30 \\times 10^{-6}) = 1.08 \\times 10^6 \\text{ N/C}$.\n\\nFINAL RESULT:\n$1.08 \\times 10^6 \\text{ N/C}$ directed towards the negative wire.",
+        "key_formulae": [
+          "$E = \\frac{\\lambda}{2\\pi\\epsilon_0 r}$"
+        ],
+        "diagrams": [
+          "",
+          ""
+        ]
+      },
+      "diagram_required": true,
+      "source": "55/5/3",
+      "diagram_url": "/images/Physics/PYQs/chapter1/55-5-3-Q33-b.png",
+      "image": "/images/Physics/Derivations/electric field lines pattern.png"
+    },
+    {
+      "id": "2155-4-3-Q31-b",
+      "year": 2023,
+      "marks": 5,
+      "type": "numerical",
+      "question": "(i) Using Gauss's law, show that the electric field at a point due to a uniformly charged infinite plane sheet is given by $E = \\frac{\\sigma}{2\\epsilon_0}$.\n(ii) Electric field in a region is given by $\\vec{E} = (5x^2 + 2)\\hat{i}$. A cube of side $10 \\text{ cm}$ is placed in the region. Calculate electric flux and charge enclosed.",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "answer": {
+        "explanation": "(i) Standard derivation using a cylindrical Gaussian surface cutting through the sheet.\n(ii) GIVEN: $\\vec{E} = (5x^2 + 2)\\hat{i}$, Cube side $a = 0.1 \\text{ m}$.\\nAssuming cube is placed between $x=0$ and $x=0.1$.\\nFlux $\\phi = \\phi_R + \\phi_L$ (other faces parallel to E).\\nAt $x = a = 0.1$: $E_R = 5(0.1)^2 + 2 = 2.05 \\text{ N/C}$.\n$\\phi_R = E_R A = 2.05 \\times (0.01) = 0.0205$.\\nAt $x = 0$: $E_L = 2 \\text{ N/C}$.\n$\\phi_L = -E_L A = -2 \\times (0.01) = -0.02$.\\nNet Flux $\\phi = 0.0205 - 0.02 = 0.0005 \\text{ Nm}^2/\\text{C}$.\\nCharge $q = \\epsilon_0 \\phi = 8.85 \\times 10^{-12} \\times 5 \\times 10^{-4} = 4.425 \\times 10^{-15} \\text{ C}$.\n\\nFINAL RESULT:\\nFlux = $5 \\times 10^{-4} \\text{ Vm}$.\\nCharge = $4.4 \\times 10^{-15} \\text{ C}$.",
+        "key_formulae": [
+          "$\\phi = \\oint \\vec{E} \\cdot d\\vec{A}$",
+          "$q = \\epsilon_0 \\phi$"
+        ],
+        "diagrams": [
+          ""
+        ]
+      },
+      "diagram_required": true,
+      "source": "2155/4/3",
+      "diagram_url": "/images/Physics/PYQs/chapter1/2155-4-3-Q31-b.png",
+      "image": "/images/Physics/Derivations/Infinite wire electric field.png"
+    }
+  ],
+  "diagram_required": true
+}

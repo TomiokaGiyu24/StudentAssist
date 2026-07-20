@@ -1,0 +1,601 @@
+{
+    "meta": {
+        "subject": "Physical Education",
+        "class": 12,
+        "board": "CBSE",
+        "mock_number": 5,
+        "total_marks": 70
+    },
+    "sections": {
+        "A": [
+            {
+                "id": 1,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P1",
+                "priority_reason": "Specific committee roles (Announcement/Publicity).",
+                "question": "Which committee is responsible for making necessary announcements regarding the opening and closing ceremonies, and running commentary during matches?",
+                "options": [
+                    "Publicity Committee",
+                    "Announcement Committee",
+                    "Reception Committee",
+                    "Ceremonial Committee"
+                ],
+                "correct_option": "Announcement Committee",
+                "answer": {
+                    "final_answer": "Announcement Committee"
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 2,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P1",
+                "priority_reason": "Deficiency Diseases (Night Blindness).",
+                "question": "Night Blindness is caused due to the deficiency of:",
+                "options": [
+                    "Vitamin A",
+                    "Vitamin B",
+                    "Vitamin C",
+                    "Vitamin D"
+                ],
+                "correct_option": "Vitamin A",
+                "answer": {
+                    "final_answer": "Vitamin A"
+                },
+                "source_basis": "NCERT-derived"
+            },
+            {
+                "id": 3,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P2",
+                "priority_reason": "Yoga: Contraindications (Back Pain).",
+                "question": "Which of the following Asanas should be avoided by a person suffering from severe back pain?",
+                "options": [
+                    "Vakrasana",
+                    "Tadasana",
+                    "Padahastasana",
+                    "Bhujangasana"
+                ],
+                "correct_option": "Padahastasana",
+                "answer": {
+                    "final_answer": "Padahastasana"
+                },
+                "source_basis": "PYQ-derived"
+            },
+            {
+                "id": 4,
+                "diagram_url": "/images/PhysicalEducation/Kyphosis.png",
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P1",
+                "priority_reason": "Visual ID of deformities (Kyphosis).",
+                "question": "Identify the postural deformity characterized by an increase in the backward curvature of the thoracic region (Hunchback).",
+                "options": [
+                    "Lordosis",
+                    "Kyphosis",
+                    "Scoliosis",
+                    "Bow Legs"
+                ],
+                "diagram_required": true,
+                "diagram_description": "",
+                "correct_option": "Kyphosis",
+                "answer": {
+                    "final_answer": "Kyphosis"
+                },
+                "source_basis": "NCERT-derived"
+            },
+            {
+                "id": 5,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P2",
+                "priority_reason": "Sports Medicine: Joint Injuries.",
+                "question": "Dislocation is an injury primarily associated with:",
+                "options": [
+                    "Muscles",
+                    "Skin",
+                    "Joints",
+                    "Nerves"
+                ],
+                "correct_option": "Joints",
+                "answer": {
+                    "final_answer": "Joints"
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 6,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P1",
+                "priority_reason": "SAI Test Items (Plate Tapping).",
+                "question": "In the SAI Khelo India Fitness Test (5-8 years), the 'Plate Tapping Test' measures:",
+                "options": [
+                    "Limb Coordination and Speed",
+                    "Static Balance",
+                    "Abdominal Strength",
+                    "Endurance"
+                ],
+                "correct_option": "Limb Coordination and Speed",
+                "answer": {
+                    "final_answer": "Limb Coordination and Speed"
+                },
+                "source_basis": "SQP-derived"
+            },
+            {
+                "id": 7,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P3",
+                "priority_reason": "Biomechanics: Newton's 2nd Law Application.",
+                "question": "A cricket player pulls his hands back while catching a fast-moving ball to reduce the impact. This application is based on:",
+                "options": [
+                    "Newton’s First Law",
+                    "Newton’s Second Law",
+                    "Newton’s Third Law",
+                    "Law of Gravitation"
+                ],
+                "correct_option": "Newton’s Second Law",
+                "answer": {
+                    "final_answer": "Newton’s Second Law"
+                },
+                "source_basis": "NCERT-derived"
+            },
+            {
+                "id": 8,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P2",
+                "priority_reason": "Physiology: Vital Capacity formula.",
+                "question": "Vital Capacity is the sum of:",
+                "options": [
+                    "Tidal Volume + Inspiratory Reserve Volume",
+                    "Tidal Volume + Expiratory Reserve Volume",
+                    "Tidal Volume + IRV + ERV",
+                    "Total Lung Capacity + Residual Volume"
+                ],
+                "correct_option": "Tidal Volume + IRV + ERV",
+                "answer": {
+                    "final_answer": "Tidal Volume + IRV + ERV"
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 9,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P2",
+                "priority_reason": "Match the following: Biomechanics/Levers.",
+                "question": "Match the Levers with their examples:\n(i) Class I Lever    (a) Wheelbarrow\n(ii) Class II Lever   (b) Bicep Curl\n(iii) Class III Lever (c) Seesaw/Nodding Head",
+                "options": [
+                    "(i)-c, (ii)-a, (iii)-b",
+                    "(i)-a, (ii)-b, (iii)-c",
+                    "(i)-b, (ii)-c, (iii)-a",
+                    "(i)-c, (ii)-b, (iii)-a"
+                ],
+                "correct_option": "(i)-c, (ii)-a, (iii)-b",
+                "answer": {
+                    "final_answer": "(i)-c, (ii)-a, (iii)-b"
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 10,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P1",
+                "priority_reason": "Assertion-Reason on Intramurals.",
+                "question": "Given below are two statements, labelled Assertion (A) and Reason (R).\nAssertion (A): Intramural tournaments are organized within the campus of an institution.\nReason (R): The main objective of intramurals is to identify talent for inter-school competitions.",
+                "options": [
+                    "Both (A) and (R) are true and (R) is the correct explanation of (A).",
+                    "Both (A) and (R) are true but (R) is not the correct explanation of (A).",
+                    "(A) is true but (R) is false.",
+                    "(A) is false but (R) is true."
+                ],
+                "correct_option": "Both (A) and (R) are true and (R) is the correct explanation of (A).",
+                "answer": {
+                    "final_answer": "Both (A) and (R) are true but (R) is not the correct explanation of (A)."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 11,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P2",
+                "priority_reason": "CWSN: Paralympic Motto/Symbol.",
+                "question": "The symbol of the Paralympic Games consists of three 'Agitos' colored:",
+                "options": [
+                    "Red, Blue, Green",
+                    "Red, Black, Blue",
+                    "Blue, Yellow, Green",
+                    "Red, Blue, Yellow"
+                ],
+                "correct_option": "Red, Blue, Green",
+                "answer": {
+                    "final_answer": "Red, Blue, Green"
+                },
+                "source_basis": "NCERT-derived"
+            },
+            {
+                "id": 12,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P1",
+                "priority_reason": "Fixture: Formula for Rounds.",
+                "question": "In a Knockout tournament with 19 teams, how many rounds will be played?",
+                "options": [
+                    "4",
+                    "5",
+                    "6",
+                    "3"
+                ],
+                "correct_option": "5",
+                "answer": {
+                    "final_answer": "5"
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 13,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P3",
+                "priority_reason": "Biomechanics: Rolling Friction.",
+                "question": "Which type of friction is the least in magnitude?",
+                "options": [
+                    "Static Friction",
+                    "Sliding Friction",
+                    "Rolling Friction",
+                    "Kinetic Friction"
+                ],
+                "correct_option": "Rolling Friction",
+                "answer": {
+                    "final_answer": "Rolling Friction"
+                },
+                "source_basis": "NCERT-derived"
+            },
+            {
+                "id": 14,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P2",
+                "priority_reason": "Psychology: Personality (Big Five - Agreeableness).",
+                "question": "A person who is cooperative, trustworthy, and good-natured scores high on:",
+                "options": [
+                    "Neuroticism",
+                    "Extroversion",
+                    "Agreeableness",
+                    "Openness"
+                ],
+                "correct_option": "Agreeableness",
+                "answer": {
+                    "final_answer": "Agreeableness"
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 15,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P1",
+                "priority_reason": "Women in Sports: Amenorrhea.",
+                "question": "The absence of menstrual periods in a woman of reproductive age is called:",
+                "options": [
+                    "Menarche",
+                    "Dysmenorrhea",
+                    "Amenorrhea",
+                    "Menopause"
+                ],
+                "correct_option": "Amenorrhea",
+                "answer": {
+                    "final_answer": "Amenorrhea"
+                },
+                "source_basis": "PYQ-derived"
+            },
+            {
+                "id": 16,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P2",
+                "priority_reason": "Training: Isokinetic.",
+                "question": "Exercises performed on specialized machines that provide resistance relative to the amount of force applied are:",
+                "options": [
+                    "Isometric",
+                    "Isotonic",
+                    "Isokinetic",
+                    "Aerobic"
+                ],
+                "correct_option": "Isokinetic",
+                "answer": {
+                    "final_answer": "Isokinetic"
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 17,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P2",
+                "priority_reason": "Training: Acceleration Run.",
+                "question": "Acceleration runs are used to improve:",
+                "options": [
+                    "Explosive Strength",
+                    "Speed",
+                    "Endurance",
+                    "Flexibility"
+                ],
+                "correct_option": "Speed",
+                "answer": {
+                    "final_answer": "Speed"
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 18,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P3",
+                "priority_reason": "Equilibrium: Center of Gravity.",
+                "question": "The point in a body around which its weight is evenly distributed is called:",
+                "options": [
+                    "Axis of Rotation",
+                    "Center of Gravity",
+                    "Fulcrum",
+                    "Base of Support"
+                ],
+                "correct_option": "Center of Gravity",
+                "answer": {
+                    "final_answer": "Center of Gravity"
+                },
+                "source_basis": "NCERT-derived"
+            }
+        ],
+        "B": [
+            {
+                "id": 19,
+                "type": "VSLA",
+                "marks": 2,
+                "priority": "P1",
+                "priority_reason": "Knockout vs League distinction.",
+                "question": "Differentiate between 'Knockout' and 'League' tournaments on the basis of elimination.",
+                "answer": {
+                    "final_answer": "* **Knockout:** A team is eliminated immediately after losing a single match. It continues only as long as it wins.\n* **League:** Every team plays with every other team irrespective of winning or losing. Elimination happens only after all scheduled matches are played based on points."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 20,
+                "type": "VSLA",
+                "marks": 2,
+                "priority": "P2",
+                "priority_reason": "Fat soluble vitamins.",
+                "question": "List the four Fat-Soluble Vitamins.",
+                "answer": {
+                    "final_answer": "The four fat-soluble vitamins are:\n1.  **Vitamin A** (Retinol)\n2.  **Vitamin D** (Calciferol)\n3.  **Vitamin E** (Tocopherol)\n4.  **Vitamin K** (Phylloquinone)"
+                },
+                "source_basis": "NCERT-derived"
+            },
+            {
+                "id": 21,
+                "type": "VSLA",
+                "marks": 2,
+                "priority": "P2",
+                "priority_reason": "Biomechanics: Friction types.",
+                "question": "Differentiate between 'Static Friction' and 'Sliding Friction'.",
+                "answer": {
+                    "final_answer": "* **Static Friction:** The opposing force that comes into play when one body tends to move over the surface of another, but the actual motion has not yet started.\n* **Sliding (Kinetic) Friction:** The opposing force that comes into play when one body is actually sliding over the surface of another."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 22,
+                "type": "VSLA",
+                "marks": 2,
+                "priority": "P1",
+                "priority_reason": "Physiology: Stroke Volume.",
+                "question": "Define 'Stroke Volume'. What is its average value in a normal adult?",
+                "answer": {
+                    "final_answer": "**Stroke Volume:** It is the amount of blood pumped by the left ventricle of the heart in one beat (contraction).\n**Average Value:** Approximately **70 ml** per beat in a resting healthy adult."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 23,
+                "type": "VSLA",
+                "marks": 2,
+                "priority": "P2",
+                "priority_reason": "CWSN: Etiquettes.",
+                "question": "Mention any two etiquettes to be followed while dealing with CWSN.",
+                "answer": {
+                    "final_answer": "1.  **Treat them as equals:** Talk directly to the person, not to their aide or interpreter.\n2.  **Respect personal space:** Do not touch their wheelchair or assistive devices without permission."
+                },
+                "source_basis": "NCERT-derived"
+            },
+            {
+                "id": 24,
+                "type": "VSLA",
+                "marks": 2,
+                "priority": "P3",
+                "priority_reason": "Training: Flexibility (Ballistic).",
+                "question": "What is the 'Ballistic Method' of developing flexibility? Why is it less recommended?",
+                "answer": {
+                    "final_answer": "**Ballistic Method:** It involves stretching the muscles with a swinging or bouncing movement to force the joint beyond its normal range.\n**Drawback:** It involves a high risk of injury (muscle tear) due to the sudden jerky movements."
+                },
+                "source_basis": "Reference Notes"
+            }
+        ],
+        "C": [
+            {
+                "id": 25,
+                "type": "SLA",
+                "marks": 3,
+                "priority": "P1",
+                "priority_reason": "Management: Specific Committees.",
+                "question": "Explain the role of 'Technical Committee' and 'Transport Committee' in a tournament.",
+                "answer": {
+                    "final_answer": "* **Technical Committee:** Responsible for the technical conduct of the event, including appointing referees/judges, preparing fixtures, and resolving disputes related to the rules of the game.\n* **Transport Committee:** Responsible for providing transportation facilities to the teams, officials, and VIPs from the place of stay to the venue and back."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 26,
+                "type": "SLA",
+                "marks": 3,
+                "priority": "P2",
+                "priority_reason": "Nutrition: Pitfalls of Dieting.",
+                "question": "Highlight any three 'Pitfalls of Dieting'.",
+                "answer": {
+                    "final_answer": "1.  **Extreme Starvation:** Skipping meals or starving leads to weakness, loss of muscle mass, and a slower metabolism, which can cause weight gain later.\n2.  **Cutting out Essential Nutrients:** Eliminating entire food groups (like carbs or fats) can lead to deficiencies and health issues.\n3.  **Taking Diet Pills:** Relying on slim pills instead of healthy eating can have fatal side effects on the heart and kidneys."
+                },
+                "source_basis": "NCERT-derived"
+            },
+            {
+                "id": 27,
+                "type": "SLA",
+                "marks": 3,
+                "priority": "P1",
+                "priority_reason": "Yoga: Asanas for Back Pain.",
+                "question": "Suggest any three Asanas for preventing 'Back Pain' and explain one.",
+                "answer": {
+                    "final_answer": "**Asanas:** Tadasana, Vakrasana, Bhujangasana.\n\n**Explanation of Bhujangasana (Cobra Pose):**\n* **Procedure:** Lie prone with palms under shoulders. Inhale and lift the chest off the floor, keeping the navel down. Look up.\n* **Benefit:** It strengthens the vertebral column and back muscles, relieving stiffness and pain."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 28,
+                "type": "SLA",
+                "marks": 3,
+                "priority": "P2",
+                "priority_reason": "Physiology: Respiratory effects.",
+                "question": "Describe the effects of regular exercise on the Respiratory System.",
+                "answer": {
+                    "final_answer": "1.  **Increase in Tidal Volume:** The amount of air inhaled/exhaled per breath increases, improving oxygen supply.\n2.  **Increase in Vital Capacity:** The maximum capacity of lungs to hold air increases.\n3.  **Stronger Diaphragm and Intercostal Muscles:** The respiratory muscles become stronger, allowing for deeper and more efficient breathing."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 29,
+                "type": "SLA",
+                "marks": 3,
+                "priority": "P1",
+                "priority_reason": "Training: Strength types.",
+                "question": "Differentiate between 'Explosive Strength' and 'Strength Endurance'.",
+                "answer": {
+                    "final_answer": "* **Explosive Strength:** The ability to overcome resistance with high speed. It is a combination of strength and speed (Power). *Example:* High Jump, Smash in Volleyball.\n* **Strength Endurance:** The ability to overcome resistance or act against resistance under conditions of fatigue. It is used in long-duration activities. *Example:* Long-distance swimming, Cycling."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 30,
+                "type": "SLA",
+                "marks": 3,
+                "priority": "P2",
+                "priority_reason": "Psychology: Intrinsic vs Extrinsic Motivation.",
+                "question": "Compare 'Intrinsic' and 'Extrinsic' motivation with examples.",
+                "answer": {
+                    "final_answer": "* **Intrinsic Motivation:** Comes from within the individual. It is driven by interest, enjoyment, or satisfaction. *Example:* A child playing cricket because he loves the sport.\n* **Extrinsic Motivation:** Comes from outside sources. It is driven by rewards, praise, or fear of punishment. *Example:* An athlete training hard to win a cash prize or a trophy."
+                },
+                "source_basis": "Reference Notes"
+            }
+        ],
+        "D": [
+            {
+                "id": 31,
+                "type": "Case Study",
+                "marks": 4,
+                "priority": "P1",
+                "priority_reason": "SAI Test (Younger group) Case Study.",
+                "question": "A sports teacher measures the fitness of class 6 students using the SAI Khelo India Fitness Test. He records the following:\n(i) BMI\n(ii) 50 M Dash\n(iii) 600 M Run/Walk\n(iv) Sit and Reach\n\nIdentify the physical fitness component measured by each of these tests.",
+                "diagram_required": false,
+                "diagram_description": null,
+                "answer": {
+                    "final_answer": "(i) Body Composition (Obesity).\n(ii) Speed (Acceleration).\n(iii) Cardiovascular Endurance (Aerobic Capacity).\n(iv) Flexibility (Lower back and Hamstring)."
+                },
+                "source_basis": "SQP-derived"
+            },
+            {
+                "id": 32,
+                "diagram_url": "/images/PhysicalEducation/knock knees.png",
+                "type": "Case Study",
+                "marks": 4,
+                "priority": "P1",
+                "priority_reason": "Postural Deformities (Knock Knees) Case Study.",
+                "question": "While observing students in assembly, the PET noticed that Rahul's knees touch each other when he stands with his feet apart. He faces difficulty in running.\n\n(i) Identify the deformity Rahul is suffering from.\n(ii) Mention one probable cause of this deformity.\n(iii) Suggest one Yoga Asana to correct this.\n(iv) What is the medical term for this deformity?",
+                "diagram_required": true,
+                "diagram_description": "",
+                "answer": {
+                    "final_answer": "(i) Knock Knees.\n(ii) Rickets (Vitamin D deficiency), Obesity, or weak ligaments.\n(iii) Padmasana (Lotus Pose) or Gomukhasana.\n(iv) Genu Valgum."
+                },
+                "source_basis": "NCERT-derived"
+            },
+            {
+                "id": 33,
+                "type": "Case Study",
+                "marks": 4,
+                "priority": "P2",
+                "priority_reason": "League Fixture (Cyclic) Table analysis.",
+                "question": "In a Cyclic League tournament for 5 teams, the following match schedule for Round 1 is given: Team 5-Bye, Team 4-1, Team 3-2.\n\n(i) How many total rounds will be played?\n(ii) If a win gets 2 points and a draw 1, what is the maximum points a team can score?\n(iii) Which team will get the Bye in Round 2?\n(iv) How many total matches will be played in the tournament?",
+                "diagram_required": false,
+                "diagram_description": null,
+                "answer": {
+                    "final_answer": "(i) N=5 (Odd), so Rounds = N = 5 Rounds.\n(ii) Each team plays 4 matches. Max points = $4 \\times 2 = 8$ points.\n(iii) In Cyclic (clockwise), Team 4 will typically move to the Bye position (depending on rotation direction, usually top right rotates). If 5 was Bye, 4 takes its place.\n(iv) Formula $\\frac{N(N-1)}{2} = \\frac{5(4)}{2} = 10$ matches."
+                },
+                "source_basis": "Reference Notes"
+            }
+        ],
+        "E": [
+            {
+                "id": 34,
+                "type": "Long Answer",
+                "marks": 5,
+                "priority": "P1",
+                "priority_reason": "Knockout Fixture for 19 teams is a complex standard question.",
+                "question": "Draw a Knockout fixture for 19 teams. Calculate the number of byes and matches.",
+                "answer": {
+                    "final_answer": "**Calculations:**\n1.  **Teams (N):** 19\n2.  **Upper Half:** $\\frac{N+1}{2} = 10$ teams\n3.  **Lower Half:** $\\frac{N-1}{2} = 9$ teams\n4.  **Byes:** Next power of 2 is 32. Byes $= 32 - 19 = 13$ Byes.\n5.  **Byes Distribution:**\n    * Upper Half: $\\frac{NB-1}{2} = 6$ Byes\n    * Lower Half: $\\frac{NB+1}{2} = 7$ Byes\n6.  **Matches:** $N-1 = 18$ matches.\n7.  **Rounds:** $2^5=32$, so 5 Rounds.\n\n**Fixture:** [Draw fixture ensuring 6 byes in Upper Half and 7 in Lower Half are placed correctly (1st to Last of Lower, 2nd to First of Upper, etc.) and matches proceed logically]."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 35,
+                "type": "Long Answer",
+                "marks": 5,
+                "priority": "P1",
+                "priority_reason": "Physiological Factors (Strength).",
+                "question": "Explain the physiological factors determining 'Strength'.",
+                "answer": {
+                    "final_answer": "1.  **Size of Muscle:** Larger muscles (hypertrophy) can generate more force due to more contractile proteins.\n2.  **Body Weight:** Generally, heavier individuals have more absolute strength.\n3.  **Muscle Composition:** Higher percentage of Fast Twitch (White) fibers leads to greater explosive strength.\n4.  **Intensity of Nerve Impulse:** A stronger nerve signal activates more motor units, producing greater force.\n5.  **Energy Stores:** Availability of ATP and CP in muscles determines the capacity for high-intensity contractions."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 36,
+                "type": "Long Answer",
+                "marks": 5,
+                "priority": "P1",
+                "priority_reason": "Training: Endurance Development (Continuous/Interval).",
+                "question": "What is Endurance? Explain the 'Continuous Training Method' and 'Interval Training Method' to develop endurance.",
+                "answer": {
+                    "final_answer": "**Endurance:** The ability to sustain an activity for a long period under fatigue.\n\n**1. Continuous Training Method:**\n* Exercise is performed for a long duration without breaks.\n* Intensity is low to moderate.\n* **Benefits:** Improves aerobic capacity, glycogen storage, and willpower.\n\n**2. Interval Training Method:**\n* Involves periods of high-intensity work followed by periods of incomplete recovery.\n* Based on the principle of effort and recovery (Heart rate manipulation).\n* **Benefits:** Improves both aerobic and anaerobic endurance, increases stroke volume."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 37,
+                "type": "Long Answer",
+                "marks": 5,
+                "priority": "P2",
+                "priority_reason": "Biomechanics: Projectile Motion (Factors).",
+                "question": "Define Projectile. Discuss the mechanical factors affecting the trajectory of a projectile.",
+                "answer": {
+                    "final_answer": "**Projectile:** Any object thrown into space upon which the only acting forces are gravity and air resistance.\n\n**Factors:**\n1.  **Angle of Release:** 45 degrees is theoretically optimal for range.\n2.  **Initial Velocity:** The speed at release directly determines the distance.\n3.  **Height of Release:** Higher release point increases the horizontal distance.\n4.  **Air Resistance:** Wind direction and speed affect the path (Headwind vs Tailwind).\n5.  **Spin:** Spin on the object (Magnus Effect) can alter the trajectory (lift or dip)."
+                },
+                "source_basis": "NCERT-derived"
+            }
+        ]
+    }
+}

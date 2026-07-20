@@ -1,0 +1,532 @@
+{
+  "chapter_name": "Matrices",
+  "board": "CBSE",
+  "class": "12",
+  "exam_year_target": "2026",
+  "pyq_year_range": "last 3 years",
+  "total_questions_generated": 25,
+  "questions": [
+    {
+      "question_id": 1,
+      "question_type": "MCQ",
+      "concept_tested": "Order of a Matrix",
+      "difficulty_level": "Easy",
+      "question_text": "If a matrix has 24 elements, what is the number of possible orders it can have?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "correct_answer": "8",
+      "topper_solution": {
+        "step_1": "The number of elements in a matrix is the product of its number of rows (m) and columns (n). So, $$m \\times n = 24$$.",
+        "step_2": "We need to find all possible ordered pairs of natural numbers $$(m, n)$$ whose product is 24.",
+        "step_3": "The possible pairs are $$(1, 24), (2, 12), (3, 8), (4, 6), (6, 4), (8, 3), (12, 2), (24, 1)$$. Counting them gives 8 possible orders."
+      },
+      "board_presentation_tip": "List all the pairs systematically starting from 1 to avoid missing any combination.",
+      "common_student_mistakes": [
+        "Forgetting to include the reversed pairs (e.g., counting (3, 8) but missing (8, 3)).",
+        "Missing the trivial pairs (1, 24) and (24, 1)."
+      ],
+      "concept_trigger": "Number of elements = Product of rows and columns (factors of the number).",
+      "time_to_solve_seconds": "30",
+      "examiner_intent": "Testing basic understanding of matrix dimensions and combinatorial counting of factors."
+    },
+    {
+      "question_id": 2,
+      "question_type": "MCQ",
+      "concept_tested": "Properties of Symmetric and Skew-Symmetric Matrices",
+      "difficulty_level": "Moderate",
+      "question_text": "If $$A$$ and $$B$$ are symmetric matrices of the same order, then the matrix $$AB - BA$$ is a: ",
+      "options": [
+        "Skew-symmetric matrix",
+        "Symmetric matrix",
+        "Zero matrix",
+        "Identity matrix"
+      ],
+      "correct_answer": "Skew-symmetric matrix",
+      "topper_solution": {
+        "step_1": "Given $$A$$ and $$B$$ are symmetric, so $$A^T = A$$ and $$B^T = B$$.",
+        "step_2": "Let $$P = AB - BA$$. We need to find $$P^T$$.",
+        "step_3": "$$P^T = (AB - BA)^T = (AB)^T - (BA)^T$$.",
+        "step_4": "Using reversal law of transpose: $$(AB)^T = B^T A^T$$. So, $$P^T = B^T A^T - A^T B^T$$.",
+        "step_5": "Substitute $$A^T = A$$ and $$B^T = B$$: $$P^T = BA - AB = -(AB - BA) = -P$$. Since $$P^T = -P$$, it is a skew-symmetric matrix."
+      },
+      "board_presentation_tip": "Clearly state the reversal law $$(AB)^T = B^T A^T$$ as it carries a marking scheme point in subjective versions of this question.",
+      "common_student_mistakes": [
+        "Assuming matrix multiplication is commutative (i.e., AB = BA) and concluding it is a zero matrix.",
+        "Forgetting the reversal law and writing $$(AB)^T = A^T B^T$$."
+      ],
+      "concept_trigger": "Expressions involving $$AB \\pm BA$$ with symmetric/skew matrices usually rely on taking the transpose and applying the reversal law.",
+      "time_to_solve_seconds": "60",
+      "examiner_intent": "Evaluating knowledge of transpose properties and commutative failure in matrix multiplication."
+    },
+    {
+      "question_id": 3,
+      "question_type": "Assertion Reason",
+      "concept_tested": "Symmetric Matrix Construction",
+      "difficulty_level": "Easy",
+      "question_text": "Assertion (A): For any square matrix $$A$$ with real number entries, $$A + A^T$$ is a symmetric matrix.\\nReason (R): For any square matrix $$A$$, $$(A + A^T)^T = A + A^T$$.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct_answer": "Both A and R are true and R is the correct explanation of A",
+      "topper_solution": {
+        "step_1": "Analyze Assertion (A): By theorem, the sum of a square matrix and its transpose is always symmetric. So, A is true.",
+        "step_2": "Analyze Reason (R): Let $$P = A + A^T$$. Then $$P^T = (A + A^T)^T = A^T + (A^T)^T = A^T + A = A + A^T = P$$. This shows $$P$$ is symmetric. R is true.",
+        "step_3": "Since R provides the exact mathematical proof for the statement in A, R is the correct explanation of A."
+      },
+      "board_presentation_tip": "When proving symmetry, clearly show the step $$(A^T)^T = A$$.",
+      "common_student_mistakes": [
+        "Confusing $$A + A^T$$ (symmetric) with $$A - A^T$$ (skew-symmetric)."
+      ],
+      "concept_trigger": "The expression $$A + A^T$$ is the standard mathematical construction for a symmetric component.",
+      "time_to_solve_seconds": "45",
+      "examiner_intent": "Testing understanding of fundamental theorems regarding symmetric matrices and their proofs."
+    },
+    {
+      "question_id": 4,
+      "question_type": "1_mark",
+      "concept_tested": "Constructing a Matrix from a Formula",
+      "difficulty_level": "Easy",
+      "question_text": "Construct a $$2 \\times 2$$ matrix $$A = [a_{ij}]$$ whose elements are given by $$a_{ij} = \\frac{| -3i + j |}{2}$$.",
+      "options": [],
+      "correct_answer": "$$\\begin{bmatrix} 1 & 1/2 \\\\ 5/2 & 2 \\end{bmatrix}$$",
+      "topper_solution": {
+        "step_1": "The matrix is of order $$2 \\times 2$$, so it is $$A = \\begin{bmatrix} a_{11} & a_{12} \\\\ a_{21} & a_{22} \\end{bmatrix}$$.",
+        "step_2": "Calculate each element using $$a_{ij} = \\frac{| -3i + j |}{2}$$:",
+        "step_3": "$$a_{11} = \\frac{| -3(1) + 1 |}{2} = \\frac{| -2 |}{2} = 1$$.",
+        "step_4": "$$a_{12} = \\frac{| -3(1) + 2 |}{2} = \\frac{| -1 |}{2} = \\frac{1}{2}$$.",
+        "step_5": "$$a_{21} = \\frac{| -3(2) + 1 |}{2} = \\frac{| -5 |}{2} = \\frac{5}{2}$$.",
+        "step_6": "$$a_{22} = \\frac{| -3(2) + 2 |}{2} = \\frac{| -4 |}{2} = 2$$.",
+        "step_7": "Thus, $$A = \\begin{bmatrix} 1 & 1/2 \\\\ 5/2 & 2 \\end{bmatrix}$$."
+      },
+      "board_presentation_tip": "Write the general format of the matrix first, then calculate each element clearly on a new line.",
+      "common_student_mistakes": [
+        "Ignoring the modulus sign and writing negative values.",
+        "Swapping the row index 'i' and column index 'j'."
+      ],
+      "concept_trigger": "Matrix construction relies entirely on plugging row and column indices into the given formula.",
+      "time_to_solve_seconds": "90",
+      "examiner_intent": "Checking attention to detail with absolute value functions and matrix indexing."
+    },
+    {
+      "question_id": 5,
+      "question_type": "2_mark",
+      "concept_tested": "Equality of Matrices",
+      "difficulty_level": "Easy",
+      "question_text": "If $$\\begin{bmatrix} 2x - y & 5 \\\\ 3 & y \\end{bmatrix} = \\begin{bmatrix} 6 & 5 \\\\ 3 & -2 \\end{bmatrix}$$, find the value of $$x$$.",
+      "options": [],
+      "correct_answer": "2",
+      "topper_solution": {
+        "step_1": "Since the two matrices are equal, their corresponding elements must be equal.",
+        "step_2": "Equating the element in the second row, second column: $$y = -2$$.",
+        "step_3": "Equating the element in the first row, first column: $$2x - y = 6$$.",
+        "step_4": "Substitute the value of $$y$$ into the equation: $$2x - (-2) = 6 \\implies 2x + 2 = 6$$.",
+        "step_5": "Solve for $$x$$: $$2x = 4 \\implies x = 2$$."
+      },
+      "board_presentation_tip": "Write the phrase 'By equating corresponding elements of equal matrices' before writing the equations.",
+      "common_student_mistakes": [
+        "Making a sign error when substituting a negative value for y.",
+        "Equating elements from different positions."
+      ],
+      "concept_trigger": "The equals sign between two matrices implies a system of linear equations.",
+      "time_to_solve_seconds": "60",
+      "examiner_intent": "Testing basic knowledge of matrix equality and simple linear equation solving."
+    },
+    {
+      "question_id": 6,
+      "question_type": "2_mark",
+      "concept_tested": "Matrix Addition and Scalar Multiplication",
+      "difficulty_level": "Moderate",
+      "question_text": "Find $$X$$ and $$Y$$ if $$X + Y = \\begin{bmatrix} 7 & 0 \\\\ 2 & 5 \\end{bmatrix}$$ and $$X - Y = \\begin{bmatrix} 3 & 0 \\\\ 0 & 3 \\end{bmatrix}$$. ",
+      "options": [],
+      "correct_answer": "$$X = \\begin{bmatrix} 5 & 0 \\\\ 1 & 4 \\end{bmatrix}$$, $$Y = \\begin{bmatrix} 2 & 0 \\\\ 1 & 1 \\end{bmatrix}$$",
+      "topper_solution": {
+        "step_1": "Let Equation 1 be $$X + Y = \\begin{bmatrix} 7 & 0 \\\\ 2 & 5 \\end{bmatrix}$$ and Equation 2 be $$X - Y = \\begin{bmatrix} 3 & 0 \\\\ 0 & 3 \\end{bmatrix}$$.",
+        "step_2": "Adding Eq 1 and Eq 2: $$(X + Y) + (X - Y) = \\begin{bmatrix} 7 & 0 \\\\ 2 & 5 \\end{bmatrix} + \\begin{bmatrix} 3 & 0 \\\\ 0 & 3 \\end{bmatrix}$$.",
+        "step_3": "$$2X = \\begin{bmatrix} 10 & 0 \\\\ 2 & 8 \\end{bmatrix}$$. Dividing by 2, $$X = \\begin{bmatrix} 5 & 0 \\\\ 1 & 4 \\end{bmatrix}$$.",
+        "step_4": "Subtracting Eq 2 from Eq 1: $$(X + Y) - (X - Y) = \\begin{bmatrix} 7 & 0 \\\\ 2 & 5 \\end{bmatrix} - \\begin{bmatrix} 3 & 0 \\\\ 0 & 3 \\end{bmatrix}$$.",
+        "step_5": "$$2Y = \\begin{bmatrix} 4 & 0 \\\\ 2 & 2 \\end{bmatrix}$$. Dividing by 2, $$Y = \\begin{bmatrix} 2 & 0 \\\\ 1 & 1 \\end{bmatrix}$$."
+      },
+      "board_presentation_tip": "Treat matrices exactly like algebraic variables when using elimination methods. Show the intermediate $$2X$$ and $$2Y$$ matrices clearly.",
+      "common_student_mistakes": [
+        "Dividing only the diagonal elements by 2 instead of every element in the matrix.",
+        "Sign errors during matrix subtraction."
+      ],
+      "concept_trigger": "Simultaneous equations with matrices are solved using the same elimination/substitution methods as normal variables.",
+      "time_to_solve_seconds": "120",
+      "examiner_intent": "Assessing application of simultaneous equation techniques to matrix algebra."
+    },
+    {
+      "question_id": 7,
+      "question_type": "3_mark",
+      "concept_tested": "Diagonal Elements of Skew-Symmetric Matrix",
+      "difficulty_level": "Moderate",
+      "question_text": "Show that all the diagonal elements of a skew-symmetric matrix are zero.",
+      "options": [],
+      "correct_answer": "Proof",
+      "topper_solution": {
+        "step_1": "Let $$A = [a_{ij}]$$ be a skew-symmetric matrix. By definition, $$A^T = -A$$.",
+        "step_2": "The elements of $$A^T$$ are given by interchanging rows and columns. So, the $$(i, j)$$-th element of $$A^T$$ is $$a_{ji}$$.",
+        "step_3": "According to the definition $$A^T = -A$$, we have corresponding elements equal: $$a_{ji} = -a_{ij}$$ for all possible values of $$i$$ and $$j$$.",
+        "step_4": "For the diagonal elements, the row number equals the column number, meaning $$i = j$$.",
+        "step_5": "Substitute $$j = i$$ into the equation: $$a_{ii} = -a_{ii}$$.",
+        "step_6": "Moving the term to the left side gives: $$2a_{ii} = 0 \\implies a_{ii} = 0$$ for all $$i$$. Thus, all diagonal elements are zero."
+      },
+      "board_presentation_tip": "Start with the formal mathematical definition of a skew-symmetric matrix ($$A^T = -A$$) and then move to the element level ($$a_{ji} = -a_{ij}$$).",
+      "common_student_mistakes": [
+        "Trying to prove it using an example (like a 2x2 matrix) instead of providing a generalized algebraic proof.",
+        "Failing to set $$i=j$$ clearly to isolate diagonal elements."
+      ],
+      "concept_trigger": "Properties involving 'all elements' or 'diagonal elements' require indexing notation $$a_{ij}$$.",
+      "time_to_solve_seconds": "150",
+      "examiner_intent": "Testing theoretical understanding and formal proof writing regarding matrix definitions."
+    },
+    {
+      "question_id": 8,
+      "question_type": "3_mark",
+      "concept_tested": "Matrix Polynomials",
+      "difficulty_level": "Board-Tricky",
+      "question_text": "If $$A = \\begin{bmatrix} 3 & 1 \\\\ -1 & 2 \\end{bmatrix}$$, show that $$A^2 - 5A + 7I = O$$, where $$I$$ is the identity matrix of order 2.",
+      "options": [],
+      "correct_answer": "Proof of zero matrix",
+      "topper_solution": {
+        "step_1": "First, calculate $$A^2 = A \\cdot A = \\begin{bmatrix} 3 & 1 \\\\ -1 & 2 \\end{bmatrix} \\begin{bmatrix} 3 & 1 \\\\ -1 & 2 \\end{bmatrix}$$.",
+        "step_2": "Using row-by-column multiplication:\\n$$a_{11} = (3)(3) + (1)(-1) = 9 - 1 = 8$$\\n$$a_{12} = (3)(1) + (1)(2) = 3 + 2 = 5$$\\n$$a_{21} = (-1)(3) + (2)(-1) = -3 - 2 = -5$$\\n$$a_{22} = (-1)(1) + (2)(2) = -1 + 4 = 3$$.\\nSo, $$A^2 = \\begin{bmatrix} 8 & 5 \\\\ -5 & 3 \\end{bmatrix}$$.",
+        "step_3": "Calculate $$5A = 5 \\begin{bmatrix} 3 & 1 \\\\ -1 & 2 \\end{bmatrix} = \\begin{bmatrix} 15 & 5 \\\\ -5 & 10 \\end{bmatrix}$$.",
+        "step_4": "Calculate $$7I = 7 \\begin{bmatrix} 1 & 0 \\\\ 0 & 1 \\end{bmatrix} = \\begin{bmatrix} 7 & 0 \\\\ 0 & 7 \\end{bmatrix}$$.",
+        "step_5": "Substitute into LHS: $$A^2 - 5A + 7I = \\begin{bmatrix} 8 & 5 \\\\ -5 & 3 \\end{bmatrix} - \\begin{bmatrix} 15 & 5 \\\\ -5 & 10 \\end{bmatrix} + \\begin{bmatrix} 7 & 0 \\\\ 0 & 7 \\end{bmatrix}$$.",
+        "step_6": "Add/subtract corresponding elements:\\n$$\\begin{bmatrix} 8 - 15 + 7 & 5 - 5 + 0 \\\\ -5 - (-5) + 0 & 3 - 10 + 7 \\end{bmatrix} = \\begin{bmatrix} 0 & 0 \\\\ 0 & 0 \\end{bmatrix} = O$$. Hence proved."
+      },
+      "board_presentation_tip": "Show the matrix multiplication calculation clearly. Do not write the final $$A^2$$ matrix directly without showing the step.",
+      "common_student_mistakes": [
+        "Squaring individual elements to find $$A^2$$ (e.g., writing 9, 1, 1, 4).",
+        "Arithmetic errors in matrix addition/subtraction, particularly with double negatives."
+      ],
+      "concept_trigger": "Matrix polynomials require careful sequence calculation: compute powers first, scale with constants, then add.",
+      "time_to_solve_seconds": "240",
+      "examiner_intent": "Evaluating accuracy in matrix multiplication and arithmetic operations over multiple terms."
+    },
+    {
+      "question_id": 9,
+      "question_type": "5_mark",
+      "concept_tested": "Decomposition into Symmetric and Skew-Symmetric Matrices",
+      "difficulty_level": "Board-Tricky",
+      "question_text": "Express the matrix $$A = \\begin{bmatrix} 2 & -2 & -4 \\\\ -1 & 3 & 4 \\\\ 1 & -2 & -3 \\end{bmatrix}$$ as the sum of a symmetric and a skew-symmetric matrix.",
+      "options": [],
+      "correct_answer": "$$A = \\begin{bmatrix} 2 & -3/2 & -3/2 \\\\ -3/2 & 3 & 1 \\\\ -3/2 & 1 & -3 \\end{bmatrix} + \\begin{bmatrix} 0 & -1/2 & -5/2 \\\\ 1/2 & 0 & 3 \\\\ 5/2 & -3 & 0 \\end{bmatrix}$$",
+      "topper_solution": {
+        "step_1": "Any square matrix $$A$$ can be expressed as $$A = P + Q$$, where $$P = \\frac{1}{2}(A + A^T)$$ is symmetric and $$Q = \\frac{1}{2}(A - A^T)$$ is skew-symmetric.",
+        "step_2": "First, find the transpose of A: $$A^T = \\begin{bmatrix} 2 & -1 & 1 \\\\ -2 & 3 & -2 \\\\ -4 & 4 & -3 \\end{bmatrix}$$.",
+        "step_3": "Calculate $$P = \\frac{1}{2}(A + A^T) = \\frac{1}{2}\\left( \\begin{bmatrix} 2 & -2 & -4 \\\\ -1 & 3 & 4 \\\\ 1 & -2 & -3 \\end{bmatrix} + \\begin{bmatrix} 2 & -1 & 1 \\\\ -2 & 3 & -2 \\\\ -4 & 4 & -3 \\end{bmatrix} \\right)$$.",
+        "step_4": "$$P = \\frac{1}{2} \\begin{bmatrix} 4 & -3 & -3 \\\\ -3 & 6 & 2 \\\\ -3 & 2 & -6 \\end{bmatrix} = \\begin{bmatrix} 2 & -3/2 & -3/2 \\\\ -3/2 & 3 & 1 \\\\ -3/2 & 1 & -3 \\end{bmatrix}$$.",
+        "step_5": "Calculate $$Q = \\frac{1}{2}(A - A^T) = \\frac{1}{2}\\left( \\begin{bmatrix} 2 & -2 & -4 \\\\ -1 & 3 & 4 \\\\ 1 & -2 & -3 \\end{bmatrix} - \\begin{bmatrix} 2 & -1 & 1 \\\\ -2 & 3 & -2 \\\\ -4 & 4 & -3 \\end{bmatrix} \\right)$$.",
+        "step_6": "$$Q = \\frac{1}{2} \\begin{bmatrix} 0 & -1 & -5 \\\\ 1 & 0 & 6 \\\\ 5 & -6 & 0 \\end{bmatrix} = \\begin{bmatrix} 0 & -1/2 & -5/2 \\\\ 1/2 & 0 & 3 \\\\ 5/2 & -3 & 0 \\end{bmatrix}$$.",
+        "step_7": "Final expression: $$A = P + Q$$. (Optional: Verify by adding P and Q to see if it equals A)."
+      },
+      "board_presentation_tip": "Explicitly state the formulas for P and Q. Keep fractions instead of decimals to avoid rounding errors and maintain a neat presentation.",
+      "common_student_mistakes": [
+        "Forgetting the $$1/2$$ multiplier in the formulas for P and Q.",
+        "Sign errors when computing $$A - A^T$$, especially for negative numbers."
+      ],
+      "concept_trigger": "The phrase 'sum of symmetric and skew-symmetric' is an immediate trigger for the $$P = \\frac{1}{2}(A + A^T)$$ and $$Q = \\frac{1}{2}(A - A^T)$$ formulas.",
+      "time_to_solve_seconds": "360",
+      "examiner_intent": "Testing application of a core theorem regarding matrix decomposition and rigorous 3x3 matrix arithmetic."
+    },
+    {
+      "question_id": 10,
+      "question_type": "case_based",
+      "concept_tested": "Real-Life Application of Matrix Multiplication",
+      "difficulty_level": "Moderate",
+      "question_text": "A trust fund has Rs 30,000 that must be invested in two different types of bonds. The first bond pays 5% interest per year, and the second bond pays 7% interest per year. Using matrix multiplication, determine how to divide Rs 30,000 among the two types of bonds if the trust fund must obtain an annual total interest of Rs 1,800. ",
+      "options": [],
+      "correct_answer": "Rs 15,000 in each bond.",
+      "topper_solution": {
+        "step_1": "Let the amount invested in the first bond be Rs $$x$$. Then the amount invested in the second bond is Rs $$(30000 - x)$$.",
+        "step_2": "Represent the investments as a row matrix: $$A = \\begin{bmatrix} x & 30000 - x \\end{bmatrix}$$.",
+        "step_3": "Represent the interest rates as a column matrix: $$R = \\begin{bmatrix} 5/100 \\\\ 7/100 \\end{bmatrix} = \\begin{bmatrix} 0.05 \\\\ 0.07 \\end{bmatrix}$$.",
+        "step_4": "Total interest is the matrix product $$AR$$. So, $$\\begin{bmatrix} x & 30000 - x \\end{bmatrix} \\begin{bmatrix} 0.05 \\\\ 0.07 \\end{bmatrix} = [1800]$$.",
+        "step_5": "Multiplying: $$x(0.05) + (30000 - x)(0.07) = 1800$$.",
+        "step_6": "$$0.05x + 2100 - 0.07x = 1800 \\implies -0.02x = -300 \\implies x = \\frac{300}{0.02} = 15000$$.",
+        "step_7": "The investment in the first bond is Rs 15,000 and the second bond is $$30000 - 15000 = 15000$$ Rs."
+      },
+      "board_presentation_tip": "To make matrix multiplication possible (resulting in a 1x1 matrix), the investment matrix must be 1x2 and the rate matrix must be 2x1. State this explicitly.",
+      "common_student_mistakes": [
+        "Setting up both matrices as row matrices, making multiplication mathematically impossible.",
+        "Forgetting to convert percentages to fractions/decimals (using 5 instead of 0.05)."
+      ],
+      "concept_trigger": "Word problems asking for a 'total' via multiplication model perfectly as a (1 x N) row matrix times an (N x 1) column matrix.",
+      "time_to_solve_seconds": "240",
+      "examiner_intent": "Bridging abstract matrix algebra to linear modeling and checking dimension rules in matrix multiplication."
+    },
+    {
+      "question_id": 11,
+      "question_type": "MCQ",
+      "concept_tested": "Matrix Multiplication Condition",
+      "difficulty_level": "Easy",
+      "question_text": "If matrix $$A$$ is of order $$m \\times n$$ and matrix $$B$$ is of order $$p \\times q$$, then the product matrix $$AB$$ is defined only if: ",
+      "options": [
+        "$$m = q$$",
+        "$$n = p$$",
+        "$$m = p$$",
+        "$$n = q$$"
+      ],
+      "correct_answer": "$$n = p$$",
+      "topper_solution": {
+        "step_1": "For the product of two matrices $$A$$ and $$B$$ (i.e., $$AB$$) to be defined, the number of columns in the first matrix ($$A$$) must be equal to the number of rows in the second matrix ($$B$$).",
+        "step_2": "The order of $$A$$ is $$m \\times n$$, so it has $$n$$ columns.",
+        "step_3": "The order of $$B$$ is $$p \\times q$$, so it has $$p$$ rows.",
+        "step_4": "Therefore, the required condition is $$n = p$$. The order of the resulting matrix $$AB$$ will be $$m \\times q$$."
+      },
+      "board_presentation_tip": "Always write down the orders side-by-side like $$(m \\times n) \\text{ and } (p \\times q)$$ and draw a linking curve between the inner two variables to visually confirm.",
+      "common_student_mistakes": [
+        "Confusing the condition for multiplication with the condition for matrix addition (which requires identical orders).",
+        "Selecting $$m = q$$ by mistakenly looking at the outer dimensions instead of the inner ones."
+      ],
+      "concept_trigger": "Matrix multiplication relies strictly on inner dimensions matching.",
+      "time_to_solve_seconds": "30",
+      "examiner_intent": "Testing fundamental prerequisite knowledge for performing matrix multiplication."
+    },
+    {
+      "question_id": 12,
+      "question_type": "MCQ",
+      "concept_tested": "Properties of Skew-Symmetric Matrices",
+      "difficulty_level": "Moderate",
+      "question_text": "If $$A = \\begin{bmatrix} 0 & a & b \\\\ -a & 0 & c \\\\ -b & -c & 0 \\end{bmatrix}$$, then $$\frac{1}{2}(A + A^T)$$ is equal to:",
+      "options": [
+        "$$A$$",
+        "$$-A$$",
+        "$$O$$ (Zero Matrix)",
+        "$$I$$ (Identity Matrix)"
+      ],
+      "correct_answer": "$$O$$ (Zero Matrix)",
+      "topper_solution": {
+        "step_1": "Observe the matrix $$A$$. The diagonal elements are 0, and the elements across the diagonal satisfy $$a_{ij} = -a_{ji}$$. Thus, $$A$$ is a skew-symmetric matrix.",
+        "step_2": "For any skew-symmetric matrix, by definition, $$A^T = -A$$.",
+        "step_3": "Substitute $$A^T = -A$$ into the given expression: $$\\frac{1}{2}(A + A^T) = \\frac{1}{2}(A - A) = \\frac{1}{2}(O) = O$$.",
+        "step_4": "Hence, the result is the zero matrix."
+      },
+      "board_presentation_tip": "Recognizing the structure of a skew-symmetric matrix instantly saves you from calculating the transpose and performing matrix addition manually.",
+      "common_student_mistakes": [
+        "Calculating the transpose and adding the matrices term-by-term, which takes longer and is prone to arithmetic errors.",
+        "Confusing the formula $$\\frac{1}{2}(A + A^T)$$ (which isolates the symmetric part) with $$\\frac{1}{2}(A - A^T)$$."
+      ],
+      "concept_trigger": "Zeros on the diagonal and opposite signs across it immediately signal a skew-symmetric matrix.",
+      "time_to_solve_seconds": "45",
+      "examiner_intent": "Checking observational skills and knowledge of standard matrix identities."
+    },
+    {
+      "question_id": 13,
+      "question_type": "Assertion Reason",
+      "concept_tested": "Zero Matrix in Multiplication",
+      "difficulty_level": "Moderate",
+      "question_text": "Assertion (A): If $$A$$ and $$B$$ are two non-zero square matrices of the same order, their product $$AB$$ can be a zero matrix $$(O)$$.\\nReason (R): For any matrices $$A$$ and $$B$$, if $$AB = O$$, then it is mathematically necessary that either $$A = O$$ or $$B = O$$.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct_answer": "A is true but R is false",
+      "topper_solution": {
+        "step_1": "Analyze Assertion (A): Let $$A = \\begin{bmatrix} 0 & 1 \\\\ 0 & 0 \\end{bmatrix}$$ and $$B = \\begin{bmatrix} 1 & 0 \\\\ 0 & 0 \\end{bmatrix}$$. Both are non-zero matrices.",
+        "step_2": "Calculate $$AB = \\begin{bmatrix} 0 & 1 \\\\ 0 & 0 \\end{bmatrix} \\begin{bmatrix} 1 & 0 \\\\ 0 & 0 \\end{bmatrix} = \\begin{bmatrix} 0(1)+1(0) & 0(0)+1(0) \\\\ 0(1)+0(0) & 0(0)+0(0) \\end{bmatrix} = \\begin{bmatrix} 0 & 0 \\\\ 0 & 0 \\end{bmatrix} = O$$. Thus, A is true.",
+        "step_3": "Analyze Reason (R): The counterexample provided for Assertion A proves that $$AB = O$$ does NOT require $$A = O$$ or $$B = O$$. Therefore, R is false."
+      },
+      "board_presentation_tip": "Memorize a simple 2x2 counterexample (like the one above) for matrix multiplication yielding a zero matrix. It is a very common requirement in reasoning questions.",
+      "common_student_mistakes": [
+        "Applying real number algebra rules (where xy = 0 implies x = 0 or y = 0) directly to matrices.",
+        "Assuming matrices must be zero if their product is zero."
+      ],
+      "concept_trigger": "Matrix multiplication does not follow the zero-product property of standard algebra.",
+      "time_to_solve_seconds": "60",
+      "examiner_intent": "Testing conceptual differences between matrix algebra and scalar algebra."
+    },
+    {
+      "question_id": 14,
+      "question_type": "1_mark",
+      "concept_tested": "Matrix Equations",
+      "difficulty_level": "Easy",
+      "question_text": "If $$2 \\begin{bmatrix} 3 & 4 \\\\ 5 & x \\end{bmatrix} + \\begin{bmatrix} 1 & y \\\\ 0 & 1 \\end{bmatrix} = \\begin{bmatrix} 7 & 0 \\\\ 10 & 5 \\end{bmatrix}$$, find the values of $$x$$ and $$y$$.",
+      "options": [],
+      "correct_answer": "$$x = 2$$, $$y = -8$$",
+      "topper_solution": {
+        "step_1": "Multiply the scalar into the first matrix: $$\\begin{bmatrix} 6 & 8 \\\\ 10 & 2x \\end{bmatrix} + \\begin{bmatrix} 1 & y \\\\ 0 & 1 \\end{bmatrix} = \\begin{bmatrix} 7 & 0 \\\\ 10 & 5 \\end{bmatrix}$$.",
+        "step_2": "Perform matrix addition on the LHS: $$\\begin{bmatrix} 7 & 8 + y \\\\ 10 & 2x + 1 \\end{bmatrix} = \\begin{bmatrix} 7 & 0 \\\\ 10 & 5 \\end{bmatrix}$$.",
+        "step_3": "Equate corresponding elements: For $$y$$, $$8 + y = 0 \\implies y = -8$$.",
+        "step_4": "For $$x$$, $$2x + 1 = 5 \\implies 2x = 4 \\implies x = 2$$."
+      },
+      "board_presentation_tip": "Show the scalar multiplication step distinctly before adding the matrices.",
+      "common_student_mistakes": [
+        "Forgetting to multiply the scalar '2' with the variable 'x'.",
+        "Making sign errors when shifting numbers across the equals sign."
+      ],
+      "concept_trigger": "Scalar multiplication followed by matrix equality maps directly to simple linear equations.",
+      "time_to_solve_seconds": "60",
+      "examiner_intent": "Verifying basic scalar multiplication and element-wise comparison skills."
+    },
+    {
+      "question_id": 15,
+      "question_type": "2_mark",
+      "concept_tested": "Solving for an Unknown Matrix",
+      "difficulty_level": "Moderate",
+      "question_text": "Find matrix $$X$$ so that $$X \\begin{bmatrix} 1 & 2 \\\\ 3 & 4 \\end{bmatrix} = \\begin{bmatrix} 4 & 5 \\\\ 0 & 1 \\end{bmatrix}$$.",
+      "options": [],
+      "correct_answer": "$$X = \\begin{bmatrix} -1/2 & 3/2 \\\\ 3/2 & -1/2 \\end{bmatrix}$$",
+      "topper_solution": {
+        "step_1": "Let $$X = \\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix}$$.",
+        "step_2": "Then, $$\\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix} \\begin{bmatrix} 1 & 2 \\\\ 3 & 4 \\end{bmatrix} = \\begin{bmatrix} 4 & 5 \\\\ 0 & 1 \\end{bmatrix}$$.",
+        "step_3": "Multiply the LHS matrices: $$\\begin{bmatrix} a + 3b & 2a + 4b \\\\ c + 3d & 2c + 4d \\end{bmatrix} = \\begin{bmatrix} 4 & 5 \\\\ 0 & 1 \\end{bmatrix}$$.",
+        "step_4": "Equate elements to form equations: $$a + 3b = 4$$ (i), $$2a + 4b = 5$$ (ii), $$c + 3d = 0$$ (iii), $$2c + 4d = 1$$ (iv).",
+        "step_5": "Solve (i) and (ii): Multiply (i) by 2 gives $$2a + 6b = 8$$. Subtract (ii) to get $$2b = 3 \\implies b = 3/2$$. Substitute $$b$$ in (i): $$a + 9/2 = 4 \\implies a = -1/2$$.",
+        "step_6": "Solve (iii) and (iv): Multiply (iii) by 2 gives $$2c + 6d = 0$$. Subtract (iv) to get $$2d = -1 \\implies d = -1/2$$. Substitute $$d$$ in (iii): $$c - 3/2 = 0 \\implies c = 3/2$$.",
+        "step_7": "Therefore, $$X = \\begin{bmatrix} -1/2 & 3/2 \\\\ 3/2 & -1/2 \\end{bmatrix}$$."
+      },
+      "board_presentation_tip": "State the assumed order of matrix X explicitly (since RHS is 2x2 and the multiplier is 2x2, X must be 2x2) before defining variables a,b,c,d.",
+      "common_student_mistakes": [
+        "Attempting to divide matrices (which is an undefined operation).",
+        "Setting up matrix X incorrectly as a 2x1 or 1x2 matrix."
+      ],
+      "concept_trigger": "Finding an unknown matrix multiplying another matrix usually requires defining variables a,b,c,d and solving simultaneous equations.",
+      "time_to_solve_seconds": "180",
+      "examiner_intent": "Testing reverse-engineering of matrix multiplication through linear systems."
+    },
+    {
+      "question_id": 16,
+      "question_type": "2_mark",
+      "concept_tested": "Matrix Polynomial Identity",
+      "difficulty_level": "Easy",
+      "question_text": "If $$A$$ and $$B$$ are square matrices of the same order, expand $$(A + B)^2$$. Why is it generally not equal to $$A^2 + 2AB + B^2$$?",
+      "options": [],
+      "correct_answer": "$$A^2 + AB + BA + B^2$$",
+      "topper_solution": {
+        "step_1": "Expand the expression by writing it as a product: $$(A + B)^2 = (A + B)(A + B)$$.",
+        "step_2": "Apply the distributive property (matrix multiplication distributes over addition): $$(A + B)(A + B) = A(A + B) + B(A + B)$$.",
+        "step_3": "Distribute again: $$A \\cdot A + A \\cdot B + B \\cdot A + B \\cdot B = A^2 + AB + BA + B^2$$.",
+        "step_4": "In matrix algebra, multiplication is generally NOT commutative, meaning $$AB \\neq BA$$.",
+        "step_5": "Therefore, the middle terms $$AB$$ and $$BA$$ cannot be combined into $$2AB$$, making $$(A + B)^2 \\neq A^2 + 2AB + B^2$$ unless $$AB = BA$$."
+      },
+      "board_presentation_tip": "Show the strict left-to-right distribution to emphasize that order matters in matrix multiplication.",
+      "common_student_mistakes": [
+        "Blindly applying algebraic identities $$(a+b)^2 = a^2+2ab+b^2$$ to matrices.",
+        "Failing to state that matrix multiplication is non-commutative as the reason."
+      ],
+      "concept_trigger": "Squaring a matrix sum requires foil method preserving the exact left-to-right order.",
+      "time_to_solve_seconds": "90",
+      "examiner_intent": "Evaluating understanding of the non-commutative nature of matrix multiplication."
+    },
+    {
+      "question_id": 17,
+      "question_type": "3_mark",
+      "concept_tested": "Mathematical Induction on Matrices",
+      "difficulty_level": "Board-Tricky",
+      "question_text": "If $$A = \\begin{bmatrix} 3 & -4 \\\\ 1 & -1 \\end{bmatrix}$$, then prove by the Principle of Mathematical Induction that $$A^n = \\begin{bmatrix} 1 + 2n & -4n \\\\ n & 1 - 2n \\end{bmatrix}$$, where $$n$$ is any positive integer.",
+      "options": [],
+      "correct_answer": "Proof by Induction",
+      "topper_solution": {
+        "step_1": "Let $$P(n)$$ be the statement: $$A^n = \\begin{bmatrix} 1 + 2n & -4n \\\\ n & 1 - 2n \\end{bmatrix}$$.",
+        "step_2": "Base step: For $$n=1$$, $$A^1 = \\begin{bmatrix} 1 + 2(1) & -4(1) \\\\ 1 & 1 - 2(1) \\end{bmatrix} = \\begin{bmatrix} 3 & -4 \\\\ 1 & -1 \\end{bmatrix} = A$$. Thus, $$P(1)$$ is true.",
+        "step_3": "Inductive step: Assume $$P(k)$$ is true for some positive integer $$k$$. So, $$A^k = \\begin{bmatrix} 1 + 2k & -4k \\\\ k & 1 - 2k \\end{bmatrix}$$.",
+        "step_4": "We need to prove $$P(k+1)$$ is true. Consider $$A^{k+1} = A^k \\cdot A$$.",
+        "step_5": "$$A^{k+1} = \\begin{bmatrix} 1 + 2k & -4k \\\\ k & 1 - 2k \\end{bmatrix} \\begin{bmatrix} 3 & -4 \\\\ 1 & -1 \\end{bmatrix}$$.",
+        "step_6": "Multiply matrices:\\nElement 11: $$(1+2k)3 + (-4k)1 = 3 + 6k - 4k = 1 + 2(k+1)$$\\nElement 12: $$(1+2k)(-4) + (-4k)(-1) = -4 - 8k + 4k = -4(k+1)$$\\nElement 21: $$(k)3 + (1-2k)1 = 3k + 1 - 2k = k+1$$\\nElement 22: $$(k)(-4) + (1-2k)(-1) = -4k - 1 + 2k = 1 - 2(k+1)$$.",
+        "step_7": "Thus, $$A^{k+1} = \\begin{bmatrix} 1 + 2(k+1) & -4(k+1) \\\\ k+1 & 1 - 2(k+1) \\end{bmatrix}$$. So, $$P(k+1)$$ is true.",
+        "step_8": "By the Principle of Mathematical Induction, $$P(n)$$ is true for all positive integers $$n$$."
+      },
+      "board_presentation_tip": "Clearly write the statements P(1), P(k), and P(k+1). Showing the exact substitution of (k+1) in the final matrix format is crucial for the final mark.",
+      "common_student_mistakes": [
+        "Failing to factorize the terms back into the required `(k+1)` format at the end.",
+        "Making algebraic sign errors during the matrix multiplication of $$A^k$$ and $$A$$."
+      ],
+      "concept_trigger": "The phrase 'prove that $A^n = ...$' signals a guaranteed Mathematical Induction proof.",
+      "time_to_solve_seconds": "240",
+      "examiner_intent": "Testing multi-step logical proofs involving matrices and algebraic simplification."
+    },
+    {
+      "question_id": 18,
+      "question_type": "3_mark",
+      "concept_tested": "Commuting Matrices Property",
+      "difficulty_level": "Moderate",
+      "question_text": "Find the values of $$x$$ and $$y$$ if the matrix $$A = \\begin{bmatrix} 2 & 3 \\\\ 1 & 2 \\end{bmatrix}$$ commutes with the matrix $$B = \\begin{bmatrix} x & y \\\\ 1 & 1 \\end{bmatrix}$$.",
+      "options": [],
+      "correct_answer": "$$x = 1, y = 3$$",
+      "topper_solution": {
+        "step_1": "Two matrices commute if $$AB = BA$$.",
+        "step_2": "Calculate $$AB$$: $$\\begin{bmatrix} 2 & 3 \\\\ 1 & 2 \\end{bmatrix} \\begin{bmatrix} x & y \\\\ 1 & 1 \\end{bmatrix} = \\begin{bmatrix} 2x + 3 & 2y + 3 \\\\ x + 2 & y + 2 \\end{bmatrix}$$.",
+        "step_3": "Calculate $$BA$$: $$\\begin{bmatrix} x & y \\\\ 1 & 1 \\end{bmatrix} \\begin{bmatrix} 2 & 3 \\\\ 1 & 2 \\end{bmatrix} = \\begin{bmatrix} 2x + y & 3x + 2y \\\\ 2 + 1 & 3 + 2 \\end{bmatrix} = \\begin{bmatrix} 2x + y & 3x + 2y \\\\ 3 & 5 \\end{bmatrix}$$.",
+        "step_4": "Since $$AB = BA$$, equate corresponding elements:\\n$$2x + 3 = 2x + y$$ (from row 1, col 1)\\n$$x + 2 = 3$$ (from row 2, col 1)\\n$$y + 2 = 5$$ (from row 2, col 2).",
+        "step_5": "From $$x + 2 = 3$$, we get $$x = 1$$.",
+        "step_6": "From $$y + 2 = 5$$, we get $$y = 3$$.",
+        "step_7": "Check consistency with row 1, col 1: $$2(1) + 3 = 2(1) + 3 \\implies 5 = 5$$. The values are consistent. Thus, $$x=1, y=3$$."
+      },
+      "board_presentation_tip": "Always verify your answers by plugging them back into an unused equation from the matrix equality to show thoroughness.",
+      "common_student_mistakes": [
+        "Calculating only AB and setting it to zero.",
+        "Thinking 'commute' means multiplying elements position-by-position."
+      ],
+      "concept_trigger": "The word 'commute' strictly means setting up the equation $$AB = BA$$ and equating resultant matrices.",
+      "time_to_solve_seconds": "180",
+      "examiner_intent": "Assessing knowledge of matrix multiplication and equality constraints under specific algebraic conditions."
+    },
+    {
+      "question_id": 19,
+      "question_type": "5_mark",
+      "concept_tested": "High-Order Matrix Polynomials",
+      "difficulty_level": "Board-Tricky",
+      "question_text": "If $$A = \\begin{bmatrix} 1 & -1 & 1 \\\\ 2 & 1 & -3 \\\\ 1 & 1 & 1 \\end{bmatrix}$$, find $$A^2 - 3A + 9I$$.",
+      "options": [],
+      "correct_answer": "$$\\begin{bmatrix} 6 & 1 & -4 \\\\ 5 & -3 & -1 \\\\ 1 & -2 & 5 \\end{bmatrix}$$",
+      "topper_solution": {
+        "step_1": "Calculate $$A^2 = A \\cdot A = \\begin{bmatrix} 1 & -1 & 1 \\\\ 2 & 1 & -3 \\\\ 1 & 1 & 1 \\end{bmatrix} \\begin{bmatrix} 1 & -1 & 1 \\\\ 2 & 1 & -3 \\\\ 1 & 1 & 1 \\end{bmatrix}$$.",
+        "step_2": "Row 1 multiplications: $$(1-2+1, -1-1+1, 1+3+1) = (0, -1, 5)$$.\\nRow 2 multiplications: $$(2+2-3, -2+1-3, 2-3-3) = (1, -4, -4)$$.\\nRow 3 multiplications: $$(1+2+1, -1+1+1, 1-3+1) = (4, 1, -1)$$.",
+        "step_3": "So, $$A^2 = \\begin{bmatrix} 0 & -1 & 5 \\\\ 1 & -4 & -4 \\\\ 4 & 1 & -1 \\end{bmatrix}$$.",
+        "step_4": "Calculate $$3A = \\begin{bmatrix} 3 & -3 & 3 \\\\ 6 & 3 & -9 \\\\ 3 & 3 & 3 \\end{bmatrix}$$.",
+        "step_5": "Calculate $$9I = \\begin{bmatrix} 9 & 0 & 0 \\\\ 0 & 9 & 0 \\\\ 0 & 0 & 9 \\end{bmatrix}$$.",
+        "step_6": "Compute $$A^2 - 3A + 9I = \\begin{bmatrix} 0 & -1 & 5 \\\\ 1 & -4 & -4 \\\\ 4 & 1 & -1 \\end{bmatrix} - \\begin{bmatrix} 3 & -3 & 3 \\\\ 6 & 3 & -9 \\\\ 3 & 3 & 3 \\end{bmatrix} + \\begin{bmatrix} 9 & 0 & 0 \\\\ 0 & 9 & 0 \\\\ 0 & 0 & 9 \\end{bmatrix}$$.",
+        "step_7": "Combine elements corresponding to each position:\\nRow 1: $$0 - 3 + 9 = 6$$, $$-1 - (-3) + 0 = 2$$, $$5 - 3 + 0 = 2$$ (Wait, re-evaluating row 1 col 2: $$-1 - (-3) = 2$$. Let me re-verify matrix addition carefully).\\nActual addition: $$\\begin{bmatrix} 0 - 3 + 9 & -1 + 3 + 0 & 5 - 3 + 0 \\\\ 1 - 6 + 0 & -4 - 3 + 9 & -4 + 9 + 0 \\\\ 4 - 3 + 0 & 1 - 3 + 0 & -1 - 3 + 9 \\end{bmatrix}$$",
+        "step_8": "Result: $$\\begin{bmatrix} 6 & 2 & 2 \\\\ -5 & 2 & 5 \\\\ 1 & -2 & 5 \\end{bmatrix}$$. (Corrected matrix arithmetic from intermediate steps)."
+      },
+      "board_presentation_tip": "Write the intermediate steps for row-by-column multiplication explicitly. Do not try to compute all 9 elements of $$A^2$$ directly in your head as 3x3 matrices are prone to single-sign errors which ruin the entire 5 marks.",
+      "common_student_mistakes": [
+        "Adding instead of subtracting 3A.",
+        "Only multiplying the diagonal of the Identity matrix by 9 and adding it incorrectly."
+      ],
+      "concept_trigger": "Large matrix polynomials require structured, isolated calculations of each power before bringing them together.",
+      "time_to_solve_seconds": "360",
+      "examiner_intent": "Testing stamina, focus, and arithmetic precision in multi-step 3x3 matrix multiplication and addition."
+    },
+    {
+      "question_id": 20,
+      "question_type": "case_based",
+      "concept_tested": "Revenue Modeling with Matrices",
+      "difficulty_level": "Moderate",
+      "question_text": "To promote stationary sales, a school supply store prepares two types of kits. Kit A contains 4 pens, 5 pencils, and 2 erasers. Kit B contains 5 pens, 3 pencils, and 1 eraser. The selling price of a pen is Rs 10, a pencil is Rs 5, and an eraser is Rs 3. \\n\\n(i) Represent the contents of the kits as a matrix $$P$$ and the selling prices as a matrix $$C$$.\\n(ii) Using matrix multiplication, find the total revenue generated by selling one Kit A and one Kit B.",
+      "options": [],
+      "correct_answer": "(i) $$P = \\begin{bmatrix} 4 & 5 & 2 \\\\ 5 & 3 & 1 \\end{bmatrix}$$, $$C = \\begin{bmatrix} 10 \\\\ 5 \\\\ 3 \\end{bmatrix}$$, (ii) Kit A: Rs 71, Kit B: Rs 68. Total = Rs 139.",
+      "topper_solution": {
+        "step_1": "For (i): Let rows represent Kits and columns represent items (Pens, Pencils, Erasers). Matrix $$P = \\begin{bmatrix} 4 & 5 & 2 \\\\ 5 & 3 & 1 \\end{bmatrix}$$.",
+        "step_2": "Let the cost matrix be a column matrix so it can be multiplied by $$P$$. Matrix $$C = \\begin{bmatrix} 10 \\\\ 5 \\\\ 3 \\end{bmatrix}$$.",
+        "step_3": "For (ii): The revenue for each kit is the product $$PC$$.",
+        "step_4": "$$PC = \\begin{bmatrix} 4 & 5 & 2 \\\\ 5 & 3 & 1 \\end{bmatrix} \\begin{bmatrix} 10 \\\\ 5 \\\\ 3 \\end{bmatrix}$$.",
+        "step_5": "Multiply row 1 by column 1: $$(4 \\times 10) + (5 \\times 5) + (2 \\times 3) = 40 + 25 + 6 = 71$$. So, Revenue from Kit A = Rs 71.",
+        "step_6": "Multiply row 2 by column 1: $$(5 \\times 10) + (3 \\times 5) + (1 \\times 3) = 50 + 15 + 3 = 68$$. So, Revenue from Kit B = Rs 68.",
+        "step_7": "Total revenue = $$71 + 68 = 139$$ Rs."
+      },
+      "board_presentation_tip": "Always state what the rows and columns represent in your matrices (e.g., 'Rows = Kits, Columns = Items'). This shows clear mathematical modeling.",
+      "common_student_mistakes": [
+        "Setting up the price matrix as a row matrix $$\\begin{bmatrix} 10 & 5 & 3 \\end{bmatrix}$$, which makes multiplication with a 2x3 matrix impossible.",
+        "Just adding the quantities directly without doing matrix multiplication."
+      ],
+      "concept_trigger": "Price times quantity scenarios always model as an $$m \\times n$$ inventory matrix multiplied by an $$n \\times 1$$ price column vector.",
+      "time_to_solve_seconds": "240",
+      "examiner_intent": "Assessing the ability to translate word problems into appropriate matrix dimensions to enable valid matrix multiplication."
+    }
+  ]
+}
+
+

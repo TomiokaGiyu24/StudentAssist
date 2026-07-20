@@ -1,0 +1,438 @@
+{
+  "meta": {
+    "subject": "Physical Education",
+    "class": 12,
+    "board": "CBSE",
+    "chapter": "Test and Measurement in Sports",
+    "total_questions": 20
+  },
+  "questions": [
+    {
+      "id": "CH6_MCQ_01",
+      "type": "mcq",
+      "marks": 1,
+      "priority": "P1",
+      "priority_reason": "Identifying the purpose of specific tests from the Rikli & Jones battery is a repeatedly asked concept.",
+      "question": "Which of the following tests is used to measure 'Upper Body Flexibility' in senior citizens?",
+      "options": {
+        "A": "Chair Sit and Reach Test",
+        "B": "Back Scratch Test",
+        "C": "Arm Curl Test",
+        "D": "Eight Foot Up and Go Test"
+      },
+      "correct_option": "B",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "The Back Scratch Test is specifically designed to assess the flexibility of the upper body (shoulder joints) in senior citizens.",
+        "key_points": [],
+        "final_answer": "Back Scratch Test"
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "CH6_MCQ_02",
+      "type": "mcq",
+      "marks": 1,
+      "priority": "P1",
+      "priority_reason": "Harvard Step Test calculation is a core numerical concept in this chapter.",
+      "question": "In the Harvard Step Test, if the duration of exercise is measured in seconds and the pulse count is taken for 1 to 1.5 minutes after exercise, which formula determines the Fitness Index Score?",
+      "options": {
+        "A": "\\frac{\\text{Duration in seconds} \\times 100}{2 \\times \\text{Pulse count}}",
+        "B": "\\frac{\\text{Duration in seconds} \\times 100}{5.5 \\times \\text{Pulse count}}",
+        "C": "\\frac{\\text{Duration in minutes} \\times 100}{5.5 \\times \\text{Pulse count}}",
+        "D": "\\frac{\\text{Duration in seconds} \\times 100}{2 \\times 5.5}"
+      },
+      "correct_option": "B",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "The formula for the Fitness Index (short form) is (Duration of Exercise in Seconds x 100) / (5.5 x Pulse count of 1-1.5 min after Exercise).",
+        "key_points": [],
+        "final_answer": "\\frac{\\text{Duration in seconds} \\times 100}{5.5 \\times \\text{Pulse count}}"
+      },
+      "source_basis": "Reference Notes"
+    },
+    {
+      "id": "CH6_MCQ_03",
+      "type": "mcq",
+      "marks": 1,
+      "priority": "P2",
+      "priority_reason": "Matching tests to the physical component they measure is a standard question format.",
+      "question": "Which component of physical fitness is measured by the '600 Meter Run/Walk'?",
+      "options": {
+        "A": "Speed",
+        "B": "Power",
+        "C": "Cardiovascular Endurance",
+        "D": "Agility"
+      },
+      "correct_option": "C",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "The 600 Meter Run/Walk is designed to measure Cardiovascular Fitness or Cardiovascular Endurance.",
+        "key_points": [],
+        "final_answer": "Cardiovascular Endurance"
+      },
+      "source_basis": "Reference Notes"
+    },
+    {
+      "id": "CH6_MCQ_04",
+      "type": "mcq",
+      "marks": 1,
+      "priority": "P2",
+      "priority_reason": "Specifics of the Barrow Three Item Test are often tested.",
+      "question": "Which of the following is NOT a part of the Barrow Three Item General Motor Ability Test?",
+      "options": {
+        "A": "Standing Broad Jump",
+        "B": "Zig Zag Run",
+        "C": "Medicine Ball Put",
+        "D": "50 Meter Dash"
+      },
+      "correct_option": "D",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "The Barrow Three Item General Motor Ability Test consists of Standing Broad Jump, Zig Zag Run, and Medicine Ball Put. The 50 Meter Dash is not part of this specific battery.",
+        "key_points": [],
+        "final_answer": "50 Meter Dash"
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "CH6_MCQ_05",
+      "type": "mcq",
+      "marks": 1,
+      "priority": "P3",
+      "priority_reason": "Equipment specification details prevent surprise mark loss.",
+      "question": "In the Medicine Ball Put test for girls, what is the weight of the medicine ball?",
+      "options": {
+        "A": "1 kg",
+        "B": "2 kg",
+        "C": "3 kg",
+        "D": "4 kg"
+      },
+      "correct_option": "A",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "For the Barrow Three Item Test, the Medicine Ball Put weight is 03 Kg for boys and 01 Kg for girls.",
+        "key_points": [],
+        "final_answer": "1 kg"
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "CH6_AR_01",
+      "type": "assertion_reason",
+      "marks": 1,
+      "priority": "P1",
+      "priority_reason": "Understanding the rationale behind Senior Citizen tests is crucial.",
+      "question": "Given below are two statements:\n\nAssertion (A): The Six Minute Walk Test is designed to assess the aerobic fitness of senior citizens.\nReason (R): Aerobic fitness is essential for older adults to perform daily activities like walking distances, shopping, and sightseeing without fatigue.",
+      "options": {
+        "A": "Both (A) and (R) are true and (R) is the correct explanation of (A).",
+        "B": "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "C": "(A) is true, but (R) is false.",
+        "D": "(A) is false, but (R) is true."
+      },
+      "correct_option": "A",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "The Six Minute Walk Test specifically measures aerobic endurance, which is directly linked to the ability to perform sustained physical activities in daily life (Reason explains the function of the test in Assertion).",
+        "key_points": [],
+        "final_answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "CH6_AR_02",
+      "type": "assertion_reason",
+      "marks": 1,
+      "priority": "P2",
+      "priority_reason": "Differentiating between types of flexibility tests.",
+      "question": "Given below are two statements:\n\nAssertion (A): The Sit and Reach test is conducted to measure the flexibility of the lower back and hamstring muscles.\nReason (R): This test requires a box with specific dimensions where the subject reaches forward while keeping knees locked.",
+      "options": {
+        "A": "Both (A) and (R) are true and (R) is the correct explanation of (A).",
+        "B": "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "C": "(A) is true, but (R) is false.",
+        "D": "(A) is false, but (R) is true."
+      },
+      "correct_option": "B",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "Both statements are factually correct. Assertion defines the purpose, and Reason defines the procedure. However, the procedure (Reason) is not the *cause* of the test's purpose (Assertion); it is the method. Thus, B is appropriate.",
+        "key_points": [],
+        "final_answer": "Both (A) and (R) are true, but (R) is not the correct explanation of (A)."
+      },
+      "source_basis": "Reference Notes"
+    },
+    {
+      "id": "CH6_VSA_01",
+      "type": "very_short",
+      "marks": 2,
+      "priority": "P1",
+      "priority_reason": "Basic definition of a core test.",
+      "question": "What is the main objective of the 'Partial Curl Up' test?",
+      "options": null,
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Measures abdominal muscular strength.",
+          "Measures endurance."
+        ],
+        "final_answer": "The main objective of the **Partial Curl Up** test is to measure **abdominal muscular strength and endurance** and core stability."
+      },
+      "source_basis": "Reference Notes"
+    },
+    {
+      "id": "CH6_VSA_02",
+      "type": "very_short",
+      "marks": 2,
+      "priority": "P1",
+      "priority_reason": "Matching items is a common VSA format in PYQs.",
+      "question": "Match the following tests with the components they measure:\n1. Plate Tapping Test\n2. Push-Ups (Boys)\n(A) Upper body strength endurance\n(B) Speed and limb coordination",
+      "options": null,
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Plate Tapping -> Speed/Coordination",
+          "Push-Ups -> Upper body strength"
+        ],
+        "final_answer": "1. **Plate Tapping Test** matches with **(B) Speed and limb coordination**.\n2. **Push-Ups (Boys)** matches with **(A) Upper body strength endurance**."
+      },
+      "source_basis": "Reference Notes"
+    },
+    {
+      "id": "CH6_VSA_03",
+      "type": "very_short",
+      "marks": 2,
+      "priority": "P2",
+      "priority_reason": "Specific calculation details for Harvard Step Test.",
+      "question": "What is the height of the bench used in the Harvard Step Test for boys?",
+      "options": null,
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Standard height requirement."
+        ],
+        "final_answer": "The height of the bench used in the Harvard Step Test is **20 inches (50.8 cm)**."
+      },
+      "source_basis": "Reference Notes"
+    },
+    {
+      "id": "CH6_SA_01",
+      "type": "short",
+      "marks": 3,
+      "priority": "P1",
+      "priority_reason": "Rikli & Jones test battery is a guaranteed topic for 3 or 5 marks.",
+      "question": "Explain the procedure and purpose of the 'Chair Stand Test' for senior citizens.",
+      "options": null,
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Purpose: Lower body strength.",
+          "Equipment: Chair without arms.",
+          "Procedure: Sit to stand reps in 30 secs."
+        ],
+        "final_answer": "**Purpose:** The Chair Stand Test is designed to measure **lower body strength**, which is critical for daily activities like climbing stairs or getting out of a chair.\n\n**Procedure:**\n1.  Place a chair against a wall to prevent slipping.\n2.  The participant sits in the middle of the chair with feet flat on the floor and arms crossed at the wrists against the chest.\n3.  On the signal 'Go', the participant rises to a full standing position and then returns to a fully seated position.\n4.  **Scoring:** The score is the total number of complete stands executed in **30 seconds**."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "CH6_SA_02",
+      "type": "short",
+      "marks": 3,
+      "priority": "P1",
+      "priority_reason": "Harvard Step Test calculation and rating is highly probable.",
+      "question": "Calculate the Fitness Index Score for a student who performed the Harvard Step Test for 5 minutes (300 seconds) and had a pulse count of 80 beats (for 1-1.5 min). Also, categorize the fitness level.",
+      "options": null,
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Formula Application.",
+          "Calculation.",
+          "Categorization based on norms."
+        ],
+        "final_answer": "**Given:**\n* Duration of Exercise = 300 seconds\n* Pulse Count = 80\n\n**Formula:**\n$$ \\text{Fitness Index} = \\frac{\\text{Duration in seconds} \\times 100}{5.5 \\times \\text{Pulse Count}} $$\n\n**Calculation:**\n$$ \\text{Fitness Index} = \\frac{300 \\times 100}{5.5 \\times 80} $$\n$$ \\text{Fitness Index} = \\frac{30000}{440} $$\n$$ \\text{Fitness Index} = 68.18 $$\n\n**Category:**\nA score between 50-80 is considered **Average**. Thus, the student has an Average fitness level."
+      },
+      "source_basis": "Reference Notes"
+    },
+    {
+      "id": "CH6_SA_03",
+      "type": "short",
+      "marks": 3,
+      "priority": "P2",
+      "priority_reason": "Flexibility tests are common practical-based questions.",
+      "question": "Describe the procedure for the 'Sit and Reach Test'. What does it measure?",
+      "options": null,
+      "correct_option": null,
+      "diagram_required": true,
+      "diagram_description": "A student sitting on the floor with legs extended straight ahead. Feet are placed flat against a Sit and Reach box. The student is leaning forward with hands overlapping, reaching along the scale on top of the box. Knees are locked flat.",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Purpose: Hamstring/Lower back flexibility.",
+          "Equipment: Sit and Reach Box.",
+          "Procedure: Legs straight, reach forward."
+        ],
+        "final_answer": "**Purpose:** To measure the **flexibility of the lower back and hamstring muscles**.\n\n**Procedure:**\n1.  The subject sits on the floor with legs stretched out straight ahead. Shoes should be removed.\n2.  The soles of the feet are placed flat against the box. Knees must be locked and pressed flat to the floor.\n3.  The subject extends both hands forward along the measuring line on the box as far as possible without jerking.\n4.  The position is held for 1-2 seconds, and the distance reached by the fingertips is recorded."
+      },
+      "source_basis": "Reference Notes"
+    },
+    {
+      "id": "CH6_SA_04",
+      "type": "short",
+      "marks": 3,
+      "priority": "P2",
+      "priority_reason": "Agility and balance tests appear frequently in match-the-following or short notes.",
+      "question": "Write a short note on the 'Eight Foot Up and Go Test'.",
+      "options": null,
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Part of Senior Citizen Test.",
+          "Measures agility/dynamic balance.",
+          "Procedure involves walking around a cone."
+        ],
+        "final_answer": "**Purpose:** The Eight Foot Up and Go Test is part of the Senior Citizen Fitness Test battery designed to measure **agility and dynamic balance** while moving.\n\n**Procedure:**\n1.  A chair is placed against a wall, and a cone marker is placed 8 feet away in front of it.\n2.  The participant starts from a seated position.\n3.  On the signal 'Go', they stand up, walk as quickly as possible around the cone, and return to sit in the chair.\n4.  The time taken to complete the circuit is recorded."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "CH6_LA_01",
+      "type": "long",
+      "marks": 5,
+      "priority": "P1",
+      "priority_reason": "Comprehensive question covering the Senior Citizen Test battery is the highest probability 5-mark question.",
+      "question": "Describe the Rikli and Jones Senior Citizen Fitness Test. Explain any three test items from this battery in detail.",
+      "options": null,
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Introduction to Rikli & Jones.",
+          "List of tests.",
+          "Detail 1: Chair Stand (Lower body strength).",
+          "Detail 2: Arm Curl (Upper body strength).",
+          "Detail 3: Six Minute Walk (Aerobic endurance)."
+        ],
+        "final_answer": "**Introduction:** The Rikli and Jones Senior Citizen Fitness Test is a battery of tests designed to assess the functional fitness of older adults. It measures physical attributes needed to perform daily activities.\n\n**Test Items (Any Three):**\n\n1.  **Chair Stand Test:**\n    * **Purpose:** Measures **lower body strength**.\n    * **Procedure:** The participant sits on a chair without arms. On the signal, they stand up and sit down as many times as possible in 30 seconds.\n\n2.  **Arm Curl Test:**\n    * **Purpose:** Measures **upper body strength**.\n    * **Procedure:** Using a dumbbell (5 lbs for women, 8 lbs for men), the participant performs bicep curls from a seated position. The score is the number of curls completed in 30 seconds.\n\n3.  **Six Minute Walk Test:**\n    * **Purpose:** Measures **aerobic endurance**.\n    * **Procedure:** The participant walks as fast as possible for 6 minutes along a marked track. The total distance covered is recorded to assess cardiovascular fitness."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "CH6_LA_02",
+      "type": "long",
+      "marks": 5,
+      "priority": "P1",
+      "priority_reason": "Motor Fitness Test battery is the alternative P1 long answer topic.",
+      "question": "Enlist the tests included in the 'Motor Fitness Test'. Explain the procedure of the 50 M Standing Start and 600 M Run/Walk.",
+      "options": null,
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "List: 50m, 600m, Sit & Reach, Curl Up, Push Ups, Broad Jump, Shuttle Run.",
+          "50m: Acceleration/Speed.",
+          "600m: Cardiovascular Endurance."
+        ],
+        "final_answer": "**List of Motor Fitness Tests:**\n1.  50 M Standing Start\n2.  600 M Run/Walk\n3.  Sit & Reach\n4.  Partial Curl Up\n5.  Push Ups (Boys) / Modified Push Ups (Girls)\n6.  Standing Broad Jump\n7.  4x10 M Shuttle Run\n\n**1. 50 M Standing Start:**\n* **Purpose:** To determine **acceleration and speed**.\n* **Procedure:** The subject stands behind the starting line with one foot forward. On the command 'Go', they run as fast as possible to cross the finish line. The time is recorded to the nearest 10th of a second.\n\n**2. 600 M Run/Walk:**\n* **Purpose:** To measure **Cardiovascular Fitness/Endurance**.\n* **Procedure:** The subject runs or walks a distance of 600 meters. Standing start is used. The objective is to cover the distance in the shortest possible time. Time is recorded in minutes and seconds."
+      },
+      "source_basis": "Reference Notes"
+    },
+    {
+      "id": "CH6_LA_03",
+      "type": "long",
+      "marks": 5,
+      "priority": "P2",
+      "priority_reason": "Harvard Step Test details including formula derivation.",
+      "question": "What is the Harvard Step Test? Explain the procedure and the formula to calculate the Fitness Index (Short Term).",
+      "options": null,
+      "correct_option": null,
+      "diagram_required": true,
+      "diagram_description": "A step/bench of height 20 inches. A stopwatch. A metronome. Visual shows a person stepping up and down.",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Developer: Brouha.",
+          "Purpose: Cardiovascular fitness/recovery rate.",
+          "Equipment: 20-inch bench.",
+          "Procedure: 30 steps/min for 5 mins.",
+          "Pulse count: 1-1.5 min.",
+          "Formula."
+        ],
+        "final_answer": "**Harvard Step Test:**\nDeveloped by Brouha (1943), this test measures **cardiovascular fitness** (aerobic fitness) by checking the recovery rate after strenuous exercise.\n\n**Equipment:** Bench 20 inches high (for men), Stopwatch, Metronome.\n\n**Procedure:**\n1.  The subject steps up and down on the bench at a rate of **30 steps per minute**.\n2.  The exercise continues for **5 minutes** or until exhaustion.\n3.  Immediately after stopping, the subject sits down.\n4.  The pulse is counted for 30 seconds during the interval **1 to 1.5 minutes** after exercise.\n\n**Formula (Short Term):**\n$$ \\text{Fitness Index} = \\frac{\\text{Duration of Exercise in Seconds} \\times 100}{5.5 \\times \\text{Pulse count (1 to 1.5 min)}} $$"
+      },
+      "source_basis": "Reference Notes"
+    },
+    {
+      "id": "CH6_LA_04",
+      "type": "long",
+      "marks": 5,
+      "priority": "P2",
+      "priority_reason": "Barrow Three Item test is syllabus-compliant and tests general motor ability.",
+      "question": "Explain the 'Barrow Three Item General Motor Ability Test' in detail.",
+      "options": null,
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Components: Broad Jump, Zig Zag Run, Medicine Ball Put.",
+          "Explain each component procedure."
+        ],
+        "final_answer": "The Barrow Three Item General Motor Ability Test assesses general motor skills using three specific tests:\n\n1.  **Standing Broad Jump:**\n    * **Purpose:** Measures **explosive leg power**.\n    * **Procedure:** Subject stands behind a line and jumps forward with both feet simultaneously. Distance is measured.\n\n2.  **Zig-Zag Run:**\n    * **Purpose:** Measures **agility** and speed.\n    * **Procedure:** Subject runs through a zig-zag course marked by cones. Time taken to complete the course is recorded.\n\n3.  **Medicine Ball Put:**\n    * **Purpose:** Measures **upper body explosive strength**.\n    * **Procedure:** Subject puts (throws) a medicine ball (3 kg for boys, 1 kg for girls) as far as possible from a stationary position. The distance is measured."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "CH6_LA_05",
+      "type": "long",
+      "marks": 5,
+      "priority": "P3",
+      "priority_reason": "A comparative question asking to categorize tests based on components.",
+      "question": "Classify the following tests into the physical fitness components they measure: (a) 600m Run, (b) 50m Dash, (c) Sit and Reach, (d) Push Ups, (e) Standing Broad Jump.",
+      "options": null,
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "600m -> Endurance.",
+          "50m -> Speed.",
+          "Sit & Reach -> Flexibility.",
+          "Push Ups -> Strength.",
+          "Broad Jump -> Explosive Power."
+        ],
+        "final_answer": "The classification of tests based on fitness components is as follows:\n\n1.  **600m Run:** Measures **Cardiovascular Endurance** (Aerobic fitness).\n2.  **50m Dash:** Measures **Speed** and Acceleration.\n3.  **Sit and Reach:** Measures **Flexibility** (specifically lower back and hamstrings).\n4.  **Push Ups:** Measures **Upper Body Strength** and Endurance.\n5.  **Standing Broad Jump:** Measures **Explosive Leg Power** (Strength)."
+      },
+      "source_basis": "Mixed"
+    }
+  ]
+}

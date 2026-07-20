@@ -1,0 +1,453 @@
+{
+  "meta": {
+    "subject": "Physical Education",
+    "class": 12,
+    "board": "CBSE",
+    "chapter": "Children and Women in Sports",
+    "total_questions": 20
+  },
+  "questions": [
+    {
+      "id": "CH2_MCQ_01",
+      "type": "mcq",
+      "marks": 1,
+      "priority": "P1",
+      "priority_reason": "Identification of postural deformities is the most frequent MCQ topic.",
+      "question": "Which postural deformity is characterized by a wide gap between the knees when standing with feet together?",
+      "options": {
+        "A": "Knock Knee",
+        "B": "Bow Legs",
+        "C": "Flat Foot",
+        "D": "Lordosis"
+      },
+      "correct_option": "B",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "Bow legs (Genu Varum) is a deformity where there is a wide gap between the knees when the feet are placed together.",
+        "key_points": [],
+        "final_answer": "Bow Legs"
+      },
+      "source_basis": "ALLEN"
+    },
+    {
+      "id": "CH2_MCQ_02",
+      "type": "mcq",
+      "marks": 1,
+      "priority": "P1",
+      "priority_reason": "Specific spinal deformities are often tested.",
+      "question": "Lordosis is an abnormal curvature of the spine in which region?",
+      "options": {
+        "A": "Cervical region",
+        "B": "Thoracic region",
+        "C": "Lumbar region",
+        "D": "Sacral region"
+      },
+      "correct_option": "C",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "Lordosis is the inward curvature of the spine specifically in the lumbar (lower back) region.",
+        "key_points": [],
+        "final_answer": "Lumbar region"
+      },
+      "source_basis": "PYQ"
+    },
+    {
+      "id": "CH2_MCQ_03",
+      "type": "mcq",
+      "marks": 1,
+      "priority": "P1",
+      "priority_reason": "Core concept regarding women in sports.",
+      "question": "Which of the following is a component of the 'Female Athlete Triad'?",
+      "options": {
+        "A": "Anemia",
+        "B": "Osteoporosis",
+        "C": "Lordosis",
+        "D": "Kyphosis"
+      },
+      "correct_option": "B",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "The Female Athlete Triad consists of three inter-related conditions: Osteoporosis, Amenorrhea, and Eating Disorders.",
+        "key_points": [],
+        "final_answer": "Osteoporosis"
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "CH2_MCQ_04",
+      "type": "mcq",
+      "marks": 1,
+      "priority": "P2",
+      "priority_reason": "Definition of specific eating disorders.",
+      "question": "Which eating disorder is characterized by binge eating followed by purging (vomiting)?",
+      "options": {
+        "A": "Anorexia Nervosa",
+        "B": "Bulimia Nervosa",
+        "C": "Osteoporosis",
+        "D": "Amenorrhea"
+      },
+      "correct_option": "B",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "Bulimia Nervosa involves a cycle of eating large amounts of food (bingeing) and then trying to get rid of the calories (purging).",
+        "key_points": [],
+        "final_answer": "Bulimia Nervosa"
+      },
+      "source_basis": "ALLEN"
+    },
+    {
+      "id": "CH2_MCQ_05",
+      "type": "mcq",
+      "marks": 1,
+      "priority": "P3",
+      "priority_reason": "WHO guidelines are part of the syllabus and objective questions.",
+      "question": "According to WHO guidelines, what is the recommended duration of physical activity for children under 5 years of age?",
+      "options": {
+        "A": "30 minutes daily",
+        "B": "60 minutes daily",
+        "C": "180 minutes daily",
+        "D": "120 minutes daily"
+      },
+      "correct_option": "C",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "WHO recommends that children under 5 years should spend at least 180 minutes in various types of physical activities.",
+        "key_points": [],
+        "final_answer": "180 minutes daily"
+      },
+      "source_basis": "Reference Notes"
+    },
+    {
+      "id": "CH2_AR_01",
+      "type": "assertion_reason",
+      "marks": 1,
+      "priority": "P1",
+      "priority_reason": "Relationship between diet and bone health in female athletes.",
+      "question": "Given below are two statements:\n\nAssertion (A): Amenorrhea in female athletes can lead to Osteoporosis.\nReason (R): Low levels of estrogen due to Amenorrhea decrease calcium absorption, leading to weak bones.",
+      "options": {
+        "A": "Both (A) and (R) are true and (R) is the correct explanation of (A).",
+        "B": "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "C": "(A) is true, but (R) is false.",
+        "D": "(A) is false, but (R) is true."
+      },
+      "correct_option": "A",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "Amenorrhea (absence of periods) is linked to low estrogen levels. Estrogen is crucial for bone density; its deficiency leads to Osteoporosis.",
+        "key_points": [],
+        "final_answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "CH2_AR_02",
+      "type": "assertion_reason",
+      "marks": 1,
+      "priority": "P2",
+      "priority_reason": "Understanding corrective measures for deformities.",
+      "question": "Given below are two statements:\n\nAssertion (A): Flat foot is a postural deformity where the arch of the foot collapses.\nReason (R): Performing Vajrasana regularly can help in correcting flat foot.",
+      "options": {
+        "A": "Both (A) and (R) are true and (R) is the correct explanation of (A).",
+        "B": "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "C": "(A) is true, but (R) is false.",
+        "D": "(A) is false, but (R) is true."
+      },
+      "correct_option": "C",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "Flat foot involves the collapse of the foot arch (Assertion is True). However, Vajrasana is not the primary corrective measure for flat foot; exercises like jumping on toes, rope skipping, or walking on heels are used (Reason is False).",
+        "key_points": [],
+        "final_answer": "(A) is true, but (R) is false."
+      },
+      "source_basis": "Reference Notes"
+    },
+    {
+      "id": "CH2_VSA_01",
+      "type": "very_short",
+      "marks": 2,
+      "priority": "P1",
+      "priority_reason": "Standard definition frequently asked.",
+      "question": "Define 'Menarche'.",
+      "options": null,
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "First menstrual bleeding.",
+          "Mark of puberty."
+        ],
+        "final_answer": "**Menarche** is the first menstrual bleeding or the beginning of menstruation in females. It is a significant biological milestone that signals the onset of puberty and reproductive ability."
+      },
+      "source_basis": "Reference Notes"
+    },
+    {
+      "id": "CH2_VSA_02",
+      "type": "very_short",
+      "marks": 2,
+      "priority": "P1",
+      "priority_reason": "Visual identification of Scoliosis.",
+      "question": "What is Scoliosis?",
+      "options": null,
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Lateral curvature.",
+          "S or C shape."
+        ],
+        "final_answer": "**Scoliosis** is a postural deformity characterized by an abnormal lateral (sideways) curvature of the spine. The spine may curve in an 'S' or 'C' shape, leading to uneven shoulders or hips."
+      },
+      "source_basis": "Exercise Quesrions"
+    },
+    {
+      "id": "CH2_VSA_03",
+      "type": "very_short",
+      "marks": 2,
+      "priority": "P2",
+      "priority_reason": "Causes of deformities.",
+      "question": "List any two common causes of 'Knock Knees'.",
+      "options": null,
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Deficiency of Vitamin D/Calcium (Rickets).",
+          "Obesity/Overweight."
+        ],
+        "final_answer": "1. **Deficiency of Vitamin D, Calcium, and Phosphorus** (often causing Rickets).\n2. **Obesity** or excessive body weight during childhood, putting extra pressure on knees."
+      },
+      "source_basis": "Reference Notes"
+    },
+    {
+      "id": "CH2_SA_01",
+      "type": "short",
+      "marks": 3,
+      "priority": "P1",
+      "priority_reason": "Corrective measures for common deformities are high yield.",
+      "question": "Suggest any three corrective physical exercises/asanas for 'Round Shoulders'.",
+      "options": null,
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Chakrasana/Dhanurasana.",
+          "Holding horizontal bar.",
+          "Pulling shoulders back."
+        ],
+        "final_answer": "Corrective measures for **Round Shoulders**:\n1.  **Chakrasana (Wheel Pose):** Helps expand the chest and straightens the spine.\n2.  **Dhanurasana (Bow Pose):** Stretches the chest muscles and strengthens back muscles.\n3.  **Horizontal Bar Hang:** Holding a horizontal bar regularly helps align the shoulders properly."
+      },
+      "source_basis": "Reference Notes"
+    },
+    {
+      "id": "CH2_SA_02",
+      "type": "short",
+      "marks": 3,
+      "priority": "P1",
+      "priority_reason": "Critical health topic for women in sports.",
+      "question": "Explain 'Amenorrhea' in the context of the Female Athlete Triad.",
+      "options": null,
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Definition: Absence of periods.",
+          "Primary vs Secondary.",
+          "Cause: Low energy availability/Intensive training."
+        ],
+        "final_answer": "**Amenorrhea** refers to the absence of menstrual periods in women of reproductive age.\n* **Primary Amenorrhea:** Menstruation has not started by age 15.\n* **Secondary Amenorrhea:** Absence of three or more consecutive periods in a woman who has previously had cycles.\n* **Context:** In female athletes, it is often caused by low energy availability (dietary restriction) combined with high-intensity training, which disrupts hormonal balance."
+      },
+      "source_basis": "Reference Notes"
+    },
+    {
+      "id": "CH2_SA_03",
+      "type": "short",
+      "marks": 3,
+      "priority": "P2",
+      "priority_reason": "Corrective measures for Kyphosis.",
+      "question": "What is Kyphosis? Suggest two exercises to correct it.",
+      "options": null,
+      "correct_option": null,
+      "diagram_required": true,
+      "diagram_description": "A side view sketch of a human spine showing Kyphosis. The upper back (thoracic region) is excessively rounded or hunched forward (hunchback). The head is positioned forward relative to the body.",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Definition: Hunchback/Backward curve.",
+          "Exercises: Chakrasana, Bhujangasana."
+        ],
+        "final_answer": "**Kyphosis** (Hunchback) is an exaggeration of the posterior curve of the thoracic spine (upper back).\n\n**Corrective Exercises:**\n1.  **Bhujangasana (Cobra Pose):** Strengthens the back muscles and expands the chest.\n2.  **Dhanurasana (Bow Pose):** Helps in reducing the hunch by arching the back backwards."
+      },
+      "source_basis": "Reference Notes"
+    },
+    {
+      "id": "CH2_SA_04",
+      "type": "short",
+      "marks": 3,
+      "priority": "P2",
+      "priority_reason": "Distinguish between eating disorders.",
+      "question": "Differentiate between Anorexia Nervosa and Bulimia Nervosa.",
+      "options": null,
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Anorexia: Self-starvation, fear of weight gain.",
+          "Bulimia: Binge eating followed by purging."
+        ],
+        "final_answer": "1.  **Anorexia Nervosa:** An eating disorder characterized by extreme fear of gaining weight and self-starvation. Individuals have a distorted body image and see themselves as overweight even when thin.\n2.  **Bulimia Nervosa:** Characterized by recurrent episodes of binge eating (eating large amounts of food) followed by compensatory behaviors like vomiting (purging) or excessive exercise to prevent weight gain."
+      },
+      "source_basis": "Exercise Quesrions"
+    },
+    {
+      "id": "CH2_SA_05",
+      "type": "short",
+      "marks": 3,
+      "priority": "P3",
+      "priority_reason": "WHO guidelines.",
+      "question": "Briefly describe the WHO physical activity guidelines for adults (18–64 years).",
+      "options": null,
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "150 mins moderate or 75 mins vigorous.",
+          "Muscle strengthening 2 days/week."
+        ],
+        "final_answer": "According to WHO guidelines for adults (18–64 years):\n1.  Should do at least **150-300 minutes of moderate-intensity** aerobic physical activity per week.\n2.  OR at least **75-150 minutes of vigorous-intensity** aerobic physical activity per week.\n3.  Muscle-strengthening activities involving major muscle groups should be done on 2 or more days a week."
+      },
+      "source_basis": "Reference Notes"
+    },
+    {
+      "id": "CH2_LA_01",
+      "type": "long",
+      "marks": 5,
+      "priority": "P1",
+      "priority_reason": "The most comprehensive question for this chapter covering multiple deformities.",
+      "question": "Explain any five common postural deformities with their corrective measures.",
+      "options": null,
+      "correct_option": null,
+      "diagram_required": true,
+      "diagram_description": "A composite diagram showing five deformities:\n1. Knock Knee: Knees touching, feet apart.\n2. Bow Legs: Knees apart, feet touching.\n3. Flat Foot: Entire sole touching the ground (no arch).\n4. Scoliosis: S-shaped spine.\n5. Kyphosis: Hunchback.",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Knock Knee: Knees touch. Correction: Horse riding.",
+          "Bow Legs: Knees gap. Correction: Walk on inner edge.",
+          "Flat Foot: No arch. Correction: Rope skipping.",
+          "Round Shoulders: Bent forward. Correction: Chakrasana.",
+          "Kyphosis: Hunchback. Correction: Bhujangasana."
+        ],
+        "final_answer": "1.  **Knock Knee (Genu Valgum):** Knees knock against each other while standing with feet apart.\n    * *Correction:* Horse riding, Padmasana.\n2.  **Bow Legs (Genu Varum):** Wide gap between knees when standing with feet together.\n    * *Correction:* Walking on the inner edge of feet, Garudasana.\n3.  **Flat Foot:** The arch of the foot collapses, and the entire sole touches the ground.\n    * *Correction:* Jumping on toes, rope skipping, walking on heels.\n4.  **Round Shoulders:** Shoulders become bent forward.\n    * *Correction:* Chakrasana, Dhanurasana, holding horizontal bar.\n5.  **Kyphosis:** Exaggerated backward curve of the thoracic spine (Hunchback).\n    * *Correction:* Bhujangasana, swimming."
+      },
+      "source_basis": "Reference Notes"
+    },
+    {
+      "id": "CH2_LA_02",
+      "type": "long",
+      "marks": 5,
+      "priority": "P1",
+      "priority_reason": "Female Athlete Triad is a guaranteed high-mark topic.",
+      "question": "Discuss in detail the 'Female Athlete Triad'. Explain its three components.",
+      "options": null,
+      "correct_option": null,
+      "diagram_required": true,
+      "diagram_description": "A triangular diagram with three vertices labeled:\n1. Osteoporosis (Low bone density)\n2. Amenorrhea (Menstrual dysfunction)\n3. Eating Disorders (Low energy availability)\nArrows connect them to show interrelation.",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Definition: Syndrome of 3 conditions.",
+          "Osteoporosis: Weak bones.",
+          "Amenorrhea: No periods.",
+          "Eating Disorders: Low energy."
+        ],
+        "final_answer": "**Female Athlete Triad** is a syndrome occurring in physically active females, consisting of three interrelated conditions:\n\n1.  **Osteoporosis:** Decreased bone mineral density making bones fragile. It is caused by low estrogen levels (due to amenorrhea) and poor nutrition (calcium deficiency).\n2.  **Amenorrhea:** The absence of menstrual cycles. Intensive exercise and low body weight disrupt the hormonal balance, leading to the cessation of periods.\n3.  **Eating Disorders (Low Energy Availability):** Includes Anorexia Nervosa and Bulimia Nervosa. Athletes often restrict diet to maintain a lean body for sports like gymnastics, leading to energy deficiency."
+      },
+      "source_basis": "Reference Notes"
+    },
+    {
+      "id": "CH2_LA_03",
+      "type": "long",
+      "marks": 5,
+      "priority": "P2",
+      "priority_reason": "Specific focus on spinal deformities.",
+      "question": "Explain the spinal deformities: Kyphosis, Lordosis, and Scoliosis with their causes.",
+      "options": null,
+      "correct_option": null,
+      "diagram_required": true,
+      "diagram_description": "Three diagrams showing spine curvature:\n1. Kyphosis: Excessive outward curve of upper back.\n2. Lordosis: Excessive inward curve of lower back.\n3. Scoliosis: Sideways (S-shape) curve of the spine.",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Kyphosis: Thoracic curve. Cause: Malnutrition/Habit.",
+          "Lordosis: Lumbar curve. Cause: Obesity/Weak muscles.",
+          "Scoliosis: Lateral curve. Cause: Congenital/One-sided bag."
+        ],
+        "final_answer": "1.  **Kyphosis (Round Back):** Increase in the backward curvature of the thoracic spine.\n    * *Causes:* Malnutrition, carrying heavy loads on shoulders, habit of bending while reading.\n2.  **Lordosis (Hollow Back):** Inward curvature of the lumbar spine.\n    * *Causes:* Obesity, weak abdominal muscles, pregnancy.\n3.  **Scoliosis:** Lateral or sideways curvature of the spine (S or C shape).\n    * *Causes:* Congenital defects, carrying heavy weight on one shoulder, short leg."
+      },
+      "source_basis": "Reference Notes"
+    },
+    {
+      "id": "CH2_LA_04",
+      "type": "long",
+      "marks": 5,
+      "priority": "P2",
+      "priority_reason": "Menstrual Dysfunction detailed explanation.",
+      "question": "What is Menstrual Dysfunction? Explain the factors that may lead to menstrual irregularities in female athletes.",
+      "options": null,
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Definition: Irregularity/disorder.",
+          "Factors: Diet, Stress, Training intensity, Hormones."
+        ],
+        "final_answer": "**Menstrual Dysfunction** refers to disorders or irregularities in the menstrual cycle, such as delayed menarche or amenorrhea.\n\n**Factors leading to irregularities:**\n1.  **Dietary Disorder:** Inadequate calorie intake relative to energy expenditure (Low Energy Availability).\n2.  **High Intensity Training:** Excessive physical stress disrupts the hypothalamus-pituitary-ovarian axis.\n3.  **Stress:** Psychological stress of competition affects hormone levels.\n4.  **Hormonal Changes:** Reduced estrogen levels due to low body fat."
+      },
+      "source_basis": "Reference Notes"
+    },
+    {
+      "id": "CH2_LA_05",
+      "type": "long",
+      "marks": 5,
+      "priority": "P2",
+      "priority_reason": "Corrective measures for leg deformities.",
+      "question": "Discuss the causes and corrective measures for 'Knock Knees' and 'Bow Legs'.",
+      "options": null,
+      "correct_option": null,
+      "diagram_required": true,
+      "diagram_description": "Comparison diagram.\nLeft: Knock Knees (Genu Valgum) - Knees bent inward, touching.\nRight: Bow Legs (Genu Varum) - Knees bent outward, gap between them.",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "Knock Knees Cause: Rickets/Weak legs. Correction: Pillow between knees.",
+          "Bow Legs Cause: Rickets/Early walking. Correction: Braces/Inner edge walking."
+        ],
+        "final_answer": "**1. Knock Knees (Genu Valgum):**\n* **Causes:** Rickets (Vitamin D deficiency), Obesity, Weak ligaments.\n* **Correction:** Horse riding, keeping a pillow between knees while sleeping, Padmasana.\n\n**2. Bow Legs (Genu Varum):**\n* **Causes:** Rickets, forcing babies to walk too early, obesity.\n* **Correction:** Walking on inner edge of feet, using braces/calipers, Garudasana."
+      },
+      "source_basis": "Reference Notes"
+    }
+  ]
+}

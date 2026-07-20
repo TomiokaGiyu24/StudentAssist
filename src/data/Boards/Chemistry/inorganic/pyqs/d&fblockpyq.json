@@ -1,0 +1,727 @@
+{
+  "meta": {
+    "subject": "Chemistry",
+    "class": "12",
+    "chapter_name": "d and f Block Elements",
+    "pyq_year_range": "2022-2025 (Includes SQPs)",
+    "total_questions": 25,
+    "difficulty_distribution": {
+      "easy": "20%",
+      "moderate": "50%",
+      "hard": "30%"
+    }
+  },
+  "questions": [
+    {
+      "question_id": "DNF-2024-MCQ-01",
+      "year": "2024",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "Which of the following ions has the maximum magnetic moment?",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (b): Fe³⁺",
+        "stepwise_marking_scheme_breakdown": "1 mark for correct option.",
+        "final_answer_boxed": "Fe³⁺"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Magnetic Properties & Electronic Configuration",
+        "why_this_question_is_asked": "To test the ability to determine the number of unpaired electrons (n) and relate it to magnetic moment (µ = √n(n+2)).",
+        "common_student_mistake": "Confusing atomic number or total electrons with unpaired electrons.",
+        "trap_zone": "Mn²⁺ (d⁵, n=5) vs Fe³⁺ (d⁵, n=5). Both have same max moment in options usually, but if Fe²⁺ (d⁶, n=4) is given, students mix up charges."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "b",
+        "options": {
+          "a": "Mn³⁺",
+          "b": "Fe³⁺",
+          "c": "Ti³⁺",
+          "d": "Cr³⁺"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "DNF-SQP-MCQ-02",
+      "year": "SQP 2024",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "KMnO₄ acts as an oxidising agent in acidic, alkaline, and neutral media. In acidic medium, the equivalent mass of KMnO₄ is equal to:",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (c): Molar Mass / 5",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "Molar Mass / 5"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Redox stoichiometry of KMnO₄",
+        "why_this_question_is_asked": "Tests knowledge of change in oxidation state of Mn in acidic medium (+7 to +2, Change = 5).",
+        "common_student_mistake": "Confusing acidic (n=5), neutral (n=3), and alkaline (n=1) factors.",
+        "trap_zone": "The options usually list M/1, M/3, M/5."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "c",
+        "options": {
+          "a": "Molar Mass / 1",
+          "b": "Molar Mass / 3",
+          "c": "Molar Mass / 5",
+          "d": "Molar Mass / 2"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "DNF-2023-MCQ-03",
+      "year": "2023",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "Which one of the following transition metal ions is colourless in aqueous solution?",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (a): Sc³⁺",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "Sc³⁺"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Formation of Coloured Ions (d-d transition)",
+        "why_this_question_is_asked": "Colour requires unpaired d-electrons for d-d transition. Sc³⁺ is 3d⁰.",
+        "common_student_mistake": "Assuming all transition metal ions are coloured.",
+        "trap_zone": "Zn²⁺ (3d¹⁰) and Sc³⁺ (3d⁰) are the classic colourless examples."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "a",
+        "options": {
+          "a": "Sc³⁺",
+          "b": "Ti³⁺",
+          "c": "V³⁺",
+          "d": "Mn²⁺"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "DNF-2025-MCQ-04",
+      "year": "2025",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "The correct order of increasing oxidising power of the oxoanions is:",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (d): VO₂⁺ < Cr₂O₇²⁻ < MnO₄⁻",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "VO₂⁺ < Cr₂O₇²⁻ < MnO₄⁻"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Trends in Standard Electrode Potentials",
+        "why_this_question_is_asked": "Oxidising power increases as we move across the 3d series for high oxidation states (Standard potential increases).",
+        "common_student_mistake": "Reversing the order.",
+        "trap_zone": "N/A"
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "d",
+        "options": {
+          "a": "MnO₄⁻ < Cr₂O₇²⁻ < VO₂⁺",
+          "b": "Cr₂O₇²⁻ < MnO₄⁻ < VO₂⁺",
+          "c": "Cr₂O₇²⁻ < VO₂⁺ < MnO₄⁻",
+          "d": "VO₂⁺ < Cr₂O₇²⁻ < MnO₄⁻"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "DNF-2022-MCQ-05",
+      "year": "2022",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "Interstitial compounds are formed when small atoms are trapped inside the crystal lattice of metals. Which of the following is NOT a characteristic property of interstitial compounds?",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (c): They are chemically very reactive.",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "They are chemically very reactive."
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Interstitial Compounds",
+        "why_this_question_is_asked": "To check properties: Hardness (high), MP (high), Conductivity (retained), Reactivity (inert).",
+        "common_student_mistake": "Thinking they become reactive due to impurity.",
+        "trap_zone": "They are actually chemically inert."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "c",
+        "options": {
+          "a": "They have high melting points.",
+          "b": "They are very hard.",
+          "c": "They are chemically very reactive.",
+          "d": "They retain metallic conductivity."
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "DNF-2023-AR-06",
+      "year": "2023",
+      "question_type": "Assertion-Reason",
+      "marks": 1,
+      "question_text": "Assertion (A): Separation of Zr and Hf is difficult.\nReason (R): Because Zr and Hf lie in the same group of the periodic table.",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (b): Both A and R are true but R is NOT the correct explanation of A.",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "Both true, R not explanation"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Lanthanoid Contraction",
+        "why_this_question_is_asked": "The real reason for difficult separation is 'identical atomic radii due to Lanthanoid contraction', not just being in the same group.",
+        "common_student_mistake": "Selecting (a) thinking same group implies same properties.",
+        "trap_zone": "R is a true statement (they are in Group 4), but it doesn't explain the difficulty (size similarity does)."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "b",
+        "options": {
+          "a": "Both A and R are true and R is the correct explanation of A",
+          "b": "Both A and R are true but R is not the correct explanation of A",
+          "c": "A is true but R is false",
+          "d": "A is false but R is true"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "DNF-2025-VSA-07",
+      "year": "2025",
+      "question_type": "2M",
+      "marks": 2,
+      "question_text": "Account for the following:\n(i) Transition metals form alloys.\n(ii) Zn, Cd and Hg are not considered as transition elements.",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(i) Transition metals have similar atomic sizes (radii). This allows atoms of one metal to easily replace atoms of another metal in the crystal lattice, forming alloys.\n(ii) Zn, Cd, and Hg have fully filled d-orbitals (d¹⁰) in both their ground state and their common oxidation states. Therefore, they do not satisfy the definition of transition elements (incompletely filled d-orbitals).",
+        "stepwise_marking_scheme_breakdown": "1 mark for 'Similar size' reasoning.\n1 mark for 'Fully filled d¹⁰ configuration'.",
+        "final_answer_boxed": "Similar size; d¹⁰ config"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "General Properties & Definitions",
+        "why_this_question_is_asked": "Fundamental definitions and applications of size trends.",
+        "common_student_mistake": "For (i), saying they have variable oxidation states (irrelevant to alloy formation).",
+        "trap_zone": "Definition of transition element must include 'common oxidation state'."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "DNF-2024-SA-08",
+      "year": "2024",
+      "question_type": "3M",
+      "marks": 3,
+      "question_text": "Explain the following observations:\n(a) Cu⁺ is unstable in an aqueous solution.\n(b) The E°(M²⁺/M) value for manganese is highly negative (-1.18 V) whereas for copper it is positive (+0.34 V).\n(c) The highest oxidation state of a metal is exhibited in its oxide or fluoride only.",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(a) In aqueous solution, Cu⁺ undergoes disproportionation: 2Cu⁺(aq) → Cu²⁺(aq) + Cu(s). This is because the hydration enthalpy of Cu²⁺ is much more negative than Cu⁺, which compensates for the high second ionization enthalpy.\n(b) The highly negative E° for Mn indicates stability of Mn²⁺ due to its half-filled d⁵ configuration. For Cu, the high energy to transform Cu(s) to Cu²⁺(aq) (Sublimation + Ionization) is not balanced by its Hydration enthalpy, leading to a positive E°.\n(c) Oxygen and Fluorine are small in size and highly electronegative, allowing them to oxidize the metal to its highest state and stabilize it via high lattice energy (in solids) or bond enthalpy.",
+        "stepwise_marking_scheme_breakdown": "1 mark each for (a), (b), (c) with correct keywords (Hydration enthalpy, d⁵ stability, Electronegativity).",
+        "final_answer_boxed": "N/A"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Electrode Potentials & Stability",
+        "why_this_question_is_asked": "Testing the specific anomalies in the 3d series.",
+        "common_student_mistake": "For Cu⁺, forgetting to mention 'Hydration Enthalpy'.",
+        "trap_zone": "Only answering 'Cu²⁺ is smaller' is insufficient."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "DNF-SQP-SA-09",
+      "year": "SQP 2025",
+      "question_type": "2M",
+      "marks": 2,
+      "question_text": "Why is the E° value for the Mn³⁺/Mn²⁺ couple highly positive (+1.57 V) as compared to Cr³⁺/Cr²⁺?",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "The highly positive E° for Mn³⁺/Mn²⁺ indicates that Mn³⁺ is easily reduced to Mn²⁺. This is because Mn²⁺ has a stable half-filled d⁵ configuration, whereas Mn³⁺ is d⁴. The gain of an electron leads to significant stability.\nIn contrast, Cr³⁺ is d³ (stable t₂g³ half-filled level in crystal field), so it is less eager to reduce to Cr²⁺ (d⁴).",
+        "stepwise_marking_scheme_breakdown": "1 mark for d⁵ stability of Mn²⁺.\n1 mark for comparison with Cr³⁺ (t₂g³ stability).",
+        "final_answer_boxed": "Stable d⁵ config of Mn²⁺"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Stability of d-orbitals",
+        "why_this_question_is_asked": "Direct check of electronic configuration stability rules.",
+        "common_student_mistake": "Ignoring the t₂g stability of Cr³⁺.",
+        "trap_zone": "Thinking d³ is not stable."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "DNF-2023-SA-10",
+      "year": "2023",
+      "question_type": "3M",
+      "marks": 3,
+      "question_text": "What is Lanthanoid contraction? What are its consequences? (Give two consequences)",
+      "if_graph_or_diagram_required": {
+        "required": true,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Definition: The steady decrease in the atomic and ionic radii of lanthanoid elements with increasing atomic number due to poor shielding effect of 4f electrons is called Lanthanoid contraction.\n\nConsequences:\n1. Similarity in atomic sizes of 2nd and 3rd transition series (e.g., Zr and Hf have almost same radii).\n2. Difficulty in separation of lanthanoids due to similar chemical properties.\n3. Basicity of hydroxides decreases from La(OH)₃ to Lu(OH)₃.",
+        "stepwise_marking_scheme_breakdown": "1 mark for Definition (must mention 'poor shielding of 4f').\n2 marks for any two valid consequences.",
+        "final_answer_boxed": "Poor shielding of 4f"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Lanthanoid Contraction",
+        "why_this_question_is_asked": "Most frequently asked concept in f-block.",
+        "common_student_mistake": "Attributing it to 'effective nuclear charge' only without mentioning 'poor shielding'.",
+        "trap_zone": "N/A"
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "DNF-2022-LA-11",
+      "year": "2022",
+      "question_type": "5M",
+      "marks": 5,
+      "question_text": "(a) Describe the preparation of potassium dichromate from iron chromite ore. Write the chemical equations involved.\n(b) What happens when acidified K₂Cr₂O₇ reacts with (i) KI, (ii) H₂S?",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(a) Preparation:\nStep 1: Conversion of chromite ore to sodium chromate.\n4FeCr₂O₄ + 8Na₂CO₃ + 7O₂ → 8Na₂CrO₄ (Yellow) + 2Fe₂O₃ + 8CO₂\n\nStep 2: Conversion of sodium chromate to sodium dichromate.\n2Na₂CrO₄ + 2H⁺ → Na₂Cr₂O₇ (Orange) + 2Na⁺ + H₂O\n\nStep 3: Conversion to Potassium Dichromate.\nNa₂Cr₂O₇ + 2KCl → K₂Cr₂O₇ + 2NaCl\n\n(b) Reactions:\n(i) Cr₂O₇²⁻ + 14H⁺ + 6I⁻ → 2Cr³⁺ + 3I₂ + 7H₂O\n(ii) Cr₂O₇²⁻ + 8H⁺ + 3H₂S → 2Cr³⁺ + 3S + 7H₂O",
+        "stepwise_marking_scheme_breakdown": "3 marks for Preparation (1 mark per step/equation).\n2 marks for Reactions (1 mark each).",
+        "final_answer_boxed": "N/A"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Preparation and Properties of K₂Cr₂O₇",
+        "why_this_question_is_asked": "Tests rote learning of industrial processes and redox balancing.",
+        "common_student_mistake": "Unbalanced equations. Forgetting H⁺ in ionic equations.",
+        "trap_zone": "Colour change from Yellow (Chromate) to Orange (Dichromate) is often asked separately."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "DNF-SQP-SA-12",
+      "year": "SQP 2023",
+      "question_type": "3M",
+      "marks": 3,
+      "question_text": "Assign reasons for the following:\n(i) The enthalpies of atomisation of transition elements are high.\n(ii) The transition metals generally form coloured compounds.\n(iii) Transition metals and their many compounds act as good catalysts.",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(i) High enthalpies of atomisation: Due to the presence of a large number of unpaired electrons, transition metals form strong interatomic metallic bonds.\n(ii) Coloured compounds: Due to the presence of incomplete d-subshells, d-d transition of electrons occurs by absorbing light from the visible region. The complementary colour is observed.\n(iii) Catalysts: Due to their ability to show variable oxidation states, ability to form complexes, and providing a large surface area for reactants.",
+        "stepwise_marking_scheme_breakdown": "1 mark each for correct reason.",
+        "final_answer_boxed": "Unpaired electrons; d-d transition; Variable OS"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "General Trends",
+        "why_this_question_is_asked": "Standard reasoning set.",
+        "common_student_mistake": "For (iii), forgetting 'variable oxidation states'.",
+        "trap_zone": "N/A"
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "DNF-2024-VSA-13",
+      "year": "2024",
+      "question_type": "2M",
+      "marks": 2,
+      "question_text": "Complete the following ionic equations:\n(i) MnO₄⁻ + 8H⁺ + 5e⁻ → ?\n(ii) 2MnO₄⁻ + 16H⁺ + 5C₂O₄²⁻ → ?",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(i) MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O\n(ii) 2MnO₄⁻ + 16H⁺ + 5C₂O₄²⁻ → 2Mn²⁺ + 10CO₂ + 8H₂O",
+        "stepwise_marking_scheme_breakdown": "1 mark each for correctly balanced product side.",
+        "final_answer_boxed": "Mn²⁺; CO₂"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Redox Reactions of Permanganate",
+        "why_this_question_is_asked": "Checking balancing skills.",
+        "common_student_mistake": "Writing MnO₂ (Basic medium product) instead of Mn²⁺ (Acidic).",
+        "trap_zone": "Oxalate converts to CO₂."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "DNF-2025-MCQ-14",
+      "year": "2025",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "Which of the following elements belongs to the actinoid series?",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (c): Th (Thorium)",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "Th"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "f-block Classification",
+        "why_this_question_is_asked": "Identification of 4f vs 5f elements.",
+        "common_student_mistake": "Confusing Tb (Terbium, 4f) with Th (Thorium, 5f).",
+        "trap_zone": "Symbols Tb, Th, Tm are confusing."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "c",
+        "options": {
+          "a": "Ce",
+          "b": "Tb",
+          "c": "Th",
+          "d": "Lu"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "DNF-2023-LA-15",
+      "year": "2023",
+      "question_type": "5M",
+      "marks": 5,
+      "question_text": "(a) Compare the chemistry of actinoids with that of lanthanoids with special reference to:\n(i) Electronic configuration\n(ii) Oxidation states\n(iii) Atomic and ionic sizes\n(b) Write the formula of an oxometal anion of the first transition series in which the metal exhibits the oxidation state equal to its group number.",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(a) Comparison:\n(i) Electronic Config: Lanthanoids involve filling of 4f orbitals ([Xe]4f¹⁻¹⁴5d⁰⁻¹6s²). Actinoids involve 5f orbitals ([Rn]5f¹⁻¹⁴6d⁰⁻¹7s²).\n(ii) Oxidation States: Lanthanoids show limited oxidation states (+3 dominant, some +2, +4). Actinoids show a wide range of oxidation states (+3, +4, +5, +6, +7) due to comparable energies of 5f, 6d, and 7s.\n(iii) Sizes: Both show contraction (Lanthanoid/Actinoid contraction). The contraction is greater in Actinoids due to poorer shielding by 5f electrons compared to 4f.\n\n(b) Permanganate ion: MnO₄⁻ (Mn is in +7 state, Group 7) OR Chromate/Dichromate (Cr +6, Group 6).",
+        "stepwise_marking_scheme_breakdown": "3 marks for (a) (1 per point). 2 marks for (b) (1 for formula, 1 for verification).",
+        "final_answer_boxed": "MnO₄⁻"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "f-block comparison",
+        "why_this_question_is_asked": "Comprehensive check of f-block properties.",
+        "common_student_mistake": "Forgetting that Actinoid contraction is greater.",
+        "trap_zone": "In (b), asking for 'Group Number' equality limits the answer to Mn or Cr/V oxoanions."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "DNF-SQP-SA-16",
+      "year": "SQP 2024",
+      "question_type": "2M",
+      "marks": 2,
+      "question_text": "Why are the ionization enthalpies of 5d transition series elements higher than those of 3d and 4d series elements?",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "This is due to Lanthanoid Contraction. The filling of 4f orbitals before the 5d series results in poor shielding of the nuclear charge. Consequently, the effective nuclear charge (Zeff) acting on the valence electrons increases significantly, making it harder to remove electrons (higher Ionization Enthalpy).",
+        "stepwise_marking_scheme_breakdown": "1 mark for 'Lanthanoid Contraction/Poor Shielding of 4f'.\n1 mark for 'High Effective Nuclear Charge'.",
+        "final_answer_boxed": "High Zeff due to 4f shielding"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Ionization Enthalpy Trends",
+        "why_this_question_is_asked": "Explaining the anomaly where IE increases down the group for transition metals (unlike s/p block).",
+        "common_student_mistake": "Applying normal group trend (Decrease down the group) without considering Lanthanoid contraction.",
+        "trap_zone": "N/A"
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "DNF-2022-SA-17",
+      "year": "2022",
+      "question_type": "3M",
+      "marks": 3,
+      "question_text": "Explain why:\n(i) Transition metals exhibit higher enthalpies of atomization.\n(ii) The magnetic moment of Fe²⁺ is less than that of Mn²⁺.\n(iii) Cu⁺ is colourless while Cu²⁺ is coloured.",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(i) Due to strong metallic bonding arising from the participation of a large number of unpaired d-electrons.\n(ii) Mn²⁺ has 3d⁵ config (5 unpaired e⁻), µ = 5.9 BM. Fe²⁺ has 3d⁶ config (4 unpaired e⁻), µ = 4.9 BM. Less unpaired electrons means less magnetic moment.\n(iii) Cu⁺ is 3d¹⁰ (fully filled, no d-d transition possible). Cu²⁺ is 3d⁹ (one unpaired electron, d-d transition possible).",
+        "stepwise_marking_scheme_breakdown": "1 mark each.",
+        "final_answer_boxed": "N/A"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Magnetic Moment & Colour",
+        "why_this_question_is_asked": "Direct application of d-config.",
+        "common_student_mistake": "Thinking Fe (Z=26) implies more electrons = more magnetic moment.",
+        "trap_zone": "Fe²⁺ (d⁶) has pairing, reducing unpaired count."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "DNF-2024-CASE-18",
+      "year": "2024",
+      "question_type": "Case-Based",
+      "marks": 4,
+      "question_text": "Read the passage:\nThe transition elements show a transition of properties from s-block to p-block. They exhibit variable oxidation states, catalytic properties, and formation of colored ions. KMnO4 is a strong oxidising agent.\n(a) Why does Mn show the highest oxidation state of +7 in the 3d series?\n(b) Why is HCl not used to acidify KMnO4 solution during titrations?\n(c) Name the element of 3d series which does not show variable oxidation state.",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(a) Manganese has the maximum number of unpaired electrons participating in bonding (3d⁵ 4s²). It can lose all 7 valence electrons.\n(b) HCl is not used because KMnO₄ acts as a strong oxidising agent and oxidises chloride ions (Cl⁻) of HCl to chlorine gas (Cl₂), interfering with the titration.\n(c) Scandium (Sc) shows only +3. (Zinc shows only +2, but Sc is the standard answer for 'transition element').",
+        "stepwise_marking_scheme_breakdown": "1 mark for (a).\n2 marks for (b) (Reason + Reaction logic).\n1 mark for (c).",
+        "final_answer_boxed": "Sc"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Oxidation States & Lab precautions",
+        "why_this_question_is_asked": "Connecting theory to practicals (Titration).",
+        "common_student_mistake": "In (c), writing Zn (often not considered transition) or Fe.",
+        "trap_zone": "HCl oxidation by Permanganate."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "DNF-SQP-AR-19",
+      "year": "SQP 2023",
+      "question_type": "Assertion-Reason",
+      "marks": 1,
+      "question_text": "Assertion (A): Cu²⁺ iodide is not known.\nReason (R): Cu²⁺ oxidises I⁻ to iodine.",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (a): Both A and R are true and R is the correct explanation of A.",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "Both true, R is explanation"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Redox Stability of Halides",
+        "why_this_question_is_asked": "Specific exception in Copper chemistry.",
+        "common_student_mistake": "Thinking it's due to size mismatch.",
+        "trap_zone": "Reaction: 2Cu²⁺ + 4I⁻ → Cu₂I₂ + I₂."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "a",
+        "options": {
+          "a": "Both A and R are true and R is the correct explanation of A",
+          "b": "Both A and R are true but R is not the correct explanation of A",
+          "c": "A is true but R is false",
+          "d": "A is false but R is true"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "DNF-2025-SA-20",
+      "year": "2025",
+      "question_type": "2M",
+      "marks": 2,
+      "question_text": "Calculate the 'spin only' magnetic moment of M²⁺(aq) ion (Z = 27).",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "1. Electronic config of Co (Z=27): [Ar] 3d⁷ 4s².\n2. M²⁺ (Co²⁺): [Ar] 3d⁷.\n3. Orbital filling (d⁷): ↑↓ ↑↓ ↑ ↑ ↑. Number of unpaired electrons (n) = 3.\n4. Formula: µ = √n(n+2) BM\n   µ = √3(3+2) = √15\n   µ ≈ 3.87 BM",
+        "stepwise_marking_scheme_breakdown": "1 mark for correct 'n'.\n1 mark for formula and calculation.",
+        "final_answer_boxed": "3.87 BM"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Magnetic Moment Calculation",
+        "why_this_question_is_asked": "Numerical application.",
+        "common_student_mistake": "Miscounting unpaired electrons in d⁷ (often counted as 7 unpaired, which is impossible, or 3 correct but wrong math).",
+        "trap_zone": "Z=27 is Cobalt."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "DNF-2023-MCQ-21",
+      "year": "2023",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "Which of the following oxidation states is the most common among the lanthanoids?",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (c): +3",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "+3"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Lanthanoid Oxidation States",
+        "why_this_question_is_asked": "Fact-based check.",
+        "common_student_mistake": "Selecting +2 or +4 (which are shown by specific elements like Eu, Ce).",
+        "trap_zone": "All lanthanoids show +3."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "c",
+        "options": {
+          "a": "+2",
+          "b": "+4",
+          "c": "+3",
+          "d": "+5"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "DNF-2022-SA-22",
+      "year": "2022",
+      "question_type": "3M",
+      "marks": 3,
+      "question_text": "Write the chemical equations for the following reactions:\n(i) Disproportionation of Mn³⁺ in acidic solution.\n(ii) Preparation of KMnO₄ from K₂MnO₄.\n(iii) Reaction of KMnO₄ with oxalate ion in acidic medium.",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(i) 2Mn³⁺ + 2H₂O → Mn²⁺ + MnO₂ + 4H⁺\n(ii) 3MnO₄²⁻ + 4H⁺ → 2MnO₄⁻ + MnO₂ + 2H₂O (Electrolytic oxidation is preferred industrially: MnO₄²⁻ → MnO₄⁻ + e⁻)\n(iii) 2MnO₄⁻ + 16H⁺ + 5C₂O₄²⁻ → 2Mn²⁺ + 10CO₂ + 8H₂O",
+        "stepwise_marking_scheme_breakdown": "1 mark per correct equation.",
+        "final_answer_boxed": "N/A"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Important d-block reactions",
+        "why_this_question_is_asked": "Memorization of inorganic equations.",
+        "common_student_mistake": "Forgetting coefficients.",
+        "trap_zone": "Disproportionation of Mn³⁺ is less common than Cu⁺ but in syllabus."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "DNF-SQP-SA-23",
+      "year": "SQP 2024",
+      "question_type": "2M",
+      "marks": 2,
+      "question_text": "What is the effect of increasing pH on the colour of K₂Cr₂O₇ solution?",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Increasing pH (adding base/alkali) shifts the equilibrium from dichromate to chromate:\nCr₂O₇²⁻ (Orange) + 2OH⁻ → 2CrO₄²⁻ (Yellow) + H₂O\nThe colour changes from Orange to Yellow.",
+        "stepwise_marking_scheme_breakdown": "1 mark for Reaction/Equilibrium shift.\n1 mark for Colour change (Orange to Yellow).",
+        "final_answer_boxed": "Orange to Yellow"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Chromate-Dichromate Equilibrium",
+        "why_this_question_is_asked": "pH dependence of Cr(VI) species.",
+        "common_student_mistake": "Saying colour fades or disappears.",
+        "trap_zone": "Low pH (Acidic) favors Dichromate (Orange); High pH (Basic) favors Chromate (Yellow)."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "DNF-2024-MCQ-24",
+      "year": "2024",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "Which of the following is amphoteric oxide?",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (a): V₂O₅",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "V₂O₅"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Nature of Transition Metal Oxides",
+        "why_this_question_is_asked": "Oxidation state correlates with acidity. Low OS = Basic, High OS = Acidic, Intermediate = Amphoteric.",
+        "common_student_mistake": "Thinking CrO₃ is amphoteric (It is Acidic).",
+        "trap_zone": "V₂O₅ reacts with both acids and bases."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "a",
+        "options": {
+          "a": "V₂O₅",
+          "b": "Mn₂O₇",
+          "c": "CrO",
+          "d": "TiO"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "DNF-2022-SA-25",
+      "year": "2022",
+      "question_type": "3M",
+      "marks": 3,
+      "question_text": "(i) Name a member of the lanthanoid series which is well known to exhibit +4 oxidation state.\n(ii) Mischmetal is an alloy of which metal?\n(iii) Why do Zr and Hf have comparable atomic radii?",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(i) Cerium (Ce) (Z=58).\n(ii) Lanthanoid metal (~95%). (Mainly Ce and La).\n(iii) Due to Lanthanoid Contraction (poor shielding of 4f electrons).",
+        "stepwise_marking_scheme_breakdown": "1 mark each.",
+        "final_answer_boxed": "Ce; Lanthanoids; Contraction"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "F-block Trivia",
+        "why_this_question_is_asked": "Direct knowledge check.",
+        "common_student_mistake": "N/A",
+        "trap_zone": "N/A"
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    }
+  ],
+  "chapter_pattern_analysis": {
+    "most_repeated_concepts": [
+      "Lanthanoid Contraction (Reason & Consequences).",
+      "KMnO₄/K₂Cr₂O₇ Preparation and Redox reactions (Ionic equations).",
+      "Trends in Magnetic Moment (Spin-only formula).",
+      "Reasoning for Anomalous properties (E° values, Colour, Catalysis)."
+    ],
+    "high_probability_2026_focus": [
+      "Reaction of Lanthanoids (Ln + O₂, Ln + H₂O etc.).",
+      "Graph of Oxidation States vs Atomic Number in 3d series.",
+      "Comparison of Actinoids and Lanthanoids."
+    ],
+    "numerical_weightage_trend": "Low. Only Magnetic Moment calculation.",
+    "case_based_trend": "Focuses on General Characteristics of 3d series (Size, IE, MP) or Titration principles.",
+    "assertion_reason_trend": "Focuses on Stability of ions (Cu⁺/Cu²⁺) and separation difficulties (Zr/Hf)."
+  }
+}

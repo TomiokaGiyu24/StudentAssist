@@ -1,0 +1,314 @@
+{
+    "meta": {
+        "subject": "Physics",
+        "class": 12,
+        "board": "CBSE",
+        "chapter_scope": "Electric Charges and Fields",
+        "mock_type": "CONCEPTUAL",
+        "time_minutes": 180,
+        "maximum_marks": 70,
+        "difficulty_profile": {
+            "easy": 20,
+            "moderate": 60,
+            "challenging": 20
+        }
+    },
+    "sections": [
+        {
+            "section_id": "A",
+            "section_name": "MCQs & Assertion-Reasoning",
+            "question_type": "mcq",
+            "questions": [
+                {
+                    "id": 1,
+                    "question": "A glass rod rubbed with silk acquires a charge of $+1.6 \\times 10^{-13}$ C. What is the charge on the silk?",
+                    "options": [
+                        "+1.6 × 10^-13 C",
+                        "-1.6 × 10^-13 C",
+                        "+3.2 × 10^-13 C",
+                        "Zero"
+                    ],
+                    "answer": "**Option (B)**\n**Reason:** According to the **Law of Conservation of Charge**, the net charge of an isolated system remains constant. When the glass rod is rubbed with silk, electrons are transferred from the glass to the silk. The magnitude of positive charge acquired by the glass rod is equal to the magnitude of negative charge acquired by the silk.\nTherefore, charge on silk = $-1.6 \\times 10^{-13}$ C."
+                },
+                {
+                    "id": 2,
+                    "question": "Two point charges $q_1$ and $q_2$ are placed at a distance $r$ in air. The force between them is $F$. If the distance is doubled and the medium is changed to one with dielectric constant $K=4$, the new force $F'$ will be:",
+                    "options": [
+                        "F",
+                        "F/4",
+                        "F/16",
+                        "16F"
+                    ],
+                    "answer": "**Option (C)**\n**Reason:** \nInitial force in air: $F = \\frac{1}{4\\pi\\epsilon_0} \\frac{q_1 q_2}{r^2}$\nNew force in medium: $F' = \\frac{1}{4\\pi(K\\epsilon_0)} \\frac{q_1 q_2}{(2r)^2}$\nSubstituting $K=4$: \n$F' = \\frac{1}{4} \\cdot \\frac{1}{4\\pi\\epsilon_0} \\frac{q_1 q_2}{4r^2} = \\frac{1}{16} \\left( \\frac{1}{4\\pi\\epsilon_0} \\frac{q_1 q_2}{r^2} \\right) = \\frac{F}{16}$"
+                },
+                {
+                    "id": 3,
+                    "question": "Which of the following figures correctly represents the electric field lines due to a single positive charge?",
+                    "options": [
+                        "Concentric circles",
+                        "Radially inward straight lines",
+                        "Radially outward straight lines",
+                        "Parallel straight lines"
+                    ],
+                    "answer": "**Option (C)**\n**Reason:** For a single isolated positive point charge ($q > 0$), the electric field lines originate from the charge and extend radially outward to infinity. They are straight lines diverging from the source."
+                },
+                {
+                    "id": 4,
+                    "question": "An electric dipole of dipole moment $\\vec{p}$ is placed in a uniform electric field $\\vec{E}$ at an angle of $90^{\\circ}$. The potential energy of the dipole is:",
+                    "options": [
+                        "-pE",
+                        "Zero",
+                        "pE",
+                        "pE/2"
+                    ],
+                    "answer": "**Option (B)**\n**Reason:** The potential energy $U$ of a dipole in a uniform electric field is given by $U = -\\vec{p} \\cdot \\vec{E} = -pE \\cos \\theta$.\nHere, $\\theta = 90^{\\circ}$.\n$U = -pE \\cos 90^{\\circ} = -pE(0) = 0$."
+                },
+                {
+                    "id": 5,
+                    "question": "The electric flux through a closed Gaussian surface depends upon:",
+                    "options": [
+                        "Net charge enclosed and permittivity of the medium",
+                        "Net charge enclosed, permittivity, and size of the surface",
+                        "Net charge enclosed only",
+                        "Shape and size of the surface only"
+                    ],
+                    "answer": "**Option (A)**\n**Reason:** According to Gauss's Law, total flux $\\phi_E = \\oint \\vec{E} \\cdot d\\vec{A} = \\frac{q_{in}}{\\epsilon}$. It depends only on the net enclosed charge ($q_{in}$) and the permittivity ($\\epsilon$) of the medium. It is independent of the shape or size of the Gaussian surface."
+                },
+                {
+                    "id": 6,
+                    "question": "A hollow metal sphere of radius $R$ is uniformly charged. The electric field due to the sphere at a distance $r$ from the center:",
+                    "options": [
+                        "Increases as r increases for r < R and for r > R",
+                        "Zero as r increases for r < R, decreases as r increases for r > R",
+                        "Zero as r increases for r < R, increases as r increases for r > R",
+                        "Decreases as r increases for r < R and for r > R"
+                    ],
+                    "answer": "**Option (B)**\n**Reason:** \nInside a charged spherical shell ($r < R$), electric field $E = 0$ (electrostatic shielding).\nOutside the shell ($r > R$), the field behaves as if the entire charge is concentrated at the center, so $E \\propto \\frac{1}{r^2}$. Thus, it decreases as $r$ increases."
+                },
+                {
+                    "id": 7,
+                    "question": "Which physical quantity has the unit $N \\cdot C^{-1}$?",
+                    "options": [
+                        "Electric Flux",
+                        "Electric Potential",
+                        "Electric Field Intensity",
+                        "Electric Dipole Moment"
+                    ],
+                    "answer": "**Option (C)**\n**Reason:** Electric Field Intensity $E$ is defined as Force per unit Charge.\n$E = F/q$.\nUnit = Newton / Coulomb = $N \\cdot C^{-1}$."
+                },
+                {
+                    "id": 8,
+                    "question": "Four charges are placed at the corners of a square. The net electric field at the center is zero if:",
+                    "options": [
+                        "All charges are positive and equal",
+                        "Two opposite charges are positive and equal, other two are negative and equal",
+                        "All charges are negative and equal",
+                        "All of the above"
+                    ],
+                    "answer": "**Option (D)**\n**Reason:** \nFor (A) & (C): If all charges are equal (all +q or all -q), the fields from opposite corners cancel out due to symmetry.\nFor (B): If opposite pairs are equal (e.g., top-left & bottom-right are +q; top-right & bottom-left are -q), the fields from the +q pair cancel each other, and the fields from the -q pair cancel each other.\nThus, in all cases, the net field at the center is zero."
+                },
+                {
+                    "id": 9,
+                    "question": "The quantization of charge indicates that:",
+                    "options": [
+                        "Charge, which is a fraction of coulomb, is not possible",
+                        "A charge cannot be destroyed",
+                        "Charge exists on particles",
+                        "There exists a minimum permissible charge on an object"
+                    ],
+                    "answer": "**Option (D)**\n**Reason:** Quantization of charge means $q = ne$, where $n$ is an integer and $e$ is the elementary charge ($1.6 \\times 10^{-19}$ C). This implies charge cannot take continuous values but exists in discrete packets, with $e$ being the minimum permissible magnitude for stable charge."
+                },
+                {
+                    "id": 10,
+                    "question": "An electron enters a uniform electric field with a velocity perpendicular to the field lines. The path of the electron will be:",
+                    "options": [
+                        "Straight line",
+                        "Circle",
+                        "Parabola",
+                        "Ellipse"
+                    ],
+                    "answer": "**Option (C)**\n**Reason:** The electron experiences a constant force $F = eE$ perpendicular to its initial velocity. This is analogous to projectile motion under gravity (constant acceleration perpendicular to velocity). Therefore, the trajectory is parabolic."
+                },
+                {
+                    "id": 11,
+                    "question": "The ratio of electric force to gravitational force between two electrons is of the order of:",
+                    "options": [
+                        "10^42",
+                        "10^39",
+                        "10^36",
+                        "10^1"
+                    ],
+                    "answer": "**Option (A)**\n**Reason:** \n$F_e = k \\frac{e^2}{r^2}$ and $F_g = G \\frac{m_e^2}{r^2}$.\nRatio $\\frac{F_e}{F_g} = \\frac{k e^2}{G m_e^2} = \\frac{(9 \\times 10^9)(1.6 \\times 10^{-19})^2}{(6.67 \\times 10^{-11})(9.1 \\times 10^{-31})^2} \\approx 10^{42}$."
+                },
+                {
+                    "id": 12,
+                    "question": "If the net electric flux through a closed surface is zero, then:",
+                    "options": [
+                        "No net charge is enclosed by the surface",
+                        "The electric field must be zero everywhere on the surface",
+                        "The electric field must be zero everywhere inside the surface",
+                        "There are no charges inside the surface"
+                    ],
+                    "answer": "**Option (A)**\n**Reason:** Gauss's Law states $\\phi_{net} = \\frac{q_{in}}{\\epsilon_0}$. If $\\phi_{net} = 0$, then $q_{in} = 0$. This means the *net* charge is zero. There could be equal positive and negative charges inside (dipoles), or no charges at all. It does not imply $E=0$ on the surface (external field could pass through)."
+                },
+                {
+                    "id": 13,
+                    "question": "Assertion (A): Electric field lines do not form closed loops.\nReason (R): Electrostatic field is a conservative field.",
+                    "options": [
+                        "Both A and R are true and R is the correct explanation of A",
+                        "Both A and R are true but R is NOT the correct explanation of A",
+                        "A is true but R is false",
+                        "A is false but R is true"
+                    ],
+                    "answer": "**Option (A)**\n**Reason:** Electric field lines originate from positive charges and terminate on negative charges; they do not return to the starting point. This characteristic is a direct consequence of the conservative nature of the electrostatic field (work done in a closed loop is zero: $\\oint \\vec{E} \\cdot d\\vec{l} = 0$)."
+                },
+                {
+                    "id": 14,
+                    "question": "Assertion (A): A proton is placed in a uniform electric field, it tends to move along the direction of the field.\nReason (R): A proton has a positive charge and positive charges experience force in the direction of the electric field.",
+                    "options": [
+                        "Both A and R are true and R is the correct explanation of A",
+                        "Both A and R are true but R is NOT the correct explanation of A",
+                        "A is true but R is false",
+                        "A is false but R is true"
+                    ],
+                    "answer": "**Option (A)**\n**Reason:** The force on a charge $q$ in field $\\vec{E}$ is $\\vec{F} = q\\vec{E}$. Since a proton has $q > 0$, $\\vec{F}$ is in the same direction as $\\vec{E}$. Thus, it accelerates along the field lines."
+                },
+                {
+                    "id": 15,
+                    "question": "Assertion (A): When a body acquires a positive charge, its mass decreases slightly.\nReason (R): To acquire positive charge, a body must lose some electrons.",
+                    "options": [
+                        "Both A and R are true and R is the correct explanation of A",
+                        "Both A and R are true but R is NOT the correct explanation of A",
+                        "A is true but R is false",
+                        "A is false but R is true"
+                    ],
+                    "answer": "**Option (A)**\n**Reason:** Charging is the transfer of electrons. A body becomes positively charged by losing electrons. Since electrons have a finite mass ($9.1 \\times 10^{-31}$ kg), losing them results in a very small but real decrease in mass."
+                },
+                {
+                    "id": 16,
+                    "question": "Assertion (A): The electric field inside a conductor is always zero in electrostatic equilibrium.\nReason (R): In a static situation, there is no current inside or on the surface of the conductor.",
+                    "options": [
+                        "Both A and R are true and R is the correct explanation of A",
+                        "Both A and R are true but R is NOT the correct explanation of A",
+                        "A is true but R is false",
+                        "A is false but R is true"
+                    ],
+                    "answer": "**Option (B)**\n**Reason:** Both statements are true. However, R is not the *fundamental* explanation for A. The fundamental reason A is true is that if there were a field inside, free charges (electrons) would experience a force and move. They continue moving until they redistribute themselves such that the net field inside becomes zero. R describes the *result* (static situation), not the cause."
+                }
+            ]
+        },
+        {
+            "section_id": "B",
+            "section_name": "Very Short Answer Questions",
+            "question_type": "theory",
+            "questions": [
+                {
+                    "id": 17,
+                    "question": "Why can two electric field lines never intersect each other? Explain.",
+                    "answer": "**Explanation:**\n1. Electric field lines represent the direction of the electric field vector at any point. The tangent to the field line gives the direction of the net electric field at that point.\n2. If two field lines were to intersect at a point P, there would be two distinct tangents at that single point.\n3. This would imply that the electric field has two different directions at the same point simultaneously, which is physically impossible for a vector quantity.\n**Conclusion:** Therefore, electric field lines never cross."
+                },
+                {
+                    "id": 18,
+                    "question": "An electric dipole is placed in a uniform electric field. Under what condition is the dipole in (i) stable equilibrium, and (ii) unstable equilibrium?",
+                    "answer": "**(i) Stable Equilibrium:**\n* **Condition:** When the dipole moment $\\vec{p}$ is parallel to the electric field $\\vec{E}$.\n* **Angle:** $\\theta = 0^{\\circ}$.\n* **Torque:** $\\tau = pE \\sin 0^{\\circ} = 0$. Potential Energy $U = -pE$ (Minimum).\n\n**(ii) Unstable Equilibrium:**\n* **Condition:** When the dipole moment $\\vec{p}$ is antiparallel to the electric field $\\vec{E}$.\n* **Angle:** $\\theta = 180^{\\circ}$.\n* **Torque:** $\\tau = pE \\sin 180^{\\circ} = 0$. Potential Energy $U = +pE$ (Maximum)."
+                },
+                {
+                    "id": 19,
+                    "question": "A point charge $+Q$ is placed at the center of a cube of side $a$. What is the electric flux through (i) the whole cube, and (ii) one face of the cube?",
+                    "answer": "**Formula Used:** Gauss's Law $\\phi_{total} = \\frac{q_{in}}{\\epsilon_0}$.\n\n**(i) Flux through the whole cube:**\nThe cube encloses the charge $+Q$ completely.\n$\\phi_{total} = \\frac{Q}{\\epsilon_0}$\n\n**(ii) Flux through one face:**\nBy symmetry, the flux is distributed equally among the 6 identical faces of the cube.\n$\\phi_{face} = \\frac{1}{6} \\phi_{total} = \\frac{Q}{6\\epsilon_0}$"
+                },
+                {
+                    "id": 20,
+                    "question": "Define electric dipole moment. Is it a scalar or a vector quantity? Give its SI unit.",
+                    "answer": "**Definition:** Electric dipole moment ($\\vec{p}$) is defined as the product of the magnitude of one of the charges and the vector distance separating them.\n$\\vec{p} = q \\times 2\\vec{a}$\n\n**Nature:** It is a **vector** quantity. Its direction is conventionally taken from the negative charge to the positive charge.\n\n**SI Unit:** Coulomb-meter (C·m)."
+                },
+                {
+                    "id": 21,
+                    "question": "Plot a graph showing the variation of Coulomb force ($F$) versus ($\\frac{1}{r^2}$), where $r$ is the distance between the two charges of each pair of charges: $(1\\mu C, 2\\mu C)$ and $(2\\mu C, -3\\mu C)$. Interpret the slope of the graphs.",
+                    "answer": "**Analysis:**\nCoulomb's Force magnitude: $F = k |q_1 q_2| \\left(\\frac{1}{r^2}\\right)$.\nThis is a straight line equation $y = mx$ where $y=F$ and $x = 1/r^2$.\nThe slope $m = k |q_1 q_2|$.\n\n**Pair A:** $(1\\mu C, 2\\mu C)$. Slope $m_A \\propto |1 \\times 2| = 2$. Force is repulsive ($F>0$).\n**Pair B:** $(2\\mu C, -3\\mu C)$. Slope $m_B \\propto |2 \\times (-3)| = 6$. Force is attractive ($F<0$ conventionally, or just plot magnitude).\n\n**Graph Description:**\n1.  Both graphs are straight lines passing through the origin.\n2.  The slope of Pair B is 3 times steeper than Pair A ($6$ vs $2$).\n3.  If plotting vectorially, Pair A is in +F quadrant (repulsive) and Pair B in -F quadrant (attractive).\n\n**Interpretation:** The slope represents the product of the magnitudes of the charges (scaled by $k$). Steeper slope \\implies stronger interaction strength."
+                }
+            ]
+        },
+        {
+            "section_id": "C",
+            "section_name": "Short Answer Questions",
+            "question_type": "derivation",
+            "questions": [
+                {
+                    "id": 22,
+                    "question": "Use Gauss's law to derive the expression for the electric field due to a uniformly charged infinite plane sheet of surface charge density $\\sigma$.",
+                    "answer": "**1. Construction & Symmetry:**\nConsider an infinite plane sheet with uniform positive surface charge density $\\sigma$.\nBy symmetry, the electric field $\\vec{E}$ must be perpendicular to the sheet and directed outwards on both sides. Its magnitude depends only on the distance from the sheet.\n\n**2. Gaussian Surface:**\nChoose a cylindrical Gaussian surface (pillbox) of cross-sectional area $A$ and length $2r$, piercing through the sheet such that its flat end faces are at distance $r$ on either side.\n\n**3. Application of Gauss's Law:**\n$\\oint \\vec{E} \\cdot d\\vec{A} = \\frac{q_{in}}{\\epsilon_0}$\n\n**4. Flux Calculation:**\n* **Curved Surface:** $\\vec{E} \\perp d\\vec{A}$ (Area vector is radial, Field is axial). $\\vec{E} \\cdot d\\vec{A} = 0$. Flux = 0.\n* **End Faces (Left & Right):** $\\vec{E} \\parallel d\\vec{A}$. Flux = $\\int E dA + \\int E dA = EA + EA = 2EA$.\n\nTotal Flux $\\phi_E = 2EA$.\n\n**5. Enclosed Charge:**\nThe cylinder encloses a circular portion of the sheet of area $A$.\n$q_{in} = \\sigma A$.\n\n**6. Final Result:**\n$2EA = \\frac{\\sigma A}{\\epsilon_0}$\n$E = \\frac{\\sigma}{2\\epsilon_0}$\n\n**Conclusion:** The electric field due to an infinite sheet is independent of the distance $r$."
+                },
+                {
+                    "id": 23,
+                    "question": "Derive the expression for the torque $\\vec{\\tau}$ acting on an electric dipole of dipole moment $\\vec{p}$ placed in a uniform electric field $\\vec{E}$.",
+                    "answer": "**1. Setup:**\nConsider a dipole with charges $+q$ and $-q$ separated by distance $2a$, placed in a uniform electric field $\\vec{E}$ at an angle $\\theta$ with the field.\nDipole moment magnitude $p = q(2a)$.\n\n**2. Forces:**\n* Force on $+q$: $\\vec{F}_+ = +q\\vec{E}$ (along $\\vec{E}$)\n* Force on $-q$: $\\vec{F}_- = -q\\vec{E}$ (opposite to $\\vec{E}$)\n\n**3. Net Force:**\n$\\vec{F}_{net} = +q\\vec{E} - q\\vec{E} = 0$. (Translational equilibrium).\n\n**4. Torque Calculation:**\nSince the lines of action of the two forces are different, they form a couple.\nTorque $\\tau$ = Magnitude of Force $\\times$ Perpendicular distance between forces.\nPerpendicular distance ($d_{\\perp}$) can be found from the geometry: $d_{\\perp} = 2a \\sin \\theta$.\n\n$\\tau = (qE) \\times (2a \\sin \\theta)$\n$\\tau = (q \\cdot 2a) E \\sin \\theta$\n\nSubstituting $p = q(2a)$:\n$\\tau = pE \\sin \\theta$\n\n**5. Vector Form:**\nUsing the cross product rule:\n$\\boxed{\\vec{\\tau} = \\vec{p} \\times \\vec{E}}$\nThe direction is given by the right-hand screw rule, perpendicular to both $\\vec{p}$ and $\\vec{E}$."
+                },
+                {
+                    "id": 24,
+                    "question": "Two point charges $q_A = 3 \\mu C$ and $q_B = -3 \\mu C$ are located 20 cm apart in vacuum.\n(a) What is the electric field at the midpoint O of the line AB joining the two charges?\n(b) If a negative test charge of magnitude $1.5 \\times 10^{-9}$ C is placed at this point, what is the force experienced by the test charge?",
+                    "answer": "**Given:**\n$q_A = +3 \\mu C = +3 \\times 10^{-6} C$\n$q_B = -3 \\mu C = -3 \\times 10^{-6} C$\nDistance $d = 20 \\text{ cm} = 0.2 \\text{ m}$. Midpoint distance $r = 0.1 \\text{ m}$.\n\n**(a) Electric Field at O:**\nField due to $q_A$ (at O): $\\vec{E}_A$ is directed from A to B (away from +).\n$E_A = \\frac{kq_A}{r^2} = \\frac{9 \\times 10^9 \\times 3 \\times 10^{-6}}{(0.1)^2} = \\frac{27 \\times 10^3}{0.01} = 2.7 \\times 10^6 \\text{ N/C}$.\n\nField due to $q_B$ (at O): $\\vec{E}_B$ is directed from A to B (towards -).\n$E_B = \\frac{k|q_B|}{r^2} = 2.7 \\times 10^6 \\text{ N/C}$.\n\nSince both fields point in the same direction (A to B):\n$E_{net} = E_A + E_B = 5.4 \\times 10^6 \\text{ N/C}$ directed along AB.\n\n**(b) Force on test charge:**\n$q_0 = -1.5 \\times 10^{-9} C$.\n$\\vec{F} = q_0 \\vec{E}_{net}$.\nMagnitude $F = |q_0| E_{net} = (1.5 \\times 10^{-9}) (5.4 \\times 10^6)$\n$F = 8.1 \\times 10^{-3} \\text{ N}$.\n\n**Direction:** Since $q_0$ is negative, the force is opposite to $\\vec{E}_{net}$.\nDirection is from B to A."
+                },
+                {
+                    "id": 25,
+                    "question": "Obtain the expression for the electric field intensity at a point on the equatorial line of an electric dipole of dipole moment $\\vec{p}$. Show that for short dipoles ($r \\gg a$), the field varies as $1/r^3$.",
+                    "answer": "**1. Diagram & Components:**\nConsider a dipole with charges $-q$ at A and $+q$ at B, separated by $2a$. Point P is on the perpendicular bisector at distance $r$.\nLet $\\theta$ be the angle made by AP and BP with the dipole axis.\n\n**2. Fields:**\n$E_{+q}$ is directed away from B. $E_{-q}$ is directed towards A.\nMagnitudes are equal: $E_+ = E_- = \\frac{kq}{r^2 + a^2}$.\n\n**3. Resolving Components:**\nVertical components ($E \\sin \\theta$) cancel out.\nHorizontal components ($E \\cos \\theta$) add up in the direction opposite to $\\vec{p}$.\n\n**4. Net Field:**\n$E_{net} = 2 E_+ \\cos \\theta$\nFrom geometry, $\\cos \\theta = \\frac{a}{\\sqrt{r^2 + a^2}}$.\n\n$E_{net} = 2 \\left( \\frac{kq}{r^2 + a^2} \\right) \\left( \\frac{a}{(r^2 + a^2)^{1/2}} \\right)$\n$E_{net} = \\frac{k (q \\cdot 2a)}{(r^2 + a^2)^{3/2}}$\nSubstituting $p = q(2a)$:\n$E_{equatorial} = \\frac{kp}{(r^2 + a^2)^{3/2}}$\n\n**5. Short Dipole Approx:**\nIf $r \\gg a$, then $(r^2 + a^2) \\approx r^2$.\n$E_{equatorial} \\approx \\frac{kp}{(r^2)^{3/2}} = \\frac{kp}{r^3}$\n\n**Vector Form:** $\\vec{E}_{eq} = -\\frac{1}{4\\pi\\epsilon_0} \\frac{\\vec{p}}{r^3}$."
+                },
+                {
+                    "id": 26,
+                    "question": "Two concentric metallic spherical shells of radii $R$ and $2R$ are given charges $Q_1$ and $Q_2$ respectively. The surface charge densities on the outer surfaces of the shells are equal. Determine the ratio $Q_1 : Q_2$.",
+                    "answer": "**Given:**\nShell 1: Radius $r_1 = R$, Charge $Q_1$. Surface Charge Density $\\sigma_1$.\nShell 2: Radius $r_2 = 2R$, Charge $Q_2$. Surface Charge Density $\\sigma_2$.\nCondition: $\\sigma_1 = \\sigma_2$.\n\n**Formula:**\n$\\sigma = \\frac{\\text{Charge}}{\\text{Area}}$\n\n**Calculation:**\n$\\sigma_1 = \\frac{Q_1}{4\\pi R^2}$\n$\\sigma_2 = \\frac{Q_2}{4\\pi (2R)^2} = \\frac{Q_2}{16\\pi R^2}$\n\nEquating $\\sigma_1 = \\sigma_2$:\n$\\frac{Q_1}{4\\pi R^2} = \\frac{Q_2}{16\\pi R^2}$\n$\\frac{Q_1}{1} = \\frac{Q_2}{4}$\n\n$\\frac{Q_1}{Q_2} = \\frac{1}{4}$\n\n**Answer:** Ratio $Q_1 : Q_2 = 1:4$."
+                },
+                {
+                    "id": 27,
+                    "question": "Sketch the pattern of electric field lines for:\n(i) Two equal positive charges placed near each other.\n(ii) An electric dipole.\n(iii) A uniform electric field.",
+                    "answer": "**(i) Two Equal Positive Charges:**\n\n* Lines originate from both charges.\n* They repel each other sideways.\n* There is a neutral point (null point) exactly midway between them where no lines pass.\n\n**(ii) An Electric Dipole (+q and -q):**\n\n[Image of electric field lines dipole]\n\n* Lines originate from +q and terminate on -q.\n* Lines are curved and continuous.\n* Density is high between the charges.\n\n**(iii) Uniform Electric Field:**\n\n* Parallel, equidistant straight lines.\n* Indicates constant magnitude and direction."
+                },
+                {
+                    "id": 28,
+                    "question": "A uniformly charged conducting sphere of 2.4 m diameter has a surface charge density of $80.0 \\mu C/m^2$.\n(a) Find the charge on the sphere.\n(b) What is the total electric flux leaving the surface of the sphere?",
+                    "answer": "**Given:**\nDiameter $D = 2.4$ m $\\implies$ Radius $r = 1.2$ m.\nSurface Charge Density $\\sigma = 80.0 \\mu C/m^2 = 80 \\times 10^{-6} C/m^2$.\n\n**(a) Charge on Sphere ($q$):**\n$q = \\sigma \\times \\text{Area} = \\sigma \\times 4\\pi r^2$\n$q = 80 \\times 10^{-6} \\times 4 \\times 3.1416 \\times (1.2)^2$\n$q = 80 \\times 10^{-6} \\times 12.566 \\times 1.44$\n$q \\approx 1.45 \\times 10^{-3} \\text{ C}$ (or $1.45$ mC).\n\n**(b) Total Electric Flux ($\\phi$):**\nUsing Gauss's Law: $\\phi = \\frac{q}{\\epsilon_0}$\n$\\phi = \\frac{1.45 \\times 10^{-3}}{8.854 \\times 10^{-12}}$\n$\\phi \\approx 1.64 \\times 10^8 \\text{ N m}^2/\\text{C}$."
+                }
+            ]
+        },
+        {
+            "section_id": "D",
+            "section_name": "Case Study Questions",
+            "question_type": "competency",
+            "questions": [
+                {
+                    "id": 29,
+                    "question": "**Case Study: Electrostatic Shielding**\n\nConductors contain free charge carriers. When placed in an external electric field, these carriers redistribute themselves until the net electric field inside the conductor becomes zero. This phenomenon is known as electrostatic shielding. Because the field is zero inside a cavity within a conductor, sensitive instruments can be protected from external electric fields by placing them inside such cavities. A common example is a Faraday cage.\n\n(i) What is the value of the electric field inside the cavity of a hollow charged conductor?\n(ii) Why does the electric field at the surface of a charged conductor have to be normal to the surface?\n(iii) A bird perches on a high-power electric line and nothing happens to it. A man standing on the ground touches the same line and gets a fatal shock. Why?\nOR\n(iii) Plot a graph showing the variation of Potential (V) with distance (r) from the center of a charged conducting shell of radius R.",
+                    "answer": "**(i)** Zero. The electric field inside the cavity of a hollow conductor is always zero, regardless of the charge on the surface or external fields.\n\n**(ii)** If the field were not normal, it would have a tangential component along the surface. This component would exert a force on the surface charges, causing them to flow (current). In static equilibrium, no current flows, so the tangential component must be zero. Thus, the field must be perpendicular.\n\n**(iii)** Current flows due to potential difference. \n* **Bird:** The bird's body is at the same potential as the wire (both feet on the wire). Potential difference is negligible, so no current flows through the bird.\n* **Man:** The man touches the high-potential wire while standing on the ground (zero potential). A huge potential difference exists, driving a fatal current through his body to the earth.\n\n**OR (iii) Graph:**\n* For $r < R$: $V = \\text{constant} = \\frac{kQ}{R}$.\n* For $r \\ge R$: $V \\propto \\frac{1}{r}$.\n* Graph shows a horizontal line from $r=0$ to $r=R$, then a hyperbola decreasing for $r>R$."
+                },
+                {
+                    "id": 30,
+                    "question": "**Case Study: Electric Flux and Gaussian Surfaces**\n\nGauss’s Law is a powerful tool in electrostatics, relating the total electric flux flowing out of a closed surface to the net charge enclosed by the surface. $\\phi = \\oint \\vec{E} \\cdot d\\vec{A} = q_{in}/\\epsilon_0$. This law implies that the total flux is independent of the shape and size of the surface, provided the enclosed charge remains constant. It also suggests that sources (positive charges) produce outward flux and sinks (negative charges) produce inward flux.\n\n(i) A point charge $q$ is placed at the center of a sphere of radius $R$. If the radius is doubled to $2R$, how does the flux change?\n(ii) Figure shows three Gaussian surfaces $S_1, S_2, S_3$ enclosing charges $+2q$ and $-q$. What is the electric flux through surface $S_2$ which encloses only the $-q$ charge?\n(iii) The electric field in a region is given by $\\vec{E} = \\alpha x \\hat{i}$. Find the net flux through a cube of side $a$ placed with one corner at the origin and edges along the axes.\nOR\n(iii) If the net flux through a closed surface is zero, does it imply that the electric field is zero everywhere on the surface? Explain.",
+                    "answer": "**(i)** The flux remains unchanged ($\\phi = q/\\epsilon_0$). Flux depends only on the enclosed charge, not the size of the Gaussian surface.\n\n**(ii)** Surface $S_2$ encloses only the charge $-q$. \nFlux $\\phi_{S2} = \\frac{-q}{\\epsilon_0}$.\n\n**(iii)**\n* **Given:** $\\vec{E} = \\alpha x \\hat{i}$. Field depends on $x$.\n* **Faces:** Flux is non-zero only for faces perpendicular to x-axis.\n* **Left Face (at x=0):** $E = 0$. $\\phi_L = 0$.\n* **Right Face (at x=a):** $E = \\alpha a$. Area $\\vec{A} = a^2 \\hat{i}$.\n* **Flux:** $\\phi_R = \\vec{E} \\cdot \\vec{A} = (\\alpha a)(a^2) = \\alpha a^3$.\n* **Net Flux:** $\\phi_{net} = \\alpha a^3$.\n\n**OR (iii)**\nNo. Zero net flux means the *net* enclosed charge is zero ($q_{in}=0$). The electric field on the surface might be non-zero due to charges outside the surface. The number of field lines entering equals the number of lines leaving, canceling the flux, but the field itself exists."
+                }
+            ]
+        },
+        {
+            "section_id": "E",
+            "section_name": "Long Answer Questions",
+            "question_type": "derivation",
+            "questions": [
+                {
+                    "id": 31,
+                    "question": "(a) State Gauss’s Law in electrostatics.\n(b) Using this law, derive an expression for the electric field due to a uniformly charged infinite straight wire of linear charge density $\\lambda$.\n(c) Plot a graph showing the variation of electric field $E$ with distance $r$ from the wire.",
+                    "answer": "**(a) Gauss's Law:**\nIt states that the total electric flux $\\phi_E$ through a closed surface is equal to $\\frac{1}{\\epsilon_0}$ times the net charge $q_{in}$ enclosed by the surface.\n$\\oint \\vec{E} \\cdot d\\vec{A} = \\frac{q_{in}}{\\epsilon_0}$\n\n**(b) Derivation (Infinite Wire):**\n1.  **Symmetry:** For a positively charged infinite wire with density $\\lambda$, the field $\\vec{E}$ is radial and outward. Magnitude depends only on perpendicular distance $r$.\n2.  **Gaussian Surface:** Choose a cylinder of radius $r$ and length $L$ coaxial with the wire.\n3.  **Flux Calculation:**\n    * **Curved Surface:** $\\vec{E} \\parallel d\\vec{A}$ (both radial). $\\int E dA = E(2\\pi r L)$.\n    * **Flat Ends:** $\\vec{E} \\perp d\\vec{A}$. Flux = 0.\n    * **Total Flux:** $\\phi = E(2\\pi r L)$.\n4.  **Enclosed Charge:**\n    $q_{in} = \\lambda L$.\n5.  **Apply Law:**\n    $E(2\\pi r L) = \\frac{\\lambda L}{\\epsilon_0}$\n    $E = \\frac{\\lambda}{2\\pi\\epsilon_0 r}$\n\n**(c) Graph:**\n* Equation: $E \\propto \\frac{1}{r}$.\n* Plot: A rectangular hyperbola in the first quadrant with $E$ on y-axis and $r$ on x-axis.\n"
+                },
+                {
+                    "id": 32,
+                    "question": "(a) Define Electric Dipole Moment. What is its direction?\n(b) Derive an expression for the electric field intensity at a point on the axial line of an electric dipole of dipole moment $p$ and length $2a$. \n(c) How does the field behave at large distances ($r \\gg a$)?",
+                    "answer": "**(a) Electric Dipole Moment:**\nProduct of the magnitude of one charge and the distance between them. $\\vec{p} = q(2\\vec{a})$.\n**Direction:** From negative charge to positive charge.\n\n**(b) Derivation (Axial Line):**\n1.  Consider dipole $-q$ at A, $+q$ at B. Distance $AB=2a$. Center O.\n2.  Point P is on the axis at distance $r$ from O.\n3.  Distance BP = $r-a$. Distance AP = $r+a$.\n4.  **Field due to +q:** $E_+ = \\frac{kq}{(r-a)^2}$ (Away from dipole).\n5.  **Field due to -q:** $E_- = \\frac{kq}{(r+a)^2}$ (Towards dipole).\n6.  **Net Field:** Since $E_+ > E_-$, net field is away.\n    $E_{axis} = E_+ - E_- = kq \\left[ \\frac{1}{(r-a)^2} - \\frac{1}{(r+a)^2} \\right]$\n    $E_{axis} = kq \\left[ \\frac{(r+a)^2 - (r-a)^2}{(r^2-a^2)^2} \\right]$\n    Using $(A+B)^2 - (A-B)^2 = 4AB$:\n    $E_{axis} = kq \\frac{4ra}{(r^2-a^2)^2}$\n    Rearranging ($2aq = p$):\n    $E_{axis} = \\frac{2kpr}{(r^2-a^2)^2}$\n\n**(c) Large Distance ($r \\gg a$):**\nIgnore $a^2$ in denominator.\n$E_{axis} \\approx \\frac{2kpr}{r^4} = \\frac{2kp}{r^3}$.\nField falls off as $1/r^3$."
+                },
+                {
+                    "id": 33,
+                    "question": "(a) Derive the expression for the energy stored in a parallel plate capacitor (Concept Link: Though Chapter 2, often linked with Fields via Energy Density). *Correction for Chapter 1 focus*: \n(a) Two point charges $4Q$ and $Q$ are separated by 1 meter in air. At what point on the line joining the charges is the electric field intensity zero?\n(b) Also calculate the electrostatic potential energy of the system if a third charge $q$ is placed at that null point.\n(c) Is the equilibrium of the charge $q$ stable or unstable?",
+                    "answer": "**(a) Null Point Calculation:**\nLet the null point be at distance $x$ from $4Q$.\nDistance from $Q$ will be $(1-x)$.\nFor field to be zero, magnitudes must be equal:\n$E_{4Q} = E_Q$\n$\\frac{k(4Q)}{x^2} = \\frac{k(Q)}{(1-x)^2}$\nTaking square root:\n$\\frac{2}{x} = \\pm \\frac{1}{1-x}$\nCase 1: $2(1-x) = x \\implies 2 - 2x = x \\implies 3x = 2 \\implies x = 2/3$ m.\nCase 2: $2(1-x) = -x$ (Result outside, rejected for like charges between them).\n**Answer:** At $2/3$ m from $4Q$ charge.\n\n**(b) Potential Energy of System:**\nTotal $U = U_{12} + U_{13} + U_{23}$\n$U = k \\left[ \\frac{4Q \\cdot Q}{1} + \\frac{4Q \\cdot q}{2/3} + \\frac{Q \\cdot q}{1/3} \\right]$\n$U = kQ \\left[ 4Q + 6q + 3q \\right] = kQ(4Q + 9q)$.\n\n**(c) Stability:**\n* Displace $+q$ slightly along the axis towards $Q$. The repulsive force from $Q$ increases ($1/r^2$ rises fast), pushing it back. Stable for axial displacement.\n* Displace $+q$ perpendicular to axis. Repulsion from both $4Q$ and $Q$ pushes it further away. Unstable for perpendicular displacement.\n* Generally termed **unstable** (Earnshaw's Theorem)."
+                }
+            ]
+        }
+    ]
+}

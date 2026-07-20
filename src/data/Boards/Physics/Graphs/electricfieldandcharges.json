@@ -1,0 +1,249 @@
+[
+  {
+    "chapter_graph_bank": {
+      "chapter_number": 1,
+      "chapter_name": "Electric Charges and Fields",
+      "graphs": [
+        {
+          "graph_id": "CH1-GR-01",
+          "title": "Coulomb Force vs. Reciprocal Square Distance",
+          "ncert_reference_section": "Section 1.5",
+          "base_axis_definition": {
+            "x_axis": "Reciprocal Square of Distance, $\\\\frac{1}{r^{2}}$ ($\\\\text{m}^{-2}$)",
+            "y_axis": "Electrostatic Force, $F$ ($\\\\text{N}$)"
+          },
+          "base_governing_equations": [
+            "F = \\frac{1}{4\\pi\\epsilon_{0}}\\frac{|q_{1}q_{2}|}{r^{2}}",
+            "F = m \\cdot x \\quad \\text{where} \\quad m = \\frac{1}{4\\pi\\epsilon_{0}}|q_{1}q_{2}| \\quad \\text{and} \\quad x = \\frac{1}{r^{2}}"
+          ],
+          "non_negotiable_visual_checkpoints": [
+            "The plotted linear ray must extrapolate exactly through the coordinate origin (0,0); any horizontal or vertical offset results in an immediate 0.5-mark deduction by the examiner.",
+            "When contrasting distinct charge pairs on the same grid, the line tracking the larger product magnitude $|q_{1}q_{2}|$ must be drawn with a strictly steeper geometric angle satisfying $\\\\theta_{\\\\text{pair1}} > \\\\theta_{\\\\text{pair2}}$ relative to the horizontal axis."
+          ],
+          "vector_render_instruction": "A dark-mode vector canvas layout using a pure charcoal black background #0a0a0f with muted white coordinate grid lines. The plot features two distinct primary ray vectors drawn in neon cyan (#00f2ff) starting at an origin point at local coordinates (50, 450) and extending linearly into the first quadrant. Line 1 has a steeper geometric slope terminating at point (400, 100), labeled with a LaTeX text anchor for $|q_{1}q_{2}|$. Line 2 has a shallower slope terminating at point (450, 250), labeled with a text anchor for $|q_{2}q_{3}|$. The horizontal axis is explicitly labeled as $\\\\frac{1}{r^{2}} \\\\text{ (m}^{-2}\\\\text{)}$ and the vertical axis is anchored as $F \\\\text{ (N)}$. The first 5% of both linear curves near the origin must be rendered as dashed lines to denote the physical asymptotic limitation at infinite distance.",
+          "axis_transformations": [
+            {
+              "transformation_title": "Direct Radial Distance Plot",
+              "mutated_x_axis": "Radial Separation, $r$ ($\\\\text{m}$)",
+              "mutated_y_axis": "Electrostatic Force, $F$ ($\\\\text{N}$)",
+              "algebraic_derivation": "\\frac{\\text{d}F}{\\text{d}r} = \\frac{\\text{d}}{\\text{d}r}\\left(\\frac{1}{4\\pi\\epsilon_{0}}\\frac{|q_{1}q_{2}|}{r^{2}}\\right) = -\\frac{2|q_{1}q_{2}|}{4\\pi\\epsilon_{0}r^{3}}",
+              "geometric_transformation_description": "The curve transforms from a linear ray originating from the coordinate origin into a non-linear, rectangular-type hyperbola confined to the first quadrant that decays asymptotically toward both axes without ever intersecting them at any finite coordinates."
+            },
+            {
+              "transformation_title": "Logarithmic Linearization",
+              "mutated_x_axis": "Natural Logarithm of Separation, $\\ln(r)$",
+              "mutated_y_axis": "Natural Logarithm of Force, $\\ln(F)$",
+              "algebraic_derivation": "\\ln(F) = \\ln\\left(\\frac{|q_{1}q_{2}|}{4\\pi\\epsilon_{0}r^{2}}\\right) = \\ln\\left(\\frac{|q_{1}q_{2}|}{4\\pi\\epsilon_{0}}\\right) - 2\\ln(r)",
+              "geometric_transformation_description": "The non-linear hyperbolic relationship is converted into a flawless straight line with a constant negative slope of exactly $m = -2$, where the vertical intercept on the $\\\\ln(F)$ axis yields the value of $\\\\ln\\\\left(\\\\frac{|q_{1}q_{2}|}{4\\\\pi\\\\epsilon_{0}}\\\\right)$."
+            }
+          ],
+          "constraint_and_medium_mutations": [
+            {
+              "scenario_modification": "Fluid Dielectric Ingestion with Relative Permittivity $K$",
+              "visual_impact_on_grid": "The slope of the $F$ vs. $\\\\frac{1}{r^{2}}$ line experiences a severe vertical compression, shrinking by a factor of $K$. For a uniform medium with $K=4$, the entire line rotates clockwise toward the horizontal axis, dropping its slope by exactly 75% and forcing the medium trace to lie strictly below the baseline vacuum plot."
+            }
+          ],
+          "examiner_deduction_traps": [
+            {
+              "trap_title": "The Solid Origin Intersection Error",
+              "description": "Students draw a solid line continuously through the coordinate origin (0,0), failing to recognize that a value of $\\\\frac{1}{r^{2}} = 0$ physically requires an infinite separation distance ($r \\\\to \\\\infty$).",
+              "structural_shield": "Listen to me closely: never let your pen make a solid mark all the way to the absolute origin. You must draw a dashed or dotted segment for the final 5% of the curve as it approaches the origin to explicitly indicate the physical limit of infinite distance, breaking the scale cleanly if necessary to show it doesn't touch as a solid entity."
+            }
+          ],
+          "topper_execution_logic": "Examiners are scanning your sheet for one thing: relative geometric comparison. When you get a question comparing two charge pairs, do not just guess or draw random lines. Use the slope definition $m = \\\\frac{|q_{1}q_{2}|}{4\\\\pi\\\\epsilon_{0}}$ to explicitly compute which product is greater, and make sure the larger product line is noticeably steeper on the paper. Label the angles explicitly as $\\\\theta_{1}$ and $\\\\theta_{2}$ to eliminate any subjective grading bias from a tired human checker."
+        },
+        {
+          "graph_id": "CH1-GR-02",
+          "title": "Spherical Shell Electric Field Distribution",
+          "ncert_reference_section": "Section 1.15.2",
+          "base_axis_definition": {
+            "x_axis": "Radial Distance from Shell Center, $r$ ($\\\\text{m}$)",
+            "y_axis": "Electric Field Intensity, $E$ ($\\\\text{N C}^{-1}$)"
+          },
+          "base_governing_equations": [
+            "E = 0 \\quad \\text{for} \\quad r < R",
+            "E = \\frac{q}{4\\pi\\epsilon_{0}R^{2}} \\quad \\text{for} \\quad r = R",
+            "E = \\frac{q}{4\\pi\\epsilon_{0}r^{2}} \\quad \\text{for} \\quad r > R"
+          ],
+          "non_negotiable_visual_checkpoints": [
+            "A thick, bold line must be drawn directly along the horizontal distance axis from $r=0$ to $r=R$ to verify a zero-field interior; blank gaps are treated as unplotted regions and docked 0.5 marks.",
+            "At the exact coordinate boundary $r=R$, a vertical dashed transition line must connect the zero-field baseline to the maximum peak field value $E_{\\\\text{max}} = \\\\frac{\\\\sigma}{\\\\epsilon_{0}}$ to visually satisfy the step-discontinuity across the charged surface shell boundary."
+          ],
+          "vector_render_instruction": "A dark-mode schematic positioned over a solid background of hex #0a0a0f with fine white structural grid lines. The graph plots a piece-wise step function: from coordinate $r=0$ to $r=R$, a solid thick indicator line runs dead flat over the x-axis, terminating at an open circle at $(R, 0)$. A vertical dashed line then jumps upwards to a solid dot at peak coordinate $(R, E_{\\\\text{max}})$, where the maximum point is highlighted in neon green (#00ff66). From $(R, E_{\\\\text{max}})$, a smooth quadratic hyperbolic decay curve arcs into the first quadrant, mathematically satisfying $E \\\\propto \\\\frac{1}{r^{2}}$. The independent axis is explicitly labeled as $r \\\\text{ (m)}$ at the rightmost tail, and the dependent axis is labeled as $E \\\\text{ (N C}^{-1}\\\\text{)}$ at the top apex.",
+          "axis_transformations": [
+            {
+              "transformation_title": "Linearizing the External Decay Domain",
+              "mutated_x_axis": "Reciprocal Square Distance, $\\\\frac{1}{r^{2}}$ ($\\\\text{m}^{-2}$)",
+              "mutated_y_axis": "Electric Field, $E$ ($\\\\text{N C}^{-1}$)",
+              "algebraic_derivation": "E = \\frac{q}{4\\pi\\epsilon_{0}} \\cdot \\left(\\frac{1}{r^{2}}\\right) \\implies E = m \\cdot x \\quad \\text{where} \\quad m = \\frac{q}{4\\pi\\epsilon_{0}} \\quad \\text{and} \\quad x \\le \\frac{1}{R^{2}}",
+              "geometric_transformation_description": "The external decay domain converts from a curved hyperbola into a perfectly straight line with a constant positive slope, starting abruptly at the coordinate value $x = \\\\frac{1}{R^{2}}$ and aiming linearly toward the origin."
+            },
+            {
+              "transformation_title": "Bilinear Logarithmic Mapping",
+              "mutated_x_axis": "Natural Logarithm of Radial Distance, $\\\\ln(r)$",
+              "mutated_y_axis": "Natural Logarithm of Electric Field, $\\\\ln(E)$",
+              "algebraic_derivation": "\\text{For } r < R, \\ln(0) \\text{ is undefined. For } r \\ge R: \\ln(E) = \\ln\\left(\\frac{q}{4\\pi\\epsilon_{0}r^{2}}\\right) = \\ln\\left(\\frac{q}{4\\pi\\epsilon_{0}}\\right) - 2\\ln(r)",
+              "geometric_transformation_description": "The graph is entirely restricted to the region where $r \\\\ge R$, manifesting as a downward straight line with a constant negative slope of exactly $-2$, beginning with an open boundary at $r = R$."
+            }
+          ],
+          "constraint_and_medium_mutations": [
+            {
+              "scenario_modification": "Transition to a Uniformly Charged Solid Insulating Sphere",
+              "visual_impact_on_grid": "The flat zero-field interior region is completely replaced by a linear field growth profile. The curve now originates directly at $(0,0)$ and ascends linearly with a constant positive slope ($E \\\\propto r$) until it meets the absolute maximum peak at the surface boundary $r=R$, before smoothly transitioning into the standard external inverse-square hyperbolic decay."
+            },
+            {
+              "scenario_modification": "Immersing the External Shell Region in a Uniform Dielectric Medium ($K$)",
+              "visual_impact_on_grid": "While the interior field remains strictly zero, the maximum peak field at $r=R$ drops vertically by an exact factor of $K$. The subsequent external curve decay is compressed vertically, running closer to the horizontal axis at all coordinate points where $r > R$."
+            }
+          ],
+          "examiner_deduction_traps": [
+            {
+              "trap_title": "The Continuous Parabolic Origin Trap",
+              "description": "Students frequently blend the interior and exterior domains into a single continuous curved arc that mistakenly starts at the origin (0,0), peaks smoothly at $r=R$, and decays, which incorrectly describes an insulating solid sphere instead of a hollow shell.",
+              "structural_shield": "Here is your defensive weapon: you must draw an explicit open circle at the coordinate point $(R, 0)$ to show the zero-field interior does not contain the boundary value, and place a prominent, solid filled dot at $(R, E_{\\\\text{max}})$ to establish the precise starting coordinate of the external domain. This step-discontinuity is what checkers look for first."
+            }
+          ],
+          "topper_execution_logic": "Examiners allocate serious marks exclusively to the discontinuity. If you just draw a casual vertical line, they might think you are guessing. Make sure that vertical line at $r=R$ is cleanly dashed, and label your peak value precisely as $E_{\\\\text{max}} = \\\\frac{q}{4\\\\pi\\\\epsilon_{0}R^{2}}$ right next to the solid dot. It proves you understand the mathematical boundary jump."
+        },
+        {
+          "graph_id": "CH1-GR-03",
+          "title": "Infinite Line Charge Radial Field Decay",
+          "ncert_reference_section": "Section 1.15.1",
+          "base_axis_definition": {
+            "x_axis": "Radial Perpendicular Distance, $r$ ($\\\\text{m}$)",
+            "y_axis": "Electric Field Intensity, $E$ ($\\\\text{N C}^{-1}$)"
+          },
+          "base_governing_equations": [
+            "E = \\frac{\\lambda}{2\\pi\\epsilon_{0}r}"
+          ],
+          "non_negotiable_visual_checkpoints": [
+            "The decay curve must be drawn strictly parallel to both the vertical E-axis and horizontal r-axis at extreme coordinates, demonstrating exact asymptotic behavior without ever intersecting either line.",
+            "The inverse proportionality condition $E \\\\propto \\\\frac{1}{r}$ must be clearly written out and explicitly labeled right on top of the active curve segment."
+          ],
+          "vector_render_instruction": "A high-contrast dark-mode presentation with a background value of #0a0a0f and white axis framing lines. A primary hyperbolic curve is drawn in bright electric violet (#b500ff), starting at coordinate positions close to the top of the vertical axis and dropping smoothly as it tracks toward the right. The horizontal axis is labeled as radial distance $r \\\\text{ (m)}$ and the vertical axis as $E \\\\text{ (N C}^{-1}\\\\text{)}$. To highlight the slower decay rate, a secondary reference line for a point charge is rendered below it in a faint gray color, showing a steeper fall-off. A text anchor containing $E \\\\propto \\\\frac{1}{r}$ is fixed at the center of the violet curve.",
+          "axis_transformations": [
+            {
+              "transformation_title": "Linearizing the Hyperbolic Decay",
+              "mutated_x_axis": "Reciprocal Distance, $\\\\frac{1}{r}$ ($\\\\text{m}^{-1}$)",
+              "mutated_y_axis": "Electric Field, $E$ ($\\\\text{N C}^{-1}$)",
+              "algebraic_derivation": "E = \\frac{\\lambda}{2\\pi\\epsilon_{0}} \\cdot \\left(\\frac{1}{r}\\right) \\implies E = m \\cdot u \\quad \\text{where} \\quad m = \\frac{\\lambda}{2\\pi\\epsilon_{0}} \\quad \\text{and} \\quad u = \\frac{1}{r}",
+              "geometric_transformation_description": "The non-linear hyperbola scales into a clean straight line passing directly through the origin with a constant positive slope proportional to the linear charge density $\\\\lambda$."
+            },
+            {
+              "transformation_title": "Log-Log Linearization",
+              "mutated_x_axis": "Natural Logarithm of Distance, $\\\\ln(r)$",
+              "mutated_y_axis": "Natural Logarithm of Electric Field, $\\\\ln(E)$",
+              "algebraic_derivation": "\\ln(E) = \\ln\\left(\\frac{\\lambda}{2\\pi\\epsilon_{0}r}\\right) = \\ln\\left(\\frac{\\lambda}{2\\pi\\epsilon_{0}}\\right) - \\ln(r)",
+              "geometric_transformation_description": "The relationship plots as a downward straight line with a constant slope of exactly $-1$, creating a visual contrast against the steeper $-2$ slope characteristic of isolated point charges."
+            }
+          ],
+          "constraint_and_medium_mutations": [
+            {
+              "scenario_modification": "Charge Density Contrast with Multiple Parallel Wires",
+              "visual_impact_on_grid": "When plotting two separate wires where $\\\\lambda_{1} > \\\\lambda_{2}$, the curve tracking $\\\\lambda_{1}$ must stay strictly above the curve for $\\\\lambda_{2}$ across all radial coordinates. On a linearized $E$ vs. $\\\\frac{1}{r}$ coordinate grid, the line representing $\\\\lambda_{1}$ must showcase a noticeably steeper linear slope."
+            }
+          ],
+          "examiner_deduction_traps": [
+            {
+              "trap_title": "The Spherical Decay Curvature Trap",
+              "description": "Students frequently sketch the inverse-linear decay curve ($E \\\\propto \\\\frac{1}{r}$) of a line charge with the exact same visual curvature and steepness as the inverse-square decay curve ($E \\\\propto \\\\frac{1}{r^{2}}$) of a point charge, failing to show that cylindrical fields decay slower.",
+              "structural_shield": "Protect your score with this formatting shield: if a question or subpart asks you to contrast or draw these fields, ensure your line charge curve is drawn with a shallower drop, remaining strictly higher up from the x-axis than the point charge curve at large distances. Write the formulas directly next to each curve to force the evaluator to award full credit."
+            }
+          ],
+          "topper_execution_logic": "Do not just drop a generic curve on the page. Human examiners check thousands of copies; they look at the tail end of the hyperbola. If your curve accidentally touches or crosses the x-axis at the right edge of your sketch, you lose half a mark instantly. Keep it parallel to the axis as it exits your drawing field, and explicitly write out the proportionality label."
+        },
+        {
+          "graph_id": "CH1-GR-04",
+          "title": "Infinite Plane Sheet Distance Independence",
+          "ncert_reference_section": "Section 1.15.2",
+          "base_axis_definition": {
+            "x_axis": "Distance from Plane Sheet, $r$ ($\\\\text{m}$)",
+            "y_axis": "Electric Field Intensity, $E$ ($\\\\text{N C}^{-1}$)"
+          },
+          "base_governing_equations": [
+            "E = \\frac{\\sigma}{2\\epsilon_{0}}"
+          ],
+          "non_negotiable_visual_checkpoints": [
+            "The plotted profile must be a perfectly flat, horizontal straight line running exactly parallel to the distance axis to verify absolute distance independence.",
+            "The vertical axis y-intercept must be explicitly labeled with its exact mathematical value: $E = \\\\frac{\\\\sigma}{2\\\\epsilon_{0}}$."
+          ],
+          "vector_render_instruction": "A dark-mode vector presentation centered on a #0a0a0f background frame with sharp white axis guidelines. The plot consists of a single perfectly horizontal ray line rendered in vibrant neon amber (#ffaa00), running parallel to the horizontal axis at a fixed vertical coordinate height. The y-intercept is marked with a clean white crosshair line and labeled with a LaTeX text anchor for $\\\\frac{\\\\sigma}{2\\\\epsilon_{0}}$. The x-axis is labeled as distance $r \\\\text{ (m)}$ and the y-axis is labeled as $E \\\\text{ (N C}^{-1}\\\\text{)}$. The text formula $E \\\\propto r^{0}$ is anchored directly above the horizontal amber trace to emphasize distance independence.",
+          "axis_transformations": [
+            {
+              "transformation_title": "Transverse Coordinate Shifting",
+              "mutated_x_axis": "Linear Position Coordinate, $x$ (spanning both $-x$ and $+x$ domains)",
+              "mutated_y_axis": "Vector Component of Electric Field, $E_{x}$ ($\\\\text{N C}^{-1}$)",
+              "algebraic_derivation": "E_{x} = +\\frac{\\sigma}{2\\epsilon_{0}} \\quad \\text{for} \\quad x > 0 \\quad \\text{and} \\quad E_{x} = -\\frac{\\sigma}{2\\epsilon_{0}} \\quad \\text{for} \\quad x < 0",
+              "geometric_transformation_description": "The plot transforms into an explicit step-discontinuity localized at $x=0$, rendering as a flat horizontal line at $y = +\\\\frac{\\\\sigma}{2\\\\epsilon_{0}}$ in the first quadrant, and an identical horizontal line at $y = -\\\\frac{\\\\sigma}{2\\\\epsilon_{0}}$ in the third quadrant."
+            }
+          ],
+          "constraint_and_medium_mutations": [
+            {
+              "scenario_modification": "Dual Oppositely Charged Parallel Infinite Sheets",
+              "visual_impact_on_grid": "For two parallel sheets with surface charge densities $+\\\\sigma$ and $-\\\\sigma$ separated by a distance $d$, the field value morphs into a multi-segment step function. The graph stays perfectly flat on the zero-axis in Region I ($x<0$), jumps to an elevated flat line at $E = \\\\frac{\\\\sigma}{\\\\epsilon_{0}}$ in Region II ($0<x<d$), and drops back to flat zero on the axis in Region III ($x>d$)."
+            },
+            {
+              "scenario_modification": "Dielectric Medium Insertion with Constant $K$",
+              "visual_impact_on_grid": "The electric field drops to a value of $E = \\\\frac{\\\\sigma}{2K\\\\epsilon_{0}}$. Visually, the entire horizontal line shifts vertically downward toward the distance axis while remaining perfectly parallel to it."
+            }
+          ],
+          "examiner_deduction_traps": [
+            {
+              "trap_title": "The Distance-Decay Assumption Trap",
+              "description": "Students frequently fall back on intuition and draw a line that gradually decays or curves downward, under the false assumption that all electric fields must get weaker over distance, completely ignoring the infinite plane approximation.",
+              "structural_shield": "Here is your coaching blueprint to block this trap: use your ruler to draw a line that is perfectly parallel to the distance axis. To leave absolutely zero room for an examiner to doubt your intent, write the mathematical statement $E \\\\propto r^{0}$ directly on top of the horizontal line and clearly circle the y-intercept with the exact formula."
+            }
+          ],
+          "topper_execution_logic": "Examiners love testing this because it defies unguided student intuition. If a question introduces a trick scenario involving a 'finite sheet at massive distances', do not draw a flat line—the field will decay like a point charge. But for the standard infinite derivation question, a flat line is mandatory. Weaponize the $r^{0}$ label to show you understand that the flux remains constant because the area of the Gaussian pillbox doesn't depend on distance."
+        },
+        {
+          "graph_id": "CH1-GR-05",
+          "title": "Kinematic Acceleration of a Released Charge",
+          "ncert_reference_section": "Sections 1.5 & 1.8",
+          "base_axis_definition": {
+            "x_axis": "Distance of Separation, $r$ ($\\\\text{m}$)",
+            "y_axis": "Instantaneous Acceleration, $a$ ($\\\\text{m s}^{-2}$)"
+          },
+          "base_governing_equations": [
+            "a = \\frac{1}{4\\pi\\epsilon_{0}}\\frac{|Qq|}{mr^{2}}"
+          ],
+          "non_negotiable_visual_checkpoints": [
+            "The decay curve must behave asymptotically as it approaches the horizontal separation axis, meaning it must never touch or intersect the x-axis at any finite distance coordinate.",
+            "The curve profile must present an exceptionally rapid rate of drop that visually maps to a quadratic hyperbola ($a \\\\propto \\\\frac{1}{r^{2}}$) rather than a slow linear decay or a simple inverse hyperbola ($1/r$)."
+          ],
+          "vector_render_instruction": "A crisp dark-mode interface centered on a solid charcoal grid space matching hex #0a0a0f with white axis borders. A steep inverse-square curve tracking acceleration is plotted in brilliant neon orange (#ff5500), sweeping down rapidly from high vertical coordinates and curving gently parallel to the x-axis. The vertical axis is explicitly labeled as instantaneous acceleration $a \\\\text{ (m s}^{-2}\\\\text{)}$ and the horizontal base line is marked as separation distance $r \\\\text{ (m)}$. A clear annotation label stating $a \\\\propto \\\\frac{1}{r^{2}}$ is anchored near the midsection of the curve, and a subtle dashed guide indicates the asymptotic trajectory at the right margin.",
+          "axis_transformations": [
+            {
+              "transformation_title": "Linearizing Acceleration",
+              "mutated_x_axis": "Reciprocal Square Distance, $\\\\frac{1}{r^{2}}$ ($\\\\text{m}^{-2}$)",
+              "mutated_y_axis": "Instantaneous Acceleration, $a$ ($\\\\text{m s}^{-2}$)",
+              "algebraic_derivation": "a = \\left(\\frac{|Qq|}{4\\pi\\epsilon_{0}m}\\right) \\cdot \\left(\\frac{1}{r^{2}}\\right) \\implies a = m_{a} \\cdot x \\quad \\text{where} \\quad m_{a} = \\frac{|Qq|}{4\\pi\\epsilon_{0}m}",
+              "geometric_transformation_description": "The non-linear inverse-square curve straightens into a perfectly uniform line passing directly through the origin with a constant positive slope defined by the charge-to-mass dynamic factors."
+            },
+            {
+              "transformation_title": "Velocity Phase-Space Plot",
+              "mutated_x_axis": "Separation Distance, $r$ ($\\\\text{m}$)",
+              "mutated_y_axis": "Instantaneous Velocity, $v$ ($\\\\text{m s}^{-1}$)",
+              "algebraic_derivation": "\\int_{0}^{v} v \\, \\text{d}v = \\int_{r_{0}}^{r} \\frac{|Qq|}{4\\pi\\epsilon_{0}m r^{2}} \\, \\text{d}r \\implies v(r) = \\sqrt{\\frac{2|Qq|}{4\\pi\\epsilon_{0}m}\\left(\\frac{1}{r_{0}} - \\frac{1}{r}\\right)}",
+              "geometric_transformation_description": "The velocity profile climbs rapidly into the quadrant starting from the release threshold $r = r_{0}$ on the distance axis, bending smoothly to approach a stable horizontal maximum ceiling velocity asymptotically."
+            }
+          ],
+          "constraint_and_medium_mutations": [
+            {
+              "scenario_modification": "Inertial Mass Scaling with Charge Variations",
+              "visual_impact_on_grid": "When comparing a proton ($q_{p}=e, m_{p}$) and an alpha particle ($q_{\\\\alpha}=2e, m_{\\\\alpha}=4m_{p}$), the acceleration equation yields a slope ratio of exactly 2:1 on a linearized $a$ vs. $\\\\frac{1}{r^{2}}$ grid. Consequently, the proton line must be plotted with precisely twice the geometric steepness of the alpha particle trace."
+            }
+          ],
+          "examiner_deduction_traps": [
+            {
+              "trap_title": "The Axis-Intersection Error",
+              "description": "Students often let their hand slip and draw the acceleration curve intersecting or touching the horizontal axis at a finite visible distance, which violates Coulomb's law by implying acceleration hits zero at a finite separation.",
+              "structural_shield": "Use this shield to save your marks: always flare the tail end of your curve upward slightly or draw it perfectly parallel to the distance axis as it reaches the edge of your page. Add an explicit arrow pointing to infinity at the tail, and write out $a \\\\to 0 \\\\text{ as } r \\\\to \\\\infty$ to show the checker your advanced grasp of limits."
+            }
+          ],
+          "topper_execution_logic": "This question is a favorite for sneaky 1-mark MCQs in Section A. Evaluators are setting a trap by placing an option with a standard hyperbola ($1/r$) right next to the correct inverse-square hyperbola ($1/r^{2}$). Don't fall for it by eyeballing it. Remember that acceleration directly inherits the inverse-square signature of the electric field ($a = \\\\frac{qE}{m}$), so your plot must decay drastically faster than a standard hyperbola. Explicitly note the mass dependency to smash any trick variations involving isotope comparisons."
+        }
+      ]
+    }
+  }
+]

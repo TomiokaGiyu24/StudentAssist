@@ -1,0 +1,433 @@
+{
+  "meta": {
+    "subject": "Physical Education",
+    "class": 12,
+    "board": "CBSE",
+    "chapter": "Psychology and Sports",
+    "total_questions": 20
+  },
+  "questions": [
+    {
+      "id": "CH9_MCQ_01",
+      "type": "mcq",
+      "marks": 1,
+      "priority": "P1",
+      "priority_reason": "Sheldon's classification is a recurring topic in MCQs involving body type identification.",
+      "question": "According to William Herbert Sheldon, which personality type is characterized by a round, soft body and a relaxed, sociable temperament?",
+      "options": {
+        "A": "Ectomorph",
+        "B": "Mesomorph",
+        "C": "Endomorph",
+        "D": "Ambivert"
+      },
+      "correct_option": "C",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "Endomorphs are characterized by a pear-shaped, round body with high fat storage and a sociable, relaxed personality (Viscerotonia).",
+        "key_points": [],
+        "final_answer": "Option C: Endomorph"
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "CH9_MCQ_02",
+      "type": "mcq",
+      "marks": 1,
+      "priority": "P1",
+      "priority_reason": "The Big Five Theory is a high-weightage topic; identifying specific traits like Neuroticism is common.",
+      "question": "In the 'Big Five Personality Theory', which trait is associated with emotional instability, anxiety, and mood swings?",
+      "options": {
+        "A": "Openness",
+        "B": "Conscientiousness",
+        "C": "Agreeableness",
+        "D": "Neuroticism"
+      },
+      "correct_option": "D",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "Neuroticism describes the tendency to experience negative emotions such as anxiety, anger, and depression. High scorers are emotionally unstable.",
+        "key_points": [],
+        "final_answer": "Option D: Neuroticism"
+      },
+      "source_basis": "PYQ | NCERT"
+    },
+    {
+      "id": "CH9_MCQ_03",
+      "type": "mcq",
+      "marks": 1,
+      "priority": "P2",
+      "priority_reason": "Differentiation between types of aggression is critical for conceptual clarity.",
+      "question": "Which type of aggression is driven by anger with the primary goal of causing physical injury to the opponent?",
+      "options": {
+        "A": "Instrumental Aggression",
+        "B": "Hostile Aggression",
+        "C": "Assertive Behavior",
+        "D": "Passive Aggression"
+      },
+      "correct_option": "B",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "Hostile aggression (also called reactive aggression) is impulsive and fueled by anger, with the sole intent of harming the other person.",
+        "key_points": [],
+        "final_answer": "Option B: Hostile Aggression"
+      },
+      "source_basis": "Reference Notes"
+    },
+    {
+      "id": "CH9_MCQ_04",
+      "type": "mcq",
+      "marks": 1,
+      "priority": "P2",
+      "priority_reason": "Tests understanding of intrinsic vs extrinsic motivation concepts.",
+      "question": "A student practices basketball daily because they find pure joy and satisfaction in playing. This is an example of:",
+      "options": {
+        "A": "Extrinsic Motivation",
+        "B": "Intrinsic Motivation",
+        "C": "Social Reinforcement",
+        "D": "Negative Motivation"
+      },
+      "correct_option": "B",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "Intrinsic motivation comes from within the individual, driven by interest, enjoyment, and personal satisfaction rather than external rewards.",
+        "key_points": [],
+        "final_answer": "Option B: Intrinsic Motivation"
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "CH9_AR_01",
+      "type": "assertion_reason",
+      "marks": 1,
+      "priority": "P1",
+      "priority_reason": "Addresses a specific PYQ concept regarding the relationship between motivation types.",
+      "question": "Assertion (A): Excessive use of extrinsic rewards can sometimes decrease intrinsic motivation.\nReason (R): The athlete may start focusing only on the reward rather than the enjoyment of the sport itself.",
+      "options": {
+        "A": "Both A and R are true and R is the correct explanation of A.",
+        "B": "Both A and R are true but R is not the correct explanation of A.",
+        "C": "A is true but R is false.",
+        "D": "A is false but R is true."
+      },
+      "correct_option": "A",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "When external rewards (money, trophies) become the primary focus, the internal desire (fun, passion) to perform the activity often diminishes. This is the 'overjustification effect'.",
+        "key_points": [],
+        "final_answer": "Option A: Both A and R are true and R is the correct explanation of A."
+      },
+      "source_basis": "PYQ"
+    },
+    {
+      "id": "CH9_AR_02",
+      "type": "assertion_reason",
+      "marks": 1,
+      "priority": "P2",
+      "priority_reason": "Clarifies the nature of aggression in sports context.",
+      "question": "Assertion (A): Assertive behavior in sports is classified as aggression.\nReason (R): Assertive behavior involves the use of legitimate force and high energy within the rules of the game to achieve a goal.",
+      "options": {
+        "A": "Both A and R are true and R is the correct explanation of A.",
+        "B": "Both A and R are true but R is not the correct explanation of A.",
+        "C": "A is true but R is false.",
+        "D": "A is false but R is true."
+      },
+      "correct_option": "D",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "Assertive behavior is NOT aggression because there is no intent to harm. It involves playing with high intensity within the rules. Therefore, A is false.",
+        "key_points": [],
+        "final_answer": "Option D: A is false but R is true."
+      },
+      "source_basis": "Reference Notes"
+    },
+    {
+      "id": "CH9_VSA_01",
+      "type": "very_short",
+      "marks": 2,
+      "priority": "P1",
+      "priority_reason": "Standard definition frequently asked in VSA.",
+      "question": "Define 'Personality'.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "**Definition**: Personality is the dynamic organization within the individual of those psychophysical systems that determine his unique adjustment to his environment.",
+          "**Simpler term**: It is the sum total of an individual's physical, mental, emotional, and social characteristics."
+        ],
+        "final_answer": "Personality is defined as the dynamic organization within the individual of those psychophysical systems that determine his unique adjustment to his environment. It encompasses the total pattern of characteristic ways of thinking, feeling, and behaving."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "CH9_VSA_02",
+      "type": "very_short",
+      "marks": 2,
+      "priority": "P2",
+      "priority_reason": "Newer topic in syllabus, likely for short definitions.",
+      "question": "What is meant by 'Exercise Adherence'?",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "**Definition**: The extent to which an individual maintains an active involvement in physical exercise.",
+          "**Concept**: It refers to sticking to an exercise program over a prolonged period despite distractions or lack of immediate results."
+        ],
+        "final_answer": "Exercise Adherence refers to the strength of an individual's commitment to performing physical exercise. It is the ability to maintain a regular exercise regimen over a long period of time without quitting."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "CH9_VSA_03",
+      "type": "very_short",
+      "marks": 2,
+      "priority": "P2",
+      "priority_reason": "Direct differentiation required for Jung's theory.",
+      "question": "Differentiate between 'Introverts' and 'Extroverts' as per Jung's classification.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "**Introverts**: Reserved, shy, self-centered, prefer solitude (e.g., writers).",
+          "**Extroverts**: Social, talkative, outgoing, comfortable in groups (e.g., politicians, team leaders)."
+        ],
+        "final_answer": "**Introverts** are individuals who are reserved, self-centered, and prefer solitude; they tend to be shy in social situations. **Extroverts** are outgoing, social, talkative, and energized by interacting with others."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "CH9_SA_01",
+      "type": "short",
+      "marks": 3,
+      "priority": "P1",
+      "priority_reason": "Core topic, frequently appearing in 3-mark category.",
+      "question": "Elucidate the 'Mesomorph' body type in Sheldon’s classification of personality.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": true,
+      "diagram_description": "Illustration of a Mesomorph body type: Athletic build, broad shoulders, narrow waist, muscular limbs, rectangular shape.",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "**Physical Traits**: Athletic, muscular, broad shoulders, narrow waist, strong bone structure.",
+          "**Personality (Somatotonia)**: Assertive, active, competitive, risk-taking, dominant.",
+          "**Sports Suitability**: Best suited for strength and speed sports like sprinting, wrestling, and football."
+        ],
+        "final_answer": "**Mesomorphs** are individuals with an athletic and muscular physique.\n\n* **Physical Characteristics:** They have broad shoulders, a narrow waist, and strong limbs. They gain muscle easily and have very little body fat.\n* **Personality Traits:** They are generally active, assertive, competitive, and adventurous. This temperament is known as 'Somatotonia'.\n* **Sports:** They excel in sports requiring strength, speed, and agility."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "CH9_SA_02",
+      "type": "short",
+      "marks": 3,
+      "priority": "P1",
+      "priority_reason": "Techniques of motivation are a standard application-based question.",
+      "question": "Discuss any three techniques of motivation used in sports.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "**Goal Setting**: Setting achievable short-term and long-term goals keeps athletes focused.",
+          "**Reinforcement (Rewards/Punishment)**: Praise, trophies, or constructive criticism can boost drive.",
+          "**Positive Self-Talk**: Internal dialogue to build confidence and reduce anxiety."
+        ],
+        "final_answer": "Three techniques of motivation in sports are:\n1.  **Goal Setting:** Setting specific, measurable, and achievable goals helps athletes stay focused and track their progress, acting as a strong motivator.\n2.  **Reinforcement (Rewards):** External rewards like trophies, scholarships, or verbal praise from the coach act as positive reinforcement to repeat desirable behavior.\n3.  **Positive Self-Talk:** Encouraging oneself through positive internal dialogue helps athletes overcome anxiety and maintain self-confidence during competition."
+      },
+      "source_basis": "NCERT | Reference Notes"
+    },
+    {
+      "id": "CH9_SA_03",
+      "type": "short",
+      "marks": 3,
+      "priority": "P2",
+      "priority_reason": "Requires distinguishing between subtle differences in aggression.",
+      "question": "Differentiate between 'Hostile Aggression' and 'Instrumental Aggression'.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "**Goal**: Hostile aims to harm; Instrumental aims to win.",
+          "**Cause**: Hostile is driven by anger; Instrumental is calculated.",
+          "**Example**: Hostile = punching a player out of rage; Instrumental = tackling hard to get the ball."
+        ],
+        "final_answer": "| Feature | Hostile Aggression | Instrumental Aggression |\n| :--- | :--- | :--- |\n| **Goal** | Primary goal is to inflict injury or psychological harm. | Primary goal is to achieve a non-aggressive end (e.g., winning), with harm being incidental. |\n| **Driver** | Driven by anger and impulsiveness. | Driven by tactical necessity; it is calculated. |\n| **Example** | Hitting an opponent out of frustration. | A rugby tackle made to stop a try. |"
+      },
+      "source_basis": "Reference Notes"
+    },
+    {
+      "id": "CH9_SA_04",
+      "type": "short",
+      "marks": 3,
+      "priority": "P2",
+      "priority_reason": "Exercise adherence strategies are a key part of the new syllabus.",
+      "question": "Suggest three strategies to enhance 'Exercise Adherence'.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "**Social Support**: Exercising with friends/family.",
+          "**Variety**: Changing routines to prevent boredom.",
+          "**Goal Setting**: Setting realistic targets."
+        ],
+        "final_answer": "Strategies to enhance Exercise Adherence include:\n1.  **Social Support:** Engaging friends or family members to exercise together increases accountability and makes the activity enjoyable.\n2.  **Add Variety:** Regularly changing the workout routine (e.g., mixing cardio with strength training) prevents boredom and keeps interest alive.\n3.  **Goal Setting:** Establishing simple, attainable, and time-bound goals helps individuals track progress and stay motivated."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "CH9_LA_01",
+      "type": "long",
+      "marks": 5,
+      "priority": "P1",
+      "priority_reason": "The 'Big Five' is the most likely 5-mark question from this chapter based on PYQ trends.",
+      "question": "Explain the 'Big Five Personality Theory' in detail.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": true,
+      "diagram_description": "A chart or mind map with the acronym OCEAN in the center. Branches for O (Openness), C (Conscientiousness), E (Extroversion), A (Agreeableness), N (Neuroticism), each with 1-2 keywords (e.g., Creative, Organized, Social, Cooperative, Anxious).",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "**Openness**: Curious, creative, open to new experiences.",
+          "**Conscientiousness**: Organized, dependable, disciplined, goal-oriented.",
+          "**Extroversion**: Social, energetic, assertive, talkative.",
+          "**Agreeableness**: Cooperative, kind, trusting, helpful.",
+          "**Neuroticism**: Emotional instability, anxious, moody, irritable."
+        ],
+        "final_answer": "The **Big Five Personality Theory** (Five Factor Model) describes personality through five broad dimensions, remembered by the acronym **OCEAN**:\n\n1.  **Openness to Experience:** People high in this trait are creative, curious, and open to new ideas. They enjoy adventure and are imaginative. Low scorers are practical and traditional.\n2.  **Conscientiousness:** This reflects the level of discipline and organization. High scorers are reliable, organized, and goal-oriented. They plan ahead and are responsible.\n3.  **Extroversion:** This dimension measures sociability. Extroverts are outgoing, energetic, talkative, and assertive. They gain energy from social interaction. Introverts are reserved and solitary.\n4.  **Agreeableness:** This reflects how cooperative and trusting a person is. High scorers are kind, helpful, and compassionate. Low scorers may be competitive or skeptical.\n5.  **Neuroticism:** This measures emotional stability. High scorers tend to experience mood swings, anxiety, and irritability. Low scorers are emotionally stable and calm."
+      },
+      "source_basis": "PYQ | NCERT"
+    },
+    {
+      "id": "CH9_LA_02",
+      "type": "long",
+      "marks": 5,
+      "priority": "P1",
+      "priority_reason": "Classification of personality is a foundational topic.",
+      "question": "Classify personality according to Jung and Sheldon. Briefly explain each type.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": true,
+      "diagram_description": "Two sections: 1. Jung's classification showing Introvert (inward arrow), Extrovert (outward arrow), Ambivert (both). 2. Sheldon's showing Endomorph (round), Mesomorph (muscular), Ectomorph (thin).",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "**Jung's Classification**: Introverts (reserved), Extroverts (social), Ambiverts (mix).",
+          "**Sheldon's Classification**: Endomorph (Round/Fat), Mesomorph (Muscular/Athletic), Ectomorph (Thin/Tall)."
+        ],
+        "final_answer": "**A. Jung's Classification:**\n1.  **Introverts:** Individuals who are reserved, shy, and prefer working alone. They are self-reflective (e.g., writers).\n2.  **Extroverts:** Individuals who are socially active, talkative, and friendly. They mix easily with others (e.g., leaders).\n3.  **Ambiverts:** Individuals possessing traits of both introverts and extroverts depending on the situation.\n\n**B. Sheldon's Classification:**\n1.  **Endomorph (Viscerotonic):** Round, soft body with high fat. Personality is relaxed, sociable, and comfort-loving.\n2.  **Mesomorph (Somatotonic):** Muscular, athletic, strong physique. Personality is aggressive, active, and risk-taking.\n3.  **Ectomorph (Cerebrotonic):** Lean, thin, fragile body with narrow shoulders. Personality is quiet, sensitive, and intellectual."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "CH9_LA_03",
+      "type": "long",
+      "marks": 5,
+      "priority": "P2",
+      "priority_reason": "Comprehensive question linking definition, types, and application.",
+      "question": "Define Motivation. Explain the types of motivation and their importance in sports.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "**Definition**: Driving force that initiates and sustains behavior.",
+          "**Intrinsic**: Internal drive (fun, satisfaction). Long-lasting.",
+          "**Extrinsic**: External drive (rewards, praise). Good for initial boost.",
+          "**Importance**: Energy mobilization, persistence, skill improvement."
+        ],
+        "final_answer": "**Definition:** Motivation is the internal process that initiates, guides, and maintains goal-oriented behavior. It is the 'drive' to achieve something.\n\n**Types of Motivation:**\n1.  **Intrinsic Motivation:** Comes from within the individual. The athlete participates for personal satisfaction, enjoyment, or the challenge (e.g., playing football because one loves the game). This is long-lasting and produces high-quality effort.\n2.  **Extrinsic Motivation:** Driven by external factors like rewards, money, trophies, or praise. (e.g., playing to win a cash prize). This is useful for short-term boosts but may not sustain an athlete indefinitely.\n\n**Importance:**\n* Helps athletes persist through tough training.\n* Increases effort and intensity during competition.\n* Crucial for learning new skills and overcoming setbacks."
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "CH9_MCQ_05",
+      "type": "mcq",
+      "marks": 1,
+      "priority": "P3",
+      "priority_reason": "Specific term definition check.",
+      "question": "Which body type is referred to as 'Cerebrotonic' in Sheldon's classification?",
+      "options": {
+        "A": "Endomorph",
+        "B": "Mesomorph",
+        "C": "Ectomorph",
+        "D": "Athlete"
+      },
+      "correct_option": "C",
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "Ectomorphs exhibit 'Cerebrotonia', characterized by being introverted, thoughtful, inhibited, and sensitive.",
+        "key_points": [],
+        "final_answer": "Option C: Ectomorph"
+      },
+      "source_basis": "NCERT"
+    },
+    {
+      "id": "CH9_VSA_04",
+      "type": "very_short",
+      "marks": 2,
+      "priority": "P3",
+      "priority_reason": "Definition of aggression is a standard syllabus item.",
+      "question": "Define 'Aggression' in the context of sports.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "**Definition**: Any form of behavior directed toward the goal of harming or injuring another living being.",
+          "**Context**: The recipient is motivated to avoid such treatment."
+        ],
+        "final_answer": "According to Baron and Richardson, aggression is defined as \"any form of behavior directed toward the goal of harming or injuring another living being who is motivated to avoid such treatment.\""
+      },
+      "source_basis": "Reference Notes"
+    },
+    {
+      "id": "CH9_SA_05",
+      "type": "short",
+      "marks": 3,
+      "priority": "P2",
+      "priority_reason": "Application of personality theory to sports selection.",
+      "question": "Which personality type from Sheldon's classification is best suited for weightlifting? Give reasons.",
+      "options": {},
+      "correct_option": null,
+      "diagram_required": false,
+      "diagram_description": "",
+      "answer": {
+        "explanation": "",
+        "key_points": [
+          "**Type**: Mesomorph.",
+          "**Reasons**: High muscle mass, strong bones, naturally athletic, gain strength easily."
+        ],
+        "final_answer": "**Mesomorph** is best suited for weightlifting.\n\n**Reasons:**\n1.  **Muscular Strength:** They have naturally high muscle mass and low body fat.\n2.  **Bone Structure:** They possess heavy and strong bone structure required to support heavy weights.\n3.  **Responsiveness:** Their bodies respond quickly to strength training, allowing for rapid gains in power."
+      },
+      "source_basis": "NCERT"
+    }
+  ]
+}

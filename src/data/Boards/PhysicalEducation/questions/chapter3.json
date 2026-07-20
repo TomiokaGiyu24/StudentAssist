@@ -1,0 +1,467 @@
+{
+"meta": {
+"subject": "Physical Education",
+"class": 12,
+"board": "CBSE",
+"chapter": "Yoga and Lifestyle",
+"total_questions": 20
+},
+"questions": [
+{
+"id": "Q1",
+"type": "mcq",
+"marks": 1,
+"priority": "P1",
+"priority_reason": "Repeatedly asked in board exams as the only asana permissible immediately after meals.",
+"question": "Which of the following asanas is recommended to be performed immediately after a meal to improve digestion?",
+"options": {
+"A": "Tadasana",
+"B": "Vajrasana",
+"C": "Bhujangasana",
+"D": "Shavasana"
+},
+"correct_option": "B",
+"diagram_required": false,
+"diagram_description": "",
+"answer": {
+"explanation": "Vajrasana increases blood flow to the abdominal area and improves digestion, making it suitable to practice after meals[cite: 28].",
+"key_points": [],
+"final_answer": "Option B"
+},
+"source_basis": "NCERT"
+},
+{
+"id": "Q2",
+"type": "mcq",
+"marks": 1,
+"priority": "P2",
+"priority_reason": "Important diagnostic criteria for lifestyle diseases often appear in MCQs.",
+"question": "Which of the following Body Mass Index (BMI) ranges indicates 'Obesity Class I'?",
+"options": {
+"A": "25.0 – 29.9",
+"B": "30.0 – 34.9",
+"C": "35.0 – 39.9",
+"D": "≥ 40.0"
+},
+"correct_option": "B",
+"diagram_required": false,
+"diagram_description": "",
+"answer": {
+"explanation": "BMI between 30.0 and 34.9 is classified as Class I Obesity[cite: 27].",
+"key_points": [],
+"final_answer": "Option B"
+},
+"source_basis": "NCERT"
+},
+{
+"id": "Q3",
+"type": "mcq",
+"marks": 1,
+"priority": "P1",
+"priority_reason": "Contraindications are a high-probability topic for MCQs to test safety knowledge.",
+"question": "Individuals suffering from which of the following conditions should avoid practicing 'Chakrasana'?",
+"options": {
+"A": "Diabetes",
+"B": "Asthma",
+"C": "High Blood Pressure",
+"D": "Flat Foot"
+},
+"correct_option": "C",
+"diagram_required": false,
+"diagram_description": "",
+"answer": {
+"explanation": "Chakrasana involves deep backward bending which can increase intra-abdominal and intra-thoracic pressure, making it contraindicated for high blood pressure[cite: 132].",
+"key_points": [],
+"final_answer": "Option C"
+},
+"source_basis": "NCERT"
+},
+{
+"id": "Q4",
+"type": "mcq",
+"marks": 1,
+"priority": "P2",
+"priority_reason": "Identifying asanas by their Sanskrit or English names is a common question format.",
+"question": "Which asana is also known as the 'Half Spinal Twist Pose'?",
+"options": {
+"A": "Paschimottanasana",
+"B": "Ardha Matsyendrasana",
+"C": "Gomukhasana",
+"D": "Pavanamuktasana"
+},
+"correct_option": "B",
+"diagram_required": false,
+"diagram_description": "",
+"answer": {
+"explanation": "Ardha Matsyendrasana is known as the Half Spinal Twist Pose because the spine is given a lateral twist in a sitting position[cite: 29].",
+"key_points": [],
+"final_answer": "Option B"
+},
+"source_basis": "NCERT"
+},
+{
+"id": "Q5",
+"type": "assertion_reason",
+"marks": 1,
+"priority": "P1",
+"priority_reason": "Tests deep understanding of the physiological benefits of specific asanas.",
+"question": "Assertion (A): Bhujangasana is highly recommended for managing Bronchial Asthma.\nReason (R): It expands the chest cavity, improving lung capacity and oxygen intake.",
+"options": {
+"A": "Both A and R are true and R is the correct explanation of A.",
+"B": "Both A and R are true but R is NOT the correct explanation of A.",
+"C": "A is true but R is false.",
+"D": "A is false but R is true."
+},
+"correct_option": "A",
+"diagram_required": false,
+"diagram_description": "",
+"answer": {
+"explanation": "Bhujangasana (Cobra Pose) stretches the chest and neck, helping to relieve respiratory disorders like asthma by increasing lung capacity[cite: 132].",
+"key_points": [],
+"final_answer": "Option A"
+},
+"source_basis": "NCERT"
+},
+{
+"id": "Q6",
+"type": "assertion_reason",
+"marks": 1,
+"priority": "P2",
+"priority_reason": "Clarifies common misconceptions about contraindications for back pain.",
+"question": "Assertion (A): A person suffering from severe back pain should practice Vakrasana.\nReason (R): Twisting asanas can exacerbate severe spinal conditions if not done carefully.",
+"options": {
+"A": "Both A and R are true and R is the correct explanation of A.",
+"B": "Both A and R are true but R is NOT the correct explanation of A.",
+"C": "A is true but R is false.",
+"D": "A is false but R is true."
+},
+"correct_option": "D",
+"diagram_required": false,
+"diagram_description": "",
+"answer": {
+"explanation": "While Vakrasana is generally good for the spine, those with *severe* back pain or spinal injury should avoid deep twists or perform them only under expert supervision. The text suggests Vakrasana for back pain management, but severe cases usually require avoidance or modification. However, strictly based on the text provided, Vakrasana is listed *for* Back Pain[cite: 133], making 'A' potentially considered true in a general context, but 'R' is a general safety rule. In standard CBSE logic for this chapter: Asanas listed for a disease are 'beneficial'. However, severe conditions are often contraindications. Let's align with the text: Vakrasana is prescribed for back pain[cite: 133].",
+"key_points": [],
+"final_answer": "Option A (Note: CBSE texts list Vakrasana as a remedy for Back Pain, but contraindications for severe cases exist. If strictly following the 'Asana for Disease' table, A is True. Reason R explains why caution is needed, or conversely, if the Reason implies it shouldn't be done, then A is False. Based on the provided table[cite: 133], Vakrasana IS a remedy. Thus A is True. R is also True generally. The link is strong.)"
+},
+"source_basis": "NCERT"
+},
+{
+"id": "Q7",
+"type": "very_short",
+"marks": 2,
+"priority": "P2",
+"priority_reason": "Direct definition question from the syllabus.",
+"question": "Define the term 'Obesity' in the context of Body Mass Index (BMI).",
+"options": {},
+"correct_option": null,
+"diagram_required": false,
+"diagram_description": "",
+"answer": {
+"explanation": "",
+"key_points": [
+"Obesity is a condition where excess body fat accumulates to the extent that it may affect health[cite: 27].",
+"It is commonly defined as a Body Mass Index (BMI) of $30 \\text{ kg/m}^2$ or higher[cite: 27]."
+],
+"final_answer": "Obesity is a condition of excess body fat accumulation that negatively affects health, commonly defined as having a Body Mass Index (BMI) of $30 \\text{ kg/m}^2$ or higher."
+},
+"source_basis": "NCERT"
+},
+{
+"id": "Q8",
+"type": "very_short",
+"marks": 2,
+"priority": "P3",
+"priority_reason": "Specific details on asana benefits are often asked in 2-mark questions.",
+"question": "Mention any two benefits of practicing 'Pavanmuktasana'.",
+"options": {},
+"correct_option": null,
+"diagram_required": false,
+"diagram_description": "",
+"answer": {
+"explanation": "",
+"key_points": [
+"It helps to massage the abdominal organs gently to improve digestion[cite: 2068].",
+"It helps in releasing gas and relieves constipation[cite: 132]."
+],
+"final_answer": "1. It massages the abdominal organs and improves digestion.\n2. It helps in releasing gas from the digestive tract and relieves constipation."
+},
+"source_basis": "ALLEN"
+},
+{
+"id": "Q9",
+"type": "short",
+"marks": 3,
+"priority": "P1",
+"priority_reason": "High probability. Diabetes is a major lifestyle disease covered extensively in the syllabus.",
+"question": "Elucidate the procedure of 'Bhujangasana' and list one contraindication.",
+"options": {},
+"correct_option": null,
+"diagram_required": true,
+"diagram_description": " A person lying flat on their stomach (prone position) with legs together. The palms are placed on the ground next to the shoulders. The head and chest are lifted upwards like a cobra with the back arched. The gaze is directed upwards.",
+"answer": {
+"explanation": "",
+"key_points": [
+"**Procedure**:",
+"Lie down on the stomach with legs straight and feet together.",
+"Place palms on the ground beside the shoulders.",
+"Inhale and slowly lift the head and chest upwards, arching the spine backward like a cobra.",
+"Hold the position for 10-20 seconds with normal breathing.",
+"Exhale and slowly return to the original prone position[cite: 1817, 1818].",
+"**Contraindication**: People suffering from hernia or back injuries should avoid this asana[cite: 132, 2061]."
+],
+"final_answer": "**Procedure of Bhujangasana:**\n1. Lie flat on the stomach with legs together and toes pointing outwards.\n2. Place the palms on the floor beside the shoulders.\n3. Inhale and slowly lift the head, neck, and chest upwards, arching the back.\n4. Look upwards and maintain the posture for a few seconds while breathing normally.\n5. Exhale and slowly lower the body back to the ground.\n\n**Contraindication:**\n* Individuals suffering from hernia or severe back injuries should avoid this asana."
+},
+"source_basis": "NCERT"
+},
+{
+"id": "Q10",
+"type": "short",
+"marks": 3,
+"priority": "P1",
+"priority_reason": "Hypertension is a critical topic; specific asanas for it are frequently tested.",
+"question": "List any three asanas recommended for the prevention and management of Hypertension.",
+"options": {},
+"correct_option": null,
+"diagram_required": false,
+"diagram_description": "",
+"answer": {
+"explanation": "",
+"key_points": [
+"Tadasana [cite: 132]",
+"Vajrasana [cite: 132]",
+"Shavasana [cite: 132]",
+"Pavanmuktasana [cite: 132]",
+"Bhujangasana [cite: 132]"
+],
+"final_answer": "Three asanas recommended for Hypertension are:\n1.  **Tadasana (Mountain Pose):** Helps regulate blood pressure and improves posture.\n2.  **Shavasana (Corpse Pose):** Relaxes the body and mind, significantly reducing stress and blood pressure.\n3.  **Pavanmuktasana (Wind-Relieving Pose):** Helps in relieving gastric trouble which can aggravate hypertension."
+},
+"source_basis": "NCERT"
+},
+{
+"id": "Q11",
+"type": "short",
+"marks": 3,
+"priority": "P2",
+"priority_reason": "Understanding contraindications is essential for application-based questions.",
+"question": "Identify the contraindications for practicing 'Trikonasana'.",
+"options": {},
+"correct_option": null,
+"diagram_required": false,
+"diagram_description": "",
+"answer": {
+"explanation": "",
+"key_points": [
+"Severe back pain[cite: 31].",
+"Neck injuries[cite: 31].",
+"Migraine[cite: 31].",
+"Diarrhea[cite: 31]."
+],
+"final_answer": "Contraindications for Trikonasana include:\n1.  **Back and Neck Injuries:** Individuals with severe back pain or neck injuries should avoid this asana.\n2.  **Migraine:** Persons suffering from migraine should avoid this posture.\n3.  **Blood Pressure:** Those with low or high blood pressure should perform it with caution or avoid it.\n4.  **Diarrhea:** It should be avoided if suffering from diarrhea."
+},
+"source_basis": "NCERT"
+},
+{
+"id": "Q12",
+"type": "short",
+"marks": 3,
+"priority": "P3",
+"priority_reason": "Back pain is a common ailment; specific asanas like Shalabhasana are relevant.",
+"question": "How does 'Shalabhasana' help in alleviating back pain?",
+"options": {},
+"correct_option": null,
+"diagram_required": true,
+"diagram_description": " A person lying on their stomach (prone) with chin on the floor. Both legs are raised upwards from the hips, kept straight. Arms are placed under the body or by the sides.",
+"answer": {
+"explanation": "",
+"key_points": [
+"Strengthens lower back muscles[cite: 133].",
+"Tones the nerves and muscles of the spine.",
+"Provides relief from sciatica and mild backache."
+],
+"final_answer": "**Shalabhasana (Locust Pose)** helps in alleviating back pain by:\n1.  **Strengthening Muscles:** It strengthens the muscles of the lower back and the pelvic organs.\n2.  **Spinal Flexibility:** It increases the flexibility of the spine and tones the spinal nerves.\n3.  **Sciatica Relief:** It is beneficial for relieving pain associated with sciatica and mild slip-disc conditions."
+},
+"source_basis": "NCERT"
+},
+{
+"id": "Q13",
+"type": "long",
+"marks": 5,
+"priority": "P1",
+"priority_reason": "Asthma is a key lifestyle disease. Comprehensive questions on its management are common.",
+"question": "Explain the role of Yoga in the prevention of Asthma. Describe the procedure and benefits of 'Sukhasana' and 'Gomukhasana'.",
+"options": {},
+"correct_option": null,
+"diagram_required": true,
+"diagram_description": " A person sitting in a comfortable cross-legged position with hands on knees in a mudra. Spine is erect.  A person sitting with legs crossed such that knees are stacked. One arm is raised and bent behind the back, the other is bent upwards from below to clasp the fingers of the first hand behind the back.",
+"answer": {
+"explanation": "",
+"key_points": [
+"**Role of Yoga**: Improves lung capacity, strengthens respiratory muscles, reduces stress[cite: 22].",
+"**Sukhasana Procedure**: Sit cross-legged, spine straight, hands on knees in Chin Mudra[cite: 132].",
+"**Sukhasana Benefits**: Calms mind, improves posture[cite: 22].",
+"**Gomukhasana Procedure**: Sit with legs stacked, clasp hands behind back[cite: 132].",
+"**Gomukhasana Benefits**: Opens chest, improves breathing[cite: 22]."
+],
+"final_answer": "**Role of Yoga in Asthma Prevention:**\nYoga helps in Asthma by improving the efficiency of the respiratory organs. Asanas like Gomukhasana and Matsyasana expand the chest cavity, increasing lung capacity and oxygen intake. Pranayama helps in regulating breathing patterns.\n\n**1. Sukhasana (Easy Pose)**\n* **Procedure:** Sit on the floor with legs crossed comfortably. Keep the head, neck, and spine straight. Place hands on knees in Gyan Mudra or Chin Mudra. Close eyes and relax the whole body, breathing normally.\n* **Benefits:** It calms the mind, reduces anxiety (a trigger for asthma), and improves posture.\n\n**2. Gomukhasana (Cow Face Pose)**\n* **Procedure:** Sit with legs extended. Fold the left leg and place the heel under the right hip. Fold the right leg over the left knee so that both knees are stacked. Raise the right arm and bend it behind the back. Bring the left arm from below and try to clasp the fingers of both hands behind the back. Keep the trunk erect and look straight.\n* **Benefits:** It expands the chest, facilitates deep breathing, and is highly beneficial for asthma patients."
+},
+"source_basis": "NCERT"
+},
+{
+"id": "Q14",
+"type": "long",
+"marks": 5,
+"priority": "P1",
+"priority_reason": "Diabetes management is a frequent P1 topic. Paschimottanasana is technically complex and important.",
+"question": "Discuss the management of Diabetes through Yoga. Explain the procedure, benefits, and contraindications of 'Paschimottanasana'.",
+"options": {},
+"correct_option": null,
+"diagram_required": true,
+"diagram_description": " A person sitting with legs stretched out straight. The upper body is bent forward over the legs, with hands holding the toes and the head resting on the knees.",
+"answer": {
+"explanation": "",
+"key_points": [
+"**Diabetes Management**: Yoga stimulates abdominal organs (pancreas), improves digestion, reduces stress[cite: 29].",
+"**Paschimottanasana Procedure**: Sit with legs straight, inhale raise arms, exhale bend forward to hold toes[cite: 131].",
+"**Benefits**: Stimulates pancreas (insulin production), stretches spine[cite: 131].",
+"**Contraindications**: Slip disc, sciatica, hernia[cite: 131]."
+],
+"final_answer": "**Management of Diabetes through Yoga:**\nYoga asanas like Paschimottanasana and Ardha Matsyendrasana provide a gentle massage to the pancreas, stimulating the secretion of insulin. They also help in reducing stress, which is a contributing factor to diabetes.\n\n**Paschimottanasana (Seated Forward Bend)**\n* **Procedure:**\n    1. Sit on the floor with legs stretched out straight in front.\n    2. Inhale and raise both arms above the head.\n    3. Exhale and bend forward from the hips, keeping the back straight.\n    4. Try to hold the toes with the fingers and rest the forehead on the knees.\n    5. Maintain the position with normal breathing for a few seconds.\n    6. Inhale and slowly come back to the sitting position.\n\n* **Benefits:**\n    1. It stimulates the functioning of abdominal organs, especially the pancreas, helping in diabetes control.\n    2. It stretches the spine and hamstrings.\n    3. It reduces obesity, which is often linked to diabetes.\n\n* **Contraindications:**\n    1. People suffering from slipped disc, sciatica, or severe back pain should avoid this asana.\n    2. Individuals with abdominal hernia or recent abdominal surgery should not perform it."
+},
+"source_basis": "NCERT"
+},
+{
+"id": "Q15",
+"type": "long",
+"marks": 5,
+"priority": "P2",
+"priority_reason": "Obesity is a universal issue. Vajrasana and Trikonasana are standard remedies in the syllabus.",
+"question": "What is Obesity? Describe the procedure and benefits of any two asanas helpful in reducing Obesity.",
+"options": {},
+"correct_option": null,
+"diagram_required": true,
+"diagram_description": " Person kneeling with buttocks resting on heels, spine erect, hands on knees.  Person standing with legs apart, one arm reaching down to the foot, the other raised to the sky, forming a triangle shape.",
+"answer": {
+"explanation": "",
+"key_points": [
+"**Obesity**: Accumulation of excess body fat, BMI >= 30[cite: 27].",
+"**Vajrasana**: Kneeling pose, improves digestion[cite: 28].",
+"**Trikonasana**: Standing triangle pose, burns fat at waist[cite: 31]."
+],
+"final_answer": "**Obesity:** Obesity is a medical condition characterized by the accumulation of excess body fat to the extent that it may have a negative effect on health. It is generally defined as having a BMI of 30 or higher.\n\n**Asanas to reduce Obesity:**\n\n**1. Vajrasana (Thunderbolt Pose)**\n* **Procedure:** Kneel down on the floor. Bring the big toes together and separate the heels. Lower the buttocks onto the inside surface of the feet with heels touching the sides of the hips. Place hands on knees and keep the spine erect.\n* **Benefits:** It improves digestion and helps in reducing fat accumulation in the abdominal region.\n\n**2. Trikonasana (Triangle Pose)**\n* **Procedure:** Stand with feet apart (3-4 feet). Raise arms sideways to shoulder level. Bend the trunk sideways to the right to touch the right foot with the right hand, extending the left arm upwards. Look at the left hand. Repeat on the other side.\n* **Benefits:** It burns fat around the waist and hips, strengthens the legs, and improves flexibility."
+},
+"source_basis": "NCERT"
+},
+{
+"id": "Q16",
+"type": "short",
+"marks": 3,
+"priority": "P2",
+"priority_reason": "Ardha Matsyendrasana is a versatile asana for multiple diseases (Diabetes, Obesity, Back Pain).",
+"question": "Describe the physiological benefits of 'Ardha Matsyendrasana'.",
+"options": {},
+"correct_option": null,
+"diagram_required": true,
+"diagram_description": " Sitting pose with one leg folded flat, the other crossed over. The torso is twisted towards the raised knee. One arm presses against the raised knee for leverage.",
+"answer": {
+"explanation": "",
+"key_points": [
+"Increases lung capacity[cite: 30].",
+"Stimulates pancreas/adrenal glands (good for diabetes)[cite: 30].",
+"Relieves constipation/dyspepsia[cite: 30].",
+"Increases spinal elasticity[cite: 30]."
+],
+"final_answer": "Physiological benefits of Ardha Matsyendrasana include:\n1.  **Pancreatic Stimulation:** It massages the abdominal organs, stimulating the pancreas, which is beneficial for managing diabetes.\n2.  **Spinal Flexibility:** It increases the elasticity of the spine and tones the spinal nerves.\n3.  **Digestive Health:** It helps in relieving constipation and dyspepsia by massaging the digestive organs.\n4.  **Lung Capacity:** It helps in increasing lung capacity and oxygen supply."
+},
+"source_basis": "NCERT"
+},
+{
+"id": "Q17",
+"type": "mcq",
+"marks": 1,
+"priority": "P3",
+"priority_reason": "Specific disease-asana mapping check.",
+"question": "Which of the following lifestyle diseases is 'Vakrasana' primarily used to manage?",
+"options": {
+"A": "Hypertension",
+"B": "Back Pain",
+"C": "Asthma",
+"D": "Obesity"
+},
+"correct_option": "B",
+"diagram_required": false,
+"diagram_description": "",
+"answer": {
+"explanation": "Vakrasana (Twisted Pose) helps in making the spine flexible and removing stiffness, thus it is prescribed for Back Pain[cite: 133].",
+"key_points": [],
+"final_answer": "Option B"
+},
+"source_basis": "NCERT"
+},
+{
+"id": "Q18",
+"type": "very_short",
+"marks": 2,
+"priority": "P2",
+"priority_reason": "Pre-requisite knowledge for performing asanas correctly.",
+"question": "Name two preparatory poses for 'Vajrasana'.",
+"options": {},
+"correct_option": null,
+"diagram_required": false,
+"diagram_description": "",
+"answer": {
+"explanation": "The text mentions Garudasana and Baddha Konasana as preparatory for Vajrasana[cite: 28].",
+"key_points": [
+"Garudasana (Eagle Pose) [cite: 28]",
+"Baddha Konasana (Butterfly Pose) [cite: 28]"
+],
+"final_answer": "Two preparatory poses for Vajrasana are:\n1. Garudasana (Eagle Pose)\n2. Baddha Konasana (Butterfly Pose)"
+},
+"source_basis": "Reference Notes"
+},
+{
+"id": "Q19",
+"type": "assertion_reason",
+"marks": 1,
+"priority": "P2",
+"priority_reason": "Tests understanding of underlying causes of lifestyle diseases.",
+"question": "Assertion (A): Regular practice of Yoga Asanas can bolster immunity.\nReason (R): Yoga increases the level of stress hormones like cortisol in the blood.",
+"options": {
+"A": "Both A and R are true and R is the correct explanation of A.",
+"B": "Both A and R are true but R is NOT the correct explanation of A.",
+"C": "A is true but R is false.",
+"D": "A is false but R is true."
+},
+"correct_option": "C",
+"diagram_required": false,
+"diagram_description": "",
+"answer": {
+"explanation": "Yoga actually *lowers* stress hormones (cortisol) and strengthens the nervous system, which helps boost immunity[cite: 22]. Thus A is true, but R is false.",
+"key_points": [],
+"final_answer": "Option C"
+},
+"source_basis": "Reference Notes"
+},
+{
+"id": "Q20",
+"type": "short",
+"marks": 3,
+"priority": "P1",
+"priority_reason": "Hastasana is a simple standing pose often asked in practicals and theory.",
+"question": "State the benefits of 'Hastasana' (Upward Salute Pose).",
+"options": {},
+"correct_option": null,
+"diagram_required": true,
+"diagram_description": " Person standing straight with arms raised above the head, palms facing each other or clasped. The body is stretched upwards.",
+"answer": {
+"explanation": "",
+"key_points": [
+"Improves spinal curvature[cite: 29].",
+"Relieves constipation[cite: 29].",
+"Increases height in children[cite: 29]."
+],
+"final_answer": "Benefits of Hastasana:\n1.  **Spinal Health:** It improves the curvature of the spine and exercises the neck and spinal joints.\n2.  **Digestion:** It helps in relieving constipation.\n3.  **Growth:** It stretches the whole body and is helpful in increasing the height of growing children.\n4.  **Tone:** It helps to slim the waist and broadens the chest."
+},
+"source_basis": "Reference Notes"
+}
+]
+}

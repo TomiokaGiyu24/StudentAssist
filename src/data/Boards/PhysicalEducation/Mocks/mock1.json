@@ -1,0 +1,603 @@
+{
+    "meta": {
+        "subject": "Physical Education",
+        "class": 12,
+        "board": "CBSE",
+        "mock_number": 1,
+        "total_marks": 70
+    },
+    "sections": {
+        "A": [
+            {
+                "id": 1,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P1",
+                "priority_reason": "Committees and their roles are a guaranteed Q1/Q2 topic.",
+                "question": "Which committee is responsible for preparing the specific score sheets and providing equipment to the officials during a tournament?",
+                "options": [
+                    "Logistics Committee",
+                    "Technical Committee",
+                    "Marketing Committee",
+                    "Finance Committee"
+                ],
+                "correct_option": "Technical Committee",
+                "answer": {
+                    "final_answer": "Technical Committee"
+                },
+                "source_basis": "ALLEN-derived"
+            },
+            {
+                "id": 2,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P1",
+                "priority_reason": "Newton's Laws application is the most frequent Biomechanics MCQ.",
+                "question": "A swimmer pushes the water backward to move forward. This action-reaction mechanism is best explained by:",
+                "options": [
+                    "Newton’s First Law of Motion",
+                    "Newton’s Second Law of Motion",
+                    "Newton’s Third Law of Motion",
+                    "Law of Inertia"
+                ],
+                "correct_option": "Newton’s Third Law of Motion",
+                "answer": {
+                    "final_answer": "Newton’s Third Law of Motion"
+                },
+                "source_basis": "NCERT-derived"
+            },
+            {
+                "id": 3,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P2",
+                "priority_reason": "Nutrition: Macro vs Micro differentiation is common.",
+                "question": "Identify the Macro Nutrient from the following:",
+                "options": [
+                    "Vitamins",
+                    "Minerals",
+                    "Water",
+                    "Roughage"
+                ],
+                "correct_option": "Water",
+                "answer": {
+                    "final_answer": "Water"
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 4,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P1",
+                "priority_reason": "Yoga for disease management (Back Pain/Obesity) is P1.",
+                "question": "Which of the following Asanas is contraindicated for individuals suffering from severe back pain?",
+                "options": [
+                    "Vakrasana",
+                    "Tadasana",
+                    "Chakrasana",
+                    "Bhujangasana"
+                ],
+                "correct_option": "Chakrasana",
+                "answer": {
+                    "final_answer": "Chakrasana"
+                },
+                "source_basis": "PYQ-derived"
+            },
+            {
+                "id": 5,
+                "diagram_url": "/images/PhysicalEducation/knock knees.png",
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P1",
+                "priority_reason": "Image-based questions on deformities are standard in recent SQPs.",
+                "question": "Identify the postural deformity where the knees knock against each other while standing with feet together.",
+                "options": [
+                    "Genu Varum",
+                    "Genu Valgum",
+                    "Lordosis",
+                    "Kyphosis"
+                ],
+                "diagram_required": true,
+                "diagram_description": "",
+                "correct_option": "Genu Valgum",
+                "answer": {
+                    "final_answer": "Genu Valgum"
+                },
+                "source_basis": "NCERT-derived"
+            },
+            {
+                "id": 6,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P2",
+                "priority_reason": "SAI Fitness Test age groups are often confused; likely exam topic.",
+                "question": "Which of the following test items is NOT part of the SAI Khelo India Fitness Test for the age group 5-8 years?",
+                "options": [
+                    "BMI",
+                    "Plate Tapping Test",
+                    "Flamingo Balance Test",
+                    "50 M Standing Start"
+                ],
+                "correct_option": "50 M Standing Start",
+                "answer": {
+                    "final_answer": "50 M Standing Start"
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 7,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P3",
+                "priority_reason": "Physiology definition (Cardiac Output) appears frequently.",
+                "question": "Cardiac Output is calculated as:",
+                "options": [
+                    "Stroke Volume × Respiratory Rate",
+                    "Stroke Volume × Heart Rate",
+                    "Tidal Volume × Heart Rate",
+                    "Vital Capacity × Respiratory Rate"
+                ],
+                "correct_option": "Stroke Volume × Heart Rate",
+                "answer": {
+                    "final_answer": "Stroke Volume × Heart Rate"
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 8,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P1",
+                "priority_reason": "Menarche/Menstrual dysfunction is a core topic in Women in Sports.",
+                "question": "The onset of the first menstrual period in females is termed as:",
+                "options": [
+                    "Amenorrhea",
+                    "Menopause",
+                    "Menarche",
+                    "Dysmenorrhea"
+                ],
+                "correct_option": "Menarche",
+                "answer": {
+                    "final_answer": "Menarche"
+                },
+                "source_basis": "PYQ-derived"
+            },
+            {
+                "id": 9,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P2",
+                "priority_reason": "Match the following is a mandatory format in Section A.",
+                "question": "Match the following Vitamins with their deficiency diseases:\n(i) Vitamin A  (a) Rickets\n(ii) Vitamin B1 (b) Night Blindness\n(iii) Vitamin C (c) Beri-Beri\n(iv) Vitamin D (d) Scurvy",
+                "options": [
+                    "(i)-b, (ii)-c, (iii)-d, (iv)-a",
+                    "(i)-a, (ii)-b, (iii)-c, (iv)-d",
+                    "(i)-b, (ii)-a, (iii)-d, (iv)-c",
+                    "(i)-c, (ii)-b, (iii)-a, (iv)-d"
+                ],
+                "correct_option": "(i)-b, (ii)-c, (iii)-d, (iv)-a",
+                "answer": {
+                    "final_answer": "(i)-b, (ii)-c, (iii)-d, (iv)-a"
+                },
+                "source_basis": "NCERT-derived"
+            },
+            {
+                "id": 10,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P1",
+                "priority_reason": "Assertion-Reason on Psychology/Aggression is very common.",
+                "question": "Given below are two statements, one labelled as Assertion (A) and the other as Reason (R).\nAssertion (A): Instrumental aggression is non-hostile and aimed at achieving a goal.\nReason (R): In instrumental aggression, the intent is primarily to injure the opponent to win.",
+                "options": [
+                    "Both (A) and (R) are true and (R) is the correct explanation of (A).",
+                    "Both (A) and (R) are true but (R) is not the correct explanation of (A).",
+                    "(A) is true but (R) is false.",
+                    "(A) is false but (R) is true."
+                ],
+                "correct_option": "(A) is true but (R) is false.",
+                "answer": {
+                    "final_answer": "(A) is true but (R) is false."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 11,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P2",
+                "priority_reason": "Injury classification (Soft vs Hard tissue).",
+                "question": "Which of the following is a soft tissue injury?",
+                "options": [
+                    "Greenstick Fracture",
+                    "Abrasion",
+                    "Dislocation",
+                    "Comminuted Fracture"
+                ],
+                "correct_option": "Abrasion",
+                "answer": {
+                    "final_answer": "Abrasion"
+                },
+                "source_basis": "SQP-derived"
+            },
+            {
+                "id": 12,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P1",
+                "priority_reason": "Training methods (Isotonic etc.) are high probability.",
+                "question": "Exercises in which the length of the muscle changes and work is done are called:",
+                "options": [
+                    "Isometric Exercises",
+                    "Isokinetic Exercises",
+                    "Isotonic Exercises",
+                    "Aerobic Exercises"
+                ],
+                "correct_option": "Isotonic Exercises",
+                "answer": {
+                    "final_answer": "Isotonic Exercises"
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 13,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P3",
+                "priority_reason": "Fixture calculation formula is a standard MCQ.",
+                "question": "The formula for calculating the number of matches in a single league tournament is:",
+                "options": [
+                    "\\frac{N(N-1)}{2}",
+                    "N-1",
+                    "N(N-1)",
+                    "\\frac{N}{2}"
+                ],
+                "correct_option": "\\frac{N(N-1)}{2}",
+                "answer": {
+                    "final_answer": "\\frac{N(N-1)}{2}"
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 14,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P2",
+                "priority_reason": "Personality types (Jung/Big Five) are recurring.",
+                "question": "According to Jung's classification, individuals who are socially reserved and self-reflective are termed as:",
+                "options": [
+                    "Ambiverts",
+                    "Extroverts",
+                    "Introverts",
+                    "Mesomorphs"
+                ],
+                "correct_option": "Introverts",
+                "answer": {
+                    "final_answer": "Introverts"
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 15,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P1",
+                "priority_reason": "Biomechanics: Friction types.",
+                "question": "Which type of friction comes into play when an object is sliding over a surface?",
+                "options": [
+                    "Rolling Friction",
+                    "Static Friction",
+                    "Sliding Friction",
+                    "Fluid Friction"
+                ],
+                "correct_option": "Sliding Friction",
+                "answer": {
+                    "final_answer": "Sliding Friction"
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 16,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P2",
+                "priority_reason": "CWSN: Organizations and their specific mandates.",
+                "question": "The 'Deaflympics' were previously known as:",
+                "options": [
+                    "Special Olympics",
+                    "International Silent Games",
+                    "Paralympic Games",
+                    "Invictus Games"
+                ],
+                "correct_option": "International Silent Games",
+                "answer": {
+                    "final_answer": "International Silent Games"
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 17,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P3",
+                "priority_reason": "Factors affecting Projectile Motion.",
+                "question": "Which of the following factors does NOT affect the trajectory of a projectile?",
+                "options": [
+                    "Gravity",
+                    "Air Resistance",
+                    "Angle of Release",
+                    "Color of the Object"
+                ],
+                "correct_option": "Color of the Object",
+                "answer": {
+                    "final_answer": "Color of the Object"
+                },
+                "source_basis": "PYQ-derived"
+            },
+            {
+                "id": 18,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P2",
+                "priority_reason": "Test administration (Rikli & Jones).",
+                "question": "The 'Back Scratch Test' in the Rikli and Jones Senior Citizen Fitness Test measures:",
+                "options": [
+                    "Lower Body Flexibility",
+                    "Upper Body Strength",
+                    "Upper Body Flexibility",
+                    "Aerobic Endurance"
+                ],
+                "correct_option": "Upper Body Flexibility",
+                "answer": {
+                    "final_answer": "Upper Body Flexibility"
+                },
+                "source_basis": "Reference Notes"
+            }
+        ],
+        "B": [
+            {
+                "id": 19,
+                "type": "VSLA",
+                "marks": 2,
+                "priority": "P1",
+                "priority_reason": "Definition of Planning is a staple introductory question.",
+                "question": "Define 'Planning' in sports. List any two objectives of planning.",
+                "answer": {
+                    "final_answer": "Planning is the process of setting objectives and deciding in advance the strategies, policies, and procedures to achieve them efficiently.\n\n**Objectives:**\n* To reduce the chances of mistakes.\n* To ensure proper coordination among various committees."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 20,
+                "type": "VSLA",
+                "marks": 2,
+                "priority": "P2",
+                "priority_reason": "BMI calculation is a high-probability practical question.",
+                "question": "Calculate the BMI of a student whose weight is 60 kg and height is 1.70 m.",
+                "answer": {
+                    "final_answer": "**Formula:** $BMI = \\frac{\\text{Weight (kg)}}{\\text{Height (m)}^2}$\n\n**Calculation:**\n* $BMI = \\frac{60}{1.70 \\times 1.70}$\n* $BMI = \\frac{60}{2.89}$\n* $BMI \\approx 20.76 \\text{ kg/m}^2$"
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 21,
+                "type": "VSLA",
+                "marks": 2,
+                "priority": "P1",
+                "priority_reason": "Types of fractures (Bone injuries) appear in almost every alternate paper.",
+                "question": "Differentiate between 'Greenstick Fracture' and 'Comminuted Fracture'.",
+                "answer": {
+                    "final_answer": "* **Greenstick Fracture:** A fracture common in children where the bone bends and cracks instead of breaking completely into separate pieces.\n* **Comminuted Fracture:** A severe fracture where the bone is shattered into three or more pieces."
+                },
+                "source_basis": "PYQ-derived"
+            },
+            {
+                "id": 22,
+                "type": "VSLA",
+                "marks": 2,
+                "priority": "P2",
+                "priority_reason": "Motivation types are key psychology concepts.",
+                "question": "Briefly explain 'Intrinsic Motivation' with a suitable example.",
+                "answer": {
+                    "final_answer": "**Intrinsic Motivation:** It refers to the internal drive to perform an activity for its own sake, deriving personal satisfaction or pleasure from it.\n\n**Example:** A student playing football purely because they enjoy the game and feel happy while playing, not for a trophy or praise."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 23,
+                "type": "VSLA",
+                "marks": 2,
+                "priority": "P3",
+                "priority_reason": "Friction concepts are often tested in 2-markers.",
+                "question": "State Newton's First Law of Motion.",
+                "answer": {
+                    "final_answer": "**Newton's First Law (Law of Inertia):** A body continues to remain in its state of rest or of uniform motion in a straight line unless compelled to change that state by an external unbalanced force."
+                },
+                "source_basis": "NCERT-derived"
+            },
+            {
+                "id": 24,
+                "type": "VSLA",
+                "marks": 2,
+                "priority": "P1",
+                "priority_reason": "Endurance types are standard physiology questions.",
+                "question": "What is 'Aerobic Endurance'?",
+                "answer": {
+                    "final_answer": "**Aerobic Endurance:** It is the ability of the body to perform activity of moderate intensity for a long duration in the presence of oxygen. It resists fatigue during continuous movements like marathon running or cycling."
+                },
+                "source_basis": "Reference Notes"
+            }
+        ],
+        "C": [
+            {
+                "id": 25,
+                "type": "SLA",
+                "marks": 3,
+                "priority": "P1",
+                "priority_reason": "Committee responsibilities are a guaranteed 3-marker.",
+                "question": "Explain the role of the 'Finance Committee' and 'Publicity Committee' in organizing a sports event.",
+                "answer": {
+                    "final_answer": "* **Finance Committee:** This committee is responsible for preparing the budget, managing funds, keeping records of income and expenditure, and handling payments to officials and vendors.\n* **Publicity Committee:** Their role is to advertise the event through media (print, social, TV), send invitations to teams and guests, and issue press releases to ensure maximum participation and audience reach."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 26,
+                "type": "SLA",
+                "marks": 3,
+                "priority": "P1",
+                "priority_reason": "Deformity correction is P1 priority.",
+                "question": "What is 'Flat Foot'? Suggest any two corrective exercises for it.",
+                "answer": {
+                    "final_answer": "**Flat Foot:** A postural deformity where the medial longitudinal arch of the foot collapses, causing the entire sole to touch the ground.\n\n**Corrective Exercises:**\n1.  **Heel Raises:** Standing on toes and lowering the heels repeatedly.\n2.  **Towel Scrunches:** Using toes to crumple a towel placed on the floor to strengthen foot muscles.\n3.  **Rope Skipping:** Jumping on toes helps in arch formation."
+                },
+                "source_basis": "NCERT-derived"
+            },
+            {
+                "id": 27,
+                "type": "SLA",
+                "marks": 3,
+                "priority": "P2",
+                "priority_reason": "Diet components (Nutritive/Non-nutritive) are frequent.",
+                "question": "Differentiate between 'Nutritive' and 'Non-Nutritive' components of diet.",
+                "answer": {
+                    "final_answer": "* **Nutritive Components:** These provide energy and essential materials for growth and repair. Examples include Carbohydrates, Proteins, Fats, Vitamins, and Minerals.\n* **Non-Nutritive Components:** These do not provide energy (calories) but are essential for body functions like digestion and palatability. Examples include Water, Roughage (Fiber), Colour compounds, and Flavour compounds."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 28,
+                "type": "SLA",
+                "marks": 3,
+                "priority": "P1",
+                "priority_reason": "Physiological factors are deep conceptual questions favoured by CBSE.",
+                "question": "Explain any three physiological factors determining flexibility.",
+                "answer": {
+                    "final_answer": "1.  **Muscle Strength:** A muscle must be strong enough to contract against resistance and move the joint through a full range of motion. Weak muscles can limit flexibility.\n2.  **Joint Structure:** The anatomical structure of the joint (ball and socket vs hinge) is the primary determinant of the range of motion.\n3.  **Age and Gender:** Flexibility generally decreases with age due to loss of muscle elasticity. Females are generally more flexible than males due to anatomical differences."
+                },
+                "source_basis": "PYQ-derived"
+            },
+            {
+                "id": 29,
+                "type": "SLA",
+                "marks": 3,
+                "priority": "P2",
+                "priority_reason": "Effect of exercise on systems is a core Physiology topic.",
+                "question": "Describe the effects of regular exercise on the Muscular System.",
+                "answer": {
+                    "final_answer": "1.  **Hypertrophy of Muscles:** Regular strength training leads to an increase in the size of muscle fibers.\n2.  **Increased Myoglobin Storage:** Exercise increases the amount of myoglobin, improving oxygen storage in muscles.\n3.  **Improved Lactate Threshold:** The muscles become more efficient at removing lactic acid, delaying fatigue during high-intensity activities."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 30,
+                "type": "SLA",
+                "marks": 3,
+                "priority": "P1",
+                "priority_reason": "Speed development methods are specific and technical.",
+                "question": "Explain 'Acceleration Run' and 'Pace Run' as methods to develop speed.",
+                "answer": {
+                    "final_answer": "* **Acceleration Run:** It involves running at maximum speed from a standing or moving start for short distances (20-30m) to improve the initial burst of speed and reaction time. The focus is on reaching top speed as quickly as possible.\n* **Pace Run:** It involves running a specific distance at a constant, pre-determined speed. It helps in maintaining speed endurance and understanding energy distribution over a race."
+                },
+                "source_basis": "Reference Notes"
+            }
+        ],
+        "D": [
+            {
+                "id": 31,
+                "diagram_url": "/images/PhysicalEducation/staircase.png",
+                "type": "Case Study",
+                "marks": 4,
+                "priority": "P1",
+                "priority_reason": "Fixture Case Study is almost guaranteed.",
+                "question": "A sports teacher organizes a Volleyball tournament using the League method. He decides to use the Staircase Method to draw the fixture for 7 teams.\n\n(i) How many total matches will be played?\n(ii) In the Staircase method, which team is fixed on the top step?\n(iii) If 2 points are awarded for a win and 0 for a loss, how is the winner decided?\n(iv) Calculate the number of rounds for this tournament.",
+                "diagram_required": true,
+                "diagram_description": "",
+                "answer": {
+                    "final_answer": "(i) Formula: $\\frac{N(N-1)}{2} = \\frac{7(6)}{2} = 21$ matches.\n(ii) No team is fixed; teams are arranged in steps. Team 1 plays all, then Team 2, etc.\n(iii) The team with the maximum total points at the end of the league is declared the winner.\n(iv) Formula for rounds in league (N-1) = $7-1 = 6$ rounds."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 32,
+                "diagram_url": "/images/PhysicalEducation/javelin throw.png",
+                "type": "Case Study",
+                "marks": 4,
+                "priority": "P1",
+                "priority_reason": "Biomechanics Case Study (Projectile/Lever) is P1.",
+                "question": "During a Javelin throw practice, the coach advises the athlete to release the javelin at an angle of 45 degrees to achieve maximum distance. He also mentions the role of wind and gravity.\n\n(i) Why is 45 degrees considered the optimal angle?\n(ii) Which force acts vertically downwards on the javelin during flight?\n(iii) If the air resistance is high against the direction of throw, how should the angle be adjusted?\n(iv) Name the path followed by the javelin in the air.",
+                "diagram_required": true,
+                "diagram_description": "",
+                "answer": {
+                    "final_answer": "(i) An angle of 45 degrees theoretically provides the maximum horizontal range for a projectile given a constant speed.\n(ii) Gravity.\n(iii) The angle should be decreased (lower than 45 degrees) to cut through the wind resistance.\n(iv) Parabola (Parabolic path)."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 33,
+                "diagram_url": "/images/PhysicalEducation/special olympics.png",
+                "type": "Case Study",
+                "marks": 4,
+                "priority": "P2",
+                "priority_reason": "CWSN Logos/Mottos are specific 4-mark questions.",
+                "question": "Look at the logo provided (Special Olympics Logo - Sphere of acceptance/Joy).\n\n(i) What does this logo represent?\n(ii) Who was the founder of the organization represented by this logo?\n(iii) What is the motto of this organization?\n(iv) This organization primarily caters to athletes with which type of disability?",
+                "diagram_required": true,
+                "diagram_description": "",
+                "answer": {
+                    "final_answer": "(i) It represents the Special Olympics (figure of five people in a circle representing global acceptance).\n(ii) Eunice Kennedy Shriver.\n(iii) \"Let me win. But if I cannot win, let me be brave in the attempt.\"\n(iv) Intellectual Disabilities."
+                },
+                "source_basis": "Reference Notes"
+            }
+        ],
+        "E": [
+            {
+                "id": 34,
+                "type": "Long Answer",
+                "marks": 5,
+                "priority": "P1",
+                "priority_reason": "Drawing a Knockout Fixture is the most common 5-marker.",
+                "question": "Draw a Knock-out fixture for 21 teams mentioning all the steps involved. Calculate the number of byes and matches.",
+                "answer": {
+                    "final_answer": "**Steps and Calculation:**\n1.  **Total Teams (N):** 21\n2.  **Total Matches:** $N-1 = 20$\n3.  **Upper Half:** $\\frac{N+1}{2} = 11$ teams\n4.  **Lower Half:** $\\frac{N-1}{2} = 10$ teams\n5.  **Byes:** Next power of 2 is 32. Byes $= 32 - 21 = 11$ Byes.\n6.  **Byes Distribution:**\n    * Upper Half: $\\frac{NB-1}{2} = 5$ Byes\n    * Lower Half: $\\frac{NB+1}{2} = 6$ Byes\n7.  **Rounds:** $2^5 = 32$, so 5 Rounds.\n\n**Fixture Drawing:** (Diagram logic: Place 11 teams in Upper, 10 in Lower. Assign byes in order: 1st to Last of Lower, 2nd to First of Upper, etc. Match remaining teams in Round 1.)"
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 35,
+                "type": "Long Answer",
+                "marks": 5,
+                "priority": "P1",
+                "priority_reason": "Yoga procedures/benefits are mandatory. Hypertension/Diabetes are frequent.",
+                "question": "What is Hypertension? Explain the procedure, benefits, and contraindications of 'Tadasana' and 'Ardha Chakrasana' for its management.",
+                "answer": {
+                    "final_answer": "**Hypertension:** A condition characterized by persistently high blood pressure levels.\n\n**1. Tadasana (Palm Tree Pose):**\n* **Procedure:** Stand straight, interlock fingers, turn palms upwards, inhale and stretch arms up, raising heels to stand on toes.\n* **Benefits:** Improves circulation, relieves stress, strengthens heart.\n* **Contraindications:** Low blood pressure, headache, insomnia.\n\n**2. Ardha Chakrasana (Half Wheel Pose):**\n* **Procedure:** Stand straight, support lower back with hands, inhale and bend backwards from the waist, dropping head back.\n* **Benefits:** Expands chest, improves cardiac function, reduces belly fat.\n* **Contraindications:** Hernia, spinal injury, vertigo."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 36,
+                "type": "Long Answer",
+                "marks": 5,
+                "priority": "P2",
+                "priority_reason": "Big Five Theory is a high-yield Psychology question.",
+                "question": "Elucidate the 'Big Five Theory' of personality.",
+                "answer": {
+                    "final_answer": "The Big Five Theory (OCEAN) classifies personality into five traits:\n1.  **Openness:** Imaginative, curious, and open to new experiences vs rigid.\n2.  **Conscientiousness:** Organized, disciplined, and dutiful vs careless.\n3.  **Extroversion:** Social, energetic, and assertive vs reserved (Introversion).\n4.  **Agreeableness:** Compassionate, cooperative, and trusting vs antagonistic.\n5.  **Neuroticism:** Sensitive, nervous, and prone to anxiety vs confident/stable."
+                },
+                "source_basis": "Reference Notes"
+            },
+            {
+                "id": 37,
+                "type": "Long Answer",
+                "marks": 5,
+                "priority": "P1",
+                "priority_reason": "Strength development methods are technical and often appear in Long Answers.",
+                "question": "Define Strength. Explain in detail the three methods to develop strength (Isometric, Isotonic, and Isokinetic).",
+                "answer": {
+                    "final_answer": "**Strength:** The ability of muscles to overcome resistance.\n\n**Methods:**\n1.  **Isometric Exercises:** Exercises where muscle length remains constant, and no visible movement occurs (e.g., Pushing a wall). Develops static strength.\n2.  **Isotonic Exercises:** Exercises with movement where muscle length changes (concentric/eccentric). Include weight training, calisthenics. Develops dynamic strength.\n3.  **Isokinetic Exercises:** Performed on special machines where speed of contraction is kept constant throughout the range of motion. Used for rehabilitation and advanced training."
+                },
+                "source_basis": "Reference Notes"
+            }
+        ]
+    }
+}

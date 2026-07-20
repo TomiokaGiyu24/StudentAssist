@@ -1,0 +1,30 @@
+{
+    "meta": {
+        "subject": "Physical Education",
+        "class": 12,
+        "board": "CBSE",
+        "mock_number": 3,
+        "total_marks": 70
+    },
+    "sections": {
+        "A": [
+            {
+                "id": 1,
+                "type": "MCQ",
+                "marks": 1,
+                "priority": "P1",
+                "question": "Which committee is responsible for preparing the specific score sheets and providing equipment to the officials during a tournament?",
+                "options": [
+                    "Logistics Committee",
+                    "Technical Committee",
+                    "Marketing Committee",
+                    "Finance Committee"
+                ],
+                "correct_option": "Technical Committee",
+                "answer": {
+                    "final_answer": "Technical Committee"
+                }
+            }
+        ]
+    }
+}

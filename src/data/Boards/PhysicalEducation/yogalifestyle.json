@@ -1,0 +1,150 @@
+{
+    "chapter_name": "Yoga as Preventive Measure for Lifestyle Disease",
+    "weightage_insight": {
+        "estimated_marks_range": "6–10 Marks",
+        "pyq_frequency_summary": "High ROI chapter. Examiners love asking 'Procedure, Benefits, and Contraindications' of specific Asanas (especially Bhujangasana, Tadasana, Pawanmuktasana) for 3 or 5 marks. MCQs frequently test which Asana cures which disease (e.g., 'Which asana is best for Diabetes?'). Stick-figure diagram questions are common."
+    },
+    "ultimate_short_notes": [
+        {
+            "heading": "Obesity & BMI",
+            "content": [
+                "**Obesity**: A condition of excess body fat accumulation to the extent that it affects health. Defined as BMI $\\ge 30~kg/m^2$. [cite: 21]",
+                "**Recommended Asanas**: Vajrasana (Diamond Pose), Hastasana (Upward Salute), Trikonasana (Triangle Pose), Ardha Matsyendrasana (Half Spinal Twist). [cite: 123]",
+                "**Exam Tip**: Vajrasana is the *only* asana that can be performed immediately after meals to aid digestion. [cite: 22]"
+            ]
+        },
+        {
+            "heading": "Diabetes (The Silent Killer)",
+            "content": [
+                "**Condition**: Impaired insulin production or utilization, leading to high blood sugar.",
+                "**Recommended Asanas**: Bhujangasana (Cobra), Paschimottanasana (Seated Forward Bend), Pavanmuktasana (Wind-Relieving), Ardha Matsyendrasana. [cite: 123]",
+                "**Mechanism**: These asanas compress/twist the abdominal region, stimulating the pancreas to produce insulin."
+            ]
+        },
+        {
+            "heading": "Asthma (Respiratory)",
+            "content": [
+                "**Condition**: Chronic inflammation of airways causing difficulty in breathing.",
+                "**Recommended Asanas**: Sukhasana, Chakrasana (Wheel), Gomukhasana (Cow Face), Parvatasana, Bhujangasana, Paschimottanasana, Matsyasana (Fish). [cite: 124]",
+                "**Mechanism**: These poses expand the chest cavity, improve lung capacity, and strengthen respiratory muscles."
+            ]
+        },
+        {
+            "heading": "Hypertension (High BP)",
+            "content": [
+                "**Recommended Asanas**: Tadasana (Mountain), Vajrasana, Pavanmuktasana, Ardha Chakrasana, Bhujangasana, Shavasana (Corpse). [cite: 124]",
+                "**Contraindication Rule**: Avoid inverted poses (where head is below heart) and breath retention (Kumbhaka) for High BP patients."
+            ]
+        },
+        {
+            "heading": "Back Pain",
+            "content": [
+                "**Recommended Asanas**: Tadasana, Ardha Matsyendrasana, Vakrasana, Shalabhasana (Locust), Bhujangasana. [cite: 125]",
+                "**Contraindication**: Avoid deep forward bends (like Paschimottanasana) if suffering from severe slip disc or sciatica."
+            ]
+        }
+    ],
+    "exam_playbook": [
+        {
+            "strategy_name": "The 'PBC' Protocol",
+            "pyq_pattern": "Explain the procedure, benefits, and contraindications of [Asana Name].",
+            "how_students_lose_marks": "Writing vague benefits like 'good for health'. Missing the 'Contraindications' (who should NOT do it).",
+            "winning_approach": "Structure answer as: **Procedure** (4 steps with breathing: Inhale/Exhale). **Benefits** (2 physiological points: stimulates pancreas/stretches spine). **Contraindications** (2 specific conditions: hernia/pregnancy).",
+            "marks_secured": "3 to 5 Marks"
+        },
+        {
+            "strategy_name": "Stick Figure Supremacy",
+            "pyq_pattern": "Draw a diagram of any two asanas for Obesity.",
+            "how_students_lose_marks": "Drawing artistic sketches that take too long or are unclear. Skipping the diagram entirely.",
+            "winning_approach": "Draw simple 'Stick Figures' (lines for limbs, circle for head). Label the angle of bending. Examiner awards full marks for clarity of posture, not artistic merit.",
+            "marks_secured": "1.5 to 3 Marks"
+        }
+    ],
+    "formula_bank": [
+        {
+            "concept": "Body Mass Index (BMI)",
+            "formula": "$$\\text{BMI} = \\frac{\\text{Weight (kg)}}{(\\text{Height (m)})^2}$$",
+            "used_in_questions": "Calculating BMI to categorize a person as Underweight, Normal, Overweight, or Obese ($\\ge 30$)."
+        }
+    ],
+    "sure_shot_questions": [
+        {
+            "question": "Describe the procedure, benefits, and contraindications of Bhujangasana.",
+            "marks": 5,
+            "mandatory_keywords": [
+                "Prone position",
+                "Inhale",
+                "Arch back",
+                "Cobra hood",
+                "Spine flexibility",
+                "Hernia"
+            ],
+            "answer_structure": "1. **Procedure**: Lie on stomach (prone). Place palms under shoulders. Inhale and lift chest like a cobra. Look up. [cite: 1777, 1778]\n2. **Benefits**: Strengthens spine, relieves back pain, stimulates thyroid. [cite: 2024]\n3. **Contraindications**: Hernia, abdominal surgery, pregnancy. [cite: 2005]",
+            "model_answer_outline": []
+        },
+        {
+            "question": "Suggest any three asanas for curing Diabetes and explain one in detail.",
+            "marks": 3,
+            "mandatory_keywords": [
+                "Stimulate Pancreas",
+                "Insulin",
+                "Ardha Matsyendrasana",
+                "Paschimottanasana",
+                "Pavanmuktasana"
+            ],
+            "answer_structure": "List 3 Asanas -> Select one (e.g., Pavanmuktasana) -> Detail Procedure (Lie back, knees to chest, head up) -> Benefits (Gas release, diabetes control).",
+            "model_answer_outline": [
+                "**Asanas**: Bhujangasana, Paschimottanasana, Pavanmuktasana.",
+                "**Pavanmuktasana Procedure**: Lie supine. Exhale and bring knees to chest. Clasp hands around knees. Lift head to touch knees. Rock back and forth.",
+                "**Benefit**: Massages abdominal organs (pancreas), relieves gas."
+            ]
+        },
+        {
+            "question": "What is the Female Athlete Triad? (Often linked with Lifestyle/Women chapter)",
+            "marks": 3,
+            "mandatory_keywords": [
+                "Osteoporosis",
+                "Amenorrhea",
+                "Eating Disorders"
+            ],
+            "answer_structure": "Define Triad -> Explain 3 components.",
+            "model_answer_outline": [
+                "**Osteoporosis**: Low bone density.",
+                "**Amenorrhea**: Absence of periods for >3 months.",
+                "**Eating Disorders**: Anorexia or Bulimia due to body image pressure."
+            ]
+        }
+    ],
+    "diagram_descriptors": [
+        {
+            "diagram_name": "Bhujangasana (Cobra Pose)",
+            "used_for": "Diabetes, Back Pain, Asthma",
+            "image_path": "/images/PhysicalEducation/Bhujangasana.png",
+            "detailed_description": "A stick figure lying on its stomach. The legs are flat on the ground. The upper body (torso) is raised in a curve, supported by arms pushing against the ground. Head is tilted back looking up."
+        },
+        {
+            "diagram_name": "Trikonasana (Triangle Pose)",
+            "used_for": "Obesity",
+            "image_path": "/images/PhysicalEducation/trikonasana.png",
+            "detailed_description": "A standing stick figure with legs wide apart. The torso is bent sideways. One arm reaches down to touch the foot, the other arm extends straight up towards the sky."
+        },
+        {
+            "diagram_name": "Pavanmuktasana (Wind-Relieving Pose)",
+            "used_for": "Gas, Diabetes",
+            "image_path": "/images/PhysicalEducation/Pavanmuktaasana.png",
+            "detailed_description": "A stick figure lying on its back. The knees are bent and pulled close to the chest. The arms are wrapped around the shins. The head is lifted slightly to touch the knees."
+        }
+    ],
+    "examiner_traps": [
+        {
+            "common_mistake": "Recommending 'Chakrasana' or inverted poses for Hypertension patients.",
+            "why_marks_are_cut": "Inverted poses increase blood pressure in the head, which is dangerous for hypertension. This shows a lack of conceptual understanding.",
+            "correct_examiner_expectation": "For Hypertension, suggest relaxing poses like **Shavasana** or **Tadasana**. Avoid inversions."
+        },
+        {
+            "common_mistake": "Confusing 'Vajrasana' with 'Sukhasana'.",
+            "why_marks_are_cut": "Vajrasana is kneeling (on heels). Sukhasana is simple cross-legged sitting. Vajrasana is specific for digestion; Sukhasana is for meditation.",
+            "correct_examiner_expectation": "Vajrasana = Kneeling pose. Can be done after meals."
+        }
+    ]
+}

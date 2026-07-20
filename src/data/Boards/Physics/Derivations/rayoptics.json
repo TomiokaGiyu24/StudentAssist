@@ -1,0 +1,307 @@
+{
+  "meta": {
+    "subject": "Physics",
+    "class": 12,
+    "board": "CBSE",
+    "chapter": "Ray Optics and Optical Instruments"
+  },
+  "derivations": [
+    {
+      "id": "ch9-01",
+      "title": "Refraction at a Convex Spherical Surface (Rarer to Denser)",
+      "priority": "P1",
+      "priority_reason": "Fundamental derivation. It is the prerequisite for the Lens Maker's Formula. Frequently asked as a 3 or 5 mark question.",
+      "marks": 5,
+      "diagram_required": true,
+      "diagram_description": "A convex spherical refracting surface separating rarer medium (n1) on left and denser medium (n2) on right. Pole P, Center of Curvature C. Point object O on principal axis in rarer medium. Ray from O strikes surface at M. Normal CN is drawn. Ray refracts towards normal meeting principal axis at I (Real Image). Angles: alpha (at O), beta (at I), gamma (at C). Incidence angle i and refraction angle r marked relative to normal.",
+      "derivation": {
+        "given_assumptions": [
+          "Object O is a point object on the principal axis.",
+          "Aperture of the surface is small.",
+          "Angles of incidence and refraction are small (paraxial approximation)."
+        ],
+        "required": "Relation between $u, v, n_1, n_2, R$.",
+        "steps": [
+          {
+            "text": "From triangle OMC (Exterior angle theorem), $i = \\alpha + \\gamma$.",
+            "latex": "i = \\alpha + \\gamma"
+          },
+          {
+            "text": "From triangle MCI (Exterior angle equals sum of interior opposite), $\\gamma = r + \\beta \\implies r = \\gamma - \\beta$.",
+            "latex": "r = \\gamma - \\beta"
+          },
+          {
+            "text": "By Snell's Law ($n_1 \\sin i = n_2 \\sin r$). For small angles, $\\sin \\theta \\approx \\theta$.",
+            "latex": "n_1 i = n_2 r"
+          },
+          {
+            "text": "Substitute angles $i$ and $r$:",
+            "latex": "n_1 (\\alpha + \\gamma) = n_2 (\\gamma - \\beta)"
+          },
+          {
+            "text": "Using $\\tan \\theta \\approx \\theta$ and dropping perpendicular MN to axis: $\\alpha \\approx \\frac{MN}{PO}$, $\\beta \\approx \\frac{MN}{PI}$, $\\gamma \\approx \\frac{MN}{PC}$.",
+            "latex": "n_1 \\left( \\frac{MN}{-u} + \\frac{MN}{+R} \\right) = n_2 \\left( \\frac{MN}{+R} - \\frac{MN}{+v} \\right)"
+          },
+          {
+            "text": "Cancel MN and rearrange terms (Group R terms together):",
+            "latex": "\\frac{n_1}{-u} + \\frac{n_2}{v} = \\frac{n_2 - n_1}{R}"
+          }
+        ],
+        "final_result": {
+          "text": "Refraction formula for spherical surface:",
+          "latex": "\\frac{n_2}{v} - \\frac{n_1}{u} = \\frac{n_2 - n_1}{R}"
+        },
+        "examiner_notes": [
+          "Sign convention errors are the #1 cause of lost marks (u is negative, v and R positive for this case).",
+          "Must explicitly state small angle approximation.",
+          "Diagram must show the normal passing through C."
+        ],
+        "question_forms": [
+          "Derive the expression connecting object distance, image distance, and radius of curvature for refraction at a convex spherical surface.",
+          "Show that n2/v - n1/u = (n2-n1)/R for a spherical surface."
+        ]
+      },
+      "image": "/images/placeholder.svg"
+    },
+    {
+      "id": "ch9-02",
+      "title": "Lens Maker's Formula ",
+      "priority": "P1",
+      "priority_reason": "The single most important derivation in Ray Optics. Guaranteed to appear in some set as a 5-mark question.",
+      "marks": 5,
+      "diagram_required": true,
+      "diagram_description": "Double convex lens with refractive index n2 placed in medium n1. Surface 1 (radius R1) and Surface 2 (radius R2). Point object O. Ray refracts at Surface 1 to form virtual intermediate image I1. Surface 2 takes I1 as virtual object and forms final real image I. Distances u, v1 (intermediate), and v (final) are labeled.",
+      "derivation": {
+        "given_assumptions": [
+          "Thin lens with refractive index $n_2$ in medium $n_1$.",
+          "Radii of curvature $R_1$ and $R_2$."
+        ],
+        "required": "Relation between $f, n, R_1, R_2$.",
+        "steps": [
+          {
+            "text": "Refraction at Surface 1: Light goes from $n_1$ to $n_2$. Object $O$, Image $I_1$ (distance $v_1$). Apply spherical surface formula:",
+            "latex": "\\frac{n_2}{v_1} - \\frac{n_1}{u} = \\frac{n_2 - n_1}{R_1} \\quad \\dots(1)"
+          },
+          {
+            "text": "Refraction at Surface 2: Light goes from $n_2$ to $n_1$. Virtual object $I_1$ (distance $v_1$) forms final image $I$ (distance $v$).",
+            "latex": "\\frac{n_1}{v} - \\frac{n_2}{v_1} = \\frac{n_1 - n_2}{R_2} \\quad \\dots(2)"
+          },
+          {
+            "text": "Adding equations (1) and (2) (Note: $\\frac{n_2}{v_1}$ cancels out):",
+            "latex": "\\frac{n_1}{v} - \\frac{n_1}{u} = (n_2 - n_1) \\left( \\frac{1}{R_1} - \\frac{1}{R_2} \\right)"
+          },
+          {
+            "text": "Dividing by $n_1$:",
+            "latex": "\\frac{1}{v} - \\frac{1}{u} = \\left( \\frac{n_2}{n_1} - 1 \\right) \\left( \\frac{1}{R_1} - \\frac{1}{R_2} \\right)"
+          },
+          {
+            "text": "If object is at infinity ($u = \\infty$), image is at focus ($v = f$). Thus $\\frac{1}{v} - \\frac{1}{u} = \\frac{1}{f}$.",
+            "latex": "\\frac{1}{f} = (n_{21} - 1) \\left( \\frac{1}{R_1} - \\frac{1}{R_2} \\right)"
+          }
+        ],
+        "final_result": {
+          "text": "Lens Maker's Formula:",
+          "latex": "\\frac{1}{f} = (n - 1) \\left( \\frac{1}{R_1} - \\frac{1}{R_2} \\right)"
+        },
+        "examiner_notes": [
+          "Critical Concept: I1 acts as the virtual object for Surface 2.",
+          "Sign Convention: Do NOT apply signs to u, v, R1, R2 during the derivation steps (they are general variables). Signs are applied only when solving numericals.",
+          "Check step 2: The term (n1 - n2)/R2 becomes -(n2 - n1)/R2."
+        ],
+        "question_forms": [
+          "Derive the Lens Maker's formula for a double convex lens.",
+          "Obtain the expression 1/f = (n-1)(1/R1 - 1/R2)."
+        ]
+      }
+    },
+    {
+      "id": "ch9-03",
+      "title": "Refraction through a Prism (Prism Formula)",
+      "priority": "P1",
+      "priority_reason": "Practical-linked derivation. Very common in 3-mark theory questions.",
+      "marks": 3,
+      "diagram_required": true,
+      "diagram_description": "Triangular prism ABC. Ray PQ incident on face AB (angle i). Refracts as QR inside (angle r1, r2). Emerges as RS from face AC (angle e). Normals drawn at Q and R. Angle of Deviation delta is the angle between extended incident ray and emergent ray.",
+      "derivation": {
+        "given_assumptions": [
+          "Prism angle $A$. Refractive index $\\mu$ (or $n$).",
+          "Condition of Minimum Deviation: $i = e$ and $r_1 = r_2 = r$."
+        ],
+        "required": "Relation between $\\mu, A, \\delta_m$.",
+        "steps": [
+          {
+            "text": "In quadrilateral AQNR (where N is intersection of normals), angles at faces are $90^\\circ$. Thus $\\angle A + \\angle QNR = 180^\\circ$. In triangle QNR, $r_1 + r_2 + \\angle QNR = 180^\\circ$. Comparing:",
+            "latex": "r_1 + r_2 = A"
+          },
+          {
+            "text": "Deviation $\\delta$ is sum of deviations at two faces: $(i - r_1) + (e - r_2)$.",
+            "latex": "\\delta = (i + e) - (r_1 + r_2) = i + e - A"
+          },
+          {
+            "text": "At Minimum Deviation ($\\delta_m$): $i = e$ and $r_1 = r_2 = r$.",
+            "latex": "2r = A \\implies r = A/2"
+          },
+          {
+            "text": "Also $\\delta_m = 2i - A$. Solving for $i$:",
+            "latex": "i = \\frac{A + \\delta_m}{2}"
+          },
+          {
+            "text": "By Snell's Law $\\mu = \\frac{\\sin i}{\\sin r}$:",
+            "latex": "\\mu = \\frac{\\sin(\\frac{A + \\delta_m}{2})}{\\sin(A/2)}"
+          }
+        ],
+        "final_result": {
+          "text": "Prism Formula:",
+          "latex": "\\mu = \\frac{\\sin(\\frac{A + \\delta_m}{2})}{\\sin(A/2)}"
+        },
+        "examiner_notes": [
+          "Must explicitly state the conditions for minimum deviation (i=e, r1=r2, ray parallel to base).",
+          "Geometry proving r1+r2=A often carries 1 mark.",
+          "Don't confuse deviation delta with prism angle A."
+        ],
+        "question_forms": [
+          "Derive the relation between refractive index, angle of prism, and angle of minimum deviation.",
+          "Deduce the Prism Formula."
+        ]
+      },
+      "image": "/images/placeholder.svg"
+    },
+    {
+      "id": "ch9-04",
+      "title": "Combination of Thin Lenses in Contact",
+      "priority": "P2",
+      "priority_reason": "Simple but fundamental. Often used as a stepping stone for Power combination questions.",
+      "marks": 2,
+      "diagram_required": true,
+      "diagram_description": "Two thin convex lenses L1 and L2 placed in contact. Principal axis passes through both. Object O forms intermediate image I1 by L1. Image I1 acts as virtual object for L2 to form final image I.",
+      "derivation": {
+        "given_assumptions": [
+          "Two thin lenses of focal lengths $f_1, f_2$ in contact.",
+          "Object $O$ at distance $u$."
+        ],
+        "required": "Equivalent focal length $f$.",
+        "steps": [
+          {
+            "text": "For lens 1: Image formed at $v_1$ (acting as $I_1$).",
+            "latex": "\\frac{1}{v_1} - \\frac{1}{u} = \\frac{1}{f_1}"
+          },
+          {
+            "text": "For lens 2: $I_1$ is virtual object at $v_1$, final image at $v$.",
+            "latex": "\\frac{1}{v} - \\frac{1}{v_1} = \\frac{1}{f_2}"
+          },
+          {
+            "text": "Adding the two equations ($1/v_1$ cancels):",
+            "latex": "\\frac{1}{v} - \\frac{1}{u} = \\frac{1}{f_1} + \\frac{1}{f_2}"
+          },
+          {
+            "text": "For the equivalent lens, $\\frac{1}{v} - \\frac{1}{u} = \\frac{1}{f}$.",
+            "latex": "\\frac{1}{f} = \\frac{1}{f_1} + \\frac{1}{f_2}"
+          }
+        ],
+        "final_result": {
+          "text": "Equivalent focal length and power:",
+          "latex": "\\frac{1}{f} = \\frac{1}{f_1} + \\frac{1}{f_2} \\implies P = P_1 + P_2"
+        },
+        "examiner_notes": [
+          "Mention that the lenses are 'Thin' (optical centers coincide).",
+          "If one lens is concave, substitute f2 with negative sign in numericals (not in derivation)."
+        ],
+        "question_forms": [
+          "Derive the expression for the equivalent focal length of two thin lenses kept in contact.",
+          "Show that power is additive for lenses in contact."
+        ]
+      }
+    },
+    {
+      "id": "ch9-05",
+      "title": "Magnifying Power of Compound Microscope ",
+      "priority": "P1",
+      "priority_reason": "High-value derivation. The ray diagram alone is often worth 2-3 marks.",
+      "marks": 5,
+      "diagram_required": true,
+      "diagram_description": "Objective lens (small aperture/focal length) and Eyepiece (large aperture/focal length). Object AB placed just beyond fo. Real inverted image A'B' formed between fe and pole of eyepiece. Final virtual image A''B'' formed at near point D (or infinity). Ray paths must be distinct.",
+      "derivation": {
+        "given_assumptions": [
+          "Two lenses: Objective ($f_o$) and Eyepiece ($f_e$).",
+          "Final image formed at Near Point $D$."
+        ],
+        "required": "Magnifying power $m$.",
+        "steps": [
+          {
+            "text": "Total magnification is product of linear magnification of objective ($m_o$) and angular magnification of eyepiece ($m_e$).",
+            "latex": "m = m_o \\times m_e"
+          },
+          {
+            "text": "For Objective: Real image formed. $m_o = \\frac{h'}{h} \\approx \\frac{L}{f_o}$ (where $L$ is tube length, approx distance between foci).",
+            "latex": "m_o \\approx -\\frac{L}{f_o}"
+          },
+          {
+            "text": "For Eyepiece: Acts as simple magnifier. Image at $D$.",
+            "latex": "m_e = 1 + \\frac{D}{f_e}"
+          },
+          {
+            "text": "Combining terms:",
+            "latex": "m = -\\frac{L}{f_o} \\left( 1 + \\frac{D}{f_e} \\right)"
+          }
+        ],
+        "final_result": {
+          "text": "For image at near point:",
+          "latex": "m = -\\frac{L}{f_o} \\left( 1 + \\frac{D}{f_e} \\right)"
+        },
+        "examiner_notes": [
+          "The approximation mo = L/fo is standard in NCERT. Using v/u is also correct but harder to simplify.",
+          "Negative sign indicates inverted final image.",
+          "Ray diagram must show arrows on rays."
+        ],
+        "question_forms": [
+          "Draw a ray diagram of a compound microscope and derive the expression for its magnifying power.",
+          "Derive the formula for magnification when the final image is at the least distance of distinct vision."
+        ]
+      },
+      "image": "/images/placeholder.svg"
+    },
+    {
+      "id": "ch9-06",
+      "title": "Magnifying Power of Astronomical Telescope (Normal Adjustment)",
+      "priority": "P1",
+      "priority_reason": "Complementary to microscope. Very frequent.",
+      "marks": 3,
+      "diagram_required": true,
+      "diagram_description": "Objective (large aperture/focal length) and Eyepiece (small). Parallel rays from infinity form real image at focus of objective (fo). This point coincides with focus of eyepiece (fe). Final rays emerge parallel. Angles alpha (subtended by object at objective) and beta (subtended by image at eyepiece) are marked.",
+      "derivation": {
+        "given_assumptions": [
+          "Object at infinity. Final image at infinity (Normal Adjustment).",
+          "Objective focal length $f_o$, Eyepiece $f_e$."
+        ],
+        "required": "Magnifying power $m = \\beta / \\alpha$.",
+        "steps": [
+          {
+            "text": "Angle subtended by object $\\alpha \\approx \\tan \\alpha = \\frac{h}{f_o}$ (where $h$ is height of intermediate image).",
+            "latex": "\\alpha = \\frac{h}{f_o}"
+          },
+          {
+            "text": "Angle subtended by image $\\beta \\approx \\tan \\beta = \\frac{h}{f_e}$ (image is at focus of eyepiece).",
+            "latex": "\\beta = \\frac{h}{-f_e} \\quad (\\text{using sign convention for } f_e)"
+          },
+          {
+            "text": "Magnifying power definition:",
+            "latex": "m = \\frac{\\beta}{\\alpha} = \\frac{h/-f_e}{h/f_o}"
+          }
+        ],
+        "final_result": {
+          "text": "Magnifying power (Normal Adjustment):",
+          "latex": "m = -\\frac{f_o}{f_e}"
+        },
+        "examiner_notes": [
+          "For telescope, fo > fe (opposite of microscope).",
+          "Negative sign means image is inverted.",
+          "Diagram must show parallel rays entering and leaving."
+        ],
+        "question_forms": [
+          "Draw the ray diagram for an astronomical telescope in normal adjustment and derive its magnifying power.",
+          "Show that m = fo/fe for a telescope."
+        ]
+      }
+    }
+  ]
+}

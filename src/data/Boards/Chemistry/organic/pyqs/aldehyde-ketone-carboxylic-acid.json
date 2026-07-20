@@ -1,0 +1,735 @@
+{
+  "meta": {
+    "subject": "Chemistry",
+    "class": "12",
+    "chapter_name": "Aldehydes, Ketones and Carboxylic Acids",
+    "pyq_year_range": "2022-2025 (Includes SQPs)",
+    "total_questions": 25,
+    "difficulty_distribution": {
+      "easy": "15%",
+      "moderate": "50%",
+      "hard": "35%"
+    }
+  },
+  "questions": [
+    {
+      "question_id": "AKC-2024-MCQ-01",
+      "year": "2024",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "Which of the following compounds will undergo Cannizzaro reaction?",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (c): Benzaldehyde",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "Benzaldehyde"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Cannizzaro Reaction Condition",
+        "why_this_question_is_asked": "To test if the student knows that aldehydes without alpha-hydrogens undergo Cannizzaro reaction.",
+        "common_student_mistake": "Selecting Acetaldehyde (has alpha-H, undergoes Aldol) or Acetone (Ketone).",
+        "trap_zone": "Formaldehyde and Benzaldehyde are the two key examples."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "c",
+        "options": {
+          "a": "Acetaldehyde",
+          "b": "Acetone",
+          "c": "Benzaldehyde",
+          "d": "Propanone"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "AKC-2023-MCQ-02",
+      "year": "2023",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "The correct order of increasing reactivity towards nucleophilic addition reaction is:",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (a): Di-tert-butyl ketone < Acetone < Propanal < Ethanal",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "Di-tert-butyl ketone < Acetone < Propanal < Ethanal"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Reactivity of Carbonyls",
+        "why_this_question_is_asked": "Tests Steric and Electronic effects. Aldehydes > Ketones. Less hindered > More hindered.",
+        "common_student_mistake": "Thinking Ketones are more reactive than Aldehydes due to electron donating alkyl groups (actually +I decreases electrophilicity).",
+        "trap_zone": "Steric hindrance of bulky groups (tert-butyl) significantly lowers reactivity."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "a",
+        "options": {
+          "a": "Di-tert-butyl ketone < Acetone < Propanal < Ethanal",
+          "b": "Ethanal < Propanal < Acetone < Di-tert-butyl ketone",
+          "c": "Acetone < Ethanal < Propanal < Di-tert-butyl ketone",
+          "d": "Acetone < Di-tert-butyl ketone < Ethanal < Propanal"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "AKC-2025-MCQ-03",
+      "year": "2025",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "Reaction of Propanone with Methylmagnesium bromide followed by hydrolysis gives:",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (b): tert-Butyl alcohol",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "tert-Butyl alcohol"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Grignard Reaction with Carbonyls",
+        "why_this_question_is_asked": "Formaldehyde -> 1° Alcohol; Aldehyde -> 2° Alcohol; Ketone -> 3° Alcohol.",
+        "common_student_mistake": "Predicting Isobutyl alcohol or Propan-2-ol.",
+        "trap_zone": "Acetone + MeMgBr adds a methyl group to the carbonyl carbon, creating a tertiary center."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "b",
+        "options": {
+          "a": "Isopropyl alcohol",
+          "b": "tert-Butyl alcohol",
+          "c": "n-Butyl alcohol",
+          "d": "sec-Butyl alcohol"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "AKC-SQP-MCQ-04",
+      "year": "SQP 2024",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "Identify the product formed when Toluene is oxidized by Chromyl chloride ($CrO_2Cl_2$) followed by hydrolysis.",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (d): Benzaldehyde",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "Benzaldehyde"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Etard Reaction",
+        "why_this_question_is_asked": "Specific name reaction for converting Methylbenzene to Benzaldehyde.",
+        "common_student_mistake": "Thinking it oxidizes fully to Benzoic Acid (that happens with $KMnO_4$).",
+        "trap_zone": "The intermediate is a chromium complex, hydrolysis yields aldehyde."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "d",
+        "options": {
+          "a": "Benzyl alcohol",
+          "b": "Benzoic acid",
+          "c": "Phenol",
+          "d": "Benzaldehyde"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "AKC-2022-MCQ-05",
+      "year": "2022",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "Which of the following acids has the smallest $pK_a$ value?",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (c): 2,2,2-Trifluoroethanoic acid",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "2,2,2-Trifluoroethanoic acid"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Acidity of Carboxylic Acids",
+        "why_this_question_is_asked": "Electron withdrawing groups (-I effect) increase acidity (lower $pK_a$). $F$ is more electronegative than $Cl$.",
+        "common_student_mistake": "Confusing Smallest $pK_a$ with Weakest Acid. Smallest $pK_a$ = Strongest Acid.",
+        "trap_zone": "Comparing Chloro vs Fluoro derivatives."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "c",
+        "options": {
+          "a": "Ethanoic acid",
+          "b": "2-Chloroethanoic acid",
+          "c": "2,2,2-Trifluoroethanoic acid",
+          "d": "Benzoic acid"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "AKC-2023-AR-06",
+      "year": "2023",
+      "question_type": "Assertion-Reason",
+      "marks": 1,
+      "question_text": "Assertion (A): Aldehydes and ketones have higher boiling points than hydrocarbons of comparable molecular masses.\nReason (R): Aldehydes and ketones contain carbonyl group and show dipole-dipole interactions.",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (a): Both A and R are true and R is the correct explanation of A.",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "Both true, R is explanation"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Physical Properties",
+        "why_this_question_is_asked": "Intermolecular forces comparison: Dipole-dipole > Van der Waals.",
+        "common_student_mistake": "Assuming they have H-bonding (they don't, alcohols do).",
+        "trap_zone": "If comparing with Alcohols, Alcohols have higher BP due to H-bonding."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "a",
+        "options": {
+          "a": "Both A and R are true and R is the correct explanation of A",
+          "b": "Both A and R are true but R is not the correct explanation of A",
+          "c": "A is true but R is false",
+          "d": "A is false but R is true"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "AKC-2024-VSA-07",
+      "year": "2024",
+      "question_type": "2M",
+      "marks": 2,
+      "question_text": "Write the chemical equations for the following reactions:\n(i) Propanone is treated with $Zn-Hg$ and Conc. $HCl$.\n(ii) Ethanal is treated with dilute $NaOH$.",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(i) Clemmensen Reduction:\n$CH_3COCH_3 + 4[H] \\xrightarrow{Zn-Hg/HCl} CH_3CH_2CH_3 + H_2O$\n(Product: Propane)\n\n(ii) Aldol Condensation:\n$2CH_3CHO \\xrightarrow{dil. NaOH} CH_3CH(OH)CH_2CHO$ (3-Hydroxybutanal)\n(If heated: $\\xrightarrow{\\Delta} CH_3CH=CHCHO$ But-2-enal)",
+        "stepwise_marking_scheme_breakdown": "1 mark for Clemmensen equation.\n1 mark for Aldol equation (Aldol product is sufficient unless heating is specified).",
+        "final_answer_boxed": "Propane; 3-Hydroxybutanal"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Name Reactions",
+        "why_this_question_is_asked": "Clemmensen reduces C=O to $CH_2$. Aldol builds C-C bonds.",
+        "common_student_mistake": "In (ii), writing Cannizzaro product (Ethanal has alpha-H, so Aldol).",
+        "trap_zone": "Reagents for Clemmensen (Acidic) vs Wolff-Kishner (Basic)."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "AKC-2022-SA-08",
+      "year": "2022",
+      "question_type": "2M",
+      "marks": 2,
+      "question_text": "Distinguish between the following pairs:\n(i) Propanal and Propanone\n(ii) Benzoic acid and Phenol",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(i) Tollens' Test: Add ammoniacal silver nitrate.\n   - Propanal: Forms silver mirror ($Ag$).\n   - Propanone: No reaction.\n(ii) Sodium Bicarbonate Test ($NaHCO_3$):\n   - Benzoic acid: Effervescence of $CO_2$ gas evolves.\n   - Phenol: No reaction (Phenol is weaker acid than $H_2CO_3$).",
+        "stepwise_marking_scheme_breakdown": "1 mark for Tollens/Fehling.\n1 mark for Bicarbonate test.",
+        "final_answer_boxed": "Tollens'; NaHCO3"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Chemical Tests",
+        "why_this_question_is_asked": "Standard laboratory tests identification.",
+        "common_student_mistake": "Using Iodoform for (i) (Propanone gives Iodoform, Propanal does not, so Iodoform is also valid).",
+        "trap_zone": "Phenol does not react with Bicarbonate, unlike Carboxylic acids."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "AKC-2025-SA-09",
+      "year": "2025",
+      "question_type": "3M",
+      "marks": 3,
+      "question_text": "Predict the products of the following reactions:\n(i) $CH_3-CH=CH-CH_2-CN \\xrightarrow{DIBAL-H, H_2O} ?$\n(ii) Cyclohexanecarbaldehyde + Ph-MgBr $\\xrightarrow{H_3O^+} ?$\n(iii) $CH_3COOH \\xrightarrow{Cl_2/Red P} ?$",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(i) $CH_3-CH=CH-CH_2-CHO$ (Pent-3-enal)\n(Reason: DIBAL-H reduces Nitrile to Aldehyde selectively without affecting double bond).\n\n(ii) Cyclohexyl-phenyl-methanol (Alcohol)\n(Reason: Grignard attacks aldehyde to form secondary alcohol).\n\n(iii) $Cl-CH_2-COOH$ (2-Chloroethanoic acid)\n(Reason: HVZ Reaction - alpha-halogenation).",
+        "stepwise_marking_scheme_breakdown": "1 mark for each correct structure.",
+        "final_answer_boxed": "N/A"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Reagents Specificity",
+        "why_this_question_is_asked": "DIBAL-H specificity, Grignard addition, and HVZ reaction.",
+        "common_student_mistake": "Reducing double bond with DIBAL-H. Forgetting Hydrolysis step in Grignard.",
+        "trap_zone": "HVZ only substitutes alpha-hydrogens."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "AKC-SQP-SA-10",
+      "year": "SQP 2024",
+      "question_type": "3M",
+      "marks": 3,
+      "question_text": "Give simple chemical tests to distinguish between:\n(a) Pentan-2-one and Pentan-3-one\n(b) Ethanal and Propanal\n(c) Acetophenone and Benzophenone",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(a) Iodoform Test ($I_2 + NaOH$):\n   - Pentan-2-one ($CH_3-CO-$): Yellow ppt of $CHI_3$.\n   - Pentan-3-one: No reaction.\n(b) Iodoform Test:\n   - Ethanal ($CH_3-CHO$): Yellow ppt.\n   - Propanal: No reaction.\n(c) Iodoform Test:\n   - Acetophenone ($Ph-CO-CH_3$): Yellow ppt.\n   - Benzophenone ($Ph-CO-Ph$): No reaction.",
+        "stepwise_marking_scheme_breakdown": "1 mark for each pair using Iodoform Test logic.",
+        "final_answer_boxed": "Iodoform Test for all"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Iodoform Test Application",
+        "why_this_question_is_asked": "Iodoform test is the most versatile test for methyl ketones and acetaldehyde.",
+        "common_student_mistake": "Trying to use Tollens for ketone pairs (won't work for either).",
+        "trap_zone": "Ethanal is the ONLY aldehyde that gives Iodoform test."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "AKC-2023-VSA-11",
+      "year": "2023",
+      "question_type": "2M",
+      "marks": 2,
+      "question_text": "Explain the mechanism of nucleophilic addition of HCN to a carbonyl group.",
+      "if_graph_or_diagram_required": {
+        "required": true,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Step 1: Nucleophilic Attack.\nThe nucleophile $CN^-$ attacks the electrophilic carbonyl carbon from a direction perpendicular to the plane of $sp^2$ hybridized orbitals. The $\\pi$ electrons shift to Oxygen.\n$C=O + CN^- \\rightarrow C(O^-)(CN)$ (Tetrahedral Alkoxide Intermediate).\n\nStep 2: Protonation.\nThe intermediate captures a proton ($H^+$) from the reaction medium to form the cyanohydrin.\n$C(O^-)(CN) + H^+ \\rightarrow C(OH)(CN)$ (Cyanohydrin).",
+        "stepwise_marking_scheme_breakdown": "1 mark for Step 1 (Arrow pushing diagram).\n1 mark for Step 2 (Final product structure).",
+        "final_answer_boxed": "Cyanohydrin Formation"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Reaction Mechanism",
+        "why_this_question_is_asked": "Fundamental mechanism for chapter.",
+        "common_student_mistake": "Not showing the reversibility of the reaction or the tetrahedral nature of intermediate.",
+        "trap_zone": "Reaction is catalyzed by Base (to generate $CN^-$ from HCN)."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "AKC-2024-LA-12",
+      "year": "2024",
+      "question_type": "5M",
+      "marks": 5,
+      "question_text": "An organic compound 'A' ($C_8H_8O$) gives positive 2,4-DNP test, gives a yellow precipitate with Iodine and Sodium Hydroxide, and does not give Tollens' or Fehling's test. On drastic oxidation with potassium permanganate, it forms a carboxylic acid 'B' ($C_7H_6O_2$). Identify A and B and write the reactions involved.",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Identification:\n1. Formula $C_8H_8O$ (Unsaturation index = 5, likely benzene ring + C=O).\n2. 2,4-DNP positive $\\rightarrow$ Aldehyde or Ketone.\n3. Tollens'/Fehling's negative $\\rightarrow$ Ketone.\n4. Iodoform positive $\\rightarrow$ Contains $CH_3-CO-$ group. So it is a Methyl Ketone.\n5. Structure A: Acetophenone ($C_6H_5COCH_3$).\n6. Oxidation of A ($C_6H_5COCH_3$) with $KMnO_4$ gives Benzoic Acid ($C_6H_5COOH$). Formula $C_7H_6O_2$ matches.\n\nReactions:\n1. Acetophenone + 2,4-DNP $\\rightarrow$ Orange ppt.\n2. Acetophenone + $I_2/NaOH \\rightarrow CHI_3$ (Yellow ppt) + $C_6H_5COONa$.\n3. Acetophenone + $KMnO_4/KOH/\\Delta \\rightarrow C_6H_5COOH$ (Benzoic acid).\n\nResult: A = Acetophenone, B = Benzoic Acid.",
+        "stepwise_marking_scheme_breakdown": "2 marks for Identification (Logic).\n3 marks for three Reactions.",
+        "final_answer_boxed": "A=Acetophenone, B=Benzoic Acid"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Structure Elucidation",
+        "why_this_question_is_asked": "Combines all functional group tests.",
+        "common_student_mistake": "Identifying A as Phenylacetaldehyde (gives Tollens, so ruled out).",
+        "trap_zone": "Formula $C_8H_8O$ fits both Acetophenone and Phenylacetaldehyde."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "AKC-SQP-CASE-13",
+      "year": "SQP 2023",
+      "question_type": "Case-Based",
+      "marks": 4,
+      "question_text": "Read the passage:\nCarboxylic acids are acidic in nature due to resonance stabilization of the carboxylate ion. The acidity is affected by substituents attached to the hydrocarbon chain. Electron withdrawing groups increase acidity while electron donating groups decrease it. The effect depends on the nature, number, and position of substituents.\n(a) Which is more acidic: $F-CH_2-COOH$ or $Cl-CH_2-COOH$?\n(b) Why is Benzoic acid stronger than Acetic acid?\n(c) Compare the acidity of 4-Nitrobenzoic acid and 4-Methoxybenzoic acid.",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(a) $F-CH_2-COOH$. (F is more electronegative, stronger -I effect).\n(b) Benzoic acid is stronger because the phenyl ring ($sp^2$ carbon) is electron withdrawing (-I effect) compared to the methyl group (+I effect) in acetic acid. Also, the carboxylate ion is conjugation with the phenyl ring.\n(c) 4-Nitrobenzoic acid > Benzoic acid > 4-Methoxybenzoic acid.\n(Nitro is EWG (-I, -R) stabilizes anion. Methoxy is EDG (+R) destabilizes anion).",
+        "stepwise_marking_scheme_breakdown": "1 mark for (a).\n1 mark for (b).\n2 marks for (c) (Order + Reason).",
+        "final_answer_boxed": "Nitro > Methoxy"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Acidity Trends",
+        "why_this_question_is_asked": "Standard conceptual check.",
+        "common_student_mistake": "Thinking phenyl is electron donating due to resonance (In carboxylic acids, the -I effect of $sp^2$ C dominates over resonance with C=O, or rather resonance stabilization of benzoate is significant). Actually, Phenyl is -I but +R. Overall Benzoic > Acetic.",
+        "trap_zone": "Ortho effect is not asked here, but is a common trap."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "AKC-2022-SA-14",
+      "year": "2022",
+      "question_type": "3M",
+      "marks": 3,
+      "question_text": "How will you convert:\n(i) Benzene to Acetophenone\n(ii) Benzaldehyde to $\\alpha$-Hydroxyphenylacetic acid\n(iii) Benzoic acid to Benzaldehyde",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(i) Friedel-Crafts Acylation:\n$C_6H_6 + CH_3COCl \\xrightarrow{Anhyd. AlCl_3} C_6H_5COCH_3$\n\n(ii) Cyanohydrin Hydrolysis:\n$Ph-CHO + HCN \\rightarrow Ph-CH(OH)-CN \\xrightarrow{H_3O^+} Ph-CH(OH)-COOH$\n\n(iii) Method via Chloride:\n$Ph-COOH \\xrightarrow{SOCl_2} Ph-COCl \\xrightarrow{H_2/Pd-BaSO_4} Ph-CHO$ (Rosenmund Reduction).",
+        "stepwise_marking_scheme_breakdown": "1 mark for each conversion pathway.",
+        "final_answer_boxed": "Acylation; Cyanohydrin; Rosenmund"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Conversions",
+        "why_this_question_is_asked": "Linking different reactions.",
+        "common_student_mistake": "Trying to reduce Benzoic acid directly to Benzaldehyde (Difficult, usually goes to Alcohol). Rosenmund is best path.",
+        "trap_zone": "Mandelic acid (product of ii) structure."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "AKC-2025-MCQ-15",
+      "year": "2025",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "Cross aldol condensation between Benzaldehyde and Acetophenone yields:",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (c): Benzalacetophenone (Chalcone)",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "Benzalacetophenone"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Cross Aldol",
+        "why_this_question_is_asked": "Claisen-Schmidt condensation. Benzaldehyde (No alpha H) + Acetophenone (Alpha H).",
+        "common_student_mistake": "Self-aldol of Acetophenone.",
+        "trap_zone": "Structure is $Ph-CH=CH-CO-Ph$."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "c",
+        "options": {
+          "a": "Benzoin",
+          "b": "Benzyl alcohol",
+          "c": "Benzalacetophenone",
+          "d": "Benzophenone"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "AKC-2023-SA-16",
+      "year": "2023",
+      "question_type": "3M",
+      "marks": 3,
+      "question_text": "Write the structures of A, B and C in the following:\n$CH_3COOH \\xrightarrow{NH_3/\\Delta} A \\xrightarrow{Br_2/KOH} B \\xrightarrow{CHCl_3/NaOH} C$",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "1. $A = CH_3CONH_2$ (Ethanamide) - [Ammonium acetate formed first, then dehydration].\n2. $B = CH_3NH_2$ (Methanamine) - [Hoffmann Bromamide Degradation].\n3. $C = CH_3NC$ (Methyl Isocyanide) - [Carbylamine Reaction].",
+        "stepwise_marking_scheme_breakdown": "1 mark for each structure.",
+        "final_answer_boxed": "Amide; Amine; Isocyanide"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Sequential Reaction",
+        "why_this_question_is_asked": "Connecting Acid derivatives to Amines chapter.",
+        "common_student_mistake": "In B, keeping two carbons (Ethan amine). Hoffmann reduces carbon count.",
+        "trap_zone": "Carbylamine gives Isocyanide (NC), not Cyanide (CN)."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "AKC-2024-MCQ-17",
+      "year": "2024",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "Which of the following compounds does not react with Sodium Bisulphite ($NaHSO_3$)?",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (d): Pentan-3-one / Diethyl ketone? (Usually Acetophenone or sterically hindered ketones. Let's select Acetophenone/Benzophenone if listed, or Pentan-3-one vs Acetone). Textbooks say highly hindered ketones do not react. Acetophenone reacts slowly. Benzophenone does not. Pentan-3-one reacts.",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "Benzophenone"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Nucleophilic Addition Sterics",
+        "why_this_question_is_asked": "NaHSO3 addition is sensitive to steric hindrance.",
+        "common_student_mistake": "Assuming all carbonyls react.",
+        "trap_zone": "Benzophenone or Di-tert-butyl ketone."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "d",
+        "options": {
+          "a": "Propanone",
+          "b": "Ethanal",
+          "c": "Acetophenone",
+          "d": "Benzophenone"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "AKC-2022-SA-18",
+      "year": "2022",
+      "question_type": "2M",
+      "marks": 2,
+      "question_text": "(i) Why do carboxylic acids not give the characteristic reactions of the carbonyl group?\n(ii) Why is the boiling point of carboxylic acids higher than alcohols of comparable molecular mass?",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(i) Due to resonance, the carbonyl carbon in carboxylic acids is less electrophilic than in aldehydes/ketones. The lone pair on hydroxyl oxygen interacts with the carbonyl, reducing its double bond character and electrophilicity.\n(ii) Carboxylic acids form strong intermolecular hydrogen bonds (dimers), even in the vapor phase, which are stronger than the H-bonds in alcohols.",
+        "stepwise_marking_scheme_breakdown": "1 mark for Resonance/Electrophilicity.\n1 mark for Dimer formation.",
+        "final_answer_boxed": "Resonance; Dimerization"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Structure Properties",
+        "why_this_question_is_asked": "Explaining anomalous behavior.",
+        "common_student_mistake": "Just saying 'H-bonding' for (ii) without mentioning 'Dimer'.",
+        "trap_zone": "N/A"
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "AKC-2025-SA-19",
+      "year": "2025",
+      "question_type": "3M",
+      "marks": 3,
+      "question_text": "Write the products of the following:\n(i) $2HCHO + Conc. KOH \\xrightarrow{\\Delta} ?$\n(ii) $CH_3COCH_3 \\xrightarrow{Ba(OH)_2} ?$\n(iii) $C_6H_5CHO + CH_3COCH_3 \\xrightarrow{dil. NaOH} ?$",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(i) Cannizzaro Reaction:\n$HCOOK$ (Potassium formate) + $CH_3OH$ (Methanol).\n(ii) Aldol Condensation (Ketol formation):\n$CH_3-C(OH)(CH_3)-CH_2-CO-CH_3$ (Diacetone alcohol).\n(iii) Cross Aldol:\n$C_6H_5-CH=CH-CO-CH_3$ (Benzalacetone).",
+        "stepwise_marking_scheme_breakdown": "1 mark for each product.",
+        "final_answer_boxed": "Methanol+Formate; Diacetone alcohol; Benzalacetone"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Aldol vs Cannizzaro",
+        "why_this_question_is_asked": "Differentiating base catalyzed reactions.",
+        "common_student_mistake": "Heating implied in (iii) usually leads to enone. In (ii) $Ba(OH)_2$ usually stops at Ketol.",
+        "trap_zone": "Formaldehyde always Cannizzaro."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "AKC-SQP-AR-20",
+      "year": "SQP 2023",
+      "question_type": "Assertion-Reason",
+      "marks": 1,
+      "question_text": "Assertion (A): Benzoic acid does not undergo Friedel-Crafts reaction.\nReason (R): The carboxyl group is activating and ortho-para directing.",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (c): A is true but R is false.",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "A true, R false"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Electrophilic Substitution of Acids",
+        "why_this_question_is_asked": "Important exception. -COOH is Deactivating and Meta directing.",
+        "common_student_mistake": "Thinking it doesn't react because of H-bonding.",
+        "trap_zone": "The carboxyl group forms a complex with $AlCl_3$ (Catalyst) deactivating the ring further."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "c",
+        "options": {
+          "a": "Both A and R are true and R is the correct explanation of A",
+          "b": "Both A and R are true but R is not the correct explanation of A",
+          "c": "A is true but R is false",
+          "d": "A is false but R is true"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "AKC-2024-MCQ-21",
+      "year": "2024",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "Wolff-Kishner reduction is carried out in the presence of:",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (a): $NH_2NH_2 / KOH / Ethylene Glycol$",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "Hydrazine/KOH"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Reagents",
+        "why_this_question_is_asked": "Direct check.",
+        "common_student_mistake": "Confusing with Clemmensen ($Zn-Hg/HCl$).",
+        "trap_zone": "Glycol is the solvent (high boiling)."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "a",
+        "options": {
+          "a": "NH2NH2 / KOH",
+          "b": "Zn-Hg / HCl",
+          "c": "H2 / Pd",
+          "d": "LiAlH4"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "AKC-2022-SA-22",
+      "year": "2022",
+      "question_type": "3M",
+      "marks": 3,
+      "question_text": "(i) Draw the structure of the semicarbazone of ethanal.\n(ii) Why is the $pH$ range controlled during the preparation of ammonia derivatives of aldehydes?\n(iii) Which part of semicarbazide acts as the nucleophile?",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(i) $CH_3-CH=N-NH-CO-NH_2$\n(ii) Reaction is acid catalyzed. If $pH$ is too low (acidic), amine gets protonated and loses nucleophilicity. If $pH$ is too high, protonation of carbonyl oxygen (activation) doesn't happen. Optimum $pH$ is 3.5.\n(iii) The terminal hydrazine Nitrogen ($NH_2$ not attached to CO). The amide Nitrogen lone pair is involved in resonance with CO, making it unavailable.",
+        "stepwise_marking_scheme_breakdown": "1 mark for Structure.\n1 mark for pH reason.\n1 mark for Nucleophile identification.",
+        "final_answer_boxed": "Terminal N"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Ammonia Derivatives Reaction",
+        "why_this_question_is_asked": "Subtle mechanism details.",
+        "common_student_mistake": "Connecting Carbonyl to the wrong Nitrogen in semicarbazide.",
+        "trap_zone": "Semicarbazide has two $NH_2$ groups."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "AKC-SQP-SA-23",
+      "year": "SQP 2025",
+      "question_type": "2M",
+      "marks": 2,
+      "question_text": "What is the role of:\n(i) Concentrated sulphuric acid in esterification?\n(ii) Pyridine in the reaction of alcohol with acid chloride?",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(i) $H_2SO_4$ acts as a catalyst (protonates carbonyl) and a dehydrating agent (removes water), shifting the equilibrium forward.\n(ii) Pyridine neutralizes the $HCl$ formed during the reaction, preventing the reverse reaction and shifting equilibrium to the right.",
+        "stepwise_marking_scheme_breakdown": "1 mark each.",
+        "final_answer_boxed": "Dehydrating agent; Neutralizer"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Reaction Conditions",
+        "why_this_question_is_asked": "Equilibrium principles in organic reactions.",
+        "common_student_mistake": "Forgetting the equilibrium shift aspect.",
+        "trap_zone": "N/A"
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "AKC-2023-MCQ-24",
+      "year": "2023",
+      "question_type": "MCQ",
+      "marks": 1,
+      "question_text": "Which of the following does not give aldol condensation?",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "Option (c): Benzaldehyde",
+        "stepwise_marking_scheme_breakdown": "1 mark.",
+        "final_answer_boxed": "Benzaldehyde"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Alpha Hydrogen",
+        "why_this_question_is_asked": "Prerequisite for Aldol.",
+        "common_student_mistake": "Methanal (Formaldehyde) is also correct, but usually options pair it. Here Benzaldehyde is key.",
+        "trap_zone": "Acetaldehyde vs Benzaldehyde."
+      },
+      "quiz_mode": {
+        "correct_option_if_mcq": "c",
+        "options": {
+          "a": "Ethanal",
+          "b": "Propanone",
+          "c": "Benzaldehyde",
+          "d": "Propanal"
+        },
+        "visible_after_attempt": true
+      }
+    },
+    {
+      "question_id": "AKC-2025-SA-25",
+      "year": "2025",
+      "question_type": "3M",
+      "marks": 3,
+      "question_text": "How will you bring about the following conversions?\n(i) Ethanol to 3-Hydroxybutanal\n(ii) Benzaldehyde to Benzophenone\n(iii) Benzoic acid to m-Nitrobenzyl alcohol",
+      "if_graph_or_diagram_required": {
+        "required": false,
+        "diagram_description_for_rendering": ""
+      },
+      "board_style_answer": {
+        "structured_answer": "(i) $CH_3CH_2OH \\xrightarrow{PCC} CH_3CHO \\xrightarrow{dil. NaOH} CH_3CH(OH)CH_2CHO$ (Aldol).\n\n(ii) $Ph-CHO \\xrightarrow{PhMgBr/H_3O^+} Ph-CH(OH)-Ph \\xrightarrow{CrO_3} Ph-CO-Ph$.\n\n(iii) $Ph-COOH \\xrightarrow{HNO_3/H_2SO_4} m-NO_2-C_6H_4-COOH \\xrightarrow{B_2H_6/H_3O^+} m-NO_2-C_6H_4-CH_2OH$ (Selective reduction of acid in presence of nitro).",
+        "stepwise_marking_scheme_breakdown": "1 mark for each multistep conversion.",
+        "final_answer_boxed": "N/A"
+      },
+      "examiner_intent_analysis": {
+        "concept_tested": "Multistep Synthesis",
+        "why_this_question_is_asked": "Complex conversions.",
+        "common_student_mistake": "In (iii), using $LiAlH_4$ might reduce Nitro group too. $B_2H_6$ is specific for COOH. Also nitration must be done first (COOH is meta directing) before reduction (CH2OH is ortho/para).",
+        "trap_zone": "Order of steps in (iii)."
+      },
+      "quiz_mode": {
+        "visible_after_attempt": true
+      }
+    }
+  ],
+  "chapter_pattern_analysis": {
+    "most_repeated_concepts": [
+      "Aldol Condensation & Cannizzaro Reaction (Mechanism/Products).",
+      "Acidity of Carboxylic Acids (Substituent effects).",
+      "Iodoform Test (Identification of Methyl Ketones).",
+      "Nucleophilic Addition Reactivity (Steric/Electronic factors).",
+      "Tests: Tollens, Fehling, 2,4-DNP."
+    ],
+    "high_probability_2026_focus": [
+      "Cross Aldol products.",
+      "Conversions involving Grignard reagents and Oxidation.",
+      "Reasoning based on boiling points and acidity (Ortho effect)."
+    ],
+    "numerical_weightage_trend": "None.",
+    "case_based_trend": "Focuses on Acidity Trends or Nucleophilic Addition Mechanisms.",
+    "assertion_reason_trend": "Comparison of reactivity (Aldehyde vs Ketone) and Acidity."
+  }
+}

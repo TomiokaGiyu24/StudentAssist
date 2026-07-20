@@ -1,0 +1,722 @@
+{
+  "chapter_name": "Three Dimensional Geometry",
+  "board": "CBSE",
+  "class": "12",
+  "exam_year": "2026",
+  "formulas": [
+    {
+      "formula_number": 1,
+      "formula_title": "Direction Cosines (DC's) and Direction Ratios (DR's)",
+      "section_A": {
+        "latex_formula": "$$ l = \\cos \\alpha, \\quad m = \\cos \\beta, \\quad n = \\cos \\gamma $$",
+        "derived_forms": [
+          "$$ l^2 + m^2 + n^2 = 1 $$",
+          "$$ l = \\pm \\frac{a}{\\sqrt{a^2+b^2+c^2}}, \\quad m = \\pm \\frac{b}{\\sqrt{a^2+b^2+c^2}}, \\quad n = \\pm \\frac{c}{\\sqrt{a^2+b^2+c^2}} $$"
+        ],
+        "special_cases": [
+          "$$ \\text{DC's of X-axis: } (1, 0, 0); \\quad \\text{Y-axis: } (0, 1, 0); \\quad \\text{Z-axis: } (0, 0, 1) $$",
+          "$$ \\text{If a line makes equal angles with axes: } l=m=n = \\pm \\frac{1}{\\sqrt{3}} $$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "Used to define the orientation of a line in 3D space. DR's are used for direction vectors, while DC's are required for unit direction vectors.",
+        "trigger_keywords": [
+          "direction cosines",
+          "direction ratios",
+          "equally inclined",
+          "angles with coordinate axes"
+        ],
+        "question_types": [
+          "MCQ",
+          "1_mark",
+          "2_mark"
+        ],
+        "common_mistakes": [
+          "Assuming $$ a^2 + b^2 + c^2 = 1 $$ for direction ratios.",
+          "Forgetting the plus-minus sign when converting DR's to DC's."
+        ],
+        "board_traps": [
+          "Giving angles $$ \\alpha, \\beta $$ and asking for $$ \\gamma $$ using $$ \\cos^2 \\alpha + \\cos^2 \\beta + \\cos^2 \\gamma = 1 $$.",
+          "Asking for DC's of a line passing through two points $$ P_1, P_2 $$ without dividing by the distance $$ P_1P_2 $$."
+        ],
+        "examiner_twist_pattern": "Mixing degrees and radians or giving angles with axes like 'makes 45 degrees with X and Y axes' and requiring the student to find the third angle."
+      },
+      "section_C": {
+        "why_students_fail": "Confusion between DR's (any proportional numbers) and DC's (normalized numbers whose squares sum to 1).",
+        "how_to_think": "Think 'Direction Cosines are coordinates on a unit sphere'. They represent the unit vector version of the line's direction.",
+        "thirty_second_strategy": "1. Identify if given values are angles or ratios. 2. If angles, take Cosines. 3. If ratios, divide by the magnitude $$ \\sqrt{\\sum a^2} $$. 4. Verify $$ \\sum l^2 = 1 $$.",
+        "mental_shortcut": "DC's = (DR's) / Magnitude.",
+        "micro_example": "If DR's are (2, -1, -2), Magnitude = $$ \\sqrt{4+1+4} = 3 $$. DC's are $$ (2/3, -1/3, -2/3) $$."
+      },
+      "diagram": ""
+    },
+    {
+      "formula_number": 2,
+      "formula_title": "Equation of a Line (One Point and Parallel Vector)",
+      "section_A": {
+        "latex_formula": "$$ \\vec{r} = \\vec{a} + \\lambda \\vec{b} $$",
+        "derived_forms": [
+          "$$ \\frac{x - x_1}{a} = \\frac{y - y_1}{b} = \\frac{z - z_1}{c} \\quad \\text{(Cartesian Form)} $$",
+          "$$ x = x_1 + \\lambda a, \\ y = y_1 + \\lambda b, \\ z = z_1 + \\lambda c \\quad \\text{(Parametric Form)} $$"
+        ],
+        "special_cases": [
+          "$$ \\text{If the line passes through origin: } \\vec{r} = \\lambda \\vec{b} \\text{ or } \\frac{x}{a} = \\frac{y}{b} = \\frac{z}{c} $$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "The standard form to represent a line in 3D when one point on it and its direction vector (or DR's) are known.",
+        "trigger_keywords": [
+          "passes through point",
+          "parallel to vector",
+          "parallel to line"
+        ],
+        "question_types": [
+          "1_mark",
+          "2_mark",
+          "3_mark"
+        ],
+        "common_mistakes": [
+          "Swapping the position vector $$ \\vec{a} $$ and the direction vector $$ \\vec{b} $$.",
+          "In Cartesian form, writing $$ x_1 - x $$ instead of $$ x - x_1 $$ (which flips the sign of the DR)."
+        ],
+        "board_traps": [
+          "Giving a parallel line equation in a non-standard form like $$ \\frac{2x-3}{4} = \\frac{1-y}{3} $$. Students must first standardize it to extract correct DR's.",
+          "Asking for 'Vector equation' and student providing 'Cartesian' or vice versa."
+        ],
+        "examiner_twist_pattern": "Asking for a line parallel to one of the axes (e.g., Z-axis) passing through a point. Student must know Z-axis DR's are (0, 0, 1)."
+      },
+      "section_C": {
+        "why_students_fail": "Failure to convert equations into standard Cartesian form ($$ x, y, z $$ coefficients must be +1) before identifying DR's.",
+        "how_to_think": "Think 'Start Point + Scale * Direction'. $$ \\vec{a} $$ is where you are, $$ \\vec{b} $$ is where you are headed, and $$ \\lambda $$ is how far you go.",
+        "thirty_second_strategy": "1. Write the point as $$ (x_1, y_1, z_1) $$. 2. Write the direction vector components as $$ (a, b, c) $$. 3. Plug into standard symmetric form. 4. Ensure $$ x, y, z $$ have no coefficients.",
+        "mental_shortcut": "Point is 'subtracted' on top, Direction is 'divided' on bottom.",
+        "micro_example": "Point (5, 2, -4), parallel to $$ 3\\hat{i} + 2\\hat{j} - 8\\hat{k} $$. Eq: $$ \\frac{x-5}{3} = \\frac{y-2}{2} = \\frac{z+4}{-8} $$."
+      },
+      "diagram": ""
+    },
+    {
+      "formula_number": 3,
+      "formula_title": "Equation of a Line Passing Through Two Points",
+      "section_A": {
+        "latex_formula": "$$ \\vec{r} = \\vec{a} + \\lambda(\\vec{b} - \\vec{a}) $$",
+        "derived_forms": [
+          "$$ \\frac{x - x_1}{x_2 - x_1} = \\frac{y - y_1}{y_2 - y_1} = \\frac{z - z_1}{z_2 - z_1} $$"
+        ],
+        "special_cases": [
+          "$$ \\text{Direction Ratios: } (x_2-x_1, y_2-y_1, z_2-z_1) $$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "Used when the coordinates of two distinct points on the line are provided.",
+        "trigger_keywords": [
+          "passing through two points",
+          "line joining A and B"
+        ],
+        "question_types": [
+          "2_mark",
+          "3_mark"
+        ],
+        "common_mistakes": [
+          "Using $$ (x_2, y_2, z_2) $$ in the denominator but forgetting to subtract $$ (x_1, y_1, z_1) $$.",
+          "Mixing coordinates of two different points in one ratio (e.g., $$ x_2-x_1 $$ but $$ y_1-y_2 $$)."
+        ],
+        "board_traps": [
+          "Points given in vector form $$ \\vec{a} $$ and $$ \\vec{b} $$. Students often forget the direction is the difference vector.",
+          "Giving points that lie on the axes to see if the student can handle zero denominators (which represent lines perpendicular to an axis)."
+        ],
+        "examiner_twist_pattern": "Asking to find a point on this line at a specific distance from the first point."
+      },
+      "section_C": {
+        "why_students_fail": "Algebraic errors in subtraction or misidentifying which point is 'first'.",
+        "how_to_think": "Think 'Point 1 + Scale * (Point 2 - Point 1)'. The difference between the points IS the direction vector.",
+        "thirty_second_strategy": "1. Subtract coordinates to find DR's. 2. Pick one point as the 'base'. 3. Put base point in numerator, DR's in denominator.",
+        "mental_shortcut": "Top: $$ x - \text{first} $$; Bottom: $$ \text{second} - \text{first} $$.",
+        "micro_example": "Points (1, 2, 3) and (4, 5, 6). DR's = (3, 3, 3). Eq: $$ \\frac{x-1}{3} = \\frac{y-2}{3} = \\frac{z-3}{3} $$ or $$ x-1 = y-2 = z-3 $$."
+      },
+      "diagram": ""
+    },
+    {
+      "formula_number": 4,
+      "formula_title": "Angle Between Two Lines",
+      "section_A": {
+        "latex_formula": "$$ \\cos \\theta = \\left| \\frac{\\vec{b_1} \\cdot \\vec{b_2}}{ |\\vec{b_1}| |\\vec{b_2}| } \\right| $$",
+        "derived_forms": [
+          "$$ \\cos \\theta = \\left| \\frac{a_1a_2 + b_1b_2 + c_1c_2}{\\sqrt{a_1^2+b_1^2+c_1^2} \\sqrt{a_2^2+b_2^2+c_2^2}} \\right| $$",
+          "$$ \\cos \\theta = |l_1l_2 + m_1m_2 + n_1n_2| \\quad (\\text{if DC's are given}) $$"
+        ],
+        "special_cases": [
+          "$$ \\text{Perpendicular Lines: } \\vec{b_1} \\cdot \\vec{b_2} = 0 \\implies a_1a_2 + b_1b_2 + c_1c_2 = 0 $$",
+          "$$ \\text{Parallel Lines: } \\vec{b_1} = k\\vec{b_2} \\implies \\frac{a_1}{a_2} = \\frac{b_1}{b_2} = \\frac{c_1}{c_2} $$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "To find the acute angle between two lines in space or to check for orthogonality/parallelism.",
+        "trigger_keywords": [
+          "angle between",
+          "perpendicular",
+          "parallel",
+          "show that lines intersect at right angles"
+        ],
+        "question_types": [
+          "2_mark",
+          "3_mark",
+          "4_mark"
+        ],
+        "common_mistakes": [
+          "Using coordinates of the points instead of the DR's (denominators) from the line equations.",
+          "Forgetting the absolute value (Board exams usually require the acute angle unless specified)."
+        ],
+        "board_traps": [
+          "Giving lines in non-standard Cartesian form. Students extract wrong DR's and get the wrong angle.",
+          "Asking to find a variable 'p' in one of the DR's given the lines are perpendicular."
+        ],
+        "examiner_twist_pattern": "Presenting lines in vector form where the direction vectors are not simplified (e.g., one has a scalar multiple), testing if the student can still apply the dot product correctly."
+      },
+      "section_C": {
+        "why_students_fail": "Using the 'point' vectors ($$ \\vec{a} $$) instead of the 'direction' vectors ($$ \\vec{b} $$).",
+        "how_to_think": "Think 'Dot product of the bottoms'. The angle between lines is simply the angle between their direction vectors. Ignore the points they pass through.",
+        "thirty_second_strategy": "1. Extract denominators/DR's from both lines. 2. Calculate their dot product. 3. Divide by the product of their magnitudes. 4. Use Cos-inverse.",
+        "mental_shortcut": "Angle = Cos-inv of (Dot Product / Product of Magnitudes).",
+        "micro_example": "Lines with DR's (1, 1, 2) and (3, 5, 4). Dot = 3+5+8=16. Mag1 = $$ \\sqrt{6} $$, Mag2 = $$ \\sqrt{50} $$. $$ \\cos \\theta = 16 / (\\sqrt{6} \\sqrt{50}) $$."
+      }
+    },
+    {
+      "formula_number": 5,
+      "formula_title": "Shortest Distance (SD) Between Two Skew Lines",
+      "section_A": {
+        "latex_formula": "$$ d = \\left| \\frac{ (\\vec{b_1} \\times \\vec{b_2}) \\cdot (\\vec{a_2} - \\vec{a_1}) }{ |\\vec{b_1} \\times \\vec{b_2}| } \\right| $$",
+        "derived_forms": [
+          "$$ d = \\frac{ \\left| \\begin{vmatrix} x_2-x_1 & y_2-y_1 & z_2-z_1 \\\\ a_1 & b_1 & c_1 \\\\ a_2 & b_2 & c_2 \\end{vmatrix} \\right| }{ \\sqrt{\\sum(b_1c_2 - b_2c_1)^2} } \\quad (\\text{Cartesian form}) $$"
+        ],
+        "special_cases": [
+          "$$ \\text{If SD = 0, the lines intersect (and are coplanar).} $$",
+          "$$ \\text{Parallel Lines SD: } d = \\left| \\frac{ \\vec{b} \\times (\\vec{a_2} - \\vec{a_1}) }{ |\\vec{b}| } \\right| \\quad (\\text{where } \\vec{b_1} = \\vec{b_2} = \\vec{b}) $$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "The most important 5-mark question concept. Used to find the minimum distance between two lines that are neither parallel nor intersecting.",
+        "trigger_keywords": [
+          "shortest distance",
+          "skew lines",
+          "distance between",
+          "check if lines intersect"
+        ],
+        "question_types": [
+          "3_mark",
+          "5_mark"
+        ],
+        "common_mistakes": [
+          "Applying the skew line formula to parallel lines (denominator $$ |b_1 \times b_2| $$ becomes 0, causing panic).",
+          "Calculation errors in the cross product ($$ \\vec{b_1} \times \\vec{b_2} $$)."
+        ],
+        "board_traps": [
+          "Giving lines that are actually parallel ($$ \\vec{b_1} $$ is a multiple of $$ \\vec{b_2} $$). If you don't use the parallel SD formula, you fail.",
+          "Embedding 't' or 's' as parameters and asking to show the lines intersect (SD=0)."
+        ],
+        "examiner_twist_pattern": "Asking for the 'equation' of the line of shortest distance, which requires finding the feet of the perpendiculars (Level 2 problem)."
+      },
+      "section_C": {
+        "why_students_fail": "Pure calculation fatigue. The formula has many steps: subtraction, cross product, magnitude, and dot product. One sign error in step 2 ruins the 5-mark answer.",
+        "how_to_think": "Think 'Projection'. We are projecting the vector connecting any two points on the lines ($$ \\vec{a_2}-\\vec{a_1} $$) onto the common perpendicular direction ($$ \\vec{b_1} \times \\vec{b_2} $$).",
+        "thirty_second_strategy": "1. Check if parallel ($$ \\vec{b_1} = k\\vec{b_2} $$). 2. If not, find $$ \\vec{b_1} \times \\vec{b_2} $$ using determinant. 3. Find $$ \\vec{a_2} - \\vec{a_1} $$. 4. Do the Dot product and divide by Magnitude of cross product.",
+        "mental_shortcut": "SD = |(Cross Dot Sub) / MagCross|.",
+        "micro_example": "If $$ \\vec{b_1} \times \\vec{b_2} = 3\\hat{i}-\\hat{j}-7\\hat{k} $$ (Mag=$$ \\sqrt{59} $$) and $$ \\vec{a_2}-\\vec{a_1} = \\hat{i}-\\hat{k} $$. SD = $$ |(3+7) / \\sqrt{59}| = 10 / \\sqrt{59} $$."
+      },
+      "diagram": ""
+    },
+    {
+      "formula_number": 6,
+      "formula_title": "Shortest Distance (SD) Between Two Parallel Lines",
+      "section_A": {
+        "latex_formula": "$$ d = \\left| \\frac{ \\vec{b} \\times (\\vec{a_2} - \\vec{a_1}) }{ |\\vec{b}| } \\right| $$",
+        "derived_forms": [
+          "$$ \\text{Where } \\vec{r} = \\vec{a_1} + \\lambda \\vec{b} \\text{ and } \\vec{r} = \\vec{a_2} + \\mu \\vec{b} $$",
+          "$$ d = \\frac{ \\sqrt{ (b_y z_{diff} - b_z y_{diff})^2 + (b_z x_{diff} - b_x z_{diff})^2 + (b_x y_{diff} - b_y x_{diff})^2 } }{ \\sqrt{b_x^2 + b_y^2 + b_z^2} } $$"
+        ],
+        "special_cases": [
+          "$$ \\text{If the cross product is zero, the lines are coincident (distance = 0).} $$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "When the direction vectors of two given lines are identical or proportional (multiples of each other).",
+        "trigger_keywords": [
+          "distance between parallel lines",
+          "parallel vectors",
+          "proportional DRs"
+        ],
+        "question_types": [
+          "2_mark",
+          "3_mark"
+        ],
+        "common_mistakes": [
+          "Using the Skew Lines formula ($$ \\vec{b_1} \\times \\vec{b_2} $$) which results in a zero denominator.",
+          "Forgetting to normalize the direction vector $$ \\vec{b} $$ by its magnitude."
+        ],
+        "board_traps": [
+          "Equations like $$ \\frac{x-1}{2} = \\frac{y-2}{3} = \\frac{z-3}{4} $$ and $$ \\frac{x-5}{4} = \\frac{y-6}{6} = \\frac{z-7}{8} $$. The DRs (4,6,8) are double (2,3,4). Students fail to realize they are parallel."
+        ],
+        "examiner_twist_pattern": "Giving lines in a mix of Vector and Cartesian forms where one must be converted to recognize the parallel direction."
+      },
+      "section_C": {
+        "why_students_fail": "Failure to check the parallel condition ($$ \\vec{b_1} = k\\vec{b_2} $$) before starting the calculation, leading to an undefined division by zero in the skew lines formula.",
+        "how_to_think": "Think 'Area of Parallelogram'. The numerator $$ |\\vec{b} \\times (\\vec{a_2} - \\vec{a_1})| $$ is the area of a parallelogram formed by the direction vector and the join of points. Dividing by base length $$ |\\vec{b}| $$ gives the height (perpendicular distance).",
+        "thirty_second_strategy": "1. Extract $$ \\vec{b} $$ (common direction). 2. Find $$ \\vec{a_2} - \\vec{a_1} $$. 3. Cross product of the two. 4. Magnitude of cross / Magnitude of $$ \\vec{b} $$.",
+        "mental_shortcut": "SD Parallel = |Cross / Base|.",
+        "micro_example": "$$ \\vec{b} = 2\\hat{i}+\\hat{j}-2\\hat{k} $$, $$ \\vec{a_2}-\\vec{a_1} = \\hat{i}+\\hat{j} $$. Cross = $$ -2\\hat{i}+2\\hat{j}+\\hat{k} $$. Distance = $$ \\sqrt{4+4+1} / \\sqrt{4+1+4} = 3/3 = 1 $$."
+      },
+      "diagram": ""
+    },
+    {
+      "formula_number": 7,
+      "formula_title": "Foot of the Perpendicular from a Point to a Line",
+      "section_A": {
+        "latex_formula": "$$ \\text{Point } F(x_1+a\\lambda, y_1+b\\lambda, z_1+c\\lambda) \\text{ such that } \\vec{PF} \\cdot \\vec{b} = 0 $$",
+        "derived_forms": [
+          "$$ a(x_1+a\\lambda - x_P) + b(y_1+b\\lambda - y_P) + c(z_1+c\\lambda - z_P) = 0 $$",
+          "$$ \\lambda = \\frac{a(x_P-x_1) + b(y_P-y_1) + c(z_P-z_1)}{a^2+b^2+c^2} $$"
+        ],
+        "special_cases": [
+          "$$ \\text{If the point P is on the line, } \\lambda \\text{ results in the point P itself.} $$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "To find the coordinates of the closest point on a line to an external point P, or to find the perpendicular distance.",
+        "trigger_keywords": [
+          "foot of the perpendicular",
+          "closest point",
+          "length of perpendicular"
+        ],
+        "question_types": [
+          "3_mark",
+          "5_mark"
+        ],
+        "common_mistakes": [
+          "Forgetting that the dot product is zero between the line's direction and the *joining* vector PF, not just the point P.",
+          "Algebraic errors while solving for $$ \\lambda $$."
+        ],
+        "board_traps": [
+          "Asking for the 'Length' without asking for the 'Foot'. Students must still find the foot (or use a formula) to get the distance."
+        ],
+        "examiner_twist_pattern": "Asking for the equation of the perpendicular line itself, which requires both point P and the Foot F."
+      },
+      "section_C": {
+        "why_students_fail": "Students try to use a shortcut formula instead of the logical 'Lambda Method', leading to confusion in multi-step problems.",
+        "how_to_think": "Think 'Dot Product = Zero'. Any point on the line is a function of $$ \\lambda $$. The vector connecting point P to this general point must be perpendicular to the line's direction. Find the specific $$ \\lambda $$ that makes it 90 degrees.",
+        "thirty_second_strategy": "1. Write general point on line using $$ \\lambda $$. 2. Form vector $$ \\vec{PF} $$. 3. Set $$ \\vec{PF} \\cdot \\text{DRs of line} = 0 $$. 4. Solve for $$ \\lambda $$ and plug back.",
+        "mental_shortcut": "General Point $\\to$ Diff Vector $\\to$ Dot Product with Bottoms $\\to$ Zero.",
+        "micro_example": "Point (1,0,3) and line $$ x/2 = (y-1)/-1 = z/1 = \\lambda $$. Foot $$ (2\\lambda, 1-\\lambda, \\lambda) $$. Vector: $$ (2\\lambda-1, 1-\\lambda, \\lambda-3) $$. Dot: $$ 2(2\\lambda-1) - 1(1-\\lambda) + 1(\\lambda-3) = 0 \\implies 6\\lambda = 6 \\implies \\lambda=1 $$. Foot: (2, 0, 1)."
+      },
+      "diagram": ""
+    },
+    {
+      "formula_number": 8,
+      "formula_title": "Image of a Point with Respect to a Line",
+      "section_A": {
+        "latex_formula": "$$ \\text{Image } I = (2x_F - x_P, 2y_F - y_P, 2z_F - z_P) $$",
+        "derived_forms": [
+          "$$ \\frac{x_P + x_I}{2} = x_F, \\quad \\frac{y_P + y_I}{2} = y_F, \\quad \\frac{z_P + z_I}{2} = z_F $$"
+        ],
+        "special_cases": [
+          "$$ \\text{The distance } PF = FI. $$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "When asked to find the coordinates of a point reflected across a given line in 3D.",
+        "trigger_keywords": [
+          "reflection",
+          "image of a point",
+          "mirror image"
+        ],
+        "question_types": [
+          "5_mark"
+        ],
+        "common_mistakes": [
+          "Stopping after finding the Foot of the Perpendicular and assuming that is the image.",
+          "Using the distance formula instead of the midpoint formula to find the image."
+        ],
+        "board_traps": [
+          "Embedding the point as the origin (0,0,0) to simplify calculations, but students still mess up the subtraction sign."
+        ],
+        "examiner_twist_pattern": "Giving a line and a point, asking for the image, and then asking to verify if the image lies on another given line."
+      },
+      "section_C": {
+        "why_students_fail": "Image problems are long (Foot calculation + Midpoint calculation). Errors in the Foot calculation carry through to the image.",
+        "how_to_think": "Think 'Midpoint Theorem'. The Foot of the Perpendicular (F) is the midpoint between the object (P) and its Image (I).",
+        "thirty_second_strategy": "1. Find the Foot F using the 'Lambda Method'. 2. Use the midpoint formula: $$ I = 2F - P $$.",
+        "mental_shortcut": "Twice the Foot minus the Point.",
+        "micro_example": "If P=(1,2,3) and Foot F=(2,4,6), then Image I = $$ (2(2)-1, 2(4)-2, 2(6)-3) = (3, 6, 9) $$."
+      },
+      "diagram": "[Image showing a point P, a line L acting as a mirror, the foot of the perpendicular F on the line, and the image point I such that F is the midpoint of PI]"
+    },
+    {
+      "formula_number": 9,
+      "formula_title": "Intersection of Two Lines (Condition and Point)",
+      "section_A": {
+        "latex_formula": "$$ \\text{Lines } L_1, L_2 \\text{ intersect if SD} = 0 \\implies \\begin{vmatrix} x_2-x_1 & y_2-y_1 & z_2-z_1 \\\\ a_1 & b_1 & c_1 \\\\ a_2 & b_2 & c_2 \\end{vmatrix} = 0 $$",
+        "derived_forms": [
+          "$$ x_1 + a_1\\lambda = x_2 + a_2\\mu $$",
+          "$$ y_1 + b_1\\lambda = y_2 + b_2\\mu $$",
+          "$$ z_1 + c_1\\lambda = z_2 + c_2\\mu $$"
+        ],
+        "special_cases": [
+          "$$ \\text{If lines intersect, they must be coplanar.} $$"
+        ]
+      },
+      "section_B": {
+        "when_to_use": "To check if two lines meet at a point and to find the coordinates of that intersection point.",
+        "trigger_keywords": [
+          "show that the lines intersect",
+          "find the point of intersection",
+          "coplanar lines"
+        ],
+        "question_types": [
+          "4_mark",
+          "5_mark"
+        ],
+        "common_mistakes": [
+          "Only solving for $$ \\lambda $$ and $$ \\mu $$ using two equations and forgetting to check if they satisfy the third equation (the consistency check).",
+          "Assuming skew lines intersect."
+        ],
+        "board_traps": [
+          "Giving lines with parameters like 'k' and stating they intersect, asking to find 'k'."
+        ],
+        "examiner_twist_pattern": "Asking to show that the lines intersect and then finding the 'Equation of the plane containing them' (Note: Plane equations are removed from current syllabus, so this twist is now rare)."
+      },
+      "section_C": {
+        "why_students_fail": "Failure to perform the 'check' step. They find values for the parameters that satisfy two equations but don't verify the third, leading to incorrect claims of intersection for skew lines.",
+        "how_to_think": "Think 'System of Equations'. You have three coordinates (x, y, z) that must match, but only two variables ($$ \\lambda, \\mu $$). It is an over-determined system; it only works if the lines are perfectly aligned.",
+        "thirty_second_strategy": "1. Equate general points of both lines. 2. Pick two equations and solve for $$ \\lambda $$ and $$ \\mu $$. 3. Plug these values into the third equation. 4. If it matches, they intersect. 5. Plug $$ \\lambda $$ back to get the point.",
+        "mental_shortcut": "Solve for two, check with the third.",
+        "micro_example": "Line 1: $$ (\\lambda, \\lambda, 0) $$. Line 2: $$ (1+\\mu, 1, \\mu) $$. Eq: $$ \\lambda = 1+\\mu $$, $$ \\lambda = 1 $$, $$ 0 = \\mu $$. From eq 2: $$ \\lambda=1 $$. From eq 3: $$ \\mu=0 $$. Check eq 1: $$ 1 = 1+0 $$ (True). They intersect at (1,1,0)."
+      }
+    },
+    {
+     
+      "trend_analysis": {
+        "dominant_concepts_from_pyqs": [
+          "Shortest distance between two skew lines (Vector and Cartesian forms)",
+          "Shortest distance between two parallel lines",
+          "Finding the foot of the perpendicular, length of perpendicular, and image of a point with respect to a line",
+          "Condition for two lines to be perpendicular (dot product of direction ratios = 0)",
+          "Finding equations of lines passing through a given point and parallel/perpendicular to other lines",
+          "Direction Cosines (DCs) and Direction Ratios (DRs) relationships, especially lines making equal angles with axes"
+        ],
+        "question_patterns_seen": [
+          "5-mark guaranteed question on Shortest Distance or Foot of Perpendicular/Image of a point",
+          "4-mark case study based on lines representing paths of moving objects (like airplanes, drones, or submarines)",
+          "2-mark questions asking to find an unknown constant (like 'p') given that two lines are perpendicular",
+          "1-mark MCQs on the relationship $$ l^2 + m^2 + n^2 = 1 $$"
+        ]
+      },
+      "high_leverage_ncert_questions": [
+        {
+          "question_id": 1,
+          "ncert_reference": {
+            "exercise": "Exercise 11.2",
+            "question_number": "14"
+          },
+          "question_text": "Find the shortest distance between the lines $$ \\vec{r} = (\\hat{i} + 2\\hat{j} + \\hat{k}) + \\lambda(\\hat{i} - \\hat{j} + \\hat{k}) $$ and $$ \\vec{r} = (2\\hat{i} - \\hat{j} - \\hat{k}) + \\mu(2\\hat{i} + \\hat{j} + 2\\hat{k}) $$.",
+          "concepts_tested": [
+            "Shortest distance between skew lines",
+            "Cross product of direction vectors",
+            "Dot product with position vectors difference"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Moderate",
+          "topper_solution": {
+            "step_1": "Identify vectors: $$ \\vec{a_1} = \\hat{i} + 2\\hat{j} + \\hat{k} $$, $$ \\vec{b_1} = \\hat{i} - \\hat{j} + \\hat{k} $$, $$ \\vec{a_2} = 2\\hat{i} - \\hat{j} - \\hat{k} $$, $$ \\vec{b_2} = 2\\hat{i} + \\hat{j} + 2\\hat{k} $$. Find $$ \\vec{a_2} - \\vec{a_1} = \\hat{i} - 3\\hat{j} - 2\\hat{k} $$.",
+            "step_2": "Find $$ \\vec{b_1} \\times \\vec{b_2} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 1 & -1 & 1 \\\\ 2 & 1 & 2 \\end{vmatrix} = \\hat{i}(-2 - 1) - \\hat{j}(2 - 2) + \\hat{k}(1 + 2) = -3\\hat{i} + 0\\hat{j} + 3\\hat{k} $$. Magnitude $$ |\\vec{b_1} \\times \\vec{b_2}| = \\sqrt{(-3)^2 + 0^2 + 3^2} = \\sqrt{18} = 3\\sqrt{2} $$.",
+            "step_3": "Formula for SD is $$ d = \\left| \\frac{(\\vec{b_1} \\times \\vec{b_2}) \\cdot (\\vec{a_2} - \\vec{a_1})}{|\\vec{b_1} \\times \\vec{b_2}|} \\right| $$. Dot product: $$ (-3)(1) + (0)(-3) + (3)(-2) = -3 + 0 - 6 = -9 $$. So, $$ d = \\left| \\frac{-9}{3\\sqrt{2}} \\right| = \\frac{3}{\\sqrt{2}} = \\frac{3\\sqrt{2}}{2} $$. Final answer: $$ \\frac{3\\sqrt{2}}{2} $$ units."
+          },
+          "board_writing_tip": " Write the standard formula explicitly before substituting values. Never forget to write 'units' at the end of a distance question.",
+          "common_student_mistakes": [
+            "Misidentifying the vectors, swapping a1 with b1",
+            "Calculation errors in finding the cross product determinant"
+          ],
+          "estimated_time_seconds": "300"
+        },
+        {
+          "question_id": 2,
+          "ncert_reference": {
+            "exercise": "Exercise 11.2",
+            "question_number": "17"
+          },
+          "question_text": "Find the shortest distance between the lines whose vector equations are $$ \\vec{r} = (1 - t)\\hat{i} + (t - 2)\\hat{j} + (3 - 2t)\\hat{k} $$ and $$ \\vec{r} = (s + 1)\\hat{i} + (2s - 1)\\hat{j} + -(2s + 1)\\hat{k} $$.",
+          "concepts_tested": [
+            "Rearranging line equations to standard vector form",
+            "Shortest distance between skew lines"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Board-Tricky",
+          "topper_solution": {
+            "step_1": "Rearrange the equations into $$ \\vec{a} + \\lambda\\vec{b} $$ form. Line 1: $$ \\vec{r} = (\\hat{i} - 2\\hat{j} + 3\\hat{k}) + t(-\\hat{i} + \\hat{j} - 2\\hat{k}) $$. Line 2: $$ \\vec{r} = (\\hat{i} - \\hat{j} - \\hat{k}) + s(\\hat{i} + 2\\hat{j} - 2\\hat{k}) $$.",
+            "step_2": "Identify: $$ \\vec{a_1} = \\hat{i} - 2\\hat{j} + 3\\hat{k} $$, $$ \\vec{b_1} = -\\hat{i} + \\hat{j} - 2\\hat{k} $$, $$ \\vec{a_2} = \\hat{i} - \\hat{j} - \\hat{k} $$, $$ \\vec{b_2} = \\hat{i} + 2\\hat{j} - 2\\hat{k} $$. $$ \\vec{a_2} - \\vec{a_1} = 0\\hat{i} + \\hat{j} - 4\\hat{k} $$.",
+            "step_3": "Cross product $$ \\vec{b_1} \\times \\vec{b_2} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ -1 & 1 & -2 \\\\ 1 & 2 & -2 \\end{vmatrix} = 2\\hat{i} - 4\\hat{j} - 3\\hat{k} $$. Magnitude = $$ \\sqrt{4 + 16 + 9} = \\sqrt{29} $$. Dot product $$ (\\vec{b_1} \\times \\vec{b_2}) \\cdot (\\vec{a_2} - \\vec{a_1}) = (2)(0) + (-4)(1) + (-3)(-4) = -4 + 12 = 8 $$. SD = $$ \\frac{8}{\\sqrt{29}} $$ units."
+          },
+          "board_writing_tip": "The key to scoring here is correctly separating the constant terms from the scalar parameters (t and s). Show this rearrangement as a distinct first step.",
+          "common_student_mistakes": [
+            "Failing to separate the parameters correctly, mixing up the signs of the components",
+            "Applying the parallel line formula instead of the skew line formula"
+          ],
+          "estimated_time_seconds": "360"
+        },
+        {
+          "question_id": 3,
+          "ncert_reference": {
+            "exercise": "Exercise 11.2",
+            "question_number": "12"
+          },
+          "question_text": "Find the values of $$ p $$ so that the lines $$ \\frac{1-x}{3} = \\frac{7y-14}{2p} = \\frac{z-3}{2} $$ and $$ \\frac{7-7x}{3p} = \\frac{y-5}{1} = \\frac{6-z}{5} $$ are at right angles.",
+          "concepts_tested": [
+            "Standard Cartesian form of a line",
+            "Direction ratios",
+            "Condition for perpendicular lines"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Board-Tricky",
+          "topper_solution": {
+            "step_1": "Convert lines to standard form $$ \\frac{x-x_1}{a} = \\frac{y-y_1}{b} = \\frac{z-z_1}{c} $$. Line 1: $$ \\frac{x-1}{-3} = \\frac{y-2}{2p/7} = \\frac{z-3}{2} $$. Direction ratios: $$ a_1 = -3, b_1 = 2p/7, c_1 = 2 $$.",
+            "step_2": "Line 2: $$ \\frac{x-1}{-3p/7} = \\frac{y-5}{1} = \\frac{z-6}{-5} $$. Direction ratios: $$ a_2 = -3p/7, b_2 = 1, c_2 = -5 $$.",
+            "step_3": "For perpendicular lines, $$ a_1a_2 + b_1b_2 + c_1c_2 = 0 $$. Substitute values: $$ (-3)\\left(\\frac{-3p}{7}\\right) + \\left(\\frac{2p}{7}\\right)(1) + (2)(-5) = 0 $$. This gives $$ \\frac{9p}{7} + \\frac{2p}{7} - 10 = 0 $$. So, $$ \\frac{11p}{7} = 10 \\implies 11p = 70 \\implies p = \\frac{70}{11} $$.  $$ p = \\frac{70}{11} $$"
+          },
+          "board_writing_tip": "Always ensure the coefficients of x, y, and z in the numerators are exactly +1. This is the most frequently tested trap in 3D geometry.",
+          "common_student_mistakes": [
+            "Extracting the denominators directly without making the coefficients of x, y, z positive unity",
+            "Making algebraic errors when handling the fractional direction ratios like 2p/7"
+          ],
+          "estimated_time_seconds": "240"
+        },
+        {
+          "question_id": 4,
+          "ncert_reference": {
+            "exercise": "Exercise 11.2",
+            "question_number": "15"
+          },
+          "question_text": "Find the shortest distance between the lines $$ \\frac{x+1}{7} = \\frac{y+1}{-6} = \\frac{z+1}{1} $$ and $$ \\frac{x-3}{1} = \\frac{y-5}{-2} = \\frac{z-7}{1} $$.",
+          "concepts_tested": [
+            "Cartesian equation of a line",
+            "Shortest distance using Cartesian formula or Vector conversion"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Moderate",
+          "topper_solution": {
+            "step_1": "It is easier to convert to vector form. Line 1: $$ \\vec{a_1} = -\\hat{i} - \\hat{j} - \\hat{k} $$, $$ \\vec{b_1} = 7\\hat{i} - 6\\hat{j} + \\hat{k} $$. Line 2: $$ \\vec{a_2} = 3\\hat{i} + 5\\hat{j} + 7\\hat{k} $$, $$ \\vec{b_2} = \\hat{i} - 2\\hat{j} + \\hat{k} $$.",
+            "step_2": "Calculate $$ \\vec{a_2} - \\vec{a_1} = 4\\hat{i} + 6\\hat{j} + 8\\hat{k} $$. Calculate $$ \\vec{b_1} \\times \\vec{b_2} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 7 & -6 & 1 \\\\ 1 & -2 & 1 \\end{vmatrix} = -4\\hat{i} - 6\\hat{j} - 8\\hat{k} $$. Magnitude = $$ \\sqrt{16 + 36 + 64} = \\sqrt{116} = 2\\sqrt{29} $$.",
+            "step_3": "Dot product $$ (\\vec{b_1} \\times \\vec{b_2}) \\cdot (\\vec{a_2} - \\vec{a_1}) = (-4)(4) + (-6)(6) + (-8)(8) = -16 - 36 - 64 = -116 $$. Shortest distance = $$ \\left| \\frac{-116}{2\\sqrt{29}} \\right| = \\frac{116}{2\\sqrt{29}} = 2\\sqrt{29} $$ units."
+          },
+          "board_writing_tip": "Converting to vector form usually reduces errors compared to using the large Cartesian determinant formula. Clearly state the conversion if you choose to do so.",
+          "common_student_mistakes": [
+            "Taking the points as (1, 1, 1) instead of (-1, -1, -1) for the first line",
+            "Mistakes in evaluating the 3x3 determinant for the Cartesian formula if chosen"
+          ],
+          "estimated_time_seconds": "300"
+        },
+        {
+          "question_id": 5,
+          "ncert_reference": {
+            "exercise": "Exercise 11.1",
+            "question_number": "2"
+          },
+          "question_text": "Find the direction cosines of a line which makes equal angles with the coordinate axes.",
+          "concepts_tested": [
+            "Direction Cosines",
+            "Relationship $$ l^2 + m^2 + n^2 = 1 $$"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Easy",
+          "topper_solution": {
+            "step_1": "Let the line make an angle $$ \\alpha $$ with all three coordinate axes. Therefore, the direction cosines are $$ l = \\cos \\alpha $$, $$ m = \\cos \\alpha $$, $$ n = \\cos \\alpha $$.",
+            "step_2": "We know the fundamental relationship for direction cosines: $$ l^2 + m^2 + n^2 = 1 $$.",
+            "step_3": "Substitute the values: $$ \\cos^2 \\alpha + \\cos^2 \\alpha + \\cos^2 \\alpha = 1 \\implies 3\\cos^2 \\alpha = 1 \\implies \\cos^2 \\alpha = \\frac{1}{3} $$. Therefore, $$ \\cos \\alpha = \\pm \\frac{1}{\\sqrt{3}} $$. The direction cosines are $$ \\pm \\frac{1}{\\sqrt{3}}, \\pm \\frac{1}{\\sqrt{3}}, \\pm \\frac{1}{\\sqrt{3}} $$."
+          },
+          "board_writing_tip": "Include the $$ \\pm $$ sign in your final answer because a line extending in both directions has two sets of direction cosines.",
+          "common_student_mistakes": [
+            "Forgetting the $$ \\pm $$ sign",
+            "Writing direction ratios instead of direction cosines"
+          ],
+          "estimated_time_seconds": "120"
+        },
+        {
+          "question_id": 6,
+          "ncert_reference": {
+            "exercise": "Miscellaneous Exercise",
+            "question_number": "Example 24 / Standard Type"
+          },
+          "question_text": "Find the coordinates of the foot of perpendicular drawn from the point A(1, 8, 4) to the line joining the points B(0, -1, 3) and C(2, -3, -1).",
+          "concepts_tested": [
+            "Equation of a line through two points",
+            "General point on a line",
+            "Perpendicularity condition (dot product of DRs = 0)",
+            "Foot of perpendicular"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Board-Tricky",
+          "topper_solution": {
+            "step_1": "Find the equation of line BC. Direction ratios of BC: $$ (2-0, -3+1, -1-3) = (2, -2, -4) $$. Equation: $$ \\frac{x-0}{2} = \\frac{y+1}{-2} = \\frac{z-3}{-4} = \\lambda $$. Let the foot of the perpendicular be M. General coordinates of M are $$ (2\\lambda, -2\\lambda - 1, -4\\lambda + 3) $$.",
+            "step_2": "Direction ratios of AM: $$ (x_M - x_A, y_M - y_A, z_M - z_A) = (2\\lambda - 1, -2\\lambda - 1 - 8, -4\\lambda + 3 - 4) = (2\\lambda - 1, -2\\lambda - 9, -4\\lambda - 1) $$.",
+            "step_3": "Since AM is perpendicular to BC, the dot product of their DRs is zero: $$ 2(2\\lambda - 1) - 2(-2\\lambda - 9) - 4(-4\\lambda - 1) = 0 $$. Solving: $$ 4\\lambda - 2 + 4\\lambda + 18 + 16\\lambda + 4 = 0 \\implies 24\\lambda + 20 = 0 \\implies \\lambda = -\\frac{5}{6} $$. Substitute $$ \\lambda $$ back into M's coordinates: $$ M\\left(-\\frac{5}{3}, \\frac{2}{3}, \\frac{19}{3}\\right) $$."
+          },
+          "board_writing_tip": "This is a classic 5-marker. Structure your answer by clearly stating the 'General Point M' and the 'Direction Ratios of the perpendicular'.",
+          "common_student_mistakes": [
+            "Using the coordinates of point A instead of the DRs of line BC when computing the dot product",
+            "Calculation errors in expanding and solving for lambda"
+          ],
+          "estimated_time_seconds": "480"
+        },
+        {
+          "question_id": 7,
+          "ncert_reference": {
+            "exercise": "Example 12",
+            "question_number": "12"
+          },
+          "question_text": "Find the shortest distance between the lines $$ \\vec{r} = (\\hat{i} + 2\\hat{j} - 4\\hat{k}) + \\lambda(2\\hat{i} + 3\\hat{j} + 6\\hat{k}) $$ and $$ \\vec{r} = (3\\hat{i} + 3\\hat{j} - 5\\hat{k}) + \\mu(2\\hat{i} + 3\\hat{j} + 6\\hat{k}) $$.",
+          "concepts_tested": [
+            "Identifying parallel lines",
+            "Shortest distance between two parallel lines"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Moderate",
+          "topper_solution": {
+            "step_1": "Observe that the direction vectors for both lines are the same: $$ \\vec{b} = 2\\hat{i} + 3\\hat{j} + 6\\hat{k} $$. This means the lines are parallel. Identify position vectors: $$ \\vec{a_1} = \\hat{i} + 2\\hat{j} - 4\\hat{k} $$ and $$ \\vec{a_2} = 3\\hat{i} + 3\\hat{j} - 5\\hat{k} $$.",
+            "step_2": "Calculate $$ \\vec{a_2} - \\vec{a_1} = (3-1)\\hat{i} + (3-2)\\hat{j} + (-5 - (-4))\\hat{k} = 2\\hat{i} + \\hat{j} - \\hat{k} $$. Now find the cross product $$ \\vec{b} \\times (\\vec{a_2} - \\vec{a_1}) = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 2 & 3 & 6 \\\\ 2 & 1 & -1 \\end{vmatrix} = \\hat{i}(-3 - 6) - \\hat{j}(-2 - 12) + \\hat{k}(2 - 6) = -9\\hat{i} + 14\\hat{j} - 4\\hat{k} $$.",
+            "step_3": "Find the magnitudes. $$ |\\vec{b} \\times (\\vec{a_2} - \\vec{a_1})| = \\sqrt{(-9)^2 + 14^2 + (-4)^2} = \\sqrt{81 + 196 + 16} = \\sqrt{293} $$. Also, $$ |\\vec{b}| = \\sqrt{2^2 + 3^2 + 6^2} = \\sqrt{4 + 9 + 36} = \\sqrt{49} = 7 $$. The shortest distance is $$ d = \\frac{|\\vec{b} \\times (\\vec{a_2} - \\vec{a_1})|}{|\\vec{b}|} = \\frac{\\sqrt{293}}{7} $$. Final answer: $$ \\frac{\\sqrt{293}}{7} $$ units."
+          },
+          "board_writing_tip": "[Image of Shortest distance between two parallel lines] Always explicitly state that the lines are parallel because their direction vectors are proportional/equal, which justifies the use of the parallel lines SD formula instead of the skew lines formula.","common_student_mistakes": [
+            "Blindly applying the skew lines formula, which results in a zero denominator and extreme confusion",
+            "Forgetting to divide by the magnitude of the direction vector $$ \\vec{b} $$"
+          ],
+          "estimated_time_seconds": "300"
+        },
+        {
+          "question_id": 8,
+          "ncert_reference": {
+            "exercise": "Miscellaneous Exercise",
+            "question_number": "12"
+          },
+          "question_text": "Find the coordinates of the point where the line through the points A(3, 4, 1) and B(5, 1, 6) crosses the XY-plane.",
+          "concepts_tested": [
+            "Equation of a line passing through two points",
+            "Intersection of a line with a coordinate plane",
+            "General point on a line"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Moderate",
+          "topper_solution": {
+            "step_1": "Find the direction ratios of the line AB: $$ (5-3, 1-4, 6-1) = (2, -3, 5) $$. The equation of the line passing through A(3, 4, 1) is $$ \\frac{x-3}{2} = \\frac{y-4}{-3} = \\frac{z-1}{5} $$.",
+            "step_2": "Let the equation equal $$ \\lambda $$. The general coordinates of any point on this line are $$ P(2\\lambda + 3, -3\\lambda + 4, 5\\lambda + 1) $$.",
+            "step_3": "Since the line crosses the XY-plane, the z-coordinate must be zero. So, $$ 5\\lambda + 1 = 0 \\implies \\lambda = -\\frac{1}{5} $$. Substitute $$ \\lambda $$ back into the general point: $$ x = 2(-\\frac{1}{5}) + 3 = \\frac{13}{5} $$ and $$ y = -3(-\\frac{1}{5}) + 4 = \\frac{23}{5} $$. Final answer: $$ \\left(\\frac{13}{5}, \\frac{23}{5}, 0\\right) $$"
+          },
+          "board_writing_tip": "Clearly mention 'For a point on the XY-plane, the z-coordinate is 0'. This single sentence is allocated a half-mark in the official marking scheme.",
+          "common_student_mistakes": [
+            "Setting the wrong coordinate to zero (e.g., setting x=0 instead of z=0 for the XY-plane)",
+            "Making sign errors while writing the two-point form of the line equation"
+          ],
+          "estimated_time_seconds": "240"
+        },
+        {
+          "question_id": 9,
+          "ncert_reference": {
+            "exercise": "Miscellaneous Exercise",
+            "question_number": "10"
+          },
+          "question_text": "Find the vector equation of the line passing through the point (1, 2, -4) and perpendicular to the two lines: $$ \\frac{x-8}{3} = \\frac{y+19}{-16} = \\frac{z-10}{7} $$ and $$ \\frac{x-15}{3} = \\frac{y-29}{8} = \\frac{z-5}{-5} $$.",
+          "concepts_tested": [
+            "Cross product to find a perpendicular vector",
+            "Condition for perpendicular lines",
+            "Vector equation of a line"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Board-Tricky",
+          "topper_solution": {
+            "step_1": "Let the direction ratios of the required line be $$ a, b, c $$. Since it is perpendicular to the given lines, by the condition $$ a_1a_2 + b_1b_2 + c_1c_2 = 0 $$, we get two equations: $$ 3a - 16b + 7c = 0 $$ and $$ 3a + 8b - 5c = 0 $$.",
+            "step_2": "Solve using cross-multiplication: $$ \\frac{a}{(-16)(-5) - (8)(7)} = \\frac{b}{(7)(3) - (-5)(3)} = \\frac{c}{(3)(8) - (3)(-16)} $$. This gives $$ \\frac{a}{80 - 56} = \\frac{b}{21 + 15} = \\frac{c}{24 + 48} \\implies \\frac{a}{24} = \\frac{b}{36} = \\frac{c}{72} $$.",
+            "step_3": "Divide the denominators by their HCF (12): $$ \\frac{a}{2} = \\frac{b}{3} = \\frac{c}{6} $$. So the direction vector is $$ \\vec{m} = 2\\hat{i} + 3\\hat{j} + 6\\hat{k} $$. The line passes through $$ (1, 2, -4) $$, so $$ \\vec{a} = \\hat{i} + 2\\hat{j} - 4\\hat{k} $$. The vector equation is $$ \\vec{r} = \\vec{a} + \\lambda\\vec{m} $$. Final answer: $$ \\vec{r} = (\\hat{i} + 2\\hat{j} - 4\\hat{k}) + \\lambda(2\\hat{i} + 3\\hat{j} + 6\\hat{k}) $$"
+          },
+          "board_writing_tip": "You can also directly find the direction vector by taking the cross product of the direction vectors of the two given lines. State whichever method you use clearly.",
+          "common_student_mistakes": [
+            "Not simplifying the direction ratios (24, 36, 72 to 2, 3, 6), which makes subsequent calculations bulkier and prone to errors",
+            "Writing the final answer in Cartesian form when Vector form is explicitly requested"
+          ],
+          "estimated_time_seconds": "420"
+        },
+        {
+          "question_id": 10,
+          "ncert_reference": {
+            "exercise": "Standard Pyq Extension of Ex 11.2",
+            "question_number": "Example 11 Type"
+          },
+          "question_text": "Show that the lines $$ \\frac{x+1}{3} = \\frac{y+3}{5} = \\frac{z+5}{7} $$ and $$ \\frac{x-2}{1} = \\frac{y-4}{3} = \\frac{z-6}{5} $$ intersect. Also, find their point of intersection.",
+          "concepts_tested": [
+            "Intersection of two lines in 3D space",
+            "Solving a system of linear equations",
+            "General point parameterization"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Board-Tricky",
+          "topper_solution": {
+            "step_1": "Let $$ \\frac{x+1}{3} = \\frac{y+3}{5} = \\frac{z+5}{7} = \\lambda $$. A general point on the first line is $$ P(3\\lambda - 1, 5\\lambda - 3, 7\\lambda - 5) $$. Let $$ \\frac{x-2}{1} = \\frac{y-4}{3} = \\frac{z-6}{5} = \\mu $$. A general point on the second line is $$ Q(\\mu + 2, 3\\mu + 4, 5\\mu + 6) $$.",
+            "step_2": "For lines to intersect, P and Q must coincide for some $$ \\lambda $$ and $$ \\mu $$. Equate the coordinates: \n1) $$ 3\\lambda - 1 = \\mu + 2 \\implies 3\\lambda - \\mu = 3 $$\n2) $$ 5\\lambda - 3 = 3\\mu + 4 \\implies 5\\lambda - 3\\mu = 7 $$\n3) $$ 7\\lambda - 5 = 5\\mu + 6 \\implies 7\\lambda - 5\\mu = 11 $$",
+            "step_3": "Solve equations (1) and (2). Multiply (1) by 3: $$ 9\\lambda - 3\\mu = 9 $$. Subtract (2): $$ (9\\lambda - 5\\lambda) = 9 - 7 \\implies 4\\lambda = 2 \\implies \\lambda = \\frac{1}{2} $$. Substitute in (1): $$ 3(\\frac{1}{2}) - 3 = \\mu \\implies \\mu = -\\frac{3}{2} $$. Check these values in equation (3): LHS = $$ 7(\\frac{1}{2}) - 5 = -\\frac{3}{2} $$. RHS = $$ 5(-\\frac{3}{2}) + 6 = -\\frac{3}{2} $$. Since LHS = RHS, the lines intersect. Substitute $$ \\lambda = 1/2 $$ into P to get the point: $$ \\left(\\frac{3}{2}-1, \\frac{5}{2}-3, \\frac{7}{2}-5\\right) = \\left(\\frac{1}{2}, -\\frac{1}{2}, -\\frac{3}{2}\\right) $$."
+          },
+          "board_writing_tip": "Proving intersection strictly requires checking the third equation. Skipping the verification step will result in losing the 'Show that' part marks.",
+          "common_student_mistakes": [
+            "Solving only two equations to find the point, but failing to verify the values in the third equation to formally 'show' intersection",
+            "Algebraic errors when handling fractions for lambda and mu"
+          ],
+          "estimated_time_seconds": "480"
+        },
+        {
+          "question_id": 11,
+          "ncert_reference": {
+            "exercise": "Exercise 11.2",
+            "question_number": "7"
+          },
+          "question_text": "The cartesian equation of a line is $$ \\frac{x-5}{3} = \\frac{y+4}{7} = \\frac{z-6}{2} $$. Write its vector form.",
+          "concepts_tested": [
+            "Conversion between Cartesian and Vector forms",
+            "Identifying position vector and direction vector"
+          ],
+          "repeat_probability_2026": "Medium",
+          "difficulty_level": "Easy",
+          "topper_solution": {
+            "step_1": "Compare the given equation with the standard Cartesian form: $$ \\frac{x-x_1}{a} = \\frac{y-y_1}{b} = \\frac{z-z_1}{c} $$.",
+            "step_2": "Extract the coordinates of the point the line passes through: $$ (x_1, y_1, z_1) = (5, -4, 6) $$. This gives the position vector $$ \\vec{a} = 5\\hat{i} - 4\\hat{j} + 6\\hat{k} $$.",
+            "step_3": "Extract the direction ratios from the denominators: $$ a=3, b=7, c=2 $$. This gives the direction vector $$ \\vec{b} = 3\\hat{i} + 7\\hat{j} + 2\\hat{k} $$. The vector equation is $$ \\vec{r} = \\vec{a} + \\lambda\\vec{b} $$. Final answer: $$ \\vec{r} = (5\\hat{i} - 4\\hat{j} + 6\\hat{k}) + \\lambda(3\\hat{i} + 7\\hat{j} + 2\\hat{k}) $$"
+          },
+          "board_writing_tip": "Always ensure the Cartesian equation is in standard form (x, y, z have +1 coefficients) before extracting the point and direction vector.",
+          "common_student_mistakes": [
+            "Taking the point as $$ (-5, 4, -6) $$ by misinterpreting the signs in the numerators",
+            "Writing the answer without the $$ \\vec{r} = $$ part, which makes the equation incomplete"
+          ],
+          "estimated_time_seconds": "120"
+        },
+        {
+          "question_id": 12,
+          "ncert_reference": {
+            "exercise": "Standard Board Extension",
+            "question_number": "Image of a point"
+          },
+          "question_text": "Find the image of the point (1, 6, 3) in the line $$ \\frac{x}{1} = \\frac{y-1}{2} = \\frac{z-2}{3} $$.",
+          "concepts_tested": [
+            "Foot of perpendicular",
+            "Mid-point formula",
+            "Dot product of perpendicular vectors"
+          ],
+          "repeat_probability_2026": "High",
+          "difficulty_level": "Board-Tricky",
+          "topper_solution": {
+            "step_1": "Let point be P(1, 6, 3). Let M be the foot of the perpendicular on the line. Equation of line: $$ \\frac{x}{1} = \\frac{y-1}{2} = \\frac{z-2}{3} = \\lambda $$. General point M is $$ (\\lambda, 2\\lambda + 1, 3\\lambda + 2) $$.",
+            "step_2": "DRs of PM are $$ (\\lambda - 1, 2\\lambda + 1 - 6, 3\\lambda + 2 - 3) = (\\lambda - 1, 2\\lambda - 5, 3\\lambda - 1) $$. Since PM is perpendicular to the line, the dot product with the line's DRs (1, 2, 3) is 0: $$ 1(\\lambda - 1) + 2(2\\lambda - 5) + 3(3\\lambda - 1) = 0 $$. Solving gives $$ \\lambda - 1 + 4\\lambda - 10 + 9\\lambda - 3 = 0 \\implies 14\\lambda = 14 \\implies \\lambda = 1 $$. So, M is $$ (1, 3, 5) $$.",
+            "step_3": "Let the image be I(a, b, c). M is the mid-point of PI. Therefore, $$ \\frac{a+1}{2} = 1 \\implies a = 1 $$. $$ \\frac{b+6}{2} = 3 \\implies b = 0 $$. $$ \\frac{c+3}{2} = 5 \\implies c = 7 $$.  Image is $$ (1, 0, 7) $$."
+          },
+          "board_writing_tip": "Finding the image is a 3-part process: General point -> Foot of Perpendicular -> Midpoint formula. Label each part clearly in your solution to ensure you get step marks even if a calculation goes wrong.",
+          "common_student_mistakes": [
+            "Stopping after finding the foot of the perpendicular M and calling it the image",
+            "Making a sign error during the dot product calculation for lambda"
+          ],
+          "estimated_time_seconds": "540"
+        }
+      ]
+    }
+  ]
+}

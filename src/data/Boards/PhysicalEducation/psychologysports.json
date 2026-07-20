@@ -1,0 +1,155 @@
+{
+    "chapter_name": "Psychology & Sports",
+    "weightage_insight": {
+        "estimated_marks_range": "7–10 Marks",
+        "pyq_frequency_summary": "This chapter is theoretical but scoring. The 'Big Five Theory of Personality' (OCEAN) is a favorite for 5-mark questions. 'Types of Aggression' (Hostile vs Instrumental) often appears as a 3-mark differentiation question. Motivation techniques and types (Intrinsic vs Extrinsic) are standard 3-mark topics."
+    },
+    "ultimate_short_notes": [
+        {
+            "heading": "Personality & Its Classifications",
+            "content": [
+                "**Definition**: The dynamic organization within the individual of those psychophysical systems that determine his unique adjustments to his environment.",
+                "**Jung’s Classification**: **Introverts** (Reserved, thinkers), **Extroverts** (Social, expressive), **Ambiverts** (Mix of both).",
+                "**Big Five Theory (OCEAN)**: **O**penness, **C**onscientiousness, **E**xtroversion, **A**greeableness, **N**euroticism."
+            ]
+        },
+        {
+            "heading": "Motivation (The Fuel)",
+            "content": [
+                "**Intrinsic Motivation**: Driven by internal satisfaction, enjoyment, or passion (e.g., playing football because it's fun).",
+                "**Extrinsic Motivation**: Driven by external rewards like money, trophies, or praise (e.g., playing to win a gold medal).",
+                "**Techniques**: Goal setting, Reinforcement (Rewards), Knowledge of Result, Positive Self-talk."
+            ]
+        },
+        {
+            "heading": "Aggression in Sports",
+            "content": [
+                "**Definition**: Any physical or verbal behaviour directed toward another individual with the intent to harm or injure.",
+                "**Hostile Aggression**: Primary goal is to inflict injury/pain (Reactive/Anger-driven).",
+                "**Instrumental Aggression**: Intent to harm is present but as a means to achieve a goal (e.g., a rugby tackle to stop a try).",
+                "**Assertive Behaviour**: Use of legitimate physical force within rules, with no intent to harm (e.g., hard hitting in cricket)."
+            ]
+        },
+        {
+            "heading": "Psychological Attributes",
+            "content": [
+                "**Self-Esteem**: A person's overall subjective sense of personal worth or value.",
+                "**Mental Imagery**: Visualizing a performance in the mind before actually doing it.",
+                "**Self-Talk**: Internal dialogue (Positive/Negative) that influences performance.",
+                "**Goal Setting**: Establishing specific, measurable, achievable targets (SMART goals)."
+            ]
+        }
+    ],
+    "exam_playbook": [
+        {
+            "strategy_name": "The OCEAN Wave",
+            "pyq_pattern": "Explain the Big Five Theory of Personality.",
+            "how_students_lose_marks": "Forgetting the 5 traits or swapping 'Neuroticism' with 'Nervousness'.",
+            "winning_approach": "Write the acronym **OCEAN** vertically. **O**penness (Creative), **C**onscientiousness (Disciplined), **E**xtroversion (Social), **A**greeableness (Cooperative), **N**euroticism (Emotional Stability). Explanation = 1 line per letter.",
+            "marks_secured": "5 Marks"
+        },
+        {
+            "strategy_name": "Aggression Analysis",
+            "pyq_pattern": "Differentiate between Hostile and Instrumental Aggression.",
+            "how_students_lose_marks": "Saying 'Instrumental is good'. Both involve intent to harm.",
+            "winning_approach": "Focus on the **Goal**. Hostile Goal = Pain. Instrumental Goal = Victory (Harm is a tool). Assertive = No Harm (Rules followed).",
+            "marks_secured": "3 Marks"
+        }
+    ],
+    "formula_bank": [
+        {
+            "concept": "Big Five Acronym",
+            "formula": "$$\\text{O.C.E.A.N.}$$",
+            "used_in_questions": "Recall tool for Personality traits."
+        },
+        {
+            "concept": "Aggression Equation",
+            "formula": "$$\\text{Aggression} = \\text{Behaviour} + \\text{Intent to Harm} + \\text{Living Target}$$",
+            "used_in_questions": "Defining what constitutes aggression."
+        },
+        {
+            "concept": "Goal Setting",
+            "formula": "$$\\text{S.M.A.R.T.} = \\text{Specific, Measurable, Achievable, Relevant, Time-bound}$$",
+            "used_in_questions": "Technique of Motivation."
+        }
+    ],
+    "sure_shot_questions": [
+        {
+            "question": "Explain the Big Five Personality Theory.",
+            "marks": 5,
+            "mandatory_keywords": [
+                "Openness",
+                "Conscientiousness",
+                "Extroversion",
+                "Agreeableness",
+                "Neuroticism",
+                "OCEAN"
+            ],
+            "answer_structure": "Introduction (Paul Costa & Robert McCrae) -> Acronym OCEAN -> Explain each trait.",
+            "model_answer_outline": [
+                "**1. Openness**: Being curious, creative, and open to new experiences.",
+                "**2. Conscientiousness**: Being organized, dependable, and disciplined.",
+                "**3. Extroversion**: Being outgoing, social, and energetic.",
+                "**4. Agreeableness**: Being cooperative, kind, and trusting.",
+                "**5. Neuroticism**: Tendency towards unstable emotions (anxiety/moodiness)."
+            ]
+        },
+        {
+            "question": "What is Aggression? Discuss its types with examples.",
+            "marks": 3,
+            "mandatory_keywords": [
+                "Intent to harm",
+                "Hostile",
+                "Instrumental",
+                "Assertive"
+            ],
+            "answer_structure": "Definition -> List 3 types -> Example for each.",
+            "model_answer_outline": [
+                "**Hostile**: Intent is to cause pain/injury (e.g., Punching a player out of anger).",
+                "**Instrumental**: Intent is to win, but harm is used as a tool (e.g., A hockey check to get the ball).",
+                "**Assertive**: High energy within rules, no intent to harm (e.g., Fast bowling bouncer)."
+            ]
+        },
+        {
+            "question": "Differentiate between Intrinsic and Extrinsic Motivation.",
+            "marks": 3,
+            "mandatory_keywords": [
+                "Internal drive",
+                "External reward",
+                "Long-term",
+                "Short-term"
+            ],
+            "answer_structure": "Comparison Table: Meaning, Source, Example.",
+            "model_answer_outline": [
+                "**Intrinsic**: Comes from within (Satisfaction). Lasts longer. Example: Running for joy.",
+                "**Extrinsic**: Comes from outside (Reward). Short-lived. Example: Running for a prize money."
+            ]
+        }
+    ],
+    "diagram_descriptors": [
+        {
+            "diagram_name": "OCEAN Personality Chart",
+            "used_for": "Visualizing Personality Traits",
+            "image_path": "/images/PhysicalEducation/ocean personality test.png",
+            "detailed_description": "A circular chart divided into 5 sectors, each labeled with a letter from O-C-E-A-N and the corresponding trait name."
+        },
+        {
+            "diagram_name": "Aggression Scale",
+            "used_for": "Types of Aggression",
+            "image_path": "/images/PhysicalEducation/agression scale.png",
+            "detailed_description": "A linear scale. Left: Assertive Behavior (No intent to harm, within rules). Middle: Instrumental Aggression (Intent to harm for a goal). Right: Hostile Aggression (Intent to harm for anger/pain)."
+        }
+    ],
+    "examiner_traps": [
+        {
+            "common_mistake": "Confusing 'Assertive Behavior' with 'Aggression'.",
+            "why_marks_are_cut": "Aggression *must* have intent to harm. Assertiveness is forceful but follows rules and respects safety.",
+            "correct_examiner_expectation": "Assertiveness is positive; Aggression is negative."
+        },
+        {
+            "common_mistake": "Writing 'Introverts are shy'.",
+            "why_marks_are_cut": "Introversion is about 'energy source' (solitude), not social fear. Shyness is different.",
+            "correct_examiner_expectation": "Introverts prefer internal thoughts and solitude; they are self-reflective."
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+Created At: 2026-06-03T08:11:32Z
+Completed At: 2026-06-03T08:11:32Z
+File Path: `file:///c:/StudentAssist-main/src/data/Boards/Physics/Questions/electricfieldandcharges.json`
+Total Lines: 1616
+Total Bytes: 166611
+Showing lines 1 to 800
+The following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.
+1: [
+2:   {
+3:     "chapter_assessment_bank": {
+4:       "chapter_number": 1,
+5:       "chapter_name": "Electric Charges and Fields",
+6:       "questions": [
+7:         {
+8:           "question_id": "CH1-MCQ-01",
+9:           "format": "MCQ",
+10:           "typology_tag": "BOUNDARY_CONDITION",
+11:           "associated_trap_title": "The Boundary Scaling Limit Misdirection",
+12:           "stem_text": "An electric dipole consists of two point charges separated by a small internal distance $2a$. Under the macroscopic boundary limit where the observation distance $r$ from the centre of the dipole is significantly greater than the semi-axis length ($r \\\\gg a$), the electric field intensity magnitude along the axial line is measured as $E$. If the observation distance along the axis is cleanly tripled to $3r$, what is the new magnitude of the electric field intensity?",
+13:           "options": {
+14:             "a": "$\\\\frac{E}{3}$",
+15:             "b": "$\\\\frac{E}{9}$",
+16:             "c": "$\\\\frac{E}{27}$",
+17:             "d": "$\\\\frac{E}{81}$"
+18:           },
+19:           "correct_option": "c",
+20:           "topper_execution_logic": "Don't fall for the standard point-charge $r^{-2}$ rule here! The prompt explicitly triggers the macro-separation limit ($r \\\\gg a$), which drops out the higher-order binomial terms and locks you into the short-dipole attenuation relation where $E \\\\propto r^{-3}$. Tripling the distance means your field scales by a factor of $3^{-3} = \\\\frac{1}{27}$. Instant kill."
+21:        
+<truncated 45283 bytes>
+is the explicit assumption of an *infinitely long* wire physically mandatory to validate this standard text derivation?",
+414:           "options": {
+415:             "a": "Without the infinite limit, the electric field vector develops longitudinal components and is no longer strictly normal to the curved cylindrical surface due to end effects.",
+416:             "b": "If the wire is finite, the net charge enclosed by the cylindrical Gaussian jacket drops mathematically to zero.",
+417:             "c": "A finite length wire forces the electric flux passing through the flat circular end caps to become infinitely large.",
+418:             "d": "The linear charge density $\\\\lambda$ fluctuates dynamically as an inverse-square function of length for bounded conductors."
+419:           },
+420:           "correct_option": "a",
+421:           "topper_code_logic": "Look straight at NCERT Section 1.14.1. The text notes that the assumption of an infinite wire is crucial because it ensures perfect cylindrical symmetry, making the field purely radial. If the wire were short or finite, the electric field lines would bow outward at the ends (end effects), meaning $\\\\vec{E}$ would no longer be uniform or perpendicular along the curved surface, breaking the simple flux calculation."
+422:         },
+423:         {
+424:           "question_id": "CH1-MCQ-27",
+425:           "format": "MCQ",
+426:           "typology_tag": "GRAPH_MAPPING",
+427:           "associated_trap_title": "The Direct Distance Coulomb Profile Mapping",
+428:           "stem_text": "A standard laboratory graph plots the scalar magnitude of the electrostatic Coulomb force $F$ acting between two fixed point charges as a direct function of their raw radial separation distance $r$. What is the geometric profile displayed by this plot across the coordinate domain extending from $r \\\\to 0$ to 
+<truncated 46074 bytes>
+
+NOTE: The output was truncated because it was too long. Use a more targeted query or a smaller range to get the information you need.

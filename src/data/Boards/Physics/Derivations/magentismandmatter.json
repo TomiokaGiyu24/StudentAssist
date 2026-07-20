@@ -1,0 +1,202 @@
+{
+  "meta": {
+    "subject": "Physics",
+    "class": 12,
+    "board": "CBSE",
+    "chapter": "Magnetism and Matter"
+  },
+  "derivations": [
+    {
+      "id": "ch5-01",
+      "title": "The Bar Magnet as an Equivalent Solenoid",
+      "priority": "P1",
+      "priority_reason": "The central derivation of this chapter connecting current loops to magnetic dipoles. Often asked as a 5-mark question.",
+      "marks": 5,
+      "diagram_required": true,
+      "diagram_description": "A solenoid of length 2l and radius a. Its center is at Origin O. Axis is along x-axis. A small element of width dx is chosen at distance x from O. Point P is on the axis at distance r from O. Magnetic moment m points along the axis.",
+      "derivation": {
+        "given_assumptions": [
+          "Solenoid of length $2l$, radius $a$, turns per unit length $n$, carrying current $I$.",
+          "Point P is on the axis at distance $r$ from center $O$ such that $r \\gg a$ and $r \\gg l$."
+        ],
+        "required": "Show that the axial field is same as that of a bar magnet: $B = \\frac{\\mu_0}{4\\pi} \\frac{2m}{r^3}$.",
+        "steps": [
+          {
+            "text": "Consider a small element of width $dx$ at distance $x$ from center. Number of turns in element is $N = n dx$. It acts as a circular loop.",
+            "latex": "dB = \\frac{\\mu_0 (n dx) I a^2}{2 [(r-x)^2 + a^2]^{3/2}}"
+          },
+          {
+            "text": "For far axial point ($r \\gg a$ and $r \\gg x$), the denominator simplifies: $[(r-x)^2 + a^2]^{3/2} \\approx r^3$.",
+            "latex": "dB = \\frac{\\mu_0 n I a^2}{2 r^3} dx"
+          },
+          {
+            "text": "Integrate from $x = -l$ to $x = +l$ to find total field:",
+            "latex": "B = \\int_{-l}^{+l} \\frac{\\mu_0 n I a^2}{2 r^3} dx = \\frac{\\mu_0 n I a^2}{2 r^3} \\int_{-l}^{+l} dx"
+          },
+          {
+            "text": "Evaluating the integral:",
+            "latex": "B = \\frac{\\mu_0 n I a^2}{2 r^3} [x]_{-l}^{+l} = \\frac{\\mu_0 n I a^2}{2 r^3} (2l)"
+          },
+          {
+            "text": "Rearrange to identify Magnetic Moment $m$. Total turns $N_{total} = n(2l)$. Area $A = \\pi a^2$. Thus $m = N_{total} I A = n(2l) I (\\pi a^2)$.",
+            "latex": "B = \\frac{\\mu_0}{2 r^3} (n \\cdot 2l \\cdot I \\cdot a^2) = \\frac{\\mu_0}{2 r^3} \\frac{m}{\\pi}"
+          },
+          {
+            "text": "Multiplying numerator and denominator by 2:",
+            "latex": "B = \\frac{\\mu_0}{4\\pi} \\frac{2m}{r^3}"
+          }
+        ],
+        "final_result": {
+          "text": "This expression is identical to the field of a short bar magnet on its axis.",
+          "latex": "\\vec{B} = \\frac{\\mu_0}{4\\pi} \\frac{2\\vec{m}}{r^3}"
+        },
+        "examiner_notes": [
+          "Crucial step: Approximating the denominator. Marks are lost if full integration is attempted without approximation.",
+          "Must explicitly define magnetic moment m in terms of solenoid parameters.",
+          "Limits of integration (-l to +l) are important."
+        ],
+        "question_forms": [
+          "Show that a current carrying solenoid behaves like a bar magnet.",
+          "Derive the expression for the magnetic field at a point on the axis of a solenoid and compare it with a bar magnet."
+        ]
+      },
+      "image": "/images/placeholder.svg"
+    },
+    {
+      "id": "ch5-02",
+      "title": "Time Period of a Magnetic Dipole (Compass) in Uniform Magnetic Field ",
+      "priority": "P1",
+      "priority_reason": "Standard oscillation derivation. Basis for magnetometer experiments.",
+      "marks": 3,
+      "diagram_required": true,
+      "diagram_description": "Magnetic needle (dipole) of length 2l and pole strength q_m placed in uniform magnetic field B. Needle is displaced by small angle theta. Restoring torque acts to align it with B.",
+      "derivation": {
+        "given_assumptions": [
+          "Magnetic dipole of moment $m$ and Moment of Inertia $I$.",
+          "Placed in uniform magnetic field $B$ and displaced by small angle $\\theta$."
+        ],
+        "required": "Expression for time period $T$.",
+        "steps": [
+          {
+            "text": "Restoring torque on the dipole:",
+            "latex": "\\tau = -mB \\sin\\theta"
+          },
+          {
+            "text": "For small angles ($\\theta \\approx \\sin\\theta$), the equation of motion ($I\\alpha = \\tau$) becomes:",
+            "latex": "I \\frac{d^2\\theta}{dt^2} = -mB \\theta"
+          },
+          {
+            "text": "This is Simple Harmonic Motion (SHM) form $\\frac{d^2\\theta}{dt^2} = -\\omega^2 \\theta$.",
+            "latex": "\\omega^2 = \\frac{mB}{I} \\implies \\omega = \\sqrt{\\frac{mB}{I}}"
+          },
+          {
+            "text": "Time period $T = 2\\pi / \\omega$:",
+            "latex": "T = 2\\pi \\sqrt{\\frac{I}{mB}}"
+          }
+        ],
+        "final_result": {
+          "text": "Time period of oscillation:",
+          "latex": "T = 2\\pi \\sqrt{\\frac{I}{mB}}"
+        },
+        "examiner_notes": [
+          "Symbol confusion: I is Moment of Inertia here, not Current. Explicitly state this.",
+          "Must justify the negative sign (restoring torque).",
+          "Small angle approximation is mandatory for SHM."
+        ],
+        "question_forms": [
+          "Derive the expression for the time period of a small compass needle oscillating in a uniform magnetic field.",
+          "Show that the oscillation of a freely suspended magnet in a uniform magnetic field is simple harmonic."
+        ]
+      },
+      "image": "/images/placeholder.svg"
+    },
+    {
+      "id": "ch5-03",
+      "title": "Potential Energy of a Magnetic Dipole in a Magnetic Field",
+      "priority": "P2",
+      "priority_reason": "Analogue to the electrostatic dipole derivation.",
+      "marks": 2,
+      "diagram_required": true,
+      "diagram_description": "Dipole at angle theta with field B. External torque applied to rotate it further by d-theta.",
+      "derivation": {
+        "given_assumptions": [
+          "Magnetic dipole of moment $\\vec{m}$ in field $\\vec{B}$.",
+          "Restoring torque $\\tau = mB \\sin\\theta$."
+        ],
+        "required": "Potential energy $U$.",
+        "steps": [
+          {
+            "text": "Work done to rotate dipole against the magnetic torque by $d\\theta$:",
+            "latex": "dW = \\tau_{ext} d\\theta = mB \\sin\\theta d\\theta"
+          },
+          {
+            "text": "Total work done rotating from $\\theta_1$ (usually $90^\\circ$) to $\\theta$:",
+            "latex": "U = \\int_{90^\\circ}^{\\theta} mB \\sin\\theta d\\theta"
+          },
+          {
+            "text": "Integrating:",
+            "latex": "U = mB [-\\cos\\theta]_{90^\\circ}^{\\theta} = -mB \\cos\\theta"
+          }
+        ],
+        "final_result": {
+          "text": "In vector notation:",
+          "latex": "U = -\\vec{m} \\cdot \\vec{B}"
+        },
+        "examiner_notes": [
+          "Zero potential reference is taken at 90 degrees.",
+          "Minimum energy is at 0 degrees (-mB), Maximum at 180 degrees (+mB)."
+        ],
+        "question_forms": [
+          "Deduce the expression for potential energy of a magnetic dipole in a magnetic field."
+        ]
+      },
+      "image": "/images/placeholder.svg"
+    },
+    {
+      "id": "ch5-04",
+      "title": "Relation between Magnetic Elements of Earth",
+      "priority": "P3",
+      "priority_reason": "Short geometric derivation, mostly used for numericals but definitions are asked.",
+      "marks": 2,
+      "diagram_required": true,
+      "diagram_description": "3D view of Magnetic Meridian. Vector B (Earth's total field) makes angle delta (dip) with horizontal. Horizontal component BH and Vertical component BV shown forming a rectangle.",
+      "derivation": {
+        "given_assumptions": [
+          "$B_E$ = Total Earth's Magnetic Field.",
+          "$\\delta$ = Angle of Dip (Inclination).",
+          "$\\theta$ or $D$ = Declination (not used in magnitude calc)."
+        ],
+        "required": "Relations between $B_H, B_V, B_E$ and $\\delta$.",
+        "steps": [
+          {
+            "text": "Resolving $B_E$ into horizontal and vertical components:",
+            "latex": "B_H = B_E \\cos\\delta"
+          },
+          {
+            "text": "Vertical component:",
+            "latex": "B_V = B_E \\sin\\delta"
+          },
+          {
+            "text": "Dividing the two:",
+            "latex": "\\frac{B_V}{B_H} = \\tan\\delta"
+          },
+          {
+            "text": "Squaring and adding:",
+            "latex": "B_E = \\sqrt{B_H^2 + B_V^2}"
+          }
+        ],
+        "final_result": {
+          "text": "The relations are:",
+          "latex": "B_H = B \\cos\\delta, \\quad B_V = B \\sin\\delta"
+        },
+        "examiner_notes": [
+          "Confusion between Dip (delta) and Declination (theta/D). Dip is angle with horizontal.",
+          "At poles, delta=90 (BH=0). At equator, delta=0 (BV=0)."
+        ],
+        "question_forms": [
+          "Establish the relationship between the horizontal component, vertical component, and angle of dip of earth's magnetic field."
+        ]
+      }
+    }
+  ]
+}

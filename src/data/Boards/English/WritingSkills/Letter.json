@@ -1,0 +1,89 @@
+{
+"question_metadata": {
+"format_type": "Letter to the Editor",
+"difficulty_level": "Exam_Level",
+"theme": "Urban Infrastructure / Civic Awareness",
+"board_relevance_reason": "Letter to the Editor remains a staple of the Section B Writing Skills. Recent trends in 2024-25 show a shift toward specific civic issues like road safety, public health, or urban mismanagement."
+},
+"board_style_question": "You are Kavita/Kailash, a resident of Sector 21, Chandigarh. You are deeply concerned about the increasing menace of stray cattle on the main roads, which has led to several accidents and traffic congestion in your locality. Write a letter to the Editor of 'The Tribune' in 120-150 words, highlighting the problem and suggesting effective measures to the authorities. ",
+"format_blueprint": {
+"mandatory_components": [
+"Sender’s Address (Left Aligned)",
+"Date (Expanded format)",
+"Receiver’s Designation and Address (The Editor, [Newspaper Name], [City])",
+"Subject (Brief and Underlined)",
+"Salutation (Sir/Madam)",
+"Body (3-Paragraph Rule: Intro, Problem/Impact, Solutions)",
+"Complimentary Close (Yours sincerely/faithfully)",
+"Sender's Name"
+],
+"sequence_order": [
+"Sender Address", "Date", "Receiver Address", "Subject", "Salutation", "Body", "Close", "Name"
+],
+"format_visual_layout": "Block format (all left-aligned). Double space between sections for clarity."
+},
+"planning_framework": {
+"brainstorm_points": [
+"Intro: Through the columns of your esteemed newspaper...",
+"The Problem: Stray cows/bulls roaming freely, blockages, sudden movement.",
+"The Impact: Frequent minor/major accidents, hygiene issues (dung), late commuters.",
+"The Solutions: Dedicated shelters, heavy fines on owners, rapid response team by MC.",
+"The Goal: Sensitize authorities to act immediately."
+],
+"logical_flow_model": "Identify the issue -> Detail the consequences -> Provide actionable solutions -> Conclude with a call for publication.",
+"time_allocation_minutes": "Planning: 3 min | Writing: 10 min | Review: 2 min"
+},
+"model_answer_with_word_count": {
+"answer_text": "Sector 21\nChandigarh\n\n12th February, 2026\n\nThe Editor\nThe Tribune\nChandigarh\n\nSubject: Growing menace of stray cattle in Sector 21\n\nSir\n\nThrough the columns of your esteemed daily, I wish to draw the attention of the Municipal Corporation towards the alarming rise in stray cattle on our main roads. This issue has transformed from a mere nuisance into a severe safety hazard.\n\nLately, stray cows and bulls have become a common sight on the busy intersections of Sector 21. These animals often wander into the path of fast-moving vehicles, leading to frequent accidents and long traffic jams. During the night, the risk increases as visibility is low, making it nearly impossible for drivers to spot them in time. Furthermore, the accumulation of animal waste has made the area unhygienic.\n\nIt is high time the authorities established dedicated cattle shelters and imposed heavy penalties on owners who abandon their livestock. Regular patrolling by the stray-animal catching squad is essential. I hope this letter serves as a wake-up call for the concerned officials.\n\nYours sincerely\nKailash",
+"word_count": 149
+},
+"why_this_scores_full_marks": {
+"format_compliance_reason": "Includes all 8 formal elements. Uses the expanded date format and a clear, underlined subject line.",
+"content_strength_reason": "Follows the 3-paragraph structure perfectly. It doesn't just complain; it offers three distinct solutions (shelters, fines, patrolling).",
+"expression_quality_reason": "Uses standard formal openers ('Through the columns...') and professional transitions ('Furthermore', 'It is high time')."
+},
+"vocabulary_upgrade_section": {
+"basic_to_board_level_examples": [
+{
+"basic": "Too many cows on the road.",
+"improved": "Increasing number of stray animals.",
+"board_level": "The alarming rise and growing menace of stray cattle."
+},
+{
+"basic": "It is dangerous for drivers.",
+"improved": "It causes many accidents.",
+"board_level": "It has transformed into a severe safety hazard and a cause of frequent traffic fatalities."
+},
+{
+"basic": "The government should do something.",
+"improved": "The authorities should take action.",
+"board_level": "It is imperative that the Municipal Corporation intervenes with stringent measures."
+}
+],
+"sentence_transformation_examples": [
+"Weak: I am writing to tell you about the cows. -> Strong: I wish to draw the attention of the concerned authorities towards...",
+"Weak: The roads are dirty because of them. -> Strong: The accumulation of animal waste has significantly deteriorated the hygiene of the locality."
+]
+},
+"common_mark_losing_mistakes": [
+"Writing 'To, The Editor' (The 'To' is outdated and no longer used).",
+"Writing the date as 12/2/26 (Always use 12th February, 2026).",
+"Combining the whole letter into one single paragraph.",
+"Using 'Yours lovingly' or 'Yours truly' (Stick to 'Yours sincerely' for Editor).",
+"Putting the sender's address at the bottom (It must be at the very top)."
+],
+"examiner_psychology_insights": [
+"Examiners look for the 'Formal Tone'. Avoid slang or emotional outbursts.",
+"The 'Subject' should be like a newspaper headline—short and descriptive.",
+"Clarity in the 'Receiver Address' is key. Don't forget the city name.",
+"They check if you addressed the 'Editor' as the mediator, not the person who will solve the problem (i.e., you are asking the Editor to *publish* the concern)."
+],
+"self_evaluation_checklist": [
+"Did I include my address and the date correctly?",
+"Is my subject line short and clear?",
+"Did I use the standard opening and closing?",
+"Did I suggest at least 2-3 solutions?",
+"Is the tone formal throughout?",
+"Did I keep the word count between 120-150?"
+]
+}

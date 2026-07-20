@@ -1,0 +1,1 @@
+"const fs = require('fs');\nconst lines = fs.readFileSync('src/data/Boards/Physics/Questions/electricfieldandcharges.json', 'utf8').split('\\n');\nconsole.log(\"Raw line 60:\", JSON.stringify(lines[59])); // 0-indexed line 60 is index 59\n"
