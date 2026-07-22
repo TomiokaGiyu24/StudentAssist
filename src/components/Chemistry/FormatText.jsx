@@ -161,7 +161,7 @@ const renderFormattedContent = (text) => {
                         );
                     }
 
-                    // type === 'text', parse for chemical formulas and orbital notations
+                    // type === 'text', parse for chemical formulas, orbitals, and Greek indicators
                     const textWords = group.content.split(/(\s+)/);
                     return (
                         <React.Fragment key={gIdx}>
@@ -169,8 +169,8 @@ const renderFormattedContent = (text) => {
                                 if (!word) return null;
                                 if (/^\s+$/.test(word)) return <React.Fragment key={wIdx}>{word}</React.Fragment>;
 
-                                // Split the word by orbital notations (e.g., sp3, sp3d2) or element symbols followed by numbers
-                                const parts = word.split(/(sp[23]d?[23]?|[A-Z][a-z]?\d+)/g);
+                                // Split by orbital (sp3, sp2), Greek (alpha-, beta-, gamma-), or chemical element with digits (CH2, H2O, C6H5)
+                                const parts = word.split(/(sp[23]d?[23]?|alpha-|beta-|gamma-|\b[A-Z][a-z]?\d+)/gi);
 
                                 return (
                                     <span key={wIdx}>
@@ -178,10 +178,10 @@ const renderFormattedContent = (text) => {
                                             if (!part) return null;
 
                                             // Orbitals like sp3, sp2, sp3d2
-                                            if (/^sp[23]d?[23]?$/.test(part)) {
+                                            if (/^sp[23]d?[23]?$/i.test(part)) {
                                                 const subParts = part.split(/(\d+)/g);
                                                 return (
-                                                    <span key={pIdx}>
+                                                    <span key={pIdx} className="font-mono text-amber-300">
                                                         {subParts.map((sp, k) => {
                                                             if (/\d+/.test(sp)) {
                                                                 return <sup key={k} className="text-[0.75em] font-bold leading-none">{sp}</sup>;
@@ -192,16 +192,39 @@ const renderFormattedContent = (text) => {
                                                 );
                                             }
 
-                                            // Chemical element followed by digits, e.g., C6, H5, O4
-                                            if (/^[A-Z][a-z]?\d+$/.test(part)) {
-                                                const match = part.match(/^([A-Z][a-z]?)(\d+)$/);
+                                            // Greek prefixes
+                                            if (/^alpha-$/i.test(part)) return <span key={pIdx} className="font-bold text-rose-400">α-</span>;
+                                            if (/^beta-$/i.test(part)) return <span key={pIdx} className="font-bold text-amber-400">β-</span>;
+                                            if (/^gamma-$/i.test(part)) return <span key={pIdx} className="font-bold text-purple-400">γ-</span>;
+
+                                            // Chemical element followed by digits, e.g., C6, H5, O4, H2
+                                            if (/^[A-Z][a-z]?\d+$/i.test(part)) {
+                                                const match = part.match(/^([A-Z][a-z]?)(\d+)$/i);
                                                 if (match) {
                                                     return (
                                                         <span key={pIdx} className="inline-block">
-                                                            {match[1]}<sub className="text-[0.75em] font-bold leading-none relative top-[0.12em]">{match[2]}</sub>
+                                                            {match[1]}<sub className="text-[0.75em] font-bold leading-none relative top-[0.1em]">{match[2]}</sub>
                                                         </span>
                                                     );
                                                 }
+                                            }
+
+                                            // Parse inline chemical bonds (= double bond, - single bond in formulas)
+                                            if (part.includes('=') || part.includes('->')) {
+                                                const subTokens = part.split(/(=|->)/g);
+                                                return (
+                                                    <span key={pIdx}>
+                                                        {subTokens.map((st, sIdx) => {
+                                                            if (st === '=') {
+                                                                return <span key={sIdx} className="inline-block px-1 text-sky-400 font-black font-mono tracking-tighter" title="Double Bond (σ + π)">═</span>;
+                                                            }
+                                                            if (st === '->') {
+                                                                return <span key={sIdx} className="inline-block px-1 text-emerald-400 font-bold" title="Reaction Arrow">→</span>;
+                                                            }
+                                                            return st;
+                                                        })}
+                                                    </span>
+                                                );
                                             }
 
                                             return <span key={pIdx}>{part}</span>;
